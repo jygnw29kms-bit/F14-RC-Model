@@ -1,0 +1,39 @@
+{
+  "status": "V117_EXACT_COMMON_LATERAL_CENTER_LOCAL_POLYGON_CHECK",
+  "source_v116": "analysis/propulsion_common_axis_v116.json",
+  "common_abs_y_mm": 64.27201071519735,
+  "sections": [
+    {
+      "section": "E",
+      "common_abs_y_mm": 64.27201071519735,
+      "pixel_offset_for_common_y": 119.79984974936895,
+      "retained_local_optimum_z_pixel": 1685,
+      "available_radius_at_exact_common_y_mm": 28.310575575744238,
+      "required_radius_mm": 27.8,
+      "radial_margin_mm": 0.5105755757442374,
+      "exact_common_lateral_center_pass": true
+    },
+    {
+      "section": "F",
+      "common_abs_y_mm": 64.27201071519735,
+      "pixel_offset_for_common_y": 117.00768870001906,
+      "retained_local_optimum_z_pixel": 2587,
+      "available_radius_at_exact_common_y_mm": 28.253207481103047,
+      "required_radius_mm": 27.8,
+      "radial_margin_mm": 0.4532074811030462,
+      "exact_common_lateral_center_pass": true
+    }
+  ],
+  "pass": true,
+  "limitations": [
+    "vertical centers remain independently optimized and not registered to one aircraft Z axis",
+    "no intermediate E-F source contours; continuous axial envelope still unproven"
+  ],
+  "release": {
+    "exact_E_F_lateral_center_local_pass": true,
+    "common_vertical_axis_verified": false,
+    "continuous_3D_axis_verified": false,
+    "propulsion_packaging_freeze": false,
+    "flight_release": false
+  }
+}

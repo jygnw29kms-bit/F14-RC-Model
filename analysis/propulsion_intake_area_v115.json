@@ -1,0 +1,61 @@
+{
+  "status": "V115_D_E_F_INTAKE_AREA_SCREEN",
+  "sources": [
+    "analysis/propulsion_local_packaging_v113.json",
+    "analysis/propulsion_duct_area_v114.json"
+  ],
+  "wall_assumption_mm": 0.8,
+  "sections": [
+    {
+      "section": "D",
+      "x_mm": 595.8483908511422,
+      "sampled_available_outer_disk_mm": 50.17471582981215,
+      "assumed_duct_wall_mm": 0.8,
+      "resulting_clear_inner_diameter_mm": 48.57471582981215,
+      "clear_round_duct_area_mm2": 1853.1493368263127,
+      "max_screened_single_FSA_mm2": 1583.3626974092558,
+      "area_ratio_to_max_FSA": 1.1703884017594262,
+      "100pct_FSA_area_pass": true
+    },
+    {
+      "section": "E",
+      "x_mm": 648.8863542888724,
+      "sampled_available_outer_disk_mm": 57.63115429796666,
+      "assumed_duct_wall_mm": 0.8,
+      "resulting_clear_inner_diameter_mm": 56.03115429796666,
+      "clear_round_duct_area_mm2": 2465.749877895577,
+      "max_screened_single_FSA_mm2": 1583.3626974092558,
+      "area_ratio_to_max_FSA": 1.5572868313306285,
+      "100pct_FSA_area_pass": true
+    },
+    {
+      "section": "F",
+      "x_mm": 754.962281164333,
+      "sampled_available_outer_disk_mm": 58.987271007173696,
+      "assumed_duct_wall_mm": 0.8,
+      "resulting_clear_inner_diameter_mm": 57.387271007173695,
+      "clear_round_duct_area_mm2": 2586.5508868842226,
+      "max_screened_single_FSA_mm2": 1583.3626974092558,
+      "area_ratio_to_max_FSA": 1.6335807905013884,
+      "100pct_FSA_area_pass": true
+    }
+  ],
+  "result": {
+    "D_can_carry_100pct_FSA_as_duct": true,
+    "minimum_area_ratio_to_max_FSA": 1.1703884017594262,
+    "important_distinction": "D rejects the EDF shroud but does not reject a duct. Housing begins aft of D; upstream transition may remain circular or become non-circular while preserving area."
+  },
+  "limitations": [
+    "uses sampled local inscribed disks from provisional source registration",
+    "does not include boundary-layer displacement, splitter thickness, surface roughness, bends or intake losses",
+    "does not prove a common continuous centerline between source sections"
+  ],
+  "gates": {
+    "continuous_duct_CAD_created": false,
+    "common_axis_or_transition_verified": false,
+    "minimum_area_along_transition_verified": false,
+    "installed_thrust_verified": false,
+    "propulsion_packaging_freeze": false,
+    "flight_release": false
+  }
+}

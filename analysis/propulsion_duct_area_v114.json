@@ -1,0 +1,142 @@
+{
+  "status": "V114_TWIN_50MM_DUCT_AREA_TARGETS_PREPARED",
+  "rotor_diameter_mm": 50.0,
+  "hub_diameter_unverified_sensitivity_mm": [
+    22,
+    24,
+    26,
+    28
+  ],
+  "cases": [
+    {
+      "hub_diameter_mm": 22,
+      "fan_swept_area_mm2": 1583.3626974092558,
+      "equivalent_open_diameter_mm": 44.8998886412873,
+      "outlet_sensitivity": [
+        {
+          "FSA_ratio": 0.8,
+          "area_mm2": 1266.6901579274047,
+          "equivalent_round_diameter_mm": 40.15968127363563
+        },
+        {
+          "FSA_ratio": 0.85,
+          "area_mm2": 1345.8582927978673,
+          "equivalent_round_diameter_mm": 41.39565194558482
+        },
+        {
+          "FSA_ratio": 0.9,
+          "area_mm2": 1425.0264276683304,
+          "equivalent_round_diameter_mm": 42.59577443831724
+        },
+        {
+          "FSA_ratio": 1.0,
+          "area_mm2": 1583.3626974092558,
+          "equivalent_round_diameter_mm": 44.8998886412873
+        }
+      ]
+    },
+    {
+      "hub_diameter_mm": 24,
+      "fan_swept_area_mm2": 1511.1060663766905,
+      "equivalent_open_diameter_mm": 43.86342439892262,
+      "outlet_sensitivity": [
+        {
+          "FSA_ratio": 0.8,
+          "area_mm2": 1208.8848531013525,
+          "equivalent_round_diameter_mm": 39.232639472765534
+        },
+        {
+          "FSA_ratio": 0.85,
+          "area_mm2": 1284.440156420187,
+          "equivalent_round_diameter_mm": 40.44007912949726
+        },
+        {
+          "FSA_ratio": 0.9,
+          "area_mm2": 1359.9954597390215,
+          "equivalent_round_diameter_mm": 41.61249812255929
+        },
+        {
+          "FSA_ratio": 1.0,
+          "area_mm2": 1511.1060663766905,
+          "equivalent_round_diameter_mm": 43.86342439892262
+        }
+      ]
+    },
+    {
+      "hub_diameter_mm": 26,
+      "fan_swept_area_mm2": 1432.5662500369456,
+      "equivalent_open_diameter_mm": 42.708313008125245,
+      "outlet_sensitivity": [
+        {
+          "FSA_ratio": 0.8,
+          "area_mm2": 1146.0530000295564,
+          "equivalent_round_diameter_mm": 38.19947643620263
+        },
+        {
+          "FSA_ratio": 0.85,
+          "area_mm2": 1217.6813125314038,
+          "equivalent_round_diameter_mm": 39.375119047439085
+        },
+        {
+          "FSA_ratio": 0.9,
+          "area_mm2": 1289.309625033251,
+          "equivalent_round_diameter_mm": 40.51666323872192
+        },
+        {
+          "FSA_ratio": 1.0,
+          "area_mm2": 1432.5662500369456,
+          "equivalent_round_diameter_mm": 42.708313008125245
+        }
+      ]
+    },
+    {
+      "hub_diameter_mm": 28,
+      "fan_swept_area_mm2": 1347.7432483900213,
+      "equivalent_open_diameter_mm": 41.42463035441596,
+      "outlet_sensitivity": [
+        {
+          "FSA_ratio": 0.8,
+          "area_mm2": 1078.194598712017,
+          "equivalent_round_diameter_mm": 37.051315766110115
+        },
+        {
+          "FSA_ratio": 0.85,
+          "area_mm2": 1145.581761131518,
+          "equivalent_round_diameter_mm": 38.19162211794624
+        },
+        {
+          "FSA_ratio": 0.9,
+          "area_mm2": 1212.9689235510193,
+          "equivalent_round_diameter_mm": 39.29885494515076
+        },
+        {
+          "FSA_ratio": 1.0,
+          "area_mm2": 1347.7432483900213,
+          "equivalent_round_diameter_mm": 41.42463035441596
+        }
+      ]
+    }
+  ],
+  "twin_targets": {
+    "max_screened_twin_FSA_mm2": 3166.7253948185116,
+    "min_screened_twin_FSA_mm2": 2695.4864967800427,
+    "inlet_design_target_policy": "maintain >=100% total FSA after boundary-layer/structure deductions until installed thrust testing proves otherwise",
+    "outlet_screen_range": "80-90% FSA sensitivity only; final nozzle ratio selected by thrust/current bench test"
+  },
+  "architecture": {
+    "EDF_housing_starts_aft_of_D": true,
+    "station_D_role": "non-circular intake/transition duct only",
+    "station_E_role": "EDF entry / shroud packaging gate",
+    "station_F_role": "EDF and exhaust transition continuity gate"
+  },
+  "gates": {
+    "actual_FMS_hub_diameter_measured": false,
+    "D_usable_duct_area_measured": false,
+    "E_usable_duct_area_measured": false,
+    "F_usable_duct_area_measured": false,
+    "continuous_inlet_area_verified": false,
+    "outlet_ratio_bench_selected": false,
+    "installed_thrust_verified": false,
+    "flight_release": false
+  }
+}

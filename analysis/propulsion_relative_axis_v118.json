@@ -1,0 +1,57 @@
+{
+  "status": "V118_RELATIVE_3D_EDF_AXIS_CANDIDATE",
+  "source_image_sha256_E": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "source_image_sha256_F": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "same_side_source_image": true,
+  "registration_scale_from_EF_x_mm_per_pixel": 0.5271165518029967,
+  "E": {
+    "x_mm": 648.8863542888724,
+    "optimal_abs_y_mm": 63.30640046928137,
+    "axis_side_pixel_y": 2797.4319629224406,
+    "relative_z_mm": 0.0
+  },
+  "F": {
+    "x_mm": 754.962281164333,
+    "optimal_abs_y_mm": 65.91567931571684,
+    "axis_side_pixel_y": 2792.6340198339044,
+    "relative_z_mm": 2.5290752165761994
+  },
+  "relative_axis": {
+    "delta_x_mm": 106.0759268754606,
+    "delta_y_mm": 2.6092788464354726,
+    "delta_z_mm": 2.5290752165761994,
+    "yaw_deg": 1.4090899595356903,
+    "pitch_deg": 1.3653813667382,
+    "unit_vector": [
+      0.9994137563477207,
+      0.02458379813486216,
+      0.023828144959335475
+    ]
+  },
+  "73p5mm_housing_if_started_at_E": {
+    "start": {
+      "x_mm": 648.8863542888724,
+      "abs_y_mm": 63.30640046928137,
+      "relative_z_mm": 0
+    },
+    "end": {
+      "x_mm": 722.3432653804299,
+      "abs_y_mm": 65.11330963219373,
+      "relative_z_from_E_mm": 1.7513686545111573
+    }
+  },
+  "interpretation": "Relative E-F slope is usable as a packaging candidate because E and F are registered on the same side-view image. Absolute aircraft Z/waterline remains unverified and must be anchored before CAD release.",
+  "limitations": [
+    "E/F metric registrations remain candidates, not production lofts",
+    "absolute Z datum is not verified",
+    "no source cross section exists at the 73.5 mm housing aft endpoint",
+    "continuous polygon clearance along the tilted axis is not verified"
+  ],
+  "release": {
+    "relative_axis_candidate": true,
+    "absolute_axis_CAD_ready": false,
+    "continuous_3D_clearance_verified": false,
+    "propulsion_packaging_freeze": false,
+    "flight_release": false
+  }
+}

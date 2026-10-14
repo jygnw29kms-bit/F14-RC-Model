@@ -1,0 +1,76 @@
+{
+  "status": "V116_E_F_COMMON_LATERAL_AXIS_SCREEN",
+  "source_v113": "analysis/propulsion_local_packaging_v113.json",
+  "candidate": {
+    "shroud_od_mm": 52.5,
+    "skin_mm": 0.8,
+    "radial_service_mm": 0.75,
+    "required_radius_to_source_contour_mm": 27.8
+  },
+  "sections": [
+    {
+      "section": "D",
+      "x_mm": 595.8483908511422,
+      "optimal_abs_y_mm": 56.30470783882318,
+      "source_offset_px": 115.0,
+      "section_mm_per_px": 0.48960615512020156,
+      "available_radius_mm": 25.087357914906075,
+      "required_radius_mm": 27.8,
+      "radial_center_tolerance_mm": -2.7126420850939255,
+      "feasible_abs_y_interval_mm": null
+    },
+    {
+      "section": "E",
+      "x_mm": 648.8863542888724,
+      "optimal_abs_y_mm": 63.30640046928137,
+      "source_offset_px": 118.0,
+      "section_mm_per_px": 0.5364949192311981,
+      "available_radius_mm": 28.81557714898333,
+      "required_radius_mm": 27.8,
+      "radial_center_tolerance_mm": 1.0155771489833292,
+      "feasible_abs_y_interval_mm": [
+        62.290823320298045,
+        64.3219776182647
+      ]
+    },
+    {
+      "section": "F",
+      "x_mm": 754.962281164333,
+      "optimal_abs_y_mm": 65.91567931571684,
+      "source_offset_px": 120.0,
+      "section_mm_per_px": 0.5492973276309737,
+      "available_radius_mm": 29.493635503586848,
+      "required_radius_mm": 27.8,
+      "radial_center_tolerance_mm": 1.6936355035868473,
+      "feasible_abs_y_interval_mm": [
+        64.22204381213,
+        67.60931481930369
+      ]
+    }
+  ],
+  "E_F": {
+    "optimal_center_shift_mm": 2.6092788464354726,
+    "axial_distance_mm": 106.0759268754606,
+    "optimal_centerline_slope_deg_approx": 1.4090899595356903,
+    "common_lateral_axis_interval_mm": [
+      64.22204381213,
+      64.3219776182647
+    ],
+    "common_axis_interval_width_mm": 0.09993380613470038,
+    "nominal_common_abs_y_mm": 64.27201071519735,
+    "lateral_common_axis_pass": true
+  },
+  "limitations": [
+    "only lateral coordinate is cross-source comparable in this screen",
+    "vertical center registration remains unverified",
+    "interval assumes each sampled disk is locally valid around its optimum by radial-margin translation; exact polygon must be retested at chosen common center",
+    "continuous sections between E and F remain unmeasured"
+  ],
+  "release": {
+    "lateral_axis_candidate": true,
+    "vertical_axis_candidate": false,
+    "continuous_3D_axis_verified": false,
+    "propulsion_packaging_freeze": false,
+    "flight_release": false
+  }
+}

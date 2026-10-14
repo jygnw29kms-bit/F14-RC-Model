@@ -1,0 +1,25 @@
+{
+    "status":  "V119_ABSOLUTE_EDF_Z_DATUM_BLOCKED_BY_SOURCE_PROVENANCE",
+    "relative_axis_source":  "analysis/propulsion_relative_axis_v118.json",
+    "registration_source_image_sha256":  "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+    "active_UPC_page_041_sha256":  "fc2a4dc77e43c64c21df205123ad36de0323e0bbe3c3bcdb693ccd19c356d026",
+    "same_source_image":  false,
+    "decision":  "Do not anchor EDF absolute Z from current UPC_page_041 extraction or old registration by assumed crop transform. Recover exact registration source or independently re-register E/F against an active source with verified aircraft datum.",
+    "known_valid":  {
+                        "relative_EF_delta_x_mm":  106.0759268754606,
+                        "relative_EF_delta_y_mm":  2.6092788464354726,
+                        "relative_EF_delta_z_mm":  2.5290752165761994,
+                        "relative_yaw_deg":  1.4090899595356903,
+                        "relative_pitch_deg":  1.3653813667382,
+                        "common_abs_y_candidate_mm":  64.272010715197354
+                    },
+    "gates":  {
+                  "exact_registration_source_recovered":  false,
+                  "independent_active_source_registration_completed":  false,
+                  "absolute_Z_verified":  false,
+                  "continuous_3D_axis_verified":  false,
+                  "CAD_installation_allowed":  false,
+                  "propulsion_packaging_freeze":  false,
+                  "flight_release":  false
+              }
+}
