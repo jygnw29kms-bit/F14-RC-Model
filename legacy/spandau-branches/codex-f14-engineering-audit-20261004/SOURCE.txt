@@ -1,0 +1,6 @@
+﻿source_remote=https://github.com/jygnw29kms-bit/135er-Spandau-Defeat.git
+source_branch=origin/codex/f14-engineering-audit-20261004
+source_commit=b31da08c500888b61250b4f53b5817d60bf6e25f
+source_path=side-projects/F14_TOMCAT_RC
+source_tree=e0a1f9b6b9d9b020b67c834077915a13b3755bfc
+imported_at=2026-10-14T15:36:26.6748830+02:00

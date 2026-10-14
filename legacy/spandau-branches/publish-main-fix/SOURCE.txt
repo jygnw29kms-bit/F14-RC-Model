@@ -1,0 +1,6 @@
+﻿source_remote=https://github.com/jygnw29kms-bit/135er-Spandau-Defeat.git
+source_branch=origin/publish-main-fix
+source_commit=023689495afd452b91825755c7b32e9a412402ca
+source_path=side-projects/F14_RC_FDM
+source_tree=cd9231ab45b5f40c450be7f609a36f8f1b068896
+imported_at=2026-10-14T15:36:27.6058829+02:00

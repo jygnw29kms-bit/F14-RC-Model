@@ -1,0 +1,6 @@
+﻿source_remote=https://github.com/jygnw29kms-bit/135er-Spandau-Defeat.git
+source_branch=origin/codex/f14-cad-v05
+source_commit=e6bf6487fae6c214caa305b477cd1a5716f1f8e0
+source_path=side-projects/F14_TOMCAT_RC
+source_tree=a4f24a9edb8ae3fedb19a350db4378e39936a084
+imported_at=2026-10-14T15:36:25.9598827+02:00
