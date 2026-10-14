@@ -1,0 +1,375 @@
+{
+  "status": "V99_CIRCULAR_CROSSTIE_RETENTION_CONTINUOUS_CLEARANCE",
+  "source": {
+    "v34_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\riser_socket_v34\\F14_v34_CROSSTIE_RISER_SOCKET_REVIEW.f3d",
+    "v34_sha256": "3ad4ab07c0bff25167eb253e3aaba3ae6608b13dd3b1dd4e6cf8468dd2fb11b7",
+    "v97_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\center_wingbox_crosstie_v97.json",
+    "v97_sha256": "72054a40a619cc1d4a7a8cdd15f76eba774c9395b90c25cfdee8c93d4a20b956",
+    "socket_inner_abs_y_mm": 50,
+    "socket_outer_abs_y_mm": 74,
+    "tie_end_abs_y_mm": 72,
+    "round_bore_diameter_mm": 6.4,
+    "tube_od_mm": 6,
+    "socket_x_width_mm": 12,
+    "sweep_min_deg": 20,
+    "sweep_max_deg": 68,
+    "sweep_step_deg": 0.5,
+    "continuous_margin_required_mm": 0.05
+  },
+  "geometry": {
+    "pivot_mm": [
+      613.1323905812828,
+      125.20927023775282,
+      187.59240693460868
+    ],
+    "socket_length_mm": 24.0,
+    "minimum_tube_engagement_mm": 22.0,
+    "bore_diameter_mm": 6.4,
+    "tube_od_mm": 6,
+    "nominal_radial_bondline_mm": 0.20000000000000018,
+    "geometric_cylindrical_interface_area_mm2": 414.6902302738527
+  },
+  "containment": [
+    {
+      "riser": "ENG_RISER_CIRCULAR_FRONT_R_v99",
+      "volume_cm3": 2.6839221894537557,
+      "inside_fraction": 1.0,
+      "inside_cm3": 2.6839221894537557
+    },
+    {
+      "riser": "ENG_RISER_CIRCULAR_FRONT_L_v99",
+      "volume_cm3": 2.6839221894537557,
+      "inside_fraction": 1.0,
+      "inside_cm3": 2.6839221894537557
+    },
+    {
+      "riser": "ENG_RISER_CIRCULAR_REAR_R_v99",
+      "volume_cm3": 2.3959221894538167,
+      "inside_fraction": 1.0,
+      "inside_cm3": 2.3959221894538167
+    },
+    {
+      "riser": "ENG_RISER_CIRCULAR_REAR_L_v99",
+      "volume_cm3": 2.3959221894538167,
+      "inside_fraction": 1.0,
+      "inside_cm3": 2.3959221894538167
+    }
+  ],
+  "interfaces": [
+    {
+      "riser": "ENG_RISER_CIRCULAR_FRONT_R_v99",
+      "fork_overlap_cm3": 0.09599999999999828,
+      "fork_engaged": true,
+      "tube_engagement_mm": 22.0
+    },
+    {
+      "riser": "ENG_RISER_CIRCULAR_FRONT_L_v99",
+      "fork_overlap_cm3": 0.09599999999999828,
+      "fork_engaged": true,
+      "tube_engagement_mm": 22.0
+    },
+    {
+      "riser": "ENG_RISER_CIRCULAR_REAR_R_v99",
+      "fork_overlap_cm3": 0.09599999999999996,
+      "fork_engaged": true,
+      "tube_engagement_mm": 22.0
+    },
+    {
+      "riser": "ENG_RISER_CIRCULAR_REAR_L_v99",
+      "fork_overlap_cm3": 0.09599999999999996,
+      "fork_engaged": true,
+      "tube_engagement_mm": 22.0
+    }
+  ],
+  "minimum_inside_fraction": 1.0,
+  "all_forks_engaged": true,
+  "clearance_certificate": [
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_CIRCULAR_FRONT_R_v99",
+      "minimum_sampled_clearance_mm": 65.31424560677269,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 63.777059864343784,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_CIRCULAR_FRONT_L_v99",
+      "minimum_sampled_clearance_mm": 148.28711083326877,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 146.74992509083987,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_CIRCULAR_REAR_R_v99",
+      "minimum_sampled_clearance_mm": 41.53361119149604,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 39.99642544906714,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_CIRCULAR_REAR_L_v99",
+      "minimum_sampled_clearance_mm": 126.40991259688184,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 124.87272685445294,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "minimum_sampled_clearance_mm": 68.88194129592259,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 67.34475555349368,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "minimum_sampled_clearance_mm": 45.101306880646,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 43.5641211382171,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_CIRCULAR_FRONT_R_v99",
+      "minimum_sampled_clearance_mm": 43.21811464051109,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 43.05487507381982,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_CIRCULAR_FRONT_L_v99",
+      "minimum_sampled_clearance_mm": 162.04229731053306,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 161.8790577438418,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_CIRCULAR_REAR_R_v99",
+      "minimum_sampled_clearance_mm": 36.34637372820498,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 36.18313416151371,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_CIRCULAR_REAR_L_v99",
+      "minimum_sampled_clearance_mm": 160.34637372820498,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 160.18313416151372,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "minimum_sampled_clearance_mm": 46.54553255422307,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 46.382292987531805,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "minimum_sampled_clearance_mm": 38.34637372820498,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 38.18313416151371,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_CIRCULAR_FRONT_R_v99",
+      "minimum_sampled_clearance_mm": 148.28711083326877,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 146.74992509083987,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_CIRCULAR_FRONT_L_v99",
+      "minimum_sampled_clearance_mm": 65.31424560677269,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 63.777059864343784,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_CIRCULAR_REAR_R_v99",
+      "minimum_sampled_clearance_mm": 126.40991259688184,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 124.87272685445294,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_CIRCULAR_REAR_L_v99",
+      "minimum_sampled_clearance_mm": 41.53361119149604,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 39.99642544906714,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "minimum_sampled_clearance_mm": 68.88194129592259,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 67.34475555349368,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "minimum_sampled_clearance_mm": 45.101306880646,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 1.5371857424289042,
+      "continuous_clearance_lower_bound_mm": 43.5641211382171,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_CIRCULAR_FRONT_R_v99",
+      "minimum_sampled_clearance_mm": 162.04229731053306,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 161.8790577438418,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_CIRCULAR_FRONT_L_v99",
+      "minimum_sampled_clearance_mm": 43.21811464051109,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 43.05487507381982,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_CIRCULAR_REAR_R_v99",
+      "minimum_sampled_clearance_mm": 160.34637372820498,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 160.18313416151372,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_CIRCULAR_REAR_L_v99",
+      "minimum_sampled_clearance_mm": 36.34637372820498,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 36.18313416151371,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "minimum_sampled_clearance_mm": 46.54553255422307,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 46.382292987531805,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "minimum_sampled_clearance_mm": 38.34637372820498,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.16323956669126405,
+      "continuous_clearance_lower_bound_mm": 38.18313416151371,
+      "continuous_pass": true
+    }
+  ],
+  "sweep_step_deg": 0.5,
+  "sampled_moving_states": 388,
+  "continuous_sweep_clearance_pass": true,
+  "minimum_continuous_clearance_lower_bound_mm": 36.18313416151371,
+  "equal_share_interface_screen": {
+    "front": {
+      "force_N": 600.6573124999999,
+      "geometric_annulus_interface_area_mm2": 414.6902302738527,
+      "required_average_shear_MPa": 1.4484481877070952
+    },
+    "rear": {
+      "force_N": 565.3245294117646,
+      "geometric_annulus_interface_area_mm2": 414.6902302738527,
+      "required_average_shear_MPa": 1.3632453531360895
+    }
+  },
+  "full_360_bond_coverage_geometrically_available": true,
+  "adhesive_fill_and_surface_process_verified": false,
+  "material_allowable_verified": false,
+  "mechanical_detail_release": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "a753aeb6948c96be07c57a47c7567b79eeda6ec732017302d78a6339af0a57bf"
+}

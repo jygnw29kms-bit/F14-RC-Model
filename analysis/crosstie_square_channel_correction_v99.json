@@ -1,0 +1,30 @@
+{
+  "status": "V99_SQUARE_CHANNEL_AREA_CORRECTION",
+  "tube_radius_mm": 3.0,
+  "square_channel_half_width_mm": 3.2,
+  "corner_radial_gap_mm": 1.525483399593905,
+  "side_radial_gap_mm": 0.20000000000000018,
+  "coverage_sensitivity": [
+    {
+      "max_radial_gap_mm": 0.25,
+      "circumference_fraction": 0.22362832096555382,
+      "effective_area_mm2_at_22mm": 92.73647991696056
+    },
+    {
+      "max_radial_gap_mm": 0.3,
+      "circumference_fraction": 0.3142468940873693,
+      "effective_area_mm2_at_22mm": 130.31511687193418
+    },
+    {
+      "max_radial_gap_mm": 0.5,
+      "circumference_fraction": 0.5310112930258106,
+      "effective_area_mm2_at_22mm": 220.20519538288968
+    },
+    {
+      "max_radial_gap_mm": 1.0,
+      "circumference_fraction": 0.8193310587965337,
+      "effective_area_mm2_at_22mm": 339.7685854428541
+    }
+  ],
+  "decision": "Do not credit square channel. Replace with true circular 6.4 mm bore in v99."
+}
