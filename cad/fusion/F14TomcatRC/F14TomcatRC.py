@@ -2561,6 +2561,18 @@ def build_project_revision():
         review=json.load(stream).get('review','project')
     if review=='source_spar_v10':
         return build_source_spar_review_v10()
+    if review=='joint_bridge_v76':
+        path=os.path.join(os.path.dirname(__file__),'F14JointBridgeOffset_v76.py')
+        spec=importlib.util.spec_from_file_location('f14_joint_bridge_v76',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='joint_bridge_v75':
+        path=os.path.join(os.path.dirname(__file__),'F14JointBridgeTrial_v75.py')
+        spec=importlib.util.spec_from_file_location('f14_joint_bridge_v75',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
     if review=='joint_loadpath_v74':
         path=os.path.join(os.path.dirname(__file__),'F14JointLoadpathAudit_v74.py')
         spec=importlib.util.spec_from_file_location('f14_joint_loadpath_v74',path)

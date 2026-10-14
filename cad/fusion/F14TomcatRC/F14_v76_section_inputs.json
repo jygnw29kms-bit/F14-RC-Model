@@ -1,0 +1,7 @@
+{
+    "bridge_length_mm":  5,
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_SELECTIVE_RIB_CLEARANCE_REVIEW_v73.f3d",
+    "sha256":  "cc750963e204bf82e222723f84d5cf73ce2cf23434c095d2836417d40bc759c6",
+    "expected_axial_gap_mm":  0.2,
+    "expected_y_min_mm":  361.9687853
+}

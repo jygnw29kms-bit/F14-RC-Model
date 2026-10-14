@@ -1,0 +1,71 @@
+{
+  "status": "V75_CONSTANT_PROFILE_ALIGNMENT_BRIDGE_TRIAL",
+  "source": {
+    "bridge_length_mm": 5,
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_SELECTIVE_RIB_CLEARANCE_REVIEW_v73.f3d",
+    "sha256": "cc750963e204bf82e222723f84d5cf73ce2cf23434c095d2836417d40bc759c6",
+    "joint_y_mm": 363.9687853,
+    "expected_axial_gap_mm": 0.2
+  },
+  "bridge": {
+    "origin_face_y_mm": 366.9687853,
+    "origin_face_area_mm2": 172.5856297805344,
+    "length_mm": 5.0,
+    "body_count": 2,
+    "bodies": [
+      {
+        "body": "CANDIDATE_OUTER_TO_INNER_ALIGNMENT_BRIDGE_v75_1",
+        "bbox_y_min_mm": 360.9687853,
+        "bbox_y_max_mm": 361.7687853,
+        "volume_cm3": 0.145492876052509
+      },
+      {
+        "body": "CANDIDATE_OUTER_TO_INNER_ALIGNMENT_BRIDGE_v75_2",
+        "bbox_y_min_mm": 366.9687853,
+        "bbox_y_max_mm": 371.9687853,
+        "volume_cm3": 0.8629286249127802
+      }
+    ],
+    "bbox_y_min_mm": 360.9687853,
+    "bbox_y_max_mm": 371.9687853,
+    "volume_cm3": 1.0084215009652893,
+    "axial_gap_to_inner_rib_mm": 0.0
+  },
+  "collision_checks": [
+    {
+      "blocker": "CANDIDATE_HOLLOW_WING_R_INNER_NO_JOINTS",
+      "removed_cm3": 0.0,
+      "pass": true
+    },
+    {
+      "blocker": "CANDIDATE_HOLLOW_WING_R_OUTER_NO_JOINTS",
+      "removed_cm3": 0.005030040890235621,
+      "pass": false
+    },
+    {
+      "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+      "removed_cm3": 0.004286936701050625,
+      "pass": false
+    },
+    {
+      "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+      "removed_cm3": 0.002607039772844044,
+      "pass": false
+    },
+    {
+      "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+      "removed_cm3": 0.006579335011135612,
+      "pass": false
+    }
+  ],
+  "collision_free": false,
+  "axial_gap_screen_pass": false,
+  "geometry_candidate_pass": false,
+  "primary_bending_path": "continuous carbon; printed bridge is secondary alignment/torsion path",
+  "fit_coupon_verified": false,
+  "torsion_transfer_verified": false,
+  "structural_capacity_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "db58cbeee3c79d998437ee743b9dd488d5b6149d9cf97bf715fe2ea0b9cdbd4f"
+}

@@ -1,0 +1,10 @@
+{
+    "status":  "V76_API_OPERATION_REJECTED_NOT_GEOMETRY_VERDICT",
+    "source":  "v75 production joint study",
+    "attempted_operation":  "offset inboard face of outboard rib by 5.0 mm",
+    "result":  "Fusion offsetFaces feature returned no result bodies",
+    "interpretation":  "do not infer geometric infeasibility from this run",
+    "next_step":  "v77 lofted/tapered bridge built from multiple native cavity/rib sections",
+    "print_release":  false,
+    "flight_release":  false
+}

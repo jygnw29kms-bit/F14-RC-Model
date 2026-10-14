@@ -1,0 +1,43 @@
+{
+    "status":  "V75_PRODUCTION_JOINT_ARCHITECTURE_PREPARED",
+    "source_revision":  "v74_continuous_carbon_joint_gate",
+    "joint_y_mm":  363.9687853,
+    "inner_rib_mating_face_y_mm":  361.7687853,
+    "outer_rib_mating_face_y_mm":  366.9687853,
+    "available_inter_rib_span_mm":  5.1999999999999886,
+    "candidate_male_bridge_length_mm":  5,
+    "candidate_axial_gap_mm":  0.19999999999998863,
+    "bridge_origin":  "outer/outboard rib, projecting inboard",
+    "rationale":  "outboard section is smaller; insertion toward increasing inboard cavity is the lower-risk taper direction",
+    "radial_clearances":  {
+                              "skin_mm":  0.15,
+                              "carbon_mm":  0.1
+                          },
+    "loadpath":  {
+                     "primary_bending":  "continuous carbon upper/lower caps and web",
+                     "printed_bridge_roles":  [
+                                                  "alignment",
+                                                  "skin step control",
+                                                  "local torsion transfer",
+                                                  "bond area"
+                                              ],
+                     "printed_bridge_primary_bending_member":  false
+                 },
+    "geometry_rules":  [
+                           "do not cut or interrupt carbon bodies",
+                           "retain v73 skin clearance",
+                           "retain v73 carbon/bondline clearance",
+                           "bridge must be collision-free through full 5.0 mm insertion",
+                           "bridge may be split into fore/aft keys if a full-profile bridge cannot preserve carbon clearance"
+                       ],
+    "verification_gates":  {
+                               "v75_cad_bridge":  false,
+                               "insertion_collision_free":  false,
+                               "fit_coupon_verified":  false,
+                               "torsion_transfer_verified":  false,
+                               "adhesive_system_selected":  false,
+                               "structural_capacity_verified":  false,
+                               "print_release":  false,
+                               "flight_release":  false
+                           }
+}

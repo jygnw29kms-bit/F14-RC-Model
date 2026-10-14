@@ -1,0 +1,37 @@
+{
+    "status":  "V77_TAPERED_BRIDGE_PLAN_PREPARED",
+    "source_revision":  "v75_constant_profile_collision_screen",
+    "geometry_strategy":  "multi-section lofted bridge following native local taper",
+    "section_y_mm":  [
+                         361.7687853,
+                         363.9687853,
+                         366.9687853
+                     ],
+    "origin":  "outboard segment projecting inboard",
+    "target_length_mm":  5,
+    "target_axial_gap_mm":  0.2,
+    "skin_clearance_mm":  0.15,
+    "carbon_clearance_mm":  0.1,
+    "rules":  [
+                  "derive each section from native wing cavity at its own Y station",
+                  "subtract/clear all three continuous carbon bodies at every section",
+                  "preserve carbon continuity without slots or cuts",
+                  "prefer one full-profile bridge if collision-free; otherwise split into fore/aft keys",
+                  "verify insertion path, not only final position"
+              ],
+    "required_outputs":  [
+                             "F14_WING_JOINT_TAPERED_BRIDGE_v77.f3d",
+                             "F14_v77_tapered_bridge_audit.json",
+                             "F14_v77_tapered_bridge_review.png"
+                         ],
+    "gates":  {
+                  "native_section_generation":  false,
+                  "loft_success":  false,
+                  "insertion_collision_free":  false,
+                  "fit_coupon_verified":  false,
+                  "torsion_transfer_verified":  false,
+                  "structural_capacity_verified":  false,
+                  "print_release":  false,
+                  "flight_release":  false
+              }
+}
