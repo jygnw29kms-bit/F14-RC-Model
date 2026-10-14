@@ -1,0 +1,65 @@
+{
+  "status": "V101_BOXED_LANDING_LOADPATH_SCREEN",
+  "source_v100": "analysis/center_wingbox_landing_v100.json",
+  "section": {
+    "outer_width_mm": 12.0,
+    "outer_height_mm": 8.0,
+    "wall_mm": 2.0,
+    "inner_width_mm": 8.0,
+    "inner_height_mm": 4.0,
+    "area_mm2": 64.0,
+    "I_x_mm4": 469.3333333333333,
+    "W_x_mm3": 117.33333333333333,
+    "I_gain_vs_v100_flat_12x2": 58.666666666666664
+  },
+  "cantilever_screen_length_mm": 20.0,
+  "cases": [
+    {
+      "frame": "front",
+      "force_N": 600.6573124999999,
+      "line_load_N_per_mm": 25.027388020833328,
+      "uniform_moment_Nmm": 5005.4776041666655,
+      "uniform_stress_MPa": 42.66032049005681,
+      "tip_load_moment_Nmm": 12013.146249999998,
+      "tip_load_stress_MPa": 102.38476917613634,
+      "deflection_coeff_uniform_mm_times_E_MPa": 1066.5080122514203,
+      "deflection_coeff_tip_mm_times_E_MPa": 3412.8256392045446
+    },
+    {
+      "frame": "rear",
+      "force_N": 565.3245294117646,
+      "line_load_N_per_mm": 23.555188725490193,
+      "uniform_moment_Nmm": 4711.037745098039,
+      "uniform_stress_MPa": 40.15088987299465,
+      "tip_load_moment_Nmm": 11306.490588235292,
+      "tip_load_stress_MPa": 96.36213569518715,
+      "deflection_coeff_uniform_mm_times_E_MPa": 1003.7722468248662,
+      "deflection_coeff_tip_mm_times_E_MPa": 3212.0711898395716
+    }
+  ],
+  "interpretation": [
+    "closed box is screened conservatively as a free cantilever even though production intent is union/contact with fork and socket",
+    "uniform-load case retains the v100 load-distribution assumption; tip-load case is a harsher upper sensitivity bound",
+    "material allowable and joint/contact stiffness are not credited"
+  ],
+  "cad_candidate": {
+    "x_width_mm": 12.0,
+    "box_height_mm": 8.0,
+    "wall_mm": 2.0,
+    "inboard_abs_y_mm": 50.0,
+    "outboard_abs_y_mm": 72.0,
+    "required_fork_overlap_mm": 2.0,
+    "required_socket_overlap_mm": 2.0
+  },
+  "gates": {
+    "fuselage_containment": false,
+    "fork_union_contact": false,
+    "socket_union_contact": false,
+    "continuous_sweep_clearance": false,
+    "material_allowable_verified": false,
+    "physical_proof_verified": false,
+    "mechanical_detail_release": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

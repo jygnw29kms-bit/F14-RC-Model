@@ -1,0 +1,7 @@
+{
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v99\\F14_CIRCULAR_CROSSTIE_RETENTION_v99.f3d",
+    "sha256":  "c4b610b071bc8cd65614609c70dc16ee5c206a55bd1b7978bbd2319b5fdc1797",
+    "required_fork_overlap_mm":  4,
+    "expected_bore_diameter_mm":  6.4,
+    "expected_radial_gap_mm":  0.2
+}

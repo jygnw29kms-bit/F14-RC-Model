@@ -2570,6 +2570,18 @@ def build_project_revision():
         study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
         with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
         return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='hardpoint_fork_tail_v103':
+        path=os.path.join(os.path.dirname(__file__),'F14HardpointForkTail_v103.py')
+        spec=importlib.util.spec_from_file_location('f14_hardpoint_fork_tail_v103',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'center_wingbox_v103'))
+    if review=='hardpoint_sleeve_v102':
+        path=os.path.join(os.path.dirname(__file__),'F14HardpointSleeve_v102.py')
+        spec=importlib.util.spec_from_file_location('f14_hardpoint_sleeve_v102',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'center_wingbox_v102'))
     if review=='crosstie_circular_v99':
         path=os.path.join(os.path.dirname(__file__),'F14CrosstieCircularRetention_v99.py')
         spec=importlib.util.spec_from_file_location('f14_crosstie_circular_v99',path)

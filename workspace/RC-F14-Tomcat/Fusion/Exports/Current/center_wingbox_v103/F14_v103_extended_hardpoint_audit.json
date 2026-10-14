@@ -1,0 +1,265 @@
+{
+  "status": "V103_EXTENDED_HARDPOINT_FORK_TAIL_GATE",
+  "source": {
+    "fork_inner_abs_y_mm": 70,
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v99\\F14_CIRCULAR_CROSSTIE_RETENTION_v99.f3d",
+    "sweep_step_deg": 1,
+    "sweep_max_deg": 68,
+    "tail_outer_abs_y_mm": 82,
+    "continuous_margin_required_mm": 0.05,
+    "sha256": "c4b610b071bc8cd65614609c70dc16ee5c206a55bd1b7978bbd2319b5fdc1797",
+    "required_fork_overlap_mm": 12,
+    "sweep_min_deg": 20
+  },
+  "records": [
+    {
+      "candidate": "HARDPOINT_TAIL_FRONT_R_v103",
+      "source_riser": "ENG_RISER_CIRCULAR_FRONT_R_v99",
+      "volume_cm3": 3.839139180331036,
+      "source_riser_missing_from_candidate_cm3": 0.0,
+      "source_socket_preserved": true,
+      "fuselage_inside_fraction": 1.0,
+      "fork_overlap_cm3": 0.28799999999999437,
+      "fork_y_overlap_mm": 11.999999999999993,
+      "bbox_y_mm": [
+        50.0,
+        82.0
+      ]
+    },
+    {
+      "candidate": "HARDPOINT_TAIL_FRONT_L_v103",
+      "source_riser": "ENG_RISER_CIRCULAR_FRONT_L_v99",
+      "volume_cm3": 3.839139180331036,
+      "source_riser_missing_from_candidate_cm3": 0.0,
+      "source_socket_preserved": true,
+      "fuselage_inside_fraction": 1.0,
+      "fork_overlap_cm3": 0.28799999999999437,
+      "fork_y_overlap_mm": 11.999999999999993,
+      "bbox_y_mm": [
+        -82.0,
+        -50.0
+      ]
+    },
+    {
+      "candidate": "HARDPOINT_TAIL_REAR_R_v103",
+      "source_riser": "ENG_RISER_CIRCULAR_REAR_R_v99",
+      "volume_cm3": 3.4551391803310953,
+      "source_riser_missing_from_candidate_cm3": 0.0,
+      "source_socket_preserved": true,
+      "fuselage_inside_fraction": 1.0,
+      "fork_overlap_cm3": 0.2879999999999995,
+      "fork_y_overlap_mm": 11.999999999999993,
+      "bbox_y_mm": [
+        50.0,
+        82.0
+      ]
+    },
+    {
+      "candidate": "HARDPOINT_TAIL_REAR_L_v103",
+      "source_riser": "ENG_RISER_CIRCULAR_REAR_L_v99",
+      "volume_cm3": 3.4551391803310953,
+      "source_riser_missing_from_candidate_cm3": 0.0,
+      "source_socket_preserved": true,
+      "fuselage_inside_fraction": 1.0,
+      "fork_overlap_cm3": 0.2879999999999995,
+      "fork_y_overlap_mm": 11.999999999999993,
+      "bbox_y_mm": [
+        -82.0,
+        -50.0
+      ]
+    }
+  ],
+  "all_source_sockets_preserved": true,
+  "minimum_fuselage_inside_fraction": 1.0,
+  "minimum_fork_y_overlap_mm": 11.999999999999993,
+  "all_fork_contacts": true,
+  "clearance_certificate": [
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "HARDPOINT_TAIL_FRONT_R_v103",
+      "minimum_sampled_clearance_mm": 59.96120075590186,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 56.886836587502934,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "HARDPOINT_TAIL_FRONT_L_v103",
+      "minimum_sampled_clearance_mm": 148.28711083326877,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 145.21274666486985,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "HARDPOINT_TAIL_REAR_R_v103",
+      "minimum_sampled_clearance_mm": 36.180566340625205,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 33.10620217222628,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "HARDPOINT_TAIL_REAR_L_v103",
+      "minimum_sampled_clearance_mm": 126.40991259688184,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 123.33554842848292,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "HARDPOINT_TAIL_FRONT_R_v103",
+      "minimum_sampled_clearance_mm": 36.74593111392171,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 36.419452757501624,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "HARDPOINT_TAIL_FRONT_L_v103",
+      "minimum_sampled_clearance_mm": 162.04229731053306,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 161.71581895411296,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "HARDPOINT_TAIL_REAR_R_v103",
+      "minimum_sampled_clearance_mm": 28.346373728204988,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 28.019895371784894,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "HARDPOINT_TAIL_REAR_L_v103",
+      "minimum_sampled_clearance_mm": 160.34637372820498,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 160.01989537178488,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "HARDPOINT_TAIL_FRONT_R_v103",
+      "minimum_sampled_clearance_mm": 148.28711083326877,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 145.21274666486985,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "HARDPOINT_TAIL_FRONT_L_v103",
+      "minimum_sampled_clearance_mm": 59.96120075590186,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 56.886836587502934,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "HARDPOINT_TAIL_REAR_R_v103",
+      "minimum_sampled_clearance_mm": 126.40991259688184,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 123.33554842848292,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "HARDPOINT_TAIL_REAR_L_v103",
+      "minimum_sampled_clearance_mm": 36.180566340625205,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 33.10620217222628,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "HARDPOINT_TAIL_FRONT_R_v103",
+      "minimum_sampled_clearance_mm": 162.04229731053306,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 161.71581895411296,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "HARDPOINT_TAIL_FRONT_L_v103",
+      "minimum_sampled_clearance_mm": 36.74593111392171,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 36.419452757501624,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "HARDPOINT_TAIL_REAR_R_v103",
+      "minimum_sampled_clearance_mm": 160.34637372820498,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 160.01989537178488,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "HARDPOINT_TAIL_REAR_L_v103",
+      "minimum_sampled_clearance_mm": 28.346373728204988,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 28.019895371784894,
+      "continuous_pass": true
+    }
+  ],
+  "sampled_moving_states": 196,
+  "continuous_sweep_clearance_pass": true,
+  "minimum_continuous_clearance_lower_bound_mm": 28.019895371784894,
+  "geometry_candidate_pass": true,
+  "hardpoint_material_selected": false,
+  "hardpoint_to_fork_attachment_verified": false,
+  "physical_proof_verified": false,
+  "mechanical_detail_release": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "6c3ef60e2d6207a62babf13a345a6caaea0f0aa41676af2f16e39a65b3fa52a5"
+}

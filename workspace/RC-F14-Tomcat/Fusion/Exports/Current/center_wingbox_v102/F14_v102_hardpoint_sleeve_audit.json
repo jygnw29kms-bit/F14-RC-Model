@@ -1,0 +1,76 @@
+{
+  "status": "V102_COLOCATED_HARDPOINT_SLEEVE_GATE",
+  "source": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v99\\F14_CIRCULAR_CROSSTIE_RETENTION_v99.f3d",
+    "sha256": "c4b610b071bc8cd65614609c70dc16ee5c206a55bd1b7978bbd2319b5fdc1797",
+    "required_fork_overlap_mm": 4,
+    "expected_bore_diameter_mm": 6.4,
+    "expected_radial_gap_mm": 0.2
+  },
+  "records": [
+    {
+      "sleeve": "HARDPOINT_SLEEVE_FRONT_R_v102",
+      "source_riser": "ENG_RISER_CIRCULAR_FRONT_R_v99",
+      "volume_cm3": 2.6839221894537557,
+      "source_exact_match": true,
+      "source_minus_candidate_cm3": 0.0,
+      "candidate_minus_source_cm3": 0.0,
+      "fuselage_inside_fraction": 1.0,
+      "fork_overlap_cm3": 0.09599999999999828,
+      "fork_y_overlap_mm": 4.0000000000000036,
+      "tube_minimum_gap_mm": 0.0
+    },
+    {
+      "sleeve": "HARDPOINT_SLEEVE_FRONT_L_v102",
+      "source_riser": "ENG_RISER_CIRCULAR_FRONT_L_v99",
+      "volume_cm3": 2.6839221894537557,
+      "source_exact_match": true,
+      "source_minus_candidate_cm3": 0.0,
+      "candidate_minus_source_cm3": 0.0,
+      "fuselage_inside_fraction": 1.0,
+      "fork_overlap_cm3": 0.09599999999999828,
+      "fork_y_overlap_mm": 4.0000000000000036,
+      "tube_minimum_gap_mm": 0.0
+    },
+    {
+      "sleeve": "HARDPOINT_SLEEVE_REAR_R_v102",
+      "source_riser": "ENG_RISER_CIRCULAR_REAR_R_v99",
+      "volume_cm3": 2.3959221894538167,
+      "source_exact_match": true,
+      "source_minus_candidate_cm3": 0.0,
+      "candidate_minus_source_cm3": 0.0,
+      "fuselage_inside_fraction": 1.0,
+      "fork_overlap_cm3": 0.09599999999999996,
+      "fork_y_overlap_mm": 4.0000000000000036,
+      "tube_minimum_gap_mm": 0.0
+    },
+    {
+      "sleeve": "HARDPOINT_SLEEVE_REAR_L_v102",
+      "source_riser": "ENG_RISER_CIRCULAR_REAR_L_v99",
+      "volume_cm3": 2.3959221894538167,
+      "source_exact_match": true,
+      "source_minus_candidate_cm3": 0.0,
+      "candidate_minus_source_cm3": 0.0,
+      "fuselage_inside_fraction": 1.0,
+      "fork_overlap_cm3": 0.09599999999999996,
+      "fork_y_overlap_mm": 4.0000000000000036,
+      "tube_minimum_gap_mm": 0.0
+    }
+  ],
+  "all_source_envelopes_exact": true,
+  "minimum_fork_y_overlap_mm": 4.0000000000000036,
+  "minimum_tube_gap_mm": 0.0,
+  "fuselage_containment_pass": true,
+  "fork_contact_pass": true,
+  "bore_preserved_pass": false,
+  "continuous_sweep_clearance_inherited_from_v99": true,
+  "v99_minimum_continuous_clearance_lower_bound_mm": 36.18313416151371,
+  "geometry_candidate_pass": true,
+  "hardpoint_material_selected": false,
+  "hardpoint_to_fork_attachment_verified": false,
+  "physical_proof_verified": false,
+  "mechanical_detail_release": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "4706d012e92c99845bd68e46cdeccfd86863c1f7c54e0dafab63dde88443974e"
+}

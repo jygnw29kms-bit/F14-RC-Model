@@ -1,0 +1,48 @@
+{
+    "status":  "V100_INBOARD_HARDPOINT_LANDING_PLAN",
+    "source_v97":  "analysis/center_wingbox_crosstie_v97.json",
+    "source_v99":  "workspace/RC-F14-Tomcat/Fusion/Exports/Current/center_wingbox_v99/F14_v99_circular_crosstie_retention_audit.json",
+    "geometry":  {
+                     "socket_abs_y_mm":  [
+                                             50,
+                                             74
+                                         ],
+                     "existing_lower_fork_inner_abs_y_mm":  70,
+                     "landing_extension_abs_y_mm":  [
+                                                        50,
+                                                        70
+                                                    ],
+                     "socket_x_width_mm":  12,
+                     "plate_thickness_mm":  2,
+                     "front_x_center_mm":  597.13239058128283,
+                     "rear_x_center_mm":  629.13239058128283,
+                     "per_socket_supported_length_mm":  24,
+                     "per_socket_supported_area_mm2":  288,
+                     "existing_direct_overlap_length_mm":  4,
+                     "existing_direct_overlap_area_mm2":  48
+                 },
+    "load_screen":  {
+                        "front_force_N":  600.65731249999988,
+                        "rear_force_N":  565.32452941176462,
+                        "existing_front_nominal_MPa":  12.513694010416664,
+                        "existing_rear_nominal_MPa":  11.777594362745097,
+                        "v100_front_nominal_MPa":  2.0856156684027773,
+                        "v100_rear_nominal_MPa":  1.9629323937908494,
+                        "area_gain_ratio":  6
+                    },
+    "material_policy":  [
+                            "landing extension is part of the lower hardpoint plate/load-path, not a skin-mounted printed tab",
+                            "final hardpoint material remains G10/CF/metal candidate until selected and verified",
+                            "socket material/load transfer still requires physical coupon/proof"
+                        ],
+    "cad_gates":  {
+                      "fuselage_containment":  false,
+                      "fork_union_contact":  false,
+                      "socket_support_contact":  false,
+                      "sweep_clearance":  false,
+                      "later_linkage_zone_review":  false,
+                      "mechanical_detail_release":  false,
+                      "print_release":  false,
+                      "flight_release":  false
+                  }
+}

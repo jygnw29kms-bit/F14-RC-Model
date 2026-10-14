@@ -1,0 +1,37 @@
+{
+  "status": "INDEPENDENT_V100_LANDING_CANTILEVER_SENSITIVITY",
+  "source_sha256": "b30158587bc20b5bd5b6dbc8dbafd817fa64c849096e6a887db27ddecedaba0e",
+  "width_mm": 12,
+  "thickness_mm": 2,
+  "cantilever_length_mm": 20,
+  "I_mm4": 8.0,
+  "W_mm3": 8.0,
+  "cases": [
+    {
+      "frame": "front",
+      "total_socket_force_N": 600.6573124999999,
+      "uniform_socket_line_load_N_per_mm": 25.027388020833328,
+      "root_bending_moment_Nmm": 5005.4776041666655,
+      "root_bending_stress_MPa": 625.6847005208332,
+      "deflection_coefficient_mm_times_modulus_MPa": 62568.47005208332
+    },
+    {
+      "frame": "rear",
+      "total_socket_force_N": 565.3245294117646,
+      "uniform_socket_line_load_N_per_mm": 23.555188725490193,
+      "root_bending_moment_Nmm": 4711.037745098039,
+      "root_bending_stress_MPa": 588.8797181372548,
+      "deflection_coefficient_mm_times_modulus_MPa": 58887.97181372548
+    }
+  ],
+  "assumptions": [
+    "20 mm inboard extension acts as flat cantilever clamped at absY70",
+    "socket force distributes uniformly across full 24 mm supported length",
+    "force acts normal to plate; no gusset/box/crossplate load sharing",
+    "linear small-deflection beam screen only"
+  ],
+  "actual_boundary_conditions_verified": false,
+  "material_allowable_verified": false,
+  "structural_capacity_verified": false,
+  "print_release": false
+}
