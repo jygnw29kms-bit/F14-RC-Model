@@ -2561,6 +2561,18 @@ def build_project_revision():
         review=json.load(stream).get('review','project')
     if review=='source_spar_v10':
         return build_source_spar_review_v10()
+    if review=='rib_selective_v73':
+        path=os.path.join(os.path.dirname(__file__),'F14SelectiveRibClearance_v73.py')
+        spec=importlib.util.spec_from_file_location('f14_rib_selective_v73',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='rib_faceclass_v72':
+        path=os.path.join(os.path.dirname(__file__),'F14RibFaceClassification_v72.py')
+        spec=importlib.util.spec_from_file_location('f14_rib_faceclass_v72',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
     if review=='rib_offset_v71':
         path=os.path.join(os.path.dirname(__file__),'F14RibOffsetClearance_v71.py')
         spec=importlib.util.spec_from_file_location('f14_rib_offset_v71',path)

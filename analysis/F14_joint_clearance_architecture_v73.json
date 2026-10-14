@@ -1,0 +1,37 @@
+{
+  "status": "V73_SELECTIVE_CLEARANCE_ARCHITECTURE_PREPARED",
+  "source_revision": "v72_rib_face_contact_classification",
+  "classification": {
+    "skin_only_faces": 179,
+    "spar_only_faces": 24,
+    "skin_and_spar_faces": 1,
+    "free_side_faces": 0,
+    "end_faces": 4,
+    "mixed_face_area_mm2": 1.249
+  },
+  "v71_measured_baseline_mm": {
+    "own_skin_min": 0.0999486575,
+    "own_skin_max": 0.0999582308,
+    "spar_nominal": 0.1
+  },
+  "v73_candidate_targets_mm": {
+    "skin_assembly_clearance": 0.15,
+    "spar_bondline_clearance": 0.1,
+    "mixed_face_policy": "treat_as_skin_for_extra_0.05_mm_clearance"
+  },
+  "rationale": "Separate printed-shell assembly clearance from carbon-spar adhesive bondline instead of uniformly shrinking the rib. Preserve dedicated spar contact area while reducing sensitivity to FDM dimensional variation at the skin.",
+  "verification_required": [
+    "complete v73 selective-offset CAD run",
+    "verify no skin or spar interference",
+    "verify 0.15 mm own-skin minimum gap",
+    "verify 0.10 mm minimum dedicated spar bondline",
+    "print P2S material-specific fit coupon before freezing tolerance",
+    "select adhesive system and verify bondline",
+    "verify structural load transfer before print or flight release"
+  ],
+  "fit_coupon_verified": false,
+  "bondline_verified": false,
+  "structural_capacity_verified": false,
+  "print_release": false,
+  "flight_release": false
+}
