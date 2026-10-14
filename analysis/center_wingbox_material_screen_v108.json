@@ -1,0 +1,155 @@
+{
+  "status": "V108_HARDPOINT_MATERIAL_SCREEN_NOT_RELEASED",
+  "source_geometry": "v105/v106 monolithic hardpoint module",
+  "screen_stress_MPa": 58.676986995963354,
+  "p2s_machine_limits": {
+    "max_nozzle_C": 300,
+    "max_bed_C": 110,
+    "stock_hardened_nozzle": true
+  },
+  "materials": [
+    {
+      "name": "Bambu PPA-CF",
+      "xy_dry_MPa": 208,
+      "xy_wet_MPa": 202,
+      "z_dry_MPa": null,
+      "z_wet_MPa": null,
+      "nozzle_C": [
+        280,
+        310
+      ],
+      "bed_C": [
+        100,
+        120
+      ],
+      "density_g_cm3": 1.25,
+      "notes": [
+        "best published XY strength/stiffness of screened Bambu candidates",
+        "manufacturer warns XY is significantly stronger than Z",
+        "P2S 300C nozzle / 110C bed reaches only lower portion of recommended window"
+      ],
+      "xy_dry_FOS_vs_v105_tip": 3.544830957566196,
+      "xy_wet_FOS_vs_v105_tip": 3.4425762184056325,
+      "z_dry_FOS_vs_v105_tip": null,
+      "z_wet_FOS_vs_v105_tip": null
+    },
+    {
+      "name": "Bambu PA6-CF",
+      "xy_dry_MPa": 151,
+      "xy_wet_MPa": 95,
+      "z_dry_MPa": 80,
+      "z_wet_MPa": 45,
+      "nozzle_C": [
+        260,
+        290
+      ],
+      "bed_C": [
+        80,
+        100
+      ],
+      "density_g_cm3": 1.09,
+      "notes": [
+        "comfortably inside P2S temperature capability",
+        "known Z data; strong moisture penalty"
+      ],
+      "xy_dry_FOS_vs_v105_tip": 2.5734109355408443,
+      "xy_wet_FOS_vs_v105_tip": 1.619033370042253,
+      "z_dry_FOS_vs_v105_tip": 1.3633965221408446,
+      "z_wet_FOS_vs_v105_tip": 0.7669105437042251
+    },
+    {
+      "name": "Bambu PAHT-CF",
+      "xy_dry_MPa": 125,
+      "xy_wet_MPa": 115,
+      "z_dry_MPa": 61,
+      "z_wet_MPa": 49,
+      "nozzle_C": [
+        260,
+        290
+      ],
+      "bed_C": [
+        80,
+        100
+      ],
+      "density_g_cm3": null,
+      "notes": [
+        "good moisture stability versus PA6-CF",
+        "Z strength only marginal to current tip sensitivity"
+      ],
+      "xy_dry_FOS_vs_v105_tip": 2.1303070658450696,
+      "xy_wet_FOS_vs_v105_tip": 1.959882500577464,
+      "z_dry_FOS_vs_v105_tip": 1.039589848132394,
+      "z_wet_FOS_vs_v105_tip": 0.8350803698112673
+    },
+    {
+      "name": "Bambu PET-CF",
+      "xy_dry_MPa": 131,
+      "xy_wet_MPa": 127,
+      "z_dry_MPa": 49,
+      "z_wet_MPa": 46,
+      "nozzle_C": [
+        260,
+        300
+      ],
+      "bed_C": [
+        80,
+        110
+      ],
+      "density_g_cm3": 1.29,
+      "notes": [
+        "dimensionally stable and low moisture sensitivity",
+        "published Z bending strength below current tip-load sensitivity"
+      ],
+      "xy_dry_FOS_vs_v105_tip": 2.232561805005633,
+      "xy_wet_FOS_vs_v105_tip": 2.164391978898591,
+      "z_dry_FOS_vs_v105_tip": 0.8350803698112673,
+      "z_wet_FOS_vs_v105_tip": 0.7839530002309857
+    },
+    {
+      "name": "Bambu PPS-CF",
+      "xy_dry_MPa": 142,
+      "xy_wet_MPa": 142,
+      "z_dry_MPa": 36,
+      "z_wet_MPa": 36,
+      "nozzle_C": [
+        310,
+        340
+      ],
+      "bed_C": [
+        100,
+        120
+      ],
+      "density_g_cm3": null,
+      "notes": [
+        "excluded from P2S baseline: minimum recommended nozzle temperature exceeds P2S 300C maximum"
+      ],
+      "xy_dry_FOS_vs_v105_tip": 2.420028826799999,
+      "xy_wet_FOS_vs_v105_tip": 2.420028826799999,
+      "z_dry_FOS_vs_v105_tip": 0.61352843496338,
+      "z_wet_FOS_vs_v105_tip": 0.61352843496338
+    }
+  ],
+  "selection": {
+    "primary_proof_candidate": "Bambu PPA-CF",
+    "fallback_proof_candidate": "Bambu PA6-CF",
+    "production_rule": "No printed material is flight-released from datasheet values. Production material must pass v107 proof in the actual print orientation and conditioned state.",
+    "print_orientation_target": "lower fork plate on bed so primary Y-axis crosstie stresses lie predominantly in XY; Z-direction remains a critical socket/shear proof gate",
+    "if_printed_candidates_fail": "switch the monolithic hardpoint module to a non-FDM structural insert/module (G10/CF laminate or metal) while preserving v105 envelope"
+  },
+  "gates": {
+    "ppa_cf_process_on_p2s_verified": false,
+    "chosen_material_conditioned_state_defined": false,
+    "orientation_coupon_passed": false,
+    "v107_front_proof_passed": false,
+    "v107_rear_proof_passed": false,
+    "material_system_selected": false,
+    "mechanical_detail_release": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "source_notes": [
+    "Bambu Filament Guide 2026 values",
+    "Bambu PA6-CF / PET-CF / PPA-CF product technical tables",
+    "Bambu P2S official maximum nozzle/bed temperatures"
+  ]
+}

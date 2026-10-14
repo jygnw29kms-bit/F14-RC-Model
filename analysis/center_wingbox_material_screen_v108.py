@@ -1,0 +1,17 @@
+import json, pathlib
+root=pathlib.Path(r"C:\Users\dezen\Desktop\F14-RC-Model")
+v105=json.loads((root/'analysis/center_wingbox_monolithic_module_v105.json').read_text())
+stress=v105['stress_screen']['worst_tip_load_sensitivity_MPa']
+materials=[
+ {'name':'Bambu PPA-CF','xy_dry_MPa':208,'xy_wet_MPa':202,'z_dry_MPa':None,'z_wet_MPa':None,'nozzle_C':[280,310],'bed_C':[100,120],'density_g_cm3':1.25,'notes':['best published XY strength/stiffness of screened Bambu candidates','manufacturer warns XY is significantly stronger than Z','P2S 300C nozzle / 110C bed reaches only lower portion of recommended window']},
+ {'name':'Bambu PA6-CF','xy_dry_MPa':151,'xy_wet_MPa':95,'z_dry_MPa':80,'z_wet_MPa':45,'nozzle_C':[260,290],'bed_C':[80,100],'density_g_cm3':1.09,'notes':['comfortably inside P2S temperature capability','known Z data; strong moisture penalty']},
+ {'name':'Bambu PAHT-CF','xy_dry_MPa':125,'xy_wet_MPa':115,'z_dry_MPa':61,'z_wet_MPa':49,'nozzle_C':[260,290],'bed_C':[80,100],'density_g_cm3':None,'notes':['good moisture stability versus PA6-CF','Z strength only marginal to current tip sensitivity']},
+ {'name':'Bambu PET-CF','xy_dry_MPa':131,'xy_wet_MPa':127,'z_dry_MPa':49,'z_wet_MPa':46,'nozzle_C':[260,300],'bed_C':[80,110],'density_g_cm3':1.29,'notes':['dimensionally stable and low moisture sensitivity','published Z bending strength below current tip-load sensitivity']},
+ {'name':'Bambu PPS-CF','xy_dry_MPa':142,'xy_wet_MPa':142,'z_dry_MPa':36,'z_wet_MPa':36,'nozzle_C':[310,340],'bed_C':[100,120],'density_g_cm3':None,'notes':['excluded from P2S baseline: minimum recommended nozzle temperature exceeds P2S 300C maximum']}
+]
+for m in materials:
+    for key in ('xy_dry_MPa','xy_wet_MPa','z_dry_MPa','z_wet_MPa'):
+        v=m[key]; m[key.replace('_MPa','_FOS_vs_v105_tip')]=None if v is None else v/stress
+out={'status':'V108_HARDPOINT_MATERIAL_SCREEN_NOT_RELEASED','source_geometry':'v105/v106 monolithic hardpoint module','screen_stress_MPa':stress,'p2s_machine_limits':{'max_nozzle_C':300,'max_bed_C':110,'stock_hardened_nozzle':True},'materials':materials,'selection':{'primary_proof_candidate':'Bambu PPA-CF','fallback_proof_candidate':'Bambu PA6-CF','production_rule':'No printed material is flight-released from datasheet values. Production material must pass v107 proof in the actual print orientation and conditioned state.','print_orientation_target':'lower fork plate on bed so primary Y-axis crosstie stresses lie predominantly in XY; Z-direction remains a critical socket/shear proof gate','if_printed_candidates_fail':'switch the monolithic hardpoint module to a non-FDM structural insert/module (G10/CF laminate or metal) while preserving v105 envelope'},'gates':{'ppa_cf_process_on_p2s_verified':False,'chosen_material_conditioned_state_defined':False,'orientation_coupon_passed':False,'v107_front_proof_passed':False,'v107_rear_proof_passed':False,'material_system_selected':False,'mechanical_detail_release':False,'print_release':False,'flight_release':False},'source_notes':['Bambu Filament Guide 2026 values','Bambu PA6-CF / PET-CF / PPA-CF product technical tables','Bambu P2S official maximum nozzle/bed temperatures']}
+(root/'analysis/center_wingbox_material_screen_v108.json').write_text(json.dumps(out,indent=2),encoding='utf-8')
+print(json.dumps([{k:v for k,v in m.items() if 'FOS' in k or k=='name'} for m in materials],indent=2))

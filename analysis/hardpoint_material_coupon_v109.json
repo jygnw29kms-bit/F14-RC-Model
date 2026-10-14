@@ -1,0 +1,31 @@
+{
+    "status":  "V109_REPRESENTATIVE_HARDPOINT_COUPON_PREPARED",
+    "geometry":  {
+                     "socket_width_mm":  12,
+                     "socket_height_mm":  12,
+                     "socket_length_mm":  24,
+                     "solid_tail_length_mm":  8,
+                     "bore_diameter_mm":  6.4,
+                     "bore_center_from_bottom_mm":  8,
+                     "fork_tab_thickness_mm":  2
+                 },
+    "screen_materials":  [
+                             "Bambu PPA-CF",
+                             "Bambu PA6-CF"
+                         ],
+    "orientations":  [
+                         "production_fork_flat",
+                         "side_90deg",
+                         "z_control"
+                     ],
+    "release_policy":  "comparative material/orientation screen only; full v107 module proof remains mandatory",
+    "gates":  {
+                  "coupon_mesh_exported":  false,
+                  "coupon_printed":  false,
+                  "material_lot_recorded":  false,
+                  "production_orientation_screen_passed":  false,
+                  "v107_full_module_proof_passed":  false,
+                  "print_release":  false,
+                  "flight_release":  false
+              }
+}
