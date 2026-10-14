@@ -1,0 +1,59 @@
+{
+  "status": "PIVOT_DATUM_KINEMATIC_REVIEW",
+  "source_wing_dataset": "NASA_F14_basic_wing_v08.json",
+  "source_wing_sha256": "ae439b784b984b0c95b9df117ae0c5ad5d6adc7025a1f7b115b41a260fce4b18",
+  "scale_mm_per_source_in": 1.1697428086486623,
+  "pivot_source": {
+    "report": "NADC-81293-60 / AD-A124468 Table I, 1/12-scale F-14 model",
+    "model_table_fs_in": 43.68,
+    "model_table_bl_in": 8.92,
+    "full_scale_fs_in": 524.16,
+    "full_scale_bl_in": 107.03999999999999,
+    "scaled_model_x_mm": 613.1323905812828,
+    "scaled_model_y_mm": 125.2092702377528
+  },
+  "rotation_reference_sweep_deg": 20,
+  "sweep_results": [
+    {
+      "sweep_deg": 20,
+      "semi_span_mm": 449.9999999999999,
+      "span_mm": 899.9999999999998,
+      "min_y_mm": 148.8263775443693
+    },
+    {
+      "sweep_deg": 30,
+      "semi_span_mm": 430.35868747209537,
+      "span_mm": 860.7173749441907,
+      "min_y_mm": 127.09691102231449
+    },
+    {
+      "sweep_deg": 40,
+      "semi_span_mm": 401.445564314581,
+      "span_mm": 802.891128629162,
+      "min_y_mm": 105.31008949021309
+    },
+    {
+      "sweep_deg": 50,
+      "semi_span_mm": 364.13914114385153,
+      "span_mm": 728.2782822877031,
+      "min_y_mm": 84.12789449565437
+    },
+    {
+      "sweep_deg": 60,
+      "semi_span_mm": 319.57295474998875,
+      "span_mm": 639.1459094999775,
+      "min_y_mm": 64.19393631484012
+    },
+    {
+      "sweep_deg": 68,
+      "semi_span_mm": 279.59655444550026,
+      "span_mm": 559.1931088910005,
+      "min_y_mm": 49.554271593844305
+    }
+  ],
+  "limitations": [
+    "Pivot vertical waterline not established by this source; this review is planform kinematics only.",
+    "NADC model table reports a 22-68 deg range while NASA/Boeing basic-wing dataset is the 20-deg definition; rotation here uses the 20-deg NASA/Boeing source geometry as baseline.",
+    "Body/glove collision is not evaluated by point-planform rotation."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "request_id": "source-spar-review-20261005-1000",
+  "status": "failed",
+  "bridge_revision": "v24_restartable_event_bridge",
+  "loaded_source_sha256": "c9eff0ad5bae4c687c371f5b94896fab1874e250b4bd2c17fbdd10bac0a93ba8",
+  "error": "Traceback (most recent call last):\n  File \"C:/Users/dezen/AppData/Roaming/Autodesk/Autodesk Fusion 360/API/AddIns/F14TomcatRC/F14TomcatRC.py\", line 828, in notify\nAttributeError: module 'f14_checked_cad_revision' has no attribute '_loaded_source_sha256'\n"
+}

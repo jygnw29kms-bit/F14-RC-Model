@@ -1,0 +1,7 @@
+{
+  "request_id": "v23-keepout-retry-20261007-181432",
+  "status": "completed",
+  "bridge_revision": "v24_restartable_event_bridge",
+  "loaded_source_sha256": "e835b9810874914748909fa4da1678918c29eca90bd239f513ae3e718e1645af",
+  "executed_revision_source_sha256": "5371dcd859539442b5010bc6b9a0497b746d4e70a320b11809335a1b835a4d0a"
+}

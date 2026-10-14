@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore non-project Autodesk caches from historical shutdown snapshots
+workspace/RC-F14-Tomcat/_shutdown_backup_*/Autodesk Fusion 360/Electron/WebCache/
+workspace/RC-F14-Tomcat/_shutdown_backup_*/Autodesk Fusion 360/**/logs/
+workspace/RC-F14-Tomcat/_shutdown_backup_*/Autodesk Fusion 360/**/session.dat
+workspace/RC-F14-Tomcat/_shutdown_backup_*/Autodesk Fusion 360/**/sessioncache
+workspace/RC-F14-Tomcat/_shutdown_backup_*/Autodesk Fusion 360/**/*.lck

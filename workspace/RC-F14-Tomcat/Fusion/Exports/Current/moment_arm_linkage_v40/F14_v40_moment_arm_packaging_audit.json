@@ -1,0 +1,396 @@
+{
+  "status": "MOMENT_ARM_OPTIMIZED_SWEEP_PACKAGING",
+  "source_revision": "v38",
+  "kinematics_source": "v40",
+  "selected_candidate": {
+    "score": 25.10692542798977,
+    "crank_vector_at_20deg_mm": [
+      25,
+      -20
+    ],
+    "crank_radius_mm": 32.01562118716424,
+    "slider_attach_y_mm": 65.0,
+    "slider_x_at_20_mm": 580.0,
+    "rod_length_mm": 70.68352175540956,
+    "slider_x_min_mm": 550.2041744662002,
+    "slider_x_max_mm": 580.0,
+    "slider_travel_mm": 29.795825533799757,
+    "min_linkage_moment_arm_mm": 30.04343579737031,
+    "max_linkage_moment_arm_mm": 32.0136817132782,
+    "samples": [
+      {
+        "sweep_deg": 20,
+        "slider_x_mm": 580.0,
+        "crank_pin_mm": [
+          638.1323905812828,
+          105.20927023775282
+        ],
+        "moment_arm_mm": 30.670225729146907
+      },
+      {
+        "sweep_deg": 22,
+        "slider_x_mm": 578.7010386850151,
+        "crank_pin_mm": [
+          637.4191713227102,
+          104.34896627980838
+        ],
+        "moment_arm_mm": 30.84930910276641
+      },
+      {
+        "sweep_deg": 24,
+        "slider_x_mm": 577.4072634105314,
+        "crank_pin_mm": [
+          636.6763623628959,
+          103.5140773889532
+        ],
+        "moment_arm_mm": 31.02036837629284
+      },
+      {
+        "sweep_deg": 26,
+        "slider_x_mm": 576.1181945017589,
+        "crank_pin_mm": [
+          635.9048687001366,
+          102.70562074869602
+        ],
+        "moment_arm_mm": 31.182215161280137
+      },
+      {
+        "sweep_deg": 28,
+        "slider_x_mm": 574.8334514524669,
+        "crank_pin_mm": [
+          635.1056302806207,
+          101.92458133891978
+        ],
+        "moment_arm_mm": 31.333634131729966
+      },
+      {
+        "sweep_deg": 30,
+        "slider_x_mm": 573.5527477123885,
+        "crank_pin_mm": [
+          634.2796208532494,
+          101.1719107358354
+        ],
+        "moment_arm_mm": 31.473380946128092
+      },
+      {
+        "sweep_deg": 32,
+        "slider_x_mm": 572.2758864260367,
+        "crank_pin_mm": [
+          633.4278467832728,
+          100.44852595263272
+        ],
+        "moment_arm_mm": 31.600180683769395
+      },
+      {
+        "sweep_deg": 34,
+        "slider_x_mm": 571.0027569619969,
+        "crank_pin_mm": [
+          632.5513458261894,
+          99.75530832224119
+        ],
+        "moment_arm_mm": 31.712726786475073
+      },
+      {
+        "sweep_deg": 36,
+        "slider_x_mm": 569.7333320982386,
+        "crank_pin_mm": [
+          631.6511858634008,
+          99.09310242356146
+        ],
+        "moment_arm_mm": 31.809680504037335
+      },
+      {
+        "sweep_deg": 38,
+        "slider_x_mm": 568.4676657499928,
+        "crank_pin_mm": [
+          630.7284636011627,
+          98.46271505247606
+        ],
+        "moment_arm_mm": 31.889670847363675
+      },
+      {
+        "sweep_deg": 40,
+        "slider_x_mm": 567.2058911435238,
+        "crank_pin_mm": [
+          629.7843032344172,
+          97.86491423889294
+        ],
+        "moment_arm_mm": 31.951295057574008
+      },
+      {
+        "sweep_deg": 42,
+        "slider_x_mm": 565.9482193526508,
+        "crank_pin_mm": [
+          628.8198550771343,
+          97.30042831101926
+        ],
+        "moment_arm_mm": 31.993119602400512
+      },
+      {
+        "sweep_deg": 44,
+        "slider_x_mm": 564.6949381258547,
+        "crank_pin_mm": [
+          627.8362941608318,
+          96.7699450080058
+        ],
+        "moment_arm_mm": 32.0136817132782
+      },
+      {
+        "sweep_deg": 46,
+        "slider_x_mm": 563.4464109408426,
+        "crank_pin_mm": [
+          626.8348188029804,
+          96.27411064204254
+        ],
+        "moment_arm_mm": 32.0114914775845
+      },
+      {
+        "sweep_deg": 48,
+        "slider_x_mm": 562.2030762309372,
+        "crank_pin_mm": [
+          625.8166491470382,
+          95.81352931092701
+        ],
+        "moment_arm_mm": 31.985034500657193
+      },
+      {
+        "sweep_deg": 50,
+        "slider_x_mm": 560.9654467339991,
+        "crank_pin_mm": [
+          624.7830256758938,
+          95.38876216206404
+        ],
+        "moment_arm_mm": 31.932775151544618
+      },
+      {
+        "sweep_deg": 52,
+        "slider_x_mm": 559.7341089200157,
+        "crank_pin_mm": [
+          623.7352077005294,
+          95.00032670879418
+        ],
+        "moment_arm_mm": 31.853160404964143
+      },
+      {
+        "sweep_deg": 54,
+        "slider_x_mm": 558.5097224582408,
+        "crank_pin_mm": [
+          622.6744718257439,
+          94.64869619988332
+        ],
+        "moment_arm_mm": 31.744624289703342
+      },
+      {
+        "sweep_deg": 56,
+        "slider_x_mm": 557.2930196890079,
+        "crank_pin_mm": [
+          621.602110394807,
+          94.33429904294204
+        ],
+        "moment_arm_mm": 31.605592950734682
+      },
+      {
+        "sweep_deg": 58,
+        "slider_x_mm": 556.0848050691999,
+        "crank_pin_mm": [
+          620.5194299149377,
+          94.05751828247692
+        ],
+        "moment_arm_mm": 31.434490328669693
+      },
+      {
+        "sweep_deg": 60,
+        "slider_x_mm": 554.8859545639582,
+        "crank_pin_mm": [
+          619.4277494655265,
+          93.81869113320977
+        ],
+        "moment_arm_mm": 31.229744455901574
+      },
+      {
+        "sweep_deg": 62,
+        "slider_x_mm": 553.6974149606173,
+        "crank_pin_mm": [
+          618.3283990910405,
+          93.61810856923347
+        ],
+        "moment_arm_mm": 30.98979436393143
+      },
+      {
+        "sweep_deg": 64,
+        "slider_x_mm": 552.5202030841467,
+        "crank_pin_mm": [
+          617.2227181805691,
+          93.45601496950486
+        ],
+        "moment_arm_mm": 30.713097591005283
+      },
+      {
+        "sweep_deg": 66,
+        "slider_x_mm": 551.355404896594,
+        "crank_pin_mm": [
+          616.1120538359847,
+          93.33260782010659
+        ],
+        "moment_arm_mm": 30.398138273380493
+      },
+      {
+        "sweep_deg": 68,
+        "slider_x_mm": 550.2041744662002,
+        "crank_pin_mm": [
+          614.9977592307064,
+          93.24803747364079
+        ],
+        "moment_arm_mm": 30.04343579737031
+      }
+    ],
+    "theoretical_min_wing_torque_at_2Nm_servo_Nm": 3.5345218585141542,
+    "estimated_servo_travel_deg": 122.40978402694549
+  },
+  "min_rod_outer_oml_inside_fraction": 1.0,
+  "min_crank_outer_oml_inside_fraction": 0.21725157330646808,
+  "slider_inside_fraction": 0.9699697425911116,
+  "rod_structural_hits": [
+    {
+      "side": "R",
+      "sweep_deg": 20,
+      "part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_volume_cm3": 0.00020245817477433352
+    },
+    {
+      "side": "R",
+      "sweep_deg": 20,
+      "part": "ENG_RISER_SOCKET_FRONT_R_v34",
+      "intersection_volume_cm3": 0.07937819024887445
+    },
+    {
+      "side": "L",
+      "sweep_deg": 20,
+      "part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_volume_cm3": 0.000202458174774519
+    },
+    {
+      "side": "L",
+      "sweep_deg": 20,
+      "part": "ENG_RISER_SOCKET_FRONT_L_v34",
+      "intersection_volume_cm3": 0.07937819024887585
+    },
+    {
+      "side": "R",
+      "sweep_deg": 24,
+      "part": "ENG_RISER_SOCKET_FRONT_R_v34",
+      "intersection_volume_cm3": 0.06880904397662937
+    },
+    {
+      "side": "L",
+      "sweep_deg": 24,
+      "part": "ENG_RISER_SOCKET_FRONT_L_v34",
+      "intersection_volume_cm3": 0.06880904397662896
+    },
+    {
+      "side": "R",
+      "sweep_deg": 28,
+      "part": "ENG_RISER_SOCKET_FRONT_R_v34",
+      "intersection_volume_cm3": 0.05728819786774248
+    },
+    {
+      "side": "L",
+      "sweep_deg": 28,
+      "part": "ENG_RISER_SOCKET_FRONT_L_v34",
+      "intersection_volume_cm3": 0.05728819786774304
+    },
+    {
+      "side": "R",
+      "sweep_deg": 32,
+      "part": "ENG_RISER_SOCKET_FRONT_R_v34",
+      "intersection_volume_cm3": 0.046450776591531934
+    },
+    {
+      "side": "L",
+      "sweep_deg": 32,
+      "part": "ENG_RISER_SOCKET_FRONT_L_v34",
+      "intersection_volume_cm3": 0.04645077659153202
+    },
+    {
+      "side": "R",
+      "sweep_deg": 36,
+      "part": "ENG_RISER_SOCKET_FRONT_R_v34",
+      "intersection_volume_cm3": 0.036963861870596595
+    },
+    {
+      "side": "L",
+      "sweep_deg": 36,
+      "part": "ENG_RISER_SOCKET_FRONT_L_v34",
+      "intersection_volume_cm3": 0.036963861870596915
+    },
+    {
+      "side": "R",
+      "sweep_deg": 40,
+      "part": "ENG_RISER_SOCKET_FRONT_R_v34",
+      "intersection_volume_cm3": 0.02825573791632913
+    },
+    {
+      "side": "L",
+      "sweep_deg": 40,
+      "part": "ENG_RISER_SOCKET_FRONT_L_v34",
+      "intersection_volume_cm3": 0.028255737916331854
+    },
+    {
+      "side": "R",
+      "sweep_deg": 44,
+      "part": "ENG_RISER_SOCKET_FRONT_R_v34",
+      "intersection_volume_cm3": 0.020070894739993822
+    },
+    {
+      "side": "L",
+      "sweep_deg": 44,
+      "part": "ENG_RISER_SOCKET_FRONT_L_v34",
+      "intersection_volume_cm3": 0.020070894739993815
+    },
+    {
+      "side": "R",
+      "sweep_deg": 48,
+      "part": "ENG_RISER_SOCKET_FRONT_R_v34",
+      "intersection_volume_cm3": 0.012171597397183773
+    },
+    {
+      "side": "L",
+      "sweep_deg": 48,
+      "part": "ENG_RISER_SOCKET_FRONT_L_v34",
+      "intersection_volume_cm3": 0.012171597397183783
+    },
+    {
+      "side": "R",
+      "sweep_deg": 52,
+      "part": "ENG_RISER_SOCKET_FRONT_R_v34",
+      "intersection_volume_cm3": 0.004643080675590773
+    },
+    {
+      "side": "L",
+      "sweep_deg": 52,
+      "part": "ENG_RISER_SOCKET_FRONT_L_v34",
+      "intersection_volume_cm3": 0.004643080675590686
+    },
+    {
+      "side": "R",
+      "sweep_deg": 56,
+      "part": "ENG_RISER_SOCKET_FRONT_R_v34",
+      "intersection_volume_cm3": 0.0004271653584955838
+    },
+    {
+      "side": "L",
+      "sweep_deg": 56,
+      "part": "ENG_RISER_SOCKET_FRONT_L_v34",
+      "intersection_volume_cm3": 0.0004271653584955708
+    }
+  ],
+  "slider_structural_hits": [],
+  "crank_structural_hits": [],
+  "fully_packaged": false,
+  "theoretical_min_wing_torque_Nm": 3.5345218585141542,
+  "estimated_servo_travel_deg": 122.40978402694549,
+  "toggle_avoidance_verified": true,
+  "mechanical_detail_release": false,
+  "print_release": false,
+  "flight_release": false
+}
