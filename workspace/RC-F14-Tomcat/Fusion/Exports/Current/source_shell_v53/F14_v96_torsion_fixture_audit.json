@@ -1,0 +1,209 @@
+{
+  "status": "V96_PRINTABLE_TORSION_FIXTURE",
+  "source": {
+    "plan_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\torsion_fixture_v96.json",
+    "plan_sha256": "d61853ca69b6b5c1a9ff07a8bd7faaa0fd623a44f7a9017fc3f196b794b21237"
+  },
+  "plan": {
+    "status": "V96_TORSION_FIXTURE_GEOMETRY_PREPARED",
+    "source_v94": "F14_v94_representative_joint_coupon_audit.json",
+    "inner_skin_bbox_mm": {
+      "x": [
+        659.2094098758492,
+        745.7750137477273
+      ],
+      "y": [
+        343.9687852999999,
+        363.9687852745362
+      ],
+      "z": [
+        177.632731132042,
+        186.56106570041217
+      ]
+    },
+    "outer_skin_bbox_mm": {
+      "x": [
+        666.4935191699399,
+        746.6650426104751
+      ],
+      "y": [
+        363.9687852745362,
+        383.9687852999999
+      ],
+      "z": [
+        177.0584127873255,
+        185.44592242268288
+      ]
+    },
+    "spar_axis_x_mm": 690.2779671799674,
+    "outer_skin_center_x_mm": 706.5792808902074,
+    "fixture": {
+      "fixed": {
+        "x_mm": 112,
+        "y_mm": 18,
+        "z_mm": 8,
+        "bolt_x_mm": [
+          -51,
+          51
+        ],
+        "bolt_y_mm": [
+          -4,
+          4
+        ],
+        "hole_d_mm": 4.6
+      },
+      "moving": {
+        "x_mm": 108,
+        "y_mm": 18,
+        "z_mm": 8,
+        "bolt_x_mm": [
+          -49,
+          49
+        ],
+        "bolt_y_mm": [
+          -4,
+          4
+        ],
+        "hole_d_mm": 4.6,
+        "lug": {
+          "x_start_mm": 54,
+          "x_length_mm": 30,
+          "y_mm": 18,
+          "z_mm": 20,
+          "m5_hole_d_mm": 5.5,
+          "m5_x_mm": [
+            62,
+            76
+          ],
+          "m5_y_mm": 0
+        }
+      },
+      "pad": {
+        "material": "2 mm EVA/neoprene or equivalent compliant sheet",
+        "nominal_thickness_mm": 2.0,
+        "rule": "use broad full-jaw pads; tighten only to prevent slip without crushing shell"
+      }
+    },
+    "lever": {
+      "material": "aluminium flat bar",
+      "cross_section_mm": [
+        20,
+        3
+      ],
+      "suggested_length_mm": 200,
+      "bar_start_x_relative_plate_center_mm": 54.0,
+      "anchor_hole_x_from_bar_start_mm": [
+        8.0,
+        22.0
+      ],
+      "load_line_x_from_bar_start_mm": 179.69868628975996,
+      "torque_axis_x_relative_plate_center_mm": -16.301313710240038,
+      "lever_arm_mm": 250.0,
+      "sf3_force_N": 8.968705565362564,
+      "proof_force_N": 4.484352782681282
+    },
+    "assembly": {
+      "fixed_clamp_y_center_mm": 353.9687853,
+      "moving_clamp_y_center_mm": 373.9687853,
+      "joint_y_mm": 363.9687853,
+      "clamp_clearance_from_joint_mm": 1.0
+    },
+    "gates": {
+      "fixture_cad_created": false,
+      "fixture_printed": false,
+      "v93_process_passed": false,
+      "representative_coupon_real_carbon_installed": false,
+      "sf3_both_directions_passed": false,
+      "structural_capacity_verified": false,
+      "print_release": false,
+      "flight_release": false
+    }
+  },
+  "parts": [
+    {
+      "body": "FIXED_TOP_v96",
+      "volume_cm3": 15.596191195600296,
+      "bbox_mm": {
+        "x": [
+          -56.0,
+          56.0
+        ],
+        "y": [
+          -9.0,
+          9.0
+        ],
+        "z": [
+          0.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "body": "FIXED_BOTTOM_v96",
+      "volume_cm3": 15.596191195600296,
+      "bbox_mm": {
+        "x": [
+          -56.0,
+          56.0
+        ],
+        "y": [
+          -9.0,
+          9.0
+        ],
+        "z": [
+          0.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "body": "MOVING_BOTTOM_v96",
+      "volume_cm3": 15.020191195600297,
+      "bbox_mm": {
+        "x": [
+          -54.0,
+          54.0
+        ],
+        "y": [
+          -9.0,
+          9.0
+        ],
+        "z": [
+          0.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "body": "MOVING_TOP_LEVER_LUG_v96",
+      "volume_cm3": 25.085859417889477,
+      "bbox_mm": {
+        "x": [
+          -54.0,
+          84.0
+        ],
+        "y": [
+          -9.0,
+          9.0
+        ],
+        "z": [
+          0.0,
+          20.0
+        ]
+      }
+    }
+  ],
+  "stl_files": [
+    "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\torsion_fixture_v96_stl\\FIXED_TOP_v96.stl",
+    "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\torsion_fixture_v96_stl\\FIXED_BOTTOM_v96.stl",
+    "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\torsion_fixture_v96_stl\\MOVING_BOTTOM_v96.stl",
+    "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\torsion_fixture_v96_stl\\MOVING_TOP_LEVER_LUG_v96.stl"
+  ],
+  "fixture_geometry_created": true,
+  "fixture_printed": false,
+  "coupon_tested": false,
+  "structural_capacity_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "af2e59fe271fe5d33cb41f20cd7af961bdb1ab81ad5fabf774a135a42f2f6235"
+}

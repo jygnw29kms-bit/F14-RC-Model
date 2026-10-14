@@ -1,0 +1,23 @@
+{
+  "status": "V96_FIXTURE_DIMENSION_VALIDATION",
+  "fixed_plate_raw_volume_cm3": 16.128,
+  "fixed_expected_hole_volume_cm3": 0.53180880439968,
+  "fixed_expected_net_cm3": 15.59619119560032,
+  "fixed_fusion_net_cm3": 15.596191195600296,
+  "fixed_volume_error_cm3": -2.3092638912203256e-14,
+  "moving_bottom_expected_net_cm3": 15.020191195600319,
+  "moving_bottom_fusion_net_cm3": 15.020191195600297,
+  "moving_volume_error_cm3": -2.1316282072803006e-14,
+  "minimum_fixed_hole_edge_clearance_from_skin_mm": 5.417198064060997,
+  "minimum_moving_hole_edge_clearance_from_skin_mm": 6.61423827973239,
+  "fixed_clamp_y_range_mm": [
+    344.9687853,
+    362.9687853
+  ],
+  "moving_clamp_y_range_mm": [
+    364.9687853,
+    382.9687853
+  ],
+  "joint_clearance_each_side_mm": 1.0,
+  "pass": true
+}
