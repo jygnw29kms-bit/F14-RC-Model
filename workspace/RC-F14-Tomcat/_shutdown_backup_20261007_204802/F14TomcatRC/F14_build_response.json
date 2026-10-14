@@ -1,7 +1,0 @@
-{
-  "request_id": "v24-clearance-20261007-181625",
-  "status": "completed",
-  "bridge_revision": "v24_restartable_event_bridge",
-  "loaded_source_sha256": "7a815bc9db0b6e40cf5d859eec488c13d858f8751eec0228186ee163e0fcaca5",
-  "executed_revision_source_sha256": "5371dcd859539442b5010bc6b9a0497b746d4e70a320b11809335a1b835a4d0a"
-}
