@@ -2557,6 +2557,24 @@ def build_packaging_diagnostic_v43():
 def build_project_revision():
     # Fixed CAD entry point. Subsequent checked-in revisions can change this
     # implementation without accepting code, paths or shell commands in requests.
+    with open(os.path.join(os.path.dirname(__file__),'F14_build_request.json'),encoding='utf-8') as stream:
+        review=json.load(stream).get('review','project')
+    if review=='source_spar_v10':
+        return build_source_spar_review_v10()
+    if review=='rib_offset_v71':
+        path=os.path.join(os.path.dirname(__file__),'F14RibOffsetClearance_v71.py')
+        spec=importlib.util.spec_from_file_location('f14_rib_offset_v71',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='source_wing_shell_v53':
+        path=os.path.join(os.path.dirname(__file__),'F14WingShellStudy_v53.py')
+        spec=importlib.util.spec_from_file_location('f14_fixed_shell_study',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review!='project':
+        raise RuntimeError('Unknown fixed project review mode')
     return build_packaging_diagnostic_v43()
 class BuildRequestHandler(adsk.core.CustomEventHandler):
     def notify(self,args):
