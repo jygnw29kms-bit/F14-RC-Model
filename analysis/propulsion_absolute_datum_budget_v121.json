@@ -1,0 +1,47 @@
+{
+  "status": "V121_ABSOLUTE_EDF_DATUM_UNCERTAINTY_BUDGET",
+  "sources": {
+    "exact_raster_provenance": "analysis/registration_source_recovery_verified.json",
+    "common_axis_polygon_check": "analysis/propulsion_common_axis_exact_v117.json",
+    "relative_axis": "analysis/propulsion_relative_axis_v118.json"
+  },
+  "provenance": {
+    "exact_source_raster_recovered": true,
+    "source_image_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+    "absolute_aircraft_Z_verified": false
+  },
+  "local_clearance_at_common_lateral_axis": {
+    "E_extra_radial_margin_mm": 0.5105755757442374,
+    "F_extra_radial_margin_mm": 0.4532074811030462,
+    "governing_extra_radial_margin_mm": 0.4532074811030462,
+    "required_radius_mm_including_skin_and_service_allowance": 27.8
+  },
+  "uncertainty_policy": {
+    "do_not_consume_entire_governing_margin": true,
+    "maximum_source_datum_registration_error_mm": 0.20,
+    "maximum_CAD_axis_placement_error_mm": 0.10,
+    "reserved_additional_clearance_mm": 0.1532074811030462,
+    "linear_worst_case_sum_mm": 0.30,
+    "governing_margin_after_budget_mm": 0.1532074811030462
+  },
+  "registration_acceptance": {
+    "same_exact_raster_required": true,
+    "absolute_waterline_anchor_must_be_source_traceable": true,
+    "independent_vertical_stretch_forbidden": true,
+    "source_to_model_vertical_scale_must_be_isotropic_with_registered_view": true,
+    "round_trip_pixel_residual_target_px": 0.5,
+    "metric_absolute_Z_error_must_not_exceed_mm": 0.20,
+    "multiple_anchor_check_required": true
+  },
+  "decision": {
+    "absolute_axis_CAD_ready": false,
+    "reason": "Exact Figure 3.15 raster is recovered, but a traceable aircraft waterline anchor has not yet been reconstructed. The remaining local E/F radial margin is too small to permit an assumed Z datum.",
+    "next_gate": "V122 source-traceable absolute side-view datum reconstruction using the exact 2113x2953 Figure 3.15 raster",
+    "fusion_required_before_v122_pass": false
+  },
+  "release": {
+    "propulsion_packaging_freeze": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
