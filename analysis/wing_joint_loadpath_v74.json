@@ -1,0 +1,105 @@
+{
+  "status": "V74_JOINT_LOADPATH_SCREEN_CANDIDATE",
+  "source_v66": "analysis/native_span_load_screen_v66.json",
+  "source_v63": "analysis/source_spar_section_properties_v63.json",
+  "joint_y_mm": 363.9687853,
+  "governing_screen_case": {
+    "mass_kg": 1.2,
+    "load_factor": 8,
+    "assigned_side_fraction": 0.7
+  },
+  "conservative_inboard_sample": {
+    "y_mm": 357.1875,
+    "moment_Nmm": 942.4448863197879,
+    "stress_screen_MPa": 26.182253837687373
+  },
+  "spar_section_near_joint": {
+    "sample_y_mm": 363.9687852831797,
+    "cap_width_mm": 10.28522575158771,
+    "cap_centroid_separation_mm": 4.034572434911864,
+    "cap_area_total_mm2": 20.57045150317542,
+    "web_area_mm2": 2.4276579479294913
+  },
+  "bending_couple_cap_force_N": 233.5922582935051,
+  "engagement_sensitivity": [
+    {
+      "engagement_mm": 8,
+      "one_cap_bond_area_mm2": 82.28180601270168,
+      "average_cap_transfer_shear_MPa": 2.8389296445127363,
+      "shear_with_SF2_MPa": 5.677859289025473,
+      "shear_with_SF3_MPa": 8.516788933538209
+    },
+    {
+      "engagement_mm": 10,
+      "one_cap_bond_area_mm2": 102.8522575158771,
+      "average_cap_transfer_shear_MPa": 2.271143715610189,
+      "shear_with_SF2_MPa": 4.542287431220378,
+      "shear_with_SF3_MPa": 6.813431146830567
+    },
+    {
+      "engagement_mm": 12,
+      "one_cap_bond_area_mm2": 123.42270901905252,
+      "average_cap_transfer_shear_MPa": 1.8926197630084909,
+      "shear_with_SF2_MPa": 3.7852395260169818,
+      "shear_with_SF3_MPa": 5.677859289025473
+    },
+    {
+      "engagement_mm": 15,
+      "one_cap_bond_area_mm2": 154.27838627381564,
+      "average_cap_transfer_shear_MPa": 1.5140958104067928,
+      "shear_with_SF2_MPa": 3.0281916208135855,
+      "shear_with_SF3_MPa": 4.5422874312203785
+    },
+    {
+      "engagement_mm": 20,
+      "one_cap_bond_area_mm2": 205.7045150317542,
+      "average_cap_transfer_shear_MPa": 1.1355718578050944,
+      "shear_with_SF2_MPa": 2.271143715610189,
+      "shear_with_SF3_MPa": 3.4067155734152834
+    },
+    {
+      "engagement_mm": 25,
+      "one_cap_bond_area_mm2": 257.1306437896927,
+      "average_cap_transfer_shear_MPa": 0.9084574862440756,
+      "shear_with_SF2_MPa": 1.8169149724881513,
+      "shear_with_SF3_MPa": 2.725372458732227
+    },
+    {
+      "engagement_mm": 30,
+      "one_cap_bond_area_mm2": 308.5567725476313,
+      "average_cap_transfer_shear_MPa": 0.7570479052033964,
+      "shear_with_SF2_MPa": 1.5140958104067928,
+      "shear_with_SF3_MPa": 2.2711437156101892
+    }
+  ],
+  "v74_architecture": {
+    "primary_bending_path": "continuous carbon spar/caps across printed segment interface",
+    "printed_joint_role": [
+      "segment alignment",
+      "skin step control",
+      "local torsion transfer",
+      "assembly indexing"
+    ],
+    "printed_joint_must_not_be_sized_as_sole_bending_member": true,
+    "candidate_axial_engagement_mm": 12.0,
+    "skin_radial_clearance_mm": 0.15,
+    "spar_bondline_candidate_mm": 0.1,
+    "anti_rotation": "two separated keyed/index features, outside spar bond faces",
+    "serviceability": "dry-fit before bonding; no forced press fit around carbon path"
+  },
+  "gates": {
+    "adhesive_system_selected": false,
+    "coupon_verified": false,
+    "torsion_load_verified": false,
+    "carbon_continuity_in_CAD_verified": false,
+    "joint_geometry_CAD_verified": false,
+    "structural_capacity_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "notes": [
+    "Moment uses nearest INBOARD v66 sample at y=357.1875 mm, so it is conservative relative to the 363.969 mm joint under the same sampled load model.",
+    "Average bond shear is a sensitivity only; no adhesive allowable is assumed or approved.",
+    "If the carbon path is interrupted at the print joint, this architecture is invalid and the joint must be redesigned as a structural splice."
+  ]
+}
