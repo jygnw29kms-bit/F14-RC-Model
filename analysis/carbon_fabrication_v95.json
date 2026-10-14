@@ -1,0 +1,111 @@
+{
+  "status": "V95_CARBON_FABRICATION_AND_TORSION_FIXTURE_PLAN",
+  "source_v63": "analysis/source_spar_section_properties_v63.json",
+  "source_v94": "workspace/RC-F14-Tomcat/Fusion/Exports/Current/source_shell_v53/F14_v94_representative_joint_coupon_audit.json",
+  "coupon_y_range_mm": [
+    343.9687853,
+    383.9687853
+  ],
+  "coupon_length_mm": 40.0,
+  "local_sections": [
+    {
+      "y_mm": 343.9687853,
+      "cap_width_mm": 10.816480775055144,
+      "total_height_mm": 5.620708103778178,
+      "web_height_mm": 3.620708103778178,
+      "cap_centroid_separation_mm": 4.620708103778178,
+      "web_area_mm2": 2.896566483022543,
+      "implied_web_thickness_mm": 0.8
+    },
+    {
+      "y_mm": 363.9687853,
+      "cap_width_mm": 10.285225751140917,
+      "total_height_mm": 5.034572434313521,
+      "web_height_mm": 3.034572434313521,
+      "cap_centroid_separation_mm": 4.034572434313521,
+      "web_area_mm2": 2.427657947450817,
+      "implied_web_thickness_mm": 0.8
+    },
+    {
+      "y_mm": 383.9687853,
+      "cap_width_mm": 9.753970727226692,
+      "total_height_mm": 4.323117245459024,
+      "web_height_mm": 2.323117245459023,
+      "cap_centroid_separation_mm": 3.323117245459023,
+      "web_area_mm2": 1.858493796367219,
+      "implied_web_thickness_mm": 0.8000000000000002
+    }
+  ],
+  "candidate_carbon_build": {
+    "upper_cap": "1.0 mm nominal carbon laminate/strip cut to v95 taper; candidate only until stock/material verified",
+    "lower_cap": "same as upper cap",
+    "web": "~0.8 mm nominal carbon laminate/web cut to local web-height taper; candidate only until stock/material verified",
+    "coupon_length_mm": 40.0,
+    "critical_rule": "do not replace real carbon with printed polymer for structural qualification"
+  },
+  "torsion_fixture": {
+    "sacrificial_joint_target_Nm": 2.242176391340641,
+    "flight_article_proof_target_Nm": 1.1210881956703205,
+    "lever_options": [
+      {
+        "lever_arm_mm": 100.0,
+        "sf3_force_N": 22.42176391340641,
+        "sf3_equivalent_kgf": 2.2863836186063957,
+        "proof_force_N": 11.210881956703204,
+        "proof_equivalent_kgf": 1.1431918093031979
+      },
+      {
+        "lever_arm_mm": 150.0,
+        "sf3_force_N": 14.947842608937608,
+        "sf3_equivalent_kgf": 1.5242557457375974,
+        "proof_force_N": 7.473921304468804,
+        "proof_equivalent_kgf": 0.7621278728687987
+      },
+      {
+        "lever_arm_mm": 200.0,
+        "sf3_force_N": 11.210881956703204,
+        "sf3_equivalent_kgf": 1.1431918093031979,
+        "proof_force_N": 5.605440978351602,
+        "proof_equivalent_kgf": 0.5715959046515989
+      },
+      {
+        "lever_arm_mm": 250.0,
+        "sf3_force_N": 8.968705565362564,
+        "sf3_equivalent_kgf": 0.9145534474425583,
+        "proof_force_N": 4.484352782681282,
+        "proof_equivalent_kgf": 0.45727672372127914
+      },
+      {
+        "lever_arm_mm": 300.0,
+        "sf3_force_N": 7.473921304468804,
+        "sf3_equivalent_kgf": 0.7621278728687987,
+        "proof_force_N": 3.736960652234402,
+        "proof_equivalent_kgf": 0.38106393643439934
+      }
+    ],
+    "recommended_coupon_lever_arm_mm": 250,
+    "recommended_sf3_force_N": 8.968705565362564,
+    "recommended_sf3_equivalent_kgf": 0.9145534474425583,
+    "recommended_flight_proof_force_N": 4.484352782681282,
+    "recommended_flight_proof_equivalent_kgf": 0.45727672372127914,
+    "fixture_rules": [
+      "clamp/support the skin coupon in broad conformal cradles, not point clamps",
+      "apply torque about the spar/joint axis with a rigid lever",
+      "measure lever arm from torque axis to load line",
+      "load both torsional directions",
+      "use a load cell or securely constrained calibrated force source",
+      "inspect for slip, cracks, whitening, bond separation and permanent set"
+    ]
+  },
+  "gates": {
+    "actual_carbon_stock_selected": false,
+    "carbon_template_fit_verified": false,
+    "v93_bond_process_verified": false,
+    "representative_joint_built_with_real_carbon": false,
+    "representative_joint_sf3_torsion_verified": false,
+    "flight_article_proof_verified": false,
+    "structural_capacity_verified": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
