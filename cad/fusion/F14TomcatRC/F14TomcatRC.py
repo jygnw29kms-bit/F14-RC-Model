@@ -6,6 +6,9 @@ _created = False
 _handlers = []
 _worker_stop = threading.Event()
 _event_id = 'com.jl1976.f14tomcatrc.controlled_build'
+_cleanup_event_id = 'com.jl1976.f14tomcatrc.startup_cleanup'
+_cleanup_zero_streak = 0
+_cleanup_closed_names = []
 _bridge_revision = 'v24_restartable_event_bridge'
 with open(__file__, 'rb') as _source_stream:
     _loaded_source_sha256 = hashlib.sha256(_source_stream.read()).hexdigest()
@@ -2561,6 +2564,12 @@ def build_project_revision():
         review=json.load(stream).get('review','project')
     if review=='source_spar_v10':
         return build_source_spar_review_v10()
+    if review=='joint_sections_v80':
+        path=os.path.join(os.path.dirname(__file__),'F14JointKeySections_v80.py')
+        spec=importlib.util.spec_from_file_location('f14_joint_sections_v80',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
     if review=='joint_bridge_v79':
         path=os.path.join(os.path.dirname(__file__),'F14CarbonSweepJointKeys_v79.py')
         spec=importlib.util.spec_from_file_location('f14_joint_bridge_v79',path)
@@ -2666,8 +2675,33 @@ class BuildRequestHandler(adsk.core.CustomEventHandler):
         with open(os.path.join(os.path.dirname(__file__),'F14_build_response.json'),'w',encoding='utf-8') as stream:
             json.dump(response,stream,indent=2)
 
+class StartupCleanupHandler(adsk.core.CustomEventHandler):
+    def notify(self,args):
+        global _cleanup_zero_streak,_cleanup_closed_names
+        closed=[]
+        try:
+            docs=[_app.documents.item(i) for i in range(_app.documents.count)]
+            for doc in docs:
+                name=doc.name or ''
+                if name.startswith('F14_') or name.startswith('F14 '):
+                    try:
+                        doc.close(False)
+                        closed.append(name)
+                    except:
+                        pass
+            if closed:
+                _cleanup_zero_streak=0
+                _cleanup_closed_names.extend(closed)
+            else:
+                _cleanup_zero_streak+=1
+            with open(os.path.join(os.path.dirname(__file__),'F14_startup_cleanup.json'),'w',encoding='utf-8') as stream:
+                json.dump({'zero_streak':_cleanup_zero_streak,'closed_names':_cleanup_closed_names[-100:]},stream,indent=2)
+        except:
+            pass
+
+
 def start_build_requests():
-    global _worker_stop
+    global _worker_stop,_cleanup_zero_streak
     # Each worker retains its own stop token, even if Fusion reuses this module.
     _worker_stop=threading.Event()
     shutdown_token=_worker_stop
@@ -2675,7 +2709,22 @@ def start_build_requests():
     handler=BuildRequestHandler()
     event.add(handler)
     _handlers.append(handler)
+    cleanup_event=_app.registerCustomEvent(_cleanup_event_id)
+    cleanup_handler=StartupCleanupHandler()
+    cleanup_event.add(cleanup_handler)
+    _handlers.append(cleanup_handler)
+    _cleanup_zero_streak=0
     def poll():
+        # Close only stale recovered F14 tabs before any new CAD request.
+        for _ in range(300):
+            if shutdown_token.wait(1.0):
+                return
+            try:
+                _app.fireCustomEvent(_cleanup_event_id,'{}')
+            except:
+                pass
+            if _cleanup_zero_streak>=5:
+                break
         previous=None
         path=os.path.join(os.path.dirname(__file__),'F14_build_request.json')
         while not shutdown_token.wait(1.0):
@@ -2730,5 +2779,9 @@ def stop(context):
     _worker_stop.set()
     if _app:
         _app.unregisterCustomEvent(_event_id)
+        try:
+            _app.unregisterCustomEvent(_cleanup_event_id)
+        except:
+            pass
     _handlers.clear()
     _created=False

@@ -1,0 +1,91 @@
+{
+  "status": "V81_WING_JOINT_TORSION_LOAD_REQUIREMENT_SCREEN",
+  "source_files": [
+    "NASA_F14_basic_wing_v08.json",
+    "F14_v64_section_audit.json",
+    "native_span_load_screen_v66.json",
+    "F14_v79_carbon_sweep_keys_audit.json",
+    "F14_v80_key_section_audit.json"
+  ],
+  "scale_factor_model_mm_per_source_in": 1.1697428086486623,
+  "joint_y_mm": 363.9687853,
+  "local_geometry": {
+    "leading_edge_x_mm": 666.49351916994,
+    "trailing_edge_x_mm": 745.7750137477273,
+    "local_chord_mm": 79.28149457778727,
+    "quarter_chord_x_mm": 686.3138928143868,
+    "mid_chord_x_mm": 706.1342664588336,
+    "spar_x_mm": 690.2779671799674
+  },
+  "governing_load_case": {
+    "mass_kg": 1.2,
+    "load_factor": 8,
+    "assigned_side_fraction": 0.7,
+    "uniform_load_N_per_mm": 0.2188129473390386,
+    "tip_y_mm": 405.0,
+    "outboard_force_from_joint_N": 8.97816102140789
+  },
+  "key_geometry": {
+    "interior_min_area_mm2": 166.35069682684747,
+    "min_area_y_mm": 366.75,
+    "key_centroid_x_mm": 710.5060905328248,
+    "spar_to_key_centroid_lever_mm": 20.228123352857438,
+    "raw_boundary_min_excluded_as_slice_edge_artifact": true,
+    "v79_volume_retained_fraction": 0.9614528271670122
+  },
+  "torsion_cases": [
+    {
+      "case": "quarter_chord",
+      "aero_arm_mm": 3.9640743655805863,
+      "torsion_Nmm": 35.59009795501783,
+      "key_resultant_force_N": 1.759436470412385,
+      "required_average_key_shear_MPa": 0.010576670275350648,
+      "required_with_SF2_MPa": 0.021153340550701297,
+      "required_with_SF3_MPa": 0.031730010826051945
+    },
+    {
+      "case": "mid_chord",
+      "aero_arm_mm": 15.856299278866231,
+      "torsion_Nmm": 142.36040812929485,
+      "key_resultant_force_N": 7.037746687914326,
+      "required_average_key_shear_MPa": 0.04230668594817992,
+      "required_with_SF2_MPa": 0.08461337189635984,
+      "required_with_SF3_MPa": 0.12692005784453975
+    },
+    {
+      "case": "worst_airfoil_edge",
+      "aero_arm_mm": 55.49704656775987,
+      "torsion_Nmm": 498.2614202979202,
+      "key_resultant_force_N": 24.632113004567746,
+      "required_average_key_shear_MPa": 0.14807339839524106,
+      "required_with_SF2_MPa": 0.2961467967904821,
+      "required_with_SF3_MPa": 0.4442201951857232
+    },
+    {
+      "case": "worst_airfoil_edge_x1.5_dynamic",
+      "aero_arm_mm": 55.49704656775987,
+      "torsion_Nmm": 747.3921304468803,
+      "key_resultant_force_N": 36.94816950685162,
+      "required_average_key_shear_MPa": 0.2221100975928616,
+      "required_with_SF2_MPa": 0.4442201951857232,
+      "required_with_SF3_MPa": 0.6663302927785848
+    }
+  ],
+  "interpretation": [
+    "The printed v79 key is not credited for primary wing bending; continuous carbon remains the primary bending path.",
+    "Average key shear is a load requirement only, not an allowable or a release value.",
+    "The worst-airfoil-edge case deliberately puts the entire outboard resultant at the most adverse local airfoil edge and is much more conservative than quarter-chord loading.",
+    "A physical printed coupon and selected material/orientation are required before assigning a shear allowable."
+  ],
+  "gates": {
+    "geometry_candidate_pass": true,
+    "minimum_key_section_verified_geometrically": true,
+    "torsion_load_requirement_established": true,
+    "material_allowable_verified": false,
+    "fit_coupon_verified": false,
+    "torsion_transfer_verified": false,
+    "structural_capacity_verified": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
