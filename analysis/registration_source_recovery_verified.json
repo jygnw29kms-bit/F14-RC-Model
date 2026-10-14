@@ -1,0 +1,15 @@
+{
+  "status": "EXACT_REGISTRATION_RASTER_PROVENANCE_RECOVERED",
+  "pdf": "references/UPC_F14_Structure_Report.pdf",
+  "pdf_sha256": "49393a9ef94e1952eb361fc53e202b5fc4431445f280ba3d6f1c1c0e768996d6",
+  "pdf_one_based_page": 31,
+  "pdf_image_xref": 92,
+  "image": "references/UPC_Figure3_15_source_exact.png",
+  "image_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "matches_EF_registration_source": true,
+  "exact_registration_source_recovered": true,
+  "absolute_aircraft_Z_verified": false,
+  "continuous_EDF_clearance_verified": false,
+  "CAD_installation_allowed": false,
+  "print_release": false
+}
