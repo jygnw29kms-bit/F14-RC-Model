@@ -1,0 +1,8 @@
+{
+    "sha256":  "75d4801b4a1148a0faa836aa846e9aee25e622c769ac118838fecf1023051a42",
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_INSERT_SWEEP_CLEARED_v83.f3d",
+    "insert_y_max_mm":  366.9687853,
+    "skin_gap_target_mm":  0.15,
+    "skin_gap_candidate_max_mm":  0.3,
+    "inner_rib_target_gap_mm":  0.22
+}

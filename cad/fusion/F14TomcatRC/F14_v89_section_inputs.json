@@ -1,0 +1,11 @@
+{
+    "skin_clearance_mm":  0.165,
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_INSERT_MFG_CLEARANCE_REFINED_v88.f3d",
+    "verify_step_mm":  0.05,
+    "target_axial_gap_mm":  0.22,
+    "carbon_target_mm":  0.1,
+    "sha256":  "3a1f278efb308fccc0d0122369f16cfebcb40ba22f67cad837b61b1cdf4a0f29",
+    "carbon_clearance_mm":  0.105,
+    "skin_target_mm":  0.15,
+    "insertion_mm":  5
+}

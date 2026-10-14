@@ -1,0 +1,1384 @@
+{
+  "status": "V85_INSERT_BOND_INTERFACE_SCREEN",
+  "source": {
+    "sha256": "75d4801b4a1148a0faa836aa846e9aee25e622c769ac118838fecf1023051a42",
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_INSERT_SWEEP_CLEARED_v83.f3d",
+    "insert_y_max_mm": 366.9687853,
+    "skin_gap_target_mm": 0.15,
+    "skin_gap_candidate_max_mm": 0.3,
+    "inner_rib_target_gap_mm": 0.22
+  },
+  "insert_region_face_count": 168,
+  "insert_region_total_area_mm2": 781.8117406854253,
+  "skin_candidate_area_mm2_le_0p30_gap": 698.3655456224158,
+  "skin_gap_area_bins_mm2": {
+    "0_0.10": 0.0,
+    "0.10_0.20": 698.3655456224158,
+    "0.20_0.30": 0.0,
+    "gt_0.30": 83.44619506300975
+  },
+  "inner_rib_near_area_mm2_le_0p30_gap": 781.7173818892195,
+  "minimum_skin_gap_mm": 0.13086408696543614,
+  "maximum_skin_gap_within_candidate_mm": 0.17090229014755048,
+  "minimum_carbon_gap_mm": 0.045637110941491345,
+  "minimum_inner_rib_gap_mm": 0.21999999158992978,
+  "torsion_requirement": {
+    "worst_dynamic_torsion_Nmm": 747.3921304468803,
+    "equivalent_key_force_with_SF3_N": 110.84450852055485,
+    "required_average_bond_shear_if_all_candidate_skin_area_used_MPa": 0.15871989850496573
+  },
+  "faces": [
+    {
+      "face_index": 0,
+      "sample_y_mm": 364.8787852296027,
+      "area_mm2": 15.552351637634626,
+      "skin_gap_mm": 1.3655288928500997,
+      "inner_rib_gap_mm": 0.22000000000033992,
+      "nearest_carbon_gap_mm": 0.10000000000001634
+    },
+    {
+      "face_index": 1,
+      "sample_y_mm": 364.8787913369153,
+      "area_mm2": 27.008062660487198,
+      "skin_gap_mm": 2.013606516100183,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.30177850298154485
+    },
+    {
+      "face_index": 2,
+      "sample_y_mm": 361.9887853000001,
+      "area_mm2": 173.51480581596869,
+      "skin_gap_mm": 0.13086408696543614,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.04563711094150891
+    },
+    {
+      "face_index": 3,
+      "sample_y_mm": 364.47878529999997,
+      "area_mm2": 17.272339347130163,
+      "skin_gap_mm": 1.3322424707615173,
+      "inner_rib_gap_mm": 0.21999999999998465,
+      "nearest_carbon_gap_mm": 0.10058249685372081
+    },
+    {
+      "face_index": 4,
+      "sample_y_mm": 364.86389503640453,
+      "area_mm2": 0.12745040588958892,
+      "skin_gap_mm": 1.0702616147875597,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 1.111965663172393
+    },
+    {
+      "face_index": 5,
+      "sample_y_mm": 364.8787852326533,
+      "area_mm2": 5.393670590600707,
+      "skin_gap_mm": 0.16947414418323858,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 1.2355173222506108
+    },
+    {
+      "face_index": 6,
+      "sample_y_mm": 364.47877564931156,
+      "area_mm2": 0.0028107835615964836,
+      "skin_gap_mm": 1.0703584085462463,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 1.2305770605545205
+    },
+    {
+      "face_index": 7,
+      "sample_y_mm": 364.4788001836863,
+      "area_mm2": 6.735133275675048,
+      "skin_gap_mm": 0.1692133389535225,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 1.2357346784451484
+    },
+    {
+      "face_index": 8,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.032019116071733966,
+      "skin_gap_mm": 3.000469246695656,
+      "inner_rib_gap_mm": 5.202870195734644,
+      "nearest_carbon_gap_mm": 1.23634809846455
+    },
+    {
+      "face_index": 9,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 6.620327886061886e-05,
+      "skin_gap_mm": 3.154377995593814,
+      "inner_rib_gap_mm": 5.2000000000003155,
+      "nearest_carbon_gap_mm": 1.1119658837744615
+    },
+    {
+      "face_index": 10,
+      "sample_y_mm": 364.8639544632146,
+      "area_mm2": 0.12763780539194908,
+      "skin_gap_mm": 1.1726843859209195,
+      "inner_rib_gap_mm": 0.21999999999998465,
+      "nearest_carbon_gap_mm": 1.1119656642524505
+    },
+    {
+      "face_index": 11,
+      "sample_y_mm": 364.8787852326479,
+      "area_mm2": 5.9649794254474715,
+      "skin_gap_mm": 1.17280202607866,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 1.2355173234432644
+    },
+    {
+      "face_index": 12,
+      "sample_y_mm": 364.8787852326481,
+      "area_mm2": 0.1744827764557238,
+      "skin_gap_mm": 1.1396682363115256,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 1.1119658848721952
+    },
+    {
+      "face_index": 13,
+      "sample_y_mm": 364.47878525000226,
+      "area_mm2": 0.006227546760654651,
+      "skin_gap_mm": 1.1714765552001252,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 1.2305770618108662
+    },
+    {
+      "face_index": 14,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.0020157430003820828,
+      "skin_gap_mm": 3.2433755685969374,
+      "inner_rib_gap_mm": 5.200000000000031,
+      "nearest_carbon_gap_mm": 0.09999999999995873
+    },
+    {
+      "face_index": 15,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.0001484686399415699,
+      "skin_gap_mm": 3.298868834170656,
+      "inner_rib_gap_mm": 5.200000000000031,
+      "nearest_carbon_gap_mm": 1.1119658848721952
+    },
+    {
+      "face_index": 17,
+      "sample_y_mm": 364.86389535757326,
+      "area_mm2": 0.12745063263486872,
+      "skin_gap_mm": 1.0863703750529727,
+      "inner_rib_gap_mm": 0.22000000000026887,
+      "nearest_carbon_gap_mm": 0.9884139878394339
+    },
+    {
+      "face_index": 18,
+      "sample_y_mm": 364.87878523265294,
+      "area_mm2": 0.07868903153229959,
+      "skin_gap_mm": 1.073210152011965,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 1.1119658837744615
+    },
+    {
+      "face_index": 19,
+      "sample_y_mm": 364.4787756279371,
+      "area_mm2": 0.002817036898128877,
+      "skin_gap_mm": 1.0864493379410987,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 1.107025225188226
+    },
+    {
+      "face_index": 20,
+      "sample_y_mm": 364.4787749926014,
+      "area_mm2": 0.6098078329858383,
+      "skin_gap_mm": 1.070906093624389,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 1.1119672989146643
+    },
+    {
+      "face_index": 21,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 6.635222045056705e-05,
+      "skin_gap_mm": 3.1593445384695245,
+      "inner_rib_gap_mm": 5.200000000000031,
+      "nearest_carbon_gap_mm": 0.9884141839309274
+    },
+    {
+      "face_index": 22,
+      "sample_y_mm": 364.8639547449002,
+      "area_mm2": 0.1276377299310536,
+      "skin_gap_mm": 1.1395506013034455,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.98841418491153
+    },
+    {
+      "face_index": 23,
+      "sample_y_mm": 364.4787852500025,
+      "area_mm2": 0.006226316248335653,
+      "skin_gap_mm": 1.1383430139512412,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 1.1070238171857252
+    },
+    {
+      "face_index": 24,
+      "sample_y_mm": 364.4787897806997,
+      "area_mm2": 0.6106977007997627,
+      "skin_gap_mm": 1.1686532028529664,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 1.1119673000482737
+    },
+    {
+      "face_index": 25,
+      "sample_y_mm": 364.86389567803343,
+      "area_mm2": 0.12745085985383234,
+      "skin_gap_mm": 1.1020827455051683,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.8648622962517329
+    },
+    {
+      "face_index": 26,
+      "sample_y_mm": 364.87878523265266,
+      "area_mm2": 0.07886422512788896,
+      "skin_gap_mm": 1.08889339600126,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.9884141839309274
+    },
+    {
+      "face_index": 27,
+      "sample_y_mm": 364.47877560656264,
+      "area_mm2": 0.0028232902643640827,
+      "skin_gap_mm": 1.1021617081920085,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.983473373591172
+    },
+    {
+      "face_index": 28,
+      "sample_y_mm": 364.4787749696559,
+      "area_mm2": 0.6098089284279817,
+      "skin_gap_mm": 1.0869982874395787,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.988415447966695
+    },
+    {
+      "face_index": 29,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 6.650116278431507e-05,
+      "skin_gap_mm": 3.164393403228965,
+      "inner_rib_gap_mm": 5.200000000000173,
+      "nearest_carbon_gap_mm": 0.8648624678320481
+    },
+    {
+      "face_index": 30,
+      "sample_y_mm": 364.87878523264794,
+      "area_mm2": 0.17444830232761604,
+      "skin_gap_mm": 1.1065406596284582,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.9884141849115651
+    },
+    {
+      "face_index": 31,
+      "sample_y_mm": 364.863955025782,
+      "area_mm2": 0.12763765448863978,
+      "skin_gap_mm": 1.1064230297791056,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.8648624686946407
+    },
+    {
+      "face_index": 32,
+      "sample_y_mm": 364.47878525000255,
+      "area_mm2": 0.006225085738884687,
+      "skin_gap_mm": 1.1052156857970696,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.9834721165750298
+    },
+    {
+      "face_index": 33,
+      "sample_y_mm": 364.47878977981185,
+      "area_mm2": 0.6106973401599763,
+      "skin_gap_mm": 1.135519785267493,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.9884154489725472
+    },
+    {
+      "face_index": 34,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.00014843935070847178,
+      "skin_gap_mm": 3.285593749148894,
+      "inner_rib_gap_mm": 5.200000000000102,
+      "nearest_carbon_gap_mm": 0.9884141849115651
+    },
+    {
+      "face_index": 35,
+      "sample_y_mm": 364.8638959977873,
+      "area_mm2": 0.1274510875447289,
+      "skin_gap_mm": 1.117825450800371,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.7413105884087896
+    },
+    {
+      "face_index": 36,
+      "sample_y_mm": 364.8787852326521,
+      "area_mm2": 0.07903941956607387,
+      "skin_gap_mm": 1.104606975020573,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.8648624678320481
+    },
+    {
+      "face_index": 37,
+      "sample_y_mm": 364.47877558518826,
+      "area_mm2": 0.0028295436608937285,
+      "skin_gap_mm": 1.1179044132856584,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.8599215057626376
+    },
+    {
+      "face_index": 38,
+      "sample_y_mm": 364.47877494671025,
+      "area_mm2": 0.6098100261288343,
+      "skin_gap_mm": 1.102711871289375,
+      "inner_rib_gap_mm": 0.22000000000026887,
+      "nearest_carbon_gap_mm": 0.8648635807870724
+    },
+    {
+      "face_index": 39,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 6.665010588413752e-05,
+      "skin_gap_mm": 3.1695246566411917,
+      "inner_rib_gap_mm": 5.19999999999996,
+      "nearest_carbon_gap_mm": 0.7413107354787025
+    },
+    {
+      "face_index": 40,
+      "sample_y_mm": 364.8787852326483,
+      "area_mm2": 0.17441382826798585,
+      "skin_gap_mm": 1.0734192962928766,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.864862297101855
+    },
+    {
+      "face_index": 41,
+      "sample_y_mm": 364.86395530586407,
+      "area_mm2": 0.1276375790650468,
+      "skin_gap_mm": 1.073301671610629,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.7413107362216652
+    },
+    {
+      "face_index": 42,
+      "sample_y_mm": 364.47878525000255,
+      "area_mm2": 0.006223855231577883,
+      "skin_gap_mm": 1.0720945710007572,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.8599215066348181
+    },
+    {
+      "face_index": 43,
+      "sample_y_mm": 364.47878977892395,
+      "area_mm2": 0.6106969796075801,
+      "skin_gap_mm": 1.1023925809875963,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.8648635816649798
+    },
+    {
+      "face_index": 44,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.0001484100615385519,
+      "skin_gap_mm": 3.272584671616009,
+      "inner_rib_gap_mm": 5.19999999999996,
+      "nearest_carbon_gap_mm": 0.8648624686946407
+    },
+    {
+      "face_index": 45,
+      "sample_y_mm": 364.8787852326519,
+      "area_mm2": 0.0792146148460242,
+      "skin_gap_mm": 1.1203508888679323,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.7413105884087896
+    },
+    {
+      "face_index": 46,
+      "sample_y_mm": 364.8638963168389,
+      "area_mm2": 0.12745131570636334,
+      "skin_gap_mm": 1.1335984907357939,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.6177589868703048
+    },
+    {
+      "face_index": 47,
+      "sample_y_mm": 364.4787749237644,
+      "area_mm2": 0.6098111260885363,
+      "skin_gap_mm": 1.1184557899740768,
+      "inner_rib_gap_mm": 0.2199999999999136,
+      "nearest_carbon_gap_mm": 0.7413116973771969
+    },
+    {
+      "face_index": 48,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 6.679904971943439e-05,
+      "skin_gap_mm": 3.1747383595103655,
+      "inner_rib_gap_mm": 5.19999999999996,
+      "nearest_carbon_gap_mm": 0.6177589868703048
+    },
+    {
+      "face_index": 49,
+      "sample_y_mm": 364.8787852326485,
+      "area_mm2": 0.17437935427643356,
+      "skin_gap_mm": 1.0403041465677325,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.741310589142006
+    },
+    {
+      "face_index": 50,
+      "sample_y_mm": 364.86395558514926,
+      "area_mm2": 0.1276375036590983,
+      "skin_gap_mm": 1.0401865270616046,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.6177589874916719
+    },
+    {
+      "face_index": 51,
+      "sample_y_mm": 364.4787852500026,
+      "area_mm2": 0.006222624726957129,
+      "skin_gap_mm": 1.0389796698255473,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.7363696224467589
+    },
+    {
+      "face_index": 52,
+      "sample_y_mm": 364.4787897780362,
+      "area_mm2": 0.6106966191411567,
+      "skin_gap_mm": 1.0692715902766816,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.7413116981258149
+    },
+    {
+      "face_index": 53,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.00014838077240993456,
+      "skin_gap_mm": 3.2598446088350377,
+      "inner_rib_gap_mm": 5.19999999999996,
+      "nearest_carbon_gap_mm": 0.7413107362216652
+    },
+    {
+      "face_index": 54,
+      "sample_y_mm": 364.8638966351911,
+      "area_mm2": 0.12745154434087158,
+      "skin_gap_mm": 1.1494018651079192,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.49420712395998756
+    },
+    {
+      "face_index": 55,
+      "sample_y_mm": 364.8787852326515,
+      "area_mm2": 0.07938981096855106,
+      "skin_gap_mm": 1.1361251373403605,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.6177589868703048
+    },
+    {
+      "face_index": 56,
+      "sample_y_mm": 364.4787755424392,
+      "area_mm2": 0.0028420505442015224,
+      "skin_gap_mm": 1.149480827189318,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.6128177214122463
+    },
+    {
+      "face_index": 57,
+      "sample_y_mm": 364.4787749008185,
+      "area_mm2": 0.6098122283075719,
+      "skin_gap_mm": 1.134230043290868,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.6177597977355036
+    },
+    {
+      "face_index": 58,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 6.694799432593545e-05,
+      "skin_gap_mm": 3.1800345667069156,
+      "inner_rib_gap_mm": 5.19999999999996,
+      "nearest_carbon_gap_mm": 0.4942072220065621
+    },
+    {
+      "face_index": 59,
+      "sample_y_mm": 364.87878523264845,
+      "area_mm2": 0.1743448803528003,
+      "skin_gap_mm": 1.0071952107161293,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.6177589874916894
+    },
+    {
+      "face_index": 60,
+      "sample_y_mm": 364.8639558636405,
+      "area_mm2": 0.12763742827142738,
+      "skin_gap_mm": 1.0070775963947838,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.4942072225056272
+    },
+    {
+      "face_index": 61,
+      "sample_y_mm": 364.47878525000283,
+      "area_mm2": 0.006221394224494771,
+      "skin_gap_mm": 1.005870982534403,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.6128177220270197
+    },
+    {
+      "face_index": 62,
+      "sample_y_mm": 364.4787897771485,
+      "area_mm2": 0.6106962587634414,
+      "skin_gap_mm": 1.0361568133977057,
+      "inner_rib_gap_mm": 0.22000000000026887,
+      "nearest_carbon_gap_mm": 0.6177597983552453
+    },
+    {
+      "face_index": 63,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.00014835148334455163,
+      "skin_gap_mm": 3.247376548933861,
+      "inner_rib_gap_mm": 5.200000000000031,
+      "nearest_carbon_gap_mm": 0.6177589874916894
+    },
+    {
+      "face_index": 64,
+      "sample_y_mm": 364.8638969528465,
+      "area_mm2": 0.12745177311619962,
+      "skin_gap_mm": 1.165235573712686,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.3706553673526641
+    },
+    {
+      "face_index": 65,
+      "sample_y_mm": 364.87878523265135,
+      "area_mm2": 0.07956500793328307,
+      "skin_gap_mm": 1.1519297202344874,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.49420712395998756
+    },
+    {
+      "face_index": 66,
+      "sample_y_mm": 364.47877551265384,
+      "area_mm2": 0.002848304035757935,
+      "skin_gap_mm": 1.1653145355916184,
+      "inner_rib_gap_mm": 0.21999999158992978,
+      "nearest_carbon_gap_mm": 0.4892651510738957
+    },
+    {
+      "face_index": 67,
+      "sample_y_mm": 364.47877487787264,
+      "area_mm2": 0.6098133327853296,
+      "skin_gap_mm": 1.150034631036271,
+      "inner_rib_gap_mm": 0.22000000000033992,
+      "nearest_carbon_gap_mm": 0.4942078818623734
+    },
+    {
+      "face_index": 68,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 6.709693967511735e-05,
+      "skin_gap_mm": 3.1854133272029084,
+      "inner_rib_gap_mm": 5.19999999999996,
+      "nearest_carbon_gap_mm": 0.3706554408877671
+    },
+    {
+      "face_index": 69,
+      "sample_y_mm": 364.8787852326487,
+      "area_mm2": 0.17431040649752164,
+      "skin_gap_mm": 0.9740924890007425,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.49420712445317044
+    },
+    {
+      "face_index": 70,
+      "sample_y_mm": 364.8639561413415,
+      "area_mm2": 0.1276373525707478,
+      "skin_gap_mm": 0.9739748798731961,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.37065544126349637
+    },
+    {
+      "face_index": 71,
+      "sample_y_mm": 364.4787852415925,
+      "area_mm2": 0.006220163735200789,
+      "skin_gap_mm": 0.9727685088071951,
+      "inner_rib_gap_mm": 0.21999999158992978,
+      "nearest_carbon_gap_mm": 0.4892658032973787
+    },
+    {
+      "face_index": 72,
+      "sample_y_mm": 364.4787897762604,
+      "area_mm2": 0.6106958984727684,
+      "skin_gap_mm": 1.0030482506134806,
+      "inner_rib_gap_mm": 0.22000000000033992,
+      "nearest_carbon_gap_mm": 0.49420788235322394
+    },
+    {
+      "face_index": 73,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.00014832219431208242,
+      "skin_gap_mm": 3.2351834580302836,
+      "inner_rib_gap_mm": 5.200000000000031,
+      "nearest_carbon_gap_mm": 0.4942072225056272
+    },
+    {
+      "face_index": 74,
+      "sample_y_mm": 364.8638971057488,
+      "area_mm2": 0.12745201720392518,
+      "skin_gap_mm": 1.181099616345212,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.2471035944900805
+    },
+    {
+      "face_index": 75,
+      "sample_y_mm": 364.87878523222895,
+      "area_mm2": 0.0797422965810423,
+      "skin_gap_mm": 1.1677646373460375,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.3706553673526641
+    },
+    {
+      "face_index": 76,
+      "sample_y_mm": 364.47877533532284,
+      "area_mm2": 0.00285483111519019,
+      "skin_gap_mm": 1.1811785780213753,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.3657133693050705
+    },
+    {
+      "face_index": 77,
+      "sample_y_mm": 364.47877484651667,
+      "area_mm2": 0.6098144192938572,
+      "skin_gap_mm": 1.165869553006019,
+      "inner_rib_gap_mm": 0.21999999999998465,
+      "nearest_carbon_gap_mm": 0.3706559463430511
+    },
+    {
+      "face_index": 78,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 6.724588578076536e-05,
+      "skin_gap_mm": 3.190852057148325,
+      "inner_rib_gap_mm": 5.200000000000031,
+      "nearest_carbon_gap_mm": 0.24710364351376474
+    },
+    {
+      "face_index": 79,
+      "sample_y_mm": 364.87878523222713,
+      "area_mm2": 0.17427584900970688,
+      "skin_gap_mm": 0.9409964870963601,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.3706554412636517
+    },
+    {
+      "face_index": 80,
+      "sample_y_mm": 364.8639564321776,
+      "area_mm2": 0.1276372833990457,
+      "skin_gap_mm": 0.9408788831642462,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.24710364376526162
+    },
+    {
+      "face_index": 81,
+      "sample_y_mm": 364.4787897669625,
+      "area_mm2": 0.6106955180348109,
+      "skin_gap_mm": 0.9699459021056318,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.37065594670642255
+    },
+    {
+      "face_index": 82,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.00014829290534382395,
+      "skin_gap_mm": 3.222929548975102,
+      "inner_rib_gap_mm": 5.19999999999996,
+      "nearest_carbon_gap_mm": 0.3706554412636517
+    },
+    {
+      "face_index": 83,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.00014826361641769444,
+      "skin_gap_mm": 3.210896180927771,
+      "inner_rib_gap_mm": 5.200000000000031,
+      "nearest_carbon_gap_mm": 0.24710364376526162
+    },
+    {
+      "face_index": 85,
+      "sample_y_mm": 364.8787852309127,
+      "area_mm2": 0.07993055946233579,
+      "skin_gap_mm": 1.183629888470223,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.2471035944900805
+    },
+    {
+      "face_index": 86,
+      "sample_y_mm": 364.8638969087668,
+      "area_mm2": 0.12745224157018992,
+      "skin_gap_mm": 1.196993992799952,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.12355182988453739
+    },
+    {
+      "face_index": 87,
+      "sample_y_mm": 364.47877464263576,
+      "area_mm2": 0.6098156006402627,
+      "skin_gap_mm": 1.1817348089953843,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.24710398735548425
+    },
+    {
+      "face_index": 88,
+      "sample_y_mm": 364.8639567517284,
+      "area_mm2": 0.12763720803332385,
+      "skin_gap_mm": 0.9077901722937398,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.12355180549767619
+    },
+    {
+      "face_index": 89,
+      "sample_y_mm": 364.87878523091183,
+      "area_mm2": 0.17424084572436724,
+      "skin_gap_mm": 0.9079077710215877,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.2471039875942213
+    },
+    {
+      "face_index": 90,
+      "sample_y_mm": 364.47878524819515,
+      "area_mm2": 0.006217663302709741,
+      "skin_gap_mm": 0.9065843733988848,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.24216190874490814
+    },
+    {
+      "face_index": 91,
+      "sample_y_mm": 364.4787897910467,
+      "area_mm2": 0.6106951857706941,
+      "skin_gap_mm": 0.9368503162809156,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.24710398759406604
+    },
+    {
+      "face_index": 92,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.00014823432755022348,
+      "skin_gap_mm": 3.1991670454759586,
+      "inner_rib_gap_mm": 5.19999999999996,
+      "nearest_carbon_gap_mm": 0.12355183001083803
+    },
+    {
+      "face_index": 93,
+      "sample_y_mm": 364.87642894070893,
+      "area_mm2": 0.04486091401987559,
+      "skin_gap_mm": 1.2129187028709003,
+      "inner_rib_gap_mm": 0.22000000000019782,
+      "nearest_carbon_gap_mm": 0.10000000000005617
+    },
+    {
+      "face_index": 94,
+      "sample_y_mm": 364.8787852287339,
+      "area_mm2": 0.08013189798100362,
+      "skin_gap_mm": 1.1995254734014897,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.1235518298845725
+    },
+    {
+      "face_index": 95,
+      "sample_y_mm": 364.47877392440637,
+      "area_mm2": 0.0028694871021617075,
+      "skin_gap_mm": 1.2129976641408038,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.1186097570012648
+    },
+    {
+      "face_index": 96,
+      "sample_y_mm": 364.4787740589185,
+      "area_mm2": 0.6098168578749263,
+      "skin_gap_mm": 1.1976303987987134,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.12355200515398894
+    },
+    {
+      "face_index": 97,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 6.739483263586499e-05,
+      "skin_gap_mm": 3.19624212052864,
+      "inner_rib_gap_mm": 5.199999999999818,
+      "nearest_carbon_gap_mm": 0.1235518298845725
+    },
+    {
+      "face_index": 98,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 1.0597554273523164e-05,
+      "skin_gap_mm": 3.201710940296855,
+      "inner_rib_gap_mm": 5.200000000000244,
+      "nearest_carbon_gap_mm": 0.09999999999983548
+    },
+    {
+      "face_index": 99,
+      "sample_y_mm": 364.8787852287343,
+      "area_mm2": 0.1742053213781701,
+      "skin_gap_mm": 0.8748263032422263,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.12355183001083803
+    },
+    {
+      "face_index": 100,
+      "sample_y_mm": 364.87645585189006,
+      "area_mm2": 0.044925664252460085,
+      "skin_gap_mm": 0.8747087097273364,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.09999999999987193
+    },
+    {
+      "face_index": 101,
+      "sample_y_mm": 364.4787852459838,
+      "area_mm2": 0.006216367760724246,
+      "skin_gap_mm": 0.8735031947521672,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.11860975712237166
+    },
+    {
+      "face_index": 102,
+      "sample_y_mm": 364.47878983905287,
+      "area_mm2": 0.6106948162620321,
+      "skin_gap_mm": 0.9037620158495262,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.12355200527152208
+    },
+    {
+      "face_index": 103,
+      "sample_y_mm": 364.4887853,
+      "area_mm2": 0.6062275208806622,
+      "skin_gap_mm": 1.2144034198331872,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.04563711099196865
+    },
+    {
+      "face_index": 104,
+      "sample_y_mm": 364.4887730306741,
+      "area_mm2": 0.24874839863270132,
+      "skin_gap_mm": 1.2135563222099712,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.0456371109919862
+    },
+    {
+      "face_index": 105,
+      "sample_y_mm": 364.47877479974323,
+      "area_mm2": 0.0028618797533883624,
+      "skin_gap_mm": 1.197072954273128,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.2421619085112771
+    },
+    {
+      "face_index": 106,
+      "sample_y_mm": 364.47877556381366,
+      "area_mm2": 0.0028357970873966534,
+      "skin_gap_mm": 1.1336774530192573,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.7363696217031619
+    },
+    {
+      "face_index": 107,
+      "sample_y_mm": 366.98878530000013,
+      "area_mm2": 0.04443621404893877,
+      "skin_gap_mm": 3.020668341264532,
+      "inner_rib_gap_mm": 5.220109590940139,
+      "nearest_carbon_gap_mm": 0.10120832526229215
+    },
+    {
+      "face_index": 108,
+      "sample_y_mm": 366.98878530000013,
+      "area_mm2": 0.0006591486236382423,
+      "skin_gap_mm": 3.1665929490262945,
+      "inner_rib_gap_mm": 5.220000000000056,
+      "nearest_carbon_gap_mm": 0.09505792651628878
+    },
+    {
+      "face_index": 109,
+      "sample_y_mm": 366.98878530000013,
+      "area_mm2": 0.0005778308531480281,
+      "skin_gap_mm": 3.22053438535187,
+      "inner_rib_gap_mm": 5.220000000000198,
+      "nearest_carbon_gap_mm": 0.09505792652135836
+    },
+    {
+      "face_index": 110,
+      "sample_y_mm": 364.4787998197139,
+      "area_mm2": 7.8825958990633,
+      "skin_gap_mm": 0.1692133389535225,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 2.476910042323107
+    },
+    {
+      "face_index": 111,
+      "sample_y_mm": 364.4787967335216,
+      "area_mm2": 7.886181619794565,
+      "skin_gap_mm": 0.1695935351243617,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 4.0276741063563595
+    },
+    {
+      "face_index": 112,
+      "sample_y_mm": 364.47879430428054,
+      "area_mm2": 7.886105524610917,
+      "skin_gap_mm": 0.16988391054401025,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 5.578905377586635
+    },
+    {
+      "face_index": 113,
+      "sample_y_mm": 364.478790871604,
+      "area_mm2": 7.887731686865288,
+      "skin_gap_mm": 0.17008782811643824,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 7.1299148269391175
+    },
+    {
+      "face_index": 114,
+      "sample_y_mm": 364.4787878455851,
+      "area_mm2": 7.891554358670517,
+      "skin_gap_mm": 0.1703985373467527,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 8.668711864414918
+    },
+    {
+      "face_index": 115,
+      "sample_y_mm": 364.4787863837196,
+      "area_mm2": 7.886384126809684,
+      "skin_gap_mm": 0.17055930602429198,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 10.183162086871851
+    },
+    {
+      "face_index": 116,
+      "sample_y_mm": 364.47877631933216,
+      "area_mm2": 15.794853448584412,
+      "skin_gap_mm": 0.1706922210289602,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 11.696332654041461
+    },
+    {
+      "face_index": 117,
+      "sample_y_mm": 364.4787664877124,
+      "area_mm2": 15.799270659610421,
+      "skin_gap_mm": 0.1707667020050362,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 14.725910643335352
+    },
+    {
+      "face_index": 118,
+      "sample_y_mm": 364.4787554307035,
+      "area_mm2": 15.809988961708582,
+      "skin_gap_mm": 0.17090229014755048,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 17.75491661584177
+    },
+    {
+      "face_index": 119,
+      "sample_y_mm": 364.4787472456349,
+      "area_mm2": 15.824465316331437,
+      "skin_gap_mm": 0.17080591837020723,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 20.78443692534158
+    },
+    {
+      "face_index": 120,
+      "sample_y_mm": 364.4787635422006,
+      "area_mm2": 7.90913144375086,
+      "skin_gap_mm": 0.17080591837020723,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 23.81695109432277
+    },
+    {
+      "face_index": 121,
+      "sample_y_mm": 364.4787616799084,
+      "area_mm2": 7.916703879991871,
+      "skin_gap_mm": 0.17070892901776658,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 25.33296902726224
+    },
+    {
+      "face_index": 122,
+      "sample_y_mm": 364.4787600923584,
+      "area_mm2": 7.920993847109775,
+      "skin_gap_mm": 0.17051727514624754,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 26.85065831061547
+    },
+    {
+      "face_index": 123,
+      "sample_y_mm": 364.4787589275479,
+      "area_mm2": 7.921433510641671,
+      "skin_gap_mm": 0.17027389187253858,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 28.369393173684223
+    },
+    {
+      "face_index": 124,
+      "sample_y_mm": 364.47875739171184,
+      "area_mm2": 7.924258834280639,
+      "skin_gap_mm": 0.17007080796714677,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 29.888438405539407
+    },
+    {
+      "face_index": 125,
+      "sample_y_mm": 364.4787565624151,
+      "area_mm2": 7.929409775994464,
+      "skin_gap_mm": 0.1697635568641097,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 31.40813765976538
+    },
+    {
+      "face_index": 126,
+      "sample_y_mm": 364.47875666308505,
+      "area_mm2": 7.93003057402166,
+      "skin_gap_mm": 0.16945558003043956,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 32.92905550498089
+    },
+    {
+      "face_index": 127,
+      "sample_y_mm": 364.4787559395919,
+      "area_mm2": 7.932927691217717,
+      "skin_gap_mm": 0.16912140141548482,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 34.448097396094305
+    },
+    {
+      "face_index": 128,
+      "sample_y_mm": 364.4787554397185,
+      "area_mm2": 7.933920594392768,
+      "skin_gap_mm": 0.16875392728280142,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 35.95754914205492
+    },
+    {
+      "face_index": 129,
+      "sample_y_mm": 364.47875493355025,
+      "area_mm2": 7.938382718662897,
+      "skin_gap_mm": 0.16838124869755358,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 37.468067834076464
+    },
+    {
+      "face_index": 130,
+      "sample_y_mm": 364.47875536838455,
+      "area_mm2": 7.937149068651975,
+      "skin_gap_mm": 0.16794921066122573,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 38.98049510095538
+    },
+    {
+      "face_index": 131,
+      "sample_y_mm": 364.4886246921942,
+      "area_mm2": 0.9840513658527459,
+      "skin_gap_mm": 0.14629619589332685,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 40.493636115525966
+    },
+    {
+      "face_index": 132,
+      "sample_y_mm": 364.4787852495456,
+      "area_mm2": 0.006218926850383696,
+      "skin_gap_mm": 0.9396727988041403,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 0.3657133696759341
+    },
+    {
+      "face_index": 133,
+      "sample_y_mm": 364.48878995421956,
+      "area_mm2": 0.24910523934544956,
+      "skin_gap_mm": 0.8717668607167782,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.045637110941491345
+    },
+    {
+      "face_index": 134,
+      "sample_y_mm": 364.4887853,
+      "area_mm2": 50.586148177524294,
+      "skin_gap_mm": 0.13086408696543614,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.10120832526272197
+    },
+    {
+      "face_index": 135,
+      "sample_y_mm": 364.4887853,
+      "area_mm2": 0.7055779898648912,
+      "skin_gap_mm": 0.7296264483958339,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.04563711094150891
+    },
+    {
+      "face_index": 136,
+      "sample_y_mm": 364.48878403852865,
+      "area_mm2": 0.9203851551846621,
+      "skin_gap_mm": 0.1462491350207541,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 40.47573071162509
+    },
+    {
+      "face_index": 137,
+      "sample_y_mm": 364.4887737597412,
+      "area_mm2": 7.963991494662556,
+      "skin_gap_mm": 0.14614532851341702,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 38.9588864535068
+    },
+    {
+      "face_index": 138,
+      "sample_y_mm": 364.4887729014696,
+      "area_mm2": 7.971848999510973,
+      "skin_gap_mm": 0.14597604735014705,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 37.4409584645023
+    },
+    {
+      "face_index": 139,
+      "sample_y_mm": 364.488771737789,
+      "area_mm2": 7.966351102216448,
+      "skin_gap_mm": 0.1458178565647934,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 35.924670026258056
+    },
+    {
+      "face_index": 140,
+      "sample_y_mm": 364.4887710017952,
+      "area_mm2": 7.96219014677349,
+      "skin_gap_mm": 0.14564550516793667,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 34.40905375043303
+    },
+    {
+      "face_index": 141,
+      "sample_y_mm": 364.48876935984396,
+      "area_mm2": 7.9567259695265316,
+      "skin_gap_mm": 0.14543611994061678,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 32.89414885945173
+    },
+    {
+      "face_index": 142,
+      "sample_y_mm": 364.48876800273155,
+      "area_mm2": 7.95244305401588,
+      "skin_gap_mm": 0.14522868665605257,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 31.379465022882993
+    },
+    {
+      "face_index": 143,
+      "sample_y_mm": 364.48876697778326,
+      "area_mm2": 7.949834348077534,
+      "skin_gap_mm": 0.1450036061303115,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 29.86482550852571
+    },
+    {
+      "face_index": 144,
+      "sample_y_mm": 364.4887646464646,
+      "area_mm2": 7.944517546699403,
+      "skin_gap_mm": 0.14474825071292974,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 28.350670013181556
+    },
+    {
+      "face_index": 145,
+      "sample_y_mm": 364.48876326771233,
+      "area_mm2": 7.9377608348482935,
+      "skin_gap_mm": 0.1444553278696071,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 26.837203402396792
+    },
+    {
+      "face_index": 146,
+      "sample_y_mm": 364.4887612990442,
+      "area_mm2": 7.933907755911325,
+      "skin_gap_mm": 0.1441801249053979,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 25.323786272186027
+    },
+    {
+      "face_index": 147,
+      "sample_y_mm": 364.48875962688817,
+      "area_mm2": 7.923757366683263,
+      "skin_gap_mm": 0.14376908352537093,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 23.812257691362092
+    },
+    {
+      "face_index": 148,
+      "sample_y_mm": 364.48872638111754,
+      "area_mm2": 15.846986358711328,
+      "skin_gap_mm": 0.14303060963901634,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 20.789207708668286
+    },
+    {
+      "face_index": 149,
+      "sample_y_mm": 364.48871730073336,
+      "area_mm2": 15.821656297568538,
+      "skin_gap_mm": 0.1422086486769301,
+      "inner_rib_gap_mm": 0.22000000000012676,
+      "nearest_carbon_gap_mm": 17.771033429826467
+    },
+    {
+      "face_index": 150,
+      "sample_y_mm": 364.48870703448654,
+      "area_mm2": 15.803845607326267,
+      "skin_gap_mm": 0.14128860241788216,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 14.756625606455685
+    },
+    {
+      "face_index": 151,
+      "sample_y_mm": 364.4886962949766,
+      "area_mm2": 15.796744337982863,
+      "skin_gap_mm": 0.14043303452591996,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 11.74456425613945
+    },
+    {
+      "face_index": 152,
+      "sample_y_mm": 364.4887367109856,
+      "area_mm2": 7.878837565396625,
+      "skin_gap_mm": 0.13989487469837847,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 10.243069699201143
+    },
+    {
+      "face_index": 153,
+      "sample_y_mm": 364.4887338170988,
+      "area_mm2": 7.884905866227651,
+      "skin_gap_mm": 0.13932059328889762,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 8.741364318590914
+    },
+    {
+      "face_index": 154,
+      "sample_y_mm": 364.4887314746413,
+      "area_mm2": 7.884115864265379,
+      "skin_gap_mm": 0.13876114030109044,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 7.241428098648734
+    },
+    {
+      "face_index": 155,
+      "sample_y_mm": 364.48872865647786,
+      "area_mm2": 7.88272597981672,
+      "skin_gap_mm": 0.13814147417390016,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 5.744919617211454
+    },
+    {
+      "face_index": 156,
+      "sample_y_mm": 364.48872620308236,
+      "area_mm2": 7.880764675234234,
+      "skin_gap_mm": 0.13751130369813713,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 4.255122329387865
+    },
+    {
+      "face_index": 157,
+      "sample_y_mm": 364.48884033671646,
+      "area_mm2": 7.880771001408313,
+      "skin_gap_mm": 0.13685018914639396,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 2.782111611542428
+    },
+    {
+      "face_index": 158,
+      "sample_y_mm": 364.4888335535752,
+      "area_mm2": 7.882865588190155,
+      "skin_gap_mm": 0.13619974962868364,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 1.3800926071004351
+    },
+    {
+      "face_index": 159,
+      "sample_y_mm": 364.48882356286475,
+      "area_mm2": 7.884407261318301,
+      "skin_gap_mm": 0.13549307341715058,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.6971195651244866
+    },
+    {
+      "face_index": 160,
+      "sample_y_mm": 364.4888125882345,
+      "area_mm2": 7.8858103158354345,
+      "skin_gap_mm": 0.13477646770203788,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.6430411720777482
+    },
+    {
+      "face_index": 161,
+      "sample_y_mm": 364.4887994053406,
+      "area_mm2": 7.889377828849678,
+      "skin_gap_mm": 0.1340260326970191,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.5725480974635931
+    },
+    {
+      "face_index": 162,
+      "sample_y_mm": 364.48878436748214,
+      "area_mm2": 7.895411858442677,
+      "skin_gap_mm": 0.13329735482684432,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.48582981362000865
+    },
+    {
+      "face_index": 163,
+      "sample_y_mm": 364.4887673692607,
+      "area_mm2": 7.900843366721139,
+      "skin_gap_mm": 0.13250879776212682,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.3837121306653296
+    },
+    {
+      "face_index": 164,
+      "sample_y_mm": 364.4887486184814,
+      "area_mm2": 7.906672388090611,
+      "skin_gap_mm": 0.1317144569781523,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.2646362142650267
+    },
+    {
+      "face_index": 165,
+      "sample_y_mm": 364.48872859150435,
+      "area_mm2": 7.914886060322833,
+      "skin_gap_mm": 0.13088184445637385,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.12858801927983768
+    },
+    {
+      "face_index": 166,
+      "sample_y_mm": 364.48895997269733,
+      "area_mm2": 1.30292086020958,
+      "skin_gap_mm": 0.13086408696543614,
+      "inner_rib_gap_mm": 0.2200000000000557,
+      "nearest_carbon_gap_mm": 0.10120832526272197
+    },
+    {
+      "face_index": 169,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 0.012650477208417336,
+      "skin_gap_mm": 3.027438743970396,
+      "inner_rib_gap_mm": 5.200000000000031,
+      "nearest_carbon_gap_mm": 0.10000000000001363
+    },
+    {
+      "face_index": 170,
+      "sample_y_mm": 366.9687853,
+      "area_mm2": 2.325322841506324e-05,
+      "skin_gap_mm": 3.1885842200657795,
+      "inner_rib_gap_mm": 5.199999999999818,
+      "nearest_carbon_gap_mm": 0.09999999999987193
+    },
+    {
+      "face_index": 225,
+      "sample_y_mm": 366.9787311934994,
+      "area_mm2": 3.0060795458849455e-05,
+      "skin_gap_mm": 3.0006727958771657,
+      "inner_rib_gap_mm": 5.214324903349952,
+      "nearest_carbon_gap_mm": 40.63482637654399
+    }
+  ],
+  "geometry_bond_area_established": true,
+  "adhesive_allowable_verified": false,
+  "coupon_verified": false,
+  "torsion_transfer_verified": false,
+  "structural_capacity_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "f0e1c688ab2393e0fe83a9681dd9fce837ef085c96640ee54c83ede4d4751ca5"
+}

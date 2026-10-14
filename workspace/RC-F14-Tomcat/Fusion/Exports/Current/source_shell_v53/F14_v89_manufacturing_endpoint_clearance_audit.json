@@ -1,0 +1,1148 @@
+{
+  "status": "V89_MANUFACTURING_ENDPOINT_CLEARANCE",
+  "source": {
+    "skin_clearance_mm": 0.165,
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_INSERT_MFG_CLEARANCE_REFINED_v88.f3d",
+    "verify_step_mm": 0.05,
+    "target_axial_gap_mm": 0.22,
+    "carbon_target_mm": 0.1,
+    "sha256": "3a1f278efb308fccc0d0122369f16cfebcb40ba22f67cad837b61b1cdf4a0f29",
+    "carbon_clearance_mm": 0.105,
+    "skin_target_mm": 0.15,
+    "insertion_mm": 5
+  },
+  "endpoint_boolean_operations": 72,
+  "insert": {
+    "before_cm3": 0.9633250178061723,
+    "after_cm3": 0.9613118940943164,
+    "incremental_retained_fraction": 0.9979102341632936,
+    "axial_gap_mm": 0.22000968141887747
+  },
+  "verification": [
+    {
+      "outboard_translation_mm": 5.0,
+      "skin_gap_mm": 3.024114254590729,
+      "minimum_carbon_gap_mm": 0.10793553189061951,
+      "carbon_gaps_mm": [
+        0.11115206985915115,
+        0.10793553189061951,
+        0.12862203354241794
+      ],
+      "inner_rib_gap_mm": 5.220000373464205
+    },
+    {
+      "outboard_translation_mm": 4.95,
+      "skin_gap_mm": 2.9741834214204133,
+      "minimum_carbon_gap_mm": 0.1072808065968902,
+      "carbon_gaps_mm": [
+        0.1141728804964367,
+        0.1072808065968902,
+        0.1415784855807772
+      ],
+      "inner_rib_gap_mm": 5.170000377425101
+    },
+    {
+      "outboard_translation_mm": 4.9,
+      "skin_gap_mm": 2.9242549518955503,
+      "minimum_carbon_gap_mm": 0.10793794446705378,
+      "carbon_gaps_mm": [
+        0.11453780910633247,
+        0.10793794446705378,
+        0.15453493776073632
+      ],
+      "inner_rib_gap_mm": 5.120000381463431
+    },
+    {
+      "outboard_translation_mm": 4.8500000000000005,
+      "skin_gap_mm": 2.8743289691890253,
+      "minimum_carbon_gap_mm": 0.10728383117688231,
+      "carbon_gaps_mm": [
+        0.11491469872016427,
+        0.10728383117688231,
+        0.16749139008202077
+      ],
+      "inner_rib_gap_mm": 5.0700003855813405
+    },
+    {
+      "outboard_translation_mm": 4.800000000000001,
+      "skin_gap_mm": 2.8244056051764304,
+      "minimum_carbon_gap_mm": 0.10794035703249483,
+      "carbon_gaps_mm": [
+        0.11453734191779501,
+        0.10794035703249483,
+        0.18044784254519797
+      ],
+      "inner_rib_gap_mm": 5.02000038978128
+    },
+    {
+      "outboard_translation_mm": 4.75,
+      "skin_gap_mm": 2.774485001218356,
+      "minimum_carbon_gap_mm": 0.10728685574404458,
+      "carbon_gaps_mm": [
+        0.11491435118714144,
+        0.10728685574404458,
+        0.1934042951497189
+      ],
+      "inner_rib_gap_mm": 4.970000394065796
+    },
+    {
+      "outboard_translation_mm": 4.7,
+      "skin_gap_mm": 2.724567309027039,
+      "minimum_carbon_gap_mm": 0.10794276958700619,
+      "carbon_gaps_mm": [
+        0.11453687472892937,
+        0.10794276958700619,
+        0.20636074789554676
+      ],
+      "inner_rib_gap_mm": 4.920000398437324
+    },
+    {
+      "outboard_translation_mm": 4.65,
+      "skin_gap_mm": 2.6746526916316493,
+      "minimum_carbon_gap_mm": 0.10728988029827244,
+      "carbon_gaps_mm": [
+        0.11491400365409138,
+        0.10728988029827244,
+        0.21931720078326739
+      ],
+      "inner_rib_gap_mm": 4.870000402898688
+    },
+    {
+      "outboard_translation_mm": 4.6000000000000005,
+      "skin_gap_mm": 2.6247413244519198,
+      "minimum_carbon_gap_mm": 0.10794518213045756,
+      "carbon_gaps_mm": [
+        0.1145364075396122,
+        0.10794518213045756,
+        0.2322736538123133
+      ],
+      "inner_rib_gap_mm": 4.820000407452469
+    },
+    {
+      "outboard_translation_mm": 4.55,
+      "skin_gap_mm": 2.5748333964975645,
+      "minimum_carbon_gap_mm": 0.10729290483948173,
+      "carbon_gaps_mm": [
+        0.11491365612053886,
+        0.10729290483948173,
+        0.24523010698299597
+      ],
+      "inner_rib_gap_mm": 4.7700004121017905
+    },
+    {
+      "outboard_translation_mm": 4.5,
+      "skin_gap_mm": 2.5249291117084374,
+      "minimum_carbon_gap_mm": 0.10794759466290751,
+      "carbon_gaps_mm": [
+        0.1145359403498733,
+        0.10794759466290751,
+        0.2581865602950039
+      ],
+      "inner_rib_gap_mm": 4.720000416849756
+    },
+    {
+      "outboard_translation_mm": 4.45,
+      "skin_gap_mm": 2.475028690457065,
+      "minimum_carbon_gap_mm": 0.10729592936790767,
+      "carbon_gaps_mm": [
+        0.11491330858654225,
+        0.10729592936790767,
+        0.2711430137485933
+      ],
+      "inner_rib_gap_mm": 4.670000421699318
+    },
+    {
+      "outboard_translation_mm": 4.4,
+      "skin_gap_mm": 2.4251323712364306,
+      "minimum_carbon_gap_mm": 0.10795000718452497,
+      "carbon_gaps_mm": [
+        0.11453547315955104,
+        0.10795000718452497,
+        0.28409946734393815
+      ],
+      "inner_rib_gap_mm": 4.620000426653777
+    },
+    {
+      "outboard_translation_mm": 4.3500000000000005,
+      "skin_gap_mm": 2.375240412558851,
+      "minimum_carbon_gap_mm": 0.10729895388335986,
+      "carbon_gaps_mm": [
+        0.11491296105213239,
+        0.10729895388335986,
+        0.29705592108050793
+      ],
+      "inner_rib_gap_mm": 4.5700004317166485
+    },
+    {
+      "outboard_translation_mm": 4.3,
+      "skin_gap_mm": 2.3253530950988095,
+      "minimum_carbon_gap_mm": 0.1079524196950519,
+      "carbon_gaps_mm": [
+        0.11453500596892952,
+        0.1079524196950519,
+        0.3100123749587964
+      ],
+      "inner_rib_gap_mm": 4.520000436891532
+    },
+    {
+      "outboard_translation_mm": 4.25,
+      "skin_gap_mm": 2.2754707241182355,
+      "minimum_carbon_gap_mm": 0.10730197838584668,
+      "carbon_gaps_mm": [
+        0.11491261351734608,
+        0.10730197838584668,
+        0.3229688289787216
+      ],
+      "inner_rib_gap_mm": 4.470000442182114
+    },
+    {
+      "outboard_translation_mm": 4.2,
+      "skin_gap_mm": 2.22559363221427,
+      "minimum_carbon_gap_mm": 0.10795483219455293,
+      "carbon_gaps_mm": [
+        0.11453453877779365,
+        0.10795483219455293,
+        0.3359252831398164
+      ],
+      "inner_rib_gap_mm": 4.420000447592607
+    },
+    {
+      "outboard_translation_mm": 4.15,
+      "skin_gap_mm": 2.175722182445549,
+      "minimum_carbon_gap_mm": 0.10730500287552519,
+      "carbon_gaps_mm": [
+        0.11491226598210999,
+        0.10730500287552519,
+        0.3488817374429412
+      ],
+      "inner_rib_gap_mm": 4.3700004531267655
+    },
+    {
+      "outboard_translation_mm": 4.1000000000000005,
+      "skin_gap_mm": 2.125856771896721,
+      "minimum_carbon_gap_mm": 0.10795724468325364,
+      "carbon_gaps_mm": [
+        0.11453407158610776,
+        0.10795724468325364,
+        0.3618381918872172
+      ],
+      "inner_rib_gap_mm": 4.32000045878903
+    },
+    {
+      "outboard_translation_mm": 4.05,
+      "skin_gap_mm": 2.075997835753371,
+      "minimum_carbon_gap_mm": 0.10730802735230491,
+      "carbon_gaps_mm": [
+        0.11491191844654718,
+        0.10730802735230491,
+        0.3747946464731484
+      ],
+      "inner_rib_gap_mm": 4.270000464584044
+    },
+    {
+      "outboard_translation_mm": 4.0,
+      "skin_gap_mm": 2.0261458519774957,
+      "minimum_carbon_gap_mm": 0.10795965716089533,
+      "carbon_gaps_mm": [
+        0.11453360439422736,
+        0.10795965716089533,
+        0.3877511012005422
+      ],
+      "inner_rib_gap_mm": 4.220000470516235
+    },
+    {
+      "outboard_translation_mm": 3.95,
+      "skin_gap_mm": 1.9763013466875792,
+      "minimum_carbon_gap_mm": 0.10731105181609438,
+      "carbon_gaps_mm": [
+        0.11491157091061237,
+        0.10731105181609438,
+        0.40070755606951736
+      ],
+      "inner_rib_gap_mm": 4.170000476590684
+    },
+    {
+      "outboard_translation_mm": 3.9000000000000004,
+      "skin_gap_mm": 1.9264649003687215,
+      "minimum_carbon_gap_mm": 0.10796206962758294,
+      "carbon_gaps_mm": [
+        0.11453313720154168,
+        0.10796206962758294,
+        0.41366401107985473
+      ],
+      "inner_rib_gap_mm": 4.120000482812644
+    },
+    {
+      "outboard_translation_mm": 3.85,
+      "skin_gap_mm": 1.8766371550689729,
+      "minimum_carbon_gap_mm": 0.10731407626701531,
+      "carbon_gaps_mm": [
+        0.11491122337407489,
+        0.10731407626701531,
+        0.4266204662319292
+      ],
+      "inner_rib_gap_mm": 4.070000489187263
+    },
+    {
+      "outboard_translation_mm": 3.8000000000000003,
+      "skin_gap_mm": 1.8268188227679152,
+      "minimum_carbon_gap_mm": 0.10796448208327973,
+      "carbon_gaps_mm": [
+        0.11453267000860337,
+        0.10796448208327973,
+        0.4395769215254846
+      ],
+      "inner_rib_gap_mm": 4.020000495720745
+    },
+    {
+      "outboard_translation_mm": 3.75,
+      "skin_gap_mm": 1.7770106951428724,
+      "minimum_carbon_gap_mm": 0.10731710070507611,
+      "carbon_gaps_mm": [
+        0.11491087583721678,
+        0.10731710070507611,
+        0.45253337696048423
+      ],
+      "inner_rib_gap_mm": 3.970000502418651
+    },
+    {
+      "outboard_translation_mm": 3.7,
+      "skin_gap_mm": 1.7272136550194515,
+      "minimum_carbon_gap_mm": 0.1079668945280482,
+      "carbon_gaps_mm": [
+        0.1145322028152662,
+        0.1079668945280482,
+        0.46548983253713894
+      ],
+      "inner_rib_gap_mm": 3.920000509287423
+    },
+    {
+      "outboard_translation_mm": 3.6500000000000004,
+      "skin_gap_mm": 1.6774286898462019,
+      "minimum_carbon_gap_mm": 0.10732012513004437,
+      "carbon_gaps_mm": [
+        0.11491052830005115,
+        0.10732012513004437,
+        0.4784462882552195
+      ],
+      "inner_rib_gap_mm": 3.8700005163337545
+    },
+    {
+      "outboard_translation_mm": 3.6,
+      "skin_gap_mm": 1.6276569076290757,
+      "minimum_carbon_gap_mm": 0.10796930696166818,
+      "carbon_gaps_mm": [
+        0.11453173562139805,
+        0.10796930696166818,
+        0.4914027441148998
+      ],
+      "inner_rib_gap_mm": 3.8200005235645436
+    },
+    {
+      "outboard_translation_mm": 3.5500000000000003,
+      "skin_gap_mm": 1.5778995558607911,
+      "minimum_carbon_gap_mm": 0.10732314954226102,
+      "carbon_gaps_mm": [
+        0.11491018076235343,
+        0.10732314954226102,
+        0.5043592001159791
+      ],
+      "inner_rib_gap_mm": 3.7700005309869877
+    },
+    {
+      "outboard_translation_mm": 3.5,
+      "skin_gap_mm": 1.5281580441234313,
+      "minimum_carbon_gap_mm": 0.10797171938448898,
+      "carbon_gaps_mm": [
+        0.1145312684270449,
+        0.10797171938448898,
+        0.5173156562589144
+      ],
+      "inner_rib_gap_mm": 3.720000538609175
+    },
+    {
+      "outboard_translation_mm": 3.45,
+      "skin_gap_mm": 1.4784339712183363,
+      "minimum_carbon_gap_mm": 0.10732617394147972,
+      "carbon_gaps_mm": [
+        0.11490983322431148,
+        0.10732617394147972,
+        0.5302721125430193
+      ],
+      "inner_rib_gap_mm": 3.670000546438836
+    },
+    {
+      "outboard_translation_mm": 3.4000000000000004,
+      "skin_gap_mm": 1.4287291579182868,
+      "minimum_carbon_gap_mm": 0.1079741317962517,
+      "carbon_gaps_mm": [
+        0.11453080123237336,
+        0.1079741317962517,
+        0.543228568968843
+      ],
+      "inner_rib_gap_mm": 3.62000055448493
+    },
+    {
+      "outboard_translation_mm": 3.35,
+      "skin_gap_mm": 1.3790456867410708,
+      "minimum_carbon_gap_mm": 0.10732919832763016,
+      "carbon_gaps_mm": [
+        0.11490948568576966,
+        0.10732919832763016,
+        0.5561850255360655
+      ],
+      "inner_rib_gap_mm": 3.570000562756332
+    },
+    {
+      "outboard_translation_mm": 3.3000000000000003,
+      "skin_gap_mm": 1.3293859505623016,
+      "minimum_carbon_gap_mm": 0.10797654419688081,
+      "carbon_gaps_mm": [
+        0.11453033403708222,
+        0.10797654419688081,
+        0.5691414822449884
+      ],
+      "inner_rib_gap_mm": 3.520000571262718
+    },
+    {
+      "outboard_translation_mm": 3.25,
+      "skin_gap_mm": 1.2797527124354524,
+      "minimum_carbon_gap_mm": 0.1073322227011248,
+      "carbon_gaps_mm": [
+        0.11490913814694237,
+        0.1073322227011248,
+        0.5820979390952551
+      ],
+      "inner_rib_gap_mm": 3.4700005800143168
+    },
+    {
+      "outboard_translation_mm": 3.2,
+      "skin_gap_mm": 1.2301491797416944,
+      "minimum_carbon_gap_mm": 0.1079789565867121,
+      "carbon_gaps_mm": [
+        0.11452986684142899,
+        0.1079789565867121,
+        0.59505439608714
+      ],
+      "inner_rib_gap_mm": 3.4200005890217384
+    },
+    {
+      "outboard_translation_mm": 3.1500000000000004,
+      "skin_gap_mm": 1.1805790968218215,
+      "minimum_carbon_gap_mm": 0.10733524706146202,
+      "carbon_gaps_mm": [
+        0.11490879060778265,
+        0.10733524706146202,
+        0.6080108532205243
+      ],
+      "inner_rib_gap_mm": 3.370000598296442
+    },
+    {
+      "outboard_translation_mm": 3.1,
+      "skin_gap_mm": 1.131046861666616,
+      "minimum_carbon_gap_mm": 0.10798136896545311,
+      "carbon_gaps_mm": [
+        0.11452939964535931,
+        0.10798136896545311,
+        0.6209673104954716
+      ],
+      "inner_rib_gap_mm": 3.320000607850577
+    },
+    {
+      "outboard_translation_mm": 3.0500000000000003,
+      "skin_gap_mm": 1.0815576742453679,
+      "minimum_carbon_gap_mm": 0.10733827140901833,
+      "carbon_gaps_mm": [
+        0.11490844306799244,
+        0.10733827140901833,
+        0.6339237679119001
+      ],
+      "inner_rib_gap_mm": 3.2700006176968137
+    },
+    {
+      "outboard_translation_mm": 3.0,
+      "skin_gap_mm": 1.0321177268860726,
+      "minimum_carbon_gap_mm": 0.10798378133330429,
+      "carbon_gaps_mm": [
+        0.11452893244876404,
+        0.10798378133330429,
+        0.6468802254700838
+      ],
+      "inner_rib_gap_mm": 3.220000627848836
+    },
+    {
+      "outboard_translation_mm": 2.95,
+      "skin_gap_mm": 0.9827344512052973,
+      "minimum_carbon_gap_mm": 0.10734129574352563,
+      "carbon_gaps_mm": [
+        0.11490809552791076,
+        0.10734129574352563,
+        0.6598366831695562
+      ],
+      "inner_rib_gap_mm": 3.1700006383211825
+    },
+    {
+      "outboard_translation_mm": 2.9000000000000004,
+      "skin_gap_mm": 0.9334168420481863,
+      "minimum_carbon_gap_mm": 0.10798619369001457,
+      "carbon_gaps_mm": [
+        0.11452846525175278,
+        0.10798619369001457,
+        0.6727931410105649
+      ],
+      "inner_rib_gap_mm": 3.1200006491291794
+    },
+    {
+      "outboard_translation_mm": 2.85,
+      "skin_gap_mm": 0.8841758877352969,
+      "minimum_carbon_gap_mm": 0.10734432006531117,
+      "carbon_gaps_mm": [
+        0.1149077479874673,
+        0.10734432006531117,
+        0.685749598993155
+      ],
+      "inner_rib_gap_mm": 3.0700006602890846
+    },
+    {
+      "outboard_translation_mm": 2.8000000000000003,
+      "skin_gap_mm": 0.8350251492535614,
+      "minimum_carbon_gap_mm": 0.10798860603593788,
+      "carbon_gaps_mm": [
+        0.11452799805427913,
+        0.10798860603593788,
+        0.6987060571171892
+      ],
+      "inner_rib_gap_mm": 3.0200006718187398
+    },
+    {
+      "outboard_translation_mm": 2.75,
+      "skin_gap_mm": 0.7859815515133571,
+      "minimum_carbon_gap_mm": 0.10734734437402188,
+      "carbon_gaps_mm": [
+        0.11490740044660179,
+        0.10734734437402188,
+        0.7116625153828786
+      ],
+      "inner_rib_gap_mm": 2.970000683736453
+    },
+    {
+      "outboard_translation_mm": 2.7,
+      "skin_gap_mm": 0.7370664819082717,
+      "minimum_carbon_gap_mm": 0.10799101837078282,
+      "carbon_gaps_mm": [
+        0.11452753085629103,
+        0.10799101837078282,
+        0.7246189737901494
+      ],
+      "inner_rib_gap_mm": 2.9200006960623064
+    },
+    {
+      "outboard_translation_mm": 2.6500000000000004,
+      "skin_gap_mm": 0.6883073428244426,
+      "minimum_carbon_gap_mm": 0.10735036866984306,
+      "carbon_gaps_mm": [
+        0.11490705290510991,
+        0.10735036866984306,
+        0.7375754323387271
+      ],
+      "inner_rib_gap_mm": 2.8700007088176345
+    },
+    {
+      "outboard_translation_mm": 2.6,
+      "skin_gap_mm": 0.6397397889917842,
+      "minimum_carbon_gap_mm": 0.10799343069460511,
+      "carbon_gaps_mm": [
+        0.11452706365791002,
+        0.10799343069460511,
+        0.7505318910290972
+      ],
+      "inner_rib_gap_mm": 2.82000072202535
+    },
+    {
+      "outboard_translation_mm": 2.5500000000000003,
+      "skin_gap_mm": 0.5914110220926267,
+      "minimum_carbon_gap_mm": 0.10735339295268401,
+      "carbon_gaps_mm": [
+        0.11490670536348263,
+        0.10735339295268401,
+        0.7634883498607558
+      ],
+      "inner_rib_gap_mm": 2.7700007357098055
+    },
+    {
+      "outboard_translation_mm": 2.5,
+      "skin_gap_mm": 0.5433847591586396,
+      "minimum_carbon_gap_mm": 0.10799584300741426,
+      "carbon_gaps_mm": [
+        0.1145265964591727,
+        0.10799584300741426,
+        0.7764448088340694
+      ],
+      "inner_rib_gap_mm": 2.7200007498973666
+    },
+    {
+      "outboard_translation_mm": 2.45,
+      "skin_gap_mm": 0.495748924274517,
+      "minimum_carbon_gap_mm": 0.10735641722260222,
+      "carbon_gaps_mm": [
+        0.11490635782145214,
+        0.10735641722260222,
+        0.7894012679488089
+      ],
+      "inner_rib_gap_mm": 2.670000764616298
+    },
+    {
+      "outboard_translation_mm": 2.4000000000000004,
+      "skin_gap_mm": 0.44862790300278066,
+      "minimum_carbon_gap_mm": 0.10799825530921392,
+      "carbon_gaps_mm": [
+        0.11452612925982555,
+        0.10799825530921392,
+        0.8023577272052035
+      ],
+      "inner_rib_gap_mm": 2.620000779897093
+    },
+    {
+      "outboard_translation_mm": 2.35,
+      "skin_gap_mm": 0.40220267874050253,
+      "minimum_carbon_gap_mm": 0.10735944147957105,
+      "carbon_gaps_mm": [
+        0.1149060102788367,
+        0.10735944147957105,
+        0.815314186603161
+      ],
+      "inner_rib_gap_mm": 2.5700007957724678
+    },
+    {
+      "outboard_translation_mm": 2.3000000000000003,
+      "skin_gap_mm": 0.35674499887078154,
+      "minimum_carbon_gap_mm": 0.10800066759999247,
+      "carbon_gaps_mm": [
+        0.11452566206010553,
+        0.10800066759999247,
+        0.828270646142618
+      ],
+      "inner_rib_gap_mm": 2.520000812277675
+    },
+    {
+      "outboard_translation_mm": 2.25,
+      "skin_gap_mm": 0.31267713963878996,
+      "minimum_carbon_gap_mm": 0.10736246572364097,
+      "carbon_gaps_mm": [
+        0.11490566273596202,
+        0.10736246572364097,
+        0.8412271058234189
+      ],
+      "inner_rib_gap_mm": 2.470000829451255
+    },
+    {
+      "outboard_translation_mm": 2.2,
+      "skin_gap_mm": 0.2706787636406261,
+      "minimum_carbon_gap_mm": 0.10800307987993481,
+      "carbon_gaps_mm": [
+        0.1145251948394872,
+        0.10800307987993481,
+        0.8541835656459568
+      ],
+      "inner_rib_gap_mm": 2.4200008473344132
+    },
+    {
+      "outboard_translation_mm": 2.15,
+      "skin_gap_mm": 0.23187710650115823,
+      "minimum_carbon_gap_mm": 0.10736548995476342,
+      "carbon_gaps_mm": [
+        0.11490531516191718,
+        0.10736548995476342,
+        0.8671400256099387
+      ],
+      "inner_rib_gap_mm": 2.370000865972278
+    },
+    {
+      "outboard_translation_mm": 2.1,
+      "skin_gap_mm": 0.19815900674138293,
+      "minimum_carbon_gap_mm": 0.10800549214878823,
+      "carbon_gaps_mm": [
+        0.11452471365787269,
+        0.10800549214878823,
+        0.8800964857152647
+      ],
+      "inner_rib_gap_mm": 2.3200008854132808
+    },
+    {
+      "outboard_translation_mm": 2.0500000000000003,
+      "skin_gap_mm": 0.17253113164308992,
+      "minimum_carbon_gap_mm": 0.10736851417291862,
+      "carbon_gaps_mm": [
+        0.11490495399162892,
+        0.10736851417291862,
+        0.8930529459623276
+      ],
+      "inner_rib_gap_mm": 2.27000090571086
+    },
+    {
+      "outboard_translation_mm": 2.0,
+      "skin_gap_mm": 0.15895593986823886,
+      "minimum_carbon_gap_mm": 0.10800790440657457,
+      "carbon_gaps_mm": [
+        0.11452419001298395,
+        0.10800790440657457,
+        0.9060094063510455
+      ],
+      "inner_rib_gap_mm": 2.220000926922601
+    },
+    {
+      "outboard_translation_mm": 1.9500000000000002,
+      "skin_gap_mm": 0.15964507355116309,
+      "minimum_carbon_gap_mm": 0.10737153837803688,
+      "carbon_gaps_mm": [
+        0.11490455313714507,
+        0.10737153837803688,
+        0.9189658668810706
+      ],
+      "inner_rib_gap_mm": 2.170000949112058
+    },
+    {
+      "outboard_translation_mm": 1.9000000000000001,
+      "skin_gap_mm": 0.15600896424427493,
+      "minimum_carbon_gap_mm": 0.10801031665328602,
+      "carbon_gaps_mm": [
+        0.11452363751313331,
+        0.10801031665328602,
+        0.9319223275528327
+      ],
+      "inner_rib_gap_mm": 2.120000972347969
+    },
+    {
+      "outboard_translation_mm": 1.85,
+      "skin_gap_mm": 0.15964533682240267,
+      "minimum_carbon_gap_mm": 0.10737456257048081,
+      "carbon_gaps_mm": [
+        0.11490414158564558,
+        0.10737456257048081,
+        0.9448787883659384
+      ],
+      "inner_rib_gap_mm": 2.070000996706533
+    },
+    {
+      "outboard_translation_mm": 1.8,
+      "skin_gap_mm": 0.1560062148980768,
+      "minimum_carbon_gap_mm": 0.10801272888930748,
+      "carbon_gaps_mm": [
+        0.1145230848094605,
+        0.10801272888930748,
+        0.9578352493207445
+      ],
+      "inner_rib_gap_mm": 2.0200010222708924
+    },
+    {
+      "outboard_translation_mm": 1.75,
+      "skin_gap_mm": 0.15964533682240267,
+      "minimum_carbon_gap_mm": 0.10737758674984062,
+      "carbon_gaps_mm": [
+        0.11490373048470685,
+        0.10737758674984062,
+        0.9707917104169682
+      ],
+      "inner_rib_gap_mm": 1.970001049133006
+    },
+    {
+      "outboard_translation_mm": 1.7000000000000002,
+      "skin_gap_mm": 0.1560034655518896,
+      "minimum_carbon_gap_mm": 0.10801514111418718,
+      "carbon_gaps_mm": [
+        0.1145225327109206,
+        0.10801514111418718,
+        0.9837481716639997
+      ],
+      "inner_rib_gap_mm": 1.9200010773941136
+    },
+    {
+      "outboard_translation_mm": 1.6500000000000001,
+      "skin_gap_mm": 0.1596352456220405,
+      "minimum_carbon_gap_mm": 0.10738061091628726,
+      "carbon_gaps_mm": [
+        0.11490331983407447,
+        0.10738061091628726,
+        0.9967046331105883
+      ],
+      "inner_rib_gap_mm": 1.870001107166511
+    },
+    {
+      "outboard_translation_mm": 1.6,
+      "skin_gap_mm": 0.15600071620558525,
+      "minimum_carbon_gap_mm": 0.1080175533280059,
+      "carbon_gaps_mm": [
+        0.11452198121770812,
+        0.1080175533280059,
+        1.0096610947632947
+      ],
+      "inner_rib_gap_mm": 1.820001138574825
+    },
+    {
+      "outboard_translation_mm": 1.55,
+      "skin_gap_mm": 0.15963351042459645,
+      "minimum_carbon_gap_mm": 0.10738363506965948,
+      "carbon_gaps_mm": [
+        0.11490290963413186,
+        0.10738363506965948,
+        1.0226175566221458
+      ],
+      "inner_rib_gap_mm": 1.7700011717575446
+    },
+    {
+      "outboard_translation_mm": 1.5,
+      "skin_gap_mm": 0.15599796685899645,
+      "minimum_carbon_gap_mm": 0.10801996553067973,
+      "carbon_gaps_mm": [
+        0.11452143032975615,
+        0.10801996553067973,
+        1.035574018686611
+      ],
+      "inner_rib_gap_mm": 1.7200012068694917
+    },
+    {
+      "outboard_translation_mm": 1.4500000000000002,
+      "skin_gap_mm": 0.15963177511607185,
+      "minimum_carbon_gap_mm": 0.10738665921016372,
+      "carbon_gaps_mm": [
+        0.1149024998847449,
+        0.10738665921016372,
+        1.0485304809567355
+      ],
+      "inner_rib_gap_mm": 1.6700012440840208
+    },
+    {
+      "outboard_translation_mm": 1.4000000000000001,
+      "skin_gap_mm": 0.1559952175123382,
+      "minimum_carbon_gap_mm": 0.10802237772253939,
+      "carbon_gaps_mm": [
+        0.11452088004696293,
+        0.10802237772253939,
+        1.0614869434322078
+      ],
+      "inner_rib_gap_mm": 1.6200012835956668
+    },
+    {
+      "outboard_translation_mm": 1.35,
+      "skin_gap_mm": 0.15963003969654402,
+      "minimum_carbon_gap_mm": 0.10738968333775849,
+      "carbon_gaps_mm": [
+        0.11490209058592865,
+        0.10738968333775849,
+        1.074443406112817
+      ],
+      "inner_rib_gap_mm": 1.5700013256239762
+    },
+    {
+      "outboard_translation_mm": 1.3,
+      "skin_gap_mm": 0.15599246816540635,
+      "minimum_carbon_gap_mm": 0.1080247899033386,
+      "carbon_gaps_mm": [
+        0.1145203303695573,
+        0.1080247899033386,
+        1.087399868998252
+      ],
+      "inner_rib_gap_mm": 1.5200013704173752
+    },
+    {
+      "outboard_translation_mm": 1.25,
+      "skin_gap_mm": 0.15962830416590068,
+      "minimum_carbon_gap_mm": 0.10739270745231774,
+      "carbon_gaps_mm": [
+        0.11490168173771921,
+        0.10739270745231774,
+        1.1003563320885028
+      ],
+      "inner_rib_gap_mm": 1.4700014182578656
+    },
+    {
+      "outboard_translation_mm": 1.2000000000000002,
+      "skin_gap_mm": 0.1559897188183697,
+      "minimum_carbon_gap_mm": 0.10802720207314591,
+      "carbon_gaps_mm": [
+        0.11451978129731553,
+        0.10802720207314591,
+        1.1133127953832676
+      ],
+      "inner_rib_gap_mm": 1.4200014694673309
+    },
+    {
+      "outboard_translation_mm": 1.1500000000000001,
+      "skin_gap_mm": 0.15962656852433812,
+      "minimum_carbon_gap_mm": 0.10739573155393467,
+      "carbon_gaps_mm": [
+        0.11490127333996578,
+        0.10739573155393467,
+        1.1262692588822074
+      ],
+      "inner_rib_gap_mm": 1.3700015244149266
+    },
+    {
+      "outboard_translation_mm": 1.1,
+      "skin_gap_mm": 0.15598699044098327,
+      "minimum_carbon_gap_mm": 0.10802961423189915,
+      "carbon_gaps_mm": [
+        0.11451923283034027,
+        0.10802961423189915,
+        1.1392257225852027
+      ],
+      "inner_rib_gap_mm": 1.3200015835250611
+    },
+    {
+      "outboard_translation_mm": 1.05,
+      "skin_gap_mm": 0.15962484601084204,
+      "minimum_carbon_gap_mm": 0.10739875564262452,
+      "carbon_gaps_mm": [
+        0.11490086539269448,
+        0.10739875564262452,
+        1.1521821864923174
+      ],
+      "inner_rib_gap_mm": 1.2700016472895304
+    },
+    {
+      "outboard_translation_mm": 1.0,
+      "skin_gap_mm": 0.1559843485941759,
+      "minimum_carbon_gap_mm": 0.10803202637964945,
+      "carbon_gaps_mm": [
+        0.11451868496869663,
+        0.10803202637964945,
+        1.165138650602773
+      ],
+      "inner_rib_gap_mm": 1.220001716280658
+    },
+    {
+      "outboard_translation_mm": 0.9500000000000001,
+      "skin_gap_mm": 0.1596231780222443,
+      "minimum_carbon_gap_mm": 0.10740177971840238,
+      "carbon_gaps_mm": [
+        0.1149004578962427,
+        0.10740177971840238,
+        1.1666295996405047
+      ],
+      "inner_rib_gap_mm": 1.170001791168304
+    },
+    {
+      "outboard_translation_mm": 0.9,
+      "skin_gap_mm": 0.15598170661200503,
+      "minimum_carbon_gap_mm": 0.10803443851642751,
+      "carbon_gaps_mm": [
+        0.11451813771220822,
+        0.10803443851642751,
+        1.163612736340227
+      ],
+      "inner_rib_gap_mm": 1.1200018727426235
+    },
+    {
+      "outboard_translation_mm": 0.8500000000000001,
+      "skin_gap_mm": 0.1596215098474099,
+      "minimum_carbon_gap_mm": 0.10740480378120618,
+      "carbon_gaps_mm": [
+        0.11490005085012779,
+        0.10740480378120618,
+        1.160595943147928
+      ],
+      "inner_rib_gap_mm": 1.0700019619403893
+    },
+    {
+      "outboard_translation_mm": 0.8,
+      "skin_gap_mm": 0.15597906451381394,
+      "minimum_carbon_gap_mm": 0.10803685064213384,
+      "carbon_gaps_mm": [
+        0.11451759106112026,
+        0.10803685064213384,
+        1.1575792200253174
+      ],
+      "inner_rib_gap_mm": 1.0200020598830895
+    },
+    {
+      "outboard_translation_mm": 0.75,
+      "skin_gap_mm": 0.15961984149594266,
+      "minimum_carbon_gap_mm": 0.107407827831016,
+      "carbon_gaps_mm": [
+        0.11489964425472798,
+        0.107407827831016,
+        1.154562566934197
+      ],
+      "inner_rib_gap_mm": 0.9700021679230162
+    },
+    {
+      "outboard_translation_mm": 0.7000000000000001,
+      "skin_gap_mm": 0.1559764222924379,
+      "minimum_carbon_gap_mm": 0.10803926275687624,
+      "carbon_gaps_mm": [
+        0.1145170450152795,
+        0.10803926275687624,
+        1.1515459838362565
+      ],
+      "inner_rib_gap_mm": 0.9200022877062246
+    },
+    {
+      "outboard_translation_mm": 0.65,
+      "skin_gap_mm": 0.15961817296421102,
+      "minimum_carbon_gap_mm": 0.10741085186788234,
+      "carbon_gaps_mm": [
+        0.11489923810988788,
+        0.10741085186788234,
+        1.148529470693252
+      ],
+      "inner_rib_gap_mm": 0.8700024212577161
+    },
+    {
+      "outboard_translation_mm": 0.6000000000000001,
+      "skin_gap_mm": 0.15597377994806613,
+      "minimum_carbon_gap_mm": 0.10804167486048197,
+      "carbon_gaps_mm": [
+        0.11451649957463225,
+        0.10804167486048197,
+        1.1455130274669265
+      ],
+      "inner_rib_gap_mm": 0.8200025710958969
+    },
+    {
+      "outboard_translation_mm": 0.55,
+      "skin_gap_mm": 0.15961650425253412,
+      "minimum_carbon_gap_mm": 0.10741387589172853,
+      "carbon_gaps_mm": [
+        0.11489883241552953,
+        0.10741387589172853,
+        1.1424966541190984
+      ],
+      "inner_rib_gap_mm": 0.7700027403933354
+    },
+    {
+      "outboard_translation_mm": 0.5,
+      "skin_gap_mm": 0.15597113748030927,
+      "minimum_carbon_gap_mm": 0.10804408695316012,
+      "carbon_gaps_mm": [
+        0.11451595473925952,
+        0.10804408695316012,
+        1.1394803506114664
+      ],
+      "inner_rib_gap_mm": 0.7200029332043987
+    },
+    {
+      "outboard_translation_mm": 0.45,
+      "skin_gap_mm": 0.15961483536026808,
+      "minimum_carbon_gap_mm": 0.10741689990263349,
+      "carbon_gaps_mm": [
+        0.11489842717179809,
+        0.10741689990263349,
+        1.1364641169058178
+      ],
+      "inner_rib_gap_mm": 0.6700031547929532
+    },
+    {
+      "outboard_translation_mm": 0.4,
+      "skin_gap_mm": 0.1559684948891088,
+      "minimum_carbon_gap_mm": 0.10804649903476878,
+      "carbon_gaps_mm": [
+        0.11451541050914782,
+        0.10804649903476878,
+        1.1334479529638561
+      ],
+      "inner_rib_gap_mm": 0.6200034121211735
+    },
+    {
+      "outboard_translation_mm": 0.35000000000000003,
+      "skin_gap_mm": 0.1596131662876722,
+      "minimum_carbon_gap_mm": 0.1074435106397913,
+      "carbon_gaps_mm": [
+        0.11489802237847793,
+        0.1074435106397913,
+        1.1304318587473117
+      ],
+      "inner_rib_gap_mm": 0.5700037145943746
+    },
+    {
+      "outboard_translation_mm": 0.30000000000000004,
+      "skin_gap_mm": 0.15596585217434628,
+      "minimum_carbon_gap_mm": 0.10806772487790867,
+      "carbon_gaps_mm": [
+        0.11451486688439462,
+        0.10806772487790867,
+        1.1274158342180556
+      ],
+      "inner_rib_gap_mm": 0.5200040752350175
+    },
+    {
+      "outboard_translation_mm": 0.25,
+      "skin_gap_mm": 0.15961149703449057,
+      "minimum_carbon_gap_mm": 0.10789461596159476,
+      "carbon_gaps_mm": [
+        0.11489761803597576,
+        0.10789461596159476,
+        1.1243998793377559
+      ],
+      "inner_rib_gap_mm": 0.47000451260646714
+    },
+    {
+      "outboard_translation_mm": 0.2,
+      "skin_gap_mm": 0.1559632093359033,
+      "minimum_carbon_gap_mm": 0.10892968731150271,
+      "carbon_gaps_mm": [
+        0.11533858719652149,
+        0.10892968731150271,
+        1.1213839940682098
+      ],
+      "inner_rib_gap_mm": 0.42000505411237454
+    },
+    {
+      "outboard_translation_mm": 0.15000000000000002,
+      "skin_gap_mm": 0.15960982760082326,
+      "minimum_carbon_gap_mm": 0.1113493947445994,
+      "carbon_gaps_mm": [
+        0.11610217356981785,
+        0.1113493947445994,
+        1.11836817837108
+      ],
+      "inner_rib_gap_mm": 0.37000574196827285
+    },
+    {
+      "outboard_translation_mm": 0.1,
+      "skin_gap_mm": 0.15628107697566532,
+      "minimum_carbon_gap_mm": 0.11060636926520352,
+      "carbon_gaps_mm": [
+        0.11717304324789667,
+        0.11060636926520352,
+        1.1153524322082344
+      ],
+      "inner_rib_gap_mm": 0.3200066447731845
+    },
+    {
+      "outboard_translation_mm": 0.05,
+      "skin_gap_mm": 0.15992617712298565,
+      "minimum_carbon_gap_mm": 0.10922970849721098,
+      "carbon_gaps_mm": [
+        0.11415728258996849,
+        0.10922970849721098,
+        1.112336755541279
+      ],
+      "inner_rib_gap_mm": 0.2700078819378652
+    },
+    {
+      "outboard_translation_mm": 0.0,
+      "skin_gap_mm": 0.15634384179801364,
+      "minimum_carbon_gap_mm": 0.10785274411095411,
+      "carbon_gaps_mm": [
+        0.11114159143794819,
+        0.10785274411095411,
+        1.1093258143360658
+      ],
+      "inner_rib_gap_mm": 0.22000968141887747
+    }
+  ],
+  "minimum_skin_gap_mm": 0.1559632093359033,
+  "minimum_carbon_gap_mm": 0.1072808065968902,
+  "minimum_inner_rib_gap_mm": 0.22000968141887747,
+  "skin_clearance_pass": true,
+  "carbon_clearance_pass": true,
+  "axial_gap_pass": true,
+  "manufacturing_clearance_candidate_pass": true,
+  "minimum_section_verified_after_endpoint_clearance": false,
+  "fit_coupon_verified": false,
+  "torsion_capacity_verified": false,
+  "structural_capacity_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "1843ab6a1686063df26d2a32f6ab2be813f0af66c0b66a4eaf79d7eca1f67f04"
+}

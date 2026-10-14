@@ -1,0 +1,12 @@
+{
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_INSERT_MANUFACTURING_CLEARANCE_v87.f3d",
+    "verify_step_mm":  0.05,
+    "carbon_refine_mm":  0.105,
+    "target_axial_gap_mm":  0.22,
+    "carbon_target_mm":  0.1,
+    "skin_refine_mm":  0.165,
+    "skin_target_mm":  0.15,
+    "sha256":  "0bf22bc953f623352298888f5527740bdc8e37d50fd1efc00875e232a439c9e6",
+    "carve_step_mm":  0.1,
+    "insertion_mm":  5
+}
