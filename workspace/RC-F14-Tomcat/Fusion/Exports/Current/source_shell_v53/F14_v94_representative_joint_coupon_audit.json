@@ -1,0 +1,203 @@
+{
+  "status": "V94_REPRESENTATIVE_PRINTED_JOINT_COUPON",
+  "source": {
+    "v89_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_INSERT_MFG_ENDPOINT_CLEARANCE_v89.f3d",
+    "v89_sha256": "9ff359d241e94db15f54967e1212ee99b413ddf16ce9e192729200f17d94cfbe",
+    "v82_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_RIB_KEY_INSERT_v82.f3d",
+    "v82_sha256": "45c2b849a0a8fb58ead5c25f1d86ea60046ce250389e65259f59cb18935a68b6",
+    "joint_y_mm": 363.9687853,
+    "crop_y_min_mm": 343.9687853,
+    "crop_y_max_mm": 383.9687853,
+    "sf3_torsion_Nm": 2.242176391340641,
+    "flight_proof_Nm": 1.1210881956703205
+  },
+  "crop_y_mm": [
+    343.9687853,
+    383.9687853
+  ],
+  "bodies": [
+    {
+      "source_body": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+      "coupon_body": "COUPON_CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+      "volume_cm3": 0.4114090261350031,
+      "bbox_mm": {
+        "x": [
+          679.5038420995194,
+          700.5208077202915
+        ],
+        "y": [
+          343.9687852999999,
+          383.9687852999999
+        ],
+        "z": [
+          181.51964247145793,
+          184.9373629048887
+        ]
+      }
+    },
+    {
+      "source_body": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+      "coupon_body": "COUPON_CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+      "volume_cm3": 0.41140907320455283,
+      "bbox_mm": {
+        "x": [
+          679.5038421016502,
+          700.5208077158699
+        ],
+        "y": [
+          343.9687852999999,
+          383.9687852999999
+        ],
+        "z": [
+          178.16299564557528,
+          180.29541494448773
+        ]
+      }
+    },
+    {
+      "source_body": "CANDIDATE_HOLLOW_WING_R_INNER_NO_JOINTS",
+      "coupon_body": "COUPON_CANDIDATE_HOLLOW_WING_R_INNER_NO_JOINTS",
+      "volume_cm3": 2.557240676081669,
+      "bbox_mm": {
+        "x": [
+          659.2094098758492,
+          745.7750137477273
+        ],
+        "y": [
+          343.9687852999999,
+          363.9687852745362
+        ],
+        "z": [
+          177.632731132042,
+          186.56106570041217
+        ]
+      }
+    },
+    {
+      "source_body": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+      "coupon_body": "COUPON_CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+      "volume_cm3": 0.09671583799356352,
+      "bbox_mm": {
+        "x": [
+          684.512082488326,
+          696.0438223541381
+        ],
+        "y": [
+          343.96878530005597,
+          383.9687853000071
+        ],
+        "z": [
+          179.1629956455749,
+          183.9373629048887
+        ]
+      }
+    },
+    {
+      "source_body": "CANDIDATE_RIB_ZERO_CLEARANCE_-3",
+      "coupon_body": "COUPON_CANDIDATE_RIB_ZERO_CLEARANCE_-3",
+      "volume_cm3": 0.145492876052509,
+      "bbox_mm": {
+        "x": [
+          684.5339042321659,
+          737.8170236984773
+        ],
+        "y": [
+          360.9687853,
+          361.7687853
+        ],
+        "z": [
+          178.70125880732098,
+          184.66195372898494
+        ]
+      }
+    },
+    {
+      "source_body": "CANDIDATE_OUTER_INSERT_MFG_ENDPOINT_CLEAR_v89",
+      "coupon_body": "COUPON_CANDIDATE_OUTER_INSERT_MFG_ENDPOINT_CLEAR_v89",
+      "volume_cm3": 0.9613118940943164,
+      "bbox_mm": {
+        "x": [
+          685.4166340296125,
+          738.1237590612477
+        ],
+        "y": [
+          361.9887853,
+          367.76878529999914
+        ],
+        "z": [
+          178.56358769168833,
+          184.4925904227797
+        ]
+      }
+    },
+    {
+      "source_body": "CANDIDATE_HOLLOW_WING_R_OUTER_NO_JOINTS",
+      "coupon_body": "COUPON_CANDIDATE_HOLLOW_WING_R_OUTER_NO_JOINTS",
+      "volume_cm3": 2.351881153464307,
+      "bbox_mm": {
+        "x": [
+          666.4935191699399,
+          746.6650426104751
+        ],
+        "y": [
+          363.9687852745362,
+          383.9687852999999
+        ],
+        "z": [
+          177.0584127873255,
+          185.44592242268288
+        ]
+      }
+    }
+  ],
+  "assembly_gaps": {
+    "insert_to_inner_skin_mm": 0.15634384179801364,
+    "insert_to_outer_skin_mm": 0.13836669952415664,
+    "insert_to_inner_rib_mm": 0.22000968141887747,
+    "skin_segment_min_gap_mm": 0.0,
+    "insert_to_carbon_mm": [
+      0.11114159143794819,
+      0.10785274411095411,
+      1.1093258143361011
+    ]
+  },
+  "carbon_references": [
+    {
+      "body": "COUPON_CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+      "y_min_mm": 343.9687852999999,
+      "y_max_mm": 383.9687852999999,
+      "span_mm": 40.0
+    },
+    {
+      "body": "COUPON_CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+      "y_min_mm": 343.9687852999999,
+      "y_max_mm": 383.9687852999999,
+      "span_mm": 40.0
+    },
+    {
+      "body": "COUPON_CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+      "y_min_mm": 343.96878530005597,
+      "y_max_mm": 383.9687853000071,
+      "span_mm": 39.999999999951115
+    }
+  ],
+  "printable_stl_files": [
+    "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\representative_joint_coupon_v94_stl\\COUPON_CANDIDATE_HOLLOW_WING_R_INNER_NO_JOINTS.stl",
+    "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\representative_joint_coupon_v94_stl\\COUPON_CANDIDATE_HOLLOW_WING_R_OUTER_NO_JOINTS.stl",
+    "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\representative_joint_coupon_v94_stl\\COUPON_CANDIDATE_OUTER_INSERT_MFG_ENDPOINT_CLEAR_v89.stl",
+    "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\representative_joint_coupon_v94_stl\\COUPON_CANDIDATE_RIB_ZERO_CLEARANCE_-3.stl"
+  ],
+  "test_requirement": {
+    "sacrificial_sf3_torsion_Nm": 2.242176391340641,
+    "flight_article_nondestructive_proof_Nm": 1.1210881956703205
+  },
+  "coordinate_lineage_compatible": true,
+  "geometry_coupon_created": true,
+  "adhesive_process_verified": false,
+  "carbon_material_installed_in_coupon": false,
+  "representative_joint_torsion_verified": false,
+  "structural_capacity_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "8c7cc07b2ca3f7a52b99b7892b13e4f1b646fac2611d5669176803c6ccef7cdb"
+}

@@ -2570,6 +2570,12 @@ def build_project_revision():
         study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
         with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
         return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='representative_joint_coupon_v94':
+        path=os.path.join(os.path.dirname(__file__),'F14RepresentativeJointCoupon_v94.py')
+        spec=importlib.util.spec_from_file_location('f14_representative_joint_coupon_v94',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
     if review=='bond_area_quadrature_v92':
         path=os.path.join(os.path.dirname(__file__),'F14BondAreaQuadrature_v92.py')
         spec=importlib.util.spec_from_file_location('f14_bond_area_quadrature_v92',path)

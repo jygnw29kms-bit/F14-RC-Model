@@ -1,0 +1,11 @@
+{
+    "v89_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_INSERT_MFG_ENDPOINT_CLEARANCE_v89.f3d",
+    "v89_sha256":  "9ff359d241e94db15f54967e1212ee99b413ddf16ce9e192729200f17d94cfbe",
+    "v82_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_RIB_KEY_INSERT_v82.f3d",
+    "v82_sha256":  "45c2b849a0a8fb58ead5c25f1d86ea60046ce250389e65259f59cb18935a68b6",
+    "joint_y_mm":  363.9687853,
+    "crop_y_min_mm":  343.9687853,
+    "crop_y_max_mm":  383.9687853,
+    "sf3_torsion_Nm":  2.242176391340641,
+    "flight_proof_Nm":  1.1210881956703205
+}
