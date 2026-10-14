@@ -1,0 +1,7 @@
+{
+    "expected_outer_face_y_mm":  366.9687853,
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_SELECTIVE_RIB_CLEARANCE_REVIEW_v73.f3d",
+    "sha256":  "cc750963e204bf82e222723f84d5cf73ce2cf23434c095d2836417d40bc759c6",
+    "target_axial_gap_mm":  0.2,
+    "expected_inner_shifted_face_y_mm":  361.9687853
+}
