@@ -1,0 +1,192 @@
+{
+  "status": "V105_MONOLITHIC_LOWER_HARDPOINT_MODULE_GATE",
+  "source": {
+    "sha256": "e80432305f6c942ec4b7cdab9daeef2ea26fa09c0592228c7afa0da756d42656",
+    "sweep_step_deg": 1,
+    "sweep_min_deg": 20,
+    "continuous_margin_required_mm": 0.05,
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v103\\F14_EXTENDED_HARDPOINT_FORK_TAILS_v103.f3d",
+    "sweep_max_deg": 68
+  },
+  "records": [
+    {
+      "side": "R",
+      "module": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+      "volume_cm3": 11.163941921272318,
+      "bbox_mm": {
+        "x": [
+          591.1323905812828,
+          635.1323905812828
+        ],
+        "y": [
+          50.0,
+          137.20927023775283
+        ],
+        "z": [
+          175.09240693460868,
+          187.0924069346087
+        ]
+      },
+      "fuselage_inside_fraction": 0.7679020651372612,
+      "source_preservation": [
+        {
+          "source": "ENG_WINGBOX_FORK_LOWER_R_v31",
+          "missing_from_module_cm3": 0.0,
+          "preserved": true
+        },
+        {
+          "source": "HARDPOINT_TAIL_FRONT_R_v103",
+          "missing_from_module_cm3": 0.0,
+          "preserved": true
+        },
+        {
+          "source": "HARDPOINT_TAIL_REAR_R_v103",
+          "missing_from_module_cm3": 0.0,
+          "preserved": true
+        }
+      ]
+    },
+    {
+      "side": "L",
+      "module": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+      "volume_cm3": 11.163941921272317,
+      "bbox_mm": {
+        "x": [
+          591.1323905812828,
+          635.1323905812828
+        ],
+        "y": [
+          -137.20927023775283,
+          -50.0
+        ],
+        "z": [
+          175.09240693460868,
+          187.0924069346087
+        ]
+      },
+      "fuselage_inside_fraction": 0.7678808096381571,
+      "source_preservation": [
+        {
+          "source": "ENG_WINGBOX_FORK_LOWER_L_v31",
+          "missing_from_module_cm3": 0.0,
+          "preserved": true
+        },
+        {
+          "source": "HARDPOINT_TAIL_FRONT_L_v103",
+          "missing_from_module_cm3": 0.0,
+          "preserved": true
+        },
+        {
+          "source": "HARDPOINT_TAIL_REAR_L_v103",
+          "missing_from_module_cm3": 0.0,
+          "preserved": true
+        }
+      ]
+    }
+  ],
+  "all_source_geometry_preserved": true,
+  "minimum_fuselage_inside_fraction": 0.7678808096381571,
+  "clearance_certificate": [
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "module_side": "R",
+      "minimum_sampled_clearance_mm": 5.523231639225685,
+      "at_sweep_deg": 60.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 2.448867470826765,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "module_side": "L",
+      "minimum_sampled_clearance_mm": 126.40991259688184,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 123.33554842848292,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "module_side": "R",
+      "minimum_sampled_clearance_mm": 2.5,
+      "at_sweep_deg": 20.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 2.1735216435799076,
+      "continuous_pass": true
+    },
+    {
+      "side": "R",
+      "moving_kind": "root_lug",
+      "module_side": "L",
+      "minimum_sampled_clearance_mm": 160.34637372820498,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 160.01989537178488,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "module_side": "R",
+      "minimum_sampled_clearance_mm": 126.40991259688184,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 123.33554842848292,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "module_side": "L",
+      "minimum_sampled_clearance_mm": 5.523231639225685,
+      "at_sweep_deg": 60.0,
+      "moving_rmax_mm": 352.29730094385053,
+      "half_step_motion_bound_mm": 3.07436416839892,
+      "continuous_clearance_lower_bound_mm": 2.448867470826765,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "module_side": "R",
+      "minimum_sampled_clearance_mm": 160.34637372820498,
+      "at_sweep_deg": 68.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 160.01989537178488,
+      "continuous_pass": true
+    },
+    {
+      "side": "L",
+      "moving_kind": "root_lug",
+      "module_side": "L",
+      "minimum_sampled_clearance_mm": 2.5,
+      "at_sweep_deg": 20.0,
+      "moving_rmax_mm": 37.41178256162224,
+      "half_step_motion_bound_mm": 0.3264783564200923,
+      "continuous_clearance_lower_bound_mm": 2.1735216435799076,
+      "continuous_pass": true
+    }
+  ],
+  "sampled_moving_states": 196,
+  "continuous_sweep_clearance_pass": true,
+  "minimum_continuous_clearance_lower_bound_mm": 2.1735216435799076,
+  "monolithic_union_pass": true,
+  "geometry_candidate_pass": false,
+  "material_system_selected": false,
+  "material_allowable_verified": false,
+  "proof_fixture_defined": false,
+  "physical_proof_passed": false,
+  "mechanical_detail_release": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "6c487cd3d54f2c74e9f822b09131c241bec0729d6f1d6adecc9541d364dfa9a5"
+}

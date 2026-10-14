@@ -1,0 +1,10 @@
+import json, pathlib
+root=pathlib.Path(r"C:\Users\dezen\Desktop\F14-RC-Model")
+v102=json.loads((root/'analysis/center_wingbox_hardpoint_sleeve_v102.json').read_text())
+v97=json.loads((root/'analysis/center_wingbox_crosstie_v97.json').read_text())
+worst_tip=max(s['tip_load_stress_MPa'] for s in v102['sections'])
+worst_uniform=max(s['uniform_stress_MPa'] for s in v102['sections'])
+front=v97['equal_front_rear_moment_share']['front']['tube_axial_force_N']; rear=v97['equal_front_rear_moment_share']['rear']['tube_axial_force_N']
+out={'status':'V105_MONOLITHIC_LOWER_HARDPOINT_MODULE_PLAN','sources':['analysis/center_wingbox_hardpoint_sleeve_v102.json','analysis/center_wingbox_fork_tail_v103.json','analysis/center_wingbox_crosstie_v97.json'],'architecture':{'per_side_module':['ENG_WINGBOX_FORK_LOWER_*_v31','HARDPOINT_TAIL_FRONT_*_v103','HARDPOINT_TAIL_REAR_*_v103'],'interface_policy':'boolean union into one structural module; no adhesive seam between fork plate and hardpoint tails','crosstie_bore':'retain v99 6.4 mm bore and 6.0 mm tube candidate'},'stress_screen':{'worst_uniform_socket_stress_MPa':worst_uniform,'worst_tip_load_sensitivity_MPa':worst_tip,'required_allowable_MPa_for_FOS_1_5':1.5*worst_tip,'required_allowable_MPa_for_FOS_2_0':2*worst_tip,'required_allowable_MPa_for_FOS_3_0':3*worst_tip},'proof_load_targets':{'design_front_N':front,'design_rear_N':rear,'proof_1_5x_front_N':1.5*front,'proof_1_5x_rear_N':1.5*rear,'ultimate_sensitivity_2x_front_N':2*front,'ultimate_sensitivity_2x_rear_N':2*rear},'gates':{'monolithic_union_CAD':False,'fuselage_containment':False,'continuous_sweep_clearance':False,'material_system_selected':False,'material_allowable_verified':False,'proof_fixture_defined':False,'physical_proof_passed':False,'mechanical_detail_release':False,'print_release':False,'flight_release':False}}
+(root/'analysis/center_wingbox_monolithic_module_v105.json').write_text(json.dumps(out,indent=2),encoding='utf-8')
+print(json.dumps(out,indent=2))

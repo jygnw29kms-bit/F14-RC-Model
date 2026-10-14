@@ -2570,6 +2570,24 @@ def build_project_revision():
         study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
         with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
         return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='relative_containment_v106':
+        path=os.path.join(os.path.dirname(__file__),'F14RelativeContainment_v106.py')
+        spec=importlib.util.spec_from_file_location('f14_relative_containment_v106',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'center_wingbox_v106'))
+    if review=='monolithic_hardpoint_v105':
+        path=os.path.join(os.path.dirname(__file__),'F14MonolithicHardpointModule_v105.py')
+        spec=importlib.util.spec_from_file_location('f14_monolithic_hardpoint_v105',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'center_wingbox_v105'))
+    if review=='fork_capture_survey_v104':
+        path=os.path.join(os.path.dirname(__file__),'F14ForkCaptureSurvey_v104.py')
+        spec=importlib.util.spec_from_file_location('f14_fork_capture_survey_v104',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'center_wingbox_v104'))
     if review=='hardpoint_fork_tail_v103':
         path=os.path.join(os.path.dirname(__file__),'F14HardpointForkTail_v103.py')
         spec=importlib.util.spec_from_file_location('f14_hardpoint_fork_tail_v103',path)

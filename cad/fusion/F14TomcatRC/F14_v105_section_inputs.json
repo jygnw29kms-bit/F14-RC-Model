@@ -1,0 +1,8 @@
+{
+    "sha256":  "e80432305f6c942ec4b7cdab9daeef2ea26fa09c0592228c7afa0da756d42656",
+    "sweep_step_deg":  1,
+    "sweep_min_deg":  20,
+    "continuous_margin_required_mm":  0.05,
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v103\\F14_EXTENDED_HARDPOINT_FORK_TAILS_v103.f3d",
+    "sweep_max_deg":  68
+}

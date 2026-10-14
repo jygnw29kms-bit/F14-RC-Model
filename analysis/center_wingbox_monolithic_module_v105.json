@@ -1,0 +1,44 @@
+{
+  "status": "V105_MONOLITHIC_LOWER_HARDPOINT_MODULE_PLAN",
+  "sources": [
+    "analysis/center_wingbox_hardpoint_sleeve_v102.json",
+    "analysis/center_wingbox_fork_tail_v103.json",
+    "analysis/center_wingbox_crosstie_v97.json"
+  ],
+  "architecture": {
+    "per_side_module": [
+      "ENG_WINGBOX_FORK_LOWER_*_v31",
+      "HARDPOINT_TAIL_FRONT_*_v103",
+      "HARDPOINT_TAIL_REAR_*_v103"
+    ],
+    "interface_policy": "boolean union into one structural module; no adhesive seam between fork plate and hardpoint tails",
+    "crosstie_bore": "retain v99 6.4 mm bore and 6.0 mm tube candidate"
+  },
+  "stress_screen": {
+    "worst_uniform_socket_stress_MPa": 24.4487445816514,
+    "worst_tip_load_sensitivity_MPa": 58.676986995963354,
+    "required_allowable_MPa_for_FOS_1_5": 88.01548049394503,
+    "required_allowable_MPa_for_FOS_2_0": 117.35397399192671,
+    "required_allowable_MPa_for_FOS_3_0": 176.03096098789007
+  },
+  "proof_load_targets": {
+    "design_front_N": 600.6573124999999,
+    "design_rear_N": 565.3245294117646,
+    "proof_1_5x_front_N": 900.9859687499998,
+    "proof_1_5x_rear_N": 847.9867941176469,
+    "ultimate_sensitivity_2x_front_N": 1201.3146249999998,
+    "ultimate_sensitivity_2x_rear_N": 1130.6490588235292
+  },
+  "gates": {
+    "monolithic_union_CAD": false,
+    "fuselage_containment": false,
+    "continuous_sweep_clearance": false,
+    "material_system_selected": false,
+    "material_allowable_verified": false,
+    "proof_fixture_defined": false,
+    "physical_proof_passed": false,
+    "mechanical_detail_release": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

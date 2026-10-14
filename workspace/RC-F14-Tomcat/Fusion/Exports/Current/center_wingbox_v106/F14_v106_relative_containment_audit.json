@@ -1,0 +1,42 @@
+{
+  "status": "V106_BASELINE_RELATIVE_FUSELAGE_CONTAINMENT",
+  "source": {
+    "sha256": "e80432305f6c942ec4b7cdab9daeef2ea26fa09c0592228c7afa0da756d42656",
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v103\\F14_EXTENDED_HARDPOINT_FORK_TAILS_v103.f3d"
+  },
+  "records": [
+    {
+      "side": "R",
+      "fork_volume_cm3": 4.44566356061012,
+      "fork_outside_fuselage_cm3": 2.591127864854862,
+      "front_hardpoint_outside_fuselage_cm3": 0.0,
+      "rear_hardpoint_outside_fuselage_cm3": 0.0,
+      "module_volume_cm3": 11.163941921272318,
+      "module_outside_fuselage_cm3": 2.5911278648548635,
+      "incremental_outside_vs_inherited_fork_cm3": 1.3322676295501878e-15,
+      "new_geometry_containment_pass": true
+    },
+    {
+      "side": "L",
+      "fork_volume_cm3": 4.44566356061012,
+      "fork_outside_fuselage_cm3": 2.59111519996125,
+      "front_hardpoint_outside_fuselage_cm3": 0.0,
+      "rear_hardpoint_outside_fuselage_cm3": 0.0,
+      "module_volume_cm3": 11.163941921272317,
+      "module_outside_fuselage_cm3": 2.591115199961258,
+      "incremental_outside_vs_inherited_fork_cm3": 7.993605777301127e-15,
+      "new_geometry_containment_pass": true
+    }
+  ],
+  "all_new_geometry_contained": true,
+  "interpretation": "Existing v31 lower-fork out-of-bounds volume is inherited baseline. v103/v105 are accepted only if hardpoint additions add zero new volume outside the fuselage clearance body.",
+  "monolithic_union_from_v105_pass": true,
+  "continuous_sweep_clearance_from_v105_pass": true,
+  "geometry_candidate_pass": true,
+  "material_system_selected": false,
+  "physical_proof_verified": false,
+  "mechanical_detail_release": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "84ae16905db99777a136940f3824ce597aafd983d31ef1d386a311e6d5b90a5b"
+}
