@@ -1,0 +1,67 @@
+{
+  "status": "V93_PHYSICAL_BOND_QUALIFICATION_PLAN",
+  "source_v92": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_v92_pointwise_bond_area_audit.json",
+  "model_requirement": {
+    "conservative_usable_bond_area_mm2": 66.35757266173214,
+    "sf3_equivalent_force_N": 110.84450852055485,
+    "required_average_bond_shear_MPa": 1.6704123444298011,
+    "v81_dynamic_worst_torsion_Nmm": 747.3921304468803,
+    "sacrificial_joint_sf3_torsion_Nmm": 2242.1763913406407,
+    "flight_article_nondestructive_proof_torsion_Nmm": 1121.0881956703204
+  },
+  "flat_coupon": {
+    "bar_length_mm": 70.0,
+    "bar_width_mm": 15.0,
+    "bar_thickness_mm": 2.4,
+    "overlap_length_mm": 10.0,
+    "bond_area_mm2": 150.0,
+    "minimum_failure_load_N": 250.56185166447017,
+    "minimum_failure_load_kgf": 25.550198249603095,
+    "replicates_per_process_condition": 5,
+    "acceptance": [
+      "all 5 specimens >= minimum_failure_load_N",
+      "no adhesive-interface separation below the minimum load",
+      "coefficient of variation <= 20 percent; otherwise repeat/process-control review"
+    ]
+  },
+  "process_matrix": {
+    "print_material": [
+      "actual flight-print material only; test PETG and ASA separately if both remain candidates"
+    ],
+    "surface_preparation": [
+      "as-printed cleaned",
+      "lightly abraded + cleaned"
+    ],
+    "adhesive": [
+      "each candidate adhesive/system tested as a separate process; do not pool results"
+    ],
+    "bondline_mm": [
+      0.15,
+      0.2,
+      0.25
+    ],
+    "conditioning": [
+      "full manufacturer cure at room condition",
+      "warm-condition screen at 40 C after cure"
+    ]
+  },
+  "representative_joint": {
+    "sacrificial_destructive_gate_Nm": 2.242176391340641,
+    "flight_article_nondestructive_proof_Nm": 1.1210881956703205,
+    "requirements": [
+      "no slip, crack, whitening, bond separation or permanent set at proof load",
+      "sacrificial representative joint must survive SF3 torque before flight release",
+      "inspect carbon continuity before and after test"
+    ]
+  },
+  "gates": {
+    "fit_coupon_verified": false,
+    "adhesive_process_verified": false,
+    "environmental_condition_verified": false,
+    "representative_joint_torsion_verified": false,
+    "flight_article_proof_verified": false,
+    "structural_capacity_verified": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
