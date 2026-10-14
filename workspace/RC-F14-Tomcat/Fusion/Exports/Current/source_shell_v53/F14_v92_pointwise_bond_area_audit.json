@@ -1,0 +1,2529 @@
+{
+  "status": "V92_POINTWISE_BOND_AREA_LOWER_BOUND",
+  "source": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_INSERT_MFG_ENDPOINT_CLEARANCE_v89.f3d",
+    "sha256": "9ff359d241e94db15f54967e1212ee99b413ddf16ce9e192729200f17d94cfbe",
+    "v91_audit_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_v91_final_bond_torsion_audit.json",
+    "v91_audit_sha256": "f6466657a35b851dec63f3440eb1599788b6c2aebe149eebaefac788122c99b9",
+    "axial_y_max_mm": 366.9687853,
+    "skin_gap_max_mm": 0.25,
+    "dominant_area_fraction": 0.8,
+    "resolutions": [
+      8,
+      16
+    ],
+    "torsion_sf3_force_N": 110.84450852055485
+  },
+  "method": {
+    "description": "dominant v91 candidate faces only; pointwise axial clipping and skin-gap test using UV midpoint quadrature at two resolutions; smaller usable fraction credited per face",
+    "selected_v91_faces": 71,
+    "selected_v91_area_mm2": 544.9105096113409,
+    "selected_fraction_of_v91_candidate_area": 0.8011859738811611,
+    "ignored_v91_candidate_area_mm2": 135.21935708071726,
+    "resolutions": [
+      8,
+      16
+    ]
+  },
+  "v91_claimed_candidate_area_mm2": 680.1298666920582,
+  "selected_exact_face_area_mm2": 544.9105096113409,
+  "conservative_usable_bond_area_mm2": 66.35757266173214,
+  "sf3_equivalent_force_N": 110.84450852055485,
+  "required_average_shear_on_lower_bound_MPa": 1.6704123444298011,
+  "records": [
+    {
+      "face_index": 48,
+      "v91_face_area_mm2": 166.63035649649177,
+      "fusion_exact_face_area_mm2": 166.63035649649177,
+      "v91_min_gap_mm": 0.18111009606989648,
+      "v91_point_y_mm": 361.9887853000001,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 37,
+          "exact_face_area_mm2": 166.63035649649177,
+          "estimated_total_area_mm2": 168.2427149113631,
+          "estimated_axial_area_mm2": 168.2427149113631,
+          "estimated_usable_area_mm2": 4.547100403009818,
+          "usable_fraction_of_face": 0.027027027027027053,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.23968367631671755,
+          "gap_max_mm": 2.7594614360285554
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 147,
+          "exact_face_area_mm2": 166.63035649649177,
+          "estimated_total_area_mm2": 167.1059398106105,
+          "estimated_axial_area_mm2": 167.1059398106105,
+          "estimated_usable_area_mm2": 3.410325302257363,
+          "usable_fraction_of_face": 0.02040816326530616,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.1935680401589147,
+          "gap_max_mm": 2.959539113319068
+        }
+      ],
+      "credited_usable_fraction": 0.02040816326530616,
+      "credited_usable_area_mm2": 3.4006195203365728
+    },
+    {
+      "face_index": 11,
+      "v91_face_area_mm2": 47.57501271809982,
+      "fusion_exact_face_area_mm2": 47.57501271809982,
+      "v91_min_gap_mm": 0.16507504397795966,
+      "v91_point_y_mm": 365.3090430833405,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 63,
+          "exact_face_area_mm2": 47.57501271809982,
+          "estimated_total_area_mm2": 47.9484749315102,
+          "estimated_axial_area_mm2": 41.89319455618047,
+          "estimated_usable_area_mm2": 0.7641858646192351,
+          "usable_fraction_of_face": 0.015937646936858813,
+          "axial_fraction_of_face": 0.8737127638787445,
+          "gap_min_mm": 0.19455634640354103,
+          "gap_max_mm": 3.018467977600045
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 252,
+          "exact_face_area_mm2": 47.57501271809982,
+          "estimated_total_area_mm2": 47.948626513185495,
+          "estimated_axial_area_mm2": 38.86206804785145,
+          "estimated_usable_area_mm2": 0.764337444206994,
+          "usable_fraction_of_face": 0.015940757844164884,
+          "axial_fraction_of_face": 0.810493873837339,
+          "gap_min_mm": 0.16795523317511804,
+          "gap_max_mm": 2.8713787065616447
+        }
+      ],
+      "credited_usable_fraction": 0.015937646936858813,
+      "credited_usable_area_mm2": 0.7582337557176426
+    },
+    {
+      "face_index": 114,
+      "v91_face_area_mm2": 9.007270347152794,
+      "fusion_exact_face_area_mm2": 9.007270347152794,
+      "v91_min_gap_mm": 0.22365788228088912,
+      "v91_point_y_mm": 365.56125141191376,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 9.007270347152794,
+          "estimated_total_area_mm2": 9.00727032116137,
+          "estimated_axial_area_mm2": 9.00727032116137,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3773544044152336,
+          "gap_max_mm": 2.851222486248805
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 9.007270347152794,
+          "estimated_total_area_mm2": 9.00727034065493,
+          "estimated_axial_area_mm2": 9.00727034065493,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.297064858839016,
+          "gap_max_mm": 2.940382113556415
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 113,
+      "v91_face_area_mm2": 8.992904961226836,
+      "fusion_exact_face_area_mm2": 8.992904961226836,
+      "v91_min_gap_mm": 0.2237306636133876,
+      "v91_point_y_mm": 365.5612461887571,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 8.992904961226836,
+          "estimated_total_area_mm2": 8.99290493339202,
+          "estimated_axial_area_mm2": 8.99290493339202,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3776709907365183,
+          "gap_max_mm": 2.8520359121246748
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 8.992904961226836,
+          "estimated_total_area_mm2": 8.992904954268113,
+          "estimated_axial_area_mm2": 8.992904954268113,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29729682509976424,
+          "gap_max_mm": 2.9412076546747667
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 112,
+      "v91_face_area_mm2": 8.982834117603003,
+      "fusion_exact_face_area_mm2": 8.982834117603003,
+      "v91_min_gap_mm": 0.2238178828669074,
+      "v91_point_y_mm": 365.56124028454565,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 8.982834117603003,
+          "estimated_total_area_mm2": 8.98283408791338,
+          "estimated_axial_area_mm2": 8.98283408791338,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3780215966395791,
+          "gap_max_mm": 2.8529761857659084
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 8.982834117603003,
+          "estimated_total_area_mm2": 8.982834110180594,
+          "estimated_axial_area_mm2": 8.982834110180594,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29755180555812116,
+          "gap_max_mm": 2.942162690147809
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 111,
+      "v91_face_area_mm2": 8.97889521555543,
+      "fusion_exact_face_area_mm2": 8.97889521555543,
+      "v91_min_gap_mm": 0.22391488408031537,
+      "v91_point_y_mm": 365.56123411105,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 8.97889521555543,
+          "estimated_total_area_mm2": 8.978895184628614,
+          "estimated_axial_area_mm2": 8.978895184628614,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3784157546225209,
+          "gap_max_mm": 2.8540697384023246
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 8.97889521555543,
+          "estimated_total_area_mm2": 8.978895207823696,
+          "estimated_axial_area_mm2": 8.978895207823696,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2978380359641434,
+          "gap_max_mm": 2.943274154448159
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 55,
+      "v91_face_area_mm2": 8.962023791120895,
+      "fusion_exact_face_area_mm2": 8.962023791120895,
+      "v91_min_gap_mm": 0.2328961278213024,
+      "v91_point_y_mm": 365.5512633550404,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 8.962023791120895,
+          "estimated_total_area_mm2": 8.96202376519856,
+          "estimated_axial_area_mm2": 8.96202376519856,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3766186540855644,
+          "gap_max_mm": 2.823403166381545
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 8.962023791120895,
+          "estimated_total_area_mm2": 8.962023784640314,
+          "estimated_axial_area_mm2": 8.962023784640314,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3003018972840343,
+          "gap_max_mm": 2.9119127217672243
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 53,
+      "v91_face_area_mm2": 8.953772936592221,
+      "fusion_exact_face_area_mm2": 8.953772936592221,
+      "v91_min_gap_mm": 0.23295153127626672,
+      "v91_point_y_mm": 365.55126802892585,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 8.953772936592221,
+          "estimated_total_area_mm2": 8.953772912214154,
+          "estimated_axial_area_mm2": 8.953772912214154,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3766417992138459,
+          "gap_max_mm": 2.823392752002953
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 8.953772936592221,
+          "estimated_total_area_mm2": 8.953772930497719,
+          "estimated_axial_area_mm2": 8.953772930497719,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.30034272802833745,
+          "gap_max_mm": 2.911902779779518
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 51,
+      "v91_face_area_mm2": 8.947655549525862,
+      "fusion_exact_face_area_mm2": 8.947655549525862,
+      "v91_min_gap_mm": 0.23288679762405046,
+      "v91_point_y_mm": 365.55127434111785,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 8.947655549525862,
+          "estimated_total_area_mm2": 8.947655525967575,
+          "estimated_axial_area_mm2": 8.947655525967575,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3766425366788715,
+          "gap_max_mm": 2.8233992596035122
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 8.947655549525862,
+          "estimated_total_area_mm2": 8.947655543636488,
+          "estimated_axial_area_mm2": 8.947655543636488,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.30033812032715457,
+          "gap_max_mm": 2.9119092330241756
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 49,
+      "v91_face_area_mm2": 8.94514026714588,
+      "fusion_exact_face_area_mm2": 8.94514026714588,
+      "v91_min_gap_mm": 0.2328523640151735,
+      "v91_point_y_mm": 365.5512799609188,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 8.94514026714588,
+          "estimated_total_area_mm2": 8.945140245163872,
+          "estimated_axial_area_mm2": 8.945140245163872,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37662460716631463,
+          "gap_max_mm": 2.823413000682271
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 8.94514026714588,
+          "estimated_total_area_mm2": 8.945140261650408,
+          "estimated_axial_area_mm2": 8.945140261650408,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.30030198235305855,
+          "gap_max_mm": 2.9119178446723066
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 21,
+      "v91_face_area_mm2": 5.79404846749632,
+      "fusion_exact_face_area_mm2": 5.79404846749632,
+      "v91_min_gap_mm": 0.18116764130290713,
+      "v91_point_y_mm": 363.1870866344028,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 62,
+          "exact_face_area_mm2": 5.79404846749632,
+          "estimated_total_area_mm2": 5.8530511531066285,
+          "estimated_axial_area_mm2": 5.8530511531066285,
+          "estimated_usable_area_mm2": 5.8530511531066285,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18220616540100704,
+          "gap_max_mm": 0.1871036182317673
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 246,
+          "exact_face_area_mm2": 5.79404846749632,
+          "estimated_total_area_mm2": 5.8056336910780875,
+          "estimated_axial_area_mm2": 5.8056336910780875,
+          "estimated_usable_area_mm2": 5.8056336910780875,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18185441619232076,
+          "gap_max_mm": 0.20833564560680248
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 5.79404846749632
+    },
+    {
+      "face_index": 20,
+      "v91_face_area_mm2": 5.2126485598406695,
+      "fusion_exact_face_area_mm2": 5.2126485598406695,
+      "v91_min_gap_mm": 0.17993643729964706,
+      "v91_point_y_mm": 363.27997192059627,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 62,
+          "exact_face_area_mm2": 5.2126485598406695,
+          "estimated_total_area_mm2": 5.272614227474826,
+          "estimated_axial_area_mm2": 5.272614227474826,
+          "estimated_usable_area_mm2": 5.272614227474826,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18118654815162447,
+          "gap_max_mm": 0.1890042979803686
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 246,
+          "exact_face_area_mm2": 5.2126485598406695,
+          "estimated_total_area_mm2": 5.229917898980059,
+          "estimated_axial_area_mm2": 5.229917898980059,
+          "estimated_usable_area_mm2": 5.229917898980059,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18072257076383053,
+          "gap_max_mm": 0.21029289267887039
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 5.2126485598406695
+    },
+    {
+      "face_index": 135,
+      "v91_face_area_mm2": 4.733393588363994,
+      "fusion_exact_face_area_mm2": 4.733393588363994,
+      "v91_min_gap_mm": 0.17309270748826439,
+      "v91_point_y_mm": 364.8787852326534,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.733393588363994,
+          "estimated_total_area_mm2": 4.8155630629831885,
+          "estimated_axial_area_mm2": 4.213612842754914,
+          "estimated_usable_area_mm2": 0.2257282228571489,
+          "usable_fraction_of_face": 0.04687473093069884,
+          "axial_fraction_of_face": 0.8749989954746076,
+          "gap_min_mm": 0.20386227546916436,
+          "gap_max_mm": 2.838160428192762
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.733393588363994,
+          "estimated_total_area_mm2": 4.815563062983189,
+          "estimated_axial_area_mm2": 4.213612842754917,
+          "estimated_usable_area_mm2": 0.22572822285714889,
+          "usable_fraction_of_face": 0.04687473093069883,
+          "axial_fraction_of_face": 0.8749989954746079,
+          "gap_min_mm": 0.1784322569918553,
+          "gap_max_mm": 3.0168595217847454
+        }
+      ],
+      "credited_usable_fraction": 0.04687473093069883,
+      "credited_usable_area_mm2": 0.22187655084365723
+    },
+    {
+      "face_index": 19,
+      "v91_face_area_mm2": 4.661692423733921,
+      "fusion_exact_face_area_mm2": 4.661692423733921,
+      "v91_min_gap_mm": 0.1786718993825423,
+      "v91_point_y_mm": 363.3682631192851,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 62,
+          "exact_face_area_mm2": 4.661692423733921,
+          "estimated_total_area_mm2": 4.722965325000813,
+          "estimated_axial_area_mm2": 4.722965325000813,
+          "estimated_usable_area_mm2": 4.722965325000813,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.17995427731334906,
+          "gap_max_mm": 0.1912283945583027
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 246,
+          "exact_face_area_mm2": 4.661692423733921,
+          "estimated_total_area_mm2": 4.684736092718907,
+          "estimated_axial_area_mm2": 4.684736092718907,
+          "estimated_usable_area_mm2": 4.684736092718907,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.17945715996292816,
+          "gap_max_mm": 0.21210234526761143
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 4.661692423733921
+    },
+    {
+      "face_index": 124,
+      "v91_face_area_mm2": 4.531268603987599,
+      "fusion_exact_face_area_mm2": 4.531268603987599,
+      "v91_min_gap_mm": 0.22338793077570074,
+      "v91_point_y_mm": 365.56127817438517,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.531268603987599,
+          "estimated_total_area_mm2": 4.531268602930142,
+          "estimated_axial_area_mm2": 4.531268602930142,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37633788193787865,
+          "gap_max_mm": 2.8486789668499917
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.531268603987599,
+          "estimated_total_area_mm2": 4.531268605611291,
+          "estimated_axial_area_mm2": 4.531268605611291,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2963166135173955,
+          "gap_max_mm": 2.9378008680608048
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 123,
+      "v91_face_area_mm2": 4.527843166502787,
+      "fusion_exact_face_area_mm2": 4.527843166502787,
+      "v91_min_gap_mm": 0.2234077615696246,
+      "v91_point_y_mm": 365.5612775056089,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.527843166502787,
+          "estimated_total_area_mm2": 4.527843165173414,
+          "estimated_axial_area_mm2": 4.527843165173414,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3764012957038966,
+          "gap_max_mm": 2.84882275564353
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.527843166502787,
+          "estimated_total_area_mm2": 4.527843168147924,
+          "estimated_axial_area_mm2": 4.527843168147924,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29636310133540017,
+          "gap_max_mm": 2.9379463084956647
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 125,
+      "v91_face_area_mm2": 4.526721315705534,
+      "fusion_exact_face_area_mm2": 4.526721315705534,
+      "v91_min_gap_mm": 0.22337163846818459,
+      "v91_point_y_mm": 365.5612786656433,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.526721315705534,
+          "estimated_total_area_mm2": 4.526721326441342,
+          "estimated_axial_area_mm2": 4.526721326441342,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3762850170332804,
+          "gap_max_mm": 2.8485612407785084
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.526721315705534,
+          "estimated_total_area_mm2": 4.526721328922305,
+          "estimated_axial_area_mm2": 4.526721328922305,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29627766573870035,
+          "gap_max_mm": 2.937681840147366
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 122,
+      "v91_face_area_mm2": 4.525737402051408,
+      "fusion_exact_face_area_mm2": 4.525737402051408,
+      "v91_min_gap_mm": 0.22342414398319776,
+      "v91_point_y_mm": 365.5612770823993,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.525737402051408,
+          "estimated_total_area_mm2": 4.52573739796627,
+          "estimated_axial_area_mm2": 4.52573739796627,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37646962308392296,
+          "gap_max_mm": 2.848972720662019
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.525737402051408,
+          "estimated_total_area_mm2": 4.52573740103012,
+          "estimated_axial_area_mm2": 4.52573740103012,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29641389764619597,
+          "gap_max_mm": 2.938097899409808
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 121,
+      "v91_face_area_mm2": 4.522509220458175,
+      "fusion_exact_face_area_mm2": 4.522509220458175,
+      "v91_min_gap_mm": 0.2234541265900132,
+      "v91_point_y_mm": 365.56127613680474,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.522509220458175,
+          "estimated_total_area_mm2": 4.522509215778777,
+          "estimated_axial_area_mm2": 4.522509215778777,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37654649523241435,
+          "gap_max_mm": 2.8491448097258565
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.522509220458175,
+          "estimated_total_area_mm2": 4.522509219288358,
+          "estimated_axial_area_mm2": 4.522509219288358,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29647185138064736,
+          "gap_max_mm": 2.938272078685882
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 120,
+      "v91_face_area_mm2": 4.5201002182455206,
+      "fusion_exact_face_area_mm2": 4.5201002182455206,
+      "v91_min_gap_mm": 0.22347343796949834,
+      "v91_point_y_mm": 365.5612753557016,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.5201002182455206,
+          "estimated_total_area_mm2": 4.520100213224653,
+          "estimated_axial_area_mm2": 4.520100213224653,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3766373352170297,
+          "gap_max_mm": 2.84934921685743
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.5201002182455206,
+          "estimated_total_area_mm2": 4.520100216990295,
+          "estimated_axial_area_mm2": 4.520100216990295,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29653956842064416,
+          "gap_max_mm": 2.9384788832524045
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 119,
+      "v91_face_area_mm2": 4.518594913315571,
+      "fusion_exact_face_area_mm2": 4.518594913315571,
+      "v91_min_gap_mm": 0.2234978257285144,
+      "v91_point_y_mm": 365.5612747657898,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.518594913315571,
+          "estimated_total_area_mm2": 4.5185949081506,
+          "estimated_axial_area_mm2": 4.5185949081506,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3767244751861407,
+          "gap_max_mm": 2.8495508797984757
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.518594913315571,
+          "estimated_total_area_mm2": 4.518594912024346,
+          "estimated_axial_area_mm2": 4.518594912024346,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29660319159775345,
+          "gap_max_mm": 2.938682911000447
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 118,
+      "v91_face_area_mm2": 4.515555447142085,
+      "fusion_exact_face_area_mm2": 4.515555447142085,
+      "v91_min_gap_mm": 0.2235241821417177,
+      "v91_point_y_mm": 365.5612734231212,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.515555447142085,
+          "estimated_total_area_mm2": 4.515555441157658,
+          "estimated_axial_area_mm2": 4.515555441157658,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37682156332183075,
+          "gap_max_mm": 2.8497819872393104
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.515555447142085,
+          "estimated_total_area_mm2": 4.515555445645988,
+          "estimated_axial_area_mm2": 4.515555445645988,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2966747505907304,
+          "gap_max_mm": 2.93891704204466
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 117,
+      "v91_face_area_mm2": 4.511735115873603,
+      "fusion_exact_face_area_mm2": 4.511735115873603,
+      "v91_min_gap_mm": 0.22355528725091528,
+      "v91_point_y_mm": 365.56127262979794,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.511735115873603,
+          "estimated_total_area_mm2": 4.511735109694559,
+          "estimated_axial_area_mm2": 4.511735109694559,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3769316615321051,
+          "gap_max_mm": 2.850037885982648
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.511735115873603,
+          "estimated_total_area_mm2": 4.511735114328813,
+          "estimated_axial_area_mm2": 4.511735114328813,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2967563565861168,
+          "gap_max_mm": 2.9391760977668784
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 116,
+      "v91_face_area_mm2": 4.509546431833064,
+      "fusion_exact_face_area_mm2": 4.509546431833064,
+      "v91_min_gap_mm": 0.22358728037347422,
+      "v91_point_y_mm": 365.5612714967799,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.509546431833064,
+          "estimated_total_area_mm2": 4.509546425241354,
+          "estimated_axial_area_mm2": 4.509546425241354,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3770566470176504,
+          "gap_max_mm": 2.8503374853766834
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.509546431833064,
+          "estimated_total_area_mm2": 4.509546430185167,
+          "estimated_axial_area_mm2": 4.509546430185167,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2968482324925109,
+          "gap_max_mm": 2.9394795809703163
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 115,
+      "v91_face_area_mm2": 4.50374238477502,
+      "fusion_exact_face_area_mm2": 4.50374238477502,
+      "v91_min_gap_mm": 0.22361866578625447,
+      "v91_point_y_mm": 365.5612705342921,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.50374238477502,
+          "estimated_total_area_mm2": 4.5037423779075665,
+          "estimated_axial_area_mm2": 4.5037423779075665,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3771712594720382,
+          "gap_max_mm": 2.8506216560385447
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.50374238477502,
+          "estimated_total_area_mm2": 4.503742383058354,
+          "estimated_axial_area_mm2": 4.503742383058354,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2969309229150205,
+          "gap_max_mm": 2.939767513658229
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 14,
+      "v91_face_area_mm2": 4.4991838502068795,
+      "fusion_exact_face_area_mm2": 4.4991838502068795,
+      "v91_min_gap_mm": 0.2250460489882748,
+      "v91_point_y_mm": 365.56125270177586,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.4991838502068795,
+          "estimated_total_area_mm2": 4.499183845042021,
+          "estimated_axial_area_mm2": 4.499183845042021,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3826353352832535,
+          "gap_max_mm": 2.867880164930081
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.4991838502068795,
+          "estimated_total_area_mm2": 4.499183848915665,
+          "estimated_axial_area_mm2": 4.499183848915665,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3008766523939346,
+          "gap_max_mm": 2.9573468583841005
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 879,
+      "v91_face_area_mm2": 4.495944043077149,
+      "fusion_exact_face_area_mm2": 4.495944043077149,
+      "v91_min_gap_mm": 0.231687111231528,
+      "v91_point_y_mm": 365.5512678666887,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.495944043077149,
+          "estimated_total_area_mm2": 4.495944032968649,
+          "estimated_axial_area_mm2": 4.495944032968649,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37622987308839,
+          "gap_max_mm": 2.8236392857610584
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.495944043077149,
+          "estimated_total_area_mm2": 4.495944040550063,
+          "estimated_axial_area_mm2": 4.495944040550063,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2995931595477213,
+          "gap_max_mm": 2.912136104908817
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 880,
+      "v91_face_area_mm2": 4.495112076976725,
+      "fusion_exact_face_area_mm2": 4.495112076976725,
+      "v91_min_gap_mm": 0.23147570940330014,
+      "v91_point_y_mm": 365.55126811531295,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.495112076976725,
+          "estimated_total_area_mm2": 4.495112066455349,
+          "estimated_axial_area_mm2": 4.495112066455349,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37616521666509495,
+          "gap_max_mm": 2.8236846798204684
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.495112076976725,
+          "estimated_total_area_mm2": 4.495112074346388,
+          "estimated_axial_area_mm2": 4.495112074346388,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2994716127457286,
+          "gap_max_mm": 2.912179425372373
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 15,
+      "v91_face_area_mm2": 4.494470803153808,
+      "fusion_exact_face_area_mm2": 4.494470803153808,
+      "v91_min_gap_mm": 0.22494781129264524,
+      "v91_point_y_mm": 365.5612641501199,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.494470803153808,
+          "estimated_total_area_mm2": 4.494470797534427,
+          "estimated_axial_area_mm2": 4.494470797534427,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.38227338937811134,
+          "gap_max_mm": 2.866519757432599
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.494470803153808,
+          "estimated_total_area_mm2": 4.494470801748996,
+          "estimated_axial_area_mm2": 4.494470801748996,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3006172106671102,
+          "gap_max_mm": 2.955957146931441
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 878,
+      "v91_face_area_mm2": 4.493311588078397,
+      "fusion_exact_face_area_mm2": 4.493311588078397,
+      "v91_min_gap_mm": 0.23187142992490128,
+      "v91_point_y_mm": 365.5512681507822,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.493311588078397,
+          "estimated_total_area_mm2": 4.493311577957596,
+          "estimated_axial_area_mm2": 4.493311577957596,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37628788043250017,
+          "gap_max_mm": 2.823598188248705
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.493311588078397,
+          "estimated_total_area_mm2": 4.493311585548199,
+          "estimated_axial_area_mm2": 4.493311585548199,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29970021775030675,
+          "gap_max_mm": 2.9120980503225686
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 877,
+      "v91_face_area_mm2": 4.493016911940955,
+      "fusion_exact_face_area_mm2": 4.493016911940955,
+      "v91_min_gap_mm": 0.2320540361737763,
+      "v91_point_y_mm": 365.55126843782875,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.493016911940955,
+          "estimated_total_area_mm2": 4.493016902380583,
+          "estimated_axial_area_mm2": 4.493016902380583,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3763454655579657,
+          "gap_max_mm": 2.8235623518573725
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.493016911940955,
+          "estimated_total_area_mm2": 4.493016909550848,
+          "estimated_axial_area_mm2": 4.493016909550848,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29980633000011864,
+          "gap_max_mm": 2.912062564437769
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 99,
+      "v91_face_area_mm2": 4.491157735050806,
+      "fusion_exact_face_area_mm2": 4.491157735050806,
+      "v91_min_gap_mm": 0.2248585941814762,
+      "v91_point_y_mm": 365.5612748717916,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.491157735050806,
+          "estimated_total_area_mm2": 4.491157728953625,
+          "estimated_axial_area_mm2": 4.491157728953625,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.38191610887868516,
+          "gap_max_mm": 2.8652054495641934
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.491157735050806,
+          "estimated_total_area_mm2": 4.491157733526531,
+          "estimated_axial_area_mm2": 4.491157733526531,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.30036087401020295,
+          "gap_max_mm": 2.9546149840407687
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 876,
+      "v91_face_area_mm2": 4.491094608903261,
+      "fusion_exact_face_area_mm2": 4.491094608903261,
+      "v91_min_gap_mm": 0.2322180011873948,
+      "v91_point_y_mm": 365.55126884298744,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.491094608903261,
+          "estimated_total_area_mm2": 4.491094599025602,
+          "estimated_axial_area_mm2": 4.491094599025602,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3763956800878968,
+          "gap_max_mm": 2.8235289065514375
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.491094608903261,
+          "estimated_total_area_mm2": 4.491094606433848,
+          "estimated_axial_area_mm2": 4.491094606433848,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29990071827654163,
+          "gap_max_mm": 2.912029857353597
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 875,
+      "v91_face_area_mm2": 4.490802915676138,
+      "fusion_exact_face_area_mm2": 4.490802915676138,
+      "v91_min_gap_mm": 0.23237087076365973,
+      "v91_point_y_mm": 365.55126878896255,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.490802915676138,
+          "estimated_total_area_mm2": 4.490802906566298,
+          "estimated_axial_area_mm2": 4.490802906566298,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3764434765989437,
+          "gap_max_mm": 2.823502475074134
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.490802915676138,
+          "estimated_total_area_mm2": 4.490802913398698,
+          "estimated_axial_area_mm2": 4.490802913398698,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29998928394629676,
+          "gap_max_mm": 2.9120012739969554
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 100,
+      "v91_face_area_mm2": 4.488059135975936,
+      "fusion_exact_face_area_mm2": 4.488059135975936,
+      "v91_min_gap_mm": 0.22476859970754626,
+      "v91_point_y_mm": 365.561284590373,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.488059135975936,
+          "estimated_total_area_mm2": 4.488059129161601,
+          "estimated_axial_area_mm2": 4.488059129161601,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.38158992627700516,
+          "gap_max_mm": 2.8640299570316676
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.488059135975936,
+          "estimated_total_area_mm2": 4.48805913427236,
+          "estimated_axial_area_mm2": 4.48805913427236,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.30012733243583567,
+          "gap_max_mm": 2.9534151210777493
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 874,
+      "v91_face_area_mm2": 4.487884331529612,
+      "fusion_exact_face_area_mm2": 4.487884331529612,
+      "v91_min_gap_mm": 0.2325221081213631,
+      "v91_point_y_mm": 365.55126925969086,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.487884331529612,
+          "estimated_total_area_mm2": 4.48788432251742,
+          "estimated_axial_area_mm2": 4.48788432251742,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3764901185119971,
+          "gap_max_mm": 2.8234702934961247
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.487884331529612,
+          "estimated_total_area_mm2": 4.487884329276535,
+          "estimated_axial_area_mm2": 4.487884329276535,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.30007654370452913,
+          "gap_max_mm": 2.9119735743291217
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 873,
+      "v91_face_area_mm2": 4.486268305240553,
+      "fusion_exact_face_area_mm2": 4.486268305240553,
+      "v91_min_gap_mm": 0.23262590480735992,
+      "v91_point_y_mm": 365.55127013607887,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.486268305240553,
+          "estimated_total_area_mm2": 4.486268296558258,
+          "estimated_axial_area_mm2": 4.486268296558258,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3765250184079644,
+          "gap_max_mm": 2.8234516296267116
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.486268305240553,
+          "estimated_total_area_mm2": 4.486268303070002,
+          "estimated_axial_area_mm2": 4.486268303070002,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.30013826890132916,
+          "gap_max_mm": 2.911960553065031
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 61,
+      "v91_face_area_mm2": 4.486021340589204,
+      "fusion_exact_face_area_mm2": 4.486021340589204,
+      "v91_min_gap_mm": 0.23274649528579316,
+      "v91_point_y_mm": 365.5512707994769,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.486021340589204,
+          "estimated_total_area_mm2": 4.486021332072579,
+          "estimated_axial_area_mm2": 4.486021332072579,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3765625451204341,
+          "gap_max_mm": 2.8234293850617536
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.486021340589204,
+          "estimated_total_area_mm2": 4.486021338460066,
+          "estimated_axial_area_mm2": 4.486021338460066,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.30020806559928753,
+          "gap_max_mm": 2.9119360180748193
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 101,
+      "v91_face_area_mm2": 4.48459703427177,
+      "fusion_exact_face_area_mm2": 4.48459703427177,
+      "v91_min_gap_mm": 0.22468349654388972,
+      "v91_point_y_mm": 365.5612931938814,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.48459703427177,
+          "estimated_total_area_mm2": 4.4845970269399205,
+          "estimated_axial_area_mm2": 4.4845970269399205,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.38125511791443323,
+          "gap_max_mm": 2.8628454863403534
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.48459703427177,
+          "estimated_total_area_mm2": 4.484597032438796,
+          "estimated_axial_area_mm2": 4.484597032438796,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2998873323166632,
+          "gap_max_mm": 2.952206370598997
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 59,
+      "v91_face_area_mm2": 4.483572188172556,
+      "fusion_exact_face_area_mm2": 4.483572188172556,
+      "v91_min_gap_mm": 0.232842509412099,
+      "v91_point_y_mm": 365.55127170442205,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.483572188172556,
+          "estimated_total_area_mm2": 4.483572179828506,
+          "estimated_axial_area_mm2": 4.483572179828506,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3765934421360053,
+          "gap_max_mm": 2.8234112757371888
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.483572188172556,
+          "estimated_total_area_mm2": 4.483572186086521,
+          "estimated_axial_area_mm2": 4.483572186086521,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.30026429079921596,
+          "gap_max_mm": 2.9119192279914294
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 102,
+      "v91_face_area_mm2": 4.482540127569846,
+      "fusion_exact_face_area_mm2": 4.482540127569846,
+      "v91_min_gap_mm": 0.22459937825032902,
+      "v91_point_y_mm": 365.56130073836573,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.482540127569846,
+          "estimated_total_area_mm2": 4.482540119687744,
+          "estimated_axial_area_mm2": 4.482540119687744,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3809370804490431,
+          "gap_max_mm": 2.8617453695472084
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.482540127569846,
+          "estimated_total_area_mm2": 4.482540125599308,
+          "estimated_axial_area_mm2": 4.482540125599308,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29965911485411284,
+          "gap_max_mm": 2.951084132419079
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 109,
+      "v91_face_area_mm2": 4.48184010889073,
+      "fusion_exact_face_area_mm2": 4.48184010889073,
+      "v91_min_gap_mm": 0.22410616730114813,
+      "v91_point_y_mm": 365.5612556937248,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.48184010889073,
+          "estimated_total_area_mm2": 4.481840099429554,
+          "estimated_axial_area_mm2": 4.481840099429554,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3790144554390761,
+          "gap_max_mm": 2.8555985311775363
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.48184010889073,
+          "estimated_total_area_mm2": 4.481840106525465,
+          "estimated_axial_area_mm2": 4.481840106525465,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2982749655901371,
+          "gap_max_mm": 2.9448219481516236
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 103,
+      "v91_face_area_mm2": 4.48172569454309,
+      "fusion_exact_face_area_mm2": 4.48172569454309,
+      "v91_min_gap_mm": 0.22452043569729385,
+      "v91_point_y_mm": 365.56130702382126,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.48172569454309,
+          "estimated_total_area_mm2": 4.481725686331403,
+          "estimated_axial_area_mm2": 4.481725686331403,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.38062245419637664,
+          "gap_max_mm": 2.860683553583006
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.48172569454309,
+          "estimated_total_area_mm2": 4.4817256924901985,
+          "estimated_axial_area_mm2": 4.4817256924901985,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2994321928505945,
+          "gap_max_mm": 2.9500012745922244
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 108,
+      "v91_face_area_mm2": 4.48141731785727,
+      "fusion_exact_face_area_mm2": 4.48141731785727,
+      "v91_min_gap_mm": 0.2241678175080254,
+      "v91_point_y_mm": 365.56125434957715,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.48141731785727,
+          "estimated_total_area_mm2": 4.481417308559431,
+          "estimated_axial_area_mm2": 4.481417308559431,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37926171792598445,
+          "gap_max_mm": 2.856337759921864
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.48141731785727,
+          "estimated_total_area_mm2": 4.481417315532835,
+          "estimated_axial_area_mm2": 4.481417315532835,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29845329224438494,
+          "gap_max_mm": 2.945574082641314
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 104,
+      "v91_face_area_mm2": 4.480813068295627,
+      "fusion_exact_face_area_mm2": 4.480813068295627,
+      "v91_min_gap_mm": 0.22444403137346483,
+      "v91_point_y_mm": 365.5613127450789,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.480813068295627,
+          "estimated_total_area_mm2": 4.4808130594524185,
+          "estimated_axial_area_mm2": 4.4808130594524185,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3803381382321026,
+          "gap_max_mm": 2.8597392394571486
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.480813068295627,
+          "estimated_total_area_mm2": 4.480813066084812,
+          "estimated_axial_area_mm2": 4.480813066084812,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.299228472147242,
+          "gap_max_mm": 2.9490387318348823
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 107,
+      "v91_face_area_mm2": 4.480646815982739,
+      "fusion_exact_face_area_mm2": 4.480646815982739,
+      "v91_min_gap_mm": 0.22423304643802766,
+      "v91_point_y_mm": 365.56125273095245,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.480646815982739,
+          "estimated_total_area_mm2": 4.480646806650262,
+          "estimated_axial_area_mm2": 4.480646806650262,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3795034657047775,
+          "gap_max_mm": 2.8570790652742915
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.480646815982739,
+          "estimated_total_area_mm2": 4.480646813649655,
+          "estimated_axial_area_mm2": 4.480646813649655,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.298627306577611,
+          "gap_max_mm": 2.946328722511323
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 105,
+      "v91_face_area_mm2": 4.479583745542372,
+      "fusion_exact_face_area_mm2": 4.479583745542372,
+      "v91_min_gap_mm": 0.22436915447717368,
+      "v91_point_y_mm": 365.5613166371245,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.479583745542372,
+          "estimated_total_area_mm2": 4.479583736784727,
+          "estimated_axial_area_mm2": 4.479583736784727,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.38004678886537724,
+          "gap_max_mm": 2.8587902996182235
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.479583745542372,
+          "estimated_total_area_mm2": 4.479583743352949,
+          "estimated_axial_area_mm2": 4.479583743352949,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29901838585728835,
+          "gap_max_mm": 2.9480715348311675
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 106,
+      "v91_face_area_mm2": 4.479570739285871,
+      "fusion_exact_face_area_mm2": 4.479570739285871,
+      "v91_min_gap_mm": 0.22429768902839198,
+      "v91_point_y_mm": 365.56125132350564,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.479570739285871,
+          "estimated_total_area_mm2": 4.479570730123377,
+          "estimated_axial_area_mm2": 4.479570730123377,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3797725297962337,
+          "gap_max_mm": 2.8579181114798224
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.479570739285871,
+          "estimated_total_area_mm2": 4.479570736995286,
+          "estimated_axial_area_mm2": 4.479570736995286,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2988211156878647,
+          "gap_max_mm": 2.947183122404939
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 57,
+      "v91_face_area_mm2": 4.479243345875552,
+      "fusion_exact_face_area_mm2": 4.479243345875552,
+      "v91_min_gap_mm": 0.2328961278213024,
+      "v91_point_y_mm": 365.55127276707793,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.479243345875552,
+          "estimated_total_area_mm2": 4.479243337769579,
+          "estimated_axial_area_mm2": 4.479243337769579,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37661793382532804,
+          "gap_max_mm": 2.8233999927902924
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.479243345875552,
+          "estimated_total_area_mm2": 4.479243343849098,
+          "estimated_axial_area_mm2": 4.479243343849098,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3003070591517494,
+          "gap_max_mm": 2.911908680837931
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 110,
+      "v91_face_area_mm2": 4.478334114963513,
+      "fusion_exact_face_area_mm2": 4.478334114963513,
+      "v91_min_gap_mm": 0.2240251623249717,
+      "v91_point_y_mm": 365.5612573560313,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.478334114963513,
+          "estimated_total_area_mm2": 4.47833410559044,
+          "estimated_axial_area_mm2": 4.47833410559044,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37878099087033323,
+          "gap_max_mm": 2.854918403669013
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.478334114963513,
+          "estimated_total_area_mm2": 4.4783341126202485,
+          "estimated_axial_area_mm2": 4.4783341126202485,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.29810540393104723,
+          "gap_max_mm": 2.944130165479555
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 44,
+      "v91_face_area_mm2": 4.46919312286191,
+      "fusion_exact_face_area_mm2": 4.46919312286191,
+      "v91_min_gap_mm": 0.2327082322907283,
+      "v91_point_y_mm": 365.55128665190625,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.46919312286191,
+          "estimated_total_area_mm2": 4.469193116689819,
+          "estimated_axial_area_mm2": 4.469193116689819,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37659230794108595,
+          "gap_max_mm": 2.823431242392434
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.46919312286191,
+          "estimated_total_area_mm2": 4.469193121318887,
+          "estimated_axial_area_mm2": 4.469193121318887,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3002421672708666,
+          "gap_max_mm": 2.911938078386234
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 43,
+      "v91_face_area_mm2": 4.467040327139447,
+      "fusion_exact_face_area_mm2": 4.467040327139447,
+      "v91_min_gap_mm": 0.2325565153598489,
+      "v91_point_y_mm": 365.551288380666,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.467040327139447,
+          "estimated_total_area_mm2": 4.467040320941633,
+          "estimated_axial_area_mm2": 4.467040320941633,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37656914017667165,
+          "gap_max_mm": 2.8234464809243063
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.467040327139447,
+          "estimated_total_area_mm2": 4.467040325590028,
+          "estimated_axial_area_mm2": 4.467040325590028,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3001975790477428,
+          "gap_max_mm": 2.911952535426367
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 46,
+      "v91_face_area_mm2": 4.466267561542012,
+      "fusion_exact_face_area_mm2": 4.466267561542012,
+      "v91_min_gap_mm": 0.23278660318378774,
+      "v91_point_y_mm": 365.5512858119738,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.466267561542012,
+          "estimated_total_area_mm2": 4.466267554813888,
+          "estimated_axial_area_mm2": 4.466267554813888,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3766126551001297,
+          "gap_max_mm": 2.823418567686949
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.466267561542012,
+          "estimated_total_area_mm2": 4.466267559860065,
+          "estimated_axial_area_mm2": 4.466267559860065,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3002802109595326,
+          "gap_max_mm": 2.9119261138516266
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 41,
+      "v91_face_area_mm2": 4.466141807874595,
+      "fusion_exact_face_area_mm2": 4.466141807874595,
+      "v91_min_gap_mm": 0.23231290252194003,
+      "v91_point_y_mm": 365.5512917332344,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.466141807874595,
+          "estimated_total_area_mm2": 4.466141801850452,
+          "estimated_axial_area_mm2": 4.466141801850452,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3764920096873974,
+          "gap_max_mm": 2.823495461924872
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.466141807874595,
+          "estimated_total_area_mm2": 4.466141806368565,
+          "estimated_axial_area_mm2": 4.466141806368565,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3000521328929293,
+          "gap_max_mm": 2.912000143978644
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 42,
+      "v91_face_area_mm2": 4.466101025012204,
+      "fusion_exact_face_area_mm2": 4.466101025012204,
+      "v91_min_gap_mm": 0.23245523128124873,
+      "v91_point_y_mm": 365.5512903432451,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.466101025012204,
+          "estimated_total_area_mm2": 4.466101018853565,
+          "estimated_axial_area_mm2": 4.466101018853565,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.376523776420299,
+          "gap_max_mm": 2.823476287639078
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.466101025012204,
+          "estimated_total_area_mm2": 4.466101023472604,
+          "estimated_axial_area_mm2": 4.466101023472604,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3001109321977544,
+          "gap_max_mm": 2.9119808649614596
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 40,
+      "v91_face_area_mm2": 4.4640741101254005,
+      "fusion_exact_face_area_mm2": 4.4640741101254005,
+      "v91_min_gap_mm": 0.23212714157865452,
+      "v91_point_y_mm": 365.5512934981579,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 4.4640741101254005,
+          "estimated_total_area_mm2": 4.464074104070304,
+          "estimated_axial_area_mm2": 4.464074104070304,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.3764489607472683,
+          "gap_max_mm": 2.8235239020549656
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 4.4640741101254005,
+          "estimated_total_area_mm2": 4.464074108611612,
+          "estimated_axial_area_mm2": 4.464074108611612,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2999705497734118,
+          "gap_max_mm": 2.912024237663458
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 18,
+      "v91_face_area_mm2": 4.151613888107195,
+      "fusion_exact_face_area_mm2": 4.151613888107195,
+      "v91_min_gap_mm": 0.17760217694526018,
+      "v91_point_y_mm": 363.4503288530101,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 62,
+          "exact_face_area_mm2": 4.151613888107195,
+          "estimated_total_area_mm2": 4.214243655519303,
+          "estimated_axial_area_mm2": 4.214243655519303,
+          "estimated_usable_area_mm2": 4.214243655519303,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.17868857314912562,
+          "gap_max_mm": 0.19374224701739493
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 245,
+          "exact_face_area_mm2": 4.151613888107195,
+          "estimated_total_area_mm2": 4.163107814909834,
+          "estimated_axial_area_mm2": 4.163107814909834,
+          "estimated_usable_area_mm2": 4.163107814909834,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.17826557650224037,
+          "gap_max_mm": 0.2138128527190056
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 4.151613888107195
+    },
+    {
+      "face_index": 39,
+      "v91_face_area_mm2": 3.54602266553172,
+      "fusion_exact_face_area_mm2": 3.54602266553172,
+      "v91_min_gap_mm": 0.23212714157865452,
+      "v91_point_y_mm": 365.5512929340693,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 63,
+          "exact_face_area_mm2": 3.54602266553172,
+          "estimated_total_area_mm2": 3.6268981854095177,
+          "estimated_axial_area_mm2": 3.6268981854095177,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.37639206175595846,
+          "gap_max_mm": 2.823561825311702
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 247,
+          "exact_face_area_mm2": 3.54602266553172,
+          "estimated_total_area_mm2": 3.5548848691043315,
+          "estimated_axial_area_mm2": 3.5548848691043315,
+          "estimated_usable_area_mm2": 0.0,
+          "usable_fraction_of_face": 0.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.2998634115966712,
+          "gap_max_mm": 2.9120622771437326
+        }
+      ],
+      "credited_usable_fraction": 0.0,
+      "credited_usable_area_mm2": 0.0
+    },
+    {
+      "face_index": 31,
+      "v91_face_area_mm2": 3.433358584311229,
+      "fusion_exact_face_area_mm2": 3.433358584311229,
+      "v91_min_gap_mm": 0.18555249894353465,
+      "v91_point_y_mm": 363.061274984595,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.433358584311229,
+          "estimated_total_area_mm2": 3.4343354351634527,
+          "estimated_axial_area_mm2": 3.4343354351634527,
+          "estimated_usable_area_mm2": 3.4343354351634527,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.1857532121583793,
+          "gap_max_mm": 0.18777140940516007
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 3.433358584311229,
+          "estimated_total_area_mm2": 3.434335435682887,
+          "estimated_axial_area_mm2": 3.434335435682887,
+          "estimated_usable_area_mm2": 3.434335435682887,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18565288422144263,
+          "gap_max_mm": 0.20791596817543434
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.433358584311229
+    },
+    {
+      "face_index": 32,
+      "v91_face_area_mm2": 3.432781226564964,
+      "fusion_exact_face_area_mm2": 3.432781226564964,
+      "v91_min_gap_mm": 0.18575193059332945,
+      "v91_point_y_mm": 363.0612764771582,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.432781226564964,
+          "estimated_total_area_mm2": 3.433785082396205,
+          "estimated_axial_area_mm2": 3.433785082396205,
+          "estimated_usable_area_mm2": 3.433785082396205,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.1858029201158426,
+          "gap_max_mm": 0.18782742360342725
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 3.432781226564964,
+          "estimated_total_area_mm2": 3.4337850837276798,
+          "estimated_axial_area_mm2": 3.4337850837276798,
+          "estimated_usable_area_mm2": 3.4337850837276798,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18579427593977352,
+          "gap_max_mm": 0.20801320225692035
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.432781226564964
+    },
+    {
+      "face_index": 30,
+      "v91_face_area_mm2": 3.431885893978471,
+      "fusion_exact_face_area_mm2": 3.431885893978471,
+      "v91_min_gap_mm": 0.1853553831703839,
+      "v91_point_y_mm": 363.06127470175903,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.431885893978471,
+          "estimated_total_area_mm2": 3.4328769369208043,
+          "estimated_axial_area_mm2": 3.4328769369208043,
+          "estimated_usable_area_mm2": 3.4328769369208043,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18555281959401276,
+          "gap_max_mm": 0.18756011365021952
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 3.431885893978471,
+          "estimated_total_area_mm2": 3.432876937172544,
+          "estimated_axial_area_mm2": 3.432876937172544,
+          "estimated_usable_area_mm2": 3.432876937172544,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18545406979718237,
+          "gap_max_mm": 0.20769154197730516
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.431885893978471
+    },
+    {
+      "face_index": 29,
+      "v91_face_area_mm2": 3.431267927003265,
+      "fusion_exact_face_area_mm2": 3.431267927003265,
+      "v91_min_gap_mm": 0.1851435463631412,
+      "v91_point_y_mm": 363.0612767237867,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.431267927003265,
+          "estimated_total_area_mm2": 3.4322221741965047,
+          "estimated_axial_area_mm2": 3.4322221741965047,
+          "estimated_usable_area_mm2": 3.4322221741965047,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18534583257455703,
+          "gap_max_mm": 0.18734232012128088
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 3.431267927003265,
+          "estimated_total_area_mm2": 3.4322221757435787,
+          "estimated_axial_area_mm2": 3.4322221757435787,
+          "estimated_usable_area_mm2": 3.4322221757435787,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18524474590212794,
+          "gap_max_mm": 0.20745804229838208
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.431267927003265
+    },
+    {
+      "face_index": 28,
+      "v91_face_area_mm2": 3.4302406928953184,
+      "fusion_exact_face_area_mm2": 3.4302406928953184,
+      "v91_min_gap_mm": 0.18485819542226128,
+      "v91_point_y_mm": 363.06127558406723,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.4302406928953184,
+          "estimated_total_area_mm2": 3.431213330970239,
+          "estimated_axial_area_mm2": 3.431213330970239,
+          "estimated_usable_area_mm2": 3.431213330970239,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.1851044625401121,
+          "gap_max_mm": 0.18712524178464263
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 3.4302406928953184,
+          "estimated_total_area_mm2": 3.4312133316233595,
+          "estimated_axial_area_mm2": 3.4312133316233595,
+          "estimated_usable_area_mm2": 3.4312133316233595,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18498129253115309,
+          "gap_max_mm": 0.2072307334270451
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.4302406928953184
+    },
+    {
+      "face_index": 27,
+      "v91_face_area_mm2": 3.429493526043633,
+      "fusion_exact_face_area_mm2": 3.429493526043633,
+      "v91_min_gap_mm": 0.18464029853035466,
+      "v91_point_y_mm": 363.0612770239665,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.429493526043633,
+          "estimated_total_area_mm2": 3.4304322694890304,
+          "estimated_axial_area_mm2": 3.4304322694890304,
+          "estimated_usable_area_mm2": 3.4304322694890304,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.1848408379479122,
+          "gap_max_mm": 0.1868202108776224
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 3.429493526043633,
+          "estimated_total_area_mm2": 3.430432271019118,
+          "estimated_axial_area_mm2": 3.430432271019118,
+          "estimated_usable_area_mm2": 3.430432271019118,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18474059887824593,
+          "gap_max_mm": 0.20692587247789074
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.429493526043633
+    },
+    {
+      "face_index": 26,
+      "v91_face_area_mm2": 3.428044531596523,
+      "fusion_exact_face_area_mm2": 3.428044531596523,
+      "v91_min_gap_mm": 0.18417263061920552,
+      "v91_point_y_mm": 363.0612812977677,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.428044531596523,
+          "estimated_total_area_mm2": 3.4289990377919235,
+          "estimated_axial_area_mm2": 3.4289990377919235,
+          "estimated_usable_area_mm2": 3.4289990377919235,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.184520084328616,
+          "gap_max_mm": 0.18659448580180163
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 3.428044531596523,
+          "estimated_total_area_mm2": 3.428999037677026,
+          "estimated_axial_area_mm2": 3.428999037677026,
+          "estimated_usable_area_mm2": 3.428999037677026,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18434636263253973,
+          "gap_max_mm": 0.2066932121620924
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.428044531596523
+    },
+    {
+      "face_index": 25,
+      "v91_face_area_mm2": 3.426570071490495,
+      "fusion_exact_face_area_mm2": 3.426570071490495,
+      "v91_min_gap_mm": 0.18386251170241577,
+      "v91_point_y_mm": 363.06127721711215,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.426570071490495,
+          "estimated_total_area_mm2": 3.4274868636835243,
+          "estimated_axial_area_mm2": 3.4274868636835243,
+          "estimated_usable_area_mm2": 3.4274868636835243,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18411194461590674,
+          "gap_max_mm": 0.18611799197081533
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 3.426570071490495,
+          "estimated_total_area_mm2": 3.4274868649169927,
+          "estimated_axial_area_mm2": 3.4274868649169927,
+          "estimated_usable_area_mm2": 3.4274868649169927,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18398724852061393,
+          "gap_max_mm": 0.20624418983862913
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.426570071490495
+    },
+    {
+      "face_index": 24,
+      "v91_face_area_mm2": 3.4234344951332805,
+      "fusion_exact_face_area_mm2": 3.4234344951332805,
+      "v91_min_gap_mm": 0.1834645936274928,
+      "v91_point_y_mm": 363.06132829905425,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.4234344951332805,
+          "estimated_total_area_mm2": 3.427026616336568,
+          "estimated_axial_area_mm2": 3.427026616336568,
+          "estimated_usable_area_mm2": 3.427026616336568,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18376166917727896,
+          "gap_max_mm": 0.18580132458465726
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 256,
+          "exact_face_area_mm2": 3.4234344951332805,
+          "estimated_total_area_mm2": 3.427026617223715,
+          "estimated_axial_area_mm2": 3.427026617223715,
+          "estimated_usable_area_mm2": 3.427026617223715,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18361205167380673,
+          "gap_max_mm": 0.20593882562559462
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.4234344951332805
+    },
+    {
+      "face_index": 23,
+      "v91_face_area_mm2": 3.2993244554168673,
+      "fusion_exact_face_area_mm2": 3.2993244554168673,
+      "v91_min_gap_mm": 0.18298061460182713,
+      "v91_point_y_mm": 363.07869301952985,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.2993244554168673,
+          "estimated_total_area_mm2": 3.3696402736675206,
+          "estimated_axial_area_mm2": 3.3696402736675206,
+          "estimated_usable_area_mm2": 3.3696402736675206,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.1833220192816986,
+          "gap_max_mm": 0.18570468860476638
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 252,
+          "exact_face_area_mm2": 3.2993244554168673,
+          "estimated_total_area_mm2": 3.3167818426741102,
+          "estimated_axial_area_mm2": 3.3167818426741102,
+          "estimated_usable_area_mm2": 3.3167818426741102,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18315633689199143,
+          "gap_max_mm": 0.20604995759279124
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.2993244554168673
+    },
+    {
+      "face_index": 22,
+      "v91_face_area_mm2": 3.129942510118183,
+      "fusion_exact_face_area_mm2": 3.129942510118183,
+      "v91_min_gap_mm": 0.18218606398197285,
+      "v91_point_y_mm": 363.1316967144194,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 64,
+          "exact_face_area_mm2": 3.129942510118183,
+          "estimated_total_area_mm2": 3.1970134867466617,
+          "estimated_axial_area_mm2": 3.1970134867466617,
+          "estimated_usable_area_mm2": 3.1970134867466617,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18269948008743286,
+          "gap_max_mm": 0.18630581390554848
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 252,
+          "exact_face_area_mm2": 3.129942510118183,
+          "estimated_total_area_mm2": 3.1468727327198054,
+          "estimated_axial_area_mm2": 3.1468727327198054,
+          "estimated_usable_area_mm2": 3.1468727327198054,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18244708459388337,
+          "gap_max_mm": 0.20712411933600625
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 3.129942510118183
+    },
+    {
+      "face_index": 50,
+      "v91_face_area_mm2": 2.6853075389387326,
+      "fusion_exact_face_area_mm2": 2.6853075389387326,
+      "v91_min_gap_mm": 0.17776323981713113,
+      "v91_point_y_mm": 362.4384384541782,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 60,
+          "exact_face_area_mm2": 2.6853075389387326,
+          "estimated_total_area_mm2": 2.700685960500584,
+          "estimated_axial_area_mm2": 2.700685960500584,
+          "estimated_usable_area_mm2": 2.700685960500584,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.1788023890603381,
+          "gap_max_mm": 0.18441525597336164
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 239,
+          "exact_face_area_mm2": 2.6853075389387326,
+          "estimated_total_area_mm2": 2.689465742808554,
+          "estimated_axial_area_mm2": 2.689465742808554,
+          "estimated_usable_area_mm2": 2.689465742808554,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.17858530970203235,
+          "gap_max_mm": 0.18456384488968205
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 2.6853075389387326
+    },
+    {
+      "face_index": 52,
+      "v91_face_area_mm2": 2.1751880421651903,
+      "fusion_exact_face_area_mm2": 2.1751880421651903,
+      "v91_min_gap_mm": 0.17887665497137165,
+      "v91_point_y_mm": 362.3608553549668,
+      "samples": [
+        {
+          "resolution": 8,
+          "valid_samples": 59,
+          "exact_face_area_mm2": 2.1751880421651903,
+          "estimated_total_area_mm2": 2.1989099692715275,
+          "estimated_axial_area_mm2": 2.1989099692715275,
+          "estimated_usable_area_mm2": 2.1989099692715275,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.18004943415299857,
+          "gap_max_mm": 0.18475079718407345
+        },
+        {
+          "resolution": 16,
+          "valid_samples": 234,
+          "exact_face_area_mm2": 2.1751880421651903,
+          "estimated_total_area_mm2": 2.1803067340593407,
+          "estimated_axial_area_mm2": 2.1803067340593407,
+          "estimated_usable_area_mm2": 2.1803067340593407,
+          "usable_fraction_of_face": 1.0,
+          "axial_fraction_of_face": 1.0,
+          "gap_min_mm": 0.17978809795744052,
+          "gap_max_mm": 0.18486739809505312
+        }
+      ],
+      "credited_usable_fraction": 1.0,
+      "credited_usable_area_mm2": 2.1751880421651903
+    }
+  ],
+  "pointwise_area_lower_bound_established": true,
+  "adhesive_allowable_verified": false,
+  "coupon_verified": false,
+  "peel_stress_verified": false,
+  "torsion_transfer_verified": false,
+  "structural_capacity_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "43b429aaafe16ed3587b65f632c51d0658ed4b8f2acaab52347aeb8b28cb285e"
+}

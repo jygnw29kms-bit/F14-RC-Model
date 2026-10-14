@@ -1,0 +1,14 @@
+{
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_INSERT_MFG_ENDPOINT_CLEARANCE_v89.f3d",
+    "sha256":  "9ff359d241e94db15f54967e1212ee99b413ddf16ce9e192729200f17d94cfbe",
+    "v91_audit_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_v91_final_bond_torsion_audit.json",
+    "v91_audit_sha256":  "f6466657a35b851dec63f3440eb1599788b6c2aebe149eebaefac788122c99b9",
+    "axial_y_max_mm":  366.9687853,
+    "skin_gap_max_mm":  0.25,
+    "dominant_area_fraction":  0.8,
+    "resolutions":  [
+                        8,
+                        16
+                    ],
+    "torsion_sf3_force_N":  110.84450852055485
+}
