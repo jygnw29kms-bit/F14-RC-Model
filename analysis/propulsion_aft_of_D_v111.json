@@ -1,0 +1,76 @@
+{
+  "status": "V111_TWIN_50MM_AFT_OF_D_PACKAGING_PATH_PREPARED",
+  "source_v110": "analysis/propulsion_hardware_verification_v110.json",
+  "legacy_registered_sections": {
+    "D": {
+      "x": 595.8483908511422,
+      "avail": 50.17471582981215,
+      "bare_shroud_diameter_margin_mm": -2.3252841701878495
+    },
+    "E": {
+      "x": 648.8863542888724,
+      "avail": 57.63115429796666,
+      "bare_shroud_diameter_margin_mm": 5.13115429796666
+    },
+    "F": {
+      "x": 754.962281164333,
+      "avail": 58.987271007173696,
+      "bare_shroud_diameter_margin_mm": 6.487271007173696
+    },
+    "E_to_F_axial_distance_mm": 106.0759268754606
+  },
+  "candidate": {
+    "name": "FMS FMSEDF006 50mm 11-blade 2627-KV4500 4S",
+    "bare_shroud_od_mm": 52.5,
+    "inlet_lip_od_mm": 60.0,
+    "overall_length_mm": 73.5,
+    "rotor_nominal_mm": 50.0,
+    "motor": "2627-KV4500",
+    "published_thrust_conservative_g": 850,
+    "published_current_A": 40,
+    "notes": [
+      "52.5/60/73.5 taken from published FMS 50mm dimensional drawing; drawing found on 3S listing and assumed common fan housing pending direct 4S drawing confirmation",
+      "850g/40A from FMS retailer data; thrust remains bench-verification only"
+    ]
+  },
+  "screen": {
+    "D_bare_shroud_pass": false,
+    "E_bare_shroud_pass": true,
+    "F_bare_shroud_pass": true,
+    "E_to_F_length_pass": true,
+    "E_to_F_remaining_axial_mm": 32.575926875460596,
+    "inlet_lip_internal_installation_pass": false,
+    "intended_installation": "bare EDF shroud inside custom printed inlet/duct; do not install 60mm external inlet lip inside constrained nacelle",
+    "twin_static_thrust_benchmark_g": 1700,
+    "twin_current_benchmark_A": 80
+  },
+  "decision": {
+    "preferred_architecture": "retain twin 50mm 4S and move EDF start aft of D bottleneck",
+    "FMS_frozen_hardware": false,
+    "reason_not_frozen": [
+      "legacy E/F sections do not prove continuous clearance between stations",
+      "4S housing drawing identity still requires direct verification",
+      "custom inlet transition and exhaust duct not yet designed",
+      "installed thrust/current/thermal tests not complete"
+    ]
+  },
+  "next_geometry_gate": {
+    "scan_x_start_mm": 648.8863542888724,
+    "scan_x_end_mm": 722.3863542888724,
+    "required_bare_diameter_mm": 52.5,
+    "desired_radial_service_mm": 0.75,
+    "required_clear_diameter_with_service_mm": 54.0,
+    "continuous_current_geometry_available": false
+  },
+  "release_gates": {
+    "current_aft_geometry_registered": false,
+    "continuous_73p5mm_clearance_verified": false,
+    "custom_inlet_transition_verified": false,
+    "exhaust_FSA_verified": false,
+    "candidate_hardware_frozen": false,
+    "installed_bench_verified": false,
+    "propulsion_packaging_freeze": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "status": "V112_PROPULSION_INSTALLED_MARGIN_SCREEN",
+  "candidate": {
+    "name": "FMS FMSEDF006 50mm 11-blade 2627-KV4500 4S",
+    "bare_shroud_od_mm": 52.5,
+    "inlet_lip_od_mm": 60.0,
+    "overall_length_mm": 73.5,
+    "rotor_nominal_mm": 50.0,
+    "motor": "2627-KV4500",
+    "published_thrust_conservative_g": 850,
+    "published_current_A": 40,
+    "notes": [
+      "52.5/60/73.5 taken from published FMS 50mm dimensional drawing; drawing found on 3S listing and assumed common fan housing pending direct 4S drawing confirmation",
+      "850g/40A from FMS retailer data; thrust remains bench-verification only"
+    ]
+  },
+  "pair_claimed_thrust_benchmark_g": 1700,
+  "mass_cases": [
+    {
+      "auw_g": 1050,
+      "cases": [
+        {
+          "installed_thrust_retention": 1.0,
+          "pair_thrust_g": 1700.0,
+          "static_TW": 1.619047619047619
+        },
+        {
+          "installed_thrust_retention": 0.9,
+          "pair_thrust_g": 1530.0,
+          "static_TW": 1.457142857142857
+        },
+        {
+          "installed_thrust_retention": 0.85,
+          "pair_thrust_g": 1445.0,
+          "static_TW": 1.3761904761904762
+        },
+        {
+          "installed_thrust_retention": 0.8,
+          "pair_thrust_g": 1360.0,
+          "static_TW": 1.2952380952380953
+        },
+        {
+          "installed_thrust_retention": 0.75,
+          "pair_thrust_g": 1275.0,
+          "static_TW": 1.2142857142857142
+        }
+      ]
+    },
+    {
+      "auw_g": 1100,
+      "cases": [
+        {
+          "installed_thrust_retention": 1.0,
+          "pair_thrust_g": 1700.0,
+          "static_TW": 1.5454545454545454
+        },
+        {
+          "installed_thrust_retention": 0.9,
+          "pair_thrust_g": 1530.0,
+          "static_TW": 1.3909090909090909
+        },
+        {
+          "installed_thrust_retention": 0.85,
+          "pair_thrust_g": 1445.0,
+          "static_TW": 1.3136363636363637
+        },
+        {
+          "installed_thrust_retention": 0.8,
+          "pair_thrust_g": 1360.0,
+          "static_TW": 1.2363636363636363
+        },
+        {
+          "installed_thrust_retention": 0.75,
+          "pair_thrust_g": 1275.0,
+          "static_TW": 1.1590909090909092
+        }
+      ]
+    },
+    {
+      "auw_g": 1200,
+      "cases": [
+        {
+          "installed_thrust_retention": 1.0,
+          "pair_thrust_g": 1700.0,
+          "static_TW": 1.4166666666666667
+        },
+        {
+          "installed_thrust_retention": 0.9,
+          "pair_thrust_g": 1530.0,
+          "static_TW": 1.275
+        },
+        {
+          "installed_thrust_retention": 0.85,
+          "pair_thrust_g": 1445.0,
+          "static_TW": 1.2041666666666666
+        },
+        {
+          "installed_thrust_retention": 0.8,
+          "pair_thrust_g": 1360.0,
+          "static_TW": 1.1333333333333333
+        },
+        {
+          "installed_thrust_retention": 0.75,
+          "pair_thrust_g": 1275.0,
+          "static_TW": 1.0625
+        }
+      ]
+    },
+    {
+      "auw_g": 1300,
+      "cases": [
+        {
+          "installed_thrust_retention": 1.0,
+          "pair_thrust_g": 1700.0,
+          "static_TW": 1.3076923076923077
+        },
+        {
+          "installed_thrust_retention": 0.9,
+          "pair_thrust_g": 1530.0,
+          "static_TW": 1.176923076923077
+        },
+        {
+          "installed_thrust_retention": 0.85,
+          "pair_thrust_g": 1445.0,
+          "static_TW": 1.1115384615384616
+        },
+        {
+          "installed_thrust_retention": 0.8,
+          "pair_thrust_g": 1360.0,
+          "static_TW": 1.0461538461538462
+        },
+        {
+          "installed_thrust_retention": 0.75,
+          "pair_thrust_g": 1275.0,
+          "static_TW": 0.9807692307692307
+        }
+      ]
+    },
+    {
+      "auw_g": 1400,
+      "cases": [
+        {
+          "installed_thrust_retention": 1.0,
+          "pair_thrust_g": 1700.0,
+          "static_TW": 1.2142857142857142
+        },
+        {
+          "installed_thrust_retention": 0.9,
+          "pair_thrust_g": 1530.0,
+          "static_TW": 1.0928571428571427
+        },
+        {
+          "installed_thrust_retention": 0.85,
+          "pair_thrust_g": 1445.0,
+          "static_TW": 1.0321428571428573
+        },
+        {
+          "installed_thrust_retention": 0.8,
+          "pair_thrust_g": 1360.0,
+          "static_TW": 0.9714285714285714
+        },
+        {
+          "installed_thrust_retention": 0.75,
+          "pair_thrust_g": 1275.0,
+          "static_TW": 0.9107142857142857
+        }
+      ]
+    }
+  ],
+  "electrical": {
+    "pair_current_benchmark_A": 80,
+    "legacy_pair_current_A_QX": 68,
+    "battery_candidate_mAh": 1800,
+    "ideal_full_power_minutes_at_80A": 1.3499999999999999,
+    "ideal_80pct_minutes_at_80A": 1.08,
+    "minimum_ESC_each_A": 50,
+    "recommended_design_ESC_each_A": 60
+  },
+  "decision": {
+    "design_AUW_target_g": 1100,
+    "hard_propulsion_screen_AUW_g": 1200,
+    "structural_review_mass_1400g_is_not_mass_target": true,
+    "minimum_desired_installed_static_TW_at_1200g": 1.1,
+    "required_pair_installed_thrust_g_at_1200g": 1320,
+    "required_retention_of_1700g_benchmark": 0.7764705882352941,
+    "interpretation": "FMS 850g each benchmark is viable at <=1200g only if installed duct system preserves roughly 78% or more of open-air benchmark thrust. This must be measured, not assumed."
+  },
+  "gates": {
+    "installed_thrust_retention_measured": false,
+    "pair_current_measured": false,
+    "voltage_sag_measured": false,
+    "esc_thermal_verified": false,
+    "battery_C_real_verified": false,
+    "propulsion_release": false,
+    "flight_release": false
+  }
+}

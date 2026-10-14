@@ -1,0 +1,51 @@
+{
+    "status":  "V110_QX_QF2611_HARDWARE_DIMENSION_VERIFIED_PACKAGING_REJECT",
+    "verified_hardware":  {
+                              "candidate":  "QX-MOTOR QF2611 50mm 12-blade 4000KV 4S",
+                              "outer_diameter_mm":  63,
+                              "inner_diameter_mm":  54,
+                              "housing_length_mm":  39.08,
+                              "motor_diameter_mm":  25.8,
+                              "unit_mass_g":  76,
+                              "voltage_test_V":  16.2,
+                              "current_A":  34,
+                              "power_W":  550.8,
+                              "claimed_static_thrust_g":  950,
+                              "recommended_ESC_A":  40,
+                              "sources":  [
+                                              "QX-Motor official product technical drawing",
+                                              "QX-Motor official QF2611 performance table"
+                                          ]
+                          },
+    "legacy_packaging_comparison":  {
+                                        "source":  "legacy aft_edf_corrected_DE_v51",
+                                        "legacy_assumed_housing_diameter_mm":  52,
+                                        "section_D_available_diameter_mm":  50.174715829812151,
+                                        "section_E_available_diameter_mm":  57.63115429796666,
+                                        "section_F_available_diameter_mm":  58.987271007173696,
+                                        "verified_QX_outer_diameter_mm":  63,
+                                        "D_diameter_deficit_mm":  12.825284170187849,
+                                        "E_diameter_deficit_mm":  5.368845702033342,
+                                        "F_diameter_deficit_mm":  4.0127289928263039
+                                    },
+    "decision":  {
+                     "QX_QF2611_frozen_hardware":  false,
+                     "current_OML_packaging_pass":  false,
+                     "reason":  "Verified 63 mm outer shroud diameter exceeds all D/E/F local available diameters in the currently registered legacy packaging sensitivity.",
+                     "next_checks":  [
+                                         "re-register current aft nacelle geometry rather than relying solely on legacy v51",
+                                         "determine whether EDF housing can begin aft of D and avoid the D bottleneck",
+                                         "screen compact EDF alternatives by verified outer shroud diameter, not nominal rotor class",
+                                         "preserve twin-EDF 4S architecture unless packaging/thrust trade proves another size necessary"
+                                     ]
+                 },
+    "release_gates":  {
+                          "current_geometry_reregistered":  false,
+                          "continuous_axis_envelope_verified":  false,
+                          "alternate_edf_selected":  false,
+                          "installed_thrust_bench_verified":  false,
+                          "propulsion_packaging_freeze":  false,
+                          "print_release":  false,
+                          "flight_release":  false
+                      }
+}

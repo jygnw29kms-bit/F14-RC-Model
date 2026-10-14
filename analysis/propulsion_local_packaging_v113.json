@@ -1,0 +1,94 @@
+{
+  "status": "V113_ACTIVE_REPRODUCTION_FMS_LOCAL_PACKAGING",
+  "source_manifest": "analysis/propulsion_sources_v113/manifest.json",
+  "candidate": {
+    "bare_shroud_od_mm": 52.5,
+    "skin_allowance_mm": 0.8,
+    "desired_radial_service_mm": 0.75,
+    "required_clear_diameter_mm": 55.6,
+    "overall_length_mm": 73.5
+  },
+  "sections": [
+    {
+      "section": "D",
+      "x_mm": 595.8483908511422,
+      "available_disk_diameter_mm": 50.17471582981215,
+      "required_clear_diameter_mm": 55.6,
+      "diameter_margin_mm": -5.425284170187851,
+      "local_pass": false,
+      "optimal_centers_pixels": [
+        [
+          384.9508928571429,
+          1670
+        ],
+        [
+          614.9508928571429,
+          1670
+        ]
+      ],
+      "isotropic_factor": 0.9288385148322664
+    },
+    {
+      "section": "E",
+      "x_mm": 648.8863542888724,
+      "available_disk_diameter_mm": 57.63115429796666,
+      "required_clear_diameter_mm": 55.6,
+      "diameter_margin_mm": 2.0311542979666584,
+      "local_pass": true,
+      "optimal_centers_pixels": [
+        [
+          946.3608630952381,
+          1685
+        ],
+        [
+          1182.360863095238,
+          1685
+        ]
+      ],
+      "isotropic_factor": 1.0177918287637184
+    },
+    {
+      "section": "F",
+      "x_mm": 754.962281164333,
+      "available_disk_diameter_mm": 58.987271007173696,
+      "required_clear_diameter_mm": 55.6,
+      "diameter_margin_mm": 3.3872710071736947,
+      "local_pass": true,
+      "optimal_centers_pixels": [
+        [
+          1375.9222470238096,
+          2587
+        ],
+        [
+          1615.9222470238096,
+          2587
+        ]
+      ],
+      "isotropic_factor": 1.0420794523566128
+    }
+  ],
+  "source_station_gaps_mm": [
+    53.03796343773024,
+    106.0759268754606
+  ],
+  "checks": {
+    "D_pass": false,
+    "E_pass": true,
+    "F_pass": true,
+    "E_to_F_axial_span_mm": 106.0759268754606,
+    "E_to_F_body_length_reserve_mm": 32.575926875460596
+  },
+  "limitations": [
+    "section centers are independently optimized and do not prove one straight EDF axis",
+    "metric station registration remains provisional in promoted historical source set",
+    "only D/E/F source sections are available; continuous clearance between E and F is not source-proven",
+    "60 mm intake lip is not included and must not be installed in the constrained internal duct"
+  ],
+  "release": {
+    "local_section_screen_pass": true,
+    "continuous_axis_pass": false,
+    "hardware_frozen": false,
+    "propulsion_packaging_freeze": false,
+    "flight_release": false
+  }
+}

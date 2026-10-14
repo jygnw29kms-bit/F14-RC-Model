@@ -1,0 +1,56 @@
+{
+    "status":  "V113_PROMOTED_PROPULSION_SOURCE_SET",
+    "files":  [
+                  {
+                      "file":  "upc_source_section_candidates_v07.json",
+                      "sha256":  "9bfb86173aff92a13e4f2dac41280a6d010c228d1c13884c07438e4d803dd9bb",
+                      "source":  "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/analysis/upc_source_section_candidates_v07.json"
+                  },
+                  {
+                      "file":  "upc_D_source_contour_v49.json",
+                      "sha256":  "2f46597112bdd2a4c2ea150682760403af44f35e37e0dcb4792f404b8e0192c1",
+                      "source":  "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/analysis/upc_D_source_contour_v49.json"
+                  },
+                  {
+                      "file":  "upc_D_registration_v50.json",
+                      "sha256":  "ffa240b2d58b46fe0dfd146b957dde290d806e888c98b4aee9e13bca675ec4b5",
+                      "source":  "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/analysis/upc_D_registration_v50.json"
+                  },
+                  {
+                      "file":  "upc_E_source_contour_v43.json",
+                      "sha256":  "4a62d59d40fe6a74e252fc61a6755f92eab9d3d13ca99876eb4e72d57fe9868c",
+                      "source":  "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/analysis/upc_E_source_contour_v43.json"
+                  },
+                  {
+                      "file":  "upc_E_registration_v44.json",
+                      "sha256":  "c861ffcefa7756c377fdc476138b79a25e216dcbdb6d61d3c8775b201bce3b0d",
+                      "source":  "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/analysis/upc_E_registration_v44.json"
+                  },
+                  {
+                      "file":  "upc_F_connected_section_v11.json",
+                      "sha256":  "495c2bc7c3b619f9ebddd6834aa8ea06737fdf7ab7cdfc1563ee23c3da4c42d9",
+                      "source":  "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/analysis/upc_F_connected_section_v11.json"
+                  },
+                  {
+                      "file":  "upc_DE_registration_v12.json",
+                      "sha256":  "b43c9bdb4a0231cc0a7e6cbe5c64034ca899d505c4af1e50d7c8f7ec830123b2",
+                      "source":  "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/analysis/upc_DE_registration_v12.json"
+                  },
+                  {
+                      "file":  "upc_F_registration_v12.json",
+                      "sha256":  "70281be0623981f666089849735c7ac8fd79d4880ee66757a2d2080da0be3daf",
+                      "source":  "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/analysis/upc_F_registration_v12.json"
+                  },
+                  {
+                      "file":  "aft_edf_section_packaging.py",
+                      "sha256":  "67edecff31ddee98335b692f7a15569b07ac81245b3b5edb9b1f13b4a6966c2a",
+                      "source":  "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/analysis/aft_edf_section_packaging.py"
+                  },
+                  {
+                      "file":  "validate_source_contours.py",
+                      "sha256":  "3673b8060162fd23721b66b72661e0575f06b5f8445eb4c1f7297f04b76a5e6f",
+                      "source":  "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/analysis/validate_source_contours.py"
+                  }
+              ],
+    "policy":  "Byte-identical copies promoted into active analysis path; historical originals remain under legacy for provenance. These sources are analysis candidates only and preserve their original registration limitations."
+}
