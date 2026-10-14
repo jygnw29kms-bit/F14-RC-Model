@@ -2564,6 +2564,18 @@ def build_project_revision():
         review=json.load(stream).get('review','project')
     if review=='source_spar_v10':
         return build_source_spar_review_v10()
+    if review=='final_insert_sections_v90':
+        path=os.path.join(os.path.dirname(__file__),'F14FinalInsertSections_v90.py')
+        spec=importlib.util.spec_from_file_location('f14_final_insert_sections_v90',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='final_bond_torsion_v91':
+        path=os.path.join(os.path.dirname(__file__),'F14FinalBondTorsion_v91.py')
+        spec=importlib.util.spec_from_file_location('f14_final_bond_torsion_v91',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
     if review=='manufacturing_clearance_v89':
         path=os.path.join(os.path.dirname(__file__),'F14ManufacturingEndpointClearance_v89.py')
         spec=importlib.util.spec_from_file_location('f14_manufacturing_clearance_v89',path)
