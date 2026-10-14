@@ -1,0 +1,8 @@
+{
+    "sha256":  "75d4801b4a1148a0faa836aa846e9aee25e622c769ac118838fecf1023051a42",
+    "y_start_mm":  362.05,
+    "slice_thickness_mm":  0.1,
+    "y_end_mm":  367.7,
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_INSERT_SWEEP_CLEARED_v83.f3d",
+    "y_step_mm":  0.25
+}

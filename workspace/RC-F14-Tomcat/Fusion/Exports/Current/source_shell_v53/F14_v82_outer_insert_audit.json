@@ -1,0 +1,245 @@
+{
+  "status": "V82_OUTER_RIB_KEY_INSERT_ASSEMBLY_SCREEN",
+  "source": {
+    "sha256": "c7331ba430e1c6da9299f144dcde63d9f21322916cd076a94d9ed27858e6ee3b",
+    "insertion_mm": 5,
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_WING_JOINT_CARBON_SWEEP_KEYS_v79.f3d",
+    "target_axial_gap_mm": 0.22,
+    "root_overlap_mm": 0.02,
+    "step_mm": 0.5
+  },
+  "insert": {
+    "volume_cm3": 0.9826113415197967,
+    "bbox_y_mm": [
+      361.9887853000001,
+      367.76878529999914
+    ],
+    "axial_gap_to_inner_rib_mm": 0.2200000000000557,
+    "root_overlap_mm": 0.02
+  },
+  "final_collision_checks": [
+    {
+      "blocker": "CANDIDATE_HOLLOW_WING_R_INNER_NO_JOINTS",
+      "removed_cm3": 0.0,
+      "pass": true
+    },
+    {
+      "blocker": "CANDIDATE_HOLLOW_WING_R_OUTER_NO_JOINTS",
+      "removed_cm3": 0.0,
+      "pass": true
+    },
+    {
+      "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+      "removed_cm3": 0.0,
+      "pass": true
+    },
+    {
+      "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+      "removed_cm3": 0.0,
+      "pass": true
+    },
+    {
+      "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+      "removed_cm3": 0.0,
+      "pass": true
+    }
+  ],
+  "insertion_path_screen": [
+    {
+      "outboard_translation_mm": 5.0,
+      "collision_free": false,
+      "hits": [
+        {
+          "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.001753116734002358
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0008811134324114844
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0016828453034383184
+        }
+      ]
+    },
+    {
+      "outboard_translation_mm": 4.5,
+      "collision_free": false,
+      "hits": [
+        {
+          "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.001484320462088462
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0007773328985172245
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0016324252385823135
+        }
+      ]
+    },
+    {
+      "outboard_translation_mm": 4.0,
+      "collision_free": false,
+      "hits": [
+        {
+          "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0012683859890785243
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0006931932198194213
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0016518294223164531
+        }
+      ]
+    },
+    {
+      "outboard_translation_mm": 3.5,
+      "collision_free": false,
+      "hits": [
+        {
+          "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0010524739961759177
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0006060758810025879
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.001671229775005778
+        }
+      ]
+    },
+    {
+      "outboard_translation_mm": 3.0,
+      "collision_free": false,
+      "hits": [
+        {
+          "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0008365844833368996
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.000515989211218093
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0014821298759035706
+        }
+      ]
+    },
+    {
+      "outboard_translation_mm": 2.5,
+      "collision_free": false,
+      "hits": [
+        {
+          "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0006207174505086233
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.00042286834826721353
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.001212381962861775
+        }
+      ]
+    },
+    {
+      "outboard_translation_mm": 2.0,
+      "collision_free": false,
+      "hits": [
+        {
+          "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.000404872897344033
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0003251665747968646
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.000936128285716098
+        }
+      ]
+    },
+    {
+      "outboard_translation_mm": 1.5,
+      "collision_free": false,
+      "hits": [
+        {
+          "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0002241915359051383
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.00022379201086031308
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0006511345779716127
+        }
+      ]
+    },
+    {
+      "outboard_translation_mm": 1.0,
+      "collision_free": false,
+      "hits": [
+        {
+          "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.00012218671754393728
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.00012178762775838514
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 0.0003588872688935485
+        }
+      ]
+    },
+    {
+      "outboard_translation_mm": 0.5,
+      "collision_free": false,
+      "hits": [
+        {
+          "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 2.0181845978406443e-05
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 1.9784222788143957e-05
+        },
+        {
+          "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+          "removed_cm3": 6.663992313105105e-05
+        }
+      ]
+    },
+    {
+      "outboard_translation_mm": 0.0,
+      "collision_free": true,
+      "hits": []
+    }
+  ],
+  "final_collision_free": true,
+  "insertion_collision_free": false,
+  "axial_gap_screen_pass": true,
+  "geometry_candidate_pass": false,
+  "primary_bending_path": "continuous carbon",
+  "fit_coupon_verified": false,
+  "torsion_capacity_verified": false,
+  "structural_capacity_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "9ea56c400dd09b7c6600b0d0c6c91babae7e1fd02b62c02e349062b8df40375b"
+}

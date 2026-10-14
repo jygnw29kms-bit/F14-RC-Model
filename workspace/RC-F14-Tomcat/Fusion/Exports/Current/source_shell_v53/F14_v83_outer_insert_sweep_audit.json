@@ -1,0 +1,152 @@
+{
+  "status": "V83_FULL_OUTER_INSERT_CARBON_SWEEP_CLEARANCE",
+  "source": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_OUTER_RIB_KEY_INSERT_v82.f3d",
+    "sha256": "45c2b849a0a8fb58ead5c25f1d86ea60046ce250389e65259f59cb18935a68b6",
+    "insertion_mm": 5,
+    "step_mm": 0.5,
+    "target_axial_gap_mm": 0.22
+  },
+  "insert": {
+    "raw_volume_cm3": 0.9826113415197967,
+    "cleared_volume_cm3": 0.97723271255563,
+    "volume_retained_fraction": 0.994526188802332,
+    "bbox_y_mm": [
+      361.9887853000003,
+      367.76878529999914
+    ],
+    "face_count": 227,
+    "axial_gap_to_inner_rib_mm": 0.2200000000000557
+  },
+  "carve_samples": [
+    {
+      "relative_carbon_shift_mm": -0.0
+    },
+    {
+      "relative_carbon_shift_mm": -0.5
+    },
+    {
+      "relative_carbon_shift_mm": -1.0
+    },
+    {
+      "relative_carbon_shift_mm": -1.5
+    },
+    {
+      "relative_carbon_shift_mm": -2.0
+    },
+    {
+      "relative_carbon_shift_mm": -2.5
+    },
+    {
+      "relative_carbon_shift_mm": -3.0
+    },
+    {
+      "relative_carbon_shift_mm": -3.5
+    },
+    {
+      "relative_carbon_shift_mm": -4.0
+    },
+    {
+      "relative_carbon_shift_mm": -4.5
+    },
+    {
+      "relative_carbon_shift_mm": -5.0
+    }
+  ],
+  "final_collision_checks": [
+    {
+      "blocker": "CANDIDATE_HOLLOW_WING_R_INNER_NO_JOINTS",
+      "removed_cm3": 0.0,
+      "pass": true
+    },
+    {
+      "blocker": "CANDIDATE_HOLLOW_WING_R_OUTER_NO_JOINTS",
+      "removed_cm3": 0.0,
+      "pass": true
+    },
+    {
+      "blocker": "CANDIDATE_CARBON_R_UPPER_CAP_NOT_STRENGTH_VERIFIED",
+      "removed_cm3": 0.0,
+      "pass": true
+    },
+    {
+      "blocker": "CANDIDATE_CARBON_R_LOWER_CAP_NOT_STRENGTH_VERIFIED",
+      "removed_cm3": 0.0,
+      "pass": true
+    },
+    {
+      "blocker": "CANDIDATE_CARBON_R_WEB_NOT_STRENGTH_VERIFIED",
+      "removed_cm3": 0.0,
+      "pass": true
+    }
+  ],
+  "insertion_path_screen": [
+    {
+      "outboard_translation_mm": 5.0,
+      "collision_free": true,
+      "hits": []
+    },
+    {
+      "outboard_translation_mm": 4.5,
+      "collision_free": true,
+      "hits": []
+    },
+    {
+      "outboard_translation_mm": 4.0,
+      "collision_free": true,
+      "hits": []
+    },
+    {
+      "outboard_translation_mm": 3.5,
+      "collision_free": true,
+      "hits": []
+    },
+    {
+      "outboard_translation_mm": 3.0,
+      "collision_free": true,
+      "hits": []
+    },
+    {
+      "outboard_translation_mm": 2.5,
+      "collision_free": true,
+      "hits": []
+    },
+    {
+      "outboard_translation_mm": 2.0,
+      "collision_free": true,
+      "hits": []
+    },
+    {
+      "outboard_translation_mm": 1.5,
+      "collision_free": true,
+      "hits": []
+    },
+    {
+      "outboard_translation_mm": 1.0,
+      "collision_free": true,
+      "hits": []
+    },
+    {
+      "outboard_translation_mm": 0.5,
+      "collision_free": true,
+      "hits": []
+    },
+    {
+      "outboard_translation_mm": 0.0,
+      "collision_free": true,
+      "hits": []
+    }
+  ],
+  "final_collision_free": true,
+  "insertion_collision_free": true,
+  "axial_gap_screen_pass": true,
+  "geometry_candidate_pass": true,
+  "primary_bending_path": "continuous carbon",
+  "minimum_insert_section_verified": false,
+  "fit_coupon_verified": false,
+  "torsion_capacity_verified": false,
+  "structural_capacity_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "7d1bebe027b5346b7d388a0347c2ca21c11f31b4d0385446734768f2080f710f"
+}
