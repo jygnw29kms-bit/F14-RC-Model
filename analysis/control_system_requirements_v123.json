@@ -1,0 +1,83 @@
+{
+  "status": "V123_FLIGHT_CONTROL_SYSTEM_REQUIREMENTS_NOT_HARDWARE_FROZEN",
+  "sources": [
+    "docs/03_SYSTEM_ARCHITECTURE.md",
+    "docs/06_ENGINEERING_BASELINE.md"
+  ],
+  "minimum_control_architecture": {
+    "left_stabilator": true,
+    "right_stabilator": true,
+    "independent_stabilator_actuation_preferred": true,
+    "roll_authority": "left/right aileron or equivalent independently verified roll-control solution",
+    "wing_sweep": "mechanically synchronized primary architecture",
+    "optional_after_mass_review": [
+      "rudders",
+      "flaps",
+      "retracts",
+      "nose steering"
+    ]
+  },
+  "electrical_policy": {
+    "common_4S_propulsion_bus": true,
+    "two_independent_ESC_channels": true,
+    "receiver_power": "separate receiver/BEC supply preferred; do not rely on an arbitrary single ESC BEC without verification",
+    "brownout_test_required": true,
+    "simultaneous_servo_stall_case_required": true
+  },
+  "mechanical_policy": {
+    "control_surface_pivot": "printed polymer must not be the sole bearing surface",
+    "sweep_end_stops": "mechanical end stops independent of servo travel",
+    "sweep_full_load_path": "no printed tooth/root feature carries full flight load without metallic/carbon load path",
+    "linkage_freeplay_measurement_required": true,
+    "positive_fastener_retention_required": true
+  },
+  "stabilator_gate": {
+    "actual_model_surface_geometry_required": true,
+    "hinge_axis_geometry_required": true,
+    "maximum_dynamic_pressure_case_required": true,
+    "hinge_moment_model_required": true,
+    "servo_arm_and_control_horn_geometry_required": true,
+    "required_servo_output_torque_not_yet_verified": true,
+    "bearing_and_shaft_load_not_yet_verified": true,
+    "flutter_screen_required": true
+  },
+  "roll_control_gate": {
+    "selected_surface_architecture_frozen": false,
+    "aerodynamic_authority_verified": false,
+    "servo_torque_verified": false,
+    "differential_or_mixing_verified": false,
+    "sweep_angle_interaction_verified": false
+  },
+  "failure_cases": [
+    "single stabilator servo loss",
+    "single ESC loss",
+    "receiver/BEC brownout under simultaneous servo load",
+    "sweep actuator jam at asymmetric aerodynamic load",
+    "linkage disconnect or horn fastener loosening",
+    "servo overtravel against mechanical stop",
+    "surface flutter onset or excessive freeplay"
+  ],
+  "mass_budget_links_g": {
+    "flight_control_servos_target": 55,
+    "flight_control_servos_hard_warning": 70,
+    "wing_sweep_actuator_and_linkage_target": 45,
+    "wing_sweep_actuator_and_linkage_hard_warning": 60,
+    "receiver_BEC_wiring_target": 35,
+    "receiver_BEC_wiring_hard_warning": 45
+  },
+  "next_steps": [
+    "extract actual stabilator and roll-control surface geometry from the current source-registered CAD/reference set",
+    "derive hinge moments over the intended flight-speed/load envelope",
+    "convert required hinge moments through real horn geometry to servo torque and linkage force",
+    "define metal-bearing/shaft architecture for the all-moving stabilators",
+    "define receiver/BEC peak-current and brownout bench test",
+    "freeze servo hardware only after torque, speed, mass and packaging gates pass"
+  ],
+  "release": {
+    "servo_hardware_frozen": false,
+    "control_system_mechanical_release": false,
+    "electrical_release": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
