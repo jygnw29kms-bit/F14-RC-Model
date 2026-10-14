@@ -1,0 +1,7 @@
+{
+  "request_id": "conformal-rib-trim-20261014-1200",
+  "status": "completed",
+  "bridge_revision": "v24_restartable_event_bridge",
+  "loaded_source_sha256": "947f9d896c820c7dad4ecc66abc18ca7c07b5027b6ef02c7730273bf82c8ae65",
+  "executed_revision_source_sha256": "e678b8f8be15cda3922b123f27aef9ff7c423080b37bd93c74d4967971cff66f"
+}

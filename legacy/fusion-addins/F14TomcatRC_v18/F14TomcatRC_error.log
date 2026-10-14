@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:/Users/dezen/AppData/Roaming/Autodesk/Autodesk Fusion 360/API/AddIns/F14TomcatRC/F14TomcatRC.py", line 1069, in run
+    build_project_revision()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:/Users/dezen/AppData/Roaming/Autodesk/Autodesk Fusion 360/API/AddIns/F14TomcatRC/F14TomcatRC.py", line 991, in build_project_revision
+    return build_pivot_wingbox_review_v17()
+  File "C:/Users/dezen/AppData/Roaming/Autodesk/Autodesk Fusion 360/API/AddIns/F14TomcatRC/F14TomcatRC.py", line 946, in build_pivot_wingbox_review_v17
+    box=_box_body(root,'ENG_WINGBOX_v17_NOT_FLIGHT_RELEASED',box_x0,box_x1,box_y0,box_y1,box_z0,box_h)
+        ^^^^^^^^^
+NameError: name '_box_body' is not defined

@@ -1,0 +1,5 @@
+{
+  "request_id": "source-spar-review-20261005-1000",
+  "status": "failed",
+  "error": "Traceback (most recent call last):\n  File \"C:/Users/dezen/AppData/Roaming/Autodesk/Autodesk Fusion 360/API/AddIns/F14TomcatRC/F14TomcatRC.py\", line 618, in notify\n    reference=st['reference_vertical_wl_in']*factor\nRuntimeError: Unsupported controlled CAD operation\n"
+}
