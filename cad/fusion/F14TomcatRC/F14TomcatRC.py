@@ -2570,6 +2570,12 @@ def build_project_revision():
         study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
         with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
         return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='crosstie_retention_v98':
+        path=os.path.join(os.path.dirname(__file__),'F14CrosstieRetention_v98.py')
+        spec=importlib.util.spec_from_file_location('f14_crosstie_retention_v98',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'center_wingbox_v98'))
     if review=='torsion_fixture_v96':
         path=os.path.join(os.path.dirname(__file__),'F14TorsionFixture_v96.py')
         spec=importlib.util.spec_from_file_location('f14_torsion_fixture_v96',path)

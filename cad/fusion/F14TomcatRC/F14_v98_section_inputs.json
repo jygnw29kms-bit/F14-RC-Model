@@ -1,0 +1,15 @@
+{
+    "v34_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\riser_socket_v34\\F14_v34_CROSSTIE_RISER_SOCKET_REVIEW.f3d",
+    "v34_sha256":  "3ad4ab07c0bff25167eb253e3aaba3ae6608b13dd3b1dd4e6cf8468dd2fb11b7",
+    "v97_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\center_wingbox_crosstie_v97.json",
+    "v97_sha256":  "72054a40a619cc1d4a7a8cdd15f76eba774c9395b90c25cfdee8c93d4a20b956",
+    "socket_inner_abs_y_mm":  50,
+    "socket_outer_abs_y_mm":  74,
+    "tie_end_abs_y_mm":  72,
+    "channel_size_mm":  6.4,
+    "tube_od_mm":  6,
+    "socket_x_width_mm":  12,
+    "sweep_min_deg":  20,
+    "sweep_max_deg":  68,
+    "sweep_step_deg":  2
+}

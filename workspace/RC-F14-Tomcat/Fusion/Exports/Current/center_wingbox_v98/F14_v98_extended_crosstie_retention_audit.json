@@ -1,0 +1,5101 @@
+{
+  "status": "V98_EXTENDED_CROSSTIE_RETENTION_PACKAGING",
+  "debug_bboxes": {
+    "UPC_FUSELAGE_ROBUST_CLEARANCE_CUT_v29": {
+      "x": [
+        0.5,
+        879.0000000000002
+      ],
+      "y": [
+        -159.74617977313787,
+        159.74617977313778
+      ],
+      "z": [
+        147.9100551728246,
+        277.95781522839957
+      ]
+    },
+    "REF_CF6x4_FRONT_LOWER_v34": {
+      "x": [
+        594.1323905812828,
+        600.1323905812828
+      ],
+      "y": [
+        -72.0,
+        72.0
+      ],
+      "z": [
+        180.09240693460868,
+        186.09240693460868
+      ]
+    },
+    "REF_CF6x4_REAR_LOWER_v34": {
+      "x": [
+        626.1323905812828,
+        632.1323905812828
+      ],
+      "y": [
+        -72.0,
+        72.0
+      ],
+      "z": [
+        179.09240693460868,
+        185.09240693460868
+      ]
+    },
+    "ENG_WINGBOX_FORK_LOWER_R_v31": {
+      "x": [
+        591.1323905812828,
+        635.1323905812828
+      ],
+      "y": [
+        70.0,
+        137.20927023775283
+      ],
+      "z": [
+        175.09240693460868,
+        177.09240693460868
+      ]
+    },
+    "ENG_WINGBOX_FORK_LOWER_L_v31": {
+      "x": [
+        591.1323905812828,
+        635.1323905812828
+      ],
+      "y": [
+        -137.20927023775283,
+        -70.0
+      ],
+      "z": [
+        175.09240693460868,
+        177.09240693460868
+      ]
+    },
+    "ENG_ROOT_LUG_R_v19": {
+      "x": [
+        593.1323905812828,
+        633.1323905812828
+      ],
+      "y": [
+        125.20927023775283,
+        156.8263775443693
+      ],
+      "z": [
+        179.59240693460868,
+        195.59240693460868
+      ]
+    },
+    "ENG_ROOT_LUG_L_v19": {
+      "x": [
+        593.1323905812828,
+        633.1323905812828
+      ],
+      "y": [
+        -156.8263775443693,
+        -125.20927023775283
+      ],
+      "z": [
+        179.59240693460868,
+        195.59240693460868
+      ]
+    },
+    "SOURCE_GRUMMAN_BASIC_WING_R": {
+      "x": [
+        588.2699984754352,
+        749.6035234732939
+      ],
+      "y": [
+        148.8263775443693,
+        449.99999999999994
+      ],
+      "z": [
+        175.16714742841788,
+        196.6867869631904
+      ]
+    },
+    "SOURCE_GRUMMAN_BASIC_WING_L": {
+      "x": [
+        588.2699984754352,
+        749.6035234732939
+      ],
+      "y": [
+        -449.99999999999994,
+        -148.8263775443693
+      ],
+      "z": [
+        175.16714742841788,
+        196.6867869631904
+      ]
+    },
+    "ENG_RISER_SOCKET_FRONT_R_v98": {
+      "x": [
+        591.1323905812828,
+        603.1323905812828
+      ],
+      "y": [
+        50.0,
+        74.0
+      ],
+      "z": [
+        175.09240693460868,
+        187.0924069346087
+      ]
+    },
+    "ENG_RISER_SOCKET_FRONT_L_v98": {
+      "x": [
+        591.1323905812828,
+        603.1323905812828
+      ],
+      "y": [
+        -74.0,
+        -50.0
+      ],
+      "z": [
+        175.09240693460868,
+        187.0924069346087
+      ]
+    },
+    "ENG_RISER_SOCKET_REAR_R_v98": {
+      "x": [
+        623.1323905812828,
+        635.1323905812828
+      ],
+      "y": [
+        50.0,
+        74.0
+      ],
+      "z": [
+        175.09240693460868,
+        186.09240693460868
+      ]
+    },
+    "ENG_RISER_SOCKET_REAR_L_v98": {
+      "x": [
+        623.1323905812828,
+        635.1323905812828
+      ],
+      "y": [
+        -74.0,
+        -50.0
+      ],
+      "z": [
+        175.09240693460868,
+        186.09240693460868
+      ]
+    }
+  },
+  "source": {
+    "v34_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\riser_socket_v34\\F14_v34_CROSSTIE_RISER_SOCKET_REVIEW.f3d",
+    "v34_sha256": "3ad4ab07c0bff25167eb253e3aaba3ae6608b13dd3b1dd4e6cf8468dd2fb11b7",
+    "v97_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\center_wingbox_crosstie_v97.json",
+    "v97_sha256": "72054a40a619cc1d4a7a8cdd15f76eba774c9395b90c25cfdee8c93d4a20b956",
+    "socket_inner_abs_y_mm": 50,
+    "socket_outer_abs_y_mm": 74,
+    "tie_end_abs_y_mm": 72,
+    "channel_size_mm": 6.4,
+    "tube_od_mm": 6,
+    "socket_x_width_mm": 12,
+    "sweep_min_deg": 20,
+    "sweep_max_deg": 68,
+    "sweep_step_deg": 2
+  },
+  "geometry": {
+    "pivot_mm": [
+      613.1323905812828,
+      125.20927023775282,
+      187.59240693460868
+    ],
+    "routes": {
+      "FRONT": {
+        "xc": 597.1323905812828,
+        "zc": 183.09240693460868
+      },
+      "REAR": {
+        "xc": 629.1323905812828,
+        "zc": 182.09240693460868
+      }
+    },
+    "socket_abs_y_span_mm": [
+      50.0,
+      74.0
+    ],
+    "socket_length_mm": 24.0,
+    "minimum_actual_tube_engagement_mm": 22.0,
+    "cylindrical_interface_area_mm2": 414.6902302738527
+  },
+  "riser_containment": [
+    {
+      "riser": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "volume_cm3": 2.472959999999993,
+      "inside_fuselage_volume_cm3": 2.472959999999993,
+      "inside_fraction": 1.0
+    },
+    {
+      "riser": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "volume_cm3": 2.472959999999993,
+      "inside_fuselage_volume_cm3": 2.472959999999993,
+      "inside_fraction": 1.0
+    },
+    {
+      "riser": "ENG_RISER_SOCKET_REAR_R_v98",
+      "volume_cm3": 2.184959999999988,
+      "inside_fuselage_volume_cm3": 2.184959999999988,
+      "inside_fraction": 1.0
+    },
+    {
+      "riser": "ENG_RISER_SOCKET_REAR_L_v98",
+      "volume_cm3": 2.184959999999988,
+      "inside_fuselage_volume_cm3": 2.184959999999988,
+      "inside_fraction": 1.0
+    }
+  ],
+  "interfaces": [
+    {
+      "riser": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "fork_overlap_cm3": 0.09599999999999828,
+      "fork_engaged": true,
+      "tube_axial_engagement_mm": 22.0
+    },
+    {
+      "riser": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "fork_overlap_cm3": 0.09599999999999828,
+      "fork_engaged": true,
+      "tube_axial_engagement_mm": 22.0
+    },
+    {
+      "riser": "ENG_RISER_SOCKET_REAR_R_v98",
+      "fork_overlap_cm3": 0.09599999999999996,
+      "fork_engaged": true,
+      "tube_axial_engagement_mm": 22.0
+    },
+    {
+      "riser": "ENG_RISER_SOCKET_REAR_L_v98",
+      "fork_overlap_cm3": 0.09599999999999996,
+      "fork_engaged": true,
+      "tube_axial_engagement_mm": 22.0
+    }
+  ],
+  "minimum_inside_fraction": 1.0,
+  "all_forks_engaged": true,
+  "sweep_checks": [
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "outer_wing",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_FRONT_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_R_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "ENG_RISER_SOCKET_REAR_L_v98",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_FRONT_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "moving_kind": "root_lug",
+      "fixed_part": "REF_CF6x4_REAR_LOWER_v34",
+      "intersection_cm3": 0.0,
+      "collision": false
+    }
+  ],
+  "residual_collisions": [],
+  "dense_sweep_clearance_pass": true,
+  "equal_share_interface_screen": {
+    "front": {
+      "force_N": 600.6573124999999,
+      "required_average_interface_shear_MPa": 1.4484481877070952
+    },
+    "rear": {
+      "force_N": 565.3245294117646,
+      "required_average_interface_shear_MPa": 1.3632453531360895
+    }
+  },
+  "no_transverse_tube_hole": true,
+  "adhesive_process_verified": false,
+  "clamp_cap_designed": false,
+  "mechanical_detail_release": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "66889d1d02c4da3e95a21bd13460468fe9ea36a6916773be221bc18bb2ca7a3f"
+}

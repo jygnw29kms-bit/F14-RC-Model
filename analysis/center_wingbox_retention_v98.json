@@ -1,0 +1,45 @@
+{
+  "status": "V98_EXTENDED_RISER_RETENTION_PLAN",
+  "socket_span_abs_y_mm": [
+    50,
+    74
+  ],
+  "actual_tube_engagement_mm": 22,
+  "tube_cylindrical_interface_area_mm2": 414.6902302738527,
+  "equal_share_interface_screen": {
+    "front": {
+      "tie_force_N": 600.6573124999999,
+      "engagement_mm": 22,
+      "cylindrical_interface_area_mm2": 414.6902302738527,
+      "required_average_interface_shear_MPa": 1.4484481877070952
+    },
+    "rear": {
+      "tie_force_N": 565.3245294117646,
+      "engagement_mm": 22,
+      "cylindrical_interface_area_mm2": 414.6902302738527,
+      "required_average_interface_shear_MPa": 1.3632453531360895
+    }
+  },
+  "single_frame_interface_screen": [
+    {
+      "frame": "front",
+      "tie_force_N": 1201.3146249999998,
+      "required_average_interface_shear_MPa": 2.8968963754141903
+    },
+    {
+      "frame": "rear",
+      "tie_force_N": 1130.6490588235292,
+      "required_average_interface_shear_MPa": 2.726490706272179
+    }
+  ],
+  "retention_policy": [
+    "no transverse drilling of 6x4 carbon tube",
+    "bonded cylindrical/saddle interface plus non-damaging clamp/end-stop may be used",
+    "actual adhesive/process must be qualified separately for carbon-to-socket interface"
+  ],
+  "geometry_gate_pending": true,
+  "material_allowable_verified": false,
+  "retention_detail_release": false,
+  "print_release": false,
+  "flight_release": false
+}

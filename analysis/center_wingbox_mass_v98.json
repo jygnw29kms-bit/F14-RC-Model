@@ -1,0 +1,14 @@
+{
+    "status":  "V98_CENTER_WINGBOX_RETENTION_MASS_UPDATE",
+    "v34_riser_volume_cm3":  3.8815999999999669,
+    "v34_petg_g":  4.929631999999958,
+    "v34_asa_g":  4.153311999999965,
+    "v98_riser_volume_cm3":  9.3158399999999624,
+    "v98_petg_g":  11.831116799999952,
+    "v98_asa_g":  9.9679487999999612,
+    "delta_petg_g":  6.9014847999999942,
+    "delta_asa_g":  5.8146367999999962,
+    "v32_forks_plus_crossties_g":  42.928705735646538,
+    "v98_centerbox_total_estimate_petg_g":  54.759822535646492,
+    "note":  "Mass estimate only; v99 should remove non-load-bearing socket material while retaining 22 mm engagement and v98 clearances."
+}

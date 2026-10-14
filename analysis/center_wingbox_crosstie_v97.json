@@ -1,0 +1,72 @@
+{
+  "status": "V97_CENTER_WINGBOX_CROSSTIE_LOAD_SCREEN",
+  "source_v30": "analysis/F14_pivot_cassette_screen_v30.json",
+  "source_v33": "v33 routed cross ties",
+  "design_case": {
+    "review_mass_kg": 1.4,
+    "load_factor_g": 8.0,
+    "asymmetric_high_side_fraction": 0.7,
+    "root_bending_moment_Nm": 19.221033999999996
+  },
+  "tube_candidate": {
+    "od_mm": 6.0,
+    "id_mm": 4.0,
+    "length_mm": 144.0,
+    "area_mm2": 15.707963267948966,
+    "I_mm4": 51.050880620834135,
+    "E_candidate_GPa": 70.0,
+    "strength_allowable_candidate_MPa": 350.0,
+    "material_values_verified": false
+  },
+  "equal_front_rear_moment_share": {
+    "front": {
+      "vertical_couple_separation_mm": 16.0,
+      "moment_share_Nmm": 9610.516999999998,
+      "tube_axial_force_N": 600.6573124999999,
+      "tube_axial_stress_MPa": 38.239032155467314,
+      "candidate_material_strength_FOS": 9.152951324108185,
+      "euler_pinned_pcr_N": 1700.889261373507,
+      "compression_buckling_FOS": 2.831713234779785
+    },
+    "rear": {
+      "vertical_couple_separation_mm": 17.0,
+      "moment_share_Nmm": 9610.516999999998,
+      "tube_axial_force_N": 565.3245294117646,
+      "tube_axial_stress_MPa": 35.989677322792765,
+      "candidate_material_strength_FOS": 9.725010781864947,
+      "euler_pinned_pcr_N": 1700.889261373507,
+      "compression_buckling_FOS": 3.0086953119535216
+    }
+  },
+  "single_frame_worst_case": [
+    {
+      "frame": "front",
+      "force_N": 1201.3146249999998,
+      "stress_MPa": 76.47806431093463,
+      "strength_FOS": 4.576475662054093,
+      "buckling_FOS": 1.4158566173898925
+    },
+    {
+      "frame": "rear",
+      "force_N": 1130.6490588235292,
+      "stress_MPa": 71.97935464558553,
+      "strength_FOS": 4.862505390932474,
+      "buckling_FOS": 1.5043476559767608
+    }
+  ],
+  "interpretation": [
+    "Cross ties are screened as axial tension/compression members reacting roll-axis root bending through upper/lower vertical separation.",
+    "Equal 50/50 front/rear moment share is the intended center-box load path; single-frame cases are included as a fault/sensitivity bound.",
+    "Euler pinned-end buckling is conservative for a socketed tube if end restraint is real, but actual carbon tube modulus/strength and socket stiffness remain unverified.",
+    "Do not drill transverse retention holes through the 6x4 carbon tube; retention should preserve the tube section."
+  ],
+  "gates": {
+    "tube_material_datasheet_verified": false,
+    "socket_load_transfer_verified": false,
+    "retention_detail_designed": false,
+    "center_box_physical_proof_verified": false,
+    "mechanical_detail_release": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
