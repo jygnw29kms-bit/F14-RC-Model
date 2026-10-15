@@ -1,0 +1,92 @@
+{
+  "status": "V149_STABILATOR_PIVOT_SHAFT_SCREEN",
+  "sources": [
+    "analysis/control_stabilator_torque_v146.json",
+    "NASA composite design guide: F-14 stabilizer skins/core bonded to stepped metal pivot fitting",
+    "Freewing F-14 manual mechanism benchmark only"
+  ],
+  "source_fidelity_policy": {
+    "original_fullscale_pivot_axis_verified": false,
+    "do_not_invent_fullscale_axis": true,
+    "RC_pivot_may_be_packaged_within_source_backed_root_fitting_region": true
+  },
+  "screen": {
+    "severe_hinge_moment_Nm": 0.6701583801150008,
+    "severe_surface_force_N": 33.50791900575004,
+    "conservative_force_cantilever_mm": 15.0,
+    "candidate_bearing_span_mm": 20.0,
+    "shaft_rows": [
+      {
+        "shaft_d_mm": 4,
+        "torsional_shear_MPa": 53.329509424879866,
+        "cantilever_bending_moment_Nm": 0.5026187850862506,
+        "bending_stress_MPa": 79.99426413731979,
+        "combined_von_mises_MPa": 122.19325685718643,
+        "steel_500MPa_yield_SF": 4.091878822612739,
+        "7075T6_400MPa_yield_SF": 3.273503058090191
+      },
+      {
+        "shaft_d_mm": 5,
+        "torsional_shear_MPa": 27.304708825538484,
+        "cantilever_bending_moment_Nm": 0.5026187850862506,
+        "bending_stress_MPa": 40.957063238307725,
+        "combined_von_mises_MPa": 62.56294751087944,
+        "steel_500MPa_yield_SF": 7.991950825415508,
+        "7075T6_400MPa_yield_SF": 6.3935606603324056
+      },
+      {
+        "shaft_d_mm": 6,
+        "torsional_shear_MPa": 15.80133612589033,
+        "cantilever_bending_moment_Nm": 0.5026187850862506,
+        "bending_stress_MPa": 23.702004188835495,
+        "combined_von_mises_MPa": 36.20540943916635,
+        "steel_500MPa_yield_SF": 13.810091026317993,
+        "7075T6_400MPa_yield_SF": 11.048072821054394
+      },
+      {
+        "shaft_d_mm": 8,
+        "torsional_shear_MPa": 6.666188678109983,
+        "cantilever_bending_moment_Nm": 0.5026187850862506,
+        "bending_stress_MPa": 9.999283017164974,
+        "combined_von_mises_MPa": 15.274157107148303,
+        "steel_500MPa_yield_SF": 32.73503058090191,
+        "7075T6_400MPa_yield_SF": 26.18802446472153
+      }
+    ]
+  },
+  "decision": {
+    "shaft_nominal_diameter_mm": 6,
+    "material_class": "metal; preferred steel shoulder/precision shaft, 7075-T6 only after wear/bearing interface review",
+    "bearing_architecture": "two radial bearings separated as far as root packaging permits; printed polymer is not bearing surface",
+    "candidate_bearing_ID_mm": 6,
+    "candidate_standard_bearing_envelope_mm": [
+      6,
+      13,
+      5
+    ],
+    "stabilator_crank_radius_mm": 20,
+    "servo_arm_radius_mm": 8,
+    "surface_retention": "positive axial retention independent of servo linkage",
+    "reason": [
+      "6 mm gives large stress margin in severe v146 sensitivity",
+      "matches already familiar 6x13x5 bearing class in project",
+      "low weight penalty at short shaft length",
+      "stiffness/freeplay more important than static stress"
+    ]
+  },
+  "bench_gates": {
+    "radial_tip_freeplay_mm_max": 0.2,
+    "angular_neutral_freeplay_deg_max": 0.5,
+    "proof_hinge_moment_Nm": 0.67,
+    "proof_cycles_each_direction": 100,
+    "no_permanent_set": true,
+    "no_bearing_migration": true
+  },
+  "release": {
+    "shaft_hardware_frozen": false,
+    "bearing_hardware_frozen": false,
+    "pivot_axis_source_verified": false,
+    "CAD_packaging_verified": false,
+    "flight_release": false
+  }
+}
