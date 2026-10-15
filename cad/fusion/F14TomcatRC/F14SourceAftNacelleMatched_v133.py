@@ -1,4 +1,4 @@
-﻿"""v133: correspondence-controlled source D/E/F loft and bilateral EDF clearance proof."""
+"""v133: correspondence-controlled source D/E/F loft and bilateral EDF clearance proof."""
 import adsk.core, adsk.fusion, json, os, hashlib, math
 
 def mm(v): return v/10.0
@@ -149,4 +149,3 @@ def run_review(app, build_source_wings, mm_unused, outdir):
         try: prior.activate()
         except: pass
     return audit
-

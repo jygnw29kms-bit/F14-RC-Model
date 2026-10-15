@@ -1,0 +1,279 @@
+{
+  "status": "V135_SILHOUETTE_GUIDED_AFT_GATE",
+  "source_image_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "profiles": [
+    {
+      "name": "D",
+      "x_mm": 595.8483908511422,
+      "bounds_mm": {
+        "y": [
+          -106.71009865680074,
+          105.04456343268645
+        ],
+        "z": [
+          -49.58068185409331,
+          21.350837416595805
+        ]
+      },
+      "guide": false
+    },
+    {
+      "name": "E",
+      "x_mm": 648.8863542888724,
+      "bounds_mm": {
+        "y": [
+          -102.65555888742442,
+          102.27692835602556
+        ],
+        "z": [
+          -49.297062833151486,
+          18.879307628984122
+        ]
+      },
+      "guide": false
+    },
+    {
+      "name": "GUIDE_710.370",
+      "x_mm": 710.3699545166818,
+      "bounds_mm": {
+        "y": [
+          -106.37714031148111,
+          105.82813492436692
+        ],
+        "z": [
+          -43.93295853375642,
+          28.95554687944697
+        ]
+      },
+      "guide": true
+    },
+    {
+      "name": "GUIDE_730.137",
+      "x_mm": 730.1368252092942,
+      "bounds_mm": {
+        "y": [
+          -105.87021352408465,
+          105.14579261253938
+        ],
+        "z": [
+          -42.2582530386358,
+          28.95554687944697
+        ]
+      },
+      "guide": true
+    },
+    {
+      "name": "GUIDE_738.044",
+      "x_mm": 738.0435734863391,
+      "bounds_mm": {
+        "y": [
+          -105.52644185986527,
+          104.7338431586866
+        ],
+        "z": [
+          -41.56840251781972,
+          27.901313775840975
+        ]
+      },
+      "guide": true
+    },
+    {
+      "name": "GUIDE_752.539",
+      "x_mm": 752.5392786609216,
+      "bounds_mm": {
+        "y": [
+          -104.89619380879648,
+          103.98045549562846
+        ],
+        "z": [
+          -40.30367656299059,
+          27.901313775840975
+        ]
+      },
+      "guide": true
+    },
+    {
+      "name": "F",
+      "x_mm": 754.962281164333,
+      "bounds_mm": {
+        "y": [
+          -104.8044704159361,
+          103.8682598119206
+        ],
+        "z": [
+          -39.412471753738465,
+          27.356637319108664
+        ]
+      },
+      "guide": false
+    }
+  ],
+  "plan_records": [
+    {
+      "x_model_mm": 599.6754786380524,
+      "expected_half_width_mm": 105.15975208469798,
+      "measured_half_width_mm": 106.36454234608186,
+      "error_mm": 1.2047902613838772,
+      "abs_error_mm": 1.2047902613838772
+    },
+    {
+      "x_model_mm": 643.9532689895042,
+      "expected_half_width_mm": 102.2606110497815,
+      "measured_half_width_mm": 102.9632519724797,
+      "error_mm": 0.702640922698194,
+      "abs_error_mm": 0.702640922698194
+    },
+    {
+      "x_model_mm": 668.727746924245,
+      "expected_half_width_mm": 103.3148441533875,
+      "measured_half_width_mm": 103.84711869637857,
+      "error_mm": 0.5322745429910754,
+      "abs_error_mm": 0.5322745429910754
+    },
+    {
+      "x_model_mm": 706.1530221022579,
+      "expected_half_width_mm": 106.47754346420548,
+      "measured_half_width_mm": 106.35113070240898,
+      "error_mm": -0.12641276179650163,
+      "abs_error_mm": 0.12641276179650163
+    },
+    {
+      "x_model_mm": 728.2919172779837,
+      "expected_half_width_mm": 105.95042691240249,
+      "measured_half_width_mm": 105.94175107620961,
+      "error_mm": -0.008675836192878705,
+      "abs_error_mm": 0.008675836192878705
+    },
+    {
+      "x_model_mm": 752.5392786609216,
+      "expected_half_width_mm": 104.89619380879648,
+      "measured_half_width_mm": 104.89812990730174,
+      "error_mm": 0.0019360985052543356,
+      "abs_error_mm": 0.0019360985052543356
+    }
+  ],
+  "side_records": [
+    {
+      "kind": "DE_station",
+      "name": "D",
+      "x_model_mm": 595.8483908511423,
+      "top_error_mm": 0.3020388141937964,
+      "top_abs_error_mm": 0.3020388141937964,
+      "bottom_error_mm": 0.002518623792894914,
+      "bottom_abs_error_mm": 0.002518623792894914,
+      "expected_z_top_mm": 21.048798602402012,
+      "measured_z_top_mm": 21.35083741659581,
+      "expected_z_bottom_mm": -49.58481933919964,
+      "measured_z_bottom_mm": -49.582300715406745
+    },
+    {
+      "kind": "DE_station",
+      "name": "E",
+      "x_model_mm": 648.8863542888724,
+      "top_error_mm": 1.2588039823562447,
+      "top_abs_error_mm": 1.2588039823562447,
+      "bottom_error_mm": -1.0321923598577385,
+      "bottom_abs_error_mm": 1.0321923598577385,
+      "expected_z_top_mm": 17.62254101568253,
+      "measured_z_top_mm": 18.881344998038774,
+      "expected_z_bottom_mm": -48.26702795969215,
+      "measured_z_bottom_mm": -49.29922031954989
+    },
+    {
+      "kind": "F_local_polyline",
+      "name": null,
+      "x_model_mm": 710.3699545166818,
+      "top_error_mm": 0.0020870011843250325,
+      "top_abs_error_mm": 0.0020870011843250325,
+      "bottom_error_mm": -0.008347459264463453,
+      "bottom_abs_error_mm": 0.008347459264463453,
+      "expected_z_top_mm": 28.955546879446974,
+      "measured_z_top_mm": 28.9576338806313,
+      "expected_z_bottom_mm": -43.93295853375642,
+      "measured_z_bottom_mm": -43.94130599302088
+    },
+    {
+      "kind": "F_local_polyline",
+      "name": null,
+      "x_model_mm": 730.1368252092942,
+      "top_error_mm": 0.004640345558460268,
+      "top_abs_error_mm": 0.004640345558460268,
+      "bottom_error_mm": -0.0037175391824462167,
+      "bottom_abs_error_mm": 0.0037175391824462167,
+      "expected_z_top_mm": 28.955546879446974,
+      "measured_z_top_mm": 28.960187225005434,
+      "expected_z_bottom_mm": -42.2582530386358,
+      "measured_z_bottom_mm": -42.261970577818246
+    },
+    {
+      "kind": "F_local_polyline",
+      "name": null,
+      "x_model_mm": 738.0435734863391,
+      "top_error_mm": 0.004225935679411208,
+      "top_abs_error_mm": 0.004225935679411208,
+      "bottom_error_mm": -0.0043663324745963905,
+      "bottom_abs_error_mm": 0.0043663324745963905,
+      "expected_z_top_mm": 27.90131377584098,
+      "measured_z_top_mm": 27.90553971152039,
+      "expected_z_bottom_mm": -41.56840251781972,
+      "measured_z_bottom_mm": -41.57276885029432
+    },
+    {
+      "kind": "F_local_polyline",
+      "name": null,
+      "x_model_mm": 752.5392786609216,
+      "top_error_mm": 0.00949279365011435,
+      "top_abs_error_mm": 0.00949279365011435,
+      "bottom_error_mm": -0.016228266393092383,
+      "bottom_abs_error_mm": 0.016228266393092383,
+      "expected_z_top_mm": 27.90131377584098,
+      "measured_z_top_mm": 27.910806569491093,
+      "expected_z_bottom_mm": -40.30367656299059,
+      "measured_z_bottom_mm": -40.31990482938368
+    }
+  ],
+  "max_half_width_abs_error_mm": 1.2047902613838772,
+  "max_top_abs_error_mm": 1.2588039823562447,
+  "max_bottom_abs_error_mm": 1.0321923598577385,
+  "source_silhouette_gate_pass": true,
+  "edf_best": {
+    "x_start_mm": 650.0,
+    "x_end_mm": 723.5,
+    "y_abs_mm": 65.0,
+    "z_mm": -10.0,
+    "right": {
+      "inside_cm3": 178.45421228041693,
+      "outside_cm3": 0,
+      "fraction": 1.0
+    },
+    "left": {
+      "inside_cm3": 178.45421228041693,
+      "outside_cm3": 0,
+      "fraction": 1.0
+    },
+    "worst_outside_cm3": 0,
+    "worst_fraction": 1.0,
+    "bilateral_pass": true
+  },
+  "edf_extra_radial_reserve_mm": 0.1,
+  "edf_reserve_trials": [
+    {
+      "extra_radial_mm": 0.1,
+      "worst_outside_cm3": 5.112217706937372e-07,
+      "pass": true
+    },
+    {
+      "extra_radial_mm": 0.2,
+      "worst_outside_cm3": 0.0034199572193926997,
+      "pass": false
+    }
+  ],
+  "bilateral_edf_pass": true,
+  "geometry_candidate_pass": true,
+  "source_fidelity": "D/E/F traced profiles plus silhouette-constrained interpolated guide profiles; guide profiles are not independently measured sections",
+  "exterior_fidelity_freeze": false,
+  "propulsion_packaging_freeze": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "d08672a38aeefb00cf3d0d3b5fad6bd6169b6798a4a5a544c72fb11d141d0c79"
+}

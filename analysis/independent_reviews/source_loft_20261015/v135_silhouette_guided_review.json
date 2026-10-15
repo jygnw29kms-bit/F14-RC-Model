@@ -1,0 +1,21 @@
+{
+  "status": "V135_SOURCE_SILHOUETTE_AND_EDF_GATE_PASSED",
+  "source_raster_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "max_plan_half_width_error_mm": 1.2047902613838772,
+  "max_side_top_error_mm": 1.2588039823562447,
+  "max_side_bottom_error_mm": 1.0321923598577385,
+  "screen_limit_mm": 1.5,
+  "source_silhouette_gate_pass": true,
+  "edf_clear_envelope_mm": {"diameter": 55.6, "length": 73.5},
+  "edf_best_local_candidate": {"x_start_mm": 650.0, "x_end_mm": 723.5, "y_abs_mm": 65.0, "z_mm": -10.0},
+  "bilateral_edf_containment_pass": true,
+  "extra_radial_reserve_mm": 0.1,
+  "remaining_limitations": [
+    "Intermediate guide sections are constrained interpolation, not independently measured sections.",
+    "Inlet transition, fan mount, exhaust duct and installed thrust are not yet released.",
+    "Exterior fidelity remains source-constrained candidate rather than factory-coordinate proof."
+  ],
+  "next_gate": "D-to-EDF inlet transition and fan-mount packaging inside v135 exterior candidate",
+  "print_release": false,
+  "flight_release": false
+}

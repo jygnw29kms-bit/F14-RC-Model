@@ -1,0 +1,167 @@
+{
+  "status": "V134_SOURCE_SILHOUETTE_CONSTRAINT_SET",
+  "source_image_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "common_scale_mm_per_pixel": 0.5271165518029974,
+  "x_mapping": {
+    "E_source_px": 1663.3586234059521,
+    "E_model_mm": 648.8863542888724
+  },
+  "z_mapping": {
+    "E_axis_source_y_px": 2797.4319629224406,
+    "local_z_mm_at_E_axis": 0.0
+  },
+  "candidate_v133": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v133\\F14_SOURCE_BACKED_AFT_NACELLE_MATCHED_v133.f3d",
+    "sha256": "20c057420061e678ea99ef3c24b6f1ec369d4a5181712f109edd76e2a9e7c7b6"
+  },
+  "slice_thickness_mm": 0.1,
+  "plan_samples": [
+    {
+      "x_source_px": 1562,
+      "x_model_mm": 595.4585462236283,
+      "upper_plan_y_px": 1095,
+      "lower_plan_y_px": 1497,
+      "center_plan_y_px": 1296.0,
+      "expected_half_width_mm": 105.95042691240249
+    },
+    {
+      "x_source_px": 1570,
+      "x_model_mm": 599.6754786380524,
+      "upper_plan_y_px": 1098,
+      "lower_plan_y_px": 1497,
+      "center_plan_y_px": 1297.5,
+      "expected_half_width_mm": 105.15975208469798
+    },
+    {
+      "x_source_px": 1654,
+      "x_model_mm": 643.9532689895042,
+      "upper_plan_y_px": 1105,
+      "lower_plan_y_px": 1493,
+      "center_plan_y_px": 1299.0,
+      "expected_half_width_mm": 102.2606110497815
+    },
+    {
+      "x_source_px": 1701,
+      "x_model_mm": 668.727746924245,
+      "upper_plan_y_px": 1102,
+      "lower_plan_y_px": 1494,
+      "center_plan_y_px": 1298.0,
+      "expected_half_width_mm": 103.3148441533875
+    },
+    {
+      "x_source_px": 1772,
+      "x_model_mm": 706.1530221022579,
+      "upper_plan_y_px": 1094,
+      "lower_plan_y_px": 1498,
+      "center_plan_y_px": 1296.0,
+      "expected_half_width_mm": 106.47754346420548
+    },
+    {
+      "x_source_px": 1814,
+      "x_model_mm": 728.2919172779837,
+      "upper_plan_y_px": 1094,
+      "lower_plan_y_px": 1496,
+      "center_plan_y_px": 1295.0,
+      "expected_half_width_mm": 105.95042691240249
+    },
+    {
+      "x_source_px": 1860,
+      "x_model_mm": 752.5392786609216,
+      "upper_plan_y_px": 1096,
+      "lower_plan_y_px": 1494,
+      "center_plan_y_px": 1295.0,
+      "expected_half_width_mm": 104.89619380879648
+    },
+    {
+      "x_source_px": 1917,
+      "x_model_mm": 782.5849221136924,
+      "upper_plan_y_px": 1102,
+      "lower_plan_y_px": 1488,
+      "center_plan_y_px": 1295.0,
+      "expected_half_width_mm": 101.73349449797851
+    },
+    {
+      "x_source_px": 1958,
+      "x_model_mm": 804.1967007376154,
+      "upper_plan_y_px": 1112,
+      "lower_plan_y_px": 1478,
+      "center_plan_y_px": 1295.0,
+      "expected_half_width_mm": 96.46232897994852
+    },
+    {
+      "x_source_px": 1990,
+      "x_model_mm": 821.0644303953113,
+      "upper_plan_y_px": 1123,
+      "lower_plan_y_px": 1466,
+      "center_plan_y_px": 1294.5,
+      "expected_half_width_mm": 90.40048863421406
+    },
+    {
+      "x_source_px": 2020,
+      "x_model_mm": 836.8779269494012,
+      "upper_plan_y_px": 1133,
+      "lower_plan_y_px": 1455,
+      "center_plan_y_px": 1294.0,
+      "expected_half_width_mm": 84.8657648402826
+    }
+  ],
+  "side_samples": [
+    {
+      "kind": "DE_station",
+      "name": "D",
+      "x_source_px": 1562.7395795601192,
+      "x_model_mm": 595.8483908511423,
+      "expected_z_top_mm": 21.048798602402012,
+      "expected_z_bottom_mm": -49.58481933919964
+    },
+    {
+      "kind": "DE_station",
+      "name": "E",
+      "x_source_px": 1663.3586234059521,
+      "x_model_mm": 648.8863542888724,
+      "expected_z_top_mm": 17.62254101568253,
+      "expected_z_bottom_mm": -48.26702795969215
+    },
+    {
+      "kind": "F_local_polyline",
+      "x_source_px": 1780.0,
+      "x_model_mm": 710.3699545166818,
+      "expected_z_top_mm": 28.955546879446974,
+      "expected_z_bottom_mm": -43.93295853375642
+    },
+    {
+      "kind": "F_local_polyline",
+      "x_source_px": 1817.5,
+      "x_model_mm": 730.1368252092942,
+      "expected_z_top_mm": 28.955546879446974,
+      "expected_z_bottom_mm": -42.2582530386358
+    },
+    {
+      "kind": "F_local_polyline",
+      "x_source_px": 1832.5,
+      "x_model_mm": 738.0435734863391,
+      "expected_z_top_mm": 27.90131377584098,
+      "expected_z_bottom_mm": -41.56840251781972
+    },
+    {
+      "kind": "F_local_polyline",
+      "x_source_px": 1860.0,
+      "x_model_mm": 752.5392786609216,
+      "expected_z_top_mm": 27.90131377584098,
+      "expected_z_bottom_mm": -40.30367656299059
+    },
+    {
+      "kind": "F_local_polyline",
+      "x_source_px": 1888.5,
+      "x_model_mm": 767.562100387307,
+      "expected_z_top_mm": 27.90131377584098,
+      "expected_z_bottom_mm": -39.412894528730874
+    }
+  ],
+  "acceptance": {
+    "half_width_abs_error_mm": 1.5,
+    "z_top_abs_error_mm": 1.5,
+    "z_bottom_abs_error_mm": 1.5
+  },
+  "note": "Tolerance is initial source-trace/digitization screening, not production surface tolerance."
+}
