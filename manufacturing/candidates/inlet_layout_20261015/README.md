@@ -1,0 +1,1 @@
+Generic millimeter3MF with two upright candidate ducts. Rotation preserves handedness; planar inlet X ends placed on print Z0. Connected triangle graphs/Euler0 confirmed, both positioned bounds fit assumed240x240x250 workspace. This is a geometry layout only: no Bambu printer/material/process profile, slicing, seam/support, wall realization, actual fit or print release.

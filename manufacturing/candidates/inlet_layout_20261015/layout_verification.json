@@ -1,0 +1,56 @@
+{
+  "parts": [
+    {
+      "side": "R",
+      "mesh_connected": true,
+      "euler_characteristic": 0,
+      "transform_rotation": "(x,y,z)->(y,z,x)",
+      "translation_mm": [
+        3.6226720809936523,
+        93.94367218017578,
+        -595.848388671875
+      ],
+      "bounds_mm": [
+        [
+          35.15467166900635,
+          58.054012298583984,
+          0.0
+        ],
+        [
+          94.84532833099365,
+          111.94598770141602,
+          62.151611328125
+        ]
+      ],
+      "source_sha256": "dda5107188ef6932a3ea5c7c829c5b2e2a71fd1758946c129381e79fa92246f8"
+    },
+    {
+      "side": "L",
+      "mesh_connected": true,
+      "euler_characteristic": 0,
+      "transform_rotation": "(x,y,z)->(y,z,x)",
+      "translation_mm": [
+        206.37732791900635,
+        93.94367218017578,
+        -595.848388671875
+      ],
+      "bounds_mm": [
+        [
+          115.15467166900635,
+          58.054012298583984,
+          0.0
+        ],
+        [
+          174.84532833099365,
+          111.94598770141602,
+          62.151611328125
+        ]
+      ],
+      "source_sha256": "239c8e7b83f26907ce20dce9a87fc5b148d364b5b9d8459d5bf41bc8f5dd29e4"
+    }
+  ],
+  "slicer_profile_embedded": false,
+  "supports_verified": false,
+  "self_intersections_checked": false,
+  "print_release": false
+}
