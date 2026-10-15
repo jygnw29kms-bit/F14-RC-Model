@@ -1,0 +1,210 @@
+{
+  "status": "V159_CURRENT_MASS_ROLLUP_SCREEN_NOT_FINAL_AUW",
+  "source_quality": {
+    "geometry_quantified": [
+      "v105 hardpoint module volumes",
+      "v158 tray+frame-interface volume",
+      "allowanced inlet wall volumes"
+    ],
+    "provisional_hardware": [
+      "XFly 50 mm EDF candidate published mass 75 g each",
+      "Tattu 1800mAh reference battery 202 g",
+      "stabilator servo preferred pair budget <=40 g"
+    ],
+    "budget_only": [
+      "shells",
+      "ESCs",
+      "sweep actuator/linkage",
+      "receiver/BEC/wiring",
+      "fasteners/bearings/inserts",
+      "finish",
+      "reserve"
+    ],
+    "warning": "This is a convergence screen, not a measured ready-to-fly AUW."
+  },
+  "geometry_volumes_cm3": {
+    "v105_hardpoint_pair": 22.327883842544637,
+    "v158_battery_tray": 22.11478915821261,
+    "allowanced_inlet_wall_pair": 13.855570966441107,
+    "two_6x4x144_carbon_tubes": 4.523893421169302
+  },
+  "density_sensitivities": {
+    "ASA_screen_g_cm3": 1.07,
+    "PETG_screen_g_cm3": 1.27
+  },
+  "provisional_hardware": {
+    "edf_pair_g": 150.0,
+    "battery_reference_g": 202.0,
+    "stabilator_servo_pair_preferred_max_g": 40.0
+  },
+  "baseline_other_target_allocations_g": {
+    "printed_aerodynamic_shells_g": 250.0,
+    "esc_pair_g": 55.0,
+    "sweep_actuator_linkage_g": 45.0,
+    "receiver_bec_wiring_g": 35.0,
+    "fasteners_bearings_inserts_g": 35.0,
+    "finish_paint_decals_g": 40.0,
+    "reserve_g": 50.0
+  },
+  "scenarios": [
+    {
+      "printed_material": "ASA",
+      "carbon_density_screen_g_cm3": 1.5,
+      "hardpoint_modules_g": 23.89083571152276,
+      "battery_tray_g": 23.662824399287494,
+      "inlet_walls_g": 14.825460934091986,
+      "carbon_crossties_pair_g": 6.785840131753954,
+      "quantified_geometry_mass_g": 69.16496117665619,
+      "provisional_hardware_mass_g": 392.0,
+      "known_plus_provisional_g": 461.1649611766562,
+      "baseline_other_allocations_g": 510.0,
+      "projected_with_baseline_allocations_g": 971.1649611766562,
+      "margin_to_1050_g": 78.83503882334378,
+      "margin_to_1100_g": 128.83503882334378,
+      "margin_to_1200_redesign_g": 228.83503882334378,
+      "internal_print_target_70g_margin_g": 22.446339889189744,
+      "internal_print_hard_90g_margin_g": 42.446339889189744
+    },
+    {
+      "printed_material": "ASA",
+      "carbon_density_screen_g_cm3": 1.6,
+      "hardpoint_modules_g": 23.89083571152276,
+      "battery_tray_g": 23.662824399287494,
+      "inlet_walls_g": 14.825460934091986,
+      "carbon_crossties_pair_g": 7.238229473870884,
+      "quantified_geometry_mass_g": 69.61735051877312,
+      "provisional_hardware_mass_g": 392.0,
+      "known_plus_provisional_g": 461.61735051877315,
+      "baseline_other_allocations_g": 510.0,
+      "projected_with_baseline_allocations_g": 971.6173505187732,
+      "margin_to_1050_g": 78.38264948122685,
+      "margin_to_1100_g": 128.38264948122685,
+      "margin_to_1200_redesign_g": 228.38264948122685,
+      "internal_print_target_70g_margin_g": 22.446339889189744,
+      "internal_print_hard_90g_margin_g": 42.446339889189744
+    },
+    {
+      "printed_material": "ASA",
+      "carbon_density_screen_g_cm3": 1.7,
+      "hardpoint_modules_g": 23.89083571152276,
+      "battery_tray_g": 23.662824399287494,
+      "inlet_walls_g": 14.825460934091986,
+      "carbon_crossties_pair_g": 7.690618815987814,
+      "quantified_geometry_mass_g": 70.06973986089005,
+      "provisional_hardware_mass_g": 392.0,
+      "known_plus_provisional_g": 462.0697398608901,
+      "baseline_other_allocations_g": 510.0,
+      "projected_with_baseline_allocations_g": 972.0697398608901,
+      "margin_to_1050_g": 77.93026013910992,
+      "margin_to_1100_g": 127.93026013910992,
+      "margin_to_1200_redesign_g": 227.93026013910992,
+      "internal_print_target_70g_margin_g": 22.446339889189744,
+      "internal_print_hard_90g_margin_g": 42.446339889189744
+    },
+    {
+      "printed_material": "PETG",
+      "carbon_density_screen_g_cm3": 1.5,
+      "hardpoint_modules_g": 28.35641248003169,
+      "battery_tray_g": 28.085782230930015,
+      "inlet_walls_g": 17.596575127380206,
+      "carbon_crossties_pair_g": 6.785840131753954,
+      "quantified_geometry_mass_g": 80.82460997009586,
+      "provisional_hardware_mass_g": 392.0,
+      "known_plus_provisional_g": 472.8246099700959,
+      "baseline_other_allocations_g": 510.0,
+      "projected_with_baseline_allocations_g": 982.8246099700959,
+      "margin_to_1050_g": 67.17539002990407,
+      "margin_to_1100_g": 117.17539002990407,
+      "margin_to_1200_redesign_g": 217.17539002990407,
+      "internal_print_target_70g_margin_g": 13.5578052890383,
+      "internal_print_hard_90g_margin_g": 33.5578052890383
+    },
+    {
+      "printed_material": "PETG",
+      "carbon_density_screen_g_cm3": 1.6,
+      "hardpoint_modules_g": 28.35641248003169,
+      "battery_tray_g": 28.085782230930015,
+      "inlet_walls_g": 17.596575127380206,
+      "carbon_crossties_pair_g": 7.238229473870884,
+      "quantified_geometry_mass_g": 81.2769993122128,
+      "provisional_hardware_mass_g": 392.0,
+      "known_plus_provisional_g": 473.2769993122128,
+      "baseline_other_allocations_g": 510.0,
+      "projected_with_baseline_allocations_g": 983.2769993122129,
+      "margin_to_1050_g": 66.72300068778713,
+      "margin_to_1100_g": 116.72300068778713,
+      "margin_to_1200_redesign_g": 216.72300068778713,
+      "internal_print_target_70g_margin_g": 13.5578052890383,
+      "internal_print_hard_90g_margin_g": 33.5578052890383
+    },
+    {
+      "printed_material": "PETG",
+      "carbon_density_screen_g_cm3": 1.7,
+      "hardpoint_modules_g": 28.35641248003169,
+      "battery_tray_g": 28.085782230930015,
+      "inlet_walls_g": 17.596575127380206,
+      "carbon_crossties_pair_g": 7.690618815987814,
+      "quantified_geometry_mass_g": 81.72938865432972,
+      "provisional_hardware_mass_g": 392.0,
+      "known_plus_provisional_g": 473.72938865432974,
+      "baseline_other_allocations_g": 510.0,
+      "projected_with_baseline_allocations_g": 983.7293886543298,
+      "margin_to_1050_g": 66.2706113456702,
+      "margin_to_1100_g": 116.2706113456702,
+      "margin_to_1200_redesign_g": 216.2706113456702,
+      "internal_print_target_70g_margin_g": 13.5578052890383,
+      "internal_print_hard_90g_margin_g": 33.5578052890383
+    }
+  ],
+  "best_screen": {
+    "printed_material": "ASA",
+    "carbon_density_screen_g_cm3": 1.5,
+    "hardpoint_modules_g": 23.89083571152276,
+    "battery_tray_g": 23.662824399287494,
+    "inlet_walls_g": 14.825460934091986,
+    "carbon_crossties_pair_g": 6.785840131753954,
+    "quantified_geometry_mass_g": 69.16496117665619,
+    "provisional_hardware_mass_g": 392.0,
+    "known_plus_provisional_g": 461.1649611766562,
+    "baseline_other_allocations_g": 510.0,
+    "projected_with_baseline_allocations_g": 971.1649611766562,
+    "margin_to_1050_g": 78.83503882334378,
+    "margin_to_1100_g": 128.83503882334378,
+    "margin_to_1200_redesign_g": 228.83503882334378,
+    "internal_print_target_70g_margin_g": 22.446339889189744,
+    "internal_print_hard_90g_margin_g": 42.446339889189744
+  },
+  "worst_screen": {
+    "printed_material": "PETG",
+    "carbon_density_screen_g_cm3": 1.7,
+    "hardpoint_modules_g": 28.35641248003169,
+    "battery_tray_g": 28.085782230930015,
+    "inlet_walls_g": 17.596575127380206,
+    "carbon_crossties_pair_g": 7.690618815987814,
+    "quantified_geometry_mass_g": 81.72938865432972,
+    "provisional_hardware_mass_g": 392.0,
+    "known_plus_provisional_g": 473.72938865432974,
+    "baseline_other_allocations_g": 510.0,
+    "projected_with_baseline_allocations_g": 983.7293886543298,
+    "margin_to_1050_g": 66.2706113456702,
+    "margin_to_1100_g": 116.2706113456702,
+    "margin_to_1200_redesign_g": 216.2706113456702,
+    "internal_print_target_70g_margin_g": 13.5578052890383,
+    "internal_print_hard_90g_margin_g": 33.5578052890383
+  },
+  "decision": {
+    "1050g_design_target_currently_plausible": true,
+    "1100g_upper_design_target_currently_plausible": true,
+    "1200g_redesign_threshold_margin_positive_all_scenarios": true,
+    "preferred_print_material_for_mass_if_strength_proof_allows": "ASA",
+    "reason": "Current quantified internal-print geometry is lighter under the project density sensitivity; final choice remains physical-proof/material dependent.",
+    "next_mass_gate": "replace baseline allocations with measured/frozen masses as EDF, ESC, BEC, sweep actuator, fasteners and shell print settings freeze; optimize only if projected AUW approaches 1100 g or any subsystem hard ceiling is exceeded."
+  },
+  "release": {
+    "mass_rollup_measured": false,
+    "hardware_mass_frozen": false,
+    "shell_mass_verified": false,
+    "AUW_frozen": false,
+    "flight_release": false
+  }
+}

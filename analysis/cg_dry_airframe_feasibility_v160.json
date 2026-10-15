@@ -1,0 +1,647 @@
+{
+  "status": "V160_BATTERY_TRAVEL_DRY_AIRFRAME_CG_FEASIBILITY",
+  "sources": [
+    "analysis/cg_whole_aircraft_sensitivity_v151.json",
+    "analysis/cg_battery_tray_v152.json",
+    "workspace/RC-F14-Tomcat/Fusion/Exports/Current/cg_v157/F14_v157_battery_skeleton_tray_audit.json"
+  ],
+  "preliminary_CG_seed_range_mm": [
+    596.0704536162777,
+    604.7380091718334
+  ],
+  "battery_center_proven_range_mm": [
+    305.0,
+    375.0
+  ],
+  "battery_travel_mm": 70.0,
+  "cases": [
+    {
+      "AUW_g": 950,
+      "battery_g": 180,
+      "dry_airframe_g": 770,
+      "dry_cg_interval_for_any_seed_mm": [
+        647.7492609551479,
+        674.8066346925216
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        658.4429983288852,
+        664.1128973187842
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 664.1128973187842
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 647.7492609551479
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 674.8066346925216
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 658.4429983288852
+        }
+      ]
+    },
+    {
+      "AUW_g": 950,
+      "battery_g": 202,
+      "dry_airframe_g": 748,
+      "dry_cg_interval_for_any_seed_mm": [
+        655.771298042064,
+        685.6833004187722
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        666.7795571032642,
+        674.675041357572
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 674.675041357572
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 655.771298042064
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 685.6833004187722
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 666.7795571032642
+        }
+      ]
+    },
+    {
+      "AUW_g": 950,
+      "battery_g": 220,
+      "dry_airframe_g": 730,
+      "dry_cg_interval_for_any_seed_mm": [
+        662.6944259389916,
+        695.0700119359475
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        673.9741215249885,
+        683.7903163499506
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 683.7903163499506
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 662.6944259389916
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 695.0700119359475
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 673.9741215249885
+        }
+      ]
+    },
+    {
+      "AUW_g": 950,
+      "battery_g": 240,
+      "dry_airframe_g": 710,
+      "dry_cg_interval_for_any_seed_mm": [
+        670.7984942753012,
+        706.057899596115
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        682.395927765129,
+        694.4604661062872
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 694.4604661062872
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 670.7984942753012
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 706.057899596115
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 682.395927765129
+        }
+      ]
+    },
+    {
+      "AUW_g": 1050,
+      "battery_g": 180,
+      "dry_airframe_g": 870,
+      "dry_cg_interval_for_any_seed_mm": [
+        641.8091681575766,
+        666.7527696901437
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        652.2700110694541,
+        656.2919267782662
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 656.2919267782662
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 641.8091681575766
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 666.7527696901437
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 652.2700110694541
+        }
+      ]
+    },
+    {
+      "AUW_g": 1050,
+      "battery_g": 202,
+      "dry_airframe_g": 848,
+      "dry_cg_interval_for_any_seed_mm": [
+        648.7311041239287,
+        676.1378651302182
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        659.4633368283314,
+        665.4056324258155
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 665.4056324258155
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 648.7311041239287
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 676.1378651302182
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 659.4633368283314
+        }
+      ]
+    },
+    {
+      "AUW_g": 1050,
+      "battery_g": 220,
+      "dry_airframe_g": 830,
+      "dry_cg_interval_for_any_seed_mm": [
+        654.6674413217971,
+        684.1866381089459
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        665.632421241476,
+        673.2216581892669
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 673.2216581892669
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 654.6674413217971
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 684.1866381089459
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 665.632421241476
+        }
+      ]
+    },
+    {
+      "AUW_g": 1050,
+      "battery_g": 240,
+      "dry_airframe_g": 810,
+      "dry_cg_interval_for_any_seed_mm": [
+        661.5728102433229,
+        693.5492711486729
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        672.8085304079322,
+        682.3135509840637
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 682.3135509840637
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 661.5728102433229
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 693.5492711486729
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 672.8085304079322
+        }
+      ]
+    },
+    {
+      "AUW_g": 1100,
+      "battery_g": 180,
+      "dry_airframe_g": 920,
+      "dry_cg_interval_for_any_seed_mm": [
+        639.323368454245,
+        663.3824022706704
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        649.6867500967572,
+        653.0190206281582
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 653.0190206281582
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 639.323368454245
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 663.3824022706704
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 649.6867500967572
+        }
+      ]
+    },
+    {
+      "AUW_g": 1100,
+      "battery_g": 202,
+      "dry_airframe_g": 898,
+      "dry_cg_interval_for_any_seed_mm": [
+        645.7989966346387,
+        672.1623720367669
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        656.4162695868782,
+        661.5450990845272
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 661.5450990845272
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 645.7989966346387
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 672.1623720367669
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 656.4162695868782
+        }
+      ]
+    },
+    {
+      "AUW_g": 1100,
+      "battery_g": 220,
+      "dry_airframe_g": 880,
+      "dry_cg_interval_for_any_seed_mm": [
+        651.3380670203471,
+        679.6725114647917
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        662.1725114647917,
+        668.8380670203471
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 668.8380670203471
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 651.3380670203471
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 679.6725114647917
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 662.1725114647917
+        }
+      ]
+    },
+    {
+      "AUW_g": 1100,
+      "battery_g": 240,
+      "dry_airframe_g": 860,
+      "dry_cg_interval_for_any_seed_mm": [
+        657.7645336952389,
+        688.3858256849031
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        668.8509419639729,
+        677.2994174161691
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 677.2994174161691
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 657.7645336952389
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 688.3858256849031
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 668.8509419639729
+        }
+      ]
+    },
+    {
+      "AUW_g": 1200,
+      "battery_g": 180,
+      "dry_airframe_g": 1020,
+      "dry_cg_interval_for_any_seed_mm": [
+        635.0828866073856,
+        657.6329519668628
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        645.2800107903922,
+        647.4358277838562
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 647.4358277838562
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 635.0828866073856
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 657.6329519668628
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 645.2800107903922
+        }
+      ]
+    },
+    {
+      "AUW_g": 1200,
+      "battery_g": 202,
+      "dry_airframe_g": 998,
+      "dry_cg_interval_for_any_seed_mm": [
+        640.8161766929192,
+        665.4064238539079
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        651.2380871805613,
+        654.9845133662659
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 654.9845133662659
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 640.8161766929192
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 665.4064238539079
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 651.2380871805613
+        }
+      ]
+    },
+    {
+      "AUW_g": 1200,
+      "battery_g": 220,
+      "dry_airframe_g": 980,
+      "dry_cg_interval_for_any_seed_mm": [
+        645.6985146321769,
+        672.026133679796
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        656.3118479655103,
+        661.4128003464625
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 661.4128003464625
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 645.6985146321769
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 672.026133679796
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 656.3118479655103
+        }
+      ]
+    },
+    {
+      "AUW_g": 1200,
+      "battery_g": 240,
+      "dry_airframe_g": 960,
+      "dry_cg_interval_for_any_seed_mm": [
+        651.3380670203472,
+        679.6725114647918
+      ],
+      "dry_cg_interval_to_cover_entire_seed_range_mm": [
+        662.1725114647918,
+        668.8380670203472
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "detail": [
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 668.8380670203472
+        },
+        {
+          "target_cg_mm": 596.0704536162777,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 651.3380670203472
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 305.0,
+          "required_dry_cg_mm": 679.6725114647918
+        },
+        {
+          "target_cg_mm": 604.7380091718334,
+          "battery_x_mm": 375.0,
+          "required_dry_cg_mm": 662.1725114647918
+        }
+      ]
+    }
+  ],
+  "reference_1050g_202g": {
+    "AUW_g": 1050,
+    "battery_g": 202,
+    "dry_airframe_g": 848,
+    "dry_cg_interval_for_any_seed_mm": [
+      648.7311041239287,
+      676.1378651302182
+    ],
+    "dry_cg_interval_to_cover_entire_seed_range_mm": [
+      659.4633368283314,
+      665.4056324258155
+    ],
+    "full_seed_range_coverable_by_70mm_battery_travel": true,
+    "detail": [
+      {
+        "target_cg_mm": 596.0704536162777,
+        "battery_x_mm": 305.0,
+        "required_dry_cg_mm": 665.4056324258155
+      },
+      {
+        "target_cg_mm": 596.0704536162777,
+        "battery_x_mm": 375.0,
+        "required_dry_cg_mm": 648.7311041239287
+      },
+      {
+        "target_cg_mm": 604.7380091718334,
+        "battery_x_mm": 305.0,
+        "required_dry_cg_mm": 676.1378651302182
+      },
+      {
+        "target_cg_mm": 604.7380091718334,
+        "battery_x_mm": 375.0,
+        "required_dry_cg_mm": 659.4633368283314
+      }
+    ]
+  },
+  "decision": {
+    "reference_case_full_seed_range_coverable": true,
+    "required_reference_dry_airframe_CG_interval_mm": [
+      659.4633368283314,
+      665.4056324258155
+    ],
+    "next_physical_mass_gate": "With battery removed, weigh the assembled dry airframe and measure its CG. If its CG is outside the applicable interval, move equipment before adding ballast.",
+    "ballast_is_not_accepted_as_primary_design_solution": true,
+    "do_not_freeze_maiden_CG_from_this_screen": true
+  },
+  "release": {
+    "dry_airframe_mass_measured": false,
+    "dry_airframe_CG_measured": false,
+    "maiden_CG_frozen": false,
+    "flight_release": false
+  }
+}

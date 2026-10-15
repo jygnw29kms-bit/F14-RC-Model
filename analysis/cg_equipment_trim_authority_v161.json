@@ -1,0 +1,303 @@
+{
+  "status": "V161_EQUIPMENT_PLACEMENT_CG_TRIM_AUTHORITY",
+  "source": "analysis/cg_dry_airframe_feasibility_v160.json",
+  "reference_dry_airframe_mass_g": 848.0,
+  "reference_required_dry_CG_interval_mm": [
+    659.4633368283314,
+    665.4056324258155
+  ],
+  "budget_masses_not_frozen": {
+    "ESC_pair_budget_g": 55.0,
+    "receiver_BEC_wiring_budget_g": 35.0,
+    "sweep_actuator_linkage_budget_g": 45.0,
+    "ESC_plus_receiver_power_g": 90.0,
+    "all_three_flexible_budget_groups_g": 135.0
+  },
+  "relocation_sensitivity": [
+    {
+      "item": "ESC_pair_budget_g",
+      "mass_g": 55.0,
+      "relocation_mm": 25,
+      "dry_CG_shift_mm": 1.6214622641509433
+    },
+    {
+      "item": "ESC_pair_budget_g",
+      "mass_g": 55.0,
+      "relocation_mm": 50,
+      "dry_CG_shift_mm": 3.2429245283018866
+    },
+    {
+      "item": "ESC_pair_budget_g",
+      "mass_g": 55.0,
+      "relocation_mm": 75,
+      "dry_CG_shift_mm": 4.86438679245283
+    },
+    {
+      "item": "ESC_pair_budget_g",
+      "mass_g": 55.0,
+      "relocation_mm": 100,
+      "dry_CG_shift_mm": 6.485849056603773
+    },
+    {
+      "item": "ESC_pair_budget_g",
+      "mass_g": 55.0,
+      "relocation_mm": 150,
+      "dry_CG_shift_mm": 9.72877358490566
+    },
+    {
+      "item": "receiver_BEC_wiring_budget_g",
+      "mass_g": 35.0,
+      "relocation_mm": 25,
+      "dry_CG_shift_mm": 1.0318396226415094
+    },
+    {
+      "item": "receiver_BEC_wiring_budget_g",
+      "mass_g": 35.0,
+      "relocation_mm": 50,
+      "dry_CG_shift_mm": 2.063679245283019
+    },
+    {
+      "item": "receiver_BEC_wiring_budget_g",
+      "mass_g": 35.0,
+      "relocation_mm": 75,
+      "dry_CG_shift_mm": 3.0955188679245285
+    },
+    {
+      "item": "receiver_BEC_wiring_budget_g",
+      "mass_g": 35.0,
+      "relocation_mm": 100,
+      "dry_CG_shift_mm": 4.127358490566038
+    },
+    {
+      "item": "receiver_BEC_wiring_budget_g",
+      "mass_g": 35.0,
+      "relocation_mm": 150,
+      "dry_CG_shift_mm": 6.191037735849057
+    },
+    {
+      "item": "sweep_actuator_linkage_budget_g",
+      "mass_g": 45.0,
+      "relocation_mm": 25,
+      "dry_CG_shift_mm": 1.3266509433962264
+    },
+    {
+      "item": "sweep_actuator_linkage_budget_g",
+      "mass_g": 45.0,
+      "relocation_mm": 50,
+      "dry_CG_shift_mm": 2.6533018867924527
+    },
+    {
+      "item": "sweep_actuator_linkage_budget_g",
+      "mass_g": 45.0,
+      "relocation_mm": 75,
+      "dry_CG_shift_mm": 3.979952830188679
+    },
+    {
+      "item": "sweep_actuator_linkage_budget_g",
+      "mass_g": 45.0,
+      "relocation_mm": 100,
+      "dry_CG_shift_mm": 5.306603773584905
+    },
+    {
+      "item": "sweep_actuator_linkage_budget_g",
+      "mass_g": 45.0,
+      "relocation_mm": 150,
+      "dry_CG_shift_mm": 7.959905660377358
+    },
+    {
+      "item": "ESC_plus_receiver_power_g",
+      "mass_g": 90.0,
+      "relocation_mm": 25,
+      "dry_CG_shift_mm": 2.6533018867924527
+    },
+    {
+      "item": "ESC_plus_receiver_power_g",
+      "mass_g": 90.0,
+      "relocation_mm": 50,
+      "dry_CG_shift_mm": 5.306603773584905
+    },
+    {
+      "item": "ESC_plus_receiver_power_g",
+      "mass_g": 90.0,
+      "relocation_mm": 75,
+      "dry_CG_shift_mm": 7.959905660377358
+    },
+    {
+      "item": "ESC_plus_receiver_power_g",
+      "mass_g": 90.0,
+      "relocation_mm": 100,
+      "dry_CG_shift_mm": 10.61320754716981
+    },
+    {
+      "item": "ESC_plus_receiver_power_g",
+      "mass_g": 90.0,
+      "relocation_mm": 150,
+      "dry_CG_shift_mm": 15.919811320754716
+    },
+    {
+      "item": "all_three_flexible_budget_groups_g",
+      "mass_g": 135.0,
+      "relocation_mm": 25,
+      "dry_CG_shift_mm": 3.979952830188679
+    },
+    {
+      "item": "all_three_flexible_budget_groups_g",
+      "mass_g": 135.0,
+      "relocation_mm": 50,
+      "dry_CG_shift_mm": 7.959905660377358
+    },
+    {
+      "item": "all_three_flexible_budget_groups_g",
+      "mass_g": 135.0,
+      "relocation_mm": 75,
+      "dry_CG_shift_mm": 11.939858490566039
+    },
+    {
+      "item": "all_three_flexible_budget_groups_g",
+      "mass_g": 135.0,
+      "relocation_mm": 100,
+      "dry_CG_shift_mm": 15.919811320754716
+    },
+    {
+      "item": "all_three_flexible_budget_groups_g",
+      "mass_g": 135.0,
+      "relocation_mm": 150,
+      "dry_CG_shift_mm": 23.879716981132077
+    }
+  ],
+  "correction_distance_sensitivity": [
+    {
+      "item": "ESC_pair_budget_g",
+      "mass_g": 55.0,
+      "desired_dry_CG_correction_mm": 2,
+      "required_component_relocation_mm": 30.836363636363636
+    },
+    {
+      "item": "ESC_pair_budget_g",
+      "mass_g": 55.0,
+      "desired_dry_CG_correction_mm": 5,
+      "required_component_relocation_mm": 77.0909090909091
+    },
+    {
+      "item": "ESC_pair_budget_g",
+      "mass_g": 55.0,
+      "desired_dry_CG_correction_mm": 10,
+      "required_component_relocation_mm": 154.1818181818182
+    },
+    {
+      "item": "ESC_pair_budget_g",
+      "mass_g": 55.0,
+      "desired_dry_CG_correction_mm": 15,
+      "required_component_relocation_mm": 231.27272727272728
+    },
+    {
+      "item": "receiver_BEC_wiring_budget_g",
+      "mass_g": 35.0,
+      "desired_dry_CG_correction_mm": 2,
+      "required_component_relocation_mm": 48.457142857142856
+    },
+    {
+      "item": "receiver_BEC_wiring_budget_g",
+      "mass_g": 35.0,
+      "desired_dry_CG_correction_mm": 5,
+      "required_component_relocation_mm": 121.14285714285714
+    },
+    {
+      "item": "receiver_BEC_wiring_budget_g",
+      "mass_g": 35.0,
+      "desired_dry_CG_correction_mm": 10,
+      "required_component_relocation_mm": 242.28571428571428
+    },
+    {
+      "item": "receiver_BEC_wiring_budget_g",
+      "mass_g": 35.0,
+      "desired_dry_CG_correction_mm": 15,
+      "required_component_relocation_mm": 363.42857142857144
+    },
+    {
+      "item": "sweep_actuator_linkage_budget_g",
+      "mass_g": 45.0,
+      "desired_dry_CG_correction_mm": 2,
+      "required_component_relocation_mm": 37.68888888888889
+    },
+    {
+      "item": "sweep_actuator_linkage_budget_g",
+      "mass_g": 45.0,
+      "desired_dry_CG_correction_mm": 5,
+      "required_component_relocation_mm": 94.22222222222223
+    },
+    {
+      "item": "sweep_actuator_linkage_budget_g",
+      "mass_g": 45.0,
+      "desired_dry_CG_correction_mm": 10,
+      "required_component_relocation_mm": 188.44444444444446
+    },
+    {
+      "item": "sweep_actuator_linkage_budget_g",
+      "mass_g": 45.0,
+      "desired_dry_CG_correction_mm": 15,
+      "required_component_relocation_mm": 282.6666666666667
+    },
+    {
+      "item": "ESC_plus_receiver_power_g",
+      "mass_g": 90.0,
+      "desired_dry_CG_correction_mm": 2,
+      "required_component_relocation_mm": 18.844444444444445
+    },
+    {
+      "item": "ESC_plus_receiver_power_g",
+      "mass_g": 90.0,
+      "desired_dry_CG_correction_mm": 5,
+      "required_component_relocation_mm": 47.111111111111114
+    },
+    {
+      "item": "ESC_plus_receiver_power_g",
+      "mass_g": 90.0,
+      "desired_dry_CG_correction_mm": 10,
+      "required_component_relocation_mm": 94.22222222222223
+    },
+    {
+      "item": "ESC_plus_receiver_power_g",
+      "mass_g": 90.0,
+      "desired_dry_CG_correction_mm": 15,
+      "required_component_relocation_mm": 141.33333333333334
+    },
+    {
+      "item": "all_three_flexible_budget_groups_g",
+      "mass_g": 135.0,
+      "desired_dry_CG_correction_mm": 2,
+      "required_component_relocation_mm": 12.562962962962963
+    },
+    {
+      "item": "all_three_flexible_budget_groups_g",
+      "mass_g": 135.0,
+      "desired_dry_CG_correction_mm": 5,
+      "required_component_relocation_mm": 31.40740740740741
+    },
+    {
+      "item": "all_three_flexible_budget_groups_g",
+      "mass_g": 135.0,
+      "desired_dry_CG_correction_mm": 10,
+      "required_component_relocation_mm": 62.81481481481482
+    },
+    {
+      "item": "all_three_flexible_budget_groups_g",
+      "mass_g": 135.0,
+      "desired_dry_CG_correction_mm": 15,
+      "required_component_relocation_mm": 94.22222222222223
+    }
+  ],
+  "decision": {
+    "ballast_last_resort": true,
+    "equipment_placement_is_primary_dry_CG_tuning_method": true,
+    "example": "Moving the 90 g ESC + receiver/BEC/wiring allocation by 50 mm shifts the 848 g dry-airframe CG by about 5.31 mm.",
+    "design_rule": "Keep flexible avionics and ESC mounting longitudinally relocatable until a physical dry-airframe mass/CG measurement exists.",
+    "freeze_rule": "Do not permanently bond flexible electronics trays before measured dry CG confirms the v160 interval or an equipment-placement correction is calculated."
+  },
+  "release": {
+    "component_masses_measured": false,
+    "component_mount_stations_frozen": false,
+    "dry_CG_trim_verified": false,
+    "flight_release": false
+  }
+}
