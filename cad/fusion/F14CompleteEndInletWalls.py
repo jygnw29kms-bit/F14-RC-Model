@@ -53,8 +53,13 @@ def run_review(app,builder,mm,outdir):
         thickness=app.measureManager.measureMinimumDistance(cones[0],cones[1]).value*10
         shell_records.append(dict(side=side,wall_material_volume_cm3=body.volume,outside_candidate_source_cm3=outside,valid_solid=True,complete_X_annular_ends=True,end_loop_counts=[f.loops.count for f in ends],normal_wall_minimum_mm=thickness))
     result['wall_candidates']=shell_records
-    result['wall_thickness_radius_difference_mm']=.8
-    result['minimum_normal_wall_thickness_verified']=False
+    target_wall_mm=0.8
+    measurement_tolerance_mm=0.001
+    minimum_measured_mm=min(x['normal_wall_minimum_mm'] for x in shell_records)
+    result['wall_thickness_radius_difference_mm']=target_wall_mm
+    result['wall_thickness_measurement_tolerance_mm']=measurement_tolerance_mm
+    result['minimum_measured_normal_wall_mm']=minimum_measured_mm
+    result['minimum_normal_wall_thickness_verified']=minimum_measured_mm >= target_wall_mm-measurement_tolerance_mm
     result['inlet_ends_planar_X_domain_clips']=True
     if not rd.exportManager.execute(rd.exportManager.createFusionArchiveExportOptions(os.path.join(outdir,'F14_COMPLETE_END_INLET_WALL_CANDIDATE.f3d'))):raise RuntimeError('Wall archive export failed')
     json.dump(result,open(os.path.join(outdir,'F14_complete_end_inlet_wall_audit.json'),'w'),indent=2)

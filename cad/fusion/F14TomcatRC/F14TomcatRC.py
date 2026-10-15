@@ -2570,6 +2570,18 @@ def build_project_revision():
         study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
         with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
         return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='inlet_wall_verify_v154':
+        path=os.path.join(os.path.dirname(__file__),'F14CompleteEndInletWalls_v154.py')
+        spec=importlib.util.spec_from_file_location('f14_inlet_wall_verify_v154',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'propulsion_v154'))
+    if review=='battery_tray_v153':
+        path=os.path.join(os.path.dirname(__file__),'F14BatteryTraySearch_v153.py')
+        spec=importlib.util.spec_from_file_location('f14_battery_tray_v153',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'cg_v153'))
     if review=='tapered_shoulder_v143':
         path=os.path.join(os.path.dirname(__file__),'F14TaperedFanShoulder_v143.py')
         spec=importlib.util.spec_from_file_location('f14_tapered_shoulder_v143',path)
