@@ -1,0 +1,39 @@
+{
+  "status": "FREECAD_V188_NATIVE_WALL_THICKNESS_SCREEN",
+  "source_fcstd": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\migration\\freecad\\F14_v187_FreeCAD_Native_Rebuild.FCStd",
+  "measurements": [
+    {
+      "side": "R",
+      "native_minimum_curved_face_gap_mm": 0.8012487916834294,
+      "minimum_0p8mm_screen_pass": true,
+      "fan_face_radii_mm": [
+        25.82,
+        25.0
+      ],
+      "fan_face_radial_gap_mm": 0.8200000000000003,
+      "fan_face_0p8mm_screen_pass": true,
+      "adapter_valid": true,
+      "adapter_solids": 1
+    },
+    {
+      "side": "L",
+      "native_minimum_curved_face_gap_mm": 0.801248772205745,
+      "minimum_0p8mm_screen_pass": true,
+      "fan_face_radii_mm": [
+        25.82,
+        25.0
+      ],
+      "fan_face_radial_gap_mm": 0.8200000000000003,
+      "fan_face_0p8mm_screen_pass": true,
+      "adapter_valid": true,
+      "adapter_solids": 1
+    }
+  ],
+  "bilateral_minimum_0p8mm_pass": true,
+  "minimum_release_screen_mm": 0.8,
+  "freecad_native_verified": true,
+  "actual_print_tested": false,
+  "aerodynamic_smoothness_verified": false,
+  "print_release": false,
+  "flight_release": false
+}
