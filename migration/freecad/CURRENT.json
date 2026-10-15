@@ -1,0 +1,15 @@
+﻿{
+  "cad_engine": "FreeCAD 1.1.4",
+  "mode": "headless-first",
+  "current_master": "migration/freecad/F14_CURRENT_FULL_VIEW_v192.FCStd",
+  "current_revision": "v192",
+  "baseline_commit": "1590e6a",
+  "required_audits": [
+    "migration/freecad/freecad_v188_wall_audit.json",
+    "migration/freecad/freecad_v191_datum_audit.json",
+    "migration/freecad/freecad_v192_sweep_audit.json"
+  ],
+  "fusion_policy": "closed_except_explicit_legacy_export",
+  "print_release": false,
+  "flight_release": false
+}

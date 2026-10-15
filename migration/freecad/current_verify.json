@@ -1,0 +1,10 @@
+{
+  "status": "F14_FREECAD_CURRENT_VERIFY",
+  "master": "migration/freecad/F14_CURRENT_FULL_VIEW_v192.FCStd",
+  "revision": "v192",
+  "shape_objects": 43,
+  "invalid_or_missing": [],
+  "pass": true,
+  "print_release": false,
+  "flight_release": false
+}
