@@ -1,0 +1,7479 @@
+{
+  "status": "GCODE_CONTIGUOUS_EXTRUSION_ENDPOINT_CLOSURE_AUDIT",
+  "archive_sha256": "82c06efb9b61027cc7230f630a685d203233b4a0c86f9d57402ce330dc197209",
+  "path_count": 1244,
+  "maximum_endpoint_gap_mm": 0.06109828148156965,
+  "paths_above_0p05mm": 1244,
+  "paths_above_0p2mm": 0,
+  "paths_above_0p5mm": 0,
+  "paths": [
+    {
+      "layer": 1,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 1,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.052801515129775475
+    },
+    {
+      "layer": 1,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 1,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06063827174317544
+    },
+    {
+      "layer": 2,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 2,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.052801515129775475
+    },
+    {
+      "layer": 2,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 2,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 3,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059481089431843784
+    },
+    {
+      "layer": 3,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.052801515129784087
+    },
+    {
+      "layer": 3,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 3,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 4,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06082762530295491
+    },
+    {
+      "layer": 4,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.051224993899476566
+    },
+    {
+      "layer": 4,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 4,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767880224
+    },
+    {
+      "layer": 5,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 5,
+      "object_id": "12",
+      "moves": 11,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 5,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060926184846909225
+    },
+    {
+      "layer": 5,
+      "object_id": "8",
+      "moves": 13,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 6,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 6,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05556977595779655
+    },
+    {
+      "layer": 6,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 6,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05913543776790281
+    },
+    {
+      "layer": 7,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 7,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 7,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06000833275470358
+    },
+    {
+      "layer": 7,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 8,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 8,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 8,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 8,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 9,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 9,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 9,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05961543424314721
+    },
+    {
+      "layer": 9,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05946427498927882
+    },
+    {
+      "layer": 10,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 10,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 10,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.0605392434706813
+    },
+    {
+      "layer": 10,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 11,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 11,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 11,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 11,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 12,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 12,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 12,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424314721
+    },
+    {
+      "layer": 12,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 13,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 13,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 13,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 13,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 14,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 14,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 14,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 14,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 15,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 15,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 15,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 15,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 16,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 16,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 16,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 16,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 17,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 17,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 17,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 17,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 18,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 18,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 18,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 18,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 19,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 19,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 19,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06000833275470358
+    },
+    {
+      "layer": 19,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.059808026217238845
+    },
+    {
+      "layer": 20,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 20,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 20,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059615434243158176
+    },
+    {
+      "layer": 20,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 21,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 21,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 21,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347066816
+    },
+    {
+      "layer": 21,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 22,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 22,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 22,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060926184846909225
+    },
+    {
+      "layer": 22,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 23,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 23,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 23,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 23,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 24,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 24,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 24,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424317129
+    },
+    {
+      "layer": 24,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 25,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 25,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 25,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059615434243158176
+    },
+    {
+      "layer": 25,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 26,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 26,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 26,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424317129
+    },
+    {
+      "layer": 26,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 27,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 27,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053009433122794596
+    },
+    {
+      "layer": 27,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424317129
+    },
+    {
+      "layer": 27,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 28,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 28,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05300943312280291
+    },
+    {
+      "layer": 28,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 28,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 29,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 29,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05243090691567919
+    },
+    {
+      "layer": 29,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060008332754716606
+    },
+    {
+      "layer": 29,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 30,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986800048
+    },
+    {
+      "layer": 30,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05382378656317265
+    },
+    {
+      "layer": 30,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 30,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 31,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 31,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05243090691567919
+    },
+    {
+      "layer": 31,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 31,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05913543776790281
+    },
+    {
+      "layer": 32,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 32,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05300943312280291
+    },
+    {
+      "layer": 32,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059933296255093166
+    },
+    {
+      "layer": 32,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05980802621722887
+    },
+    {
+      "layer": 33,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 33,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053823786563195884
+    },
+    {
+      "layer": 33,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05993329625508084
+    },
+    {
+      "layer": 33,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05913543776790281
+    },
+    {
+      "layer": 34,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 34,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053009433122794596
+    },
+    {
+      "layer": 34,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05993329625508084
+    },
+    {
+      "layer": 34,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 35,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 35,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053823786563180834
+    },
+    {
+      "layer": 35,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060373835392490256
+    },
+    {
+      "layer": 35,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 36,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 36,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05382378656320407
+    },
+    {
+      "layer": 36,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059481089431843784
+    },
+    {
+      "layer": 36,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 37,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 37,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053009433122794596
+    },
+    {
+      "layer": 37,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 37,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 38,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260162
+    },
+    {
+      "layer": 38,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053254107822787236
+    },
+    {
+      "layer": 38,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 38,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 39,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 39,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05300943312280291
+    },
+    {
+      "layer": 39,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 39,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 40,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 40,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05243090691565588
+    },
+    {
+      "layer": 40,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05953990258643471
+    },
+    {
+      "layer": 40,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 41,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 41,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053009433122794596
+    },
+    {
+      "layer": 41,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05953990258642087
+    },
+    {
+      "layer": 41,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 42,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 42,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05243090691565588
+    },
+    {
+      "layer": 42,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05818075283115307
+    },
+    {
+      "layer": 42,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 43,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 43,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.051400389103586616
+    },
+    {
+      "layer": 43,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 43,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 44,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 44,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.051400389103586616
+    },
+    {
+      "layer": 44,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 44,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 45,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 45,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.052009614495801104
+    },
+    {
+      "layer": 45,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06074537019394715
+    },
+    {
+      "layer": 45,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 46,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 46,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.050606323715517314
+    },
+    {
+      "layer": 46,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 46,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 47,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 47,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255093166
+    },
+    {
+      "layer": 47,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 47,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 48,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 48,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 48,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060008332754716606
+    },
+    {
+      "layer": 48,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 49,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 49,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 49,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06000833275470358
+    },
+    {
+      "layer": 49,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.060745370193956975
+    },
+    {
+      "layer": 50,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 50,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 50,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424314721
+    },
+    {
+      "layer": 50,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 51,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 51,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 51,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060926184846909225
+    },
+    {
+      "layer": 51,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 52,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 52,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 52,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 52,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 53,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 53,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 53,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060008332754716606
+    },
+    {
+      "layer": 53,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 54,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 54,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 54,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 54,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 55,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 55,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 55,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05980802621722887
+    },
+    {
+      "layer": 55,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 56,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 56,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 56,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 56,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 57,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 57,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 57,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06074537019394364
+    },
+    {
+      "layer": 57,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 58,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 58,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 58,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 58,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 59,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 59,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 59,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 59,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 60,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 60,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 60,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 60,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 61,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06082762530296145
+    },
+    {
+      "layer": 61,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 61,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 61,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 62,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 62,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 62,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424314721
+    },
+    {
+      "layer": 62,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 63,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 63,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 63,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 63,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 64,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 64,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 64,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424317129
+    },
+    {
+      "layer": 64,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 65,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 65,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 65,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 65,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 66,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 66,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 66,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 66,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 67,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 67,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 67,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424314721
+    },
+    {
+      "layer": 67,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 68,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 68,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060207972893973276
+    },
+    {
+      "layer": 68,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 68,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 69,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 69,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 69,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059615434243158176
+    },
+    {
+      "layer": 69,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 70,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 70,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 70,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 70,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 71,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 71,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 71,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 71,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05913543776790281
+    },
+    {
+      "layer": 72,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 72,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 72,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 72,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 73,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 73,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.060373835392490256
+    },
+    {
+      "layer": 73,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825972926
+    },
+    {
+      "layer": 73,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 74,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 74,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 74,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 74,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 75,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 75,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 75,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 75,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 76,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 76,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06041522986799366
+    },
+    {
+      "layer": 76,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 76,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 77,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 77,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 77,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 77,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 78,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 78,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 78,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 78,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 79,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 79,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 79,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 79,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 80,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 80,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 80,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 80,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 81,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 81,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 81,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 81,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 82,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 82,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 82,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 82,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 83,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 83,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.060373835392490256
+    },
+    {
+      "layer": 83,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287849322
+    },
+    {
+      "layer": 83,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 84,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 84,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 84,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 84,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05946427498927882
+    },
+    {
+      "layer": 85,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 85,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 85,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 85,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05980802621722887
+    },
+    {
+      "layer": 86,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 86,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 86,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424314721
+    },
+    {
+      "layer": 86,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 87,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 87,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059033888572577665
+    },
+    {
+      "layer": 87,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 87,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 88,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 88,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 88,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 88,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 89,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 89,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 89,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825972926
+    },
+    {
+      "layer": 89,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767880224
+    },
+    {
+      "layer": 90,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 90,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059033888572577665
+    },
+    {
+      "layer": 90,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287849322
+    },
+    {
+      "layer": 90,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05977457653550254
+    },
+    {
+      "layer": 91,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059481089431875564
+    },
+    {
+      "layer": 91,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 91,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 91,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 92,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 92,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 92,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 92,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 93,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 93,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059933296255093166
+    },
+    {
+      "layer": 93,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 93,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 94,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 94,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 94,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848003
+    },
+    {
+      "layer": 94,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 95,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 95,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059033888572583924
+    },
+    {
+      "layer": 95,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 95,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 96,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 96,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059933296255093166
+    },
+    {
+      "layer": 96,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 96,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 97,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 97,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.060373835392490256
+    },
+    {
+      "layer": 97,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 97,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 98,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 98,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.0599332962550614
+    },
+    {
+      "layer": 98,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 98,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 99,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 99,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 99,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 99,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554318051
+    },
+    {
+      "layer": 100,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 100,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 100,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 100,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05977457653551609
+    },
+    {
+      "layer": 101,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 101,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 101,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 101,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 102,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 102,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059933296255093166
+    },
+    {
+      "layer": 102,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 102,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 103,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 103,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 103,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 103,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 104,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 104,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 104,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 104,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 105,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 105,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 105,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 105,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05977457653551609
+    },
+    {
+      "layer": 106,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 106,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 106,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 106,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 107,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 107,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 107,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 107,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 108,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 108,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 108,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 108,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 109,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 109,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 109,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 109,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 110,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 110,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.053009433122794596
+    },
+    {
+      "layer": 110,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 110,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 111,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 111,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 111,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05923681287849322
+    },
+    {
+      "layer": 111,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 112,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 112,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 112,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 112,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 113,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 113,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05220153254455754
+    },
+    {
+      "layer": 113,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 113,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 114,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 114,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0522015325445491
+    },
+    {
+      "layer": 114,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 114,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060406953242138434
+    },
+    {
+      "layer": 115,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 115,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.051613951602257714
+    },
+    {
+      "layer": 115,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 115,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 116,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 116,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05300943312280291
+    },
+    {
+      "layer": 116,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06016643582598332
+    },
+    {
+      "layer": 116,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 117,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 117,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05243090691567919
+    },
+    {
+      "layer": 117,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825972926
+    },
+    {
+      "layer": 117,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767880224
+    },
+    {
+      "layer": 118,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 118,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.051613951602257714
+    },
+    {
+      "layer": 118,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347066816
+    },
+    {
+      "layer": 118,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 119,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 119,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.053009433122794596
+    },
+    {
+      "layer": 119,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 119,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324214784
+    },
+    {
+      "layer": 120,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 120,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.053009433122794596
+    },
+    {
+      "layer": 120,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 120,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 121,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 121,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05243090691567919
+    },
+    {
+      "layer": 121,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 121,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324214784
+    },
+    {
+      "layer": 122,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 122,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05220153254455754
+    },
+    {
+      "layer": 122,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 122,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 123,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 123,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05243090691567919
+    },
+    {
+      "layer": 123,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 123,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05913543776790281
+    },
+    {
+      "layer": 124,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 124,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.053009433122771545
+    },
+    {
+      "layer": 124,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 124,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 125,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 125,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05300943312280291
+    },
+    {
+      "layer": 125,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06016643582598332
+    },
+    {
+      "layer": 125,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 126,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 126,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05243090691567919
+    },
+    {
+      "layer": 126,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 126,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 127,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 127,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05220153254455754
+    },
+    {
+      "layer": 127,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424314721
+    },
+    {
+      "layer": 127,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 128,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 128,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0522015325445491
+    },
+    {
+      "layer": 128,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 128,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324214784
+    },
+    {
+      "layer": 129,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059481089431843784
+    },
+    {
+      "layer": 129,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053254107822787236
+    },
+    {
+      "layer": 129,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 129,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324214784
+    },
+    {
+      "layer": 130,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 130,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059933296255093166
+    },
+    {
+      "layer": 130,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848003
+    },
+    {
+      "layer": 130,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 131,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 131,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060373835392490256
+    },
+    {
+      "layer": 131,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 131,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 132,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 132,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 132,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06016643582598332
+    },
+    {
+      "layer": 132,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 133,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 133,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 133,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 133,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 134,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260162
+    },
+    {
+      "layer": 134,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 134,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 134,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 135,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 135,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060373835392490256
+    },
+    {
+      "layer": 135,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 135,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 136,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 136,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059933296255093166
+    },
+    {
+      "layer": 136,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 136,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 137,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 137,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 137,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 137,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 138,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 138,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 138,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 138,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 139,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 139,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 139,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 139,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05946427498927882
+    },
+    {
+      "layer": 140,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 140,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 140,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 140,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 141,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 141,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 141,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 141,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 142,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 142,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 142,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 142,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 143,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 143,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 143,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 143,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 144,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 144,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 144,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 144,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 145,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 145,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 145,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 145,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 146,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 146,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 146,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 146,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 147,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 147,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 147,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 147,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 148,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 148,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 148,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 148,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 149,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 149,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 149,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 149,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 150,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 150,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 150,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 150,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324214784
+    },
+    {
+      "layer": 151,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 151,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 151,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 151,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 152,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 152,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 152,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05923681287848003
+    },
+    {
+      "layer": 152,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 153,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260162
+    },
+    {
+      "layer": 153,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 153,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 153,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 154,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 154,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 154,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706813
+    },
+    {
+      "layer": 154,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 155,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 155,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 155,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 155,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 156,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 156,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 156,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 156,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 157,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 157,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 157,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 157,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767880224
+    },
+    {
+      "layer": 158,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 158,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 158,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 158,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 159,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 159,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 159,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 159,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 160,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 160,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 160,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 160,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 161,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 161,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 161,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 161,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 162,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 162,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 162,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 162,
+      "object_id": "8",
+      "moves": 12,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 163,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 163,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 163,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 163,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 164,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 164,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.051400389103586616
+    },
+    {
+      "layer": 164,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825972926
+    },
+    {
+      "layer": 164,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 165,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 165,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05353503525728421
+    },
+    {
+      "layer": 165,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 165,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324214784
+    },
+    {
+      "layer": 166,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 166,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0520096144957787
+    },
+    {
+      "layer": 166,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 166,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 167,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 167,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05243090691565588
+    },
+    {
+      "layer": 167,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 167,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 168,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 168,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05768882040742339
+    },
+    {
+      "layer": 168,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287849322
+    },
+    {
+      "layer": 168,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 169,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 169,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.051400389103586616
+    },
+    {
+      "layer": 169,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 169,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05913543776790281
+    },
+    {
+      "layer": 170,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 170,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.0520096144957787
+    },
+    {
+      "layer": 170,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 170,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 171,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 171,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053823786563195884
+    },
+    {
+      "layer": 171,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287849322
+    },
+    {
+      "layer": 171,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 172,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 172,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05243090691567919
+    },
+    {
+      "layer": 172,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825972926
+    },
+    {
+      "layer": 172,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060406953242138434
+    },
+    {
+      "layer": 173,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 173,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05382378656320407
+    },
+    {
+      "layer": 173,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 173,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 174,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 174,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.053823786563180834
+    },
+    {
+      "layer": 174,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 174,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 175,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 175,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.05693856338195086
+    },
+    {
+      "layer": 175,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 175,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 176,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 176,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.052801515129775475
+    },
+    {
+      "layer": 176,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 176,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05913543776790281
+    },
+    {
+      "layer": 177,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059481089431843784
+    },
+    {
+      "layer": 177,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05200961449578744
+    },
+    {
+      "layer": 177,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 177,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 178,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 178,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05200961449578744
+    },
+    {
+      "layer": 178,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 178,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 179,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 179,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05575840743779307
+    },
+    {
+      "layer": 179,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 179,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 180,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 180,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.051224993899454375
+    },
+    {
+      "layer": 180,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347066816
+    },
+    {
+      "layer": 180,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 181,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 181,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05300943312280291
+    },
+    {
+      "layer": 181,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 181,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 182,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 182,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053254107822763755
+    },
+    {
+      "layer": 182,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 182,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 183,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05905929224092301
+    },
+    {
+      "layer": 183,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.053823786563195884
+    },
+    {
+      "layer": 183,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 183,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 184,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 184,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05243090691567919
+    },
+    {
+      "layer": 184,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 184,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 185,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 185,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05243090691567919
+    },
+    {
+      "layer": 185,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 185,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05913543776790281
+    },
+    {
+      "layer": 186,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059033888572577665
+    },
+    {
+      "layer": 186,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05300943312280291
+    },
+    {
+      "layer": 186,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 186,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 187,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 187,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 187,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 187,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 188,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 188,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 188,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 188,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 189,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 189,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828260162
+    },
+    {
+      "layer": 189,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706813
+    },
+    {
+      "layer": 189,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 190,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986799366
+    },
+    {
+      "layer": 190,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 190,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 190,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 191,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260162
+    },
+    {
+      "layer": 191,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 191,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347066816
+    },
+    {
+      "layer": 191,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 192,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 192,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 192,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 192,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 193,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05905929224094803
+    },
+    {
+      "layer": 193,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 193,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 193,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 194,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05953990258641538
+    },
+    {
+      "layer": 194,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 194,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 194,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 195,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05905929224092975
+    },
+    {
+      "layer": 195,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 195,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 195,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 196,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 196,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 196,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 196,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 197,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05905929224094803
+    },
+    {
+      "layer": 197,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 197,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 197,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 198,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 198,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 198,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 198,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 199,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05905929224092975
+    },
+    {
+      "layer": 199,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 199,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 199,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 200,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 200,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06082762530298668
+    },
+    {
+      "layer": 200,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 200,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 201,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 201,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 201,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 201,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 202,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 202,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 202,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 202,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554318051
+    },
+    {
+      "layer": 203,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 203,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 203,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 203,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 204,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 204,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 204,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 204,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 205,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 205,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 205,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825972926
+    },
+    {
+      "layer": 205,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 206,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 206,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 206,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 206,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 207,
+      "object_id": "12",
+      "moves": 5,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 207,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 207,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 207,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 208,
+      "object_id": "12",
+      "moves": 5,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 208,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 208,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 208,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 209,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 209,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 209,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 209,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 210,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 210,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 210,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 210,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 211,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 211,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 211,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825972926
+    },
+    {
+      "layer": 211,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 212,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 212,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05903388857260318
+    },
+    {
+      "layer": 212,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 212,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 213,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 213,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05556977595780371
+    },
+    {
+      "layer": 213,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 213,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059808026217238845
+    },
+    {
+      "layer": 214,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 214,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 214,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 214,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 215,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 215,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.053254107822763755
+    },
+    {
+      "layer": 215,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06016643582598332
+    },
+    {
+      "layer": 215,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 216,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 216,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05660388679234177
+    },
+    {
+      "layer": 216,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 216,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 217,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 217,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05693856338195086
+    },
+    {
+      "layer": 217,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 217,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 218,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 218,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05745432968887488
+    },
+    {
+      "layer": 218,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 218,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 219,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 219,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05660388679234177
+    },
+    {
+      "layer": 219,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848003
+    },
+    {
+      "layer": 219,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 220,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 220,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05745432968889912
+    },
+    {
+      "layer": 220,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 220,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 221,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 221,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05745432968889912
+    },
+    {
+      "layer": 221,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06016643582598332
+    },
+    {
+      "layer": 221,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 222,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 222,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05830951894846334
+    },
+    {
+      "layer": 222,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 222,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 223,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 223,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05745432968887488
+    },
+    {
+      "layer": 223,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 223,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 224,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 224,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.057140178508643634
+    },
+    {
+      "layer": 224,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 224,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 225,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 225,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05745432968887488
+    },
+    {
+      "layer": 225,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 225,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 226,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 226,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05603570290450257
+    },
+    {
+      "layer": 226,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 226,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 227,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828260162
+    },
+    {
+      "layer": 227,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05521775076910186
+    },
+    {
+      "layer": 227,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 227,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 228,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986800048
+    },
+    {
+      "layer": 228,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.055217750769125024
+    },
+    {
+      "layer": 228,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 228,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 229,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 229,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.054405882034925725
+    },
+    {
+      "layer": 229,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 229,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 230,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 230,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05714017850865134
+    },
+    {
+      "layer": 230,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 230,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 231,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 231,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.054405882034925725
+    },
+    {
+      "layer": 231,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 231,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 232,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 232,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05440588203495707
+    },
+    {
+      "layer": 232,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060373835392490256
+    },
+    {
+      "layer": 232,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 233,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05905929224092975
+    },
+    {
+      "layer": 233,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.053823786563180834
+    },
+    {
+      "layer": 233,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347066816
+    },
+    {
+      "layer": 233,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 234,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 234,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.053009433122794596
+    },
+    {
+      "layer": 234,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 234,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 235,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 235,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05220153254452624
+    },
+    {
+      "layer": 235,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 235,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 236,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05953990258643328
+    },
+    {
+      "layer": 236,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 236,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059539902586422305
+    },
+    {
+      "layer": 236,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 237,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 237,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 237,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 237,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 238,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 238,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828260162
+    },
+    {
+      "layer": 238,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848003
+    },
+    {
+      "layer": 238,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 239,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 239,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 239,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825972926
+    },
+    {
+      "layer": 239,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 240,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986799366
+    },
+    {
+      "layer": 240,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 240,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825972926
+    },
+    {
+      "layer": 240,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554318051
+    },
+    {
+      "layer": 241,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 241,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 241,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706813
+    },
+    {
+      "layer": 241,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 242,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 242,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 242,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 242,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 243,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 243,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 243,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 243,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 244,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 244,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 244,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 244,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 245,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 245,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 245,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 245,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 246,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 246,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 246,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 246,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 247,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 247,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 247,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287849322
+    },
+    {
+      "layer": 247,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989288385
+    },
+    {
+      "layer": 248,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 248,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 248,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 248,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 249,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 249,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 249,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 249,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 250,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 250,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 250,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 250,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 251,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05953990258641538
+    },
+    {
+      "layer": 251,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 251,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 251,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 252,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05905929224092975
+    },
+    {
+      "layer": 252,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 252,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287848267
+    },
+    {
+      "layer": 252,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 253,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 253,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 253,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 253,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 254,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 254,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 254,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 254,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989265445
+    },
+    {
+      "layer": 255,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05905929224092301
+    },
+    {
+      "layer": 255,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 255,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 255,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 256,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 256,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 256,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424314721
+    },
+    {
+      "layer": 256,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 257,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 257,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 257,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 257,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 258,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 258,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05603570290447924
+    },
+    {
+      "layer": 258,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 258,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 259,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 259,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05883026432031204
+    },
+    {
+      "layer": 259,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 259,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 260,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05905929224092975
+    },
+    {
+      "layer": 260,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05907622195097389
+    },
+    {
+      "layer": 260,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 260,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 261,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 261,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.06003332407923322
+    },
+    {
+      "layer": 261,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 261,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 262,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 262,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05990826320298709
+    },
+    {
+      "layer": 262,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 262,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989288385
+    },
+    {
+      "layer": 263,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 263,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05990826320301081
+    },
+    {
+      "layer": 263,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347066816
+    },
+    {
+      "layer": 263,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 264,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986799366
+    },
+    {
+      "layer": 264,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 264,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 264,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 265,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060033324079208604
+    },
+    {
+      "layer": 265,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060464865831313185
+    },
+    {
+      "layer": 265,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 265,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 266,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05953990258641538
+    },
+    {
+      "layer": 266,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05964059020499453
+    },
+    {
+      "layer": 266,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 266,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 267,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060033324079201505
+    },
+    {
+      "layer": 267,
+      "object_id": "12",
+      "moves": 10,
+      "endpoint_gap_mm": 0.06074537019396399
+    },
+    {
+      "layer": 267,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 267,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 268,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060033324079208604
+    },
+    {
+      "layer": 268,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060207972893973276
+    },
+    {
+      "layer": 268,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 268,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 269,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 269,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05968249324552396
+    },
+    {
+      "layer": 269,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 269,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 270,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 270,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060539243470650546
+    },
+    {
+      "layer": 270,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 270,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 271,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 271,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05953990258643328
+    },
+    {
+      "layer": 271,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 271,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 272,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 272,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 272,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 272,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 273,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 273,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05768882040742339
+    },
+    {
+      "layer": 273,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05923681287846948
+    },
+    {
+      "layer": 273,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05913543776790281
+    },
+    {
+      "layer": 274,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 274,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 274,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 274,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 275,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 275,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060373835392490256
+    },
+    {
+      "layer": 275,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 275,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 276,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828260162
+    },
+    {
+      "layer": 276,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 276,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 276,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 277,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 277,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 277,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05980802621722887
+    },
+    {
+      "layer": 277,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 278,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986799366
+    },
+    {
+      "layer": 278,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 278,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 278,
+      "object_id": "8",
+      "moves": 10,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 279,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 279,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 279,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 279,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 280,
+      "object_id": "12",
+      "moves": 9,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 280,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 280,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 280,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 281,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 281,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 281,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 281,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 282,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 282,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06037383539247119
+    },
+    {
+      "layer": 282,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 282,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 283,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 283,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060827625302980144
+    },
+    {
+      "layer": 283,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.05961543424317129
+    },
+    {
+      "layer": 283,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 284,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 284,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 284,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05961543424314721
+    },
+    {
+      "layer": 284,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 285,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 285,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828260826
+    },
+    {
+      "layer": 285,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 285,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05977457653551609
+    },
+    {
+      "layer": 286,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 286,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 286,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0605392434706705
+    },
+    {
+      "layer": 286,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05977457653551609
+    },
+    {
+      "layer": 287,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 287,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059033888572577665
+    },
+    {
+      "layer": 287,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 287,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 288,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 288,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 288,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 288,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 289,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 289,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.058008620049093844
+    },
+    {
+      "layer": 289,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 289,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 290,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.059539902586408455
+    },
+    {
+      "layer": 290,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05903388857260318
+    },
+    {
+      "layer": 290,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 290,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 291,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 291,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05964059020499453
+    },
+    {
+      "layer": 291,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 291,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.056568542494922595
+    },
+    {
+      "layer": 292,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986797554
+    },
+    {
+      "layer": 292,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05990826320298709
+    },
+    {
+      "layer": 292,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.0601664358259597
+    },
+    {
+      "layer": 292,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05885575587823993
+    },
+    {
+      "layer": 293,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 293,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05903388857260944
+    },
+    {
+      "layer": 293,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060166435825970095
+    },
+    {
+      "layer": 293,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 294,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 294,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.060207972893973276
+    },
+    {
+      "layer": 294,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059481089431843784
+    },
+    {
+      "layer": 294,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06020797289397304
+    },
+    {
+      "layer": 295,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 295,
+      "object_id": "12",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 295,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.060373835392490256
+    },
+    {
+      "layer": 295,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.05966573556070046
+    },
+    {
+      "layer": 296,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06041522986796872
+    },
+    {
+      "layer": 296,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 296,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059481089431869354
+    },
+    {
+      "layer": 296,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 297,
+      "object_id": "12",
+      "moves": 5,
+      "endpoint_gap_mm": 0.059481089431875564
+    },
+    {
+      "layer": 297,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255093166
+    },
+    {
+      "layer": 297,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059481089431843784
+    },
+    {
+      "layer": 297,
+      "object_id": "8",
+      "moves": 8,
+      "endpoint_gap_mm": 0.0592030404624701
+    },
+    {
+      "layer": 298,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.0548178802946629
+    },
+    {
+      "layer": 298,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 298,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060415229867981424
+    },
+    {
+      "layer": 298,
+      "object_id": "8",
+      "moves": 9,
+      "endpoint_gap_mm": 0.0600832755431895
+    },
+    {
+      "layer": 299,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 299,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 299,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06000833275470358
+    },
+    {
+      "layer": 299,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 300,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05780138406647409
+    },
+    {
+      "layer": 300,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.060415229867981424
+    },
+    {
+      "layer": 300,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05961543424316033
+    },
+    {
+      "layer": 300,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05977457653551609
+    },
+    {
+      "layer": 301,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 301,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05950630218725161
+    },
+    {
+      "layer": 301,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 301,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.060083275543193995
+    },
+    {
+      "layer": 302,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059941638282576495
+    },
+    {
+      "layer": 302,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05950630218724563
+    },
+    {
+      "layer": 302,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 302,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059135437767889355
+    },
+    {
+      "layer": 303,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.060000000000002274
+    },
+    {
+      "layer": 303,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 303,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 303,
+      "object_id": "8",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06040695324216125
+    },
+    {
+      "layer": 304,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 304,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 304,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.060745370193956975
+    },
+    {
+      "layer": 304,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06008327554320298
+    },
+    {
+      "layer": 305,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05948108943185024
+    },
+    {
+      "layer": 305,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 305,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06109828148156965
+    },
+    {
+      "layer": 305,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06040695324215184
+    },
+    {
+      "layer": 306,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 306,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 306,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059808026217225536
+    },
+    {
+      "layer": 306,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 307,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.060539243470657825
+    },
+    {
+      "layer": 307,
+      "object_id": "12",
+      "moves": 7,
+      "endpoint_gap_mm": 0.059933296255087004
+    },
+    {
+      "layer": 307,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05961543424317129
+    },
+    {
+      "layer": 307,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06074537019393381
+    },
+    {
+      "layer": 308,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06037383539249661
+    },
+    {
+      "layer": 308,
+      "object_id": "12",
+      "moves": 6,
+      "endpoint_gap_mm": 0.060415229867981424
+    },
+    {
+      "layer": 308,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 308,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 309,
+      "object_id": "12",
+      "moves": 5,
+      "endpoint_gap_mm": 0.060033324079208604
+    },
+    {
+      "layer": 309,
+      "object_id": "12",
+      "moves": 5,
+      "endpoint_gap_mm": 0.060835844697025084
+    },
+    {
+      "layer": 309,
+      "object_id": "8",
+      "moves": 5,
+      "endpoint_gap_mm": 0.06053924347065735
+    },
+    {
+      "layer": 309,
+      "object_id": "8",
+      "moves": 6,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 310,
+      "object_id": "12",
+      "moves": 5,
+      "endpoint_gap_mm": 0.05994163828258313
+    },
+    {
+      "layer": 310,
+      "object_id": "12",
+      "moves": 5,
+      "endpoint_gap_mm": 0.060835844697025084
+    },
+    {
+      "layer": 310,
+      "object_id": "8",
+      "moves": 5,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 310,
+      "object_id": "8",
+      "moves": 5,
+      "endpoint_gap_mm": 0.059464274989275
+    },
+    {
+      "layer": 311,
+      "object_id": "12",
+      "moves": 5,
+      "endpoint_gap_mm": 0.06000833275469056
+    },
+    {
+      "layer": 311,
+      "object_id": "12",
+      "moves": 5,
+      "endpoint_gap_mm": 0.060415229867981424
+    },
+    {
+      "layer": 311,
+      "object_id": "8",
+      "moves": 5,
+      "endpoint_gap_mm": 0.05980802621721556
+    },
+    {
+      "layer": 311,
+      "object_id": "8",
+      "moves": 5,
+      "endpoint_gap_mm": 0.060745370193956975
+    }
+  ],
+  "arc_geometry_self_intersections_verified": false,
+  "bead_overlap_or_seam_strength_verified": false,
+  "physical_print_verified": false,
+  "print_release": false
+}
