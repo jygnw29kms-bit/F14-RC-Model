@@ -1,0 +1,174 @@
+{
+  "status": "FREECAD_V190_INTERNAL_SYSTEMS_PORT",
+  "source_full_view": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\migration\\freecad\\F14_CURRENT_FULL_VIEW.FCStd",
+  "output_fcstd": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\migration\\freecad\\F14_CURRENT_FULL_VIEW_v190.FCStd",
+  "objects": [
+    {
+      "name": "BATTERY_TRAY_v165",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 27855.999999999993,
+      "bounds_mm": {
+        "x": [
+          242.0,
+          438.0
+        ],
+        "y": [
+          -27.0,
+          27.0
+        ],
+        "z": [
+          190.0,
+          207.0
+        ]
+      }
+    },
+    {
+      "name": "BATTERY_REFERENCE_PACK",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": {
+        "x": [
+          287.0,
+          393.0
+        ],
+        "y": [
+          -18.0,
+          18.0
+        ],
+        "z": [
+          192.0,
+          217.0
+        ]
+      }
+    },
+    {
+      "name": "STAB_SERVO_ENV_R",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 13608.0,
+      "bounds_mm": {
+        "x": [
+          686.5,
+          713.5
+        ],
+        "y": [
+          44.25,
+          75.75
+        ],
+        "z": [
+          -8.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "STAB_SERVO_ENV_L",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 13608.0,
+      "bounds_mm": {
+        "x": [
+          686.5,
+          713.5
+        ],
+        "y": [
+          -75.75,
+          -44.25
+        ],
+        "z": [
+          -8.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "STAB_SHAFT_R",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1866.1060362323356,
+      "bounds_mm": {
+        "x": [
+          733.0078983334656,
+          739.0078983334656
+        ],
+        "y": [
+          45.0,
+          111.0
+        ],
+        "z": [
+          -3.0,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "STAB_SHAFT_L",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1866.1060362323356,
+      "bounds_mm": {
+        "x": [
+          733.0078983334656,
+          739.0078983334656
+        ],
+        "y": [
+          -111.0,
+          -45.0
+        ],
+        "z": [
+          -3.0,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "STAB_CRANK_R",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4371.934584515162,
+      "bounds_mm": {
+        "x": [
+          717.1078983334656,
+          754.9078983334656
+        ],
+        "y": [
+          76.0,
+          80.0
+        ],
+        "z": [
+          -18.9,
+          18.9
+        ]
+      }
+    },
+    {
+      "name": "STAB_CRANK_L",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4371.934584515162,
+      "bounds_mm": {
+        "x": [
+          717.1078983334656,
+          754.9078983334656
+        ],
+        "y": [
+          -80.0,
+          -76.0
+        ],
+        "z": [
+          -18.9,
+          18.9
+        ]
+      }
+    }
+  ],
+  "battery_geometry_basis": "Fusion v165 section inputs",
+  "stabilator_geometry_basis": "Fusion v177/v180 section inputs plus v181 selected servo package",
+  "retention_holes_reference_only": true,
+  "servo_actual_unit_measured": false,
+  "hardware_frozen": false,
+  "print_release": false,
+  "flight_release": false
+}
