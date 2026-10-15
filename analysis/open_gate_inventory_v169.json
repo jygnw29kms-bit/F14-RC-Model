@@ -1,0 +1,585 @@
+{
+  "status": "V169_OPEN_GATE_INVENTORY",
+  "items": [
+    {
+      "revision": 100,
+      "file": "analysis/center_wingbox_landing_v100.json",
+      "status": "V100_INBOARD_HARDPOINT_LANDING_PLAN",
+      "false_gates": [],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 101,
+      "file": "analysis/center_wingbox_boxed_landing_v101.json",
+      "status": "V101_BOXED_LANDING_LOADPATH_SCREEN",
+      "false_gates": [
+        "gates.fuselage_containment",
+        "gates.fork_union_contact",
+        "gates.socket_union_contact",
+        "gates.continuous_sweep_clearance",
+        "gates.material_allowable_verified",
+        "gates.physical_proof_verified",
+        "gates.mechanical_detail_release",
+        "gates.print_release",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 102,
+      "file": "analysis/center_wingbox_hardpoint_sleeve_v102.json",
+      "status": "V102_CROSSTIE_HARDPOINT_SLEEVE_SCREEN",
+      "false_gates": [],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 103,
+      "file": "analysis/center_wingbox_fork_tail_v103.json",
+      "status": "V103_EXTENDED_HARDPOINT_FORK_TAIL_PLAN",
+      "false_gates": [
+        "gates.fuselage_containment",
+        "gates.fork_overlap_12mm",
+        "gates.source_socket_preserved",
+        "gates.continuous_sweep_clearance",
+        "gates.mechanical_detail_release",
+        "gates.print_release",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 105,
+      "file": "analysis/center_wingbox_monolithic_module_v105.json",
+      "status": "V105_MONOLITHIC_LOWER_HARDPOINT_MODULE_PLAN",
+      "false_gates": [
+        "gates.monolithic_union_CAD",
+        "gates.fuselage_containment",
+        "gates.continuous_sweep_clearance",
+        "gates.material_system_selected",
+        "gates.material_allowable_verified",
+        "gates.proof_fixture_defined",
+        "gates.physical_proof_passed",
+        "gates.mechanical_detail_release",
+        "gates.print_release",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 107,
+      "file": "analysis/center_wingbox_proof_plan_v107.json",
+      "status": "V107_CENTER_WINGBOX_PHYSICAL_PROOF_PLAN",
+      "false_gates": [
+        "gates.fixture_CAD_complete",
+        "gates.material_system_selected",
+        "gates.coupon_material_allowable_verified",
+        "gates.front_proof_passed",
+        "gates.rear_proof_passed",
+        "gates.production_process_repeatability_verified",
+        "gates.mechanical_detail_release",
+        "gates.print_release",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "physical/hardware likely"
+    },
+    {
+      "revision": 108,
+      "file": "analysis/center_wingbox_material_screen_v108.json",
+      "status": "V108_HARDPOINT_MATERIAL_SCREEN_NOT_RELEASED",
+      "false_gates": [
+        "gates.ppa_cf_process_on_p2s_verified",
+        "gates.chosen_material_conditioned_state_defined",
+        "gates.orientation_coupon_passed",
+        "gates.v107_front_proof_passed",
+        "gates.v107_rear_proof_passed",
+        "gates.material_system_selected",
+        "gates.mechanical_detail_release",
+        "gates.print_release",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "physical/hardware likely"
+    },
+    {
+      "revision": 109,
+      "file": "analysis/hardpoint_material_coupon_v109.json",
+      "status": "V109_REPRESENTATIVE_HARDPOINT_COUPON_PREPARED",
+      "false_gates": [
+        "gates.coupon_mesh_exported",
+        "gates.coupon_printed",
+        "gates.material_lot_recorded",
+        "gates.production_orientation_screen_passed",
+        "gates.v107_full_module_proof_passed",
+        "gates.print_release",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "physical/hardware likely"
+    },
+    {
+      "revision": 110,
+      "file": "analysis/propulsion_hardware_verification_v110.json",
+      "status": "V110_QX_QF2611_HARDWARE_DIMENSION_VERIFIED_PACKAGING_REJECT",
+      "false_gates": [],
+      "dependency_hint": "physical/hardware likely"
+    },
+    {
+      "revision": 111,
+      "file": "analysis/propulsion_aft_of_D_v111.json",
+      "status": "V111_TWIN_50MM_AFT_OF_D_PACKAGING_PATH_PREPARED",
+      "false_gates": [],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 112,
+      "file": "analysis/propulsion_margin_v112.json",
+      "status": "V112_PROPULSION_INSTALLED_MARGIN_SCREEN",
+      "false_gates": [
+        "gates.installed_thrust_retention_measured",
+        "gates.pair_current_measured",
+        "gates.voltage_sag_measured",
+        "gates.esc_thermal_verified",
+        "gates.battery_C_real_verified",
+        "gates.propulsion_release",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 113,
+      "file": "analysis/propulsion_local_packaging_v113.json",
+      "status": "V113_ACTIVE_REPRODUCTION_FMS_LOCAL_PACKAGING",
+      "false_gates": [
+        "release.continuous_axis_pass",
+        "release.hardware_frozen",
+        "release.propulsion_packaging_freeze",
+        "release.flight_release"
+      ],
+      "dependency_hint": "CAD/analysis actionable"
+    },
+    {
+      "revision": 114,
+      "file": "analysis/propulsion_duct_area_v114.json",
+      "status": "V114_TWIN_50MM_DUCT_AREA_TARGETS_PREPARED",
+      "false_gates": [
+        "gates.actual_FMS_hub_diameter_measured",
+        "gates.D_usable_duct_area_measured",
+        "gates.E_usable_duct_area_measured",
+        "gates.F_usable_duct_area_measured",
+        "gates.continuous_inlet_area_verified",
+        "gates.outlet_ratio_bench_selected",
+        "gates.installed_thrust_verified",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 115,
+      "file": "analysis/propulsion_intake_area_v115.json",
+      "status": "V115_D_E_F_INTAKE_AREA_SCREEN",
+      "false_gates": [
+        "gates.continuous_duct_CAD_created",
+        "gates.common_axis_or_transition_verified",
+        "gates.minimum_area_along_transition_verified",
+        "gates.installed_thrust_verified",
+        "gates.propulsion_packaging_freeze",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 116,
+      "file": "analysis/propulsion_common_axis_v116.json",
+      "status": "V116_E_F_COMMON_LATERAL_AXIS_SCREEN",
+      "false_gates": [
+        "release.vertical_axis_candidate",
+        "release.continuous_3D_axis_verified",
+        "release.propulsion_packaging_freeze",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 117,
+      "file": "analysis/propulsion_common_axis_exact_v117.json",
+      "status": "V117_EXACT_COMMON_LATERAL_CENTER_LOCAL_POLYGON_CHECK",
+      "false_gates": [
+        "release.common_vertical_axis_verified",
+        "release.continuous_3D_axis_verified",
+        "release.propulsion_packaging_freeze",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 118,
+      "file": "analysis/propulsion_relative_axis_v118.json",
+      "status": "V118_RELATIVE_3D_EDF_AXIS_CANDIDATE",
+      "false_gates": [
+        "release.absolute_axis_CAD_ready",
+        "release.continuous_3D_clearance_verified",
+        "release.propulsion_packaging_freeze",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 119,
+      "file": "analysis/propulsion_absolute_datum_gate_v119.json",
+      "status": "V119_ABSOLUTE_EDF_Z_DATUM_BLOCKED_BY_SOURCE_PROVENANCE",
+      "false_gates": [
+        "gates.exact_registration_source_recovered",
+        "gates.independent_active_source_registration_completed",
+        "gates.absolute_Z_verified",
+        "gates.continuous_3D_axis_verified",
+        "gates.CAD_installation_allowed",
+        "gates.propulsion_packaging_freeze",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 121,
+      "file": "analysis/propulsion_absolute_datum_budget_v121.json",
+      "status": "V121_ABSOLUTE_EDF_DATUM_UNCERTAINTY_BUDGET",
+      "false_gates": [
+        "release.propulsion_packaging_freeze",
+        "release.print_release",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 123,
+      "file": "analysis/control_system_requirements_v123.json",
+      "status": "V123_FLIGHT_CONTROL_SYSTEM_REQUIREMENTS_NOT_HARDWARE_FROZEN",
+      "false_gates": [
+        "release.servo_hardware_frozen",
+        "release.control_system_mechanical_release",
+        "release.electrical_release",
+        "release.print_release",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 124,
+      "file": "analysis/propulsion_model_relative_z_anchor_v124.json",
+      "status": "V124_MODEL_RELATIVE_Z_MAPPING_REJECTED",
+      "false_gates": [],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 125,
+      "file": "analysis/propulsion_global_sideview_fit_v125.json",
+      "status": "V125_GLOBAL_SIDEVIEW_TO_ACTIVE_OML_AFFINE_FIT",
+      "false_gates": [],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 126,
+      "file": "analysis/airframe_vertical_datum_inventory_v126.json",
+      "status": "V126_AIRFRAME_VERTICAL_DATUM_EVIDENCE_INVENTORY",
+      "false_gates": [
+        "gates.common_fuselage_wingbox_Z_transform_verified",
+        "gates.source_traceable_waterline_verified",
+        "gates.propulsion_absolute_Z_ready",
+        "gates.fusion_required_yet"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 127,
+      "file": "analysis/airframe_pivot_wl_regression_v127.json",
+      "status": "V127_GRUMMAN_REFERENCE_WL_LINEAR_REGRESSION",
+      "false_gates": [],
+      "dependency_hint": "CAD/analysis actionable"
+    },
+    {
+      "revision": 128,
+      "file": "analysis/propulsion_datum_decoupling_v128.json",
+      "status": "V128_PROPULSION_DATUM_DECOUPLED_FROM_PIVOT_WL",
+      "false_gates": [
+        "release.flight_release",
+        "release.propulsion_packaging_freeze",
+        "release.print_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 134,
+      "file": "analysis/propulsion_source_silhouette_constraints_v134.json",
+      "status": "V134_SOURCE_SILHOUETTE_CONSTRAINT_SET",
+      "false_gates": [],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 135,
+      "file": "analysis/propulsion_intermediate_profiles_v135.json",
+      "status": "V135_SILHOUETTE_GUIDED_INTERMEDIATE_PROFILES",
+      "false_gates": [],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 136,
+      "file": "analysis/propulsion_inlet_transition_v136.json",
+      "status": "V136_D_TO_EDF_TRANSITION_PREPARED",
+      "false_gates": [
+        "gates.transition_outer_containment_verified",
+        "gates.mount_outer_containment_verified",
+        "gates.bilateral_verified",
+        "gates.actual_fan_ID_measured",
+        "gates.actual_4S_shroud_measured",
+        "gates.print_release",
+        "gates.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 144,
+      "file": "analysis/propulsion_hardware_acceptance_v144.json",
+      "status": "V144_EDF_HARDWARE_ACCEPTANCE_GATE",
+      "false_gates": [
+        "release.specific_EDF_frozen",
+        "release.mount_regenerated_to_measured_hardware",
+        "release.installed_thrust_verified",
+        "release.thermal_verified",
+        "release.propulsion_packaging_freeze",
+        "release.print_release",
+        "release.flight_release"
+      ],
+      "dependency_hint": "physical/hardware likely"
+    },
+    {
+      "revision": 145,
+      "file": "analysis/control_stabilator_geometry_v145.json",
+      "status": "V145_STABILATOR_GEOMETRY_AND_CONTROL_ARCHITECTURE",
+      "false_gates": [
+        "release.pivot_axis_verified",
+        "release.roll_authority_verified",
+        "release.servo_hardware_frozen",
+        "release.flight_release"
+      ],
+      "dependency_hint": "CAD/analysis actionable"
+    },
+    {
+      "revision": 146,
+      "file": "analysis/control_stabilator_torque_v146.json",
+      "status": "V146_STABILATOR_SERVO_TORQUE_SENSITIVITY_NOT_RELEASED",
+      "false_gates": [
+        "release.pivot_axis_verified",
+        "release.hinge_moment_verified",
+        "release.servo_hardware_frozen",
+        "release.bench_load_verified",
+        "release.flutter_verified",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 147,
+      "file": "analysis/control_servo_power_acceptance_v147.json",
+      "status": "V147_STABILATOR_SERVO_AND_POWER_ACCEPTANCE_GATE",
+      "false_gates": [
+        "release.servo_model_frozen",
+        "release.BEC_model_frozen",
+        "release.mechanical_bench_pass",
+        "release.brownout_pass",
+        "release.taileron_roll_authority_verified",
+        "release.flutter_verified",
+        "release.flight_release"
+      ],
+      "dependency_hint": "physical/hardware likely"
+    },
+    {
+      "revision": 148,
+      "file": "analysis/control_linkage_optimization_v148.json",
+      "status": "V148_STABILATOR_LINKAGE_RATIO_OPTIMIZATION",
+      "false_gates": [
+        "release.linkage_packaging_verified",
+        "release.surface_throw_verified",
+        "release.servo_hardware_frozen",
+        "release.flight_release"
+      ],
+      "dependency_hint": "CAD/analysis actionable"
+    },
+    {
+      "revision": 149,
+      "file": "analysis/control_stabilator_pivot_shaft_v149.json",
+      "status": "V149_STABILATOR_PIVOT_SHAFT_SCREEN",
+      "false_gates": [
+        "release.shaft_hardware_frozen",
+        "release.bearing_hardware_frozen",
+        "release.pivot_axis_source_verified",
+        "release.CAD_packaging_verified",
+        "release.flight_release"
+      ],
+      "dependency_hint": "CAD/analysis actionable"
+    },
+    {
+      "revision": 150,
+      "file": "analysis/cg_variable_sweep_wing_v150.json",
+      "status": "V150_VARIABLE_SWEEP_WING_AC_GEOMETRY_SCREEN_NOT_WHOLE_AIRCRAFT_CG",
+      "false_gates": [
+        "release.whole_aircraft_neutral_point_verified",
+        "release.flight_CG_frozen",
+        "release.battery_tray_frozen",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 151,
+      "file": "analysis/cg_whole_aircraft_sensitivity_v151.json",
+      "status": "V151_LOW_ORDER_WHOLE_AIRCRAFT_NEUTRAL_POINT_SENSITIVITY_NOT_FLIGHT_CG_RELEASE",
+      "false_gates": [
+        "release.neutral_point_verified",
+        "release.maiden_CG_frozen",
+        "release.battery_tray_packaging_verified",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 152,
+      "file": "analysis/cg_battery_tray_v152.json",
+      "status": "V152_BATTERY_CG_TRAY_AND_RESTRAINT_REQUIREMENTS",
+      "false_gates": [
+        "release.battery_model_frozen",
+        "release.battery_tray_CAD_verified",
+        "release.CG_range_verified_by_mass_rollup",
+        "release.retention_proof_pass",
+        "release.flight_release"
+      ],
+      "dependency_hint": "CAD/analysis actionable"
+    },
+    {
+      "revision": 156,
+      "file": "analysis/battery_retention_architecture_v156.json",
+      "status": "V156_BATTERY_RETENTION_ARCHITECTURE",
+      "false_gates": [
+        "release.tray_CAD_designed",
+        "release.internal_frame_anchors_designed",
+        "release.strap_hardware_verified",
+        "release.pin_material_verified",
+        "release.retention_proof_pass",
+        "release.print_release",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 159,
+      "file": "analysis/current_mass_rollup_v159.json",
+      "status": "V159_CURRENT_MASS_ROLLUP_SCREEN_NOT_FINAL_AUW",
+      "false_gates": [
+        "release.mass_rollup_measured",
+        "release.hardware_mass_frozen",
+        "release.shell_mass_verified",
+        "release.AUW_frozen",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 160,
+      "file": "analysis/cg_dry_airframe_feasibility_v160.json",
+      "status": "V160_BATTERY_TRAVEL_DRY_AIRFRAME_CG_FEASIBILITY",
+      "false_gates": [
+        "release.dry_airframe_mass_measured",
+        "release.dry_airframe_CG_measured",
+        "release.maiden_CG_frozen",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 161,
+      "file": "analysis/cg_equipment_trim_authority_v161.json",
+      "status": "V161_EQUIPMENT_PLACEMENT_CG_TRIM_AUTHORITY",
+      "false_gates": [
+        "release.component_masses_measured",
+        "release.component_mount_stations_frozen",
+        "release.dry_CG_trim_verified",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 162,
+      "file": "analysis/battery_hardware_acceptance_v162.json",
+      "status": "V162_BATTERY_HARDWARE_DIMENSION_MASS_ACCEPTANCE_GATE",
+      "false_gates": [
+        "release.specific_battery_frozen",
+        "release.measured_pack_dimensions_verified",
+        "release.installed_power_bench_pass",
+        "release.retention_proof_pass",
+        "release.flight_release"
+      ],
+      "dependency_hint": "physical/hardware likely"
+    },
+    {
+      "revision": 163,
+      "file": "analysis/material_aware_mass_rollup_v163.json",
+      "status": "V163_MATERIAL_AWARE_MASS_ROLLUP_CORRECTS_V159",
+      "false_gates": [
+        "release.material_systems_frozen",
+        "release.hardware_masses_measured",
+        "release.shell_mass_measured",
+        "release.AUW_frozen",
+        "release.flight_release"
+      ],
+      "dependency_hint": "physical/hardware likely"
+    },
+    {
+      "revision": 164,
+      "file": "analysis/battery_retention_index_correction_v164.json",
+      "status": "V164_RETENTION_INDEX_AND_FASTENER_SEPARATION_CORRECTION",
+      "false_gates": [
+        "release.corrected_CAD_verified",
+        "release.stop_shoe_designed",
+        "release.retention_proof_pass",
+        "release.print_release",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 166,
+      "file": "analysis/mass_rollup_retention_corrected_v166.json",
+      "status": "V166_MASS_ROLLUP_UPDATED_FOR_CORRECTED_V165_RETENTION_TRAY",
+      "false_gates": [
+        "release.hardware_masses_measured",
+        "release.materials_frozen",
+        "release.AUW_frozen",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 167,
+      "file": "analysis/control_stabilator_pivot_corridor_v167.json",
+      "status": "V167_SOURCE_BACKED_STABILATOR_ROOT_PIVOT_CORRIDOR",
+      "false_gates": [
+        "release.RC_pivot_axis_selected",
+        "release.bearing_packaging_verified",
+        "release.crank_packaging_verified",
+        "release.CAD_release",
+        "release.flight_release"
+      ],
+      "dependency_hint": "CAD/analysis actionable"
+    },
+    {
+      "revision": 168,
+      "file": "analysis/control_servo_torque_gate_v168.json",
+      "status": "V168_STABILATOR_SERVO_TORQUE_GATE_RECONCILIATION",
+      "false_gates": [
+        "release.servo_model_frozen",
+        "release.linkage_packaging_verified",
+        "release.bench_load_verified",
+        "release.brownout_verified",
+        "release.flutter_verified",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    }
+  ]
+}

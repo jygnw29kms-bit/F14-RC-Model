@@ -1,0 +1,83 @@
+{
+  "status": "V170_AREA_WEIGHTED_STABILATOR_PIVOT_SCREEN",
+  "source": "NASA-planform v145",
+  "method": "spanwise integration of local quarter-chord weighted by strip area; first-order RC balance screen only",
+  "one_side_integrated_area_mm2": 15196.342089854339,
+  "area_weighted_quarter_chord_x_mm": 741.0078983334656,
+  "v145_polygon_area_mm2": 15196.335150000017,
+  "area_integration_relative_error": 4.566794726095171e-07,
+  "root_common_physical_corridor_mm": [
+    733.9424820480799,
+    805.3574958677685
+  ],
+  "candidate_rows": [
+    {
+      "pivot_x_mm": 733.9424820480799,
+      "global_quarter_chord_offset_mm": 7.065416285385709,
+      "severe_hinge_Nm": 0.23674739663261163,
+      "servo_required_kgcm": 2.7590303854467457
+    },
+    {
+      "pivot_x_mm": 734.9424820480799,
+      "global_quarter_chord_offset_mm": 6.065416285385709,
+      "severe_hinge_Nm": 0.2032394776268616,
+      "servo_required_kgcm": 2.368532462323151
+    },
+    {
+      "pivot_x_mm": 735.9424820480799,
+      "global_quarter_chord_offset_mm": 5.065416285385709,
+      "severe_hinge_Nm": 0.16973155862111156,
+      "servo_required_kgcm": 1.9780345391995555
+    },
+    {
+      "pivot_x_mm": 736.9424820480799,
+      "global_quarter_chord_offset_mm": 4.065416285385709,
+      "severe_hinge_Nm": 0.13622363961536152,
+      "servo_required_kgcm": 1.5875366160759605
+    },
+    {
+      "pivot_x_mm": 737.9424820480799,
+      "global_quarter_chord_offset_mm": 3.0654162853857088,
+      "severe_hinge_Nm": 0.10271572060961148,
+      "servo_required_kgcm": 1.1970386929523655
+    },
+    {
+      "pivot_x_mm": 738.9424820480799,
+      "global_quarter_chord_offset_mm": 2.0654162853857088,
+      "severe_hinge_Nm": 0.06920780160386145,
+      "servo_required_kgcm": 0.8065407698287701
+    },
+    {
+      "pivot_x_mm": 739.9424820480799,
+      "global_quarter_chord_offset_mm": 1.0654162853857088,
+      "severe_hinge_Nm": 0.0356998825981114,
+      "servo_required_kgcm": 0.41604284670517494
+    },
+    {
+      "pivot_x_mm": 740.9424820480799,
+      "global_quarter_chord_offset_mm": 0.06541628538570876,
+      "severe_hinge_Nm": 0.002191963592361359,
+      "servo_required_kgcm": 0.025544923581579664
+    }
+  ],
+  "selected_candidate": {
+    "pivot_x_mm": 733.9424820480799,
+    "global_quarter_chord_offset_mm": 7.065416285385709,
+    "severe_hinge_Nm": 0.23674739663261163,
+    "servo_required_kgcm": 2.7590303854467457
+  },
+  "decision": {
+    "local_per_strip_25pct_constraint_rejected_as_wrong_axis criterion": true,
+    "selected_RC_pivot_x_mm": 733.9424820480799,
+    "selected_global_AC_offset_mm": 7.065416285385709,
+    "14kgcm_servo_gate_retained": true,
+    "next_gate": "local shaft/bearing/crank geometry in source-backed root; later validate hinge moment by bench/CFD and common tail-fuselage packaging"
+  },
+  "release": {
+    "aerodynamic_center_verified": false,
+    "RC_pivot_axis_planform_candidate": true,
+    "bearing_packaging_verified": false,
+    "crank_packaging_verified": false,
+    "flight_release": false
+  }
+}

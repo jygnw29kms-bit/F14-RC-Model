@@ -1,0 +1,48 @@
+{
+  "status": "V174_STABILATOR_D_SHAFT_TORQUE_TRANSFER_SCREEN",
+  "sources": [
+    "workspace/RC-F14-Tomcat/Fusion/Exports/Current/controls_v173/F14_v173_stabilator_root_fitting_audit.json",
+    "analysis/control_stabilator_pivot_shaft_v149.json"
+  ],
+  "geometry": {
+    "shaft_diameter_mm": 6.0,
+    "shaft_flat_depth_mm": 0.6,
+    "shaft_flat_plane_from_center_mm": 2.4,
+    "bore_nominal_radius_mm": 3.05,
+    "bore_flat_plane_from_center_mm": 2.4499999999999997,
+    "radial_clearance_mm": 0.04999999999999982,
+    "flat_clearance_mm": 0.04999999999999982,
+    "effective_D_engagement_length_mm": 24.0,
+    "shaft_flat_chord_width_mm": 3.6,
+    "bore_flat_chord_width_mm": 3.63318042491699,
+    "nominal_flat_contact_area_mm2": 86.4
+  },
+  "load_screen": {
+    "severe_surface_hinge_moment_Nm": 0.6701583801150008,
+    "screen_design_moment_Nm_2x": 1.3403167602300017,
+    "equivalent_tangential_force_at_3mm_radius_N": 446.77225341000053,
+    "average_D_flat_bearing_pressure_MPa": 5.170975155208339,
+    "solid_6mm_shaft_nominal_torsional_shear_MPa_at_2x": 31.602672251780657,
+    "1p5x_stress_concentration_screen_MPa": 47.40400837767098,
+    "steel_500MPa_yield_screen_SF": 10.547631247055433
+  },
+  "architecture": {
+    "torque_transfer": "matching D-flat in local shaft region and root-fitting bore",
+    "shaft_bearing_regions": "remain round 6 mm for standard radial bearings",
+    "no_transverse_shaft_hole": true,
+    "axial_retention": "separate shoulder/collar/end-fastener; not provided by D-flat",
+    "manufacturing": "flat may be machined/ground only after shaft and bearing hardware are selected; gauge before assembly"
+  },
+  "decision": {
+    "D_flat_candidate_passes_preliminary_stress_and_bearing_screen": true,
+    "transverse_cross_pin_rejected_for_baseline": true,
+    "next_CAD_gate": "replace v173 round bore/reference shaft with matching D geometry and verify fitting remains valid"
+  },
+  "release": {
+    "D_geometry_CAD_verified": false,
+    "actual_shaft_material_verified": false,
+    "axial_retention_designed": false,
+    "root_fitting_proof_pass": false,
+    "flight_release": false
+  }
+}

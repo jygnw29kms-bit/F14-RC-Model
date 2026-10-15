@@ -1,0 +1,220 @@
+{
+  "status": "V171_STABILATOR_STEPPED_ROOT_FITTING_ARCHITECTURE",
+  "sources": [
+    "analysis/control_stabilator_pivot_corridor_v167.json",
+    "analysis/control_stabilator_pivot_axis_v170.json",
+    "analysis/control_stabilator_pivot_shaft_v149.json"
+  ],
+  "mechanical_inset": {
+    "shaft_radius_mm": 3.0,
+    "minimum_surrounding_structure_mm": 2.0,
+    "total_planform_edge_inset_mm": 5.0
+  },
+  "global_area_weighted_quarter_chord_x_mm": 741.0078983334656,
+  "eroded_corridors": [
+    {
+      "y_band_mm": [
+        78,
+        110
+      ],
+      "raw_corridor_mm": [
+        733.9424820480799,
+        805.3574958677685
+      ],
+      "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+      "eroded_center_corridor_mm": [
+        738.9424820480799,
+        800.3574958677685
+      ],
+      "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 2.0654162853857088
+    },
+    {
+      "y_band_mm": [
+        78,
+        90
+      ],
+      "raw_corridor_mm": [
+        733.9424820480799,
+        805.3574958677685
+      ],
+      "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+      "eroded_center_corridor_mm": [
+        738.9424820480799,
+        800.3574958677685
+      ],
+      "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 2.0654162853857088
+    },
+    {
+      "y_band_mm": [
+        80,
+        95
+      ],
+      "raw_corridor_mm": [
+        728.4382672494536,
+        806.516173553719
+      ],
+      "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+      "eroded_center_corridor_mm": [
+        733.4382672494536,
+        801.516173553719
+      ],
+      "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 7.56963108401203
+    },
+    {
+      "y_band_mm": [
+        82,
+        100
+      ],
+      "raw_corridor_mm": [
+        722.9340524508273,
+        807.6748512396694
+      ],
+      "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+      "eroded_center_corridor_mm": [
+        727.9340524508273,
+        802.6748512396694
+      ],
+      "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 13.073845882638352
+    },
+    {
+      "y_band_mm": [
+        85,
+        105
+      ],
+      "raw_corridor_mm": [
+        714.6777302528878,
+        809.412867768595
+      ],
+      "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+      "eroded_center_corridor_mm": [
+        719.6777302528878,
+        804.412867768595
+      ],
+      "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 21.330168080577778
+    },
+    {
+      "y_band_mm": [
+        90,
+        110
+      ],
+      "raw_corridor_mm": [
+        700.9171932563222,
+        812.3095619834711
+      ],
+      "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+      "eroded_center_corridor_mm": [
+        705.9171932563222,
+        807.3095619834711
+      ],
+      "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 35.09070507714341
+    }
+  ],
+  "target_RC_axis": {
+    "pivot_x_mm": 736.0078983334656,
+    "global_quarter_chord_offset_mm": 5.0,
+    "eligible_root_engagement_bands": [
+      {
+        "y_band_mm": [
+          80,
+          95
+        ],
+        "raw_corridor_mm": [
+          728.4382672494536,
+          806.516173553719
+        ],
+        "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+        "eroded_center_corridor_mm": [
+          733.4382672494536,
+          801.516173553719
+        ],
+        "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 7.56963108401203
+      },
+      {
+        "y_band_mm": [
+          82,
+          100
+        ],
+        "raw_corridor_mm": [
+          722.9340524508273,
+          807.6748512396694
+        ],
+        "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+        "eroded_center_corridor_mm": [
+          727.9340524508273,
+          802.6748512396694
+        ],
+        "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 13.073845882638352
+      },
+      {
+        "y_band_mm": [
+          85,
+          105
+        ],
+        "raw_corridor_mm": [
+          714.6777302528878,
+          809.412867768595
+        ],
+        "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+        "eroded_center_corridor_mm": [
+          719.6777302528878,
+          804.412867768595
+        ],
+        "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 21.330168080577778
+      },
+      {
+        "y_band_mm": [
+          90,
+          110
+        ],
+        "raw_corridor_mm": [
+          700.9171932563222,
+          812.3095619834711
+        ],
+        "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+        "eroded_center_corridor_mm": [
+          705.9171932563222,
+          807.3095619834711
+        ],
+        "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 35.09070507714341
+      }
+    ],
+    "selected_engagement_band": {
+      "y_band_mm": [
+        85,
+        105
+      ],
+      "raw_corridor_mm": [
+        714.6777302528878,
+        809.412867768595
+      ],
+      "shaft_plus_structure_inset_each_x_side_mm": 5.0,
+      "eroded_center_corridor_mm": [
+        719.6777302528878,
+        804.412867768595
+      ],
+      "max_global_quarter_chord_offset_if_pivot_at_forward_limit_mm": 21.330168080577778
+    }
+  },
+  "architecture": {
+    "type": "stepped metal/composite root fitting with inboard projecting shaft support",
+    "reason": "A full 78-110 mm root-band bore with 5 mm edge inset can place the shaft only about 2.1 mm ahead of global quarter-chord. A fitting engaging from approximately Y=80 mm outward permits the safer X\u2248736 mm RC axis while the inboard fitting projects under the fuselage fairing.",
+    "surface_primary_structure": "stabilator shell/spars bond into root fitting; servo linkage is actuator only",
+    "shaft": "6 mm metal precision/shoulder shaft",
+    "bearings": "two 6x13x5 radial bearings on fuselage side, separation maximized by packaging",
+    "crank": "20 mm radius on inboard shaft/fitting side",
+    "servo_arm": "8 mm"
+  },
+  "severe_screen_at_5mm_offset": {
+    "hinge_moment_Nm": 0.1675395950287502,
+    "required_servo_torque_kgcm_with_8_20_linkage_and_2x": 1.952489615617976,
+    "14kgcm_default_class_margin_ratio": 7.1703326296918135
+  },
+  "next_gate": "CAD only the stabilator-local root fitting and shaft engagement first. Do not design fuselage bearing mounts until aft fuselage common datum/OML is frozen.",
+  "release": {
+    "root_fitting_CAD_verified": false,
+    "bond_load_transfer_verified": false,
+    "fuselage_bearing_mount_verified": false,
+    "servo_crank_packaging_verified": false,
+    "flight_release": false
+  }
+}

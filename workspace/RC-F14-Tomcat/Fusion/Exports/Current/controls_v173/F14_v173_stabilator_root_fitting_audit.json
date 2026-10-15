@@ -1,0 +1,66 @@
+{
+  "status": "V173_STABILATOR_ROOT_FITTING_LOCAL_CAD",
+  "source": {
+    "v145": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\control_stabilator_geometry_v145.json",
+    "v145_sha256": "bbe80dffe9f51e397bde515c407e13da5e94ed56f90d9d2a9839f6f757b5775d",
+    "v171": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\control_stabilator_root_fitting_v171.json",
+    "v171_sha256": "b731f840c92002259d0f04ee3b6ce12d95a1df802c85536f0318fec0c554c74e",
+    "pivot_x_mm": 736.0078983334656,
+    "hub_x_length_mm": 24,
+    "hub_y_range_mm": [
+      82,
+      106
+    ],
+    "hub_z_thickness_mm": 10,
+    "tongue_x_length_mm": 36,
+    "tongue_y_range_mm": [
+      104,
+      135
+    ],
+    "tongue_z_thickness_mm": 3.5,
+    "shaft_bore_d_mm": 6.1,
+    "shaft_bore_y_range_mm": [
+      75,
+      106
+    ],
+    "reference_shaft_d_mm": 6,
+    "reference_shaft_y_range_mm": [
+      65,
+      112
+    ],
+    "crank_radius_mm": 20,
+    "crank_thickness_y_mm": 4,
+    "crank_center_abs_y_mm": 78,
+    "stabilator_reference_thickness_mm": 5.5
+  },
+  "records": [
+    {
+      "side": "R",
+      "fitting_volume_cm3": 8.796608024159564,
+      "planform_outside_sample_count": 0,
+      "tongue_volume_cm3": 3.9059999999999957,
+      "tongue_inside_reference_cm3": 3.9059999999999957,
+      "tongue_containment_fraction": 1.0
+    },
+    {
+      "side": "L",
+      "fitting_volume_cm3": 8.796608024159564,
+      "planform_outside_sample_count": 0,
+      "tongue_volume_cm3": 3.9059999999999957,
+      "tongue_inside_reference_cm3": 3.9059999999999957,
+      "tongue_containment_fraction": 1.0
+    }
+  ],
+  "geometry": {
+    "pivot_x_mm": 736.0078983334656,
+    "hub_bore_top_bottom_wall_mm": 1.9500000000000002,
+    "tongue_surface_clearance_each_z_side_mm": 1.0,
+    "shaft_bore_ends_inside_thick_hub": true
+  },
+  "geometry_candidate_pass": true,
+  "shaft_torque_transfer_detail_designed": false,
+  "fuselage_bearing_mount_designed": false,
+  "material_proof_pass": false,
+  "flight_release": false,
+  "study_source_sha256": "7a9bf31095bf36cec4c522de2bafc668a99efe97b8f064c759db15907ef06af4"
+}

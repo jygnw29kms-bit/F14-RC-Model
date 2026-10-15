@@ -1,0 +1,37 @@
+{
+    "v145":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\control_stabilator_geometry_v145.json",
+    "v145_sha256":  "bbe80dffe9f51e397bde515c407e13da5e94ed56f90d9d2a9839f6f757b5775d",
+    "v171":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\control_stabilator_root_fitting_v171.json",
+    "v171_sha256":  "b731f840c92002259d0f04ee3b6ce12d95a1df802c85536f0318fec0c554c74e",
+    "v174":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\control_stabilator_d_shaft_v174.json",
+    "v174_sha256":  "7f1ccbad82dcda88f4042e3c30cbd06d7101496f29b16f89281b2008e984baf8",
+    "pivot_x_mm":  736.00789833346562,
+    "hub_x_length_mm":  24,
+    "hub_y_range_mm":  [
+                           82,
+                           106
+                       ],
+    "hub_z_thickness_mm":  10,
+    "tongue_x_length_mm":  36,
+    "tongue_y_range_mm":  [
+                              104,
+                              135
+                          ],
+    "tongue_z_thickness_mm":  3.5,
+    "bore_radius_mm":  3.05,
+    "bore_flat_x_from_center_mm":  2.45,
+    "shaft_radius_mm":  3,
+    "shaft_flat_x_from_center_mm":  2.4,
+    "bore_y_range_mm":  [
+                            75,
+                            106
+                        ],
+    "shaft_y_range_mm":  [
+                             65,
+                             106
+                         ],
+    "crank_radius_mm":  20,
+    "crank_thickness_y_mm":  4,
+    "crank_center_abs_y_mm":  78,
+    "stabilator_reference_thickness_mm":  5.5
+}

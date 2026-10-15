@@ -1,0 +1,71 @@
+{
+  "status": "V172_STABILATOR_ROOT_FITTING_PLANFORM_PRECHECK",
+  "sources": [
+    "analysis/control_stabilator_geometry_v145.json",
+    "analysis/control_stabilator_root_fitting_v171.json"
+  ],
+  "pivot_x_mm": 736.0078983334656,
+  "candidate_geometry": {
+    "hub": {
+      "x": [
+        724.0078983334656,
+        748.0078983334656
+      ],
+      "y": [
+        82,
+        104
+      ],
+      "z": [
+        -5,
+        5
+      ]
+    },
+    "tongue": {
+      "x": [
+        718.0078983334656,
+        754.0078983334656
+      ],
+      "y": [
+        100,
+        130
+      ],
+      "z": [
+        -1.75,
+        1.75
+      ]
+    },
+    "shaft_bore_d_mm": 6.1,
+    "shaft_bore_effective_length_mm": 32
+  },
+  "planform_checks": {
+    "hub_outside_sample_count": 0,
+    "tongue_outside_sample_count": 0,
+    "hub_inside_source_planform": true,
+    "tongue_inside_source_planform": true,
+    "active_UPC_plan_halfwidth_at_pivot_mm": 112.944,
+    "hub_y_max_mm": 104,
+    "hub_plan_hidden_inside_current_fuselage_halfwidth_screen": true
+  },
+  "volume_screen_cm3": {
+    "hub": 5.28,
+    "tongue": 3.78,
+    "overlap": 0.336,
+    "shaft_bore": 0.9351893011206095,
+    "net_candidate_each": 7.788810698879391,
+    "pair": 15.577621397758781,
+    "PPA_CF_pair_mass_g_at_1p25": 19.472026747198477,
+    "PA6_CF_pair_mass_g_at_1p09": 16.979607323557072
+  },
+  "decision": {
+    "planform_precheck_pass": true,
+    "root_hub_thickness_intentionally_exceeds_5p5mm_surface": true,
+    "reason": "10 mm hub is inside current fuselage plan cover; 3.5 mm outboard tongue remains within provisional 5.5 mm stabilator thickness.",
+    "next_gate": "standalone Fusion root-fitting CAD with 6.1 mm bore; no fuselage bearing mounts yet"
+  },
+  "release": {
+    "root_fitting_CAD_verified": false,
+    "material_proof_pass": false,
+    "shaft_clamp_detail_designed": false,
+    "flight_release": false
+  }
+}
