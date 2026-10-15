@@ -1,0 +1,25 @@
+{
+  "status": "NATIVE_INLET_CONICAL_FACE_THICKNESS",
+  "input": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\independent_reviews\\inlet_walls_20261015\\F14_BILATERAL_INLET_WALL_CANDIDATE.f3d",
+    "sha256": "e47c52345f414881079aff569af66e846548cd94e0701b20114d4e0ce1664aed"
+  },
+  "measurements": [
+    {
+      "body": "CANDIDATE_INLET_WALL_R_NO_PRINT_RELEASE",
+      "minimum_inner_outer_face_gap_mm": 0.7997931171174689,
+      "conical_faces": 2,
+      "volume_cm3": 6.504086895853916
+    },
+    {
+      "body": "CANDIDATE_INLET_WALL_L_NO_PRINT_RELEASE",
+      "minimum_inner_outer_face_gap_mm": 0.7997931171174557,
+      "conical_faces": 2,
+      "volume_cm3": 6.504086895853845
+    }
+  ],
+  "minimum_gap_mm": 0.7997931171174557,
+  "nominal_radial_wall_mm": 0.8,
+  "print_release": false,
+  "upstream_and_mount_interfaces_verified": false
+}
