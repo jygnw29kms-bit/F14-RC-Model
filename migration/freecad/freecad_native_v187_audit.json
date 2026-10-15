@@ -1,0 +1,52 @@
+{
+  "status": "FREECAD_NATIVE_V187_REBUILD",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "fusion_reference_status": "V187_WALL_CORRECTED_CENTERLINE_ALIGNED_EDF_ADAPTER",
+  "results": [
+    {
+      "side": "R",
+      "inlet_valid": true,
+      "adapter_valid": true,
+      "joined_valid": true,
+      "inlet_volume_mm3": 6927.78550016685,
+      "adapter_volume_mm3": 1048.3307480959957,
+      "joined_volume_mm3": 7976.116205210736,
+      "fusion_adapter_volume_mm3": 1048.3263666563373,
+      "fusion_joined_volume_mm3": 7976.111849877569,
+      "adapter_delta_mm3": 0.004381439658345698,
+      "joined_delta_mm3": 0.004355333167040953,
+      "joined_solids": 1,
+      "joined_shells": 1,
+      "joined_faces": 6,
+      "joined_edges": 10
+    },
+    {
+      "side": "L",
+      "inlet_valid": true,
+      "adapter_valid": true,
+      "joined_valid": true,
+      "inlet_volume_mm3": 6927.7855001668795,
+      "adapter_volume_mm3": 1048.3307480959884,
+      "joined_volume_mm3": 7976.116205210748,
+      "fusion_adapter_volume_mm3": 1048.3263666563448,
+      "fusion_joined_volume_mm3": 7976.111849877554,
+      "adapter_delta_mm3": 0.004381439643566409,
+      "joined_delta_mm3": 0.0043553331943257945,
+      "joined_solids": 1,
+      "joined_shells": 1,
+      "joined_faces": 6,
+      "joined_edges": 10
+    }
+  ],
+  "print_release": false,
+  "flight_release": false
+}
