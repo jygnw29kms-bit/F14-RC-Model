@@ -1,0 +1,30 @@
+{
+  "status": "NATIVE_INTERNAL_EXHAUST_STUDY",
+  "input": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\independent_reviews\\adapter_reimport_20261015\\F14_ELLIPSE_CIRCLE_ADAPTER_CANDIDATE.f3d",
+    "sha256": "a99d3a159497bcf9d2c2f052c395e4040beae8bab5dff18b61371b81a801bf6b"
+  },
+  "assumed_hub_diameter_mm": 28,
+  "assumed_fan_ID_mm": 50,
+  "assumed_exit_to_FSA_ratio": 0.9,
+  "exit_inner_diameter_mm": 39.29885494515076,
+  "radial_wall_mm": 0.83,
+  "records": [
+    {
+      "side": "R",
+      "volume_cm3": 2.782359152264613,
+      "normal_wall_minimum_mm": 0.8092241239199894,
+      "outside_candidate_source_cm3": 0
+    },
+    {
+      "side": "L",
+      "volume_cm3": 2.782359152264611,
+      "normal_wall_minimum_mm": 0.8092241239199894,
+      "outside_candidate_source_cm3": 0
+    }
+  ],
+  "actual_hardware_verified": false,
+  "aerodynamic_exit_ratio_verified": false,
+  "original_external_nozzle_verified": false,
+  "print_release": false
+}
