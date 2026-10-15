@@ -1,0 +1,109 @@
+{
+  "status": "V176_CENTERLINE_ALIGNED_ELLIPSE_TO_CIRCLE_EDF_ADAPTER",
+  "source": {
+    "source_path": "C:/Users/dezen/Desktop/F14-RC-Model/analysis/independent_reviews/allowanced_inlet_20261015/F14_ALLOWANCED_INLET_WALL_CANDIDATE.f3d",
+    "source_sha256": "cea5f21ed9551991f3b7306ea8ce3df92f02e20bda3bc5f3b5ef61c94f4baf93",
+    "interface_x_mm": 650.0,
+    "fan_face_x_mm": 658.0,
+    "fan_axis_center_y_mm": 66.28458486059378,
+    "fan_axis_center_z_mm": -10.508688347971937,
+    "fan_inner_diameter_mm": 50.0,
+    "adapter_outer_diameter_mm": 51.62,
+    "housing_od_assumed_mm": 52.5,
+    "housing_length_assumed_mm": 73.5,
+    "skin_radial_allowance_mm": 0.8,
+    "service_radial_allowance_mm": 0.2,
+    "mount_od_candidate_mm": 55.2,
+    "mount_length_mm": 8.0,
+    "containment_tolerance_cm3": 1e-05
+  },
+  "records": [
+    {
+      "side": "R",
+      "adapter_volume_cm3": 1.0418236094994844,
+      "joined_volume_cm3": 7.969609092720731,
+      "joined_face_count": 6,
+      "joined_edge_count": 8,
+      "all_edges_two_coedges": true,
+      "face_graph_connected": true,
+      "fan_axis_center_mm": [
+        658.0,
+        66.28458486059378,
+        -10.508688347971937
+      ],
+      "center_shift_from_old_candidate_mm": 1.3816374703333592,
+      "packaging": [
+        {
+          "kind": "housing",
+          "diameter_mm": 52.5,
+          "length_mm": 73.5,
+          "outside_candidate_source_cm3": 0.0,
+          "containment_pass": true
+        },
+        {
+          "kind": "housing_skin_service",
+          "diameter_mm": 54.5,
+          "length_mm": 73.5,
+          "outside_candidate_source_cm3": 0.0,
+          "containment_pass": true
+        },
+        {
+          "kind": "mount",
+          "diameter_mm": 55.2,
+          "length_mm": 8.0,
+          "outside_candidate_source_cm3": 0.0,
+          "containment_pass": true
+        }
+      ],
+      "packaging_containment_pass": true
+    },
+    {
+      "side": "L",
+      "adapter_volume_cm3": 1.0418236094994904,
+      "joined_volume_cm3": 7.969609092720731,
+      "joined_face_count": 6,
+      "joined_edge_count": 8,
+      "all_edges_two_coedges": true,
+      "face_graph_connected": true,
+      "fan_axis_center_mm": [
+        658.0,
+        -66.28458486059378,
+        -10.508688347971937
+      ],
+      "center_shift_from_old_candidate_mm": 1.3816374703333592,
+      "packaging": [
+        {
+          "kind": "housing",
+          "diameter_mm": 52.5,
+          "length_mm": 73.5,
+          "outside_candidate_source_cm3": 0.0,
+          "containment_pass": true
+        },
+        {
+          "kind": "housing_skin_service",
+          "diameter_mm": 54.5,
+          "length_mm": 73.5,
+          "outside_candidate_source_cm3": 0.0,
+          "containment_pass": true
+        },
+        {
+          "kind": "mount",
+          "diameter_mm": 55.2,
+          "length_mm": 8.0,
+          "outside_candidate_source_cm3": 0.0,
+          "containment_pass": true
+        }
+      ],
+      "packaging_containment_pass": true
+    }
+  ],
+  "bilateral_topology_pass": true,
+  "bilateral_packaging_screen_pass": true,
+  "fan_dimensions_measured": false,
+  "normal_wall_thickness_verified": false,
+  "aerodynamic_smoothness_verified": false,
+  "mechanism_clearance_verified": false,
+  "slicer_verified": false,
+  "print_release": false,
+  "flight_release": false
+}
