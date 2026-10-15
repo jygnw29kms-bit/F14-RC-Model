@@ -1,0 +1,20 @@
+{
+  "status": "SOURCE_AFT_V133_INDEPENDENT_REVIEW",
+  "v29_identified_as_propulsion_packaging_false_constraint": true,
+  "source_raster_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "profile_resampling_points": 96,
+  "correspondence_anchor": "upper centerline",
+  "anchor_y_mm": {"D": -0.9722781852692366, "E": -0.1520278725348838, "F": 0.35685599202382434},
+  "bilateral_edf_clearance_envelope_verified": true,
+  "clear_envelope_diameter_mm": 55.6,
+  "housing_length_mm": 73.5,
+  "best_candidate": {"x_start_mm": 648.0, "x_end_mm": 721.5, "y_abs_mm": 64.0, "z_local_mm": -11.5},
+  "extra_radial_reserve_mm": 0.1,
+  "station_source_fidelity": "D/E/F traced source profiles",
+  "continuous_original_surface_between_stations_verified": false,
+  "next_gate": "Add side/plan silhouette constraints or additional source sections before replacing v29 exterior OML in the production fuselage.",
+  "propulsion_packaging_candidate": true,
+  "exterior_fidelity_freeze": false,
+  "print_release": false,
+  "flight_release": false
+}

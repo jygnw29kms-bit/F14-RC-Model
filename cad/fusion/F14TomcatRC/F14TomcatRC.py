@@ -2570,6 +2570,36 @@ def build_project_revision():
         study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
         with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
         return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='source_aft_v133':
+        path=os.path.join(os.path.dirname(__file__),'F14SourceAftNacelleMatched_v133.py')
+        spec=importlib.util.spec_from_file_location('f14_source_aft_v133',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'propulsion_v133'))
+    if review=='source_aft_v132':
+        path=os.path.join(os.path.dirname(__file__),'F14SourceAftNacelleMatched_v132.py')
+        spec=importlib.util.spec_from_file_location('f14_source_aft_v132',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'propulsion_v132'))
+    if review=='source_aft_v131':
+        path=os.path.join(os.path.dirname(__file__),'F14SourceAftNacelle_v131.py')
+        spec=importlib.util.spec_from_file_location('f14_source_aft_v131',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'propulsion_v131'))
+    if review=='aft_edf_v130':
+        path=os.path.join(os.path.dirname(__file__),'F14AftEDFSearch_v130.py')
+        spec=importlib.util.spec_from_file_location('f14_aft_edf_v130',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'propulsion_v130'))
+    if review=='direct_edf_v129':
+        path=os.path.join(os.path.dirname(__file__),'F14DirectEDFSearch_v129.py')
+        spec=importlib.util.spec_from_file_location('f14_direct_edf_v129',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'propulsion_v129'))
     if review=='relative_containment_v106':
         path=os.path.join(os.path.dirname(__file__),'F14RelativeContainment_v106.py')
         spec=importlib.util.spec_from_file_location('f14_relative_containment_v106',path)

@@ -1,0 +1,267 @@
+{
+  "status": "V129_DIRECT_EDF_CLEARANCE_SEARCH",
+  "source": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v105\\F14_MONOLITHIC_LOWER_HARDPOINT_MODULES_v105.f3d",
+    "sha256": "033a76fe21633d0257f0ff6ec2b47610b26adc7314c15037b5ae42de57e54cc6",
+    "x_start_mm": 648.8863542888724,
+    "housing_length_mm": 73.5,
+    "clear_diameter_mm": 55.6,
+    "coarse_y_abs_mm": [
+      62,
+      67,
+      1
+    ],
+    "coarse_z_mm": [
+      198,
+      214,
+      1
+    ],
+    "refine_step_mm": 0.25,
+    "refine_half_window_mm": 1,
+    "containment_tolerance_cm3": 1e-05,
+    "collision_tolerance_cm3": 1e-06
+  },
+  "inventory": [
+    "UPC_FUSELAGE_ROBUST_CLEARANCE_CUT_v29",
+    "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+    "MONOLITHIC_LOWER_HARDPOINT_L_v105"
+  ],
+  "search": {
+    "coarse_count": 102,
+    "refined_count": 81,
+    "best": {
+      "y_abs_mm": 61.0,
+      "z_mm": 203.0,
+      "total_cm3": 178.4542122804176,
+      "inside_fuselage_cm3": 129.68963011925155,
+      "outside_fuselage_cm3": 48.76458216116606,
+      "containment_fraction": 0.7267389682876252,
+      "fixed_structure_intersection_cm3": 0.0,
+      "collisions": [
+        {
+          "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+          "intersection_cm3": 0.0
+        },
+        {
+          "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+          "intersection_cm3": 0.0
+        }
+      ],
+      "pass": false
+    },
+    "top10": [
+      {
+        "y_abs_mm": 61.0,
+        "z_mm": 203.0,
+        "total_cm3": 178.4542122804176,
+        "inside_fuselage_cm3": 129.68963011925155,
+        "outside_fuselage_cm3": 48.76458216116606,
+        "containment_fraction": 0.7267389682876252,
+        "fixed_structure_intersection_cm3": 0.0,
+        "collisions": [
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+            "intersection_cm3": 0.0
+          },
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+            "intersection_cm3": 0.0
+          }
+        ],
+        "pass": false
+      },
+      {
+        "y_abs_mm": 61.0,
+        "z_mm": 203.25,
+        "total_cm3": 178.4542122804176,
+        "inside_fuselage_cm3": 129.6859214176005,
+        "outside_fuselage_cm3": 48.76829086281711,
+        "containment_fraction": 0.7267181859165976,
+        "fixed_structure_intersection_cm3": 0.0,
+        "collisions": [
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+            "intersection_cm3": 0.0
+          },
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+            "intersection_cm3": 0.0
+          }
+        ],
+        "pass": false
+      },
+      {
+        "y_abs_mm": 61.0,
+        "z_mm": 203.5,
+        "total_cm3": 178.45421228041758,
+        "inside_fuselage_cm3": 129.66945043457545,
+        "outside_fuselage_cm3": 48.78476184584213,
+        "containment_fraction": 0.7266258878261544,
+        "fixed_structure_intersection_cm3": 0.0,
+        "collisions": [
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+            "intersection_cm3": 0.0
+          },
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+            "intersection_cm3": 0.0
+          }
+        ],
+        "pass": false
+      },
+      {
+        "y_abs_mm": 61.0,
+        "z_mm": 202.75,
+        "total_cm3": 178.45421228041758,
+        "inside_fuselage_cm3": 129.66771776039792,
+        "outside_fuselage_cm3": 48.78649452001966,
+        "containment_fraction": 0.7266161784774348,
+        "fixed_structure_intersection_cm3": 0.0,
+        "collisions": [
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+            "intersection_cm3": 0.0
+          },
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+            "intersection_cm3": 0.0
+          }
+        ],
+        "pass": false
+      },
+      {
+        "y_abs_mm": 61.0,
+        "z_mm": 203.75,
+        "total_cm3": 178.45421228041758,
+        "inside_fuselage_cm3": 129.64092756515538,
+        "outside_fuselage_cm3": 48.8132847152622,
+        "containment_fraction": 0.7264660548412358,
+        "fixed_structure_intersection_cm3": 0.0,
+        "collisions": [
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+            "intersection_cm3": 0.0
+          },
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+            "intersection_cm3": 0.0
+          }
+        ],
+        "pass": false
+      },
+      {
+        "y_abs_mm": 61.0,
+        "z_mm": 204.0,
+        "total_cm3": 178.45421228041758,
+        "inside_fuselage_cm3": 129.61757453374221,
+        "outside_fuselage_cm3": 48.836637746675365,
+        "containment_fraction": 0.7263351919654609,
+        "fixed_structure_intersection_cm3": 0.0,
+        "collisions": [
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+            "intersection_cm3": 0.0
+          },
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+            "intersection_cm3": 0.0
+          }
+        ],
+        "pass": false
+      },
+      {
+        "y_abs_mm": 61.0,
+        "z_mm": 202.5,
+        "total_cm3": 178.45421228041758,
+        "inside_fuselage_cm3": 129.61335889935015,
+        "outside_fuselage_cm3": 48.84085338106743,
+        "containment_fraction": 0.7263115689064241,
+        "fixed_structure_intersection_cm3": 0.0,
+        "collisions": [
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+            "intersection_cm3": 0.0
+          },
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+            "intersection_cm3": 0.0
+          }
+        ],
+        "pass": false
+      },
+      {
+        "y_abs_mm": 61.0,
+        "z_mm": 202.25,
+        "total_cm3": 178.45421228041758,
+        "inside_fuselage_cm3": 129.5414046438623,
+        "outside_fuselage_cm3": 48.91280763655527,
+        "containment_fraction": 0.7259083604051041,
+        "fixed_structure_intersection_cm3": 0.0,
+        "collisions": [
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+            "intersection_cm3": 0.0
+          },
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+            "intersection_cm3": 0.0
+          }
+        ],
+        "pass": false
+      },
+      {
+        "y_abs_mm": 61.0,
+        "z_mm": 202.0,
+        "total_cm3": 178.4542122804176,
+        "inside_fuselage_cm3": 129.44192352418466,
+        "outside_fuselage_cm3": 49.01228875623295,
+        "containment_fraction": 0.7253509002117781,
+        "fixed_structure_intersection_cm3": 0.0,
+        "collisions": [
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+            "intersection_cm3": 0.0
+          },
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+            "intersection_cm3": 0.0
+          }
+        ],
+        "pass": false
+      },
+      {
+        "y_abs_mm": 61.25,
+        "z_mm": 203.25,
+        "total_cm3": 178.4542122804176,
+        "inside_fuselage_cm3": 129.3482561499824,
+        "outside_fuselage_cm3": 49.1059561304352,
+        "containment_fraction": 0.7248260183779155,
+        "fixed_structure_intersection_cm3": 0.0,
+        "collisions": [
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+            "intersection_cm3": 0.0
+          },
+          {
+            "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+            "intersection_cm3": 0.0
+          }
+        ],
+        "pass": false
+      }
+    ]
+  },
+  "extra_radial_reserve_mm": 0.0,
+  "reserve_trials": [],
+  "symmetric_twin_assumption": true,
+  "geometry_candidate_pass": false,
+  "pivot_waterline_dependency": false,
+  "continuous_inlet_duct_verified": false,
+  "exhaust_duct_verified": false,
+  "installed_thrust_verified": false,
+  "propulsion_packaging_freeze": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "b9a9c3c4b0ba8cc8ff2744dd3a6b7209c604fe602b42095c7ce51f7420331f45"
+}

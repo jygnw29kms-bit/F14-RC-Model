@@ -1,0 +1,66 @@
+{
+    "source_image_sha256":  "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+    "common_scale_mm_per_pixel":  0.52711655180299744,
+    "sections":  [
+                     {
+                         "axis_side_pixel_y":  2805.4031691611044,
+                         "name":  "D",
+                         "x_mm":  595.8483908511422,
+                         "contour":  {
+                                         "sha256":  "2f46597112bdd2a4c2ea150682760403af44f35e37e0dcb4792f404b8e0192c1",
+                                         "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\propulsion_sources_v113\\upc_D_source_contour_v49.json"
+                                     },
+                         "registration":  {
+                                              "sha256":  "ffa240b2d58b46fe0dfd146b957dde290d806e888c98b4aee9e13bca675ec4b5",
+                                              "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\propulsion_sources_v113\\upc_D_registration_v50.json"
+                                          }
+                     },
+                     {
+                         "axis_side_pixel_y":  2797.4319629224406,
+                         "name":  "E",
+                         "x_mm":  648.88635428887244,
+                         "contour":  {
+                                         "sha256":  "4a62d59d40fe6a74e252fc61a6755f92eab9d3d13ca99876eb4e72d57fe9868c",
+                                         "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\propulsion_sources_v113\\upc_E_source_contour_v43.json"
+                                     },
+                         "registration":  {
+                                              "sha256":  "c861ffcefa7756c377fdc476138b79a25e216dcbdb6d61d3c8775b201bce3b0d",
+                                              "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\propulsion_sources_v113\\upc_E_registration_v44.json"
+                                          }
+                     },
+                     {
+                         "axis_side_pixel_y":  2792.6340198339044,
+                         "name":  "F",
+                         "x_mm":  754.962281164333,
+                         "contour":  {
+                                         "sha256":  "495c2bc7c3b619f9ebddd6834aa8ea06737fdf7ab7cdfc1563ee23c3da4c42d9",
+                                         "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\propulsion_sources_v113\\upc_F_connected_section_v11.json"
+                                     },
+                         "registration":  {
+                                              "sha256":  "70281be0623981f666089849735c7ac8fd79d4880ee66757a2d2080da0be3daf",
+                                              "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\propulsion_sources_v113\\upc_F_registration_v12.json"
+                                          }
+                     }
+                 ],
+    "reference_axis_side_pixel_y":  2797.4319629224406,
+    "clear_diameter_mm":  55.6,
+    "housing_length_mm":  73.5,
+    "x_start_range_mm":  [
+                             648.9,
+                             681.4,
+                             4
+                         ],
+    "y_abs_range_mm":  [
+                           50,
+                           72,
+                           2
+                       ],
+    "z_range_mm":  [
+                       -16,
+                       6,
+                       2
+                   ],
+    "refine_step_mm":  0.5,
+    "refine_half_window_mm":  2,
+    "containment_tolerance_cm3":  1E-05
+}

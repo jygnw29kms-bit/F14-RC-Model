@@ -1,0 +1,21 @@
+{
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v105\\F14_MONOLITHIC_LOWER_HARDPOINT_MODULES_v105.f3d",
+    "sha256":  "033a76fe21633d0257f0ff6ec2b47610b26adc7314c15037b5ae42de57e54cc6",
+    "x_start_mm":  648.88635428887244,
+    "housing_length_mm":  73.5,
+    "clear_diameter_mm":  55.6,
+    "coarse_y_abs_mm":  [
+                            62,
+                            67,
+                            1
+                        ],
+    "coarse_z_mm":  [
+                        198,
+                        214,
+                        1
+                    ],
+    "refine_step_mm":  0.25,
+    "refine_half_window_mm":  1,
+    "containment_tolerance_cm3":  1E-05,
+    "collision_tolerance_cm3":  1E-06
+}

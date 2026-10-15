@@ -1,0 +1,275 @@
+{
+  "status": "V130_AFT_EDF_POSITION_SEARCH",
+  "source": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v105\\F14_MONOLITHIC_LOWER_HARDPOINT_MODULES_v105.f3d",
+    "sha256": "033a76fe21633d0257f0ff6ec2b47610b26adc7314c15037b5ae42de57e54cc6",
+    "x_start_range_mm": [
+      648.9,
+      681.4,
+      4
+    ],
+    "y_abs_range_mm": [
+      58,
+      66,
+      1
+    ],
+    "z_range_mm": [
+      196,
+      212,
+      1
+    ],
+    "housing_length_mm": 73.5,
+    "clear_diameter_mm": 55.6,
+    "refine_x_step_mm": 1,
+    "refine_yz_step_mm": 0.5,
+    "refine_half_window_mm": 2,
+    "containment_tolerance_cm3": 1e-05,
+    "collision_tolerance_cm3": 1e-06
+  },
+  "coarse_count": 1377,
+  "refined_count": 405,
+  "best": {
+    "x_start_mm": 682.9,
+    "x_end_mm": 756.4,
+    "y_abs_mm": 56.0,
+    "z_mm": 211.5,
+    "total_cm3": 178.45421228041758,
+    "inside_cm3": 138.60669689909895,
+    "outside_cm3": 39.84751538131863,
+    "containment_fraction": 0.7767073420564405,
+    "fixed_structure_intersection_cm3": 0.0,
+    "collisions": [
+      {
+        "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+        "intersection_cm3": 0.0
+      },
+      {
+        "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+        "intersection_cm3": 0.0
+      }
+    ],
+    "pass": false
+  },
+  "top20": [
+    {
+      "x_start_mm": 682.9,
+      "x_end_mm": 756.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 211.5,
+      "total_cm3": 178.45421228041758,
+      "inside_cm3": 138.60669689909895,
+      "outside_cm3": 39.84751538131863,
+      "containment_fraction": 0.7767073420564405,
+      "fixed_structure_intersection_cm3": 0.0,
+      "collisions": [
+        {
+          "body": "MONOLITHIC_LOWER_HARDPOINT_R_v105",
+          "intersection_cm3": 0.0
+        },
+        {
+          "body": "MONOLITHIC_LOWER_HARDPOINT_L_v105",
+          "intersection_cm3": 0.0
+        }
+      ],
+      "pass": false
+    },
+    {
+      "x_start_mm": 682.9,
+      "x_end_mm": 756.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 212.0,
+      "total_cm3": 178.4542122804176,
+      "inside_cm3": 138.58106564605436,
+      "outside_cm3": 39.87314663436325,
+      "containment_fraction": 0.7765637127595073
+    },
+    {
+      "x_start_mm": 682.9,
+      "x_end_mm": 756.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 212.5,
+      "total_cm3": 178.45421228041758,
+      "inside_cm3": 138.56221240951066,
+      "outside_cm3": 39.891999870906915,
+      "containment_fraction": 0.7764580652866752
+    },
+    {
+      "x_start_mm": 682.9,
+      "x_end_mm": 756.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 211.0,
+      "total_cm3": 178.45421228041758,
+      "inside_cm3": 138.4903610218816,
+      "outside_cm3": 39.96385125853598,
+      "containment_fraction": 0.7760554332237449
+    },
+    {
+      "x_start_mm": 682.9,
+      "x_end_mm": 756.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 213.0,
+      "total_cm3": 178.4542122804176,
+      "inside_cm3": 138.44244026945955,
+      "outside_cm3": 40.011772010958055,
+      "containment_fraction": 0.775786900742445
+    },
+    {
+      "x_start_mm": 681.9,
+      "x_end_mm": 755.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 212.0,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 138.3603752480823,
+      "outside_cm3": 40.09383703233462,
+      "containment_fraction": 0.7753270347615414
+    },
+    {
+      "x_start_mm": 682.9,
+      "x_end_mm": 756.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 210.5,
+      "total_cm3": 178.4542122804176,
+      "inside_cm3": 138.3533450948472,
+      "outside_cm3": 40.100867185570394,
+      "containment_fraction": 0.7752876400442872
+    },
+    {
+      "x_start_mm": 681.9,
+      "x_end_mm": 755.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 211.5,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 138.34530515305224,
+      "outside_cm3": 40.10890712736469,
+      "containment_fraction": 0.7752425867967806
+    },
+    {
+      "x_start_mm": 681.9,
+      "x_end_mm": 755.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 212.5,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 138.29729962070948,
+      "outside_cm3": 40.156912659707444,
+      "containment_fraction": 0.7749735792360775
+    },
+    {
+      "x_start_mm": 682.9,
+      "x_end_mm": 756.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 213.5,
+      "total_cm3": 178.45421228041758,
+      "inside_cm3": 138.29298897703273,
+      "outside_cm3": 40.161223303384844,
+      "containment_fraction": 0.7749494237755693
+    },
+    {
+      "x_start_mm": 681.9,
+      "x_end_mm": 755.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 211.0,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 138.2838615884464,
+      "outside_cm3": 40.170350691970526,
+      "containment_fraction": 0.7748982768260567
+    },
+    {
+      "x_start_mm": 681.9,
+      "x_end_mm": 755.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 213.0,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 138.1785429610375,
+      "outside_cm3": 40.27566931937943,
+      "containment_fraction": 0.7743081051172297
+    },
+    {
+      "x_start_mm": 681.9,
+      "x_end_mm": 755.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 210.5,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 138.1598450682142,
+      "outside_cm3": 40.29436721220273,
+      "containment_fraction": 0.7742033281406352
+    },
+    {
+      "x_start_mm": 680.9,
+      "x_end_mm": 754.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 212.0,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 138.12875121639183,
+      "outside_cm3": 40.32546106402509,
+      "containment_fraction": 0.7740290881973746
+    },
+    {
+      "x_start_mm": 682.9,
+      "x_end_mm": 756.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 210.0,
+      "total_cm3": 178.45421228041758,
+      "inside_cm3": 138.12041161413703,
+      "outside_cm3": 40.33380066628055,
+      "containment_fraction": 0.773982355749041
+    },
+    {
+      "x_start_mm": 680.9,
+      "x_end_mm": 754.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 211.5,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 138.10792641129774,
+      "outside_cm3": 40.346285869119185,
+      "containment_fraction": 0.7739123926886052
+    },
+    {
+      "x_start_mm": 680.9,
+      "x_end_mm": 754.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 211.0,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 138.0648022987479,
+      "outside_cm3": 40.38940998166902,
+      "containment_fraction": 0.7736707390341537
+    },
+    {
+      "x_start_mm": 680.9,
+      "x_end_mm": 754.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 212.5,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 138.0472771788307,
+      "outside_cm3": 40.406935101586214,
+      "containment_fraction": 0.7735725338996643
+    },
+    {
+      "x_start_mm": 682.9,
+      "x_end_mm": 756.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 214.0,
+      "total_cm3": 178.45421228041758,
+      "inside_cm3": 138.03933989388653,
+      "outside_cm3": 40.414872386531044,
+      "containment_fraction": 0.7735280559081209
+    },
+    {
+      "x_start_mm": 681.9,
+      "x_end_mm": 755.4,
+      "y_abs_mm": 56.0,
+      "z_mm": 213.5,
+      "total_cm3": 178.45421228041693,
+      "inside_cm3": 137.99829713287986,
+      "outside_cm3": 40.45591514753707,
+      "containment_fraction": 0.7732980654781855
+    }
+  ],
+  "geometry_candidate_pass": false,
+  "remaining_axial_reserve_to_F_mm": -1.4377188356669421,
+  "axis_tilt_required_next": true,
+  "pivot_waterline_dependency": false,
+  "propulsion_packaging_freeze": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "062615e4732ab82e79cdb4115850c5fede9d437cf9dfd18b81d93c9e86989a31"
+}
