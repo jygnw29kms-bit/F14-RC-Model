@@ -1,0 +1,266 @@
+{
+  "status": "V152_BATTERY_CG_TRAY_AND_RESTRAINT_REQUIREMENTS",
+  "sources": [
+    "analysis/cg_whole_aircraft_sensitivity_v151.json",
+    "analysis/propulsion_baseline_v17.json",
+    "docs mass budget"
+  ],
+  "cg_adjustment_sensitivity": [
+    {
+      "AUW_g": 950,
+      "battery_mass_g": 180,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 9.473684210526317
+    },
+    {
+      "AUW_g": 950,
+      "battery_mass_g": 180,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 13.263157894736842
+    },
+    {
+      "AUW_g": 950,
+      "battery_mass_g": 202,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 10.631578947368421
+    },
+    {
+      "AUW_g": 950,
+      "battery_mass_g": 202,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 14.884210526315789
+    },
+    {
+      "AUW_g": 950,
+      "battery_mass_g": 220,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 11.578947368421053
+    },
+    {
+      "AUW_g": 950,
+      "battery_mass_g": 220,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 16.210526315789473
+    },
+    {
+      "AUW_g": 950,
+      "battery_mass_g": 240,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 12.631578947368421
+    },
+    {
+      "AUW_g": 950,
+      "battery_mass_g": 240,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 17.68421052631579
+    },
+    {
+      "AUW_g": 1050,
+      "battery_mass_g": 180,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 8.571428571428571
+    },
+    {
+      "AUW_g": 1050,
+      "battery_mass_g": 180,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 12.0
+    },
+    {
+      "AUW_g": 1050,
+      "battery_mass_g": 202,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 9.619047619047619
+    },
+    {
+      "AUW_g": 1050,
+      "battery_mass_g": 202,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 13.466666666666667
+    },
+    {
+      "AUW_g": 1050,
+      "battery_mass_g": 220,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 10.476190476190476
+    },
+    {
+      "AUW_g": 1050,
+      "battery_mass_g": 220,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 14.666666666666668
+    },
+    {
+      "AUW_g": 1050,
+      "battery_mass_g": 240,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 11.428571428571429
+    },
+    {
+      "AUW_g": 1050,
+      "battery_mass_g": 240,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 16.0
+    },
+    {
+      "AUW_g": 1100,
+      "battery_mass_g": 180,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 8.181818181818182
+    },
+    {
+      "AUW_g": 1100,
+      "battery_mass_g": 180,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 11.454545454545455
+    },
+    {
+      "AUW_g": 1100,
+      "battery_mass_g": 202,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 9.181818181818182
+    },
+    {
+      "AUW_g": 1100,
+      "battery_mass_g": 202,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 12.854545454545454
+    },
+    {
+      "AUW_g": 1100,
+      "battery_mass_g": 220,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 10.0
+    },
+    {
+      "AUW_g": 1100,
+      "battery_mass_g": 220,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 14.0
+    },
+    {
+      "AUW_g": 1100,
+      "battery_mass_g": 240,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 10.909090909090908
+    },
+    {
+      "AUW_g": 1100,
+      "battery_mass_g": 240,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 15.272727272727272
+    },
+    {
+      "AUW_g": 1200,
+      "battery_mass_g": 180,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 7.5
+    },
+    {
+      "AUW_g": 1200,
+      "battery_mass_g": 180,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 10.5
+    },
+    {
+      "AUW_g": 1200,
+      "battery_mass_g": 202,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 8.416666666666666
+    },
+    {
+      "AUW_g": 1200,
+      "battery_mass_g": 202,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 11.783333333333333
+    },
+    {
+      "AUW_g": 1200,
+      "battery_mass_g": 220,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 9.166666666666666
+    },
+    {
+      "AUW_g": 1200,
+      "battery_mass_g": 220,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 12.833333333333332
+    },
+    {
+      "AUW_g": 1200,
+      "battery_mass_g": 240,
+      "battery_center_travel_mm": 50,
+      "CG_adjustment_mm": 10.0
+    },
+    {
+      "AUW_g": 1200,
+      "battery_mass_g": 240,
+      "battery_center_travel_mm": 70,
+      "CG_adjustment_mm": 14.0
+    }
+  ],
+  "decision": {
+    "usable_battery_center_travel_mm": 70,
+    "minimum_legacy_requirement_mm": 50,
+    "design_reason": "70 mm provides ~13.5 mm CG authority for the 202 g reference pack at 1050 g AUW and ~11.8 mm at 1200 g; enough to span current maiden-CG uncertainty without ballast.",
+    "battery_mass_target_g": 200,
+    "battery_mass_hard_warning_g": 240,
+    "battery_hardware_frozen": false
+  },
+  "reference_pack_only_not_frozen": {
+    "candidate": "Tattu Classic 1800mAh 4S 75C XT60",
+    "mass_g": 202,
+    "dimensions_mm": [
+      106,
+      36,
+      25
+    ]
+  },
+  "tray_envelope_before_CAD": {
+    "minimum_length_for_106mm_pack_plus_70mm_center_travel_mm": 176,
+    "minimum_internal_width_mm": 38,
+    "minimum_internal_height_mm": 27,
+    "additional_connector_service_length_mm": 20,
+    "note": "These are packaging minima, not an instruction to cut the OML. CAD must prove fit and service access."
+  },
+  "restraint": {
+    "design_acceleration_g": 20,
+    "reference_202g_pack_force_N": 39.62,
+    "hard_240g_pack_force_N": 47.09,
+    "primary": "two independent transverse hook-and-loop straps or one strap plus equivalent positive clamp, both anchored into internal structure, not skin only",
+    "secondary": "positive fore/aft stop independent of friction",
+    "tray_end_stops": "must react 20g load without relying on battery connector",
+    "padding": "thin high-friction/compliant pad allowed; pack must not be crushed"
+  },
+  "electrical": {
+    "architecture": "single 4S propulsion battery bus feeding two ESCs plus dedicated receiver BEC",
+    "connector_class": "size for measured full-power current; XT60 acceptable only if measured current/temperature gate passes",
+    "capacity_not_frozen": true,
+    "candidate_capacity_range_mAh": [
+      1800,
+      2600
+    ],
+    "selection_rule": "choose smallest/lightest pack that passes installed thrust, voltage sag, temperature and required flight-time tests; label C-rating is not acceptance evidence"
+  },
+  "bench_gates": {
+    "measure_pack_mass_and_dimensions": true,
+    "three_full_power_10s_runs_with_installed_twin_EDF": true,
+    "log_min_voltage_and_total_current": true,
+    "connector_and_pack_temperature_required": true,
+    "retention_static_load_N": 47.1,
+    "retention_direction": [
+      "forward",
+      "aft",
+      "up",
+      "down"
+    ],
+    "no_pack_motion_mm_gt": 1.0
+  },
+  "release": {
+    "battery_model_frozen": false,
+    "battery_tray_CAD_verified": false,
+    "CG_range_verified_by_mass_rollup": false,
+    "retention_proof_pass": false,
+    "flight_release": false
+  }
+}

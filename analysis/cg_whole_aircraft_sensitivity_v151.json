@@ -1,0 +1,434 @@
+{
+  "status": "V151_LOW_ORDER_WHOLE_AIRCRAFT_NEUTRAL_POINT_SENSITIVITY_NOT_FLIGHT_CG_RELEASE",
+  "sources": [
+    "analysis/cg_variable_sweep_wing_v150.json",
+    "docs/06_ENGINEERING_BASELINE.md",
+    "analysis/control_stabilator_geometry_v145.json"
+  ],
+  "geometry": {
+    "gross_reference_area_mm2": 111440.0,
+    "moving_outer_wing_total_area_mm2": 60180.596521186366,
+    "fixed_glove_body_area_by_difference_mm2": 51259.403478813634,
+    "reference_mean_chord_area_over_span_mm": 123.82222222222222,
+    "stabilator_total_area_mm2": 30392.670700578994,
+    "stabilator_area_weighted_quarter_chord_x_mm": 741.0078958656494
+  },
+  "sensitivity_assumptions": {
+    "fixed_glove_body_AC_x_mm": [
+      540,
+      560,
+      580,
+      600,
+      620
+    ],
+    "tail_effectiveness_derivative_factor": [
+      0.25,
+      0.35,
+      0.45,
+      0.55
+    ],
+    "note": "Tail factor lumps dynamic-pressure ratio, tail/wing lift-curve-slope ratio and downwash derivative. This is deliberately broad until CFD/flight/aero data are available."
+  },
+  "cases": [
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 540,
+      "tail_effectiveness_derivative_factor": 0.25,
+      "combined_wing_ac_x_mm": 605.3976511085114,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 135.61024475713805,
+      "neutral_point_x_mm": 614.6437869496111
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 540,
+      "tail_effectiveness_derivative_factor": 0.25,
+      "combined_wing_ac_x_mm": 657.0365121005456,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 83.97138376510384,
+      "neutral_point_x_mm": 662.7618230639446
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 540,
+      "tail_effectiveness_derivative_factor": 0.35,
+      "combined_wing_ac_x_mm": 605.3976511085114,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 135.61024475713805,
+      "neutral_point_x_mm": 618.3422412860509
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 540,
+      "tail_effectiveness_derivative_factor": 0.35,
+      "combined_wing_ac_x_mm": 657.0365121005456,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 83.97138376510384,
+      "neutral_point_x_mm": 665.0519474493042
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 540,
+      "tail_effectiveness_derivative_factor": 0.45,
+      "combined_wing_ac_x_mm": 605.3976511085114,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 135.61024475713805,
+      "neutral_point_x_mm": 622.0406956224908
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 540,
+      "tail_effectiveness_derivative_factor": 0.45,
+      "combined_wing_ac_x_mm": 657.0365121005456,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 83.97138376510384,
+      "neutral_point_x_mm": 667.3420718346638
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 540,
+      "tail_effectiveness_derivative_factor": 0.55,
+      "combined_wing_ac_x_mm": 605.3976511085114,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 135.61024475713805,
+      "neutral_point_x_mm": 625.7391499589307
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 540,
+      "tail_effectiveness_derivative_factor": 0.55,
+      "combined_wing_ac_x_mm": 657.0365121005456,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 83.97138376510384,
+      "neutral_point_x_mm": 669.6321962200234
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 560,
+      "tail_effectiveness_derivative_factor": 0.25,
+      "combined_wing_ac_x_mm": 614.5971133265324,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 126.41078253911701,
+      "neutral_point_x_mm": 623.2160142748317
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 560,
+      "tail_effectiveness_derivative_factor": 0.25,
+      "combined_wing_ac_x_mm": 666.2359743185667,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 74.77192154708268,
+      "neutral_point_x_mm": 671.3340503891653
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 560,
+      "tail_effectiveness_derivative_factor": 0.35,
+      "combined_wing_ac_x_mm": 614.5971133265324,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 126.41078253911701,
+      "neutral_point_x_mm": 626.6635746541514
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 560,
+      "tail_effectiveness_derivative_factor": 0.35,
+      "combined_wing_ac_x_mm": 666.2359743185667,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 74.77192154708268,
+      "neutral_point_x_mm": 673.3732808174047
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 560,
+      "tail_effectiveness_derivative_factor": 0.45,
+      "combined_wing_ac_x_mm": 614.5971133265324,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 126.41078253911701,
+      "neutral_point_x_mm": 630.1111350334711
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 560,
+      "tail_effectiveness_derivative_factor": 0.45,
+      "combined_wing_ac_x_mm": 666.2359743185667,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 74.77192154708268,
+      "neutral_point_x_mm": 675.4125112456442
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 560,
+      "tail_effectiveness_derivative_factor": 0.55,
+      "combined_wing_ac_x_mm": 614.5971133265324,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 126.41078253911701,
+      "neutral_point_x_mm": 633.5586954127908
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 560,
+      "tail_effectiveness_derivative_factor": 0.55,
+      "combined_wing_ac_x_mm": 666.2359743185667,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 74.77192154708268,
+      "neutral_point_x_mm": 677.4517416738836
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 580,
+      "tail_effectiveness_derivative_factor": 0.25,
+      "combined_wing_ac_x_mm": 623.7965755445535,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 117.21132032109585,
+      "neutral_point_x_mm": 631.7882416000524
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 580,
+      "tail_effectiveness_derivative_factor": 0.25,
+      "combined_wing_ac_x_mm": 675.4354365365878,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 65.57245932906164,
+      "neutral_point_x_mm": 679.9062777143859
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 580,
+      "tail_effectiveness_derivative_factor": 0.35,
+      "combined_wing_ac_x_mm": 623.7965755445535,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 117.21132032109585,
+      "neutral_point_x_mm": 634.9849080222518
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 580,
+      "tail_effectiveness_derivative_factor": 0.35,
+      "combined_wing_ac_x_mm": 675.4354365365878,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 65.57245932906164,
+      "neutral_point_x_mm": 681.6946141855051
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 580,
+      "tail_effectiveness_derivative_factor": 0.45,
+      "combined_wing_ac_x_mm": 623.7965755445535,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 117.21132032109585,
+      "neutral_point_x_mm": 638.1815744444514
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 580,
+      "tail_effectiveness_derivative_factor": 0.45,
+      "combined_wing_ac_x_mm": 675.4354365365878,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 65.57245932906164,
+      "neutral_point_x_mm": 683.4829506566243
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 580,
+      "tail_effectiveness_derivative_factor": 0.55,
+      "combined_wing_ac_x_mm": 623.7965755445535,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 117.21132032109585,
+      "neutral_point_x_mm": 641.3782408666509
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 580,
+      "tail_effectiveness_derivative_factor": 0.55,
+      "combined_wing_ac_x_mm": 675.4354365365878,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 65.57245932906164,
+      "neutral_point_x_mm": 685.2712871277436
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 600,
+      "tail_effectiveness_derivative_factor": 0.25,
+      "combined_wing_ac_x_mm": 632.9960377625747,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 108.0118581030747,
+      "neutral_point_x_mm": 640.360468925273
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 600,
+      "tail_effectiveness_derivative_factor": 0.25,
+      "combined_wing_ac_x_mm": 684.6348987546089,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 56.37299711104049,
+      "neutral_point_x_mm": 688.4785050396065
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 600,
+      "tail_effectiveness_derivative_factor": 0.35,
+      "combined_wing_ac_x_mm": 632.9960377625747,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 108.0118581030747,
+      "neutral_point_x_mm": 643.3062413903524
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 600,
+      "tail_effectiveness_derivative_factor": 0.35,
+      "combined_wing_ac_x_mm": 684.6348987546089,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 56.37299711104049,
+      "neutral_point_x_mm": 690.0159475536055
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 600,
+      "tail_effectiveness_derivative_factor": 0.45,
+      "combined_wing_ac_x_mm": 632.9960377625747,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 108.0118581030747,
+      "neutral_point_x_mm": 646.2520138554318
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 600,
+      "tail_effectiveness_derivative_factor": 0.45,
+      "combined_wing_ac_x_mm": 684.6348987546089,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 56.37299711104049,
+      "neutral_point_x_mm": 691.5533900676046
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 600,
+      "tail_effectiveness_derivative_factor": 0.55,
+      "combined_wing_ac_x_mm": 632.9960377625747,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 108.0118581030747,
+      "neutral_point_x_mm": 649.1977863205111
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 600,
+      "tail_effectiveness_derivative_factor": 0.55,
+      "combined_wing_ac_x_mm": 684.6348987546089,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 56.37299711104049,
+      "neutral_point_x_mm": 693.0908325816036
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 620,
+      "tail_effectiveness_derivative_factor": 0.25,
+      "combined_wing_ac_x_mm": 642.1954999805957,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 98.81239588505366,
+      "neutral_point_x_mm": 648.9326962504937
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 620,
+      "tail_effectiveness_derivative_factor": 0.25,
+      "combined_wing_ac_x_mm": 693.8343609726301,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 47.17353489301934,
+      "neutral_point_x_mm": 697.0507323648272
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 620,
+      "tail_effectiveness_derivative_factor": 0.35,
+      "combined_wing_ac_x_mm": 642.1954999805957,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 98.81239588505366,
+      "neutral_point_x_mm": 651.6275747584527
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 620,
+      "tail_effectiveness_derivative_factor": 0.35,
+      "combined_wing_ac_x_mm": 693.8343609726301,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 47.17353489301934,
+      "neutral_point_x_mm": 698.3372809217061
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 620,
+      "tail_effectiveness_derivative_factor": 0.45,
+      "combined_wing_ac_x_mm": 642.1954999805957,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 98.81239588505366,
+      "neutral_point_x_mm": 654.3224532664119
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 620,
+      "tail_effectiveness_derivative_factor": 0.45,
+      "combined_wing_ac_x_mm": 693.8343609726301,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 47.17353489301934,
+      "neutral_point_x_mm": 699.623829478585
+    },
+    {
+      "sweep_deg": 20,
+      "fixed_lifting_area_ac_x_mm": 620,
+      "tail_effectiveness_derivative_factor": 0.55,
+      "combined_wing_ac_x_mm": 642.1954999805957,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 98.81239588505366,
+      "neutral_point_x_mm": 657.0173317743711
+    },
+    {
+      "sweep_deg": 68,
+      "fixed_lifting_area_ac_x_mm": 620,
+      "tail_effectiveness_derivative_factor": 0.55,
+      "combined_wing_ac_x_mm": 693.8343609726301,
+      "tail_ac_x_mm": 741.0078958656494,
+      "tail_lever_mm": 47.17353489301934,
+      "neutral_point_x_mm": 700.9103780354639
+    }
+  ],
+  "envelope": {
+    "neutral_point_20deg_x_mm": [
+      614.6437869496111,
+      657.0173317743711
+    ],
+    "neutral_point_68deg_x_mm": [
+      662.7618230639446,
+      700.9103780354639
+    ],
+    "all_case_x_mm": [
+      614.6437869496111,
+      700.9103780354639
+    ],
+    "forwardmost_NP_drives_aft_CG_limit": true
+  },
+  "preliminary_maiden_CG_seeds_from_forwardmost_NP": {
+    "8pct_static_margin_x_mm": 604.7380091718334,
+    "10pct_static_margin_x_mm": 602.2615647273889,
+    "12pct_static_margin_x_mm": 599.7851202829445,
+    "15pct_static_margin_x_mm": 596.0704536162777
+  },
+  "decision": {
+    "do_not_mark_airframe_with_single_CG_yet": true,
+    "battery_tray_adjustment_min_mm": 50,
+    "recommended_design_tray_adjustment_mm": 70,
+    "reason": "Model must accommodate uncertainty in fixed lifting-body AC and tail effectiveness without ballast.",
+    "freewing_87mm_CG": "benchmark only; different scale/geometry/powertrain and reference point"
+  },
+  "next_gates": [
+    "source/geometry estimate of fixed glove/body lifting-area AC",
+    "mass-property roll-up with battery moment sensitivity",
+    "RC benchmark mapping only as sanity check",
+    "glide/low-power trim progression before high-speed sweep tests"
+  ],
+  "release": {
+    "neutral_point_verified": false,
+    "maiden_CG_frozen": false,
+    "battery_tray_packaging_verified": false,
+    "flight_release": false
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "status": "V150_VARIABLE_SWEEP_WING_AC_GEOMETRY_SCREEN_NOT_WHOLE_AIRCRAFT_CG",
+  "source_wing": "NASA CR-3992 basic Grumman wing v08",
+  "source_pivot": "NADC-81293-60 pivot FS/BL v16",
+  "scale_factor_mm_per_fullscale_in": 1.1697428086486623,
+  "pivot_model_xy_mm": [
+    613.1323905812828,
+    125.20927023775282
+  ],
+  "sweep_rows": [
+    {
+      "sweep_deg": 20,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 661.1007311462394,
+      "quarter_chord_area_weighted_y_mm": 275.2392654557377,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 47.96834056495652,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 644.95558573344,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 650.3373008710398
+    },
+    {
+      "sweep_deg": 24,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 671.4494461017582,
+      "quarter_chord_area_weighted_y_mm": 271.52769763869924,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 58.31705552047538,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 655.3043006889588,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 660.6860158265587
+    },
+    {
+      "sweep_deg": 28,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 681.5140462247911,
+      "quarter_chord_area_weighted_y_mm": 267.10328115124025,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 68.38165564350822,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 665.3689008119917,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 670.7506159495915
+    },
+    {
+      "sweep_deg": 32,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 691.2454977952287,
+      "quarter_chord_area_weighted_y_mm": 261.9875713057468,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 78.11310721394591,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 675.1003523824294,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 680.4820675200292
+    },
+    {
+      "sweep_deg": 36,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 700.5963901592222,
+      "quarter_chord_area_weighted_y_mm": 256.2054913263569,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 87.46399957793938,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 684.4512447464228,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 689.8329598840227
+    },
+    {
+      "sweep_deg": 40,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 709.5211667091224,
+      "quarter_chord_area_weighted_y_mm": 249.7852109255174,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 96.3887761278396,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 693.3760212963231,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 698.7577364339229
+    },
+    {
+      "sweep_deg": 44,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 717.9763468306936,
+      "quarter_chord_area_weighted_y_mm": 242.75800906397686,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 104.84395624941078,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 701.8312014178942,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 707.2129165554941
+    },
+    {
+      "sweep_deg": 48,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 725.9207377362955,
+      "quarter_chord_area_weighted_y_mm": 235.15812156283286,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 112.78834715501262,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 709.7755923234961,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 715.1573074610959
+    },
+    {
+      "sweep_deg": 52,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 733.3156351520031,
+      "quarter_chord_area_weighted_y_mm": 227.02257431005302,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 120.18324457072026,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 717.1704897392037,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 722.5522048768036
+    },
+    {
+      "sweep_deg": 56,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 740.1250118809397,
+      "quarter_chord_area_weighted_y_mm": 218.39100287407038,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 126.99262129965689,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 723.9798664681404,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 729.3615816057402
+    },
+    {
+      "sweep_deg": 60,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 746.3156933241579,
+      "quarter_chord_area_weighted_y_mm": 209.3054594032787,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 133.18330274287507,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 730.1705479113585,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 735.5522630489584
+    },
+    {
+      "sweep_deg": 64,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 751.8575191039516,
+      "quarter_chord_area_weighted_y_mm": 199.81020775219187,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 138.7251285226688,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 735.7123736911523,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 741.0940888287521
+    },
+    {
+      "sweep_deg": 68,
+      "one_panel_area_mm2": 30090.298260593183,
+      "quarter_chord_area_weighted_x_mm": 756.723490002184,
+      "quarter_chord_area_weighted_y_mm": 189.95150783239478,
+      "mean_aerodynamic_chord_mm": 107.63430275199566,
+      "pivot_x_mm": 613.1323905812828,
+      "pivot_abs_y_mm": 125.20927023775282,
+      "ac_x_minus_pivot_mm": 143.59109942090117,
+      "wing_only_conservative_cg_seed_15pctMAC_ahead_x_mm": 740.5783445893846,
+      "wing_only_cg_seed_10pctMAC_ahead_x_mm": 745.9600597269845
+    }
+  ],
+  "ac_x_range_mm": [
+    661.1007311462394,
+    756.723490002184
+  ],
+  "ac_shift_20_to_68_mm": 95.62275885594465,
+  "mac_mm_range": [
+    107.63430275199566,
+    107.63430275199566
+  ],
+  "warning": "This is wing-alone quarter-chord geometry, not the whole-aircraft neutral point. Fuselage/glove and stabilator contributions are not yet included; do not use these x values as flight CG marks.",
+  "next_gate": "V151 include fixed glove/body lift surrogate and stabilator tail volume / benchmark CG cross-check, then define adjustable battery tray corridor.",
+  "release": {
+    "whole_aircraft_neutral_point_verified": false,
+    "flight_CG_frozen": false,
+    "battery_tray_frozen": false,
+    "flight_release": false
+  }
+}
