@@ -1,0 +1,2 @@
+model,sku_revision,shroud_od_max_mm,shroud_od_min_mm,body_length_mm,lip_od_mm,lip_removable,inlet_id_mm,outlet_id_mm,mass_g,lead_clearance_notes,bench_voltage_V,current_left_A,current_right_A,total_current_A,combined_thrust_g,esc_temp_C,motor_temp_C,vibration_result,pass_fail
+,,,,,,,,,,,,,,,,,,,,

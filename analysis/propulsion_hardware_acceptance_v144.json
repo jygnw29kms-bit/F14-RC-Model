@@ -1,0 +1,86 @@
+{
+  "status": "V144_EDF_HARDWARE_ACCEPTANCE_GATE",
+  "cad_source": "workspace/RC-F14-Tomcat/Fusion/Exports/Current/propulsion_v143/F14_TAPERED_FAN_SHOULDER_v143.f3d",
+  "cad_commit": "703fe98",
+  "current_mount": {
+    "carrier_outer_diameter_mm": 55.2,
+    "provisional_sleeve_ID_mm": 53.0,
+    "minimum_structural_wall_mm": 0.8,
+    "absolute_max_sleeve_ID_at_0p8_wall_mm": 53.6,
+    "recommended_radial_install_clearance_mm": 0.2,
+    "max_shroud_OD_without_changing_55p2_carrier_mm": 53.2,
+    "flow_throat_diameter_mm": 50.0,
+    "mount_band_x_mm": [
+      650.0,
+      658.0
+    ]
+  },
+  "candidates": [
+    {
+      "name": "FMS 50 mm 11-blade 2627-KV4500 4S",
+      "status": "provisional",
+      "published_thrust_g": 850,
+      "published_current_A": 40,
+      "body_OD_verified": false,
+      "intake_lip_revision_risk": "reported hardware revisions include fixed-lip versions; exact purchased unit must be checked",
+      "freeze": false
+    },
+    {
+      "name": "XFly Galaxy X5 50 mm 12-blade 2627-KV4600 4S",
+      "status": "preferred measurement candidate",
+      "published_thrust_g": 900,
+      "published_current_A": 40,
+      "published_weight_g": 75,
+      "recommended_ESC_A": 50,
+      "intake_ring_listed_separately": true,
+      "body_OD_verified": false,
+      "freeze": false
+    }
+  ],
+  "mandatory_measurements": [
+    "exact manufacturer/SKU/revision/label photo",
+    "maximum cylindrical shroud OD over intended clamp band",
+    "minimum shroud OD over intended clamp band",
+    "shroud body length",
+    "intake lip OD and whether ring/lip is removable without modifying rotor housing",
+    "fan inlet clear ID",
+    "rear outlet ID",
+    "motor/lead interference envelope",
+    "assembled EDF mass",
+    "mount-tab geometry if present"
+  ],
+  "geometric_acceptance": {
+    "shroud_OD_plus_two_radial_clearances_must_be_le_mm": 53.6,
+    "preferred_regenerated_sleeve_ID_formula": "measured max shroud OD + 0.40 mm",
+    "if_required_sleeve_ID_gt_53p6": "return to CAD containment screen before hardware freeze",
+    "fixed_lip_must_fit_or_be_removable": true,
+    "fan_body_must_fit_source_backed_aft_envelope": true
+  },
+  "bench_acceptance": {
+    "ESC_each_A": 50,
+    "full_power_duration_s": 10,
+    "repeat_runs": 3,
+    "measure": [
+      "battery voltage before/under load",
+      "current each EDF and total",
+      "installed twin thrust",
+      "ESC temperature",
+      "motor temperature",
+      "vibration/noise"
+    ],
+    "minimum_combined_installed_thrust_g": 1000,
+    "preferred_combined_installed_thrust_g": 1200,
+    "maximum_total_current_A": 90,
+    "no_rubbing_or_resonant_vibration": true,
+    "no_thermal_limit_or_desync": true
+  },
+  "release": {
+    "specific_EDF_frozen": false,
+    "mount_regenerated_to_measured_hardware": false,
+    "installed_thrust_verified": false,
+    "thermal_verified": false,
+    "propulsion_packaging_freeze": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
