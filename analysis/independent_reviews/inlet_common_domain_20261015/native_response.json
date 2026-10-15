@@ -1,0 +1,7 @@
+{
+  "request_id": "independent-inlet-domain-20261015-0630",
+  "status": "completed",
+  "bridge_revision": "v24_restartable_event_bridge",
+  "loaded_source_sha256": "7b872d5b8f1715dcf46396fca993018fc239b8cfb23a4774b6a92adb7e523152",
+  "executed_revision_source_sha256": "d8b02dec92419152f8a0107e80168e682d31c509546fa8ec82650b1f991619f3"
+}
