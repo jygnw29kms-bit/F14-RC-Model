@@ -1,0 +1,2 @@
+servo_model,voltage_V,mass_g,torque_kgcm,speed_s_per_60deg,stall_current_A,no_load_current_A,output_material,gear_material,freeplay_deg_after_100_cycles,temperature_C,mechanical_proof_pass,brownout_test_pass,notes
+,,,,,,,,,,,,,

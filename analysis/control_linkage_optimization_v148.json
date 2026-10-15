@@ -1,0 +1,59 @@
+{
+  "status": "V148_STABILATOR_LINKAGE_RATIO_OPTIMIZATION",
+  "source": "analysis/control_stabilator_torque_v146.json",
+  "assumptions": {
+    "linkage_effectiveness": 0.7,
+    "surface_motion_relation": "sin(surface angle)=(servo arm/stabilator crank)*sin(servo angle); planar screening relation",
+    "mechanical_interference_not_yet_CAD_verified": true
+  },
+  "default_8mm_arm": {
+    "design_case": {
+      "servo_arm_mm": 8.0,
+      "stabilator_crank_mm": 20.0,
+      "servo_half_travel_deg": 50.0,
+      "predicted_stabilator_half_travel_deg": 17.843481128270785,
+      "required_servo_torque_Nm": 0.3191230381500005,
+      "required_servo_torque_kgcm": 3.2541493594337303
+    },
+    "severe_case": {
+      "servo_arm_mm": 8.0,
+      "stabilator_crank_mm": 20.0,
+      "servo_half_travel_deg": 50.0,
+      "predicted_stabilator_half_travel_deg": 17.843481128270785,
+      "required_servo_torque_Nm": 0.765895291560001,
+      "required_servo_torque_kgcm": 7.809958462640951
+    }
+  },
+  "alternate_9mm_arm_for_more_throw": {
+    "design_case": {
+      "servo_arm_mm": 9.0,
+      "stabilator_crank_mm": 20.0,
+      "servo_half_travel_deg": 50.0,
+      "predicted_stabilator_half_travel_deg": 20.16470443156543,
+      "required_servo_torque_Nm": 0.3590134179187505,
+      "required_servo_torque_kgcm": 3.6609180293629464
+    },
+    "severe_case": {
+      "servo_arm_mm": 9.0,
+      "stabilator_crank_mm": 20.0,
+      "servo_half_travel_deg": 50.0,
+      "predicted_stabilator_half_travel_deg": 20.16470443156543,
+      "required_servo_torque_Nm": 0.8616322030050012,
+      "required_servo_torque_kgcm": 8.786203270471072
+    }
+  },
+  "decision": {
+    "default_servo_arm_mm": 8,
+    "default_stabilator_crank_mm": 20,
+    "predicted_default_surface_half_throw_deg": 17.843481128270785,
+    "servo_nominal_torque_class_min_kgcm": 10,
+    "9mm_arm_only_if_roll_authority_requires_more_throw": true,
+    "mechanical_CAD_and_bench_verification_required": true
+  },
+  "release": {
+    "linkage_packaging_verified": false,
+    "surface_throw_verified": false,
+    "servo_hardware_frozen": false,
+    "flight_release": false
+  }
+}

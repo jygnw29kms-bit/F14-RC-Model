@@ -1,0 +1,52 @@
+{
+  "status": "V145_STABILATOR_GEOMETRY_AND_CONTROL_ARCHITECTURE",
+  "source": "cad/fusion/F14TomcatRC/F14TomcatRC.py / NASA CR-163098 Fig.4 calibrated plan view",
+  "outline_mm": [
+    [
+      841.45,
+      -209.79
+    ],
+    [
+      802.38,
+      -224.73
+    ],
+    [
+      662.14,
+      -104.09
+    ],
+    [
+      750.29,
+      -72.06
+    ],
+    [
+      804.39,
+      -76.33
+    ],
+    [
+      825.42,
+      -112.63
+    ]
+  ],
+  "one_side_area_mm2": 15196.335150000017,
+  "one_side_area_dm2": 1.5196335150000018,
+  "centroid_model_mm": [
+    769.6847902113421,
+    -138.1023280822634
+  ],
+  "lateral_span_mm": 152.67,
+  "area_over_span_mean_chord_mm": 99.53713990960908,
+  "architecture": {
+    "left_stabilator_servo": "independent",
+    "right_stabilator_servo": "independent",
+    "mixing": "pitch + differential roll (taileron baseline)",
+    "wing_aileron_servos_baseline": false,
+    "additional_roll_devices": "optional only if measured taileron roll authority is insufficient"
+  },
+  "mechanism_benchmark": "Freewing F-14 manual may be used for packaging/mechanism cross-check only; no Freewing dimensions override NASA/full-scale geometry.",
+  "release": {
+    "pivot_axis_verified": false,
+    "roll_authority_verified": false,
+    "servo_hardware_frozen": false,
+    "flight_release": false
+  }
+}

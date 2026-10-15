@@ -1,0 +1,75 @@
+{
+  "status": "V147_STABILATOR_SERVO_AND_POWER_ACCEPTANCE_GATE",
+  "source": [
+    "analysis/control_stabilator_geometry_v145.json",
+    "analysis/control_stabilator_torque_v146.json",
+    "analysis/control_linkage_optimization_v148.json"
+  ],
+  "baseline_architecture": {
+    "stabilator_servos": 2,
+    "control": "independent pitch + differential roll mixing",
+    "wing_aileron_servos": 0,
+    "stabilator_load_bearing": "external metal shaft/bearing system; servo output is actuator only"
+  },
+  "servo_acceptance": {
+    "nominal_torque_at_operating_voltage_min_kgcm": 10,
+    "preferred_transit_time_60deg_s_max": 0.15,
+    "preferred_mass_each_g_max": 20,
+    "hard_mass_warning_each_g": 25,
+    "metal_output_spline_or_metal_horn_interface": true,
+    "metal_gears": true,
+    "dual_bearing_output_preferred": true,
+    "programmable_endpoint_or_transmitter_endpoint_required": true,
+    "actual_stall_current_measurement_required": true,
+    "torque_basis": "v148 default 8/20 mm linkage: severe sensitivity requires ~7.81 kgcm including 2x factor; 10 kgcm class leaves additional nominal margin before bench verification."
+  },
+  "linkage_acceptance": {
+    "servo_arm_mm_candidate": 8,
+    "stabilator_crank_mm_candidate": 20,
+    "ball_link_or_positive_clevis_required": true,
+    "positive_fastener_retention_required": true,
+    "surface_neutral_freeplay_total_deg_max": 0.5,
+    "mechanical_stop_independent_of_servo_overtravel": true,
+    "predicted_half_surface_throw_deg": 17.843481128270785
+  },
+  "bench_mechanical": {
+    "apply_surface_hinge_moment_Nm": [
+      0.28,
+      0.67
+    ],
+    "severe_case_Nm": 0.67,
+    "cycles_each_direction": 100,
+    "fail_if": [
+      "servo spline/horn slip",
+      "shaft/bearing movement",
+      "permanent surface neutral shift >0.25 deg",
+      "total neutral freeplay >0.5 deg",
+      "linkage disconnect or fastener loosening",
+      "abnormal gear noise or temperature rise"
+    ]
+  },
+  "receiver_power": {
+    "architecture": "dedicated HV BEC from 4S bus; propulsion ESC BECs not used as unverified parallel supplies",
+    "initial_BEC_class_continuous_A": 10,
+    "initial_BEC_peak_A": 15,
+    "regulated_voltage_candidate_V": 7.4,
+    "receiver_and_servo_voltage_compatibility_must_be_verified": true,
+    "brownout_test": "simultaneous stabilator rapid reversals + sweep actuator load while EDFs step from idle to full; receiver voltage logged",
+    "minimum_receiver_bus_voltage_V": 6.8,
+    "actual_peak_current_measurement_required": true
+  },
+  "mass_budget": {
+    "two_stabilator_servos_preferred_total_g_max": 40,
+    "flight_control_servo_budget_target_g": 55,
+    "note": "Remaining servo budget is reserve for optional control devices only after roll-authority test."
+  },
+  "release": {
+    "servo_model_frozen": false,
+    "BEC_model_frozen": false,
+    "mechanical_bench_pass": false,
+    "brownout_pass": false,
+    "taileron_roll_authority_verified": false,
+    "flutter_verified": false,
+    "flight_release": false
+  }
+}
