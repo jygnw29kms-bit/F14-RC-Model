@@ -31,7 +31,7 @@ def run_review(app,builder,mm,outdir):
             targets.append(loft.bodies.item(0))
         cut=temp.copy(targets[0])
         if not temp.booleanOperation(cut,temp.copy(targets[1]),adsk.fusion.BooleanTypes.DifferenceBooleanType):raise RuntimeError('Adapter hollow failed')
-        base2=root.features.baseFeatures.add();base2.startEdit();adapter=root.bRepBodies.add(cut,base2);base2.finishEdit();adapter.name='CANDIDATE_ADAPTER_'+side+'_UNMEASURED_FAN'
+        base2=root.features.baseFeatures.add();base2.startEdit();adapter=root.bRepBodies.add(cut,base2);base2.finishEdit();adapter=base2.bodies.item(0);adapter.name='CANDIDATE_ADAPTER_'+side+'_UNMEASURED_FAN'
         if not adapter.isValid or not adapter.isSolid:raise RuntimeError('Adapter invalid')
         source=next(b for b in bodies if b.name=='REFERENCE_INTERPOLATED_SOURCE_LOFT')
         inside=temp.copy(adapter)
