@@ -1,0 +1,31 @@
+{
+    "status":  "V128_PROPULSION_DATUM_DECOUPLED_FROM_PIVOT_WL",
+    "principle":  "Exterior OML remains source-controlled; internal EDF installation is RC-optimized and does not require the full-scale F-14 pivot waterline.",
+    "retained_hard_constraints":  [
+                                      "source-backed external fuselage/nacelle OML",
+                                      "registered current CAD fuselage transform",
+                                      "no collision with wingbox/sweep structure over full sweep range",
+                                      "twin 50 mm 4S architecture",
+                                      "minimum service and skin clearances",
+                                      "continuous inlet/EDF/exhaust flow path"
+                                  ],
+    "removed_false_gate":  "Absolute full-scale pivot WL \u003c=0.20 mm error is not a prerequisite for EDF placement.",
+    "pivot_wl_gate":  {
+                          "still_required_for":  "wing/pivot source fidelity and wingbox datum audit",
+                          "propulsion_dependency":  false
+                      },
+    "propulsion_axis_policy":  {
+                                   "required_outer_clear_diameter_mm":  55.6,
+                                   "coordinate_frame":  "current registered CAD fuselage frame",
+                                   "z":  "solve by direct CAD clearance optimization",
+                                   "housing":  "FMS-style 52.5 mm shroud candidate",
+                                   "x_start":  "aft of D / near E",
+                                   "lateral_seed_abs_y_mm":  64.272010715197354
+                               },
+    "next_gate":  "V129 direct CAD continuous EDF cylinder clearance search in current registered fuselage + fixed structures",
+    "release":  {
+                    "flight_release":  false,
+                    "propulsion_packaging_freeze":  false,
+                    "print_release":  false
+                }
+}

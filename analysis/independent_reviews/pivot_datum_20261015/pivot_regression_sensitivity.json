@@ -1,0 +1,33 @@
+{
+  "status": "PIVOT_WL_REGRESSION_MODEL_SELECTION_SENSITIVITY",
+  "source_sha256": "330490a4d3dad1921f807b4ac3c631ee6ed360ad9fe922bb841ddd7f57e4b4e1",
+  "fits": [
+    {
+      "omitted_inboard_stations": 0,
+      "stations_used": 8,
+      "pivot_extrapolated_z_mm": 188.1379479098309,
+      "slope": -0.03131933497072002,
+      "maximum_retained_residual_mm": 0.32109787416941865
+    },
+    {
+      "omitted_inboard_stations": 1,
+      "stations_used": 7,
+      "pivot_extrapolated_z_mm": 188.39249939933774,
+      "slope": -0.03238551395347311,
+      "maximum_retained_residual_mm": 0.09567542917060204
+    },
+    {
+      "omitted_inboard_stations": 2,
+      "stations_used": 6,
+      "pivot_extrapolated_z_mm": 188.50506777037677,
+      "slope": -0.032830284923359626,
+      "maximum_retained_residual_mm": 0.003655008467257379
+    }
+  ],
+  "pivot_z_model_selection_spread_mm": 0.36711986054586987,
+  "comparison_limit_mm": 0.2,
+  "spread_within_limit": false,
+  "absolute_pivot_WL_verified": false,
+  "statistical_confidence_is_registration_accuracy": false,
+  "print_release": false
+}
