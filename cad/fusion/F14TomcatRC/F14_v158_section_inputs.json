@@ -1,0 +1,22 @@
+{
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\cg_v157\\F14_BATTERY_SKELETON_TRAY_v157.f3d",
+    "sha256":  "0f4277aa6631dd03123e8d2d6727db1766e5ff4e935d767f488f2e00a45187e4",
+    "anchor_x_mm":  [
+                        249,
+                        431
+                    ],
+    "anchor_pad_center_abs_y_mm":  23,
+    "anchor_pad_size_mm":  [
+                               14,
+                               8,
+                               8
+                           ],
+    "anchor_center_z_mm":  194,
+    "mount_hole_diameter_mm":  3.3,
+    "mount_hole_axis_y_span_mm":  [
+                                      18,
+                                      28
+                                  ],
+    "proof_force_N":  47.1,
+    "hardware_sizing_force_N":  94.2
+}

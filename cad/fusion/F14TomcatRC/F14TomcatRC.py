@@ -2570,6 +2570,24 @@ def build_project_revision():
         study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
         with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
         return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='battery_frame_v158':
+        path=os.path.join(os.path.dirname(__file__),'F14BatteryFrameInterfaces_v158.py')
+        spec=importlib.util.spec_from_file_location('f14_battery_frame_v158',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'cg_v158'))
+    if review=='battery_skeleton_v157':
+        path=os.path.join(os.path.dirname(__file__),'F14BatterySkeletonTray_v157.py')
+        spec=importlib.util.spec_from_file_location('f14_battery_skeleton_v157',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'cg_v157'))
+    if review=='battery_tray_struct_v155':
+        path=os.path.join(os.path.dirname(__file__),'F14BatteryTrayStructureSearch_v155.py')
+        spec=importlib.util.spec_from_file_location('f14_battery_tray_struct_v155',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'cg_v155'))
     if review=='inlet_wall_verify_v154':
         path=os.path.join(os.path.dirname(__file__),'F14CompleteEndInletWalls_v154.py')
         spec=importlib.util.spec_from_file_location('f14_inlet_wall_verify_v154',path)

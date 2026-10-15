@@ -1,0 +1,128 @@
+{
+  "status": "V157_BATTERY_SKELETON_TRAY_CANDIDATE",
+  "source": {
+    "source_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v105\\F14_MONOLITHIC_LOWER_HARDPOINT_MODULES_v105.f3d",
+    "source_sha256": "033a76fe21633d0257f0ff6ec2b47610b26adc7314c15037b5ae42de57e54cc6",
+    "v155_audit": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\cg_v155\\F14_v155_battery_tray_structural_envelope_audit.json",
+    "v155_audit_sha256": "7a8b7334af7fac0dcdff0ce72f97abda94d24e6a3b992c6443768c6727d32535",
+    "tray_center_mm": [
+      340,
+      0,
+      205
+    ],
+    "outer_envelope_mm": [
+      196,
+      46,
+      34
+    ],
+    "tray_x_range_mm": [
+      242,
+      438
+    ],
+    "base_z_mm": 190,
+    "floor_top_z_mm": 192,
+    "rail_outer_y_mm": 23,
+    "rail_inner_y_mm": 19,
+    "rail_height_mm": 10,
+    "rail_width_mm": 4,
+    "floor_strip_width_mm": 8,
+    "floor_strip_thickness_mm": 2,
+    "floor_strip_center_abs_y_mm": 14,
+    "crossbar_x_mm": [
+      246,
+      340,
+      434
+    ],
+    "crossbar_x_thickness_mm": 4,
+    "crossbar_y_length_mm": 46,
+    "crossbar_z_thickness_mm": 2,
+    "pin_hole_diameter_mm": 4.2,
+    "pin_hole_pitch_mm": 10,
+    "pin_first_x_mm": 252,
+    "pin_last_x_mm": 428,
+    "pin_center_z_mm": 195,
+    "reference_pack_mm": [
+      106,
+      36,
+      25
+    ],
+    "reference_pack_center_x_mm": 340,
+    "battery_travel_mm": 70,
+    "strap_undertray_clearance_mm": 2
+  },
+  "geometry": {
+    "tray_volume_cm3": 20.484963001264514,
+    "outside_fuselage_cm3": 0,
+    "containment_fraction": 1.0,
+    "fixed_structure_collisions": [],
+    "pin_hole_count": 18,
+    "pin_hole_x_mm": [
+      252.0,
+      262.0,
+      272.0,
+      282.0,
+      292.0,
+      302.0,
+      312.0,
+      322.0,
+      332.0,
+      342.0,
+      352.0,
+      362.0,
+      372.0,
+      382.0,
+      392.0,
+      402.0,
+      412.0,
+      422.0
+    ],
+    "reference_stop_pins_mm": [
+      282.0,
+      402.0
+    ],
+    "undertray_strap_clearance_mm": 2
+  },
+  "reference_pack_travel_checks": [
+    {
+      "position": "forward",
+      "center_x_mm": 305.0,
+      "x_range_mm": [
+        252.0,
+        358.0
+      ],
+      "tray_positive_overlap_cm3": 0.0,
+      "inside_fuselage_fraction": 1.0,
+      "pass": true
+    },
+    {
+      "position": "center",
+      "center_x_mm": 340.0,
+      "x_range_mm": [
+        287.0,
+        393.0
+      ],
+      "tray_positive_overlap_cm3": 0.0,
+      "inside_fuselage_fraction": 1.0,
+      "pass": true
+    },
+    {
+      "position": "aft",
+      "center_x_mm": 375.0,
+      "x_range_mm": [
+        322.0,
+        428.0
+      ],
+      "tray_positive_overlap_cm3": 0.0,
+      "inside_fuselage_fraction": 1.0,
+      "pass": true
+    }
+  ],
+  "geometry_candidate_pass": true,
+  "frame_anchor_interfaces_designed": false,
+  "strap_hardware_verified": false,
+  "stop_pin_hardware_verified": false,
+  "retention_proof_pass": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "c6cb93b667466b5213f331a1e7d1ad8243eb0b8683ebf87b0bfd138c813ee435"
+}

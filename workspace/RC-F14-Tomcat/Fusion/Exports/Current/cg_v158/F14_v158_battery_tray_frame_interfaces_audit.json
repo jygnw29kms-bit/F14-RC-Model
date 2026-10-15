@@ -1,0 +1,74 @@
+{
+  "status": "V158_BATTERY_TRAY_FRAME_INTERFACE_CANDIDATE",
+  "source": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\cg_v157\\F14_BATTERY_SKELETON_TRAY_v157.f3d",
+    "sha256": "0f4277aa6631dd03123e8d2d6727db1766e5ff4e935d767f488f2e00a45187e4",
+    "anchor_x_mm": [
+      249,
+      431
+    ],
+    "anchor_pad_center_abs_y_mm": 23,
+    "anchor_pad_size_mm": [
+      14,
+      8,
+      8
+    ],
+    "anchor_center_z_mm": 194,
+    "mount_hole_diameter_mm": 3.3,
+    "mount_hole_axis_y_span_mm": [
+      18,
+      28
+    ],
+    "proof_force_N": 47.1,
+    "hardware_sizing_force_N": 94.2
+  },
+  "geometry": {
+    "tray_with_interfaces_volume_cm3": 22.11478915821261,
+    "outside_fuselage_cm3": 0,
+    "containment_fraction": 1.0,
+    "fixed_structure_collisions": [],
+    "interfaces": [
+      {
+        "x_mm": 249.0,
+        "side": "R",
+        "outer_interface_y_mm": 27.0,
+        "z_mm": 194.0,
+        "hole_d_mm": 3.3
+      },
+      {
+        "x_mm": 249.0,
+        "side": "L",
+        "outer_interface_y_mm": -27.0,
+        "z_mm": 194.0,
+        "hole_d_mm": 3.3
+      },
+      {
+        "x_mm": 431.0,
+        "side": "R",
+        "outer_interface_y_mm": 27.0,
+        "z_mm": 194.0,
+        "hole_d_mm": 3.3
+      },
+      {
+        "x_mm": 431.0,
+        "side": "L",
+        "outer_interface_y_mm": -27.0,
+        "z_mm": 194.0,
+        "hole_d_mm": 3.3
+      }
+    ]
+  },
+  "load_screens": {
+    "single_interface_full_2x_sizing_force_N": 94.2,
+    "printed_hole_bearing_MPa": 3.5681818181818183,
+    "M3_nominal_shank_single_shear_MPa": 13.326573901561371
+  },
+  "geometry_candidate_pass": true,
+  "frame_anchor_interfaces_designed": true,
+  "mating_internal_frames_designed": false,
+  "frame_fastener_hardware_verified": false,
+  "retention_proof_pass": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "7647e0e3e83d254e9a6d3eed1188135d37e5de9c793aade23a9be41eaa27b231"
+}
