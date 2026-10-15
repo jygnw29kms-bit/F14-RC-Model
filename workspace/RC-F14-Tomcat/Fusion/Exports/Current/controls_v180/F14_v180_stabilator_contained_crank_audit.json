@@ -1,0 +1,152 @@
+{
+  "status": "V180_STABILATOR_CONTAINED_CRANK_AND_STATIC_STACK",
+  "source": {
+    "v177_path": "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current/controls_v177/F14_STABILATOR_BEARING_RETENTION_v177.f3d",
+    "v177_sha256": "d661b1d7bb974d259e1d7e6f8ec3b302ab2d2136d1fe92d249e9fab9b53a38a3",
+    "source_oml_path": "C:/Users/dezen/Desktop/F14-RC-Model/analysis/independent_reviews/allowanced_inlet_20261015/F14_ALLOWANCED_INLET_WALL_CANDIDATE.f3d",
+    "source_oml_sha256": "cea5f21ed9551991f3b7306ea8ce3df92f02e20bda3bc5f3b5ef61c94f4baf93",
+    "v179c_audit_path": "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current/controls_v179c/F14_v179c_stabilator_crank_radius_scan.json",
+    "v179c_audit_sha256": "065fae934bd104c3b656f9dbe190a1474da72b9a29e665b3a1836ca15c6d12bc",
+    "pivot_x_mm": 736.0078983334656,
+    "pivot_z_mm": 0.0,
+    "crank_radius_mm": 18.9,
+    "crank_abs_y_range_mm": [
+      76.0,
+      80.0
+    ],
+    "servo_arm_mm": 8.0,
+    "servo_half_travel_deg": 50.0,
+    "severe_required_servo_torque_kgcm": 8.264506309672965,
+    "nominal_servo_class_kgcm": 14.0,
+    "containment_tolerance_cm3": 1e-05,
+    "interference_tolerance_cm3": 1e-08
+  },
+  "records": [
+    {
+      "side": "R",
+      "outside_source_oml_cm3": 0.0,
+      "containment_pass": true,
+      "static_intersections": [
+        {
+          "body": "CANDIDATE_D_BORE_STABILATOR_FITTING_R_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "REF_BEARING_6x13x5_R_1_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_PRINTED_BEARING_HOUSING_R_1_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "REF_BEARING_6x13x5_R_2_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_PRINTED_BEARING_HOUSING_R_2_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_BEARING_INBOARD_SHAFT_COLLAR_R_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_BEARING_OUTER_SHAFT_SHOULDER_R_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_SURFACE_INNER_SHAFT_COLLAR_R_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_SURFACE_OUTER_END_WASHER_R_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "no_static_interference": true
+    },
+    {
+      "side": "L",
+      "outside_source_oml_cm3": 0.0,
+      "containment_pass": true,
+      "static_intersections": [
+        {
+          "body": "CANDIDATE_D_BORE_STABILATOR_FITTING_L_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "REF_BEARING_6x13x5_L_1_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_PRINTED_BEARING_HOUSING_L_1_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "REF_BEARING_6x13x5_L_2_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_PRINTED_BEARING_HOUSING_L_2_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_BEARING_INBOARD_SHAFT_COLLAR_L_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_BEARING_OUTER_SHAFT_SHOULDER_L_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_SURFACE_INNER_SHAFT_COLLAR_L_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "body": "CANDIDATE_SURFACE_OUTER_END_WASHER_L_v177",
+          "intersection_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "no_static_interference": true
+    }
+  ],
+  "bilateral_crank_containment_pass": true,
+  "bilateral_static_interference_pass": true,
+  "linkage": {
+    "crank_radius_mm": 18.9,
+    "servo_arm_mm": 8.0,
+    "predicted_surface_half_throw_deg": 18.920240551839857,
+    "severe_required_servo_torque_kgcm": 8.264506309672965,
+    "nominal_servo_class_kgcm": 14.0,
+    "servo_class_ratio": 1.693991083728024
+  },
+  "pivot_axis_unchanged_from_v175": true,
+  "bearing_stack_unchanged_from_v177": true,
+  "servo_location_frozen": false,
+  "pushrod_path_verified": false,
+  "dynamic_linkage_clearance_verified": false,
+  "actual_hardware_verified": false,
+  "bench_proof_pass": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "4b82271d99d1c858d54721f8b4835e395b910c4a67d16e228f5be99f8ffc46f5"
+}

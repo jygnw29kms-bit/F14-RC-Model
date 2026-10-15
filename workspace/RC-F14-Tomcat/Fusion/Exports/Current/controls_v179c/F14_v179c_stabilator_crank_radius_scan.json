@@ -1,0 +1,572 @@
+{
+  "status": "V179C_MAXIMUM_CONTAINED_STABILATOR_CRANK_RADIUS",
+  "source_oml_path": "C:/Users/dezen/Desktop/F14-RC-Model/analysis/independent_reviews/allowanced_inlet_20261015/F14_ALLOWANCED_INLET_WALL_CANDIDATE.f3d",
+  "source_oml_sha256": "cea5f21ed9551991f3b7306ea8ce3df92f02e20bda3bc5f3b5ef61c94f4baf93",
+  "fixed_axis": {
+    "x_mm": 736.0078983334656,
+    "abs_y_range_mm": [
+      76.0,
+      80.0
+    ],
+    "z_mm": 0.0
+  },
+  "scan_step_mm": 0.1,
+  "rows": [
+    {
+      "radius_mm": 20.0,
+      "diameter_mm": 40.0,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.035780991877394364,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.035780991877394364,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 19.9,
+      "diameter_mm": 39.8,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.030718025778783797,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.030718025778783797,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 19.8,
+      "diameter_mm": 39.6,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0259301553622997,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0259301553622997,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 19.7,
+      "diameter_mm": 39.4,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.021430860337305013,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.021430860337305013,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 19.6,
+      "diameter_mm": 39.2,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.017236410946968483,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.017236410946968483,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 19.5,
+      "diameter_mm": 39.0,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.013366936400372786,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.013366936400372786,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 19.4,
+      "diameter_mm": 38.8,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.009848167528802243,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.009848167528802243,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 19.3,
+      "diameter_mm": 38.6,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.006714525375500102,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.006714525375500102,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 19.2,
+      "diameter_mm": 38.4,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.004015293586044244,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.004015293586044244,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 19.1,
+      "diameter_mm": 38.2,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0018295825402532273,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0018295825402532273,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 19.0,
+      "diameter_mm": 38.0,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.00032020385476272395,
+          "pass_": false
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.00032020385476272395,
+          "pass_": false
+        }
+      ],
+      "bilateral_pass": false
+    },
+    {
+      "radius_mm": 18.9,
+      "diameter_mm": 37.8,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 18.8,
+      "diameter_mm": 37.6,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 18.7,
+      "diameter_mm": 37.4,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 18.6,
+      "diameter_mm": 37.2,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 18.5,
+      "diameter_mm": 37.0,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 18.4,
+      "diameter_mm": 36.8,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 18.3,
+      "diameter_mm": 36.6,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 18.2,
+      "diameter_mm": 36.4,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 18.1,
+      "diameter_mm": 36.2,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 18.0,
+      "diameter_mm": 36.0,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 17.9,
+      "diameter_mm": 35.8,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 17.8,
+      "diameter_mm": 35.6,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 17.7,
+      "diameter_mm": 35.4,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 17.6,
+      "diameter_mm": 35.2,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 17.5,
+      "diameter_mm": 35.0,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 17.4,
+      "diameter_mm": 34.8,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 17.3,
+      "diameter_mm": 34.6,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 17.2,
+      "diameter_mm": 34.4,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 17.1,
+      "diameter_mm": 34.2,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "radius_mm": 17.0,
+      "diameter_mm": 34.0,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "pass_": true
+        }
+      ],
+      "bilateral_pass": true
+    }
+  ],
+  "selected_largest_contained_radius": {
+    "radius_mm": 18.9,
+    "diameter_mm": 37.8,
+    "sides": [
+      {
+        "side": "R",
+        "outside_source_oml_cm3": 0.0,
+        "pass_": true
+      },
+      {
+        "side": "L",
+        "outside_source_oml_cm3": 0.0,
+        "pass_": true
+      }
+    ],
+    "bilateral_pass": true
+  },
+  "linkage_effect": {
+    "servo_arm_mm": 8.0,
+    "servo_half_travel_deg": 50.0,
+    "predicted_surface_half_throw_deg": 18.920240551839857,
+    "severe_required_servo_torque_kgcm": 8.264506309672965,
+    "ratio_to_14kgcm_class": 1.693991083728024
+  },
+  "actual_hardware_verified": false,
+  "bench_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "c30a71a24bfc7a1b7a79438af52add57c3dd457bc4901df3fdb98da3faafcdc4"
+}
