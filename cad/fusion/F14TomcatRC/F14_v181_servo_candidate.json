@@ -1,0 +1,26 @@
+{
+  "candidate": "TORQ TCM-1022",
+  "source_urls": [
+    "https://nitrohobbies.com/tcm-1022/",
+    "https://www.helidirect.com/products/torq-tcm-1022b-premium-direct-mount-servo-for-axial-scx24-black"
+  ],
+  "operating_voltage_v": [5.0, 8.4],
+  "stall_torque_kgcm_at_8p4v": 14.5,
+  "speed_sec_per_60deg_at_8p4v": 0.055,
+  "dimensions_mm": [23.0, 12.0, 27.5],
+  "conservative_weight_g": 22.0,
+  "gear_material": "full precision CNC metal gears",
+  "case_material": "CNC aluminum",
+  "motor_type": "coreless",
+  "spline": "25T",
+  "deadband_us": 3,
+  "refresh_hz": 330,
+  "preferred_mass_gate_g": 20.0,
+  "hard_mass_warning_gate_g": 25.0,
+  "v180_required_servo_torque_kgcm": 8.264506309672965,
+  "packaging_clearance_each_side_mm": 2.0,
+  "mounting_ears_exact_geometry_verified": false,
+  "output_spline_exact_offset_verified": false,
+  "actual_unit_measured": false,
+  "hardware_frozen": false
+}

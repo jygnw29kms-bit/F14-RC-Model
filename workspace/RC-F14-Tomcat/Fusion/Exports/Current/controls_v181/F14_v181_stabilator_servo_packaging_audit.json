@@ -1,0 +1,374 @@
+{
+  "status": "V181_TORQ_TCM1022_SERVO_PACKAGING_CANDIDATE",
+  "candidate": {
+    "candidate": "TORQ TCM-1022",
+    "source_urls": [
+      "https://nitrohobbies.com/tcm-1022/",
+      "https://www.helidirect.com/products/torq-tcm-1022b-premium-direct-mount-servo-for-axial-scx24-black"
+    ],
+    "operating_voltage_v": [
+      5.0,
+      8.4
+    ],
+    "stall_torque_kgcm_at_8p4v": 14.5,
+    "speed_sec_per_60deg_at_8p4v": 0.055,
+    "dimensions_mm": [
+      23.0,
+      12.0,
+      27.5
+    ],
+    "conservative_weight_g": 22.0,
+    "gear_material": "full precision CNC metal gears",
+    "case_material": "CNC aluminum",
+    "motor_type": "coreless",
+    "spline": "25T",
+    "deadband_us": 3,
+    "refresh_hz": 330,
+    "preferred_mass_gate_g": 20.0,
+    "hard_mass_warning_gate_g": 25.0,
+    "v180_required_servo_torque_kgcm": 8.264506309672965,
+    "packaging_clearance_each_side_mm": 2.0,
+    "mounting_ears_exact_geometry_verified": false,
+    "output_spline_exact_offset_verified": false,
+    "actual_unit_measured": false,
+    "hardware_frozen": false
+  },
+  "v180_source_sha256": "f8edaa5131101f143cbc1055c8f4d2813df5c721ba558be2549ed01ec2f87cd8",
+  "oml_source_sha256": "cea5f21ed9551991f3b7306ea8ce3df92f02e20bda3bc5f3b5ef61c94f4baf93",
+  "scan_candidate_count": 200,
+  "passing_candidate_count": 74,
+  "selected": {
+    "orientation": "A_XL_ZW",
+    "center_mm": [
+      700.0,
+      60.0,
+      0.0
+    ],
+    "expanded_dims_mm": [
+      27.0,
+      31.5,
+      16.0
+    ],
+    "inboard_face_to_crank_plane_gap_mm": 0.25,
+    "sides": [
+      {
+        "side": "R",
+        "outside_source_oml_cm3": 0.0,
+        "blockers": [],
+        "pass": true
+      },
+      {
+        "side": "L",
+        "outside_source_oml_cm3": 0.0,
+        "blockers": [],
+        "pass": true
+      }
+    ],
+    "bilateral_pass": true
+  },
+  "top_passing_candidates": [
+    {
+      "orientation": "A_XL_ZW",
+      "center_mm": [
+        700.0,
+        60.0,
+        0.0
+      ],
+      "expanded_dims_mm": [
+        27.0,
+        31.5,
+        16.0
+      ],
+      "inboard_face_to_crank_plane_gap_mm": 0.25,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "orientation": "B_XW_ZL",
+      "center_mm": [
+        700.0,
+        60.0,
+        0.0
+      ],
+      "expanded_dims_mm": [
+        16.0,
+        31.5,
+        27.0
+      ],
+      "inboard_face_to_crank_plane_gap_mm": 0.25,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "orientation": "A_XL_ZW",
+      "center_mm": [
+        700.0,
+        60.0,
+        -4.0
+      ],
+      "expanded_dims_mm": [
+        27.0,
+        31.5,
+        16.0
+      ],
+      "inboard_face_to_crank_plane_gap_mm": 0.25,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "orientation": "A_XL_ZW",
+      "center_mm": [
+        700.0,
+        60.0,
+        4.0
+      ],
+      "expanded_dims_mm": [
+        27.0,
+        31.5,
+        16.0
+      ],
+      "inboard_face_to_crank_plane_gap_mm": 0.25,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "orientation": "B_XW_ZL",
+      "center_mm": [
+        700.0,
+        60.0,
+        -4.0
+      ],
+      "expanded_dims_mm": [
+        16.0,
+        31.5,
+        27.0
+      ],
+      "inboard_face_to_crank_plane_gap_mm": 0.25,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "orientation": "B_XW_ZL",
+      "center_mm": [
+        700.0,
+        60.0,
+        4.0
+      ],
+      "expanded_dims_mm": [
+        16.0,
+        31.5,
+        27.0
+      ],
+      "inboard_face_to_crank_plane_gap_mm": 0.25,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "orientation": "A_XL_ZW",
+      "center_mm": [
+        700.0,
+        60.0,
+        -8.0
+      ],
+      "expanded_dims_mm": [
+        27.0,
+        31.5,
+        16.0
+      ],
+      "inboard_face_to_crank_plane_gap_mm": 0.25,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "orientation": "A_XL_ZW",
+      "center_mm": [
+        700.0,
+        60.0,
+        8.0
+      ],
+      "expanded_dims_mm": [
+        27.0,
+        31.5,
+        16.0
+      ],
+      "inboard_face_to_crank_plane_gap_mm": 0.25,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "orientation": "B_XW_ZL",
+      "center_mm": [
+        700.0,
+        60.0,
+        -8.0
+      ],
+      "expanded_dims_mm": [
+        16.0,
+        31.5,
+        27.0
+      ],
+      "inboard_face_to_crank_plane_gap_mm": 0.25,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        }
+      ],
+      "bilateral_pass": true
+    },
+    {
+      "orientation": "A_XL_ZW",
+      "center_mm": [
+        690.0,
+        60.0,
+        0.0
+      ],
+      "expanded_dims_mm": [
+        27.0,
+        31.5,
+        16.0
+      ],
+      "inboard_face_to_crank_plane_gap_mm": 0.25,
+      "sides": [
+        {
+          "side": "R",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "outside_source_oml_cm3": 0.0,
+          "blockers": [],
+          "pass": true
+        }
+      ],
+      "bilateral_pass": true
+    }
+  ],
+  "torque_margin_ratio": 1.7544907652897392,
+  "mass_preferred_gate_pass": false,
+  "mass_hard_warning_pass": true,
+  "mounting_ears_exact_geometry_verified": false,
+  "output_spline_exact_offset_verified": false,
+  "pushrod_path_verified": false,
+  "dynamic_linkage_clearance_verified": false,
+  "actual_unit_measured": false,
+  "hardware_frozen": false,
+  "bench_proof_pass": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "bff4f9290b5d7d198859de08012bd01b394a2fa5182c4de38fc62ee19cf443a6"
+}
