@@ -1,0 +1,76 @@
+{
+  "status": "NATIVE_TWIN_EDF_INTERNAL_LAYOUT_CANDIDATE",
+  "inputs": [
+    {
+      "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\independent_reviews\\joined_inlets_20261015\\F14_JOINED_INLET_ADAPTER_CANDIDATES.f3d",
+      "sha256": "c2f0d24853aeccd6182120752f8500db062d11536d334d44054d0383751a1240"
+    },
+    {
+      "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\independent_reviews\\native_internal_exhaust_20261015\\F14_INTERNAL_EXHAUST_STUDY.f3d",
+      "sha256": "e3d94652ed5f53beb8ef039c9e6fde56dbe86bb40efd5df6395a7d52f68688d0"
+    }
+  ],
+  "ducts": [
+    {
+      "body": "CANDIDATE_JOINED_INLET_R_NO_PRINT_RELEASE",
+      "volume_cm3": 7.969609092720702,
+      "centroid_mm": [
+        627.1832750991637,
+        61.381488904430334,
+        -8.567090047696418
+      ]
+    },
+    {
+      "body": "CANDIDATE_JOINED_INLET_L_NO_PRINT_RELEASE",
+      "volume_cm3": 7.969609092720745,
+      "centroid_mm": [
+        627.1832750991648,
+        -61.38148890443068,
+        -8.567090047696386
+      ]
+    },
+    {
+      "body": "INTERNAL_EXHAUST_STUDY_R_NOT_RELEASED",
+      "volume_cm3": 2.782359152265828,
+      "centroid_mm": [
+        742.7710914126795,
+        65.00000000000117,
+        -10.000000000000197
+      ]
+    },
+    {
+      "body": "INTERNAL_EXHAUST_STUDY_L_NOT_RELEASED",
+      "volume_cm3": 2.782359152265826,
+      "centroid_mm": [
+        742.7710914126817,
+        -65.00000000000148,
+        -10.000000000000231
+      ]
+    }
+  ],
+  "interfaces": [
+    {
+      "side": "R",
+      "inlet_to_housing_axial_gap_mm": 0.0,
+      "housing_to_exhaust_axial_gap_mm": 0.0
+    },
+    {
+      "side": "L",
+      "inlet_to_housing_axial_gap_mm": 0.0,
+      "housing_to_exhaust_axial_gap_mm": 0.0
+    }
+  ],
+  "printed_duct_material_volume_cm3": 21.5039364899731,
+  "uniform_material_duct_CG_mm": [
+    657.0947118968217,
+    -2.8416506579556523e-13,
+    -8.93789379537528
+  ],
+  "assumed_PLA_density_g_cm3": 1.26,
+  "analytic_PLA_duct_mass_g": 27.094959977366106,
+  "EDF_mass_included": false,
+  "actual_hardware_verified": false,
+  "mechanism_collision_verified": false,
+  "aircraft_CG_verified": false,
+  "print_release": false
+}
