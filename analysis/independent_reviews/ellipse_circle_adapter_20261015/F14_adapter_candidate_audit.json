@@ -1,0 +1,30 @@
+{
+  "status": "NATIVE_ELLIPSE_TO_CIRCLE_ADAPTER_CANDIDATES",
+  "input": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\independent_reviews\\allowanced_inlet_20261015\\F14_ALLOWANCED_INLET_WALL_CANDIDATE.f3d",
+    "sha256": "cea5f21ed9551991f3b7306ea8ce3df92f02e20bda3bc5f3b5ef61c94f4baf93"
+  },
+  "adapters": [
+    {
+      "side": "R",
+      "volume_cm3": 1.0418236094994737,
+      "outside_candidate_source_cm3": 0,
+      "valid_solid": true
+    },
+    {
+      "side": "L",
+      "volume_cm3": 1.0418236094994893,
+      "outside_candidate_source_cm3": 0,
+      "valid_solid": true
+    }
+  ],
+  "x_span_mm": [
+    650,
+    658
+  ],
+  "fan_inner_diameter_assumed_mm": 50,
+  "fan_outer_diameter_candidate_mm": 51.62,
+  "normal_wall_thickness_verified": false,
+  "actual_hardware_fit_verified": false,
+  "print_release": false
+}
