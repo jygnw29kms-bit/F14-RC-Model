@@ -1,0 +1,38 @@
+{
+  "status": "INDEPENDENT_BINARY_STL_TOPOLOGY_AND_SCALE_CHECK",
+  "records": [
+    {
+      "side": "R",
+      "triangles": 8610,
+      "vertices": 4305,
+      "every_edge_used_twice": true,
+      "winding_consistent": true,
+      "signed_volume_mm3": 7968.669636192378,
+      "relative_native_volume_error": 0.00011787987558670968,
+      "extents_mm": [
+        62.151611328125,
+        59.690656661987305,
+        53.89197540283203
+      ],
+      "fits_assumed_240mm_cube": true
+    },
+    {
+      "side": "L",
+      "triangles": 8610,
+      "vertices": 4305,
+      "every_edge_used_twice": true,
+      "winding_consistent": true,
+      "signed_volume_mm3": 7968.519102768845,
+      "relative_native_volume_error": 0.0001367683081088034,
+      "extents_mm": [
+        62.151611328125,
+        59.690656661987305,
+        53.89197540283203
+      ],
+      "fits_assumed_240mm_cube": true
+    }
+  ],
+  "self_intersections_checked": false,
+  "slicer_verified": false,
+  "print_release": false
+}
