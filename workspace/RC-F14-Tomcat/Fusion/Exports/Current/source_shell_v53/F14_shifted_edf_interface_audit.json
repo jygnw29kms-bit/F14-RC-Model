@@ -1,0 +1,73 @@
+{
+  "status": "NATIVE_SHIFTED_EDF_INTERFACE_PACKAGING_SCREEN",
+  "input": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\independent_reviews\\ellipse_circle_adapter_20261015\\F14_ELLIPSE_CIRCLE_ADAPTER_CANDIDATE.f3d",
+    "sha256": "3b8b90beac5b941141efab888450f90641fe6c5cc8edb069ccf9cf8e83d6db0c"
+  },
+  "records": [
+    {
+      "side": "R",
+      "kind": "housing",
+      "x_start_mm": 658,
+      "x_end_mm": 731.5,
+      "diameter_mm": 52.5,
+      "outside_candidate_source_cm3": 0,
+      "containment_screen_pass": true
+    },
+    {
+      "side": "R",
+      "kind": "housing_skin_service",
+      "x_start_mm": 658,
+      "x_end_mm": 731.5,
+      "diameter_mm": 54.5,
+      "outside_candidate_source_cm3": 0,
+      "containment_screen_pass": true
+    },
+    {
+      "side": "R",
+      "kind": "mount",
+      "x_start_mm": 658,
+      "x_end_mm": 666,
+      "diameter_mm": 55.2,
+      "outside_candidate_source_cm3": 0,
+      "containment_screen_pass": true
+    },
+    {
+      "side": "L",
+      "kind": "housing",
+      "x_start_mm": 658,
+      "x_end_mm": 731.5,
+      "diameter_mm": 52.5,
+      "outside_candidate_source_cm3": 0,
+      "containment_screen_pass": true
+    },
+    {
+      "side": "L",
+      "kind": "housing_skin_service",
+      "x_start_mm": 658,
+      "x_end_mm": 731.5,
+      "diameter_mm": 54.5,
+      "outside_candidate_source_cm3": 0,
+      "containment_screen_pass": true
+    },
+    {
+      "side": "L",
+      "kind": "mount",
+      "x_start_mm": 658,
+      "x_end_mm": 666,
+      "diameter_mm": 55.2,
+      "outside_candidate_source_cm3": 0,
+      "containment_screen_pass": true
+    }
+  ],
+  "all_candidate_containment_pass": true,
+  "fan_face_candidate_x_mm": 658,
+  "housing_length_assumed_mm": 73.5,
+  "housing_OD_assumed_mm": 52.5,
+  "skin_radial_allowance_mm": 0.8,
+  "service_radial_allowance_mm": 0.2,
+  "actual_hardware_verified": false,
+  "source_fidelity_verified": false,
+  "mechanism_clearance_verified": false,
+  "print_release": false
+}

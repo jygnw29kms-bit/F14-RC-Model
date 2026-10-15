@@ -1,0 +1,47 @@
+{
+  "status": "NATIVE_STL_MILLIMETER_CANDIDATE_EXPORTS",
+  "input": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\independent_reviews\\joined_inlets_20261015\\F14_JOINED_INLET_ADAPTER_CANDIDATES.f3d",
+    "sha256": "c2f0d24853aeccd6182120752f8500db062d11536d334d44054d0383751a1240"
+  },
+  "files": [
+    {
+      "side": "R",
+      "path": "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\F14_INLET_R_CANDIDATE_NOT_RELEASED.stl",
+      "native_volume_mm3": 7969.609092720702,
+      "native_bounds_mm": [
+        [
+          595.8483908511422,
+          31.53086602660309,
+          -35.890200957022024
+        ],
+        [
+          658.0,
+          91.22650068766998,
+          18.007048305831972
+        ]
+      ],
+      "sha256": "dda5107188ef6932a3ea5c7c829c5b2e2a71fd1758946c129381e79fa92246f8"
+    },
+    {
+      "side": "L",
+      "path": "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\F14_INLET_L_CANDIDATE_NOT_RELEASED.stl",
+      "native_volume_mm3": 7969.609092720745,
+      "native_bounds_mm": [
+        [
+          595.8483908511422,
+          -91.22650068767001,
+          -35.890200957022024
+        ],
+        [
+          658.0,
+          -31.530866026603093,
+          18.007048305831983
+        ]
+      ],
+      "sha256": "239c8e7b83f26907ce20dce9a87fc5b148d364b5b9d8459d5bf41bc8f5dd29e4"
+    }
+  ],
+  "print_release": false,
+  "slicer_verified": false
+}

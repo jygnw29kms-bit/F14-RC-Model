@@ -580,6 +580,63 @@
         "release.flight_release"
       ],
       "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 169,
+      "file": "analysis/open_gate_inventory_v169.json",
+      "status": "V169_OPEN_GATE_INVENTORY",
+      "false_gates": [],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 170,
+      "file": "analysis/control_stabilator_pivot_axis_v170.json",
+      "status": "V170_AREA_WEIGHTED_STABILATOR_PIVOT_SCREEN",
+      "false_gates": [
+        "release.aerodynamic_center_verified",
+        "release.bearing_packaging_verified",
+        "release.crank_packaging_verified",
+        "release.flight_release"
+      ],
+      "dependency_hint": "CAD/analysis actionable"
+    },
+    {
+      "revision": 171,
+      "file": "analysis/control_stabilator_root_fitting_v171.json",
+      "status": "V171_STABILATOR_STEPPED_ROOT_FITTING_ARCHITECTURE",
+      "false_gates": [
+        "release.root_fitting_CAD_verified",
+        "release.bond_load_transfer_verified",
+        "release.fuselage_bearing_mount_verified",
+        "release.servo_crank_packaging_verified",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 172,
+      "file": "analysis/control_stabilator_root_fitting_precheck_v172.json",
+      "status": "V172_STABILATOR_ROOT_FITTING_PLANFORM_PRECHECK",
+      "false_gates": [
+        "release.root_fitting_CAD_verified",
+        "release.material_proof_pass",
+        "release.shaft_clamp_detail_designed",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
+    },
+    {
+      "revision": 174,
+      "file": "analysis/control_stabilator_d_shaft_v174.json",
+      "status": "V174_STABILATOR_D_SHAFT_TORQUE_TRANSFER_SCREEN",
+      "false_gates": [
+        "release.D_geometry_CAD_verified",
+        "release.actual_shaft_material_verified",
+        "release.axial_retention_designed",
+        "release.root_fitting_proof_pass",
+        "release.flight_release"
+      ],
+      "dependency_hint": "analysis/review"
     }
   ]
 }

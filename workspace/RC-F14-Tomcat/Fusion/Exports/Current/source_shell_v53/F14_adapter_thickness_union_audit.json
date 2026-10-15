@@ -1,0 +1,32 @@
+{
+  "status": "NATIVE_ADAPTER_THICKNESS_AND_UNION_SCREEN",
+  "input": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_ELLIPSE_CIRCLE_ADAPTER_CANDIDATE.f3d",
+    "sha256": "a99d3a159497bcf9d2c2f052c395e4040beae8bab5dff18b61371b81a801bf6b"
+  },
+  "measurements": [
+    {
+      "side": "R",
+      "minimum_loft_face_gap_mm": 0.8097889405451328,
+      "minimum_0p8mm_screen_pass": true,
+      "wall_adapter_distance_mm": 1.1102230246251565e-14,
+      "union_operation_success": true,
+      "union_valid_solid": true,
+      "union_volume_cm3": 7.969609092720702,
+      "component_volume_sum_cm3": 7.969609092720006
+    },
+    {
+      "side": "L",
+      "minimum_loft_face_gap_mm": 0.8097889405451282,
+      "minimum_0p8mm_screen_pass": true,
+      "wall_adapter_distance_mm": 2.220446049250313e-15,
+      "union_operation_success": true,
+      "union_valid_solid": true,
+      "union_volume_cm3": 7.969609092720745,
+      "component_volume_sum_cm3": 7.96960909272005
+    }
+  ],
+  "actual_hardware_verified": false,
+  "union_connectivity_independently_verified": false,
+  "print_release": false
+}
