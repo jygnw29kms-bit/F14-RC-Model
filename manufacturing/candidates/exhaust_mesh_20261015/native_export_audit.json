@@ -1,0 +1,47 @@
+{
+  "status": "NATIVE_STL_MILLIMETER_CANDIDATE_EXPORTS",
+  "input": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\independent_reviews\\native_internal_exhaust_20261015\\F14_INTERNAL_EXHAUST_STUDY.f3d",
+    "sha256": "e3d94652ed5f53beb8ef039c9e6fde56dbe86bb40efd5df6395a7d52f68688d0"
+  },
+  "files": [
+    {
+      "side": "R",
+      "path": "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\F14_EXHAUST_R_CANDIDATE_NOT_RELEASED.stl",
+      "native_volume_mm3": 2782.359152264613,
+      "native_bounds_mm": [
+        [
+          731.5,
+          39.17,
+          -35.83
+        ],
+        [
+          754.9622811643328,
+          90.83,
+          15.829999999999998
+        ]
+      ],
+      "sha256": "c8de8838ff08ed400eb902f131c11ceface11b6e29bb508e0c23b90e92e8d421"
+    },
+    {
+      "side": "L",
+      "path": "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\source_shell_v53\\F14_EXHAUST_L_CANDIDATE_NOT_RELEASED.stl",
+      "native_volume_mm3": 2782.359152264611,
+      "native_bounds_mm": [
+        [
+          731.5,
+          -90.83,
+          -35.83
+        ],
+        [
+          754.9622811643328,
+          -39.17,
+          15.829999999999998
+        ]
+      ],
+      "sha256": "3941e202584adc10a4bf72242e082a01642ebc8cc7e540d032c54ad604afe64a"
+    }
+  ],
+  "print_release": false,
+  "slicer_verified": false
+}

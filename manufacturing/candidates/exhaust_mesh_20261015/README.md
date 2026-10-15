@@ -1,0 +1,1 @@
+Native millimeter STL internal exhaust study candidates. Binary size, finite vertices, edge incidence2, winding, Euler0 and <1% native-volume error pass. Assumed hub28/exit90%FSA; no actual hardware, aerodynamic, attachment, self-intersection, slicer or print release.

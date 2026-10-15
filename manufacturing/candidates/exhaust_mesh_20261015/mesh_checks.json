@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "side": "R",
+      "triangles": 2094,
+      "edge_incidence_two": true,
+      "winding_consistent": true,
+      "euler_characteristic": 0,
+      "volume_mm3": 2782.776946403998,
+      "native_volume_relative_error": 0.00015015823498018687,
+      "extents_mm": [
+        23.4622802734375,
+        51.65809631347656,
+        51.656195640563965
+      ]
+    },
+    {
+      "side": "L",
+      "triangles": 2094,
+      "edge_incidence_two": true,
+      "winding_consistent": true,
+      "euler_characteristic": 0,
+      "volume_mm3": 2782.7769464038624,
+      "native_volume_relative_error": 0.00015015823493213577,
+      "extents_mm": [
+        23.4622802734375,
+        51.65809631347656,
+        51.656195640563965
+      ]
+    }
+  ],
+  "self_intersections_verified": false,
+  "slicer_verified": false,
+  "print_release": false
+}
