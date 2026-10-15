@@ -1,0 +1,17 @@
+{
+    "path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v139\\F14_COMPLETE_ANNULAR_INLET_ENDS_v139.f3d",
+    "sha256":  "af4e2872c85952604c7979985220c605053b2ca420a7c2ddd8e492dd5f80c0ff",
+    "v139_audit_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v139\\F14_v139_complete_annular_ends_audit.json",
+    "v139_audit_sha256":  "f844ba4baba9139fbc5af8474c7bfcb322d29a7c667d89bb7c589b003558c011",
+    "interface_x_mm":  650,
+    "flange_start_x_mm":  649,
+    "sleeve_end_x_mm":  658,
+    "center_abs_y_mm":  65,
+    "center_z_mm":  -10,
+    "flange_outer_diameter_mm":  55.2,
+    "flange_inner_diameter_mm":  50,
+    "sleeve_outer_diameter_mm":  55.2,
+    "sleeve_inner_diameter_mm":  53,
+    "containment_tolerance_cm3":  1E-06,
+    "minimum_wall_mm":  0.77
+}

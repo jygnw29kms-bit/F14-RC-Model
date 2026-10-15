@@ -1,0 +1,432 @@
+{
+  "status": "V142_EDF_MOUNT_AXIS_MICRO_OPTIMIZATION",
+  "source": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v139\\F14_COMPLETE_ANNULAR_INLET_ENDS_v139.f3d",
+    "sha256": "af4e2872c85952604c7979985220c605053b2ca420a7c2ddd8e492dd5f80c0ff",
+    "interface_x_mm": 650,
+    "flange_start_x_mm": 649,
+    "sleeve_end_x_mm": 658,
+    "interface_abs_y_mm": 65,
+    "interface_z_mm": -10,
+    "end_abs_y_range_mm": [
+      64.4,
+      65.4,
+      0.1
+    ],
+    "end_z_range_mm": [
+      -10.6,
+      -9.4,
+      0.1
+    ],
+    "flange_outer_diameter_mm": 55.2,
+    "flange_inner_diameter_mm": 50,
+    "sleeve_outer_diameter_mm": 55.2,
+    "sleeve_inner_diameter_mm": 53,
+    "containment_tolerance_cm3": 1e-06
+  },
+  "candidate_count": 143,
+  "best": {
+    "end_abs_y_mm": 65.4,
+    "end_z_mm": -10.299999999999999,
+    "max_outside_cm3": 2.0605345000035413e-05,
+    "sum_outside_cm3": 2.0605345000035413e-05,
+    "movement_cost_mm2": 0.2500000000000039,
+    "sides": [
+      {
+        "side": "R",
+        "outside_cm3": 2.0605345000035413e-05
+      },
+      {
+        "side": "L",
+        "outside_cm3": 0.0
+      }
+    ]
+  },
+  "top20": [
+    {
+      "end_abs_y_mm": 65.4,
+      "end_z_mm": -10.299999999999999,
+      "max_outside_cm3": 2.0605345000035413e-05,
+      "sum_outside_cm3": 2.0605345000035413e-05,
+      "movement_cost_mm2": 0.2500000000000039,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345000035413e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.4,
+      "end_z_mm": -10.4,
+      "max_outside_cm3": 2.0605345043556156e-05,
+      "sum_outside_cm3": 2.0605345043556156e-05,
+      "movement_cost_mm2": 0.32000000000000484,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345043556156e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.4,
+      "end_z_mm": -10.2,
+      "max_outside_cm3": 2.0605345250279683e-05,
+      "sum_outside_cm3": 2.0605345250279683e-05,
+      "movement_cost_mm2": 0.20000000000000429,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345250279683e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.4,
+      "end_z_mm": -10.5,
+      "max_outside_cm3": 2.0605345498081462e-05,
+      "sum_outside_cm3": 2.0605345498081462e-05,
+      "movement_cost_mm2": 0.4100000000000046,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345498081462e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.4,
+      "end_z_mm": -10.1,
+      "max_outside_cm3": 2.060534551384663e-05,
+      "sum_outside_cm3": 2.060534551384663e-05,
+      "movement_cost_mm2": 0.17000000000000448,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.060534551384663e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.30000000000001,
+      "end_z_mm": -10.299999999999999,
+      "max_outside_cm3": 2.0605345728785807e-05,
+      "sum_outside_cm3": 2.0605345728785807e-05,
+      "movement_cost_mm2": 0.18000000000000618,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345728785807e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.30000000000001,
+      "end_z_mm": -10.2,
+      "max_outside_cm3": 2.0605345745661197e-05,
+      "sum_outside_cm3": 2.0605345745661197e-05,
+      "movement_cost_mm2": 0.13000000000000655,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345745661197e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.4,
+      "end_z_mm": -10.0,
+      "max_outside_cm3": 2.0605345762314542e-05,
+      "sum_outside_cm3": 2.0605345762314542e-05,
+      "movement_cost_mm2": 0.16000000000000456,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345762314542e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.30000000000001,
+      "end_z_mm": -10.4,
+      "max_outside_cm3": 2.060534580516915e-05,
+      "sum_outside_cm3": 2.060534580516915e-05,
+      "movement_cost_mm2": 0.2500000000000071,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.060534580516915e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.30000000000001,
+      "end_z_mm": -10.5,
+      "max_outside_cm3": 2.0605345875335246e-05,
+      "sum_outside_cm3": 2.0605345875335246e-05,
+      "movement_cost_mm2": 0.34000000000000685,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345875335246e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.30000000000001,
+      "end_z_mm": -10.1,
+      "max_outside_cm3": 2.060534588088636e-05,
+      "sum_outside_cm3": 2.060534588088636e-05,
+      "movement_cost_mm2": 0.10000000000000675,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.060534588088636e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.4,
+      "end_z_mm": -9.9,
+      "max_outside_cm3": 2.0605345930846397e-05,
+      "sum_outside_cm3": 2.0605345930846397e-05,
+      "movement_cost_mm2": 0.17000000000000448,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345930846397e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.30000000000001,
+      "end_z_mm": -10.0,
+      "max_outside_cm3": 2.0605345944613163e-05,
+      "sum_outside_cm3": 2.0605345944613163e-05,
+      "movement_cost_mm2": 0.09000000000000682,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345944613163e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.2,
+      "end_z_mm": -10.299999999999999,
+      "max_outside_cm3": 2.060534599079844e-05,
+      "sum_outside_cm3": 2.060534599079844e-05,
+      "movement_cost_mm2": 0.1300000000000005,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.060534599079844e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.2,
+      "end_z_mm": -10.2,
+      "max_outside_cm3": 2.0605345992130708e-05,
+      "sum_outside_cm3": 2.0605345992130708e-05,
+      "movement_cost_mm2": 0.08000000000000085,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345992130708e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.4,
+      "end_z_mm": -9.799999999999999,
+      "max_outside_cm3": 2.0605345997681823e-05,
+      "sum_outside_cm3": 2.0605345997681823e-05,
+      "movement_cost_mm2": 0.20000000000000498,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605345997681823e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.30000000000001,
+      "end_z_mm": -10.6,
+      "max_outside_cm3": 2.0605346001678626e-05,
+      "sum_outside_cm3": 2.0605346001678626e-05,
+      "movement_cost_mm2": 0.4500000000000064,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605346001678626e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.10000000000001,
+      "end_z_mm": -10.299999999999999,
+      "max_outside_cm3": 2.060534602166264e-05,
+      "sum_outside_cm3": 2.060534602166264e-05,
+      "movement_cost_mm2": 0.10000000000000106,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.060534602166264e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.2,
+      "end_z_mm": -10.1,
+      "max_outside_cm3": 2.0605346029656246e-05,
+      "sum_outside_cm3": 2.0605346029656246e-05,
+      "movement_cost_mm2": 0.05000000000000107,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605346029656246e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "end_abs_y_mm": 65.10000000000001,
+      "end_z_mm": -10.1,
+      "max_outside_cm3": 2.0605346031654648e-05,
+      "sum_outside_cm3": 2.0605346031654648e-05,
+      "movement_cost_mm2": 0.020000000000001635,
+      "sides": [
+        {
+          "side": "R",
+          "outside_cm3": 2.0605346031654648e-05
+        },
+        {
+          "side": "L",
+          "outside_cm3": 0.0
+        }
+      ]
+    }
+  ],
+  "axis_change": {
+    "delta_y_mm": 0.4000000000000057,
+    "delta_z_mm": -0.29999999999999893,
+    "sleeve_yaw_deg": 2.8624052261117883,
+    "sleeve_pitch_deg": -2.1475854282984956
+  },
+  "records": [
+    {
+      "side": "R",
+      "mount_union_ok": true,
+      "combined_union_ok": true,
+      "outside_source_cm3": 2.0605344374757806e-05,
+      "physical_ends": [
+        {
+          "x_mm": 595.8483908511422,
+          "loop_count": 2,
+          "area_mm2": 123.19105132480743
+        }
+      ],
+      "physical_ends_pass": false,
+      "pass": false
+    },
+    {
+      "side": "L",
+      "mount_union_ok": true,
+      "combined_union_ok": true,
+      "outside_source_cm3": 0.0,
+      "physical_ends": [
+        {
+          "x_mm": 595.8483908511422,
+          "loop_count": 2,
+          "area_mm2": 123.19105132480814
+        }
+      ],
+      "physical_ends_pass": false,
+      "pass": false
+    }
+  ],
+  "bilateral_geometry_pass": false,
+  "hardware_measurement_required": true,
+  "hardware_revision_frozen": false,
+  "geometry_candidate_pass": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "ecc02cda2febabfea29fd318f4e88839e58af7738478b9ffd23de1381818bfc0"
+}

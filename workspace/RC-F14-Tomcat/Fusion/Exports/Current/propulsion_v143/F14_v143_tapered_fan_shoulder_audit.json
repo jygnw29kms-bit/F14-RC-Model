@@ -1,0 +1,80 @@
+{
+  "status": "V143_TAPERED_OVERLAP_FAN_SHOULDER",
+  "source": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v139\\F14_COMPLETE_ANNULAR_INLET_ENDS_v139.f3d",
+    "sha256": "af4e2872c85952604c7979985220c605053b2ca420a7c2ddd8e492dd5f80c0ff",
+    "v139_audit_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v139\\F14_v139_complete_annular_ends_audit.json",
+    "v139_audit_sha256": "f844ba4baba9139fbc5af8474c7bfcb322d29a7c667d89bb7c589b003558c011",
+    "interface_x_mm": 650,
+    "flange_start_x_mm": 649,
+    "sleeve_end_x_mm": 658,
+    "interface_abs_y_mm": 65,
+    "interface_z_mm": -10,
+    "flange_start_outer_diameter_mm": 51.65383332020425,
+    "flange_start_inner_diameter_mm": 49.853833320204245,
+    "flange_end_outer_diameter_mm": 55.2,
+    "flange_end_inner_diameter_mm": 50,
+    "sleeve_outer_diameter_mm": 55.2,
+    "sleeve_inner_diameter_mm": 53,
+    "containment_tolerance_cm3": 1e-06,
+    "minimum_wall_mm": 0.77
+  },
+  "records": [
+    {
+      "side": "R",
+      "mount_union_ok": true,
+      "combined_union_ok": true,
+      "mount_outside_source_cm3": 2.516520822837265e-07,
+      "combined_outside_source_cm3": 2.5165205386201706e-07,
+      "containment_pass": true,
+      "governing_wall_mm": 0.7997931171174233,
+      "wall_pass": true,
+      "physical_end_faces": [
+        {
+          "x_mm": 658.0000000000001,
+          "loop_count": 2,
+          "area_mm2": 186.95617881512908
+        },
+        {
+          "x_mm": 595.8483908511422,
+          "loop_count": 2,
+          "area_mm2": 123.19105132480743
+        }
+      ],
+      "physical_end_pass": true,
+      "pass": true
+    },
+    {
+      "side": "L",
+      "mount_union_ok": true,
+      "combined_union_ok": true,
+      "mount_outside_source_cm3": 0,
+      "combined_outside_source_cm3": 0,
+      "containment_pass": true,
+      "governing_wall_mm": 0.7997931171174233,
+      "wall_pass": true,
+      "physical_end_faces": [
+        {
+          "x_mm": 658.0000000000001,
+          "loop_count": 2,
+          "area_mm2": 186.95617881512908
+        },
+        {
+          "x_mm": 595.8483908511422,
+          "loop_count": 2,
+          "area_mm2": 123.19105132480814
+        }
+      ],
+      "physical_end_pass": true,
+      "pass": true
+    }
+  ],
+  "bilateral_geometry_pass": true,
+  "hardware_measurement_required": true,
+  "actual_EDF_shroud_measured": false,
+  "hardware_revision_frozen": false,
+  "geometry_candidate_pass": true,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "31f82d041409773511f433e8a069d6a85c5c173e148863a336cd769080f58e6a"
+}

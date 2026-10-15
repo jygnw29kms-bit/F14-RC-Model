@@ -1,0 +1,465 @@
+{
+  "status": "V140_PROVISIONAL_EDF_MOUNT_INTERFACE_GATE",
+  "source": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v139\\F14_COMPLETE_ANNULAR_INLET_ENDS_v139.f3d",
+    "sha256": "af4e2872c85952604c7979985220c605053b2ca420a7c2ddd8e492dd5f80c0ff",
+    "interface_x_mm": 650,
+    "mount_end_x_mm": 658,
+    "center_abs_y_mm": 65,
+    "center_z_mm": -10,
+    "duct_outer_diameter_mm": 51.6,
+    "duct_inner_diameter_mm": 50,
+    "mount_outer_diameter_mm": 55.2,
+    "mount_inner_diameter_mm": 53,
+    "containment_tolerance_cm3": 1e-06,
+    "minimum_wall_mm": 0.77
+  },
+  "records": [
+    {
+      "side": "R",
+      "adapter_volume_cm3": 1.254375114724591,
+      "adapter_outside_source_cm3": 0.0,
+      "combined_volume_cm3": 8.098013540211909,
+      "union_volume_gain_cm3": 1.2543751147253488,
+      "combined_outside_source_cm3": 0.0,
+      "containment_pass": true,
+      "conical_face_count": 4,
+      "minimum_nonzero_conical_face_gap_mm": 0.329844991311889,
+      "minimum_wall_pass": false,
+      "x_plane_end_faces": [
+        {
+          "x_mm": 595.8483908511422,
+          "area_mm2": 123.19105132480743,
+          "loop_count": 2,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.030996976791142217,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.030996976791075603,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 19.540088857516302,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 9.631590452466998,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 10.257874990049753,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 20.81066359538859,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.029104486651156114,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.029104486651182482,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 658.0000000000001,
+          "area_mm2": 186.95617881512624,
+          "loop_count": 2,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "all_planar_faces": [
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.030996976791142217,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.030996976791075603,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 19.540088857516302,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 9.631590452466998,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 658.0000000000001,
+          "area_mm2": 186.95617881512624,
+          "loop_count": 2,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 10.257874990049753,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 20.81066359538859,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.029104486651156114,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.029104486651182482,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 595.8483908511422,
+          "area_mm2": 123.19105132480743,
+          "loop_count": 2,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "complete_end_interfaces_pass": false,
+      "pass": false
+    },
+    {
+      "side": "L",
+      "adapter_volume_cm3": 1.254375114724591,
+      "adapter_outside_source_cm3": 0.0,
+      "combined_volume_cm3": 8.098013540211852,
+      "union_volume_gain_cm3": 1.2543751147253488,
+      "combined_outside_source_cm3": 0.0,
+      "containment_pass": true,
+      "conical_face_count": 4,
+      "minimum_nonzero_conical_face_gap_mm": 0.3298449913118792,
+      "minimum_wall_pass": false,
+      "x_plane_end_faces": [
+        {
+          "x_mm": 595.8483908511422,
+          "area_mm2": 123.19105132480814,
+          "loop_count": 2,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.03099697679114638,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.030996976791042297,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 9.631590452467442,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 19.540088857516924,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 10.257874990049665,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 20.81066359538939,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.029104486651110317,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.029104486651156114,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 658.0000000000001,
+          "area_mm2": 186.95617881512624,
+          "loop_count": 2,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "all_planar_faces": [
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.03099697679114638,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.030996976791042297,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 9.631590452467442,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 19.540088857516924,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 658.0000000000001,
+          "area_mm2": 186.95617881512624,
+          "loop_count": 2,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 10.257874990049665,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 20.81066359538939,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.029104486651110317,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 595.8483908511422,
+          "area_mm2": 123.19105132480814,
+          "loop_count": 2,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 0.029104486651156114,
+          "loop_count": 1,
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "complete_end_interfaces_pass": false,
+      "pass": false
+    }
+  ],
+  "bilateral_geometry_pass": false,
+  "actual_EDF_shroud_measured": false,
+  "hardware_revision_frozen": false,
+  "mount_is_parametric_candidate": true,
+  "installed_thrust_verified": false,
+  "thermal_verified": false,
+  "geometry_candidate_pass": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "d92323e22f15c01176b4f6e036474e8426bdc2a295a6ee7f9a114497cb230f52"
+}
