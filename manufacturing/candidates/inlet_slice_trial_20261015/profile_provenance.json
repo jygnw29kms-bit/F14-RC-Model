@@ -1,0 +1,52 @@
+{
+  "source": "installed Bambu Studio profiles",
+  "files": [
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab P2S 0.4 nozzle.json",
+      "sha256": "e91d26fecfd8d81e4caf6709fa7b3a689b3b7ff01ce0df55101ea3c163dc0e3f"
+    },
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\fdm_bbl_3dp_001_common.json",
+      "sha256": "aa5b0148c3131965ab2bb1d377b43301304030c3d87b339897cef98809a9004f"
+    },
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\fdm_machine_common.json",
+      "sha256": "aef949f605e74bd7370dab061d9cb9f6b7fde5ae92e7fe3b34d98c0a7746c514"
+    },
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.20mm Standard @BBL P2S.json",
+      "sha256": "d8f0ab6b70d66cf1f936a5832d74b5f040e5752fcabc56cf1cce56088943c376"
+    },
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\fdm_process_single_0.20.json",
+      "sha256": "dc32f236bb0ae0d19560954a1beb87701dac4db85877f5f7c92b3a67315431c5"
+    },
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\fdm_process_single_common.json",
+      "sha256": "b589e22e3a9f3513dd71d0a1061181c6f24a2e330b73b1cf7f63a292d7d6a37b"
+    },
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\fdm_process_common.json",
+      "sha256": "ff2c0e49a424f70319e52eff6e84c57604b5b86deb883bb4d5614ff448d0c107"
+    },
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\filament\\Bambu PLA Basic @BBL P2S.json",
+      "sha256": "651cae6cf5b309e23c1b366c3607c9ec3da87aafec789808e28d7b0cf070d774"
+    },
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\filament\\Bambu PLA Basic @base.json",
+      "sha256": "c20044226215414d54647fcd5f1217ca3a6801e16b089add1de2b9af12957c07"
+    },
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\filament\\fdm_filament_pla.json",
+      "sha256": "1fb8e60457aeda25a5c1b16944188aaa4925267828a194993ddfbcbb727100fe"
+    },
+    {
+      "path": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\filament\\fdm_filament_common.json",
+      "sha256": "55573eb37c4031a58e939c4a2c281d62e234192509cac525d4f8d911e8a85c09"
+    }
+  ],
+  "material_is_geometric_trial_only": true,
+  "print_release": false,
+  "cli_documentation": "https://github.com/bambulab/BambuStudio/wiki/Command-Line-Usage"
+}

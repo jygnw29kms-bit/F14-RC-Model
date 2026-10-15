@@ -1,0 +1,15 @@
+{
+  "status": "ACTUAL_BAMBU_STUDIO_SLICE_TRIAL",
+  "printer": "Bambu Lab P2S",
+  "nozzle_mm": 0.4,
+  "layer_height_mm": 0.2,
+  "total_layers": 311,
+  "slicer_estimated_total_time": "24m 1s",
+  "slicer_estimated_filament_g": 18.31,
+  "material": "Bambu PLA Basic; geometric trial only",
+  "gcode_embedded": true,
+  "printer_send_performed": false,
+  "physical_fit_verified": false,
+  "print_release": false,
+  "warning": "Gcode header volume unit label appears inconsistent; do not interpret14530.74 as cm3. No wall-path continuity audit yet."
+}
