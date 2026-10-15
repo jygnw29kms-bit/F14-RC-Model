@@ -1,0 +1,28 @@
+{
+  "status": "NATIVE_JOINED_INLET_ADAPTER_CONNECTIVITY",
+  "input": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\independent_reviews\\adapter_reimport_20261015\\F14_ELLIPSE_CIRCLE_ADAPTER_CANDIDATE.f3d",
+    "sha256": "a99d3a159497bcf9d2c2f052c395e4040beae8bab5dff18b61371b81a801bf6b"
+  },
+  "bodies": [
+    {
+      "side": "R",
+      "volume_cm3": 7.969609092720702,
+      "face_count": 6,
+      "edge_count": 12,
+      "all_edges_two_coedges": true,
+      "face_graph_connected": true
+    },
+    {
+      "side": "L",
+      "volume_cm3": 7.969609092720745,
+      "face_count": 6,
+      "edge_count": 12,
+      "all_edges_two_coedges": true,
+      "face_graph_connected": true
+    }
+  ],
+  "manufacturing_fit_verified": false,
+  "actual_hardware_verified": false,
+  "print_release": false
+}
