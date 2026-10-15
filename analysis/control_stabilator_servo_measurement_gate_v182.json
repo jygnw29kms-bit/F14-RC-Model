@@ -1,0 +1,35 @@
+﻿{
+  "status": "V182_STABILATOR_SERVO_HARDWARE_MEASUREMENT_GATE",
+  "candidate": "TORQ TCM-1022",
+  "basis": [
+    "workspace/RC-F14-Tomcat/Fusion/Exports/Current/controls_v181/F14_v181_stabilator_servo_packaging_audit.json",
+    "workspace/RC-F14-Tomcat/Fusion/Exports/Current/controls_v180/F14_v180_stabilator_contained_crank_audit.json"
+  ],
+  "required_before_hardware_freeze": {
+    "actual_body_dimensions_mm": ["length", "width", "height"],
+    "actual_mass_g": true,
+    "mounting_ear_geometry_mm": ["overall_span", "hole_spacing", "hole_diameter", "ear_thickness"],
+    "output_spline_geometry_mm": ["center_offset_from_longitudinal_face", "center_offset_from_lateral_face", "projection_above_case", "spline_outer_diameter"],
+    "wire_exit_envelope_mm": true,
+    "actual_operating_voltage_v": true,
+    "actual_stall_or_peak_current_at_operating_voltage_A": true
+  },
+  "acceptance": {
+    "body_plus_service_clearance_must_fit_v181_envelope": true,
+    "mass_g_max": 25.0,
+    "nominal_torque_kgcm_min": 14.0,
+    "servo_arm_radius_mm": 8.0,
+    "servo_half_travel_deg": 50.0,
+    "pushrod_path_must_clear_full_v180_crank_sweep": true,
+    "binding_free_full_travel_required": true,
+    "receiver_bus_minimum_under_dynamic_test_v": 6.8,
+    "stall_current_measurement_required_for_BEC_freeze": true
+  },
+  "release": {
+    "servo_hardware_frozen": false,
+    "pushrod_geometry_released": false,
+    "BEC_hardware_frozen": false,
+    "bench_proof_pass": false,
+    "flight_release": false
+  }
+}
