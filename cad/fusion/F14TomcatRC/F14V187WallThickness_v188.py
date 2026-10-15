@@ -1,4 +1,4 @@
-"""v188: independent native minimum wall-thickness verification of the v187 EDF adapter."""
+﻿"""v188: independent native minimum wall-thickness verification of the v187 EDF adapter."""
 import adsk.core, adsk.fusion, json, os, hashlib
 
 
@@ -51,3 +51,4 @@ def run_review(app, builder, mm, outdir):
         try: prior.activate()
         except: pass
     return audit
+
