@@ -1,0 +1,87 @@
+{
+  "status": "EXHAUST_INTERNAL_CANDIDATE_PARAMETER_STUDY",
+  "inlet_diameter_assumed_mm": 50,
+  "x_start_mm": 731.5,
+  "x_end_source_boundary_mm": 754.962281164333,
+  "available_length_mm": 23.462281164333035,
+  "cases": [
+    {
+      "assumed_hub_diameter_mm": 22,
+      "assumed_FSA_mm2": 1583.3626974092558,
+      "exit_to_FSA_ratio": 0.85,
+      "exit_inner_diameter_mm": 41.39565194558482,
+      "half_contraction_angle_deg": 10.390643511499572,
+      "radial_wall_for_0p8_normal_mm": 0.8133379809928197
+    },
+    {
+      "assumed_hub_diameter_mm": 22,
+      "assumed_FSA_mm2": 1583.3626974092558,
+      "exit_to_FSA_ratio": 0.9,
+      "exit_inner_diameter_mm": 42.595774438317235,
+      "half_contraction_angle_deg": 8.96677016715329,
+      "radial_wall_for_0p8_normal_mm": 0.8098978410689963
+    },
+    {
+      "assumed_hub_diameter_mm": 22,
+      "assumed_FSA_mm2": 1583.3626974092558,
+      "exit_to_FSA_ratio": 1.0,
+      "exit_inner_diameter_mm": 44.8998886412873,
+      "half_contraction_angle_deg": 6.202983845330727,
+      "radial_wall_for_0p8_normal_mm": 0.804711312547961
+    },
+    {
+      "assumed_hub_diameter_mm": 28,
+      "assumed_FSA_mm2": 1347.7432483900213,
+      "exit_to_FSA_ratio": 0.85,
+      "exit_inner_diameter_mm": 38.19162211794623,
+      "half_contraction_angle_deg": 14.12496969881477,
+      "radial_wall_for_0p8_normal_mm": 0.8249414829708539
+    },
+    {
+      "assumed_hub_diameter_mm": 28,
+      "assumed_FSA_mm2": 1347.7432483900213,
+      "exit_to_FSA_ratio": 0.9,
+      "exit_inner_diameter_mm": 39.29885494515076,
+      "half_contraction_angle_deg": 12.846604435639591,
+      "radial_wall_for_0p8_normal_mm": 0.8205390575647679
+    },
+    {
+      "assumed_hub_diameter_mm": 28,
+      "assumed_FSA_mm2": 1347.7432483900213,
+      "exit_to_FSA_ratio": 1.0,
+      "exit_inner_diameter_mm": 41.42463035441596,
+      "half_contraction_angle_deg": 10.356407565382607,
+      "radial_wall_for_0p8_normal_mm": 0.813249021402643
+    },
+    {
+      "assumed_hub_diameter_mm": 32,
+      "assumed_FSA_mm2": 1159.2476891746337,
+      "exit_to_FSA_ratio": 0.85,
+      "exit_inner_diameter_mm": 35.42033314354906,
+      "half_contraction_angle_deg": 17.26024827681394,
+      "radial_wall_for_0p8_normal_mm": 0.8377253809703374
+    },
+    {
+      "assumed_hub_diameter_mm": 32,
+      "assumed_FSA_mm2": 1159.2476891746337,
+      "exit_to_FSA_ratio": 0.9,
+      "exit_inner_diameter_mm": 36.44722211636986,
+      "half_contraction_angle_deg": 16.109804225024522,
+      "radial_wall_for_0p8_normal_mm": 0.8326986719902596
+    },
+    {
+      "assumed_hub_diameter_mm": 32,
+      "assumed_FSA_mm2": 1159.2476891746337,
+      "exit_to_FSA_ratio": 1.0,
+      "exit_inner_diameter_mm": 38.41874542459709,
+      "half_contraction_angle_deg": 13.863866288790398,
+      "radial_wall_for_0p8_normal_mm": 0.8240050902519688
+    }
+  ],
+  "production_case_selected": false,
+  "actual_EDF_hub_measured": false,
+  "exit_ratio_aerodynamically_validated": false,
+  "original_external_nozzle_verified": false,
+  "continuous_source_containment_verified": false,
+  "print_release": false
+}
