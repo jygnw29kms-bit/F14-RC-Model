@@ -1,0 +1,51 @@
+{
+    "status":  "V136_D_TO_EDF_TRANSITION_PREPARED",
+    "source_v135":  "workspace/RC-F14-Tomcat/Fusion/Exports/Current/propulsion_v135/F14_SOURCE_SILHOUETTE_GUIDED_AFT_v135.f3d",
+    "D_center_local_mm":  {
+                              "x":  595.8483908511422,
+                              "y":  56.30470783882318,
+                              "z":  -6.556713425255683
+                          },
+    "fan_face_center_local_mm":  {
+                                     "x":  650.0,
+                                     "y":  65.0,
+                                     "z":  -10.0
+                                 },
+    "centerline":  {
+                       "dx_mm":  54.1516091488578,
+                       "dy_mm":  8.695292161176823,
+                       "dz_mm":  -3.4432865747443167,
+                       "length_mm":  54.95326288415181,
+                       "yaw_deg":  9.122291064918423,
+                       "pitch_deg":  -3.5924183569704953
+                   },
+    "duct":  {
+                 "wall_mm":  0.8,
+                 "D_inner_diameter_mm":  47.5,
+                 "D_outer_diameter_mm":  49.1,
+                 "fan_inner_diameter_mm":  50.0,
+                 "fan_outer_diameter_mm":  51.6,
+                 "D_flow_area_mm2":  1772.0546061654927,
+                 "D_area_ratio_to_max_screened_FSA":  1.119171626984127,
+                 "minimum_flow_area_policy_pass":  true
+             },
+    "fan_mount_candidate":  {
+                                "x_start_mm":  650.0,
+                                "length_mm":  8.0,
+                                "shroud_nominal_OD_mm":  52.5,
+                                "mount_ID_mm":  53.0,
+                                "mount_OD_mm":  55.2,
+                                "radial_shroud_clearance_mm":  0.25
+                            },
+    "gates":  {
+                  "transition_outer_containment_verified":  false,
+                  "mount_outer_containment_verified":  false,
+                  "bilateral_verified":  false,
+                  "actual_fan_ID_measured":  false,
+                  "actual_4S_shroud_measured":  false,
+                  "print_release":  false,
+                  "flight_release":  false
+              },
+    "source_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v135\\F14_SOURCE_SILHOUETTE_GUIDED_AFT_v135.f3d",
+    "source_sha256":  "36da76d86ea779cb9a7f7587904e92869c164d9fa35c7bbbf67bd67d5a478a6d"
+}

@@ -1,0 +1,86 @@
+{
+  "status": "INLET_CENTER_CORRIDOR_PROJECTION_AND_TURN_SCREEN",
+  "source_sha256": "9e3f3c1a84c60168cda6cc92a700893c2ea7fa695fc04da17105ce4372f98e2a",
+  "segments": [
+    {
+      "x_start_mm": 595.8483908511422,
+      "x_end_mm": 605.0,
+      "unit_tangent": [
+        0.9854120812264778,
+        0.15823068012371816,
+        -0.0626584554588357
+      ],
+      "projected_x_plane_area_mm2": 1746.2040175085046,
+      "projected_area_ratio_to_assumed_FSA": 1.1028452421960517
+    },
+    {
+      "x_start_mm": 605.0,
+      "x_end_mm": 615.0,
+      "unit_tangent": [
+        0.985412081226478,
+        0.15823068012371794,
+        -0.06265845545883574
+      ],
+      "projected_x_plane_area_mm2": 1777.4061773768606,
+      "projected_area_ratio_to_assumed_FSA": 1.1225515040142757
+    },
+    {
+      "x_start_mm": 615.0,
+      "x_end_mm": 625.0,
+      "unit_tangent": [
+        0.9854120812264778,
+        0.15823068012371863,
+        -0.06265845545883572
+      ],
+      "projected_x_plane_area_mm2": 1811.8168175864605,
+      "projected_area_ratio_to_assumed_FSA": 1.1442841368885397
+    },
+    {
+      "x_start_mm": 625.0,
+      "x_end_mm": 635.0,
+      "unit_tangent": [
+        0.985412081226478,
+        0.15823068012371794,
+        -0.06265845545883574
+      ],
+      "projected_x_plane_area_mm2": 1846.5573674649208,
+      "projected_area_ratio_to_assumed_FSA": 1.1662251298999982
+    },
+    {
+      "x_start_mm": 635.0,
+      "x_end_mm": 645.0,
+      "unit_tangent": [
+        0.9854120812264778,
+        0.15823068012371863,
+        -0.06265845545883572
+      ],
+      "projected_x_plane_area_mm2": 1881.62782701224,
+      "projected_area_ratio_to_assumed_FSA": 1.1883744830486498
+    },
+    {
+      "x_start_mm": 645.0,
+      "x_end_mm": 650.0,
+      "unit_tangent": [
+        0.985412081226478,
+        0.15823068012371794,
+        -0.06265845545883574
+      ],
+      "projected_x_plane_area_mm2": 1917.02819622842,
+      "projected_area_ratio_to_assumed_FSA": 1.210732196334496
+    }
+  ],
+  "intersegment_turn_degrees": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "minimum_projected_area_ratio_to_assumed_FSA": 1.1028452421960517,
+  "maximum_polyline_turn_degrees": 0.0,
+  "projection_is_exact_duct_normal_slice": false,
+  "actual_fan_FSA_verified": false,
+  "smooth_duct_area_or_pressure_loss_verified": false,
+  "containment_candidate_pass": false,
+  "print_release": false
+}

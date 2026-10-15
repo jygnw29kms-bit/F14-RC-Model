@@ -1,0 +1,548 @@
+{
+  "status": "V137_INLET_CENTERLINE_PATH_SEARCH",
+  "source_v136": {
+    "status": "V136_D_TO_EDF_TRANSITION_PREPARED",
+    "source_v135": "workspace/RC-F14-Tomcat/Fusion/Exports/Current/propulsion_v135/F14_SOURCE_SILHOUETTE_GUIDED_AFT_v135.f3d",
+    "D_center_local_mm": {
+      "x": 595.8483908511422,
+      "y": 56.30470783882318,
+      "z": -6.556713425255683
+    },
+    "fan_face_center_local_mm": {
+      "x": 650.0,
+      "y": 65.0,
+      "z": -10.0
+    },
+    "centerline": {
+      "dx_mm": 54.1516091488578,
+      "dy_mm": 8.695292161176823,
+      "dz_mm": -3.4432865747443167,
+      "length_mm": 54.95326288415181,
+      "yaw_deg": 9.122291064918423,
+      "pitch_deg": -3.5924183569704953
+    },
+    "duct": {
+      "wall_mm": 0.8,
+      "D_inner_diameter_mm": 47.5,
+      "D_outer_diameter_mm": 49.1,
+      "fan_inner_diameter_mm": 50.0,
+      "fan_outer_diameter_mm": 51.6,
+      "D_flow_area_mm2": 1772.0546061654927,
+      "D_area_ratio_to_max_screened_FSA": 1.119171626984127,
+      "minimum_flow_area_policy_pass": true
+    },
+    "fan_mount_candidate": {
+      "x_start_mm": 650.0,
+      "length_mm": 8.0,
+      "shroud_nominal_OD_mm": 52.5,
+      "mount_ID_mm": 53.0,
+      "mount_OD_mm": 55.2,
+      "radial_shroud_clearance_mm": 0.25
+    },
+    "gates": {
+      "transition_outer_containment_verified": false,
+      "mount_outer_containment_verified": false,
+      "bilateral_verified": false,
+      "actual_fan_ID_measured": false,
+      "actual_4S_shroud_measured": false,
+      "print_release": false,
+      "flight_release": false
+    },
+    "source_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v135\\F14_SOURCE_SILHOUETTE_GUIDED_AFT_v135.f3d",
+    "source_sha256": "36da76d86ea779cb9a7f7587904e92869c164d9fa35c7bbbf67bd67d5a478a6d"
+  },
+  "coarse_count": 147,
+  "refined_count": 243,
+  "best": {
+    "mid": {
+      "x": 632.5,
+      "y": 56.5,
+      "z": -7.0
+    },
+    "mid_outer_diameter_mm": 50.79208310357435,
+    "outside_cm3": 0.2195641172899343,
+    "min_fraction": 0.9969575340191364,
+    "segments": [
+      {
+        "outside_cm3": 0.21851953564262772,
+        "fraction": 0.9969575340191364
+      },
+      {
+        "outside_cm3": 0.001044581647306586,
+        "fraction": 0.9999742228512356
+      }
+    ]
+  },
+  "top20": [
+    {
+      "mid": {
+        "x": 632.5,
+        "y": 56.5,
+        "z": -7.0
+      },
+      "mid_outer_diameter_mm": 50.79208310357435,
+      "outside_cm3": 0.2195641172899343,
+      "min_fraction": 0.9969575340191364,
+      "segments": [
+        {
+          "outside_cm3": 0.21851953564262772,
+          "fraction": 0.9969575340191364
+        },
+        {
+          "outside_cm3": 0.001044581647306586,
+          "fraction": 0.9999742228512356
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 635.0,
+        "y": 56.5,
+        "z": -7.0
+      },
+      "mid_outer_diameter_mm": 50.90749980306373,
+      "outside_cm3": 0.2352516718197606,
+      "min_fraction": 0.9969442476301746,
+      "segments": [
+        {
+          "outside_cm3": 0.23498672416090471,
+          "fraction": 0.9969442476301746
+        },
+        {
+          "outside_cm3": 0.0002649476588558741,
+          "fraction": 0.9999926620582694
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 632.5,
+        "y": 56.5,
+        "z": -6.5
+      },
+      "mid_outer_diameter_mm": 50.79208310357435,
+      "outside_cm3": 0.23996952068324617,
+      "min_fraction": 0.9967549675325713,
+      "segments": [
+        {
+          "outside_cm3": 0.23305173658827982,
+          "fraction": 0.9967549675325713
+        },
+        {
+          "outside_cm3": 0.0069177840949663505,
+          "fraction": 0.9998300012021593
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 632.5,
+        "y": 56.0,
+        "z": -7.0
+      },
+      "mid_outer_diameter_mm": 50.79208310357435,
+      "outside_cm3": 0.24864205137359363,
+      "min_fraction": 0.9965570265720253,
+      "segments": [
+        {
+          "outside_cm3": 0.2472902824761718,
+          "fraction": 0.9965570265720253
+        },
+        {
+          "outside_cm3": 0.0013517688974218345,
+          "fraction": 0.9999670127469429
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 637.5,
+        "y": 56.5,
+        "z": -7.0
+      },
+      "mid_outer_diameter_mm": 51.02291650255311,
+      "outside_cm3": 0.25689318206227085,
+      "min_fraction": 0.9968671387644112,
+      "segments": [
+        {
+          "outside_cm3": 0.25689318206227085,
+          "fraction": 0.9968671387644112
+        },
+        {
+          "outside_cm3": 0.0,
+          "fraction": 1.0
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 635.0,
+        "y": 56.5,
+        "z": -6.5
+      },
+      "mid_outer_diameter_mm": 50.90749980306373,
+      "outside_cm3": 0.2676776559200462,
+      "min_fraction": 0.9965596649273325,
+      "segments": [
+        {
+          "outside_cm3": 0.26454437627070604,
+          "fraction": 0.9965596649273325
+        },
+        {
+          "outside_cm3": 0.0031332796493401815,
+          "fraction": 0.9999136780877688
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 635.0,
+        "y": 56.0,
+        "z": -7.0
+      },
+      "mid_outer_diameter_mm": 50.90749980306373,
+      "outside_cm3": 0.26959740835489043,
+      "min_fraction": 0.9964995647470002,
+      "segments": [
+        {
+          "outside_cm3": 0.26918754857926785,
+          "fraction": 0.9964995647470002
+        },
+        {
+          "outside_cm3": 0.0004098597756225786,
+          "fraction": 0.9999888073675549
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 632.5,
+        "y": 56.0,
+        "z": -6.5
+      },
+      "mid_outer_diameter_mm": 50.79208310357435,
+      "outside_cm3": 0.2821861127355305,
+      "min_fraction": 0.9961809720649568,
+      "segments": [
+        {
+          "outside_cm3": 0.27428052689448634,
+          "fraction": 0.9961809720649568
+        },
+        {
+          "outside_cm3": 0.007905585841044172,
+          "fraction": 0.9998078660961572
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 635.0,
+        "y": 56.5,
+        "z": -7.5
+      },
+      "mid_outer_diameter_mm": 50.90749980306373,
+      "outside_cm3": 0.28573532872715646,
+      "min_fraction": 0.9962851558772244,
+      "segments": [
+        {
+          "outside_cm3": 0.28573532872715646,
+          "fraction": 0.9962851558772244
+        },
+        {
+          "outside_cm3": 0.0,
+          "fraction": 1.0
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 632.5,
+        "y": 56.5,
+        "z": -7.5
+      },
+      "mid_outer_diameter_mm": 50.79208310357435,
+      "outside_cm3": 0.28582570737219726,
+      "min_fraction": 0.9960214508322566,
+      "segments": [
+        {
+          "outside_cm3": 0.28582570737219726,
+          "fraction": 0.9960214508322566
+        },
+        {
+          "outside_cm3": 0.0,
+          "fraction": 1.0
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 637.5,
+        "y": 56.5,
+        "z": -7.5
+      },
+      "mid_outer_diameter_mm": 51.02291650255311,
+      "outside_cm3": 0.2922901239979723,
+      "min_fraction": 0.9964361782454665,
+      "segments": [
+        {
+          "outside_cm3": 0.2922901239979723,
+          "fraction": 0.9964361782454665
+        },
+        {
+          "outside_cm3": 0.0,
+          "fraction": 1.0
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 637.5,
+        "y": 56.0,
+        "z": -7.0
+      },
+      "mid_outer_diameter_mm": 51.02291650255311,
+      "outside_cm3": 0.29724682647499634,
+      "min_fraction": 0.9963750943363882,
+      "segments": [
+        {
+          "outside_cm3": 0.2972452851084739,
+          "fraction": 0.9963750943363882
+        },
+        {
+          "outside_cm3": 1.54136652241732e-06,
+          "fraction": 0.9999999524998885
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 637.5,
+        "y": 56.5,
+        "z": -6.5
+      },
+      "mid_outer_diameter_mm": 51.02291650255311,
+      "outside_cm3": 0.3007745609305772,
+      "min_fraction": 0.9963390197887273,
+      "segments": [
+        {
+          "outside_cm3": 0.3001819741373879,
+          "fraction": 0.9963390197887273
+        },
+        {
+          "outside_cm3": 0.0005925867931892981,
+          "fraction": 0.999981530903662
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 632.5,
+        "y": 57.0,
+        "z": -7.0
+      },
+      "mid_outer_diameter_mm": 50.79208310357435,
+      "outside_cm3": 0.3035123899718286,
+      "min_fraction": 0.9957858732802859,
+      "segments": [
+        {
+          "outside_cm3": 0.3027220701336688,
+          "fraction": 0.9957858732802859
+        },
+        {
+          "outside_cm3": 0.0007903198381598031,
+          "fraction": 0.9999802862870355
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 635.0,
+        "y": 57.0,
+        "z": -7.0
+      },
+      "mid_outer_diameter_mm": 50.90749980306373,
+      "outside_cm3": 0.30930310527066496,
+      "min_fraction": 0.9959805171949644,
+      "segments": [
+        {
+          "outside_cm3": 0.30914228120005305,
+          "fraction": 0.9959805171949644
+        },
+        {
+          "outside_cm3": 0.00016082407061190906,
+          "fraction": 0.9999954846113248
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 632.5,
+        "y": 56.0,
+        "z": -7.5
+      },
+      "mid_outer_diameter_mm": 50.79208310357435,
+      "outside_cm3": 0.3096877996392067,
+      "min_fraction": 0.9956893903001696,
+      "segments": [
+        {
+          "outside_cm3": 0.3096877996392067,
+          "fraction": 0.9956893903001696
+        },
+        {
+          "outside_cm3": 0.0,
+          "fraction": 1.0
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 635.0,
+        "y": 56.0,
+        "z": -6.5
+      },
+      "mid_outer_diameter_mm": 50.90749980306373,
+      "outside_cm3": 0.3134839669527594,
+      "min_fraction": 0.9959728179128486,
+      "segments": [
+        {
+          "outside_cm3": 0.3096754710958578,
+          "fraction": 0.9959728179128486
+        },
+        {
+          "outside_cm3": 0.0038084958569015726,
+          "fraction": 0.9998965283195351
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 635.0,
+        "y": 56.0,
+        "z": -7.5
+      },
+      "mid_outer_diameter_mm": 50.90749980306373,
+      "outside_cm3": 0.31547510727934025,
+      "min_fraction": 0.995898582253989,
+      "segments": [
+        {
+          "outside_cm3": 0.31547510727934025,
+          "fraction": 0.995898582253989
+        },
+        {
+          "outside_cm3": 0.0,
+          "fraction": 1.0
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 637.5,
+        "y": 57.0,
+        "z": -7.0
+      },
+      "mid_outer_diameter_mm": 51.02291650255311,
+      "outside_cm3": 0.3198950909650051,
+      "min_fraction": 0.9960993189990925,
+      "segments": [
+        {
+          "outside_cm3": 0.3198950909650051,
+          "fraction": 0.9960993189990925
+        },
+        {
+          "outside_cm3": 0.0,
+          "fraction": 1.0
+        }
+      ]
+    },
+    {
+      "mid": {
+        "x": 637.5,
+        "y": 57.0,
+        "z": -7.5
+      },
+      "mid_outer_diameter_mm": 51.02291650255311,
+      "outside_cm3": 0.3218616069339646,
+      "min_fraction": 0.9960761236873813,
+      "segments": [
+        {
+          "outside_cm3": 0.3218616069339646,
+          "fraction": 0.9960761236873813
+        },
+        {
+          "outside_cm3": 0.0,
+          "fraction": 1.0
+        }
+      ]
+    }
+  ],
+  "bilateral_validation": [
+    {
+      "side": "R",
+      "records": [
+        {
+          "kind": "outer_1",
+          "outside_cm3": 0.21851953564262772,
+          "fraction": 0.9969575340191364
+        },
+        {
+          "kind": "outer_2",
+          "outside_cm3": 0.001044581647306586,
+          "fraction": 0.9999742228512356
+        },
+        {
+          "kind": "flow_1",
+          "outside_cm3": 0.11807705923166623,
+          "fraction": 0.9982453984771053
+        },
+        {
+          "kind": "flow_2",
+          "outside_cm3": 0.0,
+          "fraction": 1.0
+        }
+      ],
+      "pass": false
+    },
+    {
+      "side": "L",
+      "records": [
+        {
+          "kind": "outer_1",
+          "outside_cm3": 0.25128075532754224,
+          "fraction": 0.9965013967859604
+        },
+        {
+          "kind": "outer_2",
+          "outside_cm3": 0.000834560355890801,
+          "fraction": 0.9999794055481426
+        },
+        {
+          "kind": "flow_1",
+          "outside_cm3": 0.12341651373392892,
+          "fraction": 0.9981660552493686
+        },
+        {
+          "kind": "flow_2",
+          "outside_cm3": 0.0,
+          "fraction": 1.0
+        }
+      ],
+      "pass": false
+    }
+  ],
+  "bilateral_containment_pass": false,
+  "path_geometry": {
+    "D_to_mid_angle_deg": 0.7571940485949196,
+    "mid_to_fan_angle_deg": 27.252033674874184,
+    "mid": {
+      "x": 632.5,
+      "y": 56.5,
+      "z": -7.0
+    }
+  },
+  "flow_area_preserved": true,
+  "requires_smooth_v138_loft": true,
+  "geometry_candidate_pass": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "850e88765a1902e6b019578f2ad6c0b512eff7248b1a5d7d9b8b262a460e5133"
+}

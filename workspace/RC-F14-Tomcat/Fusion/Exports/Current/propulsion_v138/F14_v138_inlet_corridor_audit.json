@@ -1,0 +1,650 @@
+{
+  "status": "V138_BILATERAL_INLET_CENTER_CORRIDOR",
+  "source_v136": {
+    "status": "V136_D_TO_EDF_TRANSITION_PREPARED",
+    "source_v135": "workspace/RC-F14-Tomcat/Fusion/Exports/Current/propulsion_v135/F14_SOURCE_SILHOUETTE_GUIDED_AFT_v135.f3d",
+    "D_center_local_mm": {
+      "x": 595.8483908511422,
+      "y": 56.30470783882318,
+      "z": -6.556713425255683
+    },
+    "fan_face_center_local_mm": {
+      "x": 650.0,
+      "y": 65.0,
+      "z": -10.0
+    },
+    "centerline": {
+      "dx_mm": 54.1516091488578,
+      "dy_mm": 8.695292161176823,
+      "dz_mm": -3.4432865747443167,
+      "length_mm": 54.95326288415181,
+      "yaw_deg": 9.122291064918423,
+      "pitch_deg": -3.5924183569704953
+    },
+    "duct": {
+      "wall_mm": 0.8,
+      "D_inner_diameter_mm": 47.5,
+      "D_outer_diameter_mm": 49.1,
+      "fan_inner_diameter_mm": 50.0,
+      "fan_outer_diameter_mm": 51.6,
+      "D_flow_area_mm2": 1772.0546061654927,
+      "D_area_ratio_to_max_screened_FSA": 1.119171626984127,
+      "minimum_flow_area_policy_pass": true
+    },
+    "fan_mount_candidate": {
+      "x_start_mm": 650.0,
+      "length_mm": 8.0,
+      "shroud_nominal_OD_mm": 52.5,
+      "mount_ID_mm": 53.0,
+      "mount_OD_mm": 55.2,
+      "radial_shroud_clearance_mm": 0.25
+    },
+    "gates": {
+      "transition_outer_containment_verified": false,
+      "mount_outer_containment_verified": false,
+      "bilateral_verified": false,
+      "actual_fan_ID_measured": false,
+      "actual_4S_shroud_measured": false,
+      "print_release": false,
+      "flight_release": false
+    },
+    "source_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v135\\F14_SOURCE_SILHOUETTE_GUIDED_AFT_v135.f3d",
+    "source_sha256": "36da76d86ea779cb9a7f7587904e92869c164d9fa35c7bbbf67bd67d5a478a6d"
+  },
+  "stations": [
+    {
+      "x_mm": 595.8483908511422,
+      "target_linear_center": {
+        "y": 56.30470783882318,
+        "z": -6.556713425255683
+      },
+      "outer_diameter_mm": 49.1,
+      "valid_count": 1,
+      "chosen": {
+        "x": 595.8483908511422,
+        "y": 56.30470783882318,
+        "z": -6.556713425255683,
+        "outer_diameter_mm": 49.1,
+        "inner_diameter_mm": 47.5
+      },
+      "top_candidates": [
+        {
+          "y": 56.30470783882318,
+          "z": -6.556713425255683,
+          "outside_cm3": 0.0,
+          "cost": 0.0
+        }
+      ]
+    },
+    {
+      "x_mm": 605.0,
+      "target_linear_center": {
+        "y": 57.77421015915996,
+        "z": -7.138628042657851
+      },
+      "outer_diameter_mm": 49.52249940919119,
+      "valid_count": 11,
+      "chosen": {
+        "x": 605.0,
+        "y": 57.77421015915996,
+        "z": -7.138628042657851,
+        "outer_diameter_mm": 49.52249940919119,
+        "inner_diameter_mm": 47.92249940919119
+      },
+      "top_candidates": [
+        {
+          "y": 57.77421015915996,
+          "z": -7.138628042657851,
+          "outside_cm3": 0.0,
+          "cost": 0.0
+        },
+        {
+          "y": 56.77421015915996,
+          "z": -7.138628042657851,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 57.77421015915996,
+          "z": -8.138628042657851,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 58.77421015915996,
+          "z": -7.138628042657851,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 58.77421015915996,
+          "z": -8.138628042657851,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 57.77421015915996,
+          "z": -9.138628042657851,
+          "outside_cm3": 0.0,
+          "cost": 4.0
+        },
+        {
+          "y": 58.77421015915996,
+          "z": -9.138628042657851,
+          "outside_cm3": 0.0,
+          "cost": 5.0
+        },
+        {
+          "y": 59.77421015915996,
+          "z": -6.138628042657851,
+          "outside_cm3": 0.0,
+          "cost": 5.0
+        },
+        {
+          "y": 57.77421015915996,
+          "z": -10.138628042657851,
+          "outside_cm3": 0.0,
+          "cost": 9.0
+        },
+        {
+          "y": 58.77421015915996,
+          "z": -10.138628042657851,
+          "outside_cm3": 0.0,
+          "cost": 10.0
+        }
+      ]
+    },
+    {
+      "x_mm": 615.0,
+      "target_linear_center": {
+        "y": 59.37994123490219,
+        "z": -7.774488477622773
+      },
+      "outer_diameter_mm": 49.984166207148704,
+      "valid_count": 18,
+      "chosen": {
+        "x": 615.0,
+        "y": 59.37994123490219,
+        "z": -7.774488477622773,
+        "outer_diameter_mm": 49.984166207148704,
+        "inner_diameter_mm": 48.3841662071487
+      },
+      "top_candidates": [
+        {
+          "y": 59.37994123490219,
+          "z": -7.774488477622773,
+          "outside_cm3": 0.0,
+          "cost": 0.0
+        },
+        {
+          "y": 58.37994123490219,
+          "z": -7.774488477622773,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 59.37994123490219,
+          "z": -8.774488477622773,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 60.37994123490219,
+          "z": -7.774488477622773,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 58.37994123490219,
+          "z": -8.774488477622773,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 60.37994123490219,
+          "z": -8.774488477622773,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 57.37994123490219,
+          "z": -7.774488477622773,
+          "outside_cm3": 0.0,
+          "cost": 4.0
+        },
+        {
+          "y": 59.37994123490219,
+          "z": -9.774488477622773,
+          "outside_cm3": 0.0,
+          "cost": 4.0
+        },
+        {
+          "y": 61.37994123490219,
+          "z": -7.774488477622773,
+          "outside_cm3": 0.0,
+          "cost": 4.0
+        },
+        {
+          "y": 58.37994123490219,
+          "z": -9.774488477622773,
+          "outside_cm3": 0.0,
+          "cost": 5.0
+        }
+      ]
+    },
+    {
+      "x_mm": 625.0,
+      "target_linear_center": {
+        "y": 60.985672310644425,
+        "z": -8.410348912587695
+      },
+      "outer_diameter_mm": 50.445833005106216,
+      "valid_count": 28,
+      "chosen": {
+        "x": 625.0,
+        "y": 60.985672310644425,
+        "z": -8.410348912587695,
+        "outer_diameter_mm": 50.445833005106216,
+        "inner_diameter_mm": 48.845833005106215
+      },
+      "top_candidates": [
+        {
+          "y": 60.985672310644425,
+          "z": -8.410348912587695,
+          "outside_cm3": 0.0,
+          "cost": 0.0
+        },
+        {
+          "y": 59.985672310644425,
+          "z": -8.410348912587695,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 60.985672310644425,
+          "z": -9.410348912587695,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 60.985672310644425,
+          "z": -7.410348912587695,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 61.985672310644425,
+          "z": -8.410348912587695,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 59.985672310644425,
+          "z": -9.410348912587695,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 59.985672310644425,
+          "z": -7.410348912587695,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 61.985672310644425,
+          "z": -9.410348912587695,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 61.985672310644425,
+          "z": -7.410348912587695,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 58.985672310644425,
+          "z": -8.410348912587695,
+          "outside_cm3": 0.0,
+          "cost": 4.0
+        }
+      ]
+    },
+    {
+      "x_mm": 635.0,
+      "target_linear_center": {
+        "y": 62.59140338638665,
+        "z": -9.046209347552617
+      },
+      "outer_diameter_mm": 50.90749980306373,
+      "valid_count": 35,
+      "chosen": {
+        "x": 635.0,
+        "y": 62.59140338638665,
+        "z": -9.046209347552617,
+        "outer_diameter_mm": 50.90749980306373,
+        "inner_diameter_mm": 49.30749980306373
+      },
+      "top_candidates": [
+        {
+          "y": 62.59140338638665,
+          "z": -9.046209347552617,
+          "outside_cm3": 0.0,
+          "cost": 0.0
+        },
+        {
+          "y": 61.59140338638665,
+          "z": -9.046209347552617,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 62.59140338638665,
+          "z": -10.046209347552617,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 62.59140338638665,
+          "z": -8.046209347552617,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 63.59140338638665,
+          "z": -9.046209347552617,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 61.59140338638665,
+          "z": -10.046209347552617,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 61.59140338638665,
+          "z": -8.046209347552617,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 63.59140338638665,
+          "z": -10.046209347552617,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 63.59140338638665,
+          "z": -8.046209347552617,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 64.59140338638665,
+          "z": -9.046209347552617,
+          "outside_cm3": 0.0,
+          "cost": 3.9999999999999716
+        }
+      ]
+    },
+    {
+      "x_mm": 645.0,
+      "target_linear_center": {
+        "y": 64.19713446212889,
+        "z": -9.682069782517539
+      },
+      "outer_diameter_mm": 51.36916660102124,
+      "valid_count": 45,
+      "chosen": {
+        "x": 645.0,
+        "y": 64.19713446212889,
+        "z": -9.682069782517539,
+        "outer_diameter_mm": 51.36916660102124,
+        "inner_diameter_mm": 49.76916660102124
+      },
+      "top_candidates": [
+        {
+          "y": 64.19713446212889,
+          "z": -9.682069782517539,
+          "outside_cm3": 0.0,
+          "cost": 0.0
+        },
+        {
+          "y": 63.197134462128886,
+          "z": -9.682069782517539,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 64.19713446212889,
+          "z": -10.682069782517539,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 64.19713446212889,
+          "z": -8.682069782517539,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 65.19713446212889,
+          "z": -9.682069782517539,
+          "outside_cm3": 0.0,
+          "cost": 1.0
+        },
+        {
+          "y": 63.197134462128886,
+          "z": -10.682069782517539,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 63.197134462128886,
+          "z": -8.682069782517539,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 65.19713446212889,
+          "z": -10.682069782517539,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 65.19713446212889,
+          "z": -8.682069782517539,
+          "outside_cm3": 0.0,
+          "cost": 2.0
+        },
+        {
+          "y": 62.197134462128886,
+          "z": -9.682069782517539,
+          "outside_cm3": 0.0,
+          "cost": 4.0
+        }
+      ]
+    },
+    {
+      "x_mm": 650.0,
+      "target_linear_center": {
+        "y": 65.0,
+        "z": -10.0
+      },
+      "outer_diameter_mm": 51.6,
+      "valid_count": 1,
+      "chosen": {
+        "x": 650.0,
+        "y": 65.0,
+        "z": -10.0,
+        "outer_diameter_mm": 51.6,
+        "inner_diameter_mm": 50.0
+      },
+      "top_candidates": [
+        {
+          "y": 65.0,
+          "z": -10.0,
+          "outside_cm3": 0.0,
+          "cost": 0.0
+        }
+      ]
+    }
+  ],
+  "chosen_path": [
+    {
+      "x": 595.8483908511422,
+      "y": 56.30470783882318,
+      "z": -6.556713425255683,
+      "outer_diameter_mm": 49.1,
+      "inner_diameter_mm": 47.5
+    },
+    {
+      "x": 605.0,
+      "y": 57.77421015915996,
+      "z": -7.138628042657851,
+      "outer_diameter_mm": 49.52249940919119,
+      "inner_diameter_mm": 47.92249940919119
+    },
+    {
+      "x": 615.0,
+      "y": 59.37994123490219,
+      "z": -7.774488477622773,
+      "outer_diameter_mm": 49.984166207148704,
+      "inner_diameter_mm": 48.3841662071487
+    },
+    {
+      "x": 625.0,
+      "y": 60.985672310644425,
+      "z": -8.410348912587695,
+      "outer_diameter_mm": 50.445833005106216,
+      "inner_diameter_mm": 48.845833005106215
+    },
+    {
+      "x": 635.0,
+      "y": 62.59140338638665,
+      "z": -9.046209347552617,
+      "outer_diameter_mm": 50.90749980306373,
+      "inner_diameter_mm": 49.30749980306373
+    },
+    {
+      "x": 645.0,
+      "y": 64.19713446212889,
+      "z": -9.682069782517539,
+      "outer_diameter_mm": 51.36916660102124,
+      "inner_diameter_mm": 49.76916660102124
+    },
+    {
+      "x": 650.0,
+      "y": 65.0,
+      "z": -10.0,
+      "outer_diameter_mm": 51.6,
+      "inner_diameter_mm": 50.0
+    }
+  ],
+  "segment_validation": [
+    {
+      "x0_mm": 595.8483908511422,
+      "x1_mm": 605.0,
+      "records": [
+        {
+          "side": "R",
+          "outer_outside_cm3": 1.711518497604935,
+          "flow_outside_cm3": 1.5495940842144567
+        },
+        {
+          "side": "L",
+          "outer_outside_cm3": 1.7115184976049314,
+          "flow_outside_cm3": 1.549594084214462
+        }
+      ]
+    },
+    {
+      "x0_mm": 605.0,
+      "x1_mm": 615.0,
+      "records": [
+        {
+          "side": "R",
+          "outer_outside_cm3": 0.0,
+          "flow_outside_cm3": 0.0
+        },
+        {
+          "side": "L",
+          "outer_outside_cm3": 0.0,
+          "flow_outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "x0_mm": 615.0,
+      "x1_mm": 625.0,
+      "records": [
+        {
+          "side": "R",
+          "outer_outside_cm3": 0.0,
+          "flow_outside_cm3": 0.0
+        },
+        {
+          "side": "L",
+          "outer_outside_cm3": 0.0,
+          "flow_outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "x0_mm": 625.0,
+      "x1_mm": 635.0,
+      "records": [
+        {
+          "side": "R",
+          "outer_outside_cm3": 0.0,
+          "flow_outside_cm3": 0.0
+        },
+        {
+          "side": "L",
+          "outer_outside_cm3": 0.0,
+          "flow_outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "x0_mm": 635.0,
+      "x1_mm": 645.0,
+      "records": [
+        {
+          "side": "R",
+          "outer_outside_cm3": 0.0,
+          "flow_outside_cm3": 0.0
+        },
+        {
+          "side": "L",
+          "outer_outside_cm3": 0.0,
+          "flow_outside_cm3": 0.0
+        }
+      ]
+    },
+    {
+      "x0_mm": 645.0,
+      "x1_mm": 650.0,
+      "records": [
+        {
+          "side": "R",
+          "outer_outside_cm3": 0.0,
+          "flow_outside_cm3": 0.0
+        },
+        {
+          "side": "L",
+          "outer_outside_cm3": 0.0,
+          "flow_outside_cm3": 0.0
+        }
+      ]
+    }
+  ],
+  "bilateral_segment_pass": false,
+  "flow_area_preserved": true,
+  "geometry_candidate_pass": false,
+  "next_gate": "v139 smooth multi-section duct loft with curvature/area audit",
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "f3e0d8555a508d74353932460f4d90040480dc921fe4e919e8d3c1c2c934e60f"
+}

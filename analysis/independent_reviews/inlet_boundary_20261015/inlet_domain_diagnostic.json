@@ -1,0 +1,13 @@
+{
+  "status": "FIRST_SEGMENT_SOURCE_DOMAIN_TRUNCATION_DIAGNOSTIC",
+  "source_sha256": "9e3f3c1a84c60168cda6cc92a700893c2ea7fa695fc04da17105ce4372f98e2a",
+  "source_start_x_mm": 595.8483908511422,
+  "segment_axis_tilt_deg": 9.798591908376324,
+  "tilted_base_upstream_extent_mm": 4.178048670466041,
+  "constant_radius_cylinder_upstream_wedge_volume_cm3": 1.7035988813109333,
+  "observed_conical_segment_outside_cm3": 1.711518497604935,
+  "approximation_ratio": 0.9953727544837615,
+  "exact_conical_wedge_or_true_skin_interference_separated": false,
+  "geometry_candidate_pass": false,
+  "print_release": false
+}
