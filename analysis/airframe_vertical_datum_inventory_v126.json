@@ -1,0 +1,154 @@
+{
+    "status":  "V126_AIRFRAME_VERTICAL_DATUM_EVIDENCE_INVENTORY",
+    "records":  [
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_18_z_top",
+                        "value":  56.687,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_18_z_bottom",
+                        "value":  -36.57,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_19_z_top",
+                        "value":  56.687,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_19_z_bottom",
+                        "value":  -36.57,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_20_z_top",
+                        "value":  53.357,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_20_z_bottom",
+                        "value":  -38.236,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_21_z_top",
+                        "value":  46.695,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_21_z_bottom",
+                        "value":  -39.901,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_22_z_top",
+                        "value":  45.03,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_22_z_bottom",
+                        "value":  -39.901,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_23_z_top",
+                        "value":  38.369,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_23_z_bottom",
+                        "value":  -39.901,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_24_z_top",
+                        "value":  45.03,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_24_z_bottom",
+                        "value":  -36.57,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_25_z_top",
+                        "value":  50.026,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_25_z_bottom",
+                        "value":  -34.905,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_26_z_top",
+                        "value":  51.691,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "analysis/upc_fuselage_30stations_scaled.json",
+                        "label":  "fuselage_station_26_z_bottom",
+                        "value":  -31.574,
+                        "unit":  "mm",
+                        "note":  ""
+                    },
+                    {
+                        "source":  "cad\\exports\\pivot_cassette_v30\\F14_v30_pivot_cassette_audit.json",
+                        "label":  "geometry.pivot_model_mm.z",
+                        "value":  187.59240693460868,
+                        "unit":  "mm",
+                        "note":  "recursive datum evidence"
+                    },
+                    {
+                        "source":  "cad\\exports\\wingbox_fork_v31\\F14_v31_wingbox_fork_audit.json",
+                        "label":  "geometry.pivot_model_mm.z",
+                        "value":  187.59240693460868,
+                        "unit":  "mm",
+                        "note":  "recursive datum evidence"
+                    }
+                ],
+    "gates":  {
+                  "common_fuselage_wingbox_Z_transform_verified":  false,
+                  "source_traceable_waterline_verified":  false,
+                  "propulsion_absolute_Z_ready":  false,
+                  "fusion_required_yet":  false
+              },
+    "conclusion":  "UPC station data are in local z=0 frame; Fusion v22 translates fuselage by engineering pivot WL. Pivot WL itself remains source-unverified.",
+    "registered_fuselage_shift_mm":  187.59240693460868,
+    "v27_variant_spread_mm":  0.54554097522228062
+}

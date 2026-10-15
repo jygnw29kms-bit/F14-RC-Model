@@ -1,0 +1,9 @@
+{
+    "mapped_pitch_deg":  0.61432184189797645,
+    "fusion_required":  false,
+    "absolute_Z_ready":  false,
+    "pitch_delta_deg":  -0.75105952484022354,
+    "reason":  "Simple section-fraction mapping of Figure 3.15 E/F axes onto unshifted UPC OML disagrees with direct source relative pitch by 0.751 deg",
+    "status":  "V124_MODEL_RELATIVE_Z_MAPPING_REJECTED",
+    "source_relative_pitch_deg":  1.3653813667382
+}
