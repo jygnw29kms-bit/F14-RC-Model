@@ -1,0 +1,22 @@
+{
+  "status": "ACTUAL_SLICED_OBJECT_LAYER_EXTRUSION_AUDIT",
+  "archive_sha256": "82c06efb9b61027cc7230f630a685d203233b4a0c86f9d57402ce330dc197209",
+  "objects": [
+    "12",
+    "8"
+  ],
+  "layers": 311,
+  "object_layer_pairs": 622,
+  "missing_object_layers": [],
+  "feature_extrusion_move_counts": {
+    "Outer wall": 9645
+  },
+  "reported_line_widths_mm": [
+    0.42,
+    0.5
+  ],
+  "minimum_moves_per_object_layer": 10,
+  "closed_path_or_wall_thickness_verified": false,
+  "physical_print_verified": false,
+  "print_release": false
+}

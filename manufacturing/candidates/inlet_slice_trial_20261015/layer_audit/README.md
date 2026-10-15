@@ -1,0 +1,1 @@
+Actual embedded Gcode audit: both objects contain positive XY/arc extrusion moves at all311 layers,622 object/layer pairs. Relative extrusion mode respected; E-only priming excluded. Feature and reported width counts saved. This does not establish closed toolpaths, dimensional wall thickness, seam integrity, startup-code compatibility, actual manufacturing or print release.
