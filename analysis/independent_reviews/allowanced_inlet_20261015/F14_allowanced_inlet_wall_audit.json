@@ -1,0 +1,312 @@
+{
+  "status": "INDEPENDENT_NATIVE_COMMON_DOMAIN_CONTAINMENT",
+  "inputs": {
+    "archive": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v138\\F14_INLET_CORRIDOR_v138.f3d",
+    "audit": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v138\\F14_v138_inlet_corridor_audit.json",
+    "archive_sha256": "9420aa5725d5deab7cb37e863f14d4444f6395ea143492ee5f6aa2b97a244a48",
+    "audit_sha256": "9e3f3c1a84c60168cda6cc92a700893c2ea7fa695fc04da17105ce4372f98e2a"
+  },
+  "records": [
+    {
+      "x0_mm": 595.8483908511422,
+      "x1_mm": 605.0,
+      "side": "R",
+      "kind": "outer",
+      "original_cm3": 17.736345399517116,
+      "excluded_domain_cm3": 1.7115184976049171,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 595.8483908511422,
+      "x1_mm": 605.0,
+      "side": "R",
+      "kind": "inner",
+      "original_cm3": 16.604044366016662,
+      "excluded_domain_cm3": 1.5495940842144496,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 595.8483908511422,
+      "x1_mm": 605.0,
+      "side": "L",
+      "kind": "outer",
+      "original_cm3": 17.736345399517116,
+      "excluded_domain_cm3": 1.7115184976049207,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 595.8483908511422,
+      "x1_mm": 605.0,
+      "side": "L",
+      "kind": "inner",
+      "original_cm3": 16.604044366016666,
+      "excluded_domain_cm3": 1.5495940842144567,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 605.0,
+      "x1_mm": 615.0,
+      "side": "R",
+      "kind": "outer",
+      "original_cm3": 19.72965408727929,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 605.0,
+      "x1_mm": 615.0,
+      "side": "R",
+      "kind": "inner",
+      "original_cm3": 18.481108966724516,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 605.0,
+      "x1_mm": 615.0,
+      "side": "L",
+      "kind": "outer",
+      "original_cm3": 19.72965408727929,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 605.0,
+      "x1_mm": 615.0,
+      "side": "L",
+      "kind": "inner",
+      "original_cm3": 18.481108966724488,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 615.0,
+      "x1_mm": 625.0,
+      "side": "R",
+      "kind": "outer",
+      "original_cm3": 20.097497589414054,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 615.0,
+      "x1_mm": 625.0,
+      "side": "R",
+      "kind": "inner",
+      "original_cm3": 18.837177748021148,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 615.0,
+      "x1_mm": 625.0,
+      "side": "L",
+      "kind": "outer",
+      "original_cm3": 20.097497589414054,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 615.0,
+      "x1_mm": 625.0,
+      "side": "L",
+      "kind": "inner",
+      "original_cm3": 18.83717774802114,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 625.0,
+      "x1_mm": 635.0,
+      "side": "R",
+      "kind": "outer",
+      "original_cm3": 20.468738590090148,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 625.0,
+      "x1_mm": 635.0,
+      "side": "R",
+      "kind": "inner",
+      "original_cm3": 19.196644027859115,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 625.0,
+      "x1_mm": 635.0,
+      "side": "L",
+      "kind": "outer",
+      "original_cm3": 20.468738590090148,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 625.0,
+      "x1_mm": 635.0,
+      "side": "L",
+      "kind": "inner",
+      "original_cm3": 19.19664402785911,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 635.0,
+      "x1_mm": 645.0,
+      "side": "R",
+      "kind": "outer",
+      "original_cm3": 20.843377089307637,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 635.0,
+      "x1_mm": 645.0,
+      "side": "R",
+      "kind": "inner",
+      "original_cm3": 19.55950780623846,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 635.0,
+      "x1_mm": 645.0,
+      "side": "L",
+      "kind": "outer",
+      "original_cm3": 20.843377089307634,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 635.0,
+      "x1_mm": 645.0,
+      "side": "L",
+      "kind": "inner",
+      "original_cm3": 19.559507806238464,
+      "excluded_domain_cm3": 0.0,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 645.0,
+      "x1_mm": 650.0,
+      "side": "R",
+      "kind": "outer",
+      "original_cm3": 10.563239700154549,
+      "excluded_domain_cm3": 1.9681867075742439,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 645.0,
+      "x1_mm": 650.0,
+      "side": "R",
+      "kind": "inner",
+      "original_cm3": 9.916889538305668,
+      "excluded_domain_cm3": 1.790718014221401,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 645.0,
+      "x1_mm": 650.0,
+      "side": "L",
+      "kind": "outer",
+      "original_cm3": 10.563239700154554,
+      "excluded_domain_cm3": 1.9681867075742492,
+      "common_domain_outside_cm3": 0
+    },
+    {
+      "x0_mm": 645.0,
+      "x1_mm": 650.0,
+      "side": "L",
+      "kind": "inner",
+      "original_cm3": 9.916889538305668,
+      "excluded_domain_cm3": 1.790718014221401,
+      "common_domain_outside_cm3": 0
+    }
+  ],
+  "maximum_common_domain_outside_cm3": 0,
+  "source_OML_original_fidelity_verified": false,
+  "upstream_geometry_verified": false,
+  "print_release": false,
+  "wall_candidates": [
+    {
+      "side": "R",
+      "wall_material_volume_cm3": 6.927785483220546,
+      "outside_candidate_source_cm3": 0,
+      "valid_solid": true,
+      "complete_X_annular_ends": true,
+      "end_loop_counts": [
+        2,
+        2
+      ],
+      "normal_wall_minimum_mm": 0.809790531081491,
+      "end_dimensions": [
+        {
+          "x_mm": 595.8483908511422,
+          "y_bounds_mm": [
+            31.53086602660309,
+            81.26054473348589
+          ],
+          "z_bounds_mm": [
+            -31.192544180871597,
+            18.00704830583198
+          ],
+          "area_mm2": 124.70511525529488
+        },
+        {
+          "x_mm": 650.0,
+          "y_bounds_mm": [
+            38.96476094683186,
+            91.22650068766998
+          ],
+          "z_bounds_mm": [
+            -35.890200957022024,
+            15.81446243022655
+          ],
+          "area_mm2": 131.16116802270346
+        }
+      ]
+    },
+    {
+      "side": "L",
+      "wall_material_volume_cm3": 6.9277854832205605,
+      "outside_candidate_source_cm3": 0,
+      "valid_solid": true,
+      "complete_X_annular_ends": true,
+      "end_loop_counts": [
+        2,
+        2
+      ],
+      "normal_wall_minimum_mm": 0.809790531081379,
+      "end_dimensions": [
+        {
+          "x_mm": 595.8483908511422,
+          "y_bounds_mm": [
+            -81.26054473348589,
+            -31.530866026603093
+          ],
+          "z_bounds_mm": [
+            -31.19254418087161,
+            18.007048305831983
+          ],
+          "area_mm2": 124.70511525529524
+        },
+        {
+          "x_mm": 650.0,
+          "y_bounds_mm": [
+            -91.22650068767001,
+            -38.96476094683184
+          ],
+          "z_bounds_mm": [
+            -35.890200957022024,
+            15.814462430226541
+          ],
+          "area_mm2": 131.16116802270562
+        }
+      ]
+    }
+  ],
+  "wall_thickness_radius_difference_mm": 0.81,
+  "minimum_normal_wall_thickness_verified": true,
+  "inlet_ends_planar_X_domain_clips": true
+}
