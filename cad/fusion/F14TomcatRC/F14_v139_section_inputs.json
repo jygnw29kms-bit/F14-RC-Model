@@ -1,0 +1,10 @@
+{
+    "source_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v135\\F14_SOURCE_SILHOUETTE_GUIDED_AFT_v135.f3d",
+    "source_sha256":  "36da76d86ea779cb9a7f7587904e92869c164d9fa35c7bbbf67bd67d5a478a6d",
+    "corridor_audit_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\propulsion_v138\\F14_v138_inlet_corridor_audit.json",
+    "corridor_audit_sha256":  "9e3f3c1a84c60168cda6cc92a700893c2ea7fa695fc04da17105ce4372f98e2a",
+    "extension_each_end_mm":  8,
+    "wall_mm":  0.8,
+    "containment_tolerance_cm3":  1E-06,
+    "thickness_tolerance_mm":  0.03
+}

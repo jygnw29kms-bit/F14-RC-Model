@@ -2570,6 +2570,12 @@ def build_project_revision():
         study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
         with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
         return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='inlet_complete_ends_v139':
+        path=os.path.join(os.path.dirname(__file__),'F14InletThroat_v139.py')
+        spec=importlib.util.spec_from_file_location('f14_inlet_complete_ends_v139',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'propulsion_v139'))
     if review=='inlet_corridor_v138':
         path=os.path.join(os.path.dirname(__file__),'F14InletCorridor_v138.py')
         spec=importlib.util.spec_from_file_location('f14_inlet_corridor_v138',path)
