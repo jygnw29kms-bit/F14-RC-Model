@@ -1,0 +1,11 @@
+﻿{
+  "checkpoint":"2026-10-15_shutdown",
+  "freecad_master":"migration/freecad/F14_CURRENT_FULL_VIEW_v192.FCStd",
+  "freecad_revision":"v192",
+  "headless_verify_pass":true,
+  "next_primary_gate":"sweep_linkage_packaging_common_datum",
+  "target_next_revision":"v193_v194",
+  "fusion_required":false,
+  "print_release":false,
+  "flight_release":false
+}
