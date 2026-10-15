@@ -1,0 +1,94 @@
+{
+  "status": "V184_CURRENT_V176_INLET_P2S_PETG_SLICER_GATE",
+  "source_revision": "v176 centerline-aligned inlet/EDF adapter",
+  "source_f3d_sha256": "ea6fab92314b3e9cc58afb0cdc3cddbd5a416df548012ffde3036bc45f17431a",
+  "slicer": "PRINTBENCH Studio 2.4.2 / OrcaSlicer CLI",
+  "profiles": {
+    "machine": "Bambu Lab P2S 0.4 nozzle (resolved)",
+    "process": "0.20mm Standard @BBL P2S (resolved)",
+    "filament": "Bambu PETG Basic @BBL P2S 0.4 nozzle (resolved)",
+    "bed": "Textured PEI Plate"
+  },
+  "parts": {
+    "R": {
+      "stl": {
+        "facets": 8596,
+        "manifold": "yes",
+        "parts": 1,
+        "mesh_volume_mm3": 7968.695801,
+        "size_mm": [
+          62.151611,
+          60.557974,
+          54.323616
+        ]
+      },
+      "three_mf": "F14_INLET_EDF_R_P2S_PETG_v184.3mf",
+      "three_mf_sha256": "05fe6bf4aaf23d3842e8b5f47d742c933758ebf7612061e5d9f7065d51834b7d",
+      "three_mf_size_bytes": 987655,
+      "embedded_gcode_bytes": 3328953,
+      "printer_model": "Bambu Lab P2S",
+      "printer_variant": "0.4",
+      "filament_settings_id": "\"Bambu PETG Basic @BBL P2S 0.4 nozzle\"",
+      "filament_type": "PETG",
+      "filament_density_g_cm3": "1.25",
+      "bed_type": "Textured PEI Plate",
+      "nozzle_diameter_mm": "0.4",
+      "layer_height_mm": "0.2",
+      "model_printing_time": "1h 10m 52s",
+      "total_estimated_time": "1h 16m 6s",
+      "total_layers": 311,
+      "filament_used_mm": 3084.83,
+      "filament_used_cm3": 7.42,
+      "max_z_height_mm": 62.2,
+      "native_volume_mm3": 7969.609092720731,
+      "mesh_volume_error_percent": -0.01145968026919816,
+      "profile_identity_pass": true,
+      "mesh_gate_pass": true
+    },
+    "L": {
+      "stl": {
+        "facets": 8596,
+        "manifold": "yes",
+        "parts": 1,
+        "mesh_volume_mm3": 7968.501465,
+        "size_mm": [
+          62.151611,
+          60.556498,
+          54.325108
+        ]
+      },
+      "three_mf": "F14_INLET_EDF_L_P2S_PETG_v184.3mf",
+      "three_mf_sha256": "2ec9218e4c63b0dd53aac43060e9291dce5a4a5049aa4cb0338442f62ba24572",
+      "three_mf_size_bytes": 1038488,
+      "embedded_gcode_bytes": 3426148,
+      "printer_model": "Bambu Lab P2S",
+      "printer_variant": "0.4",
+      "filament_settings_id": "\"Bambu PETG Basic @BBL P2S 0.4 nozzle\"",
+      "filament_type": "PETG",
+      "filament_density_g_cm3": "1.25",
+      "bed_type": "Textured PEI Plate",
+      "nozzle_diameter_mm": "0.4",
+      "layer_height_mm": "0.2",
+      "model_printing_time": "1h 12m 32s",
+      "total_estimated_time": "1h 17m 45s",
+      "total_layers": 311,
+      "filament_used_mm": 3084.82,
+      "filament_used_cm3": 7.42,
+      "max_z_height_mm": 62.2,
+      "native_volume_mm3": 7969.609092720731,
+      "mesh_volume_error_percent": -0.013898143658538909,
+      "profile_identity_pass": true,
+      "mesh_gate_pass": true
+    }
+  },
+  "bilateral_mesh_gate_pass": true,
+  "bilateral_profile_identity_pass": true,
+  "bilateral_embedded_gcode_pass": true,
+  "slicer_verified": true,
+  "material_process_optimized_for_flight": false,
+  "normal_wall_thickness_verified": false,
+  "aerodynamic_smoothness_verified": false,
+  "actual_print_tested": false,
+  "print_release": false,
+  "flight_release": false
+}

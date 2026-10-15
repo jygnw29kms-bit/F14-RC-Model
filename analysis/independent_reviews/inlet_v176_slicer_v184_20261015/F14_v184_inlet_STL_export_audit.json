@@ -1,0 +1,52 @@
+{
+  "status": "V184_V176_CENTERLINE_ALIGNED_INLET_STL_EXPORT",
+  "source_path": "C:/Users/dezen/Desktop/F14-RC-Model/analysis/independent_reviews/edf_axis_adapter_v176_20261015/F14_v176_CENTERLINE_ALIGNED_EDF_ADAPTER.f3d",
+  "source_sha256": "ea6fab92314b3e9cc58afb0cdc3cddbd5a416df548012ffde3036bc45f17431a",
+  "files": [
+    {
+      "side": "R",
+      "body_name": "CANDIDATE_JOINED_INLET_EDF_R_v176_NO_PRINT_RELEASE",
+      "path": "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\propulsion_v184\\F14_INLET_EDF_R_v184_NOT_RELEASED.stl",
+      "native_volume_mm3": 7969.609092720731,
+      "native_bounds_mm": [
+        [
+          595.8483908511422,
+          31.53086602660309,
+          -36.31868834797194
+        ],
+        [
+          658.0,
+          92.09458486059378,
+          18.007048305831983
+        ]
+      ],
+      "stl_sha256": "3e5ecc48bd11dd03ee4a689f021bde112a0f22c3c540574c350ea21ab02ccfd2"
+    },
+    {
+      "side": "L",
+      "body_name": "CANDIDATE_JOINED_INLET_EDF_L_v176_NO_PRINT_RELEASE",
+      "path": "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current\\propulsion_v184\\F14_INLET_EDF_L_v184_NOT_RELEASED.stl",
+      "native_volume_mm3": 7969.609092720731,
+      "native_bounds_mm": [
+        [
+          595.8483908511422,
+          -92.09458486059378,
+          -36.31868834797194
+        ],
+        [
+          658.0,
+          -31.530866026603093,
+          18.007048305831983
+        ]
+      ],
+      "stl_sha256": "3cce55bc50850514a62822d07f86688391fb6ac49d5e53eb71d50a2713fbb3f2"
+    }
+  ],
+  "source_revision": "v176",
+  "centerline_alignment_verified_in_v176": true,
+  "slicer_verified": false,
+  "actual_print_tested": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "dd0b14b356c1e1e531cd8616dd5cdb27531e529454849d8e0997bd346c981302"
+}
