@@ -1,0 +1,251 @@
+{
+  "status": "V165_CORRECTED_BATTERY_RETENTION_TRAY",
+  "source": {
+    "source_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v105\\F14_MONOLITHIC_LOWER_HARDPOINT_MODULES_v105.f3d",
+    "source_sha256": "033a76fe21633d0257f0ff6ec2b47610b26adc7314c15037b5ae42de57e54cc6",
+    "v164_path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\battery_retention_index_correction_v164.json",
+    "v164_sha256": "def95cab88218366306c42aef70d667a5ce40529753f9b8f9b6d53d14739b439",
+    "tray_x_range_mm": [
+      242,
+      438
+    ],
+    "base_z_mm": 190,
+    "floor_top_z_mm": 192,
+    "rail_inner_y_mm": 19,
+    "rail_outer_y_mm": 23,
+    "rail_height_mm": 10,
+    "rail_width_mm": 4,
+    "floor_strip_width_mm": 8,
+    "floor_strip_thickness_mm": 2,
+    "floor_strip_center_abs_y_mm": 14,
+    "crossbar_x_mm": [
+      246,
+      340,
+      434
+    ],
+    "crossbar_x_thickness_mm": 4,
+    "crossbar_y_length_mm": 46,
+    "crossbar_z_thickness_mm": 2,
+    "retention_hole_x_mm": [
+      249,
+      259,
+      269,
+      279,
+      289,
+      299,
+      309,
+      319,
+      329,
+      339,
+      349,
+      359,
+      369,
+      379,
+      389,
+      399,
+      409,
+      419,
+      431
+    ],
+    "stop_pin_hole_diameter_mm": 4.2,
+    "stop_pin_axis_z_mm": 195,
+    "end_hardpoint_x_mm": [
+      249,
+      431
+    ],
+    "end_hardpoint_center_abs_y_mm": 23,
+    "end_hardpoint_size_mm": [
+      14,
+      8,
+      17
+    ],
+    "end_hardpoint_center_z_mm": 198.5,
+    "frame_hole_diameter_mm": 3.3,
+    "frame_hole_axis_z_mm": 203,
+    "frame_hole_y_span_mm": [
+      20,
+      28
+    ],
+    "reference_pack_mm": [
+      106,
+      36,
+      25
+    ],
+    "battery_center_positions_mm": [
+      305,
+      340,
+      375
+    ],
+    "strap_undertray_clearance_mm": 2,
+    "containment_tolerance_cm3": 1e-05,
+    "collision_tolerance_cm3": 1e-06
+  },
+  "geometry": {
+    "tray_volume_cm3": 25.455226310053447,
+    "outside_fuselage_cm3": 0,
+    "containment_fraction": 1.0,
+    "fixed_structure_collisions": [],
+    "retention_hole_x_mm": [
+      249.0,
+      259.0,
+      269.0,
+      279.0,
+      289.0,
+      299.0,
+      309.0,
+      319.0,
+      329.0,
+      339.0,
+      349.0,
+      359.0,
+      369.0,
+      379.0,
+      389.0,
+      399.0,
+      409.0,
+      419.0,
+      431.0
+    ],
+    "frame_interfaces": [
+      {
+        "x_mm": 249.0,
+        "side": "R",
+        "y_span_mm": [
+          20.0,
+          28.0
+        ],
+        "z_mm": 203.0,
+        "hole_d_mm": 3.3
+      },
+      {
+        "x_mm": 249.0,
+        "side": "L",
+        "y_span_mm": [
+          -20.0,
+          -28.0
+        ],
+        "z_mm": 203.0,
+        "hole_d_mm": 3.3
+      },
+      {
+        "x_mm": 431.0,
+        "side": "R",
+        "y_span_mm": [
+          20.0,
+          28.0
+        ],
+        "z_mm": 203.0,
+        "hole_d_mm": 3.3
+      },
+      {
+        "x_mm": 431.0,
+        "side": "L",
+        "y_span_mm": [
+          -20.0,
+          -28.0
+        ],
+        "z_mm": 203.0,
+        "hole_d_mm": 3.3
+      }
+    ],
+    "stop_to_frame_axis_separation_mm": 8.0,
+    "nominal_surface_ligament_between_bores_mm": 4.25,
+    "terminal_stop_hole_x_edge_ligament_mm": 4.900000000000006,
+    "frame_hole_top_ligament_mm": 2.3499999999999943
+  },
+  "battery_travel_checks": [
+    {
+      "center_x_mm": 305.0,
+      "x_range_mm": [
+        252.0,
+        358.0
+      ],
+      "tray_overlap_cm3": 0.0,
+      "fuselage_inside_fraction": 1.0,
+      "pass": true
+    },
+    {
+      "center_x_mm": 340.0,
+      "x_range_mm": [
+        287.0,
+        393.0
+      ],
+      "tray_overlap_cm3": 0.0,
+      "fuselage_inside_fraction": 1.0,
+      "pass": true
+    },
+    {
+      "center_x_mm": 375.0,
+      "x_range_mm": [
+        322.0,
+        428.0
+      ],
+      "tray_overlap_cm3": 0.0,
+      "fuselage_inside_fraction": 1.0,
+      "pass": true
+    }
+  ],
+  "v164_retention_position_checks": [
+    {
+      "battery_center_x_mm": 305.0,
+      "pack_x_range_mm": [
+        252.0,
+        358.0
+      ],
+      "front_stop": {
+        "pin_x_mm": 249.0,
+        "hard_gap_to_pack_mm": 1.0,
+        "shoe_reach_required_mm": 1.0
+      },
+      "aft_stop": {
+        "pin_x_mm": 369.0,
+        "hard_gap_to_pack_mm": 9.0,
+        "shoe_reach_required_mm": 9.0
+      },
+      "pass": true
+    },
+    {
+      "battery_center_x_mm": 340.0,
+      "pack_x_range_mm": [
+        287.0,
+        393.0
+      ],
+      "front_stop": {
+        "pin_x_mm": 279.0,
+        "hard_gap_to_pack_mm": 6.0,
+        "shoe_reach_required_mm": 6.0
+      },
+      "aft_stop": {
+        "pin_x_mm": 399.0,
+        "hard_gap_to_pack_mm": 4.0,
+        "shoe_reach_required_mm": 4.0
+      },
+      "pass": true
+    },
+    {
+      "battery_center_x_mm": 375.0,
+      "pack_x_range_mm": [
+        322.0,
+        428.0
+      ],
+      "front_stop": {
+        "pin_x_mm": 319.0,
+        "hard_gap_to_pack_mm": 1.0,
+        "shoe_reach_required_mm": 1.0
+      },
+      "aft_stop": {
+        "pin_x_mm": 431.0,
+        "hard_gap_to_pack_mm": 1.0,
+        "shoe_reach_required_mm": 1.0
+      },
+      "pass": true
+    }
+  ],
+  "geometry_candidate_pass": true,
+  "stop_shoe_designed": false,
+  "mating_internal_frames_designed": false,
+  "retention_proof_pass": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "daee527442814908c545c9a5c74eb7e37f87a91dcdb8b58efd3705c788a23980"
+}

@@ -1,0 +1,80 @@
+{
+    "source_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\center_wingbox_v105\\F14_MONOLITHIC_LOWER_HARDPOINT_MODULES_v105.f3d",
+    "source_sha256":  "033a76fe21633d0257f0ff6ec2b47610b26adc7314c15037b5ae42de57e54cc6",
+    "v164_path":  "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\battery_retention_index_correction_v164.json",
+    "v164_sha256":  "def95cab88218366306c42aef70d667a5ce40529753f9b8f9b6d53d14739b439",
+    "tray_x_range_mm":  [
+                            242,
+                            438
+                        ],
+    "base_z_mm":  190,
+    "floor_top_z_mm":  192,
+    "rail_inner_y_mm":  19,
+    "rail_outer_y_mm":  23,
+    "rail_height_mm":  10,
+    "rail_width_mm":  4,
+    "floor_strip_width_mm":  8,
+    "floor_strip_thickness_mm":  2,
+    "floor_strip_center_abs_y_mm":  14,
+    "crossbar_x_mm":  [
+                          246,
+                          340,
+                          434
+                      ],
+    "crossbar_x_thickness_mm":  4,
+    "crossbar_y_length_mm":  46,
+    "crossbar_z_thickness_mm":  2,
+    "retention_hole_x_mm":  [
+                                249,
+                                259,
+                                269,
+                                279,
+                                289,
+                                299,
+                                309,
+                                319,
+                                329,
+                                339,
+                                349,
+                                359,
+                                369,
+                                379,
+                                389,
+                                399,
+                                409,
+                                419,
+                                431
+                            ],
+    "stop_pin_hole_diameter_mm":  4.2,
+    "stop_pin_axis_z_mm":  195,
+    "end_hardpoint_x_mm":  [
+                               249,
+                               431
+                           ],
+    "end_hardpoint_center_abs_y_mm":  23,
+    "end_hardpoint_size_mm":  [
+                                  14,
+                                  8,
+                                  17
+                              ],
+    "end_hardpoint_center_z_mm":  198.5,
+    "frame_hole_diameter_mm":  3.3,
+    "frame_hole_axis_z_mm":  203,
+    "frame_hole_y_span_mm":  [
+                                 20,
+                                 28
+                             ],
+    "reference_pack_mm":  [
+                              106,
+                              36,
+                              25
+                          ],
+    "battery_center_positions_mm":  [
+                                        305,
+                                        340,
+                                        375
+                                    ],
+    "strap_undertray_clearance_mm":  2,
+    "containment_tolerance_cm3":  1E-05,
+    "collision_tolerance_cm3":  1E-06
+}

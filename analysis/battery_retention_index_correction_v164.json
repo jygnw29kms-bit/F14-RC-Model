@@ -1,0 +1,112 @@
+{
+  "status": "V164_RETENTION_INDEX_AND_FASTENER_SEPARATION_CORRECTION",
+  "corrects": [
+    "v157 stop-hole end coverage",
+    "v158 near-coincident frame/stop fastener axes"
+  ],
+  "retention_hole_x_mm": [
+    249.0,
+    259.0,
+    269.0,
+    279.0,
+    289.0,
+    299.0,
+    309.0,
+    319.0,
+    329.0,
+    339.0,
+    349.0,
+    359.0,
+    369.0,
+    379.0,
+    389.0,
+    399.0,
+    409.0,
+    419.0,
+    431.0
+  ],
+  "stop_pin_diameter_mm": 4.0,
+  "minimum_bare_pack_clearance_mm": 1.0,
+  "maximum_compliant_stop_shoe_reach_mm": 12.0,
+  "battery_position_checks": [
+    {
+      "battery_center_x_mm": 305.0,
+      "pack_x_range_mm": [
+        252.0,
+        358.0
+      ],
+      "front_stop": {
+        "pin_x_mm": 249.0,
+        "hard_gap_to_pack_mm": 1.0,
+        "shoe_reach_required_mm": 1.0
+      },
+      "aft_stop": {
+        "pin_x_mm": 369.0,
+        "hard_gap_to_pack_mm": 9.0,
+        "shoe_reach_required_mm": 9.0
+      },
+      "pass": true
+    },
+    {
+      "battery_center_x_mm": 340.0,
+      "pack_x_range_mm": [
+        287.0,
+        393.0
+      ],
+      "front_stop": {
+        "pin_x_mm": 279.0,
+        "hard_gap_to_pack_mm": 6.0,
+        "shoe_reach_required_mm": 6.0
+      },
+      "aft_stop": {
+        "pin_x_mm": 399.0,
+        "hard_gap_to_pack_mm": 4.0,
+        "shoe_reach_required_mm": 4.0
+      },
+      "pass": true
+    },
+    {
+      "battery_center_x_mm": 375.0,
+      "pack_x_range_mm": [
+        322.0,
+        428.0
+      ],
+      "front_stop": {
+        "pin_x_mm": 319.0,
+        "hard_gap_to_pack_mm": 1.0,
+        "shoe_reach_required_mm": 1.0
+      },
+      "aft_stop": {
+        "pin_x_mm": 431.0,
+        "hard_gap_to_pack_mm": 1.0,
+        "shoe_reach_required_mm": 1.0
+      },
+      "pass": true
+    }
+  ],
+  "all_70mm_travel_positions_have_two_positive_stops": true,
+  "frame_interface_revision": {
+    "anchor_x_mm": [
+      249,
+      431
+    ],
+    "stop_pin_axis_z_mm": 195.0,
+    "M3_frame_hole_axis_z_mm": 203.0,
+    "M3_clearance_hole_d_mm": 3.3,
+    "axis_separation_mm": 8.0,
+    "minimum_surface_ligament_between_nominal_holes_mm": 4.35,
+    "M3_hole_y_span_mm": [
+      20,
+      28
+    ],
+    "reason": "Separate frame-fastener bore from the terminal stop-pin bore while keeping both inside the v155 structural/service envelope."
+  },
+  "next_CAD_gate": "v165 regenerate tray holes and frame pads with corrected terminal stops and raised M3 frame fastener axes",
+  "release": {
+    "corrected_CAD_verified": false,
+    "stop_shoe_designed": false,
+    "retention_proof_pass": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
