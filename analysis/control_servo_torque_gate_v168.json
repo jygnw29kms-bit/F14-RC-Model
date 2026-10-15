@@ -1,0 +1,56 @@
+{
+  "status": "V168_STABILATOR_SERVO_TORQUE_GATE_RECONCILIATION",
+  "sources": [
+    "analysis/control_stabilator_torque_v146.json",
+    "analysis/control_linkage_optimization_v148.json",
+    "analysis/control_servo_power_acceptance_v147.json",
+    "analysis/control_stabilator_pivot_corridor_v167.json"
+  ],
+  "optimized_linkage": {
+    "servo_arm_mm": 8,
+    "stabilator_crank_mm": 20,
+    "linkage_effectiveness": 0.7,
+    "predicted_half_throw_deg": 17.843481128270785,
+    "severe_required_servo_torque_kgcm_including_existing_2x_factor": 7.809958462640951
+  },
+  "rating_margins": {
+    "10kgcm_class_ratio_to_severe_requirement": 1.2804165409886805,
+    "14kgcm_class_ratio_to_severe_requirement": 1.7925831573841526,
+    "note": "Published servo torque is commonly a stall rating, not a continuous flight-load allowable. Rating ratio is not itself flight qualification."
+  },
+  "reconciled_gate": {
+    "default_nominal_torque_class_min_kgcm": 14.0,
+    "10_to_13p9kgcm_allowed_only_by_full_bench_exception": true,
+    "below_10kgcm_rejected_for_baseline": true,
+    "operating_voltage": "7.4-8.4 V HV preferred, exact voltage matched to receiver/BEC/servo hardware",
+    "preferred_mass_each_g_max": 20,
+    "hard_mass_warning_each_g": 25,
+    "metal_gears": true,
+    "metal_output_interface": true,
+    "dual_output_bearing_preferred": true
+  },
+  "bench_exception_for_10_to_13p9kgcm": {
+    "must_pass_v147_hinge_moment_Nm": 0.67,
+    "cycles_each_direction": 100,
+    "supply_test": "worst-case regulated bus voltage under simultaneous taileron reversal + sweep load + EDF throttle transient",
+    "minimum_receiver_bus_voltage_V": 6.8,
+    "max_total_neutral_freeplay_deg": 0.5,
+    "max_permanent_neutral_shift_deg": 0.25,
+    "no_spline_slip": true,
+    "no_abnormal_temperature_or_gear_noise": true
+  },
+  "decision": {
+    "v147_10kgcm_default_is_superseded": true,
+    "v148_linkage_geometry_retained": true,
+    "14kgcm_default_does_not_change_linkage_geometry": true,
+    "servo_model_freeze_waits_for_packaging_and_bench": true
+  },
+  "release": {
+    "servo_model_frozen": false,
+    "linkage_packaging_verified": false,
+    "bench_load_verified": false,
+    "brownout_verified": false,
+    "flutter_verified": false,
+    "flight_release": false
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "status": "V167_SOURCE_BACKED_STABILATOR_ROOT_PIVOT_CORRIDOR",
+  "source": "analysis/control_stabilator_geometry_v145.json / NASA CR-163098 Fig.4 outline",
+  "policy": "This is an RC packaging corridor inside the source-backed stabilator root, not a claim of the original F-14 pivot axis.",
+  "right_stabilator_polygon_mm": [
+    [
+      841.45,
+      209.79
+    ],
+    [
+      802.38,
+      224.73
+    ],
+    [
+      662.14,
+      104.09
+    ],
+    [
+      750.29,
+      72.06
+    ],
+    [
+      804.39,
+      76.33
+    ],
+    [
+      825.42,
+      112.63
+    ]
+  ],
+  "root_scan": [
+    {
+      "y_mm": 78,
+      "x_intervals_mm": [
+        [
+          733.9424820480799,
+          805.3574958677685
+        ]
+      ]
+    },
+    {
+      "y_mm": 79,
+      "x_intervals_mm": [
+        [
+          731.1903746487667,
+          805.9368347107438
+        ]
+      ]
+    },
+    {
+      "y_mm": 80,
+      "x_intervals_mm": [
+        [
+          728.4382672494536,
+          806.516173553719
+        ]
+      ]
+    },
+    {
+      "y_mm": 81,
+      "x_intervals_mm": [
+        [
+          725.6861598501405,
+          807.0955123966942
+        ]
+      ]
+    },
+    {
+      "y_mm": 82,
+      "x_intervals_mm": [
+        [
+          722.9340524508273,
+          807.6748512396694
+        ]
+      ]
+    },
+    {
+      "y_mm": 83,
+      "x_intervals_mm": [
+        [
+          720.1819450515142,
+          808.2541900826446
+        ]
+      ]
+    },
+    {
+      "y_mm": 84,
+      "x_intervals_mm": [
+        [
+          717.4298376522011,
+          808.8335289256198
+        ]
+      ]
+    },
+    {
+      "y_mm": 85,
+      "x_intervals_mm": [
+        [
+          714.6777302528878,
+          809.412867768595
+        ]
+      ]
+    },
+    {
+      "y_mm": 86,
+      "x_intervals_mm": [
+        [
+          711.9256228535747,
+          809.9922066115703
+        ]
+      ]
+    },
+    {
+      "y_mm": 87,
+      "x_intervals_mm": [
+        [
+          709.1735154542616,
+          810.5715454545455
+        ]
+      ]
+    },
+    {
+      "y_mm": 88,
+      "x_intervals_mm": [
+        [
+          706.4214080549484,
+          811.1508842975206
+        ]
+      ]
+    },
+    {
+      "y_mm": 89,
+      "x_intervals_mm": [
+        [
+          703.6693006556353,
+          811.7302231404958
+        ]
+      ]
+    },
+    {
+      "y_mm": 90,
+      "x_intervals_mm": [
+        [
+          700.9171932563222,
+          812.3095619834711
+        ]
+      ]
+    },
+    {
+      "y_mm": 91,
+      "x_intervals_mm": [
+        [
+          698.165085857009,
+          812.8889008264463
+        ]
+      ]
+    },
+    {
+      "y_mm": 92,
+      "x_intervals_mm": [
+        [
+          695.4129784576959,
+          813.4682396694215
+        ]
+      ]
+    },
+    {
+      "y_mm": 93,
+      "x_intervals_mm": [
+        [
+          692.6608710583828,
+          814.0475785123966
+        ]
+      ]
+    },
+    {
+      "y_mm": 94,
+      "x_intervals_mm": [
+        [
+          689.9087636590696,
+          814.6269173553719
+        ]
+      ]
+    },
+    {
+      "y_mm": 95,
+      "x_intervals_mm": [
+        [
+          687.1566562597565,
+          815.2062561983471
+        ]
+      ]
+    },
+    {
+      "y_mm": 96,
+      "x_intervals_mm": [
+        [
+          684.4045488604434,
+          815.7855950413223
+        ]
+      ]
+    },
+    {
+      "y_mm": 97,
+      "x_intervals_mm": [
+        [
+          681.6524414611301,
+          816.3649338842974
+        ]
+      ]
+    },
+    {
+      "y_mm": 98,
+      "x_intervals_mm": [
+        [
+          678.900334061817,
+          816.9442727272727
+        ]
+      ]
+    },
+    {
+      "y_mm": 99,
+      "x_intervals_mm": [
+        [
+          676.1482266625039,
+          817.5236115702479
+        ]
+      ]
+    },
+    {
+      "y_mm": 100,
+      "x_intervals_mm": [
+        [
+          673.3961192631907,
+          818.1029504132231
+        ]
+      ]
+    },
+    {
+      "y_mm": 101,
+      "x_intervals_mm": [
+        [
+          670.6440118638776,
+          818.6822892561984
+        ]
+      ]
+    },
+    {
+      "y_mm": 102,
+      "x_intervals_mm": [
+        [
+          667.8919044645645,
+          819.2616280991735
+        ]
+      ]
+    },
+    {
+      "y_mm": 103,
+      "x_intervals_mm": [
+        [
+          665.1397970652513,
+          819.8409669421487
+        ]
+      ]
+    },
+    {
+      "y_mm": 104,
+      "x_intervals_mm": [
+        [
+          662.3876896659382,
+          820.4203057851239
+        ]
+      ]
+    },
+    {
+      "y_mm": 105,
+      "x_intervals_mm": [
+        [
+          663.1978448275862,
+          820.9996446280992
+        ]
+      ]
+    },
+    {
+      "y_mm": 106,
+      "x_intervals_mm": [
+        [
+          664.3603116710875,
+          821.5789834710744
+        ]
+      ]
+    },
+    {
+      "y_mm": 107,
+      "x_intervals_mm": [
+        [
+          665.5227785145888,
+          822.1583223140495
+        ]
+      ]
+    },
+    {
+      "y_mm": 108,
+      "x_intervals_mm": [
+        [
+          666.6852453580901,
+          822.7376611570247
+        ]
+      ]
+    },
+    {
+      "y_mm": 109,
+      "x_intervals_mm": [
+        [
+          667.8477122015915,
+          823.317
+        ]
+      ]
+    },
+    {
+      "y_mm": 110,
+      "x_intervals_mm": [
+        [
+          669.0101790450929,
+          823.8963388429752
+        ]
+      ]
+    }
+  ],
+  "full_78_110mm_band": {
+    "common_x_corridor_mm": [
+      733.9424820480799,
+      805.3574958677685
+    ],
+    "width_mm": 71.41501381968862,
+    "mid_x_mm": 769.6499889579243
+  },
+  "candidate_subbands": [
+    {
+      "y_band_mm": [
+        78,
+        90
+      ],
+      "common_x_corridor_mm": [
+        733.9424820480799,
+        805.3574958677685
+      ],
+      "width_mm": 71.41501381968862,
+      "mid_x_mm": 769.6499889579243
+    },
+    {
+      "y_band_mm": [
+        80,
+        95
+      ],
+      "common_x_corridor_mm": [
+        728.4382672494536,
+        806.516173553719
+      ],
+      "width_mm": 78.07790630426541,
+      "mid_x_mm": 767.4772204015862
+    },
+    {
+      "y_band_mm": [
+        82,
+        100
+      ],
+      "common_x_corridor_mm": [
+        722.9340524508273,
+        807.6748512396694
+      ],
+      "width_mm": 84.74079878884208,
+      "mid_x_mm": 765.3044518452483
+    },
+    {
+      "y_band_mm": [
+        85,
+        105
+      ],
+      "common_x_corridor_mm": [
+        714.6777302528878,
+        809.412867768595
+      ],
+      "width_mm": 94.73513751570715,
+      "mid_x_mm": 762.0452990107415
+    },
+    {
+      "y_band_mm": [
+        90,
+        110
+      ],
+      "common_x_corridor_mm": [
+        700.9171932563222,
+        812.3095619834711
+      ],
+      "width_mm": 111.39236872714889,
+      "mid_x_mm": 756.6133776198967
+    }
+  ],
+  "hardware_envelope": {
+    "shaft_d_mm": 6,
+    "bearing_ID_OD_width_mm": [
+      6,
+      13,
+      5
+    ],
+    "stabilator_crank_radius_mm": 20,
+    "servo_arm_radius_mm": 8
+  },
+  "decision": {
+    "root_has_common_shaft_corridor": true,
+    "shaft_x_not_frozen": true,
+    "preferred_next_step": "Select the widest robust sub-band and then test bearing/crank placement against a common tail-fuselage datum once aft fuselage registration is available.",
+    "do_not_use_center_wingbox_Z_frame_for_tail_packaging": true
+  },
+  "release": {
+    "RC_pivot_axis_selected": false,
+    "bearing_packaging_verified": false,
+    "crank_packaging_verified": false,
+    "CAD_release": false,
+    "flight_release": false
+  }
+}
