@@ -1,0 +1,173 @@
+{
+  "status": "NATIVE_INLET_END_INTERFACE_GEOMETRY",
+  "input": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\analysis\\independent_reviews\\inlet_walls_20261015\\F14_BILATERAL_INLET_WALL_CANDIDATE.f3d",
+    "sha256": "e47c52345f414881079aff569af66e846548cd94e0701b20114d4e0ce1664aed"
+  },
+  "measurements": [
+    {
+      "body": "CANDIDATE_INLET_WALL_R_NO_PRINT_RELEASE",
+      "minimum_inner_outer_face_gap_mm": 0.7997931171174689,
+      "conical_faces": 2,
+      "volume_cm3": 6.504086895853916,
+      "planar_end_faces": [
+        {
+          "x_mm": 595.8483908511422,
+          "area_mm2": 61.90361652088132,
+          "y_bounds_mm": [
+            47.26594100536591,
+            81.26054473348587
+          ],
+          "z_bounds_mm": [
+            -31.192544180871607,
+            16.268780964360307
+          ],
+          "loop_count": 1,
+          "plane_normal": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 64.45966227824634,
+          "y_bounds_mm": [
+            38.96476094683186,
+            74.49898917731983
+          ],
+          "z_bounds_mm": [
+            -33.98768860497328,
+            15.814462430226577
+          ],
+          "loop_count": 1,
+          "plane_normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 595.8483908511422,
+          "area_mm2": 60.69557006735504,
+          "y_bounds_mm": [
+            32.063984483934945,
+            65.34347467228058
+          ],
+          "z_bounds_mm": [
+            -29.38220781487172,
+            17.945046522531616
+          ],
+          "loop_count": 1,
+          "plane_normal": [
+            -0.9854120812264779,
+            -0.15823068012371813,
+            0.06265845545883571
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 63.83716272094393,
+          "y_bounds_mm": [
+            55.50101082268039,
+            90.47497607153224
+          ],
+          "z_bounds_mm": [
+            -35.74930373331618,
+            13.9876886049732
+          ],
+          "loop_count": 1,
+          "plane_normal": [
+            0.9854120812264779,
+            0.15823068012371813,
+            -0.06265845545883571
+          ]
+        }
+      ]
+    },
+    {
+      "body": "CANDIDATE_INLET_WALL_L_NO_PRINT_RELEASE",
+      "minimum_inner_outer_face_gap_mm": 0.7997931171174557,
+      "conical_faces": 2,
+      "volume_cm3": 6.504086895853845,
+      "planar_end_faces": [
+        {
+          "x_mm": 595.8483908511422,
+          "area_mm2": 61.90361652088106,
+          "y_bounds_mm": [
+            -81.26054473348589,
+            -47.26594100536591
+          ],
+          "z_bounds_mm": [
+            -31.192544180871593,
+            16.26878096436031
+          ],
+          "loop_count": 1,
+          "plane_normal": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 64.45966227824582,
+          "y_bounds_mm": [
+            -74.49898917731983,
+            -38.96476094683184
+          ],
+          "z_bounds_mm": [
+            -33.98768860497328,
+            15.814462430226541
+          ],
+          "loop_count": 1,
+          "plane_normal": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "x_mm": 595.8483908511422,
+          "area_mm2": 60.69557006735504,
+          "y_bounds_mm": [
+            -65.34347467228058,
+            -32.063984483934945
+          ],
+          "z_bounds_mm": [
+            -29.38220781487172,
+            17.945046522531616
+          ],
+          "loop_count": 1,
+          "plane_normal": [
+            -0.9854120812264779,
+            0.15823068012371813,
+            0.06265845545883571
+          ]
+        },
+        {
+          "x_mm": 650.0,
+          "area_mm2": 63.83716272094411,
+          "y_bounds_mm": [
+            -90.47497607153224,
+            -55.50101082268039
+          ],
+          "z_bounds_mm": [
+            -35.74930373331618,
+            13.9876886049732
+          ],
+          "loop_count": 1,
+          "plane_normal": [
+            0.9854120812264779,
+            -0.15823068012371813,
+            -0.06265845545883571
+          ]
+        }
+      ]
+    }
+  ],
+  "minimum_gap_mm": 0.7997931171174557,
+  "nominal_radial_wall_mm": 0.8,
+  "print_release": false,
+  "upstream_and_mount_interfaces_verified": false
+}
