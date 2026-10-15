@@ -2570,6 +2570,12 @@ def build_project_revision():
         study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
         with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
         return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='stabilator_bearing_retention_v177':
+        path=os.path.join(os.path.dirname(__file__),'F14StabilatorBearingRetention_v177.py')
+        spec=importlib.util.spec_from_file_location('f14_stabilator_bearing_retention_v177',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'controls_v177'))
     if review=='edf_adapter_axis_v176':
         path=os.path.join(os.path.dirname(__file__),'F14EDFAxisAdapter_v176.py')
         spec=importlib.util.spec_from_file_location('f14_edf_adapter_axis_v176',path)

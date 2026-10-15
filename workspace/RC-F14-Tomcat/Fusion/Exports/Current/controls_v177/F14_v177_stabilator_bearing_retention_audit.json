@@ -1,0 +1,136 @@
+{
+  "status": "V177_STABILATOR_BEARING_AND_AXIAL_RETENTION_PACKAGING",
+  "source": {
+    "v175_path": "C:/Users/dezen/Desktop/F14-RC-Model/workspace/RC-F14-Tomcat/Fusion/Exports/Current/controls_v175/F14_STABILATOR_D_SHAFT_ROOT_FITTING_v175.f3d",
+    "v175_sha256": "7db08aeed5e2f7c7ec64495cab5b7b3e410dbcba394445159973970d50878d17",
+    "source_oml_path": "C:/Users/dezen/Desktop/F14-RC-Model/analysis/independent_reviews/allowanced_inlet_20261015/F14_ALLOWANCED_INLET_WALL_CANDIDATE.f3d",
+    "source_oml_sha256": "cea5f21ed9551991f3b7306ea8ce3df92f02e20bda3bc5f3b5ef61c94f4baf93",
+    "pivot_x_mm": 736.0078983334656,
+    "pivot_z_mm": 0.0,
+    "shaft_diameter_mm": 6.0,
+    "shaft_round_inboard_abs_y_mm": 45.0,
+    "D_engagement_abs_y_range_mm": [
+      82.0,
+      106.0
+    ],
+    "shaft_flat_x_from_center_mm": 2.4,
+    "bearing_id_mm": 6.0,
+    "bearing_od_mm": 13.0,
+    "bearing_width_mm": 5.0,
+    "bearing_centers_abs_y_mm": [
+      52.5,
+      72.5
+    ],
+    "bearing_center_span_mm": 20.0,
+    "printed_bearing_housing_od_mm": 17.0,
+    "surface_inner_collar_abs_y_range_mm": [
+      80.0,
+      82.0
+    ],
+    "surface_inner_collar_od_mm": 10.0,
+    "surface_inner_collar_id_mm": 6.1,
+    "surface_outer_washer_abs_y_range_mm": [
+      106.0,
+      108.0
+    ],
+    "surface_outer_washer_od_mm": 10.0,
+    "surface_outer_washer_id_mm": 3.2,
+    "end_fastener_head_od_mm": 6.0,
+    "end_fastener_head_abs_y_range_mm": [
+      108.0,
+      111.0
+    ],
+    "end_fastener_thread_envelope_d_mm": 2.5,
+    "end_fastener_thread_abs_y_range_mm": [
+      98.0,
+      108.0
+    ],
+    "bearing_inboard_collar_abs_y_range_mm": [
+      47.0,
+      50.0
+    ],
+    "bearing_inboard_collar_od_mm": 10.0,
+    "bearing_outer_shoulder_abs_y_range_mm": [
+      75.0,
+      76.0
+    ],
+    "bearing_outer_shoulder_od_mm": 9.0,
+    "containment_tolerance_cm3": 1e-05
+  },
+  "records": [
+    {
+      "side": "R",
+      "bearing_center_span_mm": 20.0,
+      "bearing_span_target_pass": true,
+      "bearing_housing_containment": [
+        {
+          "index": 1,
+          "center_abs_y_mm": 52.5,
+          "outside_source_oml_cm3": 0.0,
+          "containment_pass": true
+        },
+        {
+          "index": 2,
+          "center_abs_y_mm": 72.5,
+          "outside_source_oml_cm3": 0.0,
+          "containment_pass": true
+        }
+      ],
+      "all_bearing_housings_inside_source_oml": true,
+      "round_bearing_regions_preserved": true,
+      "D_flat_local_engagement_abs_y_mm": [
+        82.0,
+        106.0
+      ],
+      "positive_surface_axial_retention_candidate": "inner shaft collar + outer end washer/axial fastener",
+      "bearing_stack_axial_retention_candidate": "inboard shaft collar + outboard shaft shoulder",
+      "transverse_shaft_hole_used": false,
+      "shaft_fitting_outside_volume_probe_cm3": 1.6894181273214788
+    },
+    {
+      "side": "L",
+      "bearing_center_span_mm": 20.0,
+      "bearing_span_target_pass": true,
+      "bearing_housing_containment": [
+        {
+          "index": 1,
+          "center_abs_y_mm": 52.5,
+          "outside_source_oml_cm3": 0.0,
+          "containment_pass": true
+        },
+        {
+          "index": 2,
+          "center_abs_y_mm": 72.5,
+          "outside_source_oml_cm3": 0.0,
+          "containment_pass": true
+        }
+      ],
+      "all_bearing_housings_inside_source_oml": true,
+      "round_bearing_regions_preserved": true,
+      "D_flat_local_engagement_abs_y_mm": [
+        82.0,
+        106.0
+      ],
+      "positive_surface_axial_retention_candidate": "inner shaft collar + outer end washer/axial fastener",
+      "bearing_stack_axial_retention_candidate": "inboard shaft collar + outboard shaft shoulder",
+      "transverse_shaft_hole_used": false,
+      "shaft_fitting_outside_volume_probe_cm3": 1.6894181273214788
+    }
+  ],
+  "geometry_candidate_pass": true,
+  "two_radial_bearings_per_side_designed": true,
+  "bearing_regions_round_6mm": true,
+  "D_flat_restricted_to_root_fitting_region": true,
+  "positive_surface_axial_retention_designed": true,
+  "bearing_stack_axial_retention_designed": true,
+  "actual_bearing_hardware_frozen": false,
+  "actual_shaft_hardware_frozen": false,
+  "collar_fastener_hardware_frozen": false,
+  "end_fastener_thread_strength_verified": false,
+  "printed_bearing_housing_load_path_verified": false,
+  "mechanism_dynamic_clearance_verified": false,
+  "bench_proof_pass": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "ef27166b1353eebb938ad722f5f3801f31a9f94d279252b4bc780f8d30402501"
+}
