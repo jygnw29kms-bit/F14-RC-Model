@@ -1,0 +1,64 @@
+"""v185: native minimum wall-thickness screen on the current v176 centerline-aligned EDF adapter."""
+import adsk.core, adsk.fusion, json, os, hashlib
+
+
+def run_review(app, builder, mm, outdir):
+    source = r'C:/Users/dezen/Desktop/F14-RC-Model/analysis/independent_reviews/edf_axis_adapter_v176_20261015/F14_v176_CENTERLINE_ALIGNED_EDF_ADAPTER.f3d'
+    source_sha = 'ea6fab92314b3e9cc58afb0cdc3cddbd5a416df548012ffde3036bc45f17431a'
+    if hashlib.sha256(open(source, 'rb').read()).hexdigest() != source_sha:
+        raise RuntimeError('v185 v176 source changed')
+    prior = app.activeDocument
+    doc = app.importManager.importToNewDocument(app.importManager.createFusionArchiveImportOptions(source))
+    design = adsk.fusion.Design.cast(app.activeProduct)
+    root = design.rootComponent
+    rows = []
+    for side in ['R', 'L']:
+        adapter = next(b for b in root.bRepBodies if b.name.startswith('CANDIDATE_EDF_AXIS_ADAPTER_' + side + '_v176_'))
+        joined = next(b for b in root.bRepBodies if b.name.startswith('CANDIDATE_JOINED_INLET_EDF_' + side + '_v176_'))
+        curved = [f for f in adapter.faces if adsk.core.Plane.cast(f.geometry) is None]
+        planar = [f for f in adapter.faces if adsk.core.Plane.cast(f.geometry) is not None]
+        if len(curved) != 2 or len(planar) != 2:
+            raise RuntimeError('v185 unexpected adapter faces for %s: curved=%d planar=%d' % (side, len(curved), len(planar)))
+        min_gap_mm = app.measureManager.measureMinimumDistance(curved[0], curved[1]).value * 10.0
+        fan_face = max(planar, key=lambda f: adsk.core.Plane.cast(f.geometry).origin.x)
+        loops = sorted(list(fan_face.loops), key=lambda q: sum(e.length for e in q.edges), reverse=True)
+        if len(loops) != 2:
+            raise RuntimeError('v185 fan face not annular ' + side)
+        perimeters_mm = [sum(e.length for e in loop.edges) * 10.0 for loop in loops]
+        equivalent_diameters_mm = [p / 3.141592653589793 for p in perimeters_mm]
+        fan_radial_gap_mm = (equivalent_diameters_mm[0] - equivalent_diameters_mm[1]) / 2.0
+        rows.append(dict(
+            side=side,
+            adapter_body=adapter.name,
+            joined_body=joined.name,
+            native_minimum_curved_face_gap_mm=min_gap_mm,
+            minimum_0p8mm_screen_pass=min_gap_mm >= 0.8,
+            fan_face_equivalent_diameters_mm=equivalent_diameters_mm,
+            fan_face_radial_gap_mm=fan_radial_gap_mm,
+            fan_face_0p8mm_screen_pass=fan_radial_gap_mm >= 0.8,
+            adapter_is_valid=adapter.isValid,
+            adapter_is_solid=adapter.isSolid,
+            joined_is_valid=joined.isValid,
+            joined_is_solid=joined.isSolid))
+    audit = dict(
+        status='V185_CURRENT_V176_ADAPTER_NATIVE_WALL_THICKNESS_SCREEN',
+        source_path=source,
+        source_sha256=source_sha,
+        measurements=rows,
+        bilateral_minimum_0p8mm_pass=all(r['minimum_0p8mm_screen_pass'] and r['fan_face_0p8mm_screen_pass'] for r in rows),
+        normal_wall_thickness_screen_verified=True,
+        minimum_release_screen_mm=0.8,
+        actual_print_tested=False,
+        aerodynamic_smoothness_verified=False,
+        material_process_optimized_for_flight=False,
+        print_release=False,
+        flight_release=False,
+        study_source_sha256=hashlib.sha256(open(__file__, 'rb').read()).hexdigest())
+    os.makedirs(outdir, exist_ok=True)
+    with open(os.path.join(outdir, 'F14_v185_current_v176_wall_thickness_audit.json'), 'w', encoding='utf-8') as f:
+        json.dump(audit, f, indent=2)
+    doc.close(False)
+    if prior:
+        try: prior.activate()
+        except: pass
+    return audit

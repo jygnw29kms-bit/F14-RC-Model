@@ -1,0 +1,270 @@
+{
+  "status": "V186_MINIMUM_OUTER_DIAMETER_WALL_THICKNESS_SCAN",
+  "source": {
+    "source_path": "C:/Users/dezen/Desktop/F14-RC-Model/analysis/independent_reviews/allowanced_inlet_20261015/F14_ALLOWANCED_INLET_WALL_CANDIDATE.f3d",
+    "source_sha256": "cea5f21ed9551991f3b7306ea8ce3df92f02e20bda3bc5f3b5ef61c94f4baf93",
+    "interface_x_mm": 650.0,
+    "fan_face_x_mm": 658.0,
+    "fan_axis_center_y_mm": 66.28458486059378,
+    "fan_axis_center_z_mm": -10.508688347971937,
+    "fan_inner_diameter_mm": 50.0,
+    "adapter_outer_diameter_mm": 51.62,
+    "housing_od_assumed_mm": 52.5,
+    "housing_length_assumed_mm": 73.5,
+    "skin_radial_allowance_mm": 0.8,
+    "service_radial_allowance_mm": 0.2,
+    "mount_od_candidate_mm": 55.2,
+    "mount_length_mm": 8.0,
+    "containment_tolerance_cm3": 1e-05
+  },
+  "fixed_inner_diameter_mm": 50.0,
+  "scan_rows": [
+    {
+      "outer_diameter_mm": 51.62,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.7934583681960894,
+          "pass_0p8": false
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.8018676466908816,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": false,
+      "worst_gap_mm": 0.7934583681960894
+    },
+    {
+      "outer_diameter_mm": 51.629999999999995,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.7983562585823629,
+          "pass_0p8": false
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.801966740968017,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": false,
+      "worst_gap_mm": 0.7983562585823629
+    },
+    {
+      "outer_diameter_mm": 51.64,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.8020655713505995,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.8020655713505898,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.8020655713505898
+    },
+    {
+      "outer_diameter_mm": 51.65,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.8021641375277623,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.802164137527763,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.8021641375277623
+    },
+    {
+      "outer_diameter_mm": 51.66,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.802262439189291,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.8022624391893005,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.802262439189291
+    },
+    {
+      "outer_diameter_mm": 51.669999999999995,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.8023604760256021,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.8023604760256141,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.8023604760256021
+    },
+    {
+      "outer_diameter_mm": 51.68,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.8024582477276508,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.802458247727672,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.8024582477276508
+    },
+    {
+      "outer_diameter_mm": 51.69,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.8025557539871684,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.8025557539871746,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.8025557539871684
+    },
+    {
+      "outer_diameter_mm": 51.699999999999996,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.8026529944963745,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.8026529944963696,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.8026529944963696
+    },
+    {
+      "outer_diameter_mm": 51.71,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.8027499689481814,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.8027499689482107,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.8027499689481814
+    },
+    {
+      "outer_diameter_mm": 51.72,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.8028466770362342,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.802846677036239,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.8028466770362342
+    },
+    {
+      "outer_diameter_mm": 51.73,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.802943118454664,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.8029431184546598,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.8029431184546598
+    },
+    {
+      "outer_diameter_mm": 51.739999999999995,
+      "sides": [
+        {
+          "side": "R",
+          "minimum_curved_face_gap_mm": 0.8030392928983353,
+          "pass_0p8": true
+        },
+        {
+          "side": "L",
+          "minimum_curved_face_gap_mm": 0.8030392928983264,
+          "pass_0p8": true
+        }
+      ],
+      "bilateral_pass": true,
+      "worst_gap_mm": 0.8030392928983264
+    }
+  ],
+  "selected_minimum_outer_diameter": {
+    "outer_diameter_mm": 51.64,
+    "sides": [
+      {
+        "side": "R",
+        "minimum_curved_face_gap_mm": 0.8020655713505995,
+        "pass_0p8": true
+      },
+      {
+        "side": "L",
+        "minimum_curved_face_gap_mm": 0.8020655713505898,
+        "pass_0p8": true
+      }
+    ],
+    "bilateral_pass": true,
+    "worst_gap_mm": 0.8020655713505898
+  },
+  "added_outer_diameter_vs_v176_mm": 0.020000000000003126,
+  "added_radial_material_vs_v176_mm": 0.010000000000001563,
+  "centerline_unchanged": true,
+  "inner_flow_path_unchanged": true,
+  "actual_hardware_verified": false,
+  "aerodynamic_smoothness_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "aac7d385f029d26f78065f24c1440f3c59a98c8ad6424ddd3741bba2c3694237"
+}

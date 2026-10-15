@@ -1,0 +1,50 @@
+{
+  "status": "V185_CURRENT_V176_ADAPTER_NATIVE_WALL_THICKNESS_SCREEN",
+  "source_path": "C:/Users/dezen/Desktop/F14-RC-Model/analysis/independent_reviews/edf_axis_adapter_v176_20261015/F14_v176_CENTERLINE_ALIGNED_EDF_ADAPTER.f3d",
+  "source_sha256": "ea6fab92314b3e9cc58afb0cdc3cddbd5a416df548012ffde3036bc45f17431a",
+  "measurements": [
+    {
+      "side": "R",
+      "adapter_body": "CANDIDATE_EDF_AXIS_ADAPTER_R_v176_UNMEASURED_FAN",
+      "joined_body": "CANDIDATE_JOINED_INLET_EDF_R_v176_NO_PRINT_RELEASE",
+      "native_minimum_curved_face_gap_mm": 0.7934583681960894,
+      "minimum_0p8mm_screen_pass": false,
+      "fan_face_equivalent_diameters_mm": [
+        51.62000000000001,
+        49.9976754078134
+      ],
+      "fan_face_radial_gap_mm": 0.8111622960933076,
+      "fan_face_0p8mm_screen_pass": true,
+      "adapter_is_valid": true,
+      "adapter_is_solid": true,
+      "joined_is_valid": true,
+      "joined_is_solid": true
+    },
+    {
+      "side": "L",
+      "adapter_body": "CANDIDATE_EDF_AXIS_ADAPTER_L_v176_UNMEASURED_FAN",
+      "joined_body": "CANDIDATE_JOINED_INLET_EDF_L_v176_NO_PRINT_RELEASE",
+      "native_minimum_curved_face_gap_mm": 0.8018676466909126,
+      "minimum_0p8mm_screen_pass": true,
+      "fan_face_equivalent_diameters_mm": [
+        51.62000000000001,
+        49.9976754078134
+      ],
+      "fan_face_radial_gap_mm": 0.8111622960933076,
+      "fan_face_0p8mm_screen_pass": true,
+      "adapter_is_valid": true,
+      "adapter_is_solid": true,
+      "joined_is_valid": true,
+      "joined_is_solid": true
+    }
+  ],
+  "bilateral_minimum_0p8mm_pass": false,
+  "normal_wall_thickness_screen_verified": true,
+  "minimum_release_screen_mm": 0.8,
+  "actual_print_tested": false,
+  "aerodynamic_smoothness_verified": false,
+  "material_process_optimized_for_flight": false,
+  "print_release": false,
+  "flight_release": false,
+  "study_source_sha256": "97e4ef2d6c3083fcadce55283309789988375dafddbcb3e2f16fc8688290e0d4"
+}

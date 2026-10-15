@@ -2570,6 +2570,18 @@ def build_project_revision():
         study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
         with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
         return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'source_shell_v53'))
+    if review=='v176_outer_diameter_scan_v186':
+        path=os.path.join(os.path.dirname(__file__),'F14V176OuterDiameterScan_v186.py')
+        spec=importlib.util.spec_from_file_location('f14_v176_outer_diameter_scan_v186',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'propulsion_v186'))
+    if review=='v176_wall_thickness_v185':
+        path=os.path.join(os.path.dirname(__file__),'F14V176WallThickness_v185.py')
+        spec=importlib.util.spec_from_file_location('f14_v176_wall_thickness_v185',path)
+        study=importlib.util.module_from_spec(spec); spec.loader.exec_module(study)
+        with open(os.path.join(os.path.dirname(__file__),'F14TomcatRC_config.json'),encoding='utf-8') as stream: config=json.load(stream)
+        return study.run_review(_app,build_basic_wing_document_v08,mm,os.path.join(config['export_dir'],'propulsion_v185'))
     if review=='v176_inlet_mesh_v184':
         path=os.path.join(os.path.dirname(__file__),'F14V176InletMesh_v184.py')
         spec=importlib.util.spec_from_file_location('f14_v176_inlet_mesh_v184',path)
