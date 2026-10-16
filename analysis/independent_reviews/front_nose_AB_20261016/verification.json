@@ -1,0 +1,9 @@
+{
+  "status": "NATIVE_AB_PROJECTION_SEGMENTS_VERIFIED",
+  "archive_sha256": "688177f48faa443025f362bcca72b963cac7d0f5a05f30cf7f2b7922b3fd7300",
+  "AB_segment_count": 29,
+  "nose_segment_count": 32,
+  "gear_occluded_lower_projection_filled": false,
+  "original_OML_verified": false,
+  "production_geometry": false
+}
