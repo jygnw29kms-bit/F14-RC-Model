@@ -1,0 +1,8 @@
+{
+  "status": "PREPARED_COMPILED_NOT_EXECUTED",
+  "script": "cad\\fusion\\F14OriginalFrontPixelSketchCheck.py",
+  "sha256": "b6dc5b2252f878225b4a40c70008ed57055de82b47497fb32fad8e7f566e2309",
+  "purpose": "Check native Fusion polygon transfer and C two-hole region area; arbitrary source pixel units, not aircraft geometry.",
+  "native_execution_verified": false,
+  "production_loft_allowed": false
+}
