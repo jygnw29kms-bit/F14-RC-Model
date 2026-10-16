@@ -7,3 +7,5 @@ Original bottom-side-view A/B/C station tick X positions are now independently l
 Same-source A/B plan/side envelope comparison is recorded in front_AB_envelope_comparison.json. Width-derived isotropic scaling leaves a larger A height residual than B; investigate the original section trace/station depiction before lofting. No independent width/height deformation or production acceptance is applied. Reproduce with compare_AB_envelopes.py.
 
 Station-column sensitivity scans plus/minus five native pixels with separately selected contiguous outer-line runs (audit_station_sensitivity.py). Disconnected hatch/internal runs must not be averaged together. The report is a sensitivity experiment, not a confidence interval or a metric registration acceptance test.
+
+Vertical registration candidates now retain separate upper- and lower-contour anchors. Their disagreement is the envelope residual; the equal-weight translation midpoint is only a study candidate. Section annotation axes are not assumed to establish a common aircraft waterline. See front_vertical_registration_candidates.json and derive_vertical_registration.py.

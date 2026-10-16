@@ -1,0 +1,39 @@
+{
+  "status": "FRONT_VERTICAL_REGISTRATION_CANDIDATES_NOT_VERIFIED",
+  "inputs": [
+    {
+      "path": "front_sections_pixel_candidates.json",
+      "sha256": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+    },
+    {
+      "path": "front_AB_envelope_comparison.json",
+      "sha256": "5339f7a66719964c88a265c7f75fe7e3a59017853de2184f209712b9d327af78"
+    }
+  ],
+  "profiles": [
+    {
+      "section": "A",
+      "axis_from_upper_contour_pixel": 2800.2001081241715,
+      "axis_from_lower_contour_pixel": 2793.0046118430737,
+      "anchor_disagreement_pixels": 7.195496281097803,
+      "equal_residual_translation_axis_candidate_pixel": 2796.6023599836226,
+      "interpretation": "Equal-weight vertical translation only; isotropic section scale remains width-derived. This midpoint is an explicit least-squares candidate, not a verified source datum."
+    },
+    {
+      "section": "B",
+      "axis_from_upper_contour_pixel": 2800.9048960373902,
+      "axis_from_lower_contour_pixel": 2798.5986350212206,
+      "anchor_disagreement_pixels": 2.3062610161696284,
+      "equal_residual_translation_axis_candidate_pixel": 2799.7517655293054,
+      "interpretation": "Equal-weight vertical translation only; isotropic section scale remains width-derived. This midpoint is an explicit least-squares candidate, not a verified source datum."
+    }
+  ],
+  "common_waterline_verified": false,
+  "production_loft_allowed": false,
+  "assumptions": [
+    "Plan and side stations correspond by raster X; both views share horizontal placement.",
+    "Separately drawn section horizontal axes are local drawing annotations; a shared aircraft waterline is not inferred.",
+    "Equal upper/lower weighting is a study choice; no anisotropic deformation is applied."
+  ],
+  "next_required": "Review source trace/contour selection and independently register C plus original side silhouette before a continuous front loft."
+}
