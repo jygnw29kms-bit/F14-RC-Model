@@ -1,0 +1,249 @@
+{
+  "status": "STROKE_CENTER_NORMALIZED_NOSE_TO_A_CANDIDATE",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "method": "First/last contiguous dark-run midpoint in each view band. Endpoint at 642.5 linearly averages columns 642 and 643. This normalizes measurement definitions; no snapping or profile distortion.",
+  "samples": [
+    {
+      "source_x_pixel": 450.0,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_stroke_center_y_pixels": [
+        1292.5,
+        1299.5
+      ],
+      "side_stroke_center_y_pixels": [
+        2828.5,
+        2839.5
+      ],
+      "width_candidate_mm": 3.689815862620982,
+      "height_candidate_mm": 5.798282069832972,
+      "X_candidate_mm": 9.304940618695241,
+      "side_top_Z_candidate_mm": -16.376476575610805,
+      "side_bottom_Z_candidate_mm": -22.174758645443777
+    },
+    {
+      "source_x_pixel": 475.0,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_stroke_center_y_pixels": [
+        1281.5,
+        1310.5
+      ],
+      "side_stroke_center_y_pixels": [
+        2815.5,
+        2847.5
+      ],
+      "width_candidate_mm": 15.286380002286926,
+      "height_candidate_mm": 16.867729657695918,
+      "X_candidate_mm": 22.482854413770156,
+      "side_top_Z_candidate_mm": -9.523961402171839,
+      "side_bottom_Z_candidate_mm": -26.391691059867757
+    },
+    {
+      "source_x_pixel": 500.0,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_stroke_center_y_pixels": [
+        1272.5,
+        1319.5
+      ],
+      "side_stroke_center_y_pixels": [
+        2804.5,
+        2854.5
+      ],
+      "width_candidate_mm": 24.77447793474088,
+      "height_candidate_mm": 26.35582759014987,
+      "X_candidate_mm": 35.66076820884507,
+      "side_top_Z_candidate_mm": -3.725679332338866,
+      "side_bottom_Z_candidate_mm": -30.08150692248874
+    },
+    {
+      "source_x_pixel": 525.0,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_stroke_center_y_pixels": [
+        1265.0,
+        1327.5
+      ],
+      "side_stroke_center_y_pixels": [
+        2794.5,
+        2859.5
+      ],
+      "width_candidate_mm": 32.94478448768734,
+      "height_candidate_mm": 34.26257586719483,
+      "X_candidate_mm": 48.838682003919985,
+      "side_top_Z_candidate_mm": 1.5454861856911082,
+      "side_bottom_Z_candidate_mm": -32.71708968150372
+    },
+    {
+      "source_x_pixel": 550.0,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_stroke_center_y_pixels": [
+        1258.5,
+        1333.5
+      ],
+      "side_stroke_center_y_pixels": [
+        2785.5,
+        2862.5
+      ],
+      "width_candidate_mm": 39.53374138522481,
+      "height_candidate_mm": 40.5879744888308,
+      "X_candidate_mm": 62.01659579899501,
+      "side_top_Z_candidate_mm": 6.289535151918085,
+      "side_bottom_Z_candidate_mm": -34.298439336912715
+    },
+    {
+      "source_x_pixel": 575.0,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_stroke_center_y_pixels": [
+        1252.5,
+        1339.5
+      ],
+      "side_stroke_center_y_pixels": [
+        2778.0,
+        2864.5
+      ],
+      "width_candidate_mm": 45.85914000686078,
+      "height_candidate_mm": 45.59558173095928,
+      "X_candidate_mm": 75.19450959406993,
+      "side_top_Z_candidate_mm": 10.242909290440565,
+      "side_bottom_Z_candidate_mm": -35.35267244051871
+    },
+    {
+      "source_x_pixel": 600.0,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_stroke_center_y_pixels": [
+        1248.5,
+        1344.5
+      ],
+      "side_stroke_center_y_pixels": [
+        2771.0,
+        2865.5
+      ],
+      "width_candidate_mm": 50.603188973087754,
+      "height_candidate_mm": 49.81251414538326,
+      "X_candidate_mm": 88.37242338914484,
+      "side_top_Z_candidate_mm": 13.932725153061547,
+      "side_bottom_Z_candidate_mm": -35.87978899232171
+    },
+    {
+      "source_x_pixel": 625.0,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2735,
+          2870
+        ]
+      ],
+      "plan_stroke_center_y_pixels": [
+        1244.5,
+        1348.0
+      ],
+      "side_stroke_center_y_pixels": [
+        2764.5,
+        2865.5
+      ],
+      "width_candidate_mm": 54.55656311161023,
+      "height_candidate_mm": 53.23877173210274,
+      "X_candidate_mm": 101.55033718421976,
+      "side_top_Z_candidate_mm": 17.35898273978103,
+      "side_bottom_Z_candidate_mm": -35.87978899232171
+    },
+    {
+      "source_x_pixel": 642.5,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2753,
+          2870
+        ]
+      ],
+      "plan_stroke_center_y_pixels": [
+        1242.5,
+        1349.75
+      ],
+      "side_stroke_center_y_pixels": [
+        2760.0,
+        2865.5
+      ],
+      "width_candidate_mm": 56.53325018087148,
+      "height_candidate_mm": 55.610796215216226,
+      "X_candidate_mm": 110.77487684077221,
+      "side_top_Z_candidate_mm": 19.73100722289452,
+      "side_bottom_Z_candidate_mm": -35.87978899232171
+    }
+  ],
+  "A_endpoint_comparison": {
+    "axial_gap_mm": 0.0,
+    "width_difference_mm": 0.13177913795074403,
+    "height_difference_mm": -3.5293069123020615
+  },
+  "metric_registration_verified": false,
+  "rail_to_section_attachment_verified": false,
+  "production_loft_allowed": false
+}

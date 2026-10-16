@@ -17,3 +17,5 @@ front_shared_frame_candidate.json places original A/B/C polygon traces in the ex
 Seven original nose projection samples at native raster X450..600 are extracted reproducibly in nose_projection_samples.json. These give separate plan width and side height constraints; they do not imply ellipse sections or establish the nose-tip/pitot boundary. The inherited aft metric frame remains a candidate.
 
 Nose-to-A coverage extends the original projection sampling to X625 and A-column X642 in nose_to_A_projection_samples.json. Dedicated side bands exclude the A label/tick; nose-gear and appendage separation still require review. Existing native nose-guide archive uses the earlier seven samples and is preserved unchanged.
+
+Projection measurement definitions normalized in nose_to_A_stroke_center_samples.json: contiguous stroke centers and half-pixel endpoint interpolation replace outer dark bounds. Remaining A width/height residuals are retained, with no snapping or anisotropic profile deformation. Native guide attachment remains unverified.
