@@ -1,0 +1,58 @@
+{
+  "nose_projection_guides": [
+    {
+      "name": "SIDE_TOP",
+      "point_count": 9,
+      "segment_count": 8
+    },
+    {
+      "name": "SIDE_BOTTOM",
+      "point_count": 9,
+      "segment_count": 8
+    },
+    {
+      "name": "PLAN_RIGHT",
+      "point_count": 9,
+      "segment_count": 8
+    },
+    {
+      "name": "PLAN_LEFT",
+      "point_count": 9,
+      "segment_count": 8
+    }
+  ],
+  "nose_input_sha256": "054f7a45828829eef2b86572941bdea0bf5d45b2d16c2d061561204ece3465b7",
+  "nose_cross_sections_assumed": false,
+  "status": "NATIVE_FRONT_REFERENCE_FRAME_CANDIDATE",
+  "input_sha256": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+  "records": [
+    {
+      "section": "A",
+      "X_candidate_mm": 110.77487684077221,
+      "profile_count": 1,
+      "region_boundary_count": 1,
+      "area_candidate_mm2": 2817.8500203707044,
+      "coordinate_roundtrip_verified": true
+    },
+    {
+      "section": "B",
+      "X_candidate_mm": 249.40652996496055,
+      "profile_count": 1,
+      "region_boundary_count": 1,
+      "area_candidate_mm2": 5142.9726216046665,
+      "coordinate_roundtrip_verified": true
+    },
+    {
+      "section": "C",
+      "X_candidate_mm": 403.32456309143583,
+      "profile_count": 3,
+      "region_boundary_count": 3,
+      "area_candidate_mm2": 6836.189520495228,
+      "coordinate_roundtrip_verified": true
+    }
+  ],
+  "solid_body_count": 0,
+  "metric_registration_verified": false,
+  "continuous_OML_verified": false,
+  "production_geometry": false
+}

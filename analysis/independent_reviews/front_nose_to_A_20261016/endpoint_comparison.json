@@ -1,0 +1,12 @@
+{
+  "status": "NATIVE_GUIDES_VERIFIED_ENDPOINT_ATTACHMENT_NOT_VERIFIED",
+  "archive_sha256": "6b954e327d7f272df48e5db4bbc9b469fd56ddc976b06e71db8cc5751b1266c7",
+  "guide_end_X_mm": 110.51131856487075,
+  "section_A_X_mm": 110.77487684077221,
+  "axial_gap_mm": 0.26355827590145964,
+  "guide_width_mm": 57.98282069832972,
+  "section_A_width_mm": 56.40147104292073,
+  "width_difference_mm": 1.5813496554089852,
+  "reason": "Guide endpoint samples integer column 642 and outer dark stroke bounds; A placement uses tick center 642.5 and fitted stroke-center plan width. These differ by definition and are not joined loft rails.",
+  "production_loft_allowed": false
+}
