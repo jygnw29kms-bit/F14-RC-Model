@@ -23,3 +23,5 @@ Projection measurement definitions normalized in nose_to_A_stroke_center_samples
 Primary NASA CR-163098 text reviewed: PDF page20 (printed16) qualitatively describes circular forebody cross-section; page10 (printed6) identifies the tested 1/72-scale model. forebody_shape_source_evidence.json records source hash and applicability limits. This supports a clearly labeled shape study, not station-specific aircraft geometry or replacement of UPC A/B contours.
 
 Circular forward-nose sensitivity inputs and compiled Fusion generator prepared separately from original contours. Equal-weight plan/side diameter fits retain residuals and exclude A, the tip and pitot. Not installed or executed; no native geometry or original-OML approval claimed.
+
+Original midpoint projection extraction checked at grayscale thresholds 96/128/160 in nose_threshold_sensitivity.json. These deterministic ranges do not establish accuracy bounds. The circular study retains measurable width/height disagreements and is not promoted to original OML.

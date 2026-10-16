@@ -1,0 +1,182 @@
+{
+  "status": "NOSE_SOURCE_THRESHOLD_SENSITIVITY",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "records": [
+    {
+      "X_mm": 15.893897516232698,
+      "source_x_pixel": 462.5,
+      "variants": [
+        {
+          "threshold": 96,
+          "width_residual_mm": 0.8985980957593931,
+          "height_residual_mm": -0.9463089838096117
+        },
+        {
+          "threshold": 128,
+          "width_residual_mm": 0.8985980957593931,
+          "height_residual_mm": -0.8145298458588623
+        },
+        {
+          "threshold": 160,
+          "width_residual_mm": 0.6350398198578944,
+          "height_residual_mm": -0.8145298458588623
+        }
+      ],
+      "width_residual_range_mm": [
+        0.6350398198578944,
+        0.8985980957593931
+      ],
+      "height_residual_range_mm": [
+        -0.9463089838096117,
+        -0.8145298458588623
+      ]
+    },
+    {
+      "X_mm": 29.071811311307613,
+      "source_x_pixel": 487.5,
+      "variants": [
+        {
+          "threshold": 96,
+          "width_residual_mm": 0.7305294433393961,
+          "height_residual_mm": -0.8508187812269057
+        },
+        {
+          "threshold": 128,
+          "width_residual_mm": 0.7305294433393961,
+          "height_residual_mm": -0.7190396432761581
+        },
+        {
+          "threshold": 160,
+          "width_residual_mm": 0.7305294433393961,
+          "height_residual_mm": -0.7190396432761581
+        }
+      ],
+      "width_residual_range_mm": [
+        0.7305294433393961,
+        0.7305294433393961
+      ],
+      "height_residual_range_mm": [
+        -0.8508187812269057,
+        -0.7190396432761581
+      ]
+    },
+    {
+      "X_mm": 42.24972510638253,
+      "source_x_pixel": 512.4999999999998,
+      "variants": [
+        {
+          "threshold": 96,
+          "width_residual_mm": 0.6506988450658895,
+          "height_residual_mm": -0.4035324759126837
+        },
+        {
+          "threshold": 128,
+          "width_residual_mm": 0.6506988450658895,
+          "height_residual_mm": -0.2717533379619326
+        },
+        {
+          "threshold": 160,
+          "width_residual_mm": 0.7824779830166406,
+          "height_residual_mm": -0.5353116138634313
+        }
+      ],
+      "width_residual_range_mm": [
+        0.6506988450658895,
+        0.7824779830166406
+      ],
+      "height_residual_range_mm": [
+        -0.5353116138634313,
+        -0.2717533379619326
+      ]
+    },
+    {
+      "X_mm": 55.4276389014575,
+      "source_x_pixel": 537.5,
+      "variants": [
+        {
+          "threshold": 96,
+          "width_residual_mm": 1.6622350455517605,
+          "height_residual_mm": -0.5780074204843331
+        },
+        {
+          "threshold": 128,
+          "width_residual_mm": 1.6622350455517605,
+          "height_residual_mm": -0.44622828253358193
+        },
+        {
+          "threshold": 160,
+          "width_residual_mm": 1.9257933214532557,
+          "height_residual_mm": -0.44622828253358193
+        }
+      ],
+      "width_residual_range_mm": [
+        1.6622350455517605,
+        1.9257933214532557
+      ],
+      "height_residual_range_mm": [
+        -0.5780074204843331,
+        -0.44622828253358193
+      ]
+    },
+    {
+      "X_mm": 68.60555269653247,
+      "source_x_pixel": 562.5000000000002,
+      "variants": [
+        {
+          "threshold": 96,
+          "width_residual_mm": 0.18971015521073298,
+          "height_residual_mm": -0.2056211935414609
+        },
+        {
+          "threshold": 128,
+          "width_residual_mm": 0.3214892931614841,
+          "height_residual_mm": -0.2056211935414609
+        },
+        {
+          "threshold": 160,
+          "width_residual_mm": 0.3214892931614841,
+          "height_residual_mm": -0.33740033149221205
+        }
+      ],
+      "width_residual_range_mm": [
+        0.18971015521073298,
+        0.3214892931614841
+      ],
+      "height_residual_range_mm": [
+        -0.33740033149221205,
+        -0.2056211935414609
+      ]
+    },
+    {
+      "X_mm": 81.78346649160738,
+      "source_x_pixel": 587.5,
+      "variants": [
+        {
+          "threshold": 96,
+          "width_residual_mm": 0.014831823641287656,
+          "height_residual_mm": 0.14662206191196958
+        },
+        {
+          "threshold": 128,
+          "width_residual_mm": -0.11694731430945637,
+          "height_residual_mm": 0.014842923961218446
+        },
+        {
+          "threshold": 160,
+          "width_residual_mm": -0.11694731430945637,
+          "height_residual_mm": 0.014842923961218446
+        }
+      ],
+      "width_residual_range_mm": [
+        -0.11694731430945637,
+        0.014831823641287656
+      ],
+      "height_residual_range_mm": [
+        0.014842923961218446,
+        0.14662206191196958
+      ]
+    }
+  ],
+  "interpretation": "Deterministic threshold sensitivity only, not confidence bounds or a geometric acceptance test. Original curve tracing, registration and circle hypothesis remain unresolved.",
+  "production_geometry": false
+}
