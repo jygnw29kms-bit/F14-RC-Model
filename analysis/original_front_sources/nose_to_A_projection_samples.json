@@ -1,0 +1,266 @@
+{
+  "status": "ORIGINAL_NOSE_TO_A_PROJECTION_SAMPLES_CANDIDATE",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "frame_sha256": "0d93839d390b87789a5a5048033ab70b15082a671cb27b4f1c8ac787e4b72f4d",
+  "method": "First/last dark pixel at threshold 128 within visually reviewed nose-only view bands. Outer stroke edges rather than fitted stroke centers; no subpixel accuracy claimed.",
+  "view_bands_native_pixels": {
+    "plan": [
+      1200,
+      1400
+    ],
+    "side": [
+      2700,
+      2870
+    ]
+  },
+  "samples": [
+    {
+      "source_x_pixel": 450,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_outer_dark_y_pixels": [
+        1292,
+        1300
+      ],
+      "side_outer_dark_y_pixels": [
+        2828,
+        2840
+      ],
+      "plan_center_pixel": 1296.0,
+      "width_candidate_mm": 4.2169324144239795,
+      "height_candidate_mm": 6.325398621635969,
+      "X_candidate_mm": 9.304940618695241,
+      "side_top_Z_candidate_mm": -16.112918299709307,
+      "side_bottom_Z_candidate_mm": -22.438316921345276
+    },
+    {
+      "source_x_pixel": 475,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_outer_dark_y_pixels": [
+        1281,
+        1311
+      ],
+      "side_outer_dark_y_pixels": [
+        2815,
+        2848
+      ],
+      "plan_center_pixel": 1296.0,
+      "width_candidate_mm": 15.813496554089923,
+      "height_candidate_mm": 17.394846209498915,
+      "X_candidate_mm": 22.482854413770156,
+      "side_top_Z_candidate_mm": -9.26040312627034,
+      "side_bottom_Z_candidate_mm": -26.655249335769255
+    },
+    {
+      "source_x_pixel": 500,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_outer_dark_y_pixels": [
+        1272,
+        1320
+      ],
+      "side_outer_dark_y_pixels": [
+        2804,
+        2855
+      ],
+      "plan_center_pixel": 1296.0,
+      "width_candidate_mm": 25.301594486543877,
+      "height_candidate_mm": 26.88294414195287,
+      "X_candidate_mm": 35.66076820884507,
+      "side_top_Z_candidate_mm": -3.4621210564373675,
+      "side_bottom_Z_candidate_mm": -30.345065198390238
+    },
+    {
+      "source_x_pixel": 525,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_outer_dark_y_pixels": [
+        1264,
+        1328
+      ],
+      "side_outer_dark_y_pixels": [
+        2794,
+        2860
+      ],
+      "plan_center_pixel": 1296.0,
+      "width_candidate_mm": 33.735459315391836,
+      "height_candidate_mm": 34.78969241899783,
+      "X_candidate_mm": 48.838682003919985,
+      "side_top_Z_candidate_mm": 1.809044461592607,
+      "side_bottom_Z_candidate_mm": -32.980647957405225
+    },
+    {
+      "source_x_pixel": 550,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_outer_dark_y_pixels": [
+        1258,
+        1334
+      ],
+      "side_outer_dark_y_pixels": [
+        2785,
+        2863
+      ],
+      "plan_center_pixel": 1296.0,
+      "width_candidate_mm": 40.060857937027805,
+      "height_candidate_mm": 41.1150910406338,
+      "X_candidate_mm": 62.01659579899501,
+      "side_top_Z_candidate_mm": 6.553093427819584,
+      "side_bottom_Z_candidate_mm": -34.56199761281422
+    },
+    {
+      "source_x_pixel": 575,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_outer_dark_y_pixels": [
+        1252,
+        1340
+      ],
+      "side_outer_dark_y_pixels": [
+        2777,
+        2865
+      ],
+      "plan_center_pixel": 1296.0,
+      "width_candidate_mm": 46.386256558663774,
+      "height_candidate_mm": 46.386256558663774,
+      "X_candidate_mm": 75.19450959406993,
+      "side_top_Z_candidate_mm": 10.770025842243562,
+      "side_bottom_Z_candidate_mm": -35.61623071642021
+    },
+    {
+      "source_x_pixel": 600,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "plan_outer_dark_y_pixels": [
+        1248,
+        1345
+      ],
+      "side_outer_dark_y_pixels": [
+        2770,
+        2866
+      ],
+      "plan_center_pixel": 1296.5,
+      "width_candidate_mm": 51.13030552489075,
+      "height_candidate_mm": 50.603188973087754,
+      "X_candidate_mm": 88.37242338914484,
+      "side_top_Z_candidate_mm": 14.459841704864544,
+      "side_bottom_Z_candidate_mm": -36.14334726822321
+    },
+    {
+      "source_x_pixel": 625,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2735,
+          2870
+        ]
+      ],
+      "plan_outer_dark_y_pixels": [
+        1244,
+        1349
+      ],
+      "side_outer_dark_y_pixels": [
+        2764,
+        2866
+      ],
+      "plan_center_pixel": 1296.5,
+      "width_candidate_mm": 55.34723793931473,
+      "height_candidate_mm": 53.76588828390574,
+      "X_candidate_mm": 101.55033718421976,
+      "side_top_Z_candidate_mm": 17.62254101568253,
+      "side_bottom_Z_candidate_mm": -36.14334726822321
+    },
+    {
+      "source_x_pixel": 642,
+      "selected_view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2753,
+          2870
+        ]
+      ],
+      "plan_outer_dark_y_pixels": [
+        1241,
+        1351
+      ],
+      "side_outer_dark_y_pixels": [
+        2760,
+        2866
+      ],
+      "plan_center_pixel": 1296.0,
+      "width_candidate_mm": 57.98282069832972,
+      "height_candidate_mm": 55.87435449111773,
+      "X_candidate_mm": 110.51131856487075,
+      "side_top_Z_candidate_mm": 19.73100722289452,
+      "side_bottom_Z_candidate_mm": -36.14334726822321
+    }
+  ],
+  "projection_only": true,
+  "cross_section_shape_assumed": false,
+  "metric_registration_verified": false,
+  "tip_and_pitot_separation_verified": false,
+  "production_loft_allowed": false
+}

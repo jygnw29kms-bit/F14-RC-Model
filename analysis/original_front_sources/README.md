@@ -15,3 +15,5 @@ C loop semantics refined after direct original-raster overlay and polygon nestin
 front_shared_frame_candidate.json places original A/B/C polygon traces in the existing aft candidate raster frame, retaining isotropic section scale and all side-height residuals. This is reference placement only: inherited metric scale, cross-view X alignment and C inlet-lip step remain assumptions. No continuous fuselage loft or production release is permitted by these data.
 
 Seven original nose projection samples at native raster X450..600 are extracted reproducibly in nose_projection_samples.json. These give separate plan width and side height constraints; they do not imply ellipse sections or establish the nose-tip/pitot boundary. The inherited aft metric frame remains a candidate.
+
+Nose-to-A coverage extends the original projection sampling to X625 and A-column X642 in nose_to_A_projection_samples.json. Dedicated side bands exclude the A label/tick; nose-gear and appendage separation still require review. Existing native nose-guide archive uses the earlier seven samples and is preserved unchanged.
