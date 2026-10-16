@@ -1,4 +1,4 @@
-﻿# F14 CAD workflow (headless-first)
+# F14 CAD workflow (headless-first)
 
 The canonical repository is `F14-RC-Model`. FreeCAD is the active CAD engine.
 
@@ -6,7 +6,7 @@ The canonical repository is `F14-RC-Model`. FreeCAD is the active CAD engine.
 
 - Use `FreeCADCmd.exe` for builds, audits, geometry checks, and exports whenever possible.
 - Keep FreeCAD GUI closed unless a visual inspection is required; when opened, close or minimize it immediately afterwards.
-- Keep Fusion 360 closed. It may only be opened for an explicit legacy `.f3d` export that cannot be reconstructed from source data.
+- Fusion 360 is NOT an active design tool. It may only be opened temporarily to inspect or export legacy project components when the required historical geometry/data cannot be recovered otherwise. No new F14 geometry is to be created in Fusion. Close Fusion immediately after the legacy extraction/export.
 - `migration/freecad/CURRENT.json` is the single pointer to the current CAD master and mandatory audit set.
 - Every geometry milestone must be reproducible from scripts/JSON and must produce an audit before commit/push.
 - Never set print or flight release true from geometry-only checks.
@@ -19,3 +19,4 @@ The canonical repository is `F14-RC-Model`. FreeCAD is the active CAD engine.
 `powershell -ExecutionPolicy Bypass -File tools/f14_headless.ps1 verify`
 
 `powershell -ExecutionPolicy Bypass -File tools/f14_headless.ps1 close-gui`
+

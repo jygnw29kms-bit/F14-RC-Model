@@ -35,7 +35,7 @@ been checked. The STL/3MF files remain explicitly unreleased development artifac
 - functional 20-68 deg variable-sweep wings
 - full-flying stabilators
 - FDM-first structure for Bambu Lab P2S
-- FreeCAD 1.1.4 headless-first master CAD; Fusion retained only for explicit legacy export
+- FreeCAD 1.1.4 headless-first master CAD; Fusion only for unavoidable legacy inspection/export, never for new design
 
 ## Non-negotiable rule
 The retired F14_RC_FDM R2/R3/R4 geometry, OpenSCAD, STL/3MF files and hardware assumptions are not design inputs for this project.
@@ -61,5 +61,6 @@ The retired F14_RC_FDM R2/R3/R4 geometry, OpenSCAD, STL/3MF files and hardware a
 - [Verification plan](docs/05_DESIGN_VERIFICATION.md)
 
 ## CAD
-FreeCAD 1.1.4 is the active headless-first CAD workflow under `migration/freecad`. The legacy Fusion add-in under `cad/fusion/F14TomcatRC` is retained only for traceability and explicit legacy export; it is not the active CAD master.
+FreeCAD 1.1.4 is the active headless-first CAD workflow under `migration/freecad`. The legacy Fusion add-in under `cad/fusion/F14TomcatRC` is retained only for traceability and unavoidable legacy inspection/export. It must not be used for new F14 design work and is closed immediately after any such legacy task.
+
 
