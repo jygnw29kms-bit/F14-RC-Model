@@ -1,0 +1,124 @@
+{
+  "input_sha256": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed",
+  "scope": "Manual straight-segment pixel polygons only; excludes curve interpolation, tracing accuracy, scale, station registration and loop containment semantics.",
+  "results": [
+    {
+      "section": "A",
+      "loop": 0,
+      "vertices": 15,
+      "finite": true,
+      "zero_length_edges": [],
+      "nonadjacent_intersections": [],
+      "simple_polygon": true,
+      "inter_loop_boundary_checks": []
+    },
+    {
+      "section": "B",
+      "loop": 0,
+      "vertices": 19,
+      "finite": true,
+      "zero_length_edges": [],
+      "nonadjacent_intersections": [],
+      "simple_polygon": true,
+      "inter_loop_boundary_checks": []
+    },
+    {
+      "section": "C",
+      "loop": 0,
+      "vertices": 62,
+      "finite": true,
+      "zero_length_edges": [],
+      "nonadjacent_intersections": [],
+      "simple_polygon": true,
+      "inter_loop_boundary_checks": [
+        {
+          "loops": [
+            0,
+            1
+          ],
+          "boundary_intersections": []
+        },
+        {
+          "loops": [
+            0,
+            2
+          ],
+          "boundary_intersections": []
+        },
+        {
+          "loops": [
+            1,
+            2
+          ],
+          "boundary_intersections": []
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "loop": 1,
+      "vertices": 11,
+      "finite": true,
+      "zero_length_edges": [],
+      "nonadjacent_intersections": [],
+      "simple_polygon": true,
+      "inter_loop_boundary_checks": [
+        {
+          "loops": [
+            0,
+            1
+          ],
+          "boundary_intersections": []
+        },
+        {
+          "loops": [
+            0,
+            2
+          ],
+          "boundary_intersections": []
+        },
+        {
+          "loops": [
+            1,
+            2
+          ],
+          "boundary_intersections": []
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "loop": 2,
+      "vertices": 10,
+      "finite": true,
+      "zero_length_edges": [],
+      "nonadjacent_intersections": [],
+      "simple_polygon": true,
+      "inter_loop_boundary_checks": [
+        {
+          "loops": [
+            0,
+            1
+          ],
+          "boundary_intersections": []
+        },
+        {
+          "loops": [
+            0,
+            2
+          ],
+          "boundary_intersections": []
+        },
+        {
+          "loops": [
+            1,
+            2
+          ],
+          "boundary_intersections": []
+        }
+      ]
+    }
+  ],
+  "all_loops_simple": true,
+  "production_loft_allowed": false
+}
