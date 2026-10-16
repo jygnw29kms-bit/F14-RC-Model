@@ -1,0 +1,31 @@
+{
+  "status": "NATIVE_SOURCE_PIXEL_SKETCH_TRANSFER_CHECK",
+  "source_sha256": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed",
+  "records": [
+    {
+      "section": "A",
+      "native_profile_count": 1,
+      "region_loop_count": 1,
+      "native_area_arbitrary_mm2": 8416.34441349999,
+      "pixel_polygon_area": 8416.3444134999
+    },
+    {
+      "section": "B",
+      "native_profile_count": 1,
+      "region_loop_count": 1,
+      "native_area_arbitrary_mm2": 17817.71818399999,
+      "pixel_polygon_area": 17817.71818399988
+    },
+    {
+      "section": "C",
+      "native_profile_count": 3,
+      "region_loop_count": 3,
+      "native_area_arbitrary_mm2": 32586.94309,
+      "pixel_polygon_area": 32586.943089999986
+    }
+  ],
+  "one_pixel_per_arbitrary_mm": true,
+  "aircraft_metric_registration": false,
+  "production_geometry": false,
+  "print_release": false
+}
