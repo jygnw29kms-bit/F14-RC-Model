@@ -1,0 +1,43 @@
+{
+  "source_sha256": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed",
+  "section": "C",
+  "checks": [
+    {
+      "inner_loop": 0,
+      "container_loop": 1,
+      "all_vertices_inside": false
+    },
+    {
+      "inner_loop": 0,
+      "container_loop": 2,
+      "all_vertices_inside": false
+    },
+    {
+      "inner_loop": 1,
+      "container_loop": 0,
+      "all_vertices_inside": true
+    },
+    {
+      "inner_loop": 1,
+      "container_loop": 2,
+      "all_vertices_inside": false
+    },
+    {
+      "inner_loop": 2,
+      "container_loop": 0,
+      "all_vertices_inside": true
+    },
+    {
+      "inner_loop": 2,
+      "container_loop": 1,
+      "all_vertices_inside": false
+    }
+  ],
+  "pixel_region_interpretation": "One outer polygon (loop 0) encloses two disjoint inner polygons (loops 1 and 2). The traced source candidate therefore supports a perforated section region, not three separate filled solids.",
+  "net_polygon_area_pixels2": 32586.943089999986,
+  "visually_reviewed_against_original_raster": true,
+  "curve_interpolation_verified": false,
+  "metric_registration_verified": false,
+  "production_loft_allowed": false,
+  "limitations": "Nesting applies only to straight-segment traced polygons. Original raster overlay reviewed; hatch and inlet openings are consistent with this topology. Does not establish 3D duct continuity, wall thickness, metric accuracy or production readiness."
+}

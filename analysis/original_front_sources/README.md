@@ -9,3 +9,5 @@ Same-source A/B plan/side envelope comparison is recorded in front_AB_envelope_c
 Station-column sensitivity scans plus/minus five native pixels with separately selected contiguous outer-line runs (audit_station_sensitivity.py). Disconnected hatch/internal runs must not be averaged together. The report is a sensitivity experiment, not a confidence interval or a metric registration acceptance test.
 
 Vertical registration candidates now retain separate upper- and lower-contour anchors. Their disagreement is the envelope residual; the equal-weight translation midpoint is only a study candidate. Section annotation axes are not assumed to establish a common aircraft waterline. See front_vertical_registration_candidates.json and derive_vertical_registration.py.
+
+C loop semantics refined after direct original-raster overlay and polygon nesting checks: loop 0 encloses both disjoint inlet loops 1/2. Thus the traced pixel region supports one outer boundary with two holes, rather than three separately filled solids. C_loop_nesting_audit.json records the checks; spline topology, metric scale and 3D continuity remain unverified.
