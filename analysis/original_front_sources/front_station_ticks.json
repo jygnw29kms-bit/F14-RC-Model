@@ -1,0 +1,66 @@
+{
+  "source_image": "references/UPC_Figure3_15_source_exact.png",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "method": "Visually selected tick-only ROI; columns with dark-pixel count at least 75 percent of ROI maximum; center is mean selected column. Pixel localization only, no physical uncertainty estimate.",
+  "stations": [
+    {
+      "section": "A",
+      "roi_native_pixels": [
+        636,
+        2725,
+        649,
+        2747
+      ],
+      "dark_threshold": 128,
+      "selected_columns": [
+        642,
+        643
+      ],
+      "tick_center_x_pixel": 642.5,
+      "tick_center_y_pixel": null,
+      "interpretation": "Station tick above bottom side view; x only. Tick height is a label location, not an aircraft waterline."
+    },
+    {
+      "section": "B",
+      "roi_native_pixels": [
+        899,
+        2638,
+        913,
+        2662
+      ],
+      "dark_threshold": 128,
+      "selected_columns": [
+        905,
+        906
+      ],
+      "tick_center_x_pixel": 905.5,
+      "tick_center_y_pixel": null,
+      "interpretation": "Station tick above bottom side view; x only. Tick height is a label location, not an aircraft waterline."
+    },
+    {
+      "section": "C",
+      "roi_native_pixels": [
+        1191,
+        2679,
+        1205,
+        2704
+      ],
+      "dark_threshold": 128,
+      "selected_columns": [
+        1197,
+        1198
+      ],
+      "tick_center_x_pixel": 1197.5,
+      "tick_center_y_pixel": null,
+      "interpretation": "Station tick above bottom side view; x only. Tick height is a label location, not an aircraft waterline."
+    }
+  ],
+  "station_deltas_pixels": {
+    "A_to_B": 263.0,
+    "B_to_C": 292.0
+  },
+  "aircraft_X_registration_verified": false,
+  "metric_scale_verified": false,
+  "common_waterline_verified": false,
+  "production_loft_allowed": false
+}
