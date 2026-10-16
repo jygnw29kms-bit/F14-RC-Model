@@ -25,3 +25,5 @@ Primary NASA CR-163098 text reviewed: PDF page20 (printed16) qualitatively descr
 Circular forward-nose sensitivity inputs and compiled Fusion generator prepared separately from original contours. Equal-weight plan/side diameter fits retain residuals and exclude A, the tip and pitot. Not installed or executed; no native geometry or original-OML approval claimed.
 
 Original midpoint projection extraction checked at grayscale thresholds 96/128/160 in nose_threshold_sensitivity.json. These deterministic ranges do not establish accuracy bounds. The circular study retains measurable width/height disagreements and is not promoted to original OML.
+
+A-to-B forebody/canopy projections now sampled at nine original columns X675..875. Lower contours are omitted at X675/700/725 where the nose gear overlaps the projection; missing coordinates remain null. These constraints do not imply interpolated section shapes or verified metric registration.
