@@ -1,0 +1,1064 @@
+{
+  "status": "FREECAD_V193_SPLIT_SLIDER_SEARCH",
+  "source_master": "migration/freecad/F14_CURRENT_FULL_VIEW_v192.FCStd",
+  "v40_candidate_index": 1,
+  "slider_x_range_mm": [
+    506.0420724354923,
+    544.0
+  ],
+  "slider_attach_abs_y_mm": 65.0,
+  "legacy_full_plate_collision_cause": "v43 full plate spanned both side sliders and crossed central servo service envelope",
+  "tested_strip_widths_mm": [
+    6,
+    8,
+    10,
+    12
+  ],
+  "tested_legacy_absolute_planes_mm": [
+    188.0,
+    192.0,
+    196.0,
+    200.0,
+    204.0
+  ],
+  "datum_shift_mm": -187.59240693460868,
+  "best": {
+    "strip_width_mm": 6.0,
+    "z_abs_legacy_mm": 196.0,
+    "z_local_mm": 8.407593065391325,
+    "min_inside_fuselage_fraction": 1.0,
+    "total_collision_mm3": 0.0,
+    "sides": [
+      {
+        "side": "R",
+        "inside_fuselage_fraction": 1.0,
+        "collision_mm3": 0.0,
+        "hits_mm3": {
+          "CF_FRONT_LOWER": 0.0,
+          "RISER_FRONT_R": 0.0,
+          "RISER_FRONT_L": 0.0,
+          "CF_REAR_LOWER": 0.0,
+          "RISER_REAR_R": 0.0,
+          "RISER_REAR_L": 0.0,
+          "CF_FRONT_UPPER": 0.0,
+          "CF_REAR_UPPER": 0.0,
+          "SERVO_SERVICE": 0.0,
+          "BATTERY_TRAY_v165": 0.0,
+          "INLET_EDF_R": 0.0,
+          "INLET_EDF_L": 0.0,
+          "WINGBOX_REF": 0.0
+        }
+      },
+      {
+        "side": "L",
+        "inside_fuselage_fraction": 1.0,
+        "collision_mm3": 0.0,
+        "hits_mm3": {
+          "CF_FRONT_LOWER": 0.0,
+          "RISER_FRONT_R": 0.0,
+          "RISER_FRONT_L": 0.0,
+          "CF_REAR_LOWER": 0.0,
+          "RISER_REAR_R": 0.0,
+          "RISER_REAR_L": 0.0,
+          "CF_FRONT_UPPER": 0.0,
+          "CF_REAR_UPPER": 0.0,
+          "SERVO_SERVICE": 0.0,
+          "BATTERY_TRAY_v165": 0.0,
+          "INLET_EDF_R": 0.0,
+          "INLET_EDF_L": 0.0,
+          "WINGBOX_REF": 0.0
+        }
+      }
+    ]
+  },
+  "zero_collision_candidate_count": 20,
+  "v40_min_linkage_moment_arm_mm": 31.974069386616407,
+  "v40_slider_travel_mm": 29.957927564507713,
+  "kinematics_changed": false,
+  "servo_geometry_frozen": false,
+  "dynamic_linkage_collision_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "all_candidates": [
+    {
+      "strip_width_mm": 6.0,
+      "z_abs_legacy_mm": 196.0,
+      "z_local_mm": 8.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 6.0,
+      "z_abs_legacy_mm": 192.0,
+      "z_local_mm": 4.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 6.0,
+      "z_abs_legacy_mm": 200.0,
+      "z_local_mm": 12.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 6.0,
+      "z_abs_legacy_mm": 188.0,
+      "z_local_mm": 0.40759306539132467,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 6.0,
+      "z_abs_legacy_mm": 204.0,
+      "z_local_mm": 16.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 8.0,
+      "z_abs_legacy_mm": 196.0,
+      "z_local_mm": 8.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 8.0,
+      "z_abs_legacy_mm": 192.0,
+      "z_local_mm": 4.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 8.0,
+      "z_abs_legacy_mm": 200.0,
+      "z_local_mm": 12.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 8.0,
+      "z_abs_legacy_mm": 188.0,
+      "z_local_mm": 0.40759306539132467,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 8.0,
+      "z_abs_legacy_mm": 204.0,
+      "z_local_mm": 16.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 10.0,
+      "z_abs_legacy_mm": 196.0,
+      "z_local_mm": 8.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 10.0,
+      "z_abs_legacy_mm": 192.0,
+      "z_local_mm": 4.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 10.0,
+      "z_abs_legacy_mm": 200.0,
+      "z_local_mm": 12.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 10.0,
+      "z_abs_legacy_mm": 188.0,
+      "z_local_mm": 0.40759306539132467,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 10.0,
+      "z_abs_legacy_mm": 204.0,
+      "z_local_mm": 16.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 12.0,
+      "z_abs_legacy_mm": 196.0,
+      "z_local_mm": 8.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 12.0,
+      "z_abs_legacy_mm": 192.0,
+      "z_local_mm": 4.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 12.0,
+      "z_abs_legacy_mm": 200.0,
+      "z_local_mm": 12.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 12.0,
+      "z_abs_legacy_mm": 188.0,
+      "z_local_mm": 0.40759306539132467,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "strip_width_mm": 12.0,
+      "z_abs_legacy_mm": 204.0,
+      "z_local_mm": 16.407593065391325,
+      "min_inside_fuselage_fraction": 1.0,
+      "total_collision_mm3": 0.0,
+      "sides": [
+        {
+          "side": "R",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        },
+        {
+          "side": "L",
+          "inside_fuselage_fraction": 1.0,
+          "collision_mm3": 0.0,
+          "hits_mm3": {
+            "CF_FRONT_LOWER": 0.0,
+            "RISER_FRONT_R": 0.0,
+            "RISER_FRONT_L": 0.0,
+            "CF_REAR_LOWER": 0.0,
+            "RISER_REAR_R": 0.0,
+            "RISER_REAR_L": 0.0,
+            "CF_FRONT_UPPER": 0.0,
+            "CF_REAR_UPPER": 0.0,
+            "SERVO_SERVICE": 0.0,
+            "BATTERY_TRAY_v165": 0.0,
+            "INLET_EDF_R": 0.0,
+            "INLET_EDF_L": 0.0,
+            "WINGBOX_REF": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}
