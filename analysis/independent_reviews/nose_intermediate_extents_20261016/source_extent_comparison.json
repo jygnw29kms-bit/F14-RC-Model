@@ -1,0 +1,50 @@
+{
+  "status": "ACTUAL_SAMPLED_SECTION_EXTENT_COMPARISON",
+  "records": [
+    {
+      "X_mm": 15.893897516232698,
+      "native_sampled_width_mm": 10.650254304114846,
+      "native_sampled_height_mm": 10.650255155856332,
+      "width_residual_mm": 0.8985980957593931,
+      "height_residual_mm": -0.8145298458588623
+    },
+    {
+      "X_mm": 29.071811311307613,
+      "native_sampled_width_mm": 21.024516687754797,
+      "native_sampled_height_mm": 21.024518118597488,
+      "width_residual_mm": 0.7305294433393961,
+      "height_residual_mm": -0.7190396432761581
+    },
+    {
+      "X_mm": 42.24972510638253,
+      "native_sampled_width_mm": 29.7738883321815,
+      "native_sampled_height_mm": 29.77389011480892,
+      "width_residual_mm": 0.6506988450658895,
+      "height_residual_mm": -0.2717533379619326
+    },
+    {
+      "X_mm": 55.4276389014575,
+      "native_sampled_width_mm": 36.97904401635259,
+      "native_sampled_height_mm": 36.979046895479236,
+      "width_residual_mm": 1.6622350455517605,
+      "height_residual_mm": -0.44622828253358193
+    },
+    {
+      "X_mm": 68.60555269653247,
+      "native_sampled_width_mm": 43.017929989204276,
+      "native_sampled_height_mm": 43.01793605430433,
+      "width_residual_mm": 0.3214892931614841,
+      "height_residual_mm": -0.2056211935414609
+    },
+    {
+      "X_mm": 81.78346649160738,
+      "native_sampled_width_mm": 48.114217175664805,
+      "native_sampled_height_mm": 48.114228275984736,
+      "width_residual_mm": -0.11694731430945637,
+      "height_residual_mm": 0.014842923961218446
+    }
+  ],
+  "curve_stroke_tolerance_mm": 0.001,
+  "original_OML_verified": false,
+  "production_geometry": false
+}
