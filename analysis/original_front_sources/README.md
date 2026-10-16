@@ -13,3 +13,5 @@ Vertical registration candidates now retain separate upper- and lower-contour an
 C loop semantics refined after direct original-raster overlay and polygon nesting checks: loop 0 encloses both disjoint inlet loops 1/2. Thus the traced pixel region supports one outer boundary with two holes, rather than three separately filled solids. C_loop_nesting_audit.json records the checks; spline topology, metric scale and 3D continuity remain unverified.
 
 front_shared_frame_candidate.json places original A/B/C polygon traces in the existing aft candidate raster frame, retaining isotropic section scale and all side-height residuals. This is reference placement only: inherited metric scale, cross-view X alignment and C inlet-lip step remain assumptions. No continuous fuselage loft or production release is permitted by these data.
+
+Seven original nose projection samples at native raster X450..600 are extracted reproducibly in nose_projection_samples.json. These give separate plan width and side height constraints; they do not imply ellipse sections or establish the nose-tip/pitot boundary. The inherited aft metric frame remains a candidate.
