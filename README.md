@@ -2,26 +2,24 @@
 
 Clean-sheet restart of the RC/FDM F-14 project.
 
-## Current engineering status - 6 October 2026
+## Current engineering status - 16 October 2026
 
-The aircraft remains **not print-ready and not flight-released**, but the native Fusion
-source-geometry workflow has advanced substantially beyond the older v04 scaffold.
-Validated development artifacts now include the v08 Grumman/NASA source-wing loft,
-v10 carbon-cap/shear-web packaging review, v14 source-section gallery, v15 native
-wing-envelope segmentation and v16 source-pivot/sweep datum review.
+The aircraft remains **incomplete, not print-ready and not flight-released**.
+Original continuous fuselage/wing-glove geometry, common assembly registration,
+measured RC hardware, full structural validation and physical proof remain open.
+A containment result against an interpolated source candidate is not proof of the
+original aircraft outer mold line.
 
-The candidate carbon load path is fully contained by both native wing solids, and the
-four v15 solid-envelope segments pass defining-section boundary checks and the assumed
-240 x 240 x 250 mm P2S packaging envelope. They are **not yet hollow printable shells**.
-A source-backed pivot review has also retired the old provisional `(456.5, +/-131 mm)`
-pivot, but a remaining 68-degree swept-span/source-datum conflict prevents release of
-the mechanical pivot and wing box.
+Recent executed development work includes native joined inlet/adapter walls,
+internal exhaust candidates, a twin-EDF internal layout, and local P2S slicing
+trials. The exhaust also has a native parametric Fusion history with six named
+parameters; reimport, parameter regeneration and candidate-loft containment have
+been checked. The STL/3MF files remain explicitly unreleased development artifacts.
 
-See [4 Oct engineering audit](docs/09_ENGINEERING_AUDIT_20261004.md),
-[6 Oct continuation](docs/10_ENGINEERING_CONTINUATION_20261006.md),
-[reproducible structure calculation](analysis/structural_screen.py),
-[structure summary](analysis/structural_screen_summary.json) and
-[propulsion benchmark](analysis/propulsion_baseline_v17.json).
+- [Current propulsion evidence and remaining gates](docs/PROPULSION_CANDIDATE_STATUS_20261016.md)
+- [Source-wing review workflow](cad/fusion/source_review/README.md)
+- [Authoritative mass budget](docs/04_MASS_BUDGET.md)
+- [Verification plan](docs/05_DESIGN_VERIFICATION.md)
 
 ## Design target
 - visually scale-faithful Grumman F-14 Tomcat outer mold line
