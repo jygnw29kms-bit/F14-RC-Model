@@ -1,0 +1,25 @@
+{
+  "status": "PRIMARY_SOURCE_FOREBODY_SHAPE_EVIDENCE_WITH_SCOPE_LIMIT",
+  "source_pdf": "references\\NASA_CR_163098_F14_three_view.pdf",
+  "sha256": "cbdd34190313ed97c82151d1966963ae2208a7b6e8e0ed41aac3bde16fe72c96",
+  "evidence": [
+    {
+      "pdf_page_one_based": 20,
+      "printed_page": 16,
+      "short_quote": "The circular cross-sectional shape of the forebody",
+      "finding": "Report qualitatively describes the forebody as circular in its flow discussion."
+    },
+    {
+      "pdf_page_one_based": 10,
+      "printed_page": 6,
+      "finding": "The tested object is a 1/72-scale F-14 model; Figure 4 depicts that model. Clean wings at 20 degrees and retracted landing gear are stated."
+    }
+  ],
+  "scope_limits": [
+    "No station-indexed radial coordinates or circularity tolerance are supplied by this statement.",
+    "This does not override the flattened lower boundary in original UPC station A or the canopy region at B.",
+    "NASA model geometry cannot be treated as dimensional production-aircraft evidence without independent correspondence."
+  ],
+  "cad_implication": "A circular forward-nose sensitivity study can be labeled source-informed, but a final circular loft is not established. Continue original projection and section comparisons.",
+  "production_loft_allowed": false
+}
