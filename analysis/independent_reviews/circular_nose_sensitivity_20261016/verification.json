@@ -1,0 +1,8 @@
+{
+  "status": "NATIVE_STUDY_BODY_VALIDITY_VERIFIED_ONLY",
+  "archive_sha256": "2d60633d4620d54d050abbf236ef51b5680e2c5aee95a244542206385968edff",
+  "intermediate_loft_silhouette_verified": false,
+  "original_aircraft_shape_verified": false,
+  "tip_and_A_transition_included": false,
+  "production_geometry": false
+}
