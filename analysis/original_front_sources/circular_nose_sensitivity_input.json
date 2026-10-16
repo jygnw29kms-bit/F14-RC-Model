@@ -1,0 +1,75 @@
+{
+  "status": "SOURCE_INFORMED_CIRCULAR_NOSE_SENSITIVITY_INPUT_NOT_ORIGINAL_OML",
+  "input_sha256": "693dda370511f332171f4fd166f5128a972028df3bb061be7ab9c8e67109e061",
+  "shape_evidence": "forebody_shape_source_evidence.json",
+  "fit": "Equal-weight diameter=(plan width + side height)/2; center Z from side midpoint. This is a sensitivity assumption, not recovered station geometry.",
+  "sections": [
+    {
+      "source_x_pixel": 450.0,
+      "X_candidate_mm": 9.304940618695241,
+      "center_Y_candidate_mm": 0,
+      "center_Z_candidate_mm": -19.27561761052729,
+      "study_diameter_mm": 4.744048966226977,
+      "width_residual_mm": 1.0542331036059949,
+      "height_residual_mm": -1.0542331036059949
+    },
+    {
+      "source_x_pixel": 475.0,
+      "X_candidate_mm": 22.482854413770156,
+      "center_Y_candidate_mm": 0,
+      "center_Z_candidate_mm": -17.957826231019798,
+      "study_diameter_mm": 16.07705482999142,
+      "width_residual_mm": 0.7906748277044962,
+      "height_residual_mm": -0.7906748277044962
+    },
+    {
+      "source_x_pixel": 500.0,
+      "X_candidate_mm": 35.66076820884507,
+      "center_Y_candidate_mm": 0,
+      "center_Z_candidate_mm": -16.903593127413803,
+      "study_diameter_mm": 25.565152762445376,
+      "width_residual_mm": 0.7906748277044962,
+      "height_residual_mm": -0.7906748277044962
+    },
+    {
+      "source_x_pixel": 525.0,
+      "X_candidate_mm": 48.838682003919985,
+      "center_Y_candidate_mm": 0,
+      "center_Z_candidate_mm": -15.585801747906308,
+      "study_diameter_mm": 33.60368017744109,
+      "width_residual_mm": 0.6588956897537486,
+      "height_residual_mm": -0.6588956897537415
+    },
+    {
+      "source_x_pixel": 550.0,
+      "X_candidate_mm": 62.01659579899501,
+      "center_Y_candidate_mm": 0,
+      "center_Z_candidate_mm": -14.004452092497315,
+      "study_diameter_mm": 40.060857937027805,
+      "width_residual_mm": 0.5271165518029974,
+      "height_residual_mm": -0.5271165518029974
+    },
+    {
+      "source_x_pixel": 575.0,
+      "X_candidate_mm": 75.19450959406993,
+      "center_Y_candidate_mm": 0,
+      "center_Z_candidate_mm": -12.554881575039072,
+      "study_diameter_mm": 45.727360868910026,
+      "width_residual_mm": -0.13177913795075114,
+      "height_residual_mm": 0.13177913795074403
+    },
+    {
+      "source_x_pixel": 600.0,
+      "X_candidate_mm": 88.37242338914484,
+      "center_Y_candidate_mm": 0,
+      "center_Z_candidate_mm": -10.97353191963008,
+      "study_diameter_mm": 50.20785155923551,
+      "width_residual_mm": -0.3953374138522463,
+      "height_residual_mm": 0.3953374138522463
+    }
+  ],
+  "excludes_station_A": true,
+  "excludes_tip_and_pitot": true,
+  "original_shape_verified": false,
+  "production_loft_allowed": false
+}
