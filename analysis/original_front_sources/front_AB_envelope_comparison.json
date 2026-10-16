@@ -1,0 +1,82 @@
+{
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "status": "SAME_SOURCE_AB_ENVELOPE_COMPARISON_CANDIDATE",
+  "comparisons": [
+    {
+      "section": "A",
+      "sample_x_pixel": 642,
+      "visually_selected_edge_y_bands": [
+        [
+          1238,
+          1247
+        ],
+        [
+          1346,
+          1354
+        ],
+        [
+          2757,
+          2765
+        ],
+        [
+          2862,
+          2870
+        ]
+      ],
+      "edge_centers_y_pixel": [
+        1242.5,
+        1349.5,
+        2760.5,
+        2865.5
+      ],
+      "plan_width_pixels": 107.0,
+      "side_height_pixels": 105.0,
+      "section_width_pixels": 97.47499999999991,
+      "section_height_pixels": 102.20799999999997,
+      "plan_derived_isotropic_multiplier": 1.0977173634265207,
+      "predicted_side_height_pixels": 112.19549628109779,
+      "height_residual_pixels": 7.195496281097789,
+      "interpretation": "Manually selected outer contour bands. Side A excludes protruding nose gear. No automatic accuracy tolerance or acceptance is assigned."
+    },
+    {
+      "section": "B",
+      "sample_x_pixel": 905,
+      "visually_selected_edge_y_bands": [
+        [
+          1225,
+          1234
+        ],
+        [
+          1358,
+          1367
+        ],
+        [
+          2674,
+          2682
+        ],
+        [
+          2856,
+          2863
+        ]
+      ],
+      "edge_centers_y_pixel": [
+        1229.5,
+        1362.5,
+        2677.5,
+        2859.5
+      ],
+      "plan_width_pixels": 133.0,
+      "side_height_pixels": 182.0,
+      "section_width_pixels": 130.49,
+      "section_height_pixels": 180.82800000000003,
+      "plan_derived_isotropic_multiplier": 1.0192351904360486,
+      "predicted_side_height_pixels": 184.30626101616983,
+      "height_residual_pixels": 2.3062610161698274,
+      "interpretation": "Manually selected outer contour bands. Side A excludes protruding nose gear. No automatic accuracy tolerance or acceptance is assigned."
+    }
+  ],
+  "metric_scale_verified": false,
+  "common_waterline_verified": false,
+  "production_loft_allowed": false,
+  "limitations": "Separately drawn sections may differ in scale or station depiction. A residual must be investigated before lofting; do not distort profiles independently in width/height to force agreement. Source contour band selection and raster uncertainty remain review items."
+}
