@@ -1,0 +1,25 @@
+﻿{
+  "status":"DUAL_3S_4S_NOZZLE_TARGETS_PREPARED",
+  "fan_inner_diameter_assumed_mm":50.0,
+  "hub_diameter_assumed_mm":28.0,
+  "single_fan_FSA_mm2":1347.7432483900213,
+  "intake_policy":"common intake and fan duct sized for 4S case; maintain >=100% FSA usable area through intake, preferably >=110% before local losses",
+  "setups":{
+    "3S":{
+      "intent":"static thrust / lower restriction / efficiency",
+      "recommended_exit_FSA_ratio_initial_range":[0.95,1.00],
+      "equivalent_round_exit_ID_mm":[40.37573528742232,41.42463035441596]
+    },
+    "4S":{
+      "intent":"higher jet velocity / performance",
+      "recommended_exit_FSA_ratio_initial_range":[0.85,0.90],
+      "equivalent_round_exit_ID_mm":[38.19162211794624,39.29885494515076]
+    }
+  },
+  "test_insert_ratios":[0.85,0.90,0.95,1.00],
+  "test_insert_exit_ID_mm":[38.19162211794624,39.29885494515076,40.37573528742232,41.42463035441596],
+  "hardware_verified":false,
+  "bench_thrust_current_temperature_selection_required":true,
+  "print_release":false,
+  "flight_release":false
+}
