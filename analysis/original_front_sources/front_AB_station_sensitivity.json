@@ -1,0 +1,328 @@
+{
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "method": "Within each manually selected contour band split dark pixels into contiguous runs. Select first run for upper edge, last run for lower edge. Scan station column plus/minus five native pixels. Never average disconnected contour and internal-line runs.",
+  "results": [
+    {
+      "section": "A",
+      "edge_bands": [
+        [
+          1230,
+          1255
+        ],
+        [
+          1340,
+          1360
+        ],
+        [
+          2753,
+          2769
+        ],
+        [
+          2860,
+          2872
+        ]
+      ],
+      "column_offset_pixels": 5,
+      "samples": [
+        {
+          "x_pixel": 637,
+          "selected_edge_centers": [
+            1243.5,
+            1349.0,
+            2761.5,
+            2866.5
+          ],
+          "plan_width_pixels": 105.5,
+          "side_height_pixels": 105.0,
+          "height_residual_pixels": 5.6226622210824075
+        },
+        {
+          "x_pixel": 638,
+          "selected_edge_centers": [
+            1243.5,
+            1349.5,
+            2761.5,
+            2866.5
+          ],
+          "plan_width_pixels": 106.0,
+          "side_height_pixels": 105.0,
+          "height_residual_pixels": 6.146940241087535
+        },
+        {
+          "x_pixel": 639,
+          "selected_edge_centers": [
+            1243.5,
+            1349.5,
+            2760.5,
+            2866.5
+          ],
+          "plan_width_pixels": 106.0,
+          "side_height_pixels": 106.0,
+          "height_residual_pixels": 5.146940241087535
+        },
+        {
+          "x_pixel": 640,
+          "selected_edge_centers": [
+            1243.0,
+            1349.5,
+            2760.5,
+            2866.5
+          ],
+          "plan_width_pixels": 106.5,
+          "side_height_pixels": 106.0,
+          "height_residual_pixels": 5.671218261092676
+        },
+        {
+          "x_pixel": 641,
+          "selected_edge_centers": [
+            1242.5,
+            1349.5,
+            2760.5,
+            2868.0
+          ],
+          "plan_width_pixels": 107.0,
+          "side_height_pixels": 107.5,
+          "height_residual_pixels": 4.695496281097803
+        },
+        {
+          "x_pixel": 642,
+          "selected_edge_centers": [
+            1242.5,
+            1349.5,
+            2760.5,
+            2865.5
+          ],
+          "plan_width_pixels": 107.0,
+          "side_height_pixels": 105.0,
+          "height_residual_pixels": 7.195496281097803
+        },
+        {
+          "x_pixel": 643,
+          "selected_edge_centers": [
+            1242.5,
+            1350.0,
+            2759.5,
+            2865.5
+          ],
+          "plan_width_pixels": 107.5,
+          "side_height_pixels": 106.0,
+          "height_residual_pixels": 6.71977430110293
+        },
+        {
+          "x_pixel": 644,
+          "selected_edge_centers": [
+            1242.5,
+            1350.0,
+            2759.5,
+            2865.5
+          ],
+          "plan_width_pixels": 107.5,
+          "side_height_pixels": 106.0,
+          "height_residual_pixels": 6.71977430110293
+        },
+        {
+          "x_pixel": 645,
+          "selected_edge_centers": [
+            1242.5,
+            1350.0,
+            2759.5,
+            2865.5
+          ],
+          "plan_width_pixels": 107.5,
+          "side_height_pixels": 106.0,
+          "height_residual_pixels": 6.71977430110293
+        },
+        {
+          "x_pixel": 646,
+          "selected_edge_centers": [
+            1242.5,
+            1350.0,
+            2759.5,
+            2865.0
+          ],
+          "plan_width_pixels": 107.5,
+          "side_height_pixels": 105.5,
+          "height_residual_pixels": 7.21977430110293
+        },
+        {
+          "x_pixel": 647,
+          "selected_edge_centers": [
+            1242.5,
+            1350.5,
+            2758.5,
+            2865.0
+          ],
+          "plan_width_pixels": 108.0,
+          "side_height_pixels": 106.5,
+          "height_residual_pixels": 6.744052321108057
+        }
+      ],
+      "residual_range_pixels": [
+        4.695496281097803,
+        7.21977430110293
+      ]
+    },
+    {
+      "section": "B",
+      "edge_bands": [
+        [
+          1223,
+          1237
+        ],
+        [
+          1355,
+          1370
+        ],
+        [
+          2668,
+          2688
+        ],
+        [
+          2855,
+          2868
+        ]
+      ],
+      "column_offset_pixels": 5,
+      "samples": [
+        {
+          "x_pixel": 900,
+          "selected_edge_centers": [
+            1228.5,
+            1362.5,
+            2677.5,
+            2859.5
+          ],
+          "plan_width_pixels": 134.0,
+          "side_height_pixels": 182.0,
+          "height_residual_pixels": 3.692022377193666
+        },
+        {
+          "x_pixel": 901,
+          "selected_edge_centers": [
+            1228.5,
+            1362.5,
+            2678.0,
+            2859.5
+          ],
+          "plan_width_pixels": 134.0,
+          "side_height_pixels": 181.5,
+          "height_residual_pixels": 4.192022377193666
+        },
+        {
+          "x_pixel": 902,
+          "selected_edge_centers": [
+            1228.5,
+            1362.5,
+            2682.0,
+            2859.5
+          ],
+          "plan_width_pixels": 134.0,
+          "side_height_pixels": 177.5,
+          "height_residual_pixels": 8.192022377193666
+        },
+        {
+          "x_pixel": 903,
+          "selected_edge_centers": [
+            1229.5,
+            1362.5,
+            2682.0,
+            2859.5
+          ],
+          "plan_width_pixels": 133.0,
+          "side_height_pixels": 177.5,
+          "height_residual_pixels": 6.806261016169827
+        },
+        {
+          "x_pixel": 904,
+          "selected_edge_centers": [
+            1229.5,
+            1362.5,
+            2677.5,
+            2859.5
+          ],
+          "plan_width_pixels": 133.0,
+          "side_height_pixels": 182.0,
+          "height_residual_pixels": 2.3062610161698274
+        },
+        {
+          "x_pixel": 905,
+          "selected_edge_centers": [
+            1229.5,
+            1362.5,
+            2677.5,
+            2859.5
+          ],
+          "plan_width_pixels": 133.0,
+          "side_height_pixels": 182.0,
+          "height_residual_pixels": 2.3062610161698274
+        },
+        {
+          "x_pixel": 906,
+          "selected_edge_centers": [
+            1229.5,
+            1362.5,
+            2677.5,
+            2859.5
+          ],
+          "plan_width_pixels": 133.0,
+          "side_height_pixels": 182.0,
+          "height_residual_pixels": 2.3062610161698274
+        },
+        {
+          "x_pixel": 907,
+          "selected_edge_centers": [
+            1229.5,
+            1362.5,
+            2677.5,
+            2859.5
+          ],
+          "plan_width_pixels": 133.0,
+          "side_height_pixels": 182.0,
+          "height_residual_pixels": 2.3062610161698274
+        },
+        {
+          "x_pixel": 908,
+          "selected_edge_centers": [
+            1229.5,
+            1362.5,
+            2677.5,
+            2859.5
+          ],
+          "plan_width_pixels": 133.0,
+          "side_height_pixels": 182.0,
+          "height_residual_pixels": 2.3062610161698274
+        },
+        {
+          "x_pixel": 909,
+          "selected_edge_centers": [
+            1229.5,
+            1362.5,
+            2682.0,
+            2859.5
+          ],
+          "plan_width_pixels": 133.0,
+          "side_height_pixels": 177.5,
+          "height_residual_pixels": 6.806261016169827
+        },
+        {
+          "x_pixel": 910,
+          "selected_edge_centers": [
+            1229.5,
+            1362.5,
+            2682.0,
+            2859.5
+          ],
+          "plan_width_pixels": 133.0,
+          "side_height_pixels": 177.5,
+          "height_residual_pixels": 6.806261016169827
+        }
+      ],
+      "residual_range_pixels": [
+        2.3062610161698274,
+        8.192022377193666
+      ]
+    }
+  ],
+  "interpretation": "Sensitivity experiment only, not a statistical confidence interval or verified tracing uncertainty. Band selection remains manual; overlapping appendages and source depiction differences remain unresolved.",
+  "production_loft_allowed": false
+}
