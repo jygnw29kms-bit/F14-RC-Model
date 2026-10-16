@@ -1,0 +1,81 @@
+{
+  "status": "NATIVE_PARAMETER_REGENERATION_AND_RESTORE_VERIFIED",
+  "input": {
+    "path": "C:\\Users\\dezen\\Desktop\\F14-RC-Model\\workspace\\RC-F14-Tomcat\\Fusion\\Exports\\Current\\source_shell_v53\\F14_PARAMETRIC_INTERNAL_EXHAUST_CANDIDATE.f3d",
+    "sha256": "41add0ff6aa267340ebbc11b696ec27ced2ae9f509136f533c41ea636a0767b0"
+  },
+  "tests": [
+    {
+      "exit_ratio": 0.9,
+      "bodies": [
+        {
+          "body": "PARAMETRIC_EXHAUST_R_NOT_RELEASED",
+          "volume_cm3": 2.7823591522646822,
+          "normal_gap_mm": 0.8092241239199894,
+          "analytic_normal_gap_mm": 0.8092241239200101
+        },
+        {
+          "body": "PARAMETRIC_EXHAUST_L_NOT_RELEASED",
+          "volume_cm3": 2.7823591522646822,
+          "normal_gap_mm": 0.8092241239199894,
+          "analytic_normal_gap_mm": 0.8092241239200101
+        }
+      ]
+    },
+    {
+      "exit_ratio": 0.85,
+      "bodies": [
+        {
+          "body": "PARAMETRIC_EXHAUST_R_NOT_RELEASED",
+          "volume_cm3": 2.7484897792133474,
+          "normal_gap_mm": 0.8049055765855369,
+          "analytic_normal_gap_mm": 0.8049055765855575
+        },
+        {
+          "body": "PARAMETRIC_EXHAUST_L_NOT_RELEASED",
+          "volume_cm3": 2.7484897792133474,
+          "normal_gap_mm": 0.8049055765855369,
+          "analytic_normal_gap_mm": 0.8049055765855575
+        }
+      ]
+    },
+    {
+      "exit_ratio": 0.95,
+      "bodies": [
+        {
+          "body": "PARAMETRIC_EXHAUST_R_NOT_RELEASED",
+          "volume_cm3": 2.8153000669027692,
+          "normal_gap_mm": 0.8130746293547508,
+          "analytic_normal_gap_mm": 0.8130746293547562
+        },
+        {
+          "body": "PARAMETRIC_EXHAUST_L_NOT_RELEASED",
+          "volume_cm3": 2.815300066902771,
+          "normal_gap_mm": 0.8130746293547508,
+          "analytic_normal_gap_mm": 0.8130746293547562
+        }
+      ]
+    },
+    {
+      "exit_ratio": 0.9,
+      "bodies": [
+        {
+          "body": "PARAMETRIC_EXHAUST_R_NOT_RELEASED",
+          "volume_cm3": 2.7823591522646893,
+          "normal_gap_mm": 0.8092241239199894,
+          "analytic_normal_gap_mm": 0.8092241239200101
+        },
+        {
+          "body": "PARAMETRIC_EXHAUST_L_NOT_RELEASED",
+          "volume_cm3": 2.7823591522646893,
+          "normal_gap_mm": 0.8092241239199894,
+          "analytic_normal_gap_mm": 0.8092241239200101
+        }
+      ]
+    }
+  ],
+  "baseline_restored": true,
+  "source_containment_for_changed_cases_verified": false,
+  "hardware_verified": false,
+  "print_release": false
+}

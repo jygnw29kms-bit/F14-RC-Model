@@ -1,0 +1,49 @@
+{
+  "status": "NATIVE_PARAMETRIC_INTERNAL_EXHAUST_CANDIDATES",
+  "user_parameters": [
+    {
+      "name": "fan_ID",
+      "expression": "50 mm"
+    },
+    {
+      "name": "hub_D",
+      "expression": "28 mm"
+    },
+    {
+      "name": "exit_FSA_ratio",
+      "expression": "0.9"
+    },
+    {
+      "name": "radial_wall",
+      "expression": "0.83 mm"
+    },
+    {
+      "name": "exhaust_start_X",
+      "expression": "731.5 mm"
+    },
+    {
+      "name": "exhaust_end_X",
+      "expression": "754.962281164333 mm"
+    }
+  ],
+  "records": [
+    {
+      "side": "R",
+      "volume_cm3": 2.7823591522646822,
+      "normal_wall_mm": 0.8092241239199894
+    },
+    {
+      "side": "L",
+      "volume_cm3": 2.7823591522646822,
+      "normal_wall_mm": 0.8092241239199894
+    }
+  ],
+  "axis_yz_fixed_mm": [
+    65,
+    -10
+  ],
+  "source_containment_rerun": false,
+  "parameter_regeneration_verified": false,
+  "hardware_verified": false,
+  "print_release": false
+}
