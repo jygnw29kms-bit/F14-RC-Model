@@ -12,3 +12,6 @@ workspace/RC-F14-Tomcat/_shutdown_backup_*/Autodesk Fusion 360/**/logs/
 workspace/RC-F14-Tomcat/_shutdown_backup_*/Autodesk Fusion 360/**/session.dat
 workspace/RC-F14-Tomcat/_shutdown_backup_*/Autodesk Fusion 360/**/sessioncache
 workspace/RC-F14-Tomcat/_shutdown_backup_*/Autodesk Fusion 360/**/*.lck
+
+# F14 transient legacy Fusion extraction workspace; reviewed evidence is promoted into analysis/independent_reviews.
+workspace/RC-F14-Tomcat/Fusion/Exports/Current/source_shell_v53/*

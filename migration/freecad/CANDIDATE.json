@@ -1,0 +1,17 @@
+{
+  "status": "F14_FREECAD_CANDIDATE_POINTER",
+  "candidate_master": "migration/freecad/F14_CURRENT_FULL_VIEW_v194_DYNAMIC_LINKAGE.FCStd",
+  "candidate_revision": "v194",
+  "required_audits": [
+    "migration/freecad/freecad_v193_linkage_search_audit.json",
+    "migration/freecad/freecad_v194_dynamic_linkage_audit.json"
+  ],
+  "promotion_blockers": [
+    "v194 full fuselage containment pass is false for crank geometry",
+    "nose/forebody original-projection work is newer than this assembly and not consolidated",
+    "propulsion 3S/4S hardware is not verified"
+  ],
+  "promoted_to_current": false,
+  "print_release": false,
+  "flight_release": false
+}
