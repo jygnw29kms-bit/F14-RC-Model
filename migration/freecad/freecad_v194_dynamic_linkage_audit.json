@@ -1,0 +1,3227 @@
+{
+  "status": "FREECAD_V194_DYNAMIC_LINKAGE_AUDIT",
+  "source_candidate": "migration/freecad/F14_CURRENT_FULL_VIEW_v193_LINKAGE_CANDIDATE.FCStd",
+  "v40_candidate_index": 1,
+  "local_mechanism_z_mm": 8.407593065391325,
+  "rod_radius_mm": 2.0,
+  "crank_radius_section_mm": 4.0,
+  "slider_block_mm": [
+    8.0,
+    6.0,
+    5.0
+  ],
+  "sample_count": 25,
+  "maximum_fixed_collision_mm3_per_side_sample": 0.0,
+  "minimum_fuselage_containment_fraction_any_part": 0.477936116148455,
+  "fixed_structure_collision_pass": true,
+  "full_fuselage_containment_pass": false,
+  "v40_min_linkage_moment_arm_mm": 31.974069386616407,
+  "moment_arm_gate_15mm_pass": true,
+  "servo_hardware_geometry_verified": false,
+  "joint_hardware_verified": false,
+  "mechanical_detail_release": false,
+  "print_release": false,
+  "flight_release": false,
+  "samples": [
+    {
+      "sweep_deg": 20.0,
+      "slider_x_mm": 540.0,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.477936116148455,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.477936116148455,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.4779361874694216,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.4779361874694216,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 22.0,
+      "slider_x_mm": 538.8089178687068,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.5178767871714587,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.5178767871714587,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.51787692771152,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.51787692771152,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 24.0,
+      "slider_x_mm": 537.607526944086,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.55357855587716,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.55357855587716,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.5535790145281577,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.5535790145281577,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 26.0,
+      "slider_x_mm": 536.3963245343471,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.5840879472237639,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.5840879472237639,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.5840871514962862,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.5840871514962862,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 28.0,
+      "slider_x_mm": 535.1758459167194,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6102488801870245,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6102488801870245,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6102489183700203,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6102489183700203,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 30.0,
+      "slider_x_mm": 533.9466661756989,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6328932389229669,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6328932389229669,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6328931559734188,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6328931559734188,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 32.0,
+      "slider_x_mm": 532.709401961314,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6526505563501148,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6526505563501148,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6526504358936155,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6526504358936155,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 34.0,
+      "slider_x_mm": 531.464713156205,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6700086293617541,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6700086293617541,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6700084625678033,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6700084625678033,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 36.0,
+      "slider_x_mm": 530.2133044397596,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6853490523606135,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6853490523606135,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6853490109840713,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6853490109840713,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 38.0,
+      "slider_x_mm": 528.9559267371267,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6989761666516358,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6989761666516358,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.6989758735581392,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.6989758735581392,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 40.0,
+      "slider_x_mm": 527.6933785406254,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7111345735325564,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7111345735325564,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7111346930661722,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7111346930661722,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 42.0,
+      "slider_x_mm": 526.426507090907,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7220234837869465,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7220234837869465,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7220235255378996,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7220235255378996,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 44.0,
+      "slider_x_mm": 525.1562094052213,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7318062933146792,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7318062933146792,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7318063413602475,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7318063413602475,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 46.0,
+      "slider_x_mm": 523.8834331402787,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7406187687862381,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7406187687862381,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.740618759217774,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.740618759217774,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 48.0,
+      "slider_x_mm": 522.6091772775044,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7485739417028492,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7485739417028492,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7485739322775666,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7485739322775666,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 50.0,
+      "slider_x_mm": 521.3344926189485,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.755766980999094,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.755766980999094,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7557669429445992,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7557669429445992,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 52.0,
+      "slider_x_mm": 520.0604820827476,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7622783211629832,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7622783211629832,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7622782663620155,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7622782663620155,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 54.0,
+      "slider_x_mm": 518.7883007878197,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7681763622498471,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7681763622498471,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7681762756739278,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7681762756739278,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 56.0,
+      "slider_x_mm": 517.5191559184259,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7735194421200552,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7735194421200552,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7735194235465523,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7735194235465523,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 58.0,
+      "slider_x_mm": 516.2543063603199,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7783581014807193,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7783581014807193,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7783580764162285,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7783580764162285,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 60.0,
+      "slider_x_mm": 514.9950621014361,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7827351417624587,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7827351417624587,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7827348809172483,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7827348809172483,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 62.0,
+      "slider_x_mm": 513.742783391419,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7866875126160364,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7866875126160364,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7866873467167632,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7866873467167632,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 64.0,
+      "slider_x_mm": 512.4988796557498,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7902476044732158,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7902476044732158,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7902478151476264,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7902478151476264,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 66.0,
+      "slider_x_mm": 511.26480816176695,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7934434454339646,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7934434454339646,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.793443678590137,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.793443678590137,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sweep_deg": 68.0,
+      "slider_x_mm": 510.0420724354923,
+      "sides": [
+        {
+          "side": "R",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7962998903449865,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7962998903449865,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        },
+        {
+          "side": "L",
+          "total_collision_mm3": 0.0,
+          "min_inside_fuselage_fraction": 0.7962991430745042,
+          "parts": {
+            "crank": {
+              "inside_fuselage_fraction": 0.7962991430745042,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "rod": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            },
+            "slider": {
+              "inside_fuselage_fraction": 1.0,
+              "collision_mm3": 0.0,
+              "hits_mm3": {
+                "CF_FRONT_LOWER": 0.0,
+                "RISER_FRONT_R": 0.0,
+                "RISER_FRONT_L": 0.0,
+                "CF_REAR_LOWER": 0.0,
+                "RISER_REAR_R": 0.0,
+                "RISER_REAR_L": 0.0,
+                "CF_FRONT_UPPER": 0.0,
+                "CF_REAR_UPPER": 0.0,
+                "SERVO_SERVICE": 0.0,
+                "BATTERY_TRAY_v165": 0.0,
+                "INLET_EDF_R": 0.0,
+                "INLET_EDF_L": 0.0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
