@@ -1,0 +1,35 @@
+{
+  "status": "ACTUAL_P2S_EXHAUST_SLICE_TRIAL",
+  "archive_sha256": "b2bac2ba9e61042ebd521b4b74e9585fd0ce278d41c15183e94ab7b1b35beb98",
+  "layers": 117,
+  "objects": [
+    "12",
+    "8"
+  ],
+  "extruding_object_layer_pairs": 234,
+  "header": [
+    "; HEADER_BLOCK_START",
+    "; BambuStudio 02.08.02.61",
+    "; model printing time: 9m 4s; total estimated time: 9m 24s",
+    "; total layer number: 117",
+    "; total filament length [mm] : 2088.37",
+    "; total filament volume [cm^3] : 5023.11",
+    "; total filament weight [g] : 6.33",
+    "; model label id: 8,12",
+    "; object max height: 23.40,23.40",
+    "; filament_density: 1.26",
+    "; filament_diameter: 1.75",
+    "; max_z_height: 23.40",
+    "; filament: 1",
+    "; support_material_on_wipe_tower: 0",
+    "; HEADER_BLOCK_END",
+    "; CONFIG_BLOCK_START",
+    "; accel_to_decel_enable = 0",
+    "; accel_to_decel_factor = 50%",
+    "; activate_air_filtration = 0"
+  ],
+  "profiles_source": "../inlet_slice_trial_20261015/profile_provenance.json",
+  "printer_transmission_performed": false,
+  "physical_fit_verified": false,
+  "print_release": false
+}
