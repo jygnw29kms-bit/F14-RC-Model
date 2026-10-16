@@ -2,6 +2,11 @@
 
 Clean-sheet restart of the RC/FDM F-14 project.
 
+## Current FreeCAD development snapshot
+
+![Current F-14 FreeCAD development snapshot without UPC reference hull](docs/images/f14_freecad_current_20261016.png)
+
+*FreeCAD v194 development view, 16 October 2026. UPC/source fuselage reference hull and reference envelopes are hidden so the currently modeled airframe surfaces, inlet/EDF geometry and mechanism candidates remain visible. This is a development snapshot, not a print or flight release.*
 ## Current engineering status - 16 October 2026
 
 The aircraft remains **incomplete, not print-ready and not flight-released**.
@@ -30,7 +35,7 @@ been checked. The STL/3MF files remain explicitly unreleased development artifac
 - functional 20-68 deg variable-sweep wings
 - full-flying stabilators
 - FDM-first structure for Bambu Lab P2S
-- Autodesk Fusion master CAD
+- FreeCAD 1.1.4 headless-first master CAD; Fusion retained only for explicit legacy export
 
 ## Non-negotiable rule
 The retired F14_RC_FDM R2/R3/R4 geometry, OpenSCAD, STL/3MF files and hardware assumptions are not design inputs for this project.
@@ -56,4 +61,5 @@ The retired F14_RC_FDM R2/R3/R4 geometry, OpenSCAD, STL/3MF files and hardware a
 - [Verification plan](docs/05_DESIGN_VERIFICATION.md)
 
 ## CAD
-The Fusion add-in under cad/fusion/F14TomcatRC is the new parametric CAD bootstrap. It is an early OML/packaging scaffold and is not yet the frozen production surface.
+FreeCAD 1.1.4 is the active headless-first CAD workflow under `migration/freecad`. The legacy Fusion add-in under `cad/fusion/F14TomcatRC` is retained only for traceability and explicit legacy export; it is not the active CAD master.
+
