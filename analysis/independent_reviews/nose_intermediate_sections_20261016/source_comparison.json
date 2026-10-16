@@ -1,0 +1,57 @@
+{
+  "status": "INTERMEDIATE_NATIVE_AREA_VS_ORIGINAL_PROJECTION_STUDY",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "records": [
+    {
+      "source_x_pixel": 462.5,
+      "original_plan_width_candidate_mm": 9.751656208355453,
+      "original_side_height_candidate_mm": 11.464785001715194,
+      "equal_weight_source_diameter_mm": 10.608220605035324,
+      "native_area_equivalent_diameter_mm": 10.649627528265581,
+      "diameter_residual_mm": 0.041406923230256965
+    },
+    {
+      "source_x_pixel": 487.5,
+      "original_plan_width_candidate_mm": 20.2939872444154,
+      "original_side_height_candidate_mm": 21.743557761873646,
+      "equal_weight_source_diameter_mm": 21.018772503144525,
+      "native_area_equivalent_diameter_mm": 21.023377766293127,
+      "diameter_residual_mm": 0.004605263148601324
+    },
+    {
+      "source_x_pixel": 512.4999999999998,
+      "original_plan_width_candidate_mm": 29.12318948711561,
+      "original_side_height_candidate_mm": 30.045643452770854,
+      "equal_weight_source_diameter_mm": 29.584416469943232,
+      "native_area_equivalent_diameter_mm": 29.77346800616391,
+      "diameter_residual_mm": 0.18905153622067772
+    },
+    {
+      "source_x_pixel": 537.5,
+      "original_plan_width_candidate_mm": 35.31680897080083,
+      "original_side_height_candidate_mm": 37.42527517801282,
+      "equal_weight_source_diameter_mm": 36.37104207440682,
+      "native_area_equivalent_diameter_mm": 36.97679045563498,
+      "diameter_residual_mm": 0.6057483812281603
+    },
+    {
+      "source_x_pixel": 562.5000000000002,
+      "original_plan_width_candidate_mm": 42.69644069604279,
+      "original_side_height_candidate_mm": 43.22355724784579,
+      "equal_weight_source_diameter_mm": 42.95999897194429,
+      "native_area_equivalent_diameter_mm": 43.020263739532425,
+      "diameter_residual_mm": 0.06026476758813715
+    },
+    {
+      "source_x_pixel": 587.5,
+      "original_plan_width_candidate_mm": 48.23116448997426,
+      "original_side_height_candidate_mm": 48.09938535202352,
+      "equal_weight_source_diameter_mm": 48.16527492099889,
+      "native_area_equivalent_diameter_mm": 48.120699866938494,
+      "diameter_residual_mm": -0.0445750540603953
+    }
+  ],
+  "max_abs_diameter_residual_mm": 0.6057483812281603,
+  "interpretation": "Compares area-equivalent native section diameter with equal-weight source projection widths/heights. No tolerance or production acceptance; does not prove circularity or actual silhouette extent.",
+  "production_geometry": false
+}
