@@ -1,0 +1,12 @@
+{
+  "status": "NATIVE_NORMALIZED_PROJECTION_GUIDES_VERIFIED",
+  "archive_sha256": "c489dff379c4cb6707af4a1e85b21553ea53b8978d6736c2abb858bcddaf1502",
+  "A_endpoint_comparison": {
+    "axial_gap_mm": 0.0,
+    "width_difference_mm": 0.13177913795074403,
+    "height_difference_mm": -3.5293069123020615
+  },
+  "rail_attachment_verified": false,
+  "reason": "Plan guides lie on Z=0 and side guides on Y=0 as orthographic projections. Silhouette extrema of a non-elliptic cross-section need not lie on these planes. These curves are constraints, not validated loft rails.",
+  "production_loft_allowed": false
+}
