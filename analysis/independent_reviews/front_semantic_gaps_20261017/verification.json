@@ -1,0 +1,7 @@
+{
+  "status": "NATIVE_DIFFERENT_BOUNDARY_CONNECTIONS_REMOVED",
+  "archive_sha256": "899773f0bbf6441789906e177e9d8be9a29447cb9f27e365d2632ba75c8e8318",
+  "BC_segment_count": 35,
+  "unverified_forebody_to_glove_join_present": false,
+  "production_geometry": false
+}
