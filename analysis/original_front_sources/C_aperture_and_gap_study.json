@@ -1,0 +1,30 @@
+{
+  "status": "C_PIXEL_SECTION_APERTURE_AND_BOUNDARY_GAP_STUDY",
+  "input_sha256": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed",
+  "candidate_mm_per_pixel": 0.4580208369688409,
+  "records": [
+    {
+      "inner_loop": 1,
+      "minimum_polygon_boundary_gap_pixels": 1.3190907242473546,
+      "minimum_candidate_gap_mm": 0.6041710375576078,
+      "inner_edge_index": 9,
+      "outer_edge_index": 56,
+      "candidate_aperture_area_mm2": 1273.7242361991935,
+      "ratio_to_assumed_50mm_fan_28mm_hub_FSA": 0.9450792929000023
+    },
+    {
+      "inner_loop": 2,
+      "minimum_polygon_boundary_gap_pixels": 1.8925672336160135,
+      "minimum_candidate_gap_mm": 0.8668352283606103,
+      "inner_edge_index": 7,
+      "outer_edge_index": 50,
+      "candidate_aperture_area_mm2": 1214.853857382419,
+      "ratio_to_assumed_50mm_fan_28mm_hub_FSA": 0.9013985852525334
+    }
+  ],
+  "method": "Minimum endpoint-to-segment distances over nonintersecting straight polygon edges; exact for these planar polygon boundaries. Does not represent 3D normal wall thickness.",
+  "metric_registration_verified": false,
+  "physical_wall_thickness_verified": false,
+  "flow_performance_verified": false,
+  "production_geometry": false
+}
