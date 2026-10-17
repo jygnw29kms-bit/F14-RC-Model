@@ -1,0 +1,133 @@
+{
+  "status": "NATIVE_OUTSIDE_CRANK_LOCALIZATION_VERIFIED_WITH_SAMPLED_EXTENTS",
+  "native_exit_codes": [
+    0,
+    0
+  ],
+  "records": [
+    {
+      "side": "R",
+      "sweep_deg": 20.0,
+      "outside_fraction": 0.522063876128117,
+      "outside_sampled_bounds_mm": {
+        "x": [
+          610.3039634565366,
+          634.6698314416967
+        ],
+        "y": [
+          109.21,
+          128.0374312060662
+        ],
+        "z": [
+          4.407687167007458,
+          12.407498963775192
+        ],
+        "method": "Tessellation vertices, requested deflection .01 mm; sampled extent, not exact analytic bounds"
+      }
+    },
+    {
+      "side": "L",
+      "sweep_deg": 20.0,
+      "outside_fraction": 0.5220637976489454,
+      "outside_sampled_bounds_mm": {
+        "x": [
+          610.3042296129695,
+          634.6698351460132
+        ],
+        "y": [
+          -128.03769736249902,
+          -109.21
+        ],
+        "z": [
+          4.407679451619518,
+          12.407498963775192
+        ],
+        "method": "Tessellation vertices, requested deflection .01 mm; sampled extent, not exact analytic bounds"
+      }
+    },
+    {
+      "side": "R",
+      "sweep_deg": 44.0,
+      "outside_fraction": 0.26819372173407885,
+      "outside_sampled_bounds_mm": {
+        "x": [
+          609.398068875294,
+          621.6852173896723
+        ],
+        "y": [
+          114.0899262002713,
+          126.64260714550782
+        ],
+        "z": [
+          4.407687167007458,
+          12.40759251797093
+        ],
+        "method": "Tessellation vertices, requested deflection .01 mm; sampled extent, not exact analytic bounds"
+      }
+    },
+    {
+      "side": "L",
+      "sweep_deg": 44.0,
+      "outside_fraction": 0.2681936617543858,
+      "outside_sampled_bounds_mm": {
+        "x": [
+          609.3984202768683,
+          621.6853009282806
+        ],
+        "y": [
+          -126.64274203593402,
+          -114.08988945998375
+        ],
+        "z": [
+          4.407618833360285,
+          12.407591476787626
+        ],
+        "method": "Tessellation vertices, requested deflection .01 mm; sampled extent, not exact analytic bounds"
+      }
+    },
+    {
+      "side": "R",
+      "sweep_deg": 68.0,
+      "outside_fraction": 0.20370135164687006,
+      "outside_sampled_bounds_mm": {
+        "x": [
+          608.840224615199,
+          617.1265328341101
+        ],
+        "y": [
+          116.29531676656099,
+          125.41861406272459
+        ],
+        "z": [
+          4.407668320664286,
+          12.407498963775192
+        ],
+        "method": "Tessellation vertices, requested deflection .01 mm; sampled extent, not exact analytic bounds"
+      }
+    },
+    {
+      "side": "L",
+      "sweep_deg": 68.0,
+      "outside_fraction": 0.20370080240460836,
+      "outside_sampled_bounds_mm": {
+        "x": [
+          608.8404551535318,
+          617.1269087203011
+        ],
+        "y": [
+          -125.41859436336405,
+          -116.29530315937323
+        ],
+        "z": [
+          4.407687167007458,
+          12.407498963775192
+        ],
+        "method": "Tessellation vertices, requested deflection .01 mm; sampled extent, not exact analytic bounds"
+      }
+    }
+  ],
+  "standard_boundbox_warning": "Standard Part BoundBox for trimmed boolean result exceeded parent crank extent; do not use it as tight localization. Sampled tessellated bounds checked against parent crank extent.",
+  "tessellation_requested_deflection_mm": 0.01,
+  "exact_extrema_verified": false,
+  "production_geometry": false
+}
