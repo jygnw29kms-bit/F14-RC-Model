@@ -1,0 +1,8 @@
+{
+  "status": "NATIVE_PARTIAL_CD_REFERENCE_GAPS_VERIFIED",
+  "archive_sha256": "ecb83dda869f4b855e4b690192e5ced52d698cbeed30e63d193093fff587be97",
+  "CD_segment_count": 27,
+  "occluded_plan_samples_filled": false,
+  "production_geometry": false,
+  "original_OML_verified": false
+}
