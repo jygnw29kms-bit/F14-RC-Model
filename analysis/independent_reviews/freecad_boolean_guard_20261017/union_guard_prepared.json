@@ -1,0 +1,11 @@
+{
+  "status": "UNION_CONTAINMENT_CORRECTION_PREPARED_NOT_EXECUTED",
+  "original_sha256": "4c7a96c456c3039c6cbfde33e15b7fd44fdc8d0bf864c664a64db022dbcf341b",
+  "safe_variant": "migration\\freecad\\verify_dynamic_linkage_v194_union_containment.py",
+  "issue": "Prior inside_fuselage_fraction actually sums part intersections with fuselage and rotated wing, then clamps to one. Overlapping envelope volumes can be counted twice.",
+  "change": "Intersect each part with a validated fuselage-plus-wing union; rename reported containment scope accordingly.",
+  "synthetic_overlap_arithmetic_check": true,
+  "native_execution_verified": false,
+  "prior_4779_fraction_reinterpreted": "Candidate airframe sum, not fuselage-only containment; not yet recomputed using union.",
+  "print_release": false
+}
