@@ -29,3 +29,5 @@ Original midpoint projection extraction checked at grayscale thresholds 96/128/1
 A-to-B forebody/canopy projections now sampled at nine original columns X675..875. Lower contours are omitted at X675/700/725 where the nose gear overlaps the projection; missing coordinates remain null. These constraints do not imply interpolated section shapes or verified metric registration.
 
 B-to-C reference coverage: eleven columns X925..1175, with dorsal-antenna-overlapped upper contours omitted at X1125/1150. Plan envelopes from X975 include the fixed wing glove and must not be interpreted as fuselage-core widths. Original side/plan crops were visually reviewed. See BC_projection_samples.json.
+
+Partial C-D projection coverage records thirteen original side columns X1225..1525. Upper appendage-overlap samples X1350/1375 and plan contours beyond X1300 remain null; swept wings obscure the fuselage envelope there. The four retained plan widths describe overall fixed-glove projection only. These data cannot establish a continuous C-D fuselage loft.
