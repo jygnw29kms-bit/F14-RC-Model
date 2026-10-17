@@ -1,0 +1,50 @@
+{
+  "status": "ORIGINAL_SEPARATE_PLAN_COMPONENT_LEADING_EDGE_CANDIDATES",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "records": [
+    {
+      "component": "upper_plan_component",
+      "column_detection_roi": [
+        958,
+        1155,
+        973,
+        1210
+      ],
+      "supported_columns": [
+        965,
+        966
+      ],
+      "leading_edge_x_candidate_pixel": 965.5,
+      "representative_column": 965,
+      "longest_contiguous_dark_segment_y": [
+        1150,
+        1214
+      ],
+      "segment_endpoint_accuracy_verified": false
+    },
+    {
+      "component": "lower_plan_component",
+      "column_detection_roi": [
+        958,
+        1380,
+        973,
+        1435
+      ],
+      "supported_columns": [
+        964,
+        965
+      ],
+      "leading_edge_x_candidate_pixel": 964.5,
+      "representative_column": 964,
+      "longest_contiguous_dark_segment_y": [
+        1378,
+        1443
+      ],
+      "segment_endpoint_accuracy_verified": false
+    }
+  ],
+  "interpretation": "Original plan view shows separate leading projected component boundaries near X965, with gaps to the central forebody silhouette. These are local raster features; component physical identity and 3D connection are not established by this detector.",
+  "method": "Visually selected vertical stroke ROIs; columns with >=95 percent of maximal dark support at threshold128; longest contiguous run at first supported column.",
+  "continuous_fuselage_outline_verified": false,
+  "production_geometry": false
+}

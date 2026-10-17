@@ -31,3 +31,5 @@ A-to-B forebody/canopy projections now sampled at nine original columns X675..87
 B-to-C reference coverage: eleven columns X925..1175, with dorsal-antenna-overlapped upper contours omitted at X1125/1150. Plan envelopes from X975 include the fixed wing glove and must not be interpreted as fuselage-core widths. Original side/plan crops were visually reviewed. See BC_projection_samples.json.
 
 Partial C-D projection coverage records thirteen original side columns X1225..1525. Upper appendage-overlap samples X1350/1375 and plan contours beyond X1300 remain null; swept wings obscure the fuselage envelope there. The four retained plan widths describe overall fixed-glove projection only. These data cannot establish a continuous C-D fuselage loft.
+
+Leading-edge crop confirms separate upper/lower projected components near raster X965 with visible gaps to the central forebody. Local vertical-stroke candidates are recorded in glove_inlet_leading_edge_candidates.json; they are not a continuous fuselage boundary or verified 3D component identification.
