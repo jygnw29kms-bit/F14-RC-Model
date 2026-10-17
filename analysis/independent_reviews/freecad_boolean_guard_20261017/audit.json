@@ -1,0 +1,17 @@
+{
+  "status": "STATIC_NATIVE_BOOLEAN_ERROR_HANDLING_RISK_FOUND_SAFE_VARIANT_PREPARED",
+  "original_source": "migration\\freecad\\verify_dynamic_linkage_v194.py",
+  "original_sha256": "03dfbaf55bd25ace5545ab58887bb8dbb02672deb6ebd4e83395650f4f1a998d",
+  "issue": "Original ivol returns zero on every boolean exception; an unknown collision or containment result can be represented as zero volume.",
+  "safe_variant": "migration\\freecad\\verify_dynamic_linkage_v194_fail_closed.py",
+  "safe_sha256": "4c7a96c456c3039c6cbfde33e15b7fd44fdc8d0bf864c664a64db022dbcf341b",
+  "isolated_helper_checks": {
+    "nonempty_volume": true,
+    "empty_intersection": true,
+    "exception_raises_unknown": true
+  },
+  "native_FreeCAD_execution_verified": false,
+  "existing_v194_audit_invalidated": false,
+  "limitation": "No evidence that a boolean exception occurred in historical v194 run. Native rerun is required; tests cover control flow only.",
+  "production_geometry": false
+}
