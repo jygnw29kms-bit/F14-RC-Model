@@ -1,0 +1,21 @@
+{
+  "status": "NATIVE_RC_C_PLANAR_APERTURE_STUDY",
+  "input_sha256": "1088b5764b25c4c1b01526e8717366224d816f0df318bdc383531b62e3198eef",
+  "profile_count": 3,
+  "records": [
+    {
+      "inner_loop": 1,
+      "native_planar_gap_mm": 0.8100000000000191,
+      "analytic_planar_gap_mm": 0.8100000000000246
+    },
+    {
+      "inner_loop": 2,
+      "native_planar_gap_mm": 0.8668352283606134,
+      "analytic_planar_gap_mm": 0.8668352283606103
+    }
+  ],
+  "solid_body_count": 0,
+  "metric_registration_verified": false,
+  "normal_3D_wall_verified": false,
+  "print_release": false
+}
