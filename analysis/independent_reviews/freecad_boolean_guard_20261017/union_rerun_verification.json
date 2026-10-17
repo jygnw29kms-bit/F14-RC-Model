@@ -1,0 +1,32 @@
+{
+  "status": "NATIVE_UNION_CONTAINMENT_OUTPUTS_VERIFIED",
+  "audit_sha256": "1da08b81aaf7cda657db326bcf0be59f76668b95c20800bf50c67f63e56de771",
+  "archive_sha256": "6066efcab3d67853563a6f26503be107f9b1f2cfcc561a3db2fa538050a60626",
+  "sample_count": 25,
+  "part_checks": 150,
+  "minimum_candidate_airframe_union_fraction": 0.477936116148455,
+  "maximum_fixed_collision_mm3": 0.0,
+  "max_abs_change_from_prior_sum": 0.0,
+  "per_part": {
+    "crank": {
+      "minimum": 0.477936116148455,
+      "maximum": 0.7962998903449865,
+      "below_0999_count": 50
+    },
+    "rod": {
+      "minimum": 1.0,
+      "maximum": 1.0,
+      "below_0999_count": 0
+    },
+    "slider": {
+      "minimum": 1.0,
+      "maximum": 1.0,
+      "below_0999_count": 0
+    }
+  },
+  "full_candidate_airframe_union_containment_pass": false,
+  "legacy_key_note": "Native aggregate key minimum_fuselage_containment_fraction_any_part is retained by source naming but now holds AIRFRAME UNION containment. Per-part keys and full gate correctly name union.",
+  "production_geometry": false,
+  "print_release": false,
+  "flight_release": false
+}

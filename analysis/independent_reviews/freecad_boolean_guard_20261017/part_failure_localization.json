@@ -1,0 +1,89 @@
+{
+  "status": "PRIOR_CANDIDATE_SUM_CONTAINMENT_FAILURE_LOCALIZATION",
+  "source_sha256": "0da3e547d794839d8f78b596fb095a236c3fbe0a2494d812b3eef4d39c92d333",
+  "parts": {
+    "crank": {
+      "minimum_fraction": 0.477936116148455,
+      "maximum_fraction": 0.7962998903449865,
+      "below_0999_count": 50,
+      "worst_cases": [
+        {
+          "sweep_deg": 20.0,
+          "side": "R",
+          "reported_candidate_sum_fraction": 0.477936116148455
+        },
+        {
+          "sweep_deg": 20.0,
+          "side": "L",
+          "reported_candidate_sum_fraction": 0.4779361874694216
+        },
+        {
+          "sweep_deg": 22.0,
+          "side": "R",
+          "reported_candidate_sum_fraction": 0.5178767871714587
+        },
+        {
+          "sweep_deg": 22.0,
+          "side": "L",
+          "reported_candidate_sum_fraction": 0.51787692771152
+        }
+      ]
+    },
+    "rod": {
+      "minimum_fraction": 1.0,
+      "maximum_fraction": 1.0,
+      "below_0999_count": 0,
+      "worst_cases": [
+        {
+          "sweep_deg": 20.0,
+          "side": "R",
+          "reported_candidate_sum_fraction": 1.0
+        },
+        {
+          "sweep_deg": 20.0,
+          "side": "L",
+          "reported_candidate_sum_fraction": 1.0
+        },
+        {
+          "sweep_deg": 22.0,
+          "side": "R",
+          "reported_candidate_sum_fraction": 1.0
+        },
+        {
+          "sweep_deg": 22.0,
+          "side": "L",
+          "reported_candidate_sum_fraction": 1.0
+        }
+      ]
+    },
+    "slider": {
+      "minimum_fraction": 1.0,
+      "maximum_fraction": 1.0,
+      "below_0999_count": 0,
+      "worst_cases": [
+        {
+          "sweep_deg": 20.0,
+          "side": "R",
+          "reported_candidate_sum_fraction": 1.0
+        },
+        {
+          "sweep_deg": 20.0,
+          "side": "L",
+          "reported_candidate_sum_fraction": 1.0
+        },
+        {
+          "sweep_deg": 22.0,
+          "side": "R",
+          "reported_candidate_sum_fraction": 1.0
+        },
+        {
+          "sweep_deg": 22.0,
+          "side": "L",
+          "reported_candidate_sum_fraction": 1.0
+        }
+      ]
+    }
+  },
+  "scope": "Prior fuselage-plus-wing intersection sum, not corrected union; pending union rerun supersedes these values.",
+  "production_geometry": false
+}
