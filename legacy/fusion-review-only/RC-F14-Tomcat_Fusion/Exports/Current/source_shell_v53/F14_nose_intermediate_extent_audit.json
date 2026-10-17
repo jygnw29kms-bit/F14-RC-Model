@@ -1,0 +1,123 @@
+{
+  "status": "NATIVE_INTERMEDIATE_STUDY_SECTION_SAMPLED_EXTENTS",
+  "archive_sha256": "2d60633d4620d54d050abbf236ef51b5680e2c5aee95a244542206385968edff",
+  "records": [
+    {
+      "sampled_width_mm": 10.650254304114846,
+      "sampled_height_mm": 10.650255155856332,
+      "Y_range_mm": [
+        -5.325127501761547,
+        5.3251268023532985
+      ],
+      "Z_range_mm": [
+        -23.90760581355186,
+        -13.257350657695529
+      ],
+      "curve_stroke_tolerance_mm": 0.001,
+      "curve_sample_count": 257,
+      "X_mm": 15.893897516232698,
+      "native_area_mm2": 89.07559222438587,
+      "area_equivalent_diameter_mm": 10.649627528265581,
+      "linear_input_diameter_mm": 10.4105518981092,
+      "diameter_difference_mm": 0.2390756301563819
+    },
+    {
+      "sampled_width_mm": 21.024516687754797,
+      "sampled_height_mm": 21.024518118597488,
+      "Y_range_mm": [
+        -10.512259129583414,
+        10.512257558171381
+      ],
+      "Z_range_mm": [
+        -27.944123706563996,
+        -6.919605587966507
+      ],
+      "curve_stroke_tolerance_mm": 0.001,
+      "curve_sample_count": 257,
+      "X_mm": 29.071811311307613,
+      "native_area_mm2": 347.1321751919052,
+      "area_equivalent_diameter_mm": 21.023377766293127,
+      "linear_input_diameter_mm": 20.8211037962184,
+      "diameter_difference_mm": 0.20227397007472803
+    },
+    {
+      "sampled_width_mm": 29.7738883321815,
+      "sampled_height_mm": 29.77389011480892,
+      "Y_range_mm": [
+        -14.886945335012784,
+        14.886942997168713
+      ],
+      "Z_range_mm": [
+        -31.164559311788715,
+        -1.3906691969797922
+      ],
+      "curve_stroke_tolerance_mm": 0.001,
+      "curve_sample_count": 513,
+      "X_mm": 42.24972510638253,
+      "native_area_mm2": 696.2235824197967,
+      "area_equivalent_diameter_mm": 29.77346800616391,
+      "linear_input_diameter_mm": 29.584416469943235,
+      "diameter_difference_mm": 0.18905153622067417
+    },
+    {
+      "sampled_width_mm": 36.97904401635259,
+      "sampled_height_mm": 36.979046895479236,
+      "Y_range_mm": [
+        -18.48952391556743,
+        18.48952010078516
+      ],
+      "Z_range_mm": [
+        -33.29240223549866,
+        3.6866446599805727
+      ],
+      "curve_stroke_tolerance_mm": 0.001,
+      "curve_sample_count": 513,
+      "X_mm": 55.4276389014575,
+      "native_area_mm2": 1073.8615824914052,
+      "area_equivalent_diameter_mm": 36.97679045563498,
+      "linear_input_diameter_mm": 36.83226905723445,
+      "diameter_difference_mm": 0.1445213984005349
+    },
+    {
+      "sampled_width_mm": 43.017929989204276,
+      "sampled_height_mm": 43.01793605430433,
+      "Y_range_mm": [
+        -21.50896820281575,
+        21.508961786388525
+      ],
+      "Z_range_mm": [
+        -34.788850881767395,
+        8.229085172536934
+      ],
+      "curve_stroke_tolerance_mm": 0.001,
+      "curve_sample_count": 513,
+      "X_mm": 68.60555269653247,
+      "native_area_mm2": 1453.5702255492606,
+      "area_equivalent_diameter_mm": 43.020263739532425,
+      "linear_input_diameter_mm": 42.894109402968915,
+      "diameter_difference_mm": 0.12615433656350916
+    },
+    {
+      "sampled_width_mm": 48.114217175664805,
+      "sampled_height_mm": 48.114228275984736,
+      "Y_range_mm": [
+        -24.057112601384535,
+        24.05710457428027
+      ],
+      "Z_range_mm": [
+        -35.83760845931394,
+        12.276619816670797
+      ],
+      "curve_stroke_tolerance_mm": 0.001,
+      "curve_sample_count": 513,
+      "X_mm": 81.78346649160738,
+      "native_area_mm2": 1818.6693660741,
+      "area_equivalent_diameter_mm": 48.120699866938494,
+      "linear_input_diameter_mm": 47.96760621407277,
+      "diameter_difference_mm": 0.15309365286572785
+    }
+  ],
+  "interpretation": "Area-equivalent diameter only; this does not prove circularity, source silhouette agreement or lack of local overshoot.",
+  "original_OML_verified": false,
+  "production_geometry": false
+}

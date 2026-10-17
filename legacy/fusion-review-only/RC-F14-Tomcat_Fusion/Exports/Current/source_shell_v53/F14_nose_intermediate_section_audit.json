@@ -1,0 +1,51 @@
+{
+  "status": "NATIVE_INTERMEDIATE_STUDY_SECTION_AREAS",
+  "archive_sha256": "2d60633d4620d54d050abbf236ef51b5680e2c5aee95a244542206385968edff",
+  "records": [
+    {
+      "X_mm": 15.893897516232698,
+      "native_area_mm2": 89.07559222438587,
+      "area_equivalent_diameter_mm": 10.649627528265581,
+      "linear_input_diameter_mm": 10.4105518981092,
+      "diameter_difference_mm": 0.2390756301563819
+    },
+    {
+      "X_mm": 29.071811311307613,
+      "native_area_mm2": 347.1321751919052,
+      "area_equivalent_diameter_mm": 21.023377766293127,
+      "linear_input_diameter_mm": 20.8211037962184,
+      "diameter_difference_mm": 0.20227397007472803
+    },
+    {
+      "X_mm": 42.24972510638253,
+      "native_area_mm2": 696.2235824197967,
+      "area_equivalent_diameter_mm": 29.77346800616391,
+      "linear_input_diameter_mm": 29.584416469943235,
+      "diameter_difference_mm": 0.18905153622067417
+    },
+    {
+      "X_mm": 55.4276389014575,
+      "native_area_mm2": 1073.8615824914052,
+      "area_equivalent_diameter_mm": 36.97679045563498,
+      "linear_input_diameter_mm": 36.83226905723445,
+      "diameter_difference_mm": 0.1445213984005349
+    },
+    {
+      "X_mm": 68.60555269653247,
+      "native_area_mm2": 1453.5702255492606,
+      "area_equivalent_diameter_mm": 43.020263739532425,
+      "linear_input_diameter_mm": 42.894109402968915,
+      "diameter_difference_mm": 0.12615433656350916
+    },
+    {
+      "X_mm": 81.78346649160738,
+      "native_area_mm2": 1818.6693660741,
+      "area_equivalent_diameter_mm": 48.120699866938494,
+      "linear_input_diameter_mm": 47.96760621407277,
+      "diameter_difference_mm": 0.15309365286572785
+    }
+  ],
+  "interpretation": "Area-equivalent diameter only; this does not prove circularity, source silhouette agreement or lack of local overshoot.",
+  "original_OML_verified": false,
+  "production_geometry": false
+}

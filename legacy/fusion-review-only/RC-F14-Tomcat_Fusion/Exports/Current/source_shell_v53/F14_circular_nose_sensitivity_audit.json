@@ -1,0 +1,11 @@
+{
+  "status": "NATIVE_CIRCULAR_NOSE_SENSITIVITY_ONLY",
+  "input_sha256": "d8a8656bfdf5dd5a144f490444143ac0145877e648b5e47e0bfbb00638010fb3",
+  "section_count": 7,
+  "body_valid": true,
+  "body_solid": true,
+  "volume_cm3": 72.30662733321753,
+  "original_shape_verified": false,
+  "production_geometry": false,
+  "print_release": false
+}

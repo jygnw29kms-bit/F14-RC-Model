@@ -1,0 +1,127 @@
+{
+  "CD_projection_guides": [
+    {
+      "name": "TOP_VISIBLE",
+      "segment_count": 9,
+      "omitted_sample_count": 2
+    },
+    {
+      "name": "BOTTOM_PROJECTION",
+      "segment_count": 12,
+      "omitted_sample_count": 0
+    },
+    {
+      "name": "PLAN_RIGHT_VISIBLE_GLOVE",
+      "segment_count": 3,
+      "omitted_sample_count": 9
+    },
+    {
+      "name": "PLAN_LEFT_VISIBLE_GLOVE",
+      "segment_count": 3,
+      "omitted_sample_count": 9
+    }
+  ],
+  "CD_input_sha256": "1e7ebe6f9eeed069ceddd671f4755e6fc3e7955879a855beaf88adab98e317f3",
+  "BC_projection_guides": [
+    {
+      "name": "TOP_VISIBLE",
+      "segment_count": 7,
+      "omitted_sample_count": 2
+    },
+    {
+      "name": "BOTTOM",
+      "segment_count": 10,
+      "omitted_sample_count": 0
+    },
+    {
+      "name": "PLAN_RIGHT_OVERALL_GLOVE",
+      "segment_count": 10,
+      "omitted_sample_count": 0
+    },
+    {
+      "name": "PLAN_LEFT_OVERALL_GLOVE",
+      "segment_count": 10,
+      "omitted_sample_count": 0
+    }
+  ],
+  "BC_input_sha256": "d576987b9992bd30e7e698f4949e0bd0d7d507f31204419da18546665f89d374",
+  "AB_projection_guides": [
+    {
+      "name": "CANOPY_TOP",
+      "point_count": 9,
+      "segment_count": 8
+    },
+    {
+      "name": "BODY_BOTTOM_VISIBLE",
+      "point_count": 6,
+      "segment_count": 5
+    },
+    {
+      "name": "PLAN_RIGHT",
+      "point_count": 9,
+      "segment_count": 8
+    },
+    {
+      "name": "PLAN_LEFT",
+      "point_count": 9,
+      "segment_count": 8
+    }
+  ],
+  "AB_input_sha256": "acb895f59f215d3af069440d34415322039e8273d64a313c0b54af8a885fa523",
+  "nose_projection_guides": [
+    {
+      "name": "SIDE_TOP",
+      "point_count": 9,
+      "segment_count": 8
+    },
+    {
+      "name": "SIDE_BOTTOM",
+      "point_count": 9,
+      "segment_count": 8
+    },
+    {
+      "name": "PLAN_RIGHT",
+      "point_count": 9,
+      "segment_count": 8
+    },
+    {
+      "name": "PLAN_LEFT",
+      "point_count": 9,
+      "segment_count": 8
+    }
+  ],
+  "nose_input_sha256": "693dda370511f332171f4fd166f5128a972028df3bb061be7ab9c8e67109e061",
+  "nose_cross_sections_assumed": false,
+  "status": "NATIVE_FRONT_REFERENCE_FRAME_CANDIDATE",
+  "input_sha256": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+  "records": [
+    {
+      "section": "A",
+      "X_candidate_mm": 110.77487684077221,
+      "profile_count": 1,
+      "region_boundary_count": 1,
+      "area_candidate_mm2": 2817.8500203707044,
+      "coordinate_roundtrip_verified": true
+    },
+    {
+      "section": "B",
+      "X_candidate_mm": 249.40652996496055,
+      "profile_count": 1,
+      "region_boundary_count": 1,
+      "area_candidate_mm2": 5142.9726216046665,
+      "coordinate_roundtrip_verified": true
+    },
+    {
+      "section": "C",
+      "X_candidate_mm": 403.32456309143583,
+      "profile_count": 3,
+      "region_boundary_count": 3,
+      "area_candidate_mm2": 6836.189520495228,
+      "coordinate_roundtrip_verified": true
+    }
+  ],
+  "solid_body_count": 0,
+  "metric_registration_verified": false,
+  "continuous_OML_verified": false,
+  "production_geometry": false
+}
