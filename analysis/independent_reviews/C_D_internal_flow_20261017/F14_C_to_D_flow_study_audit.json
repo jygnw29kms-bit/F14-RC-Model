@@ -1,0 +1,25 @@
+{
+  "status": "NATIVE_C_TO_D_INTERNAL_FLOW_STUDY",
+  "records": [
+    {
+      "inner_loop": 1,
+      "C_X_mm": 403.32456309143583,
+      "D_X_mm": 595.8483908511422,
+      "valid": true,
+      "volume_cm3": 291.82487538904087,
+      "D_profile_from_existing_native_inner_edges": true
+    },
+    {
+      "inner_loop": 2,
+      "C_X_mm": 403.32456309143583,
+      "D_X_mm": 595.8483908511422,
+      "valid": true,
+      "volume_cm3": 289.12948554206446,
+      "D_profile_from_existing_native_inner_edges": true
+    }
+  ],
+  "wall_thickness_verified": false,
+  "source_outer_containment_verified": false,
+  "metric_registration_verified": false,
+  "print_release": false
+}
