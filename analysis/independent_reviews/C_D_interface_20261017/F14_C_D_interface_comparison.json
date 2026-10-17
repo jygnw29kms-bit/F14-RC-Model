@@ -1,0 +1,30 @@
+{
+  "status": "NATIVE_C_D_INTERFACE_AREA_PERIMETER_COMPARISON",
+  "archive_sha256": "bb8b3a2d63e1f68586e8431ac711550b72d660080cce98a04cc3937d83dbc588",
+  "records": [
+    {
+      "flow_body": "C_TO_D_FLOW_VOLUME_STUDY_1_NOT_WALL_NOT_PRINTABLE",
+      "axial_gap_mm": 4.885812643351528e-08,
+      "flow_end_area_mm2": 1796.815449213857,
+      "native_inlet_inner_profile_area_mm2": 1796.8154492138567,
+      "area_difference_mm2": 2.2737367544323206e-13,
+      "flow_end_perimeter_mm": 150.27068697881958,
+      "native_inlet_inner_perimeter_mm": 150.27068697881955,
+      "perimeter_difference_mm": 2.842170943040401e-14
+    },
+    {
+      "flow_body": "C_TO_D_FLOW_VOLUME_STUDY_2_NOT_WALL_NOT_PRINTABLE",
+      "axial_gap_mm": 4.8858055379241705e-08,
+      "flow_end_area_mm2": 1796.815449213856,
+      "native_inlet_inner_profile_area_mm2": 1796.815449213856,
+      "area_difference_mm2": 0.0,
+      "flow_end_perimeter_mm": 150.27068697881958,
+      "native_inlet_inner_perimeter_mm": 150.27068697881953,
+      "perimeter_difference_mm": 5.684341886080802e-14
+    }
+  ],
+  "interpretation": "Axial location, area and perimeter comparison only; these do not prove full boundary coincidence or tangent continuity.",
+  "full_boundary_coincidence_verified": false,
+  "wall_thickness_verified": false,
+  "print_release": false
+}
