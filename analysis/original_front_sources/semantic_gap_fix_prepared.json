@@ -1,0 +1,8 @@
+{
+  "status": "PREPARED_NATIVE_REFERENCE_SEMANTIC_GAP_FIX_NOT_EXECUTED",
+  "issue": "BC plan guides previously connected X950 forebody-only envelope to X975 overall fixed-glove envelope. Different semantic boundaries require the real glove leading-edge corner; a straight interpolated segment is not source verified.",
+  "change": "Break both plan guides whenever plan_region changes; no invented joining line.",
+  "expected_BC_segment_count": 35,
+  "original_OML_verified": false,
+  "production_geometry": false
+}
