@@ -1,0 +1,175 @@
+{
+  "status": "ORIGINAL_BC_PROJECTION_CONSTRAINTS_WITH_GLOVE_SEMANTICS",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "method": "Visually reviewed view bands, contiguous dark stroke centers threshold128. Antenna overlap omitted; fixed glove explicitly included in overall plan width.",
+  "samples": [
+    {
+      "source_x_pixel": 925,
+      "X_candidate_mm": 259.685302725119,
+      "plan_stroke_centers": [
+        1229.0,
+        1363.0
+      ],
+      "plan_region": "Forebody only",
+      "width_candidate_mm": 70.63361794160166,
+      "side_top_stroke_center": 2677.5,
+      "side_bottom_stroke_center": 2859.5,
+      "top_Z_candidate_mm": 63.21812274664181,
+      "bottom_Z_candidate_mm": -32.71708968150372,
+      "top_status": "Sampled upper body/canopy contour"
+    },
+    {
+      "source_x_pixel": 950,
+      "X_candidate_mm": 272.86321652019393,
+      "plan_stroke_centers": [
+        1228.5,
+        1363.0
+      ],
+      "plan_region": "Forebody only",
+      "width_candidate_mm": 70.89717621750316,
+      "side_top_stroke_center": 2678.5,
+      "side_bottom_stroke_center": 2858.5,
+      "top_Z_candidate_mm": 62.69100619483881,
+      "bottom_Z_candidate_mm": -32.189973129700725,
+      "top_status": "Sampled upper body/canopy contour"
+    },
+    {
+      "source_x_pixel": 975,
+      "X_candidate_mm": 286.04113031526884,
+      "plan_stroke_centers": [
+        1150.0,
+        1442.0
+      ],
+      "plan_region": "Overall envelope includes fixed wing glove; not fuselage-core width",
+      "width_candidate_mm": 153.91803312647525,
+      "side_top_stroke_center": 2680.5,
+      "side_bottom_stroke_center": 2857.5,
+      "top_Z_candidate_mm": 61.63677309123282,
+      "bottom_Z_candidate_mm": -31.66285657789773,
+      "top_status": "Sampled upper body/canopy contour"
+    },
+    {
+      "source_x_pixel": 1000,
+      "X_candidate_mm": 299.2190441103438,
+      "plan_stroke_centers": [
+        1146.5,
+        1445.5
+      ],
+      "plan_region": "Overall envelope includes fixed wing glove; not fuselage-core width",
+      "width_candidate_mm": 157.60784898909623,
+      "side_top_stroke_center": 2682.5,
+      "side_bottom_stroke_center": 2856.5,
+      "top_Z_candidate_mm": 60.582539987626824,
+      "bottom_Z_candidate_mm": -31.135740026094734,
+      "top_status": "Sampled upper body/canopy contour"
+    },
+    {
+      "source_x_pixel": 1025,
+      "X_candidate_mm": 312.39695790541873,
+      "plan_stroke_centers": [
+        1141.5,
+        1451.5
+      ],
+      "plan_region": "Overall envelope includes fixed wing glove; not fuselage-core width",
+      "width_candidate_mm": 163.4061310589292,
+      "side_top_stroke_center": 2686.0,
+      "side_bottom_stroke_center": 2855.5,
+      "top_Z_candidate_mm": 58.73763205631633,
+      "bottom_Z_candidate_mm": -30.608623474291736,
+      "top_status": "Sampled upper body/canopy contour"
+    },
+    {
+      "source_x_pixel": 1050,
+      "X_candidate_mm": 325.5748717004937,
+      "plan_stroke_centers": [
+        1134.5,
+        1458.5
+      ],
+      "plan_region": "Overall envelope includes fixed wing glove; not fuselage-core width",
+      "width_candidate_mm": 170.78576278417117,
+      "side_top_stroke_center": 2689.5,
+      "side_bottom_stroke_center": 2854.5,
+      "top_Z_candidate_mm": 56.89272412500584,
+      "bottom_Z_candidate_mm": -30.08150692248874,
+      "top_status": "Sampled upper body/canopy contour"
+    },
+    {
+      "source_x_pixel": 1075,
+      "X_candidate_mm": 338.7527854955686,
+      "plan_stroke_centers": [
+        1125.5,
+        1466.5
+      ],
+      "plan_region": "Overall envelope includes fixed wing glove; not fuselage-core width",
+      "width_candidate_mm": 179.74674416482213,
+      "side_top_stroke_center": 2694.5,
+      "side_bottom_stroke_center": 2853.5,
+      "top_Z_candidate_mm": 54.257141365990854,
+      "bottom_Z_candidate_mm": -29.55439037068574,
+      "top_status": "Sampled upper body/canopy contour"
+    },
+    {
+      "source_x_pixel": 1100,
+      "X_candidate_mm": 351.93069929064353,
+      "plan_stroke_centers": [
+        1116.5,
+        1476.5
+      ],
+      "plan_region": "Overall envelope includes fixed wing glove; not fuselage-core width",
+      "width_candidate_mm": 189.76195864907908,
+      "side_top_stroke_center": 2698.5,
+      "side_bottom_stroke_center": 2852.5,
+      "top_Z_candidate_mm": 52.148675158778865,
+      "bottom_Z_candidate_mm": -29.027273818882744,
+      "top_status": "Sampled upper body/canopy contour"
+    },
+    {
+      "source_x_pixel": 1125,
+      "X_candidate_mm": 365.1086130857185,
+      "plan_stroke_centers": [
+        1106.5,
+        1486.5
+      ],
+      "plan_region": "Overall envelope includes fixed wing glove; not fuselage-core width",
+      "width_candidate_mm": 200.30428968513903,
+      "side_top_stroke_center": null,
+      "side_bottom_stroke_center": 2850.5,
+      "top_Z_candidate_mm": null,
+      "bottom_Z_candidate_mm": -27.97304071527675,
+      "top_status": "Omitted: dorsal antenna projection overlap"
+    },
+    {
+      "source_x_pixel": 1150,
+      "X_candidate_mm": 378.2865268807934,
+      "plan_stroke_centers": [
+        1096.5,
+        1496.5
+      ],
+      "plan_region": "Overall envelope includes fixed wing glove; not fuselage-core width",
+      "width_candidate_mm": 210.84662072119897,
+      "side_top_stroke_center": null,
+      "side_bottom_stroke_center": 2849.5,
+      "top_Z_candidate_mm": null,
+      "bottom_Z_candidate_mm": -27.44592416347375,
+      "top_status": "Omitted: dorsal antenna projection overlap"
+    },
+    {
+      "source_x_pixel": 1175,
+      "X_candidate_mm": 391.46444067586833,
+      "plan_stroke_centers": [
+        1086.5,
+        1506.5
+      ],
+      "plan_region": "Overall envelope includes fixed wing glove; not fuselage-core width",
+      "width_candidate_mm": 221.38895175725892,
+      "side_top_stroke_center": 2713.5,
+      "side_bottom_stroke_center": 2848.5,
+      "top_Z_candidate_mm": 44.2419268817339,
+      "bottom_Z_candidate_mm": -26.918807611670754,
+      "top_status": "Sampled upper body/canopy contour"
+    }
+  ],
+  "metric_registration_verified": false,
+  "cross_section_shape_assumed": false,
+  "production_geometry": false
+}
