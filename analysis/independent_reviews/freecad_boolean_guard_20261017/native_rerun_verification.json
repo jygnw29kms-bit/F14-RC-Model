@@ -1,0 +1,17 @@
+{
+  "status": "NATIVE_FAIL_CLOSED_FREECAD_RUN_OUTPUTS_VERIFIED",
+  "audit_sha256": "0da3e547d794839d8f78b596fb095a236c3fbe0a2494d812b3eef4d39c92d333",
+  "archive_sha256": "3a2b47297751d1dc88abd86d6138e49bb792039e08ed014688b59fd89383ef3c",
+  "script_sha256": "4c7a96c456c3039c6cbfde33e15b7fd44fdc8d0bf864c664a64db022dbcf341b",
+  "sample_count": 25,
+  "part_checks": 150,
+  "maximum_fixed_collision_mm3": 0.0,
+  "minimum_candidate_fuselage_containment_fraction": 0.477936116148455,
+  "fixed_collision_gate": true,
+  "full_containment_gate": false,
+  "exit_code_retrievable": false,
+  "verification": "Expected final audit and valid FCStd zip found after process ended. Aggregates independently recomputed. Exception handler raises; no zero-on-exception fallback in this run script.",
+  "limitations": "Containment is against provisional candidate fuselage. No servo/joint hardware, continuous-sweep or structural validation. Overall model remains incomplete.",
+  "print_release": false,
+  "flight_release": false
+}
