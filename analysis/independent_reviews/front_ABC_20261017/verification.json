@@ -1,0 +1,8 @@
+{
+  "status": "NATIVE_BC_REFERENCE_SEGMENTS_AND_GAPS_VERIFIED",
+  "archive_sha256": "9d7923776b47640cc26ec8a92081bae96e91f90e1b808592bb873372fc3b84b3",
+  "BC_segment_count": 37,
+  "antenna_gap_bridged": false,
+  "original_OML_verified": false,
+  "production_geometry": false
+}
