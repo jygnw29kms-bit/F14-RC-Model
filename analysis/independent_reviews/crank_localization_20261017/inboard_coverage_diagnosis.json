@@ -1,0 +1,41 @@
+{
+  "status": "CRANK_CONTAINMENT_CONTEXT_MISSING_INBOARD_WING_GLOVE_COVERAGE",
+  "input_sha256": "605682f5b0e9088167cfb4ea4ccc2c017aa0a475b296d05803dd5ac47fb80060",
+  "records": [
+    {
+      "side": "R",
+      "crank_sampled_Y_bounds_mm": [
+        97.38084311300663,
+        128.0374312060662
+      ],
+      "wing_native_Y_bounds_mm": [
+        148.8263775443693,
+        449.99999999999994
+      ],
+      "lateral_separation_mm": 20.788946338303106,
+      "crank_and_basic_wing_disjoint_at_20_degrees": true,
+      "pivot_to_basic_wing_root_lateral_gap_mm": 23.61710730661649
+    },
+    {
+      "side": "L",
+      "crank_sampled_Y_bounds_mm": [
+        -128.03769736249902,
+        -97.38110926943942
+      ],
+      "wing_native_Y_bounds_mm": [
+        -449.99999999999994,
+        -148.8263775443693
+      ],
+      "lateral_separation_mm": 20.78868018187029,
+      "crank_and_basic_wing_disjoint_at_20_degrees": true,
+      "pivot_to_basic_wing_root_lateral_gap_mm": 23.61710730661649
+    }
+  ],
+  "finding": "At 20 degrees the entire sampled crank lies more than 20 mm inboard of the basic wing solid; the pivot is 23.617 mm inboard of that wing root. Adding the basic wing to the candidate fuselage cannot enclose this crank region.",
+  "inference": "The incomplete inboard wing/glove/wingbox exterior is a material candidate explanation for failed envelope containment. Do not move the mechanism or invent an exterior bulge solely to pass this incomplete-envelope test.",
+  "inference_verified": false,
+  "required_next": "Recover and register original fixed glove/inboard root coverage and inspect native fuselage cross-sections around pivot before altering mechanism.",
+  "original_aircraft_envelope_verified": false,
+  "mechanical_detail_release": false,
+  "print_release": false
+}
