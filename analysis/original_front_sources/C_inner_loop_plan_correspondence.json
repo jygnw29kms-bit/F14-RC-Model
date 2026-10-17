@@ -1,0 +1,60 @@
+{
+  "status": "C_INNER_LOOP_PLAN_CORRESPONDENCE_CANDIDATE",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "station_column": 1197,
+  "plan_center_candidate_pixel": 1296.25,
+  "edge_bands": [
+    [
+      1153,
+      1161
+    ],
+    [
+      1215,
+      1226
+    ],
+    [
+      1367,
+      1377
+    ],
+    [
+      1431,
+      1439
+    ]
+  ],
+  "records": [
+    {
+      "loop": 1,
+      "projected_lateral_bounds_in_plan_pixels": [
+        1156.7214912280701,
+        1225.3659798080105
+      ],
+      "candidate_plan_stroke_centers": [
+        1156.5,
+        1220.0
+      ],
+      "bound_residual_pixels": [
+        0.22149122807013555,
+        5.365979808010479
+      ]
+    },
+    {
+      "loop": 2,
+      "projected_lateral_bounds_in_plan_pixels": [
+        1365.6961684872558,
+        1431.7339043363124
+      ],
+      "candidate_plan_stroke_centers": [
+        1372.0,
+        1434.5
+      ],
+      "bound_residual_pixels": [
+        -6.303831512744182,
+        -2.7660956636875653
+      ]
+    }
+  ],
+  "interpretation": "Compares isotropically mapped section C inner-loop lateral bounds with selected plan-view strokes. Selected strokes are correspondence candidates, not verified aperture edges. No automatic acceptance or physical inlet fit is inferred.",
+  "component_identity_verified": false,
+  "metric_registration_verified": false,
+  "production_geometry": false
+}

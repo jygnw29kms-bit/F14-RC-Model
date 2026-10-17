@@ -33,3 +33,5 @@ B-to-C reference coverage: eleven columns X925..1175, with dorsal-antenna-overla
 Partial C-D projection coverage records thirteen original side columns X1225..1525. Upper appendage-overlap samples X1350/1375 and plan contours beyond X1300 remain null; swept wings obscure the fuselage envelope there. The four retained plan widths describe overall fixed-glove projection only. These data cannot establish a continuous C-D fuselage loft.
 
 Leading-edge crop confirms separate upper/lower projected components near raster X965 with visible gaps to the central forebody. Local vertical-stroke candidates are recorded in glove_inlet_leading_edge_candidates.json; they are not a continuous fuselage boundary or verified 3D component identification.
+
+C inner-loop plan correspondence quantified in C_inner_loop_plan_correspondence.json. Candidate isotropic lateral bounds are compared with selected plan strokes at X1197. These strokes are not yet verified aperture boundaries, so this is correspondence evidence only, not inlet fit or metric registration approval.
