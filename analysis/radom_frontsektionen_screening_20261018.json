@@ -1,0 +1,35 @@
+{
+  "status": "BLOCKIERT_KEINE_3D_PROJEKTION_AUF_ABCDEF_LOFT",
+  "radom_trennlinie_x_mm": {
+    "min": 52.52849786654099,
+    "max": 54.636964073753006
+  },
+  "ansichten": [
+    {
+      "ansicht": "plan",
+      "x_min_mm": 53.582730970147054,
+      "x_max_mm": 54.636964073753006,
+      "punkte": 51
+    },
+    {
+      "ansicht": "side",
+      "x_min_mm": 52.52849786654099,
+      "x_max_mm": 54.10984752194997,
+      "punkte": 36
+    }
+  ],
+  "frontsektionen_x_mm": {
+    "min": 110.77487684077221,
+    "max": 754.9622811643331
+  },
+  "erste_frontsektion": "A",
+  "abstand_radom_bis_erster_sektion_mm": 56.1379127670192,
+  "x_bereich_ueberlappt": false,
+  "schlussfolgerung": "Die aktuelle ABCDEF-Outer-Loft-Studie beginnt hinter der Radom-Trennlinie. Sie darf deshalb nicht als Zieloberfläche für eine 3D-Projektion der Radom-Trennlinie verwendet werden.",
+  "freigaben": {
+    "3d_radom_trennlinie": false,
+    "master_aendern": false,
+    "produktionsgeometrie": false
+  },
+  "naechster_schritt": "Zuerst belastbare Nasen-/Radom-Querschnitte vor Sektion A erzeugen und deren gemeinsamen Koordinatenrahmen verifizieren; erst danach die 2D-Trennlinien auf eine 3D-Oberfläche projizieren."
+}

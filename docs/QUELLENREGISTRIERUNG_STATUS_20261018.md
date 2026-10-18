@@ -16,7 +16,7 @@ Neun ausdrücklich hypothetische Kombinationen von Maßstab und Nasenursprung wu
 
 ## Nächste Arbeit
 
-1. Einen lesbaren NADC-Dreiriss mit Stationsbezug beschaffen; OCR-Fragmente nicht als Nasendatum interpretieren.
+1. Der NADC-Originaldreiriss ist inzwischen abgerufen und visuell geprüft: Nasenstation7.7in im1:12-Modell entspricht92.4in; gegenüber NavyFS93 verbleiben0.6in bzw. rund0.702mm im RC-Maßstab. Gerundete Stationsangaben und separate UPC-Ursprünge gemeinsam berücksichtigen.
 2. Einen homologen Längsbezug in den Originalansichten bestimmen. Die gekrümmte bzw. schräge Radomfuge darf nicht über beliebige Mittelpunkte gleichgesetzt werden.
 3. Danach einen getrennten Baugruppenkandidaten mit konsistenten Flügel-, Drehpunkt- und Mechaniktransformationen erzeugen und gegen Originalkonturen prüfen.
 4. Erst nach Quellenregistrierung die noch fehlende Wing-Glove-Außenform und RC-Innenstruktur konsolidieren. Aktuelle Masterzeiger unverändert lassen.
@@ -24,3 +24,7 @@ Neun ausdrücklich hypothetische Kombinationen von Maßstab und Nasenursprung wu
 ## Nachweise
 
 Die Einzelbefunde, Originalausschnitte und reproduzierbaren Prüfungen liegen in `analysis/independent_reviews/crank_localization_20261017/`. Native Referenzen liegen in `migration/freecad/F14_ORIGINAL_RADOME_SEAM_GUIDES.FCStd`; der zugehörige Audit enthält Eingabe- und Ausgabedatei-Hashes. Kein physischer Test und keine Simulation wurden aus diesen Referenzen abgeleitet.
+
+## Ausgeführte Bereichsprüfung der Radomfuge
+
+Die externe vorbereitete Prüfung `analysis/pruefe_radom_gegen_frontsektionen.py` wurde ausgeführt. Ihr Ergebnis bestätigt die Bereichssperre: Die Radomfuge endet im historischen Kandidatenrahmen beiX=54.636964mm; SektionA beginnt beiX=110.774877mm. Dazwischen fehlen56.137913mm axialer Querschnittsabdeckung. Die ABCDEF-Loft-Studie ist deshalb keine geeignete Zieloberfläche für diese Fuge. Das ist eine numerische Bereichsprüfung, keine native Flächenprojektion. Die bestehende Schutzprüfung und der Master wurden nicht verändert.
