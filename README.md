@@ -1,66 +1,77 @@
 # 135er F-14 Tomcat RC
 
-Clean-sheet restart of the RC/FDM F-14 project.
+Neuaufbau des RC-/FDM-F-14-Projekts von Grund auf.
 
-## Current FreeCAD development snapshot
+**Pilot / Projektkontext:** 135erHeli RC Pilot
 
-![Current F-14 FreeCAD development snapshot without UPC reference hull](docs/images/f14_freecad_current_20261016.png)
+## Aktueller sichtbarer FreeCAD-Entwicklungsstand
 
-*FreeCAD v194 development view, 16 October 2026. UPC/source fuselage reference hull and reference envelopes are hidden so the currently modeled airframe surfaces, inlet/EDF geometry and mechanism candidates remain visible. This is a development snapshot, not a print or flight release.*
-## Current engineering status - 16 October 2026
+![Aktueller F-14-FreeCAD-Entwicklungsstand ohne UPC-Referenzhülle](docs/images/f14_freecad_current_20261016.png)
 
-The aircraft remains **incomplete, not print-ready and not flight-released**.
-Original continuous fuselage/wing-glove geometry, common assembly registration,
-measured RC hardware, full structural validation and physical proof remain open.
-A containment result against an interpolated source candidate is not proof of the
-original aircraft outer mold line.
+*FreeCAD-v194-Entwicklungsansicht vom 16. Oktober 2026. UPC-/Quellrumpf-Referenzhülle und Referenzhüllen sind ausgeblendet, damit die aktuell modellierten Zellenoberflächen, Einlauf-/EDF-Geometrie und Mechanik-Kandidaten sichtbar bleiben. Dies ist ein Entwicklungsstand, keine Druck- oder Flugfreigabe.*
 
-Recent executed development work includes native joined inlet/adapter walls,
-internal exhaust candidates, a twin-EDF internal layout, and local P2S slicing
-trials. The exhaust also has a native parametric Fusion history with six named
-parameters; reimport, parameter regeneration and candidate-loft containment have
-been checked. The STL/3MF files remain explicitly unreleased development artifacts.
+Sobald ein neuer **sichtbarer und sinnvoll prüfbarer Entwicklungsstand** verfügbar ist, wird er im Repository dokumentiert und mit einem aktuellen Bild bzw. einer geeigneten Vorschau verknüpft. Zwischenstände werden klar als Entwicklung, Prototyp oder freigegebener Stand gekennzeichnet.
 
-- [Current propulsion evidence and remaining gates](docs/PROPULSION_CANDIDATE_STATUS_20261016.md)
-- [Source-wing review workflow](cad/fusion/source_review/README.md)
-- [Authoritative mass budget](docs/04_MASS_BUDGET.md)
-- [Verification plan](docs/05_DESIGN_VERIFICATION.md)
+## Aktueller technischer Stand
 
-## Design target
-- visually scale-faithful Grumman F-14 Tomcat outer mold line
-- 900 mm span at 20 deg wing sweep
-- approximately 1:21.7 scale
-- twin 50 mm EDF
-- 4S LiPo
-- functional 20-68 deg variable-sweep wings
-- full-flying stabilators
-- FDM-first structure for Bambu Lab P2S
-- FreeCAD 1.1.4 headless-first master CAD; Fusion only for unavoidable legacy inspection/export, never for new design
+Das Flugzeug ist weiterhin **unvollständig, nicht druckfertig und nicht für den Flug freigegeben**.
 
-## Non-negotiable rule
-The retired F14_RC_FDM R2/R3/R4 geometry, OpenSCAD, STL/3MF files and hardware assumptions are not design inputs for this project.
+Noch offen sind unter anderem die belastbare durchgehende Rumpf-/Wing-Glove-Geometrie, die gemeinsame Baugruppenregistrierung, vermessene RC-Hardware, vollständige Strukturvalidierung und physische Nachweise. Eine Kollisions- oder Hüllprüfung gegen einen interpolierten Quellkandidaten ist kein Nachweis der originalen Außenkontur des Flugzeugs.
 
-## Engineering workflow
-1. establish authoritative full-scale reference geometry
-2. lock scale and outer mold line
-3. define aerodynamic and CG envelope
-4. design central wing box and sweep mechanism
-5. package EDF/ESC/battery/electronics
-6. design lightweight FDM structure and carbon reinforcement
-7. mass-properties review
-8. export printable modules
-9. bench verification
-10. controlled flight-test expansion
+Zu den zuletzt ausgeführten Entwicklungsarbeiten gehören native verbundene Einlauf-/Adapterwände, interne Auslasskandidaten, ein internes Twin-EDF-Layout und lokale P2S-Slicing-Versuche. Die Auslassgeometrie besitzt zusätzlich eine ältere native parametrische Fusion-Historie mit sechs benannten Parametern; Reimport, Parameterregeneration und Kandidaten-Loft-Hüllprüfung wurden geprüft. STL-/3MF-Dateien bleiben ausdrücklich nicht freigegebene Entwicklungsartefakte.
 
-## Documentation
-- [Requirements](docs/00_PROJECT_REQUIREMENTS.md)
-- [Reference baseline](docs/01_REFERENCE_BASELINE.md)
-- [RC benchmark references](docs/02_RC_BENCHMARKS.md)
-- [System architecture](docs/03_SYSTEM_ARCHITECTURE.md)
-- [Mass budget](docs/04_MASS_BUDGET.md)
-- [Verification plan](docs/05_DESIGN_VERIFICATION.md)
+Aktuell wird die Referenzgeometrie der F-14-Nase weiter abgesichert. Dazu gehören Navy-Stationsbezüge, UPC-/Maßstabsprüfungen sowie rekonstruierte Radom-Trennlinien aus Drauf- und Seitenansicht. Diese dienen derzeit als Referenzen und sind noch keine freigegebene 3D-Trennfuge oder Produktionsgeometrie.
+
+- [Aktueller Stand Antrieb und offene Prüfschritte](docs/PROPULSION_CANDIDATE_STATUS_20261016.md)
+- [Workflow zur Prüfung der Quellflügel](cad/fusion/source_review/README.md)
+- [Verbindliches Massenbudget](docs/04_MASS_BUDGET.md)
+- [Verifikationsplan](docs/05_DESIGN_VERIFICATION.md)
+
+## Konstruktionsziel
+
+- optisch maßstabsgetreue Außenkontur der Grumman F-14 Tomcat
+- 900 mm Spannweite bei 20° Flügelschwenkung
+- Maßstab etwa 1:21,7
+- zwei 50-mm-EDF
+- 4S-LiPo
+- funktionsfähige Schwenkflügel von 20° bis 68°
+- vollbewegliche Höhenleitwerke
+- FDM-orientierte Struktur für Bambu Lab P2S
+- FreeCAD 1.1.4 als primäres Headless-Master-CAD
+- Fusion nur für unvermeidbare Altbestandsprüfung oder Export, niemals für neue Konstruktion
+
+## Nicht verhandelbare Regel
+
+Die ausgemusterten Geometrien F14_RC_FDM R2/R3/R4 sowie deren OpenSCAD-, STL-/3MF-Dateien und Hardwareannahmen sind **keine Konstruktionsgrundlage** für dieses Projekt.
+
+## Entwicklungsablauf
+
+1. belastbare Originalreferenzgeometrie festlegen
+2. Maßstab und Außenkontur festschreiben
+3. Aerodynamik- und Schwerpunktbereich definieren
+4. zentralen Flügelkasten und Schwenkmechanismus konstruieren
+5. EDF, ESC, Akku und Elektronik integrieren
+6. leichte FDM-Struktur und Carbonverstärkungen entwickeln
+7. Masseneigenschaften prüfen
+8. druckbare Module exportieren
+9. Prüfstandtests durchführen
+10. kontrollierte Flugerprobung schrittweise erweitern
+
+## Dokumentation
+
+- [Projektanforderungen](docs/00_PROJECT_REQUIREMENTS.md)
+- [Referenzbasis](docs/01_REFERENCE_BASELINE.md)
+- [RC-Vergleichsreferenzen](docs/02_RC_BENCHMARKS.md)
+- [Systemarchitektur](docs/03_SYSTEM_ARCHITECTURE.md)
+- [Massenbudget](docs/04_MASS_BUDGET.md)
+- [Verifikationsplan](docs/05_DESIGN_VERIFICATION.md)
 
 ## CAD
-FreeCAD 1.1.4 is the active headless-first CAD workflow under `migration/freecad`. The legacy Fusion add-in under `cad/fusion/F14TomcatRC` is retained only for traceability and unavoidable legacy inspection/export. It must not be used for new F14 design work and is closed immediately after any such legacy task.
 
+FreeCAD 1.1.4 ist der aktive Headless-orientierte CAD-Workflow unter `migration/freecad`. Das ältere Fusion-Add-in unter `cad/fusion/F14TomcatRC` bleibt ausschließlich aus Gründen der Nachvollziehbarkeit und für unvermeidbare Altbestandsprüfung bzw. Export erhalten. Es darf nicht für neue F-14-Konstruktionsarbeit verwendet werden und wird nach solchen Altaufgaben wieder geschlossen.
 
+## Sprache und sichtbare Projektstände
+
+Das Repository wird ab jetzt **auf Deutsch geführt**. Neue README-Dateien, Statusberichte, Prüfdokumente und Beschreibungen werden deutsch erstellt. Technische Dateinamen, API-Bezeichner, Quellcode-Symbole und historisch notwendige Begriffe dürfen englisch bleiben, wenn eine Umbenennung die Nachvollziehbarkeit oder Funktion beeinträchtigen würde.
+
+Sichtbare Entwicklungsstände werden möglichst früh im Repository abgelegt, sobald sie technisch sinnvoll beurteilt werden können. Dabei wird klar zwischen Referenz, Entwicklungsstand, Prototyp und Freigabestand unterschieden.
