@@ -1,0 +1,42 @@
+{
+  "status": "UPC_DIMENSIONS_AND_PLAN_SPAN_INDEPENDENT_CROSSCHECK_NOT_REGISTERED",
+  "source_image_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "UPC_report_visual_pages": {
+    "29": "Table3.2: unswept span64ft1.5in /19.55m; length62ft8in /19.10m.",
+    "30": "Figure3.14: unswept span64ft1.5in; length62ft8.5in. Half-inch difference from table retained, not silently reconciled."
+  },
+  "plan_tip_ROI_native_pixels": {
+    "x": [
+      1500,
+      1690
+    ],
+    "y": [
+      400,
+      2200
+    ],
+    "threshold": 128
+  },
+  "dark_y_extrema_px": [
+    445,
+    2146
+  ],
+  "tip_span_dark_edge_px": 1701,
+  "900mm_model_scale_from_plan_tip_span": 0.5291005291005291,
+  "existing_scale": 0.5271165518029974,
+  "existing_implied_span_mm": 896.6252546168986,
+  "ruler_implied_span_mm_interval": [
+    907.3659369066554,
+    914.4271504234387
+  ],
+  "finding": "Plan-tip normalization is closer to historical candidate scale than printed-ruler normalization. Original raster ruler and overall span are not perfectly consistent under one isotropic scale; no single scale is promoted.",
+  "limitations": [
+    "Dark extrema include stroke width and tip details; nominal wing-tip station still requires manual correspondence.",
+    "Figure3.14 and Figure3.15 originate from different cited sources; not independent manufacturer drawings.",
+    "UPC Table3.2 length and Figure3.14 length differ by0.5in.",
+    "No nose/FS registration follows from span scaling."
+  ],
+  "next": "Build explicit separate source-scale candidates and compare registered original landmarks; retain uncertainty rather than silently force one common metric frame.",
+  "metric_frame_verified": false,
+  "geometry_changed": false,
+  "production_release": false
+}
