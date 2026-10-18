@@ -1,0 +1,243 @@
+{
+  "status": "ORIGINAL_PIXEL_PROBE_RADOME_TRANSITION_SCREEN_NOT_EXACT_FS93_REGISTRATION",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "method": "Least-squares width=a+b*max(0,x-k),kgrid0.25px,9threshold/window combinations per view. Grid precision is computational, not source accuracy.",
+  "views": [
+    {
+      "view": "plan",
+      "roi_y": [
+        1270,
+        1320
+      ],
+      "runs": [
+        {
+          "threshold": 96,
+          "x_window": [
+            435,
+            470
+          ],
+          "hinge_px": 445.25,
+          "width_baseline_px": 3.9982924372043853,
+          "width_slope": 0.9005850110137803,
+          "mse_px2": 0.09553669647312393
+        },
+        {
+          "threshold": 96,
+          "x_window": [
+            432,
+            468
+          ],
+          "hinge_px": 445.0,
+          "width_baseline_px": 3.7618002195389755,
+          "width_slope": 0.9051209850618049,
+          "mse_px2": 0.20271882630494759
+        },
+        {
+          "threshold": 96,
+          "x_window": [
+            437,
+            472
+          ],
+          "hinge_px": 445.25,
+          "width_baseline_px": 4.005833561206821,
+          "width_slope": 0.8990976210008201,
+          "mse_px2": 0.09650188881799487
+        },
+        {
+          "threshold": 128,
+          "x_window": [
+            435,
+            470
+          ],
+          "hinge_px": 445.0,
+          "width_baseline_px": 3.975609756097558,
+          "width_slope": 0.8919324577861165,
+          "mse_px2": 0.10391911611423821
+        },
+        {
+          "threshold": 128,
+          "x_window": [
+            432,
+            468
+          ],
+          "hinge_px": 445.0,
+          "width_baseline_px": 3.8057080131723455,
+          "width_slope": 0.9064811721471865,
+          "mse_px2": 0.20964165616482716
+        },
+        {
+          "threshold": 128,
+          "x_window": [
+            437,
+            472
+          ],
+          "hinge_px": 445.0,
+          "width_baseline_px": 3.978723404255323,
+          "width_slope": 0.8909152313407631,
+          "mse_px2": 0.10460054786295922
+        },
+        {
+          "threshold": 160,
+          "x_window": [
+            435,
+            470
+          ],
+          "hinge_px": 444.25,
+          "width_baseline_px": 3.967002810381881,
+          "width_slope": 0.8742754682910082,
+          "mse_px2": 0.08218735031431353
+        },
+        {
+          "threshold": 160,
+          "x_window": [
+            432,
+            468
+          ],
+          "hinge_px": 444.25,
+          "width_baseline_px": 3.780534746194175,
+          "width_slope": 0.8915653550708016,
+          "mse_px2": 0.17179471486659628
+        },
+        {
+          "threshold": 160,
+          "x_window": [
+            437,
+            472
+          ],
+          "hinge_px": 444.25,
+          "width_baseline_px": 3.9798980747451895,
+          "width_slope": 0.8714878930054466,
+          "mse_px2": 0.08606010354311602
+        }
+      ],
+      "hinge_sensitivity_interval_px": [
+        444.25,
+        445.25
+      ]
+    },
+    {
+      "view": "side",
+      "roi_y": [
+        2790,
+        2870
+      ],
+      "runs": [
+        {
+          "threshold": 96,
+          "x_window": [
+            435,
+            470
+          ],
+          "hinge_px": 441.25,
+          "width_baseline_px": 4.240264659050504,
+          "width_slope": 0.8868508995305242,
+          "mse_px2": 0.18682894885462928
+        },
+        {
+          "threshold": 96,
+          "x_window": [
+            432,
+            468
+          ],
+          "hinge_px": 441.25,
+          "width_baseline_px": 4.178876943383683,
+          "width_slope": 0.8926102440264077,
+          "mse_px2": 0.21638535771960457
+        },
+        {
+          "threshold": 96,
+          "x_window": [
+            437,
+            472
+          ],
+          "hinge_px": 441.0,
+          "width_baseline_px": 4.026923076923077,
+          "width_slope": 0.8831265508684867,
+          "mse_px2": 0.16163840639647098
+        },
+        {
+          "threshold": 128,
+          "x_window": [
+            435,
+            470
+          ],
+          "hinge_px": 441.25,
+          "width_baseline_px": 4.282189620789337,
+          "width_slope": 0.8879980681509847,
+          "mse_px2": 0.19090519410681822
+        },
+        {
+          "threshold": 128,
+          "x_window": [
+            432,
+            468
+          ],
+          "hinge_px": 441.25,
+          "width_baseline_px": 4.208217880641232,
+          "width_slope": 0.895073234791312,
+          "mse_px2": 0.21812899784022344
+        },
+        {
+          "threshold": 128,
+          "x_window": [
+            437,
+            472
+          ],
+          "hinge_px": 440.75,
+          "width_baseline_px": 3.9321329639889178,
+          "width_slope": 0.8798476454293633,
+          "mse_px2": 0.17038656124961513
+        },
+        {
+          "threshold": 160,
+          "x_window": [
+            435,
+            470
+          ],
+          "hinge_px": 441.0,
+          "width_baseline_px": 4.3980463980464,
+          "width_slope": 0.872805355563976,
+          "mse_px2": 0.1926889628039054
+        },
+        {
+          "threshold": 160,
+          "x_window": [
+            432,
+            468
+          ],
+          "hinge_px": 441.0,
+          "width_baseline_px": 4.369589345172044,
+          "width_slope": 0.8765216778535311,
+          "mse_px2": 0.18340458740014792
+        },
+        {
+          "threshold": 160,
+          "x_window": [
+            437,
+            472
+          ],
+          "hinge_px": 440.75,
+          "width_baseline_px": 4.191582025238525,
+          "width_slope": 0.8692520775623276,
+          "mse_px2": 0.1831260045826063
+        }
+      ],
+      "hinge_sensitivity_interval_px": [
+        440.75,
+        441.25
+      ]
+    }
+  ],
+  "qualitative_landmark_basis": "Labeled Navy14315Fig2-3 FS93 at end of narrow probe / widening radome.",
+  "finding": "Plan and side yield different changepoints. Preserve separate view origins; previous common raster-X assumption is not verified at nose.",
+  "limits": [
+    "Simplified width hinge estimates a drawing transition; it does not prove an exact physical surface point.",
+    "Line thickness and probe angle affect fitted hinge.",
+    "Sensitivity range is not a statistical confidence interval.",
+    "No new source contour or CAD profile is generated."
+  ],
+  "next": "Compare independent shared panel/radome joint landmarks in plan and side; estimate view-specific affine mapping rather than force shared pixel origin.",
+  "metric_registration_verified": false,
+  "geometry_changed": false,
+  "production_release": false
+}
