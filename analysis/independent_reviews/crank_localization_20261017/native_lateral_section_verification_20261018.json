@@ -1,0 +1,33 @@
+{
+  "status": "NATIVE_NINE_LATERAL_SECTIONS_VERIFIED",
+  "native_exit_code": 0,
+  "audit_sha256": "b76c27cc765b920a68ff896b21ff6c98147b8bd98c0720d73cb0cbc36bb74705",
+  "records": [
+    {
+      "X_mm": 610,
+      "half_widths_at_three_crank_heights_mm": [
+        119.22908587005907,
+        119.22908587005907,
+        119.22908587005907
+      ]
+    },
+    {
+      "X_mm": 625,
+      "half_widths_at_three_crank_heights_mm": [
+        112.63208450704224,
+        112.63208450704224,
+        112.63208450704224
+      ]
+    },
+    {
+      "X_mm": 640,
+      "half_widths_at_three_crank_heights_mm": [
+        109.66358662583292,
+        109.66358662583298,
+        109.66358662583292
+      ]
+    }
+  ],
+  "interpretation": "Candidate fuselage has limited lateral coverage at crank heights; this is not evidence that the original F-14 envelope or the mechanism is wrong. Original inboard glove coverage remains to be registered.",
+  "production_geometry": false
+}

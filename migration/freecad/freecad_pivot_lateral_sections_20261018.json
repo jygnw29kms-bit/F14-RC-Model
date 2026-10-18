@@ -1,0 +1,108 @@
+{
+  "status": "NATIVE_CANDIDATE_FUSELAGE_LATERAL_SECTIONS_AT_CRANK_HEIGHT",
+  "source_sha256": "37a6156149f5ef5ce9749cfc79f787618aaf59edbefe7def67a99b1fa5859f2c",
+  "records": [
+    {
+      "X_mm": 610.0,
+      "Z_mm": 4.407593065391325,
+      "candidate_fuselage_lateral_intervals_mm": [
+        [
+          -119.22908587005904,
+          119.22908587005907
+        ]
+      ],
+      "section_edge_count": 1
+    },
+    {
+      "X_mm": 610.0,
+      "Z_mm": 8.407593065391325,
+      "candidate_fuselage_lateral_intervals_mm": [
+        [
+          -119.22908587005904,
+          119.22908587005907
+        ]
+      ],
+      "section_edge_count": 1
+    },
+    {
+      "X_mm": 610.0,
+      "Z_mm": 12.407593065391325,
+      "candidate_fuselage_lateral_intervals_mm": [
+        [
+          -119.22908587005904,
+          119.22908587005907
+        ]
+      ],
+      "section_edge_count": 1
+    },
+    {
+      "X_mm": 625.0,
+      "Z_mm": 4.407593065391325,
+      "candidate_fuselage_lateral_intervals_mm": [
+        [
+          -112.63208450704221,
+          112.63208450704224
+        ]
+      ],
+      "section_edge_count": 1
+    },
+    {
+      "X_mm": 625.0,
+      "Z_mm": 8.407593065391325,
+      "candidate_fuselage_lateral_intervals_mm": [
+        [
+          -112.63208450704224,
+          112.63208450704224
+        ]
+      ],
+      "section_edge_count": 1
+    },
+    {
+      "X_mm": 625.0,
+      "Z_mm": 12.407593065391325,
+      "candidate_fuselage_lateral_intervals_mm": [
+        [
+          -112.63208450704224,
+          112.63208450704224
+        ]
+      ],
+      "section_edge_count": 1
+    },
+    {
+      "X_mm": 640.0,
+      "Z_mm": 4.407593065391325,
+      "candidate_fuselage_lateral_intervals_mm": [
+        [
+          -109.66358662583295,
+          109.66358662583292
+        ]
+      ],
+      "section_edge_count": 1
+    },
+    {
+      "X_mm": 640.0,
+      "Z_mm": 8.407593065391325,
+      "candidate_fuselage_lateral_intervals_mm": [
+        [
+          -109.66358662583292,
+          109.66358662583298
+        ]
+      ],
+      "section_edge_count": 1
+    },
+    {
+      "X_mm": 640.0,
+      "Z_mm": 12.407593065391325,
+      "candidate_fuselage_lateral_intervals_mm": [
+        [
+          -109.66358662583295,
+          109.66358662583292
+        ]
+      ],
+      "section_edge_count": 1
+    }
+  ],
+  "scope": "Nine straight-line intersections with provisional candidate fuselage only. Excludes missing glove/wingbox envelope; no original-aircraft dimensional verification.",
+  "current_master_modified": false,
+  "production_geometry": false
+}
