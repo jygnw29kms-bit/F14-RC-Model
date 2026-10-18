@@ -1,0 +1,24 @@
+{
+  "status": "NASA_LOCAL_PRIMARY_TABLE_VISUALLY_CHECKED_FS93_NOSE_START",
+  "source": "NASA CR-172559 Table 1, sheet 5 of 9, printed 14, PDF page 24",
+  "local_pdf_sha256": "266ae1d71b32afcb7a44ea41e275669b98338f42bc62fb79d33a815c45ed1d5e",
+  "visual_review": "NOSE region listed first; first region axial interval 93.0 to 205.0 at bottom of sheet. Corroborates Navy manual FS93 nose text.",
+  "legacy_recovery": {
+    "path": "legacy\\spandau-branches\\codex-f14-cad-v05\\side-projects\\F14_TOMCAT_RC\\cad\\fusion\\F14TomcatRC\\F14_aircraft_datum_v09.json",
+    "sha256": "59826d7e77e2baa5ef3fc9b8e23f69d0e17dfc9a10536363c134befa56c4459b",
+    "finding": "Existing quarantined v09 already records FS93 nose mapping and NASA cross-check. Historical v08 false flag alone was incomplete evidence; do not restore legacy code."
+  },
+  "current_freecad_code_observation": {
+    "paths": [
+      "migration/freecad/normalize_datums_v191.py",
+      "migration/freecad/verify_dynamic_linkage_v194.py"
+    ],
+    "PX_literal_mm": 613.1323905812828,
+    "assessment": "Literal equals absolute FS524.16 times scale. A nose-relative mapping would yield504.3463093769572. Assembly global origin and upstream transforms must be traced before correcting this literal."
+  },
+  "nose_FS93_supported": true,
+  "UPC_registration_verified": false,
+  "NADC_FS_convention_verified": false,
+  "geometry_modified": false,
+  "next": "Trace upstream wing placement and UPC nose origin; validate independent landmark before isolated candidate assembly correction. Pivot WL remains unresolved."
+}
