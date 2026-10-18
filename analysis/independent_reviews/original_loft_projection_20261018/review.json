@@ -86,5 +86,8 @@
   ],
   "interpretation": "Source section preservation does not guarantee intermediate silhouette fidelity. Large discrepancies require checking both loft correspondence and source projection boundary selection, especially where fixed glove or swept wing changes envelope semantics.",
   "next_action": "Review source pixel ROIs at worst stations, then add verified original intermediate constraints or separate component surfaces. Do not force-scale the full fuselage to match mixed boundaries.",
-  "production_geometry": false
+  "production_geometry": false,
+  "superseded_by": "migration/freecad/freecad_original_loft_projection_comparison_v2.json",
+  "source_ROI_correction": "C-D lower-plan band previously extended to y1650 and included adjacent drawing strokes near1630..1650. Repaired upper bound1580; prior85.48mm maximum is not a valid same-view discrepancy.",
+  "repaired_max_abs_width_residual_mm": 50.62466245987741
 }
