@@ -1,0 +1,25 @@
+{
+  "status": "CURRENT_FUSELAGE_HEURISTIC_LINEAGE_AUDIT",
+  "generator_sha256": "1ffecb92ac076b9dec1fb7d9e0d078238cb7f64e2e1bacc37299112c0b78038b",
+  "generator": "migration\\freecad\\normalize_datums_v191.py",
+  "archives": [
+    {
+      "archive": "F14_CURRENT_FULL_VIEW_v191.FCStd",
+      "fuselage_brep_sha256": "a73e2572309aff6ed87298efc047fd25f5b78875fe01f3c50d74675a94940569"
+    },
+    {
+      "archive": "F14_CURRENT_FULL_VIEW_v192.FCStd",
+      "fuselage_brep_sha256": "ca106ad3ce7eb4a9994f9091c91c835c05a597a4f967fade9fbc093998a93a99"
+    },
+    {
+      "archive": "F14_CURRENT_FULL_VIEW_v193_LINKAGE_CANDIDATE.FCStd",
+      "fuselage_brep_sha256": "bd9a78ee6a2e2e47a9855a76199b83a1bfd3bf7a5f1eb0528c2f4d95d814052b"
+    }
+  ],
+  "identical_stored_fuselage_brep_across_v191_v192_v193": false,
+  "source_method": "Hard-coded width/top/bottom stations plus analytic pear, crown and twin-lobe section functions; resampled polygon sections and ruled loft.",
+  "finding": "The current candidate fuselage is an analytic envelope study, not a recovered original NASA/UPC cross-section loft. Its source-derived label and passing containment queries do not establish original OML.",
+  "required_action": "Use it only as a provisional envelope reference. Replace with registered original section/contour geometry before production containment or flight release.",
+  "production_geometry": false,
+  "original_OML_verified": false
+}
