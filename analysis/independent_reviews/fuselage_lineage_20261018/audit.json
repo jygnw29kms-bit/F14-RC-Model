@@ -21,5 +21,7 @@
   "finding": "The current candidate fuselage is an analytic envelope study, not a recovered original NASA/UPC cross-section loft. Its source-derived label and passing containment queries do not establish original OML.",
   "required_action": "Use it only as a provisional envelope reference. Replace with registered original section/contour geometry before production containment or flight release.",
   "production_geometry": false,
-  "original_OML_verified": false
+  "original_OML_verified": false,
+  "lineage_limitation": "Stored BREP hashes differ across archives. Generator review establishes heuristic construction intent; exact native shape equivalence across revisions has not been verified. Serialization or later modifications require separate native comparison.",
+  "finding_basis": "Generator-code evidence and documented revision chain; current-shape inheritance is an inference, not byte-identical BREP proof."
 }
