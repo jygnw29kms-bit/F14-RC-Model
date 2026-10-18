@@ -1,0 +1,15 @@
+{
+  "status": "NASA_FADS_NASENQUELLE_GEPRUEFT_MODIFIZIERTE_KAPPE_AUSGESCHLOSSEN",
+  "quelle": "NASA TM101697, April1990",
+  "url": "https://ntrs.nasa.gov/api/citations/19900009079/downloads/19900009079.pdf",
+  "gepruefte_seiten": {
+    "PDF8": "Beschreibung des Modells und veränderter Nasenspitze",
+    "PDF25": "Abbildung2: Druckbohrungen und Nasenkappe; Abbildung noch nicht visuell geprüft"
+  },
+  "befund": "Die Nasenspitze des1:7-Modells wurde durch eine sphärische Sensorkappe ersetzt. Station61 und127 bezeichnen Abstände in Zoll hinter der Flugzeug-Nasenspitze, keine absoluten FS-Nummern.",
+  "verwendung": "Für Quellenkontext geeignet; sphärische Kappe nicht als serienmäßige F14-Radomgeometrie übernehmen. Keine fertigungstreuen Nasenquerschnitte daraus abgeleitet.",
+  "absolutes_FS_aus_61_127_abgeleitet": false,
+  "querschnitte_erstellt": false,
+  "produktionsfreigabe": false,
+  "naechster_schritt": "Originale Seriennasenkontur weiter von Forschungsumbauten trennen; vorhandene UPC-Projektionen nur mit expliziter Querschnittsunsicherheit weiterführen."
+}
