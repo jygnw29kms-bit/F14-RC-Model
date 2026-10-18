@@ -1,0 +1,113 @@
+{
+  "status": "NINE_SCALE_ORIGIN_SENSITIVITY_CASES_CALCULATED_NOT_REGISTERED",
+  "inputs": [
+    {
+      "path": "analysis/propulsion_source_silhouette_constraints_v134.json",
+      "sha256": "0d93839d390b87789a5a5048033ab70b15082a671cb27b4f1c8ac787e4b72f4d"
+    },
+    {
+      "path": "analysis/independent_reviews/crank_localization_20261017/UPC_metric_ruler_scale_screen.json",
+      "sha256": "0faa10614f276c22b3b4fa65c3e6b9997fd07dee6a93fcac795477aba10b95b2"
+    },
+    {
+      "path": "analysis/independent_reviews/crank_localization_20261017/UPC_dimension_span_crosscheck.json",
+      "sha256": "e68b520804f7b1a9eddb29e5fcc87c7543f1db56bdbb01d709c3d68372420377"
+    }
+  ],
+  "historical_implied_zero_px": 432.34747023809496,
+  "rows": [
+    {
+      "scale_case": "historical",
+      "scale_mm_per_px": 0.5271165518029974,
+      "nose_source_px_candidate": 443.0,
+      "E_X_candidate_mm": 643.2712295327982,
+      "E_shift_vs_historical_mm": -5.615124756074238,
+      "NASA_pivot_source_x_prediction_px": 1399.8022625202057,
+      "NASA_pivot_not_visible_measured": true
+    },
+    {
+      "scale_case": "historical",
+      "scale_mm_per_px": 0.5271165518029974,
+      "nose_source_px_candidate": 446.5,
+      "E_X_candidate_mm": 641.4263216014878,
+      "E_shift_vs_historical_mm": -7.4600326873846825,
+      "NASA_pivot_source_x_prediction_px": 1403.3022625202057,
+      "NASA_pivot_not_visible_measured": true
+    },
+    {
+      "scale_case": "historical",
+      "scale_mm_per_px": 0.5271165518029974,
+      "nose_source_px_candidate": 450.0,
+      "E_X_candidate_mm": 639.5814136701772,
+      "E_shift_vs_historical_mm": -9.304940618695241,
+      "NASA_pivot_source_x_prediction_px": 1406.8022625202057,
+      "NASA_pivot_not_visible_measured": true
+    },
+    {
+      "scale_case": "plan_span_900",
+      "scale_mm_per_px": 0.5291005291005291,
+      "nose_source_px_candidate": 443.0,
+      "E_X_candidate_mm": 645.6923933364826,
+      "E_shift_vs_historical_mm": -3.19396095238983,
+      "NASA_pivot_source_x_prediction_px": 1396.2145247224491,
+      "NASA_pivot_not_visible_measured": true
+    },
+    {
+      "scale_case": "plan_span_900",
+      "scale_mm_per_px": 0.5291005291005291,
+      "nose_source_px_candidate": 446.5,
+      "E_X_candidate_mm": 643.8405414846308,
+      "E_shift_vs_historical_mm": -5.045812804241677,
+      "NASA_pivot_source_x_prediction_px": 1399.7145247224491,
+      "NASA_pivot_not_visible_measured": true
+    },
+    {
+      "scale_case": "plan_span_900",
+      "scale_mm_per_px": 0.5291005291005291,
+      "nose_source_px_candidate": 450.0,
+      "E_X_candidate_mm": 641.9886896327789,
+      "E_shift_vs_historical_mm": -6.897664656093525,
+      "NASA_pivot_source_x_prediction_px": 1403.2145247224491,
+      "NASA_pivot_not_visible_measured": true
+    },
+    {
+      "scale_case": "ruler_midpoint",
+      "scale_mm_per_px": 0.5355064924544662,
+      "nose_source_px_candidate": 443.0,
+      "E_X_candidate_mm": 653.5099659566823,
+      "E_shift_vs_historical_mm": 4.623611667809882,
+      "NASA_pivot_source_x_prediction_px": 1384.8117548217056,
+      "NASA_pivot_not_visible_measured": true
+    },
+    {
+      "scale_case": "ruler_midpoint",
+      "scale_mm_per_px": 0.5355064924544662,
+      "nose_source_px_candidate": 446.5,
+      "E_X_candidate_mm": 651.6356932330917,
+      "E_shift_vs_historical_mm": 2.7493389442192893,
+      "NASA_pivot_source_x_prediction_px": 1388.3117548217056,
+      "NASA_pivot_not_visible_measured": true
+    },
+    {
+      "scale_case": "ruler_midpoint",
+      "scale_mm_per_px": 0.5355064924544662,
+      "nose_source_px_candidate": 450.0,
+      "E_X_candidate_mm": 649.761420509501,
+      "E_shift_vs_historical_mm": 0.8750662206285824,
+      "NASA_pivot_source_x_prediction_px": 1391.8117548217056,
+      "NASA_pivot_not_visible_measured": true
+    }
+  ],
+  "pivot_prediction_spread_px": 21.990507698500096,
+  "visual_review": "Original upper glove/wing root crop shows outlines and panels but no unambiguous labeled pivot center. Do not select a panel corner as the pivot merely because it matches a prediction.",
+  "limits": [
+    "443..450 nose band is a visual hypothesis, not a verified station datum.",
+    "Ruler normalization is an alternative hypothesis, not a uniform scaling correction.",
+    "No evaluated case is a measured fit or acceptable production assembly.",
+    "Pivot FS convention, independent axial landmark and WL remain gates."
+  ],
+  "next": "Find an explicitly station-indexed radome joint or wing-root landmark in a primary drawing; compare with source contour before generating a corrected assembly.",
+  "native_execution": false,
+  "geometry_changed": false,
+  "production_release": false
+}
