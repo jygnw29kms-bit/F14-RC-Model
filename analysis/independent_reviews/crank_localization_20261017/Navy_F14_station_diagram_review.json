@@ -1,0 +1,26 @@
+{
+  "status": "NAVY_F14_FIGURE4_7_RASTER_RETRIEVED_AND_VISUALLY_REVIEWED",
+  "publication": "US Navy NAVEDTRA14014 Airman, Figure4-7 printed4-7",
+  "url": "https://navyaviation.tpub.com/14014/img/14014_79_1.jpg",
+  "sha256": "a551c848c0b8a3efa1944fbc075d961b8660eefe1d450e587273c11a9cd1679b",
+  "bytes": 36498,
+  "visual_observations": [
+    "Top and side F14 views include a long narrow nose boom ahead of widening radome.",
+    "Top view depicts wing pivot circles and several sweep outlines.",
+    "Raster itself has tick marks but axis number labels and caption appear in HTML page rather than this image."
+  ],
+  "text_context_url": "https://navyaviation.tpub.com/14014/css/Fuselage-Station-Diagram-Of-An-F-14-Aircraft-79.htm",
+  "limitations": [
+    "Do not interpret forward-most boom pixel as the aircraft FS93 nose.",
+    "Small raster schematic is unsuitable for assigning subpixel metric accuracy.",
+    "Pivot circles are visible but NADC FS524.16 mapping and UPC corresponding pivot are not verified by this retrieval."
+  ],
+  "rejected_search_lead": {
+    "url": "https://ntrs.nasa.gov/api/citations/19770011192/downloads/19770011192.pdf",
+    "reason": "FS93 search hit belongs to AH1G helicopter gunner-seat accelerometer diagram; not F14 datum evidence."
+  },
+  "next": "Use labeled primary nose-station figure to identify exact FS93 position relative to radome and boom, then compare independent landmarks.",
+  "assembly_registration_verified": false,
+  "geometry_changed": false,
+  "production_release": false
+}
