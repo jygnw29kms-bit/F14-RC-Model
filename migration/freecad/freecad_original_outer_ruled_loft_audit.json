@@ -1,0 +1,82 @@
+{
+  "status": "NATIVE_ORIGINAL_OUTER_POLYGON_RULED_SEGMENT_STUDY",
+  "source_sha256": "88d48b48e1b479ef391080caef5876077c7eee682dded99b1dbe3e11b7a65ee2",
+  "records": [
+    {
+      "segment": "A_TO_B",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 544641.7601534618,
+      "midpoint_X_mm": 180.09070340286638,
+      "midpoint_area_mm2": 3902.839844044326,
+      "source_outer_vertex_counts": [
+        15,
+        19
+      ],
+      "original_boundary_shape_preserved": true,
+      "original_edges_subdivided_for_correspondence": true
+    },
+    {
+      "segment": "B_TO_C",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1198061.3507815993,
+      "midpoint_X_mm": 326.3655465281982,
+      "midpoint_area_mm2": 8058.70807183428,
+      "source_outer_vertex_counts": [
+        19,
+        62
+      ],
+      "original_boundary_shape_preserved": true,
+      "original_edges_subdivided_for_correspondence": true
+    },
+    {
+      "segment": "C_TO_D",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1812913.287268964,
+      "midpoint_X_mm": 499.5864769712891,
+      "midpoint_area_mm2": 9377.202912801224,
+      "source_outer_vertex_counts": [
+        62,
+        62
+      ],
+      "original_boundary_shape_preserved": true,
+      "original_edges_subdivided_for_correspondence": true
+    },
+    {
+      "segment": "D_TO_E",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 502509.8446964219,
+      "midpoint_X_mm": 622.3673725700073,
+      "midpoint_area_mm2": 9457.865697136654,
+      "source_outer_vertex_counts": [
+        62,
+        50
+      ],
+      "original_boundary_shape_preserved": true,
+      "original_edges_subdivided_for_correspondence": true
+    },
+    {
+      "segment": "E_TO_F",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 908890.2822937283,
+      "midpoint_X_mm": 701.9243177266028,
+      "midpoint_area_mm2": 8538.043069547353,
+      "source_outer_vertex_counts": [
+        50,
+        55
+      ],
+      "original_boundary_shape_preserved": true,
+      "original_edges_subdivided_for_correspondence": true
+    }
+  ],
+  "section_frame_verified": false,
+  "intermediate_source_silhouettes_verified": false,
+  "C_inlet_holes_propagated": false,
+  "nose_and_tail_included": false,
+  "production_geometry": false,
+  "print_release": false
+}
