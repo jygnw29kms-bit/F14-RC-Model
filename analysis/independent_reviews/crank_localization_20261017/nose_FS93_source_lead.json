@@ -1,0 +1,24 @@
+{
+  "status": "NAVY_MANUAL_MIRROR_TEXT_READ_FULL_PDF_DOWNLOAD_TIMED_OUT",
+  "source_url": "https://navyaviation.tpub.com/14014/css/Fuselage-Station-Diagram-Of-An-F-14-Aircraft-79.htm",
+  "publication": "US Navy Airman NAVEDTRA 14014, printed page 4-7, Figure 4-7 F14 fuselage station diagram",
+  "read_utc": "2026-10-18T11:01Z heartbeat",
+  "short_exact_excerpt": "fuselage station (FS) 0 is located 93.0 inches forward of the nose.",
+  "nose_FS_in_source_text": 93,
+  "scale_mm_per_source_in_candidate": 1.16974280864866,
+  "translation_mm_candidate": -108.78608120432538,
+  "pivot_x_mm_before": 613.1323905812816,
+  "pivot_x_mm_after_candidate": 504.34630937695624,
+  "formula": "x = (FS - 93) * scale",
+  "source_pdf_retrieval": "Full PDF mirror network timed out; no local PDF or PDF hash claimed. Front matter independently read at combatindex confirms Navy publication identity only.",
+  "gates": {
+    "original_figure_visually_verified": false,
+    "NADC_same_FS_origin_verified": false,
+    "UPC_nose_origin_landmarks_verified": false,
+    "pivot_WL_verified": false,
+    "assembly_registration_verified": false,
+    "geometry_changed": false,
+    "production_release": false
+  },
+  "next": "Obtain original diagram and NADC Table I context; verify UPC nose and independent longitudinal landmark before any candidate transform."
+}
