@@ -1,0 +1,44 @@
+{
+  "status": "STATIC_CODE_TRACE_CONFIRMS_ABSOLUTE_FS_WING_AND_PIVOT_PLACEMENT",
+  "records": [
+    {
+      "path": "migration/freecad/build_current_full_view.py",
+      "sha256": "c98fb71f65276e29a25046a7645444cf7d5ff61262bfa66a00e95146cc2ae397",
+      "PX_literals": []
+    },
+    {
+      "path": "migration/freecad/normalize_datums_v191.py",
+      "sha256": "1ffecb92ac076b9dec1fb7d9e0d078238cb7f64e2e1bacc37299112c0b78038b",
+      "PX_literals": [
+        613.1323905812828
+      ]
+    },
+    {
+      "path": "migration/freecad/build_sweep_v192.py",
+      "sha256": "9e6bee532b45208ef438312fc6b3a6691ccf639f3112bd0e93b1cac1751fc8d4",
+      "PX_literals": [
+        613.1323905812828
+      ]
+    },
+    {
+      "path": "migration/freecad/verify_dynamic_linkage_v194.py",
+      "sha256": "03dfbaf55bd25ace5545ab58887bb8dbb02672deb6ebd4e83395650f4f1a998d",
+      "PX_literals": [
+        613.1323905812828
+      ]
+    }
+  ],
+  "scale_mm_per_source_in": 1.1697428086486623,
+  "wing_builder_formula": "(leading_edge_fs_in + xc * chord_in) * factor; no FS93 subtraction",
+  "v191_followup": "Changes wing Placement Z only; no X datum correction in this script.",
+  "pivot_absolute_mm": 613.1323905812828,
+  "pivot_nose_relative_candidate_mm": 504.3463093769572,
+  "delta_mm": -108.7860812043256,
+  "UPC_frame_implied_zero_source_pixel": 432.34747023809496,
+  "UPC_zero_is_verified_aircraft_nose": false,
+  "assessment": "Wing and pivot consistently share absolute FS frame. Fuselage/UPC frame correspondence is still unverified. Subtracting FS93 only from pivot would break existing wing-pivot relationship.",
+  "safe_next": "Verify UPC nose and at least one independent source landmark; then create separate candidate shifting wing AND pivot/mechanism consistently. Do not alter current master or claim native containment from this static audit.",
+  "native_execution": false,
+  "geometry_changed": false,
+  "production_release": false
+}
