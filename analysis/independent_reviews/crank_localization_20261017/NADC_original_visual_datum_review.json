@@ -1,0 +1,36 @@
+{
+  "status": "NADC_ORIGINAL_PDF_TABLE_AND_THREE_VIEW_VISUALLY_VERIFIED",
+  "source_url": "https://archive.org/download/DTIC_ADA124468/DTIC_ADA124468.pdf",
+  "download_method": "PowerShell normal Windows TLS verification; no certificate bypass",
+  "pdf_sha256": "d8801d1ad70997eef68df360d34a9a1a4313fbe4f109858fdf3f1b9ec25955b6",
+  "pdf_bytes": 1651413,
+  "tableI": {
+    "PDF_page": 14,
+    "printed_page": 10,
+    "model_scale": 12,
+    "pivot_FS_model_in": 43.68,
+    "pivot_BL_model_in": 8.92
+  },
+  "figure3": {
+    "PDF_page": 23,
+    "printed_page": 19,
+    "caption_units": "inches",
+    "nose_station_model_in_as_printed": 7.7,
+    "aft_station_model_in_as_printed": 69.6,
+    "length_model_in_as_printed": 61.9,
+    "arithmetic_check": 61.89999999999999
+  },
+  "finding_de": "Der Dreiriss best\u00e4tigt einen vom Nasenpunkt vorverlagerten Stationsursprung des NADC-Modells. Nasenstation7.7 mal12 ergibt92.4in; NavyFS93 unterscheidet sich um0.6in. Die grob gerundete Dreirissangabe darf nicht als exakte \u00dcbereinstimmung behandelt werden.",
+  "nose_relative_pivot_from_NADC_printed_values_mm": 505.0481550621464,
+  "nose_relative_pivot_from_Navy_FS93_mm": 504.3463093769572,
+  "difference_mm": 0.7018456851891973,
+  "limits_de": [
+    "Nasenstation im Dreiriss nur auf0.1in Modellma\u00df angegeben.",
+    "Rundungsintervall ist kein best\u00e4tigtes Fertigungsma\u00df.",
+    "Drehpunkt-Wasserlinie bleibt offen; WL12.1 ist die eingezeichnete Referenzlinie, keine behauptete Drehpunkt-WL.",
+    "UPC-Ansichten ben\u00f6tigen weiterhin getrennte Ursprungs- und Ma\u00dfstabspr\u00fcfung."
+  ],
+  "native_geometry_changed": false,
+  "assembly_registration_verified": false,
+  "production_release": false
+}
