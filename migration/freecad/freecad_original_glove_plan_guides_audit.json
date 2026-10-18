@@ -1,0 +1,21 @@
+{
+  "status": "NATIVE_ORIGINAL_GLOVE_PLAN_PROJECTION_GUIDES",
+  "input_sha256": "69599bd066dbd08693b906af792c3dd3ac93187b0fe45a67b7cdab7e34a78ca8",
+  "records": [
+    {
+      "name": "PLAN_UPPER_GLOVE_COMPONENT",
+      "point_count": 14,
+      "edge_count": 13,
+      "length_mm": 182.1858770909113
+    },
+    {
+      "name": "PLAN_LOWER_GLOVE_COMPONENT",
+      "point_count": 14,
+      "edge_count": 13,
+      "length_mm": 182.1575330969097
+    }
+  ],
+  "true_surface_elevation_verified": false,
+  "loft_rail_attachment_verified": false,
+  "production_geometry": false
+}
