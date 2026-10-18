@@ -1,0 +1,33 @@
+{
+  "status": "NATIVE_ORIGINAL_ABC_POLYGON_REFERENCE_SECTIONS",
+  "source_sha256": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+  "records": [
+    {
+      "section": "A",
+      "X_candidate_mm": 110.77487684077221,
+      "native_area_mm2": 2817.8500203707044,
+      "source_polygon_area_mm2": 2817.8500203707044,
+      "face_count": 1,
+      "boundary_count": 1
+    },
+    {
+      "section": "B",
+      "X_candidate_mm": 249.40652996496055,
+      "native_area_mm2": 5142.972621604665,
+      "source_polygon_area_mm2": 5142.972621604666,
+      "face_count": 1,
+      "boundary_count": 1
+    },
+    {
+      "section": "C",
+      "X_candidate_mm": 403.32456309143583,
+      "native_area_mm2": 6836.189520495231,
+      "source_polygon_area_mm2": 6836.189520495226,
+      "face_count": 1,
+      "boundary_count": 3
+    }
+  ],
+  "metric_registration_verified": false,
+  "continuous_OML_verified": false,
+  "production_geometry": false
+}

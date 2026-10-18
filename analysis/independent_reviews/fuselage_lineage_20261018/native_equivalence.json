@@ -1,0 +1,48 @@
+{
+  "status": "NATIVE_FUSELAGE_REVISION_VOLUMETRIC_EQUIVALENCE",
+  "records": [
+    {
+      "archive": "F14_CURRENT_FULL_VIEW_v191.FCStd",
+      "archive_sha256": "264479bfecf73f370e5de2d6d3e6845dfb61decdcc29fada1cb52e4f0abb27da",
+      "volume_mm3": 10773480.52824285,
+      "area_mm2": 428962.93972382427,
+      "face_count": 1022,
+      "solid_count": 1
+    },
+    {
+      "archive": "F14_CURRENT_FULL_VIEW_v192.FCStd",
+      "archive_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+      "volume_mm3": 10773480.52824285,
+      "area_mm2": 428962.93972382427,
+      "face_count": 1022,
+      "solid_count": 1
+    },
+    {
+      "archive": "F14_CURRENT_FULL_VIEW_v193_LINKAGE_CANDIDATE.FCStd",
+      "archive_sha256": "37a6156149f5ef5ce9749cfc79f787618aaf59edbefe7def67a99b1fa5859f2c",
+      "volume_mm3": 10773480.52824285,
+      "area_mm2": 428962.93972382427,
+      "face_count": 1022,
+      "solid_count": 1
+    }
+  ],
+  "comparisons": [
+    {
+      "reference": "F14_CURRENT_FULL_VIEW_v191.FCStd",
+      "candidate": "F14_CURRENT_FULL_VIEW_v192.FCStd",
+      "reference_minus_candidate_mm3": 0.0,
+      "candidate_minus_reference_mm3": 0.0,
+      "volumetric_difference_below_1e_6_mm3": true
+    },
+    {
+      "reference": "F14_CURRENT_FULL_VIEW_v191.FCStd",
+      "candidate": "F14_CURRENT_FULL_VIEW_v193_LINKAGE_CANDIDATE.FCStd",
+      "reference_minus_candidate_mm3": 0.0,
+      "candidate_minus_reference_mm3": 0.0,
+      "volumetric_difference_below_1e_6_mm3": true
+    }
+  ],
+  "scope": "Bidirectional solid-volume difference only; not identical topology or original-aircraft fidelity.",
+  "original_OML_verified": false,
+  "production_geometry": false
+}

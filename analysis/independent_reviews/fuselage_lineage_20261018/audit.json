@@ -22,6 +22,8 @@
   "required_action": "Use it only as a provisional envelope reference. Replace with registered original section/contour geometry before production containment or flight release.",
   "production_geometry": false,
   "original_OML_verified": false,
-  "lineage_limitation": "Stored BREP hashes differ across archives. Generator review establishes heuristic construction intent; exact native shape equivalence across revisions has not been verified. Serialization or later modifications require separate native comparison.",
-  "finding_basis": "Generator-code evidence and documented revision chain; current-shape inheritance is an inference, not byte-identical BREP proof."
+  "lineage_limitation": "Stored BREP bytes differ, but both native directional volume differences are zero for v191 versus v192/v193. This verifies solid-volume equivalence within 1e-6 mm3; not original-aircraft fidelity or byte-identical topology.",
+  "finding_basis": "Generator-code evidence and documented revision chain; current-shape inheritance is an inference, not byte-identical BREP proof.",
+  "native_volumetric_equivalence_verified": true,
+  "native_evidence": "native_equivalence.json"
 }
