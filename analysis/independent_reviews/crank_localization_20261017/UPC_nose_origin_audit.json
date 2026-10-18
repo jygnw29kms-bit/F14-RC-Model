@@ -1,0 +1,847 @@
+{
+  "status": "UPC_IMPLIED_ZERO_LIES_IN_NOSE_PROBE_REGION_NOT_VERIFIED_RADOME_NOSE",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "implied_x_zero_px": 432.34747023809496,
+  "scale_mm_per_pixel_candidate": 0.5271165518029974,
+  "rows": [
+    {
+      "view": "plan",
+      "roi_y": [
+        1270,
+        1320
+      ],
+      "samples": [
+        {
+          "x_px": 410,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 411,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 412,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 413,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 414,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 415,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 416,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 417,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 418,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 419,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 420,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 421,
+          "outer_dark_y_px": [
+            1296,
+            1297
+          ]
+        },
+        {
+          "x_px": 422,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 423,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 424,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 425,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 426,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 427,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 428,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 429,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 430,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 431,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 432,
+          "outer_dark_y_px": [
+            1295,
+            1297
+          ]
+        },
+        {
+          "x_px": 433,
+          "outer_dark_y_px": [
+            1295,
+            1298
+          ]
+        },
+        {
+          "x_px": 434,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 435,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 436,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 437,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 438,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 439,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 440,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 441,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 442,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 443,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 444,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 445,
+          "outer_dark_y_px": [
+            1294,
+            1298
+          ]
+        },
+        {
+          "x_px": 446,
+          "outer_dark_y_px": [
+            1294,
+            1299
+          ]
+        },
+        {
+          "x_px": 447,
+          "outer_dark_y_px": [
+            1293,
+            1299
+          ]
+        },
+        {
+          "x_px": 448,
+          "outer_dark_y_px": [
+            1293,
+            1299
+          ]
+        },
+        {
+          "x_px": 449,
+          "outer_dark_y_px": [
+            1293,
+            1300
+          ]
+        },
+        {
+          "x_px": 450,
+          "outer_dark_y_px": [
+            1292,
+            1300
+          ]
+        },
+        {
+          "x_px": 451,
+          "outer_dark_y_px": [
+            1292,
+            1301
+          ]
+        },
+        {
+          "x_px": 452,
+          "outer_dark_y_px": [
+            1291,
+            1301
+          ]
+        },
+        {
+          "x_px": 453,
+          "outer_dark_y_px": [
+            1291,
+            1302
+          ]
+        },
+        {
+          "x_px": 454,
+          "outer_dark_y_px": [
+            1290,
+            1302
+          ]
+        },
+        {
+          "x_px": 455,
+          "outer_dark_y_px": [
+            1290,
+            1303
+          ]
+        },
+        {
+          "x_px": 456,
+          "outer_dark_y_px": [
+            1289,
+            1303
+          ]
+        },
+        {
+          "x_px": 457,
+          "outer_dark_y_px": [
+            1289,
+            1304
+          ]
+        },
+        {
+          "x_px": 458,
+          "outer_dark_y_px": [
+            1288,
+            1304
+          ]
+        },
+        {
+          "x_px": 459,
+          "outer_dark_y_px": [
+            1288,
+            1305
+          ]
+        },
+        {
+          "x_px": 460,
+          "outer_dark_y_px": [
+            1287,
+            1305
+          ]
+        },
+        {
+          "x_px": 461,
+          "outer_dark_y_px": [
+            1287,
+            1306
+          ]
+        },
+        {
+          "x_px": 462,
+          "outer_dark_y_px": [
+            1287,
+            1306
+          ]
+        },
+        {
+          "x_px": 463,
+          "outer_dark_y_px": [
+            1286,
+            1306
+          ]
+        },
+        {
+          "x_px": 464,
+          "outer_dark_y_px": [
+            1286,
+            1307
+          ]
+        },
+        {
+          "x_px": 465,
+          "outer_dark_y_px": [
+            1285,
+            1307
+          ]
+        },
+        {
+          "x_px": 466,
+          "outer_dark_y_px": [
+            1285,
+            1308
+          ]
+        },
+        {
+          "x_px": 467,
+          "outer_dark_y_px": [
+            1285,
+            1308
+          ]
+        },
+        {
+          "x_px": 468,
+          "outer_dark_y_px": [
+            1284,
+            1308
+          ]
+        },
+        {
+          "x_px": 469,
+          "outer_dark_y_px": [
+            1284,
+            1309
+          ]
+        },
+        {
+          "x_px": 470,
+          "outer_dark_y_px": [
+            1283,
+            1309
+          ]
+        }
+      ]
+    },
+    {
+      "view": "side",
+      "roi_y": [
+        2800,
+        2865
+      ],
+      "samples": [
+        {
+          "x_px": 410,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 411,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 412,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 413,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 414,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 415,
+          "outer_dark_y_px": null
+        },
+        {
+          "x_px": 416,
+          "outer_dark_y_px": [
+            2838,
+            2838
+          ]
+        },
+        {
+          "x_px": 417,
+          "outer_dark_y_px": [
+            2837,
+            2839
+          ]
+        },
+        {
+          "x_px": 418,
+          "outer_dark_y_px": [
+            2836,
+            2839
+          ]
+        },
+        {
+          "x_px": 419,
+          "outer_dark_y_px": [
+            2836,
+            2839
+          ]
+        },
+        {
+          "x_px": 420,
+          "outer_dark_y_px": [
+            2836,
+            2838
+          ]
+        },
+        {
+          "x_px": 421,
+          "outer_dark_y_px": [
+            2836,
+            2838
+          ]
+        },
+        {
+          "x_px": 422,
+          "outer_dark_y_px": [
+            2836,
+            2838
+          ]
+        },
+        {
+          "x_px": 423,
+          "outer_dark_y_px": [
+            2836,
+            2838
+          ]
+        },
+        {
+          "x_px": 424,
+          "outer_dark_y_px": [
+            2836,
+            2838
+          ]
+        },
+        {
+          "x_px": 425,
+          "outer_dark_y_px": [
+            2836,
+            2838
+          ]
+        },
+        {
+          "x_px": 426,
+          "outer_dark_y_px": [
+            2835,
+            2838
+          ]
+        },
+        {
+          "x_px": 427,
+          "outer_dark_y_px": [
+            2835,
+            2838
+          ]
+        },
+        {
+          "x_px": 428,
+          "outer_dark_y_px": [
+            2835,
+            2837
+          ]
+        },
+        {
+          "x_px": 429,
+          "outer_dark_y_px": [
+            2835,
+            2837
+          ]
+        },
+        {
+          "x_px": 430,
+          "outer_dark_y_px": [
+            2835,
+            2837
+          ]
+        },
+        {
+          "x_px": 431,
+          "outer_dark_y_px": [
+            2834,
+            2837
+          ]
+        },
+        {
+          "x_px": 432,
+          "outer_dark_y_px": [
+            2834,
+            2837
+          ]
+        },
+        {
+          "x_px": 433,
+          "outer_dark_y_px": [
+            2834,
+            2838
+          ]
+        },
+        {
+          "x_px": 434,
+          "outer_dark_y_px": [
+            2833,
+            2838
+          ]
+        },
+        {
+          "x_px": 435,
+          "outer_dark_y_px": [
+            2833,
+            2838
+          ]
+        },
+        {
+          "x_px": 436,
+          "outer_dark_y_px": [
+            2833,
+            2838
+          ]
+        },
+        {
+          "x_px": 437,
+          "outer_dark_y_px": [
+            2833,
+            2837
+          ]
+        },
+        {
+          "x_px": 438,
+          "outer_dark_y_px": [
+            2833,
+            2837
+          ]
+        },
+        {
+          "x_px": 439,
+          "outer_dark_y_px": [
+            2833,
+            2837
+          ]
+        },
+        {
+          "x_px": 440,
+          "outer_dark_y_px": [
+            2833,
+            2837
+          ]
+        },
+        {
+          "x_px": 441,
+          "outer_dark_y_px": [
+            2833,
+            2837
+          ]
+        },
+        {
+          "x_px": 442,
+          "outer_dark_y_px": [
+            2832,
+            2837
+          ]
+        },
+        {
+          "x_px": 443,
+          "outer_dark_y_px": [
+            2832,
+            2837
+          ]
+        },
+        {
+          "x_px": 444,
+          "outer_dark_y_px": [
+            2831,
+            2838
+          ]
+        },
+        {
+          "x_px": 445,
+          "outer_dark_y_px": [
+            2831,
+            2838
+          ]
+        },
+        {
+          "x_px": 446,
+          "outer_dark_y_px": [
+            2830,
+            2838
+          ]
+        },
+        {
+          "x_px": 447,
+          "outer_dark_y_px": [
+            2829,
+            2839
+          ]
+        },
+        {
+          "x_px": 448,
+          "outer_dark_y_px": [
+            2829,
+            2839
+          ]
+        },
+        {
+          "x_px": 449,
+          "outer_dark_y_px": [
+            2828,
+            2839
+          ]
+        },
+        {
+          "x_px": 450,
+          "outer_dark_y_px": [
+            2828,
+            2840
+          ]
+        },
+        {
+          "x_px": 451,
+          "outer_dark_y_px": [
+            2827,
+            2840
+          ]
+        },
+        {
+          "x_px": 452,
+          "outer_dark_y_px": [
+            2827,
+            2841
+          ]
+        },
+        {
+          "x_px": 453,
+          "outer_dark_y_px": [
+            2826,
+            2841
+          ]
+        },
+        {
+          "x_px": 454,
+          "outer_dark_y_px": [
+            2825,
+            2841
+          ]
+        },
+        {
+          "x_px": 455,
+          "outer_dark_y_px": [
+            2825,
+            2842
+          ]
+        },
+        {
+          "x_px": 456,
+          "outer_dark_y_px": [
+            2824,
+            2842
+          ]
+        },
+        {
+          "x_px": 457,
+          "outer_dark_y_px": [
+            2824,
+            2842
+          ]
+        },
+        {
+          "x_px": 458,
+          "outer_dark_y_px": [
+            2823,
+            2843
+          ]
+        },
+        {
+          "x_px": 459,
+          "outer_dark_y_px": [
+            2823,
+            2843
+          ]
+        },
+        {
+          "x_px": 460,
+          "outer_dark_y_px": [
+            2822,
+            2843
+          ]
+        },
+        {
+          "x_px": 461,
+          "outer_dark_y_px": [
+            2822,
+            2844
+          ]
+        },
+        {
+          "x_px": 462,
+          "outer_dark_y_px": [
+            2821,
+            2844
+          ]
+        },
+        {
+          "x_px": 463,
+          "outer_dark_y_px": [
+            2821,
+            2844
+          ]
+        },
+        {
+          "x_px": 464,
+          "outer_dark_y_px": [
+            2820,
+            2845
+          ]
+        },
+        {
+          "x_px": 465,
+          "outer_dark_y_px": [
+            2820,
+            2845
+          ]
+        },
+        {
+          "x_px": 466,
+          "outer_dark_y_px": [
+            2819,
+            2845
+          ]
+        },
+        {
+          "x_px": 467,
+          "outer_dark_y_px": [
+            2819,
+            2846
+          ]
+        },
+        {
+          "x_px": 468,
+          "outer_dark_y_px": [
+            2818,
+            2846
+          ]
+        },
+        {
+          "x_px": 469,
+          "outer_dark_y_px": [
+            2818,
+            2846
+          ]
+        },
+        {
+          "x_px": 470,
+          "outer_dark_y_px": [
+            2817,
+            2847
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_observation": "Both original views show a short narrow forward probe and a shoulder before the widening radome. The implied X=0 at432.35px lies on that narrow probe/shoulder region, not at an unambiguous radome tip.",
+  "radome_flare_transition_band_visually_estimated_px": [
+    443,
+    450
+  ],
+  "possible_origin_bias_mm_candidate": [
+    5.6151247560741915,
+    9.304940618695174
+  ],
+  "limits": [
+    "Transition band is a visual selection, not a verified FS93 landmark.",
+    "Pixel width includes line thickness; no subpixel aircraft accuracy is asserted.",
+    "Navy nose definition and UPC probe/radome correspondence require an independent station or dimension.",
+    "Do not snap origin to first dark pixel or automatically subtract93 from the assembled model."
+  ],
+  "metric_registration_verified": false,
+  "geometry_changed": false,
+  "production_release": false
+}
