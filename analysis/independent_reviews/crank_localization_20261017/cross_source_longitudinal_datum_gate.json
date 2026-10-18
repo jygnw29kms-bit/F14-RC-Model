@@ -1,0 +1,23 @@
+{
+  "status": "CROSS_SOURCE_LONGITUDINAL_DATUM_GATE_UNRESOLVED",
+  "inputs": [
+    {
+      "path": "cad\\fusion\\F14TomcatRC\\NASA_F14_basic_wing_v08.json",
+      "sha256": "177867ced9b6f2e075916d048cbf81997918e239ac8f4986a45461d6ecc80342"
+    },
+    {
+      "path": "cad\\fusion\\F14TomcatRC\\F14_pivot_datum_v16.json",
+      "sha256": "c06168f419d4f5b75087b2b8abb4a49617cb82793da2ad690262f207d8707ae0"
+    }
+  ],
+  "NASA_wing_coordinate_basis": "Aircraft FS/WBL/WL in inches; section ordinates dimensionless",
+  "aircraft_nose_FS_datum_verified": false,
+  "pivot_full_scale_FS_in": 524.16,
+  "pivot_full_scale_BL_in": 107.04,
+  "pivot_WL_verified": false,
+  "UPC_frame_basis": "Existing raster nose-relative/candidate E anchor; correspondence to absolute aircraft FS is not verified.",
+  "finding": "A numerical FS/BL-backed pivot is not sufficient to place it in a nose-relative UPC fuselage frame. The longitudinal translation, as well as vertical datum, needs independent correspondence.",
+  "implication": "Crank containment failure cannot be resolved by changing glove shape or mechanism position solely in the current mixed candidate frame.",
+  "required_next": "Recover nose FS or at least two matching original longitudinal landmarks with source uncertainty; estimate scale/translation and verify an independent third landmark.",
+  "production_geometry": false
+}
