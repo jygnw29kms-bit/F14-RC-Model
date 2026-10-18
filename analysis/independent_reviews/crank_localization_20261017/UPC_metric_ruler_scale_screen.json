@@ -1,0 +1,30 @@
+{
+  "status": "ORIGINAL_DRAWING_METRIC_RULER_INDEPENDENT_SCALE_SCREEN",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "visual_review": "Original printed ruler labeled 0,1,2,3 m. Zero end aroundx77px;3m end334..335px.",
+  "ruler_3m_span_pixel_interval": [
+    257,
+    259
+  ],
+  "method": "Visually identify ruler endpoints, then dark-run checks at native rows1158/1165/1175/1180. Endpoint stroke thickness retained as257..259px span.",
+  "NASA_900mm_span_model_ratio": 0.0460528664822308,
+  "ruler_model_mm_per_pixel_interval": [
+    0.5334308858945652,
+    0.5375820990143673
+  ],
+  "existing_candidate_mm_per_pixel": 0.5271165518029974,
+  "existing_candidate_inside_ruler_interval": false,
+  "relative_existing_minus_ruler_interval_percent": [
+    -1.1837211264920766,
+    -1.9467811950133695
+  ],
+  "finding": "Existing longitudinal candidate scale is below independent ruler interval. This is an independent discrepancy screen, not proof of a corrected common aircraft frame.",
+  "limitations": [
+    "Drawing ruler accuracy and possible image anisotropy not verified.",
+    "900mm NASA source span convention must match intended model dimensions.",
+    "No independent axial station registration follows from a scale bar.",
+    "No CAD geometry or historical candidate scale overwritten."
+  ],
+  "next": "Check ruler scale against span and length dimensions in UPC Figure3.14; solve scale and datum together before candidate assembly correction.",
+  "production_release": false
+}
