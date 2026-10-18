@@ -1,0 +1,33 @@
+{
+  "status": "NATIVE_ORIGINAL_RADOME_SEAM_PROJECTION_GUIDES_CREATED",
+  "inputs": {
+    "analysis\\independent_reviews\\crank_localization_20261017\\UPC_forward_radome_seam_traces.json": "cd549d20c200428446d9d8869211a77ef5d5a99cabad8fa85e7b25c4439be4ed",
+    "analysis\\propulsion_source_silhouette_constraints_v134.json": "0d93839d390b87789a5a5048033ab70b15082a671cb27b4f1c8ac787e4b72f4d"
+  },
+  "rows": [
+    {
+      "view": "plan",
+      "points": 51,
+      "native_edges": 50,
+      "valid": true,
+      "solids": 0,
+      "length_candidate_mm": 26.729133605022206
+    },
+    {
+      "view": "side",
+      "points": 36,
+      "native_edges": 35,
+      "valid": true,
+      "solids": 0,
+      "length_candidate_mm": 18.822385327977294
+    }
+  ],
+  "output_sha256": "fcdde8ca1576ad10ee0e9ae3e7df7dfbf2eec0e372423f6d3f1499761b625265",
+  "limitations": [
+    "Two independent projected curves; missing coordinate zero is projection only.",
+    "Historical metric candidate frame retained for study only.",
+    "Not a 3D seam, surface rail, constant FS station or registered assembly."
+  ],
+  "current_master_modified": false,
+  "production_release": false
+}
