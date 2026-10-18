@@ -1,0 +1,732 @@
+{
+  "status": "ORIGINAL_FORWARD_RADOME_SEAM_PIXEL_TRACES_RECOVERED",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "selection": "Visually reviewed narrow x520..549 band; interior seam rows only, excluding outer-contour intersections.",
+  "views": [
+    {
+      "view": "plan",
+      "points": [
+        {
+          "y_px": 1270,
+          "x_stroke_interval_px": [
+            536,
+            536
+          ],
+          "x_stroke_center_px": 536.0
+        },
+        {
+          "y_px": 1271,
+          "x_stroke_interval_px": [
+            536,
+            536
+          ],
+          "x_stroke_center_px": 536.0
+        },
+        {
+          "y_px": 1272,
+          "x_stroke_interval_px": [
+            536,
+            536
+          ],
+          "x_stroke_center_px": 536.0
+        },
+        {
+          "y_px": 1273,
+          "x_stroke_interval_px": [
+            536,
+            536
+          ],
+          "x_stroke_center_px": 536.0
+        },
+        {
+          "y_px": 1274,
+          "x_stroke_interval_px": [
+            535,
+            536
+          ],
+          "x_stroke_center_px": 535.5
+        },
+        {
+          "y_px": 1275,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1276,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1277,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1278,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1279,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1280,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1281,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1282,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1283,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 1284,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 1285,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 1286,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1287,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1288,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1289,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1290,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1291,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1292,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1293,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1294,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1295,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1296,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1297,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1298,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1299,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1300,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1301,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1302,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1303,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1304,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1305,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1306,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1307,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1308,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1309,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 1310,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 1311,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 1312,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 1313,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 1314,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1315,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1316,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1317,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1318,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1319,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        },
+        {
+          "y_px": 1320,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        }
+      ],
+      "x_center_range_px": [
+        534.0,
+        536.0
+      ]
+    },
+    {
+      "view": "side",
+      "points": [
+        {
+          "y_px": 2810,
+          "x_stroke_interval_px": [
+            532,
+            532
+          ],
+          "x_stroke_center_px": 532.0
+        },
+        {
+          "y_px": 2811,
+          "x_stroke_interval_px": [
+            532,
+            532
+          ],
+          "x_stroke_center_px": 532.0
+        },
+        {
+          "y_px": 2812,
+          "x_stroke_interval_px": [
+            532,
+            532
+          ],
+          "x_stroke_center_px": 532.0
+        },
+        {
+          "y_px": 2813,
+          "x_stroke_interval_px": [
+            532,
+            532
+          ],
+          "x_stroke_center_px": 532.0
+        },
+        {
+          "y_px": 2814,
+          "x_stroke_interval_px": [
+            532,
+            532
+          ],
+          "x_stroke_center_px": 532.0
+        },
+        {
+          "y_px": 2815,
+          "x_stroke_interval_px": [
+            532,
+            532
+          ],
+          "x_stroke_center_px": 532.0
+        },
+        {
+          "y_px": 2816,
+          "x_stroke_interval_px": [
+            532,
+            533
+          ],
+          "x_stroke_center_px": 532.5
+        },
+        {
+          "y_px": 2817,
+          "x_stroke_interval_px": [
+            532,
+            533
+          ],
+          "x_stroke_center_px": 532.5
+        },
+        {
+          "y_px": 2818,
+          "x_stroke_interval_px": [
+            532,
+            533
+          ],
+          "x_stroke_center_px": 532.5
+        },
+        {
+          "y_px": 2819,
+          "x_stroke_interval_px": [
+            532,
+            533
+          ],
+          "x_stroke_center_px": 532.5
+        },
+        {
+          "y_px": 2820,
+          "x_stroke_interval_px": [
+            532,
+            533
+          ],
+          "x_stroke_center_px": 532.5
+        },
+        {
+          "y_px": 2821,
+          "x_stroke_interval_px": [
+            533,
+            533
+          ],
+          "x_stroke_center_px": 533.0
+        },
+        {
+          "y_px": 2822,
+          "x_stroke_interval_px": [
+            533,
+            533
+          ],
+          "x_stroke_center_px": 533.0
+        },
+        {
+          "y_px": 2823,
+          "x_stroke_interval_px": [
+            533,
+            533
+          ],
+          "x_stroke_center_px": 533.0
+        },
+        {
+          "y_px": 2824,
+          "x_stroke_interval_px": [
+            533,
+            533
+          ],
+          "x_stroke_center_px": 533.0
+        },
+        {
+          "y_px": 2825,
+          "x_stroke_interval_px": [
+            533,
+            533
+          ],
+          "x_stroke_center_px": 533.0
+        },
+        {
+          "y_px": 2826,
+          "x_stroke_interval_px": [
+            533,
+            533
+          ],
+          "x_stroke_center_px": 533.0
+        },
+        {
+          "y_px": 2827,
+          "x_stroke_interval_px": [
+            533,
+            533
+          ],
+          "x_stroke_center_px": 533.0
+        },
+        {
+          "y_px": 2828,
+          "x_stroke_interval_px": [
+            533,
+            534
+          ],
+          "x_stroke_center_px": 533.5
+        },
+        {
+          "y_px": 2829,
+          "x_stroke_interval_px": [
+            533,
+            534
+          ],
+          "x_stroke_center_px": 533.5
+        },
+        {
+          "y_px": 2830,
+          "x_stroke_interval_px": [
+            533,
+            534
+          ],
+          "x_stroke_center_px": 533.5
+        },
+        {
+          "y_px": 2831,
+          "x_stroke_interval_px": [
+            533,
+            534
+          ],
+          "x_stroke_center_px": 533.5
+        },
+        {
+          "y_px": 2832,
+          "x_stroke_interval_px": [
+            533,
+            534
+          ],
+          "x_stroke_center_px": 533.5
+        },
+        {
+          "y_px": 2833,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 2834,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 2835,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 2836,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 2837,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 2838,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 2839,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 2840,
+          "x_stroke_interval_px": [
+            534,
+            534
+          ],
+          "x_stroke_center_px": 534.0
+        },
+        {
+          "y_px": 2841,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 2842,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 2843,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 2844,
+          "x_stroke_interval_px": [
+            534,
+            535
+          ],
+          "x_stroke_center_px": 534.5
+        },
+        {
+          "y_px": 2845,
+          "x_stroke_interval_px": [
+            535,
+            535
+          ],
+          "x_stroke_center_px": 535.0
+        }
+      ],
+      "x_center_range_px": [
+        532.0,
+        535.0
+      ]
+    }
+  ],
+  "visual_finding": "Forward seam is curved in plan and tilted in side. Source supports a physical boundary curve, not one constant-X station.",
+  "registration_implication": "Do not register two views by arbitrary seam midpoints at different Y/WL. No verified homologous seam point or station number has been recovered.",
+  "limits": [
+    "Traced segment excludes seam ends.",
+    "Stroke center does not imply subpixel aircraft accuracy.",
+    "Do not flatten this boundary to a plane or use it as a verified FS value."
+  ],
+  "next": "Seek manufacturer/Navy station label for an identifiable homologous point; retain nose view offsets independently until that evidence exists.",
+  "metric_registration_verified": false,
+  "geometry_changed": false,
+  "production_release": false
+}
