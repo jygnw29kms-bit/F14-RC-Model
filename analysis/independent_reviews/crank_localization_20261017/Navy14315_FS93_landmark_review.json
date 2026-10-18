@@ -1,0 +1,21 @@
+{
+  "status": "LABELED_NAVY_FS93_NOSE_FIGURE_VISUALLY_VERIFIED",
+  "publication": "US Navy NAVEDTRA14315 Aviation Structural Mechanic, Figure2-3, printed2-3",
+  "source_page_url": "https://navyaviation.tpub.com/14315/Figure-2-3-Typical-Nose-Station-Diagram-49.html",
+  "source_raster_url": "https://navyaviation.tpub.com/14315/1431500049im.jpg",
+  "sha256": "f58016b5eddfe7722c0993c9d36b5b9ab6611994c581c07a2d4461f53d1840c4",
+  "bytes": 28220,
+  "visual_finding": "Explicit FS93 dashed vertical line intersects the junction where the short narrow forward probe ends and the radome contour begins to widen. The probe tip extends ahead of FS93.",
+  "FS93_at_radome_flare_not_forward_probe_tip_supported": true,
+  "UPC_correspondence": "UPC plan and side crops contain the same qualitative short probe followed by widening radome. Prior443..450px transition band remains a bounded candidate; this schematic establishes landmark meaning, not exact UPC pixel or scale.",
+  "historical_UPC_zero_px": 432.347470238095,
+  "historical_zero_matches_verified_FS93_landmark": false,
+  "remaining_gates": [
+    "Select UPC probe/radome junction stroke interval separately in plan and side views.",
+    "Verify at least one independent longitudinal landmark and drawing scale.",
+    "Verify NADC pivot FS convention and pivot WL."
+  ],
+  "geometry_changed": false,
+  "assembly_registration_verified": false,
+  "production_release": false
+}
