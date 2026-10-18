@@ -1,0 +1,86 @@
+{
+  "status": "NATIVE_ORIGINAL_NOSE_PROJECTION_GUIDES_CREATED",
+  "inputs": {
+    "analysis\\original_front_sources\\nose_to_A_stroke_center_samples.json": "693dda370511f332171f4fd166f5128a972028df3bb061be7ab9c8e67109e061",
+    "analysis\\propulsion_source_silhouette_constraints_v134.json": "0d93839d390b87789a5a5048033ab70b15082a671cb27b4f1c8ac787e4b72f4d"
+  },
+  "rows": [
+    {
+      "name": "PLAN_UPPER",
+      "points": 9,
+      "edges": 8,
+      "valid": true,
+      "solids": 0,
+      "first": [
+        9.304940618695241,
+        -1.9766870692612404,
+        0.0
+      ],
+      "last": [
+        110.77487684077221,
+        -28.33251465941111,
+        0.0
+      ]
+    },
+    {
+      "name": "PLAN_LOWER",
+      "points": 9,
+      "edges": 8,
+      "valid": true,
+      "solids": 0,
+      "first": [
+        9.304940618695241,
+        1.7131287933597417,
+        0.0
+      ],
+      "last": [
+        110.77487684077221,
+        28.200735521460363,
+        0.0
+      ]
+    },
+    {
+      "name": "SIDE_TOP",
+      "points": 9,
+      "edges": 8,
+      "valid": true,
+      "solids": 0,
+      "first": [
+        9.304940618695241,
+        0.0,
+        -16.376476575610805
+      ],
+      "last": [
+        110.77487684077221,
+        0.0,
+        19.73100722289452
+      ]
+    },
+    {
+      "name": "SIDE_BOTTOM",
+      "points": 9,
+      "edges": 8,
+      "valid": true,
+      "solids": 0,
+      "first": [
+        9.304940618695241,
+        0.0,
+        -22.174758645443777
+      ],
+      "last": [
+        110.77487684077221,
+        0.0,
+        -35.87978899232171
+      ]
+    }
+  ],
+  "output_sha256": "656958ba94070580b8c15da160e8c648761b0a0c112a8c13c8f6f753bb766722",
+  "hinweise": [
+    "Gerade Segmente verbinden Originalproben; Zwischenkontur nicht quellenverifiziert.",
+    "Fehlende Koordinate null bedeutet Projektion, keine Oberflaechenlage.",
+    "Gemeinsamer X-Ursprung und metrischer Rahmen bleiben ungeprueft.",
+    "Keine Querschnittsform, Oberflaeche oder Produktionsgeometrie erzeugt."
+  ],
+  "master_geaendert": false,
+  "produktion_freigegeben": false
+}
