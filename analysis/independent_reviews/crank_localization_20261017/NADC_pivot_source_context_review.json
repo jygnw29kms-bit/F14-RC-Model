@@ -1,0 +1,25 @@
+{
+  "status": "NADC_PRIMARY_REPORT_REPRODUCED_TEXT_CONTEXT_REVIEWED_FIGURE_DATUM_PENDING",
+  "publication": "B Barnhart, NADC-81293-60 / AD-A124468, January1983",
+  "reproduced_primary_report_url": "https://www.scribd.com/document/1036645162/ADA124468-F-14-ROTARY-BALANCE-TESTS-FOR-AN-ANGLE-OF-ATTACK-RANGE-OF-0-TO-90",
+  "context_paraphrase": "Report describes a balsa/plywood one-twelfth Navy/Grumman model, a three-view in Figure3 and dimensions in TableI. TableI gives pivotFS43.68 andBL8.92. These are test-model data; manufacturer datum correspondence is not explicitly established in recovered text.",
+  "model_FS_times12_in": 524.16,
+  "model_BL_times12_in": 107.04,
+  "figure3_visual_verified": false,
+  "NADC_model_nose_FS_verified": false,
+  "retrieval_attempts": [
+    {
+      "url": "https://apps.dtic.mil/sti/tr/pdf/ADA124468.pdf",
+      "result": "Web tool inaccessible."
+    },
+    {
+      "url": "https://archive.org/download/DTIC_ADA124468/DTIC_ADA124468.pdf",
+      "result": "Local download rejected by certificate verification; TLS verification was not disabled."
+    }
+  ],
+  "OCR_warning": "Near Figure3/4, OCR contains fragmented station numbers; do not assign their aircraft landmark or interpret them as a nose datum without the image.",
+  "next": "Retrieve legible Figure3 and TableI through an accessible authenticated/trusted source; independently verify model noseFS and station convention before using FS93 subtraction on NADC pivot.",
+  "native_execution": false,
+  "assembly_registration_verified": false,
+  "production_release": false
+}
