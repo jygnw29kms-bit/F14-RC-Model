@@ -1,0 +1,64 @@
+{
+  "status": "C_OBERKANTENREFERENZEN_NATIV_ERZEUGT",
+  "inputs": {
+    "C_upper_raster_guides.json": "db121fe8924cc9f2b1721b6fa2846be0eb54bc55dd576ac755a33cf969510baa",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "segment": 0,
+      "vertices": 249,
+      "native_edges": 248,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 1,
+      "vertices": 249,
+      "native_edges": 248,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 0,
+      "vertices": 249,
+      "native_edges": 248,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 1,
+      "vertices": 249,
+      "native_edges": 248,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 0,
+      "vertices": 249,
+      "native_edges": 248,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 1,
+      "vertices": 249,
+      "native_edges": 248,
+      "valid": true,
+      "solids": 0
+    }
+  ],
+  "output_sha256": "5ae8fa533a37c612a68d737dd80fbebffe9b1b4cee85d73961f7cbbfbc370a25",
+  "hinweise": [
+    "Zwei getrennte Linien je Schwelle, Achsenlücke nicht überbrückt.",
+    "Historischer metrischer Rahmen ungeprüft; keine geschlossene Sektion."
+  ],
+  "production_release": false
+}
