@@ -1,0 +1,208 @@
+{
+  "status": "C_UNTERKANTENREFERENZEN_NATIV_ERZEUGT",
+  "inputs": {
+    "C_lower_raster_guides.json": "7ce35e963100a7355fb0275a7a0a6be1e2efd176f010ea51ab070f6a0b29bbac",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "segment": 0,
+      "vertices": 67,
+      "native_edges": 66,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 1,
+      "vertices": 19,
+      "native_edges": 18,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 2,
+      "vertices": 78,
+      "native_edges": 77,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 3,
+      "vertices": 79,
+      "native_edges": 78,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 4,
+      "vertices": 79,
+      "native_edges": 78,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 5,
+      "vertices": 78,
+      "native_edges": 77,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 6,
+      "vertices": 20,
+      "native_edges": 19,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 7,
+      "vertices": 67,
+      "native_edges": 66,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 0,
+      "vertices": 67,
+      "native_edges": 66,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 1,
+      "vertices": 19,
+      "native_edges": 18,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 2,
+      "vertices": 78,
+      "native_edges": 77,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 3,
+      "vertices": 79,
+      "native_edges": 78,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 4,
+      "vertices": 78,
+      "native_edges": 77,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 5,
+      "vertices": 78,
+      "native_edges": 77,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 6,
+      "vertices": 20,
+      "native_edges": 19,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 7,
+      "vertices": 67,
+      "native_edges": 66,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 0,
+      "vertices": 66,
+      "native_edges": 65,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 1,
+      "vertices": 19,
+      "native_edges": 18,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 2,
+      "vertices": 79,
+      "native_edges": 78,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 3,
+      "vertices": 79,
+      "native_edges": 78,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 4,
+      "vertices": 78,
+      "native_edges": 77,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 5,
+      "vertices": 78,
+      "native_edges": 77,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 6,
+      "vertices": 20,
+      "native_edges": 19,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 7,
+      "vertices": 67,
+      "native_edges": 66,
+      "valid": true,
+      "solids": 0
+    }
+  ],
+  "output_sha256": "744f9eb0168958a704cca7a10708a5a4109a7423ff910993f999111bd5f50850",
+  "hinweise": [
+    "Getrennte untere Rastersegmente; Achsenluecken und steile Spruenge nicht ueberbrueckt.",
+    "Historischer metrischer Rahmen ungeprüft; keine geschlossene Sektion."
+  ],
+  "production_release": false
+}
