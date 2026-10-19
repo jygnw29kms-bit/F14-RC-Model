@@ -1,0 +1,31 @@
+{
+  "status": "ORIGINALE_SEKTION_A_GEGEN_KREISANNAHME_UNTERSUCHT",
+  "eingabe_sha256": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed",
+  "methode": "Algebraischer Ausgleichskreis,1000 gleichmaessige Bogenlaengenproben auf unveraendertem Polygon; keine Formoptimierung.",
+  "konturpunkte": 15,
+  "ausgleichskreis_pixel": {
+    "mittelpunkt": [
+      1898.614313823534,
+      293.89126102862883
+    ],
+    "radius": 52.03173367567523
+  },
+  "radialfehler_pixel": {
+    "rms": 3.5853206581574346,
+    "minimum": -5.436419539716638,
+    "maximum": 7.510058149660523,
+    "max_abs_relativ_radius": 0.14433611219784256
+  },
+  "breite_pixel": 97.47499999999991,
+  "hoehe_pixel": 102.20799999999997,
+  "hinweise": [
+    "SektionA ist eine originale nachgezeichnete Kontur und nicht der gesamte Nasenverlauf.",
+    "Abweichungen umfassen Zeichnungs- und Nachzeichnungsfehler; keine Quellenunsicherheit abgezogen.",
+    "Algebraischer Kreisfit ist keine Minimax- oder exakte orthogonale Optimierung.",
+    "Kein automatischer Toleranzgrenzwert und keine metrische Registrierung behauptet.",
+    "NASA qualitative Kreisformbeschreibung ersetzt keine stationsbezogene Kontur."
+  ],
+  "naechster_schritt": "Vor SektionA fehlende Querschnitte nicht allein aus Kreisannahme erzeugen; native Originalkontur und Projektionsresiduen erhalten.",
+  "quellkontur_geaendert": false,
+  "produktion_freigegeben": false
+}
