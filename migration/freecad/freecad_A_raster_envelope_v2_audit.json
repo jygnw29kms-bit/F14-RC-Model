@@ -39,9 +39,9 @@
   ],
   "output_sha256": "331115ddcfc47b1d046fa9baa71d87394b11c7c4fe5eac7b37d51ea41d01bc24",
   "hinweise": [
-    "Historischer Kandidatenrahmen nur zur Vergleichbarkeit übernommen; metrisch nicht freigegeben.",
-    "Raster-Außenstrichkante, nicht Strichmitte.",
-    "Achsenlücke275..277 bleibt ungemessen und linear überbrückt.",
+    "Historischer Kandidatenrahmen nur zur Vergleichbarkeit Ã¼bernommen; metrisch nicht freigegeben.",
+    "Raster-AuÃŸenstrichkante, nicht Strichmitte.",
+    "AchsenlÃ¼cke275..277 bleibt ungemessen und linear Ã¼berbrÃ¼ckt.",
     "Keine bestehende A-Kontur, Hypothese oder Masterdatei ersetzt."
   ],
   "produktion_freigegeben": false

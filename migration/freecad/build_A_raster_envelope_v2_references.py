@@ -15,4 +15,4 @@ for c in j['cases']:
  rows.append(dict(threshold=c['threshold'],polygon_simple=True,vertices=N,native_face_valid=True,native_area_mm2=face.Area,analytic_area_mm2=expected,face_count=len(face.Faces),boundary_count=len(face.Wires)))
 d.recompute();out=B/'F14_A_RASTER_ENVELOPE_V2_REFERENCES.FCStd';d.saveAs(str(out));App.closeDocument(d.Name);assert hs=={str(p.relative_to(R)):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
 a=dict(status='NEUE_A_RASTERREFERENZEN_NATIV_UND_TOPOLOGISCH_GEPRUEFT',inputs=hs,rows=rows,output_sha256=hashlib.sha256(out.read_bytes()).hexdigest(),hinweise=['Historischer Kandidatenrahmen nur zur Vergleichbarkeit übernommen; metrisch nicht freigegeben.','Raster-Außenstrichkante, nicht Strichmitte.','Achsenlücke275..277 bleibt ungemessen und linear überbrückt.','Keine bestehende A-Kontur, Hypothese oder Masterdatei ersetzt.'],produktion_freigegeben=False)
-(B/'freecad_A_raster_envelope_v2_audit.json').write_text(json.dumps(a,ensure_ascii=False,indent=2));print(json.dumps(rows))
+(B/'freecad_A_raster_envelope_v2_audit.json').write_text(json.dumps(a,ensure_ascii=False,indent=2),encoding="utf-8");print(json.dumps(rows))
