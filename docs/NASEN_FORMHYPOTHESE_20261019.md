@@ -7,3 +7,8 @@ Die native Erstellung ist ausgeführt: neun gültige Profilflächen, ein gültig
 Datei: `migration/freecad/F14_NOSE_A_SHAPE_SENSITIVITY.FCStd`. Der separate Audit und Generator dokumentieren Eingaben und Annahmen. Der aktuelle Master, Originalquerschnitte und Radom-Projektionssperren bleiben unverändert. Keine Druck-, Produktions- oder Flugfreigabe.
 
 Als Nächstes sind native Zwischenkonturen und der Übergang zur unveränderten A-Sektion zu vergleichen. Die Studie darf die fehlenden Originalquerschnitte nicht als Nachweis ersetzen.
+
+## Zwischenkonturen geprüft
+
+Acht native Zwischenkonturen wurden mit zusätzlichen Originalproben verglichen. Der erste Vergleich meldete2.108466mm maximale Breitenabweichung bei Bildspalte537. Die visuelle Quellenprüfung zeigt dort zusammenlaufende Radomfugen- und Umrissstriche; deren Dunkellaufmittelpunkt ist kein belastbarer Umrissmittelpunkt. Der Breitenwert537 wurde deshalb in Version2 ausdrücklich ausgelassen, nicht passend korrigiert. Der historische Erstvergleich bleibt erhalten, ist für diesen Maximalwert jedoch überholt. Version2 ergibt maximal0.790675mm Restabweichung an der unteren Seitenprojektion bei634. Diese Probe und der Übergang zur unveränderten SektionA bleiben zu prüfen. Keine Toleranz- oder Originalformfreigabe.
+

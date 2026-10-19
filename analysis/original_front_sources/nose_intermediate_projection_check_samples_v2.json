@@ -1,0 +1,225 @@
+{
+  "status": "ZWISCHENPROBEN_V2_MEHRDEUTIGE_STRICHMITTE_AUSGESCHLOSSEN",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "samples": [
+    {
+      "source_x_pixel": 462,
+      "X_candidate_mm": 15.630339240331182,
+      "width_candidate_mm": 9.488097932453954,
+      "top_Z_candidate_mm": -12.950218988891322,
+      "bottom_Z_candidate_mm": -24.283224852655767,
+      "view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "original_stroke_centers": [
+        [
+          1287.5,
+          1305.5
+        ],
+        [
+          2822.0,
+          2843.5
+        ]
+      ]
+    },
+    {
+      "source_x_pixel": 487,
+      "X_candidate_mm": 28.808253035406096,
+      "width_candidate_mm": 20.030428968513903,
+      "top_Z_candidate_mm": -6.624820367255352,
+      "bottom_Z_candidate_mm": -27.97304071527675,
+      "view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "original_stroke_centers": [
+        [
+          1277.5,
+          1315.5
+        ],
+        [
+          2810.0,
+          2850.5
+        ]
+      ]
+    },
+    {
+      "source_x_pixel": 512,
+      "X_candidate_mm": 41.98616683048101,
+      "width_candidate_mm": 28.99141034916486,
+      "top_Z_candidate_mm": -1.090096573323879,
+      "bottom_Z_candidate_mm": -31.135740026094734,
+      "view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "original_stroke_centers": [
+        [
+          1268.5,
+          1323.5
+        ],
+        [
+          2799.5,
+          2856.5
+        ]
+      ]
+    },
+    {
+      "source_x_pixel": 537,
+      "X_candidate_mm": 55.16408062555604,
+      "width_candidate_mm": null,
+      "top_Z_candidate_mm": 3.653952392903098,
+      "bottom_Z_candidate_mm": -33.50776450920822,
+      "view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "original_stroke_centers": [
+        [
+          1264.5,
+          1329.0
+        ],
+        [
+          2790.5,
+          2861.0
+        ]
+      ],
+      "plan_status": "Radomfuge verschmilzt mit oberem/unterem Umriss; Mittelpunkt des zusammenhaengenden Dunkellaufs ist kein verlaesslicher Umrissmittelpunkt. Kein Breitenvergleich."
+    },
+    {
+      "source_x_pixel": 562,
+      "X_candidate_mm": 68.34199442063095,
+      "width_candidate_mm": 42.69644069604279,
+      "top_Z_candidate_mm": 8.134443083228575,
+      "bottom_Z_candidate_mm": -34.82555588871571,
+      "view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "original_stroke_centers": [
+        [
+          1255.5,
+          1336.5
+        ],
+        [
+          2782.0,
+          2863.5
+        ]
+      ]
+    },
+    {
+      "source_x_pixel": 587,
+      "X_candidate_mm": 81.51990821570587,
+      "width_candidate_mm": 47.96760621407277,
+      "top_Z_candidate_mm": 12.087817221751056,
+      "bottom_Z_candidate_mm": -35.87978899232171,
+      "view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2700,
+          2870
+        ]
+      ],
+      "original_stroke_centers": [
+        [
+          1250.5,
+          1341.5
+        ],
+        [
+          2774.5,
+          2865.5
+        ]
+      ]
+    },
+    {
+      "source_x_pixel": 612,
+      "X_candidate_mm": 94.69782201078078,
+      "width_candidate_mm": 52.71165518029974,
+      "top_Z_candidate_mm": 15.777633084372038,
+      "bottom_Z_candidate_mm": -35.87978899232171,
+      "view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2735,
+          2870
+        ]
+      ],
+      "original_stroke_centers": [
+        [
+          1246.5,
+          1346.5
+        ],
+        [
+          2767.5,
+          2865.5
+        ]
+      ]
+    },
+    {
+      "source_x_pixel": 634,
+      "X_candidate_mm": 106.29438615044671,
+      "width_candidate_mm": 55.610796215216226,
+      "top_Z_candidate_mm": 18.413215843387025,
+      "bottom_Z_candidate_mm": -36.67046382002621,
+      "view_bands": [
+        [
+          1200,
+          1400
+        ],
+        [
+          2753,
+          2870
+        ]
+      ],
+      "original_stroke_centers": [
+        [
+          1243.5,
+          1349.0
+        ],
+        [
+          2762.5,
+          2867.0
+        ]
+      ]
+    }
+  ],
+  "metric_registration_verified": false,
+  "v1_sha256": "0ce70787523e36b0ba607f533bd07e3325b30bd6a8a29e5c4dc8bdab1f66e5f1"
+}
