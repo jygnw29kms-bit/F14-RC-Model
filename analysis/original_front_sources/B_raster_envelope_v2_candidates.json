@@ -4364,7 +4364,7 @@
     "Äußere Strichkante, nicht physische Außenhaut und nicht Strichmitte.",
     "Obere und untere Abschlüsse auf erster/letzter klarer Konturzeile; vollständige Subpixelkontur nicht nachgewiesen.",
     "Schraffur-/Kerbsemantik und Konturtopologie müssen unabhängig geprüft werden.",
-    "Historische A-Kontur und sämtliche CAD-Referenzen unverändert."
+    "Historische B-Kontur und sämtliche CAD-Referenzen unverändert."
   ],
   "metric_registration_verified": false,
   "production_release": false
