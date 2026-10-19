@@ -1,0 +1,697 @@
+{
+  "status": "A_NACHZEICHNUNG_WEICHT_VOM_ORIGINALRASTER_AB",
+  "inputs": [
+    {
+      "path": "references\\UPC_Figure3_15_source_exact.png",
+      "sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4"
+    },
+    {
+      "path": "analysis\\original_front_sources\\front_sections_pixel_candidates.json",
+      "sha256": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+    }
+  ],
+  "method": "16ausgewählte Innenzeilen,3Schwellenwerte; horizontale Achsenzeilen270..280 ausgeschlossen. Originalraster-Außenstrichkanten gegen Polygon-Schnittpunkte.",
+  "samples": [
+    {
+      "threshold": 96,
+      "y_pixel": 245,
+      "raster_outer_dark_x": [
+        1878,
+        1923
+      ],
+      "trace_intersection_x": [
+        1871.4796865937421,
+        1917.9349773780323
+      ],
+      "left_delta_px": -6.520313406257856,
+      "right_delta_px": -5.065022621967728
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 250,
+      "raster_outer_dark_x": [
+        1872,
+        1929
+      ],
+      "trace_intersection_x": [
+        1863.48430462433,
+        1923.6486141546288
+      ],
+      "left_delta_px": -8.51569537567002,
+      "right_delta_px": -5.351385845371169
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 255,
+      "raster_outer_dark_x": [
+        1868,
+        1933
+      ],
+      "trace_intersection_x": [
+        1859.9133952030527,
+        1929.2435693207835
+      ],
+      "left_delta_px": -8.086604796947313,
+      "right_delta_px": -3.7564306792164643
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 260,
+      "raster_outer_dark_x": [
+        1864,
+        1937
+      ],
+      "trace_intersection_x": [
+        1856.570707008395,
+        1932.7429969473417
+      ],
+      "left_delta_px": -7.4292929916050525,
+      "right_delta_px": -4.25700305265832
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 265,
+      "raster_outer_dark_x": [
+        1861,
+        1940
+      ],
+      "trace_intersection_x": [
+        1855.070770605444,
+        1936.2424245738998
+      ],
+      "left_delta_px": -5.929229394555932,
+      "right_delta_px": -3.757575426100175
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 285,
+      "raster_outer_dark_x": [
+        1853,
+        1948
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1944.9084861412898
+      ],
+      "left_delta_px": -0.9809999999999945,
+      "right_delta_px": -3.0915138587101865
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 290,
+      "raster_outer_dark_x": [
+        1852,
+        1949
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1946.4293909692865
+      ],
+      "left_delta_px": 0.019000000000005457,
+      "right_delta_px": -2.5706090307135128
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 295,
+      "raster_outer_dark_x": [
+        1852,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1947.0174722232614
+      ],
+      "left_delta_px": 0.019000000000005457,
+      "right_delta_px": -2.982527776738607
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 300,
+      "raster_outer_dark_x": [
+        1851,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1947.605553477236
+      ],
+      "left_delta_px": 1.0190000000000055,
+      "right_delta_px": -2.3944465227639284
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 305,
+      "raster_outer_dark_x": [
+        1851,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1948.193634731211
+      ],
+      "left_delta_px": 1.0190000000000055,
+      "right_delta_px": -1.8063652687890226
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 310,
+      "raster_outer_dark_x": [
+        1852,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1948.7817159851857
+      ],
+      "left_delta_px": 0.019000000000005457,
+      "right_delta_px": -1.2182840148143441
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 315,
+      "raster_outer_dark_x": [
+        1852,
+        1947
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1949.3697972391603
+      ],
+      "left_delta_px": 0.019000000000005457,
+      "right_delta_px": 2.3697972391603344
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 320,
+      "raster_outer_dark_x": [
+        1854,
+        1946
+      ],
+      "trace_intersection_x": [
+        1852.8096107970605,
+        1948.0600047407063
+      ],
+      "left_delta_px": -1.1903892029395138,
+      "right_delta_px": 2.0600047407062902
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 325,
+      "raster_outer_dark_x": [
+        1856,
+        1946
+      ],
+      "trace_intersection_x": [
+        1854.4761596947428,
+        1946.2420594322714
+      ],
+      "left_delta_px": -1.5238403052571812,
+      "right_delta_px": 0.2420594322713896
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 330,
+      "raster_outer_dark_x": [
+        1859,
+        1943
+      ],
+      "trace_intersection_x": [
+        1856.1427085924252,
+        1944.4241141238365
+      ],
+      "left_delta_px": -2.8572914075748486,
+      "right_delta_px": 1.424114123836489
+    },
+    {
+      "threshold": 96,
+      "y_pixel": 335,
+      "raster_outer_dark_x": [
+        1864,
+        1938
+      ],
+      "trace_intersection_x": [
+        1862.10164281929,
+        1940.5702608750953
+      ],
+      "left_delta_px": -1.8983571807100361,
+      "right_delta_px": 2.5702608750953004
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 245,
+      "raster_outer_dark_x": [
+        1878,
+        1923
+      ],
+      "trace_intersection_x": [
+        1871.4796865937421,
+        1917.9349773780323
+      ],
+      "left_delta_px": -6.520313406257856,
+      "right_delta_px": -5.065022621967728
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 250,
+      "raster_outer_dark_x": [
+        1872,
+        1929
+      ],
+      "trace_intersection_x": [
+        1863.48430462433,
+        1923.6486141546288
+      ],
+      "left_delta_px": -8.51569537567002,
+      "right_delta_px": -5.351385845371169
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 255,
+      "raster_outer_dark_x": [
+        1868,
+        1933
+      ],
+      "trace_intersection_x": [
+        1859.9133952030527,
+        1929.2435693207835
+      ],
+      "left_delta_px": -8.086604796947313,
+      "right_delta_px": -3.7564306792164643
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 260,
+      "raster_outer_dark_x": [
+        1864,
+        1937
+      ],
+      "trace_intersection_x": [
+        1856.570707008395,
+        1932.7429969473417
+      ],
+      "left_delta_px": -7.4292929916050525,
+      "right_delta_px": -4.25700305265832
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 265,
+      "raster_outer_dark_x": [
+        1861,
+        1940
+      ],
+      "trace_intersection_x": [
+        1855.070770605444,
+        1936.2424245738998
+      ],
+      "left_delta_px": -5.929229394555932,
+      "right_delta_px": -3.757575426100175
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 285,
+      "raster_outer_dark_x": [
+        1853,
+        1948
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1944.9084861412898
+      ],
+      "left_delta_px": -0.9809999999999945,
+      "right_delta_px": -3.0915138587101865
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 290,
+      "raster_outer_dark_x": [
+        1852,
+        1949
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1946.4293909692865
+      ],
+      "left_delta_px": 0.019000000000005457,
+      "right_delta_px": -2.5706090307135128
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 295,
+      "raster_outer_dark_x": [
+        1851,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1947.0174722232614
+      ],
+      "left_delta_px": 1.0190000000000055,
+      "right_delta_px": -2.982527776738607
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 300,
+      "raster_outer_dark_x": [
+        1851,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1947.605553477236
+      ],
+      "left_delta_px": 1.0190000000000055,
+      "right_delta_px": -2.3944465227639284
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 305,
+      "raster_outer_dark_x": [
+        1851,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1948.193634731211
+      ],
+      "left_delta_px": 1.0190000000000055,
+      "right_delta_px": -1.8063652687890226
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 310,
+      "raster_outer_dark_x": [
+        1852,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1948.7817159851857
+      ],
+      "left_delta_px": 0.019000000000005457,
+      "right_delta_px": -1.2182840148143441
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 315,
+      "raster_outer_dark_x": [
+        1852,
+        1948
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1949.3697972391603
+      ],
+      "left_delta_px": 0.019000000000005457,
+      "right_delta_px": 1.3697972391603344
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 320,
+      "raster_outer_dark_x": [
+        1854,
+        1946
+      ],
+      "trace_intersection_x": [
+        1852.8096107970605,
+        1948.0600047407063
+      ],
+      "left_delta_px": -1.1903892029395138,
+      "right_delta_px": 2.0600047407062902
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 325,
+      "raster_outer_dark_x": [
+        1856,
+        1946
+      ],
+      "trace_intersection_x": [
+        1854.4761596947428,
+        1946.2420594322714
+      ],
+      "left_delta_px": -1.5238403052571812,
+      "right_delta_px": 0.2420594322713896
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 330,
+      "raster_outer_dark_x": [
+        1859,
+        1943
+      ],
+      "trace_intersection_x": [
+        1856.1427085924252,
+        1944.4241141238365
+      ],
+      "left_delta_px": -2.8572914075748486,
+      "right_delta_px": 1.424114123836489
+    },
+    {
+      "threshold": 128,
+      "y_pixel": 335,
+      "raster_outer_dark_x": [
+        1864,
+        1938
+      ],
+      "trace_intersection_x": [
+        1862.10164281929,
+        1940.5702608750953
+      ],
+      "left_delta_px": -1.8983571807100361,
+      "right_delta_px": 2.5702608750953004
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 245,
+      "raster_outer_dark_x": [
+        1878,
+        1923
+      ],
+      "trace_intersection_x": [
+        1871.4796865937421,
+        1917.9349773780323
+      ],
+      "left_delta_px": -6.520313406257856,
+      "right_delta_px": -5.065022621967728
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 250,
+      "raster_outer_dark_x": [
+        1872,
+        1929
+      ],
+      "trace_intersection_x": [
+        1863.48430462433,
+        1923.6486141546288
+      ],
+      "left_delta_px": -8.51569537567002,
+      "right_delta_px": -5.351385845371169
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 255,
+      "raster_outer_dark_x": [
+        1868,
+        1933
+      ],
+      "trace_intersection_x": [
+        1859.9133952030527,
+        1929.2435693207835
+      ],
+      "left_delta_px": -8.086604796947313,
+      "right_delta_px": -3.7564306792164643
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 260,
+      "raster_outer_dark_x": [
+        1864,
+        1937
+      ],
+      "trace_intersection_x": [
+        1856.570707008395,
+        1932.7429969473417
+      ],
+      "left_delta_px": -7.4292929916050525,
+      "right_delta_px": -4.25700305265832
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 265,
+      "raster_outer_dark_x": [
+        1861,
+        1940
+      ],
+      "trace_intersection_x": [
+        1855.070770605444,
+        1936.2424245738998
+      ],
+      "left_delta_px": -5.929229394555932,
+      "right_delta_px": -3.757575426100175
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 285,
+      "raster_outer_dark_x": [
+        1853,
+        1948
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1944.9084861412898
+      ],
+      "left_delta_px": -0.9809999999999945,
+      "right_delta_px": -3.0915138587101865
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 290,
+      "raster_outer_dark_x": [
+        1852,
+        1949
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1946.4293909692865
+      ],
+      "left_delta_px": 0.019000000000005457,
+      "right_delta_px": -2.5706090307135128
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 295,
+      "raster_outer_dark_x": [
+        1851,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1947.0174722232614
+      ],
+      "left_delta_px": 1.0190000000000055,
+      "right_delta_px": -2.982527776738607
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 300,
+      "raster_outer_dark_x": [
+        1851,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1947.605553477236
+      ],
+      "left_delta_px": 1.0190000000000055,
+      "right_delta_px": -2.3944465227639284
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 305,
+      "raster_outer_dark_x": [
+        1851,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1948.193634731211
+      ],
+      "left_delta_px": 1.0190000000000055,
+      "right_delta_px": -1.8063652687890226
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 310,
+      "raster_outer_dark_x": [
+        1851,
+        1950
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1948.7817159851857
+      ],
+      "left_delta_px": 1.0190000000000055,
+      "right_delta_px": -1.2182840148143441
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 315,
+      "raster_outer_dark_x": [
+        1852,
+        1948
+      ],
+      "trace_intersection_x": [
+        1852.019,
+        1949.3697972391603
+      ],
+      "left_delta_px": 0.019000000000005457,
+      "right_delta_px": 1.3697972391603344
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 320,
+      "raster_outer_dark_x": [
+        1853,
+        1946
+      ],
+      "trace_intersection_x": [
+        1852.8096107970605,
+        1948.0600047407063
+      ],
+      "left_delta_px": -0.19038920293951378,
+      "right_delta_px": 2.0600047407062902
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 325,
+      "raster_outer_dark_x": [
+        1856,
+        1946
+      ],
+      "trace_intersection_x": [
+        1854.4761596947428,
+        1946.2420594322714
+      ],
+      "left_delta_px": -1.5238403052571812,
+      "right_delta_px": 0.2420594322713896
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 330,
+      "raster_outer_dark_x": [
+        1859,
+        1943
+      ],
+      "trace_intersection_x": [
+        1856.1427085924252,
+        1944.4241141238365
+      ],
+      "left_delta_px": -2.8572914075748486,
+      "right_delta_px": 1.424114123836489
+    },
+    {
+      "threshold": 160,
+      "y_pixel": 335,
+      "raster_outer_dark_x": [
+        1864,
+        1938
+      ],
+      "trace_intersection_x": [
+        1862.10164281929,
+        1940.5702608750953
+      ],
+      "left_delta_px": -1.8983571807100361,
+      "right_delta_px": 2.5702608750953004
+    }
+  ],
+  "max_abs_delta_pixel": 8.51569537567002,
+  "befund": "Vorhandene grobe A-Polygonkontur ist nicht ausreichend als rastergenau verifiziert. Native Übereinstimmung mit diesem Polygon bestätigt lediglich Übertragungstreue.",
+  "limits": [
+    "Raster-Außenstrichkante ist nicht Strichmitte; Strichdicke bleibt im Vergleich.",
+    "Diese Zeilenprüfung ersetzt keine vollständige neue Nachzeichnung.",
+    "Keine Kontur verändert und keine Fertigungstoleranz behauptet."
+  ],
+  "next": "A-Kontur erneut aus dem Originalraster rekonstruieren, Achsen und Schraffur getrennt behandeln; neue Revision unabhängig prüfen. Vorherige A-basierte Formhypothese nicht als Quellenbeweis verwenden.",
+  "production_release": false
+}

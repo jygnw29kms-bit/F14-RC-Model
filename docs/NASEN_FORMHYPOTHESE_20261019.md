@@ -24,3 +24,8 @@ Der native Vergleich ist ausgeführt. Das skalierte Hypothesen-Endprofil ist3.52
 
 Die kleinen verbleibenden Zwischenprojektionsfehler erlauben deshalb keine nahtlose Übernahme des Nasenkörpers an OriginalsektionA. Endprofil und Originalkontur wurden nicht angepasst. Vor einer weiteren Loft-Variante müssen Quellenregistrierung und unterschiedliche Projektions-/Schnittdefinition geklärt werden.
 
+
+## Zusätzliche Quellenprüfung der A-Nachzeichnung
+
+Der direkte Rastervergleich an16 Innenzeilen und drei Schwellenwerten zeigt Abweichungen bis8.515695 Originalpixel zwischen grobem A-Polygon und sichtbarer Außenstrichkante. Strichdicke ist dabei enthalten; keine Fertigungstoleranz wird behauptet. Die vorhandene A-Nachzeichnung muss deshalb erneut rekonstruiert und geprüft werden. Native Polygonübertragung und die darauf beruhende Formhypothese sind weiterhin technisch nachvollziehbar, bestätigen jedoch keine rastergenaue Originalform. Bestehende Daten bleiben historisch erhalten.
+
