@@ -1,0 +1,39 @@
+{
+  "status": "ISOTROPE_A_REGISTRIERUNG_ANALYTISCH_UNTERSUCHT",
+  "eingaben": [
+    {
+      "path": "front_sections_pixel_candidates.json",
+      "sha256": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+    },
+    {
+      "path": "nose_to_A_stroke_center_samples.json",
+      "sha256": "693dda370511f332171f4fd166f5128a972028df3bb061be7ab9c8e67109e061"
+    }
+  ],
+  "quellmasse_pixel": {
+    "breite": 97.47499999999991,
+    "hoehe": 102.20799999999997
+  },
+  "ziel_projektionsmasse_mm": {
+    "breite": 56.53325018087148,
+    "hoehe": 55.610796215216226
+  },
+  "getrennte_skalen_mm_pro_pixel": {
+    "nur_breite": 0.5799769190138141,
+    "nur_hoehe": 0.5440943587118058
+  },
+  "minimax_isotroper_massstab_mm_pro_pixel": 0.5616103844397758,
+  "minimax_breitenresiduum_mm": -1.7902779576043741,
+  "minimax_hoehenresiduum_mm": 1.790277957604367,
+  "minimaler_maximaler_massfehler_mm": 1.7902779576043741,
+  "befund": "Ein einziger isotroper Maßstab kann die beiden nominellen Projektionsmaße nicht exakt erfüllen. Eine Verschiebung ändert Breite und Höhe nicht.",
+  "einschraenkungen": [
+    "Minimax betrifft nur zwei Hüllmaße, nicht die vollständige Kontur.",
+    "Keine gemessene Quellenunsicherheit und keine Akzeptanztoleranz zugewiesen.",
+    "Die berechnete Mindestabweichung darf nicht als erlaubte Fertigungstoleranz verwendet werden.",
+    "Originalkontur nicht unabhängig in Breite/Höhe verformen."
+  ],
+  "naechster_schritt": "Quellkontur und Stationskorrespondenz erneut prüfen; gegebenenfalls getrennte Studienvarianten bei unveränderten Originalreferenzen vergleichen.",
+  "kontur_geaendert": false,
+  "produktion_freigegeben": false
+}
