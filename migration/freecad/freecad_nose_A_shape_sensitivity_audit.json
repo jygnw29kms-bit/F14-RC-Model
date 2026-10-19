@@ -1,0 +1,89 @@
+{
+  "status": "NATIVE_FORMHYPOTHESE_ERZEUGT_NICHT_ORIGINALE_NASENGEOMETRIE",
+  "inputs": {
+    "analysis\\original_front_sources\\front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed",
+    "analysis\\original_front_sources\\nose_to_A_stroke_center_samples.json": "693dda370511f332171f4fd166f5128a972028df3bb061be7ab9c8e67109e061",
+    "analysis\\propulsion_source_silhouette_constraints_v134.json": "0d93839d390b87789a5a5048033ab70b15082a671cb27b4f1c8ac787e4b72f4d"
+  },
+  "annahme": "Anisotrop normierte originale A-Polygonform an jeder Station auf die Projektionsbreite/-hoehe skalieren. Form vorA ist damit angenommen, nicht aus Originalquerschnitten rekonstruiert.",
+  "sections": [
+    {
+      "x_candidate_mm": 9.304940618695241,
+      "width_mm": 3.689815862620982,
+      "height_mm": 5.798282069832972,
+      "area_hypothesis_mm2": 18.07379689920555,
+      "valid": true
+    },
+    {
+      "x_candidate_mm": 22.482854413770156,
+      "width_mm": 15.286380002286926,
+      "height_mm": 16.867729657695918,
+      "area_hypothesis_mm2": 217.8244613306851,
+      "valid": true
+    },
+    {
+      "x_candidate_mm": 35.66076820884507,
+      "width_mm": 24.77447793474088,
+      "height_mm": 26.35582759014987,
+      "area_hypothesis_mm2": 551.6028923783513,
+      "valid": true
+    },
+    {
+      "x_candidate_mm": 48.838682003919985,
+      "width_mm": 32.94478448768734,
+      "height_mm": 34.26257586719483,
+      "area_hypothesis_mm2": 953.5688299093839,
+      "valid": true
+    },
+    {
+      "x_candidate_mm": 62.01659579899501,
+      "width_mm": 39.53374138522481,
+      "height_mm": 40.5879744888308,
+      "area_hypothesis_mm2": 1355.534767440416,
+      "valid": true
+    },
+    {
+      "x_candidate_mm": 75.19450959406993,
+      "width_mm": 45.85914000686078,
+      "height_mm": 45.595581730959275,
+      "area_hypothesis_mm2": 1766.4202411035242,
+      "valid": true
+    },
+    {
+      "x_candidate_mm": 88.37242338914484,
+      "width_mm": 50.603188973087754,
+      "height_mm": 49.812514145383254,
+      "area_hypothesis_mm2": 2129.42188921549,
+      "valid": true
+    },
+    {
+      "x_candidate_mm": 101.55033718421976,
+      "width_mm": 54.55656311161023,
+      "height_mm": 53.238771732102734,
+      "area_hypothesis_mm2": 2453.693972543444,
+      "valid": true
+    },
+    {
+      "x_candidate_mm": 110.77487684077221,
+      "width_mm": 56.53325018087148,
+      "height_mm": 55.610796215216226,
+      "area_hypothesis_mm2": 2655.8799050636153,
+      "valid": true
+    }
+  ],
+  "native_valid": true,
+  "solids": 1,
+  "hypothesis_volume_mm3": 131031.28455774212,
+  "output_sha256": "df9d75ee38c715bac9d1ba35a4394e317ae352b1281444b71a3731ae49ec5012",
+  "einschraenkungen": [
+    "Keine neue Quellenkontur; keine exakte Originalaussenform.",
+    "Ruled-Loft zwischen9Proben; Zwischenprojektionen ungeprueft.",
+    "Gemeinsame X-Abbildung und metrischer Rahmen ungeprueft.",
+    "Bereich beginnt hinter Nasenapex; keine vollstaendige Nase.",
+    "A-Endprofil auf Projektionsmasse skaliert, NICHT unveraenderte originale SektionA.",
+    "Bestehende Radom- und Originalquerschnittssperren bleiben aktiv."
+  ],
+  "originalquerschnitte_geaendert": false,
+  "master_geaendert": false,
+  "produktion_freigegeben": false
+}
