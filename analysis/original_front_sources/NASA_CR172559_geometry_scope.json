@@ -1,0 +1,12 @@
+{
+  "status": "NASA_GRUMMAN_MODELLHERKUNFT_VISUELL_GEPRUEFT",
+  "quelle": "NASA CR172559, Configuration Analysis Models, PDF15 / Druckseite5",
+  "pdf_sha256": "266ae1d71b32afcb7a44ea41e275669b98338f42bc62fb79d33a815c45ed1d5e",
+  "rumpf_nacelle": "Aus einem1:40-Dreiriss abgeleitet. Hintere Nacelle/Pancake-Region ausdrücklich nicht exakt dargestellt. Quick-Geometry verlangt einen einwertigen Radius je Körperwinkel; Einlauf wird mit einer das Gesicht abdeckenden Rampe modelliert.",
+  "fluegel": "Flügelschnitte stammen dagegen laut Bericht aus der Konturentwicklung und repräsentieren die gefertigte Außenfläche. Separater AnhangA verwendet Windkanalmodellkonturen.",
+  "glove": "Grundriss unverändert; stromweise Profile kombinieren vordere feste Glove-Konturen mit schwenkwinkelabhängigen hinteren Außenflügelkonturen.",
+  "konsequenz": "Der NASA-Bericht ist eine belastbare Primärquelle für seine eigene Geometrieherkunft. Seine numerischen Rumpfparameter dürfen dennoch nicht als Fertigungskoordinaten oder unabhängige Bestätigung einer originalgetreuen Nasenoberfläche ausgegeben werden.",
+  "naechster_schritt": "Numerisches Rumpfmodell nur als getrennte Rechenreferenz verwenden. Originale UPC-Schnitte/Projektionen behalten; Unsicherheit und unabhängige Korrespondenz prüfen.",
+  "produktion_freigegeben": false,
+  "geometrie_geaendert": false
+}
