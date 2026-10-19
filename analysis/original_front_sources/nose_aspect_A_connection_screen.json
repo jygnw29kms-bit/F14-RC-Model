@@ -1,0 +1,118 @@
+{
+  "status": "NASEN_ASPEKT_UND_A_ANSCHLUSS_QUANTIFIZIERT_KEINE_FORMFREIGABE",
+  "eingaben": [
+    {
+      "path": "analysis\\original_front_sources\\nose_to_A_stroke_center_samples.json",
+      "sha256": "693dda370511f332171f4fd166f5128a972028df3bb061be7ab9c8e67109e061"
+    },
+    {
+      "path": "analysis\\original_front_sources\\A_circularity_screen.json",
+      "sha256": "671f4cfe801389c6975b1e61ff947b4d06b63f42ea9e6e03ca7e67e19f5a4a64"
+    }
+  ],
+  "proben": [
+    {
+      "X_candidate_mm": 9.304940618695241,
+      "width_mm": 3.689815862620982,
+      "height_mm": 5.798282069832972,
+      "width_over_height": 0.6363636363636364,
+      "height_over_width": 1.5714285714285714,
+      "width_minus_height_mm": -2.1084662072119897,
+      "side_center_Z_candidate_mm": -19.27561761052729
+    },
+    {
+      "X_candidate_mm": 22.482854413770156,
+      "width_mm": 15.286380002286926,
+      "height_mm": 16.867729657695918,
+      "width_over_height": 0.90625,
+      "height_over_width": 1.103448275862069,
+      "width_minus_height_mm": -1.5813496554089923,
+      "side_center_Z_candidate_mm": -17.957826231019798
+    },
+    {
+      "X_candidate_mm": 35.66076820884507,
+      "width_mm": 24.77447793474088,
+      "height_mm": 26.35582759014987,
+      "width_over_height": 0.94,
+      "height_over_width": 1.0638297872340425,
+      "width_minus_height_mm": -1.5813496554089923,
+      "side_center_Z_candidate_mm": -16.903593127413803
+    },
+    {
+      "X_candidate_mm": 48.838682003919985,
+      "width_mm": 32.94478448768734,
+      "height_mm": 34.26257586719483,
+      "width_over_height": 0.9615384615384617,
+      "height_over_width": 1.0399999999999998,
+      "width_minus_height_mm": -1.31779137950749,
+      "side_center_Z_candidate_mm": -15.585801747906308
+    },
+    {
+      "X_candidate_mm": 62.01659579899501,
+      "width_mm": 39.53374138522481,
+      "height_mm": 40.5879744888308,
+      "width_over_height": 0.974025974025974,
+      "height_over_width": 1.0266666666666666,
+      "width_minus_height_mm": -1.0542331036059949,
+      "side_center_Z_candidate_mm": -14.004452092497315
+    },
+    {
+      "X_candidate_mm": 75.19450959406993,
+      "width_mm": 45.85914000686078,
+      "height_mm": 45.59558173095928,
+      "width_over_height": 1.005780346820809,
+      "height_over_width": 0.9942528735632185,
+      "width_minus_height_mm": 0.26355827590149516,
+      "side_center_Z_candidate_mm": -12.554881575039072
+    },
+    {
+      "X_candidate_mm": 88.37242338914484,
+      "width_mm": 50.603188973087754,
+      "height_mm": 49.81251414538326,
+      "width_over_height": 1.0158730158730158,
+      "height_over_width": 0.9843750000000001,
+      "width_minus_height_mm": 0.7906748277044926,
+      "side_center_Z_candidate_mm": -10.97353191963008
+    },
+    {
+      "X_candidate_mm": 101.55033718421976,
+      "width_mm": 54.55656311161023,
+      "height_mm": 53.23877173210274,
+      "width_over_height": 1.0247524752475248,
+      "height_over_width": 0.9758454106280194,
+      "width_minus_height_mm": 1.31779137950749,
+      "side_center_Z_candidate_mm": -9.260403126270338
+    },
+    {
+      "X_candidate_mm": 110.77487684077221,
+      "width_mm": 56.53325018087148,
+      "height_mm": 55.610796215216226,
+      "width_over_height": 1.0165876777251186,
+      "height_over_width": 0.9836829836829836,
+      "width_minus_height_mm": 0.9224539656552508,
+      "side_center_Z_candidate_mm": -8.074390884713594
+    }
+  ],
+  "breite_gleich_hoehe_kreuzung_X_candidate_mm": [
+    72.55892683505498
+  ],
+  "A_anschluss": {
+    "X_candidate_mm": 110.77487684077221,
+    "breitendifferenz_gegen_original_A_mm": 0.13177913795074403,
+    "hoehenunterschied_gegen_original_A_mm": -3.5293069123020615,
+    "absolute_breitendifferenz_mm": 0.13177913795074403,
+    "absolute_hoehenunterschied_mm": 3.5293069123020615,
+    "kreisfit_A_max_abs_relativ_radius": 0.14433611219784256
+  },
+  "schlussfolgerungen": [
+    "Die vorhandenen Drauf- und Seitenansichtsproben verlangen keinen Kreisquerschnitt.",
+    "Der Formtrend wechselt entlang der Nase von hoeher-als-breit zu leicht breiter-als-hoch.",
+    "Die Breite trifft Sektion A im aktuellen Kandidatenrahmen deutlich besser als die Hoehe.",
+    "Vor einer 3D-Loftstudie muss der Seitenansichts-/Hoehenanschluss an Sektion A geklaert werden.",
+    "Keine automatische Ellipse, Superellipse oder Kreisform aus diesen Daten ableiten."
+  ],
+  "naechster_schritt": "Ursache der Hoehenabweichung an A zwischen Seitenansicht, Achslage und originaler Sektion A isolieren; erst danach Querschnittskandidaten als Studie erzeugen.",
+  "geometrie_geaendert": false,
+  "master_geaendert": false,
+  "produktion_freigegeben": false
+}
