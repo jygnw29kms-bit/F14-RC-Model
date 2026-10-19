@@ -1,0 +1,1196 @@
+{
+  "status": "C_EINLAUF_NACHZEICHNUNGEN_GEGEN_RASTER_TEILWEISE_GEPRUEFT",
+  "inputs": [
+    {
+      "path": "references\\UPC_Figure3_15_source_exact.png",
+      "sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4"
+    },
+    {
+      "path": "analysis\\original_front_sources\\front_sections_pixel_candidates.json",
+      "sha256": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+    }
+  ],
+  "rows": [
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 600,
+      "raster_white_interval_px": [
+        920,
+        987
+      ],
+      "trace_intersections": [
+        918.1279069767442,
+        987.1428571428571
+      ],
+      "left_delta_px": -1.872093023255843,
+      "right_delta_px": 0.14285714285711038
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 620,
+      "raster_white_interval_px": [
+        917,
+        984
+      ],
+      "trace_intersections": [
+        913.7093023255813,
+        984.7619047619048
+      ],
+      "left_delta_px": -3.2906976744186522,
+      "right_delta_px": 0.761904761904816
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 625,
+      "raster_white_interval_px": [
+        916,
+        983
+      ],
+      "trace_intersections": [
+        912.6046511627907,
+        984.1666666666666
+      ],
+      "left_delta_px": -3.395348837209326,
+      "right_delta_px": 1.1666666666666288
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 630,
+      "raster_white_interval_px": [
+        915,
+        982
+      ],
+      "trace_intersections": [
+        911.5,
+        983.5714285714286
+      ],
+      "left_delta_px": -3.5,
+      "right_delta_px": 1.5714285714285552
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 635,
+      "raster_white_interval_px": [
+        914,
+        981
+      ],
+      "trace_intersections": [
+        911.0454545454545,
+        982.9761904761905
+      ],
+      "left_delta_px": -2.954545454545496,
+      "right_delta_px": 1.9761904761904816
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 640,
+      "raster_white_interval_px": [
+        913,
+        981
+      ],
+      "trace_intersections": [
+        910.5909090909091,
+        982.3484848484849
+      ],
+      "left_delta_px": -2.409090909090878,
+      "right_delta_px": 1.3484848484848726
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 645,
+      "raster_white_interval_px": [
+        913,
+        980
+      ],
+      "trace_intersections": [
+        910.1363636363636,
+        981.5909090909091
+      ],
+      "left_delta_px": -2.863636363636374,
+      "right_delta_px": 1.590909090909122
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 650,
+      "raster_white_interval_px": [
+        912,
+        979
+      ],
+      "trace_intersections": [
+        909.6818181818181,
+        980.8333333333334
+      ],
+      "left_delta_px": -2.31818181818187,
+      "right_delta_px": 1.8333333333333712
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 655,
+      "raster_white_interval_px": [
+        911,
+        978
+      ],
+      "trace_intersections": [
+        909.2272727272727,
+        980.0757575757576
+      ],
+      "left_delta_px": -1.772727272727252,
+      "right_delta_px": 2.0757575757576205
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 660,
+      "raster_white_interval_px": [
+        910,
+        977
+      ],
+      "trace_intersections": [
+        908.7727272727273,
+        979.3181818181819
+      ],
+      "left_delta_px": -1.227272727272748,
+      "right_delta_px": 2.31818181818187
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 665,
+      "raster_white_interval_px": [
+        910,
+        977
+      ],
+      "trace_intersections": [
+        909.0454545454545,
+        978.560606060606
+      ],
+      "left_delta_px": -0.9545454545454959,
+      "right_delta_px": 1.5606060606060055
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 670,
+      "raster_white_interval_px": [
+        912,
+        976
+      ],
+      "trace_intersections": [
+        911.3125,
+        977.8030303030303
+      ],
+      "left_delta_px": -0.6875,
+      "right_delta_px": 1.8030303030302548
+    },
+    {
+      "loop": 1,
+      "threshold": 96,
+      "y_pixel": 675,
+      "raster_white_interval_px": [
+        922,
+        974
+      ],
+      "trace_intersections": [
+        919.0,
+        975.2058823529412
+      ],
+      "left_delta_px": -3.0,
+      "right_delta_px": 1.2058823529412166
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 600,
+      "raster_white_interval_px": [
+        1149,
+        1215
+      ],
+      "trace_intersections": [
+        1149.2934782608695,
+        1214.32
+      ],
+      "left_delta_px": 0.2934782608695059,
+      "right_delta_px": -0.6800000000000637
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 620,
+      "raster_white_interval_px": [
+        1151,
+        1219
+      ],
+      "trace_intersections": [
+        1151.25,
+        1217.12
+      ],
+      "left_delta_px": 0.25,
+      "right_delta_px": -1.8800000000001091
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 625,
+      "raster_white_interval_px": [
+        1152,
+        1219
+      ],
+      "trace_intersections": [
+        1151.7391304347825,
+        1217.82
+      ],
+      "left_delta_px": -0.26086956521749016,
+      "right_delta_px": -1.1800000000000637
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 630,
+      "raster_white_interval_px": [
+        1153,
+        1220
+      ],
+      "trace_intersections": [
+        1152.2282608695652,
+        1218.52
+      ],
+      "left_delta_px": -0.771739130434753,
+      "right_delta_px": -1.4800000000000182
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 635,
+      "raster_white_interval_px": [
+        1154,
+        1221
+      ],
+      "trace_intersections": [
+        1152.7173913043478,
+        1219.22
+      ],
+      "left_delta_px": -1.2826086956522431,
+      "right_delta_px": -1.7799999999999727
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 640,
+      "raster_white_interval_px": [
+        1155,
+        1222
+      ],
+      "trace_intersections": [
+        1153.2065217391305,
+        1220.111111111111
+      ],
+      "left_delta_px": -1.793478260869506,
+      "right_delta_px": -1.8888888888889142
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 645,
+      "raster_white_interval_px": [
+        1156,
+        1223
+      ],
+      "trace_intersections": [
+        1153.7711864406779,
+        1221.1296296296296
+      ],
+      "left_delta_px": -2.228813559322134,
+      "right_delta_px": -1.8703703703704377
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 650,
+      "raster_white_interval_px": [
+        1156,
+        1224
+      ],
+      "trace_intersections": [
+        1154.449152542373,
+        1222.148148148148
+      ],
+      "left_delta_px": -1.5508474576270146,
+      "right_delta_px": -1.8518518518519613
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 655,
+      "raster_white_interval_px": [
+        1157,
+        1224
+      ],
+      "trace_intersections": [
+        1155.1271186440679,
+        1223.1666666666667
+      ],
+      "left_delta_px": -1.8728813559321225,
+      "right_delta_px": -0.8333333333332575
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 660,
+      "raster_white_interval_px": [
+        1158,
+        1225
+      ],
+      "trace_intersections": [
+        1155.8050847457628,
+        1224.1851851851852
+      ],
+      "left_delta_px": -2.1949152542372303,
+      "right_delta_px": -0.8148148148147811
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 665,
+      "raster_white_interval_px": [
+        1158,
+        1225
+      ],
+      "trace_intersections": [
+        1156.4830508474577,
+        1224.6153846153845
+      ],
+      "left_delta_px": -1.5169491525423382,
+      "right_delta_px": -0.38461538461547207
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 670,
+      "raster_white_interval_px": [
+        1159,
+        1222
+      ],
+      "trace_intersections": [
+        1157.1610169491526,
+        1222.6923076923076
+      ],
+      "left_delta_px": -1.838983050847446,
+      "right_delta_px": 0.6923076923076223
+    },
+    {
+      "loop": 2,
+      "threshold": 96,
+      "y_pixel": 675,
+      "raster_white_interval_px": [
+        1161,
+        1210
+      ],
+      "trace_intersections": [
+        1158.8235294117646,
+        1216.7727272727273
+      ],
+      "left_delta_px": -2.176470588235361,
+      "right_delta_px": 6.772727272727252
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 600,
+      "raster_white_interval_px": [
+        920,
+        987
+      ],
+      "trace_intersections": [
+        918.1279069767442,
+        987.1428571428571
+      ],
+      "left_delta_px": -1.872093023255843,
+      "right_delta_px": 0.14285714285711038
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 620,
+      "raster_white_interval_px": [
+        917,
+        984
+      ],
+      "trace_intersections": [
+        913.7093023255813,
+        984.7619047619048
+      ],
+      "left_delta_px": -3.2906976744186522,
+      "right_delta_px": 0.761904761904816
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 625,
+      "raster_white_interval_px": [
+        916,
+        983
+      ],
+      "trace_intersections": [
+        912.6046511627907,
+        984.1666666666666
+      ],
+      "left_delta_px": -3.395348837209326,
+      "right_delta_px": 1.1666666666666288
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 630,
+      "raster_white_interval_px": [
+        915,
+        982
+      ],
+      "trace_intersections": [
+        911.5,
+        983.5714285714286
+      ],
+      "left_delta_px": -3.5,
+      "right_delta_px": 1.5714285714285552
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 635,
+      "raster_white_interval_px": [
+        914,
+        981
+      ],
+      "trace_intersections": [
+        911.0454545454545,
+        982.9761904761905
+      ],
+      "left_delta_px": -2.954545454545496,
+      "right_delta_px": 1.9761904761904816
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 640,
+      "raster_white_interval_px": [
+        913,
+        981
+      ],
+      "trace_intersections": [
+        910.5909090909091,
+        982.3484848484849
+      ],
+      "left_delta_px": -2.409090909090878,
+      "right_delta_px": 1.3484848484848726
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 645,
+      "raster_white_interval_px": [
+        913,
+        980
+      ],
+      "trace_intersections": [
+        910.1363636363636,
+        981.5909090909091
+      ],
+      "left_delta_px": -2.863636363636374,
+      "right_delta_px": 1.590909090909122
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 650,
+      "raster_white_interval_px": [
+        912,
+        979
+      ],
+      "trace_intersections": [
+        909.6818181818181,
+        980.8333333333334
+      ],
+      "left_delta_px": -2.31818181818187,
+      "right_delta_px": 1.8333333333333712
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 655,
+      "raster_white_interval_px": [
+        911,
+        978
+      ],
+      "trace_intersections": [
+        909.2272727272727,
+        980.0757575757576
+      ],
+      "left_delta_px": -1.772727272727252,
+      "right_delta_px": 2.0757575757576205
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 660,
+      "raster_white_interval_px": [
+        910,
+        977
+      ],
+      "trace_intersections": [
+        908.7727272727273,
+        979.3181818181819
+      ],
+      "left_delta_px": -1.227272727272748,
+      "right_delta_px": 2.31818181818187
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 665,
+      "raster_white_interval_px": [
+        910,
+        977
+      ],
+      "trace_intersections": [
+        909.0454545454545,
+        978.560606060606
+      ],
+      "left_delta_px": -0.9545454545454959,
+      "right_delta_px": 1.5606060606060055
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 670,
+      "raster_white_interval_px": [
+        912,
+        976
+      ],
+      "trace_intersections": [
+        911.3125,
+        977.8030303030303
+      ],
+      "left_delta_px": -0.6875,
+      "right_delta_px": 1.8030303030302548
+    },
+    {
+      "loop": 1,
+      "threshold": 128,
+      "y_pixel": 675,
+      "raster_white_interval_px": [
+        923,
+        974
+      ],
+      "trace_intersections": [
+        919.0,
+        975.2058823529412
+      ],
+      "left_delta_px": -4.0,
+      "right_delta_px": 1.2058823529412166
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 600,
+      "raster_white_interval_px": [
+        1149,
+        1215
+      ],
+      "trace_intersections": [
+        1149.2934782608695,
+        1214.32
+      ],
+      "left_delta_px": 0.2934782608695059,
+      "right_delta_px": -0.6800000000000637
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 620,
+      "raster_white_interval_px": [
+        1152,
+        1218
+      ],
+      "trace_intersections": [
+        1151.25,
+        1217.12
+      ],
+      "left_delta_px": -0.75,
+      "right_delta_px": -0.8800000000001091
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 625,
+      "raster_white_interval_px": [
+        1152,
+        1219
+      ],
+      "trace_intersections": [
+        1151.7391304347825,
+        1217.82
+      ],
+      "left_delta_px": -0.26086956521749016,
+      "right_delta_px": -1.1800000000000637
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 630,
+      "raster_white_interval_px": [
+        1153,
+        1220
+      ],
+      "trace_intersections": [
+        1152.2282608695652,
+        1218.52
+      ],
+      "left_delta_px": -0.771739130434753,
+      "right_delta_px": -1.4800000000000182
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 635,
+      "raster_white_interval_px": [
+        1154,
+        1221
+      ],
+      "trace_intersections": [
+        1152.7173913043478,
+        1219.22
+      ],
+      "left_delta_px": -1.2826086956522431,
+      "right_delta_px": -1.7799999999999727
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 640,
+      "raster_white_interval_px": [
+        1155,
+        1222
+      ],
+      "trace_intersections": [
+        1153.2065217391305,
+        1220.111111111111
+      ],
+      "left_delta_px": -1.793478260869506,
+      "right_delta_px": -1.8888888888889142
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 645,
+      "raster_white_interval_px": [
+        1156,
+        1223
+      ],
+      "trace_intersections": [
+        1153.7711864406779,
+        1221.1296296296296
+      ],
+      "left_delta_px": -2.228813559322134,
+      "right_delta_px": -1.8703703703704377
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 650,
+      "raster_white_interval_px": [
+        1156,
+        1224
+      ],
+      "trace_intersections": [
+        1154.449152542373,
+        1222.148148148148
+      ],
+      "left_delta_px": -1.5508474576270146,
+      "right_delta_px": -1.8518518518519613
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 655,
+      "raster_white_interval_px": [
+        1157,
+        1224
+      ],
+      "trace_intersections": [
+        1155.1271186440679,
+        1223.1666666666667
+      ],
+      "left_delta_px": -1.8728813559321225,
+      "right_delta_px": -0.8333333333332575
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 660,
+      "raster_white_interval_px": [
+        1158,
+        1225
+      ],
+      "trace_intersections": [
+        1155.8050847457628,
+        1224.1851851851852
+      ],
+      "left_delta_px": -2.1949152542372303,
+      "right_delta_px": -0.8148148148147811
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 665,
+      "raster_white_interval_px": [
+        1158,
+        1225
+      ],
+      "trace_intersections": [
+        1156.4830508474577,
+        1224.6153846153845
+      ],
+      "left_delta_px": -1.5169491525423382,
+      "right_delta_px": -0.38461538461547207
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 670,
+      "raster_white_interval_px": [
+        1160,
+        1222
+      ],
+      "trace_intersections": [
+        1157.1610169491526,
+        1222.6923076923076
+      ],
+      "left_delta_px": -2.838983050847446,
+      "right_delta_px": 0.6923076923076223
+    },
+    {
+      "loop": 2,
+      "threshold": 128,
+      "y_pixel": 675,
+      "raster_white_interval_px": [
+        1161,
+        1210
+      ],
+      "trace_intersections": [
+        1158.8235294117646,
+        1216.7727272727273
+      ],
+      "left_delta_px": -2.176470588235361,
+      "right_delta_px": 6.772727272727252
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 600,
+      "raster_white_interval_px": [
+        920,
+        987
+      ],
+      "trace_intersections": [
+        918.1279069767442,
+        987.1428571428571
+      ],
+      "left_delta_px": -1.872093023255843,
+      "right_delta_px": 0.14285714285711038
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 620,
+      "raster_white_interval_px": [
+        917,
+        984
+      ],
+      "trace_intersections": [
+        913.7093023255813,
+        984.7619047619048
+      ],
+      "left_delta_px": -3.2906976744186522,
+      "right_delta_px": 0.761904761904816
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 625,
+      "raster_white_interval_px": [
+        916,
+        983
+      ],
+      "trace_intersections": [
+        912.6046511627907,
+        984.1666666666666
+      ],
+      "left_delta_px": -3.395348837209326,
+      "right_delta_px": 1.1666666666666288
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 630,
+      "raster_white_interval_px": [
+        915,
+        982
+      ],
+      "trace_intersections": [
+        911.5,
+        983.5714285714286
+      ],
+      "left_delta_px": -3.5,
+      "right_delta_px": 1.5714285714285552
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 635,
+      "raster_white_interval_px": [
+        914,
+        981
+      ],
+      "trace_intersections": [
+        911.0454545454545,
+        982.9761904761905
+      ],
+      "left_delta_px": -2.954545454545496,
+      "right_delta_px": 1.9761904761904816
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 640,
+      "raster_white_interval_px": [
+        914,
+        980
+      ],
+      "trace_intersections": [
+        910.5909090909091,
+        982.3484848484849
+      ],
+      "left_delta_px": -3.409090909090878,
+      "right_delta_px": 2.3484848484848726
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 645,
+      "raster_white_interval_px": [
+        913,
+        980
+      ],
+      "trace_intersections": [
+        910.1363636363636,
+        981.5909090909091
+      ],
+      "left_delta_px": -2.863636363636374,
+      "right_delta_px": 1.590909090909122
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 650,
+      "raster_white_interval_px": [
+        912,
+        979
+      ],
+      "trace_intersections": [
+        909.6818181818181,
+        980.8333333333334
+      ],
+      "left_delta_px": -2.31818181818187,
+      "right_delta_px": 1.8333333333333712
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 655,
+      "raster_white_interval_px": [
+        911,
+        978
+      ],
+      "trace_intersections": [
+        909.2272727272727,
+        980.0757575757576
+      ],
+      "left_delta_px": -1.772727272727252,
+      "right_delta_px": 2.0757575757576205
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 660,
+      "raster_white_interval_px": [
+        910,
+        977
+      ],
+      "trace_intersections": [
+        908.7727272727273,
+        979.3181818181819
+      ],
+      "left_delta_px": -1.227272727272748,
+      "right_delta_px": 2.31818181818187
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 665,
+      "raster_white_interval_px": [
+        910,
+        976
+      ],
+      "trace_intersections": [
+        909.0454545454545,
+        978.560606060606
+      ],
+      "left_delta_px": -0.9545454545454959,
+      "right_delta_px": 2.5606060606060055
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 670,
+      "raster_white_interval_px": [
+        913,
+        976
+      ],
+      "trace_intersections": [
+        911.3125,
+        977.8030303030303
+      ],
+      "left_delta_px": -1.6875,
+      "right_delta_px": 1.8030303030302548
+    },
+    {
+      "loop": 1,
+      "threshold": 160,
+      "y_pixel": 675,
+      "raster_white_interval_px": [
+        923,
+        974
+      ],
+      "trace_intersections": [
+        919.0,
+        975.2058823529412
+      ],
+      "left_delta_px": -4.0,
+      "right_delta_px": 1.2058823529412166
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 600,
+      "raster_white_interval_px": [
+        1149,
+        1215
+      ],
+      "trace_intersections": [
+        1149.2934782608695,
+        1214.32
+      ],
+      "left_delta_px": 0.2934782608695059,
+      "right_delta_px": -0.6800000000000637
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 620,
+      "raster_white_interval_px": [
+        1152,
+        1218
+      ],
+      "trace_intersections": [
+        1151.25,
+        1217.12
+      ],
+      "left_delta_px": -0.75,
+      "right_delta_px": -0.8800000000001091
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 625,
+      "raster_white_interval_px": [
+        1152,
+        1219
+      ],
+      "trace_intersections": [
+        1151.7391304347825,
+        1217.82
+      ],
+      "left_delta_px": -0.26086956521749016,
+      "right_delta_px": -1.1800000000000637
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 630,
+      "raster_white_interval_px": [
+        1153,
+        1220
+      ],
+      "trace_intersections": [
+        1152.2282608695652,
+        1218.52
+      ],
+      "left_delta_px": -0.771739130434753,
+      "right_delta_px": -1.4800000000000182
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 635,
+      "raster_white_interval_px": [
+        1154,
+        1221
+      ],
+      "trace_intersections": [
+        1152.7173913043478,
+        1219.22
+      ],
+      "left_delta_px": -1.2826086956522431,
+      "right_delta_px": -1.7799999999999727
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 640,
+      "raster_white_interval_px": [
+        1155,
+        1222
+      ],
+      "trace_intersections": [
+        1153.2065217391305,
+        1220.111111111111
+      ],
+      "left_delta_px": -1.793478260869506,
+      "right_delta_px": -1.8888888888889142
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 645,
+      "raster_white_interval_px": [
+        1156,
+        1223
+      ],
+      "trace_intersections": [
+        1153.7711864406779,
+        1221.1296296296296
+      ],
+      "left_delta_px": -2.228813559322134,
+      "right_delta_px": -1.8703703703704377
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 650,
+      "raster_white_interval_px": [
+        1156,
+        1224
+      ],
+      "trace_intersections": [
+        1154.449152542373,
+        1222.148148148148
+      ],
+      "left_delta_px": -1.5508474576270146,
+      "right_delta_px": -1.8518518518519613
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 655,
+      "raster_white_interval_px": [
+        1157,
+        1224
+      ],
+      "trace_intersections": [
+        1155.1271186440679,
+        1223.1666666666667
+      ],
+      "left_delta_px": -1.8728813559321225,
+      "right_delta_px": -0.8333333333332575
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 660,
+      "raster_white_interval_px": [
+        1158,
+        1225
+      ],
+      "trace_intersections": [
+        1155.8050847457628,
+        1224.1851851851852
+      ],
+      "left_delta_px": -2.1949152542372303,
+      "right_delta_px": -0.8148148148147811
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 665,
+      "raster_white_interval_px": [
+        1159,
+        1225
+      ],
+      "trace_intersections": [
+        1156.4830508474577,
+        1224.6153846153845
+      ],
+      "left_delta_px": -2.516949152542338,
+      "right_delta_px": -0.38461538461547207
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 670,
+      "raster_white_interval_px": [
+        1160,
+        1222
+      ],
+      "trace_intersections": [
+        1157.1610169491526,
+        1222.6923076923076
+      ],
+      "left_delta_px": -2.838983050847446,
+      "right_delta_px": 0.6923076923076223
+    },
+    {
+      "loop": 2,
+      "threshold": 160,
+      "y_pixel": 675,
+      "raster_white_interval_px": [
+        1161,
+        1210
+      ],
+      "trace_intersections": [
+        1158.8235294117646,
+        1216.7727272727273
+      ],
+      "left_delta_px": -2.176470588235361,
+      "right_delta_px": 6.772727272727252
+    }
+  ],
+  "max_abs_delta_pixel": 6.772727272727252,
+  "hinweise": [
+    "Größter zusammenhängender weißer Lauf im visuell ausgewählten Öffnungsband, nicht Strichmitte.",
+    "Achsenzeilen605..615 ausgeschlossen; nur13Innenzeilen je Öffnung und Schwellenwert.",
+    "Rasterstrichdicke und Nachzeichnungsfehler sind nicht getrennt.",
+    "Kein vollständiger Kontur-/Fertigungsnachweis.",
+    "Frühere auf groben C-Loops beruhende Flächen- und Wandabstandsrechnungen sind Kandidaten, kein Originalkontur-Nachweis."
+  ],
+  "next": "C-Öffnungen vor mechanischer oder ductseitiger Freigabe separat neu nachzeichnen und Verschachtelung/Außenwand prüfen.",
+  "quellkontur_geaendert": false,
+  "produktion_freigegeben": false
+}
