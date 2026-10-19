@@ -1,0 +1,84 @@
+{
+  "status": "C_WEISSRAUM_REFERENZEN_TOPOLOGISCH_UND_NATIV_GEPRUEFT",
+  "inputs": {
+    "analysis\\original_front_sources\\C_aperture_white_envelopes_v2.json": "e4559e29c8595876a73aa3a04774f15cf2b197766a9d3d4001be68b6eb08e650",
+    "analysis\\original_front_sources\\front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "analysis\\original_front_sources\\front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "label": "links",
+      "vertices": 186,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 1217.0565797969443,
+      "analytic_area_mm2": 1217.056579796944,
+      "outside_old_outer_area_mm2": 0.0,
+      "minimum_planar_boundary_gap_to_old_outer_mm": 1.3373812815784913
+    },
+    {
+      "threshold": 96,
+      "label": "rechts",
+      "vertices": 184,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 1214.0147250340276,
+      "analytic_area_mm2": 1214.0147250340283,
+      "outside_old_outer_area_mm2": 0.0,
+      "minimum_planar_boundary_gap_to_old_outer_mm": 1.8020877886545532
+    },
+    {
+      "threshold": 128,
+      "label": "links",
+      "vertices": 184,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 1211.7071110759543,
+      "analytic_area_mm2": 1211.7071110759543,
+      "outside_old_outer_area_mm2": 0.0,
+      "minimum_planar_boundary_gap_to_old_outer_mm": 1.3373812815784913
+    },
+    {
+      "threshold": 128,
+      "label": "rechts",
+      "vertices": 184,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 1208.5603647694895,
+      "analytic_area_mm2": 1208.5603647694898,
+      "outside_old_outer_area_mm2": 0.0,
+      "minimum_planar_boundary_gap_to_old_outer_mm": 1.8910839285874232
+    },
+    {
+      "threshold": 160,
+      "label": "links",
+      "vertices": 184,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 1207.301666246904,
+      "analytic_area_mm2": 1207.301666246904,
+      "outside_old_outer_area_mm2": 0.0,
+      "minimum_planar_boundary_gap_to_old_outer_mm": 1.3373812815784913
+    },
+    {
+      "threshold": 160,
+      "label": "rechts",
+      "vertices": 184,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 1204.0500283968904,
+      "analytic_area_mm2": 1204.0500283968904,
+      "outside_old_outer_area_mm2": 0.0,
+      "minimum_planar_boundary_gap_to_old_outer_mm": 1.9089624656738813
+    }
+  ],
+  "output_sha256": "91e4f1fdb28e3e8f0a99680a27eeefc788e6e6c05a03069e3d6c9e1e80a6a911",
+  "hinweise": [
+    "Außenkontur weiterhin alte grobe Nachzeichnung; Abstand dazu kein Originalwandnachweis.",
+    "Weißraumrand, nicht Strichmitte.",
+    "Achsenlücke607..611 bleibt ungemessen.",
+    "Metrischer Rahmen ungeprüft; keine Duct- oder Masteränderung."
+  ],
+  "produktion_freigegeben": false
+}
