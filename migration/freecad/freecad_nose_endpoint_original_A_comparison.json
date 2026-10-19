@@ -1,0 +1,24 @@
+{
+  "status": "NATIVER_ENDPROFILVERGLEICH_ORIGINAL_A_AUSGEFUEHRT",
+  "inputs": {
+    "F14_NOSE_A_SHAPE_SENSITIVITY.FCStd": "df9d75ee38c715bac9d1ba35a4394e317ae352b1281444b71a3731ae49ec5012",
+    "F14_ORIGINAL_ABCDEF_SECTION_CANDIDATES.FCStd": "a6d5c95944194de77b1170c6507b108d60ac83738eacb3bb553d31c5691dfd51"
+  },
+  "original_A_area_mm2": 2817.8500203707044,
+  "hypothesis_end_area_mm2": 2655.8799050636153,
+  "intersection_area_mm2": 2651.808738577502,
+  "original_minus_hypothesis_area_mm2": 166.04128179320253,
+  "hypothesis_minus_original_area_mm2": 4.0711664861129755,
+  "width_difference_mm": 0.13177913795074403,
+  "height_difference_mm": -3.5293069123020615,
+  "original_to_hypothesis_sampled_boundary_distance_mm": 1.8966025750847315,
+  "hypothesis_to_original_sampled_boundary_distance_mm": 1.621551927305811,
+  "hinweise": [
+    "Distanzabfrage an diskreten Quellkantensamples; kein exakter Hausdorff-Nachweis.",
+    "Gleiche X-Ebene ist noch keine verifizierte gemeinsame Quellenregistrierung.",
+    "Flächen- und Randabweichungen zeigen: keine nahtlose Übernahme als Original-A-Anschluss."
+  ],
+  "master_geaendert": false,
+  "originalform_freigegeben": false,
+  "produktion_freigegeben": false
+}

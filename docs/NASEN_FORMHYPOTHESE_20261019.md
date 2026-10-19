@@ -17,3 +17,10 @@ Acht native Zwischenkonturen wurden mit zusätzlichen Originalproben verglichen.
 
 Die untere Strichgruppe bei634 berührt das Ende des gewählten Bildausschnitts und geht in ein Anbauteil über. Ihr Mittelpunkt ist kein belastbarer Rumpfumriss. Version3 lässt deshalb auch diesen Einzelwert aus. Von24 möglichen Vergleichswerten bleiben22 auswertbar; ihr größter Betrag beträgt0.295185mm. Die Geometrie wurde dabei nicht verändert. Dieser kleinere Wert gilt nur für die verbliebenen Projektionsproben und bestätigt weder verdeckte Konturen noch Querschnittsform, Registrierung oder den Anschluss an OriginalsektionA. Die historischen Maximalwerte2.108466mm und0.790675mm sind durch die Quellenprüfung für diese beiden mehrdeutigen Proben überholt.
 
+
+## Anschluss an unveränderte OriginalsektionA
+
+Der native Vergleich ist ausgeführt. Das skalierte Hypothesen-Endprofil ist3.529307mm niedriger und0.131779mm breiter als die unveränderte A-Kontur. Originalfläche:2817.850020mm²; Hypothesenfläche:2655.879905mm². Die native Flächendifferenz beträgt166.041282mm² nur im Original und4.071166mm² nur in der Hypothese. Abgetastete Randabstände erreichen1.896603mm bzw.1.621552mm in den beiden Richtungen. Das ist kein exakter Hausdorff-Abstand.
+
+Die kleinen verbleibenden Zwischenprojektionsfehler erlauben deshalb keine nahtlose Übernahme des Nasenkörpers an OriginalsektionA. Endprofil und Originalkontur wurden nicht angepasst. Vor einer weiteren Loft-Variante müssen Quellenregistrierung und unterschiedliche Projektions-/Schnittdefinition geklärt werden.
+
