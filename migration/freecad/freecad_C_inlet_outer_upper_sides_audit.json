@@ -1,0 +1,65 @@
+{
+  "status": "C_OBERE_AEUSSERE_EINLAUFSEITEN_NATIV_ERZEUGT",
+  "inputs": {
+    "C_inlet_outer_upper_sides.json": "0f300c77618220c5997c2e562abe0c0e675973ca0672aec777b57cd2e6460b7a",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "segment": 0,
+      "vertices": 34,
+      "native_edges": 33,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 1,
+      "vertices": 34,
+      "native_edges": 33,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 0,
+      "vertices": 34,
+      "native_edges": 33,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 1,
+      "vertices": 34,
+      "native_edges": 33,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 0,
+      "vertices": 34,
+      "native_edges": 33,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 1,
+      "vertices": 34,
+      "native_edges": 33,
+      "valid": true,
+      "solids": 0
+    }
+  ],
+  "output_sha256": "b37a948659a2342dc8d7cfab46db8eb271f3e3931e3228d3a61a8a2ae6b9be7d",
+  "hinweise": [
+    "Zwei getrennte offene Linien je Schwelle, Zeilen616..649.",
+    "Strichaussenkante; keine geschlossene Sektion oder Haut.",
+    "Historischer metrischer Rahmen ungeprueft."
+  ],
+  "production_release": false
+}
