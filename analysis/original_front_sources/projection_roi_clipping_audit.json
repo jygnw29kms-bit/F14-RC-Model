@@ -1,0 +1,465 @@
+{
+  "status": "PROJEKTIONS_ROI_RANDSCHUTZ_AUSGEFUEHRT",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "eingaben": [
+    {
+      "path": "nose_to_A_stroke_center_samples.json",
+      "sha256": "693dda370511f332171f4fd166f5128a972028df3bb061be7ab9c8e67109e061"
+    },
+    {
+      "path": "nose_intermediate_projection_check_samples.json",
+      "sha256": "0ce70787523e36b0ba607f533bd07e3325b30bd6a8a29e5c4dc8bdab1f66e5f1"
+    }
+  ],
+  "pruefungen": [
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 450,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 450,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 475,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 475,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 500,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 500,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 525,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 525,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 550,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 550,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 575,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 575,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 600,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 600,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 625,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 625,
+      "ansicht": "side",
+      "roi_y": [
+        2735,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 642,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 643,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 642,
+      "ansicht": "side",
+      "roi_y": [
+        2753,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_to_A_stroke_center_samples.json",
+      "x_spalte": 643,
+      "ansicht": "side",
+      "roi_y": [
+        2753,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 462,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 462,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 487,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 487,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 512,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 512,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 537,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 537,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 562,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 562,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 587,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 587,
+      "ansicht": "side",
+      "roi_y": [
+        2700,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 612,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 612,
+      "ansicht": "side",
+      "roi_y": [
+        2735,
+        2870
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 634,
+      "ansicht": "plan",
+      "roi_y": [
+        1200,
+        1400
+      ],
+      "status": "KEIN_ABSCHNITT_AM_ROI_RAND_ERKANNT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": false
+    },
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 634,
+      "ansicht": "side",
+      "roi_y": [
+        2753,
+        2870
+      ],
+      "status": "BLOCKIERT_ROI_RAND_BERUEHRT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": true
+    }
+  ],
+  "blockierte": [
+    {
+      "eingabe": "nose_intermediate_projection_check_samples.json",
+      "x_spalte": 634,
+      "ansicht": "side",
+      "roi_y": [
+        2753,
+        2870
+      ],
+      "status": "BLOCKIERT_ROI_RAND_BERUEHRT",
+      "oben_abgeschnitten": false,
+      "unten_abgeschnitten": true
+    }
+  ],
+  "grenze": "Ein nicht berührter ROI-Rand bestätigt keine Konturidentität. Zusammenlaufende Radomfuge bei537 benötigt weiterhin visuelle Semantikprüfung.",
+  "originaldaten_geaendert": false,
+  "produktionsfreigabe": false
+}
