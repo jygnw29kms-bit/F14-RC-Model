@@ -1,0 +1,87 @@
+{
+  "status": "RASTER_SEGMENTANSCHLUSS_GEPRUEFT",
+  "rows": [
+    {
+      "threshold": 96,
+      "side": 0,
+      "last_upper_pixel": [
+        905,
+        649
+      ],
+      "first_lower_pixel": [
+        905,
+        650
+      ],
+      "gap_pixel": 1.0
+    },
+    {
+      "threshold": 96,
+      "side": 1,
+      "last_upper_pixel": [
+        1230,
+        649
+      ],
+      "first_lower_pixel": [
+        1231,
+        650
+      ],
+      "gap_pixel": 1.4142135623730951
+    },
+    {
+      "threshold": 128,
+      "side": 0,
+      "last_upper_pixel": [
+        905,
+        649
+      ],
+      "first_lower_pixel": [
+        905,
+        650
+      ],
+      "gap_pixel": 1.0
+    },
+    {
+      "threshold": 128,
+      "side": 1,
+      "last_upper_pixel": [
+        1231,
+        649
+      ],
+      "first_lower_pixel": [
+        1231,
+        650
+      ],
+      "gap_pixel": 1.0
+    },
+    {
+      "threshold": 160,
+      "side": 0,
+      "last_upper_pixel": [
+        905,
+        649
+      ],
+      "first_lower_pixel": [
+        905,
+        650
+      ],
+      "gap_pixel": 1.0
+    },
+    {
+      "threshold": 160,
+      "side": 1,
+      "last_upper_pixel": [
+        1231,
+        649
+      ],
+      "first_lower_pixel": [
+        1231,
+        650
+      ],
+      "gap_pixel": 1.0
+    }
+  ],
+  "limits": [
+    "Nur benachbarte Rasterendpunkte Zeilen649/650. Keine native Verbindung, keine geschlossene Kontur oder metrische Registrierung."
+  ],
+  "production_release": false
+}
