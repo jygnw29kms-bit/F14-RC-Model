@@ -1,0 +1,58 @@
+{
+  "status": "NATIVE_NASENHYPOTHESE_AN_UNABHAENGIGEN_ZWISCHENPROBEN_GEPRUEFT",
+  "archive_sha256": "df9d75ee38c715bac9d1ba35a4394e317ae352b1281444b71a3731ae49ec5012",
+  "records": [
+    {
+      "source_x_pixel": 462,
+      "width_residual_mm": -0.23193128279333308,
+      "top_residual_mm": -0.13705030346878821,
+      "bottom_residual_mm": 0.0843386482884867
+    },
+    {
+      "source_x_pixel": 487,
+      "width_residual_mm": -0.1897619586490933,
+      "top_residual_mm": -0.11596564139666832,
+      "bottom_residual_mm": -0.18976195864907552
+    },
+    {
+      "source_x_pixel": 512,
+      "width_residual_mm": -0.29518526900968567,
+      "top_residual_mm": -0.10542331036060548,
+      "bottom_residual_mm": -0.21084662072119542
+    },
+    {
+      "source_x_pixel": 537,
+      "width_residual_mm": null,
+      "top_residual_mm": 0.1686772965769774,
+      "bottom_residual_mm": 0.03162699310817629
+    },
+    {
+      "source_x_pixel": 562,
+      "width_residual_mm": -0.1265079724327265,
+      "top_residual_mm": 0.05271165518029619,
+      "bottom_residual_mm": 0.021084662072119897
+    },
+    {
+      "source_x_pixel": 587,
+      "width_residual_mm": 0.16867729657695207,
+      "top_residual_mm": -0.07379631725242497,
+      "bottom_residual_mm": 0.27410060693755867
+    },
+    {
+      "source_x_pixel": 612,
+      "width_residual_mm": -0.21084662072119897,
+      "top_residual_mm": -0.20030428968514613,
+      "bottom_residual_mm": 0.0
+    },
+    {
+      "source_x_pixel": 634,
+      "width_residual_mm": -0.03765118227164521,
+      "top_residual_mm": 0.16566520199522117,
+      "bottom_residual_mm": null
+    }
+  ],
+  "max_abs_projection_residual_mm": 0.29518526900968567,
+  "hinweis": "Projektionsvergleich im ungeprueften gemeinsamen Kandidatenrahmen. Kein Querschnittsformnachweis; Ursprungskorrektur nicht angewandt.",
+  "produktion_freigegeben": false,
+  "originalform_bestaetigt": false
+}
