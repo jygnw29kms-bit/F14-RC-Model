@@ -1,0 +1,113 @@
+{
+  "status": "C_UNTERE_EINLAUFSEITEN_NATIV_ERZEUGT",
+  "inputs": {
+    "C_inlet_lower_sides.json": "76327b9c4898b089516daccde94546eae7e4cf39f9d861ab7f54aa959571819c",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "segment": 0,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 1,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 2,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 3,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 0,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 1,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 2,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 3,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 0,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 1,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 2,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 3,
+      "vertices": 26,
+      "native_edges": 25,
+      "valid": true,
+      "solids": 0
+    }
+  ],
+  "output_sha256": "321d06475ca6ab5e3e75fdc9c567542783afdd34da78a736fb1048561f1db204",
+  "hinweise": [
+    "Vier getrennte offene Linien je Schwelle, Zeilen650..675.",
+    "Strichaussenkante; keine geschlossene Sektion oder Haut.",
+    "Historischer metrischer Rahmen ungeprueft."
+  ],
+  "production_release": false
+}
