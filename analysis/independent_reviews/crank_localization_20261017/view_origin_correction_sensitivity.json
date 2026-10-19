@@ -1,0 +1,237 @@
+{
+  "status": "GETRENNTE_NASENURSPRUENGE_NUMERISCH_UNTERSUCHT_KEINE_FORMFREIGABE",
+  "eingaben": [
+    {
+      "path": "analysis\\original_front_sources\\nose_to_A_stroke_center_samples.json",
+      "sha256": "693dda370511f332171f4fd166f5128a972028df3bb061be7ab9c8e67109e061"
+    },
+    {
+      "path": "analysis\\independent_reviews\\crank_localization_20261017\\UPC_probe_radome_transition_screen.json",
+      "sha256": "b79b80f5844324a64bf88032e73908c0c65a890bf082da62eca4416a71a33427"
+    }
+  ],
+  "faelle": [
+    {
+      "side_x_minus_plan_x_px": -4.5,
+      "samples": [
+        {
+          "plan_x_px": 475.0,
+          "side_x_px_candidate": 470.5,
+          "width_mm": 15.286380002286926,
+          "height_interpolated_mm": 14.875229091880588,
+          "width_minus_height_before_mm": -1.5813496554089923,
+          "width_minus_height_after_mm": 0.411150910406338
+        },
+        {
+          "plan_x_px": 500.0,
+          "side_x_px_candidate": 495.5,
+          "width_mm": 24.77447793474088,
+          "height_interpolated_mm": 24.64796996230816,
+          "width_minus_height_before_mm": -1.5813496554089923,
+          "width_minus_height_after_mm": 0.12650797243271938
+        },
+        {
+          "plan_x_px": 525.0,
+          "side_x_px_candidate": 520.5,
+          "width_mm": 32.94478448768734,
+          "height_interpolated_mm": 32.83936117732674,
+          "width_minus_height_before_mm": -1.31779137950749,
+          "width_minus_height_after_mm": 0.10542331036060659
+        },
+        {
+          "plan_x_px": 550.0,
+          "side_x_px_candidate": 545.5,
+          "width_mm": 39.53374138522481,
+          "height_interpolated_mm": 39.44940273693633,
+          "width_minus_height_before_mm": -1.0542331036059949,
+          "width_minus_height_after_mm": 0.08433864828847959
+        },
+        {
+          "plan_x_px": 575.0,
+          "side_x_px_candidate": 570.5,
+          "width_mm": 45.85914000686078,
+          "height_interpolated_mm": 44.69421242737616,
+          "width_minus_height_before_mm": 0.26355827590149516,
+          "width_minus_height_after_mm": 1.164927579484619
+        },
+        {
+          "plan_x_px": 600.0,
+          "side_x_px_candidate": 595.5,
+          "width_mm": 50.603188973087754,
+          "height_interpolated_mm": 49.053466310786945,
+          "width_minus_height_before_mm": 0.7906748277044926,
+          "width_minus_height_after_mm": 1.549722662300809
+        },
+        {
+          "plan_x_px": 625.0,
+          "side_x_px_candidate": 620.5,
+          "width_mm": 54.55656311161023,
+          "height_interpolated_mm": 52.62204536649323,
+          "width_minus_height_before_mm": 1.31779137950749,
+          "width_minus_height_after_mm": 1.9345177451169988
+        },
+        {
+          "plan_x_px": 642.5,
+          "side_x_px_candidate": 638.0,
+          "width_mm": 56.53325018087148,
+          "height_interpolated_mm": 55.000847062415616,
+          "width_minus_height_before_mm": 0.9224539656552508,
+          "width_minus_height_after_mm": 1.5324031184558606
+        }
+      ],
+      "rms_before_mm": 1.1795889171967022,
+      "rms_after_mm": 1.120970073156389
+    },
+    {
+      "side_x_minus_plan_x_px": -3.75,
+      "samples": [
+        {
+          "plan_x_px": 475.0,
+          "side_x_px_candidate": 471.25,
+          "width_mm": 15.286380002286926,
+          "height_interpolated_mm": 15.207312519516476,
+          "width_minus_height_before_mm": -1.5813496554089923,
+          "width_minus_height_after_mm": 0.07906748277044962
+        },
+        {
+          "plan_x_px": 500.0,
+          "side_x_px_candidate": 496.25,
+          "width_mm": 24.77447793474088,
+          "height_interpolated_mm": 24.93261290028178,
+          "width_minus_height_before_mm": -1.5813496554089923,
+          "width_minus_height_after_mm": -0.15813496554089923
+        },
+        {
+          "plan_x_px": 525.0,
+          "side_x_px_candidate": 521.25,
+          "width_mm": 32.94478448768734,
+          "height_interpolated_mm": 33.07656362563809,
+          "width_minus_height_before_mm": -1.31779137950749,
+          "width_minus_height_after_mm": -0.13177913795074403
+        },
+        {
+          "plan_x_px": 550.0,
+          "side_x_px_candidate": 546.25,
+          "width_mm": 39.53374138522481,
+          "height_interpolated_mm": 39.63916469558541,
+          "width_minus_height_before_mm": -1.0542331036059949,
+          "width_minus_height_after_mm": -0.10542331036059949
+        },
+        {
+          "plan_x_px": 575.0,
+          "side_x_px_candidate": 571.25,
+          "width_mm": 45.85914000686078,
+          "height_interpolated_mm": 44.84444064464001,
+          "width_minus_height_before_mm": 0.26355827590149516,
+          "width_minus_height_after_mm": 1.0146993622207674
+        },
+        {
+          "plan_x_px": 600.0,
+          "side_x_px_candidate": 596.25,
+          "width_mm": 50.603188973087754,
+          "height_interpolated_mm": 49.179974283219664,
+          "width_minus_height_before_mm": 0.7906748277044926,
+          "width_minus_height_after_mm": 1.4232146898680895
+        },
+        {
+          "plan_x_px": 625.0,
+          "side_x_px_candidate": 621.25,
+          "width_mm": 54.55656311161023,
+          "height_interpolated_mm": 52.72483309409482,
+          "width_minus_height_before_mm": 1.31779137950749,
+          "width_minus_height_after_mm": 1.8317300175154116
+        },
+        {
+          "plan_x_px": 642.5,
+          "side_x_px_candidate": 638.75,
+          "width_mm": 56.53325018087148,
+          "height_interpolated_mm": 55.10250525454905,
+          "width_minus_height_before_mm": 0.9224539656552508,
+          "width_minus_height_after_mm": 1.4307449263224257
+        }
+      ],
+      "rms_before_mm": 1.1795889171967022,
+      "rms_after_mm": 1.0318162930081494
+    },
+    {
+      "side_x_minus_plan_x_px": -3.0,
+      "samples": [
+        {
+          "plan_x_px": 475.0,
+          "side_x_px_candidate": 472.0,
+          "width_mm": 15.286380002286926,
+          "height_interpolated_mm": 15.539395947152364,
+          "width_minus_height_before_mm": -1.5813496554089923,
+          "width_minus_height_after_mm": -0.25301594486543877
+        },
+        {
+          "plan_x_px": 500.0,
+          "side_x_px_candidate": 497.0,
+          "width_mm": 24.77447793474088,
+          "height_interpolated_mm": 25.217255838255397,
+          "width_minus_height_before_mm": -1.5813496554089923,
+          "width_minus_height_after_mm": -0.44277790351451785
+        },
+        {
+          "plan_x_px": 525.0,
+          "side_x_px_candidate": 522.0,
+          "width_mm": 32.94478448768734,
+          "height_interpolated_mm": 33.31376607394944,
+          "width_minus_height_before_mm": -1.31779137950749,
+          "width_minus_height_after_mm": -0.36898158626209465
+        },
+        {
+          "plan_x_px": 550.0,
+          "side_x_px_candidate": 547.0,
+          "width_mm": 39.53374138522481,
+          "height_interpolated_mm": 39.828926654234486,
+          "width_minus_height_before_mm": -1.0542331036059949,
+          "width_minus_height_after_mm": -0.29518526900967856
+        },
+        {
+          "plan_x_px": 575.0,
+          "side_x_px_candidate": 572.0,
+          "width_mm": 45.85914000686078,
+          "height_interpolated_mm": 44.99466886190386,
+          "width_minus_height_before_mm": 0.26355827590149516,
+          "width_minus_height_after_mm": 0.8644711449569158
+        },
+        {
+          "plan_x_px": 600.0,
+          "side_x_px_candidate": 597.0,
+          "width_mm": 50.603188973087754,
+          "height_interpolated_mm": 49.306482255652384,
+          "width_minus_height_before_mm": 0.7906748277044926,
+          "width_minus_height_after_mm": 1.2967067174353701
+        },
+        {
+          "plan_x_px": 625.0,
+          "side_x_px_candidate": 622.0,
+          "width_mm": 54.55656311161023,
+          "height_interpolated_mm": 52.82762082169641,
+          "width_minus_height_before_mm": 1.31779137950749,
+          "width_minus_height_after_mm": 1.7289422899138245
+        },
+        {
+          "plan_x_px": 642.5,
+          "side_x_px_candidate": 639.5,
+          "width_mm": 56.53325018087148,
+          "height_interpolated_mm": 55.204163446682486,
+          "width_minus_height_before_mm": 0.9224539656552508,
+          "width_minus_height_after_mm": 1.3290867341889907
+        }
+      ],
+      "rms_before_mm": 1.1795889171967022,
+      "rms_after_mm": 0.9790188171450295
+    }
+  ],
+  "hinweise": [
+    "Breite und Höhe stammen aus zwei Originalansichten; Gleichheit wäre nur für einen Kreisquerschnitt erforderlich.",
+    "Seitenhöhe linear zwischen vorhandenen Proben interpoliert; keine Quellkontur dazwischen bestätigt.",
+    "Keine Extrapolation; erste Probe außerhalb des gemeinsamen Bereichs ausgelassen.",
+    "Geringerer Fehler ist keine Bestätigung eines Kreises oder eines gemeinsamen metrischen Rahmens.",
+    "Keine Querschnitte oder CAD-Geometrie geändert."
+  ],
+  "naechster_schritt": "Ergebnis gegen Kreisannahme und originale SektionA prüfen; Ansichten nicht zum Kreis passend verformen.",
+  "produktion_freigegeben": false
+}
