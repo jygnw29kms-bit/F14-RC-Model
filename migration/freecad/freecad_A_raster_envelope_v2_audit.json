@@ -1,0 +1,48 @@
+{
+  "status": "NEUE_A_RASTERREFERENZEN_NATIV_UND_TOPOLOGISCH_GEPRUEFT",
+  "inputs": {
+    "analysis\\original_front_sources\\A_raster_envelope_v2_candidates.json": "952443866d3ee001fc42388322db1eff692975bdd4ae51b92cccee1636c81bbd",
+    "analysis\\original_front_sources\\front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "analysis\\original_front_sources\\front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "polygon_simple": true,
+      "vertices": 202,
+      "native_face_valid": true,
+      "native_area_mm2": 2788.2717028554102,
+      "analytic_area_mm2": 2788.2717028554102,
+      "face_count": 1,
+      "boundary_count": 1
+    },
+    {
+      "threshold": 128,
+      "polygon_simple": true,
+      "vertices": 202,
+      "native_face_valid": true,
+      "native_area_mm2": 2794.800437029963,
+      "analytic_area_mm2": 2794.8004370299636,
+      "face_count": 1,
+      "boundary_count": 1
+    },
+    {
+      "threshold": 160,
+      "polygon_simple": true,
+      "vertices": 202,
+      "native_face_valid": true,
+      "native_area_mm2": 2801.831381525636,
+      "analytic_area_mm2": 2801.8313815256365,
+      "face_count": 1,
+      "boundary_count": 1
+    }
+  ],
+  "output_sha256": "331115ddcfc47b1d046fa9baa71d87394b11c7c4fe5eac7b37d51ea41d01bc24",
+  "hinweise": [
+    "Historischer Kandidatenrahmen nur zur Vergleichbarkeit übernommen; metrisch nicht freigegeben.",
+    "Raster-Außenstrichkante, nicht Strichmitte.",
+    "Achsenlücke275..277 bleibt ungemessen und linear überbrückt.",
+    "Keine bestehende A-Kontur, Hypothese oder Masterdatei ersetzt."
+  ],
+  "produktion_freigegeben": false
+}
