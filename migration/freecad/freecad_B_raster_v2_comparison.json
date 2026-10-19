@@ -1,0 +1,57 @@
+{
+  "status": "NEUE_B_RASTERREFERENZEN_GEGEN_ALTREFERENZ_UND_PROJEKTION_GEPRUEFT",
+  "inputs": {
+    "F14_B_RASTER_ENVELOPE_V2_REFERENCES.FCStd": "c8ca755d76f400d392545be90dbfa311b1854b2733ec7b0f5764a08b509357be",
+    "F14_ORIGINAL_ABCDEF_SECTION_CANDIDATES.FCStd": "a6d5c95944194de77b1170c6507b108d60ac83738eacb3bb553d31c5691dfd51"
+  },
+  "projection_inputs": {
+    "front_AB_envelope_comparison.json": "5339f7a66719964c88a265c7f75fe7e3a59017853de2184f209712b9d327af78",
+    "propulsion_source_silhouette_constraints_v134.json": "0d93839d390b87789a5a5048033ab70b15082a671cb27b4f1c8ac787e4b72f4d"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "new_area_mm2": 5291.5611646744155,
+      "old_area_mm2": 5142.972621604665,
+      "intersection_area_mm2": 5087.772244266911,
+      "old_minus_new_area_mm2": 55.20037733775525,
+      "new_minus_old_area_mm2": 203.78892040750554,
+      "width_mm": 70.91775755577763,
+      "height_mm": 96.70603303060584,
+      "width_minus_projection_mm": 0.8112561659789606,
+      "height_minus_projection_mm": 0.7708206024603044
+    },
+    {
+      "threshold": 128,
+      "new_area_mm2": 5305.127419944549,
+      "old_area_mm2": 5142.972621604665,
+      "intersection_area_mm2": 5091.778657984478,
+      "old_minus_new_area_mm2": 51.19396362018847,
+      "new_minus_old_area_mm2": 213.348761960071,
+      "width_mm": 70.91775755577763,
+      "height_mm": 96.70603303060584,
+      "width_minus_projection_mm": 0.8112561659789606,
+      "height_minus_projection_mm": 0.7708206024603044
+    },
+    {
+      "threshold": 160,
+      "new_area_mm2": 5319.270962672985,
+      "old_area_mm2": 5142.972621604665,
+      "intersection_area_mm2": 5095.0691720601235,
+      "old_minus_new_area_mm2": 47.903449544543214,
+      "new_minus_old_area_mm2": 224.20179061286117,
+      "width_mm": 70.91775755577763,
+      "height_mm": 96.70603303060584,
+      "width_minus_projection_mm": 0.8112561659789606,
+      "height_minus_projection_mm": 0.7708206024603044
+    }
+  ],
+  "hinweise": [
+    "Neue Referenz ist äußere Rasterstrichkante, Projektion verwendet Strichmitten; keine Gleichheit verschiedener Messdefinitionen behaupten.",
+    "Historischer Maßstab dient nur zur Vergleichbarkeit.",
+    "Flächenüberlappung bestätigt keine Quellenregistrierung.",
+    "Alle ursprünglichen CAD- und Quelldateien unverändert."
+  ],
+  "originalform_bestaetigt": false,
+  "produktion_freigegeben": false
+}
