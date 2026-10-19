@@ -1,0 +1,24 @@
+{
+  "status": "UPC_BAUMODELL_QUERSCHNITTE_ALS_ORIGINALNASENBELEG_UNGEEIGNET",
+  "quelle": "UPC F14 Drawings, Sabina Campos i Fuentes,2023",
+  "pdf_sha256": "e80075d087be438c5435f3d1d2153a538971df1f26d5d2004bfb01bcb1570441",
+  "gepruefte_stellen": [
+    {
+      "PDF_seite": 6,
+      "befund": "Einzelteile des konstruierten Modells sind3mm dick; Originaldateien des Modells1:1 in Millimetern."
+    },
+    {
+      "PDF_seite": 11,
+      "befund": "CS1 bisCS11 sind als Modellbauteile mit Splines gekennzeichnet. Der Text erklärt ausdrücklich, dass die angegebenen Maße die Teile nicht vollständig definieren."
+    }
+  ],
+  "schlussfolgerung": "Zusätzliche CS-Blätter sind abgeleitete Modellbaugeometrie, keine neu aufgefundenen Herstellerquerschnitte vor OriginalsektionA. Sie schließen die56.14mm-Referenzlücke nicht.",
+  "erlaubter_nutzen": "Bauteilanordnung und Konstruktionsvergleich unter klarer Herkunftskennzeichnung.",
+  "nicht_abgeleitet": [
+    "Seriennasenquerschnitte",
+    "metrisch verifizierte Stationszuordnung",
+    "Produktionsaußenform"
+  ],
+  "naechster_schritt": "Die numerische NASA/Grumman-Rumpfbeschreibung getrennt als Rechenmodellreferenz prüfen; ihre Funktionsdefinitionen vor einer Übertragung vollständig nachvollziehen.",
+  "produktion_freigegeben": false
+}
