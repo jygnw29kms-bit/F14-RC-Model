@@ -1,0 +1,53 @@
+{
+  "status": "NEUE_A_RASTERREFERENZEN_GEGEN_ALTREFERENZ_UND_PROJEKTION_GEPRUEFT",
+  "inputs": {
+    "F14_A_RASTER_ENVELOPE_V2_REFERENCES.FCStd": "331115ddcfc47b1d046fa9baa71d87394b11c7c4fe5eac7b37d51ea41d01bc24",
+    "F14_ORIGINAL_ABCDEF_SECTION_CANDIDATES.FCStd": "a6d5c95944194de77b1170c6507b108d60ac83738eacb3bb553d31c5691dfd51"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "new_area_mm2": 2788.2717028554102,
+      "old_area_mm2": 2817.8500203707044,
+      "intersection_area_mm2": 2688.0225420644665,
+      "old_minus_new_area_mm2": 129.8274783062393,
+      "new_minus_old_area_mm2": 100.24916079094535,
+      "width_mm": 57.283874154902875,
+      "height_mm": 59.59837412075754,
+      "width_minus_projection_mm": 0.7506239740313987,
+      "height_minus_projection_mm": 3.9875779055413147
+    },
+    {
+      "threshold": 128,
+      "new_area_mm2": 2794.8004370299636,
+      "old_area_mm2": 2817.8500203707044,
+      "intersection_area_mm2": 2691.9243487289305,
+      "old_minus_new_area_mm2": 125.92567164177538,
+      "new_minus_old_area_mm2": 102.87608830103454,
+      "width_mm": 57.283874154902875,
+      "height_mm": 59.59837412075754,
+      "width_minus_projection_mm": 0.7506239740313987,
+      "height_minus_projection_mm": 3.9875779055413147
+    },
+    {
+      "threshold": 160,
+      "new_area_mm2": 2801.831381525636,
+      "old_area_mm2": 2817.8500203707044,
+      "intersection_area_mm2": 2695.5663968650756,
+      "old_minus_new_area_mm2": 122.28362350563009,
+      "new_minus_old_area_mm2": 106.2649846605613,
+      "width_mm": 57.283874154902875,
+      "height_mm": 59.59837412075754,
+      "width_minus_projection_mm": 0.7506239740313987,
+      "height_minus_projection_mm": 3.9875779055413147
+    }
+  ],
+  "hinweise": [
+    "Neue Referenz ist äußere Rasterstrichkante, Projektion verwendet Strichmitten; keine Gleichheit verschiedener Messdefinitionen behaupten.",
+    "Historischer Maßstab dient nur zur Vergleichbarkeit.",
+    "Flächenüberlappung bestätigt keine Quellenregistrierung.",
+    "Alle ursprünglichen CAD- und Quelldateien unverändert."
+  ],
+  "originalform_bestaetigt": false,
+  "produktion_freigegeben": false
+}
