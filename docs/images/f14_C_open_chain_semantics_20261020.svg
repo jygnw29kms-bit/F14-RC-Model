@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="600" y="30" text-anchor="middle" font-family="Arial" font-size="22">F-14 Sektion C – vier offene Rasterketten – Referenzstudie 20.10.2026</text>
+<rect x="80" y="302.3" width="1070" height="12.8" fill="#eeeeee" stroke="#999999" stroke-dasharray="5,5"/>
+<text x="88" y="311.4" font-family="Arial" font-size="12">Achsenüberdeckung y=607..612, Kontur dort ungemessen</text>
+<polyline points="609,108 585,113 561,124 537,144 512,187 488,180 464,167 440,159 416,154 392,149 368,147 344,147 319,142 295,136 271,136 247,136 223,136 199,139 175,144 150,152 126,165 110,185 110,205 116,218 128,228 140,233 160,239 181,241 201,244 221,246 245,251 245,277 253,287 273,292 301,300" fill="none" stroke="#d62728" stroke-width="2"/>
+<circle cx="609" cy="108" r="4" fill="#d62728" stroke="black"/><circle cx="301" cy="300" r="4" fill="#d62728" stroke="black"/>
+<polyline points="299,318 297,328 295,343 293,358 291,376 289,392 287,410 285,425 283,440 285,458 289,468 293,479 301,486 313,491 325,496 339,499 354,502 368,507 384,509 400,512 416,507 428,499 438,479 440,463 444,448 446,433 450,415 454,399 478,399 502,399 526,405 551,405 575,405 599,402 609,389" fill="none" stroke="#1f77b4" stroke-width="2"/>
+<circle cx="299" cy="318" r="4" fill="#1f77b4" stroke="black"/><circle cx="609" cy="389" r="4" fill="#1f77b4" stroke="black"/>
+<polyline points="621,392 631,405 655,405 679,405 703,405 728,399 752,397 778,405 782,433 786,453 790,479 798,496 814,509 834,512 854,507 875,502 895,496 915,489 931,479 943,458 945,438 943,420 941,402 939,384 937,366 933,343 931,318" fill="none" stroke="#2ca02c" stroke-width="2"/>
+<circle cx="621" cy="392" r="4" fill="#2ca02c" stroke="black"/><circle cx="931" cy="318" r="4" fill="#2ca02c" stroke="black"/>
+<polyline points="927,300 939,292 963,292 985,249 999,244 1023,241 1047,239 1072,236 1094,228 1118,210 1120,190 1114,172 1102,162 1086,152 1064,144 1040,139 1016,136 992,136 968,136 944,136 920,139 896,144 872,149 848,147 824,152 800,157 776,165 752,177 728,185 712,180 704,162 696,149 684,134 672,124 660,119 648,113 633,111 621,108" fill="none" stroke="#9467bd" stroke-width="2"/>
+<circle cx="927" cy="300" r="4" fill="#9467bd" stroke="black"/><circle cx="621" cy="108" r="4" fill="#9467bd" stroke="black"/>
+<line x1="609" y1="108" x2="621" y2="108" stroke="#555" stroke-width="1.5" stroke-dasharray="4,5"/><line x1="609" y1="389" x2="621" y2="392" stroke="#555" stroke-width="1.5" stroke-dasharray="4,5"/><line x1="301" y1="300" x2="299" y2="318" stroke="#555" stroke-width="1.5" stroke-dasharray="4,5"/><line x1="931" y1="318" x2="927" y2="300" stroke="#555" stroke-width="1.5" stroke-dasharray="4,5"/>
+<line x1="850" y1="75" x2="885" y2="75" stroke="#d62728" stroke-width="3"/><text x="895" y="80" font-family="Arial" font-size="13">Kette 0 oben/links</text>
+<line x1="850" y1="97" x2="885" y2="97" stroke="#1f77b4" stroke-width="3"/><text x="895" y="102" font-family="Arial" font-size="13">Kette 1 unten/links</text>
+<line x1="850" y1="119" x2="885" y2="119" stroke="#2ca02c" stroke-width="3"/><text x="895" y="124" font-family="Arial" font-size="13">Kette 2 unten/rechts</text>
+<line x1="850" y1="141" x2="885" y2="141" stroke="#9467bd" stroke-width="3"/><text x="895" y="146" font-family="Arial" font-size="13">Kette 3 oben/rechts</text>
+<line x1="80" y1="550" x2="1150" y2="550" stroke="black"/><line x1="80" y1="70" x2="80" y2="550" stroke="black"/>
+<text x="600" y="598" text-anchor="middle" font-family="Arial" font-size="14">Quellbild-x [Pixel]</text><text x="24" y="310" transform="rotate(-90 24 310)" text-anchor="middle" font-family="Arial" font-size="14">Quellbild-y [Pixel]</text>
+<text x="80" y="585" font-family="Arial" font-size="12">Gestrichelte Verbindungen zeigen nur offene Endpunktabstände. Sie sind ausdrücklich keine rekonstruierte Haut.</text>
+</svg>
