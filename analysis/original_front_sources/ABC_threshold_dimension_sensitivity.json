@@ -1,0 +1,213 @@
+{
+  "status": "ABC_SCHWELLWERTSENSITIVITAET_DIMENSIONEN_BERECHNET",
+  "inputs": {
+    "A_raster_envelope_v2_candidates.json": "952443866d3ee001fc42388322db1eff692975bdd4ae51b92cccee1636c81bbd",
+    "B_raster_envelope_v2_candidates.json": "3b9a85eb2fec4e588aa49a173487e9e68857ae78d856b561ba4f2a4034bd1715",
+    "C_axis_closure_sensitivity.json": "e624db9537f1bbda2c536363f64d231bb2c8d375df3709c290299c5f76b8be4a",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28"
+  },
+  "sections": [
+    {
+      "section": "A",
+      "candidate_scale_mm_per_pixel": 0.5786249914636654,
+      "cases": [
+        {
+          "threshold": 96,
+          "width_pixel": 99,
+          "height_pixel": 103,
+          "area_pixel2": 8328.0,
+          "width_candidate_mm": 57.283874154902875,
+          "height_candidate_mm": 59.59837412075754,
+          "area_candidate_mm2": 2788.2717028554102
+        },
+        {
+          "threshold": 128,
+          "width_pixel": 99,
+          "height_pixel": 103,
+          "area_pixel2": 8347.5,
+          "width_candidate_mm": 57.283874154902875,
+          "height_candidate_mm": 59.59837412075754,
+          "area_candidate_mm2": 2794.8004370299636
+        },
+        {
+          "threshold": 160,
+          "width_pixel": 99,
+          "height_pixel": 103,
+          "area_pixel2": 8368.5,
+          "width_candidate_mm": 57.283874154902875,
+          "height_candidate_mm": 59.59837412075754,
+          "area_candidate_mm2": 2801.8313815256365
+        }
+      ],
+      "ranges": {
+        "width_pixel": {
+          "min": 99,
+          "max": 99,
+          "spread": 0
+        },
+        "height_pixel": {
+          "min": 103,
+          "max": 103,
+          "spread": 0
+        },
+        "area_pixel2": {
+          "min": 8328.0,
+          "max": 8368.5,
+          "spread": 40.5
+        },
+        "width_candidate_mm": {
+          "min": 57.283874154902875,
+          "max": 57.283874154902875,
+          "spread": 0.0
+        },
+        "height_candidate_mm": {
+          "min": 59.59837412075754,
+          "max": 59.59837412075754,
+          "spread": 0.0
+        },
+        "area_candidate_mm2": {
+          "min": 2788.2717028554102,
+          "max": 2801.8313815256365,
+          "spread": 13.559678670226276
+        }
+      }
+    },
+    {
+      "section": "B",
+      "candidate_scale_mm_per_pixel": 0.5372557390589213,
+      "cases": [
+        {
+          "threshold": 96,
+          "width_pixel": 132,
+          "height_pixel": 180,
+          "area_pixel2": 18332.5,
+          "width_candidate_mm": 70.91775755577761,
+          "height_candidate_mm": 96.70603303060584,
+          "area_candidate_mm2": 5291.5611646744155
+        },
+        {
+          "threshold": 128,
+          "width_pixel": 132,
+          "height_pixel": 180,
+          "area_pixel2": 18379.5,
+          "width_candidate_mm": 70.91775755577761,
+          "height_candidate_mm": 96.70603303060584,
+          "area_candidate_mm2": 5305.127419944548
+        },
+        {
+          "threshold": 160,
+          "width_pixel": 132,
+          "height_pixel": 180,
+          "area_pixel2": 18428.5,
+          "width_candidate_mm": 70.91775755577761,
+          "height_candidate_mm": 96.70603303060584,
+          "area_candidate_mm2": 5319.270962672983
+        }
+      ],
+      "ranges": {
+        "width_pixel": {
+          "min": 132,
+          "max": 132,
+          "spread": 0
+        },
+        "height_pixel": {
+          "min": 180,
+          "max": 180,
+          "spread": 0
+        },
+        "area_pixel2": {
+          "min": 18332.5,
+          "max": 18428.5,
+          "spread": 96.0
+        },
+        "width_candidate_mm": {
+          "min": 70.91775755577761,
+          "max": 70.91775755577761,
+          "spread": 0.0
+        },
+        "height_candidate_mm": {
+          "min": 96.70603303060584,
+          "max": 96.70603303060584,
+          "spread": 0.0
+        },
+        "area_candidate_mm2": {
+          "min": 5291.5611646744155,
+          "max": 5319.270962672983,
+          "spread": 27.70979799856741
+        }
+      }
+    },
+    {
+      "section": "C",
+      "candidate_scale_mm_per_pixel": 0.4580208369688409,
+      "cases": [
+        {
+          "threshold": 96,
+          "width_pixel": 502,
+          "height_pixel": 158,
+          "area_pixel2": 45147.0,
+          "width_candidate_mm": 229.9264601583581,
+          "height_candidate_mm": 72.36729224107685,
+          "area_candidate_mm2": 9471.077033197042
+        },
+        {
+          "threshold": 128,
+          "width_pixel": 502,
+          "height_pixel": 158,
+          "area_pixel2": 45241.0,
+          "width_candidate_mm": 229.9264601583581,
+          "height_candidate_mm": 72.36729224107685,
+          "area_candidate_mm2": 9490.79664338422
+        },
+        {
+          "threshold": 160,
+          "width_pixel": 502,
+          "height_pixel": 158,
+          "area_pixel2": 45343.0,
+          "width_candidate_mm": 229.9264601583581,
+          "height_candidate_mm": 72.36729224107685,
+          "area_candidate_mm2": 9512.194518268177
+        }
+      ],
+      "ranges": {
+        "width_pixel": {
+          "min": 502,
+          "max": 502,
+          "spread": 0
+        },
+        "height_pixel": {
+          "min": 158,
+          "max": 158,
+          "spread": 0
+        },
+        "area_pixel2": {
+          "min": 45147.0,
+          "max": 45343.0,
+          "spread": 196.0
+        },
+        "width_candidate_mm": {
+          "min": 229.9264601583581,
+          "max": 229.9264601583581,
+          "spread": 0.0
+        },
+        "height_candidate_mm": {
+          "min": 72.36729224107685,
+          "max": 72.36729224107685,
+          "spread": 0.0
+        },
+        "area_candidate_mm2": {
+          "min": 9471.077033197042,
+          "max": 9512.194518268177,
+          "spread": 41.11748507113589
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Nur drei Schwellwerte96/128/160 und feste Extraktionsfenster.",
+    "Keine Konfidenzintervalle oder vollstaendige Messunsicherheit; Strichdicke, Pixelkalibrierung, Stationsidentitaet und Rahmenfehler nicht erfasst.",
+    "C nutzt gerade hypothetische Achsenbruecken. A/B enthalten ebenfalls ungemessene Achsenbruecken.",
+    "Kleine Schwellwertstreuung beweist weder Originaltreue noch korrekte Metrik. Historische A/B/C-Skalen unterscheiden sich."
+  ],
+  "production_release": false
+}
