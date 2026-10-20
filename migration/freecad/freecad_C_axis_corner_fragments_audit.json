@@ -1,0 +1,113 @@
+{
+  "status": "C_ACHSENECKFRAGMENTE_NATIV_ERZEUGT",
+  "inputs": {
+    "C_axis_corner_fragments.json": "f36a6df3bb22d17c8a81b97d3415ffc4aae08baa35f731e43c3f4cbde15e2973",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "segment": 0,
+      "vertices": 11,
+      "native_edges": 10,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 1,
+      "vertices": 11,
+      "native_edges": 10,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 2,
+      "vertices": 4,
+      "native_edges": 3,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 3,
+      "vertices": 4,
+      "native_edges": 3,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 0,
+      "vertices": 11,
+      "native_edges": 10,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 1,
+      "vertices": 11,
+      "native_edges": 10,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 2,
+      "vertices": 4,
+      "native_edges": 3,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 3,
+      "vertices": 4,
+      "native_edges": 3,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 0,
+      "vertices": 11,
+      "native_edges": 10,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 1,
+      "vertices": 11,
+      "native_edges": 10,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 2,
+      "vertices": 4,
+      "native_edges": 3,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 3,
+      "vertices": 4,
+      "native_edges": 3,
+      "valid": true,
+      "solids": 0
+    }
+  ],
+  "output_sha256": "fd41fc5f40ddbc72d1d4b4935384ee7c2fb2375853abfb4ba41e0b9fe9d384ca",
+  "hinweise": [
+    "Vier getrennte Eckfragmente je Schwelle; Achsenband607..612 ausgelassen.",
+    "Strichaussenkante; keine geschlossene Sektion oder Haut.",
+    "Historischer metrischer Rahmen ungeprueft."
+  ],
+  "production_release": false
+}
