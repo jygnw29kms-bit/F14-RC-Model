@@ -1,0 +1,26 @@
+{
+  "status": "C_VIER_OFFENE_KETTEN_SEMANTISCH_ZUSAMMENGEFASST",
+  "threshold": 128,
+  "candidate_scale_mm_per_pixel": 0.4580208369688409,
+  "input_sha256": "a5920cbb2b1111d3a9f56efd9a464f53326194822ff2e7665245f040f9d41075",
+  "chains": [
+    {"chain_index":0,"points":363,"start_pixel":[1065,531],"end_pixel":[912,606],"x_min":817,"x_max":1065,"y_min":531,"y_max":606,"pixel_width":248,"pixel_height":75,"candidate_width_mm":113.58916756827254,"candidate_height_mm":34.351562772663065},
+    {"chain_index":1,"points":242,"start_pixel":[911,613],"end_pixel":[1065,641],"x_min":903,"x_max":1065,"y_min":613,"y_max":689,"pixel_width":162,"pixel_height":76,"candidate_width_mm":74.19937558895222,"candidate_height_mm":34.80958360963191},
+    {"chain_index":2,"points":239,"start_pixel":[1071,642],"end_pixel":[1225,613],"x_min":1071,"x_max":1232,"y_min":613,"y_max":689,"pixel_width":161,"pixel_height":76,"candidate_width_mm":73.74135475198338,"candidate_height_mm":34.80958360963191},
+    {"chain_index":3,"points":357,"start_pixel":[1223,606],"end_pixel":[1071,531],"x_min":1071,"x_max":1319,"y_min":531,"y_max":606,"pixel_width":248,"pixel_height":75,"candidate_width_mm":113.58916756827254,"candidate_height_mm":34.351562772663065}
+  ],
+  "near_endpoint_pairs_under_25px": [
+    {"a":[0,"start",[1065,531]],"b":[3,"end",[1071,531]],"gap_pixel":6.0,"gap_candidate_mm":2.7481250218130455},
+    {"a":[1,"end",[1065,641]],"b":[2,"start",[1071,642]],"gap_pixel":6.082762530298219,"gap_candidate_mm":2.786031985209895},
+    {"a":[0,"end",[912,606]],"b":[1,"start",[911,613]],"gap_pixel":7.0710678118654755,"gap_candidate_mm":3.2386963974540555},
+    {"a":[2,"end",[1225,613]],"b":[3,"start",[1223,606]],"gap_pixel":7.280109889280518,"gap_candidate_mm":3.3344420247133986}
+  ],
+  "interpretation": [
+    "Die vier Ketten bleiben topologisch offen und werden nicht zu einer Haut geschlossen.",
+    "Bounding-Box und Endpunktnaehe sind nur Strukturhinweise; sie beweisen keine gemeinsame physische Kontur.",
+    "Seitenprojektionshuellen duerfen nur nach Zuordnung zu passenden sichtbaren Ketten als Registrierungsanker verwendet werden."
+  ],
+  "loft_allowed": false,
+  "master_change_allowed": false,
+  "production_release": false
+}
