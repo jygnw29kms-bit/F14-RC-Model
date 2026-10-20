@@ -1,0 +1,688 @@
+{
+  "status": "C_RASTERSEGMENT_ABDECKUNG_GEPRUEFT",
+  "inputs": {
+    "C_upper_raster_guides": "db121fe8924cc9f2b1721b6fa2846be0eb54bc55dd576ac755a33cf969510baa",
+    "C_lower_raster_guides": "7ce35e963100a7355fb0275a7a0a6be1e2efd176f010ea51ab070f6a0b29bbac",
+    "C_inlet_lower_sides": "76327b9c4898b089516daccde94546eae7e4cf39f9d861ab7f54aa959571819c",
+    "C_inlet_outer_upper_sides": "0f300c77618220c5997c2e562abe0c0e675973ca0672aec777b57cd2e6460b7a",
+    "C_tips_shoulders": "cc08de4b0a26375f71dfdd08caa81cdd61abb7d026d7ae7e0eb1a471a6c44243"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "segment_count": 20,
+      "near_pairs": [
+        {
+          "a": "C_upper_raster_guides:0",
+          "b": "C_tips_shoulders:0",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            817,
+            561
+          ],
+          "point_b": [
+            817,
+            561
+          ]
+        },
+        {
+          "a": "C_upper_raster_guides:1",
+          "b": "C_tips_shoulders:1",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1319,
+            562
+          ],
+          "point_b": [
+            1319,
+            562
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:0",
+          "b": "C_tips_shoulders:0",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            817,
+            570
+          ],
+          "point_b": [
+            817,
+            570
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:0",
+          "b": "C_tips_shoulders:2",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            883,
+            586
+          ],
+          "point_b": [
+            883,
+            586
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:1",
+          "b": "C_tips_shoulders:2",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            884,
+            597
+          ],
+          "point_b": [
+            884,
+            597
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:2",
+          "b": "C_inlet_lower_sides:0",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            904,
+            668
+          ],
+          "point_b": [
+            904,
+            668
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:2",
+          "b": "C_inlet_lower_sides:1",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            980,
+            675
+          ],
+          "point_b": [
+            980,
+            675
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:5",
+          "b": "C_inlet_lower_sides:2",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1154,
+            673
+          ],
+          "point_b": [
+            1154,
+            673
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:5",
+          "b": "C_inlet_lower_sides:3",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1227,
+            675
+          ],
+          "point_b": [
+            1227,
+            675
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:6",
+          "b": "C_tips_shoulders:3",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1251,
+            598
+          ],
+          "point_b": [
+            1251,
+            598
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:7",
+          "b": "C_tips_shoulders:1",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1318,
+            570
+          ],
+          "point_b": [
+            1318,
+            570
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:7",
+          "b": "C_tips_shoulders:3",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1257,
+            585
+          ],
+          "point_b": [
+            1257,
+            585
+          ]
+        },
+        {
+          "a": "C_inlet_lower_sides:0",
+          "b": "C_inlet_outer_upper_sides:0",
+          "minimum_gap_pixel": 1.0,
+          "point_a": [
+            905,
+            650
+          ],
+          "point_b": [
+            905,
+            649
+          ]
+        },
+        {
+          "a": "C_inlet_lower_sides:3",
+          "b": "C_inlet_outer_upper_sides:1",
+          "minimum_gap_pixel": 1.4142135623730951,
+          "point_a": [
+            1231,
+            650
+          ],
+          "point_b": [
+            1230,
+            649
+          ]
+        }
+      ],
+      "components": [
+        [
+          "C_upper_raster_guides:0",
+          "C_lower_raster_guides:0",
+          "C_lower_raster_guides:1",
+          "C_tips_shoulders:0",
+          "C_tips_shoulders:2"
+        ],
+        [
+          "C_upper_raster_guides:1",
+          "C_lower_raster_guides:6",
+          "C_lower_raster_guides:7",
+          "C_tips_shoulders:1",
+          "C_tips_shoulders:3"
+        ],
+        [
+          "C_lower_raster_guides:2",
+          "C_inlet_lower_sides:0",
+          "C_inlet_lower_sides:1",
+          "C_inlet_outer_upper_sides:0"
+        ],
+        [
+          "C_lower_raster_guides:3"
+        ],
+        [
+          "C_lower_raster_guides:4"
+        ],
+        [
+          "C_lower_raster_guides:5",
+          "C_inlet_lower_sides:2",
+          "C_inlet_lower_sides:3",
+          "C_inlet_outer_upper_sides:1"
+        ]
+      ],
+      "component_count": 6
+    },
+    {
+      "threshold": 128,
+      "segment_count": 20,
+      "near_pairs": [
+        {
+          "a": "C_upper_raster_guides:0",
+          "b": "C_tips_shoulders:0",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            817,
+            561
+          ],
+          "point_b": [
+            817,
+            561
+          ]
+        },
+        {
+          "a": "C_upper_raster_guides:1",
+          "b": "C_tips_shoulders:1",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1319,
+            562
+          ],
+          "point_b": [
+            1319,
+            562
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:0",
+          "b": "C_tips_shoulders:0",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            817,
+            570
+          ],
+          "point_b": [
+            817,
+            570
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:0",
+          "b": "C_tips_shoulders:2",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            883,
+            586
+          ],
+          "point_b": [
+            883,
+            586
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:1",
+          "b": "C_tips_shoulders:2",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            884,
+            597
+          ],
+          "point_b": [
+            884,
+            597
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:2",
+          "b": "C_inlet_lower_sides:0",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            904,
+            669
+          ],
+          "point_b": [
+            904,
+            669
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:2",
+          "b": "C_inlet_lower_sides:1",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            981,
+            673
+          ],
+          "point_b": [
+            981,
+            673
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:5",
+          "b": "C_inlet_lower_sides:2",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1154,
+            673
+          ],
+          "point_b": [
+            1154,
+            673
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:5",
+          "b": "C_inlet_lower_sides:3",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1227,
+            675
+          ],
+          "point_b": [
+            1227,
+            675
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:6",
+          "b": "C_tips_shoulders:3",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1251,
+            598
+          ],
+          "point_b": [
+            1251,
+            598
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:7",
+          "b": "C_tips_shoulders:1",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1319,
+            568
+          ],
+          "point_b": [
+            1319,
+            568
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:7",
+          "b": "C_tips_shoulders:3",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1257,
+            585
+          ],
+          "point_b": [
+            1257,
+            585
+          ]
+        },
+        {
+          "a": "C_inlet_lower_sides:0",
+          "b": "C_inlet_outer_upper_sides:0",
+          "minimum_gap_pixel": 1.0,
+          "point_a": [
+            905,
+            650
+          ],
+          "point_b": [
+            905,
+            649
+          ]
+        },
+        {
+          "a": "C_inlet_lower_sides:3",
+          "b": "C_inlet_outer_upper_sides:1",
+          "minimum_gap_pixel": 1.0,
+          "point_a": [
+            1231,
+            650
+          ],
+          "point_b": [
+            1231,
+            649
+          ]
+        }
+      ],
+      "components": [
+        [
+          "C_upper_raster_guides:0",
+          "C_lower_raster_guides:0",
+          "C_lower_raster_guides:1",
+          "C_tips_shoulders:0",
+          "C_tips_shoulders:2"
+        ],
+        [
+          "C_upper_raster_guides:1",
+          "C_lower_raster_guides:6",
+          "C_lower_raster_guides:7",
+          "C_tips_shoulders:1",
+          "C_tips_shoulders:3"
+        ],
+        [
+          "C_lower_raster_guides:2",
+          "C_inlet_lower_sides:0",
+          "C_inlet_lower_sides:1",
+          "C_inlet_outer_upper_sides:0"
+        ],
+        [
+          "C_lower_raster_guides:3"
+        ],
+        [
+          "C_lower_raster_guides:4"
+        ],
+        [
+          "C_lower_raster_guides:5",
+          "C_inlet_lower_sides:2",
+          "C_inlet_lower_sides:3",
+          "C_inlet_outer_upper_sides:1"
+        ]
+      ],
+      "component_count": 6
+    },
+    {
+      "threshold": 160,
+      "segment_count": 20,
+      "near_pairs": [
+        {
+          "a": "C_upper_raster_guides:0",
+          "b": "C_tips_shoulders:0",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            817,
+            561
+          ],
+          "point_b": [
+            817,
+            561
+          ]
+        },
+        {
+          "a": "C_upper_raster_guides:1",
+          "b": "C_tips_shoulders:1",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1319,
+            562
+          ],
+          "point_b": [
+            1319,
+            562
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:0",
+          "b": "C_tips_shoulders:0",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            817,
+            570
+          ],
+          "point_b": [
+            817,
+            570
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:0",
+          "b": "C_tips_shoulders:2",
+          "minimum_gap_pixel": 1.4142135623730951,
+          "point_a": [
+            882,
+            585
+          ],
+          "point_b": [
+            883,
+            586
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:1",
+          "b": "C_tips_shoulders:2",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            884,
+            597
+          ],
+          "point_b": [
+            884,
+            597
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:2",
+          "b": "C_inlet_lower_sides:0",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            904,
+            669
+          ],
+          "point_b": [
+            904,
+            669
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:2",
+          "b": "C_inlet_lower_sides:1",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            981,
+            673
+          ],
+          "point_b": [
+            981,
+            673
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:5",
+          "b": "C_inlet_lower_sides:2",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1154,
+            673
+          ],
+          "point_b": [
+            1154,
+            673
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:5",
+          "b": "C_inlet_lower_sides:3",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1227,
+            675
+          ],
+          "point_b": [
+            1227,
+            675
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:6",
+          "b": "C_tips_shoulders:3",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1251,
+            598
+          ],
+          "point_b": [
+            1251,
+            598
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:7",
+          "b": "C_tips_shoulders:1",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1319,
+            569
+          ],
+          "point_b": [
+            1319,
+            569
+          ]
+        },
+        {
+          "a": "C_lower_raster_guides:7",
+          "b": "C_tips_shoulders:3",
+          "minimum_gap_pixel": 0.0,
+          "point_a": [
+            1258,
+            585
+          ],
+          "point_b": [
+            1258,
+            585
+          ]
+        },
+        {
+          "a": "C_inlet_lower_sides:0",
+          "b": "C_inlet_outer_upper_sides:0",
+          "minimum_gap_pixel": 1.0,
+          "point_a": [
+            905,
+            650
+          ],
+          "point_b": [
+            905,
+            649
+          ]
+        },
+        {
+          "a": "C_inlet_lower_sides:3",
+          "b": "C_inlet_outer_upper_sides:1",
+          "minimum_gap_pixel": 1.0,
+          "point_a": [
+            1231,
+            650
+          ],
+          "point_b": [
+            1231,
+            649
+          ]
+        }
+      ],
+      "components": [
+        [
+          "C_upper_raster_guides:0",
+          "C_lower_raster_guides:0",
+          "C_lower_raster_guides:1",
+          "C_tips_shoulders:0",
+          "C_tips_shoulders:2"
+        ],
+        [
+          "C_upper_raster_guides:1",
+          "C_lower_raster_guides:6",
+          "C_lower_raster_guides:7",
+          "C_tips_shoulders:1",
+          "C_tips_shoulders:3"
+        ],
+        [
+          "C_lower_raster_guides:2",
+          "C_inlet_lower_sides:0",
+          "C_inlet_lower_sides:1",
+          "C_inlet_outer_upper_sides:0"
+        ],
+        [
+          "C_lower_raster_guides:3"
+        ],
+        [
+          "C_lower_raster_guides:4"
+        ],
+        [
+          "C_lower_raster_guides:5",
+          "C_inlet_lower_sides:2",
+          "C_inlet_lower_sides:3",
+          "C_inlet_outer_upper_sides:1"
+        ]
+      ],
+      "component_count": 6
+    }
+  ],
+  "method": "Minimaler Punktabstand aller Segmentpaare. Graphkante nur bei Abstand<=sqrt(2)Pixel. Naehe ist keine bewiesene geometrische Verbindung.",
+  "limits": [
+    "Abstandsgraph prueft keine zyklische Kontur, Orientierung, Selbstschnittfreiheit oder Strichidentitaet.",
+    "Luecken nicht geschlossen. Achsenband, aeussere Spitzen und Schulteranschluesse bleiben separat zu verfolgen.",
+    "Ueberlappende Rasterproben koennen derselben Strichkante folgen, ohne identische native Polylinien zu bilden."
+  ],
+  "production_release": false
+}

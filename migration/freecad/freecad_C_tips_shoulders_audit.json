@@ -1,0 +1,113 @@
+{
+  "status": "C_SPITZEN_SCHULTERN_NATIV_ERZEUGT",
+  "inputs": {
+    "C_tips_shoulders.json": "cc08de4b0a26375f71dfdd08caa81cdd61abb7d026d7ae7e0eb1a471a6c44243",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "segment": 0,
+      "vertices": 10,
+      "native_edges": 9,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 1,
+      "vertices": 10,
+      "native_edges": 9,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 2,
+      "vertices": 13,
+      "native_edges": 12,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 3,
+      "vertices": 14,
+      "native_edges": 13,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 0,
+      "vertices": 10,
+      "native_edges": 9,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 1,
+      "vertices": 10,
+      "native_edges": 9,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 2,
+      "vertices": 13,
+      "native_edges": 12,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 3,
+      "vertices": 14,
+      "native_edges": 13,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 0,
+      "vertices": 10,
+      "native_edges": 9,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 1,
+      "vertices": 10,
+      "native_edges": 9,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 2,
+      "vertices": 13,
+      "native_edges": 12,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 3,
+      "vertices": 14,
+      "native_edges": 13,
+      "valid": true,
+      "solids": 0
+    }
+  ],
+  "output_sha256": "008bb9321b4098d40eaf07cf26b95671880ee0d29cf75efa8faa5373f119de0f",
+  "hinweise": [
+    "Vier getrennte lokale Spitzen- und Schulterlinien je Schwelle.",
+    "Strichaussenkante; keine geschlossene Sektion oder Haut.",
+    "Historischer metrischer Rahmen ungeprueft."
+  ],
+  "production_release": false
+}
