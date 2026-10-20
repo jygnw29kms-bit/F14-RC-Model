@@ -1,0 +1,159 @@
+{
+  "status": "C_INNERE_EINLAUFANSCHLUESSE_RASTER",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "cases": [
+    {
+      "threshold": 96,
+      "segments_pixel": [
+        [
+          [
+            986,
+            646
+          ],
+          [
+            986,
+            647
+          ],
+          [
+            986,
+            648
+          ],
+          [
+            986,
+            649
+          ],
+          [
+            986,
+            650
+          ]
+        ],
+        [
+          [
+            1149,
+            646
+          ],
+          [
+            1149,
+            647
+          ],
+          [
+            1149,
+            648
+          ],
+          [
+            1150,
+            649
+          ],
+          [
+            1150,
+            650
+          ]
+        ]
+      ]
+    },
+    {
+      "threshold": 128,
+      "segments_pixel": [
+        [
+          [
+            987,
+            646
+          ],
+          [
+            986,
+            647
+          ],
+          [
+            986,
+            648
+          ],
+          [
+            986,
+            649
+          ],
+          [
+            986,
+            650
+          ]
+        ],
+        [
+          [
+            1149,
+            646
+          ],
+          [
+            1149,
+            647
+          ],
+          [
+            1149,
+            648
+          ],
+          [
+            1149,
+            649
+          ],
+          [
+            1150,
+            650
+          ]
+        ]
+      ]
+    },
+    {
+      "threshold": 160,
+      "segments_pixel": [
+        [
+          [
+            987,
+            646
+          ],
+          [
+            986,
+            647
+          ],
+          [
+            986,
+            648
+          ],
+          [
+            986,
+            649
+          ],
+          [
+            986,
+            650
+          ]
+        ],
+        [
+          [
+            1149,
+            646
+          ],
+          [
+            1149,
+            647
+          ],
+          [
+            1149,
+            648
+          ],
+          [
+            1149,
+            649
+          ],
+          [
+            1150,
+            650
+          ]
+        ]
+      ]
+    }
+  ],
+  "method": "Zeilen646..650: aeussere rechte Kante des linken Einlaufs und aeussere linke Kante des rechten Einlaufs. Ab646 ist der zentrale horizontale Bodenstrich nicht mehr im ROI durchgehend.",
+  "limits": [
+    "Nur5Rasterpunkte je Anschluss; Strichaussenkante, keine Strichmitte.",
+    "Keine automatische Verbindung, keine Achsenbruecke oder metrisch verifizierte Originalhaut."
+  ],
+  "production_release": false
+}
