@@ -1,0 +1,47 @@
+{
+  "status": "NEUTRALER_C_SCHLIESSUNGSKANDIDAT_NUR_STUDIE",
+  "source": "migration/freecad/freecad_C_axis_closure_hypotheses_audit.json",
+  "source_sha256": "bc5f3295acdedd1cae78024502958d89b8abea1835b4f93bafe5e39075a306e0",
+  "variants_checked": 9,
+  "all_simple_polygon": true,
+  "all_native_valid": true,
+  "all_apertures_inside": true,
+  "area_min_mm2": 9468.304336404111,
+  "area_max_mm2": 9514.967215061159,
+  "area_span_mm2": 46.66287865704726,
+  "area_span_percent_of_mean": 0.4916355296095813,
+  "neutral_candidate": {
+    "threshold": 128,
+    "offset_pixel": 0,
+    "vertices": 1201,
+    "simple_polygon": true,
+    "native_valid": true,
+    "native_area_mm2": 9490.796643384245,
+    "analytic_area_mm2": 9490.79664338422,
+    "apertures": [
+      {
+        "label": "links",
+        "outside_area_mm2": 0.0,
+        "minimum_planar_boundary_gap_mm": 2.2901041848442034
+      },
+      {
+        "label": "rechts",
+        "outside_area_mm2": 0.0,
+        "minimum_planar_boundary_gap_mm": 2.2901041848442034
+      }
+    ]
+  },
+  "selection_reason": [
+    "threshold 128 ist der mittlere der drei untersuchten Schwellwerte 96/128/160.",
+    "offset 0 ist der mittlere der drei untersuchten Achsenversätze -1/0/+1 Pixel.",
+    "Der Kandidat ist nativ gueltig, schnittfrei und beide Oeffnungen liegen vollstaendig innerhalb.",
+    "Die Auswahl ist neutral fuer weitere Studien und keine Quellenbestaetigung."
+  ],
+  "limits": [
+    "Die vier Achsenbruecken bleiben konstruktive Annahmen.",
+    "Planarer Abstand zu Oeffnungen ist kein 3D-Wandabstand.",
+    "Keine Originalhaut, keine Master-Aenderung und keine Produktionsfreigabe."
+  ],
+  "master_change_allowed": false,
+  "production_release": false
+}
