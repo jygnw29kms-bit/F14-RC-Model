@@ -1,0 +1,245 @@
+{
+  "status": "C_VIER_OFFENE_KETTEN_NATIV_ERZEUGT",
+  "inputs": {
+    "C_open_raster_chains.json": "a5920cbb2b1111d3a9f56efd9a464f53326194822ff2e7665245f040f9d41075",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "segment": 0,
+      "vertices": 363,
+      "native_edges": 362,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        -1.8675254364503384,
+        36.89137947963954
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        -71.944713492683,
+        2.5398167069764717
+      ]
+    },
+    {
+      "threshold": 96,
+      "segment": 1,
+      "vertices": 242,
+      "native_edges": 241,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        -72.40273432965184,
+        -0.6663291518054146
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        -1.8675254364503384,
+        -13.490912586932959
+      ]
+    },
+    {
+      "threshold": 96,
+      "segment": 2,
+      "vertices": 238,
+      "native_edges": 237,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        0.880599585362707,
+        -13.948933423901801
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        71.4158084785642,
+        -0.6663291518054146
+      ]
+    },
+    {
+      "threshold": 96,
+      "segment": 3,
+      "vertices": 356,
+      "native_edges": 355,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        70.49976680462652,
+        2.5398167069764717
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        0.880599585362707,
+        36.89137947963954
+      ]
+    },
+    {
+      "threshold": 128,
+      "segment": 0,
+      "vertices": 363,
+      "native_edges": 362,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        -1.8675254364503384,
+        36.89137947963954
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        -71.944713492683,
+        2.5398167069764717
+      ]
+    },
+    {
+      "threshold": 128,
+      "segment": 1,
+      "vertices": 242,
+      "native_edges": 241,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        -72.40273432965184,
+        -0.6663291518054146
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        -1.8675254364503384,
+        -13.490912586932959
+      ]
+    },
+    {
+      "threshold": 128,
+      "segment": 2,
+      "vertices": 239,
+      "native_edges": 238,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        0.880599585362707,
+        -13.948933423901801
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        71.4158084785642,
+        -0.6663291518054146
+      ]
+    },
+    {
+      "threshold": 128,
+      "segment": 3,
+      "vertices": 357,
+      "native_edges": 356,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        70.49976680462652,
+        2.5398167069764717
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        0.880599585362707,
+        36.89137947963954
+      ]
+    },
+    {
+      "threshold": 160,
+      "segment": 0,
+      "vertices": 363,
+      "native_edges": 362,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        -1.8675254364503384,
+        36.89137947963954
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        -71.944713492683,
+        2.5398167069764717
+      ]
+    },
+    {
+      "threshold": 160,
+      "segment": 1,
+      "vertices": 240,
+      "native_edges": 239,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        -72.40273432965184,
+        -0.6663291518054146
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        -1.8675254364503384,
+        -13.490912586932959
+      ]
+    },
+    {
+      "threshold": 160,
+      "segment": 2,
+      "vertices": 239,
+      "native_edges": 238,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        0.880599585362707,
+        -13.948933423901801
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        71.4158084785642,
+        -0.6663291518054146
+      ]
+    },
+    {
+      "threshold": 160,
+      "segment": 3,
+      "vertices": 357,
+      "native_edges": 356,
+      "valid": true,
+      "solids": 0,
+      "closed": false,
+      "first_point_mm": [
+        403.32456309143583,
+        70.49976680462652,
+        2.5398167069764717
+      ],
+      "last_point_mm": [
+        403.32456309143583,
+        0.880599585362707,
+        36.89137947963954
+      ]
+    }
+  ],
+  "output_sha256": "cf5904df6811847dcedc39471d26ddadcaa42e5e3cc6f8c1a45112541e8d4729",
+  "hinweise": [
+    "Vier konsolidierte offene Ketten je Schwelle; vier Achsenluecken bleiben offen.",
+    "Strichaussenkante; keine geschlossene Sektion oder Haut.",
+    "Historischer metrischer Rahmen ungeprueft."
+  ],
+  "production_release": false
+}
