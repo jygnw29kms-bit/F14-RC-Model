@@ -1,0 +1,48 @@
+{
+  "status": "C_SEITENPROJEKTION_SEMANTISCH_NICHT_ALS_STATIONSANKER_ZULAESSIG",
+  "station_X_mm": 403.32456309143583,
+  "inputs": {
+    "BC_projection_samples.json": "d576987b9992bd30e7e698f4949e0bd0d7d507f31204419da18546665f89d374",
+    "CD_projection_samples_v2.json": "443193241eb7e70253ce78cbfdad0cea0cdbc0fd4b6bfc132d8126ac84cdb9d6",
+    "C_side_projection_registration_screen.json": "d2a5e2efb5d023e1b679ee5b8a966de6860989cfc60c1d65dfa80fe9d8eba91d"
+  },
+  "left_bracket": {
+    "X_mm": 391.46444067586833,
+    "top_status": "Sampled upper body/canopy contour",
+    "plan_region": "Overall envelope includes fixed wing glove; not fuselage-core width",
+    "top_Z_mm": 44.2419268817339,
+    "bottom_Z_mm": -26.918807611670754
+  },
+  "right_bracket": {
+    "X_mm": 417.8202682660182,
+    "side_status": "Overall side projection; wing/glove features may obscure body. Dorsal appendage overlap omitted at 1350/1375.",
+    "plan_status": "Fixed glove overall projection only",
+    "top_Z_mm": 38.97076136370393,
+    "bottom_Z_mm": -41.15095451035168
+  },
+  "semantic_checks": {
+    "left_top_is_upper_body_or_canopy": true,
+    "right_side_is_overall_projection_with_possible_wing_glove_obscuration": true,
+    "plan_widths_are_not_fuselage_core": true,
+    "metric_registration_verified": false,
+    "fuselage_core_envelope_verified": false
+  },
+  "decision": {
+    "use_interpolated_top_as_C_station_skin_anchor": false,
+    "use_interpolated_bottom_as_C_station_skin_anchor": false,
+    "use_interpolated_center_as_C_waterline_anchor": false,
+    "use_translation_3_5656mm_as_geometry_correction": false,
+    "retain_previous_registration_study_as_diagnostic_only": true
+  },
+  "reason": [
+    "Die linke obere Probe ist semantisch obere Rumpf-/Canopy-Projektion, nicht eine bestaetigte C-Stationskante.",
+    "Die rechte Probe ist nur Gesamtseitenprojektion; Wing/Glove-Strukturen koennen den Rumpf verdecken.",
+    "Die Planbreiten im Bereich sind Fixed-glove-Gesamthuelle und ausdruecklich keine Rumpfkernbreite.",
+    "Weder metrische Registrierung noch Rumpfkernhuelle sind verifiziert.",
+    "Eine Interpolation zwischen semantisch unterschiedlichen Projektionshuellen darf keine gemeinsame Wasserlinie oder C-Hautposition definieren."
+  ],
+  "next_step": "C-Vertikalregistrierung aus stationsbezogenen Originalreferenzen oder einer unabhaengig nachgewiesenen gemeinsamen Wasserlinie ableiten; Seitenprojektion nur als externe Plausibilitaetsgrenze verwenden.",
+  "loft_allowed": false,
+  "master_change_allowed": false,
+  "production_release": false
+}
