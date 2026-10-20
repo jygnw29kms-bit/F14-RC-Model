@@ -1,0 +1,22 @@
+{
+  "status": "C_ABSOLUTES_VERTIKALDATUM_NICHT_VERIFIZIERT_FAIL_CLOSED",
+  "inputs": {
+    "sections": {"path":"analysis/original_front_sources/front_sections_pixel_candidates.json","sha256":"5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"},
+    "ticks": {"path":"analysis/original_front_sources/front_station_ticks.json","sha256":"e2ca2eaf24fed2483ad7020c94869f24c516ec48d1d507e6b661ed5a9598af0b"},
+    "shared": {"path":"analysis/original_front_sources/front_shared_frame_candidate.json","sha256":"856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28"},
+    "side_gate": {"path":"analysis/original_front_sources/C_side_projection_semantic_gate.json","sha256":"a0803d3b7db961c2d6336ce9ae7d87b11374d091c90ba1cc0d3346f012f2940b"},
+    "wing": {"path":"cad/fusion/F14TomcatRC/NASA_F14_basic_wing_v08.json","sha256":"177867ced9b6f2e075916d048cbf81997918e239ac8f4986a45461d6ecc80342"},
+    "wing_regression": {"path":"analysis/airframe_pivot_wl_regression_v127.json","sha256":"330490a4d3dad1921f807b4ac3c631ee6ed360ad9fe922bb841ddd7f57e4b4e1"},
+    "datum_inventory": {"path":"analysis/airframe_vertical_datum_inventory_v126.json","sha256":"cb5ea036c8c28be927c7137b479fd77f3be3c2b81ee802572dca3caa61f70499"}
+  },
+  "source_assessments": [
+    {"source":"UPC section horizontal axes","evidence":{"A_axis_y_pixel":275.17305644302445,"B_axis_y_pixel":610.09797657082,"C_axis_y_pixel":610.09797657082,"B_C_same_drawn_axis_y":true,"common_waterline_verified":false},"decision":"LOCAL_DRAWING_SYMMETRY_AXIS_ONLY_NOT_AIRCRAFT_WL","usable_as_C_absolute_Z_anchor":false},
+    {"source":"UPC station ticks","evidence":{"interpretations":["Station tick above bottom side view; x only. Tick height is a label location, not an aircraft waterline.","Station tick above bottom side view; x only. Tick height is a label location, not an aircraft waterline.","Station tick above bottom side view; x only. Tick height is a label location, not an aircraft waterline."],"common_waterline_verified":false},"decision":"X_TICKS_ONLY_LABEL_HEIGHT_NOT_WATERLINE","usable_as_C_absolute_Z_anchor":false},
+    {"source":"UPC side projection around C","evidence":{"use_interpolated_top_as_C_station_skin_anchor":false,"use_interpolated_bottom_as_C_station_skin_anchor":false,"use_interpolated_center_as_C_waterline_anchor":false,"use_translation_3_5656mm_as_geometry_correction":false,"retain_previous_registration_study_as_diagnostic_only":true},"decision":"SEMANTICALLY_MIXED_BODY_CANOPY_GLOVE_INLET_PROJECTION","usable_as_C_absolute_Z_anchor":false},
+    {"source":"Grumman/NASA basic-wing reference WL","evidence":{"source":"NASA CR-3992 Appendix 2, Grumman basic F-14 wing, 20 degree sweep","mapping":"FS=LE_FS+xc*(TE_FS-LE_FS); WBL=station; WL=reference_WL+yc*(TE_FS-LE_FS)","experimental_gloves_included":false,"WBL_range_in":[127.23,384.69995],"reference_WL_range_in":[152.03552,159.93018],"reference_WL_span_in":7.894660000000016,"linear_fit_slope_wl_per_wbl":-0.03131933497071998,"pivot_WL_extrapolated_in":160.8370203422546,"source_traceable_waterline_verified":false},"decision":"WING_SECTION_REFERENCE_LINE_VARIES_WITH_WBL_NOT_FUSELAGE_C_WATERLINE","usable_as_C_absolute_Z_anchor":false},
+    {"source":"Historical shared A/B/C candidate frame","evidence":{"metric_registration_verified":false,"continuous_OML_verified":false,"production_loft_allowed":false,"C_assumption":["C side lower edge coincides with inlet lip step; original-station depiction unresolved."]},"decision":"CANDIDATE_FRAME_ONLY","usable_as_C_absolute_Z_anchor":false}
+  ],
+  "gate": {"C_absolute_Z_registered":false,"C_common_aircraft_waterline_verified":false,"C_side_projection_translation_allowed":false,"Grumman_wing_reference_WL_transfer_to_C_allowed":false,"A_B_C_loft_allowed":false,"master_change_allowed":false,"production_release":false},
+  "important_non_solution": {"diagnostic_translation_mm":3.5655809821704914,"status":"NOT_A_GEOMETRY_CORRECTION","reason":"Derived from semantically mixed side-projection envelopes and therefore not an aircraft datum."},
+  "next_step": "Recover a source-traceable aircraft/fuselage vertical datum that can be tied to section C, or keep C in local section coordinates and postpone absolute-Z lofting."
+}
