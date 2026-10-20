@@ -1,0 +1,106 @@
+{
+  "status": "C_HYPOTHESEN_GEGEN_ALTE_AUSSENKONTUR_NATIV_VERGLICHEN",
+  "inputs": {
+    "F14_C_AXIS_CLOSURE_HYPOTHESES.FCStd": "4cb146b70dba8beaa10ff507b7ad9724faef337f750895d7a00f805c5bd8df51",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28"
+  },
+  "rows": [
+    {
+      "object": "C_HYP_96_minus1",
+      "old_outer_area_mm2": 9324.767614076838,
+      "hypothesis_outer_area_mm2": 9468.304336404113,
+      "intersection_area_mm2": 9226.233887850678,
+      "hypothesis_minus_old_area_mm2": 242.07044855341357,
+      "old_minus_hypothesis_area_mm2": 98.53372622616531,
+      "width_delta_mm": -0.6870312554532916,
+      "height_delta_mm": -0.10030656329621479
+    },
+    {
+      "object": "C_HYP_96_0",
+      "old_outer_area_mm2": 9324.767614076838,
+      "hypothesis_outer_area_mm2": 9471.077033197065,
+      "intersection_area_mm2": 9227.840110564004,
+      "hypothesis_minus_old_area_mm2": 243.23692263304318,
+      "old_minus_hypothesis_area_mm2": 96.92750351284059,
+      "width_delta_mm": -0.6870312554532916,
+      "height_delta_mm": -0.10030656329621479
+    },
+    {
+      "object": "C_HYP_96_1",
+      "old_outer_area_mm2": 9324.767614076838,
+      "hypothesis_outer_area_mm2": 9473.84972999002,
+      "intersection_area_mm2": 9229.24176287834,
+      "hypothesis_minus_old_area_mm2": 244.60796711166103,
+      "old_minus_hypothesis_area_mm2": 95.52585119850504,
+      "width_delta_mm": -0.6870312554532916,
+      "height_delta_mm": 0.3577142736726273
+    },
+    {
+      "object": "C_HYP_128_minus1",
+      "old_outer_area_mm2": 9324.767614076838,
+      "hypothesis_outer_area_mm2": 9488.023946591293,
+      "intersection_area_mm2": 9233.655169162881,
+      "hypothesis_minus_old_area_mm2": 254.36877742837004,
+      "old_minus_hypothesis_area_mm2": 91.1124449139441,
+      "width_delta_mm": -0.6870312554532916,
+      "height_delta_mm": -0.10030656329621479
+    },
+    {
+      "object": "C_HYP_128_0",
+      "old_outer_area_mm2": 9324.767614076838,
+      "hypothesis_outer_area_mm2": 9490.796643384245,
+      "intersection_area_mm2": 9235.261391876202,
+      "hypothesis_minus_old_area_mm2": 255.53525150799956,
+      "old_minus_hypothesis_area_mm2": 89.50622220061939,
+      "width_delta_mm": -0.6870312554532916,
+      "height_delta_mm": -0.10030656329621479
+    },
+    {
+      "object": "C_HYP_128_1",
+      "old_outer_area_mm2": 9324.767614076838,
+      "hypothesis_outer_area_mm2": 9493.569340177199,
+      "intersection_area_mm2": 9236.66304419054,
+      "hypothesis_minus_old_area_mm2": 256.90629598661764,
+      "old_minus_hypothesis_area_mm2": 88.10456988628381,
+      "width_delta_mm": -0.6870312554532916,
+      "height_delta_mm": 0.3577142736726273
+    },
+    {
+      "object": "C_HYP_160_minus1",
+      "old_outer_area_mm2": 9324.767614076838,
+      "hypothesis_outer_area_mm2": 9509.421821475255,
+      "intersection_area_mm2": 9241.819501975619,
+      "hypothesis_minus_old_area_mm2": 267.602319499592,
+      "old_minus_hypothesis_area_mm2": 82.94811210120704,
+      "width_delta_mm": -0.6870312554532916,
+      "height_delta_mm": -0.10030656329621479
+    },
+    {
+      "object": "C_HYP_160_0",
+      "old_outer_area_mm2": 9324.767614076838,
+      "hypothesis_outer_area_mm2": 9512.194518268207,
+      "intersection_area_mm2": 9243.425724688941,
+      "hypothesis_minus_old_area_mm2": 268.7687935792216,
+      "old_minus_hypothesis_area_mm2": 81.34188938788235,
+      "width_delta_mm": -0.6870312554532916,
+      "height_delta_mm": -0.10030656329621479
+    },
+    {
+      "object": "C_HYP_160_1",
+      "old_outer_area_mm2": 9324.767614076838,
+      "hypothesis_outer_area_mm2": 9514.96721506116,
+      "intersection_area_mm2": 9244.827377003277,
+      "hypothesis_minus_old_area_mm2": 270.1398380578394,
+      "old_minus_hypothesis_area_mm2": 79.94023707354678,
+      "width_delta_mm": -0.6870312554532916,
+      "height_delta_mm": 0.3577142736726273
+    }
+  ],
+  "limits": [
+    "AlteKontur grobeNachzeichnung, neueStrichaussenkante plusvierangenommeneBruecken.",
+    "Flaechenvergleich prueft keine Originalhaut, Strichmitte oder Registrierung.",
+    "Keine Geometrie oder Masterdatei geaendert."
+  ],
+  "production_release": false
+}
