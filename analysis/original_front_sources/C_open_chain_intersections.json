@@ -1,0 +1,29 @@
+{
+  "status": "OFFENE_C_KETTEN_OHNE_NICHTBENACHBARTE_SCHNITTE",
+  "input_sha256": "a5920cbb2b1111d3a9f56efd9a464f53326194822ff2e7665245f040f9d41075",
+  "rows": [
+    {
+      "threshold": 96,
+      "edge_count": 1195,
+      "bounding_box_candidate_pairs_checked": 0,
+      "nonadjacent_intersections": []
+    },
+    {
+      "threshold": 128,
+      "edge_count": 1197,
+      "bounding_box_candidate_pairs_checked": 0,
+      "nonadjacent_intersections": []
+    },
+    {
+      "threshold": 160,
+      "edge_count": 1195,
+      "bounding_box_candidate_pairs_checked": 0,
+      "nonadjacent_intersections": []
+    }
+  ],
+  "limits": [
+    "Exakte ganzzahlige2DStreckentests; benachbarte Kanten ausgenommen.",
+    "Keine Aussage ueber fehlende Achsenkontur, Strichmitte oder metrische Originalhaut."
+  ],
+  "production_release": false
+}
