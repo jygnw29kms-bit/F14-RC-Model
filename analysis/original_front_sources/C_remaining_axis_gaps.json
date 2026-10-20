@@ -1,0 +1,183 @@
+{
+  "status": "C_VERBLEIBENDE_ACHSENLUECKEN_LOKALISIERT",
+  "input_sha256": "561a15dca653baadfbc8cf33e120e903de95dea824b02b9b6693f9d8a0911447",
+  "rows": [
+    {
+      "threshold": 96,
+      "pairs": [
+        {
+          "region": "obere_vertikale_Achse",
+          "a": [
+            1065,
+            531
+          ],
+          "b": [
+            1071,
+            531
+          ],
+          "minimum_sample_gap_pixel": 6.0,
+          "measured_bridge": false
+        },
+        {
+          "region": "untere_vertikale_Achse",
+          "a": [
+            1065,
+            641
+          ],
+          "b": [
+            1071,
+            642
+          ],
+          "minimum_sample_gap_pixel": 6.082762530298219,
+          "measured_bridge": false
+        },
+        {
+          "region": "linker_aeusserer_Achsenanschluss",
+          "a": [
+            902,
+            603
+          ],
+          "b": [
+            910,
+            616
+          ],
+          "minimum_sample_gap_pixel": 15.264337522473747,
+          "measured_bridge": false
+        },
+        {
+          "region": "rechter_aeusserer_Achsenanschluss",
+          "a": [
+            1233,
+            603
+          ],
+          "b": [
+            1225,
+            616
+          ],
+          "minimum_sample_gap_pixel": 15.264337522473747,
+          "measured_bridge": false
+        }
+      ]
+    },
+    {
+      "threshold": 128,
+      "pairs": [
+        {
+          "region": "obere_vertikale_Achse",
+          "a": [
+            1065,
+            531
+          ],
+          "b": [
+            1071,
+            531
+          ],
+          "minimum_sample_gap_pixel": 6.0,
+          "measured_bridge": false
+        },
+        {
+          "region": "untere_vertikale_Achse",
+          "a": [
+            1065,
+            641
+          ],
+          "b": [
+            1071,
+            642
+          ],
+          "minimum_sample_gap_pixel": 6.082762530298219,
+          "measured_bridge": false
+        },
+        {
+          "region": "linker_aeusserer_Achsenanschluss",
+          "a": [
+            902,
+            603
+          ],
+          "b": [
+            910,
+            616
+          ],
+          "minimum_sample_gap_pixel": 15.264337522473747,
+          "measured_bridge": false
+        },
+        {
+          "region": "rechter_aeusserer_Achsenanschluss",
+          "a": [
+            1233,
+            603
+          ],
+          "b": [
+            1225,
+            616
+          ],
+          "minimum_sample_gap_pixel": 15.264337522473747,
+          "measured_bridge": false
+        }
+      ]
+    },
+    {
+      "threshold": 160,
+      "pairs": [
+        {
+          "region": "obere_vertikale_Achse",
+          "a": [
+            1065,
+            531
+          ],
+          "b": [
+            1071,
+            531
+          ],
+          "minimum_sample_gap_pixel": 6.0,
+          "measured_bridge": false
+        },
+        {
+          "region": "untere_vertikale_Achse",
+          "a": [
+            1065,
+            641
+          ],
+          "b": [
+            1071,
+            642
+          ],
+          "minimum_sample_gap_pixel": 6.082762530298219,
+          "measured_bridge": false
+        },
+        {
+          "region": "linker_aeusserer_Achsenanschluss",
+          "a": [
+            902,
+            603
+          ],
+          "b": [
+            910,
+            616
+          ],
+          "minimum_sample_gap_pixel": 15.264337522473747,
+          "measured_bridge": false
+        },
+        {
+          "region": "rechter_aeusserer_Achsenanschluss",
+          "a": [
+            1233,
+            603
+          ],
+          "b": [
+            1226,
+            616
+          ],
+          "minimum_sample_gap_pixel": 14.7648230602334,
+          "measured_bridge": false
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Minimaler Abstand vorhandener Rasterpunkte, keine Konturlaenge oder Fehlergrenze.",
+    "Horizontale und vertikale Achsen ueberlagern Originalstriche. Fehlende Punkte sind ungemessen.",
+    "Keine Verbindung, Interpolation oder geschlossene Sektion erzeugt."
+  ],
+  "production_release": false
+}
