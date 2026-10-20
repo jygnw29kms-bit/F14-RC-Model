@@ -1,0 +1,27 @@
+{
+  "status": "C_ACHSENOKKLUSION_VERFEINERT_KEINE_HAUTFREIGABE",
+  "threshold": 128,
+  "candidate_scale_mm_per_pixel": 0.4580208369688409,
+  "inputs": {
+    "C_axis_corner_fragments.json": "f36a6df3bb22d17c8a81b97d3415ffc4aae08baa35f731e43c3f4cbde15e2973",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "C_remaining_axis_gaps.json": "859a5f923771708c602a049a9371ffde97f5974ebdedef2732d4916edd6c89ae"
+  },
+  "rows": [
+    {"side":"links","last_visible_above_axis":[912,606],"first_visible_below_axis":[911,613],"direct_visible_endpoint_gap_pixel":7.0710678118654755,"direct_visible_endpoint_gap_candidate_mm":3.2386963974540555,"axis_rows_occluding_source":[607,608,609,610,611,612],"bridge_measured":false,"continuity_status":"PLAUSIBEL_ABER_DURCH_ACHSE_VERDECKT_NICHT_GEMESSEN"},
+    {"side":"rechts","last_visible_above_axis":[1223,606],"first_visible_below_axis":[1225,613],"direct_visible_endpoint_gap_pixel":7.280109889280518,"direct_visible_endpoint_gap_candidate_mm":3.3344420247133986,"axis_rows_occluding_source":[607,608,609,610,611,612],"bridge_measured":false,"continuity_status":"PLAUSIBEL_ABER_DURCH_ACHSE_VERDECKT_NICHT_GEMESSEN"}
+  ],
+  "interpretation": [
+    "Die fruehere 15.264-Pixel-Angabe war ein konservativer Abstand weiter auseinanderliegender Referenzpunkte und nicht die engste sichtbare Konturluecke.",
+    "Sichtbare Eckfragmente reichen bis y=606 und beginnen wieder ab y=613; dazwischen liegt das ausgelassene horizontale Achsenband607..612.",
+    "Der direkte Abstand der sichtbaren Endpunkte betraegt links ca.7.071Pixel und rechts ca.7.280Pixel.",
+    "Das Originalbild zeigt in diesem Bereich eine Achsenueberlagerung. Eine Fortsetzung ist geometrisch plausibel, aber der verdeckte Konturverlauf bleibt ungemessen.",
+    "Daraus darf keine automatische Hautbruecke, Stationskontur oder Loftkante erzeugt werden."
+  ],
+  "supersedes_as_gap_interpretation_only": "C_remaining_axis_gaps.json outer-axis 15.264px values",
+  "source_data_replaced": false,
+  "loft_allowed": false,
+  "master_change_allowed": false,
+  "production_release": false,
+  "next_step": "Achsenokklusion als explizite unbekannte Bruecke behandeln; C-Hautsemantik aus sichtbaren Fragmenten getrennt von der Seitenprojektionshuelle weiter pruefen."
+}
