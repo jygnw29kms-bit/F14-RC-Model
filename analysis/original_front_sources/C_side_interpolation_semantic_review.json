@@ -1,0 +1,29 @@
+{
+  "status": "C_SEITENINTERPOLATION_VISUELL_NICHT_ALS_STATIONSMESSUNG_FREIGEGEBEN",
+  "inputs": {
+    "C_side_projection_registration_screen.json": "d2a5e2efb5d023e1b679ee5b8a966de6860989cfc60c1d65dfa80fe9d8eba91d",
+    "UPC_Figure3_15_source_exact.png": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4"
+  },
+  "station_source_x_pixel": 1197.5,
+  "crop": {
+    "box": [
+      1160,
+      2670,
+      1240,
+      2900
+    ],
+    "red_line_source_x_pixel": 1197.5
+  },
+  "findings": [
+    "Originalcrop zeigt beiC einen steilen unteren Projektionsabschluss mit mehreren dicht benachbarten Kontur-/Innenlinien.",
+    "Interpolation zwischen1175und1225 ueberquert diesen lokalen Uebergang. Sie ist keine direkt gemessene C-Unterkante.",
+    "Der zuvor berechnete Hoehenrest-2.8258839mm und Zenterversatz-3.5655810mm sind nur Vergleiche zur interpolierten Hypothese, keine bestaetigte C-Registrierung.",
+    "Breitenzunahme und Hoehenabnahme zwischenB/C allein beweisen weder Unstetigkeit noch einen fehlerhaften Rahmen; Glove/Einlaeufe aendern die Silhouette.",
+    "Historischer Rahmen bleibt unabhaengig davon ungeprueft."
+  ],
+  "limits": [
+    "Semantische Zuordnung der einzelnen unteren Linien und exakte C-Stationszuordnung noch offen.",
+    "Keine Korrekturwerte oder neue gemessene Unterkante erfunden; externe laufende Dateien unveraendert."
+  ],
+  "production_release": false
+}
