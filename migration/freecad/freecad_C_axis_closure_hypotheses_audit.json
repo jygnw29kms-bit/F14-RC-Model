@@ -1,0 +1,207 @@
+{
+  "status": "NEUN_HYPOTHESEN_NATIV_GEPRUEFT",
+  "inputs": {
+    "C_axis_closure_sensitivity.json": "e624db9537f1bbda2c536363f64d231bb2c8d375df3709c290299c5f76b8be4a",
+    "C_aperture_white_envelopes_v2.json": "e4559e29c8595876a73aa3a04774f15cf2b197766a9d3d4001be68b6eb08e650",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "offset_pixel": -1,
+      "vertices": 1203,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 9468.304336404111,
+      "analytic_area_mm2": 9468.304336404075,
+      "apertures": [
+        {
+          "label": "links",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        },
+        {
+          "label": "rechts",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        }
+      ]
+    },
+    {
+      "threshold": 96,
+      "offset_pixel": 0,
+      "vertices": 1199,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 9471.077033197065,
+      "analytic_area_mm2": 9471.077033197042,
+      "apertures": [
+        {
+          "label": "links",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        },
+        {
+          "label": "rechts",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        }
+      ]
+    },
+    {
+      "threshold": 96,
+      "offset_pixel": 1,
+      "vertices": 1203,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 9473.84972999002,
+      "analytic_area_mm2": 9473.849729990006,
+      "apertures": [
+        {
+          "label": "links",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        },
+        {
+          "label": "rechts",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        }
+      ]
+    },
+    {
+      "threshold": 128,
+      "offset_pixel": -1,
+      "vertices": 1205,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 9488.023946591293,
+      "analytic_area_mm2": 9488.023946591253,
+      "apertures": [
+        {
+          "label": "links",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        },
+        {
+          "label": "rechts",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        }
+      ]
+    },
+    {
+      "threshold": 128,
+      "offset_pixel": 0,
+      "vertices": 1201,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 9490.796643384245,
+      "analytic_area_mm2": 9490.79664338422,
+      "apertures": [
+        {
+          "label": "links",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        },
+        {
+          "label": "rechts",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        }
+      ]
+    },
+    {
+      "threshold": 128,
+      "offset_pixel": 1,
+      "vertices": 1205,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 9493.569340177199,
+      "analytic_area_mm2": 9493.569340177186,
+      "apertures": [
+        {
+          "label": "links",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        },
+        {
+          "label": "rechts",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.2901041848442034
+        }
+      ]
+    },
+    {
+      "threshold": 160,
+      "offset_pixel": -1,
+      "vertices": 1203,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 9509.421821475253,
+      "analytic_area_mm2": 9509.42182147521,
+      "apertures": [
+        {
+          "label": "links",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.466517692178892
+        },
+        {
+          "label": "rechts",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.3354571853362254
+        }
+      ]
+    },
+    {
+      "threshold": 160,
+      "offset_pixel": 0,
+      "vertices": 1199,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 9512.194518268205,
+      "analytic_area_mm2": 9512.194518268177,
+      "apertures": [
+        {
+          "label": "links",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.466517692178892
+        },
+        {
+          "label": "rechts",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.3354571853362254
+        }
+      ]
+    },
+    {
+      "threshold": 160,
+      "offset_pixel": 1,
+      "vertices": 1203,
+      "simple_polygon": true,
+      "native_valid": true,
+      "native_area_mm2": 9514.967215061159,
+      "analytic_area_mm2": 9514.967215061144,
+      "apertures": [
+        {
+          "label": "links",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.466517692178892
+        },
+        {
+          "label": "rechts",
+          "outside_area_mm2": 0.0,
+          "minimum_planar_boundary_gap_mm": 2.3354571853362254
+        }
+      ]
+    }
+  ],
+  "output_sha256": "4cb146b70dba8beaa10ff507b7ad9724faef337f750895d7a00f805c5bd8df51",
+  "limits": [
+    "VierAchsenbruecken jeVariante sind Annahmen.",
+    "Abstand zu Weissoeffnungen ist kein Originalwand- oder3DNormalabstand.",
+    "Historischer Rahmen ungeprueft; keine Originalhaut oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}
