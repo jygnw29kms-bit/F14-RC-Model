@@ -1,0 +1,17 @@
+{
+  "status": "C_NEUTRAL_REGISTRATION_NATIVE_STUDY_TRANSLATION_ONLY",
+  "inputs": {
+    "C_axis_closure_sensitivity.json": "e624db9537f1bbda2c536363f64d231bb2c8d375df3709c290299c5f76b8be4a",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed",
+    "C_side_projection_registration_screen.json": "d2a5e2efb5d023e1b679ee5b8a966de6860989cfc60c1d65dfa80fe9d8eba91d"
+  },
+  "output_sha256": "1f9aa5713f97d04d1f19c81afbd832b9d85768f076d47474570472fbba9ffe8d",
+  "station_X_mm": 403.32456309143583,
+  "legacy": {"area_mm2":9490.796643384245,"top_Z_mm":36.89137947963954,"bottom_Z_mm":-35.47591276143732,"center_Z_mm":0.707733359101109},
+  "interpolated_side_envelope": {"top_Z_mm":41.869902398620404,"bottom_Z_mm":-33.3232737160772,"height_mm":75.19317611469761,"center_Z_mm":4.2733143412716},
+  "translation_only": {"delta_Z_mm":3.5655809821704914,"top_Z_mm":40.45696046181003,"bottom_Z_mm":-31.91033177926683,"top_residual_mm":-1.4129419368103768,"bottom_residual_mm":1.4129419368103733,"height_preserved_mm":72.36729224107685},
+  "limits": ["Keine anisotrope oder isotrope Formskalierung angewendet.","Z-Translation richtet nur die Mittellage aus und ist keine Quellenfreigabe.","Seitenhüllen-Guides sind interpolierte Projektionsreferenzen, keine C-Stationskontur.","Master unveraendert; keine Produktions-, Druck- oder Flugfreigabe."],
+  "master_change_allowed": false,
+  "production_release": false
+}
