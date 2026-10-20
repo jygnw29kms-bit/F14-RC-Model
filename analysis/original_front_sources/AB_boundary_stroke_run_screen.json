@@ -1,0 +1,2043 @@
+{
+  "status": "AB_RANDSTRICHLAEUFE_GESCREENT_KEINE_MITTELKONTUR",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "sections": [
+    {
+      "section": "A",
+      "samples": [
+        {
+          "y_pixel": 245,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1878,
+              "last_x": 1879,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1878.5
+            },
+            {
+              "side": "right",
+              "first_x": 1922,
+              "last_x": 1923,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1922.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 245,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1878,
+              "last_x": 1879,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1878.5
+            },
+            {
+              "side": "right",
+              "first_x": 1921,
+              "last_x": 1923,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1922.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 245,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1878,
+              "last_x": 1880,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1879.0
+            },
+            {
+              "side": "right",
+              "first_x": 1921,
+              "last_x": 1923,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1922.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 252,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1870,
+              "last_x": 1871,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1870.5
+            },
+            {
+              "side": "right",
+              "first_x": 1930,
+              "last_x": 1931,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1930.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 252,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1870,
+              "last_x": 1871,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1870.5
+            },
+            {
+              "side": "right",
+              "first_x": 1927,
+              "last_x": 1931,
+              "dark_run_pixels": 5,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1929.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 252,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1870,
+              "last_x": 1871,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1870.5
+            },
+            {
+              "side": "right",
+              "first_x": 1927,
+              "last_x": 1931,
+              "dark_run_pixels": 5,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1929.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 259,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1865,
+              "last_x": 1865,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1865.0
+            },
+            {
+              "side": "right",
+              "first_x": 1936,
+              "last_x": 1936,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1936.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 259,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1865,
+              "last_x": 1865,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1865.0
+            },
+            {
+              "side": "right",
+              "first_x": 1936,
+              "last_x": 1936,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1936.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 259,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1865,
+              "last_x": 1866,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1865.5
+            },
+            {
+              "side": "right",
+              "first_x": 1935,
+              "last_x": 1937,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1936.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 266,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1861,
+              "last_x": 1861,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1861.0
+            },
+            {
+              "side": "right",
+              "first_x": 1940,
+              "last_x": 1941,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1940.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 266,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1861,
+              "last_x": 1861,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1861.0
+            },
+            {
+              "side": "right",
+              "first_x": 1940,
+              "last_x": 1941,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1940.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 266,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1860,
+              "last_x": 1861,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1860.5
+            },
+            {
+              "side": "right",
+              "first_x": 1940,
+              "last_x": 1941,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1940.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 287,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1853,
+              "last_x": 1853,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1853.0
+            },
+            {
+              "side": "right",
+              "first_x": 1948,
+              "last_x": 1948,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1948.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 287,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1853,
+              "last_x": 1853,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1853.0
+            },
+            {
+              "side": "right",
+              "first_x": 1948,
+              "last_x": 1948,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1948.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 287,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1853,
+              "last_x": 1853,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1853.0
+            },
+            {
+              "side": "right",
+              "first_x": 1948,
+              "last_x": 1949,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1948.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 294,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1852,
+              "last_x": 1852,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1852.0
+            },
+            {
+              "side": "right",
+              "first_x": 1950,
+              "last_x": 1950,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1950.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 294,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1852,
+              "last_x": 1852,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1852.0
+            },
+            {
+              "side": "right",
+              "first_x": 1949,
+              "last_x": 1950,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1949.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 294,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1851,
+              "last_x": 1852,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1851.5
+            },
+            {
+              "side": "right",
+              "first_x": 1949,
+              "last_x": 1950,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1949.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 301,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1851,
+              "last_x": 1851,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1851.0
+            },
+            {
+              "side": "right",
+              "first_x": 1950,
+              "last_x": 1950,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1950.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 301,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1851,
+              "last_x": 1851,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1851.0
+            },
+            {
+              "side": "right",
+              "first_x": 1950,
+              "last_x": 1950,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1950.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 301,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1851,
+              "last_x": 1851,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1851.0
+            },
+            {
+              "side": "right",
+              "first_x": 1950,
+              "last_x": 1950,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1950.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 308,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1851,
+              "last_x": 1852,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1851.5
+            },
+            {
+              "side": "right",
+              "first_x": 1950,
+              "last_x": 1950,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1950.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 308,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1851,
+              "last_x": 1852,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1851.5
+            },
+            {
+              "side": "right",
+              "first_x": 1950,
+              "last_x": 1950,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1950.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 308,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1851,
+              "last_x": 1852,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1851.5
+            },
+            {
+              "side": "right",
+              "first_x": 1950,
+              "last_x": 1950,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1950.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 315,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1852,
+              "last_x": 1854,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1853.0
+            },
+            {
+              "side": "right",
+              "first_x": 1946,
+              "last_x": 1947,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1946.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 315,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1852,
+              "last_x": 1854,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1853.0
+            },
+            {
+              "side": "right",
+              "first_x": 1946,
+              "last_x": 1948,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1947.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 315,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1852,
+              "last_x": 1854,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1853.0
+            },
+            {
+              "side": "right",
+              "first_x": 1946,
+              "last_x": 1948,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1947.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 322,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1854,
+              "last_x": 1855,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1854.5
+            },
+            {
+              "side": "right",
+              "first_x": 1946,
+              "last_x": 1947,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1946.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 322,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1854,
+              "last_x": 1855,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1854.5
+            },
+            {
+              "side": "right",
+              "first_x": 1946,
+              "last_x": 1947,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1946.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 322,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1854,
+              "last_x": 1855,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1854.5
+            },
+            {
+              "side": "right",
+              "first_x": 1946,
+              "last_x": 1947,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1946.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 329,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1858,
+              "last_x": 1859,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1858.5
+            },
+            {
+              "side": "right",
+              "first_x": 1943,
+              "last_x": 1943,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1943.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 329,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1858,
+              "last_x": 1859,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1858.5
+            },
+            {
+              "side": "right",
+              "first_x": 1943,
+              "last_x": 1943,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1943.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 329,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1858,
+              "last_x": 1859,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1858.5
+            },
+            {
+              "side": "right",
+              "first_x": 1943,
+              "last_x": 1943,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1943.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 336,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1865,
+              "last_x": 1869,
+              "dark_run_pixels": 5,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1867.0
+            },
+            {
+              "side": "right",
+              "first_x": 1935,
+              "last_x": 1936,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1935.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 336,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1865,
+              "last_x": 1869,
+              "dark_run_pixels": 5,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1867.0
+            },
+            {
+              "side": "right",
+              "first_x": 1935,
+              "last_x": 1936,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1935.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 336,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1865,
+              "last_x": 1869,
+              "dark_run_pixels": 5,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1867.0
+            },
+            {
+              "side": "right",
+              "first_x": 1935,
+              "last_x": 1937,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1936.0
+            }
+          ]
+        }
+      ],
+      "flagged_boundaries": 0,
+      "maximum_run_pixels": 5
+    },
+    {
+      "section": "B",
+      "samples": [
+        {
+          "y_pixel": 499,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1875,
+              "last_x": 1877,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1876.0
+            },
+            {
+              "side": "right",
+              "first_x": 1924,
+              "last_x": 1927,
+              "dark_run_pixels": 4,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1925.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 499,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1875,
+              "last_x": 1877,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1876.0
+            },
+            {
+              "side": "right",
+              "first_x": 1924,
+              "last_x": 1927,
+              "dark_run_pixels": 4,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1925.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 499,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1874,
+              "last_x": 1877,
+              "dark_run_pixels": 4,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1875.5
+            },
+            {
+              "side": "right",
+              "first_x": 1924,
+              "last_x": 1928,
+              "dark_run_pixels": 5,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1926.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 509,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1867,
+              "last_x": 1868,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1867.5
+            },
+            {
+              "side": "right",
+              "first_x": 1934,
+              "last_x": 1935,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1934.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 509,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1867,
+              "last_x": 1868,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1867.5
+            },
+            {
+              "side": "right",
+              "first_x": 1934,
+              "last_x": 1935,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1934.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 509,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1867,
+              "last_x": 1868,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1867.5
+            },
+            {
+              "side": "right",
+              "first_x": 1934,
+              "last_x": 1935,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1934.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 519,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1864,
+              "last_x": 1864,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1864.0
+            },
+            {
+              "side": "right",
+              "first_x": 1938,
+              "last_x": 1938,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1938.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 519,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1864,
+              "last_x": 1864,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1864.0
+            },
+            {
+              "side": "right",
+              "first_x": 1937,
+              "last_x": 1938,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1937.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 519,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1864,
+              "last_x": 1864,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1864.0
+            },
+            {
+              "side": "right",
+              "first_x": 1937,
+              "last_x": 1938,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1937.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 529,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1864,
+              "last_x": 1864,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1864.0
+            },
+            {
+              "side": "right",
+              "first_x": 1938,
+              "last_x": 1938,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1938.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 529,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1864,
+              "last_x": 1864,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1864.0
+            },
+            {
+              "side": "right",
+              "first_x": 1938,
+              "last_x": 1938,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1938.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 529,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1863,
+              "last_x": 1864,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1863.5
+            },
+            {
+              "side": "right",
+              "first_x": 1938,
+              "last_x": 1938,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1938.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 539,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1865,
+              "last_x": 1865,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1865.0
+            },
+            {
+              "side": "right",
+              "first_x": 1937,
+              "last_x": 1937,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1937.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 539,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1864,
+              "last_x": 1865,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1864.5
+            },
+            {
+              "side": "right",
+              "first_x": 1937,
+              "last_x": 1937,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1937.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 539,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1864,
+              "last_x": 1865,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1864.5
+            },
+            {
+              "side": "right",
+              "first_x": 1937,
+              "last_x": 1938,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1937.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 549,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1856,
+              "last_x": 1857,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1856.5
+            },
+            {
+              "side": "right",
+              "first_x": 1945,
+              "last_x": 1945,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1945.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 549,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1856,
+              "last_x": 1857,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1856.5
+            },
+            {
+              "side": "right",
+              "first_x": 1945,
+              "last_x": 1945,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1945.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 549,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1856,
+              "last_x": 1857,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1856.5
+            },
+            {
+              "side": "right",
+              "first_x": 1944,
+              "last_x": 1945,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1944.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 559,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1850,
+              "last_x": 1852,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1851.0
+            },
+            {
+              "side": "right",
+              "first_x": 1952,
+              "last_x": 1952,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1952.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 559,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1850,
+              "last_x": 1852,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1851.0
+            },
+            {
+              "side": "right",
+              "first_x": 1951,
+              "last_x": 1952,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1951.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 559,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1850,
+              "last_x": 1852,
+              "dark_run_pixels": 3,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1851.0
+            },
+            {
+              "side": "right",
+              "first_x": 1951,
+              "last_x": 1952,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1951.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 569,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1844,
+              "last_x": 1845,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1844.5
+            },
+            {
+              "side": "right",
+              "first_x": 1957,
+              "last_x": 1957,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1957.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 569,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1844,
+              "last_x": 1845,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1844.5
+            },
+            {
+              "side": "right",
+              "first_x": 1957,
+              "last_x": 1957,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1957.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 569,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1844,
+              "last_x": 1845,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1844.5
+            },
+            {
+              "side": "right",
+              "first_x": 1956,
+              "last_x": 1957,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1956.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 579,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1841,
+              "last_x": 1841,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1841.0
+            },
+            {
+              "side": "right",
+              "first_x": 1960,
+              "last_x": 1961,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1960.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 579,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1840,
+              "last_x": 1841,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1840.5
+            },
+            {
+              "side": "right",
+              "first_x": 1960,
+              "last_x": 1961,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1960.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 579,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1840,
+              "last_x": 1841,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1840.5
+            },
+            {
+              "side": "right",
+              "first_x": 1960,
+              "last_x": 1961,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1960.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 589,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1838,
+              "last_x": 1838,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1838.0
+            },
+            {
+              "side": "right",
+              "first_x": 1963,
+              "last_x": 1963,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1963.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 589,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1838,
+              "last_x": 1838,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1838.0
+            },
+            {
+              "side": "right",
+              "first_x": 1963,
+              "last_x": 1963,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1963.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 589,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1838,
+              "last_x": 1838,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1838.0
+            },
+            {
+              "side": "right",
+              "first_x": 1963,
+              "last_x": 1964,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1963.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 599,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1836,
+              "last_x": 1836,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1836.0
+            },
+            {
+              "side": "right",
+              "first_x": 1965,
+              "last_x": 1965,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1965.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 599,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1836,
+              "last_x": 1836,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1836.0
+            },
+            {
+              "side": "right",
+              "first_x": 1965,
+              "last_x": 1965,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1965.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 599,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1836,
+              "last_x": 1836,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1836.0
+            },
+            {
+              "side": "right",
+              "first_x": 1965,
+              "last_x": 1965,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1965.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 619,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1838,
+              "last_x": 1839,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1838.5
+            },
+            {
+              "side": "right",
+              "first_x": 1966,
+              "last_x": 1966,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1966.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 619,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1835,
+              "last_x": 1835,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1835.0
+            },
+            {
+              "side": "right",
+              "first_x": 1966,
+              "last_x": 1966,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1966.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 619,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1835,
+              "last_x": 1835,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1835.0
+            },
+            {
+              "side": "right",
+              "first_x": 1966,
+              "last_x": 1966,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1966.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 629,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1834,
+              "last_x": 1834,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1834.0
+            },
+            {
+              "side": "right",
+              "first_x": 1965,
+              "last_x": 1965,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1965.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 629,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1834,
+              "last_x": 1834,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1834.0
+            },
+            {
+              "side": "right",
+              "first_x": 1965,
+              "last_x": 1965,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1965.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 629,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1834,
+              "last_x": 1835,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1834.5
+            },
+            {
+              "side": "right",
+              "first_x": 1965,
+              "last_x": 1966,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1965.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 639,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1835,
+              "last_x": 1835,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1835.0
+            },
+            {
+              "side": "right",
+              "first_x": 1965,
+              "last_x": 1965,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1965.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 639,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1835,
+              "last_x": 1835,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1835.0
+            },
+            {
+              "side": "right",
+              "first_x": 1965,
+              "last_x": 1965,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1965.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 639,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1835,
+              "last_x": 1835,
+              "dark_run_pixels": 1,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1835.0
+            },
+            {
+              "side": "right",
+              "first_x": 1964,
+              "last_x": 1965,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1964.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 649,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1837,
+              "last_x": 1838,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1837.5
+            },
+            {
+              "side": "right",
+              "first_x": 1962,
+              "last_x": 1963,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1962.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 649,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1837,
+              "last_x": 1838,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1837.5
+            },
+            {
+              "side": "right",
+              "first_x": 1962,
+              "last_x": 1963,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1962.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 649,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1837,
+              "last_x": 1838,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1837.5
+            },
+            {
+              "side": "right",
+              "first_x": 1962,
+              "last_x": 1963,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1962.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 659,
+          "threshold": 96,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1843,
+              "last_x": 1844,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1843.5
+            },
+            {
+              "side": "right",
+              "first_x": 1956,
+              "last_x": 1957,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1956.5
+            }
+          ]
+        },
+        {
+          "y_pixel": 659,
+          "threshold": 128,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1843,
+              "last_x": 1844,
+              "dark_run_pixels": 2,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1843.5
+            },
+            {
+              "side": "right",
+              "first_x": 1953,
+              "last_x": 1957,
+              "dark_run_pixels": 5,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1955.0
+            }
+          ]
+        },
+        {
+          "y_pixel": 659,
+          "threshold": 160,
+          "boundaries": [
+            {
+              "side": "left",
+              "first_x": 1843,
+              "last_x": 1847,
+              "dark_run_pixels": 5,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1845.0
+            },
+            {
+              "side": "right",
+              "first_x": 1953,
+              "last_x": 1957,
+              "dark_run_pixels": 5,
+              "roi_border": false,
+              "possible_merged_or_tangent_run": false,
+              "run_midpoint_x_candidate": 1955.0
+            }
+          ]
+        }
+      ],
+      "flagged_boundaries": 0,
+      "maximum_run_pixels": 5
+    }
+  ],
+  "limits": [
+    "Horizontale Lauflaenge abhaengig von Neigung und Kruemmung, keine normale Strichdicke.",
+    "Grenze6Pixel ist nur Screeningheuristik, keine Messunsicherheit oder physikalischer Grenzwert.",
+    "Kurze Laeufe koennen semantisch trotzdem falsch sein; Mittelpunkte sind nur Kandidaten, nicht freigegebene Konturpunkte.",
+    "Achsenbereiche ausgelassen; keine Geometrie, Registrierung oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}
