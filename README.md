@@ -12,6 +12,12 @@ Neuaufbau des RC-/FDM-F-14-Projekts von Grund auf.
 
 Sobald ein neuer **sichtbarer und sinnvoll prüfbarer Entwicklungsstand** verfügbar ist, wird er im Repository dokumentiert und mit einem aktuellen Bild bzw. einer geeigneten Vorschau verknüpft. Zwischenstände werden klar als Entwicklung, Prototyp oder freigegebener Stand gekennzeichnet.
 
+### Referenz-/Registrierungsstudie Sektion C – 20.10.2026
+
+![Sektion C Registrierungsstudie](docs/images/f14_C_registration_study_20261020.svg)
+
+*Entwicklungsstand / Referenzstudie: Der neutrale C-Rasterkandidat ist einmal im historischen Kandidatenrahmen und einmal ausschließlich in Z auf die Mitte einer unabhängig interpolierten Seitenprojektionshülle verschoben dargestellt. Die Seitenhüllen-Guides sind keine bestätigte C-Stationskontur. Keine Master-, Druck-, Produktions- oder Flugfreigabe.*
+
 ## Aktueller technischer Stand
 
 Das Flugzeug ist weiterhin **unvollständig, nicht druckfertig und nicht für den Flug freigegeben**.
@@ -26,6 +32,8 @@ Aktuell wird die Referenzgeometrie der F-14-Nase weiter abgesichert. Dazu gehör
 - [Workflow zur Prüfung der Quellflügel](cad/fusion/source_review/README.md)
 - [Verbindliches Massenbudget](docs/04_MASS_BUDGET.md)
 - [Verifikationsplan](docs/05_DESIGN_VERIFICATION.md)
+- [C-Achsschließung – neutraler Studienkandidat](docs/C_ACHSSCHLIESSUNG_STUDIENKANDIDAT_20261020.md)
+- [A/B/C-Rahmenprüfung und aktueller C-Registrierungsblocker](docs/ABC_RAHMENPRUEFUNG_20261020.md)
 
 ## Konstruktionsziel
 
