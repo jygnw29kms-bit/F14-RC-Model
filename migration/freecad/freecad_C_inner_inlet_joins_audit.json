@@ -1,0 +1,65 @@
+{
+  "status": "C_INNERE_EINLAUFANSCHLUESSE_NATIV_ERZEUGT",
+  "inputs": {
+    "C_inner_inlet_joins.json": "c6bd9feab16830b5ebcc8f88696f5a40d961f62b4b23452cc9e46453c83a430d",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "rows": [
+    {
+      "threshold": 96,
+      "segment": 0,
+      "vertices": 5,
+      "native_edges": 4,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 96,
+      "segment": 1,
+      "vertices": 5,
+      "native_edges": 4,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 0,
+      "vertices": 5,
+      "native_edges": 4,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 128,
+      "segment": 1,
+      "vertices": 5,
+      "native_edges": 4,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 0,
+      "vertices": 5,
+      "native_edges": 4,
+      "valid": true,
+      "solids": 0
+    },
+    {
+      "threshold": 160,
+      "segment": 1,
+      "vertices": 5,
+      "native_edges": 4,
+      "valid": true,
+      "solids": 0
+    }
+  ],
+  "output_sha256": "004ac74665c4b9f0c45e3ea7598f2475e6f72b70047bec7b82e4f5c1e4dbb4c1",
+  "hinweise": [
+    "Zwei getrennte offene Anschlusslinien je Schwelle, Zeilen646..650.",
+    "Strichaussenkante; keine geschlossene Sektion oder Haut.",
+    "Historischer metrischer Rahmen ungeprueft."
+  ],
+  "production_release": false
+}
