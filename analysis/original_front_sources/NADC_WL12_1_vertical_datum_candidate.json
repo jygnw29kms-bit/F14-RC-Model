@@ -1,0 +1,46 @@
+{
+  "status": "NADC_WL12_1_ALS_VERTIKALDATUM_KANDIDAT_GEPRUEFT_NOCH_NICHT_REGISTRIERT",
+  "inputs": {
+    "NADC_original_visual_datum_review.json": "54f2fb5b23b08201f54fa04e236c9990a6309a98807d864955c1207cdd708412",
+    "NADC_review_page23.png": "537a03b889214cb0e89644805c7b2078764521bddf40cd7c7bfd9f528c9f9c92",
+    "nose_FS93_NASA_crosscheck.json": "5d3c332466f52845a4719d5184cdac3695abe1c1952da27e536763a9ecaf5324"
+  },
+  "primary_source": {
+    "publication": "NADC-81293-60 / AD-A124468, Figure 3, printed page 19",
+    "model_scale": 12.0,
+    "figure_units": "inches",
+    "explicit_model_waterline_label_in": 12.1,
+    "nose_station_model_in_as_printed": 7.7,
+    "pivot_FS_model_in": 43.68,
+    "pivot_BL_model_in": 8.92
+  },
+  "scale_correspondence_check": {
+    "nose_station_times_scale_fullscale_in": 92.4,
+    "Navy_FS93_in": 93.0,
+    "difference_in": -0.5999999999999943,
+    "printed_0_1in_model_rounding_halfwidth_in": 0.05,
+    "fullscale_rounding_halfwidth_in": 0.6000000000000001,
+    "Navy_FS93_inside_rounding_interval": true
+  },
+  "WL12_1_candidate_fullscale": {
+    "nominal_in": 145.2,
+    "rounding_only_interval_in": [144.6,145.8],
+    "rounding_only_halfwidth_in": 0.6000000000000001
+  },
+  "interpretation": [
+    "Figure3 labels W.L.12.1 explicitly on the 1/12-scale model side view.",
+    "The same figure/model uses a nose station7.7 whose x12 value92.4in is consistent with NavyFS93 only within the printed0.1in model precision.",
+    "Therefore WL12.1 x12 =145.2in is a source-traceable candidate correspondence, not an exact verified production-aircraft waterline.",
+    "WL12.1 is a global horizontal reference line in the NADC model drawing; it is not the wing pivot waterline.",
+    "The NADC test model may differ from production OML; scale correspondence alone does not register UPC section C."
+  ],
+  "gate": {
+    "NADC_WL12_1_candidate_usable_for_cross_source_registration_study": true,
+    "NADC_WL12_1_verified_as_production_aircraft_WL145_2": false,
+    "C_absolute_Z_registered_from_WL12_1": false,
+    "pivot_WL_verified_from_WL12_1": false,
+    "master_change_allowed": false,
+    "production_release": false
+  },
+  "next_step": "Register the UPC and NADC side-view frames only with independent homologous longitudinal/vertical landmarks; then test whether any semantically matching C skin point can be related to NADC WL12.1. Do not translate C from WL12.1 alone."
+}
