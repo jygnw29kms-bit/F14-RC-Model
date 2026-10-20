@@ -1,0 +1,24 @@
+{
+  "status": "C_SEITENPROJEKTIONS_REGISTRIERUNG_INTERPOLIERT_NUR_STUDIE",
+  "inputs": {
+    "BC_projection_samples.json": "d576987b9992bd30e7e698f4949e0bd0d7d507f31204419da18546665f89d374",
+    "CD_projection_samples_v2.json": "443193241eb7e70253ce78cbfdad0cea0cdbc0fd4b6bfc132d8126ac84cdb9d6",
+    "front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "C_axis_closure_sensitivity.json": "e624db9537f1bbda2c536363f64d231bb2c8d375df3709c290299c5f76b8be4a",
+    "front_sections_pixel_candidates.json": "5635bfc21e3301d5ec98fe6301162e830c418cd18122b4d434a640cca39903ed"
+  },
+  "station_X_mm": 403.32456309143583,
+  "bracketing_samples": {
+    "left": {"X_mm":391.46444067586833,"top_Z_mm":44.2419268817339,"bottom_Z_mm":-26.918807611670754,"source":"BC","source_x_pixel":1175},
+    "right": {"X_mm":417.8202682660182,"top_Z_mm":38.97076136370393,"bottom_Z_mm":-41.15095451035168,"source":"CD_v2","source_x_pixel":1225},
+    "interpolation_fraction": 0.45000000000000207
+  },
+  "interpolated_side_envelope_at_C": {"top_Z_mm":41.869902398620404,"bottom_Z_mm":-33.3232737160772,"height_mm":75.19317611469761,"center_Z_mm":4.2733143412716},
+  "neutral_C_in_legacy_frame": {"top_Z_mm":36.89137947963954,"bottom_Z_mm":-35.47591276143732,"height_mm":72.36729224107685,"center_Z_mm":0.707733359101109},
+  "difference_neutral_minus_interpolated": {"top_Z_mm":-4.978522918980865,"bottom_Z_mm":-2.152639045360118,"height_mm":-2.8258838736207537,"center_Z_mm":-3.5655809821704914},
+  "diagnostic_only": {"isotropic_vertical_scale_factor_to_match_height":1.0390491862567817,"vertical_translation_mm_to_match_center_without_scale":3.5655809821704914},
+  "limits": ["Interpolation nutzt zwei Original-Seitenprojektionsproben, aber keine verifizierte C-Stationskontur.","Seitensilhouette kann lokale Glove-/Inlet-/Anbauteilprojektionen enthalten.","Der berechnete Skalierungsfaktor ist Diagnose und darf die C-Kontur nicht automatisch verformen.","Keine gemeinsame Wasserlinie, kein Loft, keine Master-Aenderung und keine Produktionsfreigabe."],
+  "next_step": "Pruefen, ob obere und untere C-Kanten semantisch zur interpolierten Seitenhülle gehoeren; erst danach Registrierungsvarianten aufbauen.",
+  "master_change_allowed": false,
+  "production_release": false
+}
