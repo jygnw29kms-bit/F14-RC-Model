@@ -1,0 +1,29 @@
+{
+  "status": "UPC_PLAN_SIDE_X_TRANSFER_NOT_VERIFIED_FAIL_CLOSED",
+  "view_specific_nose_transition_px": {"plan":[444.25,445.25],"side":[440.75,441.25]},
+  "plan_minus_side_transition_interval_relation_px": {"plan_min_minus_side_max":3.0,"plan_max_minus_side_min":4.5},
+  "plan_lower_20deg_wing_local_LE_fit": {
+    "scale_in_per_px": 0.43984927561606463,
+    "FS93_x_prediction_px": 418.7291111968045,
+    "plan_FS93_transition_interval_px": [444.25,445.25],
+    "prediction_vs_plan_interval_px": [-26.520888803195476,-25.520888803195476],
+    "rms_px": 0.2380090882609885
+  },
+  "decision": {
+    "plan_and_side_share_verified_x_origin": false,
+    "plan_and_side_share_verified_x_scale": false,
+    "transfer_plan_wing_fit_to_side_ticks_ABCDEF": false,
+    "ABC_aircraft_FS_candidate_from_plan_fit_valid": false,
+    "ABCDEF_aircraft_FS_candidate_from_plan_fit_valid": false,
+    "plan_wing_local_fit_retained_as_local_shape_screen": true,
+    "master_change_allowed": false,
+    "production_release": false
+  },
+  "reason": [
+    "Plan- und Seitenansicht zeigen getrennte Nasen-Changepoints; ein gemeinsamer Raster-X-Ursprung ist nicht verifiziert.",
+    "Der lokal sehr gute untere 20-Grad-LE-Fit extrapoliert FS93 in der Planansicht deutlich vor den plan-spezifischen FS93-Kandidatenbereich und ist daher keine globale affine Planregistrierung.",
+    "A-F-Stationssticks liegen in der Seitenansicht und duerfen ohne Cross-View-Transformation keine Planansichts-FS-Zuordnung erben.",
+    "Die zuvor abgeleiteten ABC/ABCDEF-FS-Dateien aus dem Planfit bleiben nur zur Fehlernachverfolgung erhalten und sind für Geometrieentscheidungen gesperrt."
+  ],
+  "next_step": "Direkte Seitenansichtsregistrierung verwenden; die Navy/UPC-Dreilandmarkenregistrierung erfüllt diesen Engineering-Schritt, Z/Waterline bleibt separat offen."
+}
