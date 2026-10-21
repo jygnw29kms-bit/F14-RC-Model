@@ -125,7 +125,10 @@
         }
       ],
       "logical_chain_continuous": true,
-      "source_x_interval": null
+      "source_x_interval": [
+        352,
+        414.5
+      ]
     },
     {
       "index": 4,
@@ -176,7 +179,10 @@
         }
       ],
       "logical_chain_continuous": true,
-      "source_x_interval": null
+      "source_x_interval": [
+        414.5,
+        425
+      ]
     },
     {
       "index": 5,
@@ -227,7 +233,10 @@
         }
       ],
       "logical_chain_continuous": true,
-      "source_x_interval": null
+      "source_x_interval": [
+        425,
+        433
+      ]
     },
     {
       "index": 6,
@@ -285,7 +294,10 @@
         }
       ],
       "logical_chain_continuous": true,
-      "source_x_interval": null
+      "source_x_interval": [
+        433,
+        497
+      ]
     },
     {
       "index": 7,
@@ -336,7 +348,10 @@
         }
       ],
       "logical_chain_continuous": true,
-      "source_x_interval": null
+      "source_x_interval": [
+        497,
+        650
+      ]
     },
     {
       "index": 8,
@@ -387,15 +402,28 @@
         }
       ],
       "logical_chain_continuous": true,
-      "source_x_interval": null
+      "source_x_interval": [
+        650,
+        780
+      ]
     }
   ],
   "limits": [
     "Logische Endpunktnamen-Stetigkeit ist keine numerische oder geometrische Stetigkeitspruefung.",
-    "Modelle3..8: Stationsintervalle hier noch nicht transkribiert; null bedeutet unbekannt.",
     "Neue Kontrollpunkte FLO/FUP/INLTLO/INLTUP/CREASE/SCPCAN noch numerisch zu binden.",
     "Keine Innenkanalgeometrie aus den Namen INLET/NACELLE ableiten; dies ist die vereinfachte Quellen-Aussenbeschreibung.",
     "Keine neue CAD-Geometrie, physische Einheiten oder Produktionsfreigabe."
   ],
-  "production_release": false
+  "production_release": false,
+  "station_source": "Table1 Sheet5 PDF24/gedr14 erste2; Sheet6 PDF25/gedr15 restliche6, visuell geprueft",
+  "station_source_render_sha256": "1e4cf8611d0a36aea22bd2a98021e91cfce21c6cf040f8046d146bbaf135f43a",
+  "station_domain_audit": {
+    "contiguous_source_domain": [
+      93,
+      780
+    ],
+    "gap_count": 0,
+    "overlap_interior_count": 0,
+    "boundary_policy": "Gemeinsame Randstationen sind Modellwechsel; numerische Anschlusspruefung noch offen."
+  }
 }
