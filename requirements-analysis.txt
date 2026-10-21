@@ -1,0 +1,5 @@
+# Python-Abhaengigkeiten fuer reproduzierbare Bild-/Raster- und PDF-Analysen.
+Pillow>=10.0,<13
+numpy>=2.0,<3
+pypdf>=6.0,<7
+PyMuPDF>=1.26,<2
