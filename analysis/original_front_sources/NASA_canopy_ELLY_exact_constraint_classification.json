@@ -1,0 +1,44 @@
+{
+  "status": "ELLY_CONSTRAINT_KONFLIKT_EXAKT_RATIONAL_BESTAETIGT",
+  "source_segment": {
+    "start": [
+      313,
+      203
+    ],
+    "end": [
+      352,
+      199.5
+    ],
+    "control": [
+      331,
+      203
+    ]
+  },
+  "assumption": "Kontrollpunkt definiert beide Endtangenten; achsenparallele Konik mit Starttranslation.",
+  "start_slope": 0,
+  "end_slope": "-1/6",
+  "normalized_ELLX_form": {
+    "equation": "A*u+B*v+C*u^2+v^2=0",
+    "A": "0",
+    "B": "-42",
+    "C": "-49/468"
+  },
+  "equivalent_printed_ELLY_form": {
+    "equation": "A*u+B*v+C*v^2+u^2=0",
+    "A": "0",
+    "B": "2808/7",
+    "C": "-468/49"
+  },
+  "conic_classification": "Hyperbolischer Typ: quadratische Koeffizienten haben entgegengesetzte Vorzeichen.",
+  "exact_endpoint_and_tangent_residuals": "0 rational, keine Gleitkomma-/Konditionsursache.",
+  "implications": [
+    "Nur Umnormierung von ELLX zu EL LY macht den Koeffizienten nicht positiv.",
+    "Bisheriger strenger Ellipsen-Guard stoppt korrekt; ob die Originalroutine unter ELLY auch hyperbolische Koniken auswertet, ist ungeklaert.",
+    "Keine Tabellenkorrektur oder frei erfundene Tangente vornehmen."
+  ],
+  "limits": [
+    "Mathematischer Nachweis unter expliziter Tangentenhypothese, kein ausgefuehrter NASA-Originalcode.",
+    "Keine neue CAD-Geometrie oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}
