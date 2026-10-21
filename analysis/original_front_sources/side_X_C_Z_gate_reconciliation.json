@@ -1,0 +1,45 @@
+{
+  "status": "SIDE_X_ENGINEERING_CANDIDATE_SUPPORTED_C_Z_REMAINS_FAIL_CLOSED",
+  "inputs": {
+    "analysis/original_front_sources/Navy_UPC_side_longitudinal_landmark_fit.json": "c96497c97110246ce26631d7e776389acc85ebf913fac355087fb8bfc11c1b5f",
+    "analysis/original_front_sources/ABCDEF_FS_from_Navy_UPC_side_registration.json": "f5350bb3d4c4c744e19b39438b2eaaf5642d55c5ff3841400365ab57cc42cb82",
+    "analysis/original_front_sources/NADC_WL12_1_vertical_datum_candidate.json": "617c6d18bf5456e28158e6f19a9cf7005af48eb710aabd6b6346c7e70b8feea5",
+    "analysis/original_front_sources/C_vertical_datum_source_gate.json": "adc916dc14650b0757d51ce4e392b89b4cb73ce196ed757c42f27f46743152ff",
+    "analysis/original_front_sources/UPC_cross_view_longitudinal_transfer_gate.json": "19633b18e9abfd1771232e64ab34eb2cc0a88406fa06710b2bd9516ea148d39d"
+  },
+  "side_X_gate": {
+    "supported_for_engineering_study": true,
+    "production_verified": false,
+    "C_FS_nominal_in": 428.0311703627512,
+    "C_FS_sensitivity_range_in": [
+      427.16718147851316,
+      428.8949245559475
+    ],
+    "C_nose_relative_X_nominal_mm": 391.90030220497306,
+    "basis": "Navy/UPC side-view three-landmark affine registration; no plan-to-side transfer."
+  },
+  "NADC_C_longitudinal_correspondence_study": {
+    "C_equivalent_model_station_in_if_1_12_correspondence_assumed": 35.66926419689593,
+    "range_model_in": [
+      35.59726512320943,
+      35.741243712995626
+    ],
+    "NADC_nose_station_model_in": 7.7,
+    "C_distance_aft_of_NADC_nose_model_in": 27.96926419689593,
+    "NADC_WL12_1_fullscale_candidate_in": 145.2,
+    "usable_as_longitudinal_study_location": true,
+    "usable_as_C_vertical_translation": false
+  },
+  "C_Z_gate": {
+    "absolute_Z_registered": false,
+    "common_aircraft_waterline_verified": false,
+    "reason": "The new side-X registration locates C longitudinally but supplies no homologous vertical landmark tying the detached UPC C-section axis to NADC WL12.1 or another aircraft waterline.",
+    "diagnostic_translation_3_5656mm_allowed_as_geometry_correction": false,
+    "NADC_WL12_1_direct_transfer_allowed": false,
+    "A_B_C_loft_allowed": false,
+    "master_change_allowed": false,
+    "production_release": false
+  },
+  "supersession_note": "The old NADC_UPC longitudinal gate is superseded only for engineering side-X location by the later three-landmark Navy/UPC side registration. Its caution against treating NADC WL12.1 as a C-Z datum remains valid.",
+  "next_step": "Find one source-traceable vertical aircraft datum visible in the UPC side view and semantically tied to the detached C section, or an independent primary-source C-section waterline. Until then keep C in local section coordinates."
+}
