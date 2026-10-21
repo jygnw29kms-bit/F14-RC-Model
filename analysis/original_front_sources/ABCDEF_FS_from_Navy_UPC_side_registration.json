@@ -1,0 +1,34 @@
+{
+  "status": "ABCDEF_SIDE_VIEW_AIRCRAFT_FS_ENGINEERING_CANDIDATE_NAVY_THREE_LANDMARK_REGISTRATION",
+  "registration_nominal": {
+    "slope_px_per_FS_in": 2.257457087007431,
+    "scale_FS_in_per_px": 0.44297630539929206,
+    "FS0_x_px": 231.23800100452218,
+    "rms_px": 0.18482695859015552,
+    "max_abs_px": 0.2536417285381276
+  },
+  "registration_model_count_for_sensitivity": 8,
+  "tick_screen_halfwidth_px": 0.5,
+  "rc_scale_mm_per_fullscale_in": 1.1697428086486623,
+  "nose_reference_FS_in": 93.0,
+  "sections": [
+    {"section":"A","side_tick_x_px":642.5,"FS_nominal_in":182.17932086614414,"FS_sensitivity_range_in":[181.11246475439845,183.2426218293663],"nose_relative_X_nominal_mm":104.3168692633437,"nose_relative_X_sensitivity_range_mm":[103.0689219987663,105.56065791850202]},
+    {"section":"B","side_tick_x_px":905.5,"FS_nominal_in":298.68208918615795,"FS_sensitivity_range_in":[297.71136655339336,299.65083014844896],"nose_relative_X_nominal_mm":240.59514469334107,"nose_relative_X_sensitivity_range_mm":[239.45964887447218,241.72832246742436]},
+    {"section":"C","side_tick_x_px":1197.5,"FS_nominal_in":428.0311703627512,"FS_sensitivity_range_in":[427.16718147851316,428.8949245559475],"nose_relative_X_nominal_mm":391.90030220497306,"nose_relative_X_sensitivity_range_mm":[390.8896574208832,392.91067246090455]},
+    {"section":"D","side_tick_x_px":1561.5,"FS_nominal_in":589.2745455280935,"FS_sensitivity_range_in":[588.5436083029775,590.0074258036512],"nose_relative_X_nominal_mm":580.5135807468706,"nose_relative_X_sensitivity_range_mm":[579.6585721842175,581.3708621788046]},
+    {"section":"E","side_tick_x_px":1663.5,"FS_nominal_in":634.4581286788213,"FS_sensitivity_range_in":[633.7644751603824,635.1543354939419],"nose_relative_X_nominal_mm":633.3667522064131,"nose_relative_X_sensitivity_range_mm":[632.5553559915255,634.1811351217327]},
+    {"section":"F","side_tick_x_px":1862.5,"FS_nominal_in":722.6104134532804,"FS_sensitivity_range_in":[721.985817767266,723.2392488723694],"nose_relative_X_nominal_mm":736.4822533872858,"nose_relative_X_sensitivity_range_mm":[735.7516370752573,737.2178290965887]}
+  ],
+  "gates": {
+    "side_aircraft_X_engineering_candidate_supported": true,
+    "side_aircraft_X_production_verified": false,
+    "section_Z_registered": false,
+    "master_change_allowed": false,
+    "production_release": false
+  },
+  "limits": [
+    "FS ranges include landmark-line interval corners and +/-0.5px tick localization screen only; they are not statistical confidence intervals.",
+    "Navy Figure4-7 is a training schematic and UPC Figure3.15 a secondary blueprint; agreement supports engineering registration but not manufacturing metrology.",
+    "Only longitudinal station positions are registered; section shapes and Z/Waterline remain separate gates."
+  ]
+}
