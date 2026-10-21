@@ -1,0 +1,17 @@
+{
+  "status": "PRIMAERE_GEOMETRIEVERIFIKATIONSFIGUR_VISUELL_GEPRUEFT",
+  "source": "NASA-CR172559 PDF115/gedr105 Figure4",
+  "case_label": "F14WingBodyGlove35degreeLE WingBodyCase3",
+  "findings": [
+    "FigurzeigtperspektivischeRumpfquerschnitte,Head-onViewmitWingPlane undkombiniertePlan-/Seitenlinien.",
+    "Keine numerischenX/ZAchsen oder eindeutigzugeordnetenStationenindengeprueftenPlots.",
+    "SichtbareNASENlinienkoenneneinenqualitativenFormvergleichermoeglichen, aberkeinenunabhaengigenquantitativenRestwertohneweiterePlotkalibrierung."
+  ],
+  "validation_decision": "EllipsenTangentenkontrollpunktHypothesedurchdieseFigurNICHTnumerischverifiziert.",
+  "limits": [
+    "Figurist35degFall; TranskriptionSheet6ist20deg. BerichtbeschreibtgleichenRumpffuerSweeps, dochFluegel/GlovePlotsnichtpauschalgleichsetzen.",
+    "KeineNumerikgegenunbeschriftetePerspektivefittenundalsOriginalroutinebeweisdeklarieren.",
+    "KeineCAD/Masteraenderung oderProduktionsfreigabe."
+  ],
+  "production_release": false
+}
