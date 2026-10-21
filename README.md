@@ -16,7 +16,13 @@ Sobald ein neuer **sichtbarer und sinnvoll prüfbarer Entwicklungsstand** verfü
 
 ![Sektion C Registrierungsstudie](docs/images/f14_C_registration_study_20261020.svg)
 
-*Entwicklungsstand / Referenzstudie: Der neutrale C-Rasterkandidat ist einmal im historischen Kandidatenrahmen und einmal ausschließlich in Z auf die Mitte einer unabhängig interpolierten Seitenprojektionshülle verschoben dargestellt. Die Seitenhüllen-Guides sind keine bestätigte C-Stationskontur. Keine Master-, Druck-, Produktions- oder Flugfreigabe.*
+*Entwicklungsstand / Referenzstudie: Der neutrale C-Rasterkandidat ist einmal im historischen Kandidatenrahmen und einmal ausschließlich in Z auf die Mitte einer unabhängig interpolierten Seitenprojektionshülle verschoben dargestellt. Die Seitenhüllen-Guides sind keine bestätigte C-Stationskontur. Die dort gezeigte Z-Verschiebung ist inzwischen ausdrücklich nur noch als Diagnose eingestuft und keine Geometriekorrektur. Keine Master-, Druck-, Produktions- oder Flugfreigabe.*
+
+### Navy/UPC-Seiten-X-Registrierung – 21.10.2026
+
+![Navy/UPC Seiten-X-Registrierung](docs/images/f14_side_x_registration_summary_20261021.svg)
+
+*Entwicklungsstand / Referenzstudie: Drei homologe Seitenansichtslandmarken – FS93/Radomaufweitung, mittlerer Canopy-Bow und hinterster Nozzle-Endpunkt – stützen eine affine UPC-Seitenansichtsregistrierung auf Aircraft-Fuselage-Station. Nominaler Fit-RMS 0,185 Pixel; A-F können damit als Engineering-X-/FS-Kandidaten geführt werden. Die Z-/Waterline-Registrierung bleibt offen; keine Master-, Druck-, Produktions- oder Flugfreigabe.*
 
 ## Aktueller technischer Stand
 
@@ -34,6 +40,8 @@ Aktuell wird die Referenzgeometrie der F-14-Nase weiter abgesichert. Dazu gehör
 - [Verifikationsplan](docs/05_DESIGN_VERIFICATION.md)
 - [C-Achsschließung – neutraler Studienkandidat](docs/C_ACHSSCHLIESSUNG_STUDIENKANDIDAT_20261020.md)
 - [A/B/C-Rahmenprüfung und aktueller C-Registrierungsblocker](docs/ABC_RAHMENPRUEFUNG_20261020.md)
+- [Navy/UPC-Seiten-X-Registrierung und A-F-FS-Kandidaten](docs/SEITEN_X_REGISTRIERUNG_20261021.md)
+- [Sektion C: Vertikaldatum bleibt gesperrt](docs/C_VERTIKALDATUM_PRUEFUNG_20261020.md)
 
 ## Konstruktionsziel
 
