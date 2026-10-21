@@ -1,12 +1,36 @@
 {
   "status": "UPC_PLAN_SIDE_X_TRANSFER_NOT_VERIFIED_FAIL_CLOSED",
-  "view_specific_nose_transition_px": {"plan":[444.25,445.25],"side":[440.75,441.25]},
-  "plan_minus_side_transition_interval_relation_px": {"plan_min_minus_side_max":3.0,"plan_max_minus_side_min":4.5},
+  "inputs": {
+    "analysis/independent_reviews/crank_localization_20261017/UPC_probe_radome_transition_screen.json": "b79b80f5844324a64bf88032e73908c0c65a890bf082da62eca4416a71a33427",
+    "analysis/original_front_sources/UPC_NASA_lower_20deg_wing_fit.json": "79794f954855c48b4820440a4c8cca16e0ad84422a4e7c499dda4264d3a1466b",
+    "analysis/original_front_sources/ABC_aircraft_FS_candidate_from_wing_registration.json": "0c2786e85283c6e80553a4abea0eb6bb4914040d838fa6fa1304881b9b7f930c",
+    "analysis/original_front_sources/ABCDEF_aircraft_FS_candidate.json": "99eb47e3d4274d67778482757f6a30ef058a038cb13f3e6487b9f313977298b3"
+  },
+  "view_specific_nose_transition_px": {
+    "plan": [
+      444.25,
+      445.25
+    ],
+    "side": [
+      440.75,
+      441.25
+    ]
+  },
+  "plan_minus_side_transition_interval_relation_px": {
+    "plan_min_minus_side_max": 3.0,
+    "plan_max_minus_side_min": 4.5
+  },
   "plan_lower_20deg_wing_local_LE_fit": {
     "scale_in_per_px": 0.43984927561606463,
     "FS93_x_prediction_px": 418.7291111968045,
-    "plan_FS93_transition_interval_px": [444.25,445.25],
-    "prediction_vs_plan_interval_px": [-26.520888803195476,-25.520888803195476],
+    "plan_FS93_transition_interval_px": [
+      444.25,
+      445.25
+    ],
+    "prediction_vs_plan_interval_px": [
+      -26.520888803195476,
+      -25.520888803195476
+    ],
     "rms_px": 0.2380090882609885
   },
   "decision": {
@@ -23,7 +47,7 @@
     "Plan- und Seitenansicht zeigen getrennte Nasen-Changepoints; ein gemeinsamer Raster-X-Ursprung ist nicht verifiziert.",
     "Der lokal sehr gute untere 20-Grad-LE-Fit extrapoliert FS93 in der Planansicht deutlich vor den plan-spezifischen FS93-Kandidatenbereich und ist daher keine globale affine Planregistrierung.",
     "A-F-Stationssticks liegen in der Seitenansicht und duerfen ohne Cross-View-Transformation keine Planansichts-FS-Zuordnung erben.",
-    "Die zuvor abgeleiteten ABC/ABCDEF-FS-Dateien aus dem Planfit bleiben nur zur Fehlernachverfolgung erhalten und sind für Geometrieentscheidungen gesperrt."
+    "Die zuvor abgeleiteten ABC/ABCDEF-FS-Dateien bleiben zur Fehlernachverfolgung erhalten, sind aber durch dieses Gate fuer Geometrieentscheidungen gesperrt."
   ],
-  "next_step": "Direkte Seitenansichtsregistrierung verwenden; die Navy/UPC-Dreilandmarkenregistrierung erfüllt diesen Engineering-Schritt, Z/Waterline bleibt separat offen."
+  "next_step": "Einen absoluten FS-Anker direkt in der UPC-Seitenansicht finden oder mindestens zwei homologe Seitenansichtslandmarken zu einer Primaerquelle registrieren."
 }

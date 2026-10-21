@@ -3,39 +3,214 @@
   "threshold": 128,
   "candidate_scale_mm_per_pixel": 0.4580208369688409,
   "inputs": {
-    "tips_shoulders": {"path":"analysis/original_front_sources/C_tips_shoulders.json","sha256":"cc08de4b0a26375f71dfdd08caa81cdd61abb7d026d7ae7e0eb1a471a6c44243"},
-    "outer_upper": {"path":"analysis/original_front_sources/C_inlet_outer_upper_sides.json","sha256":"0f300c77618220c5997c2e562abe0c0e675973ca0672aec777b57cd2e6460b7a"},
-    "lower_sides": {"path":"analysis/original_front_sources/C_inlet_lower_sides.json","sha256":"76327b9c4898b089516daccde94546eae7e4cf39f9d861ab7f54aa959571819c"},
-    "join_screen": {"path":"analysis/original_front_sources/C_outer_side_join_screen.json","sha256":"503a0b96fef659222ed24b756436578a045843a21914dc8ccc4db7b0f7d5a7d7"},
-    "axis_gaps": {"path":"analysis/original_front_sources/C_remaining_axis_gaps.json","sha256":"859a5f923771708c602a049a9371ffde97f5974ebdedef2732d4916edd6c89ae"},
-    "axis_corners": {"path":"analysis/original_front_sources/C_axis_corner_fragments.json","sha256":"f36a6df3bb22d17c8a81b97d3415ffc4aae08baa35f731e43c3f4cbde15e2973"},
-    "frame": {"path":"analysis/original_front_sources/front_shared_frame_candidate.json","sha256":"856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28"}
+    "tips_shoulders": {
+      "path": "analysis/original_front_sources/C_tips_shoulders.json",
+      "sha256": "cc08de4b0a26375f71dfdd08caa81cdd61abb7d026d7ae7e0eb1a471a6c44243"
+    },
+    "outer_upper": {
+      "path": "analysis/original_front_sources/C_inlet_outer_upper_sides.json",
+      "sha256": "0f300c77618220c5997c2e562abe0c0e675973ca0672aec777b57cd2e6460b7a"
+    },
+    "lower_sides": {
+      "path": "analysis/original_front_sources/C_inlet_lower_sides.json",
+      "sha256": "76327b9c4898b089516daccde94546eae7e4cf39f9d861ab7f54aa959571819c"
+    },
+    "join_screen": {
+      "path": "analysis/original_front_sources/C_outer_side_join_screen.json",
+      "sha256": "503a0b96fef659222ed24b756436578a045843a21914dc8ccc4db7b0f7d5a7d7"
+    },
+    "axis_gaps": {
+      "path": "analysis/original_front_sources/C_remaining_axis_gaps.json",
+      "sha256": "859a5f923771708c602a049a9371ffde97f5974ebdedef2732d4916edd6c89ae"
+    },
+    "axis_corners": {
+      "path": "analysis/original_front_sources/C_axis_corner_fragments.json",
+      "sha256": "f36a6df3bb22d17c8a81b97d3415ffc4aae08baa35f731e43c3f4cbde15e2973"
+    },
+    "frame": {
+      "path": "analysis/original_front_sources/front_shared_frame_candidate.json",
+      "sha256": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28"
+    }
   },
   "fragment_classes": [
-    {"class":"tip_left","points":10,"role":"lokales oberes/aesseres Fragment","station_skin_semantics_verified":false},
-    {"class":"tip_right","points":10,"role":"lokales oberes/aesseres Fragment","station_skin_semantics_verified":false},
-    {"class":"shoulder_left","points":13,"role":"lokales Schulterfragment","station_skin_semantics_verified":false},
-    {"class":"shoulder_right","points":14,"role":"lokales Schulterfragment","station_skin_semantics_verified":false},
-    {"class":"outer_inlet_upper_left","points":34,"role":"aeussere obere Einlaufseite","station_skin_semantics_verified":false},
-    {"class":"outer_inlet_upper_right","points":34,"role":"aeussere obere Einlaufseite","station_skin_semantics_verified":false},
-    {"class":"outer_inlet_lower_left","points":26,"role":"aeussere untere Einlaufseite","station_skin_semantics_verified":false},
-    {"class":"inner_inlet_lower_left","points":26,"role":"innere untere Einlaufseite","station_skin_semantics_verified":false},
-    {"class":"inner_inlet_lower_right","points":26,"role":"innere untere Einlaufseite","station_skin_semantics_verified":false},
-    {"class":"outer_inlet_lower_right","points":26,"role":"aeussere untere Einlaufseite","station_skin_semantics_verified":false}
+    {
+      "class": "tip_left",
+      "points": 10,
+      "role": "lokales oberes/aesseres Fragment",
+      "station_skin_semantics_verified": false
+    },
+    {
+      "class": "tip_right",
+      "points": 10,
+      "role": "lokales oberes/aesseres Fragment",
+      "station_skin_semantics_verified": false
+    },
+    {
+      "class": "shoulder_left",
+      "points": 13,
+      "role": "lokales Schulterfragment",
+      "station_skin_semantics_verified": false
+    },
+    {
+      "class": "shoulder_right",
+      "points": 14,
+      "role": "lokales Schulterfragment",
+      "station_skin_semantics_verified": false
+    },
+    {
+      "class": "outer_inlet_upper_left",
+      "points": 34,
+      "role": "aeussere obere Einlaufseite",
+      "station_skin_semantics_verified": false
+    },
+    {
+      "class": "outer_inlet_upper_right",
+      "points": 34,
+      "role": "aeussere obere Einlaufseite",
+      "station_skin_semantics_verified": false
+    },
+    {
+      "class": "outer_inlet_lower_left",
+      "points": 26,
+      "role": "aeussere untere Einlaufseite",
+      "station_skin_semantics_verified": false
+    },
+    {
+      "class": "inner_inlet_lower_left",
+      "points": 26,
+      "role": "innere untere Einlaufseite",
+      "station_skin_semantics_verified": false
+    },
+    {
+      "class": "inner_inlet_lower_right",
+      "points": 26,
+      "role": "innere untere Einlaufseite",
+      "station_skin_semantics_verified": false
+    },
+    {
+      "class": "outer_inlet_lower_right",
+      "points": 26,
+      "role": "aeussere untere Einlaufseite",
+      "station_skin_semantics_verified": false
+    }
   ],
   "measured_local_continuities": [
-    {"side":0,"gap_pixel":1.0,"gap_candidate_mm":0.4580208369688409,"meaning":"nur lokale Rasterkontinuitaet obere->untere aeussere Einlaufseite","skin_continuity_verified":false},
-    {"side":1,"gap_pixel":1.0,"gap_candidate_mm":0.4580208369688409,"meaning":"nur lokale Rasterkontinuitaet obere->untere aeussere Einlaufseite","skin_continuity_verified":false}
+    {
+      "side": 0,
+      "gap_pixel": 1.0,
+      "gap_candidate_mm": 0.4580208369688409,
+      "meaning": "nur lokale Rasterkontinuitaet obere->untere aeussere Einlaufseite",
+      "skin_continuity_verified": false
+    },
+    {
+      "side": 1,
+      "gap_pixel": 1.0,
+      "gap_candidate_mm": 0.4580208369688409,
+      "meaning": "nur lokale Rasterkontinuitaet obere->untere aeussere Einlaufseite",
+      "skin_continuity_verified": false
+    }
   ],
   "unmeasured_axis_occlusions": [
-    {"region":"obere_vertikale_Achse","a":[1065,531],"b":[1071,531],"visible_endpoint_gap_pixel":6.0,"visible_endpoint_gap_candidate_mm":2.7481250218130455,"measured_bridge":false},
-    {"region":"untere_vertikale_Achse","a":[1065,641],"b":[1071,642],"visible_endpoint_gap_pixel":6.082762530298219,"visible_endpoint_gap_candidate_mm":2.786031985209895,"measured_bridge":false},
-    {"region":"links_aeusserer_Achsenanschluss","a":[912,606],"b":[911,613],"visible_endpoint_gap_pixel":7.0710678118654755,"visible_endpoint_gap_candidate_mm":3.2386963974540555,"axis_rows_occluding_source":[607,608,609,610,611,612],"measured_bridge":false},
-    {"region":"rechts_aeusserer_Achsenanschluss","a":[1223,606],"b":[1225,613],"visible_endpoint_gap_pixel":7.280109889280518,"visible_endpoint_gap_candidate_mm":3.3344420247133986,"axis_rows_occluding_source":[607,608,609,610,611,612],"measured_bridge":false}
+    {
+      "region": "obere_vertikale_Achse",
+      "a": [
+        1065,
+        531
+      ],
+      "b": [
+        1071,
+        531
+      ],
+      "visible_endpoint_gap_pixel": 6.0,
+      "visible_endpoint_gap_candidate_mm": 2.7481250218130455,
+      "measured_bridge": false
+    },
+    {
+      "region": "untere_vertikale_Achse",
+      "a": [
+        1065,
+        641
+      ],
+      "b": [
+        1071,
+        642
+      ],
+      "visible_endpoint_gap_pixel": 6.082762530298219,
+      "visible_endpoint_gap_candidate_mm": 2.786031985209895,
+      "measured_bridge": false
+    },
+    {
+      "region": "links_aeusserer_Achsenanschluss",
+      "a": [
+        912,
+        606
+      ],
+      "b": [
+        911,
+        613
+      ],
+      "visible_endpoint_gap_pixel": 7.0710678118654755,
+      "visible_endpoint_gap_candidate_mm": 3.2386963974540555,
+      "axis_rows_occluding_source": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "measured_bridge": false
+    },
+    {
+      "region": "rechts_aeusserer_Achsenanschluss",
+      "a": [
+        1223,
+        606
+      ],
+      "b": [
+        1225,
+        613
+      ],
+      "visible_endpoint_gap_pixel": 7.280109889280518,
+      "visible_endpoint_gap_candidate_mm": 3.3344420247133986,
+      "axis_rows_occluding_source": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "measured_bridge": false
+    }
   ],
   "coarse_outer_gap_screen_retained_for_traceability": [
-    {"region":"linker_aeusserer_Achsenanschluss","a":[902,603],"b":[910,616],"minimum_sample_gap_pixel":15.264337522473747,"measured_bridge":false},
-    {"region":"rechter_aeusserer_Achsenanschluss","a":[1233,603],"b":[1225,616],"minimum_sample_gap_pixel":15.264337522473747,"measured_bridge":false}
+    {
+      "region": "linker_aeusserer_Achsenanschluss",
+      "a": [
+        902,
+        603
+      ],
+      "b": [
+        910,
+        616
+      ],
+      "minimum_sample_gap_pixel": 15.264337522473747,
+      "measured_bridge": false
+    },
+    {
+      "region": "rechter_aeusserer_Achsenanschluss",
+      "a": [
+        1233,
+        603
+      ],
+      "b": [
+        1225,
+        616
+      ],
+      "minimum_sample_gap_pixel": 15.264337522473747,
+      "measured_bridge": false
+    }
   ],
   "key_findings": [
     "Obere und untere aeussere Einlaufseiten liegen bei Schwelle128 an Zeilen649/650 lokal nur 1Pixel auseinander.",

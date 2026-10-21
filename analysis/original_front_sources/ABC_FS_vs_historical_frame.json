@@ -1,0 +1,66 @@
+{
+  "status": "ABC_NEW_FS_REGISTRATION_VS_HISTORICAL_CANDIDATE_FRAME_SCREEN",
+  "inputs": {
+    "analysis/original_front_sources/ABC_aircraft_FS_candidate_from_wing_registration.json": "0c2786e85283c6e80553a4abea0eb6bb4914040d838fa6fa1304881b9b7f930c",
+    "analysis/original_front_sources/front_shared_frame_candidate.json": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
+    "cad/fusion/F14TomcatRC/NASA_F14_basic_wing_v08.json": "177867ced9b6f2e075916d048cbf81997918e239ac8f4986a45461d6ecc80342"
+  },
+  "scale_mm_per_fullscale_in": 1.1697428086486623,
+  "nose_reference_FS_in": 93.0,
+  "rows": [
+    {
+      "section": "A",
+      "FS_candidate_mean_in": 181.07668466789636,
+      "model_scale_mm_per_fullscale_in": 1.1697428086486623,
+      "X_absolute_FS_scaled_mm": 211.81314970421326,
+      "X_nose_relative_FS93_mm": 103.02706849988766,
+      "X_nose_relative_range_mm": [
+        102.6057153090535,
+        103.97320606229141
+      ],
+      "historical_candidate_X_mm": 110.77487684077221,
+      "new_minus_historical_mm": -7.747808340884546
+    },
+    {
+      "section": "B",
+      "FS_candidate_mean_in": 299.9801145132515,
+      "model_scale_mm_per_fullscale_in": 1.1697428086486623,
+      "X_absolute_FS_scaled_mm": 350.89958168947817,
+      "X_nose_relative_FS93_mm": 242.1135004851526,
+      "X_nose_relative_range_mm": [
+        241.7772585189908,
+        242.82800308940858
+      ],
+      "historical_candidate_X_mm": 249.40652996496055,
+      "new_minus_historical_mm": -7.293029479807956
+    },
+    {
+      "section": "C",
+      "FS_candidate_mean_in": 431.994568942315,
+      "model_scale_mm_per_fullscale_in": 1.1697428086486623,
+      "X_absolute_FS_scaled_mm": 505.32254039555175,
+      "X_nose_relative_FS93_mm": 396.5364591912262,
+      "X_nose_relative_range_mm": [
+        396.29471333762837,
+        396.9937853400482
+      ],
+      "historical_candidate_X_mm": 403.32456309143583,
+      "new_minus_historical_mm": -6.788103900209649
+    }
+  ],
+  "delta_summary_mm": {
+    "min": -7.747808340884546,
+    "max": -6.788103900209649,
+    "mean": -7.276313906967384,
+    "span": 0.9597044406748978
+  },
+  "interpretation": [
+    "Neue X-Werte sind aus NASA/Grumman-Wing-Mehrpunktfit plus unabhängigem Navy-FS93-Nasencheck abgeleitet.",
+    "Historische ABC-X-Werte stammen aus dem früheren UPC-Kandidatenrahmen mit nicht verifiziertem Maßstab/Ursprung.",
+    "Ein nahezu gemeinsamer negativer Versatz bei kleiner Restdrift ist konsistent mit der bereits bekannten Kombination aus Ursprung- und Skalierungsfehler.",
+    "Diese Prüfung ändert weder Querschnittsformen noch Z-Lage."
+  ],
+  "historical_frame_superseded_for_longitudinal_study": true,
+  "master_change_allowed": false,
+  "production_release": false
+}

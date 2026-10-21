@@ -5,7 +5,7 @@
 
 ![Navy/UPC Seiten-X-Registrierung](images/f14_side_x_registration_summary_20261021.svg)
 
-*Referenzstudie: US-Navy Figure 4-7 und UPC Figure 3.15 werden über drei homologe Seitenansichtslandmarken gekoppelt. Die Darstellung definiert ausschließlich einen longitudinalen Registrierungs-Kandidaten.*
+*Referenzstudie: oben US-Navy Figure 4-7, unten UPC Figure 3.15. Rote Linien markieren drei homologe Seitenansichtslandmarken. Sie definieren ausschließlich einen longitudinalen Registrierungs-Kandidaten.*
 
 ## Quellen
 - US Navy NAVEDTRA 14014, Figure 4-7: F-14 Fuselage Station Diagram mit FS-Lineal.

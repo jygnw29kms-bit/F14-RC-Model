@@ -24,7 +24,10 @@
   },
   "WL12_1_candidate_fullscale": {
     "nominal_in": 145.2,
-    "rounding_only_interval_in": [144.6,145.8],
+    "rounding_only_interval_in": [
+      144.6,
+      145.8
+    ],
     "rounding_only_halfwidth_in": 0.6000000000000001
   },
   "interpretation": [

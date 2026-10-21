@@ -2,11 +2,121 @@
   "status": "UPC_DEF_STATION_TICKS_PIXEL_SPACE_ONLY",
   "source_image": "references/UPC_Figure3_15_source_exact.png",
   "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
-  "method": "Visuell begrenzte Tick-ROIs, dunkle Spalten nach relativer Spaltenbelegung; gewählte Gruppen wurden im Originalcrop als vertikale Stationsmarken kontrolliert.",
+  "method": "Visuell begrenzte Tick-ROIs, dunkle Spalten nach relativer Spaltenbelegung; gewählte Gruppe muss im Originalcrop visuell als vertikale Stationsmarke verifiziert werden.",
   "stations": [
-    {"section":"D","chosen_tick_columns":[1561,1562],"tick_center_x_pixel":1561.5,"interpretation":"Vertikale Stationsmarke im UPC-Seitenriss; nur x-Lage, keine Waterline."},
-    {"section":"E","chosen_tick_columns":[1663,1664],"tick_center_x_pixel":1663.5,"interpretation":"Vertikale Stationsmarke im UPC-Seitenriss; nur x-Lage, keine Waterline."},
-    {"section":"F","chosen_tick_columns":[1860,1861,1862,1863,1864,1865],"tick_center_x_pixel":1862.5,"interpretation":"Vertikale Stationsmarke im UPC-Seitenriss; nur x-Lage, keine Waterline."}
+    {
+      "section": "D",
+      "roi_native_pixels": [
+        1548,
+        2685,
+        1575,
+        2738
+      ],
+      "dark_threshold": 128,
+      "max_dark_count_per_column": 25,
+      "selected_strong_columns": [
+        1554,
+        1555,
+        1556,
+        1561,
+        1562,
+        1568
+      ],
+      "contiguous_groups": [
+        [
+          1554,
+          1555,
+          1556
+        ],
+        [
+          1561,
+          1562
+        ],
+        [
+          1568
+        ]
+      ],
+      "chosen_tick_columns": [
+        1561,
+        1562
+      ],
+      "tick_center_x_pixel": 1561.5,
+      "interpretation": "Vertikale Stationsmarke im UPC-Seitenriss; nur x-Lage, keine Waterline."
+    },
+    {
+      "section": "E",
+      "roi_native_pixels": [
+        1650,
+        2685,
+        1678,
+        2738
+      ],
+      "dark_threshold": 128,
+      "max_dark_count_per_column": 26,
+      "selected_strong_columns": [
+        1658,
+        1659,
+        1660,
+        1663,
+        1664
+      ],
+      "contiguous_groups": [
+        [
+          1658,
+          1659,
+          1660
+        ],
+        [
+          1663,
+          1664
+        ]
+      ],
+      "chosen_tick_columns": [
+        1663,
+        1664
+      ],
+      "tick_center_x_pixel": 1663.5,
+      "interpretation": "Vertikale Stationsmarke im UPC-Seitenriss; nur x-Lage, keine Waterline."
+    },
+    {
+      "section": "F",
+      "roi_native_pixels": [
+        1845,
+        2565,
+        1885,
+        2650
+      ],
+      "dark_threshold": 128,
+      "max_dark_count_per_column": 28,
+      "selected_strong_columns": [
+        1860,
+        1861,
+        1862,
+        1863,
+        1864,
+        1865
+      ],
+      "contiguous_groups": [
+        [
+          1860,
+          1861,
+          1862,
+          1863,
+          1864,
+          1865
+        ]
+      ],
+      "chosen_tick_columns": [
+        1860,
+        1861,
+        1862,
+        1863,
+        1864,
+        1865
+      ],
+      "tick_center_x_pixel": 1862.5,
+      "interpretation": "Vertikale Stationsmarke im UPC-Seitenriss; nur x-Lage, keine Waterline."
+    }
   ],
   "aircraft_X_registration_verified_by_this_file": false,
   "common_waterline_verified": false,

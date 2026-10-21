@@ -18,12 +18,7 @@ Die Unterschiede sind klein:
 
 Damit stammt der große C-Widerspruch nicht wesentlich aus der alten groben Konturzeichnung. Der Engpass liegt im metrischen bzw. vertikalen gemeinsamen Rahmen selbst.
 
-## Unabhängige Seitenprojektionsprüfung
-Die gültigen Seitenprojektionsproben bei X≈391,464 mm und X≈417,820 mm wurden auf die C-Station X≈403,325 mm interpoliert. Daraus ergibt sich eine Seitenhülle von Z oben ≈ +41,870 mm bis Z unten ≈ -33,323 mm. Der neutrale C-Kandidat liegt im alten Rahmen bei +36,891/-35,476 mm.
-
-Der Hauptunterschied ist eine vertikale Mittellagenverschiebung von rund +3,566 mm. Nach einer reinen Z-Translation ohne Formskalierung bleiben oben und unten symmetrische Restabweichungen von etwa ±1,413 mm. Das ist eine Diagnose, keine Freigabe zur Skalierung oder Verformung der C-Kontur.
-
 ## Konsequenz
-Es wird derzeit **kein A-B-C-Loft** aufgebaut und der Master bleibt unverändert. Vor einer 3D-Frontstudie muss geklärt werden, welche oberen und unteren C-Kanten semantisch zur Seitenhülle gehören und ob die gemeinsame Wasserlinie unabhängig bestätigt werden kann.
+Es wird derzeit **kein A-B-C-Loft** aufgebaut und der Master bleibt unverändert. Vor einer 3D-Frontstudie muss die C-Höhenregistrierung unabhängig von der historischen Achslage bzw. Wasserlinie gegen die Seitenprojektion geprüft werden.
 
 Keine Produktions-, Druck- oder Flugfreigabe.

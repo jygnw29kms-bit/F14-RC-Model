@@ -8,19 +8,23 @@ OUT=ROOT/'analysis'/'original_front_sources'/'Navy_UPC_side_longitudinal_landmar
 cal=json.loads(CAL.read_text(encoding='utf-8')); nose=json.loads(NOSE.read_text(encoding='utf-8'))
 f=cal['fit']; navy_px_per_in=float(f['px_per_FS_in']); navy_fs0=float(f['FS0_x_px'])
 def navy_fs(x): return (x-navy_fs0)/navy_px_per_in
+# Intervals retain line thickness / raster ambiguity.
 landmarks=[
  {'name':'FS93_radome_flare','FS_in_interval':[93.0,93.0],'navy_x_interval_px':[f['FS93_x_px'],f['FS93_x_px']],'upc_x_interval_px':[440.75,441.25]},
  {'name':'canopy_center_bow','FS_in_interval':[navy_fs(252.0),navy_fs(254.0)],'navy_x_interval_px':[252.0,254.0],'upc_x_interval_px':[909.0,910.0]},
  {'name':'aft_nozzle_endpoint','FS_in_interval':[navy_fs(569.0),navy_fs(569.0)],'navy_x_interval_px':[569.0,569.0],'upc_x_interval_px':[2087.0,2087.0]},
 ]
+# Nominal centers fit UPC x = a*FS+b
 fs=np.array([sum(r['FS_in_interval'])/2 for r in landmarks],float); x=np.array([sum(r['upc_x_interval_px'])/2 for r in landmarks],float)
 A=np.vstack([fs,np.ones_like(fs)]).T
 a,b=np.linalg.lstsq(A,x,rcond=None)[0]; pred=a*fs+b;res=x-pred
+# Pair fits and held-out residuals
 pairs=[]
 for i,j in itertools.combinations(range(3),2):
     aa=(x[j]-x[i])/(fs[j]-fs[i]);bb=x[i]-aa*fs[i]
     k=({0,1,2}-{i,j}).pop(); rr=x[k]-(aa*fs[k]+bb)
     pairs.append({'anchors':[landmarks[i]['name'],landmarks[j]['name']],'held_out':landmarks[k]['name'],'slope_px_per_in':float(aa),'scale_in_per_px':float(1/aa),'held_out_residual_px':float(rr)})
+# Interval corner sensitivity for all 3-point fits.
 cases=[]
 for bow_fs,bow_x,nose_x in itertools.product(landmarks[1]['FS_in_interval'],landmarks[1]['upc_x_interval_px'],landmarks[0]['upc_x_interval_px']):
     fsi=np.array([93.0,bow_fs,landmarks[2]['FS_in_interval'][0]],float); xi=np.array([nose_x,bow_x,2087.0],float)

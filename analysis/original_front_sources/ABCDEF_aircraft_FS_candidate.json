@@ -1,0 +1,179 @@
+{
+  "status": "ABCDEF_LONGITUDINAL_REGISTRATION_CANDIDATE_NASA_WING_MULTIPOINT_PLUS_NAVY_FS93",
+  "inputs": {
+    "analysis/original_front_sources/UPC_NASA_wing_plan_registration_sensitivity.json": "27cf162dcaa244ae4b547a5230ca64fb8394338686015df007981d93809d83f9",
+    "analysis/original_front_sources/front_station_ticks.json": "e2ca2eaf24fed2483ad7020c94869f24c516ec48d1d507e6b661ed5a9598af0b",
+    "analysis/original_front_sources/DEF_station_ticks.json": "0f186dfc5635b25ee7fa367d809b399e9bb35a9460317e26a52f7bc80ac80cfa",
+    "analysis/original_front_sources/ABCDEF_shared_frame_candidate.json": "88d48b48e1b479ef391080caef5876077c7eee682dded99b1dbe3e11b7a65ee2",
+    "cad/fusion/F14TomcatRC/NASA_F14_basic_wing_v08.json": "177867ced9b6f2e075916d048cbf81997918e239ac8f4986a45461d6ecc80342"
+  },
+  "retained_model_count": 4,
+  "retained_models": [
+    {
+      "case": "mid_stations_164_to_348",
+      "mode": "free_affine",
+      "slope_px_per_in": 2.2109027976190707,
+      "FS0_x_px": 242.79677397086812,
+      "FS93_x_px": 448.4107341494417,
+      "rms_px": 1.0193047657725558
+    },
+    {
+      "case": "mid_stations_164_to_348",
+      "mode": "span_scale_constrained",
+      "slope_px_per_in": 2.2105263157894735,
+      "FS0_x_px": 243.02147730263175,
+      "FS93_x_px": 448.6004246710528,
+      "rms_px": 1.019444091515419
+    },
+    {
+      "case": "lower_mid_164_to_348",
+      "mode": "free_affine",
+      "slope_px_per_in": 2.2155688190917755,
+      "FS0_x_px": 239.52009761900703,
+      "FS93_x_px": 445.5679977945422,
+      "rms_px": 0.8662520447549562
+    },
+    {
+      "case": "lower_mid_164_to_348",
+      "mode": "span_scale_constrained",
+      "slope_px_per_in": 2.2105263157894735,
+      "FS0_x_px": 242.5773230526317,
+      "FS93_x_px": 448.15627042105274,
+      "rms_px": 0.8856897842992636
+    }
+  ],
+  "independent_FS93_validation": {
+    "candidate_band_px": [
+      443.0,
+      450.0
+    ],
+    "retained_model_range_px": [
+      445.5679977945422,
+      448.6004246710528
+    ],
+    "all_inside": true
+  },
+  "scale_mm_per_fullscale_in": 1.1697428086486623,
+  "nose_reference_FS_in": 93.0,
+  "sections": [
+    {
+      "section": "A",
+      "tick_x_px": 642.5,
+      "FS_candidate_mean_in": 181.07668466789636,
+      "FS_candidate_range_in": [
+        180.71647455357137,
+        181.88552705222935
+      ],
+      "FS_candidate_span_in": 1.169052498657976,
+      "nose_relative_X_mm": 103.02706849988766,
+      "nose_relative_X_range_mm": [
+        102.6057153090535,
+        103.97320606229141
+      ],
+      "historical_X_candidate_mm": 110.77487684077221,
+      "new_minus_historical_mm": -7.747808340884546
+    },
+    {
+      "section": "B",
+      "tick_x_px": 905.5,
+      "FS_candidate_mean_in": 299.9801145132515,
+      "FS_candidate_range_in": [
+        299.6926650297619,
+        300.59093477132296
+      ],
+      "FS_candidate_span_in": 0.8982697415610801,
+      "nose_relative_X_mm": 242.1135004851526,
+      "nose_relative_X_range_mm": [
+        241.7772585189908,
+        242.82800308940858
+      ],
+      "historical_X_candidate_mm": 249.40652996496055,
+      "new_minus_historical_mm": -7.293029479807956
+    },
+    {
+      "section": "C",
+      "tick_x_px": 1197.5,
+      "FS_candidate_mean_in": 431.994568942315,
+      "FS_candidate_range_in": [
+        431.78790312499996,
+        432.3855319347273
+      ],
+      "FS_candidate_span_in": 0.5976288097273255,
+      "nose_relative_X_mm": 396.5364591912262,
+      "nose_relative_X_range_mm": [
+        396.29471333762837,
+        396.9937853400482
+      ],
+      "historical_X_candidate_mm": 403.32456309143583,
+      "new_minus_historical_mm": -6.788103900209649
+    },
+    {
+      "section": "D",
+      "tick_x_px": 1561.5,
+      "FS_candidate_mean_in": 596.5605326826545,
+      "FS_candidate_range_in": [
+        596.4545697916666,
+        596.6774270288341
+      ],
+      "FS_candidate_span_in": 0.22285723716754546,
+      "nose_relative_X_mm": 589.0363118248248,
+      "nose_relative_X_range_mm": [
+        588.912362495108,
+        589.1730481456401
+      ],
+      "historical_X_candidate_mm": 595.8483908511423,
+      "new_minus_historical_mm": -6.8120790263175195
+    },
+    {
+      "section": "E",
+      "tick_x_px": 1663.5,
+      "FS_candidate_mean_in": 642.6751708736288,
+      "FS_candidate_range_in": [
+        642.5896369388524,
+        642.7983538571428
+      ],
+      "FS_candidate_span_in": 0.20871691829040628,
+      "nose_relative_X_mm": 642.9785782221519,
+      "nose_relative_X_range_mm": [
+        642.8785255170519,
+        643.1226706312654
+      ],
+      "historical_X_candidate_mm": 648.8863542888724,
+      "new_minus_historical_mm": -5.907776066720544
+    },
+    {
+      "section": "F",
+      "tick_x_px": 1862.5,
+      "FS_candidate_mean_in": 732.6439257756275,
+      "FS_candidate_range_in": [
+        732.5341864335762,
+        732.8221633809524
+      ],
+      "FS_candidate_span_in": 0.2879769473761371,
+      "nose_relative_X_mm": 748.218882271839,
+      "nose_relative_X_range_mm": [
+        748.0905154656487,
+        748.4273744288985
+      ],
+      "historical_X_candidate_mm": 754.9622811643331,
+      "new_minus_historical_mm": -6.743398892494156
+    }
+  ],
+  "historical_frame_delta_summary_mm": {
+    "min": -7.747808340884546,
+    "max": -5.907776066720544,
+    "mean": -6.882032617739061,
+    "span": 1.8400322741640025
+  },
+  "interpretation": [
+    "A-F-Ticks werden direkt im UPC-Originalraster lokalisiert; A-C aus bestehender Tick-Pruefung, D-F aus neuem visuell kontrolliertem Tick-Screen.",
+    "X-Registrierung stammt aus NASA/Grumman-Mehrpunktpassung der 20-Grad-Fluegel-LE/TE-Kanten und wird unabhaengig am Navy-FS93-Nasenlandmark geprueft.",
+    "Historische UPC-X-Kandidaten bleiben nur Vergleich; sie werden nicht ueberschrieben.",
+    "Z-/Waterline-Registrierung und Querschnittssemantik bleiben getrennt offen."
+  ],
+  "aircraft_X_registration_candidate_supported": true,
+  "aircraft_X_registration_production_verified": false,
+  "C_absolute_Z_registered": false,
+  "master_change_allowed": false,
+  "production_release": false
+}

@@ -1,0 +1,81 @@
+{
+  "status": "NASA_CR3992_FUSELAGE_CROSS_SECTION_PAGES_RENDERED_FOR_SOURCE_REVIEW",
+  "source_pdf": "references/NASA_CR3992_F14_VSTFE.pdf",
+  "source_sha256": "ae439b784b984b0c95b9df117ae0c5ad5d6adc7025a1f7b115b41a260fce4b18",
+  "page_count": 168,
+  "records": [
+    {
+      "pdf_page_index_0_based": 86,
+      "pdf_page_number_1_based": 87,
+      "text": "80 \n• 91S Method \n• MN :; 0.78 \n.. sic = 0.6 \nReCN x 10-6 \n-e-15 \n-a-30 \n12r-------~------~--------~------~------~------~ \nF-111 transition criterion \n\\ \n\\ \n10~~----+-----~~--__ ~=±_\\~----~------~----__ ~ \n\\ --0.2 \n\\ \n\\\\ \n\\ \n\\ \n8p++A~--+--------+~ __ ----~----~~------~------~ \n\\ \n\\ \n\\ \n\\ \n~ \nd s/c \no \n4 \nNCF \n8 \n12 \nFigure 47. Disturbance Amplification at sic = 0.6 \n",
+      "render_path": "analysis/original_front_sources/NASA_CR3992_fuselage/NASA_CR3992_page_087.png",
+      "render_sha256": "4bc54bb686dad1b9200da712cfed23e126488aba073afe3443efa58416bd5249",
+      "render_size_px": [
+        1831,
+        2326
+      ]
+    },
+    {
+      "pdf_page_index_0_based": 87,
+      "pdf_page_number_1_based": 88,
+      "text": "Figure 48. F-14 Body Cross Sections \nFigure 49. F-14 Body Cross Sections Modified for A488 Code \n81 \n",
+      "render_path": "analysis/original_front_sources/NASA_CR3992_fuselage/NASA_CR3992_page_088.png",
+      "render_sha256": "98b19e77814f6f155a6d47b9975e94578b44b083eeceb4ebfaef66840c865722",
+      "render_size_px": [
+        1831,
+        2329
+      ]
+    },
+    {
+      "pdf_page_index_0_based": 88,
+      "pdf_page_number_1_based": 89,
+      "text": "Figure 50. Surface Grid of F-14 in A488 Code \n82 \n",
+      "render_path": "analysis/original_front_sources/NASA_CR3992_fuselage/NASA_CR3992_page_089.png",
+      "render_sha256": "0ec9649a0973b4003619e15c23ab984a3c93fc360c5ff74d1bee1c44552b8fa3",
+      "render_size_px": [
+        1831,
+        2329
+      ]
+    },
+    {
+      "pdf_page_index_0_based": 93,
+      "pdf_page_number_1_based": 94,
+      "text": "FS, \nm \n(in.) \n(300) \n(400) \n(500) \n15 \n(600) \n2.5 \n(100) \nM = 0.8 \n00 \na = 1.1 deg \nCL = 0.33 \nRe '\" 0.70 X 106 11m (2.29 x 106 11ft) \n5.0 \n(200) \nWBL, m (in.) \nCp \n1 0.4 \n2 0.2 \n30.1 \n40 \n5 -0.1 \n6-0.2 \n7 -0.3 \n8 -0.4 \n9 -0.5 \n0-0.6 \nA-0.7 \nB -0.8 \nC -0.9 \nD -1.0 \n7.5 \n(300) \nFigure 55. Isobars for F-14 Wing Analysis, M . = 0.8 \n00 \n87 \n",
+      "render_path": "analysis/original_front_sources/NASA_CR3992_fuselage/NASA_CR3992_page_094.png",
+      "render_sha256": "9a8b7a2a9e70d1d45210f09671989a634416a495a49902690b4a2cee50145084",
+      "render_size_px": [
+        1831,
+        2322
+      ]
+    },
+    {
+      "pdf_page_index_0_based": 94,
+      "pdf_page_number_1_based": 95,
+      "text": "00 \n00 \no \n(100) \n10 \n(200) \n5 \n(300) \n(400) \n10 \n(400) I \nI I \nI \nI \n(500) \nFuselage \nstation, \nFS, m \n(in.) \n15 \n(600) \nWing butt line, WBL, m (in.) \n(85) \nNormal chord length, m (in.) \nFigure 56. F-14 Outer Wing Planform at 20-deg Leading Edge Sweep With Glove Layout \nLeading-edge \nSlat joint \n",
+      "render_path": "analysis/original_front_sources/NASA_CR3992_fuselage/NASA_CR3992_page_095.png",
+      "render_sha256": "c8532e0ce62c99f09e3b2f7ae99df8d14fb721afcb8455faeb187151dc2ac92f",
+      "render_size_px": [
+        2322,
+        1831
+      ]
+    },
+    {
+      "pdf_page_index_0_based": 95,
+      "pdf_page_number_1_based": 96,
+      "text": "00 \n\\0 \n-1.2 \n-O.S \nCp \n-0.4 \no \n0.4 \nO.S \n-1.2 \n-O.S \nCp \n-0.4 \no \n0.4 \n/ \nV \nj.. r-\n'I \n0.2 \n...... r-\nIV \nL \nI \n0.2 \nWBL202 \n-1.2 \n.- r-... \n-O.S \n'\\ \n1\\ \nCp \n-0.4 \n\\ \n.......... \nr--:--~ \n0.4 xlc 0.6 \n. O.s~ ~. \n0 \n0 \n0.4 \nO.S \nWBL161 \n---'\" ~ \n\"-f'.... \n-r-~ \nI'-... \n0.4 xlc 0.6 \nO.~ ~. \n0 \nWBL250 \n,..-----\nV \n\\ \nV \n\\ \nrf r--... \nr--... \nIL-\nr--~ \nOj2 \nOj4 xlc 0i6 \nO.,S\"\"'\" \nl\\~1 \nbJ· \nJ \n-1.2 \n-O.S \nCp \n-0.4 \no o \n0.4 \nO.S \n-1.2 \n-O.S \nCp \n-0.4 \nI \n0 \n0.4 \nWBL302 \n-\n/' /\"\" \n1\\ \n\" \n/ \n\\ \nI \nf-...... \n~ \n-\nI \ni\"\"---~ \nI'-.. \nII \n0.2 \n0.4 x/c 0.6 \n. 0.S~~1. \n1__ \nI _____ ._~ \n_____ 1 \no \nWBL339 \n/ \n~ \n\\ // \n\\ \n7-\n-...... \n--. \nI \n............ ~ \n\"-\n'/ \nO? \nOj4 x/c :Oj6 \nOjS~ ~i o \nO.S' \n~ \n.. \nO.S \nMoo = O.S \nALE = 20 deg \nh '\" 6100 m (20,000 ft.) \nCL\"\" 0.21 \nRe \"\"0.96 x 106 11m (3.15 x 106 11ft) \nFigure 57. Analytical Wing Pressures for F-14 Base Wing at Mach 0.8 Glove Design Condition \n",
+      "render_path": "analysis/original_front_sources/NASA_CR3992_fuselage/NASA_CR3992_page_096.png",
+      "render_sha256": "6198a5ea5ae7f31eff49dfb6eb2a2f02fba5045e94816e47b4be095bbbad08e0",
+      "render_size_px": [
+        2322,
+        1831
+      ]
+    }
+  ],
+  "limits": [
+    "Rendered pages are source-review artifacts only.",
+    "No cross-section station or waterline is accepted until labels are visually verified.",
+    "NASA text states the source geometry was a 1/10-scale wind-tunnel definition with minor deviations from the production airplane.",
+    "No master geometry is changed."
+  ],
+  "production_release": false
+}

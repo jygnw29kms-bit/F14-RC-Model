@@ -12,6 +12,7 @@ OUT=ROOT/'analysis'/'original_front_sources'/'ABCDEF_FS_from_Navy_UPC_side_regis
 cal=json.loads(CAL.read_text(encoding='utf-8')); reg=json.loads(REG.read_text(encoding='utf-8')); abc=json.loads(ABC.read_text(encoding='utf-8')); de=json.loads(DEF.read_text(encoding='utf-8')); frame=json.loads(FRAME.read_text(encoding='utf-8')); wing=json.loads(WING.read_text(encoding='utf-8'))
 navy_px_per_in=float(cal['fit']['px_per_FS_in']); navy_fs0=float(cal['fit']['FS0_x_px'])
 def navy_fs(x): return (x-navy_fs0)/navy_px_per_in
+# Rebuild 8 line-width corner fits used by registration audit; keep correlations between slope/intercept.
 models=[]
 for bow_navy_x,bow_upc_x,nose_upc_x in itertools.product([252.0,254.0],[909.0,910.0],[440.75,441.25]):
  fs=np.array([93.0,navy_fs(bow_navy_x),navy_fs(569.0)],float); px=np.array([nose_upc_x,bow_upc_x,2087.0],float)
@@ -25,7 +26,9 @@ sections=[]
 for sec in 'ABCDEF':
  x=ticks[sec]
  def fs_of(xv,m): return (xv-m['FS0_x_px'])/m['slope_px_per_in']
- fs_nom=fs_of(x,nom_model);vals=[fs_of(x+dx,m) for m in models for dx in (-0.5,0.5)];lo,hi=min(vals),max(vals)
+ fs_nom=fs_of(x,nom_model)
+ vals=[fs_of(x+dx,m) for m in models for dx in (-0.5,0.5)]
+ lo,hi=min(vals),max(vals)
  xn=(fs_nom-93.0)*rc_scale; xnlo=(lo-93.0)*rc_scale; xnhi=(hi-93.0)*rc_scale
  sections.append({'section':sec,'side_tick_x_px':x,'tick_halfwidth_screen_px':0.5,'FS_nominal_in':fs_nom,'FS_sensitivity_range_in':[lo,hi],'FS_sensitivity_span_in':hi-lo,'nose_relative_X_nominal_mm':xn,'nose_relative_X_sensitivity_range_mm':[xnlo,xnhi],'historical_X_candidate_mm':old[sec],'new_minus_historical_mm':xn-old[sec]})
 deltas=[r['new_minus_historical_mm'] for r in sections]

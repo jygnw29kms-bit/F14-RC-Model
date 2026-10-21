@@ -7,11 +7,40 @@
   },
   "station_X_mm": 403.32456309143583,
   "scale_mm_per_pixel": 0.4580208369688409,
-  "neutral_candidate": {"width_mm":229.9264601583581,"height_mm":72.36729224107685,"Y_min_mm":-115.45669300472288,"Y_max_mm":114.46976715363525,"Z_min_mm":-35.47591276143732,"Z_max_mm":36.89137947963954,"center_Y_mm":-0.49346292554381677,"center_Z_mm":0.707733359101109,"vertices":1201},
-  "legacy_C_polygon": {"width_mm":230.6134914138114,"height_mm":72.46759880437307,"Y_min_mm":-115.91471384169172,"Y_max_mm":114.69877757211967,"Z_min_mm":-35.3472089062491,"Z_max_mm":37.12038989812396,"center_Y_mm":-0.6079681347860273,"center_Z_mm":0.8865904959374298,"vertices":62},
-  "differences_neutral_minus_legacy": {"width_mm":-0.6870312554532916,"height_mm":-0.10030656329621479,"center_Y_mm":0.11450520924221053,"center_Z_mm":-0.17885713683632076},
+  "neutral_candidate": {
+    "width_mm": 229.9264601583581,
+    "height_mm": 72.36729224107685,
+    "Y_min_mm": -115.45669300472288,
+    "Y_max_mm": 114.46976715363525,
+    "Z_min_mm": -35.47591276143732,
+    "Z_max_mm": 36.89137947963954,
+    "center_Y_mm": -0.49346292554381677,
+    "center_Z_mm": 0.707733359101109,
+    "vertices": 1201
+  },
+  "legacy_C_polygon": {
+    "width_mm": 230.6134914138114,
+    "height_mm": 72.46759880437307,
+    "Y_min_mm": -115.91471384169172,
+    "Y_max_mm": 114.69877757211967,
+    "Z_min_mm": -35.3472089062491,
+    "Z_max_mm": 37.12038989812396,
+    "center_Y_mm": -0.6079681347860273,
+    "center_Z_mm": 0.8865904959374298,
+    "vertices": 62
+  },
+  "differences_neutral_minus_legacy": {
+    "width_mm": -0.6870312554532916,
+    "height_mm": -0.10030656329621479,
+    "center_Y_mm": 0.11450520924221053,
+    "center_Z_mm": -0.17885713683632076
+  },
   "legacy_side_height_residual_pixels": -17.020729890764414,
-  "limits": ["Neutraler C-Kandidat nutzt weiterhin den historischen Kandidatenmaßstab und die historische Achslage.","Bessere Rastertreue allein verifiziert die metrische Registrierung nicht.","Kein Loft, keine Master-Aenderung und keine Produktionsfreigabe."],
+  "limits": [
+    "Neutraler C-Kandidat nutzt weiterhin den historischen Kandidatenmaßstab und die historische Achslage.",
+    "Bessere Rastertreue allein verifiziert die metrische Registrierung nicht.",
+    "Kein Loft, keine Master-Aenderung und keine Produktionsfreigabe."
+  ],
   "next_step": "C-Hoehenregistrierung unabhaengig von der alten Achslage gegen Seitenprojektion pruefen.",
   "master_change_allowed": false,
   "production_release": false

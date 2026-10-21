@@ -14,9 +14,46 @@
     "UPC_exact_pixel_verified": false
   },
   "candidate_second_landmarks": [
-    {"name":"NADC pivot","NADC_model_FS_in":43.68,"fullscale_FS_in":524.16,"UPC_pixel_verified":false,"usable":false,"reason":"UPC pivot region has no unambiguous verified pivot center."},
-    {"name":"Overall/aft endpoint","NADC_model_length_in":61.9,"NADC_fullscale_length_in":742.8,"UPC_length_comparisons":[{"source":"UPC Table3.2","length_in":752.0,"difference_vs_NADC_in":9.200000000000045,"relative_difference_percent":1.223404255319155},{"source":"UPC Figure3.14","length_in":752.5,"difference_vs_NADC_in":9.700000000000045,"relative_difference_percent":1.2890365448505043}],"usable":false,"reason":"NADC 1/12 test-model length differs from UPC production-aircraft length by about 9.2..9.7 in full-scale; endpoint semantics are not proven homologous."},
-    {"name":"UPC section A/B/C ticks","UPC_tick_x_pixels":{"A":642.5,"B":905.5,"C":1197.5},"absolute_aircraft_FS_verified":false,"usable":false,"reason":"Ticks locate sections in the UPC drawing but have no verified absolute aircraft FS values."}
+    {
+      "name": "NADC pivot",
+      "NADC_model_FS_in": 43.68,
+      "fullscale_FS_in": 524.16,
+      "UPC_pixel_verified": false,
+      "usable": false,
+      "reason": "UPC pivot region has no unambiguous verified pivot center."
+    },
+    {
+      "name": "Overall/aft endpoint",
+      "NADC_model_length_in": 61.9,
+      "NADC_fullscale_length_in": 742.8,
+      "UPC_length_comparisons": [
+        {
+          "source": "UPC Table3.2",
+          "length_in": 752.0,
+          "difference_vs_NADC_in": 9.200000000000045,
+          "relative_difference_percent": 1.223404255319155
+        },
+        {
+          "source": "UPC Figure3.14",
+          "length_in": 752.5,
+          "difference_vs_NADC_in": 9.700000000000045,
+          "relative_difference_percent": 1.2890365448505043
+        }
+      ],
+      "usable": false,
+      "reason": "NADC 1/12 test-model length differs from UPC production-aircraft length by about 9.2..9.7 in full-scale; endpoint semantics are not proven homologous."
+    },
+    {
+      "name": "UPC section A/B/C ticks",
+      "UPC_tick_x_pixels": {
+        "A": 642.5,
+        "B": 905.5,
+        "C": 1197.5
+      },
+      "absolute_aircraft_FS_verified": false,
+      "usable": false,
+      "reason": "Ticks locate sections in the UPC drawing but have no verified absolute aircraft FS values."
+    }
   ],
   "two_independent_homologous_longitudinal_landmarks_available": false,
   "affine_UPC_NADC_registration_allowed": false,

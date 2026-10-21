@@ -1,0 +1,285 @@
+{
+  "status": "UPC_LOWER_20DEG_WING_EDGE_FITS_SEPARATED_FOR_CONDITIONING",
+  "input_sha256": "7b36134976ff22855652e9f7cb691176faf475e4592a077b9942397102f6e052",
+  "rows": [
+    {
+      "wbl_in": 127.23,
+      "LE_fs_in": 502.90542,
+      "TE_fs_in": 629.37012,
+      "LE_x_px": 1348.0,
+      "TE_x_px": 1631.0
+    },
+    {
+      "wbl_in": 164.0146,
+      "LE_fs_in": 516.19336,
+      "TE_fs_in": 631.00684,
+      "LE_x_px": 1381.0,
+      "TE_x_px": 1636.0
+    },
+    {
+      "wbl_in": 200.79919,
+      "LE_fs_in": 529.58618,
+      "TE_fs_in": 632.6438,
+      "LE_x_px": 1411.0,
+      "TE_x_px": 1640.0
+    },
+    {
+      "wbl_in": 237.58369,
+      "LE_fs_in": 542.9834,
+      "TE_fs_in": 634.28076,
+      "LE_x_px": 1442.0,
+      "TE_x_px": 1645.0
+    },
+    {
+      "wbl_in": 274.36816,
+      "LE_fs_in": 556.38062,
+      "TE_fs_in": 635.91772,
+      "LE_x_px": 1472.0,
+      "TE_x_px": 1649.0
+    },
+    {
+      "wbl_in": 311.15283,
+      "LE_fs_in": 569.77783,
+      "TE_fs_in": 637.55469,
+      "LE_x_px": 1503.0,
+      "TE_x_px": 1653.0
+    },
+    {
+      "wbl_in": 347.93726,
+      "LE_fs_in": 583.1748,
+      "TE_fs_in": 639.19165,
+      "LE_x_px": 1533.0,
+      "TE_x_px": 1656.0
+    },
+    {
+      "wbl_in": 384.69995,
+      "LE_fs_in": 596.56421,
+      "TE_fs_in": 640.82764,
+      "LE_x_px": 1652.0,
+      "TE_x_px": 1659.0
+    }
+  ],
+  "fits": {
+    "LE_127_to_348": {
+      "n": 7,
+      "FS_span_in": 80.26938000000001,
+      "slope_px_per_in": 2.294700231284223,
+      "scale_in_per_px": 0.4357867691678196,
+      "FS0_x_px": 195.4058180601851,
+      "FS93_x_px": 408.81293956961787,
+      "pivot_FS524_16_x_px": 1398.1958912901234,
+      "rms_px": 0.7665398601517897,
+      "max_abs_px": 1.4230016482745214,
+      "points": [
+        {
+          "wbl_in": 127.23,
+          "fs_in": 502.90542,
+          "x_px": 1348.0,
+          "residual_px": -1.4230016482745214
+        },
+        {
+          "wbl_in": 164.0146,
+          "fs_in": 516.19336,
+          "x_px": 1381.0,
+          "residual_px": 1.0851593604347727
+        },
+        {
+          "wbl_in": 200.79919,
+          "fs_in": 529.58618,
+          "x_px": 1411.0,
+          "residual_px": 0.3526522088866386
+        },
+        {
+          "wbl_in": 237.58369,
+          "fs_in": 542.9834,
+          "x_px": 1442.0,
+          "residual_px": 0.6100483763211741
+        },
+        {
+          "wbl_in": 274.36816,
+          "fs_in": 556.38062,
+          "x_px": 1472.0,
+          "residual_px": -0.1325554562445177
+        },
+        {
+          "wbl_in": 311.15283,
+          "fs_in": 569.77783,
+          "x_px": 1503.0,
+          "residual_px": 0.12486365819222556
+        },
+        {
+          "wbl_in": 347.93726,
+          "fs_in": 583.1748,
+          "x_px": 1533.0,
+          "residual_px": -0.6171664993155446
+        }
+      ]
+    },
+    "LE_164_to_348": {
+      "n": 6,
+      "FS_span_in": 66.98144000000002,
+      "slope_px_per_in": 2.2735060745510456,
+      "scale_in_per_px": 0.43984927561606463,
+      "FS0_x_px": 207.2930462635573,
+      "FS93_x_px": 418.7291111968045,
+      "pivot_FS524_16_x_px": 1398.9739903002333,
+      "rms_px": 0.2380090882609885,
+      "max_abs_px": 0.3135960869296923,
+      "points": [
+        {
+          "wbl_in": 164.0146,
+          "fs_in": 516.19336,
+          "x_px": 1381.0,
+          "residual_px": 0.13821413352798118
+        },
+        {
+          "wbl_in": 200.79919,
+          "fs_in": 529.58618,
+          "x_px": 1411.0,
+          "residual_px": -0.31044349184071507
+        },
+        {
+          "wbl_in": 237.58369,
+          "fs_in": 542.9834,
+          "x_px": 1442.0,
+          "residual_px": 0.23089545606262618
+        },
+        {
+          "wbl_in": 274.36816,
+          "fs_in": 556.38062,
+          "x_px": 1472.0,
+          "residual_px": -0.22776559603425994
+        },
+        {
+          "wbl_in": 311.15283,
+          "fs_in": 569.77783,
+          "x_px": 1503.0,
+          "residual_px": 0.3135960869296923
+        },
+        {
+          "wbl_in": 347.93726,
+          "fs_in": 583.1748,
+          "x_px": 1533.0,
+          "residual_px": -0.14449658864828052
+        }
+      ]
+    },
+    "TE_127_to_348": {
+      "n": 7,
+      "FS_span_in": 9.821529999999939,
+      "slope_px_per_in": 2.574494068285616,
+      "scale_in_per_px": 0.3884258318240799,
+      "FS0_x_px": 11.333564413956852,
+      "FS93_x_px": 250.76151276451913,
+      "pivot_FS524_16_x_px": 1360.7803752465452,
+      "rms_px": 0.5533901842258504,
+      "max_abs_px": 0.9286758366522463,
+      "points": [
+        {
+          "wbl_in": 127.23,
+          "fs_in": 629.37012,
+          "x_px": 1631.0,
+          "residual_px": -0.6432051101630805
+        },
+        {
+          "wbl_in": 164.0146,
+          "fs_in": 631.00684,
+          "x_px": 1636.0,
+          "residual_px": 0.14306895839240497
+        },
+        {
+          "wbl_in": 200.79919,
+          "fs_in": 632.6438,
+          "x_px": 1640.0,
+          "residual_px": -0.07127485162845915
+        },
+        {
+          "wbl_in": 237.58369,
+          "fs_in": 634.28076,
+          "x_px": 1645.0,
+          "residual_px": 0.7143813383509041
+        },
+        {
+          "wbl_in": 274.36816,
+          "fs_in": 635.91772,
+          "x_px": 1649.0,
+          "residual_px": 0.50003752833004
+        },
+        {
+          "wbl_in": 311.15283,
+          "fs_in": 637.55469,
+          "x_px": 1653.0,
+          "residual_px": 0.28566797336839045
+        },
+        {
+          "wbl_in": 347.93726,
+          "fs_in": 639.19165,
+          "x_px": 1656.0,
+          "residual_px": -0.9286758366522463
+        }
+      ]
+    },
+    "TE_164_to_348": {
+      "n": 6,
+      "FS_span_in": 8.18480999999997,
+      "slope_px_per_in": 2.4959122159883353,
+      "scale_in_per_px": 0.40065511663198394,
+      "FS0_x_px": 61.348040199385,
+      "FS93_x_px": 293.4678762863002,
+      "pivot_FS524_16_x_px": 1369.6053873318308,
+      "rms_px": 0.47809442695567433,
+      "max_abs_px": 0.714287792125333,
+      "points": [
+        {
+          "wbl_in": 164.0146,
+          "fs_in": 631.00684,
+          "x_px": 1636.0,
+          "residual_px": -0.28572052758204336
+        },
+        {
+          "wbl_in": 200.79919,
+          "fs_in": 632.6438,
+          "x_px": 1640.0,
+          "residual_px": -0.3714289886663664
+        },
+        {
+          "wbl_in": 237.58369,
+          "fs_in": 634.28076,
+          "x_px": 1645.0,
+          "residual_px": 0.5428625502495379
+        },
+        {
+          "wbl_in": 274.36816,
+          "fs_in": 635.91772,
+          "x_px": 1649.0,
+          "residual_px": 0.4571540891652148
+        },
+        {
+          "wbl_in": 311.15283,
+          "fs_in": 637.55469,
+          "x_px": 1653.0,
+          "residual_px": 0.3714206689587627
+        },
+        {
+          "wbl_in": 347.93726,
+          "fs_in": 639.19165,
+          "x_px": 1656.0,
+          "residual_px": -0.714287792125333
+        }
+      ]
+    }
+  },
+  "conditioning": {
+    "LE_longitudinal_FS_span_in": 66.98144000000002,
+    "TE_longitudinal_FS_span_in": 8.18480999999997,
+    "TE_to_LE_FS_span_ratio": 0.12219519317590019
+  },
+  "limits": [
+    "LE and TE are fitted separately because TE has a very small longitudinal FS range and is poorly conditioned for FS93 extrapolation.",
+    "Tip station WBL384.69995 is excluded from regression because LE and TE geometrically converge at the physical wingtip.",
+    "No absolute registration is released from this file alone."
+  ],
+  "registration_release": false,
+  "master_change_allowed": false,
+  "production_release": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "AB_AUSGEWAEHLTE_STRICHMITTELKANDIDATEN_VISUELL_GEPRUEFT",
+  "input_sha256": "53b81a8bca8051c04530ef4e8f9c01ff05dab36c1d8a87dc5f8344039e320c57",
+  "review_image": "AB_boundary_stroke_midpoints_review.png",
+  "reviewed_threshold": 128,
+  "reviewed_point_counts": {
+    "A": 24,
+    "B": 32
+  },
+  "findings": [
+    "Markierte Kandidaten liegen im Overlay auf dem aeusseren Begrenzungsstrich, nicht auf inneren Schraffurlinien.",
+    "A rechts unten zeigt eine kleine Konturstufe; B zeigt deutliche Schulter-/Halsuebergaenge. Keine Glaettung oder Kreisannahme angewendet."
+  ],
+  "limits": [
+    "Nur ausgewählte Zeilen, keine vollstaendige Mittelkontur.",
+    "Obere/untere Kappen und Achsenueberlagerungen nicht rekonstruiert.",
+    "Horizontale Strichlaufmittelpunkte sind bei Kruemmung/Neigung keine unabhaengige normale Mittellinienmessung.",
+    "Keine metrische Registrierung oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

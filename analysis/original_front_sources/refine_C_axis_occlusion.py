@@ -1,0 +1,12 @@
+import json,hashlib,math
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2];SRC=ROOT/'analysis'/'original_front_sources'
+F=SRC/'C_axis_corner_fragments.json';FRAME=SRC/'front_shared_frame_candidate.json';OLD=SRC/'C_remaining_axis_gaps.json';OUT=SRC/'C_axis_occlusion_refined.json'
+j=json.loads(F.read_text(encoding='utf-8'));frame=json.loads(FRAME.read_text(encoding='utf-8'));old=json.loads(OLD.read_text(encoding='utf-8'));scale=float(frame['profiles'][2]['isotropic_mm_per_section_pixel']);c=next(x for x in j['cases'] if x['threshold']==128);s=c['segments_pixel']
+# Reihenfolge laut Quelle: links oberhalb, rechts oberhalb, links unterhalb, rechts unterhalb.
+pairs=[('links',s[0][-1],s[2][0]),('rechts',s[1][0],s[3][0])]
+rows=[]
+for side,a,b in pairs:
+ gap=math.dist(a,b);rows.append({'side':side,'last_visible_above_axis':a,'first_visible_below_axis':b,'direct_visible_endpoint_gap_pixel':gap,'direct_visible_endpoint_gap_candidate_mm':gap*scale,'axis_rows_occluding_source':[607,608,609,610,611,612],'bridge_measured':False,'continuity_status':'PLAUSIBEL_ABER_DURCH_ACHSE_VERDECKT_NICHT_GEMESSEN'})
+out={'status':'C_ACHSENOKKLUSION_VERFEINERT_KEINE_HAUTFREIGABE','threshold':128,'candidate_scale_mm_per_pixel':scale,'inputs':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (F,FRAME,OLD)},'rows':rows,'interpretation':['Die fruehere 15.264-Pixel-Angabe war ein konservativer Abstand weiter auseinanderliegender Referenzpunkte und nicht die engste sichtbare Konturluecke.','Sichtbare Eckfragmente reichen bis y=606 und beginnen wieder ab y=613; dazwischen liegt das ausgelassene horizontale Achsenband607..612.','Der direkte Abstand der sichtbaren Endpunkte betraegt links ca.7.071Pixel und rechts ca.7.280Pixel.','Das Originalbild zeigt in diesem Bereich eine Achsenueberlagerung. Eine Fortsetzung ist geometrisch plausibel, aber der verdeckte Konturverlauf bleibt ungemessen.','Daraus darf keine automatische Hautbruecke, Stationskontur oder Loftkante erzeugt werden.'],'supersedes_as_gap_interpretation_only':'C_remaining_axis_gaps.json outer-axis 15.264px values','source_data_replaced':False,'loft_allowed':False,'master_change_allowed':False,'production_release':False,'next_step':'Achsenokklusion als explizite unbekannte Bruecke behandeln; C-Hautsemantik aus sichtbaren Fragmenten getrennt von der Seitenprojektionshuelle weiter pruefen.'}
+OUT.write_text(json.dumps(out,indent=2,ensure_ascii=False),encoding='utf-8');print(json.dumps(out,indent=2,ensure_ascii=False))

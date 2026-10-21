@@ -8,8 +8,52 @@
     "C_remaining_axis_gaps.json": "859a5f923771708c602a049a9371ffde97f5974ebdedef2732d4916edd6c89ae"
   },
   "rows": [
-    {"side":"links","last_visible_above_axis":[912,606],"first_visible_below_axis":[911,613],"direct_visible_endpoint_gap_pixel":7.0710678118654755,"direct_visible_endpoint_gap_candidate_mm":3.2386963974540555,"axis_rows_occluding_source":[607,608,609,610,611,612],"bridge_measured":false,"continuity_status":"PLAUSIBEL_ABER_DURCH_ACHSE_VERDECKT_NICHT_GEMESSEN"},
-    {"side":"rechts","last_visible_above_axis":[1223,606],"first_visible_below_axis":[1225,613],"direct_visible_endpoint_gap_pixel":7.280109889280518,"direct_visible_endpoint_gap_candidate_mm":3.3344420247133986,"axis_rows_occluding_source":[607,608,609,610,611,612],"bridge_measured":false,"continuity_status":"PLAUSIBEL_ABER_DURCH_ACHSE_VERDECKT_NICHT_GEMESSEN"}
+    {
+      "side": "links",
+      "last_visible_above_axis": [
+        912,
+        606
+      ],
+      "first_visible_below_axis": [
+        911,
+        613
+      ],
+      "direct_visible_endpoint_gap_pixel": 7.0710678118654755,
+      "direct_visible_endpoint_gap_candidate_mm": 3.2386963974540555,
+      "axis_rows_occluding_source": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "bridge_measured": false,
+      "continuity_status": "PLAUSIBEL_ABER_DURCH_ACHSE_VERDECKT_NICHT_GEMESSEN"
+    },
+    {
+      "side": "rechts",
+      "last_visible_above_axis": [
+        1223,
+        606
+      ],
+      "first_visible_below_axis": [
+        1225,
+        613
+      ],
+      "direct_visible_endpoint_gap_pixel": 7.280109889280518,
+      "direct_visible_endpoint_gap_candidate_mm": 3.3344420247133986,
+      "axis_rows_occluding_source": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "bridge_measured": false,
+      "continuity_status": "PLAUSIBEL_ABER_DURCH_ACHSE_VERDECKT_NICHT_GEMESSEN"
+    }
   ],
   "interpretation": [
     "Die fruehere 15.264-Pixel-Angabe war ein konservativer Abstand weiter auseinanderliegender Referenzpunkte und nicht die engste sichtbare Konturluecke.",

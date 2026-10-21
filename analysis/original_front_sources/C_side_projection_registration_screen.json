@@ -9,15 +9,50 @@
   },
   "station_X_mm": 403.32456309143583,
   "bracketing_samples": {
-    "left": {"X_mm":391.46444067586833,"top_Z_mm":44.2419268817339,"bottom_Z_mm":-26.918807611670754,"source":"BC","source_x_pixel":1175},
-    "right": {"X_mm":417.8202682660182,"top_Z_mm":38.97076136370393,"bottom_Z_mm":-41.15095451035168,"source":"CD_v2","source_x_pixel":1225},
+    "left": {
+      "X_mm": 391.46444067586833,
+      "top_Z_mm": 44.2419268817339,
+      "bottom_Z_mm": -26.918807611670754,
+      "source": "BC",
+      "source_x_pixel": 1175
+    },
+    "right": {
+      "X_mm": 417.8202682660182,
+      "top_Z_mm": 38.97076136370393,
+      "bottom_Z_mm": -41.15095451035168,
+      "source": "CD_v2",
+      "source_x_pixel": 1225
+    },
     "interpolation_fraction": 0.45000000000000207
   },
-  "interpolated_side_envelope_at_C": {"top_Z_mm":41.869902398620404,"bottom_Z_mm":-33.3232737160772,"height_mm":75.19317611469761,"center_Z_mm":4.2733143412716},
-  "neutral_C_in_legacy_frame": {"top_Z_mm":36.89137947963954,"bottom_Z_mm":-35.47591276143732,"height_mm":72.36729224107685,"center_Z_mm":0.707733359101109},
-  "difference_neutral_minus_interpolated": {"top_Z_mm":-4.978522918980865,"bottom_Z_mm":-2.152639045360118,"height_mm":-2.8258838736207537,"center_Z_mm":-3.5655809821704914},
-  "diagnostic_only": {"isotropic_vertical_scale_factor_to_match_height":1.0390491862567817,"vertical_translation_mm_to_match_center_without_scale":3.5655809821704914},
-  "limits": ["Interpolation nutzt zwei Original-Seitenprojektionsproben, aber keine verifizierte C-Stationskontur.","Seitensilhouette kann lokale Glove-/Inlet-/Anbauteilprojektionen enthalten.","Der berechnete Skalierungsfaktor ist Diagnose und darf die C-Kontur nicht automatisch verformen.","Keine gemeinsame Wasserlinie, kein Loft, keine Master-Aenderung und keine Produktionsfreigabe."],
+  "interpolated_side_envelope_at_C": {
+    "top_Z_mm": 41.869902398620404,
+    "bottom_Z_mm": -33.3232737160772,
+    "height_mm": 75.19317611469761,
+    "center_Z_mm": 4.2733143412716
+  },
+  "neutral_C_in_legacy_frame": {
+    "top_Z_mm": 36.89137947963954,
+    "bottom_Z_mm": -35.47591276143732,
+    "height_mm": 72.36729224107685,
+    "center_Z_mm": 0.707733359101109
+  },
+  "difference_neutral_minus_interpolated": {
+    "top_Z_mm": -4.978522918980865,
+    "bottom_Z_mm": -2.152639045360118,
+    "height_mm": -2.8258838736207537,
+    "center_Z_mm": -3.5655809821704914
+  },
+  "diagnostic_only": {
+    "isotropic_vertical_scale_factor_to_match_height": 1.0390491862567817,
+    "vertical_translation_mm_to_match_center_without_scale": 3.5655809821704914
+  },
+  "limits": [
+    "Interpolation nutzt zwei Original-Seitenprojektionsproben, aber keine verifizierte C-Stationskontur.",
+    "Seitensilhouette kann lokale Glove-/Inlet-/Anbauteilprojektionen enthalten.",
+    "Der berechnete Skalierungsfaktor ist Diagnose und darf die C-Kontur nicht automatisch verformen.",
+    "Keine gemeinsame Wasserlinie, kein Loft, keine Master-Aenderung und keine Produktionsfreigabe."
+  ],
   "next_step": "Pruefen, ob obere und untere C-Kanten semantisch zur interpolierten Seitenhülle gehoeren; erst danach Registrierungsvarianten aufbauen.",
   "master_change_allowed": false,
   "production_release": false

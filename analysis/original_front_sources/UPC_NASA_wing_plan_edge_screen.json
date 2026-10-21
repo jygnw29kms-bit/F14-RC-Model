@@ -1,0 +1,657 @@
+{
+  "status": "UPC_NASA_WING_PLAN_EDGE_RASTER_SCREEN_NOT_REGISTERED",
+  "inputs": {
+    "references/UPC_Figure3_15_source_exact.png": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+    "cad/fusion/F14TomcatRC/NASA_F14_basic_wing_v08.json": "177867ced9b6f2e075916d048cbf81997918e239ac8f4986a45461d6ecc80342"
+  },
+  "threshold": 128,
+  "x_roi_px": [
+    1050,
+    1900
+  ],
+  "y_center_from_tip_extrema_px": 1295.5,
+  "half_span_px": 850.5,
+  "nasa_tip_wbl_in": 384.69995,
+  "y_scale_in_per_px_from_nasa_tip": 0.4523221046443269,
+  "rows": [
+    {
+      "wbl_in": 127.23,
+      "nasa_le_fs_in": 502.90542,
+      "nasa_te_fs_in": 629.37012,
+      "sides": [
+        {
+          "side": "upper",
+          "predicted_y_px": 1014.2181464411419,
+          "sample_rows": [
+            {
+              "y_px": 1012,
+              "x_min_px": 1354,
+              "x_max_px": 1856,
+              "dark_count": 70
+            },
+            {
+              "y_px": 1013,
+              "x_min_px": 1353,
+              "x_max_px": 1855,
+              "dark_count": 54
+            },
+            {
+              "y_px": 1014,
+              "x_min_px": 1351,
+              "x_max_px": 1854,
+              "dark_count": 33
+            },
+            {
+              "y_px": 1015,
+              "x_min_px": 1349,
+              "x_max_px": 1853,
+              "dark_count": 25
+            },
+            {
+              "y_px": 1016,
+              "x_min_px": 1346,
+              "x_max_px": 1852,
+              "dark_count": 23
+            }
+          ]
+        },
+        {
+          "side": "lower",
+          "predicted_y_px": 1576.781853558858,
+          "sample_rows": [
+            {
+              "y_px": 1575,
+              "x_min_px": 1343,
+              "x_max_px": 1851,
+              "dark_count": 22
+            },
+            {
+              "y_px": 1576,
+              "x_min_px": 1345,
+              "x_max_px": 1852,
+              "dark_count": 21
+            },
+            {
+              "y_px": 1577,
+              "x_min_px": 1348,
+              "x_max_px": 1854,
+              "dark_count": 30
+            },
+            {
+              "y_px": 1578,
+              "x_min_px": 1350,
+              "x_max_px": 1855,
+              "dark_count": 44
+            },
+            {
+              "y_px": 1579,
+              "x_min_px": 1351,
+              "x_max_px": 1856,
+              "dark_count": 72
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wbl_in": 164.0146,
+      "nasa_le_fs_in": 516.19336,
+      "nasa_te_fs_in": 631.00684,
+      "sides": [
+        {
+          "side": "upper",
+          "predicted_y_px": 932.8942411481987,
+          "sample_rows": [
+            {
+              "y_px": 931,
+              "x_min_px": 1385,
+              "x_max_px": 1638,
+              "dark_count": 15
+            },
+            {
+              "y_px": 932,
+              "x_min_px": 1384,
+              "x_max_px": 1638,
+              "dark_count": 13
+            },
+            {
+              "y_px": 933,
+              "x_min_px": 1384,
+              "x_max_px": 1638,
+              "dark_count": 11
+            },
+            {
+              "y_px": 934,
+              "x_min_px": 1383,
+              "x_max_px": 1638,
+              "dark_count": 12
+            },
+            {
+              "y_px": 935,
+              "x_min_px": 1383,
+              "x_max_px": 1638,
+              "dark_count": 12
+            }
+          ]
+        },
+        {
+          "side": "lower",
+          "predicted_y_px": 1658.1057588518013,
+          "sample_rows": [
+            {
+              "y_px": 1656,
+              "x_min_px": 1053,
+              "x_max_px": 1635,
+              "dark_count": 44
+            },
+            {
+              "y_px": 1657,
+              "x_min_px": 1052,
+              "x_max_px": 1635,
+              "dark_count": 49
+            },
+            {
+              "y_px": 1658,
+              "x_min_px": 1051,
+              "x_max_px": 1636,
+              "dark_count": 46
+            },
+            {
+              "y_px": 1659,
+              "x_min_px": 1050,
+              "x_max_px": 1636,
+              "dark_count": 44
+            },
+            {
+              "y_px": 1660,
+              "x_min_px": 1050,
+              "x_max_px": 1636,
+              "dark_count": 47
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wbl_in": 200.79919,
+      "nasa_le_fs_in": 529.58618,
+      "nasa_te_fs_in": 632.6438,
+      "sides": [
+        {
+          "side": "upper",
+          "predicted_y_px": 851.5703579633946,
+          "sample_rows": [
+            {
+              "y_px": 850,
+              "x_min_px": 1415,
+              "x_max_px": 1642,
+              "dark_count": 11
+            },
+            {
+              "y_px": 851,
+              "x_min_px": 1415,
+              "x_max_px": 1642,
+              "dark_count": 10
+            },
+            {
+              "y_px": 852,
+              "x_min_px": 1414,
+              "x_max_px": 1642,
+              "dark_count": 12
+            },
+            {
+              "y_px": 853,
+              "x_min_px": 1414,
+              "x_max_px": 1642,
+              "dark_count": 12
+            },
+            {
+              "y_px": 854,
+              "x_min_px": 1414,
+              "x_max_px": 1642,
+              "dark_count": 13
+            }
+          ]
+        },
+        {
+          "side": "lower",
+          "predicted_y_px": 1739.4296420366054,
+          "sample_rows": [
+            {
+              "y_px": 1737,
+              "x_min_px": 1144,
+              "x_max_px": 1640,
+              "dark_count": 25
+            },
+            {
+              "y_px": 1738,
+              "x_min_px": 1144,
+              "x_max_px": 1640,
+              "dark_count": 28
+            },
+            {
+              "y_px": 1739,
+              "x_min_px": 1145,
+              "x_max_px": 1640,
+              "dark_count": 27
+            },
+            {
+              "y_px": 1740,
+              "x_min_px": 1146,
+              "x_max_px": 1640,
+              "dark_count": 26
+            },
+            {
+              "y_px": 1741,
+              "x_min_px": 1147,
+              "x_max_px": 1640,
+              "dark_count": 26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wbl_in": 237.58369,
+      "nasa_le_fs_in": 542.9834,
+      "nasa_te_fs_in": 634.28076,
+      "sides": [
+        {
+          "side": "upper",
+          "predicted_y_px": 770.2466737518422,
+          "sample_rows": [
+            {
+              "y_px": 768,
+              "x_min_px": 1446,
+              "x_max_px": 1647,
+              "dark_count": 13
+            },
+            {
+              "y_px": 769,
+              "x_min_px": 1446,
+              "x_max_px": 1647,
+              "dark_count": 11
+            },
+            {
+              "y_px": 770,
+              "x_min_px": 1445,
+              "x_max_px": 1647,
+              "dark_count": 13
+            },
+            {
+              "y_px": 771,
+              "x_min_px": 1445,
+              "x_max_px": 1646,
+              "dark_count": 10
+            },
+            {
+              "y_px": 772,
+              "x_min_px": 1444,
+              "x_max_px": 1646,
+              "dark_count": 11
+            }
+          ]
+        },
+        {
+          "side": "lower",
+          "predicted_y_px": 1820.753326248158,
+          "sample_rows": [
+            {
+              "y_px": 1819,
+              "x_min_px": 1441,
+              "x_max_px": 1645,
+              "dark_count": 10
+            },
+            {
+              "y_px": 1820,
+              "x_min_px": 1441,
+              "x_max_px": 1645,
+              "dark_count": 11
+            },
+            {
+              "y_px": 1821,
+              "x_min_px": 1442,
+              "x_max_px": 1645,
+              "dark_count": 10
+            },
+            {
+              "y_px": 1822,
+              "x_min_px": 1442,
+              "x_max_px": 1645,
+              "dark_count": 11
+            },
+            {
+              "y_px": 1823,
+              "x_min_px": 1442,
+              "x_max_px": 1645,
+              "dark_count": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wbl_in": 274.36816,
+      "nasa_le_fs_in": 556.38062,
+      "nasa_te_fs_in": 635.91772,
+      "sides": [
+        {
+          "side": "upper",
+          "predicted_y_px": 688.9230558647071,
+          "sample_rows": [
+            {
+              "y_px": 687,
+              "x_min_px": 1164,
+              "x_max_px": 1899,
+              "dark_count": 25
+            },
+            {
+              "y_px": 688,
+              "x_min_px": 1166,
+              "x_max_px": 1899,
+              "dark_count": 28
+            },
+            {
+              "y_px": 689,
+              "x_min_px": 1171,
+              "x_max_px": 1899,
+              "dark_count": 26
+            },
+            {
+              "y_px": 690,
+              "x_min_px": 1475,
+              "x_max_px": 1899,
+              "dark_count": 28
+            },
+            {
+              "y_px": 691,
+              "x_min_px": 1475,
+              "x_max_px": 1899,
+              "dark_count": 20
+            }
+          ]
+        },
+        {
+          "side": "lower",
+          "predicted_y_px": 1902.076944135293,
+          "sample_rows": [
+            {
+              "y_px": 1900,
+              "x_min_px": 1471,
+              "x_max_px": 1649,
+              "dark_count": 18
+            },
+            {
+              "y_px": 1901,
+              "x_min_px": 1472,
+              "x_max_px": 1649,
+              "dark_count": 22
+            },
+            {
+              "y_px": 1902,
+              "x_min_px": 1472,
+              "x_max_px": 1649,
+              "dark_count": 25
+            },
+            {
+              "y_px": 1903,
+              "x_min_px": 1473,
+              "x_max_px": 1649,
+              "dark_count": 12
+            },
+            {
+              "y_px": 1904,
+              "x_min_px": 1473,
+              "x_max_px": 1649,
+              "dark_count": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wbl_in": 311.15283,
+      "nasa_le_fs_in": 569.77783,
+      "nasa_te_fs_in": 637.55469,
+      "sides": [
+        {
+          "side": "upper",
+          "predicted_y_px": 607.5989958147902,
+          "sample_rows": [
+            {
+              "y_px": 606,
+              "x_min_px": 1058,
+              "x_max_px": 1900,
+              "dark_count": 58
+            },
+            {
+              "y_px": 607,
+              "x_min_px": 1057,
+              "x_max_px": 1900,
+              "dark_count": 54
+            },
+            {
+              "y_px": 608,
+              "x_min_px": 1056,
+              "x_max_px": 1900,
+              "dark_count": 292
+            },
+            {
+              "y_px": 609,
+              "x_min_px": 1050,
+              "x_max_px": 1900,
+              "dark_count": 311
+            },
+            {
+              "y_px": 610,
+              "x_min_px": 1054,
+              "x_max_px": 1900,
+              "dark_count": 54
+            }
+          ]
+        },
+        {
+          "side": "lower",
+          "predicted_y_px": 1983.4010041852098,
+          "sample_rows": [
+            {
+              "y_px": 1981,
+              "x_min_px": 1502,
+              "x_max_px": 1653,
+              "dark_count": 10
+            },
+            {
+              "y_px": 1982,
+              "x_min_px": 1502,
+              "x_max_px": 1653,
+              "dark_count": 11
+            },
+            {
+              "y_px": 1983,
+              "x_min_px": 1502,
+              "x_max_px": 1653,
+              "dark_count": 13
+            },
+            {
+              "y_px": 1984,
+              "x_min_px": 1503,
+              "x_max_px": 1653,
+              "dark_count": 10
+            },
+            {
+              "y_px": 1985,
+              "x_min_px": 1503,
+              "x_max_px": 1653,
+              "dark_count": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wbl_in": 347.93726,
+      "nasa_le_fs_in": 583.1748,
+      "nasa_te_fs_in": 639.19165,
+      "sides": [
+        {
+          "side": "upper",
+          "predicted_y_px": 526.2754663602115,
+          "sample_rows": [
+            {
+              "y_px": 524,
+              "x_min_px": 1068,
+              "x_max_px": 1900,
+              "dark_count": 21
+            },
+            {
+              "y_px": 525,
+              "x_min_px": 1068,
+              "x_max_px": 1900,
+              "dark_count": 24
+            },
+            {
+              "y_px": 526,
+              "x_min_px": 1068,
+              "x_max_px": 1897,
+              "dark_count": 20
+            },
+            {
+              "y_px": 527,
+              "x_min_px": 1068,
+              "x_max_px": 1896,
+              "dark_count": 19
+            },
+            {
+              "y_px": 528,
+              "x_min_px": 1068,
+              "x_max_px": 1895,
+              "dark_count": 21
+            }
+          ]
+        },
+        {
+          "side": "lower",
+          "predicted_y_px": 2064.7245336397887,
+          "sample_rows": [
+            {
+              "y_px": 2063,
+              "x_min_px": 1532,
+              "x_max_px": 1656,
+              "dark_count": 11
+            },
+            {
+              "y_px": 2064,
+              "x_min_px": 1532,
+              "x_max_px": 1656,
+              "dark_count": 13
+            },
+            {
+              "y_px": 2065,
+              "x_min_px": 1533,
+              "x_max_px": 1656,
+              "dark_count": 11
+            },
+            {
+              "y_px": 2066,
+              "x_min_px": 1533,
+              "x_max_px": 1656,
+              "dark_count": 13
+            },
+            {
+              "y_px": 2067,
+              "x_min_px": 1533,
+              "x_max_px": 1656,
+              "dark_count": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wbl_in": 384.69995,
+      "nasa_le_fs_in": 596.56421,
+      "nasa_te_fs_in": 640.82764,
+      "sides": [
+        {
+          "side": "upper",
+          "predicted_y_px": 445.0,
+          "sample_rows": [
+            {
+              "y_px": 443,
+              "x_min_px": 1176,
+              "x_max_px": 1219,
+              "dark_count": 20
+            },
+            {
+              "y_px": 444,
+              "x_min_px": 1176,
+              "x_max_px": 1219,
+              "dark_count": 18
+            },
+            {
+              "y_px": 445,
+              "x_min_px": 1176,
+              "x_max_px": 1664,
+              "dark_count": 19
+            },
+            {
+              "y_px": 446,
+              "x_min_px": 1175,
+              "x_max_px": 1664,
+              "dark_count": 23
+            },
+            {
+              "y_px": 447,
+              "x_min_px": 1175,
+              "x_max_px": 1664,
+              "dark_count": 24
+            }
+          ]
+        },
+        {
+          "side": "lower",
+          "predicted_y_px": 2146.0,
+          "sample_rows": [
+            {
+              "y_px": 2144,
+              "x_min_px": 1055,
+              "x_max_px": 1659,
+              "dark_count": 14
+            },
+            {
+              "y_px": 2145,
+              "x_min_px": 1055,
+              "x_max_px": 1659,
+              "dark_count": 14
+            },
+            {
+              "y_px": 2146,
+              "x_min_px": 1055,
+              "x_max_px": 1659,
+              "dark_count": 11
+            },
+            {
+              "y_px": 2147,
+              "x_min_px": 1055,
+              "x_max_px": 1116,
+              "dark_count": 6
+            },
+            {
+              "y_px": 2148,
+              "x_min_px": 1055,
+              "x_max_px": 1116,
+              "dark_count": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Raster extrema can include panel lines, labels or overlapping drawing elements.",
+    "No edge is promoted until upper/lower symmetry and NASA planform consistency are checked.",
+    "The NASA basic wing is source-backed but the UPC drawing is a secondary blueprint source.",
+    "No geometry or master datum is changed."
+  ],
+  "production_release": false
+}

@@ -1,0 +1,193 @@
+{
+  "status": "UPC_NASA_WING_REGISTRATION_SENSITIVITY_SCREEN_FAIL_CLOSED",
+  "input_sha256": "6769682c0d86d130e2166884d66384f5f11d0bf8e4f5050a46f404ee7dbd310c",
+  "span_scale_fullscale_in_per_px": 0.4523809523809524,
+  "cases": [
+    {
+      "case": "all_5px_inliers",
+      "free_affine": {
+        "n": 20,
+        "slope_px_per_in": 2.2317319967512814,
+        "scale_in_per_px": 0.4480824765051063,
+        "FS0_x_px": 230.14131988320423,
+        "FS93_x_px": 437.6923955810734,
+        "pivot_FS524_16_x_px": 1399.9259633003558,
+        "rms_px": 1.8591276121169023,
+        "max_abs_px": 4.491437036846037
+      },
+      "span_scale_constrained": {
+        "n": 20,
+        "slope_px_per_in": 2.2105263157894735,
+        "scale_in_per_px": 0.45238095238095244,
+        "FS0_x_px": 242.69197910526336,
+        "FS93_x_px": 448.2709264736844,
+        "pivot_FS524_16_x_px": 1401.3614527894736,
+        "rms_px": 2.156365721661612,
+        "max_abs_px": 6.377644368420988
+      }
+    },
+    {
+      "case": "lower_only",
+      "free_affine": {
+        "n": 12,
+        "slope_px_per_in": 2.2375897531362154,
+        "scale_in_per_px": 0.44690944736334964,
+        "FS0_x_px": 225.79038442661627,
+        "FS93_x_px": 433.88623146828434,
+        "pivot_FS524_16_x_px": 1398.645429430495,
+        "rms_px": 1.4562337067636337,
+        "max_abs_px": 3.086399015281131
+      },
+      "span_scale_constrained": {
+        "n": 12,
+        "slope_px_per_in": 2.2105263157894735,
+        "scale_in_per_px": 0.45238095238095244,
+        "FS0_x_px": 242.04343359649138,
+        "FS93_x_px": 447.6223809649124,
+        "pivot_FS524_16_x_px": 1400.7129072807018,
+        "rms_px": 1.9076529338408927,
+        "max_abs_px": 5.729098859649184
+      }
+    },
+    {
+      "case": "upper_only",
+      "free_affine": {
+        "n": 8,
+        "slope_px_per_in": 2.2344962457603956,
+        "scale_in_per_px": 0.4475281629572403,
+        "FS0_x_px": 229.79091980424013,
+        "FS93_x_px": 437.59907065995696,
+        "pivot_FS524_16_x_px": 1401.024471982009,
+        "rms_px": 1.6511092298756949,
+        "max_abs_px": 2.531192766794902
+      },
+      "span_scale_constrained": {
+        "n": 8,
+        "slope_px_per_in": 2.2105263157894735,
+        "scale_in_per_px": 0.45238095238095244,
+        "FS0_x_px": 243.66479736842123,
+        "FS93_x_px": 449.24374473684225,
+        "pivot_FS524_16_x_px": 1402.3342710526315,
+        "rms_px": 2.1421440080791543,
+        "max_abs_px": 4.350462631578921
+      }
+    },
+    {
+      "case": "LE_only",
+      "free_affine": {
+        "n": 9,
+        "slope_px_per_in": 2.269048158829072,
+        "scale_in_per_px": 0.4407134313605947,
+        "FS0_x_px": 210.35246597358324,
+        "FS93_x_px": 421.3739447446869,
+        "pivot_FS524_16_x_px": 1399.6967489054296,
+        "rms_px": 1.8630299008741384,
+        "max_abs_px": 3.4690832897445034
+      },
+      "span_scale_constrained": {
+        "n": 9,
+        "slope_px_per_in": 2.2105263157894735,
+        "scale_in_per_px": 0.45238095238095244,
+        "FS0_x_px": 241.86901719298262,
+        "FS93_x_px": 447.44796456140364,
+        "pivot_FS524_16_x_px": 1400.538490877193,
+        "rms_px": 2.4338106864766393,
+        "max_abs_px": 5.554682456140426
+      }
+    },
+    {
+      "case": "TE_only",
+      "free_affine": {
+        "n": 11,
+        "slope_px_per_in": 2.438200870580716,
+        "scale_in_per_px": 0.41013848041233203,
+        "FS0_x_px": 98.68471097583834,
+        "FS93_x_px": 325.43739193984493,
+        "pivot_FS524_16_x_px": 1376.6920792994263,
+        "rms_px": 1.4024514991372197,
+        "max_abs_px": 2.8487792839760004
+      },
+      "span_scale_constrained": {
+        "n": 11,
+        "slope_px_per_in": 2.2105263157894735,
+        "scale_in_per_px": 0.45238095238095244,
+        "FS0_x_px": 243.3653115789476,
+        "FS93_x_px": 448.94425894736867,
+        "pivot_FS524_16_x_px": 1402.0347852631578,
+        "rms_px": 1.6125872151127538,
+        "max_abs_px": 4.068326315789591
+      }
+    },
+    {
+      "case": "mid_stations_164_to_348",
+      "free_affine": {
+        "n": 16,
+        "slope_px_per_in": 2.2109027976190707,
+        "scale_in_per_px": 0.45230391904922446,
+        "FS0_x_px": 242.79677397086812,
+        "FS93_x_px": 448.4107341494417,
+        "pivot_FS524_16_x_px": 1401.6635843708802,
+        "rms_px": 1.0193047657725558,
+        "max_abs_px": 1.8915618436374189
+      },
+      "span_scale_constrained": {
+        "n": 16,
+        "slope_px_per_in": 2.2105263157894735,
+        "scale_in_per_px": 0.45238095238095244,
+        "FS0_x_px": 243.02147730263175,
+        "FS93_x_px": 448.6004246710528,
+        "pivot_FS524_16_x_px": 1401.690950986842,
+        "rms_px": 1.019444091515419,
+        "max_abs_px": 1.8842111184212627
+      }
+    },
+    {
+      "case": "lower_mid_164_to_348",
+      "free_affine": {
+        "n": 10,
+        "slope_px_per_in": 2.2155688190917755,
+        "scale_in_per_px": 0.45135136014864496,
+        "FS0_x_px": 239.52009761900703,
+        "FS93_x_px": 445.5679977945422,
+        "pivot_FS524_16_x_px": 1400.8326498341519,
+        "rms_px": 0.8662520447549562,
+        "max_abs_px": 1.5591769566399307
+      },
+      "span_scale_constrained": {
+        "n": 10,
+        "slope_px_per_in": 2.2105263157894735,
+        "scale_in_per_px": 0.45238095238095244,
+        "FS0_x_px": 242.5773230526317,
+        "FS93_x_px": 448.15627042105274,
+        "pivot_FS524_16_x_px": 1401.246796736842,
+        "rms_px": 0.8856897842992636,
+        "max_abs_px": 1.4345483157894705
+      }
+    }
+  ],
+  "summary": {
+    "free_FS93_range_px": [
+      325.43739193984493,
+      448.4107341494417
+    ],
+    "span_constrained_FS93_range_px": [
+      447.44796456140364,
+      449.24374473684225
+    ],
+    "navy_UPC_FS93_candidate_band_px": [
+      443.0,
+      450.0
+    ],
+    "any_free_case_hits_band": true,
+    "any_span_constrained_case_hits_band": true
+  },
+  "interpretation": [
+    "Freie X-Skalierung testet interne NASA/UPC-Planformpassung.",
+    "Spannweiten-konstante Skalierung testet isotrope Rasterhypothese aus der unabhängigen 900-mm/Grumman-Halbspannweite.",
+    "Gruppenfits dienen nur der Robustheits- und Anisotropieprüfung; kein Einzelfall wird nachträglich ausgewählt, um FS93 passend zu machen.",
+    "Eine Freigabe verlangt konsistente FS93-Lage über vernünftige Gruppen und eine unabhängige dritte Längsmarke."
+  ],
+  "registration_release": false,
+  "master_change_allowed": false,
+  "production_release": false
+}

@@ -1,0 +1,326 @@
+{
+  "status": "UPC_LOWER_EXTENDED_WING_VS_NASA_20DEG_RASTER_SCREEN",
+  "source_image_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "wing_data_sha256": "177867ced9b6f2e075916d048cbf81997918e239ac8f4986a45461d6ecc80342",
+  "plan_centerline": {
+    "method": "nose-tip minimum-x pixels in plan-view ROI",
+    "y_px": 1296.5
+  },
+  "lower_wingtip": {
+    "method": "maximum-y dark pixels in isolated lower-wingtip ROI x1300..1800 y1800..2180",
+    "y_px": 2146.0,
+    "x_at_tip_px": [
+      1655,
+      1659
+    ]
+  },
+  "halfspan_px": 849.5,
+  "nasa_tip_wbl_in": 384.69995,
+  "y_scale_fullscale_in_per_px": 0.45285456150676867,
+  "threshold": 128,
+  "x_roi_px": [
+    1300,
+    1750
+  ],
+  "rows": [
+    {
+      "wbl_in": 127.23,
+      "nasa_le_fs_in": 502.90542,
+      "nasa_te_fs_in": 629.37012,
+      "predicted_y_px": 1577.451128275426,
+      "sample_rows": [
+        {
+          "y_px": 1575,
+          "x_min_px": 1343,
+          "x_max_px": 1631,
+          "dark_count": 17
+        },
+        {
+          "y_px": 1576,
+          "x_min_px": 1345,
+          "x_max_px": 1631,
+          "dark_count": 17
+        },
+        {
+          "y_px": 1577,
+          "x_min_px": 1348,
+          "x_max_px": 1631,
+          "dark_count": 24
+        },
+        {
+          "y_px": 1578,
+          "x_min_px": 1350,
+          "x_max_px": 1631,
+          "dark_count": 39
+        },
+        {
+          "y_px": 1579,
+          "x_min_px": 1351,
+          "x_max_px": 1631,
+          "dark_count": 67
+        }
+      ]
+    },
+    {
+      "wbl_in": 164.0146,
+      "nasa_le_fs_in": 516.19336,
+      "nasa_te_fs_in": 631.00684,
+      "predicted_y_px": 1658.679414632105,
+      "sample_rows": [
+        {
+          "y_px": 1657,
+          "x_min_px": 1380,
+          "x_max_px": 1635,
+          "dark_count": 10
+        },
+        {
+          "y_px": 1658,
+          "x_min_px": 1380,
+          "x_max_px": 1636,
+          "dark_count": 12
+        },
+        {
+          "y_px": 1659,
+          "x_min_px": 1381,
+          "x_max_px": 1636,
+          "dark_count": 10
+        },
+        {
+          "y_px": 1660,
+          "x_min_px": 1381,
+          "x_max_px": 1636,
+          "dark_count": 11
+        },
+        {
+          "y_px": 1661,
+          "x_min_px": 1382,
+          "x_max_px": 1636,
+          "dark_count": 16
+        }
+      ]
+    },
+    {
+      "wbl_in": 200.79919,
+      "nasa_le_fs_in": 529.58618,
+      "nasa_te_fs_in": 632.6438,
+      "predicted_y_px": 1739.907678906639,
+      "sample_rows": [
+        {
+          "y_px": 1738,
+          "x_min_px": 1410,
+          "x_max_px": 1640,
+          "dark_count": 12
+        },
+        {
+          "y_px": 1739,
+          "x_min_px": 1411,
+          "x_max_px": 1640,
+          "dark_count": 11
+        },
+        {
+          "y_px": 1740,
+          "x_min_px": 1411,
+          "x_max_px": 1640,
+          "dark_count": 13
+        },
+        {
+          "y_px": 1741,
+          "x_min_px": 1411,
+          "x_max_px": 1640,
+          "dark_count": 14
+        },
+        {
+          "y_px": 1742,
+          "x_min_px": 1412,
+          "x_max_px": 1640,
+          "dark_count": 11
+        }
+      ]
+    },
+    {
+      "wbl_in": 237.58369,
+      "nasa_le_fs_in": 542.9834,
+      "nasa_te_fs_in": 634.28076,
+      "predicted_y_px": 1821.1357444418695,
+      "sample_rows": [
+        {
+          "y_px": 1819,
+          "x_min_px": 1441,
+          "x_max_px": 1645,
+          "dark_count": 10
+        },
+        {
+          "y_px": 1820,
+          "x_min_px": 1441,
+          "x_max_px": 1645,
+          "dark_count": 11
+        },
+        {
+          "y_px": 1821,
+          "x_min_px": 1442,
+          "x_max_px": 1645,
+          "dark_count": 10
+        },
+        {
+          "y_px": 1822,
+          "x_min_px": 1442,
+          "x_max_px": 1645,
+          "dark_count": 11
+        },
+        {
+          "y_px": 1823,
+          "x_min_px": 1442,
+          "x_max_px": 1645,
+          "dark_count": 13
+        }
+      ]
+    },
+    {
+      "wbl_in": 274.36816,
+      "nasa_le_fs_in": 556.38062,
+      "nasa_te_fs_in": 635.91772,
+      "predicted_y_px": 1902.363743730666,
+      "sample_rows": [
+        {
+          "y_px": 1900,
+          "x_min_px": 1471,
+          "x_max_px": 1649,
+          "dark_count": 18
+        },
+        {
+          "y_px": 1901,
+          "x_min_px": 1472,
+          "x_max_px": 1649,
+          "dark_count": 22
+        },
+        {
+          "y_px": 1902,
+          "x_min_px": 1472,
+          "x_max_px": 1649,
+          "dark_count": 25
+        },
+        {
+          "y_px": 1903,
+          "x_min_px": 1473,
+          "x_max_px": 1649,
+          "dark_count": 12
+        },
+        {
+          "y_px": 1904,
+          "x_min_px": 1473,
+          "x_max_px": 1649,
+          "dark_count": 12
+        }
+      ]
+    },
+    {
+      "wbl_in": 311.15283,
+      "nasa_le_fs_in": 569.77783,
+      "nasa_te_fs_in": 637.55469,
+      "predicted_y_px": 1983.5921846623582,
+      "sample_rows": [
+        {
+          "y_px": 1982,
+          "x_min_px": 1502,
+          "x_max_px": 1653,
+          "dark_count": 11
+        },
+        {
+          "y_px": 1983,
+          "x_min_px": 1502,
+          "x_max_px": 1653,
+          "dark_count": 13
+        },
+        {
+          "y_px": 1984,
+          "x_min_px": 1503,
+          "x_max_px": 1653,
+          "dark_count": 10
+        },
+        {
+          "y_px": 1985,
+          "x_min_px": 1503,
+          "x_max_px": 1653,
+          "dark_count": 11
+        },
+        {
+          "y_px": 1986,
+          "x_min_px": 1504,
+          "x_max_px": 1653,
+          "dark_count": 11
+        }
+      ]
+    },
+    {
+      "wbl_in": 347.93726,
+      "nasa_le_fs_in": 583.1748,
+      "nasa_te_fs_in": 639.19165,
+      "predicted_y_px": 2064.8200956225755,
+      "sample_rows": [
+        {
+          "y_px": 2063,
+          "x_min_px": 1532,
+          "x_max_px": 1656,
+          "dark_count": 11
+        },
+        {
+          "y_px": 2064,
+          "x_min_px": 1532,
+          "x_max_px": 1656,
+          "dark_count": 13
+        },
+        {
+          "y_px": 2065,
+          "x_min_px": 1533,
+          "x_max_px": 1656,
+          "dark_count": 11
+        },
+        {
+          "y_px": 2066,
+          "x_min_px": 1533,
+          "x_max_px": 1656,
+          "dark_count": 13
+        },
+        {
+          "y_px": 2067,
+          "x_min_px": 1533,
+          "x_max_px": 1656,
+          "dark_count": 14
+        }
+      ]
+    },
+    {
+      "wbl_in": 384.69995,
+      "nasa_le_fs_in": 596.56421,
+      "nasa_te_fs_in": 640.82764,
+      "predicted_y_px": 2146.0,
+      "sample_rows": [
+        {
+          "y_px": 2144,
+          "x_min_px": 1649,
+          "x_max_px": 1659,
+          "dark_count": 8
+        },
+        {
+          "y_px": 2145,
+          "x_min_px": 1652,
+          "x_max_px": 1659,
+          "dark_count": 8
+        },
+        {
+          "y_px": 2146,
+          "x_min_px": 1655,
+          "x_max_px": 1659,
+          "dark_count": 5
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Only the lower, visibly extended wing half is compared to the NASA/Grumman 20-degree wing dataset.",
+    "Upper swept wing half is excluded.",
+    "Raster x extrema are candidates until LE/TE continuity and affine FS fit are checked.",
+    "No CAD/master change."
+  ],
+  "production_release": false
+}

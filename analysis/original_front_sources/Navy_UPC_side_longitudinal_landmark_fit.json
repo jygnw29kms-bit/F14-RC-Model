@@ -5,9 +5,51 @@
     "analysis/independent_reviews/crank_localization_20261017/UPC_probe_radome_transition_screen.json": "b79b80f5844324a64bf88032e73908c0c65a890bf082da62eca4416a71a33427"
   },
   "landmarks": [
-    {"name":"FS93_radome_flare","FS_in_interval":[93.0,93.0],"navy_x_interval_px":[127.42243550051589,127.42243550051589],"upc_x_interval_px":[440.75,441.25]},
-    {"name":"canopy_center_bow","FS_in_interval":[298.6905329880045,301.99274127589985],"navy_x_interval_px":[252.0,254.0],"upc_x_interval_px":[909.0,910.0]},
-    {"name":"aft_nozzle_endpoint","FS_in_interval":[822.0905466194113,822.0905466194113],"navy_x_interval_px":[569.0,569.0],"upc_x_interval_px":[2087.0,2087.0]}
+    {
+      "name": "FS93_radome_flare",
+      "FS_in_interval": [
+        93.0,
+        93.0
+      ],
+      "navy_x_interval_px": [
+        127.42243550051589,
+        127.42243550051589
+      ],
+      "upc_x_interval_px": [
+        440.75,
+        441.25
+      ]
+    },
+    {
+      "name": "canopy_center_bow",
+      "FS_in_interval": [
+        298.6905329880045,
+        301.99274127589985
+      ],
+      "navy_x_interval_px": [
+        252.0,
+        254.0
+      ],
+      "upc_x_interval_px": [
+        909.0,
+        910.0
+      ]
+    },
+    {
+      "name": "aft_nozzle_endpoint",
+      "FS_in_interval": [
+        822.0905466194113,
+        822.0905466194113
+      ],
+      "navy_x_interval_px": [
+        569.0,
+        569.0
+      ],
+      "upc_x_interval_px": [
+        2087.0,
+        2087.0
+      ]
+    }
   ],
   "nominal_fit": {
     "slope_px_per_FS_in": 2.257457087007431,
@@ -15,19 +57,62 @@
     "FS0_x_px": 231.23800100452218,
     "rms_px": 0.18482695859015552,
     "max_abs_px": 0.2536417285381276,
-    "residuals_px": {"FS93_radome_flare":-0.1815100962132874,"canopy_center_bow":0.2536417285381276,"aft_nozzle_endpoint":-0.07213163232518127}
+    "residuals_px": {
+      "FS93_radome_flare": -0.1815100962132874,
+      "canopy_center_bow": 0.2536417285381276,
+      "aft_nozzle_endpoint": -0.07213163232518127
+    }
   },
   "pair_holdout_tests": [
-    {"anchors":["FS93_radome_flare","canopy_center_bow"],"held_out":"aft_nozzle_endpoint","slope_px_per_in":2.259555805966009,"scale_in_per_px":0.4425648604737507,"held_out_residual_px":-1.4207776888215449},
-    {"anchors":["FS93_radome_flare","aft_nozzle_endpoint"],"held_out":"canopy_center_bow","slope_px_per_in":2.2576071074190183,"scale_in_per_px":0.44294686914909553,"held_out_residual_px":0.4040463470096256},
-    {"anchors":["canopy_center_bow","aft_nozzle_endpoint"],"held_out":"FS93_radome_flare","slope_px_per_in":2.2568326997687818,"scale_in_per_px":0.4430988615604748,"held_out_residual_px":-0.5646132970172175}
+    {
+      "anchors": [
+        "FS93_radome_flare",
+        "canopy_center_bow"
+      ],
+      "held_out": "aft_nozzle_endpoint",
+      "slope_px_per_in": 2.259555805966009,
+      "scale_in_per_px": 0.4425648604737507,
+      "held_out_residual_px": -1.4207776888215449
+    },
+    {
+      "anchors": [
+        "FS93_radome_flare",
+        "aft_nozzle_endpoint"
+      ],
+      "held_out": "canopy_center_bow",
+      "slope_px_per_in": 2.2576071074190183,
+      "scale_in_per_px": 0.44294686914909553,
+      "held_out_residual_px": 0.4040463470096256
+    },
+    {
+      "anchors": [
+        "canopy_center_bow",
+        "aft_nozzle_endpoint"
+      ],
+      "held_out": "FS93_radome_flare",
+      "slope_px_per_in": 2.2568326997687818,
+      "scale_in_per_px": 0.4430988615604748,
+      "held_out_residual_px": -0.5646132970172175
+    }
   ],
   "interval_sensitivity": {
     "case_count": 8,
-    "scale_in_per_px_range": [0.44261676166951575,0.4433418319353418],
-    "FS0_x_px_range": [229.00162104528195,233.4834745826278],
-    "rms_px_range": [1.2107406520430313,2.199416691163405],
-    "max_abs_px_range": [1.6625377605769245,3.0164451138953154]
+    "scale_in_per_px_range": [
+      0.44261676166951575,
+      0.4433418319353418
+    ],
+    "FS0_x_px_range": [
+      229.00162104528195,
+      233.4834745826278
+    ],
+    "rms_px_range": [
+      1.2107406520430313,
+      2.199416691163405
+    ],
+    "max_abs_px_range": [
+      1.6625377605769245,
+      3.0164451138953154
+    ]
   },
   "limits": [
     "Navy Figure4-7 is a low-resolution training schematic; its ruler gives source-traceable FS but landmark pixels are schematic, not manufacturing dimensions.",

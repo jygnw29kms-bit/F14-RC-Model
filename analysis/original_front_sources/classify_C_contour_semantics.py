@@ -8,6 +8,7 @@ tips=case(j['tips_shoulders'])['segments_pixel'];upper=case(j['outer_upper'])['s
 classes=[('tip_left',tips[0],'lokales oberes/aesseres Fragment'),('tip_right',tips[1],'lokales oberes/aesseres Fragment'),('shoulder_left',tips[2],'lokales Schulterfragment'),('shoulder_right',tips[3],'lokales Schulterfragment'),('outer_inlet_upper_left',upper[0],'aeussere obere Einlaufseite'),('outer_inlet_upper_right',upper[1],'aeussere obere Einlaufseite'),('outer_inlet_lower_left',lower[0],'aeussere untere Einlaufseite'),('inner_inlet_lower_left',lower[1],'innere untere Einlaufseite'),('inner_inlet_lower_right',lower[2],'innere untere Einlaufseite'),('outer_inlet_lower_right',lower[3],'aeussere untere Einlaufseite')]
 fragment_classes=[{'class':n,'points':len(s),'role':r,'station_skin_semantics_verified':False} for n,s,r in classes]
 local=[{'side':r['side'],'gap_pixel':r['gap_pixel'],'gap_candidate_mm':r['gap_pixel']*scale,'meaning':'nur lokale Rasterkontinuitaet obere->untere aeussere Einlaufseite','skin_continuity_verified':False} for r in joins]
+# Engste sichtbare Endpunkte direkt an der horizontalen Achsenueberdeckung.
 outer_pairs=[('links',corners[0][-1],corners[2][0]),('rechts',corners[1][0],corners[3][0])]
 refined_outer=[]
 for side,a,b in outer_pairs:

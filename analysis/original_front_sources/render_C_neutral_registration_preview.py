@@ -2,7 +2,8 @@ import json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];SRC=ROOT/'analysis'/'original_front_sources'
 frame=json.loads((SRC/'front_shared_frame_candidate.json').read_text(encoding='utf-8'));sens=json.loads((SRC/'C_axis_closure_sensitivity.json').read_text(encoding='utf-8'));pix=json.loads((SRC/'front_sections_pixel_candidates.json').read_text(encoding='utf-8'));reg=json.loads((SRC/'C_side_projection_registration_screen.json').read_text(encoding='utf-8'))
-f=frame['profiles'][2];p=pix['profiles'][2];case=next(c for c in sens['cases'] if c['threshold']==128 and c['offset_pixel']==0);scale=float(f['isotropic_mm_per_section_pixel']);axis=p['source_section_axis_pixel'];y=[(x-axis[0])*scale for x,q in case['points_pixel']];z=[float(f['axis_Z_candidate_mm'])+(axis[1]-q)*scale for x,q in case['points_pixel']]
+f=frame['profiles'][2];p=pix['profiles'][2];case=next(c for c in sens['cases'] if c['threshold']==128 and c['offset_pixel']==0);scale=float(f['isotropic_mm_per_section_pixel']);axis=p['source_section_axis_pixel']
+y=[(x-axis[0])*scale for x,q in case['points_pixel']];z=[float(f['axis_Z_candidate_mm'])+(axis[1]-q)*scale for x,q in case['points_pixel']]
 # Nur die sichtbare SVG-Vorschau wird ausgedünnt; Analyse und native CAD-Geometrie behalten alle Punkte.
 step=12;idx=list(range(0,len(y),step));idx += [] if idx[-1]==len(y)-1 else [len(y)-1];yd=[y[i] for i in idx];zd=[z[i] for i in idx];yd.append(yd[0]);zd.append(zd[0])
 target=reg['interpolated_side_envelope_at_C'];dz=float(target['center_Z_mm'])-(min(z)+max(z))/2;ztd=[v+dz for v in zd];W,H=1200,700;ml,mr,mt,mb=90,40,70,80;ymin,ymax=min(y)-10,max(y)+10;zmin=min(min(z),float(target['bottom_Z_mm']))-10;zmax=max(max(z)+dz,float(target['top_Z_mm']))+10

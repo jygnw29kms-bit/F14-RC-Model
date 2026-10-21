@@ -7,18 +7,23 @@ ROOT=Path(__file__).resolve().parents[2]
 SRC=ROOT/'analysis'/'independent_reviews'/'crank_localization_20261017'/'Navy_F14_station_diagram.jpg'
 OUT=ROOT/'analysis'/'original_front_sources'/'Navy_F14_station_ruler_calibration.json'
 a=np.array(Image.open(SRC).convert('L'))
+# Bottom horizontal FS ruler: isolate vertical tick zone.
 x0,x1=60,600; y0,y1=630,680
 c=a[y0:y1+1,x0:x1+1]<180
 counts=c.sum(axis=0)
+# Major ticks are the longest vertical strokes. Retain columns with high count, group contiguous pixels.
 sel=np.where(counts>=9)[0]+x0
 groups=[]
 for x in sel.tolist():
     if not groups or x>groups[-1][-1]+1: groups.append([x])
     else: groups[-1].append(x)
 centers=[sum(g)/len(g) for g in groups]
+# Expected 18 major positions for FS 0..850 by 50; fit only if count plausibly matches.
+# If minor ticks are included, select near-uniform sequence by spacing around 30 px.
 best=None
 for start in range(len(centers)):
-    seq=[centers[start]]; last=centers[start]
+    seq=[centers[start]]
+    last=centers[start]
     for q in centers[start+1:]:
         if 25<=q-last<=36:
             seq.append(q); last=q
@@ -29,7 +34,8 @@ for start in range(len(centers)):
         if best is None or score>best[0]: best=(score,seq)
 major=best[1] if best else []
 if len(major)>=2:
-    fs=np.arange(len(major),dtype=float)*50.0; x=np.array(major,float)
+    fs=np.arange(len(major),dtype=float)*50.0
+    x=np.array(major,float)
     A=np.vstack([fs,np.ones_like(fs)]).T
     px_per_in,fs0_x=np.linalg.lstsq(A,x,rcond=None)[0]
     res=x-(px_per_in*fs+fs0_x)

@@ -2,16 +2,82 @@
   "status": "ABC_GEMEINSAMER_RAHMEN_NUMERISCH_GEPRUEFT_KEINE_LOFTFREIGABE",
   "input_sha256": "856b5370742863ca6981ed5baf45bdb603754326517af13774cd04151d54ae28",
   "sections": [
-    {"section":"A","X_mm":110.77487684077221,"Y_min_mm":-28.200849179940928,"Y_max_mm":28.2006218629798,"width_mm":56.40147104292073,"Z_min_mm":-37.77622158642347,"Z_max_mm":21.363881541094823,"height_mm":59.14010312751829,"axis_Z_mm":0.4372974404753616,"side_height_residual_pixels":7.195496281097789,"scale_mm_per_pixel":0.5786249914636654},
-    {"section":"B","X_mm":249.40652996496055,"Y_min_mm":-34.63080458850687,"Y_max_mm":35.47569680129179,"width_mm":70.10650138979867,"Z_min_mm":-33.32492385870429,"Z_max_mm":63.82595692384236,"height_mm":97.15088078254665,"axis_Z_mm":-1.222806350994214,"side_height_residual_pixels":2.3062610161698274,"scale_mm_per_pixel":0.5372557390589213},
-    {"section":"C","X_mm":403.32456309143583,"Y_min_mm":-115.91471384169172,"Y_max_mm":114.69877757211967,"width_mm":230.6134914138114,"Z_min_mm":-35.3472089062491,"Z_max_mm":37.12038989812396,"height_mm":72.46759880437307,"axis_Z_mm":0.6628580481307775,"side_height_residual_pixels":-17.020729890764414,"scale_mm_per_pixel":0.4580208369688409}
+    {
+      "section": "A",
+      "X_mm": 110.77487684077221,
+      "Y_min_mm": -28.200849179940928,
+      "Y_max_mm": 28.2006218629798,
+      "width_mm": 56.40147104292073,
+      "Z_min_mm": -37.77622158642347,
+      "Z_max_mm": 21.363881541094823,
+      "height_mm": 59.14010312751829,
+      "axis_Z_mm": 0.4372974404753616,
+      "side_height_residual_pixels": 7.195496281097789,
+      "scale_mm_per_pixel": 0.5786249914636654
+    },
+    {
+      "section": "B",
+      "X_mm": 249.40652996496055,
+      "Y_min_mm": -34.63080458850687,
+      "Y_max_mm": 35.47569680129179,
+      "width_mm": 70.10650138979867,
+      "Z_min_mm": -33.32492385870429,
+      "Z_max_mm": 63.82595692384236,
+      "height_mm": 97.15088078254665,
+      "axis_Z_mm": -1.222806350994214,
+      "side_height_residual_pixels": 2.3062610161698274,
+      "scale_mm_per_pixel": 0.5372557390589213
+    },
+    {
+      "section": "C",
+      "X_mm": 403.32456309143583,
+      "Y_min_mm": -115.91471384169172,
+      "Y_max_mm": 114.69877757211967,
+      "width_mm": 230.6134914138114,
+      "Z_min_mm": -35.3472089062491,
+      "Z_max_mm": 37.12038989812396,
+      "height_mm": 72.46759880437307,
+      "axis_Z_mm": 0.6628580481307775,
+      "side_height_residual_pixels": -17.020729890764414,
+      "scale_mm_per_pixel": 0.4580208369688409
+    }
   ],
   "pairwise": [
-    {"from":"A","to":"B","dx_mm":138.63165312418835,"width_change_mm":13.705030346877933,"height_change_mm":38.01077765502836,"axis_Z_change_mm":-1.6601037914695755,"width_slope_per_x":0.0988593155893536,"height_slope_per_x":0.2741854172436199,"axis_Z_slope_per_x":-0.011974926029212313},
-    {"from":"B","to":"C","dx_mm":153.91803312647528,"width_change_mm":160.50699002401274,"height_change_mm":-24.683281978173582,"axis_Z_change_mm":1.8856643991249915,"width_slope_per_x":1.042808219178082,"height_slope_per_x":-0.16036640721552878,"axis_Z_slope_per_x":0.012251094695158499}
+    {
+      "from": "A",
+      "to": "B",
+      "dx_mm": 138.63165312418835,
+      "width_change_mm": 13.705030346877933,
+      "height_change_mm": 38.01077765502836,
+      "axis_Z_change_mm": -1.6601037914695755,
+      "width_slope_per_x": 0.0988593155893536,
+      "height_slope_per_x": 0.2741854172436199,
+      "axis_Z_slope_per_x": -0.011974926029212313
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "dx_mm": 153.91803312647528,
+      "width_change_mm": 160.50699002401274,
+      "height_change_mm": -24.683281978173582,
+      "axis_Z_change_mm": 1.8856643991249915,
+      "width_slope_per_x": 1.042808219178082,
+      "height_slope_per_x": -0.16036640721552878,
+      "axis_Z_slope_per_x": 0.012251094695158499
+    }
   ],
-  "flags": {"X_monotonic":true,"width_monotonic":true,"height_monotonic":false,"C_side_height_residual_large":true},
-  "limits": ["Historischer gemeinsamer Rahmen bleibt Kandidat, nicht verifiziert.","Sektion C enthaelt im gemeinsamen Rahmen einen grossen Seitenhoehen-Residualwert.","Keine Interpolation oder Loftfreigabe allein aus monotonen Spannweiten ableiten.","Master bleibt unveraendert."],
+  "flags": {
+    "X_monotonic": true,
+    "width_monotonic": true,
+    "height_monotonic": false,
+    "C_side_height_residual_large": true
+  },
+  "limits": [
+    "Historischer gemeinsamer Rahmen bleibt Kandidat, nicht verifiziert.",
+    "Sektion C enthaelt im gemeinsamen Rahmen einen grossen Seitenhoehen-Residualwert.",
+    "Keine Interpolation oder Loftfreigabe allein aus monotonen Spannweiten ableiten.",
+    "Master bleibt unveraendert."
+  ],
   "next_step": "C-Registrierung gegen neu verifizierte C-Rasterreferenzen und neutralen Schliessungskandidaten pruefen, bevor A-B-C geloftet wird.",
   "master_change_allowed": false,
   "production_release": false
