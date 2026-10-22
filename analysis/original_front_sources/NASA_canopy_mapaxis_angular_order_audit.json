@@ -1,0 +1,63 @@
+{
+  "status": "CANOPY_HALBSEKTIONEN_MAPAXIS_WINKELORDNUNG_PASS",
+  "input_sha256": "f6b6dc44a18d533f9fafd621e441ac110c7f0dfb4d3c7e557318e48998f2e395",
+  "mapaxis_definition": "ZMAPAXIS LINE93/131.45->352/146, Sheet8 PDF27; YMAPAXIS=0.",
+  "rows": [
+    {
+      "x_source": 210,
+      "zmap_source": 138.0227799227799,
+      "minimum_angular_step_radians": 0.0007603685326964538,
+      "theta_range": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "strict_sampled_angular_order": true
+    },
+    {
+      "x_source": 220,
+      "zmap_source": 138.58455598455598,
+      "minimum_angular_step_radians": 0.0035488594077852653,
+      "theta_range": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "strict_sampled_angular_order": true
+    },
+    {
+      "x_source": 250,
+      "zmap_source": 140.26988416988416,
+      "minimum_angular_step_radians": 0.004257211497614488,
+      "theta_range": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "strict_sampled_angular_order": true
+    },
+    {
+      "x_source": 300,
+      "zmap_source": 143.07876447876447,
+      "minimum_angular_step_radians": 0.003404176170860529,
+      "theta_range": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "strict_sampled_angular_order": true
+    },
+    {
+      "x_source": 340,
+      "zmap_source": 145.32586872586873,
+      "minimum_angular_step_radians": 0.002727227749002914,
+      "theta_range": [
+        -1.5707963267948966,
+        1.5707963267948968
+      ],
+      "strict_sampled_angular_order": true
+    }
+  ],
+  "limits": [
+    "Strenge Winkelordnung der abgetasteten Punkte, kein analytischer Nachweis fuer jeden Zwischenpunkt.",
+    "Mapaxis ist rechnerische Radialachse, keine automatische Flugzeug-Wasserlinie oder UPC-Registrierung.",
+    "CSCALC ist noch nicht ausgefuehrt; keine CAD-/Produktionsfreigabe."
+  ],
+  "production_release": false
+}
