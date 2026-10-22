@@ -1,0 +1,161 @@
+{
+  "status": "ABCDEF_X_REGISTERED_LOCAL_Z_NATIVE_STUDY_NO_LOFT",
+  "inputs": {
+    "analysis/original_front_sources/ABCDEF_shared_frame_candidate.json": "88d48b48e1b479ef391080caef5876077c7eee682dded99b1dbe3e11b7a65ee2",
+    "analysis/original_front_sources/ABCDEF_FS_from_Navy_UPC_side_registration.json": "f5350bb3d4c4c744e19b39438b2eaaf5642d55c5ff3841400365ab57cc42cb82"
+  },
+  "output_sha256": "9f25e85605ba1f049d1cd938edce129fd279fd7717ed188ab1cef3d7a93bbc96",
+  "sections": [
+    {
+      "section": "A",
+      "X_nominal_mm": 104.3168692633437,
+      "X_range_mm": [
+        103.0689219987663,
+        105.56065791850202
+      ],
+      "FS_nominal_in": 182.17932086614414,
+      "FS_range_in": [
+        181.11246475439845,
+        183.2426218293663
+      ],
+      "source_axis_Z_removed_mm": 0.4372974404753616,
+      "local_Y_range_mm": [
+        -28.200849179940928,
+        28.2006218629798
+      ],
+      "local_Z_range_mm": [
+        -38.21351902689883,
+        20.92658410061946
+      ],
+      "loop_count": 1
+    },
+    {
+      "section": "B",
+      "X_nominal_mm": 240.59514469334107,
+      "X_range_mm": [
+        239.45964887447218,
+        241.72832246742436
+      ],
+      "FS_nominal_in": 298.68208918615795,
+      "FS_range_in": [
+        297.71136655339336,
+        299.65083014844896
+      ],
+      "source_axis_Z_removed_mm": -1.222806350994214,
+      "local_Y_range_mm": [
+        -34.63080458850687,
+        35.47569680129179
+      ],
+      "local_Z_range_mm": [
+        -32.102117507710076,
+        65.04876327483657
+      ],
+      "loop_count": 1
+    },
+    {
+      "section": "C",
+      "X_nominal_mm": 391.90030220497306,
+      "X_range_mm": [
+        390.8896574208832,
+        392.91067246090455
+      ],
+      "FS_nominal_in": 428.0311703627512,
+      "FS_range_in": [
+        427.16718147851316,
+        428.8949245559475
+      ],
+      "source_axis_Z_removed_mm": 0.6628580481307775,
+      "local_Y_range_mm": [
+        -115.91471384169172,
+        114.69877757211967
+      ],
+      "local_Z_range_mm": [
+        -36.01006695437988,
+        36.45753184999318
+      ],
+      "loop_count": 3
+    },
+    {
+      "section": "D",
+      "X_nominal_mm": 580.5135807468706,
+      "X_range_mm": [
+        579.6585721842175,
+        581.3708621788046
+      ],
+      "FS_nominal_in": 589.2745455280935,
+      "FS_range_in": [
+        588.5436083029775,
+        590.0074258036512
+      ],
+      "source_axis_Z_removed_mm": -4.201754746235031,
+      "local_Y_range_mm": [
+        -106.71009865680074,
+        105.04456343268645
+      ],
+      "local_Z_range_mm": [
+        -45.68510340715849,
+        25.552592162830837
+      ],
+      "loop_count": 1
+    },
+    {
+      "section": "E",
+      "X_nominal_mm": 633.3667522064131,
+      "X_range_mm": [
+        632.5553559915255,
+        634.1811351217327
+      ],
+      "FS_nominal_in": 634.4581286788213,
+      "FS_range_in": [
+        633.7644751603824,
+        635.1543354939419
+      ],
+      "source_axis_Z_removed_mm": 0.0,
+      "local_Y_range_mm": [
+        -102.6641307902921,
+        102.27692835602556
+      ],
+      "local_Z_range_mm": [
+        -49.52379457299363,
+        18.879307628984122
+      ],
+      "loop_count": 1
+    },
+    {
+      "section": "F",
+      "X_nominal_mm": 736.4822533872858,
+      "X_range_mm": [
+        735.7516370752573,
+        737.2178290965887
+      ],
+      "FS_nominal_in": 722.6104134532804,
+      "FS_range_in": [
+        721.985817767266,
+        723.2392488723694
+      ],
+      "source_axis_Z_removed_mm": 2.5290752165762034,
+      "local_Y_range_mm": [
+        -104.87308007547925,
+        104.40920175192173
+      ],
+      "local_Z_range_mm": [
+        -42.269862565093426,
+        25.01906006970085
+      ],
+      "loop_count": 1
+    }
+  ],
+  "gates": {
+    "side_X_engineering_candidate_used": true,
+    "common_aircraft_Z_registered": false,
+    "loft_created": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "limits": [
+    "A-F verwenden die neue Navy/UPC-Seiten-X-Registrierung nur longitudinal.",
+    "Jede Sektion wurde um ihre bisherige candidate axis_Z auf lokales Z=0 rezentriert.",
+    "Das gemeinsame lokale Z=0 ist nur eine Darstellungsachse und ausdrücklich keine Aircraft-Waterline.",
+    "Keine Flaechenverbindung, kein Loft, keine Master-, Druck- oder Flugfreigabe."
+  ]
+}

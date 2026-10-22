@@ -24,6 +24,12 @@ Sobald ein neuer **sichtbarer und sinnvoll prüfbarer Entwicklungsstand** verfü
 
 *Entwicklungsstand / Referenzstudie: Drei homologe Seitenansichtslandmarken – FS93/Radomaufweitung, mittlerer Canopy-Bow und hinterster Nozzle-Endpunkt – stützen eine affine UPC-Seitenansichtsregistrierung auf Aircraft-Fuselage-Station. Nominaler Fit-RMS 0,185 Pixel; A-F können damit als Engineering-X-/FS-Kandidaten geführt werden. Die Z-/Waterline-Registrierung bleibt offen; keine Master-, Druck-, Produktions- oder Flugfreigabe.*
 
+### A–F X-registrierte FreeCAD-Studie mit lokalem Z – 22.10.2026
+
+![A–F X registriert, Z lokal](docs/images/f14_ABCDEF_X_registered_local_Z_20261022.svg)
+
+*Entwicklungsstand / native FreeCAD-Studie: Die sechs Frontsektionen A–F stehen erstmals gemeinsam an den neuen Navy/UPC-basierten longitudinalen Engineering-X-Positionen. Jede Sektion wurde nur um ihre bisherige Kandidaten-Achse auf lokales Z=0 rezentriert; dieses lokale Z=0 ist ausdrücklich keine gemeinsame Aircraft-Waterline. Es wurde kein Loft erzeugt und der Master blieb unverändert. Keine Druck-, Produktions- oder Flugfreigabe.*
+
 ## Aktueller technischer Stand
 
 Das Flugzeug ist weiterhin **unvollständig, nicht druckfertig und nicht für den Flug freigegeben**.
