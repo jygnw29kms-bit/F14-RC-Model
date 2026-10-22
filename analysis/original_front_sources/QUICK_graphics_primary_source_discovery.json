@@ -26,5 +26,18 @@
     "supplement_PDF5": "FORTRAN77-Port auf Prime; Softwarekennung LAR-12952.",
     "retrieval_limit": "PDFs liefern Nutzungsbeschreibung, bisher keinen KRVDEF/CURVES-Quellcode gefunden; keine Originalroutine ausgefuehrt.",
     "next_search_target": "Historisches COSMIC-Paket LAR-12952 oder TM81933; Verfuegbarkeit nicht behauptet."
+  },
+  "software_subset_followup": {
+    "source": "TM83234 Supplement PDF5/Introduction and Requirements and Availability",
+    "source_url": "https://ntrs.nasa.gov/api/citations/19830014778/downloads/19830014778.pdf",
+    "subset_names": [
+      "QKSUBS",
+      "CSMSET",
+      "SUBQUICK"
+    ],
+    "finding": "Text nennt QKSUBS und CSMSET als mitkompilierten QUICK-Unterprogrammsatz; derselbe Satz wird SUBQUICK genannt und bei STEIN-Aufrufen verwendet.",
+    "search_result_20261022": "Gezielte Websuche LAR-12952/TM81933 ergab historische Katalog-/Handbuchbelege, bisher kein heruntergeladenes Routinenpaket.",
+    "limit": "Historische Verfuegbarkeit ist kein heutiger Downloadnachweis. Keine Kontakte angeschrieben, keine Originalroutine ausgefuehrt.",
+    "next": "Quellcodepaket gezielt auch unter QKSUBS/SUBQUICK suchen; Canopy-Berechnung bleibt gesperrt."
   }
 }
