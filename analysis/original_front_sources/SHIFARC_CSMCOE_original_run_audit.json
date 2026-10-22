@@ -1,0 +1,82 @@
+{
+  "status": "ORIGINAL_CSMCOE_10_CANOPY_ELLIPSEN_VERGLEICH_PASS",
+  "rows": [
+    {
+      "index": 1,
+      "x_source": 210,
+      "arc": "BUP",
+      "center_error_source": 1.6728452011920094e-05,
+      "max_semiaxis_error_source": 6.3839392296927144e-06
+    },
+    {
+      "index": 2,
+      "x_source": 210,
+      "arc": "CAN",
+      "center_error_source": 7.8399062553182e-06,
+      "max_semiaxis_error_source": 2.574438599189932e-06
+    },
+    {
+      "index": 3,
+      "x_source": 220,
+      "arc": "BUP",
+      "center_error_source": 1.3750681739756265e-05,
+      "max_semiaxis_error_source": 6.097827863982275e-06
+    },
+    {
+      "index": 4,
+      "x_source": 220,
+      "arc": "CAN",
+      "center_error_source": 1.1096282416349694e-05,
+      "max_semiaxis_error_source": 7.520246281700338e-06
+    },
+    {
+      "index": 5,
+      "x_source": 250,
+      "arc": "BUP",
+      "center_error_source": 9.491545219600131e-05,
+      "max_semiaxis_error_source": 9.92665703165585e-05
+    },
+    {
+      "index": 6,
+      "x_source": 250,
+      "arc": "CAN",
+      "center_error_source": 1.4977927076415902e-05,
+      "max_semiaxis_error_source": 8.749989142131653e-06
+    },
+    {
+      "index": 7,
+      "x_source": 300,
+      "arc": "BUP",
+      "center_error_source": 0.00011391226199713073,
+      "max_semiaxis_error_source": 0.00012278271783827677
+    },
+    {
+      "index": 8,
+      "x_source": 300,
+      "arc": "CAN",
+      "center_error_source": 8.396632076711276e-06,
+      "max_semiaxis_error_source": 1.2682145396070155e-06
+    },
+    {
+      "index": 9,
+      "x_source": 340,
+      "arc": "BUP",
+      "center_error_source": 7.344345617554574e-05,
+      "max_semiaxis_error_source": 7.325014363601667e-05
+    },
+    {
+      "index": 10,
+      "x_source": 340,
+      "arc": "CAN",
+      "center_error_source": 7.917335239741228e-06,
+      "max_semiaxis_error_source": 6.9579941381903154e-06
+    }
+  ],
+  "compiler_flags": "-std=legacy -ffixed-line-length-72",
+  "limits": [
+    "Historische Singleprecision-Routine mit auf null gesetzten Laengsableitungen; hier nur Zentrum/Halbachsen verglichen.",
+    "Keine Originalroutine fuer Bogenwinkel/Radienabfrage ausgefuehrt; WBPPWVersionsgleichheit offen.",
+    "Keine CAD-/Master- oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}
