@@ -1,0 +1,12 @@
+{
+  "status": "ORIGINAL_CSCALC_RADIAL_CHECK",
+  "samples": 110,
+  "maximum_error_source": 7.753904988305749e-06,
+  "passed": true,
+  "compiler_flags": "-std=legacy -fno-automatic -ffixed-line-length-72",
+  "limits": [
+    "Ohne statische lokale Variablen waren Cachewerte ungueltig; Wiederholung mit fno-automatic.",
+    "Nur Radien, keine THELIM/CSMINT- oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}
