@@ -1,0 +1,17 @@
+{
+  "status": "FIG1_REGISTRIERUNGSBELEG_VISUELL_NICHT_GEFUNDEN",
+  "source": "NASA-CR172559 Fig1 PDF16/gedr6",
+  "render_sha256": "87dadde3c7485976969228ee98b131d34adf0f581f81e9e18300afef6d668318",
+  "visual_findings": [
+    "Perspektivische Hauptansicht, kleine Front- und Seitenansicht mit Fahrwerk.",
+    "Keine beschrifteten FS-Stationen, Wasserlinien oder numerischen Dimensionen sichtbar.",
+    "Keine Skalenleiste oder gemeinsame Achsenmarkierung zwischen Ansichten."
+  ],
+  "decision": {
+    "use_figure1_for_physical_NASA_input_scale": false,
+    "use_unlabelled_canopy_or_gear_pixels_as_FS_anchors": false,
+    "production_release": false
+  },
+  "scope": "Nur diese Figur ausgeschlossen; keine Behauptung, dass im gesamten Bericht kein weiterer Einheitenbeleg existiert.",
+  "next": "Numerische Inputkonventionen oder andere beschriftete Primaerquellen priorisieren, statt die Perspektive zwangszuregistrieren."
+}
