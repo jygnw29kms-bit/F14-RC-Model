@@ -1,0 +1,40 @@
+{
+  "status": "NADC_EMI_GLOBAL_WL145_ENGINEERING_CONVERGENCE_C_NOT_REGISTERED",
+  "inputs": {
+    "analysis/original_front_sources/NADC_WL12_1_vertical_datum_candidate.json": "617c6d18bf5456e28158e6f19a9cf7005af48eb710aabd6b6346c7e70b8feea5",
+    "analysis/original_front_sources/NASA_F14_EMI/page_182_rotated270.png": "0f0e3debfef161ed6f15f8841fe4b8620b978bb328a7d04da3d8ccc8981f5b00"
+  },
+  "NADC": {
+    "source": "NADC-81293-60 / AD-A124468 Figure 3, 1:12 model",
+    "model_WL_in": 12.1,
+    "fullscale_candidate_WL_in": 145.2,
+    "rounding_only_interval_in": [
+      144.6,
+      145.8
+    ]
+  },
+  "NASA_EMI": {
+    "source": "NASA F-14 EM analysis Aircraft Data, Figure 16",
+    "fuselage_centroid_WL_in": 145.0,
+    "bottom_WL_in": 120.0,
+    "fuselage_radius_in": 34.0,
+    "consistency_check_bottom_plus_radius_in": 154.0,
+    "note": "EMI model is a simplified electromagnetic-analysis geometry; its centroid WL is a datum clue, not OML metrology."
+  },
+  "comparison": {
+    "NADC_minus_EMI_centroid_WL_in": 0.19999999999998863,
+    "absolute_difference_in": 0.19999999999998863,
+    "absolute_difference_RC_mm": 0.23394856172971917,
+    "EMI_centroid_inside_NADC_rounding_interval": true
+  },
+  "gate": {
+    "global_WL_near_145_supported_for_cross_source_engineering_study": true,
+    "global_WL145_production_verified": false,
+    "UPC_C_local_axis_tied_to_global_WL145": false,
+    "C_absolute_Z_registered": false,
+    "ABCDEF_absolute_Z_loft_allowed": false,
+    "master_change_allowed": false,
+    "production_release": false
+  },
+  "next_step": "Find a homologous vertical landmark that ties the detached UPC C-section local axis to the global aircraft WL~145 reference. Do not translate C merely because two global-datum sources agree."
+}
