@@ -1,0 +1,104 @@
+{
+  "status": "CR172559_QUICK_GEOMETRY_3D_RAIL_REFERENCE_WITH_C_LOCALZ_COMPARISON",
+  "source": "NASA CR-172559 Table 1 F-14A Wing-Fuselage-Glove quick-geometry model",
+  "source_model_limit": "Report states fuselage-nacelle quick geometry was formulated from a 1/40 scale F-14A three-view and did not exactly represent aft-end nacelles.",
+  "coordinate_reference": {
+    "FS0_fullscale_in": 93.0,
+    "WL0_fullscale_in": 145.0,
+    "rc_scale_mm_per_fullscale_in": 1.1697428086486623
+  },
+  "rails": [
+    {
+      "feature": "CREASE",
+      "FS_range_in": [
+        352,
+        780
+      ],
+      "point_count": 6
+    },
+    {
+      "feature": "FLO",
+      "FS_range_in": [
+        352,
+        780
+      ],
+      "point_count": 10
+    },
+    {
+      "feature": "FUP",
+      "FS_range_in": [
+        352,
+        780
+      ],
+      "point_count": 7
+    },
+    {
+      "feature": "INLTLO",
+      "FS_range_in": [
+        352,
+        780
+      ],
+      "point_count": 8
+    },
+    {
+      "feature": "INLTUP",
+      "FS_range_in": [
+        352,
+        780
+      ],
+      "point_count": 8
+    },
+    {
+      "feature": "MHB",
+      "FS_range_in": [
+        352,
+        650
+      ],
+      "point_count": 7
+    },
+    {
+      "feature": "SCPCAN",
+      "FS_range_in": [
+        352,
+        780
+      ],
+      "point_count": 6
+    },
+    {
+      "feature": "SCPLO",
+      "FS_range_in": [
+        352,
+        650
+      ],
+      "point_count": 8
+    },
+    {
+      "feature": "SCPUP",
+      "FS_range_in": [
+        352,
+        650
+      ],
+      "point_count": 6
+    }
+  ],
+  "C": {
+    "FS_nominal_in": 428.0311703627512,
+    "X_mm": 391.90030220497306,
+    "segment": "INLET TO NACELLE AFT FAIRING FS425-433",
+    "UPC_profile_y_display_offset_mm": 145.0,
+    "UPC_profile_Z_registered": false
+  },
+  "output_sha256": "3edb2db04460e91344f588c798fa1b5997078235417d261afd533781336d2481",
+  "gates": {
+    "quick_geometry_reference_only": true,
+    "C_absolute_Z_registered": false,
+    "loft_allowed": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "limits": [
+    "CR-172559 rails are an engineering cross-check, not production OML.",
+    "UPC C is deliberately displayed in a separate Y lane with local Z preserved.",
+    "WL145 line is a global engineering datum candidate, not a translation instruction for UPC C."
+  ]
+}

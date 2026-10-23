@@ -1,0 +1,85 @@
+{
+  "status": "CR172559_QUICK_GEOMETRY_C_FS428_FEATURE_SCREEN_STUDY_ONLY",
+  "C_FS_in": 428.0311703627512,
+  "rc_scale_mm_per_fullscale_in": 1.1697428086486623,
+  "source_model": "NASA CR-172559 Table 1 F-14 fuselage quick-geometry model derived from 1/40 three-view drawing",
+  "source_limit": "Report explicitly states quick-geometry fuselage model was formulated from a 1/40 scale three-view and did not exactly represent aft-end nacelles.",
+  "segment": "5 INLET TO NACELLE AFT FAIRING, FS425-433",
+  "features_WL_in": {
+    "ZTCL": 186.3911775236636,
+    "ZBCL": 120.99369682093872,
+    "ZMHB": 121.39846749516929,
+    "ZCREASE": 180.1224589378192,
+    "ZFUP": 159.19482319242766,
+    "ZSCPUP": 173.7865293485802,
+    "ZSCPLO": 121.75148941162652,
+    "ZFLO": 120.99369682093872,
+    "ZINLTUP": 168.60126675750473,
+    "ZINLTLO": 121.30038409131889
+  },
+  "local_C_height_mm": 72.36729224107685,
+  "closest_feature_spans": [
+    {
+      "upper": "ZCREASE",
+      "lower": "ZBCL",
+      "span_mm": 69.16544427051839,
+      "span_in": 59.12876211688048,
+      "difference_to_local_C_mm": 3.201847970558461
+    },
+    {
+      "upper": "ZCREASE",
+      "lower": "ZFLO",
+      "span_mm": 69.16544427051839,
+      "span_in": 59.12876211688048,
+      "difference_to_local_C_mm": 3.201847970558461
+    },
+    {
+      "upper": "ZTCL",
+      "lower": "ZSCPLO",
+      "span_mm": 75.6118103223478,
+      "span_in": 64.63968811203708,
+      "difference_to_local_C_mm": 3.2445180812709395
+    },
+    {
+      "upper": "ZCREASE",
+      "lower": "ZINLTLO",
+      "span_mm": 68.80669904148711,
+      "span_in": 58.822074846500314,
+      "difference_to_local_C_mm": 3.5605931995897464
+    },
+    {
+      "upper": "ZTCL",
+      "lower": "ZMHB",
+      "span_mm": 76.02475517041903,
+      "span_in": 64.99271002849432,
+      "difference_to_local_C_mm": 3.6574629293421737
+    },
+    {
+      "upper": "ZCREASE",
+      "lower": "ZMHB",
+      "span_mm": 68.69196668518532,
+      "span_in": 58.72399144264992,
+      "difference_to_local_C_mm": 3.6753255558915328
+    },
+    {
+      "upper": "ZTCL",
+      "lower": "ZINLTLO",
+      "span_mm": 76.1394875267208,
+      "span_in": 65.09079343234471,
+      "difference_to_local_C_mm": 3.772195285643946
+    },
+    {
+      "upper": "ZCREASE",
+      "lower": "ZSCPLO",
+      "span_mm": 68.2790218371141,
+      "span_in": 58.37096952619268,
+      "difference_to_local_C_mm": 4.088270403962753
+    }
+  ],
+  "gates": {
+    "usable_as_independent_shape_scale_screen": true,
+    "usable_as_production_C_Z_anchor": false,
+    "master_change_allowed": false,
+    "production_release": false
+  }
+}
