@@ -1,0 +1,24 @@
+{
+  "status": "ABCDEF_X_LOCALZ_PLUS_CR172559_RAILS_COMBINED_NATIVE_REFERENCE_CAGE",
+  "inputs": {
+    "F14_ABCDEF_X_REGISTERED_LOCAL_Z_STUDY.FCStd": "9f25e85605ba1f049d1cd938edce129fd279fd7717ed188ab1cef3d7a93bbc96",
+    "F14_CR172559_QUICK_GEOMETRY_REFERENCE.FCStd": "3edb2db04460e91344f588c798fa1b5997078235417d261afd533781336d2481"
+  },
+  "output_sha256": "53758ee76367820cec77e2bf4b98b240cefeebd618898dc36aee7e57a875c17d",
+  "ABCDEF_objects": 20,
+  "CR172559_objects": 20,
+  "gates": {
+    "side_X_engineering_candidate_used": true,
+    "global_WL145_reference_present": true,
+    "common_aircraft_Z_registered": false,
+    "loft_created": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "limits": [
+    "A-F remain local-Z section candidates positioned only in X.",
+    "CR172559 rails are independent quick-geometry references from a 1/40 three-view model.",
+    "Objects are co-located for engineering review only; proximity is not proof of OML correspondence.",
+    "No loft or production geometry is created."
+  ]
+}
