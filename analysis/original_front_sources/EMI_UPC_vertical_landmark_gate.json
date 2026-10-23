@@ -1,0 +1,33 @@
+{
+  "status": "EMI_ANTENNA_VERTICAL_LANDMARK_TRANSFER_REJECTED_FAIL_CLOSED",
+  "basis": "NASA EMI Figure 16 gives source-traceable FS/WL antenna coordinates; UPC side X registration predicts their longitudinal positions.",
+  "candidates": [
+    {
+      "name": "TOP411",
+      "FS_in": 411.0,
+      "WL_in": 192.3,
+      "predicted_UPC_x_px": 1159.0528637645764,
+      "crop": "analysis/original_front_sources/UPC_side_FS411_vertical_landmark_crop.png",
+      "visual_review": "No uniquely homologous antenna is centered at the predicted x; nearby blade-like geometry is offset and unlabeled.",
+      "usable_as_vertical_landmark": false,
+      "crop_sha256": "ba5f7a28680c7ca525b494004ab12c245d2c056512061986d45ebdafe10730da"
+    },
+    {
+      "name": "UDATA",
+      "FS_in": 511.0,
+      "WL_in": 177.5,
+      "predicted_UPC_x_px": 1384.7985724653195,
+      "crop": "analysis/original_front_sources/UPC_side_FS511_vertical_landmark_crop.png",
+      "visual_review": "Predicted x intersects mixed wing/glove/inlet projection; nearby protrusion cannot be uniquely tied to UDATA.",
+      "usable_as_vertical_landmark": false,
+      "crop_sha256": "8880a20b968237e0b1d7e13bffa71f38c8b8beda3b83a8b683259fa99f10295b"
+    }
+  ],
+  "gate": {
+    "EMI_antenna_to_UPC_vertical_registration_allowed": false,
+    "C_absolute_Z_registered": false,
+    "master_change_allowed": false,
+    "production_release": false
+  },
+  "next_step": "Use an independently identifiable body-section or fuselage datum; do not infer UPC vertical scale/origin from these antenna candidates."
+}
