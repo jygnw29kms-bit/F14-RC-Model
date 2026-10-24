@@ -21,7 +21,22 @@
           "role": "Budgetgrenze"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [
+        "FUSELAGE_CURRENT",
+        "WING_R",
+        "WING_L",
+        "STABILATOR_L",
+        "STABILATOR_R",
+        "VTAIL_L",
+        "VTAIL_R",
+        "VENTRAL_L",
+        "VENTRAL_R",
+        "INLET_EDF_R",
+        "INLET_EDF_L"
+      ],
+      "CAD_reference_only_objects": [],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "internal printed frames / mounts",
@@ -51,7 +66,20 @@
           "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [
+        "BATTERY_TRAY_v165",
+        "STAB_HOUSING_R_1",
+        "STAB_HOUSING_R_2",
+        "STAB_HOUSING_L_1",
+        "STAB_HOUSING_L_2",
+        "STAB_CRANK_R",
+        "STAB_CRANK_L"
+      ],
+      "CAD_reference_only_objects": [
+        "BATTERY_RETENTION_HOLE_REFS"
+      ],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "carbon + metal primary structure",
@@ -76,7 +104,17 @@
           "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [
+        "STAB_SHAFT_R",
+        "STAB_SHAFT_L"
+      ],
+      "CAD_reference_only_objects": [
+        "WINGBOX_REF",
+        "PIVOT_REF_R",
+        "PIVOT_REF_L"
+      ],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "2 x 50 mm EDF incl. motors",
@@ -101,7 +139,10 @@
           "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [],
+      "CAD_reference_only_objects": [],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "2 x ESC",
@@ -121,7 +162,10 @@
           "role": "Budgetgrenze"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [],
+      "CAD_reference_only_objects": [],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "4S battery",
@@ -146,7 +190,12 @@
           "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [],
+      "CAD_reference_only_objects": [
+        "BATTERY_REFERENCE_PACK"
+      ],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "flight-control servos",
@@ -171,7 +220,13 @@
           "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [],
+      "CAD_reference_only_objects": [
+        "STAB_SERVO_ENV_R",
+        "STAB_SERVO_ENV_L"
+      ],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "wing-sweep actuator + linkage",
@@ -196,7 +251,10 @@
           "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [],
+      "CAD_reference_only_objects": [],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "receiver / BEC / wiring",
@@ -216,7 +274,10 @@
           "role": "Budgetgrenze"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [],
+      "CAD_reference_only_objects": [],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "fasteners / bearings / inserts",
@@ -236,7 +297,15 @@
           "role": "Budgetgrenze"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [
+        "STAB_BEARING_R_1",
+        "STAB_BEARING_R_2",
+        "STAB_BEARING_L_1",
+        "STAB_BEARING_L_2"
+      ],
+      "CAD_reference_only_objects": [],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "finish / paint / decals",
@@ -256,7 +325,10 @@
           "role": "Budgetgrenze"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [],
+      "CAD_reference_only_objects": [],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     },
     {
       "subsystem": "reserve",
@@ -276,7 +348,10 @@
           "role": "Budgetgrenze"
         }
       ],
-      "current_revision_mass_evidence_verified": false
+      "current_revision_mass_evidence_verified": false,
+      "CAD_geometry_candidates": [],
+      "CAD_reference_only_objects": [],
+      "CAD_mass_use_condition": "Form-/Druckteildefinition und Revision pruefen; Kandidaten sind noch keine freigegebenen physischen Teile. Referenzobjekte nicht ueber Vollvolumen wiegen."
     }
   ],
   "target_total_g": 1050,
@@ -301,5 +376,12 @@
     "Batterie v162 beschreibt Referenz202g/106x36x25mm, aber specific_battery_frozen/measured_pack_dimensions_verified/installed_power_bench_pass=false. Keine aktuelle Packannahme.",
     "Hardpoint-Material v108 bleibt Screen ohne Materialfreigabe; Kandidatendichten sind keine gewogenen Massen.",
     "Schwenkaudit v192 prueft Geometrie/Kinematik, nicht Aktuator-/Gestängemasse."
+  ],
+  "CAD_object_roles_input_sha256": "09ca05ec7c44e965d11fa12718c09d71d2fe590952d73df688c710b9cf420aa1",
+  "CAD_mapping_limits": [
+    "INLET_EDF_R/L sind Kanal/Adapterkandidaten, keine gekauften EDF-Motoren; keine EDF-Hardwaremasse daraus ableiten.",
+    "Fluegel/Rumpf/Leitwerksobjekte koennen massive Referenzhuellen sein; Schalenaufbau/Slicerbeleg erforderlich.",
+    "Schwenkaktuator, ESC, Kabel und Finish ohne verifizierten vollstaendigen physischen CAD-Teilesatz; leere Zuordnung bedeutet fehlend, nicht0g.",
+    "Werkstoff von Kurbeln/Lagern/Schäften nicht allein aus dem Namen festlegen; vor Massenansatz durch Baugruppenbeleg bestaetigen."
   ]
 }
