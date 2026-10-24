@@ -13,7 +13,15 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "internal printed frames / mounts",
@@ -25,7 +33,25 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        },
+        {
+          "file": "analysis/mass_rollup_retention_corrected_v166.json",
+          "sha256": "079a8be9447801794483180c5a51bb0f381ebd5794085aa4402040a30e28790d",
+          "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
+        },
+        {
+          "file": "analysis/center_wingbox_material_screen_v108.json",
+          "sha256": "7abdaec3ec87b71d0e6354d4b67f4a615f2a5df82a8a8043964b23db5a59cea6",
+          "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "carbon + metal primary structure",
@@ -37,7 +63,20 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        },
+        {
+          "file": "analysis/material_aware_mass_rollup_v163.json",
+          "sha256": "c2ac7942d5a6f96a08f05588402b8c8169903fd44696631fdb3fdaea9a43ace3",
+          "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "2 x 50 mm EDF incl. motors",
@@ -49,7 +88,20 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        },
+        {
+          "file": "analysis/current_mass_rollup_v159.json",
+          "sha256": "38a83e02d94d4d6c5e7b5e9d3536814880c20f5a48714a6d63b450cddd8a5af8",
+          "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "2 x ESC",
@@ -61,7 +113,15 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "4S battery",
@@ -73,7 +133,20 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        },
+        {
+          "file": "analysis/battery_hardware_acceptance_v162.json",
+          "sha256": "2a73ce76b396a79f4bb1f83024f3e0007f47467c945afd560ed0e06032bc609c",
+          "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "flight-control servos",
@@ -85,7 +158,20 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        },
+        {
+          "file": "analysis/current_mass_rollup_v159.json",
+          "sha256": "38a83e02d94d4d6c5e7b5e9d3536814880c20f5a48714a6d63b450cddd8a5af8",
+          "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "wing-sweep actuator + linkage",
@@ -97,7 +183,20 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        },
+        {
+          "file": "migration/freecad/freecad_v192_sweep_audit.json",
+          "sha256": "cb85c8fdb4d33b413f376f468cf1ad796148660ed49fcbedd73350eb6d5db52c",
+          "role": "Historischer Kandidaten-/Geometrie-/Funktionsbeleg, keine aktuelle Messmasse"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "receiver / BEC / wiring",
@@ -109,7 +208,15 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "fasteners / bearings / inserts",
@@ -121,7 +228,15 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "finish / paint / decals",
@@ -133,7 +248,15 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": false
+      "is_reserve": false,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     },
     {
       "subsystem": "reserve",
@@ -145,7 +268,15 @@
       "current_geometry_revision": null,
       "evidence_file": null,
       "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
-      "is_reserve": true
+      "is_reserve": true,
+      "historical_or_budget_evidence": [
+        {
+          "file": "docs/04_MASS_BUDGET.md",
+          "sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+          "role": "Budgetgrenze"
+        }
+      ],
+      "current_revision_mass_evidence_verified": false
     }
   ],
   "target_total_g": 1050,
@@ -165,5 +296,10 @@
     "mass_budget_verified_for_current_complete_model": false,
     "flight_release": false,
     "production_release": false
-  }
+  },
+  "specific_evidence_limits": [
+    "Batterie v162 beschreibt Referenz202g/106x36x25mm, aber specific_battery_frozen/measured_pack_dimensions_verified/installed_power_bench_pass=false. Keine aktuelle Packannahme.",
+    "Hardpoint-Material v108 bleibt Screen ohne Materialfreigabe; Kandidatendichten sind keine gewogenen Massen.",
+    "Schwenkaudit v192 prueft Geometrie/Kinematik, nicht Aktuator-/Gestängemasse."
+  ]
 }
