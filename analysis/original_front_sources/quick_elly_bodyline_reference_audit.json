@@ -1,0 +1,24 @@
+{
+  "status": "GETRENNTER_ELLY_BODYLINE_EVALUATOR_ORIGINALVERGLEICH_PASS",
+  "sample_count": 101,
+  "coefficients": {
+    "A": 7.287617802667694e-15,
+    "B": 401.1428571428572,
+    "C": -9.551020408163259
+  },
+  "max_error_vs_executed_historical_routine": {
+    "value": 2.457373113884387e-07,
+    "first_derivative": 1.2539438293268645e-08,
+    "second_derivative": 4.860683834595481e-10
+  },
+  "inputs_sha256": {
+    "quick_elly_bodyline_reference.py": "8902c6c7ace7b51dfbdd5f5a56c741f277efb3b5ffa8b10ad69596e4a1add924",
+    "SHIFARC_ELLY_original_run.txt": "9d55fc257a76fa88d83cd352712b967541720e7c143b233af0cc8378b548f2a7"
+  },
+  "limits": [
+    "Ein ausgefuehrter Originalvergleichsfall; keine allgemeine WBPPW-Versionsfreigabe.",
+    "Historische Parabelfallbacks und Ableitungs-Clamping bewusst nicht implementiert; entsprechende Faelle werden abgelehnt.",
+    "ELLI-Querschnitte unveraendert; keine CAD-/Master- oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

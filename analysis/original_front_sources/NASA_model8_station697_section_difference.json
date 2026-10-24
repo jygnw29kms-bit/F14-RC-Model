@@ -1,0 +1,14 @@
+{
+  "status": "MODELL8_GRENZQUERSCHNITTE_697_GETRENNT_GEPRUEFT",
+  "input_sha256": "8b83685819d3488cd26a08edb2d89f4a95796d0997eed4d51e92672de50770d3",
+  "source_crease_jump": 1.0,
+  "max_corresponding_sample_point_distance_source": 1.0,
+  "continuous_skin_across_697_verified": false,
+  "decision": "Keine kontinuierliche Haut ueber697 aus diesen Rohdaten behaupten; beide Grenzwerte getrennt erhalten.",
+  "limits": [
+    "Paarweise Abtastpunktdistanz, kein analytischer Hausdorffabstand.",
+    "REAL8-Originalvergleich prueft Implementierung, nicht Quellenstetigkeit oder Herstellerhaut.",
+    "Keine Produktionsfreigabe."
+  ],
+  "production_release": false
+}

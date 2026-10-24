@@ -1,0 +1,139 @@
+{
+  "status": "NASA_NASENKONTROLLPUNKT_BINDUNGEN_VISUELL_GEPRUEFT",
+  "source": "CR172559 Table1 Sheets6..9 PDF25..28",
+  "application_source_x_interval": [
+    93,
+    205
+  ],
+  "points": {
+    "BCL": {
+      "Y": "YBCL -> YMAPAXIS",
+      "Z": "ZBCL"
+    },
+    "MHB": {
+      "Y": "YMHB",
+      "Z": "ZMHB"
+    },
+    "TCL": {
+      "Y": "YTCL -> YMAPAXIS",
+      "Z": "ZTCL"
+    },
+    "SCPLO": {
+      "Y": "YSCPLO",
+      "Z": "ZSCPLO"
+    },
+    "SCPUP": {
+      "Y": "YSCPUP",
+      "Z": "ZSCPUP"
+    }
+  },
+  "explicit_aliases": {
+    "YTCL": "YMAPAXIS",
+    "YBCL": "YMAPAXIS"
+  },
+  "mapaxis_Y_LINE": [
+    93,
+    0,
+    780,
+    0
+  ],
+  "ZMHB_LINE": [
+    [
+      93,
+      131.45,
+      164,
+      138
+    ],
+    [
+      164,
+      138,
+      205,
+      138.5
+    ]
+  ],
+  "equal_function_definitions_within_nose": [
+    {
+      "names": [
+        "YMHB",
+        "YSCPLO",
+        "YSCPUP"
+      ],
+      "shape": "ELLY",
+      "data": [
+        93,
+        0,
+        352,
+        31,
+        164,
+        31
+      ],
+      "valid_equal_interval": [
+        93,
+        205
+      ]
+    },
+    {
+      "names": [
+        "ZTCL",
+        "ZSCPUP"
+      ],
+      "shape": "ELLX",
+      "data": [
+        93,
+        131.45,
+        205,
+        171,
+        127.5,
+        152
+      ],
+      "valid_equal_interval": [
+        93,
+        205
+      ]
+    },
+    {
+      "names": [
+        "ZBCL",
+        "ZSCPLO"
+      ],
+      "segments": [
+        {
+          "shape": "ELLX",
+          "data": [
+            93,
+            131.45,
+            176,
+            116.5,
+            129.5,
+            116.5
+          ]
+        },
+        {
+          "shape": "LINE",
+          "data": [
+            176,
+            116.5,
+            205,
+            118
+          ]
+        }
+      ],
+      "valid_equal_interval": [
+        93,
+        205
+      ]
+    }
+  ],
+  "derived_control_coordinate_relations": [
+    "BCL.Y=TCL.Y=0",
+    "SCPLO.Y=SCPUP.Y=MHB.Y",
+    "SCPLO.Z=BCL.Z",
+    "SCPUP.Z=TCL.Z"
+  ],
+  "limits": [
+    "GleichheitderInputdefinitionenfuerangegebenesIntervall, keine globaleAliasannahmeueber205hinaus.",
+    "BodylineEvaluatorsemantikteilweiseverifiziert; ELLIQuerschnittsbogennochseparatvalidieren.",
+    "QuelleneinheitenundUPCRegistrierungungeprueft; keineHerstellerhaut-oderProduktionsfreigabe."
+  ],
+  "production_release": false
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PRIMAERQUELLE_PRUEFUNG_F8_STATT_F14_AUSGESCHLOSSEN",
+  "source_url": "https://ntrs.nasa.gov/citations/19770023163",
+  "title": "F-8 oblique wing structural feasibility study",
+  "report": "NASA-CR-154841",
+  "finding": "NTRS-Titel und Abstract nennen F-8/NTF-8A und einen neu entwickelten Schraegfluegel-Pivot. Kein F-14-Pivot-/Wasserliniennachweis.",
+  "search_trap": "Treffer erschien bei F-14-Pivot/Wasserlinien-Suche mit einer Pivotstationszahl63.59. Solche Zahlen ohne Flugzeugidentitaet nicht uebernehmen.",
+  "geometry_transfer_allowed": false,
+  "limits": [
+    "NTRS-Metadaten/Abstract gelesen; PDF wegen Webgroessenlimit nicht vollstaendig ausgewertet.",
+    "Keine neue F-14-Registrierung oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

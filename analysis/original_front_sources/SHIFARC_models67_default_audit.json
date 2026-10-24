@@ -1,0 +1,2555 @@
+{
+  "status": "RADIALVERGLEICH_AUSGEFUEHRT",
+  "passed": true,
+  "precision_variant": "HISTORISCH_DEFAULT_REAL",
+  "degenerate_arcs_skipped": true,
+  "samples": 281,
+  "maximum_error_source": 0.00013840393317821054,
+  "acceptance_threshold_source": 0.0002,
+  "rows": [
+    {
+      "index": 1,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BLO",
+      "radius_source": 29.18925233644859,
+      "radius_original": 29.1892529,
+      "error_source": 5.635514099822103e-07
+    },
+    {
+      "index": 2,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BLO",
+      "radius_source": 51.146969137583014,
+      "radius_original": 51.1469765,
+      "error_source": 7.362416987177767e-06
+    },
+    {
+      "index": 3,
+      "model": 6,
+      "x_source": 433,
+      "arc": "NACLO",
+      "radius_source": 51.146969137583014,
+      "radius_original": 51.1469612,
+      "error_source": 7.93758301398384e-06
+    },
+    {
+      "index": 4,
+      "model": 6,
+      "x_source": 433,
+      "arc": "NACLO",
+      "radius_source": 79.77628371022979,
+      "radius_original": 79.7762756,
+      "error_source": 8.110229785529555e-06
+    },
+    {
+      "index": 5,
+      "model": 6,
+      "x_source": 433,
+      "arc": "NACSI",
+      "radius_source": 79.77628371022979,
+      "radius_original": 79.7762833,
+      "error_source": 4.1022978791716014e-07
+    },
+    {
+      "index": 6,
+      "model": 6,
+      "x_source": 433,
+      "arc": "NACSI",
+      "radius_source": 70.30348646383204,
+      "radius_original": 70.3034897,
+      "error_source": 3.23616795583348e-06
+    },
+    {
+      "index": 7,
+      "model": 6,
+      "x_source": 433,
+      "arc": "NACUP",
+      "radius_source": 70.30348646383204,
+      "radius_original": 70.3034973,
+      "error_source": 1.0836167959382692e-05
+    },
+    {
+      "index": 8,
+      "model": 6,
+      "x_source": 433,
+      "arc": "NACUP",
+      "radius_source": 27.93427605285198,
+      "radius_original": 27.9342804,
+      "error_source": 4.347148017558311e-06
+    },
+    {
+      "index": 9,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 27.93427605285198,
+      "radius_original": 27.9342747,
+      "error_source": 1.3528519815508844e-06
+    },
+    {
+      "index": 10,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 28.484883594194127,
+      "radius_original": 28.4848843,
+      "error_source": 7.05805874190446e-07
+    },
+    {
+      "index": 11,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 29.090843183393716,
+      "radius_original": 29.0908432,
+      "error_source": 1.6606282571274278e-08
+    },
+    {
+      "index": 12,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 29.74661008936931,
+      "radius_original": 29.7466087,
+      "error_source": 1.3893693093791626e-06
+    },
+    {
+      "index": 13,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 30.444408886714193,
+      "radius_original": 30.4444103,
+      "error_source": 1.413285808382625e-06
+    },
+    {
+      "index": 14,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 31.173831207045474,
+      "radius_original": 31.1738319,
+      "error_source": 6.929545257605696e-07
+    },
+    {
+      "index": 15,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 31.92152105273177,
+      "radius_original": 31.9215202,
+      "error_source": 8.527317696405134e-07
+    },
+    {
+      "index": 16,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 32.67104246997605,
+      "radius_original": 32.6710396,
+      "error_source": 2.8699760505901395e-06
+    },
+    {
+      "index": 17,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 33.40304234609003,
+      "radius_original": 33.403038,
+      "error_source": 4.346090030082905e-06
+    },
+    {
+      "index": 18,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 34.09581866421229,
+      "radius_original": 34.0958214,
+      "error_source": 2.7357877101508166e-06
+    },
+    {
+      "index": 19,
+      "model": 6,
+      "x_source": 433,
+      "arc": "BUP",
+      "radius_source": 34.72636752822822,
+      "radius_original": 34.726368,
+      "error_source": 4.7177178430501954e-07
+    },
+    {
+      "index": 20,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 34.72636752822822,
+      "radius_original": 34.7263603,
+      "error_source": 7.228228213307375e-06
+    },
+    {
+      "index": 21,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 35.77524067332387,
+      "radius_original": 35.775238,
+      "error_source": 2.6733238698284367e-06
+    },
+    {
+      "index": 22,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 36.620734060970406,
+      "radius_original": 36.6207314,
+      "error_source": 2.6609704093516484e-06
+    },
+    {
+      "index": 23,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 37.31420312901652,
+      "radius_original": 37.3142052,
+      "error_source": 2.070983484259159e-06
+    },
+    {
+      "index": 24,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 37.88379600383702,
+      "radius_original": 37.8838005,
+      "error_source": 4.496162979705787e-06
+    },
+    {
+      "index": 25,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 38.346707180489496,
+      "radius_original": 38.3467102,
+      "error_source": 3.0195105011898704e-06
+    },
+    {
+      "index": 26,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 38.71411360058377,
+      "radius_original": 38.7141113,
+      "error_source": 2.3005837732625878e-06
+    },
+    {
+      "index": 27,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 38.99350613974971,
+      "radius_original": 38.9935036,
+      "error_source": 2.5397497154244775e-06
+    },
+    {
+      "index": 28,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 39.189907402651194,
+      "radius_original": 39.1899109,
+      "error_source": 3.497348807002254e-06
+    },
+    {
+      "index": 29,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 39.306545557648974,
+      "radius_original": 39.3065453,
+      "error_source": 2.576489706029861e-07
+    },
+    {
+      "index": 30,
+      "model": 6,
+      "x_source": 433,
+      "arc": "CAN",
+      "radius_source": 39.34523042217211,
+      "radius_original": 39.3452301,
+      "error_source": 3.2217210588214584e-07
+    },
+    {
+      "index": 31,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BLO",
+      "radius_source": 31.672721962616805,
+      "radius_original": 31.6727219,
+      "error_source": 6.261680596253427e-08
+    },
+    {
+      "index": 32,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BLO",
+      "radius_source": 53.52017992128189,
+      "radius_original": 53.5201874,
+      "error_source": 7.47871811057621e-06
+    },
+    {
+      "index": 33,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLO",
+      "radius_source": 53.52017992128189,
+      "radius_original": 53.5201836,
+      "error_source": 3.6787181159070315e-06
+    },
+    {
+      "index": 34,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLO",
+      "radius_source": 78.19531815779318,
+      "radius_original": 78.1953278,
+      "error_source": 9.64220681964889e-06
+    },
+    {
+      "index": 35,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 78.19531815779318,
+      "radius_original": 78.1953201,
+      "error_source": 1.9422068220364963e-06
+    },
+    {
+      "index": 36,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 78.70880784050401,
+      "radius_original": 78.7088013,
+      "error_source": 6.5405040032828765e-06
+    },
+    {
+      "index": 37,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 79.028592625994,
+      "radius_original": 79.028595,
+      "error_source": 2.374006001559792e-06
+    },
+    {
+      "index": 38,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 79.23943835075359,
+      "radius_original": 79.2394333,
+      "error_source": 5.050753586033352e-06
+    },
+    {
+      "index": 39,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 79.37206789221618,
+      "radius_original": 79.3720703,
+      "error_source": 2.4077838247649197e-06
+    },
+    {
+      "index": 40,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 79.44110159581376,
+      "radius_original": 79.4410934,
+      "error_source": 8.195813762768012e-06
+    },
+    {
+      "index": 41,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 79.45402075354662,
+      "radius_original": 79.4540253,
+      "error_source": 4.54645338265891e-06
+    },
+    {
+      "index": 42,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 79.41419867907807,
+      "radius_original": 79.4141998,
+      "error_source": 1.120921936603736e-06
+    },
+    {
+      "index": 43,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 79.32196650062656,
+      "radius_original": 79.3219604,
+      "error_source": 6.100626563920741e-06
+    },
+    {
+      "index": 44,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 79.17467717242519,
+      "radius_original": 79.174675,
+      "error_source": 2.172425197954908e-06
+    },
+    {
+      "index": 45,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACLS",
+      "radius_source": 78.96581345772049,
+      "radius_original": 78.9658127,
+      "error_source": 7.577204854669617e-07
+    },
+    {
+      "index": 46,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACSI",
+      "radius_source": 78.96581345772049,
+      "radius_original": 78.9658127,
+      "error_source": 7.577204854669617e-07
+    },
+    {
+      "index": 47,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACSI",
+      "radius_source": 70.50853472094954,
+      "radius_original": 70.5085297,
+      "error_source": 5.020949544132236e-06
+    },
+    {
+      "index": 48,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACUP",
+      "radius_source": 70.50853472094954,
+      "radius_original": 70.5085449,
+      "error_source": 1.0179050462966188e-05
+    },
+    {
+      "index": 49,
+      "model": 6,
+      "x_source": 450,
+      "arc": "NACUP",
+      "radius_source": 27.212759996979823,
+      "radius_original": 27.2127552,
+      "error_source": 4.796979823140646e-06
+    },
+    {
+      "index": 50,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 27.212759996979823,
+      "radius_original": 27.2127628,
+      "error_source": 2.8030201768558527e-06
+    },
+    {
+      "index": 51,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 27.76700283211487,
+      "radius_original": 27.7670059,
+      "error_source": 3.0678851317134104e-06
+    },
+    {
+      "index": 52,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 28.349371761376013,
+      "radius_original": 28.3493748,
+      "error_source": 3.0386239870949794e-06
+    },
+    {
+      "index": 53,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 28.952457766957572,
+      "radius_original": 28.9524574,
+      "error_source": 3.669575718845408e-07
+    },
+    {
+      "index": 54,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 29.567070692061492,
+      "radius_original": 29.5670719,
+      "error_source": 1.2079385065533188e-06
+    },
+    {
+      "index": 55,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 30.18220288085026,
+      "radius_original": 30.1822071,
+      "error_source": 4.219149740691819e-06
+    },
+    {
+      "index": 56,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 30.785132256725753,
+      "radius_original": 30.7851315,
+      "error_source": 7.56725754058607e-07
+    },
+    {
+      "index": 57,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 31.361707920123624,
+      "radius_original": 31.3617058,
+      "error_source": 2.1201236251044975e-06
+    },
+    {
+      "index": 58,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 31.89684848944136,
+      "radius_original": 31.8968487,
+      "error_source": 2.1055863896890514e-07
+    },
+    {
+      "index": 59,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 32.375257466954906,
+      "radius_original": 32.3752594,
+      "error_source": 1.933045091107033e-06
+    },
+    {
+      "index": 60,
+      "model": 6,
+      "x_source": 450,
+      "arc": "BUP",
+      "radius_source": 32.78232184568367,
+      "radius_original": 32.7823219,
+      "error_source": 5.431633098851307e-08
+    },
+    {
+      "index": 61,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 32.78232184568367,
+      "radius_original": 32.7823257,
+      "error_source": 3.854316332763119e-06
+    },
+    {
+      "index": 62,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 33.63274980443967,
+      "radius_original": 33.6327553,
+      "error_source": 5.4955603303596945e-06
+    },
+    {
+      "index": 63,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 34.298423581958325,
+      "radius_original": 34.2984238,
+      "error_source": 2.180416771579985e-07
+    },
+    {
+      "index": 64,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 34.83519880811412,
+      "radius_original": 34.8352013,
+      "error_source": 2.4918858798628207e-06
+    },
+    {
+      "index": 65,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 35.27122659325181,
+      "radius_original": 35.271225,
+      "error_source": 1.593251809595131e-06
+    },
+    {
+      "index": 66,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 35.62287603070397,
+      "radius_original": 35.622879,
+      "error_source": 2.96929602683349e-06
+    },
+    {
+      "index": 67,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 35.900452306638684,
+      "radius_original": 35.9004555,
+      "error_source": 3.19336131582304e-06
+    },
+    {
+      "index": 68,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 36.11071285332276,
+      "radius_original": 36.110714,
+      "error_source": 1.1466772420476445e-06
+    },
+    {
+      "index": 69,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 36.2581205168453,
+      "radius_original": 36.2581215,
+      "error_source": 9.831546989857998e-07
+    },
+    {
+      "index": 70,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 36.34551446760623,
+      "radius_original": 36.3455162,
+      "error_source": 1.732393769771079e-06
+    },
+    {
+      "index": 71,
+      "model": 6,
+      "x_source": 450,
+      "arc": "CAN",
+      "radius_source": 36.374476313245225,
+      "radius_original": 36.3744736,
+      "error_source": 2.7132452231626303e-06
+    },
+    {
+      "index": 72,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BLO",
+      "radius_source": 35.324883177570086,
+      "radius_original": 35.3248825,
+      "error_source": 6.77570085372281e-07
+    },
+    {
+      "index": 73,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BLO",
+      "radius_source": 57.068799269168075,
+      "radius_original": 57.0688019,
+      "error_source": 2.6308319220902376e-06
+    },
+    {
+      "index": 74,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLO",
+      "radius_source": 57.068799269168075,
+      "radius_original": 57.0688057,
+      "error_source": 6.430831923864844e-06
+    },
+    {
+      "index": 75,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLO",
+      "radius_source": 76.07491364230818,
+      "radius_original": 76.0749359,
+      "error_source": 2.2257691824734138e-05
+    },
+    {
+      "index": 76,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 76.07491364230818,
+      "radius_original": 76.074913,
+      "error_source": 6.423081799766805e-07
+    },
+    {
+      "index": 77,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 77.23230424282288,
+      "radius_original": 77.2322998,
+      "error_source": 4.442822870487362e-06
+    },
+    {
+      "index": 78,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 77.97911914051275,
+      "radius_original": 77.9791107,
+      "error_source": 8.44051274384583e-06
+    },
+    {
+      "index": 79,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 78.47742536713474,
+      "radius_original": 78.4774246,
+      "error_source": 7.671347361792868e-07
+    },
+    {
+      "index": 80,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 78.79186045215407,
+      "radius_original": 78.7918549,
+      "error_source": 5.552154064503156e-06
+    },
+    {
+      "index": 81,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 78.95476036172336,
+      "radius_original": 78.9547501,
+      "error_source": 1.026172336082709e-05
+    },
+    {
+      "index": 82,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 78.98342670327023,
+      "radius_original": 78.9834137,
+      "error_source": 1.3003270225908636e-05
+    },
+    {
+      "index": 83,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 78.88631280127672,
+      "radius_original": 78.8863068,
+      "error_source": 6.0012767164607794e-06
+    },
+    {
+      "index": 84,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 78.66532756999466,
+      "radius_original": 78.6653214,
+      "error_source": 6.169994662741374e-06
+    },
+    {
+      "index": 85,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 78.31614195081592,
+      "radius_original": 78.3161316,
+      "error_source": 1.0350815912829603e-05
+    },
+    {
+      "index": 86,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACLS",
+      "radius_source": 77.82669537921437,
+      "radius_original": 77.8266907,
+      "error_source": 4.679214370639784e-06
+    },
+    {
+      "index": 87,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACSI",
+      "radius_source": 77.82669537921437,
+      "radius_original": 77.8266983,
+      "error_source": 2.9207856329094284e-06
+    },
+    {
+      "index": 88,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACSI",
+      "radius_source": 70.81899736131365,
+      "radius_original": 70.8190002,
+      "error_source": 2.838686356199105e-06
+    },
+    {
+      "index": 89,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACUP",
+      "radius_source": 70.81899736131365,
+      "radius_original": 70.8190002,
+      "error_source": 2.838686356199105e-06
+    },
+    {
+      "index": 90,
+      "model": 6,
+      "x_source": 475,
+      "arc": "NACUP",
+      "radius_source": 26.297456832167732,
+      "radius_original": 26.2974548,
+      "error_source": 2.0321677318690945e-06
+    },
+    {
+      "index": 91,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 26.297456832167732,
+      "radius_original": 26.2974586,
+      "error_source": 1.7678322663527979e-06
+    },
+    {
+      "index": 92,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 26.853534321803366,
+      "radius_original": 26.8535347,
+      "error_source": 3.781966348981314e-07
+    },
+    {
+      "index": 93,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 27.387401528844894,
+      "radius_original": 27.3874035,
+      "error_source": 1.9711551075829448e-06
+    },
+    {
+      "index": 94,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 27.892923491622206,
+      "radius_original": 27.8929234,
+      "error_source": 9.162220493408313e-08
+    },
+    {
+      "index": 95,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 28.36402010557969,
+      "radius_original": 28.3640251,
+      "error_source": 4.99442030843511e-06
+    },
+    {
+      "index": 96,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 28.794793393353242,
+      "radius_original": 28.7947941,
+      "error_source": 7.06646758885654e-07
+    },
+    {
+      "index": 97,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 29.179660083019566,
+      "radius_original": 29.1796608,
+      "error_source": 7.169804341344843e-07
+    },
+    {
+      "index": 98,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 29.513484820576284,
+      "radius_original": 29.5134869,
+      "error_source": 2.079423715883877e-06
+    },
+    {
+      "index": 99,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 29.79170882493657,
+      "radius_original": 29.791708,
+      "error_source": 8.249365706092249e-07
+    },
+    {
+      "index": 100,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 30.010468552574423,
+      "radius_original": 30.0104713,
+      "error_source": 2.7474255759329935e-06
+    },
+    {
+      "index": 101,
+      "model": 6,
+      "x_source": 475,
+      "arc": "BUP",
+      "radius_source": 30.16669903728039,
+      "radius_original": 30.1667004,
+      "error_source": 1.362719608266616e-06
+    },
+    {
+      "index": 102,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 30.16669903728039,
+      "radius_original": 30.1666946,
+      "error_source": 4.437280392011189e-06
+    },
+    {
+      "index": 103,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 30.63919380865398,
+      "radius_original": 30.6391926,
+      "error_source": 1.208653980455665e-06
+    },
+    {
+      "index": 104,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 30.986462264835275,
+      "radius_original": 30.9864616,
+      "error_source": 6.648352766092103e-07
+    },
+    {
+      "index": 105,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 31.257489975125768,
+      "radius_original": 31.2574902,
+      "error_source": 2.2487423123607186e-07
+    },
+    {
+      "index": 106,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 31.47322150626339,
+      "radius_original": 31.4732208,
+      "error_source": 7.062633891052883e-07
+    },
+    {
+      "index": 107,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 31.644827271056194,
+      "radius_original": 31.6448288,
+      "error_source": 1.5289438053400772e-06
+    },
+    {
+      "index": 108,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 31.77897817371311,
+      "radius_original": 31.7789803,
+      "error_source": 2.126286890558049e-06
+    },
+    {
+      "index": 109,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 31.879900030811303,
+      "radius_original": 31.8799019,
+      "error_source": 1.8691886971566873e-06
+    },
+    {
+      "index": 110,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 31.95031971492584,
+      "radius_original": 31.9503231,
+      "error_source": 3.3850741587571065e-06
+    },
+    {
+      "index": 111,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 31.991945552979967,
+      "radius_original": 31.9919491,
+      "error_source": 3.5470200323572953e-06
+    },
+    {
+      "index": 112,
+      "model": 6,
+      "x_source": 475,
+      "arc": "CAN",
+      "radius_source": 32.00572027070572,
+      "radius_original": 32.005722,
+      "error_source": 1.729294275776283e-06
+    },
+    {
+      "index": 113,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BLO",
+      "radius_source": 38.53878504672896,
+      "radius_original": 38.538784,
+      "error_source": 1.0467289612847708e-06
+    },
+    {
+      "index": 114,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BLO",
+      "radius_source": 60.24058393540006,
+      "radius_original": 60.2405815,
+      "error_source": 2.435400062950066e-06
+    },
+    {
+      "index": 115,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLO",
+      "radius_source": 60.24058393540006,
+      "radius_original": 60.2405777,
+      "error_source": 6.235400057619245e-06
+    },
+    {
+      "index": 116,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLO",
+      "radius_source": 74.42499397768813,
+      "radius_original": 74.4249954,
+      "error_source": 1.4223118682821223e-06
+    },
+    {
+      "index": 117,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 74.42499397768813,
+      "radius_original": 74.4249878,
+      "error_source": 6.17768813526709e-06
+    },
+    {
+      "index": 118,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 76.04463817450257,
+      "radius_original": 76.0446396,
+      "error_source": 1.4254974303185008e-06
+    },
+    {
+      "index": 119,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 77.11945532042954,
+      "radius_original": 77.1194534,
+      "error_source": 1.920429539836732e-06
+    },
+    {
+      "index": 120,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 77.8433656067603,
+      "radius_original": 77.8433685,
+      "error_source": 2.893239695822558e-06
+    },
+    {
+      "index": 121,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 78.30062196496557,
+      "radius_original": 78.3006058,
+      "error_source": 1.6164965572329493e-05
+    },
+    {
+      "index": 122,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 78.53552534563116,
+      "radius_original": 78.5355225,
+      "error_source": 2.84563115826586e-06
+    },
+    {
+      "index": 123,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 78.57287929038473,
+      "radius_original": 78.572876,
+      "error_source": 3.290384739784713e-06
+    },
+    {
+      "index": 124,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 78.42572761282595,
+      "radius_original": 78.4257202,
+      "error_source": 7.412825951291779e-06
+    },
+    {
+      "index": 125,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 78.09838925538959,
+      "radius_original": 78.098381,
+      "error_source": 8.25538958793004e-06
+    },
+    {
+      "index": 126,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 77.58704004622814,
+      "radius_original": 77.5870361,
+      "error_source": 3.946228133600016e-06
+    },
+    {
+      "index": 127,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 76.87818261525034,
+      "radius_original": 76.8781815,
+      "error_source": 1.1152503418543347e-06
+    },
+    {
+      "index": 128,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACSI",
+      "radius_source": 76.87818261525034,
+      "radius_original": 76.8781815,
+      "error_source": 1.1152503418543347e-06
+    },
+    {
+      "index": 129,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACSI",
+      "radius_source": 71.10089125970721,
+      "radius_original": 71.1008911,
+      "error_source": 1.5970721278790734e-07
+    },
+    {
+      "index": 130,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACUP",
+      "radius_source": 71.10089125970721,
+      "radius_original": 71.1009293,
+      "error_source": 3.804029279308452e-05
+    },
+    {
+      "index": 131,
+      "model": 6,
+      "x_source": 497,
+      "arc": "NACUP",
+      "radius_source": 25.648510360625284,
+      "radius_original": 25.6485176,
+      "error_source": 7.239374717471492e-06
+    },
+    {
+      "index": 132,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 25.648510360625284,
+      "radius_original": 25.64851,
+      "error_source": 3.606252825250067e-07
+    },
+    {
+      "index": 133,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 26.19796565603768,
+      "radius_original": 26.1979656,
+      "error_source": 5.6037681162024455e-08
+    },
+    {
+      "index": 134,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 26.66551632330434,
+      "radius_original": 26.665514,
+      "error_source": 2.323304340023924e-06
+    },
+    {
+      "index": 135,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 27.056183215773387,
+      "radius_original": 27.0561829,
+      "error_source": 3.157733878822455e-07
+    },
+    {
+      "index": 136,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 27.376268263111818,
+      "radius_original": 27.3762665,
+      "error_source": 1.7631118183203398e-06
+    },
+    {
+      "index": 137,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 27.63257724194556,
+      "radius_original": 27.6325741,
+      "error_source": 3.141945562390447e-06
+    },
+    {
+      "index": 138,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 27.83177470723014,
+      "radius_original": 27.8317719,
+      "error_source": 2.8072301390125176e-06
+    },
+    {
+      "index": 139,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 27.97988144827745,
+      "radius_original": 27.9798775,
+      "error_source": 3.948277448984072e-06
+    },
+    {
+      "index": 140,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 28.081904706233967,
+      "radius_original": 28.0819035,
+      "error_source": 1.2062339678209355e-06
+    },
+    {
+      "index": 141,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 28.14158168127938,
+      "radius_original": 28.1415825,
+      "error_source": 8.187206184118168e-07
+    },
+    {
+      "index": 142,
+      "model": 6,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 28.161214953271042,
+      "radius_original": 28.1612148,
+      "error_source": 1.532710420804051e-07
+    },
+    {
+      "index": 143,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BLO",
+      "radius_source": 38.53878504672896,
+      "radius_original": 38.538784,
+      "error_source": 1.0467289612847708e-06
+    },
+    {
+      "index": 144,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BLO",
+      "radius_source": 60.24058393540006,
+      "radius_original": 60.2405815,
+      "error_source": 2.435400062950066e-06
+    },
+    {
+      "index": 145,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLO",
+      "radius_source": 60.24058393540006,
+      "radius_original": 60.2405777,
+      "error_source": 6.235400057619245e-06
+    },
+    {
+      "index": 146,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLO",
+      "radius_source": 74.42499397768813,
+      "radius_original": 74.4249954,
+      "error_source": 1.4223118682821223e-06
+    },
+    {
+      "index": 147,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 74.42499397768813,
+      "radius_original": 74.4249878,
+      "error_source": 6.17768813526709e-06
+    },
+    {
+      "index": 148,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 76.04463817450257,
+      "radius_original": 76.0446396,
+      "error_source": 1.4254974303185008e-06
+    },
+    {
+      "index": 149,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 77.11945532042954,
+      "radius_original": 77.1194534,
+      "error_source": 1.920429539836732e-06
+    },
+    {
+      "index": 150,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 77.8433656067603,
+      "radius_original": 77.8433685,
+      "error_source": 2.893239695822558e-06
+    },
+    {
+      "index": 151,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 78.30062196496557,
+      "radius_original": 78.3006058,
+      "error_source": 1.6164965572329493e-05
+    },
+    {
+      "index": 152,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 78.53552534563116,
+      "radius_original": 78.5355225,
+      "error_source": 2.84563115826586e-06
+    },
+    {
+      "index": 153,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 78.57287929038473,
+      "radius_original": 78.572876,
+      "error_source": 3.290384739784713e-06
+    },
+    {
+      "index": 154,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 78.42572761282595,
+      "radius_original": 78.4257202,
+      "error_source": 7.412825951291779e-06
+    },
+    {
+      "index": 155,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 78.09838925538959,
+      "radius_original": 78.098381,
+      "error_source": 8.25538958793004e-06
+    },
+    {
+      "index": 156,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 77.58704004622814,
+      "radius_original": 77.5870361,
+      "error_source": 3.946228133600016e-06
+    },
+    {
+      "index": 157,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACLS",
+      "radius_source": 76.87818261525034,
+      "radius_original": 76.8781815,
+      "error_source": 1.1152503418543347e-06
+    },
+    {
+      "index": 158,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACSI",
+      "radius_source": 76.87818261525034,
+      "radius_original": 76.8781815,
+      "error_source": 1.1152503418543347e-06
+    },
+    {
+      "index": 159,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACSI",
+      "radius_source": 71.10089125970721,
+      "radius_original": 71.1008911,
+      "error_source": 1.5970721278790734e-07
+    },
+    {
+      "index": 160,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACUP",
+      "radius_source": 71.10089125970721,
+      "radius_original": 71.1009293,
+      "error_source": 3.804029279308452e-05
+    },
+    {
+      "index": 161,
+      "model": 7,
+      "x_source": 497,
+      "arc": "NACUP",
+      "radius_source": 25.648510360625284,
+      "radius_original": 25.6485176,
+      "error_source": 7.239374717471492e-06
+    },
+    {
+      "index": 162,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 25.648510360625284,
+      "radius_original": 25.64851,
+      "error_source": 3.606252825250067e-07
+    },
+    {
+      "index": 163,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 26.19796565603768,
+      "radius_original": 26.1979656,
+      "error_source": 5.6037681162024455e-08
+    },
+    {
+      "index": 164,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 26.66551632330434,
+      "radius_original": 26.665514,
+      "error_source": 2.323304340023924e-06
+    },
+    {
+      "index": 165,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 27.056183215773387,
+      "radius_original": 27.0561829,
+      "error_source": 3.157733878822455e-07
+    },
+    {
+      "index": 166,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 27.376268263111818,
+      "radius_original": 27.3762665,
+      "error_source": 1.7631118183203398e-06
+    },
+    {
+      "index": 167,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 27.63257724194556,
+      "radius_original": 27.6325741,
+      "error_source": 3.141945562390447e-06
+    },
+    {
+      "index": 168,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 27.83177470723014,
+      "radius_original": 27.8317719,
+      "error_source": 2.8072301390125176e-06
+    },
+    {
+      "index": 169,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 27.97988144827745,
+      "radius_original": 27.9798775,
+      "error_source": 3.948277448984072e-06
+    },
+    {
+      "index": 170,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 28.081904706233967,
+      "radius_original": 28.0819035,
+      "error_source": 1.2062339678209355e-06
+    },
+    {
+      "index": 171,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 28.14158168127938,
+      "radius_original": 28.1415825,
+      "error_source": 8.187206184118168e-07
+    },
+    {
+      "index": 172,
+      "model": 7,
+      "x_source": 497,
+      "arc": "BUP",
+      "radius_source": 28.161214953271042,
+      "radius_original": 28.1612148,
+      "error_source": 1.532710420804051e-07
+    },
+    {
+      "index": 173,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BLO",
+      "radius_source": 40.3756341789052,
+      "radius_original": 40.3756332,
+      "error_source": 9.789051986786035e-07
+    },
+    {
+      "index": 174,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BLO",
+      "radius_source": 61.9503767727651,
+      "radius_original": 61.9503784,
+      "error_source": 1.6272349014911924e-06
+    },
+    {
+      "index": 175,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLO",
+      "radius_source": 61.9503767727651,
+      "radius_original": 61.9503708,
+      "error_source": 5.972765094952592e-06
+    },
+    {
+      "index": 176,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLO",
+      "radius_source": 73.35213128189231,
+      "radius_original": 73.3521194,
+      "error_source": 1.1881892305609654e-05
+    },
+    {
+      "index": 177,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 73.35213128189231,
+      "radius_original": 73.3521347,
+      "error_source": 3.4181076813410982e-06
+    },
+    {
+      "index": 178,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 75.47074173073844,
+      "radius_original": 75.4707413,
+      "error_source": 4.307384386947888e-07
+    },
+    {
+      "index": 179,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 76.58883079918687,
+      "radius_original": 76.5888443,
+      "error_source": 1.350081313944429e-05
+    },
+    {
+      "index": 180,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 77.1794090351767,
+      "radius_original": 77.1794128,
+      "error_source": 3.7648232904530232e-06
+    },
+    {
+      "index": 181,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 77.41949847113116,
+      "radius_original": 77.4195099,
+      "error_source": 1.1428868830876127e-05
+    },
+    {
+      "index": 182,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 77.39926720274899,
+      "radius_original": 77.3992691,
+      "error_source": 1.8972510105186302e-06
+    },
+    {
+      "index": 183,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 77.17080663464934,
+      "radius_original": 77.1708145,
+      "error_source": 7.865350667657367e-06
+    },
+    {
+      "index": 184,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 76.76522531395949,
+      "radius_original": 76.7652359,
+      "error_source": 1.058604050285794e-05
+    },
+    {
+      "index": 185,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 76.19977460732201,
+      "radius_original": 76.1997757,
+      "error_source": 1.0926779907549644e-06
+    },
+    {
+      "index": 186,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 75.48074260809857,
+      "radius_original": 75.4807587,
+      "error_source": 1.6091901429149402e-05
+    },
+    {
+      "index": 187,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACLS",
+      "radius_source": 74.60381417078894,
+      "radius_original": 74.6038208,
+      "error_source": 6.629211057429529e-06
+    },
+    {
+      "index": 188,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACSI",
+      "radius_source": 74.60381417078894,
+      "radius_original": 74.6038132,
+      "error_source": 9.70788931908828e-07
+    },
+    {
+      "index": 189,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACSI",
+      "radius_source": 71.58559158190394,
+      "radius_original": 71.5855865,
+      "error_source": 5.0819039358884766e-06
+    },
+    {
+      "index": 190,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACUP",
+      "radius_source": 71.58559158190394,
+      "radius_original": 71.5855789,
+      "error_source": 1.2681903939437689e-05
+    },
+    {
+      "index": 191,
+      "model": 7,
+      "x_source": 525,
+      "arc": "NACUP",
+      "radius_source": 23.50620040973004,
+      "radius_original": 23.5062008,
+      "error_source": 3.902699567959189e-07
+    },
+    {
+      "index": 192,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 23.50620040973004,
+      "radius_original": 23.5061989,
+      "error_source": 1.5097300405386704e-06
+    },
+    {
+      "index": 193,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 23.81154212296329,
+      "radius_original": 23.8115425,
+      "error_source": 3.770367129618535e-07
+    },
+    {
+      "index": 194,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 24.093806946720512,
+      "radius_original": 24.0938053,
+      "error_source": 1.6467205128378737e-06
+    },
+    {
+      "index": 195,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 24.350221396384843,
+      "radius_original": 24.3502178,
+      "error_source": 3.5963848432629675e-06
+    },
+    {
+      "index": 196,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 24.578199240060005,
+      "radius_original": 24.5781956,
+      "error_source": 3.6400600045283227e-06
+    },
+    {
+      "index": 197,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 24.775387853732873,
+      "radius_original": 24.7753849,
+      "error_source": 2.9537328742890168e-06
+    },
+    {
+      "index": 198,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 24.939712036422396,
+      "radius_original": 24.9397106,
+      "error_source": 1.436422394363035e-06
+    },
+    {
+      "index": 199,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 25.069413933391406,
+      "radius_original": 25.0694103,
+      "error_source": 3.6333914046338123e-06
+    },
+    {
+      "index": 200,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 25.16308777326598,
+      "radius_original": 25.1630859,
+      "error_source": 1.8732659796683038e-06
+    },
+    {
+      "index": 201,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 25.21970824641992,
+      "radius_original": 25.2197056,
+      "error_source": 2.6464199187614668e-06
+    },
+    {
+      "index": 202,
+      "model": 7,
+      "x_source": 525,
+      "arc": "BUP",
+      "radius_source": 25.238651535380512,
+      "radius_original": 25.2386513,
+      "error_source": 2.3538051152627304e-07
+    },
+    {
+      "index": 203,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BLO",
+      "radius_source": 42.73399100034615,
+      "radius_original": 42.7339897,
+      "error_source": 1.3003461489802248e-06
+    },
+    {
+      "index": 204,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BLO",
+      "radius_source": 64.29425257451348,
+      "radius_original": 64.2942505,
+      "error_source": 2.07451347478127e-06
+    },
+    {
+      "index": 205,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLO",
+      "radius_source": 64.29425257451348,
+      "radius_original": 64.2942505,
+      "error_source": 2.07451347478127e-06
+    },
+    {
+      "index": 206,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLO",
+      "radius_source": 71.80106780071878,
+      "radius_original": 71.8010635,
+      "error_source": 4.300718785543722e-06
+    },
+    {
+      "index": 207,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 71.80106780071878,
+      "radius_original": 71.8010635,
+      "error_source": 4.300718785543722e-06
+    },
+    {
+      "index": 208,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 74.79162209427713,
+      "radius_original": 74.791626,
+      "error_source": 3.905722863351002e-06
+    },
+    {
+      "index": 209,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 76.350876789437,
+      "radius_original": 76.3508835,
+      "error_source": 6.710562999501235e-06
+    },
+    {
+      "index": 210,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 77.18176552539128,
+      "radius_original": 77.1817627,
+      "error_source": 2.8253912915943147e-06
+    },
+    {
+      "index": 211,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 77.55558954428518,
+      "radius_original": 77.5555878,
+      "error_source": 1.7442851856230845e-06
+    },
+    {
+      "index": 212,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 77.61442031146265,
+      "radius_original": 77.6144257,
+      "error_source": 5.388537346107114e-06
+    },
+    {
+      "index": 213,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 77.44273974112933,
+      "radius_original": 77.4427338,
+      "error_source": 5.941129330722106e-06
+    },
+    {
+      "index": 214,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 77.09326016657135,
+      "radius_original": 77.0932617,
+      "error_source": 1.5334286445067846e-06
+    },
+    {
+      "index": 215,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 76.59834625515929,
+      "radius_original": 76.5983505,
+      "error_source": 4.244840710043718e-06
+    },
+    {
+      "index": 216,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 75.97553706255569,
+      "radius_original": 75.9755402,
+      "error_source": 3.1374443096865434e-06
+    },
+    {
+      "index": 217,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACLS",
+      "radius_source": 75.23003275149975,
+      "radius_original": 75.2300415,
+      "error_source": 8.74850024956686e-06
+    },
+    {
+      "index": 218,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACSI",
+      "radius_source": 75.23003275149975,
+      "radius_original": 75.2300262,
+      "error_source": 6.551499751594747e-06
+    },
+    {
+      "index": 219,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACSI",
+      "radius_source": 74.45339199932465,
+      "radius_original": 74.4533844,
+      "error_source": 7.599324646889727e-06
+    },
+    {
+      "index": 220,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACUP",
+      "radius_source": 74.45339199932465,
+      "radius_original": 74.4533691,
+      "error_source": 2.2899324648051333e-05
+    },
+    {
+      "index": 221,
+      "model": 7,
+      "x_source": 575,
+      "arc": "NACUP",
+      "radius_source": 20.80201485934984,
+      "radius_original": 20.8020115,
+      "error_source": 3.3593498400819044e-06
+    },
+    {
+      "index": 222,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.80201485934984,
+      "radius_original": 20.8020096,
+      "error_source": 5.259349837416494e-06
+    },
+    {
+      "index": 223,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.705337302723297,
+      "radius_original": 20.7053871,
+      "error_source": 4.979727670217926e-05
+    },
+    {
+      "index": 224,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.636601286169366,
+      "radius_original": 20.6366482,
+      "error_source": 4.691383063359922e-05
+    },
+    {
+      "index": 225,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.59121179960914,
+      "radius_original": 20.5912399,
+      "error_source": 2.810039086043048e-05
+    },
+    {
+      "index": 226,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.564546245302218,
+      "radius_original": 20.564579,
+      "error_source": 3.27546977807458e-05
+    },
+    {
+      "index": 227,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.55201419606682,
+      "radius_original": 20.5521526,
+      "error_source": 0.00013840393317821054
+    },
+    {
+      "index": 228,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.549177337522362,
+      "radius_original": 20.5492668,
+      "error_source": 8.94624776393016e-05
+    },
+    {
+      "index": 229,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.55192750658315,
+      "radius_original": 20.5518513,
+      "error_source": 7.620658315232731e-05
+    },
+    {
+      "index": 230,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.556708671250924,
+      "radius_original": 20.5566711,
+      "error_source": 3.757125092462843e-05
+    },
+    {
+      "index": 231,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.560754880693498,
+      "radius_original": 20.5607433,
+      "error_source": 1.1580693499269046e-05
+    },
+    {
+      "index": 232,
+      "model": 7,
+      "x_source": 575,
+      "arc": "BUP",
+      "radius_source": 20.562305295950154,
+      "radius_original": 20.5623131,
+      "error_source": 7.804049847237593e-06
+    },
+    {
+      "index": 233,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BLO",
+      "radius_source": 43.137850467289724,
+      "radius_original": 43.1378479,
+      "error_source": 2.5672897265849315e-06
+    },
+    {
+      "index": 234,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BLO",
+      "radius_source": 65.2830310489506,
+      "radius_original": 65.2830353,
+      "error_source": 4.251049389836226e-06
+    },
+    {
+      "index": 235,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLO",
+      "radius_source": 65.2830310489506,
+      "radius_original": 65.2830582,
+      "error_source": 2.7151049394547044e-05
+    },
+    {
+      "index": 236,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLO",
+      "radius_source": 71.3831127961716,
+      "radius_original": 71.3831406,
+      "error_source": 2.7803828402284125e-05
+    },
+    {
+      "index": 237,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 71.3831127961716,
+      "radius_original": 71.3831177,
+      "error_source": 4.9038283975733066e-06
+    },
+    {
+      "index": 238,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 74.92308174452404,
+      "radius_original": 74.9230728,
+      "error_source": 8.94452404054391e-06
+    },
+    {
+      "index": 239,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 77.02866375938122,
+      "radius_original": 77.0286636,
+      "error_source": 1.593812157807406e-07
+    },
+    {
+      "index": 240,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 78.32979896162497,
+      "radius_original": 78.3297882,
+      "error_source": 1.0761624977817519e-05
+    },
+    {
+      "index": 241,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 79.09862075798068,
+      "radius_original": 79.0986252,
+      "error_source": 4.442019317707491e-06
+    },
+    {
+      "index": 242,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 79.48635842063473,
+      "radius_original": 79.4863663,
+      "error_source": 7.879365270468952e-06
+    },
+    {
+      "index": 243,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 79.58706237127288,
+      "radius_original": 79.587059,
+      "error_source": 3.3712728821910787e-06
+    },
+    {
+      "index": 244,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 79.46201243966155,
+      "radius_original": 79.4620132,
+      "error_source": 7.603384517551603e-07
+    },
+    {
+      "index": 245,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 79.15100336357368,
+      "radius_original": 79.1510086,
+      "error_source": 5.2364263183335424e-06
+    },
+    {
+      "index": 246,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 78.67809103568145,
+      "radius_original": 78.678093,
+      "error_source": 1.9643185567019827e-06
+    },
+    {
+      "index": 247,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACLS",
+      "radius_source": 78.05450008846223,
+      "radius_original": 78.0545044,
+      "error_source": 4.3115377650337905e-06
+    },
+    {
+      "index": 248,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACSI",
+      "radius_source": 78.05450008846223,
+      "radius_original": 78.0545044,
+      "error_source": 4.3115377650337905e-06
+    },
+    {
+      "index": 249,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACSI",
+      "radius_source": 77.60408872516629,
+      "radius_original": 77.6040878,
+      "error_source": 9.251662902443059e-07
+    },
+    {
+      "index": 250,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACUP",
+      "radius_source": 77.60408872516629,
+      "radius_original": 77.6040649,
+      "error_source": 2.3825166294955125e-05
+    },
+    {
+      "index": 251,
+      "model": 7,
+      "x_source": 625,
+      "arc": "NACUP",
+      "radius_source": 16.081886192203807,
+      "radius_original": 16.0818844,
+      "error_source": 1.792203807582382e-06
+    },
+    {
+      "index": 252,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.081886192203807,
+      "radius_original": 16.0818863,
+      "error_source": 1.0779619330492096e-07
+    },
+    {
+      "index": 253,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.070492818858643,
+      "radius_original": 16.0704937,
+      "error_source": 8.811413572118454e-07
+    },
+    {
+      "index": 254,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.066081512835108,
+      "radius_original": 16.0660782,
+      "error_source": 3.3128351084599217e-06
+    },
+    {
+      "index": 255,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.067265467775783,
+      "radius_original": 16.0672646,
+      "error_source": 8.67775781898672e-07
+    },
+    {
+      "index": 256,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.072582801516383,
+      "radius_original": 16.0725842,
+      "error_source": 1.3984836186864413e-06
+    },
+    {
+      "index": 257,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.080528879403694,
+      "radius_original": 16.0805321,
+      "error_source": 3.220596305197887e-06
+    },
+    {
+      "index": 258,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.089608907702967,
+      "radius_original": 16.0896072,
+      "error_source": 1.707702967479463e-06
+    },
+    {
+      "index": 259,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.098410775913745,
+      "radius_original": 16.0984116,
+      "error_source": 8.240862534591997e-07
+    },
+    {
+      "index": 260,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.105693564572462,
+      "radius_original": 16.1056919,
+      "error_source": 1.6645724620900637e-06
+    },
+    {
+      "index": 261,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.110481630064115,
+      "radius_original": 16.1104832,
+      "error_source": 1.5699358861809287e-06
+    },
+    {
+      "index": 262,
+      "model": 7,
+      "x_source": 625,
+      "arc": "BUP",
+      "radius_source": 16.112149532710276,
+      "radius_original": 16.1121483,
+      "error_source": 1.2327102751896746e-06
+    },
+    {
+      "index": 263,
+      "model": 7,
+      "x_source": 650,
+      "arc": "BLO",
+      "radius_source": 42.69626168224298,
+      "radius_original": 42.6962662,
+      "error_source": 4.517757020039426e-06
+    },
+    {
+      "index": 264,
+      "model": 7,
+      "x_source": 650,
+      "arc": "BLO",
+      "radius_source": 65.36987656129213,
+      "radius_original": 65.3698883,
+      "error_source": 1.1738707868858e-05
+    },
+    {
+      "index": 265,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLO",
+      "radius_source": 65.36987656129213,
+      "radius_original": 65.369873,
+      "error_source": 3.561292132303606e-06
+    },
+    {
+      "index": 266,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLO",
+      "radius_source": 71.61857832740448,
+      "radius_original": 71.618576,
+      "error_source": 2.3274044735899224e-06
+    },
+    {
+      "index": 267,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 71.61857832740448,
+      "radius_original": 71.6185837,
+      "error_source": 5.372595524022472e-06
+    },
+    {
+      "index": 268,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 75.24272285606379,
+      "radius_original": 75.2427216,
+      "error_source": 1.2560637969727395e-06
+    },
+    {
+      "index": 269,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 77.50716803849667,
+      "radius_original": 77.5071716,
+      "error_source": 3.5615033340263835e-06
+    },
+    {
+      "index": 270,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 78.97196933388005,
+      "radius_original": 78.9719772,
+      "error_source": 7.866119943855665e-06
+    },
+    {
+      "index": 271,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 79.89112715004885,
+      "radius_original": 79.8911209,
+      "error_source": 6.250048841138778e-06
+    },
+    {
+      "index": 272,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 80.40930490147001,
+      "radius_original": 80.4093094,
+      "error_source": 4.498529989405142e-06
+    },
+    {
+      "index": 273,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 80.61797562827556,
+      "radius_original": 80.6179733,
+      "error_source": 2.3282755563514e-06
+    },
+    {
+      "index": 274,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 80.57751411168579,
+      "radius_original": 80.5775146,
+      "error_source": 4.883142139533447e-07
+    },
+    {
+      "index": 275,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 80.3275583284231,
+      "radius_original": 80.3275528,
+      "error_source": 5.528423088208001e-06
+    },
+    {
+      "index": 276,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 79.89232301412194,
+      "radius_original": 79.8923264,
+      "error_source": 3.385878059702918e-06
+    },
+    {
+      "index": 277,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACLS",
+      "radius_source": 79.28328903695322,
+      "radius_original": 79.283287,
+      "error_source": 2.0369532194308704e-06
+    },
+    {
+      "index": 278,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACSI",
+      "radius_source": 79.28328903695322,
+      "radius_original": 79.2832947,
+      "error_source": 5.663046778181524e-06
+    },
+    {
+      "index": 279,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACSI",
+      "radius_source": 78.50607878692188,
+      "radius_original": 78.5060883,
+      "error_source": 9.513078126133223e-06
+    },
+    {
+      "index": 280,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACUP",
+      "radius_source": 78.50607878692188,
+      "radius_original": 78.5060425,
+      "error_source": 3.628692186907756e-05
+    },
+    {
+      "index": 281,
+      "model": 7,
+      "x_source": 650,
+      "arc": "NACUP",
+      "radius_source": 13.803738317757023,
+      "radius_original": 13.8037367,
+      "error_source": 1.6177570234532368e-06
+    }
+  ],
+  "input_sha256": {
+    "SHIFARC_CSMCOE_review_only.for": "5892eeecf3a4e44873d8e8baa2c16c99525bd3e62aef7d912511dc21a8d53bbe",
+    "SHIFARC_CSCALC_review_only.for": "3e2778af105c5b4c6798496ab91fc0cce51175191c123f68bf571387bd873092",
+    "SHIFARC_VDOTV_review_only.for": "6d858d527244fb68ab2f3d598f84290c8346046e7103248346fa6850fa031cb2",
+    "SHIFARC_MDOTV_review_only.for": "5a243b5065ac665535c5d90743527922e883e1577908eddd247b6567fb15b466",
+    "NASA_models6_7_halfsection_study_v2.json": "62b73775a1f35f286163f13f366da5273716fc8454fffa48de0faec1f0c26638",
+    "SHIFARC_models67_default_driver.f": "8628f03102ed18280b295f5b15cc4b72ae9024129d07315094175d983fe41e13",
+    "SHIFARC_models67_default_raw.txt": "2ffd72dbd64f644e6334fda74af1d525b21ccf2830507dc445395d5c6a179f77"
+  },
+  "limits": [
+    "NDERV0: nurRadien, keineTHELIM/CSMINTGesamtauswertung.",
+    "REAL8 falls aktiviert ist ein separates Praezisionsexperiment, kein unveraenderter historischer Singleprecision-Lauf.",
+    "HistorischeVersion, keinephysischeEinheiten-/Herstellerhaut-/Produktionsfreigabe."
+  ],
+  "production_release": false
+}

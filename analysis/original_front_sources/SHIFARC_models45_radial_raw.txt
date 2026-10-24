@@ -1,0 +1,198 @@
+  CROSS SECTIONAL ARC NO.  1 HAS BEEN COMPLETED    3    1    0    18.21603    -1.57080   870.24994    22.48319
+ CHECK           1   22.9576721    
+ CHECK           2   23.3596706    
+ CHECK           3   24.4857979    
+ CHECK           4   26.1334534    
+ CHECK           5   28.0527878    
+ CHECK           6   30.0056858    
+ CHECK           7   31.7917652    
+ CHECK           8   33.2530975    
+ CHECK           9   34.2709961    
+ CHECK          10   34.7613411    
+ CHECK          11   34.6709366    
+  CROSS SECTIONAL ARC NO.  2 HAS BEEN COMPLETED    1    1    0    17.96873    -1.57916     0.00000     0.00000
+ CHECK          12   34.6709290    
+ CHECK          13   75.4951935    
+  CROSS SECTIONAL ARC NO.  3 HAS BEEN COMPLETED    1    1    0    69.11186     0.16550     0.00000     0.00000
+ CHECK          14   75.4952011    
+ CHECK          15   69.8491364    
+  CROSS SECTIONAL ARC NO.  4 HAS BEEN COMPLETED    1    1    0     6.30899     1.79127     0.00000     0.00000
+ CHECK          16   69.8491592    
+ CHECK          17   28.8025932    
+  CROSS SECTIONAL ARC NO.  5 HAS BEEN COMPLETED    3    1    0     2.98133     2.66698   896.18665  1473.50476
+ CHECK          18   28.8025742    
+ CHECK          19   29.4775009    
+ CHECK          20   30.2354755    
+ CHECK          21   31.0562592    
+ CHECK          22   31.9194489    
+ CHECK          23   32.8052139    
+ CHECK          24   33.6947403    
+ CHECK          25   34.5705986    
+ CHECK          26   35.4169235    
+ CHECK          27   36.2194977    
+ CHECK          28   36.9658279    
+  CROSS SECTIONAL ARC NO.  6 HAS BEEN COMPLETED    3    1    0    30.70533     1.57080   157.24307   140.96283
+ CHECK          29   36.9658241    
+ CHECK          30   37.9971199    
+ CHECK          31   38.9344940    
+ CHECK          32   39.7726212    
+ CHECK          33   40.5070801    
+ CHECK          34   41.1342201    
+ CHECK          35   41.6510963    
+ CHECK          36   42.0554008    
+ CHECK          37   42.3453979    
+ CHECK          38   42.5198708    
+ CHECK          39   42.5781136    
+  CROSS SECTIONAL ARC NO.  1 HAS BEEN COMPLETED    3    1    0    20.58602    -1.57080  1217.31201     5.09823
+ CHECK          40   22.8439465    
+ CHECK          41   23.4598866    
+ CHECK          42   25.1605225    
+ CHECK          43   27.5963688    
+ CHECK          44   30.3792839    
+ CHECK          45   33.1771736    
+ CHECK          46   35.7341499    
+ CHECK          47   37.8609886    
+ CHECK          48   39.4216652    
+ CHECK          49   40.3233681    
+ CHECK          50   40.5104485    
+  CROSS SECTIONAL ARC NO.  2 HAS BEEN COMPLETED    1    1    0    20.08583    -1.58507     0.00000     0.00000
+ CHECK          51   40.5104446    
+ CHECK          52   76.6875000    
+  CROSS SECTIONAL ARC NO.  3 HAS BEEN COMPLETED    1    1    0    69.19298     0.16650     0.00000     0.00000
+ CHECK          53   76.6874924    
+ CHECK          54   69.9814224    
+  CROSS SECTIONAL ARC NO.  4 HAS BEEN COMPLETED    1    1    0     6.66202     1.79221     0.00000     0.00000
+ CHECK          55   69.9813690    
+ CHECK          56   28.5358124    
+  CROSS SECTIONAL ARC NO.  5 HAS BEEN COMPLETED    3    1    0     2.91418     2.50455   855.38544  1359.25928
+ CHECK          57   28.5358181    
+ CHECK          58   29.2056847    
+ CHECK          59   29.9477711    
+ CHECK          60   30.7428265    
+ CHECK          61   31.5715714    
+ CHECK          62   32.4152756    
+ CHECK          63   33.2562485    
+ CHECK          64   34.0780792    
+ CHECK          65   34.8658867    
+ CHECK          66   35.6063690    
+ CHECK          67   36.2878799    
+  CROSS SECTIONAL ARC NO.  6 HAS BEEN COMPLETED    3    1    0    30.53572     1.57080   136.97623   122.79437
+ CHECK          68   36.2878799    
+ CHECK          69   37.2646103    
+ CHECK          70   38.1534424    
+ CHECK          71   38.9489632    
+ CHECK          72   39.6466866    
+ CHECK          73   40.2428856    
+ CHECK          74   40.7345505    
+ CHECK          75   41.1193123    
+ CHECK          76   41.3953934    
+ CHECK          77   41.5615311    
+ CHECK          78   41.6169891    
+  CROSS SECTIONAL ARC NO.  1 HAS BEEN COMPLETED    1    1    0    22.74056    -1.57080     0.00000     0.00000
+ CHECK          79   22.7405605    
+ CHECK          80   45.8298721    
+  CROSS SECTIONAL ARC NO.  2 HAS BEEN COMPLETED    1    1    0    21.89607    -1.59189     0.00000     0.00000
+ CHECK          81   45.8298645    
+ CHECK          82   77.8318710    
+  CROSS SECTIONAL ARC NO.  3 HAS BEEN COMPLETED    1    1    0    69.26616     0.16730     0.00000     0.00000
+ CHECK          83   77.8318634    
+ CHECK          84   70.1037292    
+  CROSS SECTIONAL ARC NO.  4 HAS BEEN COMPLETED    1    1    0     6.98401     1.79304     0.00000     0.00000
+ CHECK          85   70.1037064    
+ CHECK          86   28.2995434    
+  CROSS SECTIONAL ARC NO.  5 HAS BEEN COMPLETED    3    1    0     2.95355     2.35441   820.34717  1262.03064
+ CHECK          87   28.2995491    
+ CHECK          88   28.9644318    
+ CHECK          89   29.6916847    
+ CHECK          90   30.4630318    
+ CHECK          91   31.2602501    
+ CHECK          92   32.0656891    
+ CHECK          93   32.8626823    
+ CHECK          94   33.6358299    
+ CHECK          95   34.3711624    
+ CHECK          96   35.0562477    
+ CHECK          97   35.6802521    
+  CROSS SECTIONAL ARC NO.  6 HAS BEEN COMPLETED    3    1    0    30.38154     1.57080   119.76466   107.36470
+ CHECK          98   35.6802559    
+ CHECK          99   36.6058655    
+ CHECK         100   37.4491501    
+ CHECK         101   38.2046509    
+ CHECK         102   38.8678284    
+ CHECK         103   39.4349060    
+ CHECK         104   39.9028282    
+ CHECK         105   40.2691727    
+ CHECK         106   40.5321198    
+ CHECK         107   40.6903915    
+ CHECK         108   40.7432327    
+  CROSS SECTIONAL ARC NO.  1 HAS BEEN COMPLETED    1    1    0    25.96491    -1.57080     0.00000     0.00000
+ CHECK         109   25.9649067    
+ CHECK         110   48.4414825    
+  CROSS SECTIONAL ARC NO.  2 HAS BEEN COMPLETED    1    1    0    26.73273    -1.55191     0.00000     0.00000
+ CHECK         111   48.4414864    
+ CHECK         112   78.7871094    
+  CROSS SECTIONAL ARC NO.  3 HAS BEEN COMPLETED    1    1    0    69.32439     0.16787     0.00000     0.00000
+ CHECK         113   78.7870941    
+ CHECK         114   70.2029877    
+  CROSS SECTIONAL ARC NO.  4 HAS BEEN COMPLETED    1    1    0     7.24232     1.79369     0.00000     0.00000
+ CHECK         115   70.2030411    
+ CHECK         116   28.1149216    
+  CROSS SECTIONAL ARC NO.  5 HAS BEEN COMPLETED    3    1    0     3.05174     2.23997   793.59015  1188.47888
+ CHECK         117   28.1149216    
+ CHECK         118   28.7755451    
+ CHECK         119   29.4906464    
+ CHECK         120   30.2427979    
+ CHECK         121   31.0146599    
+ CHECK         122   31.7894554    
+ CHECK         123   32.5514107    
+ CHECK         124   33.2859306    
+ CHECK         125   33.9798164    
+ CHECK         126   34.6213646    
+ CHECK         127   35.2004051    
+  CROSS SECTIONAL ARC NO.  6 HAS BEEN COMPLETED    3    1    0    30.25818     1.57080   106.82713    95.76671
+ CHECK         128   35.2004013    
+ CHECK         129   36.0840530    
+ CHECK         130   36.8898849    
+ CHECK         131   37.6124458    
+ CHECK         132   38.2471542    
+ CHECK         133   38.7902107    
+ CHECK         134   39.2385368    
+ CHECK         135   39.5896721    
+ CHECK         136   39.8417778    
+ CHECK         137   39.9935532    
+ CHECK         138   40.0442314    
+  CROSS SECTIONAL ARC NO.  1 HAS BEEN COMPLETED    1    1    0    29.18925    -1.57080     0.00000     0.00000
+ CHECK         139   29.1892529    
+ CHECK         140   51.1469765    
+  CROSS SECTIONAL ARC NO.  2 HAS BEEN COMPLETED    1    1    0    31.67658    -1.51026     0.00000     0.00000
+ CHECK         141   51.1469612    
+ CHECK         142   79.7762756    
+  CROSS SECTIONAL ARC NO.  3 HAS BEEN COMPLETED    1    1    0    69.38239     0.16839     0.00000     0.00000
+ CHECK         143   79.7762833    
+ CHECK         144   70.3034897    
+  CROSS SECTIONAL ARC NO.  4 HAS BEEN COMPLETED    1    1    0     7.50123     1.79434     0.00000     0.00000
+ CHECK         145   70.3034973    
+ CHECK         146   27.9342804    
+  CROSS SECTIONAL ARC NO.  5 HAS BEEN COMPLETED    3    1    0     3.20412     2.13507   767.87164  1118.46375
+ CHECK         147   27.9342747    
+ CHECK         148   28.5903816    
+ CHECK         149   29.2930889    
+ CHECK         150   30.0258331    
+ CHECK         151   30.7721996    
+ CHECK         152   31.5163574    
+ CHECK         153   32.2434006    
+ CHECK         154   32.9396019    
+ CHECK         155   33.5925598    
+ CHECK         156   34.1913109    
+ CHECK         157   34.7263680    
+  CROSS SECTIONAL ARC NO.  6 HAS BEEN COMPLETED    3    1    0    30.13483     1.57080    94.62885    84.83141
+ CHECK         158   34.7263603    
+ CHECK         159   35.5670586    
+ CHECK         160   36.3345146    
+ CHECK         161   37.0232620    
+ CHECK         162   37.6287346    
+ CHECK         163   38.1471100    
+ CHECK         164   38.5752754    
+ CHECK         165   38.9107590    
+ CHECK         166   39.1516991    
+ CHECK         167   39.2967873    
+ CHECK         168   39.3452301    
