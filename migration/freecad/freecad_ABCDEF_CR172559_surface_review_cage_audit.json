@@ -1,0 +1,24 @@
+{
+  "status": "ABCDEF_CR172559_SURFACE_REVIEW_CAGE_STUDY",
+  "inputs": [
+    {
+      "file": "F14_ABCDEF_CR172559_COMBINED_REFERENCE_CAGE.FCStd",
+      "objects": 40,
+      "sha256": "53758ee76367820cec77e2bf4b98b240cefeebd618898dc36aee7e57a875c17d"
+    },
+    {
+      "file": "F14_CR172559_REFERENCE_SURFACE_PATCHES.FCStd",
+      "objects": 8,
+      "sha256": "1c9bf29bb2d24d6ecf662e26f27a4ba5dd217de566fd9b65e5b98e409ebb2cd5"
+    }
+  ],
+  "output_sha256": "21255444a0dd6ef440289fc80910328ef8571933866d05f3c06fe6ba8a74a456",
+  "gates": {
+    "ABCDEF_common_Z_registered": false,
+    "CR172559_surface_patches_reference_only": true,
+    "loft_created": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "purpose": "Gemeinsame visuelle Review-Datei fuer A-F-X-Sektionen, NASA/Grumman-Rails und begrenzte Referenzflaechen."
+}
