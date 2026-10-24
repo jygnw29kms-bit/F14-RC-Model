@@ -1,0 +1,169 @@
+{
+  "status": "REVISIONSGEBUNDENES_MASSENREGISTER_VORBEREITET_KEIN_AUW",
+  "budget_sha256": "bef7cd9a07bf89e7d239832803c3f1d7a05c6759d5824dd23063ad1b7016e0ee",
+  "current_pointer_revision": "v192",
+  "rows": [
+    {
+      "subsystem": "printed aerodynamic shells",
+      "target_g": 250,
+      "warning_ceiling_g": 300,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "internal printed frames / mounts",
+      "target_g": 70,
+      "warning_ceiling_g": 90,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "carbon + metal primary structure",
+      "target_g": 65,
+      "warning_ceiling_g": 80,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "2 x 50 mm EDF incl. motors",
+      "target_g": 150,
+      "warning_ceiling_g": 175,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "2 x ESC",
+      "target_g": 55,
+      "warning_ceiling_g": 70,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "4S battery",
+      "target_g": 200,
+      "warning_ceiling_g": 240,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "flight-control servos",
+      "target_g": 55,
+      "warning_ceiling_g": 70,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "wing-sweep actuator + linkage",
+      "target_g": 45,
+      "warning_ceiling_g": 60,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "receiver / BEC / wiring",
+      "target_g": 35,
+      "warning_ceiling_g": 45,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "fasteners / bearings / inserts",
+      "target_g": 35,
+      "warning_ceiling_g": 45,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "finish / paint / decals",
+      "target_g": 40,
+      "warning_ceiling_g": 55,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": false
+    },
+    {
+      "subsystem": "reserve",
+      "target_g": 50,
+      "warning_ceiling_g": 70,
+      "measured_mass_g": null,
+      "current_revision_estimated_mass_g": null,
+      "material_or_exact_hardware": null,
+      "current_geometry_revision": null,
+      "evidence_file": null,
+      "evidence_status": "OFFEN_NICHT_ALS_NULLMASSE_SUMMIEREN",
+      "is_reserve": true
+    }
+  ],
+  "target_total_g": 1050,
+  "warning_ceiling_sum_g": 1300,
+  "redesign_threshold_g": 1200,
+  "measured_total_g": null,
+  "current_verified_estimate_total_g": null,
+  "missing_evidence_count": 12,
+  "rules": [
+    "Null bedeutet fehlender Beleg, nicht0g; kein Gesamtgewicht aus unvollstaendigen Zeilen berechnen.",
+    "Fuer jede Zeile exakte Baugruppe/Revision, Material oder gekaufte Hardware, Mess-/Slicer-/Geometriebeleg und Massendefinition hinterlegen.",
+    "CAD-Huellvolumen eines massiven Referenzfluegels nicht als gedruckte Schalenmasse behandeln.",
+    "Reserve ist Budgetpuffer, kein gewogenes Bauteil.",
+    "Historische v166Szenarien bleiben getrennte Screens und befuellen keine aktuellen Messfelder."
+  ],
+  "release": {
+    "mass_budget_verified_for_current_complete_model": false,
+    "flight_release": false,
+    "production_release": false
+  }
+}
