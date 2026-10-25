@@ -1,0 +1,177 @@
+{
+  "status": "V200_GLOVE_ENVELOPE_VS_CURRENT_FUSELAGE",
+  "rows": [
+    {
+      "x_mm": 490,
+      "wing_lower_proxy_z_mm": -3.85,
+      "target_outer_glove_z_mm": -4.85,
+      "outer_fuselage_z_mm": [
+        -3.553944703322969,
+        45.18287829580282
+      ],
+      "outer_fuselage_lower_z_mm": -3.553944703322969,
+      "inner_fuselage_z_mm": [
+        -8.72601633559124,
+        49.61059277232161
+      ],
+      "inner_fuselage_lower_z_mm": -8.72601633559124,
+      "required_outer_lowering_mm": 1.2960552966770305,
+      "target_inner_glove_z_mm": -6.35,
+      "required_inner_lowering_mm": -2.37601633559124
+    },
+    {
+      "x_mm": 492,
+      "wing_lower_proxy_z_mm": -4.03,
+      "target_outer_glove_z_mm": -5.03,
+      "outer_fuselage_z_mm": [
+        -3.7312920477477434,
+        45.437818613294326
+      ],
+      "outer_fuselage_lower_z_mm": -3.7312920477477434,
+      "inner_fuselage_z_mm": [
+        -8.98640961260196,
+        49.66341307288022
+      ],
+      "inner_fuselage_lower_z_mm": -8.98640961260196,
+      "required_outer_lowering_mm": 1.2987079522522569,
+      "target_inner_glove_z_mm": -6.53,
+      "required_inner_lowering_mm": -2.45640961260196
+    },
+    {
+      "x_mm": 496,
+      "wing_lower_proxy_z_mm": -4.25,
+      "target_outer_glove_z_mm": -5.25,
+      "outer_fuselage_z_mm": [
+        -4.082121950113816,
+        45.90444203838294
+      ],
+      "outer_fuselage_lower_z_mm": -4.082121950113816,
+      "inner_fuselage_z_mm": [
+        -9.501340552292518,
+        49.767986040264105
+      ],
+      "inner_fuselage_lower_z_mm": -9.501340552292518,
+      "required_outer_lowering_mm": 1.167878049886184,
+      "target_inner_glove_z_mm": -6.75,
+      "required_inner_lowering_mm": -2.7513405522925183
+    },
+    {
+      "x_mm": 500,
+      "wing_lower_proxy_z_mm": -4.45,
+      "target_outer_glove_z_mm": -5.45,
+      "outer_fuselage_z_mm": [
+        -4.427876933330083,
+        46.31779150084765
+      ],
+      "outer_fuselage_lower_z_mm": -4.427876933330083,
+      "inner_fuselage_z_mm": [
+        -10.00860064833175,
+        49.87115587323791
+      ],
+      "inner_fuselage_lower_z_mm": -10.00860064833175,
+      "required_outer_lowering_mm": 1.0221230666699173,
+      "target_inner_glove_z_mm": -6.95,
+      "required_inner_lowering_mm": -3.0586006483317503
+    },
+    {
+      "x_mm": 504.346,
+      "wing_lower_proxy_z_mm": -4.742,
+      "target_outer_glove_z_mm": -5.742,
+      "outer_fuselage_z_mm": [
+        -4.797894319237514,
+        46.71201783457178
+      ],
+      "outer_fuselage_lower_z_mm": -4.797894319237514,
+      "inner_fuselage_z_mm": [
+        -10.551230362802983,
+        49.98168739044644
+      ],
+      "inner_fuselage_lower_z_mm": -10.551230362802983,
+      "required_outer_lowering_mm": 0.9441056807624859,
+      "target_inner_glove_z_mm": -7.242,
+      "required_inner_lowering_mm": -3.3092303628029827
+    },
+    {
+      "x_mm": 508,
+      "wing_lower_proxy_z_mm": -4.85,
+      "target_outer_glove_z_mm": -5.85,
+      "outer_fuselage_z_mm": [
+        -5.104527051738742,
+        47.003063521140575
+      ],
+      "outer_fuselage_lower_z_mm": -5.104527051738742,
+      "inner_fuselage_z_mm": [
+        -11.000743814973745,
+        50.073381454967375
+      ],
+      "inner_fuselage_lower_z_mm": -11.000743814973745,
+      "required_outer_lowering_mm": 0.7454729482612574,
+      "target_inner_glove_z_mm": -7.35,
+      "required_inner_lowering_mm": -3.6507438149737457
+    },
+    {
+      "x_mm": 512,
+      "wing_lower_proxy_z_mm": -4.95,
+      "target_outer_glove_z_mm": -5.95,
+      "outer_fuselage_z_mm": [
+        -5.435599207823898,
+        47.282897329161614
+      ],
+      "outer_fuselage_lower_z_mm": -5.435599207823898,
+      "inner_fuselage_z_mm": [
+        -11.561549194397458,
+        50.17248352180249
+      ],
+      "inner_fuselage_lower_z_mm": -11.561549194397458,
+      "required_outer_lowering_mm": 0.5144007921761018,
+      "target_inner_glove_z_mm": -7.45,
+      "required_inner_lowering_mm": -4.111549194397457
+    },
+    {
+      "x_mm": 516,
+      "wing_lower_proxy_z_mm": -5.05,
+      "target_outer_glove_z_mm": -6.05,
+      "outer_fuselage_z_mm": [
+        -5.5238247968867284,
+        47.05175800837981
+      ],
+      "outer_fuselage_lower_z_mm": -5.5238247968867284,
+      "inner_fuselage_z_mm": [
+        -11.534983943823462,
+        50.00371672312306
+      ],
+      "inner_fuselage_lower_z_mm": -11.534983943823462,
+      "required_outer_lowering_mm": 0.5261752031132714,
+      "target_inner_glove_z_mm": -7.55,
+      "required_inner_lowering_mm": -3.9849839438234627
+    },
+    {
+      "x_mm": 520,
+      "wing_lower_proxy_z_mm": -5.1,
+      "target_outer_glove_z_mm": -6.1,
+      "outer_fuselage_z_mm": [
+        -5.374336675767154,
+        46.27285681032973
+      ],
+      "outer_fuselage_lower_z_mm": -5.374336675767154,
+      "inner_fuselage_z_mm": [
+        -11.161236955678362,
+        49.58403088209761
+      ],
+      "inner_fuselage_lower_z_mm": -11.161236955678362,
+      "required_outer_lowering_mm": 0.7256633242328459,
+      "target_inner_glove_z_mm": -7.6,
+      "required_inner_lowering_mm": -3.5612369556783623
+    }
+  ],
+  "outer_required_lowering_range_mm": [
+    0.5144007921761018,
+    1.2987079522522569
+  ],
+  "interpretation": "positive lowering means candidate glove lower surface must sit below current fuselage lower boundary to preserve 1 mm wing-root clearance",
+  "gates": {
+    "review_only": true,
+    "absolute_Z_verified": false,
+    "production_OML": false
+  }
+}

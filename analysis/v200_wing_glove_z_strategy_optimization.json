@@ -1,0 +1,56 @@
+{
+  "status": "V200_WING_GLOVE_Z_STRATEGY_OPTIMIZATION",
+  "verified_inputs": {
+    "v199_critical_base_clearance_mm": -0.2973023135814259,
+    "v199_critical_x_mm": 492,
+    "fit8_negative_range_mm": [
+      490,
+      520
+    ],
+    "omit2_negative_range_mm": [
+      490,
+      520
+    ],
+    "sketchfab_source_pivot_inside_wing_bbox": true
+  },
+  "strategies": [
+    {
+      "id": "MOVE_WING_DOWN",
+      "effect": "worsens clearance across 490..520",
+      "reject": true,
+      "reason": "all tested negative Z shifts increase interference; absolute pivot WL remains unverified"
+    },
+    {
+      "id": "MOVE_WING_UP",
+      "effect": "could create clearance but lacks source-backed positive Z datum",
+      "reject": true,
+      "reason": "would solve local collision by arbitrary translation and break fail-closed datum policy"
+    },
+    {
+      "id": "TRIM_WING_ROOT",
+      "effect": "removes wing material near pivot",
+      "reject": true,
+      "reason": "alters source-derived wing root and may weaken pivot/load path before glove OML is defined"
+    },
+    {
+      "id": "LOCAL_GLOVE_ENVELOPE_REBUILD",
+      "effect": "rebuild fixed glove/body transition around source-backed X/Y pivot while preserving wing geometry",
+      "reject": false,
+      "reason": "keeps wing source geometry, respects X/Y registration, and localizes unresolved Z to fixed glove OML zone"
+    }
+  ],
+  "decision": "LOCAL_GLOVE_ENVELOPE_REBUILD",
+  "optimization_target": {
+    "preserve_wing_source_geometry": true,
+    "preserve_source_backed_pivot_XY": true,
+    "do_not_freeze_absolute_Z": true,
+    "create_local_fixed_glove_clearance_envelope": true,
+    "minimum_review_clearance_target_mm": 1.0
+  },
+  "gates": {
+    "production_OML": false,
+    "pivot_WL_verified": false,
+    "master_changed": false,
+    "production_release": false
+  }
+}

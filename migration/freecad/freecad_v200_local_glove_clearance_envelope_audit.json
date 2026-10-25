@@ -1,0 +1,88 @@
+{
+  "status": "V200_LOCAL_GLOVE_CLEARANCE_ENVELOPE_REFERENCE_ONLY",
+  "clearance_target_mm": 1.0,
+  "x_range_mm": [
+    490,
+    520
+  ],
+  "root_abs_y_mm": 148.8263775443693,
+  "object_count": 11,
+  "all_shapes_valid": true,
+  "rows": [
+    {
+      "name": "CTX_FUSELAGE_CURRENT",
+      "valid": true,
+      "edges": 2100,
+      "faces": 1022
+    },
+    {
+      "name": "CTX_WING_R",
+      "valid": true,
+      "edges": 297,
+      "faces": 101
+    },
+    {
+      "name": "CTX_WING_L",
+      "valid": true,
+      "edges": 297,
+      "faces": 101
+    },
+    {
+      "name": "CTX_PIVOT_REF_R",
+      "valid": true,
+      "edges": 3,
+      "faces": 3
+    },
+    {
+      "name": "CTX_PIVOT_REF_L",
+      "valid": true,
+      "edges": 3,
+      "faces": 3
+    },
+    {
+      "name": "CLEARANCE_RAIL_R",
+      "valid": true,
+      "edges": 8,
+      "faces": 0
+    },
+    {
+      "name": "INNER_RAIL_R",
+      "valid": true,
+      "edges": 8,
+      "faces": 0
+    },
+    {
+      "name": "GLOVE_ENVELOPE_R",
+      "valid": true,
+      "edges": 25,
+      "faces": 8
+    },
+    {
+      "name": "CLEARANCE_RAIL_L",
+      "valid": true,
+      "edges": 8,
+      "faces": 0
+    },
+    {
+      "name": "INNER_RAIL_L",
+      "valid": true,
+      "edges": 8,
+      "faces": 0
+    },
+    {
+      "name": "GLOVE_ENVELOPE_L",
+      "valid": true,
+      "edges": 25,
+      "faces": 8
+    }
+  ],
+  "gates": {
+    "source_wing_preserved": true,
+    "pivot_XY_preserved": true,
+    "absolute_Z_verified": false,
+    "production_OML": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "output_sha256": "c474c017167c9e0b86084ab731db0cb3d01e4f7b5d76cd1c8b8f2b5a09fc9072"
+}

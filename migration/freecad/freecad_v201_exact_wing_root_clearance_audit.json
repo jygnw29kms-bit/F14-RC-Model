@@ -1,0 +1,106 @@
+{
+  "status": "V201_EXACT_WING_ROOT_CLEARANCE_AUDIT",
+  "rows": [
+    {
+      "x_mm": 490,
+      "wing_intersections_z_mm": [
+        -3.568413324,
+        5.941944257
+      ],
+      "exact_lower_z_mm": -3.568413324,
+      "v201_outer_target_z_mm": -4.85,
+      "exact_clearance_mm": 1.2815866759999994
+    },
+    {
+      "x_mm": 492,
+      "wing_intersections_z_mm": [
+        -3.804306452,
+        6.399635936
+      ],
+      "exact_lower_z_mm": -3.804306452,
+      "v201_outer_target_z_mm": -5.03,
+      "exact_clearance_mm": 1.2256935480000002
+    },
+    {
+      "x_mm": 496,
+      "wing_intersections_z_mm": [
+        -4.163847145,
+        7.143916596
+      ],
+      "exact_lower_z_mm": -4.163847145,
+      "v201_outer_target_z_mm": -5.25,
+      "exact_clearance_mm": 1.086152855
+    },
+    {
+      "x_mm": 500,
+      "wing_intersections_z_mm": [
+        -4.439146358,
+        7.735897193
+      ],
+      "exact_lower_z_mm": -4.439146358,
+      "v201_outer_target_z_mm": -5.45,
+      "exact_clearance_mm": 1.0108536419999998
+    },
+    {
+      "x_mm": 504.346,
+      "wing_intersections_z_mm": [
+        -4.6630566,
+        8.218064503
+      ],
+      "exact_lower_z_mm": -4.6630566,
+      "v201_outer_target_z_mm": -5.742,
+      "exact_clearance_mm": 1.0789434
+    },
+    {
+      "x_mm": 508,
+      "wing_intersections_z_mm": [
+        -4.812440299,
+        8.53025778
+      ],
+      "exact_lower_z_mm": -4.812440299,
+      "v201_outer_target_z_mm": -5.85,
+      "exact_clearance_mm": 1.0375597009999993
+    },
+    {
+      "x_mm": 512,
+      "wing_intersections_z_mm": [
+        -4.943396287,
+        8.789380211
+      ],
+      "exact_lower_z_mm": -4.943396287,
+      "v201_outer_target_z_mm": -5.95,
+      "exact_clearance_mm": 1.0066037130000005
+    },
+    {
+      "x_mm": 516,
+      "wing_intersections_z_mm": [
+        -5.041970858,
+        8.956156114
+      ],
+      "exact_lower_z_mm": -5.041970858,
+      "v201_outer_target_z_mm": -6.05,
+      "exact_clearance_mm": 1.0080291419999998
+    },
+    {
+      "x_mm": 520,
+      "wing_intersections_z_mm": [
+        -5.115754947,
+        9.056481394
+      ],
+      "exact_lower_z_mm": -5.115754947,
+      "v201_outer_target_z_mm": -6.1,
+      "exact_clearance_mm": 0.9842450529999995
+    }
+  ],
+  "clearance_range_mm": [
+    0.9842450529999995,
+    1.2815866759999994
+  ],
+  "minimum_clearance_mm": 0.9842450529999995,
+  "passes_1mm_target": true,
+  "gates": {
+    "exact_section_screen": true,
+    "absolute_Z_verified": false,
+    "production_OML": false
+  }
+}
