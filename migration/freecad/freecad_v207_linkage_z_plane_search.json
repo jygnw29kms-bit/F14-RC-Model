@@ -1,0 +1,95 @@
+{
+  "status": "V207_LINKAGE_Z_PLANE_SEARCH",
+  "results": [
+    {
+      "z_center_mm": 5.0,
+      "minimum_distance_mm": 3.5,
+      "worst": {
+        "z_center_mm": 5.0,
+        "sweep_deg": 20.0,
+        "side": "R",
+        "moving": "rod",
+        "fixed": "V204_MONO_LOWER_R",
+        "distance_mm": 3.5,
+        "intersection_mm3": 0.0
+      },
+      "collision_records": 0
+    },
+    {
+      "z_center_mm": 6.0,
+      "minimum_distance_mm": 2.5,
+      "worst": {
+        "z_center_mm": 6.0,
+        "sweep_deg": 20.0,
+        "side": "R",
+        "moving": "rod",
+        "fixed": "V204_UPPER_FORK_R",
+        "distance_mm": 2.5,
+        "intersection_mm3": 0.0
+      },
+      "collision_records": 0
+    },
+    {
+      "z_center_mm": 7.0,
+      "minimum_distance_mm": 1.5,
+      "worst": {
+        "z_center_mm": 7.0,
+        "sweep_deg": 20.0,
+        "side": "R",
+        "moving": "rod",
+        "fixed": "V204_UPPER_FORK_R",
+        "distance_mm": 1.5,
+        "intersection_mm3": 0.0
+      },
+      "collision_records": 0
+    },
+    {
+      "z_center_mm": 8.0,
+      "minimum_distance_mm": 0.5,
+      "worst": {
+        "z_center_mm": 8.0,
+        "sweep_deg": 20.0,
+        "side": "R",
+        "moving": "rod",
+        "fixed": "V204_UPPER_FORK_R",
+        "distance_mm": 0.5,
+        "intersection_mm3": 0.0
+      },
+      "collision_records": 0
+    },
+    {
+      "z_center_mm": 9.0,
+      "minimum_distance_mm": 0.0,
+      "worst": {
+        "z_center_mm": 9.0,
+        "sweep_deg": 20.0,
+        "side": "R",
+        "moving": "rod",
+        "fixed": "V204_UPPER_FORK_R",
+        "distance_mm": 0.0,
+        "intersection_mm3": 27.564490232303996
+      },
+      "collision_records": 50
+    }
+  ],
+  "best": {
+    "z_center_mm": 5.0,
+    "minimum_distance_mm": 3.5,
+    "worst": {
+      "z_center_mm": 5.0,
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 3.5,
+      "intersection_mm3": 0.0
+    },
+    "collision_records": 0
+  },
+  "gates": {
+    "zero_collision_plane_found": true,
+    "target_min_clearance_1p5mm_pass": true,
+    "print_release": false,
+    "flight_release": false
+  }
+}

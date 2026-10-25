@@ -1,0 +1,27 @@
+{
+  "status": "V208_SWEEP_PACKAGING_INTEGRATED",
+  "source_v205": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v205_SERVO_SLIDER_CANDIDATE.FCStd",
+  "v40_candidate_index": 23,
+  "linkage_z_center_mm": 5.0,
+  "slider_x_mm": [
+    443.4060396423778,
+    471.21391879567443
+  ],
+  "servo_axis_x_mm": 457.3099792190261,
+  "battery_service_gap_mm": 5.309979219026104,
+  "dynamic_sample_step_deg": 2,
+  "dynamic_v206_collision_count": 0,
+  "v207_minimum_clearance_mm": 3.5,
+  "gates": {
+    "battery_70mm_travel_packaging_pass": true,
+    "servo_service_fuselage_containment_pass": true,
+    "sampled_20_68_dynamic_collision_free": true,
+    "minimum_dynamic_clearance_3mm_pass": true,
+    "continuous_between_2deg_samples_certified": false,
+    "servo_model_selected": false,
+    "material_verified": false,
+    "physical_endurance_test": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

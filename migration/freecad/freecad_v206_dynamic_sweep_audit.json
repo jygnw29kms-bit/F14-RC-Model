@@ -1,0 +1,8032 @@
+{
+  "status": "V206_DYNAMIC_SWEEP_PACKAGING_AUDIT",
+  "candidate_index": 23,
+  "sweep_range_deg": [
+    20,
+    68
+  ],
+  "step_deg": 2,
+  "dynamic_records": [
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 8.433326473223438,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 111.31990386001944,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 7.202152136963734,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 131.19402042549032,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 120.64243457882819,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 152.29761139518627,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 117.37410301556373,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 85.77124076875045,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 58.19563065483308,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.16325725468366,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 133.8113071343679,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 71.55420614019023,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.2543110482161,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.921232244271366,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 122.06878193107119,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 91.03163841840492,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 63.546476623139945,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 111.31990386001944,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 8.433326473223438,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 131.19402042549032,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 7.202152136963734,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 152.29761140246484,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 120.64243457876357,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 117.37410301556373,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 85.77124076875045,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 58.19563065483308,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.16325725468366,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 133.8113071343679,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.25431105890027,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 71.55420615084721,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.921232244271366,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 122.06878193107119,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 91.03163841840492,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 20.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 63.546476623139945,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 9.469861637157267,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 111.40322382869763,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 8.392155827134225,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 131.2647259526599,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 121.84232895392795,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 153.24985657575513,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 116.25838692642367,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 84.73509491736738,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 57.39390290419775,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.25818007592034,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 133.88953512237532,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 71.72666902186205,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.38276219491786,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.90327389475963,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 120.9975525635633,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 90.04852139019034,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 62.68395834999651,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 111.40322382869763,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 9.469861637157267,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 131.2647259526599,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 8.392155827134225,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 153.24985658298846,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 121.84232895386397,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 116.25838692642367,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 84.73509491736738,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 57.39390290419775,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.25818007592034,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 133.88953512237532,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.38276220559345,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 71.72666903205466,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.90327389475963,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 120.9975525635633,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 90.04852139019034,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 22.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 62.68395834999651,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 10.537299493184499,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 111.49903443801236,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 9.580432172353515,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 131.34604935287953,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 123.03798848466708,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 154.20217905699454,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 115.14829549501674,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 83.70696067805324,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 56.60901497559033,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.36650911110719,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 133.9793728437297,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 71.94804491394078,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.46937496716146,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.886239979697365,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 119.93131783004335,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 89.07270321991308,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 61.83753382248811,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 111.49903443801236,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 10.537299493184499,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 131.34604935287953,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 9.580432172353515,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 154.20217906418318,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 123.03798848460373,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 115.14829549501674,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 83.70696067805324,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 56.60901497559033,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.36650911110719,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 133.9793728437297,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.46937497783102,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 71.94804492366471,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.886239979697365,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 119.93131783004335,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 89.07270321991308,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 24.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 61.83753382248811,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 11.626247829004283,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 111.60721140939516,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 10.766598282718029,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 131.43789270443068,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 124.22987181544936,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 155.15484673981445,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 114.0434348335833,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 82.68656127884258,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 55.84111212715785,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.48807470875089,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.08067929186808,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 72.21757386502428,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.51879280697707,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.87009922942368,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 118.86967059138001,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 88.10388911100188,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 61.007275520635275,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 111.60721140939516,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 11.626247829004283,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 131.43789270443068,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 10.766598282718029,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 155.15484674695895,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 124.22987181538662,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 114.0434348335833,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 82.68656127884258,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 55.84111212715785,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.48807470875089,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.08067929186808,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.518792817643,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 72.217573874278,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.87009922942368,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 118.86967059138001,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 88.10388911100188,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 26.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 61.007275520635275,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 12.730479214860496,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 111.7276380357161,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 11.950527228536618,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 131.5401653527925,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 125.41835533907191,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 156.1080692069761,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 112.94349072008117,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 81.67370115120131,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 55.09042406293879,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.62271277804793,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.19331927317802,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 72.53435381467541,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.53554681373845,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.85482164516463,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 117.81228313103593,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 87.14186409561573,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 60.193337373562954,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 111.7276380357161,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 12.730479214860496,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 131.5401653527925,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 11.950527228536618,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 156.108069214077,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 125.41835533900975,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 112.94349072008117,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 81.67370115120131,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 55.09042406293879,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.62271277804793,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.19331927317802,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.5355468244029,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 72.53435382345998,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.85482164516463,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 117.81228313103593,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 87.14186409561573,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 28.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 60.193337373562954,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 13.845744472841602,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 111.86020132293355,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 13.132198597615853,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 131.65278060112223,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 126.60373793525135,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 157.06200009789168,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 111.84822379580734,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 80.66826099496956,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 54.35725800321471,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.77026107655315,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.3171601646844,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 72.89734945268725,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.524064467578,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.84037839440701,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 116.75890239360318,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 86.1837966645068,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 59.39594827405489,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 111.86020132293355,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 13.845744472841602,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 131.65278060112223,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 13.132198597615853,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 157.06200010494948,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 126.60373793518977,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 111.84822379580734,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 80.66826099496956,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 54.35725800321471,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.77026107655315,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.3171601646844,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.52406447824276,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 72.89734946100637,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.84037839440701,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 116.75890239360318,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 86.1837966645068,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 30.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 59.39594827405489,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 14.969055485200757,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 112.00478838924262,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 14.311625418484754,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 131.77565261503742,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 127.78624486954571,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 158.0167389659457,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 110.75746554499896,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 79.67019354994142,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 53.641992008300946,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.93055576358027,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.4520688989703,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 73.30540209849418,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.48867613152788,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.826741730222466,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 115.70934598975084,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 85.20412884673931,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 58.61540596754821,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 112.00478838924262,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 14.969055485200757,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 131.77565261503742,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 14.311625418484754,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 158.01673897296087,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 127.78624486948472,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 110.75746554499896,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 79.67019354994142,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 53.641992008300946,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.93055576358027,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.4520688989703,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.48867614219452,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 73.30540210635411,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.826741730222466,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 115.70934598975084,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 85.20412884673931,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 32.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 58.61540596754821,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 16.098242793900013,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 112.16128307509393,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 15.488815999015342,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 131.90869350066112,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 128.96603098932067,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 158.97233270198547,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 109.6711149214896,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 78.6795199334231,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 52.94506838021141,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 115.10342817304725,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.59790913462618,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 73.75724036957745,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.43361964459098,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.81388493079915,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 114.66349883423331,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 84.1988361048149,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 57.85207115004404,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 112.16128307509393,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 16.098242793900013,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 131.90869350066112,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 15.488815999015342,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 158.97233270895842,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 128.96603098926025,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 109.6711149214896,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 78.6795199334231,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 52.94506838021141,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 115.10342817304725,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.59790913462618,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.43361965526094,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 73.75724037698663,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.81388493079915,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 114.66349883423331,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 84.1988361048149,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 34.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 57.85207115004404,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 17.231676141583176,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 112.32956272793199,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 16.66375295809461,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 132.0518105239319,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 130.14318333052344,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 159.92877659437832,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 108.58913550956291,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 77.69632642408592,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 52.266986988748535,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 115.28870176973082,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.75453857961264,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 74.25149140419168,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.36304326228407,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.801782256058985,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 113.62131030542777,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 83.18634654868862,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 57.106361630670754,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 112.32956272793199,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 17.231676141583176,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 132.0518105239319,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 16.66375295809461,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 159.92877660130958,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 130.14318333046356,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 108.58913550956291,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 77.69632642408592,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 52.266986988748535,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 115.28870176973082,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.75453857961264,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.36304327295832,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 74.25149141116117,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.801782256058985,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 113.62131030542777,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 83.18634654868862,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 36.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 57.106361630670754,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 18.36808360534285,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 112.50949513411241,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 17.83638122862552,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 132.2049034466304,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 131.31772323087313,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 160.88601508556462,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 107.5115531236552,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 76.72076158894635,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 51.60829838810186,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 115.48618926130496,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.92180644239207,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 74.78669240848225,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.28100715697124,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.790408918729895,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 112.58279183219052,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 82.18197450648618,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 56.378746432644824,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 112.50949513411241,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 18.36808360534285,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 132.2049034466304,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 17.83638122862552,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 160.88601509245464,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 131.31772323081378,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 107.5115531236552,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 76.72076158894635,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 51.60829838810186,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 115.48618926130496,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.92180644239207,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.2810071676506,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 74.78669241502507,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.790408918729895,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 112.58279183219052,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 82.18197450648618,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 38.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 56.378746432644824,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 19.506431761587812,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 112.70093557761392,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 19.006600960442185,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 132.36786196078518,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 132.48960803057582,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 161.84394227671282,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 106.43845376555566,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 75.75303366340388,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 50.96959660832399,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 115.69568984551421,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 135.0995509918947,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 75.36130231007664,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.19148365499782,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.77974106763525,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 111.54801482768887,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 81.18591540875244,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 55.669739722357576,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 112.70093557761392,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 19.506431761587812,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 132.36786196078518,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 19.006600960442185,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 161.84394228356206,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 132.489608030517,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 106.43845376555566,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 75.75303366340388,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 50.96959660832399,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 115.69568984551421,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 135.0995509918947,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.19148366568274,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 75.36130231620764,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.77974106763525,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 111.54801482768887,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 81.18591540875244,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 40.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 55.669739722357576,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 20.64584451145973,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 112.9037240111741,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 20.174263198227884,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 132.54056320836793,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 133.65873243002812,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 162.80240222544072,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 105.36998186902186,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 74.79340810475009,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 50.351511524177674,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 115.91698657768242,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 135.28759721261332,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 75.97371331826552,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.09835635934357,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.76975578127788,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 110.5171089010417,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 80.19841994067687,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 54.97989447127842,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 112.9037240111741,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 20.64584451145973,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 132.54056320836793,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 20.174263198227884,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 162.80240223224962,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 133.6587324299698,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 105.36998186902186,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 74.79340810475009,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 50.351511524177674,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 115.91698657768242,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 135.28759721261332,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.09835637003437,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 75.97371332400135,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.76975578127788,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 110.5171089010417,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 80.19841994067687,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 42.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 54.97989447127842,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 21.785546948430373,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 113.11768233058112,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 21.339167177803915,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 132.72286937767078,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 134.8249295645656,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 163.76118907623504,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 104.30633877087311,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 73.84220524804948,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 49.75470072270545,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 116.14984384870459,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 135.4857545455697,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 76.62226221349279,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.00541828378564,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.76043107005008,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 109.49026028669269,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 79.21979176074157,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 54.30979577012257,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 113.11768233058112,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 21.785546948430373,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 132.72286937767078,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 21.339167177803915,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 163.7611890830041,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 134.82492956450778,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 104.30633877087311,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 73.84220524804948,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 49.75470072270545,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 116.14984384870459,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 135.4857545455697,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.00541829448238,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 76.62226221885133,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.76043107005008,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 109.49026028669269,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 79.21979176074157,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 44.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 54.30979577012257,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 22.924825793873083,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 113.34261174721283,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 22.5010585901959,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 132.91462537162502,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 135.98797184864728,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 164.72004705888355,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 103.24778135513716,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 72.89979800030848,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 49.179840811183524,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 116.39400496788728,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 135.69381470971874,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 77.3052412145485,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 150.9271850035347,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.751745885608486,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 108.4677104389254,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 78.25038528693088,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 53.660053729980774,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 113.34261174721283,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 22.924825793873083,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 132.91462537162502,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 22.5010585901959,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 164.72004706561322,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 135.98797184858995,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 103.24778135513716,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 72.89979800030848,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 49.179840811183524,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 116.39400496788728,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 135.69381470971874,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 150.92718501423724,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 77.30524121954909,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.751745885608486,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 108.4677104389254,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 78.25038528693088,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 46.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 53.660053729980774,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 24.0630010151336,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 113.57829025766465,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 23.659628438636155,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 133.11565654668246,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 137.1475716355898,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 165.67867038672048,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 102.19462082305483,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 71.96660951478047,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 48.62761812939052,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 116.64918984861956,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 135.91154960166435,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 78.02090829917937,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 150.89046284296947,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.74368013612178,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 107.44975474515972,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 77.29060349591268,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 53.03129592137463,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 113.57829025766465,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 24.0630010151336,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 133.11565654668246,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 23.659628438636155,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 165.67867039341118,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 137.14757163553298,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 102.19462082305483,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 71.96660951478047,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 48.62761812939052,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 116.64918984861956,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 135.91154960166435,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 150.890462853675,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 78.02090830384203,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.74368013612178,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 107.44975474515972,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 77.29060349591268,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 48.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 53.03129592137463,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 25.199405135121918,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 113.82447021253387,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 24.81451226931549,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 133.32576652381942,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 138.3033817337568,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 166.63670308358115,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 101.14722154701852,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 71.04311079247188,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 48.098718854676605,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 116.91509279795926,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 136.13870927444236,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 78.76749688146747,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 150.8963202891631,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.73621470623977,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 106.43674131695565,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 76.34089568606456,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 52.42415931991198,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 113.82447021253387,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 25.199405135121918,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 133.32576652381942,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 24.81451226931549,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 166.6367030902334,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 138.30338173370043,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 101.14722154701852,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 71.04311079247188,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 48.098718854676605,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 116.91509279795926,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 136.13870927444236,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 150.89632029986862,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 78.76749688581327,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.73621470623977,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 106.43674131695565,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 76.34089568606456,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 50.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 52.42415931991198,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 26.33336792862839,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.08087598920564,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 25.965289647229323,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 133.5447350757959,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 139.454995815757,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 167.59373876593702,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 100.10599997104504,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 70.1298181626868,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 47.59381851522488,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 117.19138041388686,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 136.37501999863417,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 79.54322477618194,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 150.94470181530133,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.729331480749636,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 105.42906982221565,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 75.40175516018303,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 51.83928174661661,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.08087598920564,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 26.33336792862839,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 133.5447350757959,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 25.965289647229323,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 167.59373877255126,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 139.45499581570112,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 100.10599997104504,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 70.1298181626868,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 47.59381851522488,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 117.19138041388686,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 136.37501999863417,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 150.94470182600378,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 79.5432247802321,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.729331480749636,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 105.42906982221565,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 75.40175516018303,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 52.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 51.83928174661661,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 27.464204957886274,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.34720177585801,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 27.11148380241821,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 133.77231609704896,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 140.60194875350857,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 168.54932040461208,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 99.07142352437685,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 69.2272905990499,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 47.11357095597992,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 117.47768959625262,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 136.62018241126162,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 80.3463024054618,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.0354654758825,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.72301337098445,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 104.42272011328274,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 74.47371678843766,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 51.27729281220883,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.34720177585801,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 27.464204957886274,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 133.77231609704896,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 27.11148380241821,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 168.54932041118883,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 140.60194875345314,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 99.07142352437685,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 69.2272905990499,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 47.11357095597992,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 117.47768959625262,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 136.62018241126162,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.0354654865789,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 80.346302409238,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.72301337098445,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 104.42272011328274,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 74.47371678843766,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 54.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 51.27729281220883,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 28.591208892341086,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.62310947590579,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 28.25256140468478,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.0082356645497,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 141.7437169088361,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 169.50294008867397,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 98.04400951841723,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 68.3361268321001,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 46.6585968325051,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 117.77362567936034,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 136.87386975979882,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 81.17494022598314,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.16838358967397,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.71724434313497,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 103.4093738956258,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 73.55735441680804,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 50.73880439753021,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.62310947590579,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 28.591208892341086,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.0082356645497,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 28.25256140468478,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 169.50294009521375,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 141.7437169087811,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 98.04400951841723,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 68.3361268321001,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 46.6585968325051,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 117.77362567936034,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 136.87386975979882,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.16838360036118,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 81.17494022950713,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.71724434313497,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 103.4093738956258,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 73.55735441680804,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 56.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 50.73880439753021,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 29.71364288328807,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 114.90822674376093,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 29.387932445062816,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.25219019962233,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 142.87971840647867,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 170.45403881248157,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 97.02432400056011,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 67.45696222444889,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 46.22947173974393,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 118.07876069572289,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 137.13572625025185,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 82.02735537475576,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.3431438475653,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.71200944769054,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 102.39116401826206,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 72.65327809105123,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 50.22440072665425,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 114.90822674376093,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 29.71364288328807,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.25219019962233,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 29.387932445062816,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 170.45403881898483,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 142.8797184064241,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 97.02432400056011,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 67.45696222444889,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 46.22947173974393,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 118.07876069572289,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 137.13572625025185,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.3431438582405,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 82.02735537804921,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.71200944769054,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 102.39116401826206,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 72.65327809105123,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 58.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 50.22440072665425,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 30.830735482843167,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 115.20214516411161,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 30.516950214807583,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.50384474212268,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 144.0093134138747,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 171.40200630537535,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 96.01298054169962,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 66.59046537984766,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 45.82671411424333,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.500194831517961,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 118.39263178179581,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 137.40536550960107,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 82.901777548622,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.55935083180958,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.70729484930241,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 101.3709705887957,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 71.76213107135358,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 49.73462811452179,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 115.20214516411161,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 30.830735482843167,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.50384474212268,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 30.516950214807583,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 171.40200631184265,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 144.0093134138206,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 96.01298054169962,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 66.59046537984766,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 45.82671411424333,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 118.39263178179581,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.500194831517961,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 137.40536550960107,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.55935084246983,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 82.90177755170625,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.70729484930241,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 101.3709705887957,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 71.76213107135358,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 60.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 49.73462811452179,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 31.941676745835576,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 115.50441858792871,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 31.63891138037864,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 134.7628313495062,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 145.13180444980426,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 172.34618092208646,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 95.01063893736773,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 65.73733446345611,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 45.450773078504724,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.507921294676582,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 118.71473973747285,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 137.68236917399292,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 83.79645414634318,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 151.81652792847828,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.70308785642403,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 100.3579487027635,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 70.88458661835081,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 49.269984496470535,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 115.50441858792871,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 31.941676745835576,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 134.7628313495062,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 31.63891138037864,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 172.34618092851832,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 145.13180444975055,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 95.01063893736773,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 65.73733446345611,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 45.450773078504724,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 118.71473973747285,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.507921294676582,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 137.68236917399292,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 151.8165279391208,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 83.79645414923928,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.70308785642403,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 100.3579487027635,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 70.88458661835081,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 62.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 49.269984496470535,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 33.04561525614819,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 115.81456163910208,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 32.75305615751565,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 135.02874763418853,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 146.24643674183073,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 173.28584961056293,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 94.01800380563813,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 64.89829321730254,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 45.10201642322621,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.527531272916233,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 119.04454775180722,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 137.96628561490516,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 84.70965471290194,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 152.11411961066588,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.699376950140525,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 99.35552184131451,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 70.0213445372739,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 48.83090887189499,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 115.81456163910208,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 33.04561525614819,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 135.02874763418853,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 32.75305615751565,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 173.28584961695992,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 146.24643674177744,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 94.01800380563813,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 64.89829321730254,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 45.10201642322621,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 119.04454775180722,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.527531272916233,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 137.96628561490516,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 152.1141196212878,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 84.70965471563046,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.699376950140525,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 99.35552184131451,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 70.0213445372739,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 64.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 48.83090887189499,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 34.14165589089692,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 116.13204840599522,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 33.85856859012821,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 135.30115545320527,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 147.3523986504429,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 174.2202479725344,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 93.03582306820957,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 64.07408666249796,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 44.78071894562884,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.560010694840372,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 119.38148030781903,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 138.25662881609205,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 85.63967473350299,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 152.45149406615937,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.696151811654026,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 98.3644376695966,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 69.1731274736882,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 48.41777081740008,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 116.13204840599522,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 34.14165589089692,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 135.30115545320527,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 33.85856859012821,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 174.22024797889708,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 147.35239865039,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 93.03582306820957,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 64.07408666249796,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 44.78071894562884,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 119.38148030781903,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.560010694840372,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 138.25662881609205,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 152.45149407675805,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 85.639674736084,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.696151811654026,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 98.3644376695966,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 69.1731274736882,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 66.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 48.41777081740008,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 35.22885818650907,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 116.45631133229821,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 34.95457694101257,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 135.57957976452488,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 148.44882217583125,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 175.14856043074948,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 92.06488630447757,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 63.265476488286545,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 44.48705137816501,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 6.6065083315596445,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 119.72492227937072,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 138.55287741445449,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 86.58483882997454,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 152.82794614001003,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.693403347944674,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 97.38548515713293,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 68.34067696169446,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "R",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 48.030860245004895,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 116.45631133229821,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 35.22885818650907,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 135.57957976452488,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 34.95457694101257,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 175.14856043707843,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 148.44882217577876,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 47.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_305",
+      "distance_mm": 92.06488630447757,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_340",
+      "distance_mm": 63.265476488286545,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "slider",
+      "fixed": "BAT_375",
+      "distance_mm": 44.48705137816501,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_R",
+      "distance_mm": 119.72492227937072,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_MONO_LOWER_L",
+      "distance_mm": 6.6065083315596445,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_R",
+      "distance_mm": 138.55287741445449,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V204_UPPER_FORK_L",
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_R",
+      "distance_mm": 152.82794615058287,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "INLET_EDF_L",
+      "distance_mm": 86.58483883242748,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 49.693403347944674,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_305",
+      "distance_mm": 97.38548515713293,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_340",
+      "distance_mm": 68.34067696169446,
+      "intersection_mm3": 0.0
+    },
+    {
+      "sweep_deg": 68.0,
+      "side": "L",
+      "moving": "rod",
+      "fixed": "BAT_375",
+      "distance_mm": 48.030860245004895,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "wing_servo_records": [],
+  "minimum_distance_mm": 0.5,
+  "worst_record": {
+    "sweep_deg": 20.0,
+    "side": "R",
+    "moving": "rod",
+    "fixed": "V204_UPPER_FORK_R",
+    "distance_mm": 0.5,
+    "intersection_mm3": 0.0
+  },
+  "positive_collision_record_count": 0,
+  "gates": {
+    "dynamic_packaging_collision_free": true,
+    "full_20_68_sampled": true,
+    "continuous_between_samples_certified": false,
+    "servo_model_selected": false,
+    "material_verified": false,
+    "physical_endurance_test": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
