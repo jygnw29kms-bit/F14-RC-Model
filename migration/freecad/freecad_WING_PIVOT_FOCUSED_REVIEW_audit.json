@@ -1,0 +1,14 @@
+{
+  "status": "FOCUSED_WING_PIVOT_REVIEW",
+  "delta_X_mm": -108.78608120432563,
+  "old_pivot_X_mm": 613.1323905812828,
+  "target_pivot_X_mm": 504.3463093769572,
+  "object_count": 14,
+  "output_sha256": "b78506d5f7b28f0df1de12332c31fa7f29f227ee97ea36001cf5b0058a640d79",
+  "gates": {
+    "review_only": true,
+    "Y_verified": false,
+    "Z_verified": false,
+    "master_changed": false
+  }
+}
