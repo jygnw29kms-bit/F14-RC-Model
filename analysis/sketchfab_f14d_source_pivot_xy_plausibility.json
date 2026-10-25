@@ -1,0 +1,45 @@
+{
+  "status": "SKETCHFAB_SOURCE_PIVOT_XY_PLAUSIBILITY",
+  "scale_mm_per_fbx_unit": 46.08423263874968,
+  "fbx_nose_y": -11.756381034851074,
+  "source_pivot_model_mm": {
+    "nose_relative_longitudinal": 504.3463093769572,
+    "abs_lateral": 125.20927023775282
+  },
+  "mapped_pivot_fbx": {
+    "x_abs": 2.7169655013951837,
+    "y": -0.8123708930204749,
+    "z_unregistered": null
+  },
+  "wing_bounds": {
+    "L": {
+      "x": [
+        2.290252208709717,
+        9.764762878417969
+      ],
+      "y": [
+        -1.1188081502914429,
+        2.703639030456543
+      ]
+    },
+    "R": {
+      "x": [
+        -9.764693260192871,
+        -2.2904727458953857
+      ],
+      "y": [
+        -1.1188477277755737,
+        2.703608989715576
+      ]
+    }
+  },
+  "checks": {
+    "mapped_lateral_inside_wing_bbox": true,
+    "mapped_longitudinal_inside_wing_bbox": true
+  },
+  "limits": [
+    "Sketchfab model is visual secondary reference, not dimensional master.",
+    "Longitudinal mapping uses FBX nose minimum and span-normalized scale; no production release.",
+    "Z intentionally not registered."
+  ]
+}

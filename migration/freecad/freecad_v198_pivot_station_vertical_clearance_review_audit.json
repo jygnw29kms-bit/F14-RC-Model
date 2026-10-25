@@ -1,0 +1,61 @@
+{
+  "status": "V198_PIVOT_STATION_VERTICAL_CLEARANCE_REVIEW",
+  "pivot_x_mm": 504.3463093769572,
+  "inner_root_y_mm": 148.8263775443693,
+  "rows": [
+    {
+      "case": "BASE",
+      "delta_z_mm": 0.0,
+      "fuselage_z_mm": [
+        -4.79792045286392,
+        46.71204398923933
+      ],
+      "wing_z_mm": [
+        -4.741622616986604,
+        8.385789708125486
+      ],
+      "lower_clearance_mm": 0.056297835877316516,
+      "upper_clearance_mm": 38.32625428111385,
+      "vertically_contained": true
+    },
+    {
+      "case": "FIT8",
+      "delta_z_mm": -0.5455409752222806,
+      "fuselage_z_mm": [
+        -4.79792045286392,
+        46.71204398923933
+      ],
+      "wing_z_mm": [
+        -5.287163592208884,
+        7.840248732903206
+      ],
+      "lower_clearance_mm": -0.4892431393449641,
+      "upper_clearance_mm": 38.87179525633613,
+      "vertically_contained": false
+    },
+    {
+      "case": "OMIT2",
+      "delta_z_mm": -0.9126608357680936,
+      "fuselage_z_mm": [
+        -4.79792045286392,
+        46.71204398923933
+      ],
+      "wing_z_mm": [
+        -5.654283452754697,
+        7.4731288723573925
+      ],
+      "lower_clearance_mm": -0.8563629998907771,
+      "upper_clearance_mm": 39.23891511688194,
+      "vertically_contained": false
+    }
+  ],
+  "finding": "v195 base has only ~0.056 mm lower geometric clearance at pivot station; downward WL sensitivity cases cross below the current source-derived fuselage interval.",
+  "gates": {
+    "section_screen_only": true,
+    "absolute_pivot_WL_verified": false,
+    "glove_3D_verified": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "output_sha256": "2609fd229e9fdb25c6dbe94529dd6166f3b59f5d9b2b2b7dcd76edd3f7d16f1f"
+}

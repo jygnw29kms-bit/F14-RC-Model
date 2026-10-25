@@ -1,0 +1,209 @@
+{
+  "status": "V197_ROOT_VERTICAL_CONTAINMENT_SCREEN",
+  "method": "vertical line section through v195 fuselage at inner wing-root Y; wing Z sampled from nearest root vertices",
+  "rows": [
+    {
+      "x_mm": 479.4839172711096,
+      "inner_y_mm": 148.8263775443693,
+      "fuselage_intersections_z_mm": [
+        1.2063303201501157,
+        43.569702661037354
+      ],
+      "wing_base_near_z_mm": [
+        -1.325891823806103,
+        3.437491958801616
+      ],
+      "cases": [
+        {
+          "case": "BASE",
+          "delta_z_mm": 0.0,
+          "wing_z_mm": [
+            -1.325891823806103,
+            3.437491958801616
+          ],
+          "inside_fuselage_vertical_interval": false
+        },
+        {
+          "case": "FIT8",
+          "delta_z_mm": -0.5455409752222806,
+          "wing_z_mm": [
+            -1.8714327990283837,
+            2.8919509835793353
+          ],
+          "inside_fuselage_vertical_interval": false
+        },
+        {
+          "case": "OMIT2",
+          "delta_z_mm": -0.9126608357680936,
+          "wing_z_mm": [
+            -2.2385526595741965,
+            2.5248311230335223
+          ],
+          "inside_fuselage_vertical_interval": false
+        }
+      ]
+    },
+    {
+      "x_mm": 504.3463093769572,
+      "inner_y_mm": 148.8263775443693,
+      "fuselage_intersections_z_mm": [
+        -4.79792045286392,
+        46.71204398923933
+      ],
+      "wing_base_near_z_mm": [
+        -4.741622616986604,
+        8.385789708125486
+      ],
+      "cases": [
+        {
+          "case": "BASE",
+          "delta_z_mm": 0.0,
+          "wing_z_mm": [
+            -4.741622616986604,
+            8.385789708125486
+          ],
+          "inside_fuselage_vertical_interval": true
+        },
+        {
+          "case": "FIT8",
+          "delta_z_mm": -0.5455409752222806,
+          "wing_z_mm": [
+            -5.287163592208884,
+            7.840248732903206
+          ],
+          "inside_fuselage_vertical_interval": false
+        },
+        {
+          "case": "OMIT2",
+          "delta_z_mm": -0.9126608357680936,
+          "wing_z_mm": [
+            -5.654283452754697,
+            7.4731288723573925
+          ],
+          "inside_fuselage_vertical_interval": false
+        }
+      ]
+    },
+    {
+      "x_mm": 550.0,
+      "inner_y_mm": 148.8263775443693,
+      "fuselage_intersections_z_mm": [],
+      "wing_base_near_z_mm": [
+        -5.061153951472079,
+        8.268924081160861
+      ],
+      "cases": [
+        {
+          "case": "BASE",
+          "delta_z_mm": 0.0,
+          "wing_z_mm": [
+            -5.061153951472079,
+            8.268924081160861
+          ],
+          "inside_fuselage_vertical_interval": false
+        },
+        {
+          "case": "FIT8",
+          "delta_z_mm": -0.5455409752222806,
+          "wing_z_mm": [
+            -5.6066949266943595,
+            7.723383105938581
+          ],
+          "inside_fuselage_vertical_interval": false
+        },
+        {
+          "case": "OMIT2",
+          "delta_z_mm": -0.9126608357680936,
+          "wing_z_mm": [
+            -5.973814787240173,
+            7.356263245392768
+          ],
+          "inside_fuselage_vertical_interval": false
+        }
+      ]
+    },
+    {
+      "x_mm": 600.0,
+      "inner_y_mm": 148.8263775443693,
+      "fuselage_intersections_z_mm": [],
+      "wing_base_near_z_mm": [
+        -3.284500559263421,
+        2.808784471966732
+      ],
+      "cases": [
+        {
+          "case": "BASE",
+          "delta_z_mm": 0.0,
+          "wing_z_mm": [
+            -3.284500559263421,
+            2.808784471966732
+          ],
+          "inside_fuselage_vertical_interval": false
+        },
+        {
+          "case": "FIT8",
+          "delta_z_mm": -0.5455409752222806,
+          "wing_z_mm": [
+            -3.8300415344857015,
+            2.2632434967444515
+          ],
+          "inside_fuselage_vertical_interval": false
+        },
+        {
+          "case": "OMIT2",
+          "delta_z_mm": -0.9126608357680936,
+          "wing_z_mm": [
+            -4.1971613950315145,
+            1.8961236361986384
+          ],
+          "inside_fuselage_vertical_interval": false
+        }
+      ]
+    },
+    {
+      "x_mm": 627.4150906440201,
+      "inner_y_mm": 148.8263775443693,
+      "fuselage_intersections_z_mm": [],
+      "wing_base_near_z_mm": [
+        -1.970871739711981,
+        -1.010798424521795
+      ],
+      "cases": [
+        {
+          "case": "BASE",
+          "delta_z_mm": 0.0,
+          "wing_z_mm": [
+            -1.970871739711981,
+            -1.010798424521795
+          ],
+          "inside_fuselage_vertical_interval": false
+        },
+        {
+          "case": "FIT8",
+          "delta_z_mm": -0.5455409752222806,
+          "wing_z_mm": [
+            -2.516412714934262,
+            -1.5563393997440755
+          ],
+          "inside_fuselage_vertical_interval": false
+        },
+        {
+          "case": "OMIT2",
+          "delta_z_mm": -0.9126608357680936,
+          "wing_z_mm": [
+            -2.883532575480075,
+            -1.9234592602898886
+          ],
+          "inside_fuselage_vertical_interval": false
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "shape_section_screen_only": true,
+    "absolute_pivot_WL_verified": false,
+    "glove_surface_verified": false,
+    "master_changed": false,
+    "production_release": false
+  }
+}

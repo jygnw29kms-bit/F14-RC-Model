@@ -1,0 +1,276 @@
+{
+  "status": "V199_ROOT_CLEARANCE_SCAN_490_520",
+  "inner_root_y_mm": 148.8263775443693,
+  "rows": [
+    {
+      "x_mm": 490,
+      "fuselage_lower_z_mm": -3.553944703322969,
+      "wing_lower_base_z_mm": -3.737169949784544,
+      "base_clearance_mm": -0.1832252464615749,
+      "fit8_clearance_mm": -0.7287662216838555,
+      "omit2_clearance_mm": -1.0958860822296685
+    },
+    {
+      "x_mm": 491,
+      "fuselage_lower_z_mm": -3.6427806459675196,
+      "wing_lower_base_z_mm": -3.737169949784544,
+      "base_clearance_mm": -0.09438930381702448,
+      "fit8_clearance_mm": -0.6399302790393051,
+      "omit2_clearance_mm": -1.0070501395851181
+    },
+    {
+      "x_mm": 492,
+      "fuselage_lower_z_mm": -3.7312920477477434,
+      "wing_lower_base_z_mm": -4.028594361329169,
+      "base_clearance_mm": -0.2973023135814259,
+      "fit8_clearance_mm": -0.8428432888037065,
+      "omit2_clearance_mm": -1.2099631493495195
+    },
+    {
+      "x_mm": 493,
+      "fuselage_lower_z_mm": -3.8194804006859897,
+      "wing_lower_base_z_mm": -4.028594361329169,
+      "base_clearance_mm": -0.20911396064317955,
+      "fit8_clearance_mm": -0.7546549358654602,
+      "omit2_clearance_mm": -1.1217747964112732
+    },
+    {
+      "x_mm": 494,
+      "fuselage_lower_z_mm": -3.9073471876728405,
+      "wing_lower_base_z_mm": -4.028594361329169,
+      "base_clearance_mm": -0.12124717365632875,
+      "fit8_clearance_mm": -0.6667881488786094,
+      "omit2_clearance_mm": -1.0339080094244224
+    },
+    {
+      "x_mm": 495,
+      "fuselage_lower_z_mm": -3.9948938825369,
+      "wing_lower_base_z_mm": -4.260846303524659,
+      "base_clearance_mm": -0.26595242098775884,
+      "fit8_clearance_mm": -0.8114933962100395,
+      "omit2_clearance_mm": -1.1786132567558525
+    },
+    {
+      "x_mm": 496,
+      "fuselage_lower_z_mm": -4.082121950113816,
+      "wing_lower_base_z_mm": -4.260846303524659,
+      "base_clearance_mm": -0.1787243534108427,
+      "fit8_clearance_mm": -0.7242653286331233,
+      "omit2_clearance_mm": -1.0913851891789363
+    },
+    {
+      "x_mm": 497,
+      "fuselage_lower_z_mm": -4.169032846314877,
+      "wing_lower_base_z_mm": -4.45167751717571,
+      "base_clearance_mm": -0.282644670860833,
+      "fit8_clearance_mm": -0.8281856460831136,
+      "omit2_clearance_mm": -1.1953055066289267
+    },
+    {
+      "x_mm": 498,
+      "fuselage_lower_z_mm": -4.255628018194784,
+      "wing_lower_base_z_mm": -4.45167751717571,
+      "base_clearance_mm": -0.19604949898092627,
+      "fit8_clearance_mm": -0.7415904742032069,
+      "omit2_clearance_mm": -1.10871033474902
+    },
+    {
+      "x_mm": 499,
+      "fuselage_lower_z_mm": -4.341908904018936,
+      "wing_lower_base_z_mm": -4.45167751717571,
+      "base_clearance_mm": -0.10976861315677411,
+      "fit8_clearance_mm": -0.6553095883790547,
+      "omit2_clearance_mm": -1.0224294489248678
+    },
+    {
+      "x_mm": 500,
+      "fuselage_lower_z_mm": -4.427876933330083,
+      "wing_lower_base_z_mm": -4.609963872684716,
+      "base_clearance_mm": -0.18208693935463316,
+      "fit8_clearance_mm": -0.7276279145769138,
+      "omit2_clearance_mm": -1.0947477751227268
+    },
+    {
+      "x_mm": 501,
+      "fuselage_lower_z_mm": -4.513533527014289,
+      "wing_lower_base_z_mm": -4.609963872684716,
+      "base_clearance_mm": -0.09643034567042719,
+      "fit8_clearance_mm": -0.6419713208927078,
+      "omit2_clearance_mm": -1.0090911814385208
+    },
+    {
+      "x_mm": 502,
+      "fuselage_lower_z_mm": -4.598880097366404,
+      "wing_lower_base_z_mm": -4.609963872684716,
+      "base_clearance_mm": -0.01108377531831195,
+      "fit8_clearance_mm": -0.5566247505405926,
+      "omit2_clearance_mm": -0.9237446110864056
+    },
+    {
+      "x_mm": 503,
+      "fuselage_lower_z_mm": -4.683918048154908,
+      "wing_lower_base_z_mm": -4.741622616986604,
+      "base_clearance_mm": -0.057704568831695724,
+      "fit8_clearance_mm": -0.6032455440539763,
+      "omit2_clearance_mm": -0.9703654045997894
+    },
+    {
+      "x_mm": 504,
+      "fuselage_lower_z_mm": -4.768648774686113,
+      "wing_lower_base_z_mm": -4.741622616986604,
+      "base_clearance_mm": 0.027026157699509668,
+      "fit8_clearance_mm": -0.518514817522771,
+      "omit2_clearance_mm": -0.885634678068584
+    },
+    {
+      "x_mm": 505,
+      "fuselage_lower_z_mm": -4.85307366386786,
+      "wing_lower_base_z_mm": -4.741622616986604,
+      "base_clearance_mm": 0.11145104688125684,
+      "fit8_clearance_mm": -0.4340899283410238,
+      "omit2_clearance_mm": -0.8012097888868368
+    },
+    {
+      "x_mm": 506,
+      "fuselage_lower_z_mm": -4.937194094272627,
+      "wing_lower_base_z_mm": -4.852570997016301,
+      "base_clearance_mm": 0.08462309725632622,
+      "fit8_clearance_mm": -0.4609178779659544,
+      "omit2_clearance_mm": -0.8280377385117674
+    },
+    {
+      "x_mm": 507,
+      "fuselage_lower_z_mm": -5.021011436200013,
+      "wing_lower_base_z_mm": -4.852570997016301,
+      "base_clearance_mm": 0.168440439183712,
+      "fit8_clearance_mm": -0.37710053603856863,
+      "omit2_clearance_mm": -0.7442203965843817
+    },
+    {
+      "x_mm": 508,
+      "fuselage_lower_z_mm": -5.104527051738742,
+      "wing_lower_base_z_mm": -4.852570997016301,
+      "base_clearance_mm": 0.25195605472244154,
+      "fit8_clearance_mm": -0.2935849204998391,
+      "omit2_clearance_mm": -0.6607047810456521
+    },
+    {
+      "x_mm": 509,
+      "fuselage_lower_z_mm": -5.18774229482807,
+      "wing_lower_base_z_mm": -4.944288324507482,
+      "base_clearance_mm": 0.24345397032058802,
+      "fit8_clearance_mm": -0.3020870049016926,
+      "omit2_clearance_mm": -0.6692068654475056
+    },
+    {
+      "x_mm": 510,
+      "fuselage_lower_z_mm": -5.270658511318572,
+      "wing_lower_base_z_mm": -4.944288324507482,
+      "base_clearance_mm": 0.32637018681109087,
+      "fit8_clearance_mm": -0.21917078841118975,
+      "omit2_clearance_mm": -0.5862906489570028
+    },
+    {
+      "x_mm": 511,
+      "fuselage_lower_z_mm": -5.353277039032605,
+      "wing_lower_base_z_mm": -4.944288324507482,
+      "base_clearance_mm": 0.4089887145251234,
+      "fit8_clearance_mm": -0.1365522606971572,
+      "omit2_clearance_mm": -0.5036721212429702
+    },
+    {
+      "x_mm": 512,
+      "fuselage_lower_z_mm": -5.435599207823898,
+      "wing_lower_base_z_mm": -5.021212534661402,
+      "base_clearance_mm": 0.4143866731624968,
+      "fit8_clearance_mm": -0.13115430205978384,
+      "omit2_clearance_mm": -0.49827416260559687
+    },
+    {
+      "x_mm": 513,
+      "fuselage_lower_z_mm": -5.517626339636934,
+      "wing_lower_base_z_mm": -5.021212534661402,
+      "base_clearance_mm": 0.496413804975532,
+      "fit8_clearance_mm": -0.04912717024674862,
+      "omit2_clearance_mm": -0.41624703079256165
+    },
+    {
+      "x_mm": 514,
+      "fuselage_lower_z_mm": -5.590934668985952,
+      "wing_lower_base_z_mm": -5.021212534661402,
+      "base_clearance_mm": 0.5697221343245502,
+      "fit8_clearance_mm": 0.02418115910226959,
+      "omit2_clearance_mm": -0.34293870144354344
+    },
+    {
+      "x_mm": 515,
+      "fuselage_lower_z_mm": -5.558008303482453,
+      "wing_lower_base_z_mm": -5.081864315744298,
+      "base_clearance_mm": 0.4761439877381548,
+      "fit8_clearance_mm": -0.06939698748412582,
+      "omit2_clearance_mm": -0.43651684802993884
+    },
+    {
+      "x_mm": 516,
+      "fuselage_lower_z_mm": -5.5238247968867284,
+      "wing_lower_base_z_mm": -5.081864315744298,
+      "base_clearance_mm": 0.4419604811424307,
+      "fit8_clearance_mm": -0.10358049407984993,
+      "omit2_clearance_mm": -0.47070035462566295
+    },
+    {
+      "x_mm": 517,
+      "fuselage_lower_z_mm": -5.488375080896915,
+      "wing_lower_base_z_mm": -5.081864315744298,
+      "base_clearance_mm": 0.40651076515261764,
+      "fit8_clearance_mm": -0.13903021006966299,
+      "omit2_clearance_mm": -0.506150070615476
+    },
+    {
+      "x_mm": 518,
+      "fuselage_lower_z_mm": -5.451649999782845,
+      "wing_lower_base_z_mm": -5.130681602957338,
+      "base_clearance_mm": 0.3209683968255064,
+      "fit8_clearance_mm": -0.22457257839677425,
+      "omit2_clearance_mm": -0.5916924389425873
+    },
+    {
+      "x_mm": 519,
+      "fuselage_lower_z_mm": -5.4136403093298355,
+      "wing_lower_base_z_mm": -5.130681602957338,
+      "base_clearance_mm": 0.2829587063724972,
+      "fit8_clearance_mm": -0.2625822688497834,
+      "omit2_clearance_mm": -0.6297021293955964
+    },
+    {
+      "x_mm": 520,
+      "fuselage_lower_z_mm": -5.374336675767154,
+      "wing_lower_base_z_mm": -5.130681602957338,
+      "base_clearance_mm": 0.24365507280981547,
+      "fit8_clearance_mm": -0.30188590241246516,
+      "omit2_clearance_mm": -0.6690057629582782
+    }
+  ],
+  "critical_base": {
+    "x_mm": 492,
+    "fuselage_lower_z_mm": -3.7312920477477434,
+    "wing_lower_base_z_mm": -4.028594361329169,
+    "base_clearance_mm": -0.2973023135814259,
+    "fit8_clearance_mm": -0.8428432888037065,
+    "omit2_clearance_mm": -1.2099631493495195
+  },
+  "fit8_negative_x_range_mm": [
+    490,
+    520
+  ],
+  "omit2_negative_x_range_mm": [
+    490,
+    520
+  ],
+  "gates": {
+    "screen_only": true,
+    "absolute_pivot_WL_verified": false,
+    "glove_surface_verified": false,
+    "master_changed": false
+  }
+}

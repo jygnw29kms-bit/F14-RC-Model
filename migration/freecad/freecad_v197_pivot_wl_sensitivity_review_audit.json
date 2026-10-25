@@ -1,0 +1,29 @@
+{
+  "status": "V197_PIVOT_WL_SENSITIVITY_REVIEW",
+  "source_v195": "19ba02f987125c0c2dc7776e80e484fdd8d34dac626a2e2ff928b6e72fa5192d",
+  "cases": [
+    {
+      "case": "BASE_2STATION",
+      "pivot_wl_model_mm": 187.59240693460868,
+      "delta_z_vs_v195_mm": -0.0
+    },
+    {
+      "case": "FIT8",
+      "pivot_wl_model_mm": 188.13794790983096,
+      "delta_z_vs_v195_mm": -0.5455409752222806
+    },
+    {
+      "case": "FIT_OMIT2",
+      "pivot_wl_model_mm": 188.50506777037677,
+      "delta_z_vs_v195_mm": -0.9126608357680936
+    }
+  ],
+  "band_width_mm": 0.9126608357680936,
+  "interpretation": "Candidate band from prior Grumman/NASA wing-reference WL regressions; visual sensitivity only, not physical pivot-WL verification.",
+  "gates": {
+    "absolute_pivot_WL_verified": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "output_sha256": "89bc5b8b0101bc7d69aa84a2027d797951cf962705f6b719fc00d13500b0da94"
+}
