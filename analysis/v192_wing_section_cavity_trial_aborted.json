@@ -1,0 +1,19 @@
+{
+  "status": "OWN_ISOLATED_TRIAL_ABORTED_WITHOUT_RESULT",
+  "checked_at_utc": "2026-10-25T13:29:45.858541+00:00",
+  "process_id": 25548,
+  "script": "migration/freecad/trial_v192_wing_section_cavity.py",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "native_result_available": false,
+  "trial_fcstd_available": false,
+  "reason": "More than 25 minutes elapsed without final report; only matching own process stopped after command-line identity check.",
+  "unknown": "No intermediate checkpoint was emitted, so the expensive stage and geometry validity are unknown.",
+  "next_steps": [
+    "Do not infer cavity or shell validity from process activity.",
+    "Add flushed stage checkpoints before loft, validity and boolean operations.",
+    "Begin with a two-station loft and inspect edge correspondence before full-span processing.",
+    "Use distinct output paths for subsequent experiments."
+  ],
+  "print_release": false,
+  "flight_release": false
+}
