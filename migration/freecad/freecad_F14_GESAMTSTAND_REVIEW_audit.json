@@ -1,0 +1,48 @@
+{
+  "status": "F14_GESAMTSTAND_REVIEW",
+  "output": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_GESAMTSTAND_REVIEW.FCStd",
+  "sources": [
+    {
+      "tag": "LEGACY_FULL",
+      "file": "F14_v194_FAIL_CLOSED_REVIEW.FCStd",
+      "objects_copied": 66,
+      "sha256": "3a2b47297751d1dc88abd86d6138e49bb792039e08ed014688b59fd89383ef3c"
+    },
+    {
+      "tag": "CURRENT_SURFACE",
+      "file": "F14_ABCDEF_CR172559_SURFACE_REVIEW_CAGE.FCStd",
+      "objects_copied": 50,
+      "sha256": "dbdc822caeffd34a8f26c0f112da3a64096bfa90b59d24098a92b652797e8693"
+    },
+    {
+      "tag": "RADOME_GUIDES",
+      "file": "F14_ORIGINAL_RADOME_SEAM_GUIDES.FCStd",
+      "objects_copied": 2,
+      "sha256": "fcdde8ca1576ad10ee0e9ae3e7df7dfbf2eec0e372423f6d3f1499761b625265"
+    },
+    {
+      "tag": "NOSE_GUIDES",
+      "file": "F14_ORIGINAL_NOSE_PROJECTION_GUIDES.FCStd",
+      "objects_copied": 4,
+      "sha256": "656958ba94070580b8c15da160e8c648761b0a0c112a8c13c8f6f753bb766722"
+    },
+    {
+      "tag": "GLOVE_GUIDES",
+      "file": "F14_ORIGINAL_GLOVE_PLAN_GUIDES.FCStd",
+      "objects_copied": 2,
+      "sha256": "e5678180c9fa33b5fb3cda2618a838a399303325f2a98a1d4e80b01800c55b56"
+    },
+    {
+      "tag": "NOSE_A_SENS",
+      "file": "F14_NOSE_A_SHAPE_SENSITIVITY.FCStd",
+      "objects_copied": 10,
+      "sha256": "df9d75ee38c715bac9d1ba35a4394e317ae352b1281444b71a3731ae49ec5012"
+    }
+  ],
+  "gates": {
+    "legacy_not_master": true,
+    "current_reference_fail_closed": true,
+    "production_release": false
+  },
+  "note": "Aktuelle Gesamtansicht aus jeweils letztem relevanten Stand pro Konstruktionslinie; historische Duplikate bewusst nicht mehrfach importiert."
+}
