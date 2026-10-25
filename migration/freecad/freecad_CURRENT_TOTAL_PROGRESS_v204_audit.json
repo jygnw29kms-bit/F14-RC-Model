@@ -1,0 +1,22 @@
+{
+  "status": "CURRENT_TOTAL_PROGRESS_V204",
+  "base": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v203_INTEGRATED_FULL_MODEL_CANDIDATE.FCStd",
+  "structural": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v204_STRUCTURAL_WINGBOX_CANDIDATE.FCStd",
+  "imported": [
+    "TOTAL_V204_MONO_LOWER_R",
+    "TOTAL_V204_MONO_LOWER_L",
+    "TOTAL_V204_UPPER_FORK_R",
+    "TOTAL_V204_UPPER_FORK_L",
+    "TOTAL_V204_BEARING_LOWER_R",
+    "TOTAL_V204_BEARING_UPPER_R",
+    "TOTAL_V204_BEARING_LOWER_L",
+    "TOTAL_V204_BEARING_UPPER_L"
+  ],
+  "shape_count": 80,
+  "gates": {
+    "servo_relocation_v205_pending": true,
+    "absolute_glove_Z_open": true,
+    "production_release": false
+  },
+  "sha256": "bf54eab98bba838ceffe1b4d9fc53c1538a1f17e9dc1d1cf66e2d83f1ca2e887"
+}
