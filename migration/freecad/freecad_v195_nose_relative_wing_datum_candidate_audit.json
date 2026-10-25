@@ -1,0 +1,142 @@
+{
+  "status": "V195_NOSE_RELATIVE_WING_DATUM_CANDIDATE",
+  "source": "v194 fail-closed review",
+  "FS93_shift_mm": -108.7860812043256,
+  "old_pivot_X_mm": 613.1323905812828,
+  "new_pivot_X_mm": 504.3463093769572,
+  "shifted_objects": [
+    "WING_R",
+    "WING_L",
+    "WINGBOX_REF",
+    "PIVOT_REF_R",
+    "PIVOT_REF_L",
+    "WING_R_SWEEP_40",
+    "WING_L_SWEEP_40",
+    "WING_R_SWEEP_54",
+    "WING_L_SWEEP_54",
+    "WING_R_SWEEP_68",
+    "WING_L_SWEEP_68",
+    "SWEEP_SLIDER_R",
+    "SWEEP_SLIDER_L",
+    "SWEEP_SERVO_SERVICE_REF",
+    "V194_CRANK_R_20",
+    "V194_ROD_R_20",
+    "V194_SLIDER_R_20",
+    "V194_CRANK_L_20",
+    "V194_ROD_L_20",
+    "V194_SLIDER_L_20",
+    "V194_CRANK_R_44",
+    "V194_ROD_R_44",
+    "V194_SLIDER_R_44",
+    "V194_CRANK_L_44",
+    "V194_ROD_L_44",
+    "V194_SLIDER_L_44",
+    "V194_CRANK_R_68",
+    "V194_ROD_R_68",
+    "V194_SLIDER_R_68",
+    "V194_CRANK_L_68",
+    "V194_ROD_L_68",
+    "V194_SLIDER_L_68"
+  ],
+  "records": [
+    {
+      "name": "FUSELAGE_CURRENT",
+      "x": [
+        0.5,
+        879.0
+      ],
+      "y": [
+        -159.615,
+        159.615
+      ],
+      "z": [
+        -39.2383307376255,
+        89.91721342283451
+      ]
+    },
+    {
+      "name": "WING_R",
+      "x": [
+        479.4839172711096,
+        640.8174422689683
+      ],
+      "y": [
+        148.8263775443693,
+        449.99999999999994
+      ],
+      "z": [
+        -12.425259506190798,
+        9.094380028581725
+      ]
+    },
+    {
+      "name": "WING_L",
+      "x": [
+        479.4839172711096,
+        640.8174422689683
+      ],
+      "y": [
+        -449.99999999999994,
+        -148.8263775443693
+      ],
+      "z": [
+        -12.425259506190798,
+        9.094380028581725
+      ]
+    },
+    {
+      "name": "PIVOT_REF_R",
+      "x": [
+        492.34630937695727,
+        516.3463093769573
+      ],
+      "y": [
+        113.20927023775282,
+        137.20927023775283
+      ],
+      "z": [
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "PIVOT_REF_L",
+      "x": [
+        492.34630937695727,
+        516.3463093769573
+      ],
+      "y": [
+        -137.20927023775283,
+        -113.20927023775282
+      ],
+      "z": [
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "WINGBOX_REF",
+      "x": [
+        466.34630937695727,
+        549.3463093769573
+      ],
+      "y": [
+        -153.20927023775283,
+        153.20927023775283
+      ],
+      "z": [
+        -13.0,
+        13.0
+      ]
+    }
+  ],
+  "gates": {
+    "nose_relative_X_candidate": true,
+    "Y_verified": false,
+    "Z_verified": false,
+    "glove_fit_verified": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "output_sha256": "f062f666c5c49b6c8946ec9bcf2894873d472344b6224d7820fddb4e360122b8"
+}

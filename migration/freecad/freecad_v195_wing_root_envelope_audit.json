@@ -1,0 +1,31 @@
+{
+  "status": "V195_WING_ROOT_ENVELOPE_SCREEN",
+  "source": "source-derived fuselage station half-widths from build_current_full_view.py",
+  "rows": [
+    {
+      "model": "v194_absolute_FS_mixed",
+      "pivot_x_mm": 613.1323905812828,
+      "fuselage_half_width_interp_mm": 112.91370402349851,
+      "wing_inner_y_mm": 148.8263775443693,
+      "signed_lateral_gap_mm": 35.9126735208708,
+      "interpretation": "positive=gap; negative=wing root lies inside fuselage/glove envelope"
+    },
+    {
+      "model": "v195_nose_relative",
+      "pivot_x_mm": 504.3463093769572,
+      "fuselage_half_width_interp_mm": 159.615,
+      "wing_inner_y_mm": 148.8263775443693,
+      "signed_lateral_gap_mm": -10.788622455630701,
+      "interpretation": "positive=gap; negative=wing root lies inside fuselage/glove envelope"
+    }
+  ],
+  "result": "v194 shows ~35.9 mm lateral gap at pivot station; v195 places wing root ~10.8 mm inside fuselage/glove envelope",
+  "gates": {
+    "X_frame_mismatch_supported": true,
+    "Y_verified": false,
+    "Z_verified": false,
+    "glove_surface_verified": false,
+    "master_changed": false,
+    "production_release": false
+  }
+}
