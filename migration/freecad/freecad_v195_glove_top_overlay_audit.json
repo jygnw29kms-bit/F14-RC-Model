@@ -1,0 +1,16 @@
+{
+  "status": "V195_GLOVE_TOP_OVERLAY_REVIEW",
+  "guide_aft_x_mm": 457.354009651243,
+  "wing_forward_x_mm": 479.4839172711096,
+  "projected_x_gap_mm": 22.12990761986657,
+  "pivot_x_mm": 504.3463093769572,
+  "pivot_abs_y_mm": 125.20927023775282,
+  "gates": {
+    "guide_projection_only": true,
+    "Y_source_backed": true,
+    "Z_verified": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "output_sha256": "3941c7a34a23818a952af70c82af203e809d19e725b5f6903b9bc9ca86e7aad4"
+}

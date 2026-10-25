@@ -1,0 +1,71 @@
+{
+  "status": "V195_GLOVE_PLAN_ALIGNMENT_SCREEN",
+  "wing": {
+    "WING_R": {
+      "x": [
+        479.4839172711096,
+        640.8174422689683
+      ],
+      "y": [
+        148.8263775443693,
+        449.99999999999994
+      ],
+      "z": [
+        -12.425259506190798,
+        9.094380028581725
+      ]
+    },
+    "WING_L": {
+      "x": [
+        479.4839172711096,
+        640.8174422689683
+      ],
+      "y": [
+        -449.99999999999994,
+        -148.8263775443693
+      ],
+      "z": [
+        -12.425259506190798,
+        9.094380028581725
+      ]
+    }
+  },
+  "glove": {
+    "PLAN_UPPER_GLOVE_COMPONENT": {
+      "label": "PLAN_UPPER_GLOVE_COMPONENT / Z0 projection only / NOT SURFACE RAIL",
+      "x": [
+        286.04113031526884,
+        457.354009651243
+      ],
+      "y": [
+        -137.44564088263158,
+        -77.09079570118837
+      ],
+      "z": [
+        0.0,
+        0.0
+      ]
+    },
+    "PLAN_LOWER_GLOVE_COMPONENT": {
+      "label": "PLAN_LOWER_GLOVE_COMPONENT / Z0 projection only / NOT SURFACE RAIL",
+      "x": [
+        286.04113031526884,
+        457.354009651243
+      ],
+      "y": [
+        76.82723742528688,
+        137.1820826067301
+      ],
+      "z": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "gates": {
+    "Y_source_backed": true,
+    "Z_verified": false,
+    "glove_fit_verified": false,
+    "master_changed": false
+  }
+}
