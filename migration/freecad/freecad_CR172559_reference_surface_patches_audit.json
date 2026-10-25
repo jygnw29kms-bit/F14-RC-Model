@@ -79,9 +79,35 @@
       ],
       "stations": 8,
       "faces": 14
+    },
+    {
+      "pair": [
+        "FUP",
+        "FLO"
+      ],
+      "side": "R",
+      "FS_range_in": [
+        352,
+        780
+      ],
+      "stations": 10,
+      "faces": 18
+    },
+    {
+      "pair": [
+        "FUP",
+        "FLO"
+      ],
+      "side": "L",
+      "FS_range_in": [
+        352,
+        780
+      ],
+      "stations": 10,
+      "faces": 18
     }
   ],
-  "output_sha256": "1c9bf29bb2d24d6ecf662e26f27a4ba5dd217de566fd9b65e5b98e409ebb2cd5",
+  "output_sha256": "b84e91c60390dae861fdcfca95a7faaef04e7c8585180cb3374bc43fbb1ecfab",
   "gates": {
     "reference_only": true,
     "full_skin_created": false,

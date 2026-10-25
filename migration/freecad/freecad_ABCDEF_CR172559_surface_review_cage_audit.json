@@ -8,11 +8,11 @@
     },
     {
       "file": "F14_CR172559_REFERENCE_SURFACE_PATCHES.FCStd",
-      "objects": 8,
-      "sha256": "1c9bf29bb2d24d6ecf662e26f27a4ba5dd217de566fd9b65e5b98e409ebb2cd5"
+      "objects": 10,
+      "sha256": "b84e91c60390dae861fdcfca95a7faaef04e7c8585180cb3374bc43fbb1ecfab"
     }
   ],
-  "output_sha256": "21255444a0dd6ef440289fc80910328ef8571933866d05f3c06fe6ba8a74a456",
+  "output_sha256": "dbdc822caeffd34a8f26c0f112da3a64096bfa90b59d24098a92b652797e8693",
   "gates": {
     "ABCDEF_common_Z_registered": false,
     "CR172559_surface_patches_reference_only": true,
