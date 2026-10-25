@@ -1,0 +1,46 @@
+{
+  "status": "V196_GLOVE_TRANSITION_PLAN_RAILS_REFERENCE_ONLY",
+  "records": [
+    {
+      "side": "R",
+      "guide_tangent_deg": 21.8014094863519,
+      "direct_connector_deg": 27.752407510452926,
+      "tangent_kink_deg": 5.950998024101011,
+      "gap_mm": 25.006447485769723,
+      "guide_end_xy": [
+        457.354009651243,
+        137.1820826067301
+      ],
+      "wing_forward_root_xy": [
+        479.4839172711096,
+        148.8263775443693
+      ]
+    },
+    {
+      "side": "L",
+      "guide_tangent_deg": -21.80140948635179,
+      "direct_connector_deg": -27.215377137242324,
+      "tangent_kink_deg": 5.413967650890527,
+      "gap_mm": 24.884814209225066,
+      "guide_end_xy": [
+        457.354009651243,
+        -137.44564088263158
+      ],
+      "wing_forward_root_xy": [
+        479.4839172711096,
+        -148.8263775443693
+      ]
+    }
+  ],
+  "method": "BSpline through guide-end tangent continuation, midpoint, and v195 forward inner wing-root point; XY projection only",
+  "gates": {
+    "X_v195_supported": true,
+    "pivot_Y_source_backed": true,
+    "plan_transition_reference_only": true,
+    "Z_registered": false,
+    "3D_glove_surface_created": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "output_sha256": "d202e6f4178b25859384d4bea592239e05e64795131c3e1dff8c9df5e6c20ed8"
+}

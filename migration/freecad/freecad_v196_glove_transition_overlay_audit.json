@@ -1,0 +1,15 @@
+{
+  "status": "V196_GLOVE_TRANSITION_OVERLAY_REVIEW",
+  "counts": {
+    "V195": 5,
+    "GLOVE": 2,
+    "TRANS": 6
+  },
+  "gates": {
+    "plan_only": true,
+    "Z_registered": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "output_sha256": "81ae0ca9a3fc186c78cef514c36b6cf2e704722e6ee137fa778fdaf4dc56bf32"
+}

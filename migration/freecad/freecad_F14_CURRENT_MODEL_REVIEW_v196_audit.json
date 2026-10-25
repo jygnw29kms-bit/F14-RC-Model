@@ -1,0 +1,27 @@
+{
+  "status": "F14_CURRENT_MODEL_REVIEW_V196",
+  "sources": {
+    "V195": "19ba02f987125c0c2dc7776e80e484fdd8d34dac626a2e2ff928b6e72fa5192d",
+    "CURRENT_SURFACE": "dbdc822caeffd34a8f26c0f112da3a64096bfa90b59d24098a92b652797e8693",
+    "TRANS": "d202e6f4178b25859384d4bea592239e05e64795131c3e1dff8c9df5e6c20ed8",
+    "RADOME": "fcdde8ca1576ad10ee0e9ae3e7df7dfbf2eec0e372423f6d3f1499761b625265",
+    "NOSE": "656958ba94070580b8c15da160e8c648761b0a0c112a8c13c8f6f753bb766722"
+  },
+  "counts": {
+    "V195": 63,
+    "CURRENT_SURFACE": 50,
+    "TRANS": 7,
+    "RADOME": 2,
+    "NOSE": 4
+  },
+  "gates": {
+    "v195_X_candidate_used": true,
+    "pivot_Y_source_backed": true,
+    "common_Z_registered": false,
+    "glove_transition_plan_only": true,
+    "production_OML": false,
+    "master_release": false,
+    "production_release": false
+  },
+  "output_sha256": "84fe363374dc34ff890e5d39e11ed9905c52defb46d2b98517d6b28af84caee0"
+}
