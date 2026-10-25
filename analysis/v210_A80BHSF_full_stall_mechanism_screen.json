@@ -1,0 +1,255 @@
+{
+  "status": "V210_A80BHSF_FULL_STALL_MECHANISM_SCREEN",
+  "servo": {
+    "model": "AGFRC A80BHSF/A80BHS V2 geometry equivalent",
+    "voltage_V": 8.4,
+    "published_stall_kgcm": 36,
+    "stall_Nm": 3.530394,
+    "dimensions_mm": [
+      40,
+      20,
+      37.5
+    ],
+    "travel_deg": 180
+  },
+  "loads": {
+    "dynamic_factor": 2.5,
+    "worst": {
+      "sweep_deg": 20,
+      "pin_y_mm": 9.781639139168464,
+      "static_slider_force_N": 360.9204909086555,
+      "dynamic_total_N": 902.3012272716387,
+      "dynamic_per_side_N": 451.15061363581935,
+      "wing_torque_per_side_Nm": 4.906399313906115
+    },
+    "minimum_static_wing_torque_per_side_Nm": 3.0092506937296513
+  },
+  "stress_existing_v208": {
+    "yoke_neck_nominal_MPa": 142.11244329528307,
+    "yoke_neck_1p5x_MPa": 213.1686649429246,
+    "yoke_center_nominal_MPa": 85.91247037010233,
+    "M3_pin_single_shear_MPa": 63.824755768073324,
+    "4mm_rod_axial_MPa": 35.901425119541244,
+    "crank_net_section_MPa": 8.432721750202232,
+    "crank_pin_bearing_MPa": 30.07670757572129,
+    "yoke_pin_bearing_MPa": 18.797942234825808
+  },
+  "material_implication": {
+    "FDM_structural_yoke_rejected": true,
+    "aluminum_or_CF_laminate_required": true,
+    "specific_alloy_not_released": true
+  },
+  "samples": [
+    {
+      "sweep_deg": 20,
+      "pin_y_mm": 9.781639139168464,
+      "static_slider_force_N": 360.9204909086555,
+      "dynamic_total_N": 902.3012272716387,
+      "dynamic_per_side_N": 451.15061363581935,
+      "wing_torque_per_side_Nm": 4.906399313906115
+    },
+    {
+      "sweep_deg": 22,
+      "pin_y_mm": 11.296425452297607,
+      "static_slider_force_N": 312.52310873984874,
+      "dynamic_total_N": 781.3077718496219,
+      "dynamic_per_side_N": 390.65388592481094,
+      "wing_torque_per_side_Nm": 4.280741098412956
+    },
+    {
+      "sweep_deg": 24,
+      "pin_y_mm": 12.512418941219016,
+      "static_slider_force_N": 282.15119846810796,
+      "dynamic_total_N": 705.3779961702699,
+      "dynamic_per_side_N": 352.6889980851349,
+      "wing_torque_per_side_Nm": 3.8929334909643476
+    },
+    {
+      "sweep_deg": 26,
+      "pin_y_mm": 13.512014061852627,
+      "static_slider_force_N": 261.2781472724392,
+      "dynamic_total_N": 653.1953681810979,
+      "dynamic_per_side_N": 326.59768409054897,
+      "wing_torque_per_side_Nm": 3.630089627049363
+    },
+    {
+      "sweep_deg": 28,
+      "pin_y_mm": 14.341715664252476,
+      "static_slider_force_N": 246.16259885835717,
+      "dynamic_total_N": 615.4064971458929,
+      "dynamic_per_side_N": 307.70324857294645,
+      "wing_torque_per_side_Nm": 3.4427422643133543
+    },
+    {
+      "sweep_deg": 30,
+      "pin_y_mm": 15.030651546025338,
+      "static_slider_force_N": 234.87963839688422,
+      "dynamic_total_N": 587.1990959922106,
+      "dynamic_per_side_N": 293.5995479961053,
+      "wing_torque_per_side_Nm": 3.305468182449001
+    },
+    {
+      "sweep_deg": 32,
+      "pin_y_mm": 15.598290631041456,
+      "static_slider_force_N": 226.33210801793382,
+      "dynamic_total_N": 565.8302700448346,
+      "dynamic_per_side_N": 282.9151350224173,
+      "wing_torque_per_side_Nm": 3.2037877584154386
+    },
+    {
+      "sweep_deg": 34,
+      "pin_y_mm": 16.05819123706007,
+      "static_slider_force_N": 219.85004088457623,
+      "dynamic_total_N": 549.6251022114405,
+      "dynamic_per_side_N": 274.8125511057203,
+      "wing_torque_per_side_Nm": 3.128862171230671
+    },
+    {
+      "sweep_deg": 36,
+      "pin_y_mm": 16.420019169203616,
+      "static_slider_force_N": 215.00547372206427,
+      "dynamic_total_N": 537.5136843051607,
+      "dynamic_per_side_N": 268.75684215258036,
+      "wing_torque_per_side_Nm": 3.0750439982266133
+    },
+    {
+      "sweep_deg": 38,
+      "pin_y_mm": 16.69071576823712,
+      "static_slider_force_N": 211.51843030713127,
+      "dynamic_total_N": 528.7960757678281,
+      "dynamic_per_side_N": 264.39803788391407,
+      "wing_torque_per_side_Nm": 3.0386347655710972
+    },
+    {
+      "sweep_deg": 40,
+      "pin_y_mm": 16.875207898815336,
+      "static_slider_force_N": 209.20595593064297,
+      "dynamic_total_N": 523.0148898266075,
+      "dynamic_per_side_N": 261.50744491330374,
+      "wing_torque_per_side_Nm": 3.0172120267539166
+    },
+    {
+      "sweep_deg": 42,
+      "pin_y_mm": 16.976850952000486,
+      "static_slider_force_N": 207.95340725919442,
+      "dynamic_total_N": 519.883518147986,
+      "dynamic_per_side_N": 259.941759073993,
+      "wing_torque_per_side_Nm": 3.0092506937296513
+    },
+    {
+      "sweep_deg": 44,
+      "pin_y_mm": 16.99770394859461,
+      "static_slider_force_N": 207.69828740851185,
+      "dynamic_total_N": 519.2457185212796,
+      "dynamic_per_side_N": 259.6228592606398,
+      "wing_torque_per_side_Nm": 3.0139101971927755
+    },
+    {
+      "sweep_deg": 46,
+      "pin_y_mm": 16.93868957459421,
+      "static_slider_force_N": 208.4219079907529,
+      "dynamic_total_N": 521.0547699768823,
+      "dynamic_per_side_N": 260.52738498844116,
+      "wing_torque_per_side_Nm": 3.0309251665542143
+    },
+    {
+      "sweep_deg": 48,
+      "pin_y_mm": 16.799666224385465,
+      "static_slider_force_N": 210.1466751092635,
+      "dynamic_total_N": 525.3666877731588,
+      "dynamic_per_side_N": 262.6833438865794,
+      "wing_torque_per_side_Nm": 3.060570650223142
+    },
+    {
+      "sweep_deg": 50,
+      "pin_y_mm": 16.5794225600336,
+      "static_slider_force_N": 212.93829668774939,
+      "dynamic_total_N": 532.3457417193734,
+      "dynamic_per_side_N": 266.1728708596867,
+      "wing_torque_per_side_Nm": 3.1036928318754096
+    },
+    {
+      "sweep_deg": 52,
+      "pin_y_mm": 16.275591740324064,
+      "static_slider_force_N": 216.91340360013882,
+      "dynamic_total_N": 542.2835090003471,
+      "dynamic_per_side_N": 271.14175450017353,
+      "wing_torque_per_side_Nm": 3.1618121715052387
+    },
+    {
+      "sweep_deg": 54,
+      "pin_y_mm": 15.884468029032444,
+      "static_slider_force_N": 222.2544685504991,
+      "dynamic_total_N": 555.6361713762477,
+      "dynamic_per_side_N": 277.81808568812386,
+      "wing_torque_per_side_Nm": 3.2373246319556848
+    },
+    {
+      "sweep_deg": 56,
+      "pin_y_mm": 15.4006880332779,
+      "static_slider_force_N": 229.23612194283157,
+      "dynamic_total_N": 573.090304857079,
+      "dynamic_per_side_N": 286.5451524285395,
+      "wing_torque_per_side_Nm": 3.333856622128627
+    },
+    {
+      "sweep_deg": 58,
+      "pin_y_mm": 14.816703974333793,
+      "static_slider_force_N": 238.27121106796207,
+      "dynamic_total_N": 595.6780276699052,
+      "dynamic_per_side_N": 297.8390138349526,
+      "wing_torque_per_side_Nm": 3.456886902711573
+    },
+    {
+      "sweep_deg": 60,
+      "pin_y_mm": 14.12190941547604,
+      "static_slider_force_N": 249.9940975496615,
+      "dynamic_total_N": 624.9852438741538,
+      "dynamic_per_side_N": 312.4926219370769,
+      "wing_torque_per_side_Nm": 3.6148730094508372
+    },
+    {
+      "sweep_deg": 62,
+      "pin_y_mm": 13.301135942477138,
+      "static_slider_force_N": 265.4204885408093,
+      "dynamic_total_N": 663.5512213520233,
+      "dynamic_per_side_N": 331.77561067601164,
+      "wing_torque_per_side_Nm": 3.8214163329988042
+    },
+    {
+      "sweep_deg": 64,
+      "pin_y_mm": 12.331906233323949,
+      "static_slider_force_N": 286.2812880023347,
+      "dynamic_total_N": 715.7032200058368,
+      "dynamic_per_side_N": 357.8516100029184,
+      "wing_torque_per_side_Nm": 4.099792513364914
+    },
+    {
+      "sweep_deg": 66,
+      "pin_y_mm": 11.178942973090882,
+      "static_slider_force_N": 315.80749705031155,
+      "dynamic_total_N": 789.5187426257789,
+      "dynamic_per_side_N": 394.75937131288947,
+      "wing_torque_per_side_Nm": 4.49362163600044
+    },
+    {
+      "sweep_deg": 68,
+      "pin_y_mm": 9.781639139168464,
+      "static_slider_force_N": 360.9204909086555,
+      "dynamic_total_N": 902.3012272716387,
+      "dynamic_per_side_N": 451.15061363581935,
+      "wing_torque_per_side_Nm": 5.096696574187029
+    }
+  ],
+  "gates": {
+    "servo_dimensions_fit_envelope": true,
+    "servo_torque_exceeds_2Nm_provisional": true,
+    "full_stall_load_screen_complete": true,
+    "actual_servo_purchased_verified": false,
+    "material_allowable_verified": false,
+    "BEC_current_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

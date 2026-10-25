@@ -1,0 +1,32 @@
+{
+  "status": "V214_CURRENT_ENDMODEL_DEVELOPMENT_STATE",
+  "source_sha256": "643a151a57bc4cee0d729e361d28e9325039dd73d8caee29b028f89fdd4dbc97",
+  "shape_object_count": 78,
+  "projected_AUW_g": 1126.417172390141,
+  "working_target_g": 1150,
+  "redesign_threshold_g": 1200,
+  "major_integrated_systems": [
+    "v202 glove/wing root",
+    "v204 wingbox/pivot structure",
+    "v210 sweep servo/yoke/M4 joints",
+    "v207 battery tray 70mm travel",
+    "v211 sweep UBEC",
+    "v212 twin ESC refs",
+    "legacy/current EDF/battery/stabilator refs"
+  ],
+  "open_hard_gates": [
+    "absolute pivot/common Z",
+    "production OML/A-F common Z",
+    "true radome seam",
+    "EDF actual shroud OD and purchased revision",
+    "direct final duct CAD/thermal bench",
+    "material/fastener certificates",
+    "physical pivot/sweep proof",
+    "measured shell mass and AUW"
+  ],
+  "release": {
+    "print": false,
+    "flight": false
+  },
+  "output_sha256": "27e988463fd56ec793a2ee761f2fc4159578723b90ad0758613fabeb6185b7c4"
+}

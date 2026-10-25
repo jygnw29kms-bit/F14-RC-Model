@@ -1,0 +1,81 @@
+{
+  "status": "V206_TRAY_PACKAGING_VERIFICATION",
+  "tray_volume_mm3": 25263.226310053164,
+  "inside_fuselage_fraction": 1.0,
+  "distances": [
+    {
+      "target": "servo_service",
+      "distance_mm": 5.5
+    },
+    {
+      "target": "servo_body",
+      "distance_mm": 8.5
+    },
+    {
+      "target": "yoke_motion",
+      "distance_mm": 0.0
+    },
+    {
+      "target": "wingbox_R",
+      "distance_mm": 50.04047614472423
+    },
+    {
+      "target": "wingbox_L",
+      "distance_mm": 50.04047614472423
+    }
+  ],
+  "packs": [
+    {
+      "center_x_mm": 305,
+      "pack_x": [
+        252,
+        358
+      ],
+      "tray_intersection_mm3": 0.0,
+      "servo_service_distance_mm": 75.3099792190261,
+      "yoke_distance_mm": 77.40603964237778
+    },
+    {
+      "center_x_mm": 340,
+      "pack_x": [
+        287,
+        393
+      ],
+      "tray_intersection_mm3": 0.0,
+      "servo_service_distance_mm": 40.309979219026104,
+      "yoke_distance_mm": 42.40603964237778
+    },
+    {
+      "center_x_mm": 375,
+      "pack_x": [
+        322,
+        428
+      ],
+      "tray_intersection_mm3": 0.0,
+      "servo_service_distance_mm": 5.309979219026104,
+      "yoke_distance_mm": 7.4060396423777775
+    }
+  ],
+  "rear_hardpoint": {
+    "center_x": 431,
+    "x_range": [
+      424,
+      438
+    ],
+    "stop_pin_r": 2.1,
+    "stop_pin_rear_ligament_mm": 4.899999999999977,
+    "frame_axis_z": 15.407593065391325,
+    "stop_axis_z": 7.407593065391325,
+    "axis_sep_mm": 8.0
+  },
+  "gates": {
+    "tray_contained": true,
+    "servo_service_clearance": true,
+    "wingbox_clear": true,
+    "battery_travel_no_solid_overlap": true,
+    "retention_pin_locations_preserved": true,
+    "retention_proof": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

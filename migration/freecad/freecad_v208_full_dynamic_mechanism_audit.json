@@ -1,0 +1,381 @@
+{
+  "status": "V208_FULL_DYNAMIC_MECHANISM_SCREEN",
+  "sample_count": 25,
+  "minimum_nonintentional": {
+    "sweep_deg": 20,
+    "side": "R",
+    "part": "rod",
+    "target": "V204_UPPER_FORK_R",
+    "distance_mm": 1.0
+  },
+  "minimum_by_part": {
+    "crank": 1.5,
+    "horn": 8.268756049305278,
+    "hub": 74.1824310281944,
+    "rod": 1.0,
+    "yoke": 1.044831713902208
+  },
+  "near_or_below_1mm_count": 50,
+  "near_or_below_1mm": [
+    {
+      "sweep_deg": 20,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 20,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 22,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 22,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 24,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 24,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 26,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 26,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 28,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 28,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 30,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 30,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 32,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 32,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 34,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 34,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 36,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 36,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 38,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 38,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 40,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 40,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 42,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 42,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 44,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 44,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 46,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 46,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 48,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 48,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 50,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 50,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 52,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 52,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 54,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 54,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 56,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 56,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 58,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 58,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 60,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 60,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 62,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 62,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 64,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 64,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 66,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 66,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 68,
+      "side": "R",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_R",
+      "distance_mm": 1.0
+    },
+    {
+      "sweep_deg": 68,
+      "side": "L",
+      "part": "rod",
+      "target": "V204_UPPER_FORK_L",
+      "distance_mm": 1.0
+    }
+  ],
+  "gates": {
+    "all_nonintentional_clear_gt_1mm": false,
+    "sampled_every_2deg": true,
+    "continuous_between_samples_analytic_verified": false,
+    "servo_model_selected": false,
+    "materials_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

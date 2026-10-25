@@ -1,0 +1,236 @@
+{
+  "status": "V211_UBEC_SHORTLIST",
+  "rows": [
+    {
+      "center": [
+        330,
+        60,
+        45
+      ],
+      "inside_fraction": 1.0,
+      "minimum_distance_mm": 31.020384762267675,
+      "distances": {
+        "BATTERY_TRAY_v207": 36.15807111248917,
+        "V205_SWEEP_SERVO_SERVICE": 83.08521498551454,
+        "V208_YOKE_MOTION_BBOX_REF": 82.95541581331346,
+        "V204_MONO_LOWER_R": 130.94598491380677,
+        "V204_MONO_LOWER_L": 163.2577745929636,
+        "INLET_EDF_R": 239.27545777003252,
+        "INLET_EDF_L": 254.2845923612396,
+        "BAT305": 31.020384762267675,
+        "BAT340": 31.020384762267675,
+        "BAT375": 31.020384762267675
+      }
+    },
+    {
+      "center": [
+        330,
+        -60,
+        45
+      ],
+      "inside_fraction": 1.0,
+      "minimum_distance_mm": 31.020384762267675,
+      "distances": {
+        "BATTERY_TRAY_v207": 36.15807111248917,
+        "V205_SWEEP_SERVO_SERVICE": 83.08521498551454,
+        "V208_YOKE_MOTION_BBOX_REF": 82.95541581331346,
+        "V204_MONO_LOWER_R": 163.2577745929636,
+        "V204_MONO_LOWER_L": 130.94598491380677,
+        "INLET_EDF_R": 254.28459236211168,
+        "INLET_EDF_L": 239.27545777003252,
+        "BAT305": 31.020384762267675,
+        "BAT340": 31.020384762267675,
+        "BAT375": 31.020384762267675
+      }
+    },
+    {
+      "center": [
+        300,
+        50,
+        55
+      ],
+      "inside_fraction": 1.0,
+      "minimum_distance_mm": 27.64258326371293,
+      "distances": {
+        "BATTERY_TRAY_v207": 35.47126369589157,
+        "V205_SWEEP_SERVO_SERVICE": 108.49770367307659,
+        "V208_YOKE_MOTION_BBOX_REF": 114.56859688109306,
+        "V204_MONO_LOWER_R": 162.56576985227963,
+        "V204_MONO_LOWER_L": 184.61819934032602,
+        "INLET_EDF_R": 270.13792646135755,
+        "INLET_EDF_L": 281.2779194429306,
+        "BAT305": 27.64258326371293,
+        "BAT340": 27.64258326371293,
+        "BAT375": 27.64258326371293
+      }
+    },
+    {
+      "center": [
+        360,
+        50,
+        55
+      ],
+      "inside_fraction": 1.0,
+      "minimum_distance_mm": 27.64258326371293,
+      "distances": {
+        "BATTERY_TRAY_v207": 39.36056713600551,
+        "V205_SWEEP_SERVO_SERVICE": 51.71609223488955,
+        "V208_YOKE_MOTION_BBOX_REF": 61.459243684063274,
+        "V204_MONO_LOWER_R": 106.98631876286557,
+        "V204_MONO_LOWER_L": 138.21115151256603,
+        "INLET_EDF_R": 210.64826704890015,
+        "INLET_EDF_L": 224.75644832575256,
+        "BAT305": 27.64258326371293,
+        "BAT340": 27.64258326371293,
+        "BAT375": 27.64258326371293
+      }
+    },
+    {
+      "center": [
+        300,
+        50,
+        45
+      ],
+      "inside_fraction": 1.0,
+      "minimum_distance_mm": 21.731642156061945,
+      "distances": {
+        "BATTERY_TRAY_v207": 27.683251425569615,
+        "V205_SWEEP_SERVO_SERVICE": 108.49770367307659,
+        "V208_YOKE_MOTION_BBOX_REF": 111.60628741832785,
+        "V204_MONO_LOWER_R": 159.8049734134215,
+        "V204_MONO_LOWER_L": 182.1918755808402,
+        "INLET_EDF_R": 269.17215335566783,
+        "INLET_EDF_L": 279.88693748982826,
+        "BAT305": 21.731642156061945,
+        "BAT340": 21.731642156061945,
+        "BAT375": 21.731642156061945
+      }
+    },
+    {
+      "center": [
+        330,
+        50,
+        45
+      ],
+      "inside_fraction": 1.0,
+      "minimum_distance_mm": 21.731642156061945,
+      "distances": {
+        "BATTERY_TRAY_v207": 30.288712527537772,
+        "V205_SWEEP_SERVO_SERVICE": 79.51825544608715,
+        "V208_YOKE_MOTION_BBOX_REF": 82.95541581331346,
+        "V204_MONO_LOWER_R": 130.94598491380677,
+        "V204_MONO_LOWER_L": 157.49000274635503,
+        "INLET_EDF_R": 239.27545777003252,
+        "INLET_EDF_L": 251.26837112212613,
+        "BAT305": 21.731642156061945,
+        "BAT340": 21.731642156061945,
+        "BAT375": 21.731642156061945
+      }
+    },
+    {
+      "center": [
+        360,
+        50,
+        45
+      ],
+      "inside_fraction": 1.0,
+      "minimum_distance_mm": 21.731642156061945,
+      "distances": {
+        "BATTERY_TRAY_v207": 30.288712527537772,
+        "V205_SWEEP_SERVO_SERVICE": 51.71609223488955,
+        "V208_YOKE_MOTION_BBOX_REF": 55.74261057949359,
+        "V204_MONO_LOWER_R": 102.74274866105871,
+        "V204_MONO_LOWER_L": 134.95303776658562,
+        "INLET_EDF_R": 209.40831225142446,
+        "INLET_EDF_L": 223.013207849441,
+        "BAT305": 21.731642156061945,
+        "BAT340": 21.731642156061945,
+        "BAT375": 21.731642156061945
+      }
+    },
+    {
+      "center": [
+        300,
+        -50,
+        45
+      ],
+      "inside_fraction": 1.0,
+      "minimum_distance_mm": 21.731642156061945,
+      "distances": {
+        "BATTERY_TRAY_v207": 27.683251425569615,
+        "V205_SWEEP_SERVO_SERVICE": 108.49770367307659,
+        "V208_YOKE_MOTION_BBOX_REF": 111.60628741832785,
+        "V204_MONO_LOWER_R": 182.1918755808402,
+        "V204_MONO_LOWER_L": 159.8049734134215,
+        "INLET_EDF_R": 279.88693748824704,
+        "INLET_EDF_L": 269.17215335566783,
+        "BAT305": 21.731642156061945,
+        "BAT340": 21.731642156061945,
+        "BAT375": 21.731642156061945
+      }
+    },
+    {
+      "center": [
+        330,
+        -50,
+        45
+      ],
+      "inside_fraction": 1.0,
+      "minimum_distance_mm": 21.731642156061945,
+      "distances": {
+        "BATTERY_TRAY_v207": 30.288712527537772,
+        "V205_SWEEP_SERVO_SERVICE": 79.51825544608715,
+        "V208_YOKE_MOTION_BBOX_REF": 82.95541581331346,
+        "V204_MONO_LOWER_R": 157.49000274635503,
+        "V204_MONO_LOWER_L": 130.94598491380677,
+        "INLET_EDF_R": 251.26837112036475,
+        "INLET_EDF_L": 239.27545777003252,
+        "BAT305": 21.731642156061945,
+        "BAT340": 21.731642156061945,
+        "BAT375": 21.731642156061945
+      }
+    },
+    {
+      "center": [
+        360,
+        -50,
+        45
+      ],
+      "inside_fraction": 1.0,
+      "minimum_distance_mm": 21.731642156061945,
+      "distances": {
+        "BATTERY_TRAY_v207": 30.288712527537772,
+        "V205_SWEEP_SERVO_SERVICE": 51.71609223488955,
+        "V208_YOKE_MOTION_BBOX_REF": 55.74261057949359,
+        "V204_MONO_LOWER_R": 134.95303776658562,
+        "V204_MONO_LOWER_L": 102.74274866105871,
+        "INLET_EDF_R": 223.01320784745647,
+        "INLET_EDF_L": 209.40831225142446,
+        "BAT305": 21.731642156061945,
+        "BAT340": 21.731642156061945,
+        "BAT375": 21.731642156061945
+      }
+    }
+  ],
+  "best": {
+    "center": [
+      330,
+      60,
+      45
+    ],
+    "inside_fraction": 1.0,
+    "minimum_distance_mm": 31.020384762267675,
+    "distances": {
+      "BATTERY_TRAY_v207": 36.15807111248917,
+      "V205_SWEEP_SERVO_SERVICE": 83.08521498551454,
+      "V208_YOKE_MOTION_BBOX_REF": 82.95541581331346,
+      "V204_MONO_LOWER_R": 130.94598491380677,
+      "V204_MONO_LOWER_L": 163.2577745929636,
+      "INLET_EDF_R": 239.27545777003252,
+      "INLET_EDF_L": 254.2845923612396,
+      "BAT305": 31.020384762267675,
+      "BAT340": 31.020384762267675,
+      "BAT375": 31.020384762267675
+    }
+  }
+}

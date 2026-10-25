@@ -1,0 +1,34 @@
+{
+  "status": "V210_M4_JOINT_AND_7075_YOKE_SCREEN",
+  "load_N_per_side_dynamic": 451.15061363581935,
+  "joint": {
+    "pin_d_mm": 4.0,
+    "clearance_hole_mm": 4.2,
+    "pin_single_shear_MPa": 35.901425119541244,
+    "4mm_rod_axial_MPa": 35.901425119541244,
+    "crank_net_section_MPa": 9.207155380322844,
+    "crank_bearing_MPa": 22.55753068179097,
+    "yoke_bearing_MPa": 14.098456676119355
+  },
+  "yoke_7075T6": {
+    "thickness_mm": 8,
+    "neck_width_mm": 10,
+    "peak_screen_MPa": 213.1686649429246,
+    "conservative_reference_proof_MPa": 460.0,
+    "screen_SF": 2.157915658585017
+  },
+  "decision": {
+    "upgrade_loaded_crank_yoke_pins_to_M4": true,
+    "retain_4mm_rods": true,
+    "yoke_material_candidate": "EN AW-7075-T6/T651 machined plate/bar",
+    "FDM_yoke_rejected": true
+  },
+  "gates": {
+    "exact_stock_cert_verified": false,
+    "fatigue_verified": false,
+    "fastener_grade_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

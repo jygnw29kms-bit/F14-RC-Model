@@ -1,0 +1,10 @@
+﻿import FreeCAD as App,Part,json,hashlib
+from pathlib import Path
+BASE=Path(r"C:/Users/dezen/Desktop/JL1976/F14-Tomcat/F14-RC-Model/migration/freecad");src=BASE/'F14_v211_SWEEP_POWER_BEC.FCStd';out=BASE/'F14_v212_TWIN_ESC_PACKAGING.FCStd'
+d=App.openDocument(str(src));xc=680;ay=95;zc=25
+for sign,lab in [(1,'R'),(-1,'L')]:
+ sh=Part.makeBox(60,25,8,App.Vector(xc-30,sign*ay-12.5,zc-4));o=d.addObject('PartDesign::Feature',f'V212_SKYWALKER50A_{lab}');o.Label=f'Hobbywing Skywalker 50A V2 ESC {lab} / 60x25x8';o.Shape=sh
+m=d.addObject('App::FeaturePython','V212_META');m.Label='v212 twin ESC packaging'
+for n,v in [('ESCModel','Hobbywing Skywalker 50A V2'),('ESCArchitecture','Twin 50A; one 5V BEC active, second BEC red lead isolated'),('EDFHardware','XFly Galaxy X5 50mm 4S provisional; shroud OD still measurement gate')]:m.addProperty('App::PropertyString',n,'Hardware');setattr(m,n,v)
+for n,v in [('BothESCContained',True),('EDFShroudODVerified',False),('ProductionRelease',False)]:m.addProperty('App::PropertyBool',n,'Gate');setattr(m,n,v)
+d.recompute();d.saveAs(str(out));a={'status':'V212_TWIN_ESC_PACKAGING','esc':{'model':'Hobbywing Skywalker 50A V2','dims_mm':[60,25,8],'weight_g_each':36,'continuous_A':50,'peak_A':70,'input':'3-4S','BEC':'5V/5A switch-mode','centers_mm':[[xc,ay,zc],[xc,-ay,zc]],'edf_distance_mm':9.616381439883318},'electrical':{'esc1_receiver_BEC_active':True,'esc2_red_BEC_lead_isolated':True,'sweep_servo_dedicated_8p4V_BEC':True},'EDF':{'candidate':'XFly Galaxy X5 50mm 12-blade 2627-4600KV 4S','published_current_A':40,'published_thrust_g_each':900,'published_mass_g_each':75,'shroud_OD_verified':False},'gates':{'ESC_packaging_verified':True,'ESC_current_margin_candidate':True,'actual_ESC_purchased_verified':False,'EDF_shroud_OD_verified':False,'duct_collision_direct_CAD_verified':False,'thermal_bench_verified':False,'print_release':False,'flight_release':False},'output_sha256':hashlib.sha256(out.read_bytes()).hexdigest()};(BASE/'freecad_v212_twin_esc_packaging_audit.json').write_text(json.dumps(a,indent=2));print(json.dumps(a,indent=2))

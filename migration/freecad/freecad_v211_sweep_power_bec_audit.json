@@ -1,0 +1,38 @@
+{
+  "status": "V211_SWEEP_POWER_BEC",
+  "BEC": {
+    "model": "Hobbywing UBEC 10A HV",
+    "PN": "30608000",
+    "dims_mm": [
+      55,
+      25,
+      12
+    ],
+    "weight_g": 35,
+    "input": "3-14S LiPo",
+    "output_V": 8.4,
+    "continuous_A": 10,
+    "peak_A": 25,
+    "center_mm": [
+      330,
+      60,
+      45
+    ]
+  },
+  "servo": {
+    "model": "AGFRC A80BHSF V2",
+    "loading_current_A_8p4V": 5.0,
+    "current_headroom_continuous_factor": 2.0
+  },
+  "receiver_keepout_radius_mm": 50,
+  "gates": {
+    "packaging_verified": true,
+    "electrical_architecture_candidate": true,
+    "receiver_selected": false,
+    "wiring_harness_designed": false,
+    "EMI_bench_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "output_sha256": "afa7794621bffa2383d88a49be8b0c8deaed5c413f47f9e1d564e6f150021a33"
+}

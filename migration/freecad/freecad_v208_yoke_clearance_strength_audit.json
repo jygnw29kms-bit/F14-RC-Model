@@ -1,0 +1,44 @@
+{
+  "status": "V208_YOKE_CLEARANCE_AND_STRENGTH_SCREEN",
+  "clearance": {
+    "minimum": {
+      "sweep_deg": 68,
+      "target": "tray",
+      "distance_mm": 1.044831713902208
+    },
+    "minimum_by_target": {
+      "servo_body": 3.5,
+      "servo_service": 1.5,
+      "tray": 1.044831713902208,
+      "wingbox_L": 4.337265354311292,
+      "wingbox_R": 4.337265354311292
+    },
+    "passes_gt_1mm": true
+  },
+  "load_screen": {
+    "provisional_servo_stall_Nm": 2.0,
+    "dynamic_factor": 2.5,
+    "worst_force": {
+      "sweep_deg": 20,
+      "pin_y_mm": 9.781639139168464,
+      "static_slider_force_N": 204.46470898639387,
+      "dynamic_total_force_N": 511.16177246598465,
+      "dynamic_per_side_N": 255.58088623299233
+    },
+    "neck_bending_moment_Nmm": 10734.397221785677,
+    "neck_section_modulus_mm3": 133.33333333333334,
+    "neck_nominal_bending_stress_MPa": 80.50797916339258,
+    "neck_1p5x_concentration_MPa": 120.76196874508886,
+    "center_nominal_bending_stress_MPa": 48.67018829632179,
+    "servo_pin_nominal_bearing_MPa": 15.97380538956202
+  },
+  "gates": {
+    "2deg_clearance_gt_1mm": true,
+    "stress_screen_complete": true,
+    "actual_material_allowable_verified": false,
+    "actual_servo_torque_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

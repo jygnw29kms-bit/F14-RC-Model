@@ -1,0 +1,13 @@
+{
+  "status": "V209_LOWERED_SWEEP_RODS_CANDIDATE",
+  "rod_center_z_old_mm": 7.5,
+  "rod_center_z_new_mm": 7.0,
+  "rod_diameter_mm": 4.0,
+  "gates": {
+    "dynamic_clearance_verified": false,
+    "material_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "output_sha256": "e7dc1eb78e0e30ca0756fa77c6edd92c7938b36456b641a6e8cf1b315339360f"
+}

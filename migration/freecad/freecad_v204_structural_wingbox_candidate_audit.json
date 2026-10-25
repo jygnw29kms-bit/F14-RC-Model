@@ -1,0 +1,48 @@
+{
+  "status": "V204_STRUCTURAL_WINGBOX_CANDIDATE",
+  "pivot_mm": [
+    504.3463093769572,
+    125.20927023775282,
+    0.0
+  ],
+  "records": [
+    {
+      "side": "R",
+      "pad_y": [
+        105.20927023775282,
+        137.20927023775283
+      ],
+      "strap_y": [
+        70.0,
+        105.20927023775282
+      ]
+    },
+    {
+      "side": "L",
+      "pad_y": [
+        -137.20927023775283,
+        -105.20927023775282
+      ],
+      "strap_y": [
+        -105.20927023775282,
+        -70.0
+      ]
+    }
+  ],
+  "port": {
+    "old_absolute_FS_x_shift_removed_mm": 108.7860812043256,
+    "local_pivot_z_mm": 0.0
+  },
+  "gates": {
+    "fork_geometry_ported": true,
+    "circular_socket_bores_preserved": true,
+    "monolithic_lower_union_CAD": true,
+    "fuselage_containment_verified": false,
+    "continuous_sweep_clearance_verified": false,
+    "material_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "output_sha256": "f978950af773e46467b9fd123b59cc61af706214b1ba2e330ef24c216dd0f926"
+}

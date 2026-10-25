@@ -1,0 +1,18 @@
+{
+  "status": "V208_YOKE_CLEARANCE_FINAL_CANDIDATE",
+  "yoke_z_mm": [
+    2.5,
+    10.5
+  ],
+  "thickness_mm": 8,
+  "neck_width_mm": 10,
+  "normal_width_mm": 16,
+  "gates": {
+    "dynamic_clearance_verified": false,
+    "strength_screened": false,
+    "material_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "output_sha256": "f4989c07ad048da239e196fb730e2f3df4b8d52d6a10c0544717ae1df6ec96c0"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "V206_BATTERY_TRAY_SERVO_CLEARANCE",
+  "changes": {
+    "rear_crossbar_x_mm": [
+      434,
+      430
+    ],
+    "floor_strip_aft_x_mm": [
+      438,
+      432
+    ],
+    "rail_aft_x_mm": 438,
+    "rear_hardpoint_x_mm": 431,
+    "retention_holes_unchanged": true
+  },
+  "gates": {
+    "70mm_travel_geometry_preserved": true,
+    "retention_pin_index_preserved": true,
+    "servo_clearance_verified": false,
+    "containment_verified": false,
+    "retention_proof": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "output_sha256": "43c67b4c1c7b21f9b4b3991aa64f5478e638b6de3519ed2a772dcfdf9c7e3f63"
+}

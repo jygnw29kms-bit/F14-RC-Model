@@ -1,0 +1,85 @@
+{
+  "status": "V205_SYNCHRONIZED_SWEEP_CANDIDATE",
+  "candidate_index": 23,
+  "pivot_mm": [
+    504.3463093769572,
+    125.20927023775282,
+    0
+  ],
+  "slider_current_mm": {
+    "min": 443.4060396423778,
+    "max": 471.21391879567443,
+    "mid": 457.3099792190261,
+    "travel": 27.807879153296653,
+    "y_abs": 65.0
+  },
+  "battery_rear_end_mm": 428,
+  "service_envelope": {
+    "x": [
+      433.3099792190261,
+      481.3099792190261
+    ],
+    "y": [
+      -13.5,
+      13.5
+    ],
+    "z": [
+      12,
+      56
+    ],
+    "battery_x_gap_mm": 5.309979219026104
+  },
+  "servo_body": {
+    "x": [
+      436.3099792190261,
+      478.3099792190261
+    ],
+    "y": [
+      -10.5,
+      10.5
+    ],
+    "z": [
+      14,
+      54
+    ]
+  },
+  "yoke": {
+    "width_x_mm": 16,
+    "span_y_mm": 136,
+    "thickness_z_mm": 6,
+    "motion_x_bounds": [
+      435.4060396423778,
+      479.21391879567443
+    ],
+    "z": [
+      5,
+      11
+    ]
+  },
+  "horn": {
+    "radius_mm": 17,
+    "beta20_deg": 35.126986370440996,
+    "pin20_xy": [
+      471.21391879567443,
+      9.781639139168464
+    ]
+  },
+  "v40": {
+    "min_moment_arm_mm": 27.188255793145665,
+    "max_moment_arm_mm": 29.152759755997074,
+    "rod_length_mm": 73.64273861097905
+  },
+  "gates": {
+    "kinematics_candidate_valid": true,
+    "mechanical_sync_modeled": true,
+    "root_hub_modeled": true,
+    "battery_packaging_verified": false,
+    "fixed_structure_clearance_verified": false,
+    "servo_containment_verified": false,
+    "servo_model_selected": false,
+    "material_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "output_sha256": "01952710f4ad7439a688732d537f3df455e9e71d5d63c584f2725ac77db7e353"
+}

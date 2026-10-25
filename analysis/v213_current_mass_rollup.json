@@ -1,0 +1,64 @@
+{
+  "status": "V213_CURRENT_MASS_ROLLUP_WITH_REAL_SWEEP_HARDWARE",
+  "quantified_geometry_g": {
+    "wingbox_PPA_CF": 39.02401370470592,
+    "battery_tray_ASA": 26.769716151756903,
+    "inlet_walls_ASA": 14.825460934091986,
+    "carbon_crossties": 6.785840131753954,
+    "7075_yoke_cranks_solid": 58.791128796371744,
+    "CF_4x2_rods_pair": 2.221012671460658
+  },
+  "hardware_and_budgets_g": {
+    "EDF_pair": 150.0,
+    "battery": 202.0,
+    "stabilator_servos_pair_budget": 40.0,
+    "sweep_servo_A80BHSF": 79.0,
+    "sweep_UBEC_10A_HV": 35.0,
+    "ESC_pair": 72.0,
+    "receiver_and_signal_wiring_budget": 25.0,
+    "fasteners_bearings_inserts_budget": 35.0
+  },
+  "remaining_allocations_g": {
+    "printed_aero_shells_budget": 250.0,
+    "finish_paint_decals_budget": 40.0,
+    "reserve": 50.0
+  },
+  "known_plus_current_budgets_g": 786.4171723901411,
+  "projected_total_g": 1126.417172390141,
+  "margins_g": {
+    "to_1050": -76.4171723901411,
+    "to_1100": -26.417172390141104,
+    "to_1200_redesign": 73.5828276098589
+  },
+  "published_twin_EDF_thrust_g": 1800,
+  "published_static_thrust_to_projected_weight": 1.5979870017256446,
+  "installed_thrust_gate": {
+    "minimum_g": 1000,
+    "preferred_g": 1200
+  },
+  "decision": {
+    "1050_target_rejected_current_hardware": true,
+    "1100_target_rejected_current_hardware": true,
+    "1200_redesign_threshold_margin_positive": true,
+    "new_working_AUW_target_g": 1150,
+    "hard_redesign_threshold_g": 1200,
+    "lightweighting_focus": [
+      "7075 yoke pockets after FEA/strength screen",
+      "shell print mass",
+      "wiring/fastener real masses"
+    ],
+    "do_not_reduce": [
+      "wingbox pivot load path",
+      "1mm packaging clearances",
+      "battery 70mm travel"
+    ]
+  },
+  "gates": {
+    "actual_EDF_mass_measured": false,
+    "EDF_shroud_OD_verified": false,
+    "actual_battery_mass_measured": false,
+    "actual_shell_mass_verified": false,
+    "AUW_frozen": false,
+    "flight_release": false
+  }
+}

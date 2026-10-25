@@ -1,0 +1,35 @@
+{
+  "status": "V210_A80BHSF_M4_MECHANISM",
+  "servo": {
+    "model": "AGFRC A80BHSF V2",
+    "dims_mm": [
+      40,
+      20,
+      37.5
+    ],
+    "weight_g": 79,
+    "voltage_V": [
+      4.8,
+      8.4
+    ],
+    "stall_kgcm_8p4V": 36,
+    "loading_current_A_8p4V": 5.0,
+    "travel_deg": 180
+  },
+  "joint_upgrade": {
+    "pin_nominal_mm": 4.0,
+    "clearance_hole_mm": 4.2,
+    "rod_mm": 4.0
+  },
+  "yoke_material_candidate": "EN AW-7075-T6/T651",
+  "gates": {
+    "CAD_updated": true,
+    "dynamic_external_clearance_inherited_v209": true,
+    "material_certificate_verified": false,
+    "fastener_grade_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "output_sha256": "82a53ee74bfff2e4e5879a792be46edfd8b8f861d0a4f95c0bea220054c853cd"
+}

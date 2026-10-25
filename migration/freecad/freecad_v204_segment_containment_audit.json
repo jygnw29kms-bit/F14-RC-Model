@@ -1,0 +1,82 @@
+{
+  "status": "V204_SEGMENT_CONTAINMENT",
+  "rows": [
+    {
+      "side": "R",
+      "part": "PAD",
+      "inside_fraction": 0.7123399613710713,
+      "inside_mm3": 2005.9493312209352,
+      "volume_mm3": 2815.9999999999977
+    },
+    {
+      "side": "R",
+      "part": "FRONT_STRAP",
+      "inside_fraction": 1.0,
+      "inside_mm3": 845.0224857060678,
+      "volume_mm3": 845.0224857060678
+    },
+    {
+      "side": "R",
+      "part": "REAR_STRAP",
+      "inside_fraction": 1.0,
+      "inside_mm3": 845.0224857060678,
+      "volume_mm3": 845.0224857060678
+    },
+    {
+      "side": "R",
+      "part": "SOCKET_FRONT",
+      "inside_fraction": 1.0,
+      "inside_mm3": 3839.1391803310485,
+      "volume_mm3": 3839.1391803310485
+    },
+    {
+      "side": "R",
+      "part": "SOCKET_REAR",
+      "inside_fraction": 1.0,
+      "inside_mm3": 3455.139180331048,
+      "volume_mm3": 3455.139180331048
+    },
+    {
+      "side": "L",
+      "part": "PAD",
+      "inside_fraction": 0.7135285342249645,
+      "inside_mm3": 2009.2963523774986,
+      "volume_mm3": 2815.9999999999977
+    },
+    {
+      "side": "L",
+      "part": "FRONT_STRAP",
+      "inside_fraction": 1.0,
+      "inside_mm3": 845.0224857060678,
+      "volume_mm3": 845.0224857060678
+    },
+    {
+      "side": "L",
+      "part": "REAR_STRAP",
+      "inside_fraction": 1.0,
+      "inside_mm3": 845.0224857060678,
+      "volume_mm3": 845.0224857060678
+    },
+    {
+      "side": "L",
+      "part": "SOCKET_FRONT",
+      "inside_fraction": 1.0,
+      "inside_mm3": 3839.139180331048,
+      "volume_mm3": 3839.139180331048
+    },
+    {
+      "side": "L",
+      "part": "SOCKET_REAR",
+      "inside_fraction": 1.0,
+      "inside_mm3": 3455.1391803310476,
+      "volume_mm3": 3455.1391803310476
+    }
+  ],
+  "worst": {
+    "side": "R",
+    "part": "PAD",
+    "inside_fraction": 0.7123399613710713,
+    "inside_mm3": 2005.9493312209352,
+    "volume_mm3": 2815.9999999999977
+  }
+}

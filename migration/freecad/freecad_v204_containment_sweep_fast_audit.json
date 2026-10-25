@@ -1,0 +1,215 @@
+{
+  "status": "V204_FAST_CONTAINMENT_SWEEP_DISTANCE_SCREEN",
+  "containment": [
+    {
+      "name": "V204_MONO_LOWER_R",
+      "volume_mm3": 11163.941921272233,
+      "inside_mm3": 10355.035217574288,
+      "inside_fraction": 0.9275429136587838
+    },
+    {
+      "name": "V204_MONO_LOWER_L",
+      "volume_mm3": 11163.941921272233,
+      "inside_mm3": 10358.11062503302,
+      "inside_fraction": 0.9278183905002453
+    },
+    {
+      "name": "V204_UPPER_FORK_R",
+      "volume_mm3": 4445.663560610137,
+      "inside_mm3": 4445.663560610137,
+      "inside_fraction": 1.0
+    },
+    {
+      "name": "V204_UPPER_FORK_L",
+      "volume_mm3": 4445.663560610136,
+      "inside_mm3": 4445.663560610136,
+      "inside_fraction": 1.0
+    }
+  ],
+  "min_inside_fraction": 0.9275429136587838,
+  "sweep": [
+    {
+      "side": "R",
+      "sweep_deg": 20,
+      "part": "LOWER",
+      "distance_mm": 12.774719017468563
+    },
+    {
+      "side": "R",
+      "sweep_deg": 20,
+      "part": "UPPER",
+      "distance_mm": 11.701835312355572
+    },
+    {
+      "side": "R",
+      "sweep_deg": 28,
+      "part": "LOWER",
+      "distance_mm": 10.178491562289985
+    },
+    {
+      "side": "R",
+      "sweep_deg": 28,
+      "part": "UPPER",
+      "distance_mm": 8.78559336343813
+    },
+    {
+      "side": "R",
+      "sweep_deg": 36,
+      "part": "LOWER",
+      "distance_mm": 8.054575047084843
+    },
+    {
+      "side": "R",
+      "sweep_deg": 36,
+      "part": "UPPER",
+      "distance_mm": 6.182594004082404
+    },
+    {
+      "side": "R",
+      "sweep_deg": 44,
+      "part": "LOWER",
+      "distance_mm": 6.54193168788852
+    },
+    {
+      "side": "R",
+      "sweep_deg": 44,
+      "part": "UPPER",
+      "distance_mm": 3.980461250533334
+    },
+    {
+      "side": "R",
+      "sweep_deg": 52,
+      "part": "LOWER",
+      "distance_mm": 5.728021464062299
+    },
+    {
+      "side": "R",
+      "sweep_deg": 52,
+      "part": "UPPER",
+      "distance_mm": 2.344250693371928
+    },
+    {
+      "side": "R",
+      "sweep_deg": 60,
+      "part": "LOWER",
+      "distance_mm": 5.523231639225664
+    },
+    {
+      "side": "R",
+      "sweep_deg": 60,
+      "part": "UPPER",
+      "distance_mm": 1.6659059950954123
+    },
+    {
+      "side": "R",
+      "sweep_deg": 68,
+      "part": "LOWER",
+      "distance_mm": 5.5817612084193575
+    },
+    {
+      "side": "R",
+      "sweep_deg": 68,
+      "part": "UPPER",
+      "distance_mm": 1.764205277007422
+    },
+    {
+      "side": "L",
+      "sweep_deg": 20,
+      "part": "LOWER",
+      "distance_mm": 12.774719017468563
+    },
+    {
+      "side": "L",
+      "sweep_deg": 20,
+      "part": "UPPER",
+      "distance_mm": 11.701835312355572
+    },
+    {
+      "side": "L",
+      "sweep_deg": 28,
+      "part": "LOWER",
+      "distance_mm": 10.178491562289985
+    },
+    {
+      "side": "L",
+      "sweep_deg": 28,
+      "part": "UPPER",
+      "distance_mm": 8.78559336343813
+    },
+    {
+      "side": "L",
+      "sweep_deg": 36,
+      "part": "LOWER",
+      "distance_mm": 8.054575047084843
+    },
+    {
+      "side": "L",
+      "sweep_deg": 36,
+      "part": "UPPER",
+      "distance_mm": 6.182594004082404
+    },
+    {
+      "side": "L",
+      "sweep_deg": 44,
+      "part": "LOWER",
+      "distance_mm": 6.54193168788852
+    },
+    {
+      "side": "L",
+      "sweep_deg": 44,
+      "part": "UPPER",
+      "distance_mm": 3.980461250533334
+    },
+    {
+      "side": "L",
+      "sweep_deg": 52,
+      "part": "LOWER",
+      "distance_mm": 5.728021464062299
+    },
+    {
+      "side": "L",
+      "sweep_deg": 52,
+      "part": "UPPER",
+      "distance_mm": 2.344250693371928
+    },
+    {
+      "side": "L",
+      "sweep_deg": 60,
+      "part": "LOWER",
+      "distance_mm": 5.523231639225664
+    },
+    {
+      "side": "L",
+      "sweep_deg": 60,
+      "part": "UPPER",
+      "distance_mm": 1.6659059950954123
+    },
+    {
+      "side": "L",
+      "sweep_deg": 68,
+      "part": "LOWER",
+      "distance_mm": 5.5817612084193575
+    },
+    {
+      "side": "L",
+      "sweep_deg": 68,
+      "part": "UPPER",
+      "distance_mm": 1.764205277007422
+    }
+  ],
+  "minimum_sampled_distance_mm": 1.6659059950954123,
+  "minimum_record": {
+    "side": "R",
+    "sweep_deg": 60,
+    "part": "UPPER",
+    "distance_mm": 1.6659059950954123
+  },
+  "gates": {
+    "containment_verified": false,
+    "sampled_sweep_clearance_positive": true,
+    "continuous_sweep_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

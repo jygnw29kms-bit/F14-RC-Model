@@ -1,0 +1,24 @@
+{
+  "status": "V203_INTEGRATED_FULL_MODEL_CANDIDATE",
+  "source_v195_sha256": "19ba02f987125c0c2dc7776e80e484fdd8d34dac626a2e2ff928b6e72fa5192d",
+  "source_v202_sha256": "0279b930f9ab4c81742c94c82c52663bbcff9150e4d19bc5a5674b921c21ab27",
+  "imported": [
+    "V203_GLOVE_BLEND_R",
+    "V203_GLOVE_BLEND_L",
+    "V203_INNER_ATTACH_R",
+    "V203_INNER_ATTACH_L",
+    "V203_OUTER_CLEARANCE_R",
+    "V203_OUTER_CLEARANCE_L"
+  ],
+  "shape_object_count": 72,
+  "gates": {
+    "wing_source_preserved": true,
+    "pivot_XY_preserved": true,
+    "glove_clearance_1mm_exact": true,
+    "absolute_Z_verified": false,
+    "production_OML": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "output_sha256": "8495b7ef19b5d4060a98979d1a9b0737029591a7603499dc077bf3e69e9e5d72"
+}

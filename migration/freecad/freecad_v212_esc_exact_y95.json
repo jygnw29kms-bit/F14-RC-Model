@@ -1,0 +1,16 @@
+{
+  "status": "V212_ESC_EXACT_X680_Y95_Z25",
+  "rows": [
+    {
+      "side": "R",
+      "inside_fraction": 1.0,
+      "edf_distance_mm": 9.616381439883318
+    },
+    {
+      "side": "L",
+      "inside_fraction": 1.0,
+      "edf_distance_mm": 9.616381439883321
+    }
+  ],
+  "both_contained": true
+}

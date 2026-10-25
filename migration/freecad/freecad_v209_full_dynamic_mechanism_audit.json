@@ -1,0 +1,30 @@
+{
+  "status": "V209_FULL_DYNAMIC_MECHANISM_SCREEN",
+  "sample_count": 25,
+  "minimum_nonintentional": {
+    "sweep_deg": 68,
+    "side": "R",
+    "part": "yoke",
+    "target": "BATTERY_TRAY_v207",
+    "distance_mm": 1.044831713902208
+  },
+  "minimum_by_part": {
+    "crank": 1.5,
+    "horn": 8.268756049305278,
+    "hub": 74.1824310281944,
+    "rod": 1.5,
+    "yoke": 1.044831713902208
+  },
+  "near_or_below_1mm_count": 0,
+  "near_or_below_1mm": [],
+  "gates": {
+    "all_nonintentional_clear_gt_1mm": true,
+    "sampled_every_2deg": true,
+    "continuous_between_samples_analytic_verified": false,
+    "servo_model_selected": false,
+    "materials_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

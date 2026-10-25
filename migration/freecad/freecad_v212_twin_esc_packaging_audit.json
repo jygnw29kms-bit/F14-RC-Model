@@ -1,0 +1,52 @@
+{
+  "status": "V212_TWIN_ESC_PACKAGING",
+  "esc": {
+    "model": "Hobbywing Skywalker 50A V2",
+    "dims_mm": [
+      60,
+      25,
+      8
+    ],
+    "weight_g_each": 36,
+    "continuous_A": 50,
+    "peak_A": 70,
+    "input": "3-4S",
+    "BEC": "5V/5A switch-mode",
+    "centers_mm": [
+      [
+        680,
+        95,
+        25
+      ],
+      [
+        680,
+        -95,
+        25
+      ]
+    ],
+    "edf_distance_mm": 9.616381439883318
+  },
+  "electrical": {
+    "esc1_receiver_BEC_active": true,
+    "esc2_red_BEC_lead_isolated": true,
+    "sweep_servo_dedicated_8p4V_BEC": true
+  },
+  "EDF": {
+    "candidate": "XFly Galaxy X5 50mm 12-blade 2627-4600KV 4S",
+    "published_current_A": 40,
+    "published_thrust_g_each": 900,
+    "published_mass_g_each": 75,
+    "shroud_OD_verified": false
+  },
+  "gates": {
+    "ESC_packaging_verified": true,
+    "ESC_current_margin_candidate": true,
+    "actual_ESC_purchased_verified": false,
+    "EDF_shroud_OD_verified": false,
+    "duct_collision_direct_CAD_verified": false,
+    "thermal_bench_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "output_sha256": "643a151a57bc4cee0d729e361d28e9325039dd73d8caee29b028f89fdd4dbc97"
+}

@@ -1,0 +1,84 @@
+{
+  "status": "V205_DYNAMIC_PACKAGING_SCREEN_2DEG",
+  "static_containment": [
+    {
+      "name": "V205_SWEEP_SERVO_BODY_REF",
+      "inside_fraction": 1.0
+    },
+    {
+      "name": "V205_SWEEP_SERVO_SERVICE",
+      "inside_fraction": 1.0
+    },
+    {
+      "name": "V205_YOKE_MOTION_ENVELOPE",
+      "inside_fraction": 1.0
+    }
+  ],
+  "battery_static": [
+    {
+      "battery_center": 305,
+      "target": "servo_body",
+      "distance_mm": 78.3099792190261
+    },
+    {
+      "battery_center": 305,
+      "target": "servo_service",
+      "distance_mm": 75.3099792190261
+    },
+    {
+      "battery_center": 305,
+      "target": "yoke_motion",
+      "distance_mm": 77.40603964237778
+    },
+    {
+      "battery_center": 340,
+      "target": "servo_body",
+      "distance_mm": 43.309979219026104
+    },
+    {
+      "battery_center": 340,
+      "target": "servo_service",
+      "distance_mm": 40.309979219026104
+    },
+    {
+      "battery_center": 340,
+      "target": "yoke_motion",
+      "distance_mm": 42.40603964237778
+    },
+    {
+      "battery_center": 375,
+      "target": "servo_body",
+      "distance_mm": 8.309979219026104
+    },
+    {
+      "battery_center": 375,
+      "target": "servo_service",
+      "distance_mm": 5.309979219026104
+    },
+    {
+      "battery_center": 375,
+      "target": "yoke_motion",
+      "distance_mm": 7.4060396423777775
+    }
+  ],
+  "minimum_dynamic_distance": {
+    "sweep_deg": 20,
+    "side": "R",
+    "part": "horn",
+    "target": "servo_body",
+    "distance_mm": 0.5
+  },
+  "zero_or_near_hits": [],
+  "near_hit_count": 0,
+  "gates": {
+    "servo_body_contained": true,
+    "servo_service_contained": true,
+    "battery_all_positions_clear": true,
+    "dynamic_non_joint_clearance_positive": true,
+    "continuous_2deg_sampled": true,
+    "servo_model_selected": false,
+    "material_verified": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

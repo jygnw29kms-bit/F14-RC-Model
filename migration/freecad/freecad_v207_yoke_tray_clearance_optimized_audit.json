@@ -1,0 +1,38 @@
+{
+  "status": "V207_YOKE_TRAY_CLEARANCE_OPTIMIZED",
+  "tray": {
+    "rail_aft_x_mm": 437,
+    "rear_hardpoint_x": [
+      424,
+      437.1
+    ],
+    "rear_stop_pin_x": 431,
+    "rear_stop_ligament_mm": 4.0
+  },
+  "yoke": {
+    "z": [
+      3,
+      11
+    ],
+    "thickness_mm": 8,
+    "normal_width_x_mm": 16,
+    "neck_width_x_mm": 10,
+    "neck_y_bands_abs_mm": [
+      19,
+      27
+    ],
+    "motion_center_x": [
+      443.4060396423778,
+      471.21391879567443
+    ]
+  },
+  "gates": {
+    "battery_retention_geometry_preserved": true,
+    "yoke_tray_dynamic_clearance_verified": false,
+    "yoke_strength_screened": false,
+    "material_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "output_sha256": "ef5f1bcd849dd355d8bee6b97a8213086b08b56647becdc5784500d89599727e"
+}

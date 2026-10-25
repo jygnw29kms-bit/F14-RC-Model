@@ -1,0 +1,311 @@
+{
+  "status": "V209_CANDIDATE23_SERVO_ROD_PIN_LOAD_SCREEN",
+  "servo": {
+    "provisional_stall_Nm": 2.0,
+    "horn_radius_mm": 17.0,
+    "servo_angle_min_deg": 35.126986370440996,
+    "servo_angle_max_deg": 144.873013629559,
+    "servo_angle_travel_deg": 109.74602725911802
+  },
+  "performance": {
+    "min_theoretical_wing_torque_per_side_Nm": 1.7047676229506685,
+    "max_static_total_slider_force_N": 204.46470898639387,
+    "max_dynamic_total_slider_force_N": 511.16177246598465,
+    "max_dynamic_per_rod_N": 255.58088623299233,
+    "worst_sweep_deg": 20
+  },
+  "stress_screen": {
+    "M3_pin_single_shear_MPa": 36.157299025589396,
+    "4mm_rod_axial_MPa": 20.338480701894035,
+    "14x5_crank_net_section_MPa": 4.777212826784903,
+    "3mm_pin_crank_bearing_MPa": 17.038725748866156,
+    "3mm_pin_yoke_bearing_MPa": 10.649203593041348
+  },
+  "samples": [
+    {
+      "sweep_deg": 20,
+      "slider_x_current_mm": 471.21391879567443,
+      "horn_pin_y_mm": 9.781639139168464,
+      "servo_angle_deg": 35.126986370440996,
+      "static_total_slider_force_N": 204.46470898639387,
+      "static_per_rod_N": 102.23235449319694,
+      "theoretical_wing_torque_per_side_Nm": 2.779519404296583,
+      "dynamic_total_force_2p5_N": 511.16177246598465,
+      "dynamic_per_rod_2p5_N": 255.58088623299233
+    },
+    {
+      "sweep_deg": 22,
+      "slider_x_current_mm": 470.0139460011254,
+      "horn_pin_y_mm": 11.296425452297607,
+      "servo_angle_deg": 41.643641968229666,
+      "static_total_slider_force_N": 177.04715606238213,
+      "static_per_rod_N": 88.52357803119106,
+      "theoretical_wing_torque_per_side_Nm": 2.425078389784798,
+      "dynamic_total_force_2p5_N": 442.6178901559553,
+      "dynamic_per_rod_2p5_N": 221.30894507797765
+    },
+    {
+      "sweep_deg": 24,
+      "slider_x_current_mm": 468.81820984929345,
+      "horn_pin_y_mm": 12.512418941219016,
+      "servo_angle_deg": 47.39386820253515,
+      "static_total_slider_force_N": 159.84119532726828,
+      "static_per_rod_N": 79.92059766363414,
+      "theoretical_wing_torque_per_side_Nm": 2.205381887100617,
+      "dynamic_total_force_2p5_N": 399.6029883181707,
+      "dynamic_per_rod_2p5_N": 199.80149415908534
+    },
+    {
+      "sweep_deg": 26,
+      "slider_x_current_mm": 467.62625160745677,
+      "horn_pin_y_mm": 13.512014061852627,
+      "servo_angle_deg": 52.63866883142475,
+      "static_total_slider_force_N": 148.0164238169673,
+      "static_per_rod_N": 74.00821190848364,
+      "theoretical_wing_torque_per_side_Nm": 2.0564784707029093,
+      "dynamic_total_force_2p5_N": 370.0410595424182,
+      "dynamic_per_rod_2p5_N": 185.0205297712091
+    },
+    {
+      "sweep_deg": 28,
+      "slider_x_current_mm": 466.43769480430456,
+      "horn_pin_y_mm": 14.341715664252476,
+      "servo_angle_deg": 57.52548302335976,
+      "static_total_slider_force_N": 139.4533294914716,
+      "static_per_rod_N": 69.7266647457358,
+      "theoretical_wing_torque_per_side_Nm": 1.9503445022359287,
+      "dynamic_total_force_2p5_N": 348.633323728679,
+      "dynamic_per_rod_2p5_N": 174.3166618643395
+    },
+    {
+      "sweep_deg": 30,
+      "slider_x_current_mm": 465.25224049034966,
+      "horn_pin_y_mm": 15.030651546025338,
+      "servo_angle_deg": 62.14783338494865,
+      "static_total_slider_force_N": 133.0614307620533,
+      "static_per_rod_N": 66.53071538102665,
+      "theoretical_wing_torque_per_side_Nm": 1.8725774984032948,
+      "dynamic_total_force_2p5_N": 332.65357690513326,
+      "dynamic_per_rod_2p5_N": 166.32678845256663
+    },
+    {
+      "sweep_deg": 32,
+      "slider_x_current_mm": 464.06966333809294,
+      "horn_pin_y_mm": 15.598290631041456,
+      "servo_angle_deg": 66.56999336706453,
+      "static_total_slider_force_N": 128.21917781297714,
+      "static_per_rod_N": 64.10958890648857,
+      "theoretical_wing_torque_per_side_Nm": 1.8149746223313536,
+      "dynamic_total_force_2p5_N": 320.54794453244284,
+      "dynamic_per_rod_2p5_N": 160.27397226622142
+    },
+    {
+      "sweep_deg": 34,
+      "slider_x_current_mm": 462.88980844526657,
+      "horn_pin_y_mm": 16.05819123706007,
+      "servo_angle_deg": 70.83890934305686,
+      "static_total_slider_force_N": 124.54702839659043,
+      "static_per_rod_N": 62.27351419829522,
+      "theoretical_wing_torque_per_side_Nm": 1.7725286023206879,
+      "dynamic_total_force_2p5_N": 311.3675709914761,
+      "dynamic_per_rod_2p5_N": 155.68378549573805
+    },
+    {
+      "sweep_deg": 36,
+      "slider_x_current_mm": 461.7125887273729,
+      "horn_pin_y_mm": 16.420019169203616,
+      "servo_angle_deg": 74.9906286171949,
+      "static_total_slider_force_N": 121.8025374629938,
+      "static_per_rod_N": 60.9012687314969,
+      "theoretical_wing_torque_per_side_Nm": 1.7420401225623052,
+      "dynamic_total_force_2p5_N": 304.5063436574845,
+      "dynamic_per_rod_2p5_N": 152.25317182874224
+    },
+    {
+      "sweep_deg": 38,
+      "slider_x_current_mm": 460.5379828038941,
+      "horn_pin_y_mm": 16.69071576823712,
+      "servo_angle_deg": 79.05406916115447,
+      "static_total_slider_force_N": 119.82709595990208,
+      "static_per_rod_N": 59.91354797995104,
+      "theoretical_wing_torque_per_side_Nm": 1.7214139643173525,
+      "dynamic_total_force_2p5_N": 299.5677398997552,
+      "dynamic_per_rod_2p5_N": 149.7838699498776
+    },
+    {
+      "sweep_deg": 40,
+      "slider_x_current_mm": 459.3660332970504,
+      "horn_pin_y_mm": 16.875207898815336,
+      "servo_angle_deg": 83.0533927439538,
+      "static_total_slider_force_N": 118.51705839667923,
+      "static_per_rod_N": 59.258529198339616,
+      "theoretical_wing_torque_per_side_Nm": 1.7092777898183131,
+      "dynamic_total_force_2p5_N": 296.29264599169807,
+      "dynamic_per_rod_2p5_N": 148.14632299584903
+    },
+    {
+      "sweep_deg": 42,
+      "slider_x_current_mm": 458.19684547363283,
+      "horn_pin_y_mm": 16.976850952000486,
+      "servo_angle_deg": 87.00960173914095,
+      "static_total_slider_force_N": 117.80747829233475,
+      "static_per_rod_N": 58.903739146167375,
+      "theoretical_wing_torque_per_side_Nm": 1.7047676229506685,
+      "dynamic_total_force_2p5_N": 294.5186957308369,
+      "dynamic_per_rod_2p5_N": 147.25934786541845
+    },
+    {
+      "sweep_deg": 44,
+      "slider_x_current_mm": 457.030586169844,
+      "horn_pin_y_mm": 16.99770394859461,
+      "servo_angle_deg": 90.94169195731149,
+      "static_total_slider_force_N": 117.66295059900501,
+      "static_per_rod_N": 58.83147529950251,
+      "theoretical_wing_torque_per_side_Nm": 1.7074072736316548,
+      "dynamic_total_force_2p5_N": 294.15737649751253,
+      "dynamic_per_rod_2p5_N": 147.07868824875627
+    },
+    {
+      "sweep_deg": 46,
+      "slider_x_current_mm": 455.86748294674896,
+      "horn_pin_y_mm": 16.93868957459421,
+      "servo_angle_deg": 94.86755585940206,
+      "static_total_slider_force_N": 118.0728881766471,
+      "static_per_rod_N": 59.03644408832355,
+      "theoretical_wing_torque_per_side_Nm": 1.717046407032311,
+      "dynamic_total_force_2p5_N": 295.18222044161774,
+      "dynamic_per_rod_2p5_N": 147.59111022080887
+    },
+    {
+      "sweep_deg": 48,
+      "slider_x_current_mm": 454.70782343021517,
+      "horn_pin_y_mm": 16.799666224385465,
+      "servo_angle_deg": 98.80476302113568,
+      "static_total_slider_force_N": 119.04998428462291,
+      "static_per_rod_N": 59.524992142311454,
+      "theoretical_wing_torque_per_side_Nm": 1.7338408405538543,
+      "dynamic_total_force_2p5_N": 297.62496071155726,
+      "dynamic_per_rod_2p5_N": 148.81248035577863
+    },
+    {
+      "sweep_deg": 50,
+      "slider_x_current_mm": 453.5519547944316,
+      "horn_pin_y_mm": 16.5794225600336,
+      "servo_angle_deg": 102.77131480455218,
+      "static_total_slider_force_N": 120.63146305355684,
+      "static_per_rod_N": 60.31573152677842,
+      "theoretical_wing_torque_per_side_Nm": 1.7582699448704078,
+      "dynamic_total_force_2p5_N": 301.57865763389213,
+      "dynamic_per_rod_2p5_N": 150.78932881694607
+    },
+    {
+      "sweep_deg": 52,
+      "slider_x_current_mm": 452.4002833524479,
+      "horn_pin_y_mm": 16.275591740324064,
+      "servo_angle_deg": 106.78646489313486,
+      "static_total_slider_force_N": 122.88339692404804,
+      "static_per_rod_N": 61.44169846202402,
+      "theoretical_wing_torque_per_side_Nm": 1.7911950742638012,
+      "dynamic_total_force_2p5_N": 307.2084923101201,
+      "dynamic_per_rod_2p5_N": 153.60424615506005
+    },
+    {
+      "sweep_deg": 54,
+      "slider_x_current_mm": 451.25327422087355,
+      "horn_pin_y_mm": 15.884468029032444,
+      "servo_angle_deg": 110.87171463628619,
+      "static_total_slider_force_N": 125.90915832652055,
+      "static_per_rod_N": 62.95457916326028,
+      "theoretical_wing_torque_per_side_Nm": 1.8339735632655647,
+      "dynamic_total_force_2p5_N": 314.7728958163014,
+      "dynamic_per_rod_2p5_N": 157.3864479081507
+    },
+    {
+      "sweep_deg": 56,
+      "slider_x_current_mm": 450.11145102906596,
+      "horn_pin_y_mm": 15.4006880332779,
+      "servo_angle_deg": 115.05213966377615,
+      "static_total_slider_force_N": 129.86432785849487,
+      "static_per_rod_N": 64.93216392924744,
+      "theoretical_wing_torque_per_side_Nm": 1.88865980518244,
+      "dynamic_total_force_2p5_N": 324.6608196462372,
+      "dynamic_per_rod_2p5_N": 162.3304098231186
+    },
+    {
+      "sweep_deg": 58,
+      "slider_x_current_mm": 448.97539564592773,
+      "horn_pin_y_mm": 14.816703974333793,
+      "servo_angle_deg": 119.35830458227844,
+      "static_total_slider_force_N": 134.98278722882608,
+      "static_per_rod_N": 67.49139361441304,
+      "theoretical_wing_torque_per_side_Nm": 1.9583575672922475,
+      "dynamic_total_force_2p5_N": 337.4569680720652,
+      "dynamic_per_rod_2p5_N": 168.7284840360326
+    },
+    {
+      "sweep_deg": 60,
+      "slider_x_current_mm": 447.8457478999443,
+      "horn_pin_y_mm": 14.12190941547604,
+      "servo_angle_deg": 123.8292307894854,
+      "static_total_slider_force_N": 141.62390801120867,
+      "static_per_rod_N": 70.81195400560433,
+      "theoretical_wing_torque_per_side_Nm": 2.047858119774075,
+      "dynamic_total_force_2p5_N": 354.05977002802166,
+      "dynamic_per_rod_2p5_N": 177.02988501401083
+    },
+    {
+      "sweep_deg": 62,
+      "slider_x_current_mm": 446.7232052703795,
+      "horn_pin_y_mm": 13.301135942477138,
+      "servo_angle_deg": 128.51733648599665,
+      "static_total_slider_force_N": 150.36309745643646,
+      "static_per_rod_N": 75.18154872821823,
+      "theoretical_wing_torque_per_side_Nm": 2.164866772943079,
+      "dynamic_total_force_2p5_N": 375.90774364109114,
+      "dynamic_per_rod_2p5_N": 187.95387182054557
+    },
+    {
+      "sweep_deg": 64,
+      "slider_x_current_mm": 445.60852252968584,
+      "horn_pin_y_mm": 12.331906233323949,
+      "servo_angle_deg": 133.4973465422017,
+      "static_total_slider_force_N": 162.1809282489913,
+      "static_per_rod_N": 81.09046412449565,
+      "theoretical_wing_torque_per_side_Nm": 2.322569386513185,
+      "dynamic_total_force_2p5_N": 405.4523206224783,
+      "dynamic_per_rod_2p5_N": 202.72616031123914
+    },
+    {
+      "sweep_deg": 66,
+      "slider_x_current_mm": 444.5025113192271,
+      "horn_pin_y_mm": 11.178942973090882,
+      "servo_angle_deg": 138.8840588629399,
+      "static_total_slider_force_N": 178.90779162343443,
+      "static_per_rod_N": 89.45389581171722,
+      "theoretical_wing_torque_per_side_Nm": 2.5456771317878064,
+      "dynamic_total_force_2p5_N": 447.26947905858606,
+      "dynamic_per_rod_2p5_N": 223.63473952929303
+    },
+    {
+      "sweep_deg": 68,
+      "slider_x_current_mm": 443.4060396423778,
+      "horn_pin_y_mm": 9.781639139168464,
+      "servo_angle_deg": 144.873013629559,
+      "static_total_slider_force_N": 204.46470898639387,
+      "static_per_rod_N": 102.23235449319694,
+      "theoretical_wing_torque_per_side_Nm": 2.887324516293099,
+      "dynamic_total_force_2p5_N": 511.16177246598465,
+      "dynamic_per_rod_2p5_N": 255.58088623299233
+    }
+  ],
+  "gates": {
+    "kinematics_valid": true,
+    "actual_servo_selected": false,
+    "rod_end_material_verified": false,
+    "pin_material_verified": false,
+    "crank_material_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

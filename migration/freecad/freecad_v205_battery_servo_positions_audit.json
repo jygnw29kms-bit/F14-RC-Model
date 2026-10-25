@@ -1,0 +1,33 @@
+{
+  "status": "V205_BATTERY_SERVO_ALL_POSITIONS",
+  "rows": [
+    {
+      "center_x_mm": 305,
+      "pack_x": [
+        252,
+        358
+      ],
+      "distance_mm": 50.346309376957265,
+      "intersection_mm3": 0.0
+    },
+    {
+      "center_x_mm": 340,
+      "pack_x": [
+        287,
+        393
+      ],
+      "distance_mm": 15.346309376957265,
+      "intersection_mm3": 0.0
+    },
+    {
+      "center_x_mm": 375,
+      "pack_x": [
+        322,
+        428
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 13266.241170553847
+    }
+  ],
+  "all_clear": false
+}

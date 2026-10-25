@@ -1,0 +1,45 @@
+{
+  "status": "V213_CURRENT_GEOMETRY_VOLUMES",
+  "rows": [
+    {
+      "name": "V210_SYNC_YOKE_M4_20",
+      "volume_cm3": 15.514329222362704
+    },
+    {
+      "name": "V210_CRANK_M4_R_20",
+      "volume_cm3": 2.7412512453136024
+    },
+    {
+      "name": "V210_CRANK_M4_L_20",
+      "volume_cm3": 2.741251245313603
+    },
+    {
+      "name": "V209_ROD_R_20",
+      "volume_cm3": 0.9254219464419408
+    },
+    {
+      "name": "V209_ROD_L_20",
+      "volume_cm3": 0.9254219464419406
+    },
+    {
+      "name": "V204_MONO_LOWER_R",
+      "volume_cm3": 11.163941921272233
+    },
+    {
+      "name": "V204_MONO_LOWER_L",
+      "volume_cm3": 11.163941921272233
+    },
+    {
+      "name": "V204_UPPER_FORK_R",
+      "volume_cm3": 4.445663560610138
+    },
+    {
+      "name": "V204_UPPER_FORK_L",
+      "volume_cm3": 4.445663560610137
+    },
+    {
+      "name": "BATTERY_TRAY_v207",
+      "volume_cm3": 25.01842631005318
+    }
+  ]
+}
