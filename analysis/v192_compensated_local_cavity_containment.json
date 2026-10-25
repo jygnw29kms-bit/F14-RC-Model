@@ -1,0 +1,64 @@
+{
+  "status": "COMPENSATED_LOCAL_CONTAINMENT_TRIAL_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "station_y_mm": [
+    220,
+    230,
+    240,
+    250,
+    260
+  ],
+  "inset_mm": 0.43,
+  "print_release": false,
+  "flight_release": false,
+  "valid": true,
+  "solids": 1,
+  "rows": [
+    {
+      "y_mm": 225,
+      "minimum_planar_boundary_gap_mm": 0.425459286492697,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 230,
+      "minimum_planar_boundary_gap_mm": 0.4299999999998682,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 235,
+      "minimum_planar_boundary_gap_mm": 0.42697062372282024,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 240,
+      "minimum_planar_boundary_gap_mm": 0.4299999999997544,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 245,
+      "minimum_planar_boundary_gap_mm": 0.42792123535348253,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 250,
+      "minimum_planar_boundary_gap_mm": 0.42999999999987726,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 255,
+      "minimum_planar_boundary_gap_mm": 0.42881637320606164,
+      "inner_outside_outer_area_mm2": 0.0
+    }
+  ],
+  "sampled_minimum_gap_mm": 0.425459286492697,
+  "outside_volume_mm3": 0.0,
+  "contained_within_1e_6_mm3": true,
+  "cavity_tool_sha256": "2bc48a6dab9e274873998e2b1d588d758b95d435505e5f63eb6c6845e225728c",
+  "elapsed_seconds": 35.83800005912781,
+  "limits": [
+    "Only local 40 mm span numerical spacing experiment; 0.43 mm experimental planar inset, not a selected structural thickness.",
+    "Sampled planar boundary gap is not a continuous three-dimensional normal thickness field.",
+    "3D containment checked; saved cavity tool is a void reference, NOT a print part. No shell subtraction.",
+    "Whole wing, joints, loads, OML registration and print qualification remain open."
+  ]
+}
