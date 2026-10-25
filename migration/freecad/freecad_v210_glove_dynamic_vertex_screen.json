@@ -1,0 +1,526 @@
+{
+  "status": "V210_GLOVE_DYNAMIC_VERTEX_SCREEN",
+  "sample_step_deg": 2,
+  "minimum_vertex_distance_mm": 8.313677560659139,
+  "worst": {
+    "side": "R",
+    "sweep_deg": 20,
+    "min_skin_vertex_to_wing_mm": 8.313677560659139,
+    "skin_point": [
+      526.346,
+      148.8263775443693,
+      -13.5
+    ]
+  },
+  "rows": [
+    {
+      "side": "R",
+      "sweep_deg": 20,
+      "min_skin_vertex_to_wing_mm": 8.313677560659139,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 22,
+      "min_skin_vertex_to_wing_mm": 8.319595775546077,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 24,
+      "min_skin_vertex_to_wing_mm": 8.326424244234873,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 26,
+      "min_skin_vertex_to_wing_mm": 8.336351092536992,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 28,
+      "min_skin_vertex_to_wing_mm": 8.34887285241605,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 30,
+      "min_skin_vertex_to_wing_mm": 8.362066854215565,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 32,
+      "min_skin_vertex_to_wing_mm": 8.379702159149,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 34,
+      "min_skin_vertex_to_wing_mm": 8.398709049942235,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 36,
+      "min_skin_vertex_to_wing_mm": 8.419112854077952,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 38,
+      "min_skin_vertex_to_wing_mm": 8.444210165191198,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 40,
+      "min_skin_vertex_to_wing_mm": 8.46975609532177,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 42,
+      "min_skin_vertex_to_wing_mm": 8.499225518041246,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 44,
+      "min_skin_vertex_to_wing_mm": 8.531246475909276,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 46,
+      "min_skin_vertex_to_wing_mm": 8.563818719817744,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 48,
+      "min_skin_vertex_to_wing_mm": 8.601426493754078,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 50,
+      "min_skin_vertex_to_wing_mm": 8.639038734258518,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 52,
+      "min_skin_vertex_to_wing_mm": 8.680459084278326,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 54,
+      "min_skin_vertex_to_wing_mm": 8.72499022418611,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 56,
+      "min_skin_vertex_to_wing_mm": 8.769305029638607,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 58,
+      "min_skin_vertex_to_wing_mm": 8.820765705084666,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 60,
+      "min_skin_vertex_to_wing_mm": 8.871874801243212,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 62,
+      "min_skin_vertex_to_wing_mm": 8.926335252009759,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 64,
+      "min_skin_vertex_to_wing_mm": 8.986089801538526,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 66,
+      "min_skin_vertex_to_wing_mm": 9.045113973512244,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "R",
+      "sweep_deg": 68,
+      "min_skin_vertex_to_wing_mm": 9.111763682010352,
+      "skin_point": [
+        526.346,
+        148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 20,
+      "min_skin_vertex_to_wing_mm": 8.313677560659139,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 22,
+      "min_skin_vertex_to_wing_mm": 8.319595775546077,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 24,
+      "min_skin_vertex_to_wing_mm": 8.326424244234873,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 26,
+      "min_skin_vertex_to_wing_mm": 8.336351092536992,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 28,
+      "min_skin_vertex_to_wing_mm": 8.34887285241605,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 30,
+      "min_skin_vertex_to_wing_mm": 8.362066854215565,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 32,
+      "min_skin_vertex_to_wing_mm": 8.379702159149,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 34,
+      "min_skin_vertex_to_wing_mm": 8.398709049942235,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 36,
+      "min_skin_vertex_to_wing_mm": 8.419112854077952,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 38,
+      "min_skin_vertex_to_wing_mm": 8.444210165191198,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 40,
+      "min_skin_vertex_to_wing_mm": 8.46975609532177,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 42,
+      "min_skin_vertex_to_wing_mm": 8.499225518041246,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 44,
+      "min_skin_vertex_to_wing_mm": 8.531246475909276,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 46,
+      "min_skin_vertex_to_wing_mm": 8.563818719817744,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 48,
+      "min_skin_vertex_to_wing_mm": 8.601426493754078,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 50,
+      "min_skin_vertex_to_wing_mm": 8.639038734258518,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 52,
+      "min_skin_vertex_to_wing_mm": 8.680459084278326,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 54,
+      "min_skin_vertex_to_wing_mm": 8.72499022418611,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 56,
+      "min_skin_vertex_to_wing_mm": 8.769305029638607,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 58,
+      "min_skin_vertex_to_wing_mm": 8.820765705084666,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 60,
+      "min_skin_vertex_to_wing_mm": 8.871874801243212,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 62,
+      "min_skin_vertex_to_wing_mm": 8.926335252009759,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 64,
+      "min_skin_vertex_to_wing_mm": 8.986089801538526,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 66,
+      "min_skin_vertex_to_wing_mm": 9.045113973512244,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    },
+    {
+      "side": "L",
+      "sweep_deg": 68,
+      "min_skin_vertex_to_wing_mm": 9.111763682010352,
+      "skin_point": [
+        526.346,
+        -148.8263775443693,
+        -13.5
+      ]
+    }
+  ],
+  "gates": {
+    "vertex_screen_positive": true,
+    "vertex_screen_ge_1mm": true,
+    "full_surface_exact_dynamic_verified": false,
+    "absolute_Z_OML_verified": false,
+    "production_OML": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
