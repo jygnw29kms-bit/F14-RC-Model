@@ -1,0 +1,19 @@
+{
+  "status": "WING_PIVOT_X_CORRECTION_REVIEW_ONLY",
+  "pivot_source": "NADC FS43.68 model in x12 = FS524.16 full-scale",
+  "rc_scale_mm_per_fullscale_in": 1.1697428086486623,
+  "legacy_pivot_X_mm": 613.1323905812828,
+  "target_pivot_X_mm": 504.3463093769572,
+  "delta_X_mm": -108.78608120432563,
+  "Y_preserved_mm": 125.20927023775283,
+  "Z_preserved_mm": 0.0,
+  "gates": {
+    "X_correction_candidate_only": true,
+    "Y_verified": false,
+    "Z_verified": false,
+    "glove_fit_verified": false,
+    "master_changed": false,
+    "production_release": false
+  },
+  "output_sha256": "d1d4afe8d82d19d70118429b7680971b8045ab0c5429a43c89d0561929f37b6b"
+}
