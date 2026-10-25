@@ -1,0 +1,180 @@
+{
+  "status": "V209_FIXED_GLOVE_STRUCTURAL_ENCLOSURE",
+  "rows": [
+    {
+      "side": "R",
+      "x_mm": 482.346,
+      "inner_fuselage_lower_z_mm": -16.684803483504012,
+      "wing_lower_outer_z_mm": -1.9691036770706907,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 11.530896322929308,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 5.3786268436016496
+    },
+    {
+      "side": "R",
+      "x_mm": 488.346,
+      "inner_fuselage_lower_z_mm": -17.722236236399084,
+      "wing_lower_outer_z_mm": -3.356027369623547,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 10.143972630376453,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 7.114907900269535
+    },
+    {
+      "side": "R",
+      "x_mm": 496.346,
+      "inner_fuselage_lower_z_mm": -19.222270821779176,
+      "wing_lower_outer_z_mm": -4.191008144569733,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 9.308991855430268,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 9.601592873655221
+    },
+    {
+      "side": "R",
+      "x_mm": 504.346,
+      "inner_fuselage_lower_z_mm": -20.69977563787542,
+      "wing_lower_outer_z_mm": -4.663056599705216,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 8.836943400294784,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 12.01581148571597
+    },
+    {
+      "side": "R",
+      "x_mm": 512.346,
+      "inner_fuselage_lower_z_mm": -22.155699684927114,
+      "wing_lower_outer_z_mm": -4.9525361637655845,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 8.547463836234416,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 14.353211543836217
+    },
+    {
+      "side": "R",
+      "x_mm": 520.346,
+      "inner_fuselage_lower_z_mm": -21.265604624078705,
+      "wing_lower_outer_z_mm": -5.121463947001188,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 8.378536052998811,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 12.929496717198068
+    },
+    {
+      "side": "R",
+      "x_mm": 526.346,
+      "inner_fuselage_lower_z_mm": -20.11794558787288,
+      "wing_lower_outer_z_mm": -5.186046930302979,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 8.313953069697021,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 11.06978051833813
+    },
+    {
+      "side": "L",
+      "x_mm": 482.346,
+      "inner_fuselage_lower_z_mm": -16.582626328256964,
+      "wing_lower_outer_z_mm": -1.9691036770706907,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 11.530896322929308,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 5.207030016747292
+    },
+    {
+      "side": "L",
+      "x_mm": 488.346,
+      "inner_fuselage_lower_z_mm": -17.710613333300884,
+      "wing_lower_outer_z_mm": -3.356027369623547,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 10.143972630376453,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 7.095522005947482
+    },
+    {
+      "side": "L",
+      "x_mm": 496.346,
+      "inner_fuselage_lower_z_mm": -19.202657238788788,
+      "wing_lower_outer_z_mm": -4.191008144569733,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 9.308991855430268,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 9.569292190924367
+    },
+    {
+      "side": "L",
+      "x_mm": 504.346,
+      "inner_fuselage_lower_z_mm": -20.68156413897009,
+      "wing_lower_outer_z_mm": -4.663056599705216,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 8.836943400294784,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 11.986298155936156
+    },
+    {
+      "side": "L",
+      "x_mm": 512.346,
+      "inner_fuselage_lower_z_mm": -22.147859768613998,
+      "wing_lower_outer_z_mm": -4.9525361637655845,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 8.547463836234416,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 14.34074751707434
+    },
+    {
+      "side": "L",
+      "x_mm": 520.346,
+      "inner_fuselage_lower_z_mm": -21.190419689382736,
+      "wing_lower_outer_z_mm": -5.121463947001188,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 8.378536052998811,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 12.808464271141661
+    },
+    {
+      "side": "L",
+      "x_mm": 526.346,
+      "inner_fuselage_lower_z_mm": -20.000707272359392,
+      "wing_lower_outer_z_mm": -5.186046930302979,
+      "outer_skin_target_z_mm": -13.5,
+      "pad_bottom_z_mm": -12.5,
+      "wing_clearance_mm": 8.313953069697021,
+      "pad_clearance_mm": 1.0,
+      "lateral_slope_deg": 10.87839649657739
+    }
+  ],
+  "wing_clearance_range_mm": [
+    8.313953069697021,
+    11.530896322929308
+  ],
+  "pad_clearance_range_mm": [
+    1.0,
+    1.0
+  ],
+  "lateral_slope_range_deg": [
+    5.207030016747292,
+    14.353211543836217
+  ],
+  "gates": {
+    "wing_root_clearance_ge_1mm": true,
+    "lower_pad_enclosed_with_1mm_clearance": true,
+    "all_shapes_valid": true,
+    "absolute_Z_OML_verified": false,
+    "production_OML": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

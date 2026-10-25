@@ -1,0 +1,22 @@
+{
+  "status": "V210_GLOVE_STRUCTURE_INTEGRATED",
+  "source_v208": "F14_v208_SWEEP_PACKAGING_INTEGRATED.FCStd",
+  "source_v209": "F14_v209_FIXED_GLOVE_STRUCTURAL_ENCLOSURE.FCStd",
+  "global_vertical_clearance_mm": {
+    "R": 1.0747404938092018,
+    "L": 1.0747404938092018
+  },
+  "proof_note": "Wing sweep rotates about Z axis, preserving all wing Z coordinates; skin Zmax below wing Zmin therefore proves nonintersection for all sweep angles.",
+  "gates": {
+    "fixed_glove_structural_enclosure_integrated": true,
+    "all_sweep_vertical_nonintersection_proven": true,
+    "minimum_global_vertical_clearance_ge_1mm": true,
+    "absolute_Z_OML_verified": false,
+    "production_OML": false,
+    "servo_model_selected": false,
+    "material_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "f643ba66e0eccb5975bb6e7268d7baa33484bd716437f484d63e76911c2db437"
+}
