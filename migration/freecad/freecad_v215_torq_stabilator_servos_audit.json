@@ -1,0 +1,46 @@
+{
+  "status": "V215_TORQ_STABILATOR_SERVOS",
+  "servo": {
+    "model": "TORQ TCM-1022",
+    "dims_mm": [
+      23,
+      12,
+      27.5
+    ],
+    "weight_g_each": 22,
+    "stall_kgcm_8p4V": 14.5,
+    "speed_s_60_8p4V": 0.055,
+    "centers_mm": [
+      [
+        700,
+        60,
+        0
+      ],
+      [
+        700,
+        -60,
+        0
+      ]
+    ],
+    "service_dims_mm": [
+      27,
+      31.5,
+      16
+    ]
+  },
+  "current_model_clearance": {
+    "contained": true,
+    "min_to_ESC_mm": 14.647952075290252,
+    "to_EDF_mm": 28.5
+  },
+  "gates": {
+    "torque_gate_v168_pass": true,
+    "packaging_reverified_v214": true,
+    "actual_stall_current_measured": false,
+    "mounting_ears_measured": false,
+    "output_spline_measured": false,
+    "bench_proof": false,
+    "flight_release": false
+  },
+  "output_sha256": "8ca21d083d6af9a07181e87be9bcb764b071843157574c0cf99e7e14effe1515"
+}

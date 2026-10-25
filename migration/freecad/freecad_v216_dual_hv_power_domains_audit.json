@@ -1,0 +1,54 @@
+{
+  "status": "V216_DUAL_HV_POWER_DOMAINS",
+  "tail_ubec": {
+    "model": "Hobbywing UBEC 10A HV",
+    "center_mm": [
+      330,
+      -60,
+      45
+    ],
+    "output_V": 8.4,
+    "continuous_A": 10,
+    "peak_A": 25,
+    "mass_g": 35
+  },
+  "receiver_reserve": {
+    "center_mm": [
+      270,
+      0,
+      45
+    ],
+    "dims_mm": [
+      40,
+      25,
+      12
+    ],
+    "center_distance_to_BECs_mm": [
+      84.8528137423857,
+      84.8528137423857
+    ]
+  },
+  "packaging": {
+    "tail_bec": {
+      "inside_fraction": 1.0,
+      "sweep_bec_distance_mm": 95.0,
+      "battery_tray_distance_mm": 36.15807111248917,
+      "servo_service_distance_mm": 83.08521498551454
+    },
+    "receiver_reserve": {
+      "inside_fraction": 1.0,
+      "sweep_bec_distance_mm": 37.16517186829626,
+      "battery_tray_distance_mm": 20.642490389759228,
+      "servo_service_distance_mm": 143.3099792190261
+    }
+  },
+  "gates": {
+    "both_HV_BECs_packaged": true,
+    "receiver_reserve_outside_50mm_centers": true,
+    "receiver_selected": false,
+    "tail_servo_stall_current_measured": false,
+    "brownout_verified": false,
+    "flight_release": false
+  },
+  "output_sha256": "3d8548385c536561b5ca7e5a7ad578e04fd93d90422f28495e180749726357d6"
+}

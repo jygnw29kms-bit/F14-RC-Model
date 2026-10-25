@@ -1,0 +1,44 @@
+{
+  "status": "V215_OLD_TORQ_POSITION_CURRENT_MODEL_SCREEN",
+  "old_center_mm": [
+    700,
+    60,
+    0
+  ],
+  "service_dims_mm": [
+    27,
+    31.5,
+    16
+  ],
+  "rows": [
+    {
+      "side": "R",
+      "inside_fraction": 1.0,
+      "distances_mm": {
+        "INLET_EDF_R": 28.5,
+        "INLET_EDF_L": 89.40712767460172,
+        "V212_SKYWALKER50A_R": 14.647952075290252,
+        "V212_SKYWALKER50A_L": 127.41492259543229,
+        "V211_HOBBYWING_UBEC10A_HV": 330.45725896097366,
+        "BATTERY_TRAY_v207": 249.99584496547135,
+        "V205_SWEEP_SERVO_SERVICE": 207.51989574037594
+      },
+      "minimum_distance_mm": 14.647952075290252
+    },
+    {
+      "side": "L",
+      "inside_fraction": 1.0,
+      "distances_mm": {
+        "INLET_EDF_R": 89.40712767460172,
+        "INLET_EDF_L": 28.5,
+        "V212_SKYWALKER50A_R": 127.41492259543229,
+        "V212_SKYWALKER50A_L": 14.647952075290252,
+        "V211_HOBBYWING_UBEC10A_HV": 342.9578144611958,
+        "BATTERY_TRAY_v207": 249.99584496547135,
+        "V205_SWEEP_SERVO_SERVICE": 207.51989574037594
+      },
+      "minimum_distance_mm": 14.647952075290252
+    }
+  ],
+  "passes": true
+}

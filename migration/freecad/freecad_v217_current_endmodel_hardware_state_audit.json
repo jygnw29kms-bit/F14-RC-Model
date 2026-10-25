@@ -1,0 +1,22 @@
+{
+  "status": "V217_CURRENT_ENDMODEL_HARDWARE_STATE",
+  "source_sha256": "3d8548385c536561b5ca7e5a7ad578e04fd93d90422f28495e180749726357d6",
+  "projected_AUW_g": 1165.417172390141,
+  "working_target_g": 1175,
+  "shape_object_count": 85,
+  "open_hard_gates": [
+    "common aircraft Z / production OML",
+    "true radome seam",
+    "EDF actual shroud OD/revision measurement",
+    "receiver protocol/model",
+    "tail servo current/ears/spline physical measurements",
+    "material and fastener certificates",
+    "physical sweep/stabilator proof",
+    "installed thrust/dry CG/AUW"
+  ],
+  "release": {
+    "print": false,
+    "flight": false
+  },
+  "output_sha256": "15821e694126d7a82de2ebd7d38ee08640cff823583525b6fc275b578c324dd7"
+}

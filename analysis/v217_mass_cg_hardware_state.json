@@ -1,0 +1,39 @@
+{
+  "status": "V217_MASS_CG_WITH_TORQ_DUAL_HV_POWER",
+  "base_v213_g": 1126.417172390141,
+  "changes_g": {
+    "stabilator_servos_budget_40_to_2x_TORQ22": 4.0,
+    "second_taileron_UBEC10A_HV": 35.0
+  },
+  "projected_total_g": 1165.417172390141,
+  "working_target_g": 1175,
+  "redesign_threshold_g": 1200,
+  "margin_to_1200_g": 34.582827609858896,
+  "battery": {
+    "mass_g": 202,
+    "center_positions_mm": [
+      305,
+      340,
+      375
+    ],
+    "travel_mm": 70,
+    "CG_authority_mm_at_projected_AUW": 12.132994377455784
+  },
+  "published_twin_EDF_thrust_g": 1800,
+  "published_static_thrust_to_weight": 1.5445113068897038,
+  "decision": {
+    "1050_target_retired": true,
+    "1150_target_exceeded_slightly": true,
+    "1175_working_target": true,
+    "1200_redesign_threshold_retained": true,
+    "battery_travel_retained": true,
+    "ballast_last_resort": true
+  },
+  "gates": {
+    "actual_component_masses_measured": false,
+    "installed_thrust_measured": false,
+    "dry_CG_measured": false,
+    "AUW_frozen": false,
+    "flight_release": false
+  }
+}
