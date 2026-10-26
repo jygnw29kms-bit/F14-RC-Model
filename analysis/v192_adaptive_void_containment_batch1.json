@@ -1,0 +1,138 @@
+{
+  "status": "SAVED_ADAPTIVE_VOID_CONTAINMENT_BATCH_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "tools_sha256": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "rows": [
+    {
+      "index": 0,
+      "object": "VOID_TOOL_0",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 1,
+      "object": "VOID_TOOL_1",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 2,
+      "object": "VOID_TOOL_2",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 3,
+      "object": "VOID_TOOL_3",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 4,
+      "object": "VOID_TOOL_4",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 5,
+      "object": "VOID_TOOL_5",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 6,
+      "object": "VOID_TOOL_6",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 7,
+      "object": "VOID_TOOL_7",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 8,
+      "object": "VOID_TOOL_8",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 9,
+      "object": "VOID_TOOL_9",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 10,
+      "object": "VOID_TOOL_10",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 11,
+      "object": "VOID_TOOL_11",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 12,
+      "object": "VOID_TOOL_12",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 13,
+      "object": "VOID_TOOL_13",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 14,
+      "object": "VOID_TOOL_14",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    }
+  ],
+  "remaining_indices": [
+    15,
+    16
+  ],
+  "elapsed_seconds": 157.31100010871887,
+  "limits": [
+    "Containment of individual saved tools only; no fusion, subtraction or boundary clearance verification.",
+    "No full-span wing shell or structural/printing qualification."
+  ],
+  "print_release": false,
+  "flight_release": false
+}

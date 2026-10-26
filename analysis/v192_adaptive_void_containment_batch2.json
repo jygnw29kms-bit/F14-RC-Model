@@ -1,0 +1,31 @@
+{
+  "status": "SAVED_ADAPTIVE_VOID_CONTAINMENT_BATCH_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "tools_sha256": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "rows": [
+    {
+      "index": 15,
+      "object": "VOID_TOOL_15",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    },
+    {
+      "index": 16,
+      "object": "VOID_TOOL_16",
+      "valid": true,
+      "solids": 1,
+      "outside_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true
+    }
+  ],
+  "remaining_indices": [],
+  "elapsed_seconds": 17.753000020980835,
+  "limits": [
+    "Containment of individual saved tools only; no fusion, subtraction or boundary clearance verification.",
+    "No full-span wing shell or structural/printing qualification."
+  ],
+  "print_release": false,
+  "flight_release": false
+}
