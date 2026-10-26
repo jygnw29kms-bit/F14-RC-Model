@@ -1,0 +1,48 @@
+{
+  "status": "FIRST_FOUR_VOID_TOOLS_FUSION_TRIAL_ONLY",
+  "input_sha256": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "steps": [
+    {
+      "through_index": 1,
+      "valid": true,
+      "solids": 1,
+      "faces": 248,
+      "volume_mm3": 20897.680066613317,
+      "sum_input_volumes_mm3": 20897.679932723615,
+      "volume_balance_residual_mm3": -0.0001338897018285934
+    },
+    {
+      "through_index": 2,
+      "valid": true,
+      "solids": 1,
+      "faces": 355,
+      "volume_mm3": 30508.7949008084,
+      "sum_input_volumes_mm3": 30508.795060847668,
+      "volume_balance_residual_mm3": 0.00016003926793928258
+    },
+    {
+      "through_index": 3,
+      "valid": true,
+      "solids": 1,
+      "faces": 453,
+      "volume_mm3": 39619.134548794005,
+      "sum_input_volumes_mm3": 39619.13494393087,
+      "volume_balance_residual_mm3": 0.0003951368635171093
+    }
+  ],
+  "print_release": false,
+  "flight_release": false,
+  "output_sha256": "b7eb6d76a99dde2bf44897997bd99b880c83c5eb0c431ab655c3169f718b9f13",
+  "elapsed_seconds": 5.549000263214111,
+  "limits": [
+    "Only first four adjacent void tools; not complete cavity or wing shell.",
+    "Fusion boundary clearance and containment not independently checked here.",
+    "No wing subtraction, structural or print qualification; source tool file unchanged."
+  ]
+}
