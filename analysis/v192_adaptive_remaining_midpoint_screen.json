@@ -1,0 +1,232 @@
+{
+  "status": "ADAPTIVE_REMAINING_PLANAR_MIDPOINT_STUDY_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "span_studied_mm": [
+    180,
+    440
+  ],
+  "planar_inset_mm": 0.43,
+  "numerical_midpoint_gap_threshold_mm": 0.42,
+  "trials": [
+    {
+      "y_start": 180,
+      "y_end": 220,
+      "midpoint_y": 200.0,
+      "depth": 0,
+      "midpoint_planar_gap_mm": 0.3006485537105315,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": false
+    },
+    {
+      "y_start": 180,
+      "y_end": 200.0,
+      "midpoint_y": 190.0,
+      "depth": 1,
+      "midpoint_planar_gap_mm": 0.3956493242339113,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": false
+    },
+    {
+      "y_start": 180,
+      "y_end": 190.0,
+      "midpoint_y": 185.0,
+      "depth": 2,
+      "midpoint_planar_gap_mm": 0.42272263621748246,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 190.0,
+      "y_end": 200.0,
+      "midpoint_y": 195.0,
+      "depth": 2,
+      "midpoint_planar_gap_mm": 0.4207845179134964,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 200.0,
+      "y_end": 220,
+      "midpoint_y": 210.0,
+      "depth": 1,
+      "midpoint_planar_gap_mm": 0.4024180006796805,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": false
+    },
+    {
+      "y_start": 200.0,
+      "y_end": 210.0,
+      "midpoint_y": 205.0,
+      "depth": 2,
+      "midpoint_planar_gap_mm": 0.4223194593535312,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 210.0,
+      "y_end": 220,
+      "midpoint_y": 215.0,
+      "depth": 2,
+      "midpoint_planar_gap_mm": 0.42388898013579096,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 360,
+      "y_end": 380,
+      "midpoint_y": 370.0,
+      "depth": 0,
+      "midpoint_planar_gap_mm": 0.4295985733841147,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 380,
+      "y_end": 420,
+      "midpoint_y": 400.0,
+      "depth": 0,
+      "midpoint_planar_gap_mm": 0.4055415754992194,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": false
+    },
+    {
+      "y_start": 380,
+      "y_end": 400.0,
+      "midpoint_y": 390.0,
+      "depth": 1,
+      "midpoint_planar_gap_mm": 0.4273947098964644,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 400.0,
+      "y_end": 420,
+      "midpoint_y": 410.0,
+      "depth": 1,
+      "midpoint_planar_gap_mm": 0.4226511367111554,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 420,
+      "y_end": 440,
+      "midpoint_y": 430.0,
+      "depth": 0,
+      "midpoint_planar_gap_mm": 0.4145521573290739,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": false
+    },
+    {
+      "y_start": 420,
+      "y_end": 430.0,
+      "midpoint_y": 425.0,
+      "depth": 1,
+      "midpoint_planar_gap_mm": 0.42614948101644295,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 430.0,
+      "y_end": 440,
+      "midpoint_y": 435.0,
+      "depth": 1,
+      "midpoint_planar_gap_mm": 0.422506829261142,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    }
+  ],
+  "accepted_intervals": [
+    {
+      "y_start": 180,
+      "y_end": 190.0,
+      "midpoint_y": 185.0,
+      "depth": 2,
+      "midpoint_planar_gap_mm": 0.42272263621748246,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 190.0,
+      "y_end": 200.0,
+      "midpoint_y": 195.0,
+      "depth": 2,
+      "midpoint_planar_gap_mm": 0.4207845179134964,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 200.0,
+      "y_end": 210.0,
+      "midpoint_y": 205.0,
+      "depth": 2,
+      "midpoint_planar_gap_mm": 0.4223194593535312,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 210.0,
+      "y_end": 220,
+      "midpoint_y": 215.0,
+      "depth": 2,
+      "midpoint_planar_gap_mm": 0.42388898013579096,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 360,
+      "y_end": 380,
+      "midpoint_y": 370.0,
+      "depth": 0,
+      "midpoint_planar_gap_mm": 0.4295985733841147,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 380,
+      "y_end": 400.0,
+      "midpoint_y": 390.0,
+      "depth": 1,
+      "midpoint_planar_gap_mm": 0.4273947098964644,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 400.0,
+      "y_end": 420,
+      "midpoint_y": 410.0,
+      "depth": 1,
+      "midpoint_planar_gap_mm": 0.4226511367111554,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 420,
+      "y_end": 430.0,
+      "midpoint_y": 425.0,
+      "depth": 1,
+      "midpoint_planar_gap_mm": 0.42614948101644295,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    },
+    {
+      "y_start": 430.0,
+      "y_end": 440,
+      "midpoint_y": 435.0,
+      "depth": 1,
+      "midpoint_planar_gap_mm": 0.422506829261142,
+      "midpoint_outside_area_mm2": 0.0,
+      "midpoint_screen_pass": true
+    }
+  ],
+  "unresolved_intervals": [],
+  "budget_exhausted": false,
+  "elapsed_seconds": 178.35300016403198,
+  "limits": [
+    "Threshold is a numerical refinement criterion, not a structural or printer requirement.",
+    "Only interval midpoints checked; no error bound between samples or minimum normal wall proof.",
+    "No 3D containment or boundary-distance screen, combined cavity, shell, export or master update.",
+    "Root/tip outside Y180..440 excluded; this is not a full-span wing shell."
+  ],
+  "print_release": false,
+  "flight_release": false
+}
