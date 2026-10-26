@@ -1,0 +1,23 @@
+{
+  "status": "ADAPTIVE_PARTIAL_SPAN_SUBTRACTION_TRIAL_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "cavity_tool_sha256": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19",
+  "print_release": false,
+  "flight_release": false,
+  "tool_valid": true,
+  "tool_solids": 1,
+  "tool_volume_mm3": 145748.48586711596,
+  "result_valid": true,
+  "result_solids": 1,
+  "result_volume_mm3": 64770.945294431316,
+  "source_volume_mm3": 210519.45444906846,
+  "volume_balance_residual_mm3": 0.023287521187739912,
+  "trial_sha256": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+  "elapsed_seconds": 230.53921461105347,
+  "limits": [
+    "Void tool covers Y180..440 only; root and tip remain solid. Not a complete wing shell.",
+    "0.43 mm planar inset is numerical experiment, not structural wall selection.",
+    "Whole partial-span boundary distance has not been checked; local distance studies cannot be extrapolated.",
+    "No ribs, joints, spars, slicer, physical testing or whole-model release."
+  ]
+}
