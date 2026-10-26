@@ -1,0 +1,10 @@
+import json
+from pathlib import Path
+R=Path(r'C:/Users/dezen/Desktop/JL1976/F14-Tomcat/F14-RC-Model')
+v168=json.loads((R/'analysis/control_servo_torque_gate_v168.json').read_text())
+req20=v168['optimized_linkage']['severe_required_servo_torque_kgcm_including_existing_2x_factor']
+crank_ref=20.0; crank_actual=18.9; servo_arm=8.0; servo_rating=14.5
+req_actual=req20*crank_ref/crank_actual
+throw20=v168['optimized_linkage']['predicted_half_throw_deg']; throw_actual=throw20*crank_ref/crank_actual
+res={'status':'V232_TCM1022_STABILATOR_CURRENT_GATE','sources':['analysis/control_servo_torque_gate_v168.json','current TORQ TCM-1022 vendor specifications rechecked 2026-10-26'],'servo':{'model':'TORQ TCM-1022 full CNC metal gear coreless','dims_mm':[23,12,27.5],'mass_g_each':22,'voltage_V':8.4,'stall_torque_kgcm':14.5,'speed_s_per_60deg':0.055,'spline':'25T','motor':'coreless'},'linkage':{'servo_arm_mm':servo_arm,'modeled_stabilator_crank_radius_mm':crank_actual,'v168_reference_crank_mm':crank_ref,'linkage_effectiveness':v168['optimized_linkage']['linkage_effectiveness'],'severe_required_torque_recomputed_kgcm':req_actual,'predicted_half_throw_scaled_deg':throw_actual},'margins':{'stall_rating_to_severe_requirement_ratio':servo_rating/req_actual,'stall_rating_excess_kgcm':servo_rating-req_actual},'gates':{'nominal_14kgcm_class_pass':servo_rating>=14.0,'recomputed_18p9mm_crank_gate_pass':servo_rating>=req_actual,'preferred_mass_20g_each_pass':22<=20,'hard_mass_warning_25g_each_pass':22<=25,'stall_current_known':False,'mounting_ears_measured':False,'spline_offset_measured':False,'bench_0p67Nm_100cycles_pass':False,'brownout_pass':False,'flutter_pass':False,'flight_release':False}}
+(R/'analysis/v232_TCM1022_stabilator_current_gate.json').write_text(json.dumps(res,indent=2),encoding='utf-8'); print(json.dumps(res,indent=2))

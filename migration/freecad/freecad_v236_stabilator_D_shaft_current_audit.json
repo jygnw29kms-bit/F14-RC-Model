@@ -1,0 +1,55 @@
+{
+  "status": "V236_STABILATOR_D_SHAFT_CURRENT",
+  "geometry": {
+    "diameter_mm": 6.0,
+    "round_region_abs_y_mm": [
+      45,
+      82
+    ],
+    "D_region_abs_y_mm": [
+      82,
+      106
+    ],
+    "shaft_flat_x_from_center_mm": 2.4,
+    "fitting_bore_radius_mm": 3.05,
+    "fitting_bore_flat_x_from_center_mm": 2.45,
+    "nominal_radial_clearance_mm": 0.05,
+    "nominal_flat_clearance_mm": 0.05
+  },
+  "rows": [
+    {
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 1.6894181273214437,
+      "fitting_intersection_mm3": 0.0,
+      "bearing1_intersection_mm3": 0.0,
+      "bearing2_intersection_mm3": 0.0,
+      "shaft_to_crank_mm": 0.04999999999995017,
+      "shaft_to_servo_service_mm": 19.50789833346562
+    },
+    {
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 1.6894181273214437,
+      "fitting_intersection_mm3": 0.0,
+      "bearing1_intersection_mm3": 0.0,
+      "bearing2_intersection_mm3": 0.0,
+      "shaft_to_crank_mm": 0.04999999999995017,
+      "shaft_to_servo_service_mm": 19.50789833346562
+    }
+  ],
+  "gates": {
+    "shaft_single_valid_solid_each_side": true,
+    "D_fitting_clearance_no_intersection": true,
+    "bearing_regions_no_solid_interference": true,
+    "crank_region_round_and_contacting": false,
+    "actual_shaft_material_frozen": false,
+    "machining_flat_tolerance_verified": false,
+    "bench_proof": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "cfbb68669a40a548f1c59afe39bed95098925341f73766f3fc277885e2048b50"
+}

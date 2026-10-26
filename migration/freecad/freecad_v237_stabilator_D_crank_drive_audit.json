@@ -1,0 +1,60 @@
+{
+  "status": "V237_STABILATOR_D_CRANK_DRIVE",
+  "geometry": {
+    "shaft_round_abs_y_mm": [
+      45,
+      76
+    ],
+    "shaft_D_abs_y_mm": [
+      76,
+      106
+    ],
+    "shaft_D_flat_x_mm": 2.4,
+    "crank_D_bore_flat_x_mm": 2.45,
+    "radial_clearance_mm": 0.05,
+    "flat_clearance_mm": 0.05,
+    "crank_outer_radius_mm": 18.9,
+    "crank_thickness_mm": 4.0
+  },
+  "rows": [
+    {
+      "side": "R",
+      "shaft_valid": true,
+      "shaft_solid_count": 1,
+      "crank_valid": true,
+      "crank_solid_count": 1,
+      "shaft_fitting_intersection_mm3": 0.0,
+      "shaft_crank_intersection_mm3": 0.0,
+      "shaft_bearing1_intersection_mm3": 0.0,
+      "shaft_bearing2_intersection_mm3": 0.0,
+      "crank_to_root_fitting_mm": 2.0,
+      "crank_to_servo_service_mm": 3.616549513641995
+    },
+    {
+      "side": "L",
+      "shaft_valid": true,
+      "shaft_solid_count": 1,
+      "crank_valid": true,
+      "crank_solid_count": 1,
+      "shaft_fitting_intersection_mm3": 0.0,
+      "shaft_crank_intersection_mm3": 0.0,
+      "shaft_bearing1_intersection_mm3": 0.0,
+      "shaft_bearing2_intersection_mm3": 0.0,
+      "crank_to_root_fitting_mm": 2.0,
+      "crank_to_servo_service_mm": 3.616549513641995
+    }
+  ],
+  "gates": {
+    "shaft_and_crank_valid_single_solids": true,
+    "D_shaft_clear_of_fitting_and_crank_bores": true,
+    "bearing_regions_round_and_clear": true,
+    "D_form_lock_defined_for_crank_and_root_fitting": true,
+    "crank_pushrod_pin_detail_designed": false,
+    "shaft_material_frozen": false,
+    "crank_material_frozen": false,
+    "bench_proof": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "36e9de3745669986589d24e1c8e34f0b2ad348d8ad164f507f98286f31cddc82"
+}

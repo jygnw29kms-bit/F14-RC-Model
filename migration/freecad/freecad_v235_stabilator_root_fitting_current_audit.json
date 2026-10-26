@@ -1,0 +1,60 @@
+{
+  "status": "V235_STABILATOR_ROOT_FITTING_CURRENT",
+  "geometry": {
+    "pivot_x_mm": 736.0078983334656,
+    "hub_mm": [
+      24,
+      24,
+      10
+    ],
+    "tongue_mm": [
+      36,
+      31,
+      3.5
+    ],
+    "bore_radius_mm": 3.05,
+    "shaft_radius_mm": 3.0,
+    "radial_clearance_mm": 0.05,
+    "bore_flat_x_from_center_mm": 2.45,
+    "shaft_flat_x_from_center_mm": 2.4,
+    "flat_clearance_mm": 0.05
+  },
+  "rows": [
+    {
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 8.832236093918919,
+      "shaft_intersection_mm3": 129.77444537837005,
+      "tongue_stabilator_containment_fraction": 1.0,
+      "fit_to_servo_service_mm": 12.226137059040747,
+      "fit_to_crank_mm": 2.0
+    },
+    {
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 8.832236093918919,
+      "shaft_intersection_mm3": 129.77444537837002,
+      "tongue_stabilator_containment_fraction": 1.0,
+      "fit_to_servo_service_mm": 12.226137059040747,
+      "fit_to_crank_mm": 2.0
+    }
+  ],
+  "retention_gate_interpretation": {
+    "inboard_collars_and_bearing_shoulders_fuselage_contained": true,
+    "surface_outer_washer_and_end_fastener_may_lie_outside_fuselage_core_because_they_retain_moving_stabilator": true
+  },
+  "gates": {
+    "fittings_valid": true,
+    "D_shaft_clearance_no_intersection": false,
+    "tongues_contained_in_stabilator": true,
+    "servo_clearance_positive": true,
+    "root_fitting_material_frozen": false,
+    "bond_load_transfer_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "0c54fee37307fecd2589637e349da640423f6617e3db734ce688fce8bbae5087"
+}

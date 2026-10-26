@@ -1,0 +1,64 @@
+{
+  "status": "V241_LIGHT_STABILATOR_CRANK",
+  "geometry": {
+    "hub_radius_mm": 7.0,
+    "end_boss_radius_mm": 4.2,
+    "arm_height_mm": 7.0,
+    "thickness_mm": 4.0,
+    "pin_radius_mm": 15.0,
+    "M3_hole_d_mm": 3.2,
+    "D_bore_radius_mm": 3.05,
+    "D_bore_flat_x_mm": 2.45
+  },
+  "rows": [
+    {
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 0.8247841885486866,
+      "mass_7075_g": 2.3176435698218096,
+      "shaft_intersection_mm3": 0.0,
+      "to_servo_service_mm": 15.509913304757887,
+      "to_root_fitting_mm": 2.0
+    },
+    {
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 0.8247841885486866,
+      "mass_7075_g": 2.3176435698218096,
+      "shaft_intersection_mm3": 0.0,
+      "to_servo_service_mm": 15.509913304757887,
+      "to_root_fitting_mm": 2.0
+    }
+  ],
+  "mass": {
+    "pair_volume_cm3": 1.6495683770973733,
+    "pair_7075_mass_g": 4.635287139643619,
+    "old_full_disk_pair_7075_mass_g": 24.42284910301359,
+    "saving_g": 19.78756196336997
+  },
+  "load_screen": {
+    "pushrod_force_2x_N": 89.33333333333334,
+    "arm_root_lever_mm": 8.0,
+    "arm_section_modulus_mm3": 32.666666666666664,
+    "bending_stress_MPa": 21.877551020408166,
+    "direct_stress_MPa": 3.1904761904761907,
+    "combined_simple_MPa": 25.068027210884356,
+    "7075T6_yield_screen_MPa": 400,
+    "yield_margin_ratio": 15.956580732700134
+  },
+  "gates": {
+    "valid_single_solids": true,
+    "shaft_clearance": true,
+    "servo_service_clearance_ge_3mm": true,
+    "root_fitting_gap_ge_2mm": true,
+    "simple_7075_screen_SF_ge_5": true,
+    "7075_material_certificate_verified": false,
+    "M3_joint_selected": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "853705afc43da2f967b2579dfd7bc066d26aa643b0343c9f66c0addb4d240f15"
+}

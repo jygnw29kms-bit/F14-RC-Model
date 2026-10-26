@@ -1,0 +1,42 @@
+{
+  "status": "V242_7075_STABILATOR_SHAFT_SCREEN",
+  "geometry": {
+    "pair_volume_cm3": 3.361178134893212,
+    "diameter_mm": 6.0,
+    "round_abs_y_mm": [
+      45,
+      76
+    ],
+    "D_abs_y_mm": [
+      76,
+      106
+    ]
+  },
+  "mass": {
+    "steel_density_g_cm3": 7.85,
+    "steel_pair_g": 26.385248358911713,
+    "7075_density_g_cm3": 2.81,
+    "7075_pair_g": 9.444910559049926,
+    "saving_g": 16.940337799861787
+  },
+  "stress": {
+    "v149_combined_von_mises_MPa": 36.20540943916635,
+    "v149_7075_yield_SF": 11.048072821054394,
+    "v174_D_flat_1p5x_screen_MPa": 47.40400837767098,
+    "7075_400MPa_SF_at_D_flat_screen": 8.438104997644347
+  },
+  "decision": {
+    "7075_static_strength_screen_pass": true,
+    "mass_reason_to_prefer_7075": true,
+    "bearing_wear_interface_is_remaining_primary_material_gate": true,
+    "preferred_candidate": "7075-T6 precision shaft with bearing journal finish/hardness wear test; steel remains fallback if journal wear/fretting fails"
+  },
+  "gates": {
+    "7075_certificate_verified": false,
+    "journal_surface_finish_specified": false,
+    "bearing_journal_wear_test_pass": false,
+    "D_flat_machining_tolerance_verified": false,
+    "proof_moment_0p67Nm_100cycles_pass": false,
+    "flight_release": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "V232_TCM1022_STABILATOR_CURRENT_GATE",
+  "sources": [
+    "analysis/control_servo_torque_gate_v168.json",
+    "current TORQ TCM-1022 vendor specifications rechecked 2026-10-26"
+  ],
+  "servo": {
+    "model": "TORQ TCM-1022 full CNC metal gear coreless",
+    "dims_mm": [
+      23,
+      12,
+      27.5
+    ],
+    "mass_g_each": 22,
+    "voltage_V": 8.4,
+    "stall_torque_kgcm": 14.5,
+    "speed_s_per_60deg": 0.055,
+    "spline": "25T",
+    "motor": "coreless"
+  },
+  "linkage": {
+    "servo_arm_mm": 8.0,
+    "modeled_stabilator_crank_radius_mm": 18.9,
+    "v168_reference_crank_mm": 20.0,
+    "linkage_effectiveness": 0.7,
+    "severe_required_torque_recomputed_kgcm": 8.264506309672965,
+    "predicted_half_throw_scaled_deg": 18.881990611926756
+  },
+  "margins": {
+    "stall_rating_to_severe_requirement_ratio": 1.7544907652897392,
+    "stall_rating_excess_kgcm": 6.235493690327035
+  },
+  "gates": {
+    "nominal_14kgcm_class_pass": true,
+    "recomputed_18p9mm_crank_gate_pass": true,
+    "preferred_mass_20g_each_pass": false,
+    "hard_mass_warning_25g_each_pass": true,
+    "stall_current_known": false,
+    "mounting_ears_measured": false,
+    "spline_offset_measured": false,
+    "bench_0p67Nm_100cycles_pass": false,
+    "brownout_pass": false,
+    "flutter_pass": false,
+    "flight_release": false
+  }
+}

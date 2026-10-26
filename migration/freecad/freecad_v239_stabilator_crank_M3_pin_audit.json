@@ -1,0 +1,46 @@
+{
+  "status": "V239_STABILATOR_CRANK_M3_PIN",
+  "geometry": {
+    "outer_radius_mm": 18.9,
+    "thickness_mm": 4,
+    "D_bore_radius_mm": 3.05,
+    "D_bore_flat_x_mm": 2.45,
+    "pushrod_hole_center_radius_mm": 15.0,
+    "pushrod_hole_d_mm": 3.2,
+    "radial_edge_ligament_mm": 2.3,
+    "matched_servo_arm_radius_mm": 6.34920634920635
+  },
+  "rows": [
+    {
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 4.345702687368966,
+      "shaft_intersection_mm3": 0.0,
+      "to_root_fitting_mm": 2.0,
+      "to_servo_service_mm": 3.616549513641995
+    },
+    {
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 4.345702687368966,
+      "shaft_intersection_mm3": 0.0,
+      "to_root_fitting_mm": 2.0,
+      "to_servo_service_mm": 3.616549513641995
+    }
+  ],
+  "gates": {
+    "cranks_valid_single_solids": true,
+    "shaft_clearance_no_intersection": true,
+    "root_fitting_gap_ge_2mm": true,
+    "servo_service_clearance_ge_3mm": true,
+    "M3_pin_actual_hardware_selected": false,
+    "ball_link_or_clevis_selected": false,
+    "crank_material_frozen": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "902a97780477cff0cd30c253525bd6dc19cce11635ab63609273f10688320558"
+}

@@ -1,0 +1,122 @@
+{
+  "status": "V233_TCM1022_STABILATOR_CURRENT",
+  "source_v231": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v231_CURRENT_ENDMODEL_HARDWARE_STATE.FCStd",
+  "servo": {
+    "model": "TORQ TCM-1022",
+    "dims_mm": [
+      23,
+      12,
+      27.5
+    ],
+    "mass_g_each": 22,
+    "stall_kgcm_8p4V": 14.5,
+    "speed_s_60_8p4V": 0.055,
+    "spline": "25T"
+  },
+  "service_dims_mm": [
+    27,
+    31.5,
+    16
+  ],
+  "rows": [
+    {
+      "side": "R",
+      "body_inside_fraction": 1.0,
+      "service_inside_fraction": 1.0,
+      "distances": {
+        "STAB_CRANK_R": {
+          "body_mm": 6.042435247355715,
+          "service_mm": 3.616549513641995
+        },
+        "STAB_HOUSING_R_1": {
+          "body_mm": 16.00789833346562,
+          "service_mm": 14.007898333465619
+        },
+        "STAB_HOUSING_R_2": {
+          "body_mm": 16.00789833346562,
+          "service_mm": 14.007898333465619
+        },
+        "INLET_EDF_R": {
+          "body_mm": 30.5,
+          "service_mm": 28.5
+        },
+        "V229_ESC_SERVICE_R": {
+          "body_mm": 13.306483382171264,
+          "service_mm": 10.680004681646913
+        },
+        "V228_TAIL_UBEC10A_HV": {
+          "body_mm": 345.5995695888524,
+          "service_mm": 342.9578144611958
+        },
+        "V227_HOBBYWING_UBEC10A_HV": {
+          "body_mm": 332.6409475695979,
+          "service_mm": 330.45725896097366
+        },
+        "V221_CASSETTE_R": {
+          "body_mm": 162.15369062304285,
+          "service_mm": 160.15369062304285
+        },
+        "V205_BATTERY_375": {
+          "body_mm": 262.027312507685,
+          "service_mm": 259.8293911396476
+        }
+      }
+    },
+    {
+      "side": "L",
+      "body_inside_fraction": 1.0,
+      "service_inside_fraction": 1.0,
+      "distances": {
+        "STAB_CRANK_L": {
+          "body_mm": 6.042435247355715,
+          "service_mm": 3.616549513641995
+        },
+        "STAB_HOUSING_L_1": {
+          "body_mm": 16.00789833346562,
+          "service_mm": 14.007898333465619
+        },
+        "STAB_HOUSING_L_2": {
+          "body_mm": 16.00789833346562,
+          "service_mm": 14.007898333465619
+        },
+        "INLET_EDF_L": {
+          "body_mm": 30.5,
+          "service_mm": 28.5
+        },
+        "V229_ESC_SERVICE_L": {
+          "body_mm": 13.306483382171264,
+          "service_mm": 10.680004681646913
+        },
+        "V228_TAIL_UBEC10A_HV": {
+          "body_mm": 332.6409475695979,
+          "service_mm": 330.45725896097366
+        },
+        "V227_HOBBYWING_UBEC10A_HV": {
+          "body_mm": 345.5995695888524,
+          "service_mm": 342.9578144611958
+        },
+        "V221_CASSETTE_L": {
+          "body_mm": 162.15369062304285,
+          "service_mm": 160.15369062304285
+        },
+        "V205_BATTERY_375": {
+          "body_mm": 262.027312507685,
+          "service_mm": 259.8293911396476
+        }
+      }
+    }
+  ],
+  "gates": {
+    "servo_bodies_contained": true,
+    "service_envelopes_contained": true,
+    "servo_body_no_contact": true,
+    "service_no_contact": true,
+    "v232_torque_gate_pass": true,
+    "stall_current_known": false,
+    "mounting_ears_measured": false,
+    "spline_offset_measured": false,
+    "bench_proof": false,
+    "flight_release": false
+  },
+  "sha256": "542eae2cad834b1146e98ef82187dda2b11ef244073ac75d6e34da66cbbe3d2f"
+}

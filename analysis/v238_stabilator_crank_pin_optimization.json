@@ -1,0 +1,27 @@
+{
+  "status": "V238_STABILATOR_CRANK_PIN_OPTIMIZATION",
+  "legacy_ratio": 0.4232804232804233,
+  "candidate": {
+    "crank_pin_radius_mm": 15.0,
+    "M3_clearance_hole_d_mm": 3.2,
+    "radial_edge_ligament_mm": 2.2999999999999985,
+    "matched_servo_arm_radius_mm": 6.34920634920635,
+    "ratio": 0.4232804232804233
+  },
+  "load_screen": {
+    "bench_hinge_moment_Nm": 0.67,
+    "pushrod_force_at_0p67Nm_N": 44.66666666666667,
+    "pushrod_force_2x_screen_N": 89.33333333333334,
+    "M3_single_shear_nominal_MPa_at_2x": 12.638081407000875
+  },
+  "gates": {
+    "ratio_error_below_0p2pct": true,
+    "radial_edge_ligament_ge_2mm": true,
+    "M3_pin_shear_screen_below_20MPa": true,
+    "servo_horn_actual_hole_verified": false,
+    "ball_link_or_clevis_hardware_selected": false,
+    "crank_material_frozen": false,
+    "proof_load": false,
+    "flight_release": false
+  }
+}

@@ -1,0 +1,7 @@
+import json, math
+from pathlib import Path
+R=Path(r'C:/Users/dezen/Desktop/JL1976/F14-Tomcat/F14-RC-Model')
+old_arm=8.0; old_crank=18.9; pin_r=15.0; servo_arm=pin_r*(old_arm/old_crank); hole_d=3.2; edge=18.9-pin_r-hole_d/2
+bench_hinge_Nm=0.67; force=bench_hinge_Nm/(pin_r/1000); force_2x=2*force; m3_area=math.pi*3**2/4; shear=force_2x/m3_area
+res={'status':'V238_STABILATOR_CRANK_PIN_OPTIMIZATION','legacy_ratio':old_arm/old_crank,'candidate':{'crank_pin_radius_mm':pin_r,'M3_clearance_hole_d_mm':hole_d,'radial_edge_ligament_mm':edge,'matched_servo_arm_radius_mm':servo_arm,'ratio':servo_arm/pin_r},'load_screen':{'bench_hinge_moment_Nm':bench_hinge_Nm,'pushrod_force_at_0p67Nm_N':force,'pushrod_force_2x_screen_N':force_2x,'M3_single_shear_nominal_MPa_at_2x':shear},'gates':{'ratio_error_below_0p2pct':abs((servo_arm/pin_r)/(old_arm/old_crank)-1)<0.002,'radial_edge_ligament_ge_2mm':edge>=2.0,'M3_pin_shear_screen_below_20MPa':shear<20,'servo_horn_actual_hole_verified':False,'ball_link_or_clevis_hardware_selected':False,'crank_material_frozen':False,'proof_load':False,'flight_release':False}}
+(R/'analysis/v238_stabilator_crank_pin_optimization.json').write_text(json.dumps(res,indent=2),encoding='utf-8'); print(json.dumps(res,indent=2))

@@ -1,0 +1,169 @@
+{
+  "status": "V234_STABILATOR_RETENTION_CURRENT",
+  "source_v233": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v233_TCM1022_STABILATOR_CURRENT.FCStd",
+  "architecture": "two 6x13x5 radial bearings per side + inboard collar/outboard shoulder + surface inner collar + outer washer/end fastener; no transverse shaft hole",
+  "rows": [
+    {
+      "side": "R",
+      "objects": [
+        {
+          "name": "V234_BEARING_INBOARD_COLLAR_R",
+          "inside_fraction": 1.0,
+          "distances_mm": {
+            "STAB_SHAFT_R": 0.04999999999994292,
+            "STAB_BEARING_R_1": 0.0,
+            "STAB_BEARING_R_2": 20.0,
+            "STAB_HOUSING_R_1": 1.5,
+            "STAB_HOUSING_R_2": 20.05617112013158,
+            "STAB_CRANK_R": 26.0,
+            "V233_TORQ_SERVICE_R": 17.50789833346562,
+            "STABILATOR_R": 23.903644746127434
+          }
+        },
+        {
+          "name": "V234_BEARING_OUTER_SHOULDER_R",
+          "inside_fraction": 1.0,
+          "distances_mm": {
+            "STAB_SHAFT_R": 0.04999999999999982,
+            "STAB_BEARING_R_1": 20.0,
+            "STAB_BEARING_R_2": 0.0,
+            "STAB_HOUSING_R_1": 20.09975124224178,
+            "STAB_HOUSING_R_2": 2.0,
+            "STAB_CRANK_R": 0.0,
+            "V233_TORQ_SERVICE_R": 18.00789833346562,
+            "STABILATOR_R": 0.0
+          }
+        },
+        {
+          "name": "V234_SURFACE_INNER_COLLAR_R",
+          "inside_fraction": 1.0,
+          "distances_mm": {
+            "STAB_SHAFT_R": 0.04999999999999982,
+            "STAB_BEARING_R_1": 25.0,
+            "STAB_BEARING_R_2": 5.0,
+            "STAB_HOUSING_R_1": 25.04495957273639,
+            "STAB_HOUSING_R_2": 5.220153254455275,
+            "STAB_CRANK_R": 0.0,
+            "V233_TORQ_SERVICE_R": 18.016353794676885,
+            "STABILATOR_R": 0.0
+          }
+        },
+        {
+          "name": "V234_SURFACE_OUTER_WASHER_R",
+          "inside_fraction": 0.9618335865620331,
+          "distances_mm": {
+            "STAB_SHAFT_R": 0.0,
+            "STAB_BEARING_R_1": 51.0,
+            "STAB_BEARING_R_2": 31.0,
+            "STAB_HOUSING_R_1": 51.022054055084844,
+            "STAB_HOUSING_R_2": 31.03626910567699,
+            "STAB_CRANK_R": 26.0,
+            "V233_TORQ_SERVICE_R": 34.95123751821912,
+            "STABILATOR_R": 0.0
+          }
+        },
+        {
+          "name": "V234_END_FASTENER_HEAD_R",
+          "inside_fraction": 0.994323207926144,
+          "distances_mm": {
+            "STAB_SHAFT_R": 0.0,
+            "STAB_BEARING_R_1": 53.0,
+            "STAB_BEARING_R_2": 33.0,
+            "STAB_HOUSING_R_1": 53.115440316352455,
+            "STAB_HOUSING_R_2": 33.185087012090236,
+            "STAB_CRANK_R": 28.000044642821553,
+            "V233_TORQ_SERVICE_R": 37.691120935690286,
+            "STABILATOR_R": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "side": "L",
+      "objects": [
+        {
+          "name": "V234_BEARING_INBOARD_COLLAR_L",
+          "inside_fraction": 1.0,
+          "distances_mm": {
+            "STAB_SHAFT_L": 0.04999999999994292,
+            "STAB_BEARING_L_1": 0.0,
+            "STAB_BEARING_L_2": 20.0,
+            "STAB_HOUSING_L_1": 1.5,
+            "STAB_HOUSING_L_2": 20.05617112013158,
+            "STAB_CRANK_L": 26.0,
+            "V233_TORQ_SERVICE_L": 17.50789833346562,
+            "STABILATOR_L": 23.903644746127434
+          }
+        },
+        {
+          "name": "V234_BEARING_OUTER_SHOULDER_L",
+          "inside_fraction": 1.0,
+          "distances_mm": {
+            "STAB_SHAFT_L": 0.04999999999999982,
+            "STAB_BEARING_L_1": 20.0,
+            "STAB_BEARING_L_2": 0.0,
+            "STAB_HOUSING_L_1": 20.09975124224178,
+            "STAB_HOUSING_L_2": 2.0,
+            "STAB_CRANK_L": 0.0,
+            "V233_TORQ_SERVICE_L": 18.00789833346562,
+            "STABILATOR_L": 0.0
+          }
+        },
+        {
+          "name": "V234_SURFACE_INNER_COLLAR_L",
+          "inside_fraction": 1.0,
+          "distances_mm": {
+            "STAB_SHAFT_L": 0.04999999999999982,
+            "STAB_BEARING_L_1": 25.0,
+            "STAB_BEARING_L_2": 5.0,
+            "STAB_HOUSING_L_1": 25.04495957273639,
+            "STAB_HOUSING_L_2": 5.220153254455275,
+            "STAB_CRANK_L": 0.0,
+            "V233_TORQ_SERVICE_L": 18.016353794676885,
+            "STABILATOR_L": 0.0
+          }
+        },
+        {
+          "name": "V234_SURFACE_OUTER_WASHER_L",
+          "inside_fraction": 0.9627464602227355,
+          "distances_mm": {
+            "STAB_SHAFT_L": 0.0,
+            "STAB_BEARING_L_1": 51.0,
+            "STAB_BEARING_L_2": 31.0,
+            "STAB_HOUSING_L_1": 51.022054055084844,
+            "STAB_HOUSING_L_2": 31.03626910567699,
+            "STAB_CRANK_L": 26.0,
+            "V233_TORQ_SERVICE_L": 34.95123751821912,
+            "STABILATOR_L": 0.0
+          }
+        },
+        {
+          "name": "V234_END_FASTENER_HEAD_L",
+          "inside_fraction": 0.9888542364695637,
+          "distances_mm": {
+            "STAB_SHAFT_L": 0.0,
+            "STAB_BEARING_L_1": 53.0,
+            "STAB_BEARING_L_2": 33.0,
+            "STAB_HOUSING_L_1": 53.115440316352455,
+            "STAB_HOUSING_L_2": 33.185087012090236,
+            "STAB_CRANK_L": 28.000044642821553,
+            "V233_TORQ_SERVICE_L": 37.691120935690286,
+            "STABILATOR_L": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "retention_parts_contained": false,
+    "retention_to_servo_service_no_interference": true,
+    "shaft_actual_hardware_frozen": false,
+    "bearing_actual_hardware_frozen": false,
+    "end_fastener_thread_strength_verified": false,
+    "printed_housing_load_path_verified": false,
+    "bench_proof": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "f7a64851dfc9d6f30c7914f311691ba9e5235426668350d936dd3c41c69f7098"
+}

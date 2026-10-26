@@ -1,0 +1,71 @@
+{
+  "status": "V240_STABILATOR_PUSHROD_CORRIDOR",
+  "reserve_bounds": {
+    "x_mm": [
+      686.5,
+      753.0
+    ],
+    "abs_y_mm": [
+      75.8,
+      80.2
+    ],
+    "z_mm": [
+      -10,
+      10
+    ]
+  },
+  "basis": {
+    "servo_service_outer_abs_y_mm": 75.75,
+    "crank_abs_y_mm": [
+      76,
+      80
+    ],
+    "crank_pin_radius_mm": 15.0,
+    "predicted_surface_half_throw_deg": 18.92,
+    "servo_spline_offset_still_unknown": true
+  },
+  "rows": [
+    {
+      "side": "R",
+      "inside_fraction": 1.0,
+      "distances_mm": {
+        "STAB_HOUSING_R_1": 20.799999999999997,
+        "STAB_HOUSING_R_2": 0.7999999999999972,
+        "V235_D_ROOT_FITTING_R": 1.7999999999999972,
+        "V234_BEARING_INBOARD_COLLAR_R": 25.799999999999997,
+        "V234_BEARING_OUTER_SHOULDER_R": 0.0,
+        "INLET_EDF_R": 28.50081875611586,
+        "V229_ESC_SERVICE_R": 8.0,
+        "V228_TAIL_UBEC10A_HV": 352.5406217728675,
+        "V227_HOBBYWING_UBEC10A_HV": 330.2921282743505,
+        "V221_CASSETTE_R": 160.15369062304285
+      }
+    },
+    {
+      "side": "L",
+      "inside_fraction": 1.0,
+      "distances_mm": {
+        "STAB_HOUSING_L_1": 20.799999999999997,
+        "STAB_HOUSING_L_2": 0.7999999999999972,
+        "V235_D_ROOT_FITTING_L": 1.7999999999999972,
+        "V234_BEARING_INBOARD_COLLAR_L": 25.799999999999997,
+        "V234_BEARING_OUTER_SHOULDER_L": 0.0,
+        "INLET_EDF_L": 28.50081875611586,
+        "V229_ESC_SERVICE_L": 8.0,
+        "V228_TAIL_UBEC10A_HV": 330.2921282743505,
+        "V227_HOBBYWING_UBEC10A_HV": 352.5406217728675,
+        "V221_CASSETTE_L": 160.15369062304285
+      }
+    }
+  ],
+  "gates": {
+    "corridor_fuselage_containment_ge_99pct": true,
+    "corridor_clear_of_non_actuator_hardware": false,
+    "actual_pushrod_centerline_frozen": false,
+    "servo_spline_measured": false,
+    "ball_link_selected": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "5f0f7b540efeb021b01a748e093ecec6ce7eb6f5de410433ac6c0d4f81c99baf"
+}

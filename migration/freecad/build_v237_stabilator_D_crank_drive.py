@@ -1,0 +1,18 @@
+import FreeCAD as App, Part, json, pathlib, hashlib
+R=pathlib.Path(r'C:/Users/dezen/Desktop/JL1976/F14-Tomcat/F14-RC-Model'); src=R/'migration/freecad/F14_v236_STABILATOR_D_SHAFT_CURRENT.FCStd'; out=R/'migration/freecad/F14_v237_STABILATOR_D_CRANK_DRIVE.FCStd'; audp=R/'migration/freecad/freecad_v237_stabilator_D_crank_drive_audit.json'
+d=App.openDocument(str(src)); doc=App.newDocument('F14_v237_STABILATOR_D_CRANK_DRIVE'); remove={'V236_D_SHAFT_R','V236_D_SHAFT_L','STAB_CRANK_R','STAB_CRANK_L'}
+for o in d.Objects:
+ if o.Name in remove: continue
+ if hasattr(o,'Shape') and not o.Shape.isNull(): q=doc.addObject('PartDesign::Feature',o.Name); q.Shape=o.Shape.copy(); q.Label=o.Label
+px=736.0078983334656; rows=[]
+def d_profile_cyl(sgn,y0,y1,r,flatx):
+ cyl=Part.makeCylinder(r,abs(y1-y0),App.Vector(px,sgn*y0,0),App.Vector(0,sgn,0)); lo=px-r-1; hi=px+flatx; ya=min(sgn*y0,sgn*y1)-1; yb=max(sgn*y0,sgn*y1)+1; clip=Part.makeBox(hi-lo,yb-ya,2*r+2,App.Vector(lo,ya,-r-1)); return cyl.common(clip)
+for lab,sgn in [('R',1),('L',-1)]:
+ round_in=Part.makeCylinder(3.0,31.0,App.Vector(px,sgn*45,0),App.Vector(0,sgn,0)); dpart=d_profile_cyl(sgn,76,106,3.0,2.4); shaft=round_in.fuse(dpart).removeSplitter()
+ so=doc.addObject('PartDesign::Feature','V237_D_SHAFT_'+lab); so.Shape=shaft; so.Label='v237 6mm D-shaft '+lab+' / round bearings to |Y|76'
+ outer=Part.makeCylinder(18.9,4.0,App.Vector(px,sgn*76,0),App.Vector(0,sgn,0)); bore=d_profile_cyl(sgn,76,80,3.05,2.45); crank=outer.cut(bore).removeSplitter(); co=doc.addObject('PartDesign::Feature','V237_D_CRANK_'+lab); co.Shape=crank; co.Label='v237 D-bore stabilator crank '+lab+' / r18.9 / pin detail open'
+ fit=doc.getObject('V235_D_ROOT_FITTING_'+lab).Shape; b1=doc.getObject('STAB_BEARING_'+lab+'_1').Shape; b2=doc.getObject('STAB_BEARING_'+lab+'_2').Shape
+ rows.append({'side':lab,'shaft_valid':shaft.isValid(),'shaft_solid_count':len(shaft.Solids),'crank_valid':crank.isValid(),'crank_solid_count':len(crank.Solids),'shaft_fitting_intersection_mm3':(lambda s:0.0 if s.isNull() else s.Volume)(shaft.common(fit)),'shaft_crank_intersection_mm3':(lambda s:0.0 if s.isNull() else s.Volume)(shaft.common(crank)),'shaft_bearing1_intersection_mm3':(lambda s:0.0 if s.isNull() else s.Volume)(shaft.common(b1)),'shaft_bearing2_intersection_mm3':(lambda s:0.0 if s.isNull() else s.Volume)(shaft.common(b2)),'crank_to_root_fitting_mm':crank.distToShape(fit)[0],'crank_to_servo_service_mm':crank.distToShape(doc.getObject('V233_TORQ_SERVICE_'+lab).Shape)[0]})
+doc.recompute();doc.saveAs(str(out))
+aud={'status':'V237_STABILATOR_D_CRANK_DRIVE','geometry':{'shaft_round_abs_y_mm':[45,76],'shaft_D_abs_y_mm':[76,106],'shaft_D_flat_x_mm':2.4,'crank_D_bore_flat_x_mm':2.45,'radial_clearance_mm':0.05,'flat_clearance_mm':0.05,'crank_outer_radius_mm':18.9,'crank_thickness_mm':4.0},'rows':rows,'gates':{'shaft_and_crank_valid_single_solids':all(r['shaft_valid'] and r['shaft_solid_count']==1 and r['crank_valid'] and r['crank_solid_count']==1 for r in rows),'D_shaft_clear_of_fitting_and_crank_bores':all(r['shaft_fitting_intersection_mm3']<1e-6 and r['shaft_crank_intersection_mm3']<1e-6 for r in rows),'bearing_regions_round_and_clear':all(r['shaft_bearing1_intersection_mm3']<1e-6 and r['shaft_bearing2_intersection_mm3']<1e-6 for r in rows),'D_form_lock_defined_for_crank_and_root_fitting':True,'crank_pushrod_pin_detail_designed':False,'shaft_material_frozen':False,'crank_material_frozen':False,'bench_proof':False,'print_release':False,'flight_release':False}}
+aud['sha256']=hashlib.sha256(out.read_bytes()).hexdigest();audp.write_text(json.dumps(aud,indent=2),encoding='utf-8');print(json.dumps(aud,indent=2))
