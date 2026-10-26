@@ -1,0 +1,29 @@
+{
+  "status": "V218_CASSETTE_MASSPROPS",
+  "source": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v218_CONSOLIDATED_STRUCTURAL_MODEL.FCStd",
+  "rows": [
+    {
+      "side": "R",
+      "volume_mm3": 25484.662513597115,
+      "volume_cm3": 25.484662513597115,
+      "center_mm": [
+        504.1052231943664,
+        100.56572905825278,
+        0.7936190355370828
+      ]
+    },
+    {
+      "side": "L",
+      "volume_mm3": 25484.662513597068,
+      "volume_cm3": 25.48466251359707,
+      "center_mm": [
+        504.10522319436694,
+        -100.5657290582528,
+        0.793619035537089
+      ]
+    }
+  ],
+  "pair_volume_mm3": 50969.32502719418,
+  "pair_volume_cm3": 50.96932502719418,
+  "pair_center_x_mm": 504.1052231943667
+}

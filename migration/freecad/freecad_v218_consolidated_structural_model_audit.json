@@ -1,0 +1,93 @@
+{
+  "status": "V218_CONSOLIDATED_STRUCTURAL_MODEL",
+  "source_v217": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v217_MONOLITHIC_PIVOT_CASSETTE.FCStd",
+  "excluded_legacy_duplicate_objects": [
+    "SWEEP_SERVO_SERVICE_REF",
+    "V204_META",
+    "V204_MONO_LOWER_L",
+    "V204_MONO_LOWER_R",
+    "V204_SOCKET_FRONT_L",
+    "V204_SOCKET_FRONT_R",
+    "V204_SOCKET_REAR_L",
+    "V204_SOCKET_REAR_R",
+    "V204_UPPER_FORK_L",
+    "V204_UPPER_FORK_R",
+    "WINGBOX_REF"
+  ],
+  "kept_shape_count": 97,
+  "cassette_volume_mm3": {
+    "R": 25484.662513597115,
+    "L": 25484.662513597068
+  },
+  "packaging_distances": [
+    {
+      "cassette": "R",
+      "target": "INLET_EDF_R",
+      "distance_mm": 69.50208147418505
+    },
+    {
+      "cassette": "R",
+      "target": "INLET_EDF_L",
+      "distance_mm": 107.0973250387797
+    },
+    {
+      "cassette": "R",
+      "target": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 36.518132211221285
+    },
+    {
+      "cassette": "R",
+      "target": "V205_BATTERY_305",
+      "distance_mm": 128.49159165239348
+    },
+    {
+      "cassette": "R",
+      "target": "V205_BATTERY_340",
+      "distance_mm": 95.03077116901888
+    },
+    {
+      "cassette": "R",
+      "target": "V205_BATTERY_375",
+      "distance_mm": 63.25824699271569
+    },
+    {
+      "cassette": "L",
+      "target": "INLET_EDF_R",
+      "distance_mm": 107.09732504129151
+    },
+    {
+      "cassette": "L",
+      "target": "INLET_EDF_L",
+      "distance_mm": 69.50208147418505
+    },
+    {
+      "cassette": "L",
+      "target": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 36.518132211221285
+    },
+    {
+      "cassette": "L",
+      "target": "V205_BATTERY_305",
+      "distance_mm": 128.49159165239348
+    },
+    {
+      "cassette": "L",
+      "target": "V205_BATTERY_340",
+      "distance_mm": 95.03077116901888
+    },
+    {
+      "cassette": "L",
+      "target": "V205_BATTERY_375",
+      "distance_mm": 63.25824699271569
+    }
+  ],
+  "gates": {
+    "legacy_structural_duplicates_removed": true,
+    "cassette_to_battery_servo_edf_no_contact": true,
+    "production_OML": false,
+    "mass_model_ready_for_material_assumptions": true,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "ab2e0b993150222815511f6d4ed6ceafa682a658d8662253a9e34a8d90514e05"
+}

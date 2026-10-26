@@ -1,0 +1,181 @@
+{
+  "status": "V211_UPPER_GLOVE_STRUCTURAL_ENCLOSURE",
+  "wing_clearance_range_mm": [
+    1.0,
+    1.0
+  ],
+  "fork_top_clearance_range_mm": [
+    20.921815936557877,
+    23.36555605263159
+  ],
+  "lateral_slope_range_deg": [
+    65.12610306401766,
+    68.20560148612886
+  ],
+  "all_shapes_valid": true,
+  "rows": [
+    {
+      "side": "R",
+      "x_mm": 482.346,
+      "inner_fuselage_upper_z_mm": 49.39861491040739,
+      "wing_upper_outer_z_mm": 3.382641449625323,
+      "outer_skin_target_z_mm": 4.382641449625323,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 33.43571890549781,
+      "fork_top_clearance_mm": 20.935718905497808,
+      "lateral_slope_deg": 68.20560148612886
+    },
+    {
+      "side": "R",
+      "x_mm": 488.346,
+      "inner_fuselage_upper_z_mm": 49.5666385349615,
+      "wing_upper_outer_z_mm": 5.538361982492402,
+      "outer_skin_target_z_mm": 6.538361982492402,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 34.30859008964813,
+      "fork_top_clearance_mm": 21.808590089648128,
+      "lateral_slope_deg": 67.29900043056769
+    },
+    {
+      "side": "R",
+      "x_mm": 496.346,
+      "inner_fuselage_upper_z_mm": 49.77696532038502,
+      "wing_upper_outer_z_mm": 7.20169859584669,
+      "outer_skin_target_z_mm": 8.20169859584669,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 35.03416164252241,
+      "fork_top_clearance_mm": 22.534161642522413,
+      "lateral_slope_deg": 66.58981454294994
+    },
+    {
+      "side": "R",
+      "x_mm": 504.346,
+      "inner_fuselage_upper_z_mm": 49.98168739044644,
+      "wing_upper_outer_z_mm": 8.21806450269331,
+      "outer_skin_target_z_mm": 9.21806450269331,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 35.526696796775276,
+      "fork_top_clearance_mm": 23.026696796775276,
+      "lateral_slope_deg": 66.17517694103095
+    },
+    {
+      "side": "R",
+      "x_mm": 512.346,
+      "inner_fuselage_upper_z_mm": 50.18099395369845,
+      "wing_upper_outer_z_mm": 8.805396229575507,
+      "outer_skin_target_z_mm": 9.805396229575507,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 35.86359908123751,
+      "fork_top_clearance_mm": 23.36359908123751,
+      "lateral_slope_deg": 65.97202601414166
+    },
+    {
+      "side": "R",
+      "x_mm": 520.346,
+      "inner_fuselage_upper_z_mm": 49.54753541955273,
+      "wing_upper_outer_z_mm": 9.063055393814537,
+      "outer_skin_target_z_mm": 10.063055393814537,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 35.546135471867615,
+      "fork_top_clearance_mm": 23.046135471867615,
+      "lateral_slope_deg": 65.49292835250955
+    },
+    {
+      "side": "R",
+      "x_mm": 526.346,
+      "inner_fuselage_upper_z_mm": 48.90967618947812,
+      "wing_upper_outer_z_mm": 9.085690471072144,
+      "outer_skin_target_z_mm": 10.085690471072144,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 35.14249092447591,
+      "fork_top_clearance_mm": 22.642490924475908,
+      "lateral_slope_deg": 65.12610306401766
+    },
+    {
+      "side": "L",
+      "x_mm": 482.346,
+      "inner_fuselage_upper_z_mm": 49.37707310707256,
+      "wing_upper_outer_z_mm": 3.382641449625323,
+      "outer_skin_target_z_mm": 4.382641449625323,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 33.42181593655788,
+      "fork_top_clearance_mm": 20.921815936557877,
+      "lateral_slope_deg": 68.19614548250728
+    },
+    {
+      "side": "L",
+      "x_mm": 488.346,
+      "inner_fuselage_upper_z_mm": 49.55793910005434,
+      "wing_upper_outer_z_mm": 5.538361982492402,
+      "outer_skin_target_z_mm": 6.538361982492402,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 34.30297551915794,
+      "fork_top_clearance_mm": 21.80297551915794,
+      "lateral_slope_deg": 67.29487551289458
+    },
+    {
+      "side": "L",
+      "x_mm": 496.346,
+      "inner_fuselage_upper_z_mm": 49.79525035743143,
+      "wing_upper_outer_z_mm": 7.20169859584669,
+      "outer_skin_target_z_mm": 8.20169859584669,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 35.045962711270946,
+      "fork_top_clearance_mm": 22.545962711270946,
+      "lateral_slope_deg": 66.59899885001549
+    },
+    {
+      "side": "L",
+      "x_mm": 504.346,
+      "inner_fuselage_upper_z_mm": 49.99625591389861,
+      "wing_upper_outer_z_mm": 8.21806450269331,
+      "outer_skin_target_z_mm": 9.21806450269331,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 35.536099246788766,
+      "fork_top_clearance_mm": 23.036099246788766,
+      "lateral_slope_deg": 66.18274131663347
+    },
+    {
+      "side": "L",
+      "x_mm": 512.346,
+      "inner_fuselage_upper_z_mm": 50.18402616164519,
+      "wing_upper_outer_z_mm": 8.805396229575507,
+      "outer_skin_target_z_mm": 9.805396229575507,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 35.86555605263159,
+      "fork_top_clearance_mm": 23.36555605263159,
+      "lateral_slope_deg": 65.97362616294717
+    },
+    {
+      "side": "L",
+      "x_mm": 520.346,
+      "inner_fuselage_upper_z_mm": 49.5881840062153,
+      "wing_upper_outer_z_mm": 9.063055393814537,
+      "outer_skin_target_z_mm": 10.063055393814537,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 35.57236986037436,
+      "fork_top_clearance_mm": 23.07236986037436,
+      "lateral_slope_deg": 65.51517244341079
+    },
+    {
+      "side": "L",
+      "x_mm": 526.346,
+      "inner_fuselage_upper_z_mm": 48.96454913974401,
+      "wing_upper_outer_z_mm": 9.085690471072144,
+      "outer_skin_target_z_mm": 10.085690471072144,
+      "wing_clearance_mm": 1.0,
+      "predicted_skin_z_at_fork_outer_y_mm": 35.17790564400199,
+      "fork_top_clearance_mm": 22.67790564400199,
+      "lateral_slope_deg": 65.15696964590802
+    }
+  ],
+  "gates": {
+    "wing_upper_clearance_ge_1mm": true,
+    "upper_fork_enclosed_ge_1mm": true,
+    "absolute_Z_OML_verified": false,
+    "production_OML": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "ed8086270872708f43add08087a1029636275822a01571bdbb981f27244e9778"
+}

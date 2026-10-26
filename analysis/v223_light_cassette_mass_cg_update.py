@@ -1,0 +1,11 @@
+import json
+from pathlib import Path
+R=Path(r'C:/Users/dezen/Desktop/JL1976/F14-Tomcat/F14-RC-Model')
+base=json.loads((R/'analysis/v217_mass_cg_hardware_state.json').read_text()); v213=json.loads((R/'analysis/v213_current_mass_rollup.json').read_text()); v221=json.loads((R/'migration/freecad/freecad_v221_light_pivot_cassette_audit.json').read_text())
+old=v213['quantified_geometry_g']['wingbox_PPA_CF']; vol=v221['pair_volume_cm3']; bat=202.0; tmin,tmax=596.0704536162777,604.7380091718334; b0,b1=305.0,375.0
+sc=[]
+for mat,d in [('Bambu PPA-CF screen',1.25),('Bambu PA6-CF screen',1.09)]:
+ mass=vol*d; total=base['projected_total_g']-old+mass; dry=total-bat; lo=(tmax*total-bat*b1)/dry; hi=(tmin*total-bat*b0)/dry
+ sc.append({'material':mat,'density_g_cm3':d,'cassette_pair_mass_g':mass,'replaced_v204_mass_g':old,'mass_delta_g':mass-old,'projected_AUW_g':total,'margin_to_1175_working_target_g':1175-total,'margin_to_1200_redesign_g':1200-total,'battery_CG_authority_mm':bat/total*70,'dry_CG_interval_to_cover_seed_mm':[lo,hi] if lo<=hi else None,'full_seed_range_coverable':lo<=hi,'published_static_thrust_to_weight':1800/total})
+res={'status':'V223_LIGHT_CASSETTE_MASS_CG_UPDATE','source_geometry':'migration/freecad/F14_v222_CONSOLIDATED_LIGHT_STRUCTURAL_MODEL.FCStd','cassette_pair_volume_cm3':vol,'old_v204_pair_center_x_mm':503.95270557914637,'light_cassette_pair_center_x_mm':'approximately pivot-centered; exact v221 massprops pending if material freeze','scenarios':sc,'decision':{'PPA_CF_meets_1175_working_target':sc[0]['projected_AUW_g']<=1175,'PPA_CF_margin_to_1200_ge_25g':sc[0]['margin_to_1200_redesign_g']>=25,'PA6_CF_meets_1175_working_target':sc[1]['projected_AUW_g']<=1175,'further_geometry_lightweighting_required_by_mass_budget':not(sc[0]['projected_AUW_g']<=1175 and sc[0]['margin_to_1200_redesign_g']>=25),'do_not_lighten_pivot_bearing_or_primary_fork_sections':True,'battery_70mm_travel_retained':all(x['full_seed_range_coverable'] for x in sc)},'gates':{'guard_strength_verified':False,'material_frozen':False,'actual_print_mass_measured':False,'dry_CG_measured':False,'AUW_frozen':False,'flight_release':False}}
+(R/'analysis/v223_light_cassette_mass_cg_update.json').write_text(json.dumps(res,indent=2),encoding='utf-8'); print(json.dumps(res,indent=2))

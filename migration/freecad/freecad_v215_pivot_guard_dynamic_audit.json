@@ -1,0 +1,273 @@
+{
+  "status": "V215_PIVOT_GUARD_DYNAMIC",
+  "ring_inner_radius_mm": 20.5,
+  "ring_outer_radius_mm": 22.0,
+  "wing_radial_min_mm": 23.61710730661649,
+  "wing_radial_clearance_mm": 1.61710730661649,
+  "minimum_ring_to_rod_mm": 3.1882557931456597,
+  "worst": {
+    "side": "L",
+    "sweep_deg": 20,
+    "ring_to_rod_mm": 3.1882557931456597
+  },
+  "rows": [
+    {
+      "side": "R",
+      "sweep_deg": 20,
+      "ring_to_rod_mm": 3.1882557931456947
+    },
+    {
+      "side": "R",
+      "sweep_deg": 22,
+      "ring_to_rod_mm": 3.3947172461819006
+    },
+    {
+      "side": "R",
+      "sweep_deg": 24,
+      "ring_to_rod_mm": 3.594662096779148
+    },
+    {
+      "side": "R",
+      "sweep_deg": 26,
+      "ring_to_rod_mm": 3.7871660140349603
+    },
+    {
+      "side": "R",
+      "sweep_deg": 28,
+      "ring_to_rod_mm": 3.971286298405804
+    },
+    {
+      "side": "R",
+      "sweep_deg": 30,
+      "ring_to_rod_mm": 4.146059871427799
+    },
+    {
+      "side": "R",
+      "sweep_deg": 32,
+      "ring_to_rod_mm": 4.310501647089233
+    },
+    {
+      "side": "R",
+      "sweep_deg": 34,
+      "ring_to_rod_mm": 4.463603269224431
+    },
+    {
+      "side": "R",
+      "sweep_deg": 36,
+      "ring_to_rod_mm": 4.6043322059948615
+    },
+    {
+      "side": "R",
+      "sweep_deg": 38,
+      "ring_to_rod_mm": 4.731631197895253
+    },
+    {
+      "side": "R",
+      "sweep_deg": 40,
+      "ring_to_rod_mm": 4.844418060011659
+    },
+    {
+      "side": "R",
+      "sweep_deg": 42,
+      "ring_to_rod_mm": 4.941585842629683
+    },
+    {
+      "side": "R",
+      "sweep_deg": 44,
+      "ring_to_rod_mm": 5.022003356868004
+    },
+    {
+      "side": "R",
+      "sweep_deg": 46,
+      "ring_to_rod_mm": 5.084516073892657
+    },
+    {
+      "side": "R",
+      "sweep_deg": 48,
+      "ring_to_rod_mm": 5.127947407512708
+    },
+    {
+      "side": "R",
+      "sweep_deg": 50,
+      "ring_to_rod_mm": 5.151100390613451
+    },
+    {
+      "side": "R",
+      "sweep_deg": 52,
+      "ring_to_rod_mm": 5.15490675690152
+    },
+    {
+      "side": "R",
+      "sweep_deg": 54,
+      "ring_to_rod_mm": 5.156458205606782
+    },
+    {
+      "side": "R",
+      "sweep_deg": 56,
+      "ring_to_rod_mm": 5.159774633777375
+    },
+    {
+      "side": "R",
+      "sweep_deg": 58,
+      "ring_to_rod_mm": 5.164947682595249
+    },
+    {
+      "side": "R",
+      "sweep_deg": 60,
+      "ring_to_rod_mm": 5.172068978037243
+    },
+    {
+      "side": "R",
+      "sweep_deg": 62,
+      "ring_to_rod_mm": 5.181229755530394
+    },
+    {
+      "side": "R",
+      "sweep_deg": 64,
+      "ring_to_rod_mm": 5.192520449942162
+    },
+    {
+      "side": "R",
+      "sweep_deg": 66,
+      "ring_to_rod_mm": 5.206030251827834
+    },
+    {
+      "side": "R",
+      "sweep_deg": 68,
+      "ring_to_rod_mm": 5.2218466312590195
+    },
+    {
+      "side": "L",
+      "sweep_deg": 20,
+      "ring_to_rod_mm": 3.1882557931456597
+    },
+    {
+      "side": "L",
+      "sweep_deg": 22,
+      "ring_to_rod_mm": 3.3947172461818793
+    },
+    {
+      "side": "L",
+      "sweep_deg": 24,
+      "ring_to_rod_mm": 3.594662096779095
+    },
+    {
+      "side": "L",
+      "sweep_deg": 26,
+      "ring_to_rod_mm": 3.787166014035038
+    },
+    {
+      "side": "L",
+      "sweep_deg": 28,
+      "ring_to_rod_mm": 3.9712862984057398
+    },
+    {
+      "side": "L",
+      "sweep_deg": 30,
+      "ring_to_rod_mm": 4.146059871427759
+    },
+    {
+      "side": "L",
+      "sweep_deg": 32,
+      "ring_to_rod_mm": 4.310501647089153
+    },
+    {
+      "side": "L",
+      "sweep_deg": 34,
+      "ring_to_rod_mm": 4.463603269224416
+    },
+    {
+      "side": "L",
+      "sweep_deg": 36,
+      "ring_to_rod_mm": 4.604332205994883
+    },
+    {
+      "side": "L",
+      "sweep_deg": 38,
+      "ring_to_rod_mm": 4.7316311978952195
+    },
+    {
+      "side": "L",
+      "sweep_deg": 40,
+      "ring_to_rod_mm": 4.844418060011626
+    },
+    {
+      "side": "L",
+      "sweep_deg": 42,
+      "ring_to_rod_mm": 4.941585842629676
+    },
+    {
+      "side": "L",
+      "sweep_deg": 44,
+      "ring_to_rod_mm": 5.02200335686792
+    },
+    {
+      "side": "L",
+      "sweep_deg": 46,
+      "ring_to_rod_mm": 5.084516073892645
+    },
+    {
+      "side": "L",
+      "sweep_deg": 48,
+      "ring_to_rod_mm": 5.1279474075126945
+    },
+    {
+      "side": "L",
+      "sweep_deg": 50,
+      "ring_to_rod_mm": 5.151100390613448
+    },
+    {
+      "side": "L",
+      "sweep_deg": 52,
+      "ring_to_rod_mm": 5.154906756901514
+    },
+    {
+      "side": "L",
+      "sweep_deg": 54,
+      "ring_to_rod_mm": 5.156458205606793
+    },
+    {
+      "side": "L",
+      "sweep_deg": 56,
+      "ring_to_rod_mm": 5.1597746337773565
+    },
+    {
+      "side": "L",
+      "sweep_deg": 58,
+      "ring_to_rod_mm": 5.1649476825952725
+    },
+    {
+      "side": "L",
+      "sweep_deg": 60,
+      "ring_to_rod_mm": 5.172068978037235
+    },
+    {
+      "side": "L",
+      "sweep_deg": 62,
+      "ring_to_rod_mm": 5.181229755530392
+    },
+    {
+      "side": "L",
+      "sweep_deg": 64,
+      "ring_to_rod_mm": 5.192520449942155
+    },
+    {
+      "side": "L",
+      "sweep_deg": 66,
+      "ring_to_rod_mm": 5.20603025182783
+    },
+    {
+      "side": "L",
+      "sweep_deg": 68,
+      "ring_to_rod_mm": 5.221846631259023
+    }
+  ],
+  "gates": {
+    "wing_clearance_ge_1p5mm": true,
+    "dynamic_rod_clearance_ge_1p5mm": true,
+    "sampled_20_68_complete": true,
+    "production_OML": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

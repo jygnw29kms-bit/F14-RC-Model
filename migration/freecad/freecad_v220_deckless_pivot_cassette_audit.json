@@ -1,0 +1,34 @@
+{
+  "status": "V220_DECKLESS_PIVOT_CASSETTE",
+  "rows": [
+    {
+      "side": "R",
+      "solid_count": 1,
+      "valid": true,
+      "volume_cm3": 20.550139045263226,
+      "cassette_to_wing_mm": 1.6171073066164752,
+      "cassette_to_slider_mm": 7.288415150358223
+    },
+    {
+      "side": "L",
+      "solid_count": 1,
+      "valid": true,
+      "volume_cm3": 20.55013904526318,
+      "cassette_to_wing_mm": 1.6171073066164752,
+      "cassette_to_slider_mm": 7.288415150358223
+    }
+  ],
+  "pair_volume_cm3": 41.1002780905264,
+  "pair_mass_PPA_CF_g": 51.375347613158,
+  "pair_mass_PA6_CF_g": 44.799303118673784,
+  "dynamic_guard_rod_min_mm": 3.1882557931456597,
+  "gates": {
+    "single_solid_each_side": true,
+    "all_valid": true,
+    "wing_clearance_ge_1p5mm": true,
+    "slider_clearance_ge_1p5mm": true,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "e926ee28f06b3f13e915b115d5b26ad6c33ea931487134555a1ec68bffc325db"
+}

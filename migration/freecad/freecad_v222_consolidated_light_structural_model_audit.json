@@ -1,0 +1,101 @@
+{
+  "status": "V222_CONSOLIDATED_LIGHT_STRUCTURAL_MODEL",
+  "source_v221": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v221_LIGHT_PIVOT_CASSETTE.FCStd",
+  "excluded_legacy_duplicates": [
+    "SWEEP_SERVO_SERVICE_REF",
+    "V204_META",
+    "V204_MONO_LOWER_L",
+    "V204_MONO_LOWER_R",
+    "V204_SOCKET_FRONT_L",
+    "V204_SOCKET_FRONT_R",
+    "V204_SOCKET_REAR_L",
+    "V204_SOCKET_REAR_R",
+    "V204_UPPER_FORK_L",
+    "V204_UPPER_FORK_R",
+    "WINGBOX_REF"
+  ],
+  "kept_shape_count": 97,
+  "pair_cassette_volume_cm3": 38.5452332929776,
+  "packaging_distances": [
+    {
+      "cassette": "R",
+      "target": "INLET_EDF_R",
+      "distance_mm": 69.50208147418493
+    },
+    {
+      "cassette": "R",
+      "target": "INLET_EDF_L",
+      "distance_mm": 107.0973250387797
+    },
+    {
+      "cassette": "R",
+      "target": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 36.518132211221285
+    },
+    {
+      "cassette": "R",
+      "target": "V205_BATTERY_305",
+      "distance_mm": 128.49159165239348
+    },
+    {
+      "cassette": "R",
+      "target": "V205_BATTERY_340",
+      "distance_mm": 95.03077116901888
+    },
+    {
+      "cassette": "R",
+      "target": "V205_BATTERY_375",
+      "distance_mm": 63.25824699271569
+    },
+    {
+      "cassette": "R",
+      "target": "V208_SLIDER_R",
+      "distance_mm": 7.288415150358223
+    },
+    {
+      "cassette": "L",
+      "target": "INLET_EDF_R",
+      "distance_mm": 107.09732504129151
+    },
+    {
+      "cassette": "L",
+      "target": "INLET_EDF_L",
+      "distance_mm": 69.50208147418493
+    },
+    {
+      "cassette": "L",
+      "target": "V205_SWEEP_SERVO_SERVICE",
+      "distance_mm": 36.518132211221285
+    },
+    {
+      "cassette": "L",
+      "target": "V205_BATTERY_305",
+      "distance_mm": 128.49159165239348
+    },
+    {
+      "cassette": "L",
+      "target": "V205_BATTERY_340",
+      "distance_mm": 95.03077116901888
+    },
+    {
+      "cassette": "L",
+      "target": "V205_BATTERY_375",
+      "distance_mm": 63.25824699271569
+    },
+    {
+      "cassette": "L",
+      "target": "V208_SLIDER_L",
+      "distance_mm": 7.288415150358223
+    }
+  ],
+  "gates": {
+    "legacy_structural_duplicates_removed": true,
+    "all_packaging_distances_positive": true,
+    "dynamic_guard_rod_min_mm": 3.18825579314564,
+    "mass_model_ready": true,
+    "production_OML": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "feaac0cb29955a31633af085c9a286a9f9554370333db911c7053bd5816b2be2"
+}

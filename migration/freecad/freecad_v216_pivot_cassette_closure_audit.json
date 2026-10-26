@@ -1,0 +1,31 @@
+{
+  "status": "V216_PIVOT_CASSETTE_CLOSURE",
+  "rows": [
+    {
+      "side": "R",
+      "deck_to_wing_mm": 4.523597926003715,
+      "deck_to_upper_fork_mm": 1.0,
+      "guard_to_wing_mm": 1.6171073066164752
+    },
+    {
+      "side": "L",
+      "deck_to_wing_mm": 4.523597926003715,
+      "deck_to_upper_fork_mm": 1.0,
+      "guard_to_wing_mm": 1.6171073066164752
+    }
+  ],
+  "dynamic_guard_rod_min_mm": 3.1882557931456597,
+  "straight_outer_wall_rejected": true,
+  "straight_wall_reason": "moving wing sweeps through all tested constant-Y wall positions outside fork",
+  "gates": {
+    "upper_deck_wing_clearance_ge_4mm": true,
+    "upper_deck_fork_clearance_ge_1mm": true,
+    "guard_wing_clearance_ge_1p5mm": true,
+    "guard_dynamic_rod_clearance_ge_1p5mm": true,
+    "absolute_Z_OML_verified": false,
+    "production_OML": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "5feb111920acea969523531d246753889dbe0d8b986f8b6d191f80e773356a69"
+}

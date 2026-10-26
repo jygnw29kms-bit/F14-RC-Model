@@ -1,0 +1,269 @@
+{
+  "status": "V213_WINGBOX_OUTER_WALL_DYNAMIC",
+  "sample_step_deg": 2,
+  "minimum_distance_mm": 0.0,
+  "worst": {
+    "side": "R",
+    "sweep_deg": 24,
+    "distance_mm": 0.0
+  },
+  "rows": [
+    {
+      "side": "R",
+      "sweep_deg": 20,
+      "distance_mm": 1.0263775443692964
+    },
+    {
+      "side": "R",
+      "sweep_deg": 22,
+      "distance_mm": 0.27235027910433135
+    },
+    {
+      "side": "R",
+      "sweep_deg": 24,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 26,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 28,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 32,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 34,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 36,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 38,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 40,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 42,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 44,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 46,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 48,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 50,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 52,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 54,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 56,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 58,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 62,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 64,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 66,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "R",
+      "sweep_deg": 68,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 20,
+      "distance_mm": 1.0263775443692964
+    },
+    {
+      "side": "L",
+      "sweep_deg": 22,
+      "distance_mm": 0.27235027910433135
+    },
+    {
+      "side": "L",
+      "sweep_deg": 24,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 26,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 28,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 30,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 32,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 34,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 36,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 38,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 40,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 42,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 44,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 46,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 48,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 50,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 52,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 54,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 56,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 58,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 60,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 62,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 64,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 66,
+      "distance_mm": 0.0
+    },
+    {
+      "side": "L",
+      "sweep_deg": 68,
+      "distance_mm": 0.0
+    }
+  ],
+  "gates": {
+    "sampled_20_68_wall_clearance_ge_1mm": false,
+    "deck_vertical_clearance_ge_4mm": true,
+    "production_OML": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

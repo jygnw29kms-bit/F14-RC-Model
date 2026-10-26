@@ -1,0 +1,79 @@
+{
+  "status": "V214_OUTER_WALL_Y_SEARCH_FAST",
+  "sample_step_deg": 4,
+  "rows": [
+    {
+      "outer_wall_y_mm": 147.8,
+      "minimum_distance_mm": 0.0,
+      "worst": {
+        "sweep_deg": 24,
+        "distance_mm": 0.0
+      },
+      "clear_of_fork_outer_mm": 10.590729762247179
+    },
+    {
+      "outer_wall_y_mm": 146,
+      "minimum_distance_mm": 0.0,
+      "worst": {
+        "sweep_deg": 28,
+        "distance_mm": 0.0
+      },
+      "clear_of_fork_outer_mm": 8.790729762247167
+    },
+    {
+      "outer_wall_y_mm": 144,
+      "minimum_distance_mm": 0.0,
+      "worst": {
+        "sweep_deg": 36,
+        "distance_mm": 0.0
+      },
+      "clear_of_fork_outer_mm": 6.790729762247167
+    },
+    {
+      "outer_wall_y_mm": 142,
+      "minimum_distance_mm": 0.0,
+      "worst": {
+        "sweep_deg": 44,
+        "distance_mm": 0.0
+      },
+      "clear_of_fork_outer_mm": 4.790729762247167
+    },
+    {
+      "outer_wall_y_mm": 140,
+      "minimum_distance_mm": 0.0,
+      "worst": {
+        "sweep_deg": 52,
+        "distance_mm": 0.0
+      },
+      "clear_of_fork_outer_mm": 2.7907297622471674
+    },
+    {
+      "outer_wall_y_mm": 139,
+      "minimum_distance_mm": 0.0,
+      "worst": {
+        "sweep_deg": 60,
+        "distance_mm": 0.0
+      },
+      "clear_of_fork_outer_mm": 1.7907297622471674
+    },
+    {
+      "outer_wall_y_mm": 138.5,
+      "minimum_distance_mm": 0.0,
+      "worst": {
+        "sweep_deg": 60,
+        "distance_mm": 0.0
+      },
+      "clear_of_fork_outer_mm": 1.2907297622471674
+    },
+    {
+      "outer_wall_y_mm": 138.25,
+      "minimum_distance_mm": 0.0,
+      "worst": {
+        "sweep_deg": 60,
+        "distance_mm": 0.0
+      },
+      "clear_of_fork_outer_mm": 1.0407297622471674
+    }
+  ],
+  "best_outermost_passing": null
+}

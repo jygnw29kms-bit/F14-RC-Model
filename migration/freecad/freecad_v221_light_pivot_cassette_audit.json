@@ -1,0 +1,41 @@
+{
+  "status": "V221_LIGHT_PIVOT_CASSETTE",
+  "guard": {
+    "inner_radius_mm": 20.8,
+    "outer_radius_mm": 22.0,
+    "radial_thickness_mm": 1.2,
+    "height_mm": 25.0,
+    "print_line_equivalent_at_0p4mm": 3.0
+  },
+  "rows": [
+    {
+      "side": "R",
+      "solid_count": 1,
+      "valid": true,
+      "volume_cm3": 19.272616646488796,
+      "cassette_to_wing_mm": 1.6171073066164752,
+      "cassette_to_slider_mm": 7.288415150358223
+    },
+    {
+      "side": "L",
+      "solid_count": 1,
+      "valid": true,
+      "volume_cm3": 19.272616646488807,
+      "cassette_to_wing_mm": 1.6171073066164752,
+      "cassette_to_slider_mm": 7.288415150358223
+    }
+  ],
+  "pair_volume_cm3": 38.5452332929776,
+  "pair_mass_PPA_CF_g": 48.181541616222,
+  "pair_mass_PA6_CF_g": 42.01430428934559,
+  "gates": {
+    "single_solid_each_side": true,
+    "all_valid": true,
+    "wing_clearance_ge_1p5mm": true,
+    "slider_clearance_ge_1p5mm": true,
+    "guard_strength_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "d48826cb435250273371181dc26d58b983b2f9a993fe1285b339de3705170080"
+}

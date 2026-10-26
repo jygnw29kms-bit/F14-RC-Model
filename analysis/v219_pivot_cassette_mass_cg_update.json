@@ -1,0 +1,73 @@
+{
+  "status": "V219_PIVOT_CASSETTE_MASS_CG_UPDATE",
+  "sources": [
+    "analysis/v217_mass_cg_hardware_state.json",
+    "analysis/v213_current_mass_rollup.json",
+    "migration/freecad/freecad_v218_cassette_massprops.json"
+  ],
+  "old_v204_pair_center_x_mm": 503.95270557914637,
+  "v217_pair_center_x_mm": 504.1052231943667,
+  "center_shift_mm": 0.15251761522034712,
+  "preliminary_CG_seed_range_mm": [
+    596.0704536162777,
+    604.7380091718334
+  ],
+  "battery": {
+    "mass_g": 202.0,
+    "center_positions_mm": [
+      305,
+      340,
+      375
+    ],
+    "travel_mm": 70
+  },
+  "scenarios": [
+    {
+      "material": "Bambu PPA-CF screen",
+      "density_g_cm3": 1.25,
+      "cassette_pair_mass_g": 63.711656283992724,
+      "replaced_v204_mass_g": 39.02401370470592,
+      "mass_delta_g": 24.687642579286802,
+      "projected_AUW_g": 1190.1048149694277,
+      "margin_to_1200_g": 9.895185030572293,
+      "battery_CG_authority_mm": 11.881306438007512,
+      "dry_airframe_CG_interval_to_cover_seed_mm": [
+        651.7037532403372,
+        655.5744968511115
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "published_static_thrust_to_weight": 1.512471823791621
+    },
+    {
+      "material": "Bambu PA6-CF screen",
+      "density_g_cm3": 1.09,
+      "cassette_pair_mass_g": 55.55656427964166,
+      "replaced_v204_mass_g": 39.02401370470592,
+      "mass_delta_g": 16.53255057493574,
+      "projected_AUW_g": 1181.9497229650767,
+      "margin_to_1200_g": 18.050277034923283,
+      "battery_CG_authority_mm": 11.96328382270605,
+      "dry_airframe_CG_interval_to_cover_seed_mm": [
+        652.0945997857829,
+        656.0696864877211
+      ],
+      "full_seed_range_coverable_by_70mm_battery_travel": true,
+      "published_static_thrust_to_weight": 1.5229074173176018
+    }
+  ],
+  "decision": {
+    "PPA_CF_keeps_below_1200": true,
+    "PPA_CF_margin_under_10g": true,
+    "PA6_CF_keeps_below_1200": true,
+    "cassette_lightweighting_required_before_freeze": true,
+    "do_not_reduce_pivot_bearing_or_primary_fork_sections": true,
+    "battery_70mm_travel_retained": true
+  },
+  "gates": {
+    "material_frozen": false,
+    "actual_print_mass_measured": false,
+    "dry_CG_measured": false,
+    "AUW_frozen": false,
+    "flight_release": false
+  }
+}

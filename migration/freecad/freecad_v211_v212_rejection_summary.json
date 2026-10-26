@@ -1,0 +1,17 @@
+{
+  "status": "V211_V212_REJECTED_INTERMEDIATE_GEOMETRY",
+  "v211": {
+    "file": "migration/freecad/F14_v211_UPPER_GLOVE_STRUCTURAL_ENCLOSURE.FCStd",
+    "rejected": true,
+    "reason": "Upper surface attached to high fuselage-core intersection instead of local glove shoulder; resulting lateral slope about 65-68 deg is nonphysical. Do not integrate as OML or structure."
+  },
+  "v212": {
+    "file": "migration/freecad/F14_v212_WINGBOX_UPPER_STRUCTURAL_DECK.FCStd",
+    "straight_outer_wall_rejected": true,
+    "reason": "Constant-Y outer wall intersects moving wing during sweep; v213/v214 dynamic screens reject all tested wall positions outside fork. Upper deck was later removed as structurally redundant."
+  },
+  "superseded_by": [
+    "migration/freecad/F14_v221_LIGHT_PIVOT_CASSETTE.FCStd",
+    "migration/freecad/F14_v222_CONSOLIDATED_LIGHT_STRUCTURAL_MODEL.FCStd"
+  ]
+}

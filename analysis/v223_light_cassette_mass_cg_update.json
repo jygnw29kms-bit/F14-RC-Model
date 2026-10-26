@@ -1,0 +1,59 @@
+{
+  "status": "V223_LIGHT_CASSETTE_MASS_CG_UPDATE",
+  "source_geometry": "migration/freecad/F14_v222_CONSOLIDATED_LIGHT_STRUCTURAL_MODEL.FCStd",
+  "cassette_pair_volume_cm3": 38.5452332929776,
+  "old_v204_pair_center_x_mm": 503.95270557914637,
+  "light_cassette_pair_center_x_mm": "approximately pivot-centered; exact v221 massprops pending if material freeze",
+  "scenarios": [
+    {
+      "material": "Bambu PPA-CF screen",
+      "density_g_cm3": 1.25,
+      "cassette_pair_mass_g": 48.181541616222,
+      "replaced_v204_mass_g": 39.02401370470592,
+      "mass_delta_g": 9.157527911516077,
+      "projected_AUW_g": 1174.574700301657,
+      "margin_to_1175_working_target_g": 0.42529969834299663,
+      "margin_to_1200_redesign_g": 25.425299698342997,
+      "battery_CG_authority_mm": 12.038399938606316,
+      "dry_CG_interval_to_cover_seed_mm": [
+        652.4537042627262,
+        656.5246599741562
+      ],
+      "full_seed_range_coverable": true,
+      "published_static_thrust_to_weight": 1.532469582000804
+    },
+    {
+      "material": "Bambu PA6-CF screen",
+      "density_g_cm3": 1.09,
+      "cassette_pair_mass_g": 42.01430428934559,
+      "replaced_v204_mass_g": 39.02401370470592,
+      "mass_delta_g": 2.9902905846396663,
+      "projected_AUW_g": 1168.4074629747806,
+      "margin_to_1175_working_target_g": 6.592537025219372,
+      "margin_to_1200_redesign_g": 31.59253702521937,
+      "battery_CG_authority_mm": 12.101942556922202,
+      "dry_CG_interval_to_cover_seed_mm": [
+        652.7582073084048,
+        656.9104552544093
+      ],
+      "full_seed_range_coverable": true,
+      "published_static_thrust_to_weight": 1.540558458448371
+    }
+  ],
+  "decision": {
+    "PPA_CF_meets_1175_working_target": true,
+    "PPA_CF_margin_to_1200_ge_25g": true,
+    "PA6_CF_meets_1175_working_target": true,
+    "further_geometry_lightweighting_required_by_mass_budget": false,
+    "do_not_lighten_pivot_bearing_or_primary_fork_sections": true,
+    "battery_70mm_travel_retained": true
+  },
+  "gates": {
+    "guard_strength_verified": false,
+    "material_frozen": false,
+    "actual_print_mass_measured": false,
+    "dry_CG_measured": false,
+    "AUW_frozen": false,
+    "flight_release": false
+  }
+}

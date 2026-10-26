@@ -1,0 +1,35 @@
+{
+  "status": "V217_MONOLITHIC_PIVOT_CASSETTE",
+  "rows": [
+    {
+      "side": "R",
+      "solid_count": 1,
+      "is_valid": true,
+      "cassette_to_wing_mm": 1.6171073066164752,
+      "cassette_to_slider_mm": 7.288415150358223,
+      "deck_to_wing_mm": 3.556922581854792,
+      "guard_to_wing_mm": 1.6171073066164752
+    },
+    {
+      "side": "L",
+      "solid_count": 1,
+      "is_valid": true,
+      "cassette_to_wing_mm": 1.6171073066164752,
+      "cassette_to_slider_mm": 7.288415150358223,
+      "deck_to_wing_mm": 3.556922581854792,
+      "guard_to_wing_mm": 1.6171073066164752
+    }
+  ],
+  "dynamic_guard_to_rod_min_mm": 3.1882557931456597,
+  "gates": {
+    "single_solid_each_side": true,
+    "all_valid": true,
+    "cassette_wing_clearance_ge_1p5mm": true,
+    "cassette_slider_clearance_ge_1p5mm": true,
+    "dynamic_guard_rod_clearance_ge_1p5mm": true,
+    "production_OML": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "dacf5bc96a93ce9a0cace13199a1770599e13c2e01d1f8e5377a237a94a899d3"
+}
