@@ -1,0 +1,91 @@
+{
+  "status": "INNER_SPAN_SECTION_METHOD_DIAGNOSTIC_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "stations": [
+    {
+      "y_mm": 180,
+      "section_wires": 1,
+      "source_edges": 99,
+      "source_closed": true,
+      "source_valid": true,
+      "offset_valid": true,
+      "offset_wires": 1,
+      "offset_edges": 101,
+      "offset_bounds_xyz": [
+        [
+          599.958257566559,
+          734.2628818353751
+        ],
+        [
+          179.99999999999983,
+          180.00000000000017
+        ],
+        [
+          -4.85952916838151,
+          7.348574942419324
+        ]
+      ],
+      "offset_closed": true,
+      "offset_face_valid": true
+    },
+    {
+      "y_mm": 220,
+      "section_wires": 1,
+      "source_edges": 99,
+      "source_closed": true,
+      "source_valid": true,
+      "offset_valid": true,
+      "offset_wires": 1,
+      "offset_edges": 98,
+      "offset_bounds_xyz": [
+        [
+          614.5111211003252,
+          735.5003089919812
+        ],
+        [
+          219.99999999999983,
+          220.00000000000017
+        ],
+        [
+          -5.4354160288827265,
+          5.4262752272238615
+        ]
+      ],
+      "offset_closed": true,
+      "offset_face_valid": true
+    }
+  ],
+  "print_release": false,
+  "flight_release": false,
+  "loft_valid": true,
+  "loft_solids": 1,
+  "loft_faces": 179,
+  "loft_volume_mm3": 39765.176635686475,
+  "loft_bounds_xyz": [
+    [
+      599.958257566559,
+      735.5003089919812
+    ],
+    [
+      179.99999999999983,
+      220.00000000000017
+    ],
+    [
+      -5.4354160288827265,
+      7.348574942419324
+    ]
+  ],
+  "plane_section_edges": 177,
+  "plane_section_edge_groups": [
+    177
+  ],
+  "plane_section_closed_groups": [
+    true
+  ],
+  "midpoint_outer_wires": 1,
+  "midpoint_inner_wires": 0,
+  "limits": [
+    "Diagnostic only; no shell/containment/normal-thickness verification.",
+    "No automatic geometry repair or vertex reordering performed; master unchanged."
+  ]
+}
