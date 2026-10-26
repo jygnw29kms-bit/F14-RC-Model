@@ -1,0 +1,121 @@
+{
+  "status": "V229_TWIN_ESC_CURRENT",
+  "ESC": {
+    "model": "Hobbywing Skywalker 50A V2",
+    "dims_mm": [
+      60,
+      25,
+      8
+    ],
+    "weight_g_each": 36,
+    "continuous_A": 50,
+    "peak_A": 70,
+    "input": "3-4S",
+    "BEC": "5V/5A switch-mode"
+  },
+  "EDF_candidate": {
+    "model": "XFly Galaxy X5 50mm 4S 4600KV",
+    "published_current_A_each": 40,
+    "published_thrust_g_each": 900,
+    "published_weight_g_each": 75,
+    "external_shroud_OD_verified": false
+  },
+  "electrical": {
+    "ESC_R_5V_BEC_to_receiver_candidate": true,
+    "ESC_L_BEC_red_lead_isolated": true,
+    "sweep_and_taileron_HV_domains_independent": true
+  },
+  "rows": [
+    {
+      "side": "R",
+      "body_inside_fraction": 1.0,
+      "service_inside_fraction": 0.9979894587799256,
+      "distances": {
+        "INLET_EDF_R": {
+          "body_mm": 9.616381439883318,
+          "service_mm": 5.602802367526641
+        },
+        "V221_CASSETTE_R": {
+          "body_mm": 123.94549287771297,
+          "service_mm": 120.77898435142157
+        },
+        "V205_BATTERY_305": {
+          "body_mm": 299.03887707119287,
+          "service_mm": 295.4712337944254
+        },
+        "V205_BATTERY_340": {
+          "body_mm": 264.9702813524566,
+          "service_mm": 261.3393387915413
+        },
+        "V205_BATTERY_375": {
+          "body_mm": 231.18012457821715,
+          "service_mm": 227.47142677707896
+        },
+        "V227_HOBBYWING_UBEC10A_HV": {
+          "body_mm": 292.84168077649053,
+          "service_mm": 289.66920789065585
+        },
+        "V228_TAIL_UBEC10A_HV": {
+          "body_mm": 320.2440475637291,
+          "service_mm": 316.2091870898124
+        },
+        "V228_RECEIVER_RESERVE_MAX": {
+          "body_mm": 361.4602329440958,
+          "service_mm": 357.90291979809274
+        }
+      }
+    },
+    {
+      "side": "L",
+      "body_inside_fraction": 1.0,
+      "service_inside_fraction": 0.9993882722399487,
+      "distances": {
+        "INLET_EDF_L": {
+          "body_mm": 9.616381439883321,
+          "service_mm": 5.602802367526641
+        },
+        "V221_CASSETTE_L": {
+          "body_mm": 123.94549287771297,
+          "service_mm": 120.77898435142157
+        },
+        "V205_BATTERY_305": {
+          "body_mm": 299.03887707119287,
+          "service_mm": 295.4712337944254
+        },
+        "V205_BATTERY_340": {
+          "body_mm": 264.9702813524566,
+          "service_mm": 261.3393387915413
+        },
+        "V205_BATTERY_375": {
+          "body_mm": 231.18012457821715,
+          "service_mm": 227.47142677707896
+        },
+        "V227_HOBBYWING_UBEC10A_HV": {
+          "body_mm": 320.2440475637291,
+          "service_mm": 316.2091870898124
+        },
+        "V228_TAIL_UBEC10A_HV": {
+          "body_mm": 292.84168077649053,
+          "service_mm": 289.66920789065585
+        },
+        "V228_RECEIVER_RESERVE_MAX": {
+          "body_mm": 361.4602329440958,
+          "service_mm": 357.90291979809274
+        }
+      }
+    }
+  ],
+  "gates": {
+    "ESC_bodies_contained": true,
+    "ESC_service_envelopes_contained": true,
+    "ESC_service_no_contact": true,
+    "50A_vs_published_40A_EDF_current_margin_pass": true,
+    "actual_ESC_purchased_verified": false,
+    "EDF_shroud_OD_verified": false,
+    "thermal_airflow_bench_verified": false,
+    "receiver_5V_brownout_bench_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "375423e535f690b311a990f2c670318e45a414cf9a9ae5d7f19494ff1db9241e"
+}

@@ -1,0 +1,43 @@
+{
+  "status": "V230_EDF_HARDWARE_ACCEPTANCE_CORRIDOR",
+  "basis": {
+    "fan_face_x_mm": 658.0,
+    "body_length_screen_mm": 73.5,
+    "max_shroud_OD_without_changing_carrier_mm": 53.2,
+    "required_free_ID_mm": 53.6,
+    "radial_install_clearance_mm": 0.2,
+    "carrier_OD_mm": 55.2,
+    "axis_abs_y_mm": 66.28458486059378,
+    "axis_z_mm": -10.508688347971937,
+    "axis_absolute_Z_verified": false
+  },
+  "rows": [
+    {
+      "side": "R",
+      "fuselage_inside_fraction": 0.9010305420807093,
+      "V229_ESC_SERVICE_R_distance_mm": 4.622802367526645,
+      "V221_CASSETTE_R_distance_mm": 131.65369062304285,
+      "V205_BATTERY_375_distance_mm": 231.22154324272682,
+      "V225_SERVO_SERVICE_distance_mm": 180.38140644815556
+    },
+    {
+      "side": "L",
+      "fuselage_inside_fraction": 0.9005102713356562,
+      "V229_ESC_SERVICE_L_distance_mm": 4.622802367526645,
+      "V221_CASSETTE_L_distance_mm": 131.65369062304285,
+      "V205_BATTERY_375_distance_mm": 231.22154324272682,
+      "V225_SERVO_SERVICE_distance_mm": 180.38140644815556
+    }
+  ],
+  "gates": {
+    "53p6_free_corridor_contained_ge_99p5pct": false,
+    "corridor_no_contact_with_current_hardware": true,
+    "XFly_actual_shroud_OD_verified": false,
+    "axis_absolute_Z_verified": false,
+    "actual_EDF_measured": false,
+    "mount_regenerated_to_measured_EDF": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "4c0028d5d41cabbebef3bc911aa58fcfa70d11e5b4457faef85302d7c77f62a6"
+}

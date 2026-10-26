@@ -1,0 +1,102 @@
+{
+  "status": "V227_CURRENT_SWEEP_POWER_PACKAGE",
+  "source_v225": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v225_A80BHSF_SYNC_YOKE_CURRENT.FCStd",
+  "BEC": {
+    "model": "Hobbywing UBEC 10A HV",
+    "PN": "30608000",
+    "dims_mm": [
+      55,
+      25,
+      12
+    ],
+    "weight_g": 35,
+    "input": "3-14S LiPo",
+    "output_V": 8.4,
+    "continuous_A": 10,
+    "instantaneous_A": 25,
+    "center_mm": [
+      330.0,
+      60.0,
+      45.0
+    ]
+  },
+  "bec_inside_fuselage_fraction": 1.0,
+  "packaging_distances": [
+    {
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 84.20227376756058
+    },
+    {
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 127.62778288855023
+    },
+    {
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 163.2577745929636
+    },
+    {
+      "target": "V205_BATTERY_305",
+      "distance_mm": 31.020384762267675
+    },
+    {
+      "target": "V205_BATTERY_340",
+      "distance_mm": 31.020384762267675
+    },
+    {
+      "target": "V205_BATTERY_375",
+      "distance_mm": 31.020384762267675
+    },
+    {
+      "target": "INLET_EDF_R",
+      "distance_mm": 239.27545777003252
+    },
+    {
+      "target": "INLET_EDF_L",
+      "distance_mm": 254.2845923612396
+    }
+  ],
+  "receiver_keepout_radius_mm": 50,
+  "receiver_keepout_checks": [
+    {
+      "target": "V225_SERVO_SERVICE",
+      "distance_from_keepout_surface_mm": 64.40966639525553,
+      "keepout_intersection_mm3": 0.0
+    },
+    {
+      "target": "V205_BATTERY_305",
+      "distance_from_keepout_surface_mm": 0.0,
+      "keepout_intersection_mm3": 863.0027317038736
+    },
+    {
+      "target": "V205_BATTERY_340",
+      "distance_from_keepout_surface_mm": 0.0,
+      "keepout_intersection_mm3": 863.0027317038736
+    },
+    {
+      "target": "V205_BATTERY_375",
+      "distance_from_keepout_surface_mm": 0.0,
+      "keepout_intersection_mm3": 692.3581059539027
+    },
+    {
+      "target": "INLET_EDF_R",
+      "distance_from_keepout_surface_mm": 217.23283545973794,
+      "keepout_intersection_mm3": 0.0
+    },
+    {
+      "target": "INLET_EDF_L",
+      "distance_from_keepout_surface_mm": 234.9107191486246,
+      "keepout_intersection_mm3": 0.0
+    }
+  ],
+  "gates": {
+    "BEC_contained_ge_99p5pct": true,
+    "BEC_no_contact_with_current_hardware": true,
+    "receiver_keepout_modeled": true,
+    "receiver_selected": false,
+    "wiring_harness_designed": false,
+    "EMI_bench_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "48cc78725033ddf7875878f43477fe6dc4c1fcad10086a369f0a0b119be9b2f6"
+}

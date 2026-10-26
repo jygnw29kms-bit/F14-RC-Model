@@ -1,0 +1,143 @@
+{
+  "status": "V228_DUAL_HV_RECEIVER_RESERVE_CURRENT",
+  "architecture": "separate 8.4V UBEC domains for sweep and taileron controls; common signal reference to receiver; propulsion ESC BEC outputs not credited for HV control buses",
+  "tail_BEC": {
+    "model": "Hobbywing UBEC 10A HV",
+    "PN": "30608000",
+    "center_mm": [
+      330.0,
+      -60.0,
+      45.0
+    ],
+    "mass_g": 35
+  },
+  "receiver_reserve": {
+    "center_mm": [
+      270.0,
+      0.0,
+      45.0
+    ],
+    "dims_mm": [
+      50,
+      30,
+      15
+    ],
+    "hardware_model_frozen": false
+  },
+  "containment": {
+    "tail_bec": 1.0,
+    "receiver_reserve": 1.0
+  },
+  "packaging_checks": [
+    {
+      "object": "tail_bec",
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 84.20227376756058
+    },
+    {
+      "object": "tail_bec",
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 163.2577745929636
+    },
+    {
+      "object": "tail_bec",
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 127.62778288855023
+    },
+    {
+      "object": "tail_bec",
+      "target": "V205_BATTERY_305",
+      "distance_mm": 31.020384762267675
+    },
+    {
+      "object": "tail_bec",
+      "target": "V205_BATTERY_340",
+      "distance_mm": 31.020384762267675
+    },
+    {
+      "object": "tail_bec",
+      "target": "V205_BATTERY_375",
+      "distance_mm": 31.020384762267675
+    },
+    {
+      "object": "tail_bec",
+      "target": "INLET_EDF_R",
+      "distance_mm": 254.28459236211168
+    },
+    {
+      "object": "tail_bec",
+      "target": "INLET_EDF_L",
+      "distance_mm": 239.27545777003252
+    },
+    {
+      "object": "receiver",
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 139.3099792190261
+    },
+    {
+      "object": "receiver",
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 194.33898125997925
+    },
+    {
+      "object": "receiver",
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 194.33898125997925
+    },
+    {
+      "object": "receiver",
+      "target": "V205_BATTERY_305",
+      "distance_mm": 8.092406934608675
+    },
+    {
+      "object": "receiver",
+      "target": "V205_BATTERY_340",
+      "distance_mm": 8.092406934608675
+    },
+    {
+      "object": "receiver",
+      "target": "V205_BATTERY_375",
+      "distance_mm": 28.186646661057477
+    },
+    {
+      "object": "receiver",
+      "target": "INLET_EDF_R",
+      "distance_mm": 302.9661538567811
+    },
+    {
+      "object": "receiver",
+      "target": "INLET_EDF_L",
+      "distance_mm": 302.9661538580456
+    },
+    {
+      "object": "receiver",
+      "target": "V227_HOBBYWING_UBEC10A_HV",
+      "distance_mm": 33.354160160315836
+    }
+  ],
+  "receiver_keepout_checks": [
+    {
+      "domain": "sweep",
+      "distance_mm": 7.008771254956887,
+      "intersection_mm3": 0.0
+    },
+    {
+      "domain": "tail",
+      "distance_mm": 7.008771254956905,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "gates": {
+    "both_BECs_contained": true,
+    "receiver_reserve_contained": true,
+    "tail_BEC_no_contact": true,
+    "receiver_no_contact": true,
+    "receiver_fully_outside_both_50mm_BEC_keepouts": true,
+    "receiver_selected": false,
+    "antenna_layout_verified": false,
+    "brownout_bench_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "a5fd27f2106505777f7faf918771c6798b50d22ccd17a512f6a124c17379fad2"
+}

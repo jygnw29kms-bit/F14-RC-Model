@@ -1,0 +1,28 @@
+{
+  "status": "V231_CURRENT_ENDMODEL_HARDWARE_STATE",
+  "source_v229": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v229_TWIN_ESC_CURRENT.FCStd",
+  "projected_AUW_PPA_CF_g": 1174.574700301657,
+  "working_target_g": 1175,
+  "redesign_threshold_g": 1200,
+  "shape_object_count": 106,
+  "open_hard_gates": [
+    "common aircraft Z / production OML",
+    "true radome seam",
+    "EDF actual shroud OD and aft-nacelle absolute-Z registration",
+    "receiver protocol/model and antenna layout",
+    "tail servo current/physical measurements",
+    "material/fastener certificates",
+    "physical sweep/stabilator proof load/endurance",
+    "installed thrust/current/thermal/dry-CG/AUW"
+  ],
+  "rejected_not_integrated": [
+    "v211 upper-glove OML attempt",
+    "v212 straight outer wall",
+    "v230 EDF corridor against central fuselage core"
+  ],
+  "release": {
+    "print": false,
+    "flight": false
+  },
+  "output_sha256": "0973d0e19e40b1767c5efdde9edb16bd4945044fec7718c2c3c043e94f57996a"
+}

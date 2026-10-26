@@ -1,0 +1,1064 @@
+{
+  "status": "V225_A80BHSF_SYNC_YOKE_CURRENT",
+  "servo": {
+    "model": "AGFRC A80BHSF V2",
+    "dims_mm": [
+      40,
+      20,
+      37.5
+    ],
+    "weight_g": 79,
+    "stall_kgcm_8p4V": 36,
+    "loading_current_A_8p4V": 5.0,
+    "travel_deg": 180
+  },
+  "service_inside_fuselage_fraction": 1.0,
+  "static_service_checks": [
+    {
+      "target": "V221_CASSETTE_R",
+      "servo_service_distance_mm": 39.1075010773138
+    },
+    {
+      "target": "V221_CASSETTE_L",
+      "servo_service_distance_mm": 39.1075010773138
+    },
+    {
+      "target": "V205_BATTERY_305",
+      "servo_service_distance_mm": 76.3099792190261
+    },
+    {
+      "target": "V205_BATTERY_340",
+      "servo_service_distance_mm": 41.309979219026104
+    },
+    {
+      "target": "V205_BATTERY_375",
+      "servo_service_distance_mm": 6.309979219026104
+    },
+    {
+      "target": "INLET_EDF_R",
+      "servo_service_distance_mm": 117.6810256147742
+    },
+    {
+      "target": "INLET_EDF_L",
+      "servo_service_distance_mm": 117.68102561407883
+    }
+  ],
+  "dynamic_yoke_minimum": {
+    "sweep_deg": 20,
+    "target": "V225_SERVO_SERVICE",
+    "distance_mm": 1.5
+  },
+  "dynamic_rows": [
+    {
+      "sweep_deg": 20,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 3.71643253049333
+    },
+    {
+      "sweep_deg": 20,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 3.71643253049333
+    },
+    {
+      "sweep_deg": 20,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 105.21391879567443
+    },
+    {
+      "sweep_deg": 20,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 70.21391879567443
+    },
+    {
+      "sweep_deg": 20,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 35.21391879567443
+    },
+    {
+      "sweep_deg": 20,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 20,
+      "target": "INLET_EDF_R",
+      "distance_mm": 116.63447205546777
+    },
+    {
+      "sweep_deg": 20,
+      "target": "INLET_EDF_L",
+      "distance_mm": 116.63447205546777
+    },
+    {
+      "sweep_deg": 22,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 4.771726356388076
+    },
+    {
+      "sweep_deg": 22,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 4.771726356388076
+    },
+    {
+      "sweep_deg": 22,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 104.01394600112542
+    },
+    {
+      "sweep_deg": 22,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 69.01394600112542
+    },
+    {
+      "sweep_deg": 22,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 34.01394600112542
+    },
+    {
+      "sweep_deg": 22,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 22,
+      "target": "INLET_EDF_R",
+      "distance_mm": 117.83444485001678
+    },
+    {
+      "sweep_deg": 22,
+      "target": "INLET_EDF_L",
+      "distance_mm": 117.83444485001678
+    },
+    {
+      "sweep_deg": 24,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 5.878765549650389
+    },
+    {
+      "sweep_deg": 24,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 5.878765549650389
+    },
+    {
+      "sweep_deg": 24,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 102.81820984929345
+    },
+    {
+      "sweep_deg": 24,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 67.81820984929345
+    },
+    {
+      "sweep_deg": 24,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 32.81820984929345
+    },
+    {
+      "sweep_deg": 24,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 24,
+      "target": "INLET_EDF_R",
+      "distance_mm": 119.03018100184875
+    },
+    {
+      "sweep_deg": 24,
+      "target": "INLET_EDF_L",
+      "distance_mm": 119.03018100184875
+    },
+    {
+      "sweep_deg": 26,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 7.011360525990891
+    },
+    {
+      "sweep_deg": 26,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 7.011360525990891
+    },
+    {
+      "sweep_deg": 26,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 101.62625160745677
+    },
+    {
+      "sweep_deg": 26,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 66.62625160745677
+    },
+    {
+      "sweep_deg": 26,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 31.626251607456766
+    },
+    {
+      "sweep_deg": 26,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 26,
+      "target": "INLET_EDF_R",
+      "distance_mm": 120.22213924368543
+    },
+    {
+      "sweep_deg": 26,
+      "target": "INLET_EDF_L",
+      "distance_mm": 120.22213924368543
+    },
+    {
+      "sweep_deg": 28,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 8.157584474510447
+    },
+    {
+      "sweep_deg": 28,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 8.157584474510447
+    },
+    {
+      "sweep_deg": 28,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 100.43769480430456
+    },
+    {
+      "sweep_deg": 28,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 65.43769480430456
+    },
+    {
+      "sweep_deg": 28,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 30.437694804304556
+    },
+    {
+      "sweep_deg": 28,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 28,
+      "target": "INLET_EDF_R",
+      "distance_mm": 121.41069604683764
+    },
+    {
+      "sweep_deg": 28,
+      "target": "INLET_EDF_L",
+      "distance_mm": 121.41069604683764
+    },
+    {
+      "sweep_deg": 30,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 9.31139564804135
+    },
+    {
+      "sweep_deg": 30,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 9.31139564804135
+    },
+    {
+      "sweep_deg": 30,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 99.25224049034966
+    },
+    {
+      "sweep_deg": 30,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 64.25224049034966
+    },
+    {
+      "sweep_deg": 30,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 29.252240490349664
+    },
+    {
+      "sweep_deg": 30,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 30,
+      "target": "INLET_EDF_R",
+      "distance_mm": 122.59615036079254
+    },
+    {
+      "sweep_deg": 30,
+      "target": "INLET_EDF_L",
+      "distance_mm": 122.59615036079254
+    },
+    {
+      "sweep_deg": 32,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 10.469453367206174
+    },
+    {
+      "sweep_deg": 32,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 10.469453367206174
+    },
+    {
+      "sweep_deg": 32,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 98.06966333809294
+    },
+    {
+      "sweep_deg": 32,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 63.06966333809294
+    },
+    {
+      "sweep_deg": 32,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 28.069663338092937
+    },
+    {
+      "sweep_deg": 32,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 32,
+      "target": "INLET_EDF_R",
+      "distance_mm": 123.77872751304926
+    },
+    {
+      "sweep_deg": 32,
+      "target": "INLET_EDF_L",
+      "distance_mm": 123.77872751304926
+    },
+    {
+      "sweep_deg": 34,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 11.629764124771771
+    },
+    {
+      "sweep_deg": 34,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 11.629764124771771
+    },
+    {
+      "sweep_deg": 34,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 96.88980844526657
+    },
+    {
+      "sweep_deg": 34,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 61.88980844526657
+    },
+    {
+      "sweep_deg": 34,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 26.889808445266567
+    },
+    {
+      "sweep_deg": 34,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 34,
+      "target": "INLET_EDF_R",
+      "distance_mm": 124.95858240587563
+    },
+    {
+      "sweep_deg": 34,
+      "target": "INLET_EDF_L",
+      "distance_mm": 124.95858240587563
+    },
+    {
+      "sweep_deg": 36,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 12.791047550991768
+    },
+    {
+      "sweep_deg": 36,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 12.791047550991768
+    },
+    {
+      "sweep_deg": 36,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 95.71258872737292
+    },
+    {
+      "sweep_deg": 36,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 60.71258872737292
+    },
+    {
+      "sweep_deg": 36,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 25.712588727372918
+    },
+    {
+      "sweep_deg": 36,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 36,
+      "target": "INLET_EDF_R",
+      "distance_mm": 126.13580212376928
+    },
+    {
+      "sweep_deg": 36,
+      "target": "INLET_EDF_L",
+      "distance_mm": 126.13580212376928
+    },
+    {
+      "sweep_deg": 38,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 13.952414943240475
+    },
+    {
+      "sweep_deg": 38,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 13.952414943240475
+    },
+    {
+      "sweep_deg": 38,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 94.53798280389412
+    },
+    {
+      "sweep_deg": 38,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 59.537982803894124
+    },
+    {
+      "sweep_deg": 38,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 24.537982803894124
+    },
+    {
+      "sweep_deg": 38,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 38,
+      "target": "INLET_EDF_R",
+      "distance_mm": 127.31040804724807
+    },
+    {
+      "sweep_deg": 38,
+      "target": "INLET_EDF_L",
+      "distance_mm": 127.31040804724807
+    },
+    {
+      "sweep_deg": 40,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 15.113195275329021
+    },
+    {
+      "sweep_deg": 40,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 15.113195275329021
+    },
+    {
+      "sweep_deg": 40,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 93.36603329705042
+    },
+    {
+      "sweep_deg": 40,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 58.36603329705042
+    },
+    {
+      "sweep_deg": 40,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 23.36603329705042
+    },
+    {
+      "sweep_deg": 40,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 40,
+      "target": "INLET_EDF_R",
+      "distance_mm": 128.48235755409178
+    },
+    {
+      "sweep_deg": 40,
+      "target": "INLET_EDF_L",
+      "distance_mm": 128.48235755409178
+    },
+    {
+      "sweep_deg": 42,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 16.272835781288304
+    },
+    {
+      "sweep_deg": 42,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 16.272835781288304
+    },
+    {
+      "sweep_deg": 42,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 92.19684547363283
+    },
+    {
+      "sweep_deg": 42,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 57.196845473632834
+    },
+    {
+      "sweep_deg": 42,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 22.196845473632834
+    },
+    {
+      "sweep_deg": 42,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 42,
+      "target": "INLET_EDF_R",
+      "distance_mm": 129.65154537750936
+    },
+    {
+      "sweep_deg": 42,
+      "target": "INLET_EDF_L",
+      "distance_mm": 129.65154537750936
+    },
+    {
+      "sweep_deg": 44,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 17.43084249786448
+    },
+    {
+      "sweep_deg": 44,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 17.43084249786448
+    },
+    {
+      "sweep_deg": 44,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 91.03058616984401
+    },
+    {
+      "sweep_deg": 44,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 56.030586169844014
+    },
+    {
+      "sweep_deg": 44,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 21.030586169844014
+    },
+    {
+      "sweep_deg": 44,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 44,
+      "target": "INLET_EDF_R",
+      "distance_mm": 130.81780468129818
+    },
+    {
+      "sweep_deg": 44,
+      "target": "INLET_EDF_L",
+      "distance_mm": 130.81780468129818
+    },
+    {
+      "sweep_deg": 46,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 18.58674329294303
+    },
+    {
+      "sweep_deg": 46,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 18.58674329294303
+    },
+    {
+      "sweep_deg": 46,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 89.86748294674896
+    },
+    {
+      "sweep_deg": 46,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 54.867482946748964
+    },
+    {
+      "sweep_deg": 46,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 19.867482946748964
+    },
+    {
+      "sweep_deg": 46,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 46,
+      "target": "INLET_EDF_R",
+      "distance_mm": 131.98090790439323
+    },
+    {
+      "sweep_deg": 46,
+      "target": "INLET_EDF_L",
+      "distance_mm": 131.98090790439323
+    },
+    {
+      "sweep_deg": 48,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 19.740064090077936
+    },
+    {
+      "sweep_deg": 48,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 19.740064090077936
+    },
+    {
+      "sweep_deg": 48,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 88.70782343021517
+    },
+    {
+      "sweep_deg": 48,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 53.70782343021517
+    },
+    {
+      "sweep_deg": 48,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 18.70782343021517
+    },
+    {
+      "sweep_deg": 48,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 48,
+      "target": "INLET_EDF_R",
+      "distance_mm": 133.14056742092703
+    },
+    {
+      "sweep_deg": 48,
+      "target": "INLET_EDF_L",
+      "distance_mm": 133.14056742092703
+    },
+    {
+      "sweep_deg": 50,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 20.89031312603533
+    },
+    {
+      "sweep_deg": 50,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 20.89031312603533
+    },
+    {
+      "sweep_deg": 50,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 87.5519547944316
+    },
+    {
+      "sweep_deg": 50,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 52.551954794431595
+    },
+    {
+      "sweep_deg": 50,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 17.551954794431595
+    },
+    {
+      "sweep_deg": 50,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 50,
+      "target": "INLET_EDF_R",
+      "distance_mm": 134.2964360567106
+    },
+    {
+      "sweep_deg": 50,
+      "target": "INLET_EDF_L",
+      "distance_mm": 134.2964360567106
+    },
+    {
+      "sweep_deg": 52,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 22.036970260642452
+    },
+    {
+      "sweep_deg": 52,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 22.036970260642452
+    },
+    {
+      "sweep_deg": 52,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 86.4002833524479
+    },
+    {
+      "sweep_deg": 52,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 51.4002833524479
+    },
+    {
+      "sweep_deg": 52,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 16.4002833524479
+    },
+    {
+      "sweep_deg": 52,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 52,
+      "target": "INLET_EDF_R",
+      "distance_mm": 135.4481074986943
+    },
+    {
+      "sweep_deg": 52,
+      "target": "INLET_EDF_L",
+      "distance_mm": 135.4481074986943
+    },
+    {
+      "sweep_deg": 54,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 23.17947956102802
+    },
+    {
+      "sweep_deg": 54,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 23.17947956102802
+    },
+    {
+      "sweep_deg": 54,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 85.25327422087355
+    },
+    {
+      "sweep_deg": 54,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 50.25327422087355
+    },
+    {
+      "sweep_deg": 54,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 15.25327422087355
+    },
+    {
+      "sweep_deg": 54,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 54,
+      "target": "INLET_EDF_R",
+      "distance_mm": 136.59511663026865
+    },
+    {
+      "sweep_deg": 54,
+      "target": "INLET_EDF_L",
+      "distance_mm": 136.59511663026865
+    },
+    {
+      "sweep_deg": 56,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 24.317244069638196
+    },
+    {
+      "sweep_deg": 56,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 24.317244069638196
+    },
+    {
+      "sweep_deg": 56,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 84.11145102906596
+    },
+    {
+      "sweep_deg": 56,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 49.11145102906596
+    },
+    {
+      "sweep_deg": 56,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 14.111451029065961
+    },
+    {
+      "sweep_deg": 56,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 56,
+      "target": "INLET_EDF_R",
+      "distance_mm": 137.73693982207624
+    },
+    {
+      "sweep_deg": 56,
+      "target": "INLET_EDF_L",
+      "distance_mm": 137.73693982207624
+    },
+    {
+      "sweep_deg": 58,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 25.44962207081551
+    },
+    {
+      "sweep_deg": 58,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 25.44962207081551
+    },
+    {
+      "sweep_deg": 58,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 82.97539564592773
+    },
+    {
+      "sweep_deg": 58,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 47.97539564592773
+    },
+    {
+      "sweep_deg": 58,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 12.975395645927733
+    },
+    {
+      "sweep_deg": 58,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 58,
+      "target": "INLET_EDF_R",
+      "distance_mm": 138.87299520521447
+    },
+    {
+      "sweep_deg": 58,
+      "target": "INLET_EDF_L",
+      "distance_mm": 138.87299520521447
+    },
+    {
+      "sweep_deg": 60,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 26.57592441660198
+    },
+    {
+      "sweep_deg": 60,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 26.57592441660198
+    },
+    {
+      "sweep_deg": 60,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 81.84574789994429
+    },
+    {
+      "sweep_deg": 60,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 46.845747899944286
+    },
+    {
+      "sweep_deg": 60,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 11.845747899944286
+    },
+    {
+      "sweep_deg": 60,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 60,
+      "target": "INLET_EDF_R",
+      "distance_mm": 140.0026429511979
+    },
+    {
+      "sweep_deg": 60,
+      "target": "INLET_EDF_L",
+      "distance_mm": 140.0026429511979
+    },
+    {
+      "sweep_deg": 62,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 27.695412625249535
+    },
+    {
+      "sweep_deg": 62,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 27.695412625249535
+    },
+    {
+      "sweep_deg": 62,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 80.72320527037948
+    },
+    {
+      "sweep_deg": 62,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 45.72320527037948
+    },
+    {
+      "sweep_deg": 62,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 10.72320527037948
+    },
+    {
+      "sweep_deg": 62,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 62,
+      "target": "INLET_EDF_R",
+      "distance_mm": 141.12518558076272
+    },
+    {
+      "sweep_deg": 62,
+      "target": "INLET_EDF_L",
+      "distance_mm": 141.12518558076272
+    },
+    {
+      "sweep_deg": 64,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 28.80729756293018
+    },
+    {
+      "sweep_deg": 64,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 28.80729756293018
+    },
+    {
+      "sweep_deg": 64,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 79.60852252968584
+    },
+    {
+      "sweep_deg": 64,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 44.60852252968584
+    },
+    {
+      "sweep_deg": 64,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 9.608522529685843
+    },
+    {
+      "sweep_deg": 64,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 64,
+      "target": "INLET_EDF_R",
+      "distance_mm": 142.23986832145636
+    },
+    {
+      "sweep_deg": 64,
+      "target": "INLET_EDF_L",
+      "distance_mm": 142.23986832145636
+    },
+    {
+      "sweep_deg": 66,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 29.91073858183003
+    },
+    {
+      "sweep_deg": 66,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 29.91073858183003
+    },
+    {
+      "sweep_deg": 66,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 78.5025113192271
+    },
+    {
+      "sweep_deg": 66,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 43.5025113192271
+    },
+    {
+      "sweep_deg": 66,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 8.502511319227096
+    },
+    {
+      "sweep_deg": 66,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 66,
+      "target": "INLET_EDF_R",
+      "distance_mm": 143.3458795319151
+    },
+    {
+      "sweep_deg": 66,
+      "target": "INLET_EDF_L",
+      "distance_mm": 143.3458795319151
+    },
+    {
+      "sweep_deg": 68,
+      "target": "V221_CASSETTE_R",
+      "distance_mm": 31.004843028929077
+    },
+    {
+      "sweep_deg": 68,
+      "target": "V221_CASSETTE_L",
+      "distance_mm": 31.004843028929077
+    },
+    {
+      "sweep_deg": 68,
+      "target": "V205_BATTERY_305",
+      "distance_mm": 77.40603964237778
+    },
+    {
+      "sweep_deg": 68,
+      "target": "V205_BATTERY_340",
+      "distance_mm": 42.40603964237778
+    },
+    {
+      "sweep_deg": 68,
+      "target": "V205_BATTERY_375",
+      "distance_mm": 7.4060396423777775
+    },
+    {
+      "sweep_deg": 68,
+      "target": "V225_SERVO_SERVICE",
+      "distance_mm": 1.5
+    },
+    {
+      "sweep_deg": 68,
+      "target": "INLET_EDF_R",
+      "distance_mm": 144.44235120876442
+    },
+    {
+      "sweep_deg": 68,
+      "target": "INLET_EDF_L",
+      "distance_mm": 144.44235120876442
+    }
+  ],
+  "gates": {
+    "service_inside_fuselage_ge_99p5pct": true,
+    "static_service_no_contact": true,
+    "dynamic_yoke_clearance_ge_1mm": true,
+    "servo_datasheet_reverified_current": false,
+    "yoke_material_certificate_verified": false,
+    "physical_proof": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "df824112024e590699c7935d624c53dcdc6248f95c820b48aa3ecc8b0bc07ba3"
+}

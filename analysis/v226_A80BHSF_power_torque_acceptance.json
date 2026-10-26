@@ -1,0 +1,61 @@
+{
+  "status": "V226_A80BHSF_POWER_TORQUE_ACCEPTANCE_SCREEN",
+  "sources": {
+    "servo": "AGFRC A80BHSF V2 current manufacturer datasheet checked 2026-10-26",
+    "bec": "Hobbywing UBEC 10A HV PN30608000 current manufacturer data checked 2026-10-26",
+    "kinematics": "analysis/v40_candidate23.json"
+  },
+  "servo": {
+    "model": "AGFRC A80BHSF V2",
+    "weight_g": 79,
+    "voltage_V": 8.4,
+    "stall_torque_kgcm": 36,
+    "stall_torque_Nm": 3.5303940000000003,
+    "loading_current_A": 5.0,
+    "operating_travel_deg": 180,
+    "travel_tolerance_deg": 10,
+    "speed_s_per_60deg": 0.071,
+    "dimensions_mm": [
+      40,
+      20,
+      37.5
+    ]
+  },
+  "kinematics": {
+    "slider_travel_mm": 27.807879153296653,
+    "servo_horn_radius_mm": 17.0,
+    "required_servo_travel_deg": 109.74602725911801,
+    "travel_margin_to_nominal_180deg": 70.25397274088199,
+    "minimum_effective_servo_horn_arm_mm": 9.781639139168464,
+    "min_wing_linkage_moment_arm_mm": 27.188255793145665
+  },
+  "torque_screen": {
+    "previous_provisional_servo_stall_Nm": 2.0,
+    "actual_to_provisional_torque_factor": 1.7651970000000001,
+    "max_theoretical_slider_force_at_stall_N": 360.9204909086555,
+    "per_rod_force_equal_split_N": 180.46024545432775,
+    "minimum_theoretical_wing_torque_capacity_each_side_Nm": 4.906399313906115
+  },
+  "bec": {
+    "model": "Hobbywing UBEC 10A HV",
+    "PN": "30608000",
+    "output_V": 8.4,
+    "continuous_A": 10,
+    "instantaneous_A": 25,
+    "servo_loading_current_A": 5.0,
+    "continuous_headroom_factor_vs_servo_loading_current": 2.0,
+    "instantaneous_headroom_factor_vs_servo_loading_current": 5.0,
+    "input_4S_compatible": true
+  },
+  "gates": {
+    "servo_travel_pass": true,
+    "actual_servo_torque_exceeds_2Nm_provisional_screen": true,
+    "UBEC_continuous_vs_published_loading_current_pass": true,
+    "UBEC_peak_vs_published_loading_current_pass": true,
+    "stall_current_known": false,
+    "servo_output_horn_real_part_verified": false,
+    "installed_current_temperature_bench_pass": false,
+    "mechanism_proof_load_pass": false,
+    "flight_release": false
+  }
+}
