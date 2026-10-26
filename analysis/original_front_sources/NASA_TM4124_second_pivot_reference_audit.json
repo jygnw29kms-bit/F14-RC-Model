@@ -1,0 +1,79 @@
+{
+  "status": "SECOND_PRIMARY_WIND_TUNNEL_PIVOT_REFERENCE_VISUALLY_VERIFIED",
+  "source_url": "https://ntrs.nasa.gov/api/citations/19890017439/downloads/19890017439.pdf",
+  "report": "NASA TM4124",
+  "source_sha256": "11b7c8bc7191d758ed783fa8a5c73f23584ea8d5e5bb541952f86ab39336e888",
+  "pdf_pages_reviewed": [
+    4,
+    23
+  ],
+  "printed_pages": [
+    3,
+    23
+  ],
+  "model_description": {
+    "scale_denominator": 16,
+    "model_FS_in": 32.763,
+    "model_BL_in": 6.687,
+    "axis_cant_outboard_deg": 1.5
+  },
+  "previous_NADC_reference": {
+    "scale_denominator": 12,
+    "model_FS_in": 43.68,
+    "model_BL_in": 8.92
+  },
+  "comparison": [
+    {
+      "coordinate": "FS",
+      "TM4124_fullscale_in": 524.208,
+      "NADC_fullscale_in": 524.16,
+      "difference_in": 0.04800000000000182,
+      "TM4124_rounding_interval_in": [
+        524.1999999999999,
+        524.216
+      ],
+      "NADC_rounding_interval_in": [
+        524.1,
+        524.2199999999999
+      ],
+      "printed_precision_intervals_overlap": true
+    },
+    {
+      "coordinate": "BL",
+      "TM4124_fullscale_in": 106.992,
+      "NADC_fullscale_in": 107.03999999999999,
+      "difference_in": -0.04799999999998761,
+      "TM4124_rounding_interval_in": [
+        106.98400000000001,
+        107.0
+      ],
+      "NADC_rounding_interval_in": [
+        106.97999999999999,
+        107.1
+      ],
+      "printed_precision_intervals_overlap": true
+    }
+  ],
+  "figure1_observations": [
+    "Pivot labelled FS32.763 and BL6.687 in model inches.",
+    "Moment reference labelled FS33.254/WL9.375; this is not a pivot waterline.",
+    "Nose reference labelled FS5.813/WL8.206; does not independently register NASA QUICK body coordinates."
+  ],
+  "source_limitations": [
+    "Wind-tunnel model; report explicitly describes aft-centerbody changes for sting support.",
+    "Baseline and NLF-modified outer panels distinguished; modified panel coordinates are not baseline outer skin.",
+    "Rounding intervals describe printed precision only, not measurement uncertainty or production tolerances."
+  ],
+  "decisions": {
+    "horizontal_pivot_values_corroborated_within_printed_precision": true,
+    "pivot_waterline_verified": false,
+    "production_axis_and_glove_registration_verified": false,
+    "current_vertical_axis_model_requires_review": true,
+    "master_change_allowed": false
+  },
+  "next_steps": [
+    "Compare 1.5-degree outboard pivot-axis cant with current vertical-axis sweep approximation in an isolated kinematic study.",
+    "Recover actual pivot-axis waterline and register fixed glove before mechanical freeze."
+  ],
+  "production_release": false
+}
