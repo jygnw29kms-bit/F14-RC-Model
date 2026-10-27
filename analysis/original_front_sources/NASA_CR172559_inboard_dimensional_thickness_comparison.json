@@ -1,0 +1,357 @@
+{
+  "status": "CONDITIONAL_CHORD_SCALED_THICKNESS_COMPARISON_NOT_PHYSICAL_REGISTRATION",
+  "inputs": {
+    "NASA_CR172559_inboard_first_three_profiles.json": "406f858e034d902bfc28f2236b497bf5b1110a8dba756fa67f53da24e251f6bd",
+    "NASA_CR172559_centerline_25_35_profiles.json": "14be69ca4cf10ddfafdd469ea5db78109bd62df3152c7666926c7fb0d855683e",
+    "NASA_CR172559_span68p5_25_35_profiles.json": "5be078bf0f680a863edc9c89eee4fee193d486bad8f42ca4fed98f4726d0eb78",
+    "NASA_CR172559_span99_25_35_profiles.json": "68a56285798971c1ebfb5811dc7cb1624a43352cbff9a876f01914e311fb3954"
+  },
+  "assumption": "X=XPL+xc*(XPT-XPL); thickness=(upper-lower)*(XPT-XPL). This chord normalization is an explicit working hypothesis pending original reader verification.",
+  "vertical_offset_independent": true,
+  "method": "Linear interpolation on each original grid; union-knot maximum is exact for the piecewise-linear interpolants, not the underlying curved aircraft skin.",
+  "records": [
+    {
+      "span_source_units": 0,
+      "other_sweep_deg": 25,
+      "common_X_domain": [
+        187.90012,
+        615.1792
+      ],
+      "union_knots": 98,
+      "max_abs_piecewise_linear_thickness_difference_source_units": 1.0481172749999885,
+      "at_X_source_units": 615.1792,
+      "signed_difference_at_max": -1.0481172749999885,
+      "samples": [
+        {
+          "fraction_of_common_domain": 0,
+          "X_source_units": 187.90012,
+          "thickness_20": 0.0,
+          "thickness_other": 0.0,
+          "difference": 0.0
+        },
+        {
+          "fraction_of_common_domain": 0.1,
+          "X_source_units": 230.628028,
+          "thickness_20": 8.669195524800001,
+          "thickness_other": 8.7122204412,
+          "difference": 0.0430249163999985
+        },
+        {
+          "fraction_of_common_domain": 0.25,
+          "X_source_units": 294.71988999999996,
+          "thickness_20": 14.400714672,
+          "thickness_other": 14.42066895,
+          "difference": 0.01995427800000016
+        },
+        {
+          "fraction_of_common_domain": 0.5,
+          "X_source_units": 401.53966,
+          "thickness_20": 16.2280307688,
+          "thickness_other": 16.1169668976,
+          "difference": -0.11106387119999894
+        },
+        {
+          "fraction_of_common_domain": 0.75,
+          "X_source_units": 508.35943,
+          "thickness_20": 12.0355106058,
+          "thickness_other": 11.534398764600004,
+          "difference": -0.5011118411999966
+        },
+        {
+          "fraction_of_common_domain": 1,
+          "X_source_units": 615.1792,
+          "thickness_20": 1.5993072881999884,
+          "thickness_other": 0.5511900131999999,
+          "difference": -1.0481172749999885
+        }
+      ]
+    },
+    {
+      "span_source_units": 0,
+      "other_sweep_deg": 35,
+      "common_X_domain": [
+        187.90012,
+        599.60083
+      ],
+      "union_knots": 96,
+      "max_abs_piecewise_linear_thickness_difference_source_units": 3.0541734119999964,
+      "at_X_source_units": 599.60083,
+      "signed_difference_at_max": -3.0541734119999964,
+      "samples": [
+        {
+          "fraction_of_common_domain": 0,
+          "X_source_units": 187.90012,
+          "thickness_20": 0.0,
+          "thickness_other": 0.0,
+          "difference": 0.0
+        },
+        {
+          "fraction_of_common_domain": 0.1,
+          "X_source_units": 229.070191,
+          "thickness_20": 8.4799183293,
+          "thickness_other": 8.633363888699998,
+          "difference": 0.15344555939999793
+        },
+        {
+          "fraction_of_common_domain": 0.25,
+          "X_source_units": 290.8252975,
+          "thickness_20": 14.163424012050001,
+          "thickness_other": 14.2654296015,
+          "difference": 0.10200558944999827
+        },
+        {
+          "fraction_of_common_domain": 0.5,
+          "X_source_units": 393.75047499999994,
+          "thickness_20": 16.3376371887,
+          "thickness_other": 15.990455576399999,
+          "difference": -0.3471816123000018
+        },
+        {
+          "fraction_of_common_domain": 0.75,
+          "X_source_units": 496.67565249999996,
+          "thickness_20": 12.77075695185,
+          "thickness_other": 11.2764824469,
+          "difference": -1.4942745049500008
+        },
+        {
+          "fraction_of_common_domain": 1,
+          "X_source_units": 599.60083,
+          "thickness_20": 3.4000020083999964,
+          "thickness_other": 0.34582859639999997,
+          "difference": -3.0541734119999964
+        }
+      ]
+    },
+    {
+      "span_source_units": 68.5,
+      "other_sweep_deg": 25,
+      "common_X_domain": [
+        357.44357,
+        624.19702
+      ],
+      "union_knots": 98,
+      "max_abs_piecewise_linear_thickness_difference_source_units": 0.5533869391000072,
+      "at_X_source_units": 605.2117784,
+      "signed_difference_at_max": -0.5533869391000072,
+      "samples": [
+        {
+          "fraction_of_common_domain": 0,
+          "X_source_units": 357.44357,
+          "thickness_20": 0.0,
+          "thickness_other": 0.0,
+          "difference": 0.0
+        },
+        {
+          "fraction_of_common_domain": 0.1,
+          "X_source_units": 384.118915,
+          "thickness_20": 8.943354853999995,
+          "thickness_other": 8.941575643999998,
+          "difference": -0.0017792099999969224
+        },
+        {
+          "fraction_of_common_domain": 0.25,
+          "X_source_units": 424.1319325,
+          "thickness_20": 14.834921238699998,
+          "thickness_other": 14.800815173249996,
+          "difference": -0.034106065450002276
+        },
+        {
+          "fraction_of_common_domain": 0.5,
+          "X_source_units": 490.820295,
+          "thickness_20": 16.606816295799998,
+          "thickness_other": 16.538713899999994,
+          "difference": -0.06810239580000399
+        },
+        {
+          "fraction_of_common_domain": 0.75,
+          "X_source_units": 557.5086575,
+          "thickness_20": 12.11711157435,
+          "thickness_other": 11.839851878249984,
+          "difference": -0.2772596961000158
+        },
+        {
+          "fraction_of_common_domain": 1,
+          "X_source_units": 624.19702,
+          "thickness_20": 1.1092261129000156,
+          "thickness_other": 0.5655173139999998,
+          "difference": -0.5437087989000158
+        }
+      ]
+    },
+    {
+      "span_source_units": 68.5,
+      "other_sweep_deg": 35,
+      "common_X_domain": [
+        357.44357,
+        621.27344
+      ],
+      "union_knots": 97,
+      "max_abs_piecewise_linear_thickness_difference_source_units": 1.419088246499979,
+      "at_X_source_units": 599.825513,
+      "signed_difference_at_max": -1.419088246499979,
+      "samples": [
+        {
+          "fraction_of_common_domain": 0,
+          "X_source_units": 357.44357,
+          "thickness_20": 0.0,
+          "thickness_other": 0.0,
+          "difference": 0.0
+        },
+        {
+          "fraction_of_common_domain": 0.1,
+          "X_source_units": 383.82655700000004,
+          "thickness_20": 8.884298538,
+          "thickness_other": 8.875236826800002,
+          "difference": -0.009061711199997546
+        },
+        {
+          "fraction_of_common_domain": 0.25,
+          "X_source_units": 423.40103750000003,
+          "thickness_20": 14.765486213700001,
+          "thickness_other": 14.66498332395,
+          "difference": -0.10050288975000043
+        },
+        {
+          "fraction_of_common_domain": 0.5,
+          "X_source_units": 489.35850500000004,
+          "thickness_20": 16.6448228358,
+          "thickness_other": 16.4418774984,
+          "difference": -0.2029453373999992
+        },
+        {
+          "fraction_of_common_domain": 0.75,
+          "X_source_units": 555.3159725,
+          "thickness_20": 12.361267597499994,
+          "thickness_other": 11.5926844878,
+          "difference": -0.7685831096999944
+        },
+        {
+          "fraction_of_common_domain": 1,
+          "X_source_units": 621.27344,
+          "thickness_20": 1.6777167210000006,
+          "thickness_other": 0.3561703245000001,
+          "difference": -1.3215463965000005
+        }
+      ]
+    },
+    {
+      "span_source_units": 99,
+      "other_sweep_deg": 25,
+      "common_X_domain": [
+        432.93372,
+        628.11401
+      ],
+      "union_knots": 98,
+      "max_abs_piecewise_linear_thickness_difference_source_units": 0.07084587239998008,
+      "at_X_source_units": 585.1743462,
+      "signed_difference_at_max": -0.07084587239998008,
+      "samples": [
+        {
+          "fraction_of_common_domain": 0,
+          "X_source_units": 432.93372,
+          "thickness_20": 0.0,
+          "thickness_other": 0.0,
+          "difference": 0.0
+        },
+        {
+          "fraction_of_common_domain": 0.1,
+          "X_source_units": 452.451749,
+          "thickness_20": 13.8987884509,
+          "thickness_other": 13.897073009200005,
+          "difference": -0.001715441699994713
+        },
+        {
+          "fraction_of_common_domain": 0.25,
+          "X_source_units": 481.7287925,
+          "thickness_20": 18.182995816400002,
+          "thickness_other": 18.1847107172,
+          "difference": 0.0017149007999996968
+        },
+        {
+          "fraction_of_common_domain": 0.5,
+          "X_source_units": 530.523865,
+          "thickness_20": 17.1739137171,
+          "thickness_other": 17.161605025900002,
+          "difference": -0.012308691199997668
+        },
+        {
+          "fraction_of_common_domain": 0.75,
+          "X_source_units": 579.3189375,
+          "thickness_20": 9.854652842100013,
+          "thickness_other": 9.787598684500018,
+          "difference": -0.06705415759999411
+        },
+        {
+          "fraction_of_common_domain": 1,
+          "X_source_units": 628.11401,
+          "thickness_20": 0.4684326960000001,
+          "thickness_other": 0.4389388210000067,
+          "difference": -0.029493874999993397
+        }
+      ]
+    },
+    {
+      "span_source_units": 99,
+      "other_sweep_deg": 35,
+      "common_X_domain": [
+        432.93372,
+        628.11401
+      ],
+      "union_knots": 98,
+      "max_abs_piecewise_linear_thickness_difference_source_units": 0.32362276980001264,
+      "at_X_source_units": 628.11401,
+      "signed_difference_at_max": 0.32362276980001264,
+      "samples": [
+        {
+          "fraction_of_common_domain": 0,
+          "X_source_units": 432.93372,
+          "thickness_20": 0.0,
+          "thickness_other": 0.0,
+          "difference": 0.0
+        },
+        {
+          "fraction_of_common_domain": 0.1,
+          "X_source_units": 452.451749,
+          "thickness_20": 13.8987884509,
+          "thickness_other": 13.889519816200002,
+          "difference": -0.009268634699997946
+        },
+        {
+          "fraction_of_common_domain": 0.25,
+          "X_source_units": 481.7287925,
+          "thickness_20": 18.182995816400002,
+          "thickness_other": 18.186062030900004,
+          "difference": 0.003066214500002218
+        },
+        {
+          "fraction_of_common_domain": 0.5,
+          "X_source_units": 530.523865,
+          "thickness_20": 17.1739137171,
+          "thickness_other": 17.14867111780001,
+          "difference": -0.02524259929998962
+        },
+        {
+          "fraction_of_common_domain": 0.75,
+          "X_source_units": 579.3189375,
+          "thickness_20": 9.854652842100013,
+          "thickness_other": 9.857467513950013,
+          "difference": 0.002814671850000394
+        },
+        {
+          "fraction_of_common_domain": 1,
+          "X_source_units": 628.11401,
+          "thickness_20": 0.4684326960000001,
+          "thickness_other": 0.7920554658000127,
+          "difference": 0.32362276980001264
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Sixth header field never used",
+    "Does not prove equal upper/lower absolute position, camber or exposed fixed skin",
+    "Different thickness is conditional on chord scaling; no claim of physical aircraft inconsistency",
+    "No native CAD, master edit, structural or print release"
+  ],
+  "production_release": false
+}
