@@ -1,0 +1,7 @@
+{"stage": "web_loft", "elapsed_seconds": 0.0}
+{"stage": "web_containment", "elapsed_seconds": 0.5690000057220459}
+{"stage": "web_boundary_distance", "elapsed_seconds": 4.287999868392944}
+{"stage": "contact", "elapsed_seconds": 6.8470001220703125, "object": "UNFROZEN_LOWER_CAP"}
+{"stage": "contact", "elapsed_seconds": 7.195999383926392, "object": "UNFROZEN_UPPER_CAP"}
+{"stage": "fuse_diagnostic", "elapsed_seconds": 7.567999362945557}
+{"stage": "complete", "elapsed_seconds": 8.081001281738281}
