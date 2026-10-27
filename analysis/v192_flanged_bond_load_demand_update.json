@@ -1,0 +1,410 @@
+{
+  "status": "UPDATED_NOMINAL_BOND_WIDTH_DEMAND_ONLY_NOT_FLANGED_SECTION_ANALYSIS",
+  "input_sha256": {
+    "analysis\\v192_tapered_cap_section_demand_screen.json": "ee2284c129684e0aed842573f4e351b2b49e84a799fa15b1b8639ad05b666dbd",
+    "analysis\\v192_flanged_web_bondline_trial.json": "02ca25b04ae96d89ff8bc7ba4b260f41ad39f8debf7800de2e3e4bc8185ab28a",
+    "analysis\\v192_flanged_bond_face_contact_audit.json": "4b57b8311e3ee47f0b9dc32a75e9ed62146b157c577330354a4363a9d573d06d"
+  },
+  "contact_width_mm": 4,
+  "nominal_shear_reduction_factor_from_width_only": 5,
+  "rows": [
+    {
+      "y_mm": 185,
+      "cases": [
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 55.274827980837884,
+          "ideal_cap_web_shear_flow_N_per_mm": 3.037669072763953,
+          "nominal_bond_shear_for_4mm_width_MPa": 0.7594172681909882,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 3.797086340954941
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 77.38475917317304,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.252736701869534,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.0631841754673834,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 5.315920877336917
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 73.69977064111717,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.050225430351937,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.0125563575879843,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 5.0627817879399215
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 103.17967889756403,
+          "ideal_cap_web_shear_flow_N_per_mm": 5.67031560249271,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.4175789006231776,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 7.087894503115888
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 63.17123197810043,
+          "ideal_cap_web_shear_flow_N_per_mm": 3.471621797444517,
+          "nominal_bond_shear_for_4mm_width_MPa": 0.8679054493611292,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 4.339527246805646
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 88.4397247693406,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.860270516422323,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.2150676291055809,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 6.075338145527904
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 84.2283093041339,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.6288290632593565,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.1572072658148391,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 5.786036329074196
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 117.91963302578745,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.480360688563098,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.6200901721407746,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 8.100450860703873
+        }
+      ]
+    },
+    {
+      "y_mm": 220,
+      "cases": [
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 58.631444739439814,
+          "ideal_cap_web_shear_flow_N_per_mm": 3.4142804313625184,
+          "nominal_bond_shear_for_4mm_width_MPa": 0.8535701078406296,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 4.267850539203148
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 82.08402263521575,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.779992603907525,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.1949981509768812,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 5.974990754884406
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 78.17525965258642,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.552373908483357,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.1380934771208393,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 5.6904673856041965
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 109.44536351362096,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.3733234718767,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.593330867969175,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 7.966654339845874
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 67.00736541650264,
+          "ideal_cap_web_shear_flow_N_per_mm": 3.90203477870002,
+          "nominal_bond_shear_for_4mm_width_MPa": 0.975508694675005,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 4.877543473375025
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 93.81031158310368,
+          "ideal_cap_web_shear_flow_N_per_mm": 5.462848690180028,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.365712172545007,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 6.828560862725035
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 89.34315388867019,
+          "ideal_cap_web_shear_flow_N_per_mm": 5.202713038266694,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.3006782595666735,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 6.5033912978333674
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 125.08041544413824,
+          "ideal_cap_web_shear_flow_N_per_mm": 7.283798253573369,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.8209495633933424,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 9.10474781696671
+        }
+      ]
+    },
+    {
+      "y_mm": 300,
+      "cases": [
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 60.46260488475646,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.349481732654239,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.0873704331635599,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 5.436852165817799
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 84.64764683865903,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.089274425715935,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.5223186064289838,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 7.611593032144919
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 80.6168065130086,
+          "ideal_cap_web_shear_flow_N_per_mm": 5.799308976872319,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.4498272442180797,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 7.2491362210903985
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 112.86352911821204,
+          "ideal_cap_web_shear_flow_N_per_mm": 8.119032567621245,
+          "nominal_bond_shear_for_4mm_width_MPa": 2.0297581419053112,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 10.148790709526555
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 69.10011986829308,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.970836265890559,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.2427090664726397,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 6.213545332363198
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 96.74016781561032,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.959170772246782,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.7397926930616956,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 8.698963465308477
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 92.13349315772412,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.627781687854078,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.6569454219635196,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 8.284727109817597
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 128.98689042081375,
+          "ideal_cap_web_shear_flow_N_per_mm": 9.278894362995707,
+          "nominal_bond_shear_for_4mm_width_MPa": 2.319723590748927,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 11.598617953744634
+        }
+      ]
+    },
+    {
+      "y_mm": 380,
+      "cases": [
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 58.70974109534974,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.706288814753516,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.676572203688379,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 8.382861018441895
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 82.19363753348962,
+          "ideal_cap_web_shear_flow_N_per_mm": 9.388804340654922,
+          "nominal_bond_shear_for_4mm_width_MPa": 2.3472010851637304,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 11.736005425818652
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 78.27965479379964,
+          "ideal_cap_web_shear_flow_N_per_mm": 8.941718419671355,
+          "nominal_bond_shear_for_4mm_width_MPa": 2.235429604917839,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 11.177148024589194
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 109.59151671131949,
+          "ideal_cap_web_shear_flow_N_per_mm": 12.518405787539896,
+          "nominal_bond_shear_for_4mm_width_MPa": 3.129601446884974,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 15.648007234424869
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 67.09684696611397,
+          "ideal_cap_web_shear_flow_N_per_mm": 7.664330074004018,
+          "nominal_bond_shear_for_4mm_width_MPa": 1.9160825185010044,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 9.580412592505022
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 93.93558575255956,
+          "ideal_cap_web_shear_flow_N_per_mm": 10.730062103605626,
+          "nominal_bond_shear_for_4mm_width_MPa": 2.6825155259014064,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 13.412577629507032
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 89.4624626214853,
+          "ideal_cap_web_shear_flow_N_per_mm": 10.21910676533869,
+          "nominal_bond_shear_for_4mm_width_MPa": 2.5547766913346726,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 12.773883456673362
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 125.24744767007941,
+          "ideal_cap_web_shear_flow_N_per_mm": 14.306749471474165,
+          "nominal_bond_shear_for_4mm_width_MPa": 3.576687367868541,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 17.883436839342703
+        }
+      ]
+    },
+    {
+      "y_mm": 435,
+      "cases": [
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 32.73153695970555,
+          "ideal_cap_web_shear_flow_N_per_mm": 12.28356338158069,
+          "nominal_bond_shear_for_4mm_width_MPa": 3.0708908453951724,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 15.35445422697586
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 45.82415174358777,
+          "ideal_cap_web_shear_flow_N_per_mm": 17.196988734212965,
+          "nominal_bond_shear_for_4mm_width_MPa": 4.299247183553241,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 21.496235917766207
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 43.642049279607406,
+          "ideal_cap_web_shear_flow_N_per_mm": 16.378084508774254,
+          "nominal_bond_shear_for_4mm_width_MPa": 4.0945211271935635,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 20.472605635967817
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 61.09886899145035,
+          "ideal_cap_web_shear_flow_N_per_mm": 22.92931831228395,
+          "nominal_bond_shear_for_4mm_width_MPa": 5.7323295780709875,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 28.661647890354935
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 37.40747081109205,
+          "ideal_cap_web_shear_flow_N_per_mm": 14.038358150377931,
+          "nominal_bond_shear_for_4mm_width_MPa": 3.5095895375944828,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 17.547947687972414
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 52.37045913552887,
+          "ideal_cap_web_shear_flow_N_per_mm": 19.653701410529102,
+          "nominal_bond_shear_for_4mm_width_MPa": 4.9134253526322755,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 24.567126763161376
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "cap_only_nominal_outer_fibre_stress_MPa": 49.876627748122736,
+          "ideal_cap_web_shear_flow_N_per_mm": 18.717810867170574,
+          "nominal_bond_shear_for_4mm_width_MPa": 4.679452716792643,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 23.397263583963216
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "cap_only_nominal_outer_fibre_stress_MPa": 69.82727884737183,
+          "ideal_cap_web_shear_flow_N_per_mm": 26.2049352140388,
+          "nominal_bond_shear_for_4mm_width_MPa": 6.5512338035097,
+          "previous_nominal_bond_shear_for_0p8mm_width_MPa": 32.7561690175485
+        }
+      ]
+    }
+  ],
+  "assumptions": [
+    "Reuses earlier ideal cap-only M/Z and VQ/I tip-concentrated-load demands",
+    "Only uniform nominal interface shear denominator changes from0.8to4mm; no peak stress reduction asserted",
+    "New flange/core/bond stiffness is not included; web-to-flange corner still transfers shear and needs local analysis"
+  ],
+  "limits": [
+    "Not a complete flanged composite section calculation or laminate analysis",
+    "No adhesive allowable, peel, shear lag, flange bending, corner concentration, buckling, cure or proof test",
+    "No safety factor or structural pass/fail",
+    "Outermost Y435 sizing station is not physical spar tip load-transfer validation"
+  ],
+  "print_release": false,
+  "flight_release": false
+}
