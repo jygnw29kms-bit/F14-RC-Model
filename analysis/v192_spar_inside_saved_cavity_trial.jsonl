@@ -1,0 +1,6 @@
+{"stage": "open_saved_void", "elapsed_seconds": 0.002000093460083008}
+{"stage": "outside_cavity_cut_start", "elapsed_seconds": 1.3559997081756592}
+{"stage": "outside_cavity_cut_done", "elapsed_seconds": 4.694999694824219, "outside_volume_mm3": 0.0}
+{"stage": "cavity_boundary_distance_start", "elapsed_seconds": 4.696000337600708}
+{"stage": "cavity_boundary_distance_done", "elapsed_seconds": 6.052999973297119, "distance_mm": 0.14520103118865194}
+{"stage": "complete", "elapsed_seconds": 6.058000326156616}
