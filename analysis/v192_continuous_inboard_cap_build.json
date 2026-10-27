@@ -1,0 +1,43 @@
+{
+  "status": "SIX_SECTION_CONTINUOUS_CAP_ENVELOPES_SAVED_REOPENED",
+  "input_sha256": {
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\F14_CURRENT_FULL_VIEW_v192.FCStd": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\FLANGED_WEB_BONDLINE_UNFROZEN_TRIAL_ONLY.FCStd": "fbb8dca970edf1c4a4894cda1887b9e18bb048c6ed5e4f842481bc795cc20620",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\analysis\\v192_cap_width_inner_envelope.json": "f33f7fa40eadf6d6aaf47c00a1995c369967619d906167ec913884ef41e4e0c5"
+  },
+  "output_sha256": "656e3d910c7b99c7ae5700c0db5a46268ac2da52069f7939ef6aa7f374cb6044",
+  "rows": [
+    {
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3576.000000000002,
+      "outside_wing_volume_mm3": 0.0,
+      "y_bounds_mm": [
+        149.0,
+        435.0
+      ]
+    },
+    {
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3576.000000000002,
+      "outside_wing_volume_mm3": 0.0,
+      "y_bounds_mm": [
+        149.0,
+        435.0
+      ]
+    }
+  ],
+  "reopened_valid_single_solids": 5,
+  "limits": [
+    "One CAD solid per cap removes butt-joint geometry atY185 but does not establish continuous carbon fibres, forming method or manufacturing",
+    "Ruled loft has slope changes at stations; laminate bending radius and construction remain unresolved",
+    "Web/flanges/bond layers retained onlyY185..435; root support and load transfer missing",
+    "Reference wing is massive belowY180; sockets/assembly access not designed",
+    "No pivot attachment, bearing selection, original glove registration, material or structural release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}
