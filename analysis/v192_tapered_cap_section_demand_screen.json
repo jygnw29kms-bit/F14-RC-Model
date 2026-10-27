@@ -1,0 +1,479 @@
+{
+  "status": "GEOMETRY_BASED_IDEAL_TAPERED_CAP_LOAD_DEMANDS_NO_STRENGTH_ACCEPTANCE",
+  "input_sha256": {
+    "analysis\\v192_cap_width_inner_envelope.json": "f33f7fa40eadf6d6aaf47c00a1995c369967619d906167ec913884ef41e4e0c5",
+    "analysis\\v192_root_bending_envelope.json": "f111ef2e6785f83bf9c1a001f79b6c5af2ea956431290c05ac2d580f20558e84",
+    "analysis\\v192_cap_web_face_contact_audit.json": "e5480dce112ab905823bc750cb9353023f9bf68731fd15e977f75d8af20397d0"
+  },
+  "assumptions": [
+    "Same nonnegative lift envelope as earlier screen; all assigned side force at Y450 for simultaneous conservative local shear and bending",
+    "Two identical caps, 1mm vertical thickness, measured candidate centroid separation; web axial stiffness excluded",
+    "Elementary straight beam M/Z and VQ/I applied locally; swept/curved centerline, anisotropy, joint stress concentrations and finite bond length effects excluded",
+    "Geometric contact width0.8mm from trial web; no adhesive selected or qualified"
+  ],
+  "rows": [
+    {
+      "y_mm": 185,
+      "cap_width_mm": 16.0,
+      "cap_thickness_mm": 1,
+      "cap_centroid_separation_mm": 10.136408460518586,
+      "I_two_caps_only_mm4": 824.6408784944489,
+      "cap_only_section_modulus_mm3": 148.0981739163055,
+      "Q_one_cap_mm3": 81.09126768414869,
+      "cases": [
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 30.890947500000003,
+          "local_bending_moment_Nmm": 8186.101087499999,
+          "cap_only_nominal_outer_fibre_stress_MPa": 55.274827980837884,
+          "ideal_cap_web_shear_flow_N_per_mm": 3.037669072763953,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 3.797086340954941
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 43.2473265,
+          "local_bending_moment_Nmm": 11460.541522499998,
+          "cap_only_nominal_outer_fibre_stress_MPa": 77.38475917317304,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.252736701869534,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 5.315920877336917
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 41.18793,
+          "local_bending_moment_Nmm": 10914.801449999997,
+          "cap_only_nominal_outer_fibre_stress_MPa": 73.69977064111717,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.050225430351937,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 5.0627817879399215
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 57.663101999999995,
+          "local_bending_moment_Nmm": 15280.722029999995,
+          "cap_only_nominal_outer_fibre_stress_MPa": 103.17967889756403,
+          "ideal_cap_web_shear_flow_N_per_mm": 5.67031560249271,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 7.087894503115888
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 35.30394,
+          "local_bending_moment_Nmm": 9355.544099999997,
+          "cap_only_nominal_outer_fibre_stress_MPa": 63.17123197810043,
+          "ideal_cap_web_shear_flow_N_per_mm": 3.471621797444517,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 4.339527246805646
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 49.425515999999995,
+          "local_bending_moment_Nmm": 13097.761739999996,
+          "cap_only_nominal_outer_fibre_stress_MPa": 88.4397247693406,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.860270516422323,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 6.075338145527904
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 47.07192,
+          "local_bending_moment_Nmm": 12474.058799999997,
+          "cap_only_nominal_outer_fibre_stress_MPa": 84.2283093041339,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.6288290632593565,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 5.786036329074196
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 65.90068799999999,
+          "local_bending_moment_Nmm": 17463.682319999993,
+          "cap_only_nominal_outer_fibre_stress_MPa": 117.91963302578745,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.480360688563098,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 8.100450860703873
+        }
+      ]
+    },
+    {
+      "y_mm": 220,
+      "cap_width_mm": 14.879999999999999,
+      "cap_thickness_mm": 1,
+      "cap_centroid_separation_mm": 9.01057828840131,
+      "I_two_caps_only_mm4": 606.5374769200837,
+      "cap_only_section_modulus_mm3": 121.17930841674637,
+      "Q_one_cap_mm3": 67.03870246570574,
+      "cases": [
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 30.890947500000003,
+          "local_bending_moment_Nmm": 7104.917924999999,
+          "cap_only_nominal_outer_fibre_stress_MPa": 58.631444739439814,
+          "ideal_cap_web_shear_flow_N_per_mm": 3.4142804313625184,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 4.267850539203148
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 43.2473265,
+          "local_bending_moment_Nmm": 9946.885094999998,
+          "cap_only_nominal_outer_fibre_stress_MPa": 82.08402263521575,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.779992603907525,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 5.974990754884406
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 41.18793,
+          "local_bending_moment_Nmm": 9473.223899999997,
+          "cap_only_nominal_outer_fibre_stress_MPa": 78.17525965258642,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.552373908483357,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 5.6904673856041965
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 57.663101999999995,
+          "local_bending_moment_Nmm": 13262.513459999995,
+          "cap_only_nominal_outer_fibre_stress_MPa": 109.44536351362096,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.3733234718767,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 7.966654339845874
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 35.30394,
+          "local_bending_moment_Nmm": 8119.906199999998,
+          "cap_only_nominal_outer_fibre_stress_MPa": 67.00736541650264,
+          "ideal_cap_web_shear_flow_N_per_mm": 3.90203477870002,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 4.877543473375025
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 49.425515999999995,
+          "local_bending_moment_Nmm": 11367.868679999996,
+          "cap_only_nominal_outer_fibre_stress_MPa": 93.81031158310368,
+          "ideal_cap_web_shear_flow_N_per_mm": 5.462848690180028,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 6.828560862725035
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 47.07192,
+          "local_bending_moment_Nmm": 10826.541599999997,
+          "cap_only_nominal_outer_fibre_stress_MPa": 89.34315388867019,
+          "ideal_cap_web_shear_flow_N_per_mm": 5.202713038266694,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 6.5033912978333674
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 65.90068799999999,
+          "local_bending_moment_Nmm": 15157.158239999993,
+          "cap_only_nominal_outer_fibre_stress_MPa": 125.08041544413824,
+          "ideal_cap_web_shear_flow_N_per_mm": 7.283798253573369,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 9.10474781696671
+        }
+      ]
+    },
+    {
+      "y_mm": 300,
+      "cap_width_mm": 12.32,
+      "cap_thickness_mm": 1,
+      "cap_centroid_separation_mm": 7.0549653659752405,
+      "I_two_caps_only_mm4": 308.6521570344119,
+      "cap_only_section_modulus_mm3": 76.63649513334498,
+      "Q_one_cap_mm3": 43.45858665440748,
+      "cases": [
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 30.890947500000003,
+          "local_bending_moment_Nmm": 4633.6421249999985,
+          "cap_only_nominal_outer_fibre_stress_MPa": 60.46260488475646,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.349481732654239,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 5.436852165817799
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 43.2473265,
+          "local_bending_moment_Nmm": 6487.098974999997,
+          "cap_only_nominal_outer_fibre_stress_MPa": 84.64764683865903,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.089274425715935,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 7.611593032144919
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 41.18793,
+          "local_bending_moment_Nmm": 6178.189499999998,
+          "cap_only_nominal_outer_fibre_stress_MPa": 80.6168065130086,
+          "ideal_cap_web_shear_flow_N_per_mm": 5.799308976872319,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 7.2491362210903985
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 57.663101999999995,
+          "local_bending_moment_Nmm": 8649.465299999996,
+          "cap_only_nominal_outer_fibre_stress_MPa": 112.86352911821204,
+          "ideal_cap_web_shear_flow_N_per_mm": 8.119032567621245,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 10.148790709526555
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 35.30394,
+          "local_bending_moment_Nmm": 5295.590999999998,
+          "cap_only_nominal_outer_fibre_stress_MPa": 69.10011986829308,
+          "ideal_cap_web_shear_flow_N_per_mm": 4.970836265890559,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 6.213545332363198
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 49.425515999999995,
+          "local_bending_moment_Nmm": 7413.8273999999965,
+          "cap_only_nominal_outer_fibre_stress_MPa": 96.74016781561032,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.959170772246782,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 8.698963465308477
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 47.07192,
+          "local_bending_moment_Nmm": 7060.787999999997,
+          "cap_only_nominal_outer_fibre_stress_MPa": 92.13349315772412,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.627781687854078,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 8.284727109817597
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 65.90068799999999,
+          "local_bending_moment_Nmm": 9885.103199999994,
+          "cap_only_nominal_outer_fibre_stress_MPa": 128.98689042081375,
+          "ideal_cap_web_shear_flow_N_per_mm": 9.278894362995707,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 11.598617953744634
+        }
+      ]
+    },
+    {
+      "y_mm": 380,
+      "cap_width_mm": 9.76,
+      "cap_thickness_mm": 1,
+      "cap_centroid_separation_mm": 4.53272634606623,
+      "I_two_caps_only_mm4": 101.88923433288251,
+      "cap_only_section_modulus_mm3": 36.83147437983293,
+      "Q_one_cap_mm3": 22.119704568803204,
+      "cases": [
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 30.890947500000003,
+          "local_bending_moment_Nmm": 2162.3663249999986,
+          "cap_only_nominal_outer_fibre_stress_MPa": 58.70974109534974,
+          "ideal_cap_web_shear_flow_N_per_mm": 6.706288814753516,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 8.382861018441895
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 43.2473265,
+          "local_bending_moment_Nmm": 3027.3128549999974,
+          "cap_only_nominal_outer_fibre_stress_MPa": 82.19363753348962,
+          "ideal_cap_web_shear_flow_N_per_mm": 9.388804340654922,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 11.736005425818652
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 41.18793,
+          "local_bending_moment_Nmm": 2883.1550999999977,
+          "cap_only_nominal_outer_fibre_stress_MPa": 78.27965479379964,
+          "ideal_cap_web_shear_flow_N_per_mm": 8.941718419671355,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 11.177148024589194
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 57.663101999999995,
+          "local_bending_moment_Nmm": 4036.4171399999964,
+          "cap_only_nominal_outer_fibre_stress_MPa": 109.59151671131949,
+          "ideal_cap_web_shear_flow_N_per_mm": 12.518405787539896,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 15.648007234424869
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 35.30394,
+          "local_bending_moment_Nmm": 2471.2757999999976,
+          "cap_only_nominal_outer_fibre_stress_MPa": 67.09684696611397,
+          "ideal_cap_web_shear_flow_N_per_mm": 7.664330074004018,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 9.580412592505022
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 49.425515999999995,
+          "local_bending_moment_Nmm": 3459.786119999997,
+          "cap_only_nominal_outer_fibre_stress_MPa": 93.93558575255956,
+          "ideal_cap_web_shear_flow_N_per_mm": 10.730062103605626,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 13.412577629507032
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 47.07192,
+          "local_bending_moment_Nmm": 3295.0343999999973,
+          "cap_only_nominal_outer_fibre_stress_MPa": 89.4624626214853,
+          "ideal_cap_web_shear_flow_N_per_mm": 10.21910676533869,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 12.773883456673362
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 65.90068799999999,
+          "local_bending_moment_Nmm": 4613.048159999996,
+          "cap_only_nominal_outer_fibre_stress_MPa": 125.24744767007941,
+          "ideal_cap_web_shear_flow_N_per_mm": 14.306749471474165,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 17.883436839342703
+        }
+      ]
+    },
+    {
+      "y_mm": 435,
+      "cap_width_mm": 8.0,
+      "cap_thickness_mm": 1,
+      "cap_centroid_separation_mm": 2.3744354807483106,
+      "I_two_caps_only_mm4": 23.885108742279176,
+      "cap_only_section_modulus_mm3": 14.156506401469228,
+      "Q_one_cap_mm3": 9.497741922993242,
+      "cases": [
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 30.890947500000003,
+          "local_bending_moment_Nmm": 463.3642124999983,
+          "cap_only_nominal_outer_fibre_stress_MPa": 32.73153695970555,
+          "ideal_cap_web_shear_flow_N_per_mm": 12.28356338158069,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 15.35445422697586
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 43.2473265,
+          "local_bending_moment_Nmm": 648.7098974999975,
+          "cap_only_nominal_outer_fibre_stress_MPa": 45.82415174358777,
+          "ideal_cap_web_shear_flow_N_per_mm": 17.196988734212965,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 21.496235917766207
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 41.18793,
+          "local_bending_moment_Nmm": 617.8189499999977,
+          "cap_only_nominal_outer_fibre_stress_MPa": 43.642049279607406,
+          "ideal_cap_web_shear_flow_N_per_mm": 16.378084508774254,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 20.472605635967817
+        },
+        {
+          "assumed_mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 57.663101999999995,
+          "local_bending_moment_Nmm": 864.9465299999966,
+          "cap_only_nominal_outer_fibre_stress_MPa": 61.09886899145035,
+          "ideal_cap_web_shear_flow_N_per_mm": 22.92931831228395,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 28.661647890354935
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 35.30394,
+          "local_bending_moment_Nmm": 529.5590999999979,
+          "cap_only_nominal_outer_fibre_stress_MPa": 37.40747081109205,
+          "ideal_cap_web_shear_flow_N_per_mm": 14.038358150377931,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 17.547947687972414
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 49.425515999999995,
+          "local_bending_moment_Nmm": 741.382739999997,
+          "cap_only_nominal_outer_fibre_stress_MPa": 52.37045913552887,
+          "ideal_cap_web_shear_flow_N_per_mm": 19.653701410529102,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 24.567126763161376
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "tip_concentrated_force_N": 47.07192,
+          "local_bending_moment_Nmm": 706.0787999999973,
+          "cap_only_nominal_outer_fibre_stress_MPa": 49.876627748122736,
+          "ideal_cap_web_shear_flow_N_per_mm": 18.717810867170574,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 23.397263583963216
+        },
+        {
+          "assumed_mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "tip_concentrated_force_N": 65.90068799999999,
+          "local_bending_moment_Nmm": 988.5103199999961,
+          "cap_only_nominal_outer_fibre_stress_MPa": 69.82727884737183,
+          "ideal_cap_web_shear_flow_N_per_mm": 26.2049352140388,
+          "nominal_interface_shear_for_0p8mm_contact_width_MPa": 32.7561690175485
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "40 idealized station/load combinations; no finite element or aero simulation",
+    "Shear flow and nominal interface shear are sizing demands, not bond allowable or proof",
+    "No material modulus/strength, FOS, buckling, torsion, fatigue, peel, root transfer or manufacturing release",
+    "Candidate exists only Y185..435; root bridge and outer tip load transfer absent"
+  ],
+  "print_release": false,
+  "flight_release": false
+}
