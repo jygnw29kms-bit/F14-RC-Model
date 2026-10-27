@@ -1,0 +1,44 @@
+{
+  "status": "STRAIGHT_4MM_SOLID_CYLINDER_PACKAGING_STUDY_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "depth_basis_sha256": "c23bdea2f6f6f1a903f9d30c78f83f952cc558722888fad9cf476738a6f32e79",
+  "axis_start_mm": [
+    641.5780600276188,
+    155.0,
+    1.764493241128342
+  ],
+  "axis_end_mm": [
+    713.4266187346075,
+    440.0,
+    -9.265267832387636
+  ],
+  "axis_length_mm": 294.1239041927916,
+  "diameter_mm": 4,
+  "candidate_volume_mm3": 3696.0699866288915,
+  "outside_wing_volume_mm3": 0.0,
+  "native_boundary_distance_mm": 0.4791439540505933,
+  "closest_point_pairs_mm": [
+    [
+      [
+        713.2649030542303,
+        440.11778216766527,
+        -7.2752991392418815
+      ],
+      [
+        713.2288915716131,
+        440.1567835725391,
+        -6.799104859308983
+      ]
+    ]
+  ],
+  "inside_outer_reference": true,
+  "limits": [
+    "Solid cylinder is a packaging envelope, not selected carbon tube/rod or manufactured spar",
+    "Endpoints from 35-percent section X bounds and midheight; straight axis between them",
+    "Distance only to outer wing; skin, adhesive, tolerance, ribs and other hardware consume clearance",
+    "No root bridge, bearing attachment, buckling, stress, stiffness, mass, proof test or structural release",
+    "No master change or production part generated"
+  ],
+  "print_release": false,
+  "flight_release": false
+}
