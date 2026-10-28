@@ -1,0 +1,71 @@
+{
+  "status": "NUR_PARAMETRISCHER_FLAECHEN_DICKEN_SCREEN_KEINE_DRUCKMASSE",
+  "input_sha256": "93a957e7e9602b9890ced4c539708f0b946b137121bdbb94467ed253732c0d49",
+  "objects": [
+    "FUSELAGE_CURRENT",
+    "WING_R",
+    "WING_L",
+    "STABILATOR_L",
+    "STABILATOR_R",
+    "VTAIL_L",
+    "VTAIL_R",
+    "VENTRAL_L",
+    "VENTRAL_R"
+  ],
+  "total_reference_surface_area_mm2": 678811.0417892102,
+  "cases": [
+    {
+      "assumed_density_g_cm3": 1.07,
+      "assumed_uniform_thickness_mm": 0.3,
+      "area_times_thickness_mass_g": 217.8983444143365
+    },
+    {
+      "assumed_density_g_cm3": 1.07,
+      "assumed_uniform_thickness_mm": 0.4,
+      "area_times_thickness_mass_g": 290.53112588578193
+    },
+    {
+      "assumed_density_g_cm3": 1.07,
+      "assumed_uniform_thickness_mm": 0.5,
+      "area_times_thickness_mass_g": 363.16390735722746
+    },
+    {
+      "assumed_density_g_cm3": 1.07,
+      "assumed_uniform_thickness_mm": 0.6,
+      "area_times_thickness_mass_g": 435.796688828673
+    },
+    {
+      "assumed_density_g_cm3": 1.27,
+      "assumed_uniform_thickness_mm": 0.3,
+      "area_times_thickness_mass_g": 258.6270069216891
+    },
+    {
+      "assumed_density_g_cm3": 1.27,
+      "assumed_uniform_thickness_mm": 0.4,
+      "area_times_thickness_mass_g": 344.8360092289188
+    },
+    {
+      "assumed_density_g_cm3": 1.27,
+      "assumed_uniform_thickness_mm": 0.5,
+      "area_times_thickness_mass_g": 431.0450115361484
+    },
+    {
+      "assumed_density_g_cm3": 1.27,
+      "assumed_uniform_thickness_mm": 0.6,
+      "area_times_thickness_mass_g": 517.2540138433782
+    }
+  ],
+  "uniform_thickness_for_250g_arithmetic_mm": {
+    "1.07": 0.34419719985291186,
+    "1.27": 0.2899929164115085
+  },
+  "limits": [
+    "Flaeche der aktuellen Referenzkoerper, inklusive vorhandener End-/Anschlussflaechen; kein fertig konstruierter Schalenkoerper.",
+    "t*A*rho ist nur eine angenommene gleichfoermige Materialschicht, kein Slicerergebnis, keine gemessene Masse und keine zugesicherte Untergrenze.",
+    "Keine Rippen, Fugen, Verstärkungen, Druckpfade, Ueberlappungen oder Materialschaumfaktoren modelliert.",
+    "Historische Dichteannahmen1.07/1.27 sind nicht als eingefrorenes Druckmaterial ausgegeben.",
+    "Geometrieskala/Originalhautregistrierung weiter offen; keine Empfehlung, strukturell notwendige Waende auszuduennen.",
+    "Keine Produktionsfreigabe."
+  ],
+  "production_release": false
+}

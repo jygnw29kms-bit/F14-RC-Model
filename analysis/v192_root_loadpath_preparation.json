@@ -1,0 +1,107 @@
+{
+  "status": "ROOT_LOADPATH_PREPARATION_NOT_HARDWARE_OR_GEOMETRY_FREEZE",
+  "source_sha256": {
+    "current_root_gap": "359c83903d82dcc3e8554a84c951ba9d65ba2d34e7d644d3748d0fcf6154758a",
+    "historical_cassette_concept": "f1305c2b140340f3b3b49452b15bd48d53a425cf7f1b98a7a9a39dd69d565d29",
+    "historical_wingbox_plan": "533e2d20927d4a569396b4adaefa716e658d5243739a071e7a38602ffc412f0f",
+    "project_requirements": "66295e577644576bdcb16fb1ec3845f6413f81601b41d28db8226a4c83bd7e6f",
+    "datum_freeze_gates": "1dc536cd6bc49241027ba167b8c6279a080568bf1d6ce0c2ed90ef2c79482a91"
+  },
+  "current_cad_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "reference_root_gap_mm": 23.61710730661649,
+  "historical_unfrozen_concept": {
+    "source": "pivot_cassette_screen_v30.py",
+    "metal_pivot_diameter_mm": 6,
+    "generic_bearing_size_mm": [
+      6,
+      13,
+      5
+    ],
+    "boss_outer_diameter_mm": 24,
+    "fore_aft_lug_contact_chord_mm": 40,
+    "lug_height_mm": 16,
+    "actual_hardware_selected": false,
+    "physical_dimensions_measured": false
+  },
+  "reaction_screen": {
+    "assumption": "Conservatively assign selected fraction of total n*m*g lift to one wing; not an aerodynamic simulation.",
+    "formula": "F_side=m*g*n*fraction; added moment=F_side*reference_root_gap",
+    "cases": [
+      {
+        "assumed_mass_kg": 1.05,
+        "load_factor": 6,
+        "assigned_side_lift_fraction": 0.5,
+        "assigned_side_vertical_force_N": 30.890947500000003,
+        "additional_pivot_moment_from_reference_root_gap_Nm": 0.7295548219105565
+      },
+      {
+        "assumed_mass_kg": 1.05,
+        "load_factor": 6,
+        "assigned_side_lift_fraction": 0.7,
+        "assigned_side_vertical_force_N": 43.2473265,
+        "additional_pivot_moment_from_reference_root_gap_Nm": 1.0213767506747788
+      },
+      {
+        "assumed_mass_kg": 1.05,
+        "load_factor": 8,
+        "assigned_side_lift_fraction": 0.5,
+        "assigned_side_vertical_force_N": 41.18793,
+        "additional_pivot_moment_from_reference_root_gap_Nm": 0.9727397625474086
+      },
+      {
+        "assumed_mass_kg": 1.05,
+        "load_factor": 8,
+        "assigned_side_lift_fraction": 0.7,
+        "assigned_side_vertical_force_N": 57.663101999999995,
+        "additional_pivot_moment_from_reference_root_gap_Nm": 1.3618356675663716
+      },
+      {
+        "assumed_mass_kg": 1.2,
+        "load_factor": 6,
+        "assigned_side_lift_fraction": 0.5,
+        "assigned_side_vertical_force_N": 35.30394,
+        "additional_pivot_moment_from_reference_root_gap_Nm": 0.8337769393263501
+      },
+      {
+        "assumed_mass_kg": 1.2,
+        "load_factor": 6,
+        "assigned_side_lift_fraction": 0.7,
+        "assigned_side_vertical_force_N": 49.425515999999995,
+        "additional_pivot_moment_from_reference_root_gap_Nm": 1.1672877150568899
+      },
+      {
+        "assumed_mass_kg": 1.2,
+        "load_factor": 8,
+        "assigned_side_lift_fraction": 0.5,
+        "assigned_side_vertical_force_N": 47.07192,
+        "additional_pivot_moment_from_reference_root_gap_Nm": 1.1117025857684668
+      },
+      {
+        "assumed_mass_kg": 1.2,
+        "load_factor": 8,
+        "assigned_side_lift_fraction": 0.7,
+        "assigned_side_vertical_force_N": 65.90068799999999,
+        "additional_pivot_moment_from_reference_root_gap_Nm": 1.5563836200758532
+      }
+    ]
+  },
+  "design_requirements": [
+    "Root bending must enter dedicated fore/aft hard contacts and central wingbox; printed skin and pin alone are not the load path.",
+    "Connect carbon spar/caps to root hardpoints with explicit transfer geometry; do not count reference envelopes as structural parts.",
+    "Check actual shaft alloy, bearing ratings, thrust faces, retention, load eccentricity and anisotropic print properties before sizing release."
+  ],
+  "freeze_gates": [
+    "Second-source pivot registration and actual pivot waterline/bearing stack.",
+    "Registered fixed glove/body envelope and 20..68 degree continuous sweep packaging.",
+    "Current wing spar/root transfer geometry and selected hardware dimensions.",
+    "Material allowables, joint load analysis, mass and physical proof evidence."
+  ],
+  "limits": [
+    "1.05/1.2 kg are design/redesign screens, not measured AUW.",
+    "Added root-gap moment is one geometric contribution, not total root bending moment.",
+    "No stress/FOS, simulation, CAD root bridge, hardware acceptance or physical test produced."
+  ],
+  "mechanical_detail_release": false,
+  "print_release": false,
+  "flight_release": false
+}

@@ -1,0 +1,28 @@
+{
+  "status": "TABLE2_FORMELN_VISUELL_TRANSKRIBIERT_IMPLEMENTIERUNG_NOCH_GESPERRT",
+  "pdf_page": 47,
+  "printed_page": 37,
+  "body_line_equations_as_printed": {
+    "LINE": "A*x+B*y=0",
+    "XPAR": "A*x+B*y+y^2=0",
+    "YPAR": "A*x+B*y+x^2=0",
+    "ELLX": "A*x+B*y+C*x^2+y^2=0",
+    "ELLY": "A*x+B*y+C*y^2+x^2=0",
+    "CUBI": "A*x+B*y+C*x^2+x^3=0"
+  },
+  "figure17_pdf48_findings": [
+    "Body-line slope control points werden gezeichnet; LINE benoetigt lautText keinen solchen Punkt.",
+    "Querschnittsboegen und Body-Line-Segmente sind unterschiedliche Primitive; ELLI/ELLO nicht mitELLX/ELLY vertauschen."
+  ],
+  "unresolved": [
+    "Table2 enthaelt keinen Konstantterm; globales oder segmentlokalesKoordinatensystem/Translation muss anhandEingabeformat oderRoutinegeklaert werden.",
+    "Bedeutung/Parameterreihenfolge des dritten Zahlenpaares darf nicht allein ausFigur als PunktaufKurve oder Tangentenschnittpunkt angenommen werden.",
+    "Figur/Beispieldaten und gegebenenfalls Codebeschreibung muessen Zweigwahl und Normierung belegen."
+  ],
+  "mathematical_caution": "Table1 druckt beiEllipse SummezweierQuadrate=0. AlsreelleEllipseergibt diesnurPunkt; moeglicherDruckfehler oder fehlendeNormierung. Nichtstillauf=1korrigieren undalsverifiziertdeklarieren.",
+  "allowed_now": [
+    "ExpliziteLINEEndpunktdaten separat inQuellenkoordinaten aufbewahren.",
+    "Formeln alsQuellentranskription dokumentieren, nicht als fertigenEvaluator."
+  ],
+  "production_release": false
+}

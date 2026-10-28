@@ -1,0 +1,12 @@
+{
+  "status": "MODELL3_ORIGINALRADIEN_162_PROBEN_PASS",
+  "samples": 162,
+  "max_error_source": 9.695651110064318e-05,
+  "negative_discriminant_warnings": 0,
+  "limits": [
+    "NDERV0 nurRadien; keinvollerTHELIM/CSMINTLauf.",
+    "DegenerierteBSIbei414.5ausgelassen.",
+    "HistorischeVersion,keinephysischeEinheiten-/Produktionsfreigabe."
+  ],
+  "production_release": false
+}

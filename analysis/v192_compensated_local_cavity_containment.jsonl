@@ -1,0 +1,22 @@
+{"stage": "open", "elapsed_seconds": 0.0}
+{"stage": "offset", "elapsed_seconds": 0.5290024280548096, "y_mm": 220}
+{"stage": "offset", "elapsed_seconds": 1.4190001487731934, "y_mm": 230}
+{"stage": "offset", "elapsed_seconds": 2.241000175476074, "y_mm": 240}
+{"stage": "offset", "elapsed_seconds": 3.0810017585754395, "y_mm": 250}
+{"stage": "offset", "elapsed_seconds": 3.8840019702911377, "y_mm": 260}
+{"stage": "loft_start", "elapsed_seconds": 4.716000080108643}
+{"stage": "loft_done", "elapsed_seconds": 5.089999437332153, "faces": 394}
+{"stage": "validity_start", "elapsed_seconds": 5.091001033782959}
+{"stage": "validity_done", "elapsed_seconds": 5.21300196647644}
+{"stage": "sample", "elapsed_seconds": 5.214002370834351, "y_mm": 225}
+{"stage": "sample", "elapsed_seconds": 6.5320024490356445, "y_mm": 230}
+{"stage": "sample", "elapsed_seconds": 8.853001356124878, "y_mm": 235}
+{"stage": "sample", "elapsed_seconds": 10.198999881744385, "y_mm": 240}
+{"stage": "sample", "elapsed_seconds": 12.443002462387085, "y_mm": 245}
+{"stage": "sample", "elapsed_seconds": 13.63699984550476, "y_mm": 250}
+{"stage": "sample", "elapsed_seconds": 15.774002313613892, "y_mm": 255}
+{"stage": "containment_start", "elapsed_seconds": 16.942002534866333}
+{"stage": "containment_done", "elapsed_seconds": 35.69900035858154, "outside_volume_mm3": 0.0}
+{"stage": "save_cavity_start", "elapsed_seconds": 35.69900035858154}
+{"stage": "save_cavity_done", "elapsed_seconds": 35.810001850128174}
+{"stage": "complete", "elapsed_seconds": 35.839001417160034}

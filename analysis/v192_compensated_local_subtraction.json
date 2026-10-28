@@ -1,0 +1,23 @@
+{
+  "status": "REOPENED_TOOL_LOCAL_SUBTRACTION_TRIAL_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "cavity_tool_sha256": "2bc48a6dab9e274873998e2b1d588d758b95d435505e5f63eb6c6845e225728c",
+  "print_release": false,
+  "flight_release": false,
+  "tool_valid": true,
+  "tool_solids": 1,
+  "tool_volume_mm3": 32017.417474979506,
+  "result_valid": true,
+  "result_solids": 1,
+  "result_volume_mm3": 178502.12704980018,
+  "source_volume_mm3": 210519.45444906846,
+  "volume_balance_residual_mm3": -0.09007571122492664,
+  "trial_sha256": "defa45517a63b8dfa0a1c891e711385a939d31799ac29c381cbf41102f8ef838",
+  "elapsed_seconds": 19.905001163482666,
+  "limits": [
+    "Only 40 mm span cavity removed; most wing remains solid. Not a complete wing shell.",
+    "0.43 mm planar inset is numerical experiment, not structural wall selection.",
+    "Previous distance measurement is not a reopened-artifact wall qualification.",
+    "No ribs, joints, spars, slicer, physical testing or whole-model release."
+  ]
+}

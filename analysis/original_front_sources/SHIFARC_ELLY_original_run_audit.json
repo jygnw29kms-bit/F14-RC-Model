@@ -1,0 +1,25 @@
+{
+  "status": "HISTORISCHE_KRVDEF_CURVES_AUSGEFUEHRT_101_PROBEN_VERGLEICH_PASS",
+  "compiler": "vorhandener gfortran, -std=legacy -ffixed-line-length-none",
+  "original_result_header": "COEFFICIENTS          -4           0  -0.00000000       401.142883      -9.55101871",
+  "sample_count": 101,
+  "max_errors_vs_exact_hyperbolic_conic": {
+    "value": 2.457373042830113e-07,
+    "first_derivative": 1.2539438348779797e-08,
+    "second_derivative": 4.860683851942715e-10
+  },
+  "sha256": {
+    "SHIFARC_KRVDEF_review_only.for": "29ff31322ad50844ef9111d26b0a863f9f555f4c9ac118086a62dfb22bf54e57",
+    "SHIFARC_CURVES_review_only.for": "3977bb0a4fd8ea74bf1e59ac6a9e3ad085abd9c50eb342c3277b1f8598b10b3e",
+    "run_SHIFARC_ELLY_reference.f90": "6d08d4f19c264c623bf2bc57f5d0f41396666cac0bf8478a28ae8268779f7aeb",
+    "SHIFARC_ELLY_original_run.txt": "9d55fc257a76fa88d83cd352712b967541720e7c143b233af0cc8378b548f2a7"
+  },
+  "compiler_warnings": "Historische Dummydeklaration COEFS(1) wird bis3 adressiert; Aufrufer stellt3Elemente bereit. Warnungen nicht verschwiegen; keine Bounds-Check-Freigabe.",
+  "conclusion": "Dieser historische Originalauswerter akzeptiert den negativen EL LY-Koeffizienten und reproduziert den hyperbolischen Kurvenzweig. Strenge Ellipsenklassifikation war fuer diesen Bodyline-Typ zu eng.",
+  "limits": [
+    "Ein ausgefuehrter historischer Fall, keine allgemeine WBPPW-Versionsgleichheit.",
+    "QUICK-ELLI-Querschnitt und EL LY-Bodyline getrennt behandeln.",
+    "Keine CAD-/Masteraenderung oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

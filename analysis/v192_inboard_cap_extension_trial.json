@@ -1,0 +1,47 @@
+{
+  "status": "INBOARD_CAP_EXTENSION_PACKAGING_ONLY_NOT_ROOT_CONNECTION",
+  "input_sha256": {
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\F14_CURRENT_FULL_VIEW_v192.FCStd": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\FLANGED_WEB_BONDLINE_UNFROZEN_TRIAL_ONLY.FCStd": "fbb8dca970edf1c4a4894cda1887b9e18bb048c6ed5e4f842481bc795cc20620",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\analysis\\v192_cap_width_inner_envelope.json": "f33f7fa40eadf6d6aaf47c00a1995c369967619d906167ec913884ef41e4e0c5"
+  },
+  "output_sha256": "2db9e4093415e8ef40aff08dd43cb1269cbd70a27e72f796b6536889b84f5242",
+  "rows": [
+    {
+      "side": "lower",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 576.0000000000003,
+      "outside_wing_volume_mm3": 0.0,
+      "minimum_outer_boundary_gap_mm": 0.17362245563069223,
+      "end_face_contact_area_to_existing_cap_mm2": 16.000000000000007,
+      "y_interval_mm": [
+        149,
+        185
+      ]
+    },
+    {
+      "side": "upper",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 576.0000000000003,
+      "outside_wing_volume_mm3": 0.0,
+      "minimum_outer_boundary_gap_mm": 0.17362245563069223,
+      "end_face_contact_area_to_existing_cap_mm2": 16.000000000000007,
+      "y_interval_mm": [
+        149,
+        185
+      ]
+    }
+  ],
+  "limits": [
+    "Extensions use constant1mm vertical thickness and16mm width at existing Y185 heights",
+    "End-face contact is a butt joint, not a continuous carbon layup or qualified bonded splice",
+    "Reference wing remains massive belowY180; no socket/removal/assembly access designed",
+    "Y149 remains outboard of pivotY125.209; pivot/root load transfer absent",
+    "Outer clearance includes proximity to root end plane; no structural or print release",
+    "Saved7body study, native reopen remains open; master unchanged"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

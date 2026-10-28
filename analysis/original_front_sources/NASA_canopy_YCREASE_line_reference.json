@@ -1,0 +1,44 @@
+{
+  "status": "CANOPY_YCREASE_LINE_REFERENZ_VISUELL_TRANSKRIBIERT",
+  "source": "NASA-CR172559 Table1 Sheet6 PDF25/gedr15",
+  "coordinate": "YCREASE",
+  "source_domain": [
+    205,
+    352
+  ],
+  "points_source": [
+    [
+      205,
+      0
+    ],
+    [
+      221,
+      15.5
+    ],
+    [
+      283,
+      16
+    ],
+    [
+      328,
+      16.5
+    ],
+    [
+      352,
+      16
+    ]
+  ],
+  "segment_slopes": [
+    0.96875,
+    0.008064516129032258,
+    0.011111111111111112,
+    -0.020833333333333332
+  ],
+  "limits": [
+    "Nur Y-Koordinate der CREASE-Kontrolllinie; ZCREASE ist noch zu binden.",
+    "YCREASE ist kein eigenstaendiger 3D-Knickliniennachweis.",
+    "Weitere YCREASE-Segmente ausserhalb205..352 hier nicht verwendet.",
+    "Keine Einheitentransformation/CAD-Geometrie/Produktionsfreigabe."
+  ],
+  "production_release": false
+}

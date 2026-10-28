@@ -1,0 +1,65 @@
+{
+  "status": "FULLSPAN_SEPARATE_SPAR_REFERENCE_OUTER_PACKAGING_ONLY",
+  "input_sha256": {
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\analysis\\v192_cap_width_inner_envelope.json": "f33f7fa40eadf6d6aaf47c00a1995c369967619d906167ec913884ef41e4e0c5",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\CONTINUOUS_INBOARD_CAPS_UNFROZEN_STUDY_ONLY.FCStd": "656e3d910c7b99c7ae5700c0db5a46268ac2da52069f7939ef6aa7f374cb6044",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\F14_CURRENT_FULL_VIEW_v192.FCStd": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a"
+  },
+  "output_sha256": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0",
+  "dimensions_mm": {
+    "web_width": 0.8,
+    "flange_width": 4,
+    "flange_vertical_thickness": 0.3,
+    "bond_vertical_thickness": 0.1
+  },
+  "rows": [
+    {
+      "object": "UNFROZEN_FLANGED_WEB",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1871.4074700630501,
+      "outside_outer_wing_volume_mm3": 0.0,
+      "minimum_outer_wing_boundary_gap_mm": 0.17362245563069223
+    },
+    {
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 114.39999999999982,
+      "outside_outer_wing_volume_mm3": 0.0,
+      "minimum_outer_wing_boundary_gap_mm": 0.17362245563069223
+    },
+    {
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 114.39999999999984,
+      "outside_outer_wing_volume_mm3": 0.0,
+      "minimum_outer_wing_boundary_gap_mm": 0.17362245563069223
+    }
+  ],
+  "cap_web_distances": [
+    {
+      "cap": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "flanged_web_distance_mm": 0.09995546980102751
+    },
+    {
+      "cap": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "flanged_web_distance_mm": 0.09981553201286164
+    }
+  ],
+  "limits": [
+    "0.1mm is vertical geometric separation, not constant normal bond thickness",
+    "4mm flange and0.3mm thickness are unfrozen packaging concepts; no selected material or printable-detail acceptance",
+    "Geometric bond solids are placeholders, not adhesive properties, chemistry or qualified bond",
+    "Face-level bond contacts, native reopen, shear transfer, peel, flange bending, buckling and root transfer remain open",
+    "Five-body study spansY149..435; reference wing massive belowY180, no assembly sockets or root load transfer; master unchanged",
+    "Filename FULLSPAN denotes study continuity only: actual wing rootY148.826 and tipY450 are not both reached. Outer containment is not fit inside hollow shell."
+  ],
+  "print_release": false,
+  "flight_release": false,
+  "modeled_y_interval_mm": [
+    149,
+    435
+  ]
+}

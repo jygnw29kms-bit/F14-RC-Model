@@ -1,0 +1,24 @@
+{
+  "status": "MODELL6_7_STUDIE_AN_NICHTELLIPTISCHEN_CONSTRAINTS_GESTOPPT",
+  "model": 7,
+  "x_source": 575,
+  "arc": "BUP",
+  "start": [
+    12.38888888888889,
+    163.2314814814815
+  ],
+  "end": [
+    0,
+    167.08333333333334
+  ],
+  "control": [
+    6.157407407407407,
+    167.08333333333334
+  ],
+  "limits": [
+    "Keine abgeschlossene Neunsektionspruefung.",
+    "Quelle unveraendert; Klassifikation/Originalroutine an diesem Fall pruefen.",
+    "Keine CAD-/Produktionsfreigabe."
+  ],
+  "production_release": false
+}

@@ -1,0 +1,257 @@
+{
+  "status": "NATIVE_INNER_CAP_WIDTH_SAMPLES_ONLY",
+  "input_sha256": {
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\F14_CURRENT_FULL_VIEW_v192.FCStd": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\WING_R_VOID_ALL17_FUSED_TRIAL_ONLY.FCStd": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19"
+  },
+  "rows": [
+    {
+      "y_mm": 185,
+      "x_center_mm": 649.0927626555156,
+      "cap_width_mm": 16.0,
+      "sampled_inner_bounds": [
+        {
+          "x_mm": 641.0927626555156,
+          "bottom_mm": -4.737821830586242,
+          "top_mm": 7.11356729788497
+        },
+        {
+          "x_mm": 645.0927626555156,
+          "bottom_mm": -4.806517676669159,
+          "top_mm": 7.127015576469944
+        },
+        {
+          "x_mm": 649.0927626555156,
+          "bottom_mm": -4.853049347759722,
+          "top_mm": 7.071277041098199
+        },
+        {
+          "x_mm": 653.0927626555156,
+          "bottom_mm": -4.883196013167733,
+          "top_mm": 6.963376723192695
+        },
+        {
+          "x_mm": 657.0927626555156,
+          "bottom_mm": -4.89181448112042,
+          "top_mm": 6.798586629932345
+        }
+      ],
+      "sampled_common_vertical_interval_mm": [
+        -4.737821830586242,
+        6.798586629932345
+      ],
+      "assumed_cap_thickness_mm": 1,
+      "assumed_vertical_reserve_mm": 0.2,
+      "lower_cap_z_interval_mm": [
+        -4.537821830586242,
+        -3.5378218305862417
+      ],
+      "upper_cap_z_interval_mm": [
+        5.598586629932345,
+        6.598586629932345
+      ],
+      "cap_centroid_separation_mm": 10.136408460518586,
+      "remaining_web_height_mm": 9.136408460518586
+    },
+    {
+      "y_mm": 220,
+      "x_center_mm": 657.9167537100473,
+      "cap_width_mm": 14.879999999999999,
+      "sampled_inner_bounds": [
+        {
+          "x_mm": 650.4767537100472,
+          "bottom_mm": -5.237256555956607,
+          "top_mm": 5.390470727840694
+        },
+        {
+          "x_mm": 654.1967537100472,
+          "bottom_mm": -5.31184425254331,
+          "top_mm": 5.426104581702118
+        },
+        {
+          "x_mm": 657.9167537100473,
+          "bottom_mm": -5.367730266195693,
+          "top_mm": 5.395906469403356
+        },
+        {
+          "x_mm": 661.6367537100473,
+          "bottom_mm": -5.40930912980632,
+          "top_mm": 5.314486533131529
+        },
+        {
+          "x_mm": 665.3567537100473,
+          "bottom_mm": -5.42996483093032,
+          "top_mm": 5.173321732444704
+        }
+      ],
+      "sampled_common_vertical_interval_mm": [
+        -5.237256555956607,
+        5.173321732444704
+      ],
+      "assumed_cap_thickness_mm": 1,
+      "assumed_vertical_reserve_mm": 0.2,
+      "lower_cap_z_interval_mm": [
+        -5.037256555956607,
+        -4.037256555956607
+      ],
+      "upper_cap_z_interval_mm": [
+        3.9733217324447034,
+        4.973321732444703
+      ],
+      "cap_centroid_separation_mm": 9.01057828840131,
+      "remaining_web_height_mm": 8.01057828840131
+    },
+    {
+      "y_mm": 300,
+      "x_center_mm": 678.1019924451043,
+      "cap_width_mm": 12.32,
+      "sampled_inner_bounds": [
+        {
+          "x_mm": 671.9419924451043,
+          "bottom_mm": -7.625493347434755,
+          "top_mm": 0.8294720185404849
+        },
+        {
+          "x_mm": 675.0219924451043,
+          "bottom_mm": -7.665674328744371,
+          "top_mm": 0.93404535437061
+        },
+        {
+          "x_mm": 678.1019924451043,
+          "bottom_mm": -7.687608680083745,
+          "top_mm": 0.9812645035068779
+        },
+        {
+          "x_mm": 681.1819924451044,
+          "bottom_mm": -7.693204263848824,
+          "top_mm": 0.9832080824810822
+        },
+        {
+          "x_mm": 684.2619924451043,
+          "bottom_mm": -7.67889512407902,
+          "top_mm": 0.9348201098783613
+        }
+      ],
+      "sampled_common_vertical_interval_mm": [
+        -7.625493347434755,
+        0.8294720185404849
+      ],
+      "assumed_cap_thickness_mm": 1,
+      "assumed_vertical_reserve_mm": 0.2,
+      "lower_cap_z_interval_mm": [
+        -7.425493347434755,
+        -6.425493347434755
+      ],
+      "upper_cap_z_interval_mm": [
+        -0.37052798145951504,
+        0.629472018540485
+      ],
+      "cap_centroid_separation_mm": 7.0549653659752405,
+      "remaining_web_height_mm": 6.0549653659752405
+    },
+    {
+      "y_mm": 380,
+      "x_center_mm": 698.2865461892809,
+      "cap_width_mm": 9.76,
+      "sampled_inner_bounds": [
+        {
+          "x_mm": 693.4065461892809,
+          "bottom_mm": -9.998240745291394,
+          "top_mm": -3.899377066512545
+        },
+        {
+          "x_mm": 695.8465461892808,
+          "bottom_mm": -9.98359510079881,
+          "top_mm": -3.736865901830383
+        },
+        {
+          "x_mm": 698.2865461892809,
+          "bottom_mm": -9.950399159426851,
+          "top_mm": -3.615401593477058
+        },
+        {
+          "x_mm": 700.726546189281,
+          "bottom_mm": -9.899916935078725,
+          "top_mm": -3.531394083472279
+        },
+        {
+          "x_mm": 703.1665461892809,
+          "bottom_mm": -9.832103412578775,
+          "top_mm": -3.484926510048013
+        }
+      ],
+      "sampled_common_vertical_interval_mm": [
+        -9.832103412578775,
+        -3.899377066512545
+      ],
+      "assumed_cap_thickness_mm": 1,
+      "assumed_vertical_reserve_mm": 0.2,
+      "lower_cap_z_interval_mm": [
+        -9.632103412578775,
+        -8.632103412578775
+      ],
+      "upper_cap_z_interval_mm": [
+        -5.099377066512545,
+        -4.099377066512545
+      ],
+      "cap_centroid_separation_mm": 4.53272634606623,
+      "remaining_web_height_mm": 3.53272634606623
+    },
+    {
+      "y_mm": 435,
+      "x_center_mm": 712.1652142330331,
+      "cap_width_mm": 8.0,
+      "sampled_inner_bounds": [
+        {
+          "x_mm": 708.1652142330331,
+          "bottom_mm": -11.36476194439659,
+          "top_mm": -7.244712648857416
+        },
+        {
+          "x_mm": 710.1652142330331,
+          "bottom_mm": -11.298768294783613,
+          "top_mm": -7.054007120651903
+        },
+        {
+          "x_mm": 712.1652142330331,
+          "bottom_mm": -11.22009988518981,
+          "top_mm": -6.893787057228522
+        },
+        {
+          "x_mm": 714.1652142330331,
+          "bottom_mm": -11.12765203732397,
+          "top_mm": -6.761363769638507
+        },
+        {
+          "x_mm": 716.1652142330331,
+          "bottom_mm": -11.019148129605725,
+          "top_mm": -6.658399557830762
+        }
+      ],
+      "sampled_common_vertical_interval_mm": [
+        -11.019148129605725,
+        -7.244712648857416
+      ],
+      "assumed_cap_thickness_mm": 1,
+      "assumed_vertical_reserve_mm": 0.2,
+      "lower_cap_z_interval_mm": [
+        -10.819148129605725,
+        -9.819148129605725
+      ],
+      "upper_cap_z_interval_mm": [
+        -8.444712648857415,
+        -7.444712648857416
+      ],
+      "cap_centroid_separation_mm": 2.3744354807483106,
+      "remaining_web_height_mm": 1.3744354807483106
+    }
+  ],
+  "limits": [
+    "Five chordwise points at each of five span stations; not continuous-width or continuous-span containment",
+    "16-to-8mm tapered width and 1mm caps are unfrozen historical concepts",
+    "0.2mm vertical study reserve is not normal clearance, adhesive or tolerance acceptance",
+    "No cap solids, web, bonded root connection, buckling, orthotropic material or structural release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

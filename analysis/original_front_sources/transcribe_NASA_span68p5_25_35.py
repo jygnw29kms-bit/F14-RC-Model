@@ -1,0 +1,15 @@
+from pathlib import Path
+import json,hashlib,math
+p=Path(__file__).resolve().parent
+src=p/'NASA_CR172559_inboard_sweep_grid_comparison.json';b=json.loads(src.read_text())
+raw={25:["-.00066 .00244 .00411 .00594 .00847 .01210 .01514 .01797 .02066 .02324 .02569 .02799 .03015 .03215 .03399 .03566 .03716 .03849 .03965 .04065 .04150 .04219 .04274 .04316 .04345 .04361 .04367 .04362 .04346 .04321 .04241 .04121 .03956 .03746 .03621 .03480 .03325 .03155 .02969 .02768 .02553 .02324 .02083 .01832 .01570 .01301 .01026 .00744 .00459 .00172","-.00066 -.00246 -.00345 -.00457 -.00620 -.00834 -.01001 -.01150 -.01286 -.01408 -.01518 -.01615 -.01700 -.01773 -.01835 -.01887 -.01928 -.01960 -.01984 -.01998 -.02006 -.02006 -.01999 -.01986 -.01968 -.01946 -.01919 -.01888 -.01854 -.01817 -.01734 -.01643 -.01541 -.01429 -.01368 -.01304 -.01235 -.01162 -.01085 -.01003 -.00916 -.00826 -.00732 -.00635 -.00537 -.00437 -.00337 -.00238 -.00139 -.00040"],35:["-.00064 .00246 .00418 .00599 .00853 .01219 .01524 .01807 .02077 .02335 .02581 .02813 .03030 .03232 .03418 .03587 .03739 .03875 .03994 .04098 .04185 .04258 .04317 .04362 .04395 .04415 .04425 .04423 .04411 .04388 .04312 .04191 .04022 .03797 .03662 .03510 .03341 .03155 .02953 .02736 .02505 .02265 .02015 .01759 .01498 .01233 .00963 .00689 .00411 .00132","-.00064 -.00244 -.00346 -.00457 -.00620 -.00837 -.01004 -.01153 -.01287 -.01408 -.01517 -.01612 -.01695 -.01766 -.01826 -.01876 -.01915 -.01945 -.01965 -.01978 -.01983 -.01981 -.01973 -.01958 -.01939 -.01915 -.01887 -.01856 -.01821 -.01783 -.01700 -.01607 -.01503 -.01386 -.01323 -.01255 -.01184 -.01108 -.01028 -.00943 -.00856 -.00764 -.00671 -.00575 -.00479 -.00382 -.00286 -.00191 -.00097 -.00003"]}
+rows=[]
+for r in b['records']:
+ a=r['nominal_sweep_deg'];x=r['grid_xc'];u,l=[list(map(float,t.split())) for t in raw[a]]
+ assert len(x)==len(u)==len(l)==50
+ assert all(math.isfinite(v) for v in x+u+l) and u[0]==l[0] and all(v>=w for v,w in zip(u,l))
+ t=[v-w for v,w in zip(u,l)]
+ rows.append({'nominal_sweep_deg':a,'source_pdf_page':r['source_pdf_page'],'header_raw_fields':r['first_three_headers'][1]['raw_header'],'grid_xc':x,'ordinate_upper':u,'ordinate_lower':l,'max_normalized_thickness_at_sample':max(t),'normalized_piecewise_linear_area':sum((x[i+1]-x[i])*(t[i+1]+t[i])/2 for i in range(49)),'trailing_edge_gap':t[-1]})
+out={'status':'TWO_COMPLETE_SPAN68P5_PROFILES_VISUALLY_TRANSCRIBED','source_sha256':b['source_sha256'],'grid_dataset_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'rows':rows,'visual_digit_checks':['35deg header sixth field 161.17725, not OCR 181.17725','25deg upper xc .64 value .03956, not OCR .03958'],'limits':['No vertical registration or sixth-field interpretation','Different grids and chords require common dimensional X comparison','No invariant fixed-glove skin or production CAD claim'],'production_release':False}
+(p/'NASA_CR172559_span68p5_25_35_profiles.json').write_text(json.dumps(out,indent=2)+'\n')
+print([(r['nominal_sweep_deg'],r['max_normalized_thickness_at_sample'],r['normalized_piecewise_linear_area']) for r in rows])

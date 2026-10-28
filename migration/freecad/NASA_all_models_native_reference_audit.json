@@ -1,0 +1,791 @@
+{
+  "status": "35_OFFENE_QUELLENREFERENZEN_8_MODELLE_NATIV_ERZEUGT",
+  "inputs_sha256": {
+    "NASA_nose_halfsection_reference_study.json": "505dc4674194d4db5d3d42e608276489d23e5759e495db95951a7a5eb625be82",
+    "NASA_canopy_halfsection_polygon_audit.json": "f6b6dc44a18d533f9fafd621e441ac110c7f0dfb4d3c7e557318e48998f2e395",
+    "NASA_model3_halfsection_study.json": "3353c637af7d5750f721d7b1d36d48bdb3e607bf487e3ebddbd9af7f329d5666",
+    "NASA_models4_5_halfsection_study.json": "9ecaf20bd653ed59526f943d67151d9c6f50df6b4506aecfbe2d6126bd48bc9d",
+    "NASA_models6_7_halfsection_study_v2.json": "62b73775a1f35f286163f13f366da5273716fc8454fffa48de0faec1f0c26638",
+    "NASA_model8_halfsection_study.json": "8b83685819d3488cd26a08edb2d89f4a95796d0997eed4d51e92672de50770d3"
+  },
+  "rows": [
+    {
+      "model": 1,
+      "x_source": 110,
+      "source_file": "NASA_nose_halfsection_reference_study.json",
+      "source_row": 0,
+      "boundary_side": null,
+      "edges": 160,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        17.0,
+        0.0,
+        -5.927942815394971
+      ],
+      "last_display_xyz": [
+        17.0,
+        3.776703569535144e-16,
+        8.837484683894246
+      ]
+    },
+    {
+      "model": 1,
+      "x_source": 125,
+      "source_file": "NASA_nose_halfsection_reference_study.json",
+      "source_row": 1,
+      "boundary_side": null,
+      "edges": 160,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        32.0,
+        0.0,
+        -9.715353179339388
+      ],
+      "last_display_xyz": [
+        32.0,
+        6.302561565539419e-16,
+        15.210137279617754
+      ]
+    },
+    {
+      "model": 1,
+      "x_source": 150,
+      "source_file": "NASA_nose_halfsection_reference_study.json",
+      "source_row": 2,
+      "boundary_side": null,
+      "edges": 160,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        57.0,
+        0.0,
+        -13.628170279015634
+      ],
+      "last_display_xyz": [
+        57.0,
+        9.579185592426082e-16,
+        24.12768006378252
+      ]
+    },
+    {
+      "model": 1,
+      "x_source": 175,
+      "source_file": "NASA_nose_halfsection_reference_study.json",
+      "source_row": 3,
+      "boundary_side": null,
+      "edges": 160,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        82.0,
+        0.0,
+        -14.948063193644032
+      ],
+      "last_display_xyz": [
+        82.0,
+        1.209869932385221e-15,
+        31.680398174760228
+      ]
+    },
+    {
+      "model": 1,
+      "x_source": 200,
+      "source_file": "NASA_nose_halfsection_reference_study.json",
+      "source_row": 4,
+      "boundary_side": null,
+      "edges": 160,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        107.0,
+        0.0,
+        -13.708620689655163
+      ],
+      "last_display_xyz": [
+        107.0,
+        1.4085587708715154e-15,
+        38.31119688104832
+      ]
+    },
+    {
+      "model": 2,
+      "x_source": 210,
+      "source_file": "NASA_canopy_halfsection_polygon_audit.json",
+      "source_row": 0,
+      "boundary_side": null,
+      "edges": 301,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        117.0,
+        0.0,
+        -13.322448979591826
+      ],
+      "last_display_xyz": [
+        117.0,
+        -1.7763568394002505e-15,
+        42.418055555555554
+      ]
+    },
+    {
+      "model": 2,
+      "x_source": 220,
+      "source_file": "NASA_canopy_halfsection_polygon_audit.json",
+      "source_row": 1,
+      "boundary_side": null,
+      "edges": 301,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        127.0,
+        0.0,
+        -13.0673469387755
+      ],
+      "last_display_xyz": [
+        127.0,
+        -1.7763568394002505e-15,
+        48.15416666666667
+      ]
+    },
+    {
+      "model": 2,
+      "x_source": 250,
+      "source_file": "NASA_canopy_halfsection_polygon_audit.json",
+      "source_row": 2,
+      "boundary_side": null,
+      "edges": 301,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        157.0,
+        0.0,
+        -12.302040816326524
+      ],
+      "last_display_xyz": [
+        157.0,
+        0.0,
+        63.03750000000002
+      ]
+    },
+    {
+      "model": 2,
+      "x_source": 300,
+      "source_file": "NASA_canopy_halfsection_polygon_audit.json",
+      "source_row": 3,
+      "boundary_side": null,
+      "edges": 301,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        207.0,
+        0.0,
+        -11.026530612244883
+      ],
+      "last_display_xyz": [
+        207.0,
+        0.0,
+        71.20765476529928
+      ]
+    },
+    {
+      "model": 2,
+      "x_source": 340,
+      "source_file": "NASA_canopy_halfsection_polygon_audit.json",
+      "source_row": 4,
+      "boundary_side": null,
+      "edges": 301,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        247.0,
+        0.0,
+        -10.006122448979582
+      ],
+      "last_display_xyz": [
+        247.0,
+        -3.552713678800501e-15,
+        69.80517810408438
+      ]
+    },
+    {
+      "model": 3,
+      "x_source": 352,
+      "source_file": "NASA_model3_halfsection_study.json",
+      "source_row": 0,
+      "boundary_side": null,
+      "edges": 304,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        259.0,
+        2.021048906768317e-15,
+        -9.699999999999989
+      ],
+      "last_display_xyz": [
+        259.0,
+        5.329070518200751e-15,
+        68.05000000000001
+      ]
+    },
+    {
+      "model": 3,
+      "x_source": 370,
+      "source_file": "NASA_model3_halfsection_study.json",
+      "source_row": 1,
+      "boundary_side": null,
+      "edges": 304,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        277.0,
+        -1.0580265811789141e-15,
+        -9.285753424657514
+      ],
+      "last_display_xyz": [
+        277.0,
+        1.7763568394002505e-15,
+        64.94655172413795
+      ]
+    },
+    {
+      "model": 3,
+      "x_source": 390,
+      "source_file": "NASA_model3_halfsection_study.json",
+      "source_row": 2,
+      "boundary_side": null,
+      "edges": 304,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        297.0,
+        2.4992357969135375e-15,
+        -8.825479452054779
+      ],
+      "last_display_xyz": [
+        297.0,
+        0.0,
+        61.498275862068965
+      ]
+    },
+    {
+      "model": 3,
+      "x_source": 414.5,
+      "source_file": "NASA_model3_halfsection_study.json",
+      "source_row": 3,
+      "boundary_side": null,
+      "edges": 303,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        321.5,
+        5.92132561326266e-16,
+        -8.261643835616425
+      ],
+      "last_display_xyz": [
+        321.5,
+        -1.7763568394002505e-15,
+        57.27413793103449
+      ]
+    },
+    {
+      "model": 4,
+      "x_source": 414.5,
+      "source_file": "NASA_models4_5_halfsection_study.json",
+      "source_row": 0,
+      "boundary_side": null,
+      "edges": 303,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        321.5,
+        5.92132561326266e-16,
+        -8.261643835616425
+      ],
+      "last_display_xyz": [
+        321.5,
+        -1.7763568394002505e-15,
+        57.27413793103449
+      ]
+    },
+    {
+      "model": 4,
+      "x_source": 420,
+      "source_file": "NASA_models4_5_halfsection_study.json",
+      "source_row": 1,
+      "boundary_side": null,
+      "edges": 303,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        327.0,
+        2.1916186747616667e-15,
+        -8.13506849315067
+      ],
+      "last_display_xyz": [
+        327.0,
+        0.0,
+        56.325862068965534
+      ]
+    },
+    {
+      "model": 5,
+      "x_source": 425,
+      "source_file": "NASA_models4_5_halfsection_study.json",
+      "source_row": 2,
+      "boundary_side": null,
+      "edges": 204,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        332.0,
+        0.0,
+        -8.019999999999982
+      ],
+      "last_display_xyz": [
+        332.0,
+        0.0,
+        55.463793103448296
+      ]
+    },
+    {
+      "model": 5,
+      "x_source": 429,
+      "source_file": "NASA_models4_5_halfsection_study.json",
+      "source_row": 3,
+      "boundary_side": null,
+      "edges": 204,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        336.0,
+        0.0,
+        -11.234999999999985
+      ],
+      "last_display_xyz": [
+        336.0,
+        0.0,
+        54.77413793103449
+      ]
+    },
+    {
+      "model": 5,
+      "x_source": 433,
+      "source_file": "NASA_models4_5_halfsection_study.json",
+      "source_row": 4,
+      "boundary_side": null,
+      "edges": 204,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        340.0,
+        0.0,
+        -14.449999999999989
+      ],
+      "last_display_xyz": [
+        340.0,
+        0.0,
+        54.08448275862071
+      ]
+    },
+    {
+      "model": 6,
+      "x_source": 433,
+      "source_file": "NASA_models6_7_halfsection_study_v2.json",
+      "source_row": 0,
+      "boundary_side": null,
+      "edges": 204,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        340.0,
+        0.0,
+        -14.449999999999989
+      ],
+      "last_display_xyz": [
+        340.0,
+        2.4092005249114063e-15,
+        54.08448275862071
+      ]
+    },
+    {
+      "model": 6,
+      "x_source": 450,
+      "source_file": "NASA_models6_7_halfsection_study_v2.json",
+      "source_row": 1,
+      "boundary_side": null,
+      "edges": 304,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        357.0,
+        0.0,
+        -16.893749999999983
+      ],
+      "last_display_xyz": [
+        357.0,
+        2.22729429938385e-15,
+        51.15344827586205
+      ]
+    },
+    {
+      "model": 6,
+      "x_source": 475,
+      "source_file": "NASA_models6_7_halfsection_study_v2.json",
+      "source_row": 2,
+      "boundary_side": null,
+      "edges": 304,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        382.0,
+        0.0,
+        -20.487499999999983
+      ],
+      "last_display_xyz": [
+        382.0,
+        1.9597851441962662e-15,
+        46.843103448275826
+      ]
+    },
+    {
+      "model": 6,
+      "x_source": 497,
+      "source_file": "NASA_models6_7_halfsection_study_v2.json",
+      "source_row": 3,
+      "boundary_side": null,
+      "edges": 204,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        404.0,
+        0.0,
+        -23.64999999999999
+      ],
+      "last_display_xyz": [
+        404.0,
+        1.724377087631198e-15,
+        43.05000000000001
+      ]
+    },
+    {
+      "model": 7,
+      "x_source": 497,
+      "source_file": "NASA_models6_7_halfsection_study_v2.json",
+      "source_row": 4,
+      "boundary_side": null,
+      "edges": 204,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        404.0,
+        0.0,
+        -23.64999999999999
+      ],
+      "last_display_xyz": [
+        404.0,
+        1.724377087631198e-15,
+        43.05000000000001
+      ]
+    },
+    {
+      "model": 7,
+      "x_source": 525,
+      "source_file": "NASA_models6_7_halfsection_study_v2.json",
+      "source_row": 5,
+      "boundary_side": null,
+      "edges": 204,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        432.0,
+        0.0,
+        -25.421428571428564
+      ],
+      "last_display_xyz": [
+        432.0,
+        1.5454216908799588e-15,
+        40.19285714285715
+      ]
+    },
+    {
+      "model": 7,
+      "x_source": 575,
+      "source_file": "NASA_models6_7_halfsection_study_v2.json",
+      "source_row": 6,
+      "boundary_side": null,
+      "edges": 204,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        482.0,
+        0.0,
+        -27.66296296296295
+      ],
+      "last_display_xyz": [
+        482.0,
+        1.2590780681888015e-15,
+        35.633333333333354
+      ]
+    },
+    {
+      "model": 7,
+      "x_source": 625,
+      "source_file": "NASA_models6_7_halfsection_study_v2.json",
+      "source_row": 7,
+      "boundary_side": null,
+      "edges": 204,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        532.0,
+        0.0,
+        -27.94999999999999
+      ],
+      "last_display_xyz": [
+        532.0,
+        9.865846176308577e-16,
+        31.30000000000001
+      ]
+    },
+    {
+      "model": 7,
+      "x_source": 650,
+      "source_file": "NASA_models6_7_halfsection_study_v2.json",
+      "source_row": 8,
+      "boundary_side": null,
+      "edges": 104,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        557.0,
+        0.0,
+        -27.44999999999999
+      ],
+      "last_display_xyz": [
+        557.0,
+        0.0,
+        29.05000000000001
+      ]
+    },
+    {
+      "model": 8,
+      "x_source": 650,
+      "source_file": "NASA_model8_halfsection_study.json",
+      "source_row": 0,
+      "boundary_side": null,
+      "edges": 104,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        557.0,
+        0.0,
+        -27.44999999999999
+      ],
+      "last_display_xyz": [
+        557.0,
+        0.0,
+        29.05000000000001
+      ]
+    },
+    {
+      "model": 8,
+      "x_source": 675,
+      "source_file": "NASA_model8_halfsection_study.json",
+      "source_row": 1,
+      "boundary_side": null,
+      "edges": 105,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        582.0,
+        0.0,
+        -25.719230769230762
+      ],
+      "last_display_xyz": [
+        582.0,
+        0.0,
+        31.709574468085123
+      ]
+    },
+    {
+      "model": 8,
+      "x_source": 696,
+      "source_file": "NASA_model8_halfsection_study.json",
+      "source_row": 2,
+      "boundary_side": null,
+      "edges": 105,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        603.0,
+        0.0,
+        -24.265384615384605
+      ],
+      "last_display_xyz": [
+        603.0,
+        0.0,
+        33.943617021276594
+      ]
+    },
+    {
+      "model": 8,
+      "x_source": 697,
+      "source_file": "NASA_model8_halfsection_study.json",
+      "source_row": 3,
+      "boundary_side": "left",
+      "edges": 105,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        604.0,
+        0.0,
+        -24.196153846153834
+      ],
+      "last_display_xyz": [
+        604.0,
+        0.0,
+        34.05000000000001
+      ]
+    },
+    {
+      "model": 8,
+      "x_source": 697,
+      "source_file": "NASA_model8_halfsection_study.json",
+      "source_row": 4,
+      "boundary_side": "right",
+      "edges": 105,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        604.0,
+        0.0,
+        -24.196153846153834
+      ],
+      "last_display_xyz": [
+        604.0,
+        0.0,
+        34.05000000000001
+      ]
+    },
+    {
+      "model": 8,
+      "x_source": 725,
+      "source_file": "NASA_model8_halfsection_study.json",
+      "source_row": 5,
+      "boundary_side": null,
+      "edges": 105,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        632.0,
+        0.0,
+        -22.257692307692295
+      ],
+      "last_display_xyz": [
+        632.0,
+        0.0,
+        33.12228915662652
+      ]
+    },
+    {
+      "model": 8,
+      "x_source": 780,
+      "source_file": "NASA_model8_halfsection_study.json",
+      "source_row": 6,
+      "boundary_side": null,
+      "edges": 105,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "faces": 0,
+      "first_display_xyz": [
+        687.0,
+        0.0,
+        -18.44999999999999
+      ],
+      "last_display_xyz": [
+        687.0,
+        0.0,
+        31.30000000000001
+      ]
+    }
+  ],
+  "output_sha256": "97b2e2b40260341a6ba2d4b9df67070b605e32f294ad77cdf85c92f0bbd12335",
+  "limits": [
+    "Darstellungskoordinaten, kein physischer RC-Massstab oder UPC-Datum.",
+    "Nur offene Halbsektionspolylinien; keine Spiegelung, Flaeche, Verbindung, Loft oder geschlossene Haut.",
+    "697links/rechts und Modellgrenzen bleiben getrennte Objekte; keine Glattung.",
+    "Teilvalidiertes vereinfachtes NASA-Quellenmodell, keine Herstellerhaut-/Produktionsfreigabe."
+  ],
+  "production_release": false
+}
