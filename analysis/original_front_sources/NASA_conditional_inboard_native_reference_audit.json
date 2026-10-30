@@ -1,0 +1,75 @@
+{
+  "status": "CONDITIONAL_THREE_INBOARD_COMPUTATIONAL_LOFT_REFERENCES_SAVED_REOPENED",
+  "input_sha256": {
+    "NASA_CR172559_inboard_first_three_profiles.json": "406f858e034d902bfc28f2236b497bf5b1110a8dba756fa67f53da24e251f6bd",
+    "NASA_CR172559_centerline_25_35_profiles.json": "14be69ca4cf10ddfafdd469ea5db78109bd62df3152c7666926c7fb0d855683e",
+    "NASA_CR172559_span68p5_25_35_profiles.json": "5be078bf0f680a863edc9c89eee4fee193d486bad8f42ca4fed98f4726d0eb78",
+    "NASA_CR172559_span99_25_35_profiles.json": "68a56285798971c1ebfb5811dc7cb1624a43352cbff9a876f01914e311fb3954"
+  },
+  "output_sha256": "f28724c1b4b0a53738b34ea499083aff8260ac049a8daea63a806cb0b7b180af",
+  "master_sha256_unchanged": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "rows": [
+    {
+      "nominal_sweep_deg": 20,
+      "valid": true,
+      "solids": 1,
+      "faces": 200,
+      "volume_display_units_cubed": 370535.41795134684,
+      "span_raw_range": [
+        0,
+        99
+      ]
+    },
+    {
+      "nominal_sweep_deg": 25,
+      "valid": true,
+      "solids": 1,
+      "faces": 200,
+      "volume_display_units_cubed": 363715.4994526159,
+      "span_raw_range": [
+        0,
+        99
+      ]
+    },
+    {
+      "nominal_sweep_deg": 35,
+      "valid": true,
+      "solids": 1,
+      "faces": 200,
+      "volume_display_units_cubed": 351211.06746461324,
+      "span_raw_range": [
+        0,
+        99
+      ]
+    }
+  ],
+  "coordinate_assumption": "X=XPL+xc*chord; Y=rawspan; Z=rawfield6+ordinate*chord. Cross-report numeric field6 evidence supports hypothesis; exact F14 reader remains unverified.",
+  "display_scale": "1 source unit=1 CAD display mm; not model millimeters, not physical scale",
+  "limits": [
+    "Only source span0..99, not complete glove or wing; root-break127.22/.24 excluded",
+    "Ruled interpolation between3 profiles is a reconstruction choice, not a measured surface",
+    "Centerline computational continuation is not automatically exposed skin",
+    "Three overlapping sweep cases are reference alternatives, not three physical aircraft bodies",
+    "No aircraft frame/pivotWL/body registration or original factory OML release",
+    "No structural, print, STL or flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false,
+  "independent_prismoidal_volume_checks": [
+    {
+      "sweep_deg": 20,
+      "independent_prismoidal_volume": 370535.4179513458,
+      "native_volume_difference": -1.0477378964424133e-09
+    },
+    {
+      "sweep_deg": 25,
+      "independent_prismoidal_volume": 363715.49945261655,
+      "native_volume_difference": 6.402842700481415e-10
+    },
+    {
+      "sweep_deg": 35,
+      "independent_prismoidal_volume": 351211.06746461306,
+      "native_volume_difference": -1.7462298274040222e-10
+    }
+  ]
+}
