@@ -1,0 +1,110 @@
+{
+  "status": "V245_CR3992_DIRECT_WING_WL_REGISTRATION",
+  "source": "NASA CR-3992 Appendix 2 Grumman basic F-14 wing",
+  "method": "Direct tabulated WBL/LE/TE/reference vertical location; no pivot-WL extrapolation",
+  "rows": [
+    {
+      "wbl_in": 127.23,
+      "target_xy_mm": [
+        479.4839172711096,
+        148.8263775443693
+      ],
+      "cad_le_z_mm": 0.603130676976662,
+      "source_abs_le_z_mm": 188.19553761158534,
+      "translation_mm": 187.59240693460868,
+      "xy_match_error_mm": 0.0
+    },
+    {
+      "wbl_in": 164.0146,
+      "target_xy_mm": [
+        495.02738952786444,
+        191.8548988633869
+      ],
+      "cad_le_z_mm": 6.85618137544958,
+      "source_abs_le_z_mm": 187.3176447241025,
+      "translation_mm": 180.46146334865293,
+      "xy_match_error_mm": 43.03506337170092
+    },
+    {
+      "wbl_in": 200.79919,
+      "target_xy_mm": [
+        510.6935444103905,
+        234.8834084849764
+      ],
+      "cad_le_z_mm": 8.791121123167244,
+      "source_abs_le_z_mm": 185.77670001615542,
+      "translation_mm": 176.98557889298817,
+      "xy_match_error_mm": 86.06738880751139
+    },
+    {
+      "wbl_in": 237.58369,
+      "target_xy_mm": [
+        526.3648461612745,
+        277.9118128297131
+      ],
+      "cad_le_z_mm": 9.084024846445601,
+      "source_abs_le_z_mm": 183.82930475015655,
+      "translation_mm": 174.74527990371095,
+      "xy_match_error_mm": 129.08624440424063
+    },
+    {
+      "wbl_in": 274.36816,
+      "target_xy_mm": [
+        542.0361479121585,
+        320.94018208216556
+      ],
+      "cad_le_z_mm": -11.536769121775592,
+      "source_abs_le_z_mm": 181.88196655731304,
+      "translation_mm": 193.41873567908863,
+      "xy_match_error_mm": 137.3530355368025
+    },
+    {
+      "wbl_in": 311.15283,
+      "target_xy_mm": [
+        557.7074379656144,
+        363.9687852831797
+      ],
+      "cad_le_z_mm": -11.536769121775592,
+      "source_abs_le_z_mm": 179.93427291963516,
+      "translation_mm": 191.47104204141075,
+      "xy_match_error_mm": 91.55947676082054
+    },
+    {
+      "wbl_in": 347.93726,
+      "target_xy_mm": [
+        573.3784472807963,
+        406.99710774591983
+      ],
+      "cad_le_z_mm": -11.536769121775592,
+      "source_abs_le_z_mm": 178.00424076634266,
+      "translation_mm": 189.54100988811825,
+      "xy_match_error_mm": 45.76627784617073
+    },
+    {
+      "wbl_in": 384.69995,
+      "target_xy_mm": [
+        589.0406133403449,
+        449.99999999999994
+      ],
+      "cad_le_z_mm": -11.536769121775592,
+      "source_abs_le_z_mm": 176.05563781283308,
+      "translation_mm": 187.59240693460868,
+      "xy_match_error_mm": 0.0
+    }
+  ],
+  "translation_stats_mm": {
+    "min": 174.74527990371095,
+    "max": 193.41873567908863,
+    "spread": 18.673455775377676,
+    "mean": 185.22599045289837
+  },
+  "gates": {
+    "all_station_xy_matches_lt_0p01mm": false,
+    "constant_translation_spread_lt_0p01mm": false,
+    "wing_absolute_WL_source_backed": false,
+    "pivot_axis_absolute_WL_verified": false,
+    "fuselage_common_Z_registered": false,
+    "production_OML": false,
+    "flight_release": false
+  }
+}
