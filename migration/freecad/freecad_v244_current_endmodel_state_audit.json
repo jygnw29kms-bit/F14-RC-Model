@@ -1,0 +1,37 @@
+{
+  "status": "V244_CURRENT_ENDMODEL_STATE",
+  "source": "C:\\Users\\dezen\\Desktop\\JL1976\\F14-Tomcat\\F14-RC-Model\\migration\\freecad\\F14_v241_LIGHT_STABILATOR_CRANK.FCStd",
+  "shape_count": 120,
+  "required_current_objects": {
+    "V221_CASSETTE_R": true,
+    "V221_CASSETTE_L": true,
+    "V225_SERVO_A80BHSF_V2": true,
+    "V225_SYNC_YOKE_M4_20": true,
+    "V227_HOBBYWING_UBEC10A_HV": true,
+    "V228_TAIL_UBEC10A_HV": true,
+    "V228_RECEIVER_RESERVE_MAX": true,
+    "V229_SKYWALKER50A_R": true,
+    "V229_SKYWALKER50A_L": true,
+    "V233_TORQ_TCM1022_R": true,
+    "V233_TORQ_TCM1022_L": true,
+    "V235_D_ROOT_FITTING_R": true,
+    "V235_D_ROOT_FITTING_L": true,
+    "V237_D_SHAFT_R": true,
+    "V237_D_SHAFT_L": true,
+    "V241_LIGHT_D_CRANK_R": true,
+    "V241_LIGHT_D_CRANK_L": true
+  },
+  "forbidden_or_superseded_objects_present": [],
+  "mass_budget_source": "analysis/v243_tail_mass_budget_resolution.json",
+  "gates": {
+    "all_required_current_objects_present": true,
+    "no_forbidden_tail_duplicates": true,
+    "all_shapes_valid": true,
+    "absolute_OML_Z_gate_closed": true,
+    "EDF_shroud_OD_gate_open": true,
+    "physical_bench_gates_open": true,
+    "production_release": false,
+    "flight_release": false
+  },
+  "sha256": "79162c07536337241f4aa418b9ef9be901e695fb3e4c93053c5f5cbfd9086f07"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "V243_TAIL_MASS_BUDGET_RESOLUTION",
+  "source_projected_AUW_g": 1174.574700301657,
+  "note": "Projected AUW already contains 35 g fasteners/bearings/inserts budget and 50 g reserve; current tail hardware is allocated inside those budgets, not added again.",
+  "tail_hardware": {
+    "7075_D_shafts_pair_g": 9.444910559049926,
+    "7075_light_cranks_pair_g": 4.635287139643619,
+    "known_subtotal_g": 14.080197698693546,
+    "generic_hardware_budget_g": 35.0,
+    "remaining_for_4x_bearings_collars_washers_fasteners_g": 20.919802301306454
+  },
+  "root_fittings": {
+    "pair_volume_cm3": 17.664472187837838,
+    "PPA_CF_screen_g": 22.0805902347973,
+    "allocated_from_existing_50g_reserve": true,
+    "reserve_remaining_after_root_fittings_g": 27.9194097652027
+  },
+  "mass_accounting": {
+    "projected_AUW_remains_g": 1174.574700301657,
+    "margin_to_1175_g": 0.42529969834299663,
+    "margin_to_1200_g": 25.425299698342997,
+    "unallocated_reserve_after_root_fittings_g": 27.9194097652027
+  },
+  "gates": {
+    "hardware_budget_not_exceeded_before_bearings": true,
+    "root_fittings_fit_existing_reserve": true,
+    "bearing_actual_masses_measured": false,
+    "retention_actual_masses_measured": false,
+    "AUW_frozen": false,
+    "flight_release": false
+  }
+}
