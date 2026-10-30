@@ -1,0 +1,78 @@
+{
+  "status": "CONTINUOUS_IDEAL_TRANSLATION_SOCKET_OVERLAP_CHECK",
+  "input_sha256": {
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\FLARED_ROOT_SOCKET_UNFROZEN_CONCEPT_ONLY.FCStd": "72d7d468d3247add21511b88a55ccb456c1a730e3b3d81bcd56746e305a3d2d2",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\analysis\\v192_cap_width_inner_envelope.json": "f33f7fa40eadf6d6aaf47c00a1995c369967619d906167ec913884ef41e4e0c5"
+  },
+  "translation_y_interval_mm": [
+    0,
+    26
+  ],
+  "inboard_prismatic_segment_y_interval_mm": [
+    149,
+    185
+  ],
+  "swept_inboard_y_interval_mm": [
+    149,
+    211
+  ],
+  "socket_y_max_mm": 176.0,
+  "rows": [
+    {
+      "object": "UNFROZEN_FLANGED_WEB",
+      "root_face_count": 3,
+      "inboard_segment_symmetric_difference_volume_mm3": 0.0,
+      "swept_envelope_valid": true,
+      "swept_envelope_volume_mm3": 562.2858596416987,
+      "socket_swept_overlap_volume_mm3": 0.0
+    },
+    {
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "root_face_count": 1,
+      "inboard_segment_symmetric_difference_volume_mm3": 0.0,
+      "swept_envelope_valid": true,
+      "swept_envelope_volume_mm3": 24.80000000000001,
+      "socket_swept_overlap_volume_mm3": 0.0
+    },
+    {
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "root_face_count": 1,
+      "inboard_segment_symmetric_difference_volume_mm3": 0.0,
+      "swept_envelope_valid": true,
+      "swept_envelope_volume_mm3": 24.79999999999994,
+      "socket_swept_overlap_volume_mm3": 0.0
+    },
+    {
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "root_face_count": 1,
+      "inboard_segment_symmetric_difference_volume_mm3": 0.0,
+      "swept_envelope_valid": true,
+      "swept_envelope_volume_mm3": 992.0,
+      "socket_swept_overlap_volume_mm3": 0.0
+    },
+    {
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "root_face_count": 1,
+      "inboard_segment_symmetric_difference_volume_mm3": 0.0,
+      "swept_envelope_valid": true,
+      "swept_envelope_volume_mm3": 992.0000000000002,
+      "socket_swept_overlap_volume_mm3": 0.0
+    }
+  ],
+  "all_swept_overlap_volumes_below_1e_6_mm3": true,
+  "reasoning": [
+    "Saved Y149..185 segment independently matched to extruded root section by symmetric volume differences",
+    "Exact ideal translation sweep of that prismatic segment is root-face extrusion over36+26mm",
+    "Saved geometry atY>=185 stays beyond actual socket bounding Ymax, which is below185 for all nonnegative Y translations; cannot intersect socket",
+    "This establishes only no positive-volume socket collision for the ideal rigid translation model, within boolean tolerance"
+  ],
+  "limits": [
+    "End-stop contact allowed; no positive clearance or insertion force claimed",
+    "No manufacturing tolerances, adhesive process, surrounding wing/body/access, bearing/shaft installation or physical proof",
+    "Original outside body/glove packaging still rejected; no production or flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false,
+  "diagnostic_note": "Initial attempts stopped on an assumed socket Ymax175 guard. Saved native bounding box reports176; final proof uses actual bounding max176<185, with no geometry modification."
+}
