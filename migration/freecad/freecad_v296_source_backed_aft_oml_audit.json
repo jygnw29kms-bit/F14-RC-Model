@@ -1,0 +1,171 @@
+{
+  "status": "V296_SOURCE_BACKED_AFT_OML_FREECAD_MIGRATION",
+  "source_model": "F14_v295_X620_CAPTIVE_M3_RETENTION_CANDIDATE.FCStd",
+  "source_profiles": "analysis/propulsion_intermediate_profiles_v135.json",
+  "source_constraints": "analysis/propulsion_source_silhouette_constraints_v134.json",
+  "source_image_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "profile_order": [
+    "D",
+    "E",
+    "GUIDE_710.370",
+    "GUIDE_730.137",
+    "GUIDE_738.044",
+    "GUIDE_752.539",
+    "F"
+  ],
+  "section_rows": [
+    {
+      "name": "D",
+      "x_mm": 595.8483908511422,
+      "point_count": 96,
+      "y_min_mm": -106.71009865680074,
+      "y_max_mm": 105.04456343268645,
+      "z_min_mm": -49.58068185409331,
+      "z_max_mm": 21.350837416595805,
+      "source_kind": "traced"
+    },
+    {
+      "name": "E",
+      "x_mm": 648.8863542888724,
+      "point_count": 96,
+      "y_min_mm": -102.65555888742442,
+      "y_max_mm": 102.27692835602556,
+      "z_min_mm": -49.297062833151486,
+      "z_max_mm": 18.879307628984122,
+      "source_kind": "traced"
+    },
+    {
+      "name": "GUIDE_710.370",
+      "x_mm": 710.3699545166818,
+      "point_count": 96,
+      "y_min_mm": -106.37714031148111,
+      "y_max_mm": 105.82813492436692,
+      "z_min_mm": -43.93295853375642,
+      "z_max_mm": 28.95554687944697,
+      "source_kind": "constrained_interpolation"
+    },
+    {
+      "name": "GUIDE_730.137",
+      "x_mm": 730.1368252092942,
+      "point_count": 96,
+      "y_min_mm": -105.87021352408465,
+      "y_max_mm": 105.14579261253938,
+      "z_min_mm": -42.2582530386358,
+      "z_max_mm": 28.95554687944697,
+      "source_kind": "constrained_interpolation"
+    },
+    {
+      "name": "GUIDE_738.044",
+      "x_mm": 738.0435734863391,
+      "point_count": 96,
+      "y_min_mm": -105.52644185986527,
+      "y_max_mm": 104.7338431586866,
+      "z_min_mm": -41.56840251781972,
+      "z_max_mm": 27.901313775840975,
+      "source_kind": "constrained_interpolation"
+    },
+    {
+      "name": "GUIDE_752.539",
+      "x_mm": 752.5392786609216,
+      "point_count": 96,
+      "y_min_mm": -104.89619380879648,
+      "y_max_mm": 103.98045549562846,
+      "z_min_mm": -40.30367656299059,
+      "z_max_mm": 27.901313775840975,
+      "source_kind": "constrained_interpolation"
+    },
+    {
+      "name": "F",
+      "x_mm": 754.962281164333,
+      "point_count": 96,
+      "y_min_mm": -104.8044704159361,
+      "y_max_mm": 103.8682598119206,
+      "z_min_mm": -39.412471753738465,
+      "z_max_mm": 27.356637319108664,
+      "source_kind": "traced"
+    }
+  ],
+  "trace_checks": [
+    {
+      "name": "D",
+      "z_top_error_mm": 0.30203881419379286,
+      "z_bottom_error_mm": 0.004137485106333827,
+      "pass": true
+    },
+    {
+      "name": "E",
+      "z_top_error_mm": 1.2567666133015933,
+      "z_bottom_error_mm": 1.0300348734593356,
+      "pass": true
+    }
+  ],
+  "oml": {
+    "valid": true,
+    "solid_count": 1,
+    "volume_mm3": 1465331.5344275858,
+    "bbox_mm": {
+      "xmin": 595.8483908511422,
+      "xmax": 754.962281164333,
+      "ymin": -106.71009865680074,
+      "ymax": 105.82813492436692,
+      "zmin": -49.58068185409331,
+      "zmax": 28.95554687944697
+    }
+  },
+  "x620_checks": [
+    {
+      "object": "V293_X620_CF_TUBE_R",
+      "full_volume_mm3": 1759.2918860102834,
+      "aft_domain_volume_mm3": 1410.987479611859,
+      "inside_oml_mm3": 1410.767568126107,
+      "aft_domain_containment_fraction": 0.9998441435597909
+    },
+    {
+      "object": "V293_X620_CF_TUBE_L",
+      "full_volume_mm3": 1759.2918860102834,
+      "aft_domain_volume_mm3": 1410.987479611859,
+      "inside_oml_mm3": 1410.767568126107,
+      "aft_domain_containment_fraction": 0.9998441435597909
+    },
+    {
+      "object": "V293_X620_SLEEVE_R_AFT",
+      "full_volume_mm3": 716.2831250184729,
+      "aft_domain_volume_mm3": 716.2831250184729,
+      "inside_oml_mm3": 716.2831250184729,
+      "aft_domain_containment_fraction": 1.0
+    },
+    {
+      "object": "V293_X620_SLEEVE_L_AFT",
+      "full_volume_mm3": 716.2831250184729,
+      "aft_domain_volume_mm3": 716.2831250184729,
+      "inside_oml_mm3": 716.2831250184729,
+      "aft_domain_containment_fraction": 1.0
+    },
+    {
+      "object": "V295_C_CLAMP_X620_R",
+      "full_volume_mm3": 485.2975526248112,
+      "aft_domain_volume_mm3": 485.2975526248112,
+      "inside_oml_mm3": 485.2975526248112,
+      "aft_domain_containment_fraction": 1.0
+    },
+    {
+      "object": "V295_C_CLAMP_X620_L",
+      "full_volume_mm3": 485.2975526248113,
+      "aft_domain_volume_mm3": 485.2975526248113,
+      "inside_oml_mm3": 485.2975526248113,
+      "aft_domain_containment_fraction": 1.0
+    }
+  ],
+  "gates": {
+    "source_provenance_match": true,
+    "seven_profile_loft_valid": true,
+    "traced_DE_constraints_pass": true,
+    "x620_joiner_and_retention_aft_domain_inside_oml_ge_0p995": true,
+    "aft_nacelle_OML_registered": true,
+    "intermediate_profiles_source_measured": false,
+    "actual_EDF_hardware_measured": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "f073f5a224a7d119fa32a63cf4a3730172beb919bd965f38e9f157787992cba2"
+}
