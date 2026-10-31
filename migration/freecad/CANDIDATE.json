@@ -1,38 +1,42 @@
 ﻿{
-  "status": "F14_FREECAD_CANDIDATE_POINTER",
-  "candidate_master": "migration/freecad/F14_v285_CONSOLIDATED_8X6_LIGHT_TAIL.FCStd",
-  "candidate_revision": "v285",
-  "supplemental_review": "migration/freecad/F14_v273_SEGMENT_CLAMP_TOOL_ACCESS.FCStd",
-  "manufacturing_coupon_sets": [
-    "manufacturing/fit_coupons/F14_v274_CF_SLEEVE_CLAMP_COUPON.FCStd",
-    "manufacturing/fit_coupons/F14_v286_TAIL_ROOT_FIT_COUPON.FCStd"
-  ],
-  "required_audits": [
-    "analysis/v246_cr3992_wing_wl_transform_gate.json",
-    "migration/freecad/freecad_v253_service_access_keepouts_audit.json",
-    "migration/freecad/freecad_v267_service_hatch_flange_final_candidate_audit.json",
-    "migration/freecad/freecad_v271_c_ring_segment_retention_audit.json",
-    "migration/freecad/freecad_v273_segment_clamp_tool_access_audit.json",
-    "analysis/v275_verified_cf_tube_material_screen.json",
-    "analysis/v279_wing_8x6_3d_verify.json",
-    "analysis/v281_three_8x6_joiners.json",
-    "migration/freecad/freecad_v282_three_8x6_wing_joiner_endmodel_audit.json",
-    "migration/freecad/freecad_v284_light_stabilator_root_fitting_fixed_audit.json",
-    "migration/freecad/freecad_v285_consolidated_8x6_light_tail_audit.json",
-    "manufacturing/fit_coupons/v274_cf_sleeve_clamp_coupon_audit.json",
-    "manufacturing/fit_coupons/v286_tail_root_fit_coupon_audit.json"
-  ],
-  "promotion_blockers": [
-    "absolute fuselage/nacelle WL registration remains unverified; CR3992 Figure 48/50 provide shape evidence but no calibrated production FS/WL mapping",
-    "actual EDF shroud outer diameter remains unverified and aft-nacelle EDF mount is therefore not frozen",
-    "X620 aft-nacelle segment joiner and retention remain provisional and intentionally omitted",
-    "8x6 CF material family is datasheet-backed but purchased lot minimum strength and proof load remain open",
-    "wing adhesive bond, sleeve clearance and C-ring clamp force require printed coupon/bench verification",
-    "light stabilator root fitting requires D-shaft fit, adhesive socket and torsion coupon verification",
-    "service flange geometry and tool keepouts are defined; final exterior shell cuts remain frozen until OML closes",
-    "actual printed mass, dry CG, installed thrust/current and flight proof testing remain open"
-  ],
-  "promoted_to_current": false,
-  "print_release": false,
-  "flight_release": false
+    "status":  "F14_FREECAD_CANDIDATE_POINTER",
+    "candidate_master":  "migration/freecad/F14_v288_X440_CLAMP_TOOL_ACCESS.FCStd",
+    "candidate_revision":  "v288",
+    "supplemental_review":  "migration/freecad/F14_v288_X440_CLAMP_TOOL_ACCESS.FCStd",
+    "manufacturing_coupon_sets":  [
+                                      "manufacturing/fit_coupons/F14_v274_CF_SLEEVE_CLAMP_COUPON.FCStd",
+                                      "manufacturing/fit_coupons/F14_v286_TAIL_ROOT_FIT_COUPON.FCStd"
+                                  ],
+    "required_audits":  [
+                            "analysis/v246_cr3992_wing_wl_transform_gate.json",
+                            "migration/freecad/freecad_v253_service_access_keepouts_audit.json",
+                            "migration/freecad/freecad_v267_service_hatch_flange_final_candidate_audit.json",
+                            "migration/freecad/freecad_v271_c_ring_segment_retention_audit.json",
+                            "migration/freecad/freecad_v273_segment_clamp_tool_access_audit.json",
+                            "analysis/v275_verified_cf_tube_material_screen.json",
+                            "analysis/v279_wing_8x6_3d_verify.json",
+                            "analysis/v281_three_8x6_joiners.json",
+                            "migration/freecad/freecad_v282_three_8x6_wing_joiner_endmodel_audit.json",
+                            "migration/freecad/freecad_v284_light_stabilator_root_fitting_fixed_audit.json",
+                            "migration/freecad/freecad_v285_consolidated_8x6_light_tail_audit.json",
+                            "manufacturing/fit_coupons/v274_cf_sleeve_clamp_coupon_audit.json",
+                            "manufacturing/fit_coupons/v286_tail_root_fit_coupon_audit.json",
+                            "migration/freecad/freecad_v287_captive_m3_segment_clamps_audit.json",
+                            "migration/freecad/freecad_v288_x440_clamp_tool_access_audit.json",
+                            "analysis/v289_final_retention_mass_delta.json"
+                        ],
+    "promotion_blockers":  [
+                               "absolute fuselage/nacelle WL registration remains unverified; CR3992 Figure 48/50 provide shape evidence but no calibrated production FS/WL mapping",
+                               "actual EDF shroud outer diameter remains unverified and aft-nacelle EDF mount is therefore not frozen",
+                               "X620 aft-nacelle segment joiner and retention remain provisional and intentionally omitted",
+                               "8x6 CF material family is datasheet-backed but purchased lot minimum strength and proof load remain open",
+                               "wing adhesive bond, sleeve clearance and C-ring clamp force require printed coupon/bench verification",
+                               "light stabilator root fitting requires D-shaft fit, adhesive socket and torsion coupon verification",
+                               "service flange geometry and tool keepouts are defined; final exterior shell cuts remain frozen until OML closes",
+                               "actual printed mass, dry CG, installed thrust/current and flight proof testing remain open",
+                               "captive M3 nut pocket and tool corridors are geometry-verified; actual purchased nut fit and clamp-force bench test remain open"
+                           ],
+    "promoted_to_current":  false,
+    "print_release":  false,
+    "flight_release":  false
 }

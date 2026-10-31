@@ -1,0 +1,58 @@
+{
+  "status": "V288_X440_CLAMP_TOOL_ACCESS",
+  "source": "F14_v287_CAPTIVE_M3_SEGMENT_CLAMPS.FCStd",
+  "rows": [
+    {
+      "side": "L",
+      "valid": true,
+      "clamp_intersection_mm3": 130.60543577187775,
+      "clamp_distance_mm": 0.0,
+      "critical_intersections_mm3": {
+        "BATTERY_TRAY_v165": 0.0,
+        "BATTERY_REFERENCE_PACK": 0.0,
+        "V225_SERVO_SERVICE": 0.0,
+        "V225_SYNC_YOKE_M4_20": 0.0,
+        "V221_CASSETTE_R": 0.0,
+        "V221_CASSETTE_L": 0.0,
+        "V233_TORQ_TCM1022_R": 0.0,
+        "V233_TORQ_TCM1022_L": 0.0,
+        "V247_TAIL_SERVO_CRADLE_R": 0.0,
+        "V247_TAIL_SERVO_CRADLE_L": 0.0,
+        "V229_ESC_SERVICE_R": 0.0,
+        "V229_ESC_SERVICE_L": 0.0
+      },
+      "max_critical_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "valid": true,
+      "clamp_intersection_mm3": 80.66995285360221,
+      "clamp_distance_mm": 0.0,
+      "critical_intersections_mm3": {
+        "BATTERY_TRAY_v165": 0.0,
+        "BATTERY_REFERENCE_PACK": 0.0,
+        "V225_SERVO_SERVICE": 0.0,
+        "V225_SYNC_YOKE_M4_20": 0.0,
+        "V221_CASSETTE_R": 0.0,
+        "V221_CASSETTE_L": 0.0,
+        "V233_TORQ_TCM1022_R": 0.0,
+        "V233_TORQ_TCM1022_L": 0.0,
+        "V247_TAIL_SERVO_CRADLE_R": 0.0,
+        "V247_TAIL_SERVO_CRADLE_L": 0.0,
+        "V229_ESC_SERVICE_R": 0.0,
+        "V229_ESC_SERVICE_L": 0.0
+      },
+      "max_critical_intersection_mm3": 0.0
+    }
+  ],
+  "gates": {
+    "both_corridors_valid": true,
+    "both_reach_clamps": true,
+    "no_critical_hardware_intersection": true,
+    "final_shell_access_hole_frozen": false,
+    "tool_fit_bench_required": true,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "fdb681ff1d46f6abdb1fa4c8b0f15b27a1f21fbe777a067b25b8fc110bb1305c"
+}

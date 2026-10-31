@@ -1,0 +1,23 @@
+{
+  "status": "V289_FINAL_RETENTION_MASS_DELTA",
+  "candidate": "v288",
+  "v285_reserve_range_g": [
+    18.361051003418822,
+    18.913971310450624
+  ],
+  "v271_clamp_mass_g": 2.253238409441419,
+  "v287_captive_M3_clamp_mass_g": 3.1078777474822163,
+  "clamp_mass_delta_g": 0.8546393380407973,
+  "reserve_after_v287_range_g": [
+    17.506411665378025,
+    18.059331972409826
+  ],
+  "gates": {
+    "reserve_ge_17p5g": true,
+    "actual_M3_fastener_mass_measured": false,
+    "actual_nut_fit_measured": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

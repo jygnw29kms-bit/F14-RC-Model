@@ -1,0 +1,99 @@
+{
+  "status": "V287_CAPTIVE_M3_SEGMENT_CLAMPS",
+  "source": "F14_v285_CONSOLIDATED_8X6_LIGHT_TAIL.FCStd",
+  "architecture": {
+    "CF_tube_cross_drilled": false,
+    "captive_M3_hex_nut": true,
+    "X620_excluded": true,
+    "actual_nut_measurement_required": true
+  },
+  "rows": [
+    {
+      "cut_x_mm": 220,
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 0.9951442232344068,
+      "mass_PPA_CF_g": 0.49547443228204135,
+      "critical_hardware_min_distance_mm": 13.332192495626924,
+      "M3_clearance_d_mm": 3.2,
+      "nut_pocket_AF_mm": 5.7,
+      "nut_pocket_depth_mm": 2.8
+    },
+    {
+      "cut_x_mm": 220,
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 0.9969860873571109,
+      "mass_PPA_CF_g": 0.49547443228204135,
+      "critical_hardware_min_distance_mm": 13.332192495626924,
+      "M3_clearance_d_mm": 3.2,
+      "nut_pocket_AF_mm": 5.7,
+      "nut_pocket_depth_mm": 2.8
+    },
+    {
+      "cut_x_mm": 440,
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.5629900091770919,
+      "critical_hardware_min_distance_mm": 14.360988389732332,
+      "M3_clearance_d_mm": 3.2,
+      "nut_pocket_AF_mm": 5.7,
+      "nut_pocket_depth_mm": 2.8
+    },
+    {
+      "cut_x_mm": 440,
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.5629900091770954,
+      "critical_hardware_min_distance_mm": 14.360988389732332,
+      "M3_clearance_d_mm": 3.2,
+      "nut_pocket_AF_mm": 5.7,
+      "nut_pocket_depth_mm": 2.8
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.4954744322819698,
+      "critical_hardware_min_distance_mm": 124.25139838247294,
+      "M3_clearance_d_mm": 3.2,
+      "nut_pocket_AF_mm": 5.7,
+      "nut_pocket_depth_mm": 2.8
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.49547443228197663,
+      "critical_hardware_min_distance_mm": 124.25139838247294,
+      "M3_clearance_d_mm": 3.2,
+      "nut_pocket_AF_mm": 5.7,
+      "nut_pocket_depth_mm": 2.8
+    }
+  ],
+  "mass": {
+    "PPA_CF_screen_g": 3.1078777474822163
+  },
+  "gates": {
+    "all_valid_single_solids": true,
+    "containment_ge_0p98": true,
+    "critical_hardware_clearance_positive": true,
+    "mass_lt_5g": true,
+    "actual_M3_nut_fit_measured": false,
+    "bench_clamp_force_test_required": true,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "04989b673977135029bdbbe476efea066b2e4bb72192a2d67296337669eb74ad"
+}
