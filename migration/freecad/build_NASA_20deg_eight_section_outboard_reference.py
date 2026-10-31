@@ -1,0 +1,18 @@
+from pathlib import Path
+import FreeCAD as A,Part,json,hashlib
+R=Path(__file__).resolve().parents[2];P=R/'analysis/original_front_sources';H=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();names=['NASA_CR172559_20deg_root_break_profiles.json','NASA_CR172559_combined20_span164p01460_profile.json','NASA_CR172559_combined20_span200p79919_profile.json'];ds=[json.loads((P/n).read_text()) for n in names]; profiles=[(ds[0]['common_chord_grid_xc'],ds[0]['rows'][1])]+[(d['grid_xc'],d) for d in ds[1:]]
+extra=['NASA_CR172559_combined20_span237_274_profiles.json','NASA_CR172559_combined20_span274p36816_complete_profile.json','NASA_CR172559_combined20_span311p15283_profile.json','NASA_CR172559_combined20_span347p93726_profile.json','NASA_CR172559_combined20_span384p69995_profile.json']
+for n in extra:
+ d=json.loads((P/n).read_text()); profiles.append((d['common_chord_grid_xc'],d['rows'][0]) if 'rows' in d else (d['grid_xc'],d))
+names+=extra
+assert len(profiles)==8 and [r['header_raw_fields'][1] for g,r in profiles]==[127.24,164.01460,200.79919,237.58369,274.36816,311.15283,347.93726,384.69995]
+path=R/'migration/freecad/NASA_20DEG_EIGHT_SECTION_OUTBOARD_REFERENCE_ONLY.FCStd';out=P/'NASA_20deg_eight_section_outboard_native_audit.json';assert not path.exists() and not out.exists();m=R/'migration/freecad/F14_CURRENT_FULL_VIEW_v192.FCStd';mh=H(m);wires=[];sections=[]
+for g,r in profiles:
+ h=r['header_raw_fields'];c=h[2]-h[0];pairs=list(zip(g,r['ordinate_upper']))+list(reversed(list(zip(g,r['ordinate_lower']))))[:-1];p=[(h[0]+x*c,h[5]+z*c) for x,z in pairs];v=[A.Vector(x,h[1],z) for x,z in p];w=Part.makePolygon(v+[v[0]]);assert w.isClosed() and w.isValid();wires.append(w);sections.append((h[1],p))
+def area(p):return abs(sum(x*p[(i+1)%len(p)][1]-p[(i+1)%len(p)][0]*z for i,(x,z) in enumerate(p))/2)
+expected=0
+for (y,p),(yy,q) in zip(sections,sections[1:]):
+ mid=[((x+xx)/2,(z+zz)/2) for (x,z),(xx,zz) in zip(p,q)];expected+=(yy-y)*(area(p)+4*area(mid)+area(q))/6
+s=Part.makeLoft(wires,True,True);assert s.isValid() and len(s.Solids)==1 and abs(s.Volume-expected)<1e-5
+D=A.newDocument('EIGHT_SECTION_OUTBOARD_SOURCE_REFERENCE');o=D.addObject('PartDesign::Feature','CONDITIONAL_EIGHT_SECTION_OUTBOARD');o.Shape=s;o.addProperty('App::PropertyString','Limits');o.Limits='Source units=display mm only. Conditional X=XPL+xc*chord,Y=rawspan,Z=field6+ordinate*chord. Source span127.24..384.69995. No bridge to127.22, no physical registration or production release.';D.recompute();D.saveAs(str(path));A.closeDocument(D.Name);D=A.openDocument(str(path));s=D.Objects[0].Shape;assert s.isValid() and len(s.Solids)==1;volume=s.Volume;faces=len(s.Faces);assert abs(volume-expected)<1e-5;A.closeDocument(D.Name);assert H(m)==mh
+out.write_text(json.dumps({'status':'CONDITIONAL_EIGHT_SECTION_OUTBOARD_SOLID_SAVED_REOPENED','input_sha256':{n:H(P/n) for n in names},'output_sha256':H(path),'master_sha256_unchanged':mh,'source_span_range':[127.24,384.69995],'valid':True,'solids':1,'faces':faces,'native_volume_display_units_cubed':volume,'independent_prismoidal_volume':expected,'volume_difference':abs(volume-expected),'limits':['Eight combined computational source sections; not a complete aircraft or factory wing','Ruled interpolation is a reconstruction choice','No bridge across127.22/127.24 break; source transcription requires independent corroboration','Conditional source XYZ; display units not physical model scale','No factory OML, pivot/body registration or structural acceptance'],'print_release':False,'flight_release':False},indent=2)+'\n');print(volume,expected,faces)
