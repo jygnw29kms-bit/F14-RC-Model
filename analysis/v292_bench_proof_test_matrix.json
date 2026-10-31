@@ -1,0 +1,80 @@
+{
+  "status": "V292_BENCH_PROOF_TEST_MATRIX",
+  "candidate": "v288 + v290/v291 manufacturing gates",
+  "rows": [
+    {
+      "test": "WING_JOINER_ASSEMBLY",
+      "design_basis": "v282 three 8x6 joiners per wing",
+      "design_load": {
+        "seam_moment_Nm": 8.431742068454017
+      },
+      "proof_target": {
+        "factor": 1.5,
+        "seam_moment_Nm": 12.647613102681026
+      },
+      "pass": [
+        "no visible cracking, tube slip or sleeve debond",
+        "permanent tip/set after unload <=0.5 mm at measurement point",
+        "no clamp/key damage"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "test": "TAIL_ROOT_FITTING_TORSION",
+      "design_basis": "existing severe taileron chain screen / light v284 fitting",
+      "design_load": {
+        "torque_Nm": 0.67
+      },
+      "proof_target": {
+        "factor": 2.0,
+        "torque_Nm": 1.34
+      },
+      "pass": [
+        "no D-bore slip",
+        "no bond-line crack or frame delamination",
+        "angular backlash increase <=0.25 deg after unload"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "test": "SEGMENT_C_RING_CLAMP",
+      "design_basis": "v287 captive M3 C-ring retention",
+      "proof_target": {
+        "axial_pull_N": 100,
+        "cycles": 25
+      },
+      "pass": [
+        "no rider sleeve axial slip >0.2 mm",
+        "no nut-pocket rotation or cracking",
+        "M3 fastener remains removable after cycling"
+      ],
+      "note": "100 N is a retention/service proof target, not a claimed flight load derived from aero model",
+      "status": "OPEN"
+    },
+    {
+      "test": "EDF_ADAPTER_RING",
+      "design_basis": "v291 split adapter ring family",
+      "proof_target": {
+        "thermal_cycles": 3,
+        "temperature_range_C": [
+          20,
+          70
+        ],
+        "axial_pull_N": 50
+      },
+      "pass": [
+        "no shroud crushing/ovalisation",
+        "no adapter crack or creep preventing removal",
+        "measured OD unchanged within 0.1 mm after cycle"
+      ],
+      "note": "final temperature target to be checked against actual measured EDF/ESC bay temperature",
+      "status": "OPEN"
+    }
+  ],
+  "gates": {
+    "all_tests_defined": true,
+    "all_tests_passed": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

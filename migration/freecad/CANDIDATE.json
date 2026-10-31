@@ -27,7 +27,8 @@
                             "manufacturing/fit_coupons/v291_edf_interchangeable_adapter_rings_audit.json",
                             "migration/freecad/freecad_v287_captive_m3_segment_clamps_audit.json",
                             "migration/freecad/freecad_v288_x440_clamp_tool_access_audit.json",
-                            "analysis/v289_final_retention_mass_delta.json"
+                            "analysis/v289_final_retention_mass_delta.json",
+                            "analysis/v292_bench_proof_test_matrix.json"
                         ],
     "promotion_blockers":  [
                                "absolute fuselage/nacelle WL registration remains unverified; CR3992 Figure 48/50 provide shape evidence but no calibrated production FS/WL mapping",
