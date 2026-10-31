@@ -5,7 +5,9 @@
     "supplemental_review":  "migration/freecad/F14_v288_X440_CLAMP_TOOL_ACCESS.FCStd",
     "manufacturing_coupon_sets":  [
                                       "manufacturing/fit_coupons/F14_v274_CF_SLEEVE_CLAMP_COUPON.FCStd",
-                                      "manufacturing/fit_coupons/F14_v286_TAIL_ROOT_FIT_COUPON.FCStd"
+                                      "manufacturing/fit_coupons/F14_v286_TAIL_ROOT_FIT_COUPON.FCStd",
+                                      "manufacturing/fit_coupons/F14_v290_EDF_OD_ACCEPTANCE_GAUGES.FCStd",
+                                      "manufacturing/fit_coupons/F14_v291_EDF_INTERCHANGEABLE_ADAPTER_RINGS.FCStd"
                                   ],
     "required_audits":  [
                             "analysis/v246_cr3992_wing_wl_transform_gate.json",
@@ -21,13 +23,15 @@
                             "migration/freecad/freecad_v285_consolidated_8x6_light_tail_audit.json",
                             "manufacturing/fit_coupons/v274_cf_sleeve_clamp_coupon_audit.json",
                             "manufacturing/fit_coupons/v286_tail_root_fit_coupon_audit.json",
+                            "manufacturing/fit_coupons/v290_edf_od_acceptance_gauges_audit.json",
+                            "manufacturing/fit_coupons/v291_edf_interchangeable_adapter_rings_audit.json",
                             "migration/freecad/freecad_v287_captive_m3_segment_clamps_audit.json",
                             "migration/freecad/freecad_v288_x440_clamp_tool_access_audit.json",
                             "analysis/v289_final_retention_mass_delta.json"
                         ],
     "promotion_blockers":  [
                                "absolute fuselage/nacelle WL registration remains unverified; CR3992 Figure 48/50 provide shape evidence but no calibrated production FS/WL mapping",
-                               "actual EDF shroud outer diameter remains unverified and aft-nacelle EDF mount is therefore not frozen",
+                               "actual EDF shroud outer diameter remains unverified; v290 measurement gauges and v291 interchangeable 55.2 mm carrier rings cover measured shroud OD 52.0-53.2 mm, but aft-nacelle EDF mount remains unfrozen until the real unit is measured",
                                "X620 aft-nacelle segment joiner and retention remain provisional and intentionally omitted",
                                "8x6 CF material family is datasheet-backed but purchased lot minimum strength and proof load remain open",
                                "wing adhesive bond, sleeve clearance and C-ring clamp force require printed coupon/bench verification",

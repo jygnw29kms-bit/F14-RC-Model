@@ -1,0 +1,61 @@
+{
+  "status": "V291_EDF_INTERCHANGEABLE_ADAPTER_RINGS",
+  "carrier_OD_mm": 55.2,
+  "axial_width_mm": 10.0,
+  "rows": [
+    {
+      "carrier_OD_mm": 55.2,
+      "shroud_ID_mm": 52.0,
+      "radial_wall_mm": 1.6000000000000014,
+      "valid": true,
+      "solid_count": 1,
+      "stl": "EDF_ADAPTER_OD55p2_ID52p0.stl",
+      "production_allowed_only_after_actual_shroud_measurement": true
+    },
+    {
+      "carrier_OD_mm": 55.2,
+      "shroud_ID_mm": 52.5,
+      "radial_wall_mm": 1.3500000000000014,
+      "valid": true,
+      "solid_count": 1,
+      "stl": "EDF_ADAPTER_OD55p2_ID52p5.stl",
+      "production_allowed_only_after_actual_shroud_measurement": true
+    },
+    {
+      "carrier_OD_mm": 55.2,
+      "shroud_ID_mm": 53.0,
+      "radial_wall_mm": 1.1000000000000014,
+      "valid": true,
+      "solid_count": 1,
+      "stl": "EDF_ADAPTER_OD55p2_ID53p0.stl",
+      "production_allowed_only_after_actual_shroud_measurement": true
+    },
+    {
+      "carrier_OD_mm": 55.2,
+      "shroud_ID_mm": 53.2,
+      "radial_wall_mm": 1.0,
+      "valid": true,
+      "solid_count": 1,
+      "stl": "EDF_ADAPTER_OD55p2_ID53p2.stl",
+      "production_allowed_only_after_actual_shroud_measurement": true
+    }
+  ],
+  "decision": {
+    "accepted_measured_shroud_OD_range_mm": [
+      52.0,
+      53.2
+    ],
+    "OD_gt_53p2_requires_mount_redesign": true,
+    "rings_are_hardware_fit_candidates_not_aft_nacelle_OML_release": true
+  },
+  "gates": {
+    "all_valid": true,
+    "min_radial_wall_ge_1mm": true,
+    "actual_X5_OD_measured": false,
+    "clamp_force_bench_tested": false,
+    "aft_nacelle_OML_registered": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "b93e514f669ee8161f2a9d885335281e6193369dd892d657f59239944a5e805c"
+}

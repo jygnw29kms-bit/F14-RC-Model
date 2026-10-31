@@ -1,0 +1,73 @@
+{
+  "status": "V290_EDF_OD_ACCEPTANCE_GAUGES",
+  "hardware": "XFly Galaxy X5 50mm 4S candidate",
+  "published_facts": {
+    "internal_diameter_mm": 50,
+    "external_diameter_published": false,
+    "current_A": 40,
+    "thrust_g": 900
+  },
+  "gauges": [
+    {
+      "nominal_OD_mm": 52.0,
+      "valid": true,
+      "solid_count": 1,
+      "stl": "EDF_OD_GAUGE_52p0.stl",
+      "use": "largest gauge that fits without force bounds measured shroud OD; verify with caliper"
+    },
+    {
+      "nominal_OD_mm": 52.5,
+      "valid": true,
+      "solid_count": 1,
+      "stl": "EDF_OD_GAUGE_52p5.stl",
+      "use": "largest gauge that fits without force bounds measured shroud OD; verify with caliper"
+    },
+    {
+      "nominal_OD_mm": 53.0,
+      "valid": true,
+      "solid_count": 1,
+      "stl": "EDF_OD_GAUGE_53p0.stl",
+      "use": "largest gauge that fits without force bounds measured shroud OD; verify with caliper"
+    },
+    {
+      "nominal_OD_mm": 53.2,
+      "valid": true,
+      "solid_count": 1,
+      "stl": "EDF_OD_GAUGE_53p2.stl",
+      "use": "largest gauge that fits without force bounds measured shroud OD; verify with caliper"
+    },
+    {
+      "nominal_OD_mm": 53.5,
+      "valid": true,
+      "solid_count": 1,
+      "stl": "EDF_OD_GAUGE_53p5.stl",
+      "use": "largest gauge that fits without force bounds measured shroud OD; verify with caliper"
+    },
+    {
+      "nominal_OD_mm": 54.0,
+      "valid": true,
+      "solid_count": 1,
+      "stl": "EDF_OD_GAUGE_54p0.stl",
+      "use": "largest gauge that fits without force bounds measured shroud OD; verify with caliper"
+    }
+  ],
+  "existing_adapter_gate": {
+    "max_shroud_OD_mm": 53.2,
+    "note": "engineering acceptance limit from prior carrier corridor, not a claimed XFly dimension"
+  },
+  "measurement_protocol": [
+    "measure bare cylindrical shroud body with caliper at >=3 axial positions and 2 orthogonal directions",
+    "use C-gauges only as print/process sanity check, not as substitute for caliper",
+    "record intake lip OD separately",
+    "freeze production adapter only after actual unit measurement"
+  ],
+  "gates": {
+    "all_gauges_valid": true,
+    "actual_X5_shroud_OD_measured": false,
+    "actual_X5_lip_OD_measured": false,
+    "adapter_OD_frozen": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "9d52d7d40f29b8088e36c3f5135d20307e34e0943ee2f363090228ac8ced3ea1"
+}
