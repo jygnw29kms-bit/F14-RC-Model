@@ -1,0 +1,32 @@
+{
+  "status": "V248_TAIL_SERVO_MOUNT_INTEGRATED",
+  "shape_count": 122,
+  "all_shapes_valid": true,
+  "tail_servo_cradle_pair_PPA_CF_g": 8.500000000000002,
+  "mass_budget": {
+    "reserve_before_cradles_g": 27.9194097652027,
+    "reserve_after_cradles_g": 19.4194097652027,
+    "projected_AUW_g": 1174.574700301657,
+    "margin_to_1200_g": 25.425299698342997
+  },
+  "required_objects": {
+    "V247_TAIL_SERVO_CRADLE_R": true,
+    "V247_TAIL_SERVO_CRADLE_L": true,
+    "V233_TORQ_TCM1022_R": true,
+    "V233_TORQ_TCM1022_L": true,
+    "V241_LIGHT_D_CRANK_R": true,
+    "V241_LIGHT_D_CRANK_L": true,
+    "V237_D_SHAFT_R": true,
+    "V237_D_SHAFT_L": true
+  },
+  "gates": {
+    "cradle_integrated": true,
+    "reserve_remaining_positive": true,
+    "exact_TCM1022_CB2_spline_offset_measured": false,
+    "clamp_strap_fastener_pattern_frozen": false,
+    "bench_fit_required": true,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "775c92c1a48f9a384ce3238676573bc93e267edeac42c096a0ef7336065c6fdc"
+}

@@ -1,0 +1,59 @@
+{
+  "status": "V247_ADJUSTABLE_TAIL_SERVO_CRADLE",
+  "geometry": {
+    "x_range_mm": [
+      682,
+      718
+    ],
+    "x_adjustment_from_nominal_mm": 4.0,
+    "frame_thickness_mm": 2.0,
+    "guide_height_mm": 16.0,
+    "servo_body_nominal_mm": [
+      23,
+      27.5,
+      12
+    ]
+  },
+  "rows": [
+    {
+      "side": "R",
+      "valid": true,
+      "solids": 1,
+      "volume_cm3": 3.400000000000001,
+      "mass_PPA_CF_g": 4.250000000000001,
+      "servo_intersection_mm3": 0.0,
+      "containment_fraction": 1.0,
+      "to_crank_mm": 11.007898333465619,
+      "to_root_fitting_mm": 7.4896490161594995,
+      "to_service_envelope_mm": 0.0
+    },
+    {
+      "side": "L",
+      "valid": true,
+      "solids": 1,
+      "volume_cm3": 3.400000000000001,
+      "mass_PPA_CF_g": 4.250000000000001,
+      "servo_intersection_mm3": 0.0,
+      "containment_fraction": 1.0,
+      "to_crank_mm": 11.007898333465619,
+      "to_root_fitting_mm": 7.4896490161594995,
+      "to_service_envelope_mm": 0.0
+    }
+  ],
+  "mass": {
+    "pair_PPA_CF_g": 8.500000000000002
+  },
+  "gates": {
+    "valid": true,
+    "no_servo_body_intersection": true,
+    "fuselage_containment_ge_0p995": true,
+    "crank_clearance_ge_3mm": true,
+    "root_fitting_clearance_ge_3mm": true,
+    "exact_servo_ear_pattern_required": false,
+    "exact_spline_x_offset_required_for_mount": false,
+    "clamp_strap_detail_open": true,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "51da6dc05a8d963dd940d1bab7fa70316f5a0d7391fc5729d09f9060464f187f"
+}
