@@ -1,0 +1,26 @@
+{
+  "status": "V294_X620_JOINER_MASS_DELTA",
+  "reserve_before_range_g": [
+    17.506411665378025,
+    18.059331972409826
+  ],
+  "x620_joiner_mass_range_g": [
+    8.1555745287191,
+    8.859291283123214
+  ],
+  "reserve_after_worst_pairing_range_g": [
+    8.64712038225481,
+    9.903757443690726
+  ],
+  "decision": {
+    "geometry_prepared": true,
+    "promote_to_master_now": false,
+    "reason": "retention/tool-access and aft-nacelle OML still open; reserve remains positive but drops below 10 g in conservative pairing"
+  },
+  "gates": {
+    "reserve_remains_positive": true,
+    "reserve_ge_10g_conservative": false,
+    "X620_retention_defined": false,
+    "flight_release": false
+  }
+}
