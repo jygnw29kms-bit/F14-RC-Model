@@ -1,0 +1,119 @@
+{
+  "status": "V249_P2S_SAFE_SEGMENTATION_SCREEN",
+  "safe_build_cube_mm": [
+    250.0,
+    250.0,
+    250.0
+  ],
+  "wing": {
+    "source_seam": {
+      "WBL_in": 274.36816,
+      "model_abs_y_mm": 320.94018208216556
+    },
+    "parts": [
+      {
+        "name": "WING_INNER",
+        "y_abs": [
+          148.8263775443693,
+          320.94018208216556
+        ],
+        "spanwise_extent_mm": 172.11380453779626,
+        "spanwise_within_safe": true,
+        "chordwise_bbox_max_mm": 161.33352499785872,
+        "z_extent_mm": 21.519639534772523,
+        "bbox_axes_within_safe": true
+      },
+      {
+        "name": "WING_OUTER",
+        "y_abs": [
+          320.94018208216556,
+          450.0
+        ],
+        "spanwise_extent_mm": 129.05981791783444,
+        "spanwise_within_safe": true,
+        "chordwise_bbox_max_mm": 161.33352499785872,
+        "z_extent_mm": 21.519639534772523,
+        "bbox_axes_within_safe": true
+      }
+    ],
+    "decision": "split each moving wing at exact CR3992 defining WBL 274.36816; add structural join only after spar/load-path audit"
+  },
+  "fuselage_modules": [
+    {
+      "name": "NOSE",
+      "x": [
+        0.5,
+        220.0
+      ],
+      "split_y": false,
+      "length_mm": 219.5,
+      "max_piece_width_mm": 319.23,
+      "length_within_safe": true,
+      "width_within_safe": "LOCAL_GEOMETRY_CHECK_REQUIRED"
+    },
+    {
+      "name": "FORWARD_CENTER",
+      "x": [
+        220.0,
+        440.0
+      ],
+      "split_y": true,
+      "length_mm": 220.0,
+      "max_piece_width_mm": 159.615,
+      "length_within_safe": true,
+      "width_within_safe": true
+    },
+    {
+      "name": "WINGBOX_CENTER",
+      "x": [
+        440.0,
+        620.0
+      ],
+      "split_y": true,
+      "length_mm": 180.0,
+      "max_piece_width_mm": 159.615,
+      "length_within_safe": true,
+      "width_within_safe": true
+    },
+    {
+      "name": "AFT_NACELLE",
+      "x": [
+        620.0,
+        840.0
+      ],
+      "split_y": true,
+      "length_mm": 220.0,
+      "max_piece_width_mm": 159.615,
+      "length_within_safe": true,
+      "width_within_safe": true
+    },
+    {
+      "name": "TAIL_END",
+      "x": [
+        840.0,
+        879.0
+      ],
+      "split_y": false,
+      "length_mm": 39.0,
+      "max_piece_width_mm": 319.23,
+      "length_within_safe": true,
+      "width_within_safe": "LOCAL_GEOMETRY_CHECK_REQUIRED"
+    }
+  ],
+  "service_constraints": [
+    "wingbox/pivot cassette remains removable central module",
+    "battery 70 mm travel corridor must remain accessible",
+    "sweep servo and yoke require top/bottom service access",
+    "tail servo cradle must remain removable",
+    "EDF aft-nacelle cuts remain provisional until nacelle OML/Z gate closes"
+  ],
+  "gates": {
+    "wing_bbox_safe_after_source_station_split": true,
+    "central_fuselage_half_modules_length_width_safe": true,
+    "nose_local_width_verified": false,
+    "tail_end_local_width_verified": false,
+    "aft_nacelle_final_cut_frozen": false,
+    "joiner_geometry_designed": false,
+    "print_release": false
+  }
+}

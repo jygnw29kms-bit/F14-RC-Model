@@ -1,0 +1,85 @@
+{
+  "status": "V250_PRINT_SEGMENTATION_REVIEW",
+  "source": "F14_v248_TAIL_SERVO_MOUNT_INTEGRATED.FCStd",
+  "safe_build_cube_mm": [
+    250,
+    250,
+    250
+  ],
+  "longitudinal_cut_planes_mm": [
+    220,
+    440,
+    620,
+    840
+  ],
+  "wing_seam": {
+    "source": "CR3992 Appendix 2 defining station",
+    "WBL_in": 274.36816,
+    "model_abs_y_mm": 320.94018208216556
+  },
+  "modules": [
+    {
+      "name": "NOSE",
+      "x": [
+        0.5,
+        220.0
+      ],
+      "max_width_mm": 76.54,
+      "split_y": false,
+      "length_mm": 219.5
+    },
+    {
+      "name": "FORWARD_CENTER_LR",
+      "x": [
+        220,
+        440
+      ],
+      "max_piece_width_mm": 159.615,
+      "split_y": true,
+      "length_mm": 220
+    },
+    {
+      "name": "WINGBOX_CENTER_LR",
+      "x": [
+        440,
+        620
+      ],
+      "max_piece_width_mm": 159.615,
+      "split_y": true,
+      "length_mm": 180
+    },
+    {
+      "name": "AFT_NACELLE_LR",
+      "x": [
+        620,
+        840
+      ],
+      "max_piece_width_mm": 159.615,
+      "split_y": true,
+      "final_cut_provisional": true,
+      "length_mm": 220
+    },
+    {
+      "name": "TAIL_END",
+      "x": [
+        840,
+        879
+      ],
+      "max_width_mm": 196.018,
+      "split_y": false,
+      "length_mm": 39
+    }
+  ],
+  "gates": {
+    "all_module_lengths_le_250": true,
+    "nose_width_le_250": true,
+    "tail_width_le_250": true,
+    "central_half_width_le_250": true,
+    "wing_parts_bbox_axes_le_250": true,
+    "aft_nacelle_final_seam_frozen": false,
+    "joiner_design_complete": false,
+    "service_hatches_complete": false,
+    "print_release": false
+  },
+  "sha256": "209855dfd46424bbf38f6ed556572f5f9bafcef20c89b13eb84994f42958aa92"
+}
