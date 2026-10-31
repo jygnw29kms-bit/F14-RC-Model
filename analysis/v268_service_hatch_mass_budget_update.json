@@ -1,0 +1,17 @@
+{
+  "status": "V268_SERVICE_HATCH_MASS_BUDGET_UPDATE",
+  "source_projected_AUW_g": 1174.574700301657,
+  "reserve_before_service_flange_g": 19.4194097652027,
+  "service_flange_PPA_CF_screen_g": 8.78724,
+  "reserve_after_service_flange_g": 10.6321697652027,
+  "margin_to_1200_g": 25.425299698342997,
+  "interpretation": "Flange mass is allocated from existing reserve; projected AUW is not double-added.",
+  "gates": {
+    "reserve_remaining_positive": true,
+    "reserve_remaining_ge_10g": true,
+    "actual_print_mass_measured": false,
+    "fastener_mass_measured": false,
+    "AUW_frozen": false,
+    "flight_release": false
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "status": "V262_SOURCE_STATION_WING_SEGMENTS",
+  "source_table": "NASA CR-3992 Appendix 2 basic Grumman wing",
+  "seam": {
+    "index": 4,
+    "WBL_in": 274.36816,
+    "abs_y_mm": 320.94018208216556
+  },
+  "transform": {
+    "x_nose_shift_mm": -108.7860812043256,
+    "z_sourceWL_to_local_mm": -187.59240693460868
+  },
+  "bond_cavities": {
+    "diameter_mm": 6.3,
+    "embed_each_side_mm": 20
+  },
+  "rows": [
+    {
+      "side": "R",
+      "segment": "INNER",
+      "valid": true,
+      "solid_count": 1,
+      "bounds_mm": {
+        "x": [
+          479.4839172711096,
+          635.0740986579281
+        ],
+        "y": [
+          148.8263775443693,
+          320.94018208216556
+        ],
+        "z": [
+          -8.722078842936213,
+          9.094380028581725
+        ]
+      },
+      "bbox_extents_mm": [
+        155.59018138681847,
+        172.11380453779626,
+        17.816458871517938
+      ],
+      "volume_cm3": 162.60472245651192,
+      "p2s_safe_250_cube": true
+    },
+    {
+      "side": "R",
+      "segment": "OUTER",
+      "valid": true,
+      "solid_count": 1,
+      "bounds_mm": {
+        "x": [
+          542.0361479121585,
+          640.8174422689683
+        ],
+        "y": [
+          320.94018208216556,
+          449.99999999999994
+        ],
+        "z": [
+          -12.425259506190798,
+          0.25329226550817907
+        ]
+      },
+      "bbox_extents_mm": [
+        98.78129435680978,
+        129.05981791783438,
+        12.678551771698977
+      ],
+      "volume_cm3": 45.34541028336166,
+      "p2s_safe_250_cube": true
+    },
+    {
+      "side": "L",
+      "segment": "INNER",
+      "valid": true,
+      "solid_count": 1,
+      "bounds_mm": {
+        "x": [
+          479.4839172711096,
+          635.0740986579281
+        ],
+        "y": [
+          -320.94018208216556,
+          -148.8263775443693
+        ],
+        "z": [
+          -8.722078842936213,
+          9.094380028581725
+        ]
+      },
+      "bbox_extents_mm": [
+        155.59018138681847,
+        172.11380453779626,
+        17.816458871517938
+      ],
+      "volume_cm3": 162.604722456512,
+      "p2s_safe_250_cube": true
+    },
+    {
+      "side": "L",
+      "segment": "OUTER",
+      "valid": true,
+      "solid_count": 1,
+      "bounds_mm": {
+        "x": [
+          542.0361479121585,
+          640.8174422689683
+        ],
+        "y": [
+          -449.99999999999994,
+          -320.94018208216556
+        ],
+        "z": [
+          -12.425259506190798,
+          0.25329226550817907
+        ]
+      },
+      "bbox_extents_mm": [
+        98.78129435680978,
+        129.05981791783438,
+        12.678551771698977
+      ],
+      "volume_cm3": 45.345410369372644,
+      "p2s_safe_250_cube": true
+    }
+  ],
+  "gates": {
+    "four_segments_created": true,
+    "all_valid_single_solids": true,
+    "all_segment_bbox_axes_le_250": true,
+    "source_station_exact_split": true,
+    "adhesive_verified": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "342c347f201f5ffbc844c18c47a167131650d0c926b20ae614f98d17d8985c45"
+}

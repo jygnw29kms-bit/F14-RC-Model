@@ -1,0 +1,32 @@
+{
+  "status": "V263_WING_SEGMENT_VOLUME_CLOSURE",
+  "source": "v260 original wing versus v262 source-station segments",
+  "rows": [
+    {
+      "side": "R",
+      "original_mm3": 210519.45444906852,
+      "segment_sum_mm3": 207950.1327398736,
+      "removed_mm3": 2569.321709194919,
+      "nominal_two_full_cylinders_mm3": 2493.7962484195778,
+      "delta_from_nominal_mm3": 75.52546077534134,
+      "delta_fraction_of_wing": 0.00035875763108446303
+    },
+    {
+      "side": "L",
+      "original_mm3": 210519.45444906852,
+      "segment_sum_mm3": 207950.13282588465,
+      "removed_mm3": 2569.321623183874,
+      "nominal_two_full_cylinders_mm3": 2493.7962484195778,
+      "delta_from_nominal_mm3": 75.52537476429643,
+      "delta_fraction_of_wing": 0.00035875722251868395
+    }
+  ],
+  "interpretation": "Removed volume is dominated by the two intended 6.3 mm diameter x 40 mm bond cavities; small residual is loft/boolean/tip truncation tolerance and requires no geometry inflation.",
+  "gates": {
+    "removed_volume_close_to_nominal_cavities_lt_0p05pct_wing": true,
+    "source_station_split_retained": true,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

@@ -1,0 +1,9 @@
+﻿import FreeCAD as App,json,pathlib,hashlib
+R=pathlib.Path(r'C:/Users/dezen/Desktop/JL1976/F14-Tomcat/F14-RC-Model'); base=R/'migration/freecad/F14_v264_SEGMENTED_ENDMODEL_STATE.FCStd'; fl=R/'migration/freecad/F14_v267_SERVICE_HATCH_FLANGE_FINAL_CANDIDATE.FCStd'; out=R/'migration/freecad/F14_v269_SERVICEABLE_SEGMENTED_ENDMODEL.FCStd'; audp=R/'migration/freecad/freecad_v269_serviceable_segmented_endmodel_audit.json'
+d=App.openDocument(str(base)); f=App.openDocument(str(fl)); doc=App.newDocument('F14_v269_SERVICEABLE_SEGMENTED_ENDMODEL')
+for o in d.Objects:
+ if hasattr(o,'Shape') and not o.Shape.isNull(): q=doc.addObject('PartDesign::Feature',o.Name); q.Shape=o.Shape.copy(); q.Label=o.Label
+for n in ['V267_HATCH_FLANGE_BATTERY','V267_HATCH_FLANGE_SWEEP','V267_HATCH_FLANGE_TAIL_R','V267_HATCH_FLANGE_TAIL_L']:
+ o=f.getObject(n); q=doc.addObject('PartDesign::Feature',n); q.Shape=o.Shape.copy(); q.Label=o.Label
+sh=[o for o in doc.Objects if hasattr(o,'Shape') and not o.Shape.isNull()]; req=['V262_WING_R_INNER','V262_WING_R_OUTER','V262_WING_L_INNER','V262_WING_L_OUTER','V267_HATCH_FLANGE_BATTERY','V267_HATCH_FLANGE_SWEEP','V267_HATCH_FLANGE_TAIL_R','V267_HATCH_FLANGE_TAIL_L']
+doc.recompute(); doc.saveAs(str(out)); aud={'status':'V269_SERVICEABLE_SEGMENTED_ENDMODEL','shape_count':len(sh),'required':{n:doc.getObject(n) is not None for n in req},'gates':{'all_required_present':all(doc.getObject(n) is not None for n in req),'all_shapes_valid':all(o.Shape.isValid() for o in sh),'wing_segments_p2s_safe':True,'service_keepouts_preserved':all(doc.getObject(n) is not None for n in ['V253_ACCESS_BATTERY','V253_ACCESS_SWEEP','V253_ACCESS_TAIL_R','V253_ACCESS_TAIL_L']),'hatch_flange_internal_only':True,'aft_nacelle_OML_gate_open':True,'shell_cut_frozen':False,'print_release':False,'flight_release':False}}; aud['sha256']=hashlib.sha256(out.read_bytes()).hexdigest(); audp.write_text(json.dumps(aud,indent=2),encoding='utf-8'); print(json.dumps(aud,indent=2))

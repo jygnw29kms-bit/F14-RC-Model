@@ -1,0 +1,60 @@
+{
+  "status": "V267_SERVICE_HATCH_FLANGE_FINAL_CANDIDATE",
+  "source": "F14_v264_SEGMENTED_ENDMODEL_STATE.FCStd",
+  "rows": [
+    {
+      "access": "BATTERY",
+      "valid": true,
+      "solid_count": 1,
+      "PPA_CF_mass_g": 3.2961599999999973,
+      "keepout_intersection_mm3": 0.0,
+      "fuselage_containment": 0.9992495784992568,
+      "boss_radius_mm": 2.2,
+      "pilot_hole_d_mm": 2.7
+    },
+    {
+      "access": "SWEEP",
+      "valid": true,
+      "solid_count": 1,
+      "PPA_CF_mass_g": 2.7291600000000042,
+      "keepout_intersection_mm3": 0.0,
+      "fuselage_containment": 1.0,
+      "boss_radius_mm": 2.2,
+      "pilot_hole_d_mm": 2.7
+    },
+    {
+      "access": "TAIL_R",
+      "valid": true,
+      "solid_count": 1,
+      "PPA_CF_mass_g": 1.3809600000000064,
+      "keepout_intersection_mm3": 0.0,
+      "fuselage_containment": 1.0,
+      "boss_radius_mm": 2.2,
+      "pilot_hole_d_mm": 2.7
+    },
+    {
+      "access": "TAIL_L",
+      "valid": true,
+      "solid_count": 1,
+      "PPA_CF_mass_g": 1.3809600000000064,
+      "keepout_intersection_mm3": 0.0,
+      "fuselage_containment": 1.0,
+      "boss_radius_mm": 2.2,
+      "pilot_hole_d_mm": 2.7
+    }
+  ],
+  "mass": {
+    "PPA_CF_screen_g": 8.787240000000015
+  },
+  "gates": {
+    "all_valid": true,
+    "no_keepout_intersection": true,
+    "containment_ge_0p98": true,
+    "total_mass_lt_8g": false,
+    "fastener_hardware_frozen": false,
+    "shell_cut_frozen": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "0766d748f4ae3f7680d2e16ed1cad6e2838d73ea414933450fc49045502c8863"
+}

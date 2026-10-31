@@ -1,0 +1,36 @@
+{
+  "status": "V264_SEGMENTED_ENDMODEL_STATE",
+  "source": "F14_v262_SOURCE_STATION_WING_SEGMENTS.FCStd",
+  "shape_count": 160,
+  "required": {
+    "V262_WING_R_INNER": true,
+    "V262_WING_R_OUTER": true,
+    "V262_WING_L_INNER": true,
+    "V262_WING_L_OUTER": true,
+    "V260_WING_JOINER_R_FWD": true,
+    "V260_WING_JOINER_R_AFT": true,
+    "V260_WING_JOINER_L_FWD": true,
+    "V260_WING_JOINER_L_AFT": true,
+    "V253_ACCESS_BATTERY": true,
+    "V253_ACCESS_SWEEP": true,
+    "V253_ACCESS_TAIL_R": true,
+    "V253_ACCESS_TAIL_L": true,
+    "V221_CASSETTE_R": true,
+    "V221_CASSETTE_L": true,
+    "V225_SERVO_A80BHSF_V2": true,
+    "V247_TAIL_SERVO_CRADLE_R": true,
+    "V247_TAIL_SERVO_CRADLE_L": true
+  },
+  "forbidden_present": [],
+  "gates": {
+    "all_required_present": true,
+    "unsegmented_wings_absent": true,
+    "all_shapes_valid": true,
+    "service_keepouts_retained": true,
+    "aft_nacelle_OML_gate_open": true,
+    "hatch_shell_cuts_frozen": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "aafee6bd0edc6a65496803396a1384792a5bf11c41acf5a0f5485b30464f7a26"
+}

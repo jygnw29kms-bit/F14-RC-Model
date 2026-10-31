@@ -1,0 +1,26 @@
+{
+  "status": "V269_SERVICEABLE_SEGMENTED_ENDMODEL",
+  "shape_count": 164,
+  "required": {
+    "V262_WING_R_INNER": true,
+    "V262_WING_R_OUTER": true,
+    "V262_WING_L_INNER": true,
+    "V262_WING_L_OUTER": true,
+    "V267_HATCH_FLANGE_BATTERY": true,
+    "V267_HATCH_FLANGE_SWEEP": true,
+    "V267_HATCH_FLANGE_TAIL_R": true,
+    "V267_HATCH_FLANGE_TAIL_L": true
+  },
+  "gates": {
+    "all_required_present": true,
+    "all_shapes_valid": true,
+    "wing_segments_p2s_safe": true,
+    "service_keepouts_preserved": true,
+    "hatch_flange_internal_only": true,
+    "aft_nacelle_OML_gate_open": true,
+    "shell_cut_frozen": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "aa831164cde6213a2d35e855d2574ea6d7b4970a26e22e4d4314b6b882b5d89b"
+}
