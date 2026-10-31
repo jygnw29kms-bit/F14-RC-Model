@@ -1,0 +1,66 @@
+{
+  "status": "V295_X620_CAPTIVE_M3_RETENTION_CANDIDATE",
+  "source": "F14_v293_X620_INTERNAL_JOINER_CANDIDATE.FCStd",
+  "architecture": {
+    "X620_retention_defined": true,
+    "receiving_sleeve_C_clamp": true,
+    "CF_tube_cross_drilled": false,
+    "captive_M3_hex_nut": true,
+    "nominal_radial_clamp_gap_mm": 0.1,
+    "actual_nut_measurement_required": true,
+    "aft_nacelle_OML_still_open": true
+  },
+  "rows": [
+    {
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.606621940781014,
+      "critical_hardware_min_distance_mm": 53.88833361684141,
+      "aft_sleeve_clearance_mm": 0.09999999999999924,
+      "aft_sleeve_intersection_mm3": 0.0,
+      "cf_tube_clearance_mm": 1.45,
+      "cf_tube_intersection_mm3": 0.0,
+      "M3_clearance_d_mm": 3.2,
+      "nut_pocket_AF_mm": 5.7,
+      "nut_pocket_depth_mm": 2.8,
+      "clamp_inner_radius_mm": 5.45,
+      "sleeve_outer_radius_mm": 5.3500000000000005
+    },
+    {
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.6066219407810138,
+      "critical_hardware_min_distance_mm": 53.88833361684141,
+      "aft_sleeve_clearance_mm": 0.09999999999999924,
+      "aft_sleeve_intersection_mm3": 0.0,
+      "cf_tube_clearance_mm": 1.45,
+      "cf_tube_intersection_mm3": 0.0,
+      "M3_clearance_d_mm": 3.2,
+      "nut_pocket_AF_mm": 5.7,
+      "nut_pocket_depth_mm": 2.8,
+      "clamp_inner_radius_mm": 5.45,
+      "sleeve_outer_radius_mm": 5.3500000000000005
+    }
+  ],
+  "mass": {
+    "PPA_CF_clamps_screen_g": 1.2132438815620277
+  },
+  "gates": {
+    "all_valid_single_solids": true,
+    "containment_ge_0p98": true,
+    "critical_hardware_clearance_ge_10mm": true,
+    "no_nominal_sleeve_or_tube_interference": true,
+    "mass_lt_2g": true,
+    "actual_M3_nut_fit_measured": false,
+    "bench_clamp_force_test_required": true,
+    "proof_load": false,
+    "aft_nacelle_OML_registered": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "6556e5d8c063c72aecf7e0626fa674779a5c1f33110227340535d84b75e4e170"
+}
