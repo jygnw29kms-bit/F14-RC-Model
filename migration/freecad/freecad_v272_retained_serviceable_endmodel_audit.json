@@ -1,0 +1,32 @@
+{
+  "status": "V272_RETAINED_SERVICEABLE_ENDMODEL",
+  "source": "F14_v271_C_RING_SEGMENT_RETENTION.FCStd",
+  "shape_count": 170,
+  "missing_required": [],
+  "architecture": {
+    "rider_segments_removable": true,
+    "primary_load_path": "CF tube + printed sleeve",
+    "alignment": "v252 keys",
+    "axial_retention": "v271 C-ring M3 clamps",
+    "X620_retention": "provisional / omitted while aft-nacelle OML gate open"
+  },
+  "mass_budget": {
+    "projected_AUW_g": 1174.574700301657,
+    "reserve_before_clamps_g": 10.6321697652027,
+    "v271_clamp_PPA_CF_g": 2.253238409441419,
+    "reserve_after_clamps_g": 8.378931355761281,
+    "M3_fasteners_allocated_to_generic_hardware_budget": true
+  },
+  "gates": {
+    "all_required_present": true,
+    "all_shapes_valid": true,
+    "reserve_remaining_positive": true,
+    "X620_gate_open": true,
+    "actual_M3_fastener_mass_measured": false,
+    "clamp_bench_test_required": true,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "0e3d88b312d75db48338f274205e3042dd005d31ad174d678297ac37d0a47220"
+}

@@ -1,0 +1,60 @@
+{
+  "status": "V279_WING_8X6_3D_VERIFY",
+  "source": "F14_v260_DUAL_WING_SEGMENT_JOINERS.FCStd",
+  "seam": {
+    "WBL_in": 200.79919,
+    "model_y_mm": 234.8834084849764
+  },
+  "tube_OD_ID_mm": [
+    8,
+    6
+  ],
+  "cavity_d_mm": 8.3,
+  "positions_mm": [
+    [
+      "FWD",
+      552.0,
+      -1.0
+    ],
+    [
+      "AFT",
+      562.0,
+      -1.0
+    ]
+  ],
+  "rows": [
+    {
+      "side": "R",
+      "joiner": "FWD",
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0,
+      "tube_to_surface_mm": 0.0
+    },
+    {
+      "side": "R",
+      "joiner": "AFT",
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0,
+      "tube_to_surface_mm": 0.0
+    },
+    {
+      "side": "L",
+      "joiner": "FWD",
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0,
+      "tube_to_surface_mm": 0.0
+    },
+    {
+      "side": "L",
+      "joiner": "AFT",
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0,
+      "tube_to_surface_mm": 0.0
+    }
+  ],
+  "gates": {
+    "all_tubes_contained_ge_0p995": true,
+    "all_cavities_contained_ge_0p995": true,
+    "3d_geometry_upgrade_allowed": true
+  }
+}

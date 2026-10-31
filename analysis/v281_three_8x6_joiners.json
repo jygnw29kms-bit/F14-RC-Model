@@ -1,0 +1,73 @@
+{
+  "status": "V281_THREE_8X6_JOINERS",
+  "source": "F14_v260_DUAL_WING_SEGMENT_JOINERS.FCStd",
+  "seam_WBL_in": 200.79919,
+  "model_y_mm": 234.8834084849764,
+  "positions": [
+    [
+      "FWD",
+      542.0,
+      -1.0
+    ],
+    [
+      "MID",
+      552.0,
+      -1.0
+    ],
+    [
+      "AFT",
+      562.0,
+      -1.0
+    ]
+  ],
+  "rows": [
+    {
+      "side": "R",
+      "joiner": "FWD",
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0
+    },
+    {
+      "side": "R",
+      "joiner": "MID",
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0
+    },
+    {
+      "side": "R",
+      "joiner": "AFT",
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0
+    },
+    {
+      "side": "L",
+      "joiner": "FWD",
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0
+    },
+    {
+      "side": "L",
+      "joiner": "MID",
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0
+    },
+    {
+      "side": "L",
+      "joiner": "AFT",
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0
+    }
+  ],
+  "load_screen": {
+    "seam_moment_Nm": 8.431742068454017,
+    "moment_per_tube_Nm": 2.8105806894846723,
+    "stress_MPa": 81.79525662904923,
+    "FOS_250MPa_typical_lower": 3.0564119522697797
+  },
+  "gates": {
+    "all_tubes_contained_ge_0p995": true,
+    "all_cavities_contained_ge_0p995": true,
+    "FOS_ge_3": true,
+    "upgrade_allowed": true
+  }
+}

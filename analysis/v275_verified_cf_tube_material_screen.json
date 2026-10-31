@@ -1,0 +1,56 @@
+{
+  "status": "V275_VERIFIED_CF_TUBE_MATERIAL_SCREEN",
+  "datasheet": {
+    "supplier": "Easy Composites",
+    "document": "CFP Carbon Fibre Pultrusions TDS v1.0 revised 2024-09-20",
+    "sizes_explicitly_covered": [
+      "6(4) mm",
+      "8(6) mm"
+    ],
+    "flexural_strength_lengthways_MPa": [
+      250,
+      400
+    ],
+    "density_g_cm3": [
+      1.3,
+      1.5
+    ],
+    "note": "datasheet states values are typical, not specification limits"
+  },
+  "load_reference": {
+    "moment_share_per_tube_Nm": 1.5174751830707842
+  },
+  "rows": [
+    {
+      "OD_ID_mm": [
+        6,
+        4
+      ],
+      "I_mm4": 51.050880620834135,
+      "stress_MPa": 89.17428051876706,
+      "FOS_using_250MPa_typical_lower_bound": 2.803498929799457,
+      "FOS_using_400MPa_typical_upper_bound": 4.485598287679131
+    },
+    {
+      "OD_ID_mm": [
+        8,
+        6
+      ],
+      "I_mm4": 137.44467859455344,
+      "stress_MPa": 44.162500828341784,
+      "FOS_using_250MPa_typical_lower_bound": 5.660911300556595,
+      "FOS_using_400MPa_typical_upper_bound": 9.057458080890552
+    }
+  ],
+  "decision": {
+    "6x4_meets_FOS3_at_250MPa": false,
+    "8x6_meets_FOS3_at_250MPa": true,
+    "preferred_next_geometry": "8x6 if 8.3 mm bond cavity containment passes"
+  },
+  "gates": {
+    "material_family_datasheet_verified": true,
+    "supplier_lot_minimum_strength_certified": false,
+    "proof_load": false,
+    "flight_release": false
+  }
+}

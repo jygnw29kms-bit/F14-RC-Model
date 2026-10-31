@@ -1,0 +1,108 @@
+{
+  "status": "V273_SEGMENT_CLAMP_TOOL_ACCESS",
+  "source": "F14_v272_RETAINED_SERVICEABLE_ENDMODEL.FCStd",
+  "architecture": {
+    "X440_uses_existing_sweep_hatch": true,
+    "X220_and_X840_dedicated_tool_corridors": true,
+    "corridor_is_keepout_not_shell_cut": true
+  },
+  "rows": [
+    {
+      "cut_x_mm": 220,
+      "side": "L",
+      "valid": true,
+      "tool_corridor_d_mm": 8.0,
+      "length_mm": 140.0,
+      "critical_intersections_mm3": {
+        "BATTERY_TRAY_v165": 0.0,
+        "BATTERY_REFERENCE_PACK": 0.0,
+        "V225_SERVO_SERVICE": 0.0,
+        "V225_SYNC_YOKE_M4_20": 0.0,
+        "V221_CASSETTE_R": 0.0,
+        "V221_CASSETTE_L": 0.0,
+        "V233_TORQ_TCM1022_R": 0.0,
+        "V233_TORQ_TCM1022_L": 0.0,
+        "V247_TAIL_SERVO_CRADLE_R": 0.0,
+        "V247_TAIL_SERVO_CRADLE_L": 0.0,
+        "V229_ESC_SERVICE_R": 0.0,
+        "V229_ESC_SERVICE_L": 0.0
+      },
+      "max_critical_intersection_mm3": 0.0
+    },
+    {
+      "cut_x_mm": 220,
+      "side": "R",
+      "valid": true,
+      "tool_corridor_d_mm": 8.0,
+      "length_mm": 140.0,
+      "critical_intersections_mm3": {
+        "BATTERY_TRAY_v165": 0.0,
+        "BATTERY_REFERENCE_PACK": 0.0,
+        "V225_SERVO_SERVICE": 0.0,
+        "V225_SYNC_YOKE_M4_20": 0.0,
+        "V221_CASSETTE_R": 0.0,
+        "V221_CASSETTE_L": 0.0,
+        "V233_TORQ_TCM1022_R": 0.0,
+        "V233_TORQ_TCM1022_L": 0.0,
+        "V247_TAIL_SERVO_CRADLE_R": 0.0,
+        "V247_TAIL_SERVO_CRADLE_L": 0.0,
+        "V229_ESC_SERVICE_R": 0.0,
+        "V229_ESC_SERVICE_L": 0.0
+      },
+      "max_critical_intersection_mm3": 0.0
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "L",
+      "valid": true,
+      "tool_corridor_d_mm": 8.0,
+      "length_mm": 140.0,
+      "critical_intersections_mm3": {
+        "BATTERY_TRAY_v165": 0.0,
+        "BATTERY_REFERENCE_PACK": 0.0,
+        "V225_SERVO_SERVICE": 0.0,
+        "V225_SYNC_YOKE_M4_20": 0.0,
+        "V221_CASSETTE_R": 0.0,
+        "V221_CASSETTE_L": 0.0,
+        "V233_TORQ_TCM1022_R": 0.0,
+        "V233_TORQ_TCM1022_L": 0.0,
+        "V247_TAIL_SERVO_CRADLE_R": 0.0,
+        "V247_TAIL_SERVO_CRADLE_L": 0.0,
+        "V229_ESC_SERVICE_R": 0.0,
+        "V229_ESC_SERVICE_L": 0.0
+      },
+      "max_critical_intersection_mm3": 0.0
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "R",
+      "valid": true,
+      "tool_corridor_d_mm": 8.0,
+      "length_mm": 140.0,
+      "critical_intersections_mm3": {
+        "BATTERY_TRAY_v165": 0.0,
+        "BATTERY_REFERENCE_PACK": 0.0,
+        "V225_SERVO_SERVICE": 0.0,
+        "V225_SYNC_YOKE_M4_20": 0.0,
+        "V221_CASSETTE_R": 0.0,
+        "V221_CASSETTE_L": 0.0,
+        "V233_TORQ_TCM1022_R": 0.0,
+        "V233_TORQ_TCM1022_L": 0.0,
+        "V247_TAIL_SERVO_CRADLE_R": 0.0,
+        "V247_TAIL_SERVO_CRADLE_L": 0.0,
+        "V229_ESC_SERVICE_R": 0.0,
+        "V229_ESC_SERVICE_L": 0.0
+      },
+      "max_critical_intersection_mm3": 0.0
+    }
+  ],
+  "gates": {
+    "all_valid": true,
+    "no_critical_hardware_intersection": true,
+    "final_shell_access_hole_diameter_frozen": false,
+    "tool_fit_bench_required": true,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "fc8710c5aded0ac5dd81226be4f3664b733e12b324d48abc4b1aee5f2407db61"
+}

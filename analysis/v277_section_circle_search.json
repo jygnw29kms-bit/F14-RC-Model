@@ -1,0 +1,16 @@
+{
+  "status": "V277_SECTION_CIRCLE_SEARCH",
+  "y_samples_mm": [
+    300.94018208216556,
+    320.94018208216556,
+    340.94018208216556
+  ],
+  "required_radius_mm": 4.15,
+  "candidate_count": 0,
+  "best_candidates": [],
+  "best_pairs": [],
+  "gates": {
+    "pair_found": false,
+    "pair_margin_ge_4p15": false
+  }
+}

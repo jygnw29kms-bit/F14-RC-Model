@@ -1,0 +1,93 @@
+{
+  "status": "V274_CF_SLEEVE_CLAMP_COUPON",
+  "files": {
+    "FCStd": "F14_v274_CF_SLEEVE_CLAMP_COUPON.FCStd",
+    "STL": [
+      "SLEEVE_6_CLR_10.stl",
+      "SLEEVE_6_CLR_15.stl",
+      "SLEEVE_6_CLR_20.stl",
+      "SLEEVE_8_CLR_10.stl",
+      "SLEEVE_8_CLR_15.stl",
+      "SLEEVE_8_CLR_20.stl",
+      "CLAMP_6.stl",
+      "CLAMP_8.stl"
+    ]
+  },
+  "rows": [
+    {
+      "type": "sleeve",
+      "tube_OD_mm": 6.0,
+      "radial_clearance_mm": 0.1,
+      "bore_d_mm": 6.2,
+      "valid": true,
+      "volume_cm3": 3.559804481178046
+    },
+    {
+      "type": "sleeve",
+      "tube_OD_mm": 6.0,
+      "radial_clearance_mm": 0.15,
+      "bore_d_mm": 6.3,
+      "valid": true,
+      "volume_cm3": 3.5382060316846164
+    },
+    {
+      "type": "sleeve",
+      "tube_OD_mm": 6.0,
+      "radial_clearance_mm": 0.2,
+      "bore_d_mm": 6.4,
+      "valid": true,
+      "volume_cm3": 3.5162620069992916
+    },
+    {
+      "type": "sleeve",
+      "tube_OD_mm": 8.0,
+      "radial_clearance_mm": 0.1,
+      "bore_d_mm": 8.2,
+      "valid": true,
+      "volume_cm3": 3.0621762048494228
+    },
+    {
+      "type": "sleeve",
+      "tube_OD_mm": 8.0,
+      "radial_clearance_mm": 0.15,
+      "bore_d_mm": 8.3,
+      "valid": true,
+      "volume_cm3": 3.033666251518095
+    },
+    {
+      "type": "sleeve",
+      "tube_OD_mm": 8.0,
+      "radial_clearance_mm": 0.2,
+      "bore_d_mm": 8.4,
+      "valid": true,
+      "volume_cm3": 3.004810722994873
+    },
+    {
+      "type": "clamp",
+      "tube_OD_mm": 6.0,
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 0.40417506982564233
+    },
+    {
+      "type": "clamp",
+      "tube_OD_mm": 8.0,
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 0.4764999287853623
+    }
+  ],
+  "print_notes": [
+    "print in intended PPA-CF process and orientation",
+    "dry filament before coupon and production parts",
+    "test actual purchased CF tube; do not infer fit from nominal OD",
+    "record hand-fit, clamp force and visible wall damage"
+  ],
+  "gates": {
+    "all_valid": true,
+    "actual_tube_fit_measured": false,
+    "clamp_force_measured": false,
+    "production_clearance_frozen": false
+  },
+  "sha256": "4fd2f2ba7bfeb2e9ecced210f929fb51f9ab51954a76245197d2520f69760c30"
+}

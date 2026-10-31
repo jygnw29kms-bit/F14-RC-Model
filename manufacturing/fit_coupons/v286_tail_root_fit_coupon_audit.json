@@ -1,0 +1,68 @@
+{
+  "status": "V286_TAIL_ROOT_FIT_COUPON",
+  "files": {
+    "FCStd": "F14_v286_TAIL_ROOT_FIT_COUPON.FCStd",
+    "STL": [
+      "D_BORE_CLR_00.stl",
+      "D_BORE_CLR_05.stl",
+      "D_BORE_CLR_10.stl",
+      "ROOT_SOCKET_CLR_10.stl",
+      "ROOT_SOCKET_CLR_15.stl",
+      "ROOT_SOCKET_CLR_20.stl"
+    ]
+  },
+  "rows": [
+    {
+      "type": "D_bore",
+      "clearance_mm": 0.0,
+      "valid": true,
+      "stl": "D_BORE_CLR_00.stl"
+    },
+    {
+      "type": "D_bore",
+      "clearance_mm": 0.05,
+      "valid": true,
+      "stl": "D_BORE_CLR_05.stl"
+    },
+    {
+      "type": "D_bore",
+      "clearance_mm": 0.1,
+      "valid": true,
+      "stl": "D_BORE_CLR_10.stl"
+    },
+    {
+      "type": "root_socket",
+      "per_face_clearance_mm": 0.1,
+      "valid": true,
+      "stl": "ROOT_SOCKET_CLR_10.stl"
+    },
+    {
+      "type": "root_socket",
+      "per_face_clearance_mm": 0.15,
+      "valid": true,
+      "stl": "ROOT_SOCKET_CLR_15.stl"
+    },
+    {
+      "type": "root_socket",
+      "per_face_clearance_mm": 0.2,
+      "valid": true,
+      "stl": "ROOT_SOCKET_CLR_20.stl"
+    }
+  ],
+  "test_notes": [
+    "print in intended PPA-CF process/orientation and dry filament identically to production",
+    "measure actual 6 mm D-shaft fit in three D-bore gauges",
+    "use actual v284 root-fitting print or matching envelope gauge to select socket/bond gap",
+    "record insertion force, backlash, adhesive wet-out and cured pull/torsion result",
+    "do not promote v284 root fitting from geometry alone"
+  ],
+  "gates": {
+    "all_valid": true,
+    "actual_D_shaft_fit_measured": false,
+    "actual_root_socket_fit_measured": false,
+    "adhesive_cure_coupon_tested": false,
+    "torsion_proof_tested": false,
+    "production_clearance_frozen": false
+  },
+  "sha256": "eccf2d6dad6fefdd2ba1694072c057cbdf78ed1d00de7f1c11d454dcc5987b35"
+}

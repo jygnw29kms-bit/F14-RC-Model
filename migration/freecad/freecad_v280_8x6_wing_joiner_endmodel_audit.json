@@ -1,0 +1,110 @@
+{
+  "status": "V280_8X6_WING_JOINER_ENDMODEL",
+  "source": "F14_v273_SEGMENT_CLAMP_TOOL_ACCESS.FCStd",
+  "seam": {
+    "CR3992_WBL_in": 200.79919,
+    "model_abs_y_mm": 234.8834084849764
+  },
+  "joiners": {
+    "OD_ID_mm": [
+      8,
+      6
+    ],
+    "cavity_d_mm": 8.3,
+    "embed_each_side_mm": 20,
+    "positions_mm": [
+      [
+        "FWD",
+        552.0,
+        -1.0
+      ],
+      [
+        "AFT",
+        562.0,
+        -1.0
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "side": "R",
+      "segment": "INNER",
+      "valid": true,
+      "solid_count": 1,
+      "bbox_extents_mm": [
+        151.7605370107275,
+        86.05703094060709,
+        15.330688812020895
+      ],
+      "p2s_safe_250": true,
+      "volume_cm3": 97.6196764853079
+    },
+    {
+      "side": "R",
+      "segment": "OUTER",
+      "valid": true,
+      "solid_count": 1,
+      "bbox_extents_mm": [
+        130.12389785857783,
+        215.11659151502354,
+        17.4797489413113
+      ],
+      "p2s_safe_250": true,
+      "volume_cm3": 108.499092178551
+    },
+    {
+      "side": "L",
+      "segment": "INNER",
+      "valid": true,
+      "solid_count": 1,
+      "bbox_extents_mm": [
+        151.7605370107275,
+        86.05703094060709,
+        15.330688812020895
+      ],
+      "p2s_safe_250": true,
+      "volume_cm3": 97.61967648530789
+    },
+    {
+      "side": "L",
+      "segment": "OUTER",
+      "valid": true,
+      "solid_count": 1,
+      "bbox_extents_mm": [
+        130.12389785857783,
+        215.11659151502354,
+        17.4797489413113
+      ],
+      "p2s_safe_250": true,
+      "volume_cm3": 108.49909217855101
+    }
+  ],
+  "mass": {
+    "total_CF_tube_volume_cm3": 3.5185837720205684,
+    "datasheet_density_g_cm3": [
+      1.3,
+      1.5
+    ],
+    "tube_mass_range_g": [
+      4.574158903626739,
+      5.277875658030853
+    ]
+  },
+  "load_screen": {
+    "seam_moment_per_tube_Nm": 1.5174751830707842,
+    "outer_fiber_stress_MPa": 44.162500828341784,
+    "datasheet_flexural_lower_typical_MPa": 250,
+    "FOS_lower_typical": 5.660911300556595
+  },
+  "gates": {
+    "four_valid_segments": true,
+    "all_segments_p2s_safe": true,
+    "FOS_ge_3_using_250MPa_typical_lower": true,
+    "supplier_lot_minimum_strength_certified": false,
+    "adhesive_bond_verified": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "0bf9896c2561c058f04f262221722fe474eebabb093135c7f82ad1d2c04ec1d8"
+}

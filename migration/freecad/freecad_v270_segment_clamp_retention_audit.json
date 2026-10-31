@@ -1,0 +1,93 @@
+{
+  "status": "V270_SEGMENT_CLAMP_RETENTION",
+  "source": "F14_v269_SERVICEABLE_SEGMENTED_ENDMODEL.FCStd",
+  "architecture": {
+    "retention": "split clamp on receiving sleeve",
+    "CF_tube_cross_drilled": false,
+    "X620_retention_created": false,
+    "reason_X620": "aft nacelle OML gate open",
+    "M3_clearance_hole_mm": 3.2
+  },
+  "rows": [
+    {
+      "cut_x_mm": 220,
+      "side": "L",
+      "tube_OD_mm": 6,
+      "valid": true,
+      "solids": 2,
+      "containment": 0.9780053867093518,
+      "mass_PPA_CF_g": 0.5765025147034065,
+      "nearest_object": "V253_ACCESS_BATTERY",
+      "nearest_distance_mm": 22.10819983625985
+    },
+    {
+      "cut_x_mm": 220,
+      "side": "R",
+      "tube_OD_mm": 6,
+      "valid": true,
+      "solids": 2,
+      "containment": 0.9835765995970748,
+      "mass_PPA_CF_g": 0.5765025147034063,
+      "nearest_object": "V253_ACCESS_BATTERY",
+      "nearest_distance_mm": 22.10819983625985
+    },
+    {
+      "cut_x_mm": 440,
+      "side": "L",
+      "tube_OD_mm": 8,
+      "valid": true,
+      "solids": 2,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.6631444314618571,
+      "nearest_object": "V253_ACCESS_SWEEP",
+      "nearest_distance_mm": 8.767696390728867
+    },
+    {
+      "cut_x_mm": 440,
+      "side": "R",
+      "tube_OD_mm": 8,
+      "valid": true,
+      "solids": 2,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.6631444314618568,
+      "nearest_object": "V253_ACCESS_SWEEP",
+      "nearest_distance_mm": 8.767696390728867
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "L",
+      "tube_OD_mm": 6,
+      "valid": true,
+      "solids": 2,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.5765025147033075,
+      "nearest_object": "V253_ACCESS_TAIL_L",
+      "nearest_distance_mm": 117.02888532323975
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "R",
+      "tube_OD_mm": 6,
+      "valid": true,
+      "solids": 2,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.5765025147033075,
+      "nearest_object": "V253_ACCESS_TAIL_R",
+      "nearest_distance_mm": 117.02888532323975
+    }
+  ],
+  "mass": {
+    "PPA_CF_screen_g": 3.6322989217371418
+  },
+  "gates": {
+    "all_valid": true,
+    "containment_ge_0p98": false,
+    "critical_clearance_nonnegative": true,
+    "CF_tube_not_cross_drilled": true,
+    "M3_hardware_bench_fit_required": true,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "96f94d881b90bab32237a2408c43321a34b99e4a5636c784e67276ce1f48f879"
+}

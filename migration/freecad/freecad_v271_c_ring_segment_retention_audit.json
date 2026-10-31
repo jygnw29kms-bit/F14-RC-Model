@@ -1,0 +1,98 @@
+{
+  "status": "V271_C_RING_SEGMENT_RETENTION",
+  "source": "F14_v269_SERVICEABLE_SEGMENTED_ENDMODEL.FCStd",
+  "architecture": {
+    "receiving_sleeve_C_clamp": true,
+    "CF_tube_cross_drilled": false,
+    "X620_excluded": true,
+    "M3_clamp_screw": true
+  },
+  "rows": [
+    {
+      "cut_x_mm": 220,
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 0.9932132784846799,
+      "mass_PPA_CF_g": 0.3544906550761484,
+      "outer_radius_mm": 5.6,
+      "axial_width_mm": 7.0,
+      "slit_mm": 1.0,
+      "M3_clearance_mm": 3.1
+    },
+    {
+      "cut_x_mm": 220,
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 0.995787838714059,
+      "mass_PPA_CF_g": 0.35449065507614863,
+      "outer_radius_mm": 5.6,
+      "axial_width_mm": 7.0,
+      "slit_mm": 1.0,
+      "M3_clearance_mm": 3.1
+    },
+    {
+      "cut_x_mm": 440,
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.41763789457917255,
+      "outer_radius_mm": 6.6,
+      "axial_width_mm": 7.0,
+      "slit_mm": 1.0,
+      "M3_clearance_mm": 3.1
+    },
+    {
+      "cut_x_mm": 440,
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.4176378945791765,
+      "outer_radius_mm": 6.6,
+      "axial_width_mm": 7.0,
+      "slit_mm": 1.0,
+      "M3_clearance_mm": 3.1
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.35449065506538613,
+      "outer_radius_mm": 5.6,
+      "axial_width_mm": 7.0,
+      "slit_mm": 1.0,
+      "M3_clearance_mm": 3.1
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "containment": 1.0,
+      "mass_PPA_CF_g": 0.3544906550653869,
+      "outer_radius_mm": 5.6,
+      "axial_width_mm": 7.0,
+      "slit_mm": 1.0,
+      "M3_clearance_mm": 3.1
+    }
+  ],
+  "mass": {
+    "PPA_CF_screen_g": 2.253238409441419
+  },
+  "gates": {
+    "all_valid_single_solids": true,
+    "containment_ge_0p98": true,
+    "mass_lt_3p5g": true,
+    "bench_clamp_force_test_required": true,
+    "thread_insert_or_nut_detail_open": true,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "2f4adfa3ac64946b9135ba4830835625b104e63fb152d1adb9cdd4adc82e2750"
+}

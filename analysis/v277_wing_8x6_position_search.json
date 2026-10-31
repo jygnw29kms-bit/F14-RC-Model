@@ -1,0 +1,71 @@
+{
+  "status": "V277_WING_8X6_POSITION_SEARCH",
+  "source": "F14_v260_DUAL_WING_SEGMENT_JOINERS.FCStd",
+  "cavity_d_mm": 8.3,
+  "embed_total_mm": 40,
+  "grid": {
+    "x_mm": [
+      548,
+      594,
+      2
+    ],
+    "z_mm": [
+      -8,
+      2.5,
+      0.5
+    ]
+  },
+  "candidate_count_ge_0p99": 6,
+  "best_candidates": [
+    {
+      "x_mm": 578,
+      "z_mm": -4.5,
+      "containment": 0.9920254474052079
+    },
+    {
+      "x_mm": 580,
+      "z_mm": -4.5,
+      "containment": 0.9918615598236165
+    },
+    {
+      "x_mm": 576,
+      "z_mm": -4.5,
+      "containment": 0.9913360689194385
+    },
+    {
+      "x_mm": 582,
+      "z_mm": -4.5,
+      "containment": 0.9913174737521118
+    },
+    {
+      "x_mm": 574,
+      "z_mm": -4.5,
+      "containment": 0.9901500043870477
+    },
+    {
+      "x_mm": 584,
+      "z_mm": -4.5,
+      "containment": 0.9901300584074643
+    }
+  ],
+  "best_pairs": [
+    {
+      "a": {
+        "x_mm": 574,
+        "z_mm": -4.5,
+        "containment": 0.9901500043870477
+      },
+      "b": {
+        "x_mm": 584,
+        "z_mm": -4.5,
+        "containment": 0.9901300584074643
+      },
+      "spacing_mm": 10.0,
+      "worst_containment": 0.9901300584074643
+    }
+  ],
+  "gates": {
+    "pair_ge_0p995_found": false,
+    "pair_spacing_ge_10mm": true
+  }
+}

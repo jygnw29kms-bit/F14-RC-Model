@@ -1,0 +1,57 @@
+{
+  "status": "V276_WING_8X6_JOINER_FIT",
+  "source": "F14_v260_DUAL_WING_SEGMENT_JOINERS.FCStd",
+  "tube_OD_ID_mm": [
+    8,
+    6
+  ],
+  "bond_cavity_d_mm": 8.3,
+  "embed_each_side_mm": 20,
+  "rows": [
+    {
+      "side": "R",
+      "joiner": "FWD",
+      "x_mm": 569.9475331358894,
+      "z_mm": -4.299519854236053,
+      "inner_tube_containment": 0.9995133969404817,
+      "inner_cavity_containment": 0.9980233290609815,
+      "outer_tube_containment": 0.9746424957045644,
+      "outer_cavity_containment": 0.9672504230993976
+    },
+    {
+      "side": "R",
+      "joiner": "AFT",
+      "x_mm": 581.1120872253817,
+      "z_mm": -4.231136960437908,
+      "inner_tube_containment": 0.9994825331582732,
+      "inner_cavity_containment": 0.997896822326186,
+      "outer_tube_containment": 0.9913000759752579,
+      "outer_cavity_containment": 0.9861240854592757
+    },
+    {
+      "side": "L",
+      "joiner": "FWD",
+      "x_mm": 569.9475331358894,
+      "z_mm": -4.299519854236053,
+      "inner_tube_containment": 0.9995135997960038,
+      "inner_cavity_containment": 0.9974498356649032,
+      "outer_tube_containment": 0.9746425960619371,
+      "outer_cavity_containment": 0.9672469246684875
+    },
+    {
+      "side": "L",
+      "joiner": "AFT",
+      "x_mm": 581.1120872253817,
+      "z_mm": -4.231136960437908,
+      "inner_tube_containment": 0.9994582164952007,
+      "inner_cavity_containment": 0.9974417943095204,
+      "outer_tube_containment": 0.9913000981913329,
+      "outer_cavity_containment": 0.9861191636618443
+    }
+  ],
+  "gates": {
+    "all_tube_halves_contained_ge_0p995": false,
+    "all_cavity_halves_contained_ge_0p995": false,
+    "geometry_upgrade_allowed": false
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "status": "V278_SOURCE_STATION_8X6_SEAM_SEARCH",
+  "required_radius_mm": 4.15,
+  "embed_each_side_mm": 20,
+  "results": [
+    {
+      "WBL_in": 200.79919,
+      "model_y_mm": 234.8834084849764,
+      "candidate_count": 341,
+      "best_pair": {
+        "a": {
+          "x_mm": 562.0,
+          "z_mm": -1.0,
+          "min_margin_mm": 4.821593761362053,
+          "margins_mm": [
+            4.821593761362053,
+            5.235970592221092,
+            4.863105956499299
+          ]
+        },
+        "b": {
+          "x_mm": 552.0,
+          "z_mm": -1.0,
+          "min_margin_mm": 4.8208298436953605,
+          "margins_mm": [
+            4.8208298436953605,
+            5.166358450345373,
+            4.879421653519038
+          ]
+        },
+        "spacing_mm": 10.0,
+        "worst_margin_mm": 4.8208298436953605
+      },
+      "pair_found": true
+    },
+    {
+      "WBL_in": 237.58369,
+      "model_y_mm": 277.9118128297131,
+      "candidate_count": 10,
+      "best_pair": null,
+      "pair_found": false
+    },
+    {
+      "WBL_in": 274.36816,
+      "model_y_mm": 320.94018208216556,
+      "candidate_count": 0,
+      "best_pair": null,
+      "pair_found": false
+    }
+  ],
+  "preferred_outermost_valid_station": {
+    "WBL_in": 200.79919,
+    "model_y_mm": 234.8834084849764,
+    "candidate_count": 341,
+    "best_pair": {
+      "a": {
+        "x_mm": 562.0,
+        "z_mm": -1.0,
+        "min_margin_mm": 4.821593761362053,
+        "margins_mm": [
+          4.821593761362053,
+          5.235970592221092,
+          4.863105956499299
+        ]
+      },
+      "b": {
+        "x_mm": 552.0,
+        "z_mm": -1.0,
+        "min_margin_mm": 4.8208298436953605,
+        "margins_mm": [
+          4.8208298436953605,
+          5.166358450345373,
+          4.879421653519038
+        ]
+      },
+      "spacing_mm": 10.0,
+      "worst_margin_mm": 4.8208298436953605
+    },
+    "pair_found": true
+  },
+  "gates": {
+    "valid_source_station_found": true
+  }
+}

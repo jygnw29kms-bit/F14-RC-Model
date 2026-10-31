@@ -1,0 +1,60 @@
+{
+  "status": "V284_LIGHT_STABILATOR_ROOT_FITTING_FIXED",
+  "source": "F14_v282_THREE_8X6_WING_JOINER_ENDMODEL.FCStd",
+  "geometry": {
+    "hub_outer_radius_mm": 6.5,
+    "hub_length_mm": 24,
+    "D_bore_radius_mm": 3.05,
+    "tongue_outer_mm": [
+      36,
+      31,
+      3.5
+    ],
+    "tongue_window_mm": [
+      28,
+      23
+    ],
+    "frame_border_mm": 4
+  },
+  "rows": [
+    {
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 4.081922677537061,
+      "PPA_CF_mass_g": 5.102403346921326,
+      "shaft_intersection_mm3": 0.0,
+      "frame_stabilator_containment": 1.0,
+      "to_servo_service_mm": 17.184740587351655,
+      "to_light_crank_mm": 2.0
+    },
+    {
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 4.081922677537062,
+      "PPA_CF_mass_g": 5.102403346921327,
+      "shaft_intersection_mm3": 0.0,
+      "frame_stabilator_containment": 1.0,
+      "to_servo_service_mm": 17.184740587351655,
+      "to_light_crank_mm": 2.0
+    }
+  ],
+  "mass": {
+    "pair_PPA_CF_g": 10.204806693842652,
+    "v235_pair_PPA_CF_g": 22.0805902347973,
+    "saving_g": 11.875783540954647
+  },
+  "gates": {
+    "both_valid_single_solids": true,
+    "no_shaft_intersection": true,
+    "frame_contained_in_stabilator_ge_0p999": true,
+    "servo_clearance_positive": true,
+    "crank_clearance_nonnegative": true,
+    "bond_area_reduction_requires_coupon": true,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "06e78f3a9b581ad466ff8675477c28c33dbc4d0de213312f6828b24458774de7"
+}

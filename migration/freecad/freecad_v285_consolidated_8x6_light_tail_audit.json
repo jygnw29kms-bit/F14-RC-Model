@@ -1,0 +1,42 @@
+{
+  "status": "V285_CONSOLIDATED_8X6_LIGHT_TAIL",
+  "source": [
+    "F14_v282_THREE_8X6_WING_JOINER_ENDMODEL.FCStd",
+    "F14_v284_LIGHT_STABILATOR_ROOT_FITTING_FIXED.FCStd"
+  ],
+  "shape_count": 176,
+  "required": {
+    "V282_WING_R_INNER": true,
+    "V282_WING_R_OUTER": true,
+    "V282_WING_L_INNER": true,
+    "V282_WING_L_OUTER": true,
+    "V284_LIGHT_D_ROOT_FITTING_R": true,
+    "V284_LIGHT_D_ROOT_FITTING_L": true
+  },
+  "forbidden_heavy_root_fittings_present": [],
+  "mass_delta": {
+    "reserve_before_g": 10.6321697652027,
+    "root_fitting_saving_g": 11.875783540954647,
+    "extra_8x6_CF_tube_mass_range_g": [
+      3.593981995706723,
+      4.146902302738527
+    ],
+    "reserve_after_range_g": [
+      18.361051003418822,
+      18.913971310450624
+    ]
+  },
+  "gates": {
+    "all_required_present": true,
+    "heavy_root_fittings_absent": true,
+    "all_shapes_valid": true,
+    "reserve_after_ge_18g": true,
+    "wing_material_lot_cert_open": true,
+    "adhesive_bond_open": true,
+    "root_fitting_coupon_open": true,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "5a31977141227b7174dc7491ee0d778a6f1d48d607417ce25578d9e7c8cd7b75"
+}
