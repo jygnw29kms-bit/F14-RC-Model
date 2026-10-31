@@ -1,0 +1,66 @@
+{
+  "status": "V260_DUAL_WING_SEGMENT_JOINERS",
+  "source": "F14_v256_CONSOLIDATED_JOINER_STATE.FCStd",
+  "seam": {
+    "WBL_in": 274.36816,
+    "abs_y_mm": 320.94018208216556
+  },
+  "rows": [
+    {
+      "side": "R",
+      "joiner": "FWD",
+      "xc": 0.3,
+      "tube_valid": true,
+      "tube_containment": 0.9998948312912278,
+      "cavity_containment": 0.9994044314366088,
+      "tube_volume_cm3": 0.6283185307179587
+    },
+    {
+      "side": "R",
+      "joiner": "AFT",
+      "xc": 0.42,
+      "tube_valid": true,
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0,
+      "tube_volume_cm3": 0.6283185307179587
+    },
+    {
+      "side": "L",
+      "joiner": "FWD",
+      "xc": 0.3,
+      "tube_valid": true,
+      "tube_containment": 0.9998947308995659,
+      "cavity_containment": 0.9994043381193315,
+      "tube_volume_cm3": 0.6283185307179587
+    },
+    {
+      "side": "L",
+      "joiner": "AFT",
+      "xc": 0.42,
+      "tube_valid": true,
+      "tube_containment": 1.0,
+      "cavity_containment": 1.0,
+      "tube_volume_cm3": 0.6283185307179587
+    }
+  ],
+  "mass": {
+    "total_CF_tube_volume_cm3": 2.513274122871835,
+    "actual_tube_density_and_mass_gate_open": true
+  },
+  "load_screen_reference": {
+    "uniform_spanload_scaled_seam_moment_Nm": 3.0349503661415684,
+    "candidate_FOS": 3.9248985017192393,
+    "material_values_verified": false
+  },
+  "gates": {
+    "all_tubes_valid": true,
+    "all_tubes_contained_ge_0p999": true,
+    "all_cavities_contained_ge_0p999": true,
+    "adhesive_system_selected": false,
+    "tube_datasheet_verified": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "8e7a7583bc4ac0fecee46512225f1a7f84c9ba9a7a6c16b7157249d2285b2663"
+}

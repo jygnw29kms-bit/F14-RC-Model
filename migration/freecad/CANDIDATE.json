@@ -1,15 +1,22 @@
 {
   "status": "F14_FREECAD_CANDIDATE_POINTER",
-  "candidate_master": "migration/freecad/F14_CURRENT_FULL_VIEW_v194_DYNAMIC_LINKAGE.FCStd",
-  "candidate_revision": "v194",
+  "candidate_master": "migration/freecad/F14_v260_DUAL_WING_SEGMENT_JOINERS.FCStd",
+  "candidate_revision": "v260",
   "required_audits": [
-    "migration/freecad/freecad_v193_linkage_search_audit.json",
-    "migration/freecad/freecad_v194_dynamic_linkage_audit.json"
+    "analysis/v246_cr3992_wing_wl_transform_gate.json",
+    "migration/freecad/freecad_v248_tail_servo_mount_integrated_audit.json",
+    "migration/freecad/freecad_v253_service_access_keepouts_audit.json",
+    "migration/freecad/freecad_v256_consolidated_joiner_state_audit.json",
+    "analysis/v259_dual_wing_joiner_load_screen.json",
+    "migration/freecad/freecad_v260_dual_wing_segment_joiners_audit.json"
   ],
   "promotion_blockers": [
-    "v194 full fuselage containment pass is false for crank geometry",
-    "nose/forebody original-projection work is newer than this assembly and not consolidated",
-    "propulsion 3S/4S hardware is not verified"
+    "absolute fuselage/nacelle WL registration remains unverified; CR3992 Figure 48 is shape evidence but not a calibrated FS/WL dataset",
+    "actual EDF shroud outer diameter remains unverified and aft-nacelle EDF mount is therefore not frozen",
+    "X620 aft-nacelle segment joiner remains provisional and is intentionally absent from the active consolidated joiner state",
+    "CF tube datasheet, adhesive bond shear, socket/bond proof loads and actual CF tube masses remain unverified",
+    "service access volumes are defined but final shell hatch lips/fasteners cannot be frozen before final OML shell cuts",
+    "actual printed mass, dry CG, installed thrust/current and flight proof testing remain open"
   ],
   "promoted_to_current": false,
   "print_release": false,

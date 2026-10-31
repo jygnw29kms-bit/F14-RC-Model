@@ -1,0 +1,116 @@
+{
+  "status": "V253_SERVICE_ACCESS_KEEPOUTS",
+  "source": "F14_v252_SEGMENT_ALIGNMENT_KEYS.FCStd",
+  "rows": [
+    {
+      "access": "BATTERY",
+      "bounds_mm": {
+        "x": [
+          250,
+          428
+        ],
+        "y": [
+          -36,
+          36
+        ],
+        "z": [
+          10,
+          100
+        ]
+      },
+      "target_overlap_mm3": {
+        "BATTERY_TRAY_v165": 4741.019970348555,
+        "BATTERY_REFERENCE_PACK": 74059.37513753328
+      },
+      "all_targets_reached": true
+    },
+    {
+      "access": "SWEEP",
+      "bounds_mm": {
+        "x": [
+          430,
+          535
+        ],
+        "y": [
+          -50,
+          50
+        ],
+        "z": [
+          8,
+          100
+        ]
+      },
+      "target_overlap_mm3": {
+        "V225_SERVO_SERVICE": 49633.999999999985,
+        "V225_SYNC_YOKE_M4_20": 3477.5
+      },
+      "all_targets_reached": true
+    },
+    {
+      "access": "TAIL_R",
+      "bounds_mm": {
+        "x": [
+          675,
+          725
+        ],
+        "y": [
+          38,
+          86
+        ],
+        "z": [
+          -12,
+          70
+        ]
+      },
+      "target_overlap_mm3": {
+        "V233_TORQ_TCM1022_R": 7590.0,
+        "V247_TAIL_SERVO_CRADLE_R": 3400.000000000001
+      },
+      "all_targets_reached": true
+    },
+    {
+      "access": "TAIL_L",
+      "bounds_mm": {
+        "x": [
+          675,
+          725
+        ],
+        "y": [
+          -86,
+          -38
+        ],
+        "z": [
+          -12,
+          70
+        ]
+      },
+      "target_overlap_mm3": {
+        "V233_TORQ_TCM1022_L": 7590.0,
+        "V247_TAIL_SERVO_CRADLE_L": 3400.000000000001
+      },
+      "all_targets_reached": true
+    }
+  ],
+  "access_overlap_mm3": {
+    "BATTERY_SWEEP": 0.0,
+    "TAIL_R_TAIL_L": 0.0,
+    "SWEEP_TAIL_R": 0.0,
+    "SWEEP_TAIL_L": 0.0
+  },
+  "architecture": {
+    "keepout_reference_only": true,
+    "battery_hatch_rear_edge_x_mm": 428,
+    "sweep_hatch_front_edge_x_mm": 430,
+    "bridge_between_battery_and_sweep_mm": 2,
+    "tail_servo_hatches_independent": true
+  },
+  "gates": {
+    "all_target_hardware_reached": true,
+    "battery_sweep_keepouts_do_not_overlap": true,
+    "tail_keepouts_do_not_overlap": true,
+    "physical_hatch_lip_and_fasteners_designed": false,
+    "shell_cut_release": false,
+    "print_release": false
+  },
+  "sha256": "914ddeb5fcde95e047d8bcfb2f1a5f0ccafb6220ff9e9a43c313c8e4bb4fe8d5"
+}

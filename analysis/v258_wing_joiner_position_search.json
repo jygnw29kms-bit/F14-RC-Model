@@ -1,0 +1,331 @@
+{
+  "status": "V258_WING_JOINER_POSITION_SEARCH",
+  "source_station_WBL_in": 274.36816,
+  "tested": [
+    {
+      "xc": 0.3,
+      "length_mm": 40,
+      "x_mm": 569.9475331358894,
+      "z_mm": -4.299519854236053,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.9998948312912278,
+          "cavity_containment": 0.9994044314366088
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.9998947308995659,
+          "cavity_containment": 0.9994043381193315
+        }
+      ],
+      "min_tube": 0.9998947308995659,
+      "min_cavity": 0.9994043381193315
+    },
+    {
+      "xc": 0.3,
+      "length_mm": 50,
+      "x_mm": 569.9475331358894,
+      "z_mm": -4.299519854236053,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.9973826252024937,
+          "cavity_containment": 0.9956426867136491
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.9973820584317158,
+          "cavity_containment": 0.995643928078097
+        }
+      ],
+      "min_tube": 0.9973820584317158,
+      "min_cavity": 0.9956426867136491
+    },
+    {
+      "xc": 0.3,
+      "length_mm": 60,
+      "x_mm": 569.9475331358894,
+      "z_mm": -4.299519854236053,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.9911477707246427,
+          "cavity_containment": 0.9884009205933783
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.9911476707268928,
+          "cavity_containment": 0.9884002216034145
+        }
+      ],
+      "min_tube": 0.9911476707268928,
+      "min_cavity": 0.9884002216034145
+    },
+    {
+      "xc": 0.34,
+      "length_mm": 40,
+      "x_mm": 573.6690511657201,
+      "z_mm": -4.253466068616888,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 1.0,
+          "cavity_containment": 0.9999859945530362
+        },
+        {
+          "side": "L",
+          "tube_containment": 1.0,
+          "cavity_containment": 0.9999859762850263
+        }
+      ],
+      "min_tube": 1.0,
+      "min_cavity": 0.9999859762850263
+    },
+    {
+      "xc": 0.34,
+      "length_mm": 50,
+      "x_mm": 573.6690511657201,
+      "z_mm": -4.253466068616888,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.9994169256208862,
+          "cavity_containment": 0.9985101639915192
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.9994199594407466,
+          "cavity_containment": 0.9985101690215467
+        }
+      ],
+      "min_tube": 0.9994169256208862,
+      "min_cavity": 0.9985101639915192
+    },
+    {
+      "xc": 0.34,
+      "length_mm": 60,
+      "x_mm": 573.6690511657201,
+      "z_mm": -4.253466068616888,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.9960817675017805,
+          "cavity_containment": 0.9941028269774638
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.996089965870483,
+          "cavity_containment": 0.9941030071445965
+        }
+      ],
+      "min_tube": 0.9960817675017805,
+      "min_cavity": 0.9941028269774638
+    },
+    {
+      "xc": 0.38,
+      "length_mm": 40,
+      "x_mm": 577.3905691955509,
+      "z_mm": -4.231602150191662,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 1.0,
+          "cavity_containment": 1.0
+        },
+        {
+          "side": "L",
+          "tube_containment": 1.0,
+          "cavity_containment": 1.0
+        }
+      ],
+      "min_tube": 1.0,
+      "min_cavity": 1.0
+    },
+    {
+      "xc": 0.38,
+      "length_mm": 50,
+      "x_mm": 577.3905691955509,
+      "z_mm": -4.231602150191662,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.9999598767643237,
+          "cavity_containment": 0.9996259469380256
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.9999596453172236,
+          "cavity_containment": 0.9996258637682754
+        }
+      ],
+      "min_tube": 0.9999596453172236,
+      "min_cavity": 0.9996258637682754
+    },
+    {
+      "xc": 0.38,
+      "length_mm": 60,
+      "x_mm": 577.3905691955509,
+      "z_mm": -4.231602150191662,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.9984762607043419,
+          "cavity_containment": 0.9971445595789351
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.9984840529994415,
+          "cavity_containment": 0.9971445438375734
+        }
+      ],
+      "min_tube": 0.9984762607043419,
+      "min_cavity": 0.9971445438375734
+    },
+    {
+      "xc": 0.4,
+      "length_mm": 40,
+      "x_mm": 579.2513282104663,
+      "z_mm": -4.228811011669279,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 1.0,
+          "cavity_containment": 1.0
+        },
+        {
+          "side": "L",
+          "tube_containment": 1.0,
+          "cavity_containment": 1.0
+        }
+      ],
+      "min_tube": 1.0,
+      "min_cavity": 1.0
+    },
+    {
+      "xc": 0.4,
+      "length_mm": 50,
+      "x_mm": 579.2513282104663,
+      "z_mm": -4.228811011669279,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.9999988522861918,
+          "cavity_containment": 0.9998411087402996
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.9999988577712893,
+          "cavity_containment": 0.9998411326400793
+        }
+      ],
+      "min_tube": 0.9999988522861918,
+      "min_cavity": 0.9998411087402996
+    },
+    {
+      "xc": 0.4,
+      "length_mm": 60,
+      "x_mm": 579.2513282104663,
+      "z_mm": -4.228811011669279,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.9990941099721038,
+          "cavity_containment": 0.9980210430240309
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.999090158323765,
+          "cavity_containment": 0.9980210540819117
+        }
+      ],
+      "min_tube": 0.999090158323765,
+      "min_cavity": 0.9980210430240309
+    },
+    {
+      "xc": 0.42,
+      "length_mm": 40,
+      "x_mm": 581.1120872253817,
+      "z_mm": -4.231136960437908,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 1.0,
+          "cavity_containment": 1.0
+        },
+        {
+          "side": "L",
+          "tube_containment": 1.0,
+          "cavity_containment": 1.0
+        }
+      ],
+      "min_tube": 1.0,
+      "min_cavity": 1.0
+    },
+    {
+      "xc": 0.42,
+      "length_mm": 50,
+      "x_mm": 581.1120872253817,
+      "z_mm": -4.231136960437908,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 1.0,
+          "cavity_containment": 0.9999414043010889
+        },
+        {
+          "side": "L",
+          "tube_containment": 1.0,
+          "cavity_containment": 0.9999413299981987
+        }
+      ],
+      "min_tube": 1.0,
+      "min_cavity": 0.9999413299981987
+    },
+    {
+      "xc": 0.42,
+      "length_mm": 60,
+      "x_mm": 581.1120872253817,
+      "z_mm": -4.231136960437908,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.999472542930874,
+          "cavity_containment": 0.9986094108373198
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.9994700738421246,
+          "cavity_containment": 0.9986094343209251
+        }
+      ],
+      "min_tube": 0.9994700738421246,
+      "min_cavity": 0.9986094108373198
+    }
+  ],
+  "best": {
+    "xc": 0.38,
+    "length_mm": 50,
+    "x_mm": 577.3905691955509,
+    "z_mm": -4.231602150191662,
+    "sides": [
+      {
+        "side": "R",
+        "tube_containment": 0.9999598767643237,
+        "cavity_containment": 0.9996259469380256
+      },
+      {
+        "side": "L",
+        "tube_containment": 0.9999596453172236,
+        "cavity_containment": 0.9996258637682754
+      }
+    ],
+    "min_tube": 0.9999596453172236,
+    "min_cavity": 0.9996258637682754
+  },
+  "gates": {
+    "valid_candidate_found": true,
+    "best_length_ge_50mm": true,
+    "best_cavity_containment_ge_0p999": true
+  }
+}

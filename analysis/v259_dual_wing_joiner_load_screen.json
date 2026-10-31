@@ -1,0 +1,70 @@
+{
+  "status": "V259_DUAL_WING_JOINER_LOAD_SCREEN",
+  "joiners": [
+    {
+      "xc": 0.3,
+      "x_mm": 569.9475331358894,
+      "z_mm": -4.299519854236053,
+      "length_mm": 40,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 0.9998948312912278,
+          "cavity_containment": 0.9994044314366088
+        },
+        {
+          "side": "L",
+          "tube_containment": 0.9998947308995659,
+          "cavity_containment": 0.9994043381193315
+        }
+      ]
+    },
+    {
+      "xc": 0.42,
+      "x_mm": 581.1120872253817,
+      "z_mm": -4.231136960437908,
+      "length_mm": 40,
+      "sides": [
+        {
+          "side": "R",
+          "tube_containment": 1.0,
+          "cavity_containment": 1.0
+        },
+        {
+          "side": "L",
+          "tube_containment": 1.0,
+          "cavity_containment": 1.0
+        }
+      ]
+    }
+  ],
+  "center_spacing_mm": 11.164554089492299,
+  "tube_OD_ID_mm": [
+    6,
+    4
+  ],
+  "embed_each_side_mm": 20,
+  "load_screen": {
+    "root_moment_8g_Nm": 19.221033999999996,
+    "pivot_to_tip_mm": 324.79072976224717,
+    "seam_to_tip_mm": 129.05981791783444,
+    "uniform_spanload_scaled_seam_moment_Nm": 3.0349503661415684,
+    "moment_share_per_tube_Nm": 1.5174751830707842,
+    "tube_I_mm4": 51.050880620834135,
+    "outer_fiber_stress_MPa": 89.17428051876706,
+    "candidate_allowable_MPa": 350.0,
+    "candidate_FOS": 3.9248985017192393,
+    "material_values_verified": false
+  },
+  "gates": {
+    "both_tubes_and_6p3_cavities_contained_ge_0p999": true,
+    "tube_centers_separated_gt_9mm": true,
+    "candidate_FOS_ge_3": true,
+    "adhesive_bond_shear_verified": false,
+    "torsion_split_verified": false,
+    "tube_datasheet_verified": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

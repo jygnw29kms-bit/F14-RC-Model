@@ -1,0 +1,114 @@
+{
+  "status": "V255_CF_JOINERS_AND_SLEEVES",
+  "source": "F14_v253_SERVICE_ACCESS_KEEPOUTS.FCStd",
+  "rows": [
+    {
+      "cut_x_mm": 220,
+      "side": "L",
+      "provisional": false,
+      "tube_valid": true,
+      "sleeves_valid": true,
+      "tube_outer_containment": 1.0,
+      "sleeve_outer_containment": 1.0,
+      "sleeve_wall_mm": 1.2,
+      "radial_clearance_mm": 0.15
+    },
+    {
+      "cut_x_mm": 220,
+      "side": "R",
+      "provisional": false,
+      "tube_valid": true,
+      "sleeves_valid": true,
+      "tube_outer_containment": 1.0,
+      "sleeve_outer_containment": 1.0,
+      "sleeve_wall_mm": 1.2,
+      "radial_clearance_mm": 0.15
+    },
+    {
+      "cut_x_mm": 440,
+      "side": "L",
+      "provisional": false,
+      "tube_valid": true,
+      "sleeves_valid": true,
+      "tube_outer_containment": 1.0,
+      "sleeve_outer_containment": 1.0,
+      "sleeve_wall_mm": 1.2,
+      "radial_clearance_mm": 0.15
+    },
+    {
+      "cut_x_mm": 440,
+      "side": "R",
+      "provisional": false,
+      "tube_valid": true,
+      "sleeves_valid": true,
+      "tube_outer_containment": 1.0,
+      "sleeve_outer_containment": 1.0,
+      "sleeve_wall_mm": 1.2,
+      "radial_clearance_mm": 0.15
+    },
+    {
+      "cut_x_mm": 620,
+      "side": "L",
+      "provisional": true,
+      "tube_valid": true,
+      "sleeves_valid": true,
+      "tube_outer_containment": 1.0,
+      "sleeve_outer_containment": 1.0,
+      "sleeve_wall_mm": 1.2,
+      "radial_clearance_mm": 0.15
+    },
+    {
+      "cut_x_mm": 620,
+      "side": "R",
+      "provisional": true,
+      "tube_valid": true,
+      "sleeves_valid": true,
+      "tube_outer_containment": 1.0,
+      "sleeve_outer_containment": 1.0,
+      "sleeve_wall_mm": 1.2,
+      "radial_clearance_mm": 0.15
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "L",
+      "provisional": false,
+      "tube_valid": true,
+      "sleeves_valid": true,
+      "tube_outer_containment": 1.0,
+      "sleeve_outer_containment": 0.9996427276909378,
+      "sleeve_wall_mm": 1.2,
+      "radial_clearance_mm": 0.15
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "R",
+      "provisional": false,
+      "tube_valid": true,
+      "sleeves_valid": true,
+      "tube_outer_containment": 1.0,
+      "sleeve_outer_containment": 0.9992489247856898,
+      "sleeve_wall_mm": 1.2,
+      "radial_clearance_mm": 0.15
+    }
+  ],
+  "mass_screen": {
+    "nonprovisional_printed_sleeves_PPA_CF_g": 9.236282401553993,
+    "CF_tube_mass_not_assumed": true
+  },
+  "architecture": {
+    "X620_objects_present_but_provisional": true,
+    "central_wingbox_load_path_unchanged": true,
+    "alignment_keys_remain_separate_from_primary_CF_joiners": true
+  },
+  "gates": {
+    "all_nonprovisional_valid": true,
+    "all_nonprovisional_tubes_contained": true,
+    "all_nonprovisional_sleeves_contained": true,
+    "CF_tube_actual_mass_measured": false,
+    "bond_system_selected": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "b278340932e79db6cb011543c2b43a2f24a6db03b0fa3d4359e78e7f06f736c1"
+}

@@ -1,0 +1,57 @@
+{
+  "status": "V257_WING_SEGMENT_CF_JOINER_SCREEN",
+  "source_station": {
+    "WBL_in": 274.36816,
+    "model_abs_y_mm": 320.94018208216556,
+    "local_circle_center_fs_in": 580.24175,
+    "local_circle_center_wl_in": 156.6950322115,
+    "current_local_x_mm": 569.9475331358894,
+    "current_local_z_mm": -4.299519854236053,
+    "v10_local_max_tube_od_mm": 6.782904640047178
+  },
+  "rows": [
+    {
+      "side": "R",
+      "x_mm": 569.9475331358894,
+      "seam_abs_y_mm": 320.94018208216556,
+      "z_mm": -4.299519854236053,
+      "tube_length_mm": 60,
+      "OD_ID_mm": [
+        6,
+        4
+      ],
+      "outer_containment_fraction": 0.9911477707246427,
+      "6p3mm_bond_cavity_containment_fraction": 0.9884009205933783,
+      "tube_volume_cm3": 0.9424777960769379
+    },
+    {
+      "side": "L",
+      "x_mm": 569.9475331358894,
+      "seam_abs_y_mm": 320.94018208216556,
+      "z_mm": -4.299519854236053,
+      "tube_length_mm": 60,
+      "OD_ID_mm": [
+        6,
+        4
+      ],
+      "outer_containment_fraction": 0.9911476707268928,
+      "6p3mm_bond_cavity_containment_fraction": 0.9884002216034145,
+      "tube_volume_cm3": 0.9424777960769379
+    }
+  ],
+  "architecture": {
+    "tube": "6x4 CF",
+    "embed_each_side_mm": 30,
+    "bond_cavity_diameter_mm": 6.3,
+    "printed_external_sleeve_not_used_due_local_thickness_limit": true
+  },
+  "gates": {
+    "6mm_tube_full_length_containment_ge_0p995": false,
+    "6p3mm_bond_cavity_full_length_containment_ge_0p995": false,
+    "adhesive_system_selected": false,
+    "continuous_spar_load_transfer_verified": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}

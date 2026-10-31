@@ -1,0 +1,60 @@
+{
+  "status": "V256_CONSOLIDATED_JOINER_STATE",
+  "source": "F14_v255_CF_JOINERS_AND_SLEEVES.FCStd",
+  "shape_count": 150,
+  "removed_redundant_or_provisional": [
+    "V252_ALIGN_KEY_X220_N",
+    "V252_SOCKET_CLEARANCE_X220_N",
+    "V252_ALIGN_KEY_X220_P",
+    "V252_SOCKET_CLEARANCE_X220_P",
+    "V252_ALIGN_KEY_X440_N",
+    "V252_SOCKET_CLEARANCE_X440_N",
+    "V252_ALIGN_KEY_X440_P",
+    "V252_SOCKET_CLEARANCE_X440_P",
+    "V252_ALIGN_KEY_X620_N",
+    "V252_SOCKET_CLEARANCE_X620_N",
+    "V252_ALIGN_KEY_X620_P",
+    "V252_SOCKET_CLEARANCE_X620_P",
+    "V252_ALIGN_KEY_X840_N",
+    "V252_SOCKET_CLEARANCE_X840_N",
+    "V252_ALIGN_KEY_X840_P",
+    "V252_SOCKET_CLEARANCE_X840_P",
+    "V255_CF_TUBE_X620_L",
+    "V255_SLEEVE_X620_L_FWD",
+    "V255_SLEEVE_X620_L_AFT",
+    "V255_CF_TUBE_X620_R",
+    "V255_SLEEVE_X620_R_FWD",
+    "V255_SLEEVE_X620_R_AFT"
+  ],
+  "mass_budget": {
+    "reserve_before_joiner_sleeves_g": 19.4194097652027,
+    "nonprovisional_sleeves_PPA_CF_g": 9.236282401553993,
+    "reserve_after_joiner_sleeves_g": 10.183127363648708,
+    "alignment_keys_removed_saving_g": 5.76,
+    "CF_tube_mass_still_hardware_gate": true
+  },
+  "required_objects": {
+    "V255_CF_TUBE_X220_L": true,
+    "V255_CF_TUBE_X220_R": true,
+    "V255_CF_TUBE_X440_L": true,
+    "V255_CF_TUBE_X440_R": true,
+    "V255_CF_TUBE_X840_L": true,
+    "V255_CF_TUBE_X840_R": true,
+    "V253_ACCESS_BATTERY": true,
+    "V253_ACCESS_SWEEP": true,
+    "V253_ACCESS_TAIL_R": true,
+    "V253_ACCESS_TAIL_L": true
+  },
+  "gates": {
+    "all_shapes_valid": true,
+    "all_required_present": true,
+    "no_alignment_key_duplicates": true,
+    "no_active_X620_CF_joiner": true,
+    "reserve_after_sleeves_positive": true,
+    "bond_system_selected": false,
+    "CF_tube_actual_mass_measured": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "03b0b8ac4dc7777c88b7ad12f2bad09d2426fd21e33969f43d2d3fb7865cdd99"
+}

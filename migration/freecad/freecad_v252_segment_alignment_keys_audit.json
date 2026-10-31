@@ -1,0 +1,112 @@
+{
+  "status": "V252_SEGMENT_ALIGNMENT_KEYS",
+  "source": "F14_v250_PRINT_SEGMENTATION_REVIEW.FCStd",
+  "geometry": {
+    "key_mm": [
+      12,
+      8,
+      6
+    ],
+    "socket_clearance_per_face_mm": 0.25,
+    "key_count": 8
+  },
+  "rows": [
+    {
+      "cut_x_mm": 220,
+      "y_mm": -20,
+      "z_mm": 0,
+      "key_valid": true,
+      "socket_valid": true,
+      "containment_fraction": 1.0,
+      "nearest_hardware": "BATTERY_TRAY_v165",
+      "min_hardware_distance_mm": 16.0
+    },
+    {
+      "cut_x_mm": 220,
+      "y_mm": 20,
+      "z_mm": 0,
+      "key_valid": true,
+      "socket_valid": true,
+      "containment_fraction": 1.0,
+      "nearest_hardware": "BATTERY_TRAY_v165",
+      "min_hardware_distance_mm": 16.0
+    },
+    {
+      "cut_x_mm": 440,
+      "y_mm": -40,
+      "z_mm": 0,
+      "key_valid": true,
+      "socket_valid": true,
+      "containment_fraction": 1.0,
+      "nearest_hardware": "BATTERY_TRAY_v165",
+      "min_hardware_distance_mm": 9.0
+    },
+    {
+      "cut_x_mm": 440,
+      "y_mm": 40,
+      "z_mm": 0,
+      "key_valid": true,
+      "socket_valid": true,
+      "containment_fraction": 1.0,
+      "nearest_hardware": "BATTERY_TRAY_v165",
+      "min_hardware_distance_mm": 9.0
+    },
+    {
+      "cut_x_mm": 620,
+      "y_mm": -15,
+      "z_mm": 30,
+      "key_valid": true,
+      "socket_valid": true,
+      "containment_fraction": 1.0,
+      "nearest_hardware": "V247_TAIL_SERVO_CRADLE_L",
+      "min_hardware_distance_mm": 64.0097648800556
+    },
+    {
+      "cut_x_mm": 620,
+      "y_mm": 15,
+      "z_mm": 30,
+      "key_valid": true,
+      "socket_valid": true,
+      "containment_fraction": 1.0,
+      "nearest_hardware": "V247_TAIL_SERVO_CRADLE_R",
+      "min_hardware_distance_mm": 64.0097648800556
+    },
+    {
+      "cut_x_mm": 840,
+      "y_mm": -40,
+      "z_mm": 0,
+      "key_valid": true,
+      "socket_valid": true,
+      "containment_fraction": 1.0,
+      "nearest_hardware": "V247_TAIL_SERVO_CRADLE_L",
+      "min_hardware_distance_mm": 116.0
+    },
+    {
+      "cut_x_mm": 840,
+      "y_mm": 40,
+      "z_mm": 0,
+      "key_valid": true,
+      "socket_valid": true,
+      "containment_fraction": 1.0,
+      "nearest_hardware": "V247_TAIL_SERVO_CRADLE_R",
+      "min_hardware_distance_mm": 116.0
+    }
+  ],
+  "mass_screen": {
+    "total_key_volume_cm3": 4.608,
+    "PPA_CF_1p25_g_cm3_g": 5.76
+  },
+  "architecture": {
+    "alignment_only": true,
+    "primary_structural_joiner_still_required": true,
+    "X620_aft_nacelle_keys_provisional_until_OML_gate": true
+  },
+  "gates": {
+    "all_keys_valid": true,
+    "all_contained": true,
+    "hardware_clearance_ge_4mm": true,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "9d63ba9aa2891e29d33ab67ebddc3dd053c41d12cc0f2d3567e23090e5a68b5c"
+}

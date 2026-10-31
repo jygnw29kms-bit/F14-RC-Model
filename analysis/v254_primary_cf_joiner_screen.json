@@ -1,0 +1,148 @@
+{
+  "status": "V254_PRIMARY_CF_JOINER_SCREEN",
+  "rows": [
+    {
+      "cut_x_mm": 220,
+      "side": "L",
+      "center_y_mm": -20,
+      "z_mm": -10,
+      "OD_ID_mm": [
+        6,
+        4
+      ],
+      "length_mm": 60,
+      "provisional": false,
+      "outer_envelope_containment": 1.0,
+      "nearest_hardware": "BATTERY_TRAY_v165",
+      "min_hardware_distance_mm": 9.407593065391325,
+      "tube_volume_cm3": 0.9424777960769379
+    },
+    {
+      "cut_x_mm": 220,
+      "side": "R",
+      "center_y_mm": 20,
+      "z_mm": -10,
+      "OD_ID_mm": [
+        6,
+        4
+      ],
+      "length_mm": 60,
+      "provisional": false,
+      "outer_envelope_containment": 1.0,
+      "nearest_hardware": "BATTERY_TRAY_v165",
+      "min_hardware_distance_mm": 9.407593065391325,
+      "tube_volume_cm3": 0.9424777960769379
+    },
+    {
+      "cut_x_mm": 440,
+      "side": "L",
+      "center_y_mm": -60,
+      "z_mm": -10,
+      "OD_ID_mm": [
+        8,
+        6
+      ],
+      "length_mm": 76,
+      "provisional": false,
+      "outer_envelope_containment": 1.0,
+      "nearest_hardware": "V221_CASSETTE_L",
+      "min_hardware_distance_mm": 4.346309376956867,
+      "tube_volume_cm3": 1.6713272917097708
+    },
+    {
+      "cut_x_mm": 440,
+      "side": "R",
+      "center_y_mm": 60,
+      "z_mm": -10,
+      "OD_ID_mm": [
+        8,
+        6
+      ],
+      "length_mm": 76,
+      "provisional": false,
+      "outer_envelope_containment": 1.0,
+      "nearest_hardware": "V221_CASSETTE_R",
+      "min_hardware_distance_mm": 4.346309376956924,
+      "tube_volume_cm3": 1.6713272917097701
+    },
+    {
+      "cut_x_mm": 620,
+      "side": "L",
+      "center_y_mm": -15,
+      "z_mm": 30,
+      "OD_ID_mm": [
+        8,
+        6
+      ],
+      "length_mm": 80,
+      "provisional": true,
+      "outer_envelope_containment": 1.0,
+      "nearest_hardware": "INLET_EDF_L",
+      "min_hardware_distance_mm": 26.49685012323985,
+      "tube_volume_cm3": 1.759291886010283
+    },
+    {
+      "cut_x_mm": 620,
+      "side": "R",
+      "center_y_mm": 15,
+      "z_mm": 30,
+      "OD_ID_mm": [
+        8,
+        6
+      ],
+      "length_mm": 80,
+      "provisional": true,
+      "outer_envelope_containment": 1.0,
+      "nearest_hardware": "INLET_EDF_R",
+      "min_hardware_distance_mm": 26.496850102023114,
+      "tube_volume_cm3": 1.759291886010283
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "L",
+      "center_y_mm": -30,
+      "z_mm": 0,
+      "OD_ID_mm": [
+        6,
+        4
+      ],
+      "length_mm": 40,
+      "provisional": false,
+      "outer_envelope_containment": 1.0,
+      "nearest_hardware": "V241_LIGHT_D_CRANK_L",
+      "min_hardware_distance_mm": 77.76256450482148,
+      "tube_volume_cm3": 0.6283185307179583
+    },
+    {
+      "cut_x_mm": 840,
+      "side": "R",
+      "center_y_mm": 30,
+      "z_mm": 0,
+      "OD_ID_mm": [
+        6,
+        4
+      ],
+      "length_mm": 40,
+      "provisional": false,
+      "outer_envelope_containment": 1.0,
+      "nearest_hardware": "V241_LIGHT_D_CRANK_R",
+      "min_hardware_distance_mm": 77.76256450482148,
+      "tube_volume_cm3": 0.6283185307179583
+    }
+  ],
+  "architecture": {
+    "6x4_CF_for_nose_tail": true,
+    "8x6_CF_for_central_module": true,
+    "X620_joiner_provisional_until_aft_nacelle_OML_gate": true,
+    "central_wingbox_load_path_remains_self_contained": true
+  },
+  "gates": {
+    "all_nonprovisional_outer_envelopes_contained_ge_0p995": true,
+    "all_nonprovisional_hardware_clearance_ge_3mm": true,
+    "X620_geometry_passes_screen": true,
+    "bond_socket_design_open": true,
+    "proof_load_open": true,
+    "print_release": false,
+    "flight_release": false
+  }
+}
