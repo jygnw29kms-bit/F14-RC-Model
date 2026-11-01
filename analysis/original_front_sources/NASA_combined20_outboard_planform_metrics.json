@@ -1,0 +1,82 @@
+{
+  "status": "SOURCE_PROJECTED_PLANFORM_ONLY",
+  "source_sha256": "db75fd1339004864983b1f1ff0d3193bca9d6507e35873614e7dbf621cc5cdc0",
+  "span_raw": [
+    127.24,
+    384.69995
+  ],
+  "intervals": [
+    {
+      "span_raw": [
+        127.24,
+        164.0146
+      ],
+      "projected_area_raw_squared": 4438.2341697540005,
+      "leading_edge_sweep_deg": 19.99922987092773,
+      "trailing_edge_sweep_deg": 2.547686222174983
+    },
+    {
+      "span_raw": [
+        164.0146,
+        200.79919
+      ],
+      "projected_area_raw_squared": 4007.149543174502,
+      "leading_edge_sweep_deg": 20.00594721614584,
+      "trailing_edge_sweep_deg": 2.5480523073520973
+    },
+    {
+      "span_raw": [
+        200.79919,
+        237.58369
+      ],
+      "projected_area_raw_squared": 3574.6253809049995,
+      "leading_edge_sweep_deg": 20.012043353651553,
+      "trailing_edge_sweep_deg": 2.548058533410765
+    },
+    {
+      "span_raw": [
+        237.58369,
+        274.36816
+      ],
+      "projected_area_raw_squared": 3142.0275344181005,
+      "leading_edge_sweep_deg": 20.012058379338573,
+      "trailing_edge_sweep_deg": 2.548060608770645
+    },
+    {
+      "span_raw": [
+        274.36816,
+        311.15283
+      ],
+      "projected_area_raw_squared": 2709.447702496602,
+      "leading_edge_sweep_deg": 20.01194445664155,
+      "trailing_edge_sweep_deg": 2.5480623183117728
+    },
+    {
+      "span_raw": [
+        311.15283,
+        347.93726
+      ],
+      "projected_area_raw_squared": 2276.8405299676497,
+      "leading_edge_sweep_deg": 20.011734614687544,
+      "trailing_edge_sweep_deg": 2.548063375921997
+    },
+    {
+      "span_raw": [
+        347.93726,
+        384.69995
+      ],
+      "projected_area_raw_squared": 1843.2864233766002,
+      "leading_edge_sweep_deg": 20.01222688918205,
+      "trailing_edge_sweep_deg": 2.5480594270130226
+    }
+  ],
+  "one_side_projected_area_raw_squared": 21991.611284092454,
+  "independent_shoelace_area": 21991.611284092447,
+  "tip_to_root_chord_ratio": 0.3497385065758543,
+  "limits": [
+    "Only outboard127.24..384.69995 on one side, not total aircraft wing/reference area",
+    "Straight interpolation of station leading/trailing edges",
+    "Source units squared only; no RC scale conversion or loading claim",
+    "No exposed inboard skin assumption, aerodynamics, flight or print acceptance"
+  ]
+}
