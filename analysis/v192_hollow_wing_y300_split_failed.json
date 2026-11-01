@@ -1,0 +1,18 @@
+{
+  "status": "VOLUME_BALANCE_GUARD_FAILED_NO_OUTPUT_CAD",
+  "source_volume_mm3": 64770.945294431316,
+  "two_valid_single_solid_part_volumes_mm3": [
+    53714.68157658667,
+    11056.393275799941
+  ],
+  "sum_minus_source_mm3": 0.12955795529705938,
+  "required_absolute_volume_balance_mm3": 1e-05,
+  "native_exit_code": 0,
+  "exit_code_is_not_success": true,
+  "limits": [
+    "No saved split CAD or print release",
+    "Repeated diagnostic produced identical discrepancy",
+    "Investigate boolean partition/symmetric difference before changing tolerance"
+  ],
+  "next": "Try complementary cut or general-fuse partition with explicit overlap/union checks"
+}
