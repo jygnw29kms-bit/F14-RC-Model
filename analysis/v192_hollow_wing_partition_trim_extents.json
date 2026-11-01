@@ -1,0 +1,61 @@
+{
+  "status": "TRIMMED_PART_VERTEX_AND_MESH_EXTENT_DIAGNOSTIC",
+  "input_sha256_unchanged": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+  "source_shell_count": 2,
+  "source_shell_orientations": [
+    "Forward",
+    "Forward"
+  ],
+  "rows": [
+    {
+      "side_by_vertices": "ROOT",
+      "brep_bbox_y": [
+        148.8263775443693,
+        300.0
+      ],
+      "vertex_y_range": [
+        148.8263775443693,
+        300.0
+      ],
+      "mesh_sample_y_range": [
+        148.8263775443693,
+        300.0
+      ],
+      "shell_count": 1,
+      "face_count": 1186,
+      "surface_type_counts": {
+        "BSplineSurface": 1183,
+        "Plane": 3
+      }
+    },
+    {
+      "side_by_vertices": "TIP",
+      "brep_bbox_y": [
+        299.99999999999994,
+        449.99999999999994
+      ],
+      "vertex_y_range": [
+        299.99999999999994,
+        449.99999999999994
+      ],
+      "mesh_sample_y_range": [
+        299.99999999999994,
+        449.99999999999994
+      ],
+      "shell_count": 1,
+      "face_count": 1200,
+      "surface_type_counts": {
+        "BSplineSurface": 1197,
+        "Plane": 3
+      }
+    }
+  ],
+  "finding": "After tessellation, BRep bounds, vertices and sampled mesh points all obey Y300 partition. Earlier pre-tessellation GeneralFuse bounds were wider; this run did not capture pre-tessellation bounds, so cause is not proven.",
+  "limits": [
+    "Mesh and vertices do not bound every curved surface point analytically",
+    "Strict volume balance remains unresolved; no output CAD or print release",
+    "No seam or joint design accepted"
+  ],
+  "print_release": false,
+  "flight_release": false
+}
