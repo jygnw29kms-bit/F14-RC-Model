@@ -1,0 +1,813 @@
+{
+  "status": "V299_TAIL_SERVO_RELOCATION_SCAN",
+  "constraints": {
+    "service_OML_fraction_min": 0.999,
+    "EDF_service_clearance_min_mm": 2.0,
+    "scan_abs_y_mm": [
+      14,
+      24
+    ],
+    "scan_x_mm": [
+      680,
+      720
+    ],
+    "scan_z_mm": [
+      -12,
+      12
+    ]
+  },
+  "rows": [
+    {
+      "side": "R",
+      "count": 236,
+      "top": [
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            22.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.0174829320434324,
+          "crank_service_clearance_mm": 41.27417365279535,
+          "root_service_clearance_mm": 47.05651186663299,
+          "cost": 6.937086826397674
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            22.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.0174829320434324,
+          "crank_service_clearance_mm": 39.66709502076563,
+          "root_service_clearance_mm": 45.598643902203,
+          "cost": 7.133547510382814
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            21.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.993259197689675,
+          "crank_service_clearance_mm": 42.202575877795724,
+          "root_service_clearance_mm": 47.99807609742886,
+          "cost": 7.151287938897862
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            22.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.5261701796812903,
+          "crank_service_clearance_mm": 41.27417365279535,
+          "root_service_clearance_mm": 47.05651186663299,
+          "cost": 7.337086826397674
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            21.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.993259197689675,
+          "crank_service_clearance_mm": 40.632233846866576,
+          "root_service_clearance_mm": 46.56969321049812,
+          "cost": 7.366116923433288
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            20.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.970568486493463,
+          "crank_service_clearance_mm": 43.13417914741285,
+          "root_service_clearance_mm": 48.94195857395341,
+          "cost": 7.3670895737064255
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            23.0,
+            8
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.2217813211220987,
+          "crank_service_clearance_mm": 40.349193433340226,
+          "root_service_clearance_mm": 46.11740787440867,
+          "cost": 7.524596716670112
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            22.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.5261701796812903,
+          "crank_service_clearance_mm": 39.66709502076563,
+          "root_service_clearance_mm": 45.598643902203,
+          "cost": 7.533547510382815
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            21.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.4858012794612034,
+          "crank_service_clearance_mm": 42.202575877795724,
+          "root_service_clearance_mm": 47.99807609742886,
+          "cost": 7.551287938897862
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            20.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.970568486493463,
+          "crank_service_clearance_mm": 41.599019548379374,
+          "root_service_clearance_mm": 47.541942805484034,
+          "cost": 7.599509774189687
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            710,
+            22.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.0174829320434324,
+          "crank_service_clearance_mm": 38.64452670239077,
+          "root_service_clearance_mm": 44.655988874788775,
+          "cost": 7.622263351195385
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            23.0,
+            8
+          ],
+          "service_oml_fraction": 0.9999514167168622,
+          "edf_service_clearance_mm": 2.2217813211220987,
+          "crank_service_clearance_mm": 38.70372627262716,
+          "root_service_clearance_mm": 44.62887322933344,
+          "cost": 7.7018631363135786
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            22.0,
+            8
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.1581414091889024,
+          "crank_service_clearance_mm": 41.27417365279535,
+          "root_service_clearance_mm": 47.05651186663299,
+          "cost": 7.7370868263976735
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            21.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.4858012794612034,
+          "crank_service_clearance_mm": 40.632233846866576,
+          "root_service_clearance_mm": 46.56969321049812,
+          "cost": 7.766116923433288
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            20.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 4.447928165918295,
+          "crank_service_clearance_mm": 43.13417914741285,
+          "root_service_clearance_mm": 48.94195857395341,
+          "cost": 7.767089573706426
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            710,
+            21.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.993259197689675,
+          "crank_service_clearance_mm": 39.63457384723334,
+          "root_service_clearance_mm": 45.64709566210384,
+          "cost": 7.86728692361667
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            22.0,
+            8
+          ],
+          "service_oml_fraction": 0.9999467288381767,
+          "edf_service_clearance_mm": 3.1581414091889024,
+          "crank_service_clearance_mm": 39.66709502076563,
+          "root_service_clearance_mm": 45.598643902203,
+          "cost": 7.933547510382814
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            21.0,
+            8
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 4.098432714928777,
+          "crank_service_clearance_mm": 42.202575877795724,
+          "root_service_clearance_mm": 47.99807609742886,
+          "cost": 7.9512879388978615
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            20.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 4.447928165918295,
+          "crank_service_clearance_mm": 41.599019548379374,
+          "root_service_clearance_mm": 47.541942805484034,
+          "cost": 7.999509774189687
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            710,
+            22.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.5261701796812903,
+          "crank_service_clearance_mm": 38.64452670239077,
+          "root_service_clearance_mm": 44.655988874788775,
+          "cost": 8.022263351195384
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            19.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 4.949271208227927,
+          "crank_service_clearance_mm": 44.0687804542071,
+          "root_service_clearance_mm": 49.88802771261429,
+          "cost": 8.084390227103551
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            710,
+            20.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.970568486493463,
+          "crank_service_clearance_mm": 40.625108542030915,
+          "root_service_clearance_mm": 46.638582122372235,
+          "cost": 8.112554271015458
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            21.0,
+            8
+          ],
+          "service_oml_fraction": 0.9999416458672437,
+          "edf_service_clearance_mm": 4.098432714928777,
+          "crank_service_clearance_mm": 40.632233846866576,
+          "root_service_clearance_mm": 46.56969321049812,
+          "cost": 8.166116923433288
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            20.0,
+            8
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 5.042311831202244,
+          "crank_service_clearance_mm": 43.13417914741285,
+          "root_service_clearance_mm": 48.94195857395341,
+          "cost": 8.167089573706425
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            710,
+            21.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.4858012794612034,
+          "crank_service_clearance_mm": 39.63457384723334,
+          "root_service_clearance_mm": 45.64709566210384,
+          "cost": 8.26728692361667
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            19.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 4.949271208227927,
+          "crank_service_clearance_mm": 42.56733991438095,
+          "root_service_clearance_mm": 48.51532052578767,
+          "cost": 8.333669957190477
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            705,
+            20.0,
+            8
+          ],
+          "service_oml_fraction": 0.9999361513398413,
+          "edf_service_clearance_mm": 5.042311831202244,
+          "crank_service_clearance_mm": 41.599019548379374,
+          "root_service_clearance_mm": 47.541942805484034,
+          "cost": 8.399509774189687
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            715,
+            22.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.0174829320434324,
+          "crank_service_clearance_mm": 38.253371886895636,
+          "root_service_clearance_mm": 44.261477144923695,
+          "cost": 8.426685943447819
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            700,
+            19.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 5.412330286323783,
+          "crank_service_clearance_mm": 44.0687804542071,
+          "root_service_clearance_mm": 49.88802771261429,
+          "cost": 8.48439022710355
+        },
+        {
+          "side": "R",
+          "center_mm": [
+            710,
+            20.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 4.447928165918295,
+          "crank_service_clearance_mm": 40.625108542030915,
+          "root_service_clearance_mm": 46.638582122372235,
+          "cost": 8.512554271015457
+        }
+      ]
+    },
+    {
+      "side": "L",
+      "count": 212,
+      "top": [
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -22.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.017482932043433,
+          "crank_service_clearance_mm": 41.27417365279535,
+          "root_service_clearance_mm": 47.05651186663299,
+          "cost": 6.937086826397674
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -22.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.017482932043433,
+          "crank_service_clearance_mm": 39.66709502076563,
+          "root_service_clearance_mm": 45.598643902203,
+          "cost": 7.133547510382814
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -21.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.9932591976896767,
+          "crank_service_clearance_mm": 42.202575877795724,
+          "root_service_clearance_mm": 47.99807609742886,
+          "cost": 7.151287938897862
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -22.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.526170179681289,
+          "crank_service_clearance_mm": 41.27417365279535,
+          "root_service_clearance_mm": 47.05651186663299,
+          "cost": 7.337086826397674
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -21.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.9932591976896767,
+          "crank_service_clearance_mm": 40.632233846866576,
+          "root_service_clearance_mm": 46.56969321049812,
+          "cost": 7.366116923433288
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -20.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.9705684864934616,
+          "crank_service_clearance_mm": 43.13417914741285,
+          "root_service_clearance_mm": 48.94195857395341,
+          "cost": 7.3670895737064255
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -23.0,
+            8
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.2217813211221005,
+          "crank_service_clearance_mm": 40.349193433340226,
+          "root_service_clearance_mm": 46.11740787440867,
+          "cost": 7.524596716670112
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -22.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.526170179681289,
+          "crank_service_clearance_mm": 39.66709502076563,
+          "root_service_clearance_mm": 45.598643902203,
+          "cost": 7.533547510382815
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -21.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.485801279461207,
+          "crank_service_clearance_mm": 42.202575877795724,
+          "root_service_clearance_mm": 47.99807609742886,
+          "cost": 7.551287938897862
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -20.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.9705684864934616,
+          "crank_service_clearance_mm": 41.599019548379374,
+          "root_service_clearance_mm": 47.541942805484034,
+          "cost": 7.599509774189687
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            710,
+            -22.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.017482932043433,
+          "crank_service_clearance_mm": 38.64452670239077,
+          "root_service_clearance_mm": 44.655988874788775,
+          "cost": 7.622263351195385
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -23.0,
+            8
+          ],
+          "service_oml_fraction": 0.9998559172159485,
+          "edf_service_clearance_mm": 2.2217813211221005,
+          "crank_service_clearance_mm": 38.70372627262716,
+          "root_service_clearance_mm": 44.62887322933344,
+          "cost": 7.7018631363135786
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -22.0,
+            8
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.1581414091889046,
+          "crank_service_clearance_mm": 41.27417365279535,
+          "root_service_clearance_mm": 47.05651186663299,
+          "cost": 7.7370868263976735
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -21.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.485801279461207,
+          "crank_service_clearance_mm": 40.632233846866576,
+          "root_service_clearance_mm": 46.56969321049812,
+          "cost": 7.766116923433288
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -20.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 4.4479281659183005,
+          "crank_service_clearance_mm": 43.13417914741285,
+          "root_service_clearance_mm": 48.94195857395341,
+          "cost": 7.767089573706426
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            710,
+            -21.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.9932591976896767,
+          "crank_service_clearance_mm": 39.63457384723334,
+          "root_service_clearance_mm": 45.64709566210384,
+          "cost": 7.86728692361667
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -22.0,
+            8
+          ],
+          "service_oml_fraction": 0.9998483118819073,
+          "edf_service_clearance_mm": 3.1581414091889046,
+          "crank_service_clearance_mm": 39.66709502076563,
+          "root_service_clearance_mm": 45.598643902203,
+          "cost": 7.933547510382814
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -21.0,
+            8
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 4.098432714928778,
+          "crank_service_clearance_mm": 42.202575877795724,
+          "root_service_clearance_mm": 47.99807609742886,
+          "cost": 7.9512879388978615
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -20.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 4.4479281659183005,
+          "crank_service_clearance_mm": 41.599019548379374,
+          "root_service_clearance_mm": 47.541942805484034,
+          "cost": 7.999509774189687
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            710,
+            -22.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.526170179681289,
+          "crank_service_clearance_mm": 38.64452670239077,
+          "root_service_clearance_mm": 44.655988874788775,
+          "cost": 8.022263351195384
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -19.0,
+            4
+          ],
+          "service_oml_fraction": 0.9999950375892225,
+          "edf_service_clearance_mm": 4.949271208227928,
+          "crank_service_clearance_mm": 44.0687804542071,
+          "root_service_clearance_mm": 49.88802771261429,
+          "cost": 8.084390227103551
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            710,
+            -20.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.9705684864934616,
+          "crank_service_clearance_mm": 40.625108542030915,
+          "root_service_clearance_mm": 46.638582122372235,
+          "cost": 8.112554271015458
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -21.0,
+            8
+          ],
+          "service_oml_fraction": 0.9998407067687322,
+          "edf_service_clearance_mm": 4.098432714928778,
+          "crank_service_clearance_mm": 40.632233846866576,
+          "root_service_clearance_mm": 46.56969321049812,
+          "cost": 8.166116923433288
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -20.0,
+            8
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 5.042311831202242,
+          "crank_service_clearance_mm": 43.13417914741285,
+          "root_service_clearance_mm": 48.94195857395341,
+          "cost": 8.167089573706425
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            710,
+            -21.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 3.485801279461207,
+          "crank_service_clearance_mm": 39.63457384723334,
+          "root_service_clearance_mm": 45.64709566210384,
+          "cost": 8.26728692361667
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -19.0,
+            4
+          ],
+          "service_oml_fraction": 0.9999840144811647,
+          "edf_service_clearance_mm": 4.949271208227928,
+          "crank_service_clearance_mm": 42.56733991438095,
+          "root_service_clearance_mm": 48.51532052578767,
+          "cost": 8.333669957190477
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            705,
+            -20.0,
+            8
+          ],
+          "service_oml_fraction": 0.9998331045573193,
+          "edf_service_clearance_mm": 5.042311831202242,
+          "crank_service_clearance_mm": 41.599019548379374,
+          "root_service_clearance_mm": 47.541942805484034,
+          "cost": 8.399509774189687
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            715,
+            -22.0,
+            4
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 2.017482932043433,
+          "crank_service_clearance_mm": 38.253371886895636,
+          "root_service_clearance_mm": 44.261477144923695,
+          "cost": 8.426685943447819
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            700,
+            -19.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 5.412330286323781,
+          "crank_service_clearance_mm": 44.0687804542071,
+          "root_service_clearance_mm": 49.88802771261429,
+          "cost": 8.48439022710355
+        },
+        {
+          "side": "L",
+          "center_mm": [
+            710,
+            -20.0,
+            6
+          ],
+          "service_oml_fraction": 1.0,
+          "edf_service_clearance_mm": 4.4479281659183005,
+          "crank_service_clearance_mm": 40.625108542030915,
+          "root_service_clearance_mm": 46.638582122372235,
+          "cost": 8.512554271015457
+        }
+      ]
+    }
+  ]
+}

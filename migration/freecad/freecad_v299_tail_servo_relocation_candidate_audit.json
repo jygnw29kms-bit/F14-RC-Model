@@ -1,0 +1,86 @@
+{
+  "status": "V299_TAIL_SERVO_RELOCATION_CANDIDATE",
+  "source_model": "F14_v298_EDF_PACKAGING_ENVELOPE.FCStd",
+  "decision_basis": "v298 exposed full 73.5 mm EDF collision with legacy v233 servo and v247 cradle; targeted scan selected inboard relocation",
+  "geometry": {
+    "servo_center_R_mm": [
+      710.0,
+      20.0,
+      4.0
+    ],
+    "servo_center_L_mm": [
+      710.0,
+      -20.0,
+      4.0
+    ],
+    "servo_body_mm": [
+      23,
+      27.5,
+      12
+    ],
+    "service_mm": [
+      27,
+      31.5,
+      16
+    ]
+  },
+  "rows": [
+    {
+      "side": "R",
+      "servo_center_mm": [
+        710.0,
+        20.0,
+        4.0
+      ],
+      "body_oml_fraction": 1.0,
+      "service_oml_fraction": 1.0,
+      "cradle_oml_fraction": 1.0,
+      "body_edf_clearance_mm": 6.378811894773974,
+      "service_edf_clearance_mm": 3.970568486493463,
+      "cradle_edf_clearance_mm": 3.481731349848072,
+      "cradle_servo_intersection_mm3": 0.0,
+      "service_to_crank_mm": 40.625108542030915,
+      "service_to_root_fitting_mm": 46.638582122372235,
+      "cradle_valid": true,
+      "cradle_solids": 1,
+      "cradle_mass_PPA_CF_g": 0.725625
+    },
+    {
+      "side": "L",
+      "servo_center_mm": [
+        710.0,
+        -20.0,
+        4.0
+      ],
+      "body_oml_fraction": 1.0,
+      "service_oml_fraction": 1.0,
+      "cradle_oml_fraction": 0.9999859638345733,
+      "body_edf_clearance_mm": 6.378811894773976,
+      "service_edf_clearance_mm": 3.9705684864934616,
+      "cradle_edf_clearance_mm": 3.4817313498480713,
+      "cradle_servo_intersection_mm3": 0.0,
+      "service_to_crank_mm": 40.625108542030915,
+      "service_to_root_fitting_mm": 46.638582122372235,
+      "cradle_valid": true,
+      "cradle_solids": 1,
+      "cradle_mass_PPA_CF_g": 0.725625
+    }
+  ],
+  "mass": {
+    "pair_cradle_PPA_CF_g": 1.45125
+  },
+  "gates": {
+    "bilateral_service_OML_ge_0p999": true,
+    "bilateral_cradle_OML_ge_0p995": true,
+    "service_EDF_clearance_ge_3mm": true,
+    "cradle_EDF_clearance_ge_2mm": true,
+    "cradle_no_servo_body_intersection": true,
+    "cradle_valid_single_solids": true,
+    "new_linkage_required": true,
+    "exact_servo_spline_offset_measured": false,
+    "pushrod_bellcrank_routing_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "5af07f7adeb5f5524c1a587e4ee3897d51ecd54d4967424d9af9c2f6b47af280"
+}
