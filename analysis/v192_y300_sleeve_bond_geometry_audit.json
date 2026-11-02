@@ -1,0 +1,54 @@
+{
+  "status": "FIVE_BODY_BOND_GEOMETRY_SAVED_REOPENED",
+  "input_sha256_unchanged": {
+    "Y300_ALIGNMENT_CARRIERS_UNFROZEN_ONLY.FCStd": "75595b1f585a468a1bc08e0a89ea83d529f033f37bea7d9d4aa3d5e37e9a9d35",
+    "Y300_ALIGNMENT_SLEEVE_UNSUPPORTED_STUDY_ONLY.FCStd": "e226b98ebdd6a5bf7477231b0969139873e436c257b09d377e81448e56fae3e3"
+  },
+  "output_sha256": "252db0299fef84e89adba356f105777ccfdb3862577b613c1b8cbaac7b9146a9",
+  "rows": [
+    {
+      "name": "GEOMETRIC_BOND_0",
+      "volume_mm3": 12.622919282124258,
+      "contacts": [
+        {
+          "target": "ROOT_CARRIER",
+          "common_face_area_mm2": 129.30795362175604,
+          "independent_cylinder_area_mm2": 129.30795362175604,
+          "overlap_volume_mm3": 0.0
+        },
+        {
+          "target": "GENERIC_4OD_2p2ID_SLEEVE",
+          "common_face_area_mm2": 123.15043202072003,
+          "independent_cylinder_area_mm2": 123.15043202072003,
+          "overlap_volume_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "name": "GEOMETRIC_BOND_1",
+      "volume_mm3": 12.622919282124272,
+      "contacts": [
+        {
+          "target": "TIP_CARRIER",
+          "common_face_area_mm2": 129.30795362175604,
+          "independent_cylinder_area_mm2": 129.30795362175604,
+          "overlap_volume_mm3": 0.0
+        },
+        {
+          "target": "GENERIC_4OD_2p2ID_SLEEVE",
+          "common_face_area_mm2": 123.15043202072003,
+          "independent_cylinder_area_mm2": 123.15043202072003,
+          "overlap_volume_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Adhesive not selected; geometric layer no strength or cure qualification",
+    "Carrier-to-skin adhesive thickness still absent",
+    "No seam load transfer, pin retention, manufacturing or physical proof",
+    "Source partition volume release gate remains blocked"
+  ],
+  "print_release": false,
+  "flight_release": false
+}
