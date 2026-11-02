@@ -1,0 +1,1302 @@
+{
+  "status": "V303_DYNAMIC_STABILATOR_LINKAGE_SWEEP",
+  "source_model": "F14_v300_STRAIGHT_STABILATOR_PUSHROD.FCStd",
+  "kinematic_source": "analysis/control_spatial_kinematics_v302.json",
+  "assumed_spline_axis_R_mm": [
+    719.085087734266,
+    21.441458618106275,
+    12.0
+  ],
+  "mirrored_left_axis_mm": [
+    719.085087734266,
+    -21.441458618106275,
+    12.0
+  ],
+  "horn_radius_mm": 6.0,
+  "servo_range_deg": [
+    -9.863416242920543,
+    7.07131082726999
+  ],
+  "stabilator_range_deg": [
+    -17.84348112827004,
+    17.84348112827072
+  ],
+  "sample_count": 25,
+  "samples": [
+    {
+      "servo_deg": -9.863416242920543,
+      "stabilator_deg": 17.84348112827072,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.33783011777,
+            17.208943736909855,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.286355280979,
+            76.0,
+            4.596266658713853
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.131816532755093,
+          "service_EDF_clearance_mm": 2.631816532755093,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.468534234852534,
+          "service_cradle_clearance_mm": 10.492553393923126
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.33783011777,
+            -17.208943736909855,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.286355280979,
+            -76.0,
+            4.596266658713853
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1318165327550957,
+          "service_EDF_clearance_mm": 2.6318165327550957,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.468534234852536,
+          "service_cradle_clearance_mm": 10.492553393923126
+        }
+      ]
+    },
+    {
+      "servo_deg": -9.157802614995937,
+      "stabilator_deg": 16.715333625979458,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.3896309160676,
+            17.261637091293714,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.3740816805781,
+            76.0,
+            4.314252662646122
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.141651150728949,
+          "service_EDF_clearance_mm": 2.641651150728949,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.466504524701744,
+          "service_cradle_clearance_mm": 10.472523046232334
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.3896309160676,
+            -17.261637091293714,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.3740816805781,
+            -76.0,
+            4.314252662646122
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1416511507289506,
+          "service_EDF_clearance_mm": 2.6416511507289506,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.466504524701737,
+          "service_cradle_clearance_mm": 10.472523046232338
+        }
+      ]
+    },
+    {
+      "servo_deg": -8.452188987071333,
+      "stabilator_deg": 15.56848601161511,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.4407788691356,
+            17.31496437509336,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.4575533306856,
+            76.0,
+            4.025850278055069
+          ],
+          "rod_length_mm": 65.09551883494608,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1489809683549774,
+          "service_EDF_clearance_mm": 2.6489809683549774,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.46449424085181,
+          "service_cradle_clearance_mm": 10.45147843735123
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.4407788691356,
+            -17.31496437509336,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.4575533306856,
+            -76.0,
+            4.025850278055069
+          ],
+          "rod_length_mm": 65.09551883494608,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.148980968354979,
+          "service_EDF_clearance_mm": 2.648980968354979,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.464494240851812,
+          "service_cradle_clearance_mm": 10.45147843735123
+        }
+      ]
+    },
+    {
+      "servo_deg": -7.746575359146727,
+      "stabilator_deg": 14.402197560458955,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.491266219659,
+            17.368917500467315,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.536502663447,
+            76.0,
+            3.7309055499764705
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.153711379674575,
+          "service_EDF_clearance_mm": 2.653711379674575,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.462504328431491,
+          "service_cradle_clearance_mm": 10.429339291175026
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.491266219659,
+            -17.368917500467315,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.536502663447,
+            -76.0,
+            3.7309055499764705
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1537113796745793,
+          "service_EDF_clearance_mm": 2.6537113796745793,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.46250432843145,
+          "service_cradle_clearance_mm": 10.429339291175026
+        }
+      ]
+    },
+    {
+      "servo_deg": -7.04096173122212,
+      "stabilator_deg": 13.215647164990965,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.5410853105127,
+            17.42348828465634,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.6106459113348,
+            76.0,
+            3.4292511102330065
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1557418282969385,
+          "service_EDF_clearance_mm": 2.6557418282969385,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.460535717874205,
+          "service_cradle_clearance_mm": 10.406019036740515
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.5410853105127,
+            -17.42348828465634,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.6106459113348,
+            -76.0,
+            3.4292511102330065
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1557418282969447,
+          "service_EDF_clearance_mm": 2.6557418282969447,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.460535717874293,
+          "service_cradle_clearance_mm": 10.406019036740517
+        }
+      ]
+    },
+    {
+      "servo_deg": -6.335348103297516,
+      "stabilator_deg": 12.007922491586296,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.5902285859225,
+            17.47866845122444,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.6796809738562,
+            76.0,
+            3.120704111756536
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.154964896250479,
+          "service_EDF_clearance_mm": 2.654964896250479,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.45858932450496,
+          "service_cradle_clearance_mm": 10.381424040763987
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.5902285859225,
+            -17.47866845122444,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.6796809738562,
+            -76.0,
+            3.120704111756536
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1549648962503793,
+          "service_EDF_clearance_mm": 2.6549648962503793,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.458589324504963,
+          "service_cradle_clearance_mm": 10.381424040763987
+        }
+      ]
+    },
+    {
+      "servo_deg": -5.62973447537291,
+      "stabilator_deg": 10.778007204047665,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.6386885926116,
+            17.534449631314104,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.7432848943973,
+            76.0,
+            2.8050637960507494
+          ],
+          "rod_length_mm": 65.09551883494608,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1512652279368876,
+          "service_EDF_clearance_mm": 2.6512652279368876,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.456666048137151,
+          "service_cradle_clearance_mm": 10.355452700051888
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.6386885926116,
+            -17.534449631314104,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.7432848943973,
+            -76.0,
+            2.8050637960507494
+          ],
+          "rod_length_mm": 65.09551883494608,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1512652279368876,
+          "service_EDF_clearance_mm": 2.6512652279368876,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.45666604813716,
+          "service_cradle_clearance_mm": 10.355452700051888
+        }
+      ]
+    },
+    {
+      "servo_deg": -4.924120847448305,
+      "stabilator_deg": 9.524765814256408,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.6864579809301,
+            17.59082336491558,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.8011108594692,
+            76.0,
+            2.482108611743178
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1445182521159554,
+          "service_EDF_clearance_mm": 2.6445182521159554,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.454766772681841,
+          "service_cradle_clearance_mm": 10.327994361838176
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.6864579809301,
+            -17.59082336491558,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.8011108594692,
+            -76.0,
+            2.482108611743178
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.144518252115957,
+          "service_EDF_clearance_mm": 2.644518252115957,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.454766772681754,
+          "service_cradle_clearance_mm": 10.327994361838174
+        }
+      ]
+    },
+    {
+      "servo_deg": -4.218507219523699,
+      "stabilator_deg": 8.246925597046133,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.7335295059705,
+            17.647781102149935,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.8527846082739,
+            76.0,
+            2.1515927793170664
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.134588654485098,
+          "service_EDF_clearance_mm": 2.634588654485098,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.452892365764265,
+          "service_cradle_clearance_mm": 10.298928031180715
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.7335295059705,
+            -17.647781102149935,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.8527846082739,
+            -76.0,
+            2.1515927793170664
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.134588654485097,
+          "service_EDF_clearance_mm": 2.634588654485097,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.45289236576425,
+          "service_cradle_clearance_mm": 10.298928031180719
+        }
+      ]
+    },
+    {
+      "servo_deg": -3.5128935915990924,
+      "stabilator_deg": 6.943054841763715,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.7798960286664,
+            17.705314204565774,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.8979001079875,
+            76.0,
+            1.813242166599855
+          ],
+          "rod_length_mm": 65.09551883494608,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.121328539558368,
+          "service_EDF_clearance_mm": 2.621328539558368,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.451043678353,
+          "service_cradle_clearance_mm": 10.268120812624016
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.7798960286664,
+            -17.705314204565774,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.8979001079875,
+            -76.0,
+            1.813242166599855
+          ],
+          "rod_length_mm": 65.09551883494608,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.121328539558367,
+          "service_EDF_clearance_mm": 2.621328539558367,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.451043678353,
+          "service_cradle_clearance_mm": 10.268120812624016
+        }
+      ]
+    },
+    {
+      "servo_deg": -2.807279963674488,
+      "stabilator_deg": 5.611536490034592,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.8255505168745,
+            17.763413946449386,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.9360143062179,
+            76.0,
+            1.4667492982977524
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.1045752018071777,
+          "service_EDF_clearance_mm": 2.6045752018071777,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.44922154439706,
+          "service_cradle_clearance_mm": 10.235426017196007
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.8255505168745,
+            -17.763413946449386,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.9360143062179,
+            -76.0,
+            1.4667492982977524
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.104575201807182,
+          "service_EDF_clearance_mm": 2.604575201807182,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.44922154439709,
+          "service_cradle_clearance_mm": 10.235426017196007
+        }
+      ]
+    },
+    {
+      "servo_deg": -2.101666335749883,
+      "stabilator_deg": 4.250535903701387,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.8704860464422,
+            17.822071516148128,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.9666407119372,
+            76.0,
+            1.1117672663463058
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.0841484003337776,
+          "service_EDF_clearance_mm": 2.5841484003337776,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.447426780475654,
+          "service_cradle_clearance_mm": 10.200680843693213
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.8704860464422,
+            -17.822071516148128,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.9666407119372,
+            -76.0,
+            1.1117672663463058
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.0841484003337793,
+          "service_EDF_clearance_mm": 2.5841484003337793,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.447426780475654,
+          "service_cradle_clearance_mm": 10.200680843693211
+        }
+      ]
+    },
+    {
+      "servo_deg": -1.3960527078252767,
+      "stabilator_deg": 2.8579610821206494,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.914695802257,
+            17.881278017406817,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.9892414726949,
+            76.0,
+            0.7479022293515788
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.0598469956518466,
+          "service_EDF_clearance_mm": 2.5598469956518466,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.445660185455118,
+          "service_cradle_clearance_mm": 10.163703512471656
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.914695802257,
+            -17.881278017406817,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.9892414726949,
+            -76.0,
+            0.7479022293515788
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.0598469956518475,
+          "service_EDF_clearance_mm": 2.5598469956518475,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.445660185455118,
+          "service_cradle_clearance_mm": 10.163703512471654
+        }
+      ]
+    },
+    {
+      "servo_deg": -0.6904390799006705,
+      "stabilator_deg": 1.4314130483909473,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            723.9581730792802,
+            17.941024470717,
+            12.0
+          ],
+          "crank_pin_mm": [
+            751.0032174982382,
+            76.0,
+            0.37470407871179645
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.031444756792194,
+          "service_EDF_clearance_mm": 2.531444756792194,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.443922540158518,
+          "service_cradle_clearance_mm": 10.124289686591128
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            723.9581730792802,
+            -17.941024470717,
+            12.0
+          ],
+          "crank_pin_mm": [
+            751.0032174982382,
+            -76.0,
+            0.37470407871179645
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 3.031444756792199,
+          "service_EDF_clearance_mm": 2.531444756792199,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.443922540158546,
+          "service_cradle_clearance_mm": 10.12428968659113
+        }
+      ]
+    },
+    {
+      "servo_deg": 0.01517454802393381,
+      "stabilator_deg": -0.03187673665794577,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.0009112835639,
+            18.001301814678808,
+            12.0
+          ],
+          "crank_pin_mm": [
+            751.0078960119923,
+            76.0,
+            -0.008345309711564572
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.9986850746867635,
+          "service_EDF_clearance_mm": 2.4986850746867635,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.442214607043304,
+          "service_cradle_clearance_mm": 10.0822079529187
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.0009112835639,
+            -18.001301814678808,
+            12.0
+          ],
+          "crank_pin_mm": [
+            751.0078960119923,
+            -76.0,
+            -0.008345309711564572
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.9986850746867644,
+          "service_EDF_clearance_mm": 2.4986850746867644,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.442214607043283,
+          "service_cradle_clearance_mm": 10.0822079529187
+        }
+      ]
+    },
+    {
+      "servo_deg": 0.7207881759485399,
+      "stabilator_deg": -1.5351263325226405,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.0429039332515,
+            18.062100907375243,
+            12.0
+          ],
+          "crank_pin_mm": [
+            751.0025146655805,
+            76.0,
+            -0.40184705134429594
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.9612742121701894,
+          "service_EDF_clearance_mm": 2.4612742121701894,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.440537129889464,
+          "service_cradle_clearance_mm": 10.037194044810194
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.0429039332515,
+            -18.062100907375243,
+            12.0
+          ],
+          "crank_pin_mm": [
+            751.0025146655805,
+            -76.0,
+            -0.40184705134429594
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.9612742121701903,
+          "service_EDF_clearance_mm": 2.4612742121701903,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.440537129889476,
+          "service_cradle_clearance_mm": 10.037194044810194
+        }
+      ]
+    },
+    {
+      "servo_deg": 1.426401803873146,
+      "stabilator_deg": -3.082106927805736,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.0841446595599,
+            18.123412527758692,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.986200984513,
+            76.0,
+            -0.8065046147600149
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.9188725633652766,
+          "service_EDF_clearance_mm": 2.4188725633652766,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.438890833497993,
+          "service_cradle_clearance_mm": 9.98894335220526
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.0841446595599,
+            -18.123412527758692,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.986200984513,
+            -76.0,
+            -0.8065046147600149
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.9188725633652783,
+          "service_EDF_clearance_mm": 2.4188725633652783,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.438890833497853,
+          "service_cradle_clearance_mm": 9.988943352205258
+        }
+      ]
+    },
+    {
+      "servo_deg": 2.132015431797752,
+      "stabilator_deg": -4.677279248253935,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.1246272077462,
+            18.18522737704943,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.9579453533903,
+            76.0,
+            -1.2231492558312265
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.8710831546438653,
+          "service_EDF_clearance_mm": 2.3710831546438653,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.437276423398382,
+          "service_cradle_clearance_mm": 9.937101057635552
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.1246272077462,
+            -18.18522737704943,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.9579453533903,
+            -76.0,
+            -1.2231492558312265
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.8710831546438644,
+          "service_EDF_clearance_mm": 2.3710831546438644,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.437276423398382,
+          "service_cradle_clearance_mm": 9.937101057635504
+        }
+      ]
+    },
+    {
+      "servo_deg": 2.8376290597223583,
+      "stabilator_deg": -6.325976410848991,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.1643454380559,
+            18.2475360801459,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.9165648729355,
+            76.0,
+            -1.6527740362467709
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.8174362424830504,
+          "service_EDF_clearance_mm": 2.3174362424830504,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.435694585566688,
+          "service_cradle_clearance_mm": 9.881248911754373
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.1643454380559,
+            -18.2475360801459,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.9165648729355,
+            -76.0,
+            -1.6527740362467709
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.8174362424830512,
+          "service_EDF_clearance_mm": 2.3174362424830512,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.435694585566699,
+          "service_cradle_clearance_mm": 9.881248911754374
+        }
+      ]
+    },
+    {
+      "servo_deg": 3.543242687646961,
+      "stabilator_deg": -8.034654131073747,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.203293326654,
+            18.310329187046584,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.860654009476,
+            76.0,
+            -2.096580270045108
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.7573682555726737,
+          "service_EDF_clearance_mm": 2.2573682555726737,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.434145986152561,
+          "service_cradle_clearance_mm": 9.82088713777915
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.203293326654,
+            -18.310329187046584,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.860654009476,
+            -76.0,
+            -2.096580270045108
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.7573682555726737,
+          "service_EDF_clearance_mm": 2.2573682555726737,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.434145986152561,
+          "service_cradle_clearance_mm": 9.82088713777915
+        }
+      ]
+    },
+    {
+      "servo_deg": 4.248856315571567,
+      "stabilator_deg": -9.811241307543522,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.2414649665391,
+            18.373597174283244,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.7885156052192,
+            76.0,
+            -2.5560424616854895
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.6901923144137028,
+          "service_EDF_clearance_mm": 2.1901923144137028,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.432631271216149,
+          "service_cradle_clearance_mm": 9.755409079602638
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.2414649665391,
+            -18.373597174283244,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.7885156052192,
+            -76.0,
+            -2.5560424616854895
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.6901923144137037,
+          "service_EDF_clearance_mm": 2.1901923144137037,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.432631271216149,
+          "service_cradle_clearance_mm": 9.755409079602638
+        }
+      ]
+    },
+    {
+      "servo_deg": 4.954469943496173,
+      "stabilator_deg": -11.665645028719272,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.2788545684388,
+            18.437330446365273,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.6980617435726,
+            76.0,
+            -3.0330016459530493
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.615055803354898,
+          "service_EDF_clearance_mm": 2.115055803354898,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.431151066474696,
+          "service_cradle_clearance_mm": 9.684064691495244
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.2788545684388,
+            -18.437330446365273,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.6980617435726,
+            -76.0,
+            -3.0330016459530493
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.615055803354899,
+          "service_EDF_clearance_mm": 2.115055803354899,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.431151066474694,
+          "service_cradle_clearance_mm": 9.684064691495243
+        }
+      ]
+    },
+    {
+      "servo_deg": 5.660083571420778,
+      "stabilator_deg": -13.610502199338864,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.3154564616876,
+            18.501519337235003,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.5866665811922,
+            76.0,
+            -3.529804014259088
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.530877280435263,
+          "service_EDF_clearance_mm": 2.030877280435263,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.429705977058937,
+          "service_cradle_clearance_mm": 9.605906215046598
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.3154564616876,
+            -18.501519337235003,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.5866665811922,
+            -76.0,
+            -3.529804014259088
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.5308772804352637,
+          "service_EDF_clearance_mm": 2.0308772804352637,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.429705977058937,
+          "service_cradle_clearance_mm": 9.6059062150466
+        }
+      ]
+    },
+    {
+      "servo_deg": 6.365697199345384,
+      "stabilator_deg": -15.662343052469641,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.351265095088,
+            18.566154111733685,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.4509391431329,
+            76.0,
+            -4.049515053717381
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.43624890541551,
+          "service_EDF_clearance_mm": 1.93624890541551,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.428296587278624,
+          "service_cradle_clearance_mm": 9.519704119629747
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.351265095088,
+            -18.566154111733685,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.4509391431329,
+            -76.0,
+            -4.049515053717381
+          ],
+          "rod_length_mm": 65.09551883494605,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.436248905415511,
+          "service_EDF_clearance_mm": 1.936248905415511,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.428296587278584,
+          "service_cradle_clearance_mm": 9.519704119629747
+        }
+      ]
+    },
+    {
+      "servo_deg": 7.07131082726999,
+      "stabilator_deg": -17.84348112827004,
+      "sides": [
+        {
+          "side": "R",
+          "horn_tip_mm": [
+            724.3862750377508,
+            18.631224967077976,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.2863552809791,
+            76.0,
+            -4.596266658713683
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.329278098132448,
+          "service_EDF_clearance_mm": 1.829278098132448,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.42692346039718,
+          "service_cradle_clearance_mm": 9.423810618027277
+        },
+        {
+          "side": "L",
+          "horn_tip_mm": [
+            724.3862750377508,
+            -18.631224967077976,
+            12.0
+          ],
+          "crank_pin_mm": [
+            750.2863552809791,
+            -76.0,
+            -4.596266658713683
+          ],
+          "rod_length_mm": 65.09551883494603,
+          "rod_OML_containment": 1.0,
+          "service_OML_containment": 1.0,
+          "rod_EDF_clearance_mm": 2.329278098132446,
+          "service_EDF_clearance_mm": 1.8292780981324461,
+          "rod_EDF_intersection_mm3": 0.0,
+          "service_EDF_intersection_mm3": 0.0,
+          "service_root_clearance_mm": 8.42692346039718,
+          "service_cradle_clearance_mm": 9.423810618027275
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "minimum_rod_EDF_clearance_mm": 2.329278098132446,
+    "minimum_service_EDF_clearance_mm": 1.8292780981324461,
+    "minimum_service_root_clearance_mm": 8.42692346039718,
+    "minimum_service_cradle_clearance_mm": 9.423810618027275,
+    "minimum_rod_OML_containment": 1.0,
+    "minimum_service_OML_containment": 1.0,
+    "max_pushrod_length_error_mm": 4.263256414560601e-14
+  },
+  "gates": {
+    "full_target_throw_reached": true,
+    "rod_OML_containment_ge_0p999": true,
+    "service_OML_containment_ge_0p999": true,
+    "zero_EDF_intersection": true,
+    "service_EDF_clearance_ge_1mm": true,
+    "service_root_clearance_ge_5mm": true,
+    "service_cradle_clearance_ge_5mm": true,
+    "constant_length_error_le_0p01mm": true,
+    "exact_real_servo_spline_axis_measured": false,
+    "purchased_servo_revision_verified": false,
+    "bench_throw_verified": false,
+    "proof_load": false,
+    "flight_release": false
+  },
+  "sha256": "1a965d6adc8a2f0872fd6153b05e23d5468bc6187fb3236662044cc8b343c188"
+}
