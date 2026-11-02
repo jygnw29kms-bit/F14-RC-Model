@@ -1,0 +1,454 @@
+{
+  "status": "V308_EXHAUST_STABILATOR_BLOCKAGE_NET_FSA_AUDIT",
+  "source_model": "F14_v307_UNIFIED_TAIL_SERVO_CASSETTE_BASE.FCStd",
+  "architecture": {
+    "fan_inner_diameter_assumed_mm": 50.0,
+    "hub_diameter_assumed_mm": 28.0,
+    "fan_swept_area_mm2": 1347.7432483900213,
+    "exhaust_start_x_mm": 731.5,
+    "exhaust_end_x_mm": 754.962281164333,
+    "axis_abs_y_mm": 66.28458486059378,
+    "axis_z_mm": -10.508688347971937,
+    "sample_dx_mm": 0.25,
+    "candidate_nominal_4S_exit_FSA_ratio": 0.9,
+    "intent": "retain current stabilator architecture; shape exhaust/fairing around hardware rather than relocate validated linkage"
+  },
+  "records": [
+    {
+      "side": "R",
+      "ratios": [
+        {
+          "nominal_exit_FSA_ratio": 0.85,
+          "exit_inner_diameter_mm": 38.19162211794624,
+          "gross_core_OML_fraction": 1.0,
+          "minimum_net_clear_FSA_ratio": 0.8424345592746681,
+          "minimum_net_at_x_mm": 754.8561405821665,
+          "maximum_local_block_fraction": 0.25162148635478937,
+          "maximum_block_at_x_mm": 736.125,
+          "intersecting_hardware": [
+            {
+              "object": "STAB_BEARING_R_1",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_R_1",
+              "intersection_mm3": 319.17503142700735
+            },
+            {
+              "object": "STAB_BEARING_R_2",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_R_2",
+              "intersection_mm3": 332.53890696737943
+            },
+            {
+              "object": "V234_BEARING_INBOARD_COLLAR_R",
+              "intersection_mm3": 138.3527449722194
+            },
+            {
+              "object": "V234_BEARING_OUTER_SHOULDER_R",
+              "intersection_mm3": 34.39258557517414
+            },
+            {
+              "object": "V234_SURFACE_INNER_COLLAR_R",
+              "intersection_mm3": 95.76260368029976
+            },
+            {
+              "object": "V237_D_SHAFT_R",
+              "intersection_mm3": 1180.4458476743698
+            },
+            {
+              "object": "V241_LIGHT_D_CRANK_R",
+              "intersection_mm3": 748.6894224145168
+            },
+            {
+              "object": "V284_LIGHT_D_ROOT_FITTING_R",
+              "intersection_mm3": 467.2057404887181
+            }
+          ]
+        },
+        {
+          "nominal_exit_FSA_ratio": 0.9,
+          "exit_inner_diameter_mm": 39.29885494515076,
+          "gross_core_OML_fraction": 1.0,
+          "minimum_net_clear_FSA_ratio": 0.8922736739882376,
+          "minimum_net_at_x_mm": 754.8561405821665,
+          "maximum_local_block_fraction": 0.2506682397137148,
+          "maximum_block_at_x_mm": 736.125,
+          "intersecting_hardware": [
+            {
+              "object": "STAB_BEARING_R_1",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_R_1",
+              "intersection_mm3": 322.450056445476
+            },
+            {
+              "object": "STAB_BEARING_R_2",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_R_2",
+              "intersection_mm3": 332.53890696737943
+            },
+            {
+              "object": "V234_BEARING_INBOARD_COLLAR_R",
+              "intersection_mm3": 139.86583017342258
+            },
+            {
+              "object": "V234_BEARING_OUTER_SHOULDER_R",
+              "intersection_mm3": 34.39258557517414
+            },
+            {
+              "object": "V234_SURFACE_INNER_COLLAR_R",
+              "intersection_mm3": 95.76260368029976
+            },
+            {
+              "object": "V237_D_SHAFT_R",
+              "intersection_mm3": 1185.243561089404
+            },
+            {
+              "object": "V241_LIGHT_D_CRANK_R",
+              "intersection_mm3": 748.7475483636232
+            },
+            {
+              "object": "V284_LIGHT_D_ROOT_FITTING_R",
+              "intersection_mm3": 480.45389419230196
+            }
+          ]
+        },
+        {
+          "nominal_exit_FSA_ratio": 0.95,
+          "exit_inner_diameter_mm": 40.375735287422316,
+          "gross_core_OML_fraction": 1.0,
+          "minimum_net_clear_FSA_ratio": 0.9421048351580841,
+          "minimum_net_at_x_mm": 754.8561405821665,
+          "maximum_local_block_fraction": 0.24970376132200212,
+          "maximum_block_at_x_mm": 736.125,
+          "intersecting_hardware": [
+            {
+              "object": "STAB_BEARING_R_1",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_R_1",
+              "intersection_mm3": 325.0679570452795
+            },
+            {
+              "object": "STAB_BEARING_R_2",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_R_2",
+              "intersection_mm3": 332.53890696737943
+            },
+            {
+              "object": "V234_BEARING_INBOARD_COLLAR_R",
+              "intersection_mm3": 141.04590966890336
+            },
+            {
+              "object": "V234_BEARING_OUTER_SHOULDER_R",
+              "intersection_mm3": 34.39258557517414
+            },
+            {
+              "object": "V234_SURFACE_INNER_COLLAR_R",
+              "intersection_mm3": 95.76260368029976
+            },
+            {
+              "object": "V237_D_SHAFT_R",
+              "intersection_mm3": 1189.7285729972143
+            },
+            {
+              "object": "V241_LIGHT_D_CRANK_R",
+              "intersection_mm3": 748.7475483636232
+            },
+            {
+              "object": "V284_LIGHT_D_ROOT_FITTING_R",
+              "intersection_mm3": 493.3070483386699
+            }
+          ]
+        },
+        {
+          "nominal_exit_FSA_ratio": 1.0,
+          "exit_inner_diameter_mm": 41.42463035441596,
+          "gross_core_OML_fraction": 1.0,
+          "minimum_net_clear_FSA_ratio": 0.9919286630862069,
+          "minimum_net_at_x_mm": 754.8561405821665,
+          "maximum_local_block_fraction": 0.24873034147394976,
+          "maximum_block_at_x_mm": 736.125,
+          "intersecting_hardware": [
+            {
+              "object": "STAB_BEARING_R_1",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_R_1",
+              "intersection_mm3": 327.13305545709864
+            },
+            {
+              "object": "STAB_BEARING_R_2",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_R_2",
+              "intersection_mm3": 332.53890696737943
+            },
+            {
+              "object": "V234_BEARING_INBOARD_COLLAR_R",
+              "intersection_mm3": 141.94196632847394
+            },
+            {
+              "object": "V234_BEARING_OUTER_SHOULDER_R",
+              "intersection_mm3": 34.39258557517414
+            },
+            {
+              "object": "V234_SURFACE_INNER_COLLAR_R",
+              "intersection_mm3": 95.76260368029976
+            },
+            {
+              "object": "V237_D_SHAFT_R",
+              "intersection_mm3": 1193.921475321581
+            },
+            {
+              "object": "V241_LIGHT_D_CRANK_R",
+              "intersection_mm3": 748.7475483636232
+            },
+            {
+              "object": "V284_LIGHT_D_ROOT_FITTING_R",
+              "intersection_mm3": 505.7961504510844
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "side": "L",
+      "ratios": [
+        {
+          "nominal_exit_FSA_ratio": 0.85,
+          "exit_inner_diameter_mm": 38.19162211794624,
+          "gross_core_OML_fraction": 1.0,
+          "minimum_net_clear_FSA_ratio": 0.8424345592746683,
+          "minimum_net_at_x_mm": 754.8561405821665,
+          "maximum_local_block_fraction": 0.25162148652862354,
+          "maximum_block_at_x_mm": 736.125,
+          "intersecting_hardware": [
+            {
+              "object": "STAB_BEARING_L_1",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_L_1",
+              "intersection_mm3": 319.1746592518099
+            },
+            {
+              "object": "STAB_BEARING_L_2",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_L_2",
+              "intersection_mm3": 332.5389069673793
+            },
+            {
+              "object": "V234_BEARING_INBOARD_COLLAR_L",
+              "intersection_mm3": 138.35272288880367
+            },
+            {
+              "object": "V234_BEARING_OUTER_SHOULDER_L",
+              "intersection_mm3": 34.39258557517414
+            },
+            {
+              "object": "V234_SURFACE_INNER_COLLAR_L",
+              "intersection_mm3": 95.76260368029976
+            },
+            {
+              "object": "V237_D_SHAFT_L",
+              "intersection_mm3": 1180.445260585046
+            },
+            {
+              "object": "V241_LIGHT_D_CRANK_L",
+              "intersection_mm3": 748.6894230296297
+            },
+            {
+              "object": "V284_LIGHT_D_ROOT_FITTING_L",
+              "intersection_mm3": 467.2067776883389
+            }
+          ]
+        },
+        {
+          "nominal_exit_FSA_ratio": 0.9,
+          "exit_inner_diameter_mm": 39.29885494515076,
+          "gross_core_OML_fraction": 1.0,
+          "minimum_net_clear_FSA_ratio": 0.8922736739882376,
+          "minimum_net_at_x_mm": 754.8561405821665,
+          "maximum_local_block_fraction": 0.25066823987686054,
+          "maximum_block_at_x_mm": 736.125,
+          "intersecting_hardware": [
+            {
+              "object": "STAB_BEARING_L_1",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_L_1",
+              "intersection_mm3": 322.4501584439406
+            },
+            {
+              "object": "STAB_BEARING_L_2",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_L_2",
+              "intersection_mm3": 332.5389069673793
+            },
+            {
+              "object": "V234_BEARING_INBOARD_COLLAR_L",
+              "intersection_mm3": 139.86583950495194
+            },
+            {
+              "object": "V234_BEARING_OUTER_SHOULDER_L",
+              "intersection_mm3": 34.39258557517414
+            },
+            {
+              "object": "V234_SURFACE_INNER_COLLAR_L",
+              "intersection_mm3": 95.76260368029976
+            },
+            {
+              "object": "V237_D_SHAFT_L",
+              "intersection_mm3": 1185.2428691914583
+            },
+            {
+              "object": "V241_LIGHT_D_CRANK_L",
+              "intersection_mm3": 748.7475483636232
+            },
+            {
+              "object": "V284_LIGHT_D_ROOT_FITTING_L",
+              "intersection_mm3": 480.455042162571
+            }
+          ]
+        },
+        {
+          "nominal_exit_FSA_ratio": 0.95,
+          "exit_inner_diameter_mm": 40.375735287422316,
+          "gross_core_OML_fraction": 1.0,
+          "minimum_net_clear_FSA_ratio": 0.9421048351580841,
+          "minimum_net_at_x_mm": 754.8561405821665,
+          "maximum_local_block_fraction": 0.24970376147659032,
+          "maximum_block_at_x_mm": 736.125,
+          "intersecting_hardware": [
+            {
+              "object": "STAB_BEARING_L_1",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_L_1",
+              "intersection_mm3": 325.068005380622
+            },
+            {
+              "object": "STAB_BEARING_L_2",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_L_2",
+              "intersection_mm3": 332.5389069673793
+            },
+            {
+              "object": "V234_BEARING_INBOARD_COLLAR_L",
+              "intersection_mm3": 141.04590537777338
+            },
+            {
+              "object": "V234_BEARING_OUTER_SHOULDER_L",
+              "intersection_mm3": 34.39258557517414
+            },
+            {
+              "object": "V234_SURFACE_INNER_COLLAR_L",
+              "intersection_mm3": 95.76260368029976
+            },
+            {
+              "object": "V237_D_SHAFT_L",
+              "intersection_mm3": 1189.727850971234
+            },
+            {
+              "object": "V241_LIGHT_D_CRANK_L",
+              "intersection_mm3": 748.7475483636232
+            },
+            {
+              "object": "V284_LIGHT_D_ROOT_FITTING_L",
+              "intersection_mm3": 493.30874465649384
+            }
+          ]
+        },
+        {
+          "nominal_exit_FSA_ratio": 1.0,
+          "exit_inner_diameter_mm": 41.42463035441596,
+          "gross_core_OML_fraction": 1.0,
+          "minimum_net_clear_FSA_ratio": 0.9919286630862069,
+          "minimum_net_at_x_mm": 754.8561405821665,
+          "maximum_local_block_fraction": 0.24873034162184196,
+          "maximum_block_at_x_mm": 736.125,
+          "intersecting_hardware": [
+            {
+              "object": "STAB_BEARING_L_1",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_L_1",
+              "intersection_mm3": 327.1330276587379
+            },
+            {
+              "object": "STAB_BEARING_L_2",
+              "intersection_mm3": 457.902684378907
+            },
+            {
+              "object": "STAB_HOUSING_L_2",
+              "intersection_mm3": 332.5389069673793
+            },
+            {
+              "object": "V234_BEARING_INBOARD_COLLAR_L",
+              "intersection_mm3": 141.94196920698812
+            },
+            {
+              "object": "V234_BEARING_OUTER_SHOULDER_L",
+              "intersection_mm3": 34.39258557517414
+            },
+            {
+              "object": "V234_SURFACE_INNER_COLLAR_L",
+              "intersection_mm3": 95.76260368029976
+            },
+            {
+              "object": "V237_D_SHAFT_L",
+              "intersection_mm3": 1193.9206951987655
+            },
+            {
+              "object": "V241_LIGHT_D_CRANK_L",
+              "intersection_mm3": 748.7475483636232
+            },
+            {
+              "object": "V284_LIGHT_D_ROOT_FITTING_L",
+              "intersection_mm3": 505.79727096850127
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decision": {
+    "nominal_0p90_net_min_FSA_ratio": 0.8922736739882376,
+    "nominal_0p90_effective_within_original_4S_target_band_0p85_to_0p90": true,
+    "straight_unrelieved_exhaust_shell_allowed": false,
+    "next_gate": "v309 hardware-relieved exhaust wall / aerodynamic fairing candidate"
+  },
+  "gates": {
+    "gross_core_bilateral_OML_ge_0p999": true,
+    "nominal_0p90_net_min_FSA_ge_0p85": true,
+    "nominal_0p90_net_min_FSA_le_0p90": true,
+    "straight_core_zero_hardware_intersection": false,
+    "hardware_fairing_defined": false,
+    "actual_EDF_hub_measured": false,
+    "bench_thrust_current_temperature_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "study_source_sha256": "ebe48b32ea7f894d4236544d2adca0c83ab05c70c39d79fb142c1a9fffe7287c"
+}
