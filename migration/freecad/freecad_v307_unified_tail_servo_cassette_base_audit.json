@@ -1,0 +1,104 @@
+{
+  "status": "V307_UNIFIED_TAIL_SERVO_CASSETTE_BASE",
+  "source_model": "F14_v306_TAIL_SERVO_ADJUSTMENT_CASSETTE.FCStd",
+  "architecture": {
+    "v306_plate_and_v305_cradle_unified": true,
+    "cross_slots_recut_through_full_unified_base": true,
+    "xy_adjustment_retained_mm": [
+      -2,
+      2
+    ],
+    "z_shim_stack_retained": true,
+    "material_process_frozen": false,
+    "actual_servo_mount_tab_pattern_measured": false
+  },
+  "rows": [
+    {
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2044.299999999996,
+      "cross_slot_centers_mm": [
+        [
+          700.0,
+          8.0
+        ],
+        [
+          700.0,
+          32.0
+        ],
+        [
+          720.0,
+          8.0
+        ],
+        [
+          720.0,
+          32.0
+        ]
+      ],
+      "minimum_plate_edge_ligament_mm": 1.8,
+      "OML_fraction": 1.0,
+      "EDF_clearance_mm": 2.255981323680748,
+      "EDF_intersection_mm3": 0.0,
+      "dynamic_pushrod_service_min_clearance_mm": 8.344770970801331,
+      "dynamic_pushrod_service_intersection_mm3": 0.0,
+      "root_fitting_clearance_mm": 44.43544262196812,
+      "tail_access_clearance_mm": 0.25,
+      "tail_access_intersection_mm3": 0.0,
+      "tail_hatch_flange_clearance_mm": 10.0,
+      "slot_recut_after_plate_cradle_union": true
+    },
+    {
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2044.2999999999938,
+      "cross_slot_centers_mm": [
+        [
+          700.0,
+          -32.0
+        ],
+        [
+          700.0,
+          -8.0
+        ],
+        [
+          720.0,
+          -32.0
+        ],
+        [
+          720.0,
+          -8.0
+        ]
+      ],
+      "minimum_plate_edge_ligament_mm": 1.8,
+      "OML_fraction": 1.0,
+      "EDF_clearance_mm": 2.25598132368075,
+      "EDF_intersection_mm3": 0.0,
+      "dynamic_pushrod_service_min_clearance_mm": 8.34477097080133,
+      "dynamic_pushrod_service_intersection_mm3": 0.0,
+      "root_fitting_clearance_mm": 44.43544262196812,
+      "tail_access_clearance_mm": 0.25,
+      "tail_access_intersection_mm3": 0.0,
+      "tail_hatch_flange_clearance_mm": 10.0,
+      "slot_recut_after_plate_cradle_union": true
+    }
+  ],
+  "gates": {
+    "bilateral_valid_single_solid": true,
+    "bilateral_OML_ge_0p999": true,
+    "bilateral_zero_EDF_intersection": true,
+    "bilateral_EDF_clearance_ge_2mm": true,
+    "dynamic_pushrod_service_zero_intersection": true,
+    "dynamic_pushrod_service_clearance_ge_8mm": true,
+    "tail_access_zero_intersection": true,
+    "tail_access_clearance_ge_0p2mm": true,
+    "minimum_edge_ligament_ge_1p8mm": true,
+    "actual_servo_mount_tab_pattern_measured": false,
+    "bench_clamp_test": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "e9f91cd58e6c2334910aa3e7e198b2630ec1ffc442dc75aabea4cfae274d8cca"
+}
