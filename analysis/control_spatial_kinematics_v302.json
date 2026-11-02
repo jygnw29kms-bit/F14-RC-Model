@@ -1,0 +1,526 @@
+{
+  "status": "V302_SPATIAL_LINKAGE_PROGRAMMABLE_ENDPOINT_FEASIBILITY",
+  "assumptions": {
+    "servo_output_axis": "Z",
+    "stabilator_crank_axis": "Y",
+    "servo_body_xy_bounds_mm": {
+      "xmin": 698.5,
+      "xmax": 721.5,
+      "ymin": 6.25,
+      "ymax": 33.75
+    },
+    "servo_horn_radius_search_mm": [
+      4,
+      8
+    ],
+    "neutral_horn_tip_search_x_mm": [
+      722,
+      724
+    ],
+    "neutral_horn_tip_search_y_mm": [
+      18,
+      22
+    ],
+    "target_stabilator_half_throw_deg": 17.843481128270785,
+    "programmable_independent_servo_endpoints_allowed": true,
+    "exact_real_servo_spline_axis_still_unmeasured": true
+  },
+  "candidate_count": 4866,
+  "dynamic_screened_count": 400,
+  "best": {
+    "neutral_horn_tip_mm": [
+      724.0,
+      18.0,
+      12.0
+    ],
+    "spline_axis_mm": [
+      719.085087734266,
+      21.441458618106275,
+      12.0
+    ],
+    "horn_radius_mm": 6.0,
+    "neutral_horn_angle_deg": -35,
+    "pushrod_length_mm": 65.09551883494603,
+    "servo_deg_for_stabilator_minus_target": 7.07131082726999,
+    "servo_deg_for_stabilator_plus_target": -9.863416242920543,
+    "max_servo_half_travel_deg": 9.863416242920543,
+    "servo_endpoint_asymmetry_deg": 2.7921054156505534,
+    "stabilator_target_half_throw_deg": 17.843481128270785,
+    "score": 15.551574366396373,
+    "dynamic_service_EDF_clearance_min_mm": 7.3505127905104715,
+    "dynamic_screen_valid": true
+  },
+  "top_candidates": [
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        719.085087734266,
+        21.441458618106275,
+        12.0
+      ],
+      "horn_radius_mm": 6.0,
+      "neutral_horn_angle_deg": -35,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 7.07131082726999,
+      "servo_deg_for_stabilator_plus_target": -9.863416242920543,
+      "max_servo_half_travel_deg": 9.863416242920543,
+      "servo_endpoint_asymmetry_deg": 2.7921054156505534,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.551574366396373,
+      "dynamic_service_EDF_clearance_min_mm": 7.3505127905104715,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.3708348754011,
+        21.25,
+        12.0
+      ],
+      "horn_radius_mm": 6.5,
+      "neutral_horn_angle_deg": -30,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 6.481949616573793,
+      "servo_deg_for_stabilator_plus_target": -8.909856790020719,
+      "max_servo_half_travel_deg": 8.909856790020719,
+      "servo_endpoint_asymmetry_deg": 2.4279071734469255,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.551717550191107,
+      "dynamic_service_EDF_clearance_min_mm": 7.244788946034184,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.8038475772934,
+        21.0,
+        12.0
+      ],
+      "horn_radius_mm": 6.0,
+      "neutral_horn_angle_deg": -30,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 7.021451244902373,
+      "servo_deg_for_stabilator_plus_target": -9.665414595653793,
+      "max_servo_half_travel_deg": 9.665414595653793,
+      "servo_endpoint_asymmetry_deg": 2.64396335075142,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.131359621780923,
+      "dynamic_service_EDF_clearance_min_mm": 7.238778470794593,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.1089993842618,
+        20.747018701314545,
+        12.0
+      ],
+      "horn_radius_mm": 6.5,
+      "neutral_horn_angle_deg": -25,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 6.483169816203919,
+      "servo_deg_for_stabilator_plus_target": -8.80771622662963,
+      "max_servo_half_travel_deg": 8.80771622662963,
+      "servo_endpoint_asymmetry_deg": 2.324546410425711,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.294535842268196,
+      "dynamic_service_EDF_clearance_min_mm": 7.13372137198764,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.5621532777801,
+        20.535709570444197,
+        12.0
+      ],
+      "horn_radius_mm": 6.0,
+      "neutral_horn_angle_deg": -25,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 7.025708390558371,
+      "servo_deg_for_stabilator_plus_target": -9.548882200676822,
+      "max_servo_half_travel_deg": 9.548882200676822,
+      "servo_endpoint_asymmetry_deg": 2.5231738101184504,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 14.833642915854497,
+      "dynamic_service_EDF_clearance_min_mm": 7.1277012043442625,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        717.8919979648916,
+        20.223130931616847,
+        12.0
+      ],
+      "horn_radius_mm": 6.5,
+      "neutral_horn_angle_deg": -20,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 6.535177028857426,
+      "servo_deg_for_stabilator_plus_target": -8.77434439146824,
+      "max_servo_half_travel_deg": 8.77434439146824,
+      "servo_endpoint_asymmetry_deg": 2.2391673626108144,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.133095435384462,
+      "dynamic_service_EDF_clearance_min_mm": 7.021712094051573,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.3618442752845,
+        20.052120859954012,
+        12.0
+      ],
+      "horn_radius_mm": 6.0,
+      "neutral_horn_angle_deg": -20,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 7.085151589226392,
+      "servo_deg_for_stabilator_plus_target": -9.507355683502233,
+      "max_servo_half_travel_deg": 9.507355683502233,
+      "servo_endpoint_asymmetry_deg": 2.422204094275841,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 14.640661824915995,
+      "dynamic_service_EDF_clearance_min_mm": 7.01553799014323,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        717.721482129121,
+        19.682323793166386,
+        12.0
+      ],
+      "horn_radius_mm": 6.5,
+      "neutral_horn_angle_deg": -15,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 6.6408927513443174,
+      "servo_deg_for_stabilator_plus_target": -8.807104559412984,
+      "max_servo_half_travel_deg": 8.807104559412984,
+      "servo_endpoint_asymmetry_deg": 2.1662118080686668,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.056422271515984,
+      "dynamic_service_EDF_clearance_min_mm": 6.9069191625207935,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.2044450422655,
+        19.552914270615126,
+        12.0
+      ],
+      "horn_radius_mm": 6.0,
+      "neutral_horn_angle_deg": -15,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 7.203162840681536,
+      "servo_deg_for_stabilator_plus_target": -9.53763142215842,
+      "max_servo_half_travel_deg": 9.53763142215842,
+      "servo_endpoint_asymmetry_deg": 2.3344685814768837,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 14.539334294373745,
+      "dynamic_service_EDF_clearance_min_mm": 6.9004295475791295,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        717.5987496054206,
+        19.128713154835047,
+        12.0
+      ],
+      "horn_radius_mm": 6.5,
+      "neutral_horn_angle_deg": -10,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 6.805742822697702,
+      "servo_deg_for_stabilator_plus_target": -8.905894010048137,
+      "max_servo_half_travel_deg": 8.905894010048137,
+      "servo_endpoint_asymmetry_deg": 2.100151187350434,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.056120791073788,
+      "dynamic_service_EDF_clearance_min_mm": 6.787263338132107,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.0911534819268,
+        19.04188906600158,
+        12.0
+      ],
+      "horn_radius_mm": 6.0,
+      "neutral_horn_angle_deg": -10,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 7.385903296448554,
+      "servo_deg_for_stabilator_plus_target": -9.639285800876571,
+      "max_servo_half_travel_deg": 9.639285800876571,
+      "servo_endpoint_asymmetry_deg": 2.253382504428018,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 14.519359557518598,
+      "dynamic_service_EDF_clearance_min_mm": 6.7802618375854635,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        19.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.6755117121215,
+        22.728246836281798,
+        12.0
+      ],
+      "horn_radius_mm": 6.5,
+      "neutral_horn_angle_deg": -35,
+      "pushrod_length_mm": 64.20612566095866,
+      "servo_deg_for_stabilator_minus_target": 6.62038931322558,
+      "servo_deg_for_stabilator_plus_target": -9.202519642913693,
+      "max_servo_half_travel_deg": 9.202519642913693,
+      "servo_endpoint_asymmetry_deg": 2.5821303296881126,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.575715137445862,
+      "dynamic_service_EDF_clearance_min_mm": 6.72832829993451,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        19.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        719.085087734266,
+        22.441458618106275,
+        12.0
+      ],
+      "horn_radius_mm": 6.0,
+      "neutral_horn_angle_deg": -35,
+      "pushrod_length_mm": 64.20612566095866,
+      "servo_deg_for_stabilator_minus_target": 7.168638926671868,
+      "servo_deg_for_stabilator_plus_target": -9.989412351069298,
+      "max_servo_half_travel_deg": 9.989412351069298,
+      "servo_endpoint_asymmetry_deg": 2.82077342439743,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.220572487665443,
+      "dynamic_service_EDF_clearance_min_mm": 6.722119547787642,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        717.5247344624037,
+        18.56651232785978,
+        12.0
+      ],
+      "horn_radius_mm": 6.5,
+      "neutral_horn_angle_deg": -5,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 7.038395841497426,
+      "servo_deg_for_stabilator_plus_target": -9.073004441355558,
+      "max_servo_half_travel_deg": 9.073004441355558,
+      "servo_endpoint_asymmetry_deg": 2.0346085998581316,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.124917341142755,
+      "dynamic_service_EDF_clearance_min_mm": 6.660247956176136,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.0228318114496,
+        18.52293445648595,
+        12.0
+      ],
+      "horn_radius_mm": 6.0,
+      "neutral_horn_angle_deg": -5,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 7.6431708407595025,
+      "servo_deg_for_stabilator_plus_target": -9.814483429643836,
+      "max_servo_half_travel_deg": 9.814483429643836,
+      "servo_endpoint_asymmetry_deg": 2.1713125888843336,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 14.571452312970337,
+      "dynamic_service_EDF_clearance_min_mm": 6.652477531744239,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        19.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.3708348754011,
+        22.25,
+        12.0
+      ],
+      "horn_radius_mm": 6.5,
+      "neutral_horn_angle_deg": -30,
+      "pushrod_length_mm": 64.20612566095866,
+      "servo_deg_for_stabilator_minus_target": 6.575229638599019,
+      "servo_deg_for_stabilator_plus_target": -9.028499428192312,
+      "max_servo_half_travel_deg": 9.028499428192312,
+      "servo_endpoint_asymmetry_deg": 2.4532697895932927,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.208404112582251,
+      "dynamic_service_EDF_clearance_min_mm": 6.616701887652084,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        19.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.8038475772934,
+        22.0,
+        12.0
+      ],
+      "horn_radius_mm": 6.0,
+      "neutral_horn_angle_deg": -30,
+      "pushrod_length_mm": 64.20612566095866,
+      "servo_deg_for_stabilator_minus_target": 7.122750378313306,
+      "servo_deg_for_stabilator_plus_target": -9.793945087036029,
+      "max_servo_half_travel_deg": 9.793945087036029,
+      "servo_endpoint_asymmetry_deg": 2.671194708722723,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 14.800737150120113,
+      "dynamic_service_EDF_clearance_min_mm": 6.6106133493622465,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        723.5,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.1755117121215,
+        21.728246836281798,
+        12.0
+      ],
+      "horn_radius_mm": 6.5,
+      "neutral_horn_angle_deg": -35,
+      "pushrod_length_mm": 65.3045516845823,
+      "servo_deg_for_stabilator_minus_target": 6.452997877905368,
+      "servo_deg_for_stabilator_plus_target": -9.091071566405866,
+      "max_servo_half_travel_deg": 9.091071566405866,
+      "servo_endpoint_asymmetry_deg": 2.638073688500498,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.548182099156612,
+      "dynamic_service_EDF_clearance_min_mm": 6.556502636050233,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        723.5,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        718.585087734266,
+        21.441458618106275,
+        12.0
+      ],
+      "horn_radius_mm": 6.0,
+      "neutral_horn_angle_deg": -35,
+      "pushrod_length_mm": 65.3045516845823,
+      "servo_deg_for_stabilator_minus_target": 6.987423263707463,
+      "servo_deg_for_stabilator_plus_target": -9.86806107202171,
+      "max_servo_half_travel_deg": 9.86806107202171,
+      "servo_endpoint_asymmetry_deg": 2.8806378083142476,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.189017784493082,
+      "dynamic_service_EDF_clearance_min_mm": 6.550728891011694,
+      "dynamic_screen_valid": true
+    },
+    {
+      "neutral_horn_tip_mm": [
+        724.0,
+        18.0,
+        12.0
+      ],
+      "spline_axis_mm": [
+        717.5,
+        18.0,
+        12.0
+      ],
+      "horn_radius_mm": 6.5,
+      "neutral_horn_angle_deg": 0,
+      "pushrod_length_mm": 65.09551883494603,
+      "servo_deg_for_stabilator_minus_target": 7.352052012285277,
+      "servo_deg_for_stabilator_plus_target": -9.313189891206086,
+      "max_servo_half_travel_deg": 9.313189891206086,
+      "servo_endpoint_asymmetry_deg": 1.961137878920809,
+      "stabilator_target_half_throw_deg": 17.843481128270785,
+      "score": 15.2548967095873,
+      "dynamic_service_EDF_clearance_min_mm": 6.522692192503726,
+      "dynamic_screen_valid": true
+    }
+  ],
+  "gates": {
+    "mathematical_solution_exists": true,
+    "servo_half_travel_le_70deg": true,
+    "endpoint_asymmetry_le_10deg": true,
+    "horn_radius_between_4_and_8mm": true,
+    "dynamic_service_EDF_clearance_ge_1mm_analytic": true,
+    "exact_real_servo_spline_axis_measured": false,
+    "dynamic_CAD_clearance_verified": false,
+    "bench_throw_verified": false,
+    "flight_release": false
+  }
+}
