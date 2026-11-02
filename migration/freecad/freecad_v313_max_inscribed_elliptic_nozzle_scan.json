@@ -1,19 +1,20 @@
 {
-  "status": "V313_TERMINAL_OPTIMIZED_ELLIPTIC_NOZZLE_SCAN",
-  "terminal_x_mm": 835.2965772939922,
+  "status": "V313_MAX_INSCRIBED_ELLIPTIC_NOZZLE_SCAN",
+  "x_range_mm": [
+    810.462281164333,
+    835.2965772939922
+  ],
   "best": {
-    "axis_abs_y_mm": 60.0,
-    "ay_mm": 22.0,
-    "az_mm": 14.0,
-    "z_center_mm": -6.5,
-    "area_mm2": 967.6105373056562
+    "axis_abs_y_mm": 60,
+    "ay_mm": 20.5,
+    "az_mm": 14.5,
+    "z_center_mm": -7.0,
+    "area_mm2": 933.8384162795659
   },
   "FSA_mm2": 1347.7432483900213,
-  "area_ratio_to_FSA": 0.7179487179487178,
-  "whole_range_failures": [],
+  "area_ratio_to_FSA": 0.6928904428904428,
   "gates": {
-    "terminal_inscribed_ellipse_found": true,
-    "candidate_whole_range_boundary_pass": true,
+    "inscribed_ellipse_found": true,
     "area_ratio_ge_0p85": false,
     "area_ratio_ge_0p90": false,
     "post_F_full_3D_OML_registered": false,
