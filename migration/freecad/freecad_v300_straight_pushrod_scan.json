@@ -1,0 +1,687 @@
+{
+  "status": "V300_STRAIGHT_PUSHROD_SCAN",
+  "criteria": {
+    "oml_containment_min": 0.995,
+    "edf_clearance_min_mm": 1.0,
+    "root_fitting_clearance_min_mm": 1.0
+  },
+  "passing_count": 6,
+  "best": {
+    "start_abs_mm": [
+      722.0,
+      20.0,
+      10.0
+    ],
+    "radius_mm": 1.5,
+    "diameter_mm": 3.0,
+    "pass": true,
+    "sides": [
+      {
+        "side": "R",
+        "start_mm": [
+          722.0,
+          20.0,
+          10.0
+        ],
+        "end_mm": [
+          751.0078983334656,
+          76.0,
+          0.0
+        ],
+        "radius_mm": 1.5,
+        "length_mm": 63.85497761118296,
+        "oml_containment": 1.0,
+        "edf_clearance_mm": 1.207580692284333,
+        "edf_intersection_mm3": 0.0,
+        "root_fitting_clearance_mm": 8.920235273397456,
+        "crank_joint_intersection_mm3": 0.0142574851898431
+      },
+      {
+        "side": "L",
+        "start_mm": [
+          722.0,
+          -20.0,
+          10.0
+        ],
+        "end_mm": [
+          751.0078983334656,
+          -76.0,
+          0.0
+        ],
+        "radius_mm": 1.5,
+        "length_mm": 63.85497761118296,
+        "oml_containment": 1.0,
+        "edf_clearance_mm": 1.2075806922843313,
+        "edf_intersection_mm3": 0.0,
+        "root_fitting_clearance_mm": 8.920235273397457,
+        "crank_joint_intersection_mm3": 0.014257496264025844
+      }
+    ]
+  },
+  "top": [
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        10.0
+      ],
+      "radius_mm": 1.5,
+      "diameter_mm": 3.0,
+      "pass": true,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            722.0,
+            20.0,
+            10.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 1.5,
+          "length_mm": 63.85497761118296,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.207580692284333,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 8.920235273397456,
+          "crank_joint_intersection_mm3": 0.0142574851898431
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            722.0,
+            -20.0,
+            10.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 1.5,
+          "length_mm": 63.85497761118296,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.2075806922843313,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 8.920235273397457,
+          "crank_joint_intersection_mm3": 0.014257496264025844
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        10.0
+      ],
+      "radius_mm": 1.25,
+      "diameter_mm": 2.5,
+      "pass": true,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            722.0,
+            20.0,
+            10.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 1.25,
+          "length_mm": 63.85497761118296,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.457580692284333,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 9.167228599640383,
+          "crank_joint_intersection_mm3": 0.0
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            722.0,
+            -20.0,
+            10.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 1.25,
+          "length_mm": 63.85497761118296,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.4575806922843313,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 9.167228599640383,
+          "crank_joint_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        8.0
+      ],
+      "radius_mm": 1.25,
+      "diameter_mm": 2.5,
+      "pass": true,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            722.0,
+            20.0,
+            8.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 1.25,
+          "length_mm": 63.572463895342906,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.1318716275975267,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 9.167350802268276,
+          "crank_joint_intersection_mm3": 0.0
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            722.0,
+            -20.0,
+            8.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 1.25,
+          "length_mm": 63.572463895342906,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.131871627597528,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 9.167350802268276,
+          "crank_joint_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        10.0
+      ],
+      "radius_mm": 1.0,
+      "diameter_mm": 2.0,
+      "pass": true,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            722.0,
+            20.0,
+            10.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 1.0,
+          "length_mm": 63.85497761118296,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.707580692284333,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 9.414378706564717,
+          "crank_joint_intersection_mm3": 0.0
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            722.0,
+            -20.0,
+            10.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 1.0,
+          "length_mm": 63.85497761118296,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.7075806922843313,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 9.414378706564632,
+          "crank_joint_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        8.0
+      ],
+      "radius_mm": 1.0,
+      "diameter_mm": 2.0,
+      "pass": true,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            722.0,
+            20.0,
+            8.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 1.0,
+          "length_mm": 63.572463895342906,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.3818716275975267,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 9.414472752255415,
+          "crank_joint_intersection_mm3": 0.0
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            722.0,
+            -20.0,
+            8.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 1.0,
+          "length_mm": 63.572463895342906,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.381871627597528,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 9.414472752255406,
+          "crank_joint_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        6.0
+      ],
+      "radius_mm": 1.0,
+      "diameter_mm": 2.0,
+      "pass": true,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            722.0,
+            20.0,
+            6.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 1.0,
+          "length_mm": 63.3518600020921,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.0724536488623584,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 9.414547125223018,
+          "crank_joint_intersection_mm3": 0.0
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            722.0,
+            -20.0,
+            6.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 1.0,
+          "length_mm": 63.3518600020921,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.0724536488623584,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 9.414547125222962,
+          "crank_joint_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        10.0
+      ],
+      "radius_mm": 2.0,
+      "diameter_mm": 4.0,
+      "pass": false,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            722.0,
+            20.0,
+            10.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 63.85497761118296,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.7075806922843331,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 8.42677328306574,
+          "crank_joint_intersection_mm3": 1.4260377938610436
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            722.0,
+            -20.0,
+            10.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 63.85497761118296,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.7075806922843313,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 8.426773283065687,
+          "crank_joint_intersection_mm3": 1.4260377966041045
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        8.0
+      ],
+      "radius_mm": 2.0,
+      "diameter_mm": 4.0,
+      "pass": false,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            722.0,
+            20.0,
+            8.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 63.572463895342906,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.3818716275975267,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 8.42699464989536,
+          "crank_joint_intersection_mm3": 1.3985072340169233
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            722.0,
+            -20.0,
+            8.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 63.572463895342906,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.381871627597528,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 8.42699464989539,
+          "crank_joint_intersection_mm3": 1.398507236598089
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        6.0
+      ],
+      "radius_mm": 2.0,
+      "diameter_mm": 4.0,
+      "pass": false,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            722.0,
+            20.0,
+            6.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 63.3518600020921,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.07245364886235839,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 8.427169872601043,
+          "crank_joint_intersection_mm3": 1.3767140109205271
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            722.0,
+            -20.0,
+            6.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 63.3518600020921,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.07245364886235839,
+          "edf_intersection_mm3": 0.0,
+          "root_fitting_clearance_mm": 8.427169872601043,
+          "crank_joint_intersection_mm3": 1.376714013284217
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        718.0,
+        20.0,
+        6.0
+      ],
+      "radius_mm": 2.0,
+      "diameter_mm": 4.0,
+      "pass": false,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            718.0,
+            20.0,
+            6.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 65.2803289850197,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.0,
+          "edf_intersection_mm3": 12.144456755238608,
+          "root_fitting_clearance_mm": 8.412574658533664,
+          "crank_joint_intersection_mm3": 1.5592199811639662
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            718.0,
+            -20.0,
+            6.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 65.2803289850197,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.0,
+          "edf_intersection_mm3": 12.1445662674661,
+          "root_fitting_clearance_mm": 8.412574658533664,
+          "crank_joint_intersection_mm3": 1.5592199837438128
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        718.0,
+        20.0,
+        8.0
+      ],
+      "radius_mm": 2.0,
+      "diameter_mm": 4.0,
+      "pass": false,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            718.0,
+            20.0,
+            8.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 65.49443756833402,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.0,
+          "edf_intersection_mm3": 7.78559609009384,
+          "root_fitting_clearance_mm": 8.412515225307134,
+          "crank_joint_intersection_mm3": 1.5784954752305562
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            718.0,
+            -20.0,
+            8.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 65.49443756833402,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.0,
+          "edf_intersection_mm3": 7.785524267867611,
+          "root_fitting_clearance_mm": 8.412515225307134,
+          "crank_joint_intersection_mm3": 1.5784954780491536
+        }
+      ]
+    },
+    {
+      "start_abs_mm": [
+        718.0,
+        20.0,
+        10.0
+      ],
+      "radius_mm": 2.0,
+      "diameter_mm": 4.0,
+      "pass": false,
+      "sides": [
+        {
+          "side": "R",
+          "start_mm": [
+            718.0,
+            20.0,
+            10.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 65.76869583922432,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.0,
+          "edf_intersection_mm3": 4.3295080550307,
+          "root_fitting_clearance_mm": 8.412440059358362,
+          "crank_joint_intersection_mm3": 1.602937700365881
+        },
+        {
+          "side": "L",
+          "start_mm": [
+            718.0,
+            -20.0,
+            10.0
+          ],
+          "end_mm": [
+            751.0078983334656,
+            -76.0,
+            0.0
+          ],
+          "radius_mm": 2.0,
+          "length_mm": 65.76869583922432,
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.0,
+          "edf_intersection_mm3": 4.329438232229552,
+          "root_fitting_clearance_mm": 8.412440059358413,
+          "crank_joint_intersection_mm3": 1.6029377033072307
+        }
+      ]
+    }
+  ]
+}

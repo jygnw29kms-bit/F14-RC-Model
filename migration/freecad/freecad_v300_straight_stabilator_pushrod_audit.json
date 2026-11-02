@@ -1,0 +1,94 @@
+{
+  "status": "V300_STRAIGHT_STABILATOR_PUSHROD_CANDIDATE",
+  "source_model": "F14_v299_TAIL_SERVO_RELOCATION_CANDIDATE.FCStd",
+  "architecture": {
+    "direct_pushrod": true,
+    "intermediate_bellcrank_required": false,
+    "rod_diameter_mm": 3.0,
+    "static_service_corridor_diameter_mm": 4.0,
+    "servo_horn_tip_target_abs_y_mm": 20.0,
+    "servo_horn_tip_target_x_mm": 723.5,
+    "servo_horn_tip_target_z_mm": 12.0,
+    "exact_servo_spline_offset_measured": false,
+    "exact_horn_geometry_open": true,
+    "M3_or_ball_link_joint_selection_open": true
+  },
+  "rows": [
+    {
+      "side": "R",
+      "horn_tip_target_mm": [
+        723.5,
+        20.0,
+        12.0
+      ],
+      "crank_pin_target_mm": [
+        751.0078983334656,
+        76.0,
+        0.0
+      ],
+      "pushrod_length_mm": 63.534907497566095,
+      "rod_OML_containment": 1.0,
+      "service_OML_containment": 1.0,
+      "rod_EDF_clearance_mm": 2.315811197419623,
+      "service_EDF_clearance_mm": 1.815811197419623,
+      "rod_EDF_intersection_mm3": 0.0,
+      "service_EDF_intersection_mm3": 0.0,
+      "service_root_fitting_clearance_mm": 8.433921248935501,
+      "rod_crank_intersection_mm3": 0.012112799505920688,
+      "buckling": {
+        "rod_diameter_mm": 3.0,
+        "screen_E_MPa": 50000.0,
+        "second_moment_mm4": 3.9760782021995817,
+        "pinned_pinned_Pcr_N": 486.07117063652265,
+        "design_pushrod_force_N": 89.33333333333334,
+        "buckling_SF": 5.4410951936924175
+      }
+    },
+    {
+      "side": "L",
+      "horn_tip_target_mm": [
+        723.5,
+        -20.0,
+        12.0
+      ],
+      "crank_pin_target_mm": [
+        751.0078983334656,
+        -76.0,
+        0.0
+      ],
+      "pushrod_length_mm": 63.534907497566095,
+      "rod_OML_containment": 1.0,
+      "service_OML_containment": 1.0,
+      "rod_EDF_clearance_mm": 2.315811197419623,
+      "service_EDF_clearance_mm": 1.815811197419623,
+      "rod_EDF_intersection_mm3": 0.0,
+      "service_EDF_intersection_mm3": 0.0,
+      "service_root_fitting_clearance_mm": 8.43392124893544,
+      "rod_crank_intersection_mm3": 0.012112776626864837,
+      "buckling": {
+        "rod_diameter_mm": 3.0,
+        "screen_E_MPa": 50000.0,
+        "second_moment_mm4": 3.9760782021995817,
+        "pinned_pinned_Pcr_N": 486.07117063652265,
+        "design_pushrod_force_N": 89.33333333333334,
+        "buckling_SF": 5.4410951936924175
+      }
+    }
+  ],
+  "gates": {
+    "bilateral_rod_OML_containment_ge_0p999": true,
+    "bilateral_service_OML_containment_ge_0p999": true,
+    "zero_EDF_intersection": true,
+    "service_EDF_clearance_ge_1p5mm": true,
+    "service_root_fitting_clearance_ge_5mm": true,
+    "conservative_buckling_SF_ge_5": true,
+    "exact_servo_spline_offset_measured": false,
+    "carbon_stock_E_verified": false,
+    "joint_hardware_selected": false,
+    "dynamic_throw_verified": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "cf6ee0e36284df751441679c54eadc0adb3f245a48af5e4a5e43dd6a22923d61"
+}

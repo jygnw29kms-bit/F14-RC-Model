@@ -1,0 +1,331 @@
+{
+  "status": "V300_PUSHROD_START_REFINEMENT",
+  "best": {
+    "start_abs_mm": [
+      723.5,
+      20.0,
+      12.0
+    ],
+    "dynamic_corridor_diameter_mm": 4.0,
+    "sides": [
+      {
+        "side": "R",
+        "oml_containment": 1.0,
+        "edf_clearance_mm": 1.815811197419623,
+        "edf_intersection_mm3": 0.0,
+        "root_clearance_mm": 8.433921248935501
+      },
+      {
+        "side": "L",
+        "oml_containment": 1.0,
+        "edf_clearance_mm": 1.815811197419623,
+        "edf_intersection_mm3": 0.0,
+        "root_clearance_mm": 8.43392124893544
+      }
+    ],
+    "pass": true
+  },
+  "passing_count": 9,
+  "rows": [
+    {
+      "start_abs_mm": [
+        723.5,
+        20.0,
+        12.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.815811197419623,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.433921248935501
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.815811197419623,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.43392124893544
+        }
+      ],
+      "pass": true
+    },
+    {
+      "start_abs_mm": [
+        723.5,
+        20.0,
+        11.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.6511293139621541,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.434108987661322
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.6511293139621541,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.434108987661304
+        }
+      ],
+      "pass": true
+    },
+    {
+      "start_abs_mm": [
+        723.0,
+        20.0,
+        12.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.5576306952549461,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.431315641935546
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.5576306952549461,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.431315641935546
+        }
+      ],
+      "pass": true
+    },
+    {
+      "start_abs_mm": [
+        723.5,
+        20.0,
+        10.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.489481232240205,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.434282499078805
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.4894812322402067,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.434282499078805
+        }
+      ],
+      "pass": true
+    },
+    {
+      "start_abs_mm": [
+        723.0,
+        20.0,
+        11.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.390713811683677,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.43148558875878
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.3907138116836766,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.43148558875878
+        }
+      ],
+      "pass": true
+    },
+    {
+      "start_abs_mm": [
+        722.5,
+        20.0,
+        12.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.301362542285187,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.428845447337054
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.301362542285188,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.428845447337054
+        }
+      ],
+      "pass": true
+    },
+    {
+      "start_abs_mm": [
+        723.0,
+        20.0,
+        10.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.226860047710289,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.431642642156579
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.226860047710289,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.431642642156577
+        }
+      ],
+      "pass": true
+    },
+    {
+      "start_abs_mm": [
+        722.5,
+        20.0,
+        11.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.132244583403462,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.428998693382443
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.1322445834034642,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.428998693382443
+        }
+      ],
+      "pass": true
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        12.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.047033573423791,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.426508537637886
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 1.0470335734237919,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.426508537637865
+        }
+      ],
+      "pass": true
+    },
+    {
+      "start_abs_mm": [
+        722.5,
+        20.0,
+        10.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.966217601028891,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.429140300062967
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.966217601028891,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.429140300062896
+        }
+      ],
+      "pass": false
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        11.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.8757484497663715,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.426646141833354
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.8757484497663723,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.426646141833325
+        }
+      ],
+      "pass": false
+    },
+    {
+      "start_abs_mm": [
+        722.0,
+        20.0,
+        10.0
+      ],
+      "dynamic_corridor_diameter_mm": 4.0,
+      "sides": [
+        {
+          "side": "R",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.7075806922843331,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.42677328306574
+        },
+        {
+          "side": "L",
+          "oml_containment": 1.0,
+          "edf_clearance_mm": 0.7075806922843313,
+          "edf_intersection_mm3": 0.0,
+          "root_clearance_mm": 8.426773283065687
+        }
+      ],
+      "pass": false
+    }
+  ]
+}
