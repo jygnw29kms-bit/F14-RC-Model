@@ -1,0 +1,58 @@
+{
+  "status": "V311_AFT_NOZZLE_SOURCE_GATE",
+  "source_model": "F14_v310_STRUCTURAL_BYPASS_FREEFLOW.FCStd",
+  "structural_scan": {
+    "x_range_mm": [
+      754.962281164333,
+      836.8779269494012
+    ],
+    "sample_dx_mm": 0.5,
+    "one_FSA_radius_mm": 20.71231517720798,
+    "last_blocked_sample_x_mm": 810.212281164333,
+    "structure_clear_after_x_mm": 810.462281164333,
+    "maximum_block_fraction": 0.0687317512846132,
+    "minimum_net_FSA_ratio": 0.9312682487153867
+  },
+  "post_F_candidate_fuselage_screen": {
+    "label": "FUSELAGE_CURRENT procedural ruled station loft; packaging reference only",
+    "overall_1p00_FSA_core_containment_fraction": 0.7622906820247765,
+    "first_slice_containment_fraction": 0.9310437380810284,
+    "worst_slice_containment_fraction": 0.22818849963571067,
+    "original_OML_verified": false,
+    "accepted_as_final_post_F_OML": false
+  },
+  "independent_source_screen": {
+    "UPC_source": "analysis/propulsion_source_silhouette_constraints_v134.json",
+    "NASA_source": "analysis/nasa_station_envelopes.json",
+    "comparison": {
+      "x_mm": 767.562100387307,
+      "UPC_half_width_mm": 103.3148441533875,
+      "NASA_raw_half_width_mm": 207.7674281404726,
+      "half_width_abs_delta_mm": 104.45258398708509,
+      "UPC_z_top_mm": 27.90131377584098,
+      "NASA_raw_z_top_mm": 136.48341930567213,
+      "z_top_abs_delta_mm": 108.58210552983115,
+      "UPC_z_bottom_mm": -39.412894528730874,
+      "NASA_raw_z_bottom_mm": -5.186080897437584,
+      "z_bottom_abs_delta_mm": 34.22681363129329
+    },
+    "NASA_raw_aft_envelope_clean": false,
+    "interpretation": "NASA percentile envelope is contaminated by tail surfaces/annotations in aft region and cannot define nacelle OML."
+  },
+  "decision": {
+    "structural_contraction_start_must_be_aft_of_x_mm": 810.462281164333,
+    "post_F_full_3D_OML_available": false,
+    "final_nozzle_contraction_allowed": false,
+    "next_gate": "recover or register an independent aft nacelle/nozzle OML covering at least x~810 onward; do not use FUSELAGE_CURRENT or raw NASA percentile envelope as production OML"
+  },
+  "gates": {
+    "hybrid_tail_structure_clears_before_x811mm": true,
+    "FUSELAGE_CURRENT_acceptable_post_F_OML": false,
+    "NASA_raw_envelope_acceptable_post_F_OML": false,
+    "post_F_full_3D_OML_registered": false,
+    "final_nozzle_geometry_defined": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "study_source_sha256": "762d238ced139bc5ceeb54163b732fb98ae3d69a6d76d85638ca38e04084a081"
+}
