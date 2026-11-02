@@ -1,0 +1,436 @@
+{
+  "status": "V305_RECENTERED_ADJUSTABLE_TAIL_SERVO",
+  "source_model": "F14_v303_DYNAMIC_STABILATOR_LINKAGE_SWEEP.FCStd",
+  "adjustment_source": "migration/freecad/freecad_v304_servo_adjustment_envelope_audit.json",
+  "geometry": {
+    "new_body_center_R_mm": [
+      710,
+      20,
+      5
+    ],
+    "new_body_center_L_mm": [
+      710,
+      -20,
+      5
+    ],
+    "shift_from_v299_mm": [
+      0,
+      0,
+      1
+    ],
+    "continuous_adjustment_translation_mm": {
+      "x": [
+        -2,
+        2
+      ],
+      "y": [
+        -2,
+        2
+      ],
+      "z": [
+        -1,
+        1
+      ]
+    }
+  },
+  "rows": [
+    {
+      "side": "R",
+      "body_center_mm": [
+        710,
+        20,
+        5
+      ],
+      "body_OML_fraction": 1.0,
+      "service_OML_fraction": 1.0,
+      "cradle_OML_fraction": 1.0,
+      "service_EDF_clearance_mm": 4.1942566030073705,
+      "cradle_EDF_clearance_mm": 3.708951669188973,
+      "service_root_clearance_mm": 46.638582122372235,
+      "adjustment_sweep_OML_fraction": 1.0,
+      "adjustment_sweep_EDF_clearance_mm": 2.0174829320434324
+    },
+    {
+      "side": "L",
+      "body_center_mm": [
+        710,
+        -20,
+        5
+      ],
+      "body_OML_fraction": 1.0,
+      "service_OML_fraction": 1.0,
+      "cradle_OML_fraction": 1.0,
+      "service_EDF_clearance_mm": 4.194256603007368,
+      "cradle_EDF_clearance_mm": 3.708951669188973,
+      "service_root_clearance_mm": 46.638582122372235,
+      "adjustment_sweep_OML_fraction": 0.9997444715939805,
+      "adjustment_sweep_EDF_clearance_mm": 2.017482932043433
+    }
+  ],
+  "dynamic_cradle_recheck": [
+    {
+      "side": "R",
+      "servo_deg": -9.863416242920543,
+      "stabilator_deg": 17.84348112827072,
+      "service_to_recentered_cradle_mm": 9.528282976569303,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -9.157802614995937,
+      "stabilator_deg": 16.715333625979458,
+      "service_to_recentered_cradle_mm": 9.510772575129927,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -8.452188987071333,
+      "stabilator_deg": 15.56848601161511,
+      "service_to_recentered_cradle_mm": 9.492382830107319,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -7.746575359146727,
+      "stabilator_deg": 14.402197560458955,
+      "service_to_recentered_cradle_mm": 9.473039833269942,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -7.04096173122212,
+      "stabilator_deg": 13.215647164990965,
+      "service_to_recentered_cradle_mm": 9.452663851828934,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -6.335348103297516,
+      "stabilator_deg": 12.007922491586296,
+      "service_to_recentered_cradle_mm": 9.431168626479135,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -5.62973447537291,
+      "stabilator_deg": 10.778007204047665,
+      "service_to_recentered_cradle_mm": 9.408460541288273,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -4.924120847448305,
+      "stabilator_deg": 9.524765814256408,
+      "service_to_recentered_cradle_mm": 9.384437636189059,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -4.218507219523699,
+      "stabilator_deg": 8.246925597046133,
+      "service_to_recentered_cradle_mm": 9.358988424663798,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -3.5128935915990924,
+      "stabilator_deg": 6.943054841763715,
+      "service_to_recentered_cradle_mm": 9.33199046828949,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -2.807279963674488,
+      "stabilator_deg": 5.611536490034592,
+      "service_to_recentered_cradle_mm": 9.303308645038259,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -2.101666335749883,
+      "stabilator_deg": 4.250535903701387,
+      "service_to_recentered_cradle_mm": 9.272793027978704,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -1.3960527078252767,
+      "stabilator_deg": 2.8579610821206494,
+      "service_to_recentered_cradle_mm": 9.240276262881062,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": -0.6904390799006705,
+      "stabilator_deg": 1.4314130483909473,
+      "service_to_recentered_cradle_mm": 9.205570293519182,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 0.01517454802393381,
+      "stabilator_deg": -0.03187673665794577,
+      "service_to_recentered_cradle_mm": 9.168462226466824,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 0.7207881759485399,
+      "stabilator_deg": -1.5351263325226405,
+      "service_to_recentered_cradle_mm": 9.12870904387187,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 1.426401803873146,
+      "stabilator_deg": -3.082106927805736,
+      "service_to_recentered_cradle_mm": 9.086030748348875,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 2.132015431797752,
+      "stabilator_deg": -4.677279248253935,
+      "service_to_recentered_cradle_mm": 9.040101334261998,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 2.8376290597223583,
+      "stabilator_deg": -6.325976410848991,
+      "service_to_recentered_cradle_mm": 8.990536682136526,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 3.543242687646961,
+      "stabilator_deg": -8.034654131073747,
+      "service_to_recentered_cradle_mm": 8.936877992847597,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 4.248856315571567,
+      "stabilator_deg": -9.811241307543522,
+      "service_to_recentered_cradle_mm": 8.878568577192917,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 4.954469943496173,
+      "stabilator_deg": -11.665645028719272,
+      "service_to_recentered_cradle_mm": 8.81492042720258,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 5.660083571420778,
+      "stabilator_deg": -13.610502199338864,
+      "service_to_recentered_cradle_mm": 8.745064474662069,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 6.365697199345384,
+      "stabilator_deg": -15.662343052469641,
+      "service_to_recentered_cradle_mm": 8.66787361579127,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "servo_deg": 7.07131082726999,
+      "stabilator_deg": -17.84348112827004,
+      "service_to_recentered_cradle_mm": 8.581837720643671,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -9.863416242920543,
+      "stabilator_deg": 17.84348112827072,
+      "service_to_recentered_cradle_mm": 9.528282976569303,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -9.157802614995937,
+      "stabilator_deg": 16.715333625979458,
+      "service_to_recentered_cradle_mm": 9.510772575129923,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -8.452188987071333,
+      "stabilator_deg": 15.56848601161511,
+      "service_to_recentered_cradle_mm": 9.492382830107323,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -7.746575359146727,
+      "stabilator_deg": 14.402197560458955,
+      "service_to_recentered_cradle_mm": 9.473039833269942,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -7.04096173122212,
+      "stabilator_deg": 13.215647164990965,
+      "service_to_recentered_cradle_mm": 9.452663851828936,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -6.335348103297516,
+      "stabilator_deg": 12.007922491586296,
+      "service_to_recentered_cradle_mm": 9.431168626479167,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -5.62973447537291,
+      "stabilator_deg": 10.778007204047665,
+      "service_to_recentered_cradle_mm": 9.408460541288273,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -4.924120847448305,
+      "stabilator_deg": 9.524765814256408,
+      "service_to_recentered_cradle_mm": 9.384437636189059,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -4.218507219523699,
+      "stabilator_deg": 8.246925597046133,
+      "service_to_recentered_cradle_mm": 9.3589884246638,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -3.5128935915990924,
+      "stabilator_deg": 6.943054841763715,
+      "service_to_recentered_cradle_mm": 9.33199046828949,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -2.807279963674488,
+      "stabilator_deg": 5.611536490034592,
+      "service_to_recentered_cradle_mm": 9.303308645038259,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -2.101666335749883,
+      "stabilator_deg": 4.250535903701387,
+      "service_to_recentered_cradle_mm": 9.272793027978702,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -1.3960527078252767,
+      "stabilator_deg": 2.8579610821206494,
+      "service_to_recentered_cradle_mm": 9.240276262881062,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": -0.6904390799006705,
+      "stabilator_deg": 1.4314130483909473,
+      "service_to_recentered_cradle_mm": 9.20557029351918,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 0.01517454802393381,
+      "stabilator_deg": -0.03187673665794577,
+      "service_to_recentered_cradle_mm": 9.168462226466826,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 0.7207881759485399,
+      "stabilator_deg": -1.5351263325226405,
+      "service_to_recentered_cradle_mm": 9.128709043871867,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 1.426401803873146,
+      "stabilator_deg": -3.082106927805736,
+      "service_to_recentered_cradle_mm": 9.086030748348875,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 2.132015431797752,
+      "stabilator_deg": -4.677279248253935,
+      "service_to_recentered_cradle_mm": 9.040101334262001,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 2.8376290597223583,
+      "stabilator_deg": -6.325976410848991,
+      "service_to_recentered_cradle_mm": 8.99053668213653,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 3.543242687646961,
+      "stabilator_deg": -8.034654131073747,
+      "service_to_recentered_cradle_mm": 8.936877992847597,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 4.248856315571567,
+      "stabilator_deg": -9.811241307543522,
+      "service_to_recentered_cradle_mm": 8.878568577192917,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 4.954469943496173,
+      "stabilator_deg": -11.665645028719272,
+      "service_to_recentered_cradle_mm": 8.814920427202582,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 5.660083571420778,
+      "stabilator_deg": -13.610502199338864,
+      "service_to_recentered_cradle_mm": 8.745064474662067,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 6.365697199345384,
+      "stabilator_deg": -15.662343052469641,
+      "service_to_recentered_cradle_mm": 8.667873615791216,
+      "service_cradle_intersection_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "servo_deg": 7.07131082726999,
+      "stabilator_deg": -17.84348112827004,
+      "service_to_recentered_cradle_mm": 8.58183772064367,
+      "service_cradle_intersection_mm3": 0.0
+    }
+  ],
+  "gates": {
+    "v304_discrete_3x3x3_cube_pass": true,
+    "recentered_body_service_cradle_OML_ge_0p999": true,
+    "recentered_service_EDF_clearance_ge_1p5mm": true,
+    "continuous_adjustment_sweep_OML_ge_0p999": true,
+    "continuous_adjustment_sweep_EDF_clearance_ge_1p5mm": true,
+    "dynamic_service_zero_recentered_cradle_intersection": true,
+    "dynamic_service_recentered_cradle_clearance_ge_5mm": true,
+    "actual_servo_spline_offset_measured": false,
+    "physical_adjustment_slot_hardware_defined": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "b467158b6adad22ae1a032e712d96556f4a209b2de8742e9ee934726893e7a02"
+}
