@@ -1,0 +1,47 @@
+{
+  "status": "GENERIC_ALIGNMENT_PIN_ENVELOPE_SCREEN_ONLY",
+  "input_sha256_unchanged": {
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117",
+    "WING_R_VOID_ALL17_FUSED_TRIAL_ONLY.FCStd": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19",
+    "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0"
+  },
+  "axis_start_mm": [
+    705.8478655908332,
+    290,
+    -3.7733957392501387
+  ],
+  "axis_end_mm": [
+    705.8478655908332,
+    310,
+    -3.7733957392501387
+  ],
+  "diameter_mm": 2,
+  "outside_saved_void_mm3": 0.0,
+  "spar_overlap_rows": [
+    {
+      "object": "UNFROZEN_FLANGED_WEB",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "limits": [
+    "Cylinder is unselected alignment envelope, not installed pin/sleeve or structural seam",
+    "No pin supports, sockets, retention, fit tolerance, bond or strength",
+    "Y300 partition remains volume-blocked; no output CAD or print release"
+  ]
+}
