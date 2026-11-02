@@ -1,0 +1,686 @@
+{
+  "status": "V298_FREECAD_EDF_PACKAGING_ENVELOPE",
+  "source_model": "F14_v297_ALLOWANCED_INLET_EDF_ADAPTER.FCStd",
+  "architecture": {
+    "fan_face_x_mm": 658.0,
+    "housing_length_mm": 73.5,
+    "axis_abs_y_mm": 66.28458486059378,
+    "axis_z_mm": -10.508688347971937,
+    "housing_OD_assumed_mm": 52.5,
+    "skin_plus_service_OD_mm": 54.5,
+    "mount_OD_mm": 55.2,
+    "actual_EDF_hardware_measured": false
+  },
+  "rows": [
+    {
+      "side": "R",
+      "centerline_mm": [
+        658.0,
+        66.28458486059378,
+        -10.508688347971937
+      ],
+      "length_mm": 73.5,
+      "envelopes": [
+        {
+          "kind": "housing",
+          "diameter_mm": 52.5,
+          "length_mm": 73.5,
+          "volume_mm3": 159109.39605801995,
+          "oml_containment": 1.0,
+          "outside_oml_mm3": 0.0,
+          "critical_min_distance_mm": 0.0,
+          "critical_distances": [
+            {
+              "object": "V293_X620_CF_TUBE_R",
+              "distance_mm": 12.351050197223664,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_CF_TUBE_L",
+              "distance_mm": 61.63747446722947,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_R_AFT",
+              "distance_mm": 21.095570754114114,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_L_AFT",
+              "distance_mm": 62.91724388144196,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_R",
+              "distance_mm": 30.595473193738574,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_L",
+              "distance_mm": 65.7755531445291,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "BATTERY_TRAY_v165",
+              "distance_mm": 220.51783285249397,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SERVO_SERVICE",
+              "distance_mm": 180.47687472088325,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SYNC_YOKE_M4_20",
+              "distance_mm": 178.78608120432557,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_R",
+              "distance_mm": 131.65369062304285,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_L",
+              "distance_mm": 159.4958329414513,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_R",
+              "distance_mm": 0.0,
+              "intersection_mm3": 7590.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_L",
+              "distance_mm": 86.37486874738332,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_SERVICE_R",
+              "distance_mm": 0.0,
+              "intersection_mm3": 13426.04417253768
+            },
+            {
+              "object": "V233_TORQ_SERVICE_L",
+              "distance_mm": 84.31304973873983,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_R",
+              "distance_mm": 0.0,
+              "intersection_mm3": 3119.204704471113
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_L",
+              "distance_mm": 82.04509434393805,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V229_ESC_SERVICE_R",
+              "distance_mm": 5.172802367526643,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V229_ESC_SERVICE_L",
+              "distance_mm": 122.29592049025601,
+              "intersection_mm3": 0.0
+            }
+          ]
+        },
+        {
+          "kind": "housing_skin_service",
+          "diameter_mm": 54.5,
+          "length_mm": 73.5,
+          "volume_mm3": 171462.9237700984,
+          "oml_containment": 0.9999992901209105,
+          "outside_oml_mm3": 0.12171794421738014,
+          "critical_min_distance_mm": 0.0,
+          "critical_distances": [
+            {
+              "object": "V293_X620_CF_TUBE_R",
+              "distance_mm": 11.351050197223664,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_CF_TUBE_L",
+              "distance_mm": 60.63747446722947,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_R_AFT",
+              "distance_mm": 20.59177032329633,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_L_AFT",
+              "distance_mm": 61.959701651173134,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_R",
+              "distance_mm": 30.291597507466133,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_L",
+              "distance_mm": 64.87949169448164,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "BATTERY_TRAY_v165",
+              "distance_mm": 220.45159940269835,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SERVO_SERVICE",
+              "distance_mm": 180.30450633786103,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SYNC_YOKE_M4_20",
+              "distance_mm": 178.78608120432557,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_R",
+              "distance_mm": 131.65369062304285,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_L",
+              "distance_mm": 158.93348154484679,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_R",
+              "distance_mm": 0.0,
+              "intersection_mm3": 7590.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_L",
+              "distance_mm": 85.37486874738332,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_SERVICE_R",
+              "distance_mm": 0.0,
+              "intersection_mm3": 13542.699171058615
+            },
+            {
+              "object": "V233_TORQ_SERVICE_L",
+              "distance_mm": 83.31304973873983,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_R",
+              "distance_mm": 0.0,
+              "intersection_mm3": 3244.010423188399
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_L",
+              "distance_mm": 81.04509434393805,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V229_ESC_SERVICE_R",
+              "distance_mm": 4.172802367526646,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V229_ESC_SERVICE_L",
+              "distance_mm": 121.295920490256,
+              "intersection_mm3": 0.0
+            }
+          ]
+        },
+        {
+          "kind": "mount_band",
+          "diameter_mm": 55.2,
+          "length_mm": 8.0,
+          "volume_mm3": 19145.116958388488,
+          "oml_containment": 0.9997244006404121,
+          "outside_oml_mm3": 5.276381972966192,
+          "critical_min_distance_mm": 3.8228023675266427,
+          "critical_distances": [
+            {
+              "object": "V293_X620_CF_TUBE_R",
+              "distance_mm": 11.001050197223663,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_CF_TUBE_L",
+              "distance_mm": 60.287474467229465,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_R_AFT",
+              "distance_mm": 20.424073293771027,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_L_AFT",
+              "distance_mm": 61.624880499481094,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_R",
+              "distance_mm": 30.192344135828073,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_L",
+              "distance_mm": 64.56659128688189,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "BATTERY_TRAY_v165",
+              "distance_mm": 220.429484767452,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SERVO_SERVICE",
+              "distance_mm": 180.2454491785926,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SYNC_YOKE_M4_20",
+              "distance_mm": 178.78608120432557,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_R",
+              "distance_mm": 131.65369062304285,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_L",
+              "distance_mm": 158.73767620374107,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_R",
+              "distance_mm": 22.5,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_L",
+              "distance_mm": 87.95156795367414,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_SERVICE_R",
+              "distance_mm": 20.5,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_SERVICE_L",
+              "distance_mm": 85.45828000815732,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_R",
+              "distance_mm": 16.0,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_L",
+              "distance_mm": 82.26602124314182,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V229_ESC_SERVICE_R",
+              "distance_mm": 3.8228023675266427,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V229_ESC_SERVICE_L",
+              "distance_mm": 120.945920490256,
+              "intersection_mm3": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "side": "L",
+      "centerline_mm": [
+        658.0,
+        -66.28458486059378,
+        -10.508688347971937
+      ],
+      "length_mm": 73.5,
+      "envelopes": [
+        {
+          "kind": "housing",
+          "diameter_mm": 52.5,
+          "length_mm": 73.5,
+          "volume_mm3": 159109.39605801995,
+          "oml_containment": 1.0,
+          "outside_oml_mm3": 0.0,
+          "critical_min_distance_mm": 0.0,
+          "critical_distances": [
+            {
+              "object": "V293_X620_CF_TUBE_R",
+              "distance_mm": 61.63747446722947,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_CF_TUBE_L",
+              "distance_mm": 12.351050197223664,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_R_AFT",
+              "distance_mm": 62.91724388144196,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_L_AFT",
+              "distance_mm": 21.095570754114114,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_R",
+              "distance_mm": 65.7755531445291,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_L",
+              "distance_mm": 30.595473193738574,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "BATTERY_TRAY_v165",
+              "distance_mm": 220.51783285249397,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SERVO_SERVICE",
+              "distance_mm": 180.47687472088325,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SYNC_YOKE_M4_20",
+              "distance_mm": 178.78608120432557,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_R",
+              "distance_mm": 159.4958329414513,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_L",
+              "distance_mm": 131.65369062304285,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_R",
+              "distance_mm": 86.37486874738333,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_L",
+              "distance_mm": 0.0,
+              "intersection_mm3": 7590.0
+            },
+            {
+              "object": "V233_TORQ_SERVICE_R",
+              "distance_mm": 84.31304973873983,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_SERVICE_L",
+              "distance_mm": 0.0,
+              "intersection_mm3": 13426.044172537682
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_R",
+              "distance_mm": 82.04509434393805,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_L",
+              "distance_mm": 0.0,
+              "intersection_mm3": 3119.204704471116
+            },
+            {
+              "object": "V229_ESC_SERVICE_R",
+              "distance_mm": 122.29592049025602,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V229_ESC_SERVICE_L",
+              "distance_mm": 5.172802367526643,
+              "intersection_mm3": 0.0
+            }
+          ]
+        },
+        {
+          "kind": "housing_skin_service",
+          "diameter_mm": 54.5,
+          "length_mm": 73.5,
+          "volume_mm3": 171462.9237700984,
+          "oml_containment": 1.0,
+          "outside_oml_mm3": 0.0,
+          "critical_min_distance_mm": 0.0,
+          "critical_distances": [
+            {
+              "object": "V293_X620_CF_TUBE_R",
+              "distance_mm": 60.63747446722947,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_CF_TUBE_L",
+              "distance_mm": 11.351050197223659,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_R_AFT",
+              "distance_mm": 61.95970165117313,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_L_AFT",
+              "distance_mm": 20.591770323296327,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_R",
+              "distance_mm": 64.87949169448164,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_L",
+              "distance_mm": 30.29159750746613,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "BATTERY_TRAY_v165",
+              "distance_mm": 220.45159940269835,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SERVO_SERVICE",
+              "distance_mm": 180.30450633786103,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SYNC_YOKE_M4_20",
+              "distance_mm": 178.78608120432557,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_R",
+              "distance_mm": 158.93348154484679,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_L",
+              "distance_mm": 131.65369062304285,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_R",
+              "distance_mm": 85.37486874738333,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_L",
+              "distance_mm": 0.0,
+              "intersection_mm3": 7590.0
+            },
+            {
+              "object": "V233_TORQ_SERVICE_R",
+              "distance_mm": 83.31304973873983,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_SERVICE_L",
+              "distance_mm": 0.0,
+              "intersection_mm3": 13542.699171058619
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_R",
+              "distance_mm": 81.04509434393805,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_L",
+              "distance_mm": 0.0,
+              "intersection_mm3": 3244.0104231883997
+            },
+            {
+              "object": "V229_ESC_SERVICE_R",
+              "distance_mm": 121.29592049025601,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V229_ESC_SERVICE_L",
+              "distance_mm": 4.172802367526646,
+              "intersection_mm3": 0.0
+            }
+          ]
+        },
+        {
+          "kind": "mount_band",
+          "diameter_mm": 55.2,
+          "length_mm": 8.0,
+          "volume_mm3": 19145.116958388488,
+          "oml_containment": 1.0,
+          "outside_oml_mm3": 0.0,
+          "critical_min_distance_mm": 3.8228023675266427,
+          "critical_distances": [
+            {
+              "object": "V293_X620_CF_TUBE_R",
+              "distance_mm": 60.287474467229465,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_CF_TUBE_L",
+              "distance_mm": 11.001050197223663,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_R_AFT",
+              "distance_mm": 61.624880499481094,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V293_X620_SLEEVE_L_AFT",
+              "distance_mm": 20.424073293771027,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_R",
+              "distance_mm": 64.56659128688189,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V295_C_CLAMP_X620_L",
+              "distance_mm": 30.192344135828073,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "BATTERY_TRAY_v165",
+              "distance_mm": 220.429484767452,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SERVO_SERVICE",
+              "distance_mm": 180.2454491785926,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V225_SYNC_YOKE_M4_20",
+              "distance_mm": 178.78608120432557,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_R",
+              "distance_mm": 158.73767620374107,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V221_CASSETTE_L",
+              "distance_mm": 131.65369062304285,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_R",
+              "distance_mm": 87.95156795367414,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_TCM1022_L",
+              "distance_mm": 22.5,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_SERVICE_R",
+              "distance_mm": 85.45828000815732,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V233_TORQ_SERVICE_L",
+              "distance_mm": 20.5,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_R",
+              "distance_mm": 82.26602124314182,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V247_TAIL_SERVO_CRADLE_L",
+              "distance_mm": 16.0,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V229_ESC_SERVICE_R",
+              "distance_mm": 120.94592049025601,
+              "intersection_mm3": 0.0
+            },
+            {
+              "object": "V229_ESC_SERVICE_L",
+              "distance_mm": 3.8228023675266427,
+              "intersection_mm3": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "housing_bilateral_oml_containment_ge_0p999": true,
+    "skin_service_bilateral_oml_containment_ge_0p999": true,
+    "mount_bilateral_oml_containment_ge_0p999": true,
+    "critical_clearance_ge_1mm": false,
+    "actual_EDF_hardware_measured": false,
+    "installed_bench_verified": false,
+    "propulsion_packaging_freeze": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "a07054575a806f8f84a95e1ee40b2aed2834cc2480019180439c44d294cf7661"
+}
