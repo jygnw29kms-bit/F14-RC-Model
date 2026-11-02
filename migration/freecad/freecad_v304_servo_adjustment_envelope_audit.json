@@ -1,0 +1,1764 @@
+{
+  "status": "V304_TAIL_SERVO_ADJUSTMENT_ENVELOPE",
+  "source_model": "F14_v303_DYNAMIC_STABILATOR_LINKAGE_SWEEP.FCStd",
+  "kinematic_target_axis_R_mm": [
+    719.085087734266,
+    21.441458618106275,
+    12.0
+  ],
+  "proposed_servo_body_center_R_mm": [
+    710,
+    20,
+    5
+  ],
+  "proposed_servo_body_center_L_mm": [
+    710,
+    -20,
+    5
+  ],
+  "recenter_from_v299_mm": [
+    0,
+    0,
+    1
+  ],
+  "service_dims_mm": [
+    27,
+    31.5,
+    16
+  ],
+  "tested_adjustments_mm": {
+    "x": [
+      -2,
+      0,
+      2
+    ],
+    "abs_y": [
+      -2,
+      0,
+      2
+    ],
+    "z": [
+      -1,
+      0,
+      1
+    ]
+  },
+  "acceptance": {
+    "service_OML_fraction_min": 0.999,
+    "service_EDF_clearance_min_mm": 1.5
+  },
+  "rows": [
+    {
+      "side": "R",
+      "positions": [
+        {
+          "side": "R",
+          "shift_mm": [
+            -2.0,
+            -2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            18.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 5.929244055014328,
+          "service_root_clearance_mm": 48.91000854343742,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            3.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            -2.0,
+            -2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            708.0,
+            18.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.13981300873288,
+          "service_root_clearance_mm": 48.91000854343742,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            3.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            -2.0,
+            -2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            18.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.378811894773974,
+          "service_root_clearance_mm": 48.91000854343742,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            3.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            -2.0,
+            0.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            20.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 3.970568486493463,
+          "service_root_clearance_mm": 46.938139457365814,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            1.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            -2.0,
+            0.0,
+            0.0
+          ],
+          "body_center_mm": [
+            708.0,
+            20.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.1942566030073705,
+          "service_root_clearance_mm": 46.938139457365814,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            1.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            -2.0,
+            0.0,
+            1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            20.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.447928165918295,
+          "service_root_clearance_mm": 46.938139457365814,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            1.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            -2.0,
+            2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            22.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.0174829320434324,
+          "service_root_clearance_mm": 44.96875510528528,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            -0.5585413818937255,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            -2.0,
+            2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            708.0,
+            22.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.255981323680748,
+          "service_root_clearance_mm": 44.96875510528528,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            -0.5585413818937255,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            -2.0,
+            2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            22.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.5261701796812903,
+          "service_root_clearance_mm": 44.96875510528528,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            -0.5585413818937255,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            0.0,
+            -2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            18.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 5.929244055014328,
+          "service_root_clearance_mm": 48.622601147874214,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            3.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            710.0,
+            18.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.13981300873288,
+          "service_root_clearance_mm": 48.622601147874214,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            3.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            0.0,
+            -2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            18.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.378811894773974,
+          "service_root_clearance_mm": 48.622601147874214,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            3.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            20.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 3.970568486493463,
+          "service_root_clearance_mm": 46.638582122372235,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            1.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "body_center_mm": [
+            710.0,
+            20.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.1942566030073705,
+          "service_root_clearance_mm": 46.638582122372235,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            1.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            20.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.447928165918295,
+          "service_root_clearance_mm": 46.638582122372235,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            1.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            0.0,
+            2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            22.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.0174829320434324,
+          "service_root_clearance_mm": 44.655988874788775,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            -0.5585413818937255,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            710.0,
+            22.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.255981323680748,
+          "service_root_clearance_mm": 44.655988874788775,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            -0.5585413818937255,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            0.0,
+            2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            22.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.5261701796812903,
+          "service_root_clearance_mm": 44.655988874788775,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            -0.5585413818937255,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            2.0,
+            -2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            18.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 5.929244055014328,
+          "service_root_clearance_mm": 48.416172391582094,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            3.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            2.0,
+            -2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            712.0,
+            18.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.13981300873288,
+          "service_root_clearance_mm": 48.416172391582094,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            3.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            2.0,
+            -2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            18.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.378811894773974,
+          "service_root_clearance_mm": 48.416172391582094,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            3.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            2.0,
+            0.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            20.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 3.970568486493463,
+          "service_root_clearance_mm": 46.42333194689279,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            1.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            2.0,
+            0.0,
+            0.0
+          ],
+          "body_center_mm": [
+            712.0,
+            20.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.1942566030073705,
+          "service_root_clearance_mm": 46.42333194689279,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            1.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            2.0,
+            0.0,
+            1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            20.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.447928165918295,
+          "service_root_clearance_mm": 46.42333194689279,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            1.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            2.0,
+            2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            22.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.0174829320434324,
+          "service_root_clearance_mm": 44.431134906182585,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            -0.5585413818937255,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            2.0,
+            2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            712.0,
+            22.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.255981323680748,
+          "service_root_clearance_mm": 44.431134906182585,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            -0.5585413818937255,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "R",
+          "shift_mm": [
+            2.0,
+            2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            22.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.5261701796812903,
+          "service_root_clearance_mm": 44.431134906182585,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            -0.5585413818937255,
+            6.0
+          ],
+          "pass": true
+        }
+      ],
+      "pass_count": 27
+    },
+    {
+      "side": "L",
+      "positions": [
+        {
+          "side": "L",
+          "shift_mm": [
+            -2.0,
+            -2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            -18.0,
+            4.0
+          ],
+          "service_OML_fraction": 0.9997222456157383,
+          "service_EDF_clearance_mm": 5.92924405501433,
+          "service_root_clearance_mm": 48.91000854343742,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            -3.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            -2.0,
+            -2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            708.0,
+            -18.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.139813008732884,
+          "service_root_clearance_mm": 48.91000854343742,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            -3.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            -2.0,
+            -2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            -18.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.378811894773976,
+          "service_root_clearance_mm": 48.91000854343742,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            -3.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            -2.0,
+            0.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            -20.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 3.9705684864934616,
+          "service_root_clearance_mm": 46.938139457365814,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            -1.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            -2.0,
+            0.0,
+            0.0
+          ],
+          "body_center_mm": [
+            708.0,
+            -20.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.194256603007368,
+          "service_root_clearance_mm": 46.938139457365814,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            -1.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            -2.0,
+            0.0,
+            1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            -20.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.4479281659183005,
+          "service_root_clearance_mm": 46.938139457365814,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            -1.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            -2.0,
+            2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            -22.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.017482932043433,
+          "service_root_clearance_mm": 44.96875510528528,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            0.5585413818937255,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            -2.0,
+            2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            708.0,
+            -22.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.25598132368075,
+          "service_root_clearance_mm": 44.96875510528528,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            0.5585413818937255,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            -2.0,
+            2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            708.0,
+            -22.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.526170179681289,
+          "service_root_clearance_mm": 44.96875510528528,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            11.08508773426604,
+            0.5585413818937255,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            0.0,
+            -2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            -18.0,
+            4.0
+          ],
+          "service_OML_fraction": 0.9996756120479224,
+          "service_EDF_clearance_mm": 5.92924405501433,
+          "service_root_clearance_mm": 48.622601147874214,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            -3.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            710.0,
+            -18.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.139813008732884,
+          "service_root_clearance_mm": 48.622601147874214,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            -3.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            0.0,
+            -2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            -18.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.378811894773976,
+          "service_root_clearance_mm": 48.622601147874214,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            -3.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            -20.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 3.9705684864934616,
+          "service_root_clearance_mm": 46.638582122372235,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            -1.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "body_center_mm": [
+            710.0,
+            -20.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.194256603007368,
+          "service_root_clearance_mm": 46.638582122372235,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            -1.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            -20.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.4479281659183005,
+          "service_root_clearance_mm": 46.638582122372235,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            -1.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            0.0,
+            2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            -22.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.017482932043433,
+          "service_root_clearance_mm": 44.655988874788775,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            0.5585413818937255,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            710.0,
+            -22.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.25598132368075,
+          "service_root_clearance_mm": 44.655988874788775,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            0.5585413818937255,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            0.0,
+            2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            710.0,
+            -22.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.526170179681289,
+          "service_root_clearance_mm": 44.655988874788775,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            9.08508773426604,
+            0.5585413818937255,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            2.0,
+            -2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            -18.0,
+            4.0
+          ],
+          "service_OML_fraction": 0.9996281096855981,
+          "service_EDF_clearance_mm": 5.92924405501433,
+          "service_root_clearance_mm": 48.416172391582094,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            -3.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            2.0,
+            -2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            712.0,
+            -18.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.139813008732884,
+          "service_root_clearance_mm": 48.416172391582094,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            -3.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            2.0,
+            -2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            -18.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 6.378811894773976,
+          "service_root_clearance_mm": 48.416172391582094,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            -3.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            2.0,
+            0.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            -20.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 3.9705684864934616,
+          "service_root_clearance_mm": 46.42333194689279,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            -1.4414586181062745,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            2.0,
+            0.0,
+            0.0
+          ],
+          "body_center_mm": [
+            712.0,
+            -20.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.194256603007368,
+          "service_root_clearance_mm": 46.42333194689279,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            -1.4414586181062745,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            2.0,
+            0.0,
+            1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            -20.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 4.4479281659183005,
+          "service_root_clearance_mm": 46.42333194689279,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            -1.4414586181062745,
+            6.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            2.0,
+            2.0,
+            -1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            -22.0,
+            4.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.017482932043433,
+          "service_root_clearance_mm": 44.431134906182585,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            0.5585413818937255,
+            8.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            2.0,
+            2.0,
+            0.0
+          ],
+          "body_center_mm": [
+            712.0,
+            -22.0,
+            5.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.25598132368075,
+          "service_root_clearance_mm": 44.431134906182585,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            0.5585413818937255,
+            7.0
+          ],
+          "pass": true
+        },
+        {
+          "side": "L",
+          "shift_mm": [
+            2.0,
+            2.0,
+            1.0
+          ],
+          "body_center_mm": [
+            712.0,
+            -22.0,
+            6.0
+          ],
+          "service_OML_fraction": 1.0,
+          "service_EDF_clearance_mm": 2.526170179681289,
+          "service_root_clearance_mm": 44.431134906182585,
+          "required_local_spline_axis_offset_from_body_center_mm": [
+            7.08508773426604,
+            0.5585413818937255,
+            6.0
+          ],
+          "pass": true
+        }
+      ],
+      "pass_count": 27
+    }
+  ],
+  "bilateral_positions": [
+    {
+      "shift_mm": [
+        -2.0,
+        -2.0,
+        -1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 0.9997222456157383,
+      "min_EDF_clearance_mm": 5.929244055014328,
+      "min_root_clearance_mm": 48.91000854343742,
+      "required_local_spline_offset_abs_mm": [
+        11.08508773426604,
+        3.4414586181062745,
+        9.0
+      ]
+    },
+    {
+      "shift_mm": [
+        -2.0,
+        -2.0,
+        0.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 6.13981300873288,
+      "min_root_clearance_mm": 48.91000854343742,
+      "required_local_spline_offset_abs_mm": [
+        11.08508773426604,
+        3.4414586181062745,
+        8.0
+      ]
+    },
+    {
+      "shift_mm": [
+        -2.0,
+        -2.0,
+        1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 6.378811894773974,
+      "min_root_clearance_mm": 48.91000854343742,
+      "required_local_spline_offset_abs_mm": [
+        11.08508773426604,
+        3.4414586181062745,
+        7.0
+      ]
+    },
+    {
+      "shift_mm": [
+        -2.0,
+        0.0,
+        -1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 3.9705684864934616,
+      "min_root_clearance_mm": 46.938139457365814,
+      "required_local_spline_offset_abs_mm": [
+        11.08508773426604,
+        1.4414586181062745,
+        9.0
+      ]
+    },
+    {
+      "shift_mm": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 4.194256603007368,
+      "min_root_clearance_mm": 46.938139457365814,
+      "required_local_spline_offset_abs_mm": [
+        11.08508773426604,
+        1.4414586181062745,
+        8.0
+      ]
+    },
+    {
+      "shift_mm": [
+        -2.0,
+        0.0,
+        1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 4.447928165918295,
+      "min_root_clearance_mm": 46.938139457365814,
+      "required_local_spline_offset_abs_mm": [
+        11.08508773426604,
+        1.4414586181062745,
+        7.0
+      ]
+    },
+    {
+      "shift_mm": [
+        -2.0,
+        2.0,
+        -1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 2.0174829320434324,
+      "min_root_clearance_mm": 44.96875510528528,
+      "required_local_spline_offset_abs_mm": [
+        11.08508773426604,
+        -0.5585413818937255,
+        9.0
+      ]
+    },
+    {
+      "shift_mm": [
+        -2.0,
+        2.0,
+        0.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 2.255981323680748,
+      "min_root_clearance_mm": 44.96875510528528,
+      "required_local_spline_offset_abs_mm": [
+        11.08508773426604,
+        -0.5585413818937255,
+        8.0
+      ]
+    },
+    {
+      "shift_mm": [
+        -2.0,
+        2.0,
+        1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 2.526170179681289,
+      "min_root_clearance_mm": 44.96875510528528,
+      "required_local_spline_offset_abs_mm": [
+        11.08508773426604,
+        -0.5585413818937255,
+        7.0
+      ]
+    },
+    {
+      "shift_mm": [
+        0.0,
+        -2.0,
+        -1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 0.9996756120479224,
+      "min_EDF_clearance_mm": 5.929244055014328,
+      "min_root_clearance_mm": 48.622601147874214,
+      "required_local_spline_offset_abs_mm": [
+        9.08508773426604,
+        3.4414586181062745,
+        9.0
+      ]
+    },
+    {
+      "shift_mm": [
+        0.0,
+        -2.0,
+        0.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 6.13981300873288,
+      "min_root_clearance_mm": 48.622601147874214,
+      "required_local_spline_offset_abs_mm": [
+        9.08508773426604,
+        3.4414586181062745,
+        8.0
+      ]
+    },
+    {
+      "shift_mm": [
+        0.0,
+        -2.0,
+        1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 6.378811894773974,
+      "min_root_clearance_mm": 48.622601147874214,
+      "required_local_spline_offset_abs_mm": [
+        9.08508773426604,
+        3.4414586181062745,
+        7.0
+      ]
+    },
+    {
+      "shift_mm": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 3.9705684864934616,
+      "min_root_clearance_mm": 46.638582122372235,
+      "required_local_spline_offset_abs_mm": [
+        9.08508773426604,
+        1.4414586181062745,
+        9.0
+      ]
+    },
+    {
+      "shift_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 4.194256603007368,
+      "min_root_clearance_mm": 46.638582122372235,
+      "required_local_spline_offset_abs_mm": [
+        9.08508773426604,
+        1.4414586181062745,
+        8.0
+      ]
+    },
+    {
+      "shift_mm": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 4.447928165918295,
+      "min_root_clearance_mm": 46.638582122372235,
+      "required_local_spline_offset_abs_mm": [
+        9.08508773426604,
+        1.4414586181062745,
+        7.0
+      ]
+    },
+    {
+      "shift_mm": [
+        0.0,
+        2.0,
+        -1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 2.0174829320434324,
+      "min_root_clearance_mm": 44.655988874788775,
+      "required_local_spline_offset_abs_mm": [
+        9.08508773426604,
+        -0.5585413818937255,
+        9.0
+      ]
+    },
+    {
+      "shift_mm": [
+        0.0,
+        2.0,
+        0.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 2.255981323680748,
+      "min_root_clearance_mm": 44.655988874788775,
+      "required_local_spline_offset_abs_mm": [
+        9.08508773426604,
+        -0.5585413818937255,
+        8.0
+      ]
+    },
+    {
+      "shift_mm": [
+        0.0,
+        2.0,
+        1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 2.526170179681289,
+      "min_root_clearance_mm": 44.655988874788775,
+      "required_local_spline_offset_abs_mm": [
+        9.08508773426604,
+        -0.5585413818937255,
+        7.0
+      ]
+    },
+    {
+      "shift_mm": [
+        2.0,
+        -2.0,
+        -1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 0.9996281096855981,
+      "min_EDF_clearance_mm": 5.929244055014328,
+      "min_root_clearance_mm": 48.416172391582094,
+      "required_local_spline_offset_abs_mm": [
+        7.08508773426604,
+        3.4414586181062745,
+        9.0
+      ]
+    },
+    {
+      "shift_mm": [
+        2.0,
+        -2.0,
+        0.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 6.13981300873288,
+      "min_root_clearance_mm": 48.416172391582094,
+      "required_local_spline_offset_abs_mm": [
+        7.08508773426604,
+        3.4414586181062745,
+        8.0
+      ]
+    },
+    {
+      "shift_mm": [
+        2.0,
+        -2.0,
+        1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 6.378811894773974,
+      "min_root_clearance_mm": 48.416172391582094,
+      "required_local_spline_offset_abs_mm": [
+        7.08508773426604,
+        3.4414586181062745,
+        7.0
+      ]
+    },
+    {
+      "shift_mm": [
+        2.0,
+        0.0,
+        -1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 3.9705684864934616,
+      "min_root_clearance_mm": 46.42333194689279,
+      "required_local_spline_offset_abs_mm": [
+        7.08508773426604,
+        1.4414586181062745,
+        9.0
+      ]
+    },
+    {
+      "shift_mm": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 4.194256603007368,
+      "min_root_clearance_mm": 46.42333194689279,
+      "required_local_spline_offset_abs_mm": [
+        7.08508773426604,
+        1.4414586181062745,
+        8.0
+      ]
+    },
+    {
+      "shift_mm": [
+        2.0,
+        0.0,
+        1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 4.447928165918295,
+      "min_root_clearance_mm": 46.42333194689279,
+      "required_local_spline_offset_abs_mm": [
+        7.08508773426604,
+        1.4414586181062745,
+        7.0
+      ]
+    },
+    {
+      "shift_mm": [
+        2.0,
+        2.0,
+        -1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 2.0174829320434324,
+      "min_root_clearance_mm": 44.431134906182585,
+      "required_local_spline_offset_abs_mm": [
+        7.08508773426604,
+        -0.5585413818937255,
+        9.0
+      ]
+    },
+    {
+      "shift_mm": [
+        2.0,
+        2.0,
+        0.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 2.255981323680748,
+      "min_root_clearance_mm": 44.431134906182585,
+      "required_local_spline_offset_abs_mm": [
+        7.08508773426604,
+        -0.5585413818937255,
+        8.0
+      ]
+    },
+    {
+      "shift_mm": [
+        2.0,
+        2.0,
+        1.0
+      ],
+      "R_pass": true,
+      "L_pass": true,
+      "bilateral_pass": true,
+      "min_OML_fraction": 1.0,
+      "min_EDF_clearance_mm": 2.526170179681289,
+      "min_root_clearance_mm": 44.431134906182585,
+      "required_local_spline_offset_abs_mm": [
+        7.08508773426604,
+        -0.5585413818937255,
+        7.0
+      ]
+    }
+  ],
+  "bilateral_pass_count": 27,
+  "abs_local_spline_offset_range_absorbable_on_passing_grid": {
+    "x_mm": [
+      7.08508773426604,
+      11.08508773426604
+    ],
+    "y_abs_mm": [
+      -0.5585413818937255,
+      3.4414586181062745
+    ],
+    "z_mm": [
+      7.0,
+      9.0
+    ]
+  },
+  "gates": {
+    "nominal_position_pass": true,
+    "independent_plusminus_2mm_XY_plusminus_1mm_Z_available": true,
+    "full_3x3x3_adjustment_cube_pass": true,
+    "actual_servo_spline_offset_measured": false,
+    "mount_slot_geometry_created": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
