@@ -1,0 +1,62 @@
+{
+  "status": "V312_POST_F_SOURCE_CONSTRAINED_OML_CANDIDATE",
+  "source_model": "F14_v310_STRUCTURAL_BYPASS_FREEFLOW.FCStd",
+  "source_trace": "analysis/post_F_side_trace_v312.json",
+  "stations": [
+    {
+      "x_mm": 754.962281164333,
+      "half_width_mm": 84.8657648402826,
+      "z_top_mm": 25.741869548331074,
+      "z_bottom_mm": -40.36027968264719
+    },
+    {
+      "x_mm": 782.5849221136924,
+      "half_width_mm": 101.73349449797851,
+      "z_top_mm": 21.83947343010651,
+      "z_bottom_mm": -38.2518134754352
+    },
+    {
+      "x_mm": 804.1967007376154,
+      "half_width_mm": 96.46232897994852,
+      "z_top_mm": 19.73100722289452,
+      "z_bottom_mm": -37.197580371829204
+    },
+    {
+      "x_mm": 821.0644303953113,
+      "half_width_mm": 90.40048863421406,
+      "z_top_mm": 15.51407480847054,
+      "z_bottom_mm": -33.50776450920822
+    },
+    {
+      "x_mm": 835.2965772939922,
+      "half_width_mm": 85.41923721967574,
+      "z_top_mm": 9.18867618683457,
+      "z_bottom_mm": -27.182365887572253
+    }
+  ],
+  "oml_valid": true,
+  "solid_count": 1,
+  "one_FSA_core_screen": [
+    {
+      "side": "R",
+      "one_FSA_core_containment_fraction": 0.8889950631387183,
+      "outside_mm3": 3715.363536042274
+    },
+    {
+      "side": "L",
+      "one_FSA_core_containment_fraction": 0.9031627910374659,
+      "outside_mm3": 3241.166071389369
+    }
+  ],
+  "gates": {
+    "trace_source_hash_match": true,
+    "trace_F_anchor_within_0p3mm": true,
+    "post_F_candidate_valid_single_solid": true,
+    "one_FSA_core_bilateral_containment_ge_0p995": false,
+    "post_F_full_3D_OML_registered": false,
+    "final_nozzle_geometry_defined": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "f890513b2fb987d1d5925c9c5c3e44b9c9815f735a8173d20eeb8e01d21d281e"
+}

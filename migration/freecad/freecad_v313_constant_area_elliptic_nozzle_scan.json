@@ -1,0 +1,37 @@
+{
+  "status": "V313_CONSTANT_AREA_ELLIPTIC_NOZZLE_SCAN",
+  "source_model": "F14_v312_POST_F_SOURCE_CONSTRAINED_OML.FCStd",
+  "FSA_mm2": 1347.7432483900213,
+  "x_range_mm": [
+    810.462281164333,
+    835.2965772939922
+  ],
+  "axis_abs_y_mm": 66.28458486059378,
+  "best": {
+    "az_mm": 18.5,
+    "ay_mm": 23.18918918918919,
+    "z_center_mm": -6.25,
+    "sides": [
+      {
+        "side": "R",
+        "containment_fraction": 0.9290022373019996,
+        "outside_mm3": 2374.6170189400436
+      },
+      {
+        "side": "L",
+        "containment_fraction": 0.9414431004638617,
+        "outside_mm3": 1958.5153803556823
+      }
+    ],
+    "worst_containment": 0.9290022373019996,
+    "pass_0p999": false
+  },
+  "passing_count": 0,
+  "gates": {
+    "constant_1p00_FSA_elliptic_core_candidate_found": false,
+    "post_F_full_3D_OML_registered": false,
+    "final_nozzle_geometry_defined": false,
+    "print_release": false,
+    "flight_release": false
+  }
+}
