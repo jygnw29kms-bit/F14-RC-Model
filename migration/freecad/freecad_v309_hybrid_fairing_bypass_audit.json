@@ -1,0 +1,93 @@
+{
+  "status": "V309_HYBRID_FAIRING_STRUCTURAL_BYPASS_POLICY",
+  "source_model": "F14_v307_UNIFIED_TAIL_SERVO_CASSETTE_BASE.FCStd",
+  "architecture": {
+    "surface_clearance_pad_mm": 0.5,
+    "hardware_fairing_outer_pad_mm": 1.3,
+    "hardware_inner_clearance_planned_mm": 0.5,
+    "hardware_fairing_wall_planned_mm": 0.8,
+    "structural_zone_x_mm": [
+      731.5,
+      754.962281164333
+    ],
+    "selected_structural_zone_nominal_FSA_ratio": 1.0,
+    "final_nozzle_contraction_moved_aft_of_F": true
+  },
+  "records": [
+    {
+      "side": "R",
+      "ratios": [
+        {
+          "nominal_FSA_ratio": 0.9,
+          "exit_ID_mm": 39.29885494515076,
+          "minimum_net_FSA_ratio": 0.8378619372602601,
+          "minimum_at_x_mm": 754.8561405821665,
+          "maximum_block_fraction": 0.3485286031153521,
+          "maximum_block_at_x_mm": 737.375
+        },
+        {
+          "nominal_FSA_ratio": 0.95,
+          "exit_ID_mm": 40.375735287422316,
+          "minimum_net_FSA_ratio": 0.8505445677969573,
+          "minimum_at_x_mm": 738.625,
+          "maximum_block_fraction": 0.34813878700510836,
+          "maximum_block_at_x_mm": 737.375
+        },
+        {
+          "nominal_FSA_ratio": 1.0,
+          "exit_ID_mm": 41.42463035441596,
+          "minimum_net_FSA_ratio": 0.8625531116682519,
+          "minimum_at_x_mm": 738.625,
+          "maximum_block_fraction": 0.34768612333068927,
+          "maximum_block_at_x_mm": 737.375
+        }
+      ]
+    },
+    {
+      "side": "L",
+      "ratios": [
+        {
+          "nominal_FSA_ratio": 0.9,
+          "exit_ID_mm": 39.29885494515076,
+          "minimum_net_FSA_ratio": 0.8378619372598988,
+          "minimum_at_x_mm": 754.8561405821665,
+          "maximum_block_fraction": 0.348528603115336,
+          "maximum_block_at_x_mm": 737.375
+        },
+        {
+          "nominal_FSA_ratio": 0.95,
+          "exit_ID_mm": 40.375735287422316,
+          "minimum_net_FSA_ratio": 0.8505445677895113,
+          "minimum_at_x_mm": 738.625,
+          "maximum_block_fraction": 0.3481387870051082,
+          "maximum_block_at_x_mm": 737.375
+        },
+        {
+          "nominal_FSA_ratio": 1.0,
+          "exit_ID_mm": 41.42463035441596,
+          "minimum_net_FSA_ratio": 0.8625531116802131,
+          "minimum_at_x_mm": 738.625,
+          "maximum_block_fraction": 0.3476861233306823,
+          "maximum_block_at_x_mm": 737.375
+        }
+      ]
+    }
+  ],
+  "decision": {
+    "selected_ratio": 1.0,
+    "selected_minimum_net_FSA_ratio": 0.8625531116682519,
+    "reason": "0.95 nominal only barely clears 0.85 net with hybrid fairing; 1.00 retains >0.86 net margin through stabilator/tail structure. Contract to 0.85-0.90 only downstream of station F after aft OML registration."
+  },
+  "gates": {
+    "hybrid_keepout_bilateral_net_FSA_ge_0p86_at_1p00": true,
+    "0p95_has_less_than_0p005_margin_over_0p85": true,
+    "structural_zone_policy_frozen": true,
+    "downstream_aft_OML_registered": false,
+    "final_nozzle_geometry_defined": false,
+    "actual_EDF_hub_measured": false,
+    "bench_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "study_source_sha256": "141dc799b94153a839aa7e20547c3390ad57dbcb374d8e299900befc2cd46cc1"
+}
