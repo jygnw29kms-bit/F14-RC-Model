@@ -1,0 +1,77 @@
+{
+  "status": "V297_FREECAD_ALLOWANCED_INLET_EDF_ADAPTER",
+  "source_model": "F14_v296_SOURCE_BACKED_AFT_OML.FCStd",
+  "source_chain": {
+    "v138_center_corridor": true,
+    "independent_allowanced_wall": true,
+    "v187_wall_correction": true
+  },
+  "architecture": {
+    "wall_mm": 0.81,
+    "interface_x_mm": 650.0,
+    "fan_face_x_mm": 658.0,
+    "fan_inner_diameter_mm": 50.0,
+    "adapter_outer_diameter_mm": 51.64,
+    "fan_axis_abs_y_mm": 66.28458486059378,
+    "fan_axis_z_mm": -10.508688347971937,
+    "actual_EDF_hardware_measured": false
+  },
+  "rows": [
+    {
+      "side": "R",
+      "inlet_valid": true,
+      "adapter_valid": true,
+      "joined_valid": true,
+      "joined_solid_count": 1,
+      "inlet_volume_mm3": 6826.5654966826405,
+      "adapter_volume_mm3": 1040.6487991229642,
+      "joined_volume_mm3": 7867.214295848216,
+      "inlet_oml_containment": 1.0,
+      "adapter_oml_containment": 1.0,
+      "joined_oml_containment": 1.0,
+      "inlet_min_defined_wall_mm": 0.8099999999999987,
+      "adapter_start_wall_mm": 0.81,
+      "adapter_end_wall_mm": 0.8200000000000003,
+      "critical_min_distance_mm": 3.4339838714256765,
+      "fan_axis_center_mm": [
+        658.0,
+        66.28458486059378,
+        -10.508688347971937
+      ]
+    },
+    {
+      "side": "L",
+      "inlet_valid": true,
+      "adapter_valid": true,
+      "joined_valid": true,
+      "joined_solid_count": 1,
+      "inlet_volume_mm3": 6826.5654966827715,
+      "adapter_volume_mm3": 1040.648799122997,
+      "joined_volume_mm3": 7867.214295848564,
+      "inlet_oml_containment": 1.0,
+      "adapter_oml_containment": 1.0,
+      "joined_oml_containment": 1.0,
+      "inlet_min_defined_wall_mm": 0.8099999999999987,
+      "adapter_start_wall_mm": 0.81,
+      "adapter_end_wall_mm": 0.8200000000000003,
+      "critical_min_distance_mm": 3.433983845031557,
+      "fan_axis_center_mm": [
+        658.0,
+        -66.28458486059378,
+        -10.508688347971937
+      ]
+    }
+  ],
+  "gates": {
+    "bilateral_valid_single_solids": true,
+    "bilateral_oml_containment_ge_0p999": true,
+    "defined_wall_ge_0p8mm": true,
+    "critical_clearance_ge_1mm": true,
+    "actual_EDF_hardware_measured": false,
+    "aerodynamic_smoothness_verified": false,
+    "slicer_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "1aff8e7ec14a43df466f58eb23ff802040c9a863d59977314e9b8906aec45d71"
+}
