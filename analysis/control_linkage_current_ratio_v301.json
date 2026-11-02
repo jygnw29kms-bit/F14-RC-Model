@@ -1,0 +1,60 @@
+{
+  "status": "V301_CURRENT_STABILATOR_LINKAGE_RATIO_RECONCILED",
+  "sources": [
+    "analysis/control_linkage_optimization_v148.json",
+    "analysis/control_servo_torque_gate_v168.json",
+    "migration/freecad/freecad_v241_light_stabilator_crank_audit.json",
+    "migration/freecad/freecad_v300_straight_stabilator_pushrod_audit.json"
+  ],
+  "legacy_baseline": {
+    "servo_arm_mm": 8.0,
+    "stabilator_crank_mm": 20.0,
+    "ratio": 0.4,
+    "servo_half_travel_deg": 50.0,
+    "predicted_surface_half_throw_deg": 17.843481128270785,
+    "severe_required_servo_torque_kgcm": 7.809958462640951
+  },
+  "current_geometry": {
+    "servo_arm_candidate_mm": 6.0,
+    "stabilator_crank_mm": 15.0,
+    "ratio": 0.4,
+    "servo_half_travel_deg": 50.0,
+    "predicted_surface_half_throw_deg": 17.843481128270785,
+    "severe_required_servo_torque_kgcm": 7.809958462640951,
+    "pushrod_force_design_N": 89.33333333333334,
+    "v300_3mm_CF_pushrod_buckling_SF": 5.4410951936924175
+  },
+  "servo_revision_evidence": {
+    "repo_candidate": "TORQ TCM-1022",
+    "dims_mm": [
+      23,
+      12,
+      27.5
+    ],
+    "spline": "25T",
+    "nominal_target_torque_kgcm_8p4V": 14.5,
+    "nominal_target_speed_s_60deg_8p4V": 0.055,
+    "online_revision_conflict_exists": true,
+    "purchased_unit_label_must_be_verified": true,
+    "exact_spline_axis_offset_must_be_measured": true
+  },
+  "decision": {
+    "use_6mm_servo_arm_with_15mm_current_crank": true,
+    "retains_legacy_0p4_ratio": true,
+    "retains_predicted_half_throw": true,
+    "retains_v168_torque_basis": true,
+    "intermediate_bellcrank_required": false
+  },
+  "gates": {
+    "current_ratio_reconciled": true,
+    "predicted_half_throw_ge_17p8deg": true,
+    "14kgcm_class_margin_over_severe_requirement": true,
+    "v300_pushrod_buckling_SF_ge_5": true,
+    "purchased_servo_revision_verified": false,
+    "exact_servo_spline_axis_measured": false,
+    "6mm_horn_hardware_selected": false,
+    "dynamic_throw_CAD_verified": false,
+    "bench_load_verified": false,
+    "flight_release": false
+  }
+}
