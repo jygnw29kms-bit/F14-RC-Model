@@ -1,0 +1,977 @@
+{
+  "status": "CONTINUOUS_TIP_SKIN_SPAR_INTERVALS_COVERED",
+  "input_sha256_unchanged": {
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117",
+    "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0"
+  },
+  "translation_range_y_mm": [
+    0,
+    5
+  ],
+  "native_distance_margin_mm": 0.0001,
+  "distance_bound": "Rigid translation alongY: distance changes by at most absolute translation; midpoint distance>half interval+margin covers interval",
+  "sample_count": 79,
+  "covered_intervals": [
+    [
+      0.0,
+      0.3125
+    ],
+    [
+      0.3125,
+      0.625
+    ],
+    [
+      0.625,
+      0.9375
+    ],
+    [
+      0.9375,
+      1.25
+    ],
+    [
+      1.25,
+      1.40625
+    ],
+    [
+      1.40625,
+      1.5625
+    ],
+    [
+      1.5625,
+      1.71875
+    ],
+    [
+      1.71875,
+      1.875
+    ],
+    [
+      1.875,
+      2.03125
+    ],
+    [
+      2.03125,
+      2.1875
+    ],
+    [
+      2.1875,
+      2.34375
+    ],
+    [
+      2.34375,
+      2.5
+    ],
+    [
+      2.5,
+      2.65625
+    ],
+    [
+      2.65625,
+      2.8125
+    ],
+    [
+      2.8125,
+      2.96875
+    ],
+    [
+      2.96875,
+      3.125
+    ],
+    [
+      3.125,
+      3.28125
+    ],
+    [
+      3.28125,
+      3.4375
+    ],
+    [
+      3.4375,
+      3.59375
+    ],
+    [
+      3.59375,
+      3.671875
+    ],
+    [
+      3.671875,
+      3.75
+    ],
+    [
+      3.75,
+      3.828125
+    ],
+    [
+      3.828125,
+      3.90625
+    ],
+    [
+      3.90625,
+      3.984375
+    ],
+    [
+      3.984375,
+      4.0625
+    ],
+    [
+      4.0625,
+      4.140625
+    ],
+    [
+      4.140625,
+      4.21875
+    ],
+    [
+      4.21875,
+      4.296875
+    ],
+    [
+      4.296875,
+      4.375
+    ],
+    [
+      4.375,
+      4.453125
+    ],
+    [
+      4.453125,
+      4.53125
+    ],
+    [
+      4.53125,
+      4.609375
+    ],
+    [
+      4.609375,
+      4.6875
+    ],
+    [
+      4.6875,
+      4.765625
+    ],
+    [
+      4.765625,
+      4.8046875
+    ],
+    [
+      4.8046875,
+      4.84375
+    ],
+    [
+      4.84375,
+      4.8828125
+    ],
+    [
+      4.8828125,
+      4.921875
+    ],
+    [
+      4.921875,
+      4.9609375
+    ],
+    [
+      4.9609375,
+      5.0
+    ]
+  ],
+  "pending_intervals": [],
+  "samples": [
+    {
+      "interval": [
+        0.0,
+        5.0
+      ],
+      "mid_translation_mm": 2.5,
+      "native_distance_mm": 0.11448172336498079,
+      "lipschitz_radius_mm": 2.5,
+      "covered": false
+    },
+    {
+      "interval": [
+        0.0,
+        2.5
+      ],
+      "mid_translation_mm": 1.25,
+      "native_distance_mm": 0.15681779305217575,
+      "lipschitz_radius_mm": 1.25,
+      "covered": false
+    },
+    {
+      "interval": [
+        0.0,
+        1.25
+      ],
+      "mid_translation_mm": 0.625,
+      "native_distance_mm": 0.17812629578679354,
+      "lipschitz_radius_mm": 0.625,
+      "covered": false
+    },
+    {
+      "interval": [
+        0.0,
+        0.625
+      ],
+      "mid_translation_mm": 0.3125,
+      "native_distance_mm": 0.188816091160478,
+      "lipschitz_radius_mm": 0.3125,
+      "covered": false
+    },
+    {
+      "interval": [
+        0.0,
+        0.3125
+      ],
+      "mid_translation_mm": 0.15625,
+      "native_distance_mm": 0.19416992891860252,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": true
+    },
+    {
+      "interval": [
+        0.3125,
+        0.625
+      ],
+      "mid_translation_mm": 0.46875,
+      "native_distance_mm": 0.18346821862153193,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": true
+    },
+    {
+      "interval": [
+        0.625,
+        1.25
+      ],
+      "mid_translation_mm": 0.9375,
+      "native_distance_mm": 0.16746023743645547,
+      "lipschitz_radius_mm": 0.3125,
+      "covered": false
+    },
+    {
+      "interval": [
+        0.625,
+        0.9375
+      ],
+      "mid_translation_mm": 0.78125,
+      "native_distance_mm": 0.1727903071946231,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": true
+    },
+    {
+      "interval": [
+        0.9375,
+        1.25
+      ],
+      "mid_translation_mm": 1.09375,
+      "native_distance_mm": 0.16213607115664963,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": true
+    },
+    {
+      "interval": [
+        1.25,
+        2.5
+      ],
+      "mid_translation_mm": 1.875,
+      "native_distance_mm": 0.13560325815750482,
+      "lipschitz_radius_mm": 0.625,
+      "covered": false
+    },
+    {
+      "interval": [
+        1.25,
+        1.875
+      ],
+      "mid_translation_mm": 1.5625,
+      "native_distance_mm": 0.14619884041904985,
+      "lipschitz_radius_mm": 0.3125,
+      "covered": false
+    },
+    {
+      "interval": [
+        1.25,
+        1.5625
+      ],
+      "mid_translation_mm": 1.40625,
+      "native_distance_mm": 0.15150538787243067,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        1.25,
+        1.40625
+      ],
+      "mid_translation_mm": 1.328125,
+      "native_distance_mm": 0.1541608572978346,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        1.40625,
+        1.5625
+      ],
+      "mid_translation_mm": 1.484375,
+      "native_distance_mm": 0.1488513828778123,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        1.5625,
+        1.875
+      ],
+      "mid_translation_mm": 1.71875,
+      "native_distance_mm": 0.14089813554561906,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        1.5625,
+        1.71875
+      ],
+      "mid_translation_mm": 1.640625,
+      "native_distance_mm": 0.14354775860446256,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        1.71875,
+        1.875
+      ],
+      "mid_translation_mm": 1.796875,
+      "native_distance_mm": 0.138249969357293,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        1.875,
+        2.5
+      ],
+      "mid_translation_mm": 2.1875,
+      "native_distance_mm": 0.12503092571618082,
+      "lipschitz_radius_mm": 0.3125,
+      "covered": false
+    },
+    {
+      "interval": [
+        1.875,
+        2.1875
+      ],
+      "mid_translation_mm": 2.03125,
+      "native_distance_mm": 0.13031419321161133,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        1.875,
+        2.03125
+      ],
+      "mid_translation_mm": 1.953125,
+      "native_distance_mm": 0.1329580000674669,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        2.03125,
+        2.1875
+      ],
+      "mid_translation_mm": 2.109375,
+      "native_distance_mm": 0.12767183571757323,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        2.1875,
+        2.5
+      ],
+      "mid_translation_mm": 2.34375,
+      "native_distance_mm": 0.11975344073055139,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        2.1875,
+        2.34375
+      ],
+      "mid_translation_mm": 2.265625,
+      "native_distance_mm": 0.12239146134144271,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        2.34375,
+        2.5
+      ],
+      "mid_translation_mm": 2.421875,
+      "native_distance_mm": 0.11711686202389167,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        2.5,
+        5.0
+      ],
+      "mid_translation_mm": 3.75,
+      "native_distance_mm": 0.07251384861769357,
+      "lipschitz_radius_mm": 1.25,
+      "covered": false
+    },
+    {
+      "interval": [
+        2.5,
+        3.75
+      ],
+      "mid_translation_mm": 3.125,
+      "native_distance_mm": 0.09345223407735302,
+      "lipschitz_radius_mm": 0.625,
+      "covered": false
+    },
+    {
+      "interval": [
+        2.5,
+        3.125
+      ],
+      "mid_translation_mm": 2.8125,
+      "native_distance_mm": 0.10395553218813391,
+      "lipschitz_radius_mm": 0.3125,
+      "covered": false
+    },
+    {
+      "interval": [
+        2.5,
+        2.8125
+      ],
+      "mid_translation_mm": 2.65625,
+      "native_distance_mm": 0.10921575878038027,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        2.5,
+        2.65625
+      ],
+      "mid_translation_mm": 2.578125,
+      "native_distance_mm": 0.11184802290052637,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        2.65625,
+        2.8125
+      ],
+      "mid_translation_mm": 2.734375,
+      "native_distance_mm": 0.10658492915753202,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        2.8125,
+        3.125
+      ],
+      "mid_translation_mm": 2.96875,
+      "native_distance_mm": 0.09870102884989637,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        2.8125,
+        2.96875
+      ],
+      "mid_translation_mm": 2.890625,
+      "native_distance_mm": 0.10132756603145443,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        2.96875,
+        3.125
+      ],
+      "mid_translation_mm": 3.046875,
+      "native_distance_mm": 0.0960759188089859,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        3.125,
+        3.75
+      ],
+      "mid_translation_mm": 3.4375,
+      "native_distance_mm": 0.08297171172507135,
+      "lipschitz_radius_mm": 0.3125,
+      "covered": false
+    },
+    {
+      "interval": [
+        3.125,
+        3.4375
+      ],
+      "mid_translation_mm": 3.28125,
+      "native_distance_mm": 0.08820913323203097,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        3.125,
+        3.28125
+      ],
+      "mid_translation_mm": 3.203125,
+      "native_distance_mm": 0.09082997282675571,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        3.28125,
+        3.4375
+      ],
+      "mid_translation_mm": 3.359375,
+      "native_distance_mm": 0.0855897134711233,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        3.4375,
+        3.75
+      ],
+      "mid_translation_mm": 3.59375,
+      "native_distance_mm": 0.07773995501703004,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        3.4375,
+        3.59375
+      ],
+      "mid_translation_mm": 3.515625,
+      "native_distance_mm": 0.08035512617797781,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": true
+    },
+    {
+      "interval": [
+        3.59375,
+        3.75
+      ],
+      "mid_translation_mm": 3.671875,
+      "native_distance_mm": 0.07512619643249686,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": false
+    },
+    {
+      "interval": [
+        3.59375,
+        3.671875
+      ],
+      "mid_translation_mm": 3.6328125,
+      "native_distance_mm": 0.07643289926570414,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        3.671875,
+        3.75
+      ],
+      "mid_translation_mm": 3.7109375,
+      "native_distance_mm": 0.07381984629168237,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        3.75,
+        5.0
+      ],
+      "mid_translation_mm": 4.375,
+      "native_distance_mm": 0.05166563801350988,
+      "lipschitz_radius_mm": 0.625,
+      "covered": false
+    },
+    {
+      "interval": [
+        3.75,
+        4.375
+      ],
+      "mid_translation_mm": 4.0625,
+      "native_distance_mm": 0.06207852902899312,
+      "lipschitz_radius_mm": 0.3125,
+      "covered": false
+    },
+    {
+      "interval": [
+        3.75,
+        4.0625
+      ],
+      "mid_translation_mm": 3.90625,
+      "native_distance_mm": 0.06729337808582815,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        3.75,
+        3.90625
+      ],
+      "mid_translation_mm": 3.828125,
+      "native_distance_mm": 0.06990290976899971,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": false
+    },
+    {
+      "interval": [
+        3.75,
+        3.828125
+      ],
+      "mid_translation_mm": 3.7890625,
+      "native_distance_mm": 0.0712082031851884,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        3.828125,
+        3.90625
+      ],
+      "mid_translation_mm": 3.8671875,
+      "native_distance_mm": 0.06859796814413001,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        3.90625,
+        4.0625
+      ],
+      "mid_translation_mm": 3.984375,
+      "native_distance_mm": 0.06468525177065575,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": false
+    },
+    {
+      "interval": [
+        3.90625,
+        3.984375
+      ],
+      "mid_translation_mm": 3.9453125,
+      "native_distance_mm": 0.06598913936946836,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        3.984375,
+        4.0625
+      ],
+      "mid_translation_mm": 4.0234375,
+      "native_distance_mm": 0.06338171506518149,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.0625,
+        4.375
+      ],
+      "mid_translation_mm": 4.21875,
+      "native_distance_mm": 0.05686928710337801,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.0625,
+        4.21875
+      ],
+      "mid_translation_mm": 4.140625,
+      "native_distance_mm": 0.05947320806938474,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.0625,
+        4.140625
+      ],
+      "mid_translation_mm": 4.1015625,
+      "native_distance_mm": 0.06077569343828721,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.140625,
+        4.21875
+      ],
+      "mid_translation_mm": 4.1796875,
+      "native_distance_mm": 0.05817107269884045,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.21875,
+        4.375
+      ],
+      "mid_translation_mm": 4.296875,
+      "native_distance_mm": 0.05426676434555329,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.21875,
+        4.296875
+      ],
+      "mid_translation_mm": 4.2578125,
+      "native_distance_mm": 0.055567851059906775,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.296875,
+        4.375
+      ],
+      "mid_translation_mm": 4.3359375,
+      "native_distance_mm": 0.0529660267375941,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.375,
+        5.0
+      ],
+      "mid_translation_mm": 4.6875,
+      "native_distance_mm": 0.04127506140003325,
+      "lipschitz_radius_mm": 0.3125,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.375,
+        4.6875
+      ],
+      "mid_translation_mm": 4.53125,
+      "native_distance_mm": 0.04646756751215339,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.375,
+        4.53125
+      ],
+      "mid_translation_mm": 4.453125,
+      "native_distance_mm": 0.049065906327850746,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.375,
+        4.453125
+      ],
+      "mid_translation_mm": 4.4140625,
+      "native_distance_mm": 0.050365597950978024,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.453125,
+        4.53125
+      ],
+      "mid_translation_mm": 4.4921875,
+      "native_distance_mm": 0.047766562922156725,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.53125,
+        4.6875
+      ],
+      "mid_translation_mm": 4.609375,
+      "native_distance_mm": 0.0438706197930269,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.53125,
+        4.609375
+      ],
+      "mid_translation_mm": 4.5703125,
+      "native_distance_mm": 0.04516891987623562,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.609375,
+        4.6875
+      ],
+      "mid_translation_mm": 4.6484375,
+      "native_distance_mm": 0.04257266704129865,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.6875,
+        5.0
+      ],
+      "mid_translation_mm": 4.84375,
+      "native_distance_mm": 0.03597328087780904,
+      "lipschitz_radius_mm": 0.15625,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.6875,
+        4.84375
+      ],
+      "mid_translation_mm": 4.765625,
+      "native_distance_mm": 0.03866733000928137,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.6875,
+        4.765625
+      ],
+      "mid_translation_mm": 4.7265625,
+      "native_distance_mm": 0.03997780264839396,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.765625,
+        4.84375
+      ],
+      "mid_translation_mm": 4.8046875,
+      "native_distance_mm": 0.037320130805480606,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.765625,
+        4.8046875
+      ],
+      "mid_translation_mm": 4.78515625,
+      "native_distance_mm": 0.03799368673399868,
+      "lipschitz_radius_mm": 0.01953125,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.8046875,
+        4.84375
+      ],
+      "mid_translation_mm": 4.82421875,
+      "native_distance_mm": 0.0366466621959812,
+      "lipschitz_radius_mm": 0.01953125,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.84375,
+        5.0
+      ],
+      "mid_translation_mm": 4.921875,
+      "native_distance_mm": 0.0332806279643837,
+      "lipschitz_radius_mm": 0.078125,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.84375,
+        4.921875
+      ],
+      "mid_translation_mm": 4.8828125,
+      "native_distance_mm": 0.0346267800046049,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.84375,
+        4.8828125
+      ],
+      "mid_translation_mm": 4.86328125,
+      "native_distance_mm": 0.0352999868232467,
+      "lipschitz_radius_mm": 0.01953125,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.8828125,
+        4.921875
+      ],
+      "mid_translation_mm": 4.90234375,
+      "native_distance_mm": 0.03395366039420102,
+      "lipschitz_radius_mm": 0.01953125,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.921875,
+        5.0
+      ],
+      "mid_translation_mm": 4.9609375,
+      "native_distance_mm": 0.0319348245358334,
+      "lipschitz_radius_mm": 0.0390625,
+      "covered": false
+    },
+    {
+      "interval": [
+        4.921875,
+        4.9609375
+      ],
+      "mid_translation_mm": 4.94140625,
+      "native_distance_mm": 0.03260768268746487,
+      "lipschitz_radius_mm": 0.01953125,
+      "covered": true
+    },
+    {
+      "interval": [
+        4.9609375,
+        5.0
+      ],
+      "mid_translation_mm": 4.98046875,
+      "native_distance_mm": 0.03126205348182642,
+      "lipschitz_radius_mm": 0.01953125,
+      "covered": true
+    }
+  ],
+  "limits": [
+    "Native numeric distance/tolerance assumptions; not exact arithmetic certification",
+    "Only tip wing skin versus fixed spar5 bodies; carrier/sleeve/tooling not covered",
+    "No adhesive process, strength or physical assembly proof",
+    "Source partition volume gate remains blocked"
+  ],
+  "print_release": false,
+  "flight_release": false
+}
