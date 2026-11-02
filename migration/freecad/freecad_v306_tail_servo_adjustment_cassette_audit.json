@@ -1,0 +1,126 @@
+{
+  "status": "V306_TAIL_SERVO_ADJUSTMENT_CASSETTE",
+  "source_model": "F14_v305_RECENTERED_ADJUSTABLE_TAIL_SERVO.FCStd",
+  "architecture": {
+    "xy_adjustment": "four M3 cross-slots per servo",
+    "xy_travel_each_axis_mm": [
+      -2,
+      2
+    ],
+    "z_adjustment": "removable 1 mm shim stack",
+    "z_positions_mm": [
+      -1,
+      0,
+      1
+    ],
+    "candidate_fasteners": "4x M3 per servo with 9 mm washer keepout",
+    "servo_mount_tab_pattern_still_requires_measurement": true
+  },
+  "rows": [
+    {
+      "side": "R",
+      "cross_slot_center_points_mm": [
+        [
+          700.0,
+          8.0
+        ],
+        [
+          700.0,
+          32.0
+        ],
+        [
+          720.0,
+          8.0
+        ],
+        [
+          720.0,
+          32.0
+        ]
+      ],
+      "slot_total_travel_xy_mm": [
+        -2.0,
+        2.0
+      ],
+      "slot_width_mm": 3.4,
+      "washer_od_mm": 9.0,
+      "plate_thickness_mm": 2.0,
+      "z_adjustment_mm": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "shim_increment_mm": 1.0,
+      "plate_valid": true,
+      "plate_solid_count": 1,
+      "plate_OML_fraction": 1.0,
+      "shim_OML_fraction": 1.0,
+      "plate_EDF_clearance_mm": 2.255981323680748,
+      "shim_EDF_clearance_mm": 6.378811894773974,
+      "plate_root_clearance_mm": 44.43544262196812,
+      "washer_keepout_OML_fraction": 1.0,
+      "washer_keepout_EDF_clearance_mm": 4.334078680764357,
+      "service_to_plate_clearance_mm": 0.0,
+      "plate_inside_v305_adjustment_sweep_fraction": 1.0
+    },
+    {
+      "side": "L",
+      "cross_slot_center_points_mm": [
+        [
+          700.0,
+          -32.0
+        ],
+        [
+          700.0,
+          -8.0
+        ],
+        [
+          720.0,
+          -32.0
+        ],
+        [
+          720.0,
+          -8.0
+        ]
+      ],
+      "slot_total_travel_xy_mm": [
+        -2.0,
+        2.0
+      ],
+      "slot_width_mm": 3.4,
+      "washer_od_mm": 9.0,
+      "plate_thickness_mm": 2.0,
+      "z_adjustment_mm": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "shim_increment_mm": 1.0,
+      "plate_valid": true,
+      "plate_solid_count": 1,
+      "plate_OML_fraction": 1.0,
+      "shim_OML_fraction": 1.0,
+      "plate_EDF_clearance_mm": 2.25598132368075,
+      "shim_EDF_clearance_mm": 6.378811894773976,
+      "plate_root_clearance_mm": 44.43544262196812,
+      "washer_keepout_OML_fraction": 1.0,
+      "washer_keepout_EDF_clearance_mm": 4.334078680764357,
+      "service_to_plate_clearance_mm": 0.0,
+      "plate_inside_v305_adjustment_sweep_fraction": 1.0
+    }
+  ],
+  "gates": {
+    "bilateral_adjustment_plate_valid_single_solid": true,
+    "plate_and_shim_OML_ge_0p999": true,
+    "plate_and_shim_EDF_clearance_ge_1p5mm": true,
+    "washer_keepout_OML_ge_0p999": true,
+    "washer_keepout_EDF_clearance_ge_1p5mm": true,
+    "plate_inside_v305_adjustment_sweep_ge_0p999": true,
+    "physical_adjustment_slot_hardware_defined": true,
+    "actual_servo_mount_tab_pattern_measured": false,
+    "bench_adjustment_and_clamp_test": false,
+    "proof_load": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "fc489955e0e0421a8c97801e5bdc4fee5abd2b3a3827083e8ce4f1cde6be13b4"
+}
