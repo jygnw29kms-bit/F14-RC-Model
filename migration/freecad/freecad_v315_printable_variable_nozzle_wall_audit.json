@@ -1,0 +1,97 @@
+{
+  "status": "V315_PRINTABLE_VARIABLE_NOZZLE_WALL_CANDIDATE",
+  "source_model": "F14_v314_VARIABLE_ELLIPTIC_NOZZLE_CANDIDATE.FCStd",
+  "architecture": {
+    "nominal_wall_mm": 0.8,
+    "OML_radial_allowance_mm": 0.53,
+    "material_candidate": "PPA-CF/PETG engineering screen; final material not frozen"
+  },
+  "stations": [
+    {
+      "x_mm": 810.5,
+      "outer_ay_mm": 28.47,
+      "outer_az_mm": 19.47,
+      "inner_ay_mm": 27.669999999999998,
+      "inner_az_mm": 18.669999999999998,
+      "inner_area_mm2": 1622.943309092568,
+      "inner_area_ratio_to_FSA": 1.2041932400932398
+    },
+    {
+      "x_mm": 816.5,
+      "outer_ay_mm": 28.22,
+      "outer_az_mm": 19.47,
+      "inner_ay_mm": 27.419999999999998,
+      "inner_az_mm": 18.669999999999998,
+      "inner_area_mm2": 1608.2799253819376,
+      "inner_area_ratio_to_FSA": 1.1933132867132865
+    },
+    {
+      "x_mm": 822.5,
+      "outer_ay_mm": 26.22,
+      "outer_az_mm": 19.47,
+      "inner_ay_mm": 25.419999999999998,
+      "inner_az_mm": 18.669999999999998,
+      "inner_area_mm2": 1490.9728556968948,
+      "inner_area_ratio_to_FSA": 1.1062736596736595
+    },
+    {
+      "x_mm": 828.5,
+      "outer_ay_mm": 24.47,
+      "outer_az_mm": 17.97,
+      "inner_ay_mm": 23.669999999999998,
+      "inner_az_mm": 17.169999999999998,
+      "inner_area_mm2": 1276.7869225567765,
+      "inner_area_ratio_to_FSA": 0.947351748251748
+    },
+    {
+      "x_mm": 834.5,
+      "outer_ay_mm": 24.22,
+      "outer_az_mm": 15.47,
+      "inner_ay_mm": 23.419999999999998,
+      "inner_az_mm": 14.67,
+      "inner_area_mm2": 1079.3613862235602,
+      "inner_area_ratio_to_FSA": 0.8008657342657342
+    }
+  ],
+  "sides": [
+    {
+      "side": "R",
+      "outer_valid": true,
+      "inner_valid": true,
+      "wall_valid": true,
+      "wall_solid_count": 1,
+      "outer_OML_fraction": 1.0,
+      "minimum_outer_to_OML_shell_clearance_mm": 0.43325453875003944,
+      "wall_volume_mm3": 2657.2014959068315
+    },
+    {
+      "side": "L",
+      "outer_valid": true,
+      "inner_valid": true,
+      "wall_valid": true,
+      "wall_solid_count": 1,
+      "outer_OML_fraction": 1.0,
+      "minimum_outer_to_OML_shell_clearance_mm": 0.3208220887712071,
+      "wall_volume_mm3": 2657.2014959068383
+    }
+  ],
+  "summary": {
+    "minimum_inner_area_ratio_to_FSA": 0.8008657342657342,
+    "terminal_inner_area_ratio_to_FSA": 0.8008657342657342,
+    "minimum_measured_outer_to_OML_shell_clearance_mm": 0.3208220887712071
+  },
+  "gates": {
+    "bilateral_wall_valid_single_solids": true,
+    "bilateral_outer_OML_containment_ge_0p999": true,
+    "measured_outer_shell_clearance_ge_0p3mm": true,
+    "nominal_wall_ge_0p8mm": true,
+    "minimum_inner_area_ratio_ge_0p80": true,
+    "minimum_inner_area_ratio_ge_0p85": false,
+    "slicer_verified": false,
+    "post_F_full_3D_OML_registered": false,
+    "final_nozzle_geometry_defined": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "2ea104b3948a8a7d64cfe12e9efd83287e55d9b0d99ba41b55e0aae57667eb0d"
+}
