@@ -6,9 +6,11 @@ This separate candidate is not the active seam study or aircraft master. Its sle
 
 The native short candidate was saved and reopened. The linked reports establish the declared local rigid translation range Y0..5 mm for four moving objects against ten fixed objects (40 pairs), under native numerical distance, bounds and volume assumptions. Contact is allowed by volume screens. Evidence: `v192_short_sleeve_40_pair_path_scope_verification.json` and its hash-linked reports. Root skin is included; the rest of the aircraft and tooling are omitted.
 
-## Prepared, not executed
+## Executed short contact and limited access checks
 
-`audit_short_sleeve_bond_contacts.py` measures the four short sleeve bond face contacts and compares each with 2*pi*r*3.8. Its output must exist and be checked before claiming native short contact areas. It also reports F/A per 1 N as bookkeeping, without assigning a force or calculating actual joint stress.
+The four short sleeve bond contacts were measured natively and independently checked against the earlier analytical cylinder areas: carrier side 50.1398187513 mm2 and sleeve side 47.7522083346 mm2 on each half, with zero measured bond/target volume overlap. Evidence: `v192_short_sleeve_bond_contact_measurement.json` and `v192_short_sleeve_bond_contact_verification.json`. F/A values remain bookkeeping without load assignment or strength acceptance.
+
+At tip translation +5 mm, four hypothetical radius0.25 mm, length40 mm radial probe corridors at Y302.5 were screened against 14 local bodies. The minusX corridor intersects the spar web by 0.1570796208 mm3 and is rejected. The plusX, plusZ and minusZ corridors have zero measured local volume overlap. These finite probes do not establish real applicator access, handle clearance, an approach from outside, or adhesive application feasibility. Evidence: `v192_short_sleeve_seam_probe_access_screen.json`.
 
 ## Proposed assembly sequence, not validated
 
@@ -22,3 +24,4 @@ Only the rigid local geometry in step 3 has supporting path evidence. Adhesive a
 ## Next acceptance work
 
 Measure short bond contacts natively; then determine an accessible application/fixture concept before treating the sequence as executable. Establish sleeve loads and stiffness sharing with skin and spar before sizing the joint. Resolve the source partition volume discrepancy, aircraft OML/datum registration, print design and all aircraft checks. No print or flight release.
+
