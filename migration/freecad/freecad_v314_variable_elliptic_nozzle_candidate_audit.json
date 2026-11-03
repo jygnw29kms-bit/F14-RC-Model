@@ -1,0 +1,84 @@
+{
+  "status": "V314_VARIABLE_ELLIPTIC_NOZZLE_CANDIDATE",
+  "source_model": "F14_v312_POST_F_SOURCE_CONSTRAINED_OML.FCStd",
+  "method": "analytic source-section scan plus final BRep containment",
+  "stations": [
+    {
+      "axis_abs_y_mm": 60.75,
+      "z_center_mm": -5.75,
+      "ay_mm": 29.0,
+      "az_mm": 20.0,
+      "area_mm2": 1822.1237390820802,
+      "x_mm": 810.5,
+      "area_ratio_to_FSA": 1.351981351981352
+    },
+    {
+      "axis_abs_y_mm": 60.0,
+      "z_center_mm": -5.75,
+      "ay_mm": 28.75,
+      "az_mm": 20.0,
+      "area_mm2": 1806.4157758141312,
+      "x_mm": 816.5,
+      "area_ratio_to_FSA": 1.3403263403263403
+    },
+    {
+      "axis_abs_y_mm": 57.75,
+      "z_center_mm": -7.25,
+      "ay_mm": 26.75,
+      "az_mm": 20.0,
+      "area_mm2": 1680.7520696705392,
+      "x_mm": 822.5,
+      "area_ratio_to_FSA": 1.247086247086247
+    },
+    {
+      "axis_abs_y_mm": 55.5,
+      "z_center_mm": -8.5,
+      "ay_mm": 25.0,
+      "az_mm": 18.5,
+      "area_mm2": 1452.9866022852793,
+      "x_mm": 828.5,
+      "area_ratio_to_FSA": 1.078088578088578
+    },
+    {
+      "axis_abs_y_mm": 55.0,
+      "z_center_mm": -7.75,
+      "ay_mm": 24.75,
+      "az_mm": 16.0,
+      "area_mm2": 1244.0706908215582,
+      "x_mm": 834.5,
+      "area_ratio_to_FSA": 0.9230769230769231
+    }
+  ],
+  "lofts": [
+    {
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "containment_fraction": 0.9999993116284526,
+      "volume_mm3": 38780.034891313255
+    },
+    {
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "containment_fraction": 0.9999719288290077,
+      "volume_mm3": 38780.034891313226
+    }
+  ],
+  "summary": {
+    "minimum_area_ratio_to_FSA": 0.9230769230769231,
+    "maximum_area_ratio_to_FSA": 1.351981351981352,
+    "terminal_area_ratio_to_FSA": 0.9230769230769231
+  },
+  "gates": {
+    "bilateral_lofts_valid_single_solids": true,
+    "bilateral_loft_containment_ge_0p995": true,
+    "minimum_area_ratio_ge_0p70": true,
+    "minimum_area_ratio_ge_0p80": true,
+    "post_F_full_3D_OML_registered": false,
+    "final_nozzle_geometry_defined": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "48a4885fc8e40fce5f7c4f426bfafbc501bb2e39ff8bbb6fee5ad73af7547e5a"
+}
