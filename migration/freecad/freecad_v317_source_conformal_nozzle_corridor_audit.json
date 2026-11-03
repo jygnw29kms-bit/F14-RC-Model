@@ -1,0 +1,122 @@
+{
+  "status": "V317_SOURCE_CONFORMAL_NOZZLE_CORRIDOR",
+  "source_model": "F14_v312_POST_F_SOURCE_CONSTRAINED_OML.FCStd",
+  "architecture": {
+    "center_web_half_width_mm": 3.0,
+    "combined_OML_clearance_plus_wall_reserve_mm": 1.33,
+    "reserve_breakdown_mm": {
+      "OML_clearance": 0.53,
+      "printable_wall": 0.8
+    }
+  },
+  "stations": [
+    {
+      "x_mm": 810.5,
+      "sides": {
+        "R": {
+          "raw_lobe_area_mm2": 2860.834472620015,
+          "flow_area_mm2": 2549.3091820593345,
+          "area_ratio_to_FSA": 1.8915391971762219
+        },
+        "L": {
+          "raw_lobe_area_mm2": 2860.383552598857,
+          "flow_area_mm2": 2545.5035659207333,
+          "area_ratio_to_FSA": 1.888715501978233
+        }
+      }
+    },
+    {
+      "x_mm": 816.5,
+      "sides": {
+        "R": {
+          "raw_lobe_area_mm2": 2675.659795289255,
+          "flow_area_mm2": 2373.6395818696888,
+          "area_ratio_to_FSA": 1.7611956763316576
+        },
+        "L": {
+          "raw_lobe_area_mm2": 2675.237937161488,
+          "flow_area_mm2": 2369.9610773959967,
+          "area_ratio_to_FSA": 1.7584662955849268
+        }
+      }
+    },
+    {
+      "x_mm": 822.5,
+      "sides": {
+        "R": {
+          "raw_lobe_area_mm2": 2364.101738191533,
+          "flow_area_mm2": 2076.5063732131375,
+          "area_ratio_to_FSA": 1.5407284552852907
+        },
+        "L": {
+          "raw_lobe_area_mm2": 2363.7288867857046,
+          "flow_area_mm2": 2073.045519378294,
+          "area_ratio_to_FSA": 1.5381605671960885
+        }
+      }
+    },
+    {
+      "x_mm": 828.5,
+      "sides": {
+        "R": {
+          "raw_lobe_area_mm2": 2016.60155573045,
+          "flow_area_mm2": 1744.938349545358,
+          "area_ratio_to_FSA": 1.294711252777423
+        },
+        "L": {
+          "raw_lobe_area_mm2": 2016.283408951146,
+          "flow_area_mm2": 1741.7526671748678,
+          "area_ratio_to_FSA": 1.2923475367103636
+        }
+      }
+    },
+    {
+      "x_mm": 834.5,
+      "sides": {
+        "R": {
+          "raw_lobe_area_mm2": 1740.6683898815022,
+          "flow_area_mm2": 1482.490071459831,
+          "area_ratio_to_FSA": 1.099979594207409
+        },
+        "L": {
+          "raw_lobe_area_mm2": 1740.3936839179837,
+          "flow_area_mm2": 1479.554683960934,
+          "area_ratio_to_FSA": 1.0978015922011637
+        }
+      }
+    }
+  ],
+  "lofts": [
+    {
+      "side": "R",
+      "valid": true,
+      "solid_count": 1,
+      "containment_fraction": 1.0,
+      "volume_mm3": 49245.10292710774
+    },
+    {
+      "side": "L",
+      "valid": true,
+      "solid_count": 1,
+      "containment_fraction": 1.0,
+      "volume_mm3": 49162.85941626971
+    }
+  ],
+  "summary": {
+    "minimum_flow_area_ratio_to_FSA": 1.0978015922011637,
+    "terminal_R_ratio": 1.099979594207409,
+    "terminal_L_ratio": 1.0978015922011637
+  },
+  "gates": {
+    "bilateral_lofts_valid_single_solids": true,
+    "bilateral_loft_containment_ge_0p999": true,
+    "minimum_flow_area_ratio_ge_0p85": true,
+    "minimum_flow_area_ratio_ge_0p90": true,
+    "minimum_flow_area_ratio_ge_1p00": true,
+    "post_F_full_3D_OML_registered": false,
+    "final_nozzle_geometry_defined": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "5b6a397f1623816e972e332dcfa9effdd7c62efb365a512faedba316c8bb027b"
+}

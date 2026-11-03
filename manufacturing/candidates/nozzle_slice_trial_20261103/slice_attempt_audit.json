@@ -1,0 +1,42 @@
+{
+  "status": "V315_P2S_SLICER_ATTEMPT_BLOCKED_BY_WINDOWS_CLI",
+  "source_model": "F14_v315_PRINTABLE_VARIABLE_NOZZLE_WALL.FCStd",
+  "stl_export_audit": "manufacturing/candidates/nozzle_slice_trial_20261103/stl_export_audit.json",
+  "slicer": {
+    "application": "Bambu Studio",
+    "version": "02.08.02.61",
+    "printer_profile_source": "manufacturing/candidates/inlet_slice_trial_20261015/machine.json",
+    "process_profile_source": "manufacturing/candidates/inlet_slice_trial_20261015/process.json",
+    "filament_profile_source": "manufacturing/candidates/inlet_slice_trial_20261015/filament.json",
+    "target_printer": "Bambu Lab P2S 0.4 nozzle",
+    "target_process": "0.20mm Standard @BBL P2S 0.4 nozzle"
+  },
+  "attempts": [
+    {
+      "shell": "PowerShell/Start-Process",
+      "result": "exit -2, no sliced 3MF, no diagnostic output"
+    },
+    {
+      "shell": "cmd.exe",
+      "result": "launcher returned 0 but spawned idle GUI/single-instance process; no sliced 3MF"
+    },
+    {
+      "shell": "Git Bash from candidate directory",
+      "result": "exit 127, no sliced 3MF"
+    },
+    {
+      "shell": "Git Bash from Bambu Studio installation directory with absolute paths",
+      "result": "exit 127, no sliced 3MF"
+    }
+  ],
+  "external_issue_context": [
+    "BambuStudio GitHub issue #6527: Windows PowerShell/CMD CLI output/behavior problems",
+    "BambuStudio GitHub issue #9802: Windows CLI STL slicing may do nothing / produce no sliced output"
+  ],
+  "decision": {
+    "mesh_export_verified": true,
+    "slicer_verified": false,
+    "print_release": false,
+    "reason": "Do not promote slicer gate without an actual sliced archive. Continue non-slicer geometry work independently."
+  }
+}

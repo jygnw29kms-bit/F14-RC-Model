@@ -1,0 +1,19 @@
+{
+  "status": "V315_STL_EXPORT_CANDIDATE",
+  "source": "F14_v315_PRINTABLE_VARIABLE_NOZZLE_WALL.FCStd",
+  "files": [
+    {
+      "side": "R",
+      "file": "manufacturing\\candidates\\nozzle_slice_trial_20261103\\F14_V315_NOZZLE_WALL_R_NOT_RELEASED.stl",
+      "bytes": 72084,
+      "sha256": "ce7cd02c598c488513913aeadfbc54aebac4905337a5fce8e5b01bd7ac09741b"
+    },
+    {
+      "side": "L",
+      "file": "manufacturing\\candidates\\nozzle_slice_trial_20261103\\F14_V315_NOZZLE_WALL_L_NOT_RELEASED.stl",
+      "bytes": 72084,
+      "sha256": "b567caf6fea0d796cbb9ece7b2d60679cfa2e5d444838447167bcb94521efbc5"
+    }
+  ],
+  "print_release": false
+}
