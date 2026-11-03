@@ -25,3 +25,7 @@ Only the rigid local geometry in step 3 has supporting path evidence. Adhesive a
 
 Measure short bond contacts natively; then determine an accessible application/fixture concept before treating the sequence as executable. Establish sleeve loads and stiffness sharing with skin and spar before sizing the joint. Resolve the source partition volume discrepancy, aircraft OML/datum registration, print design and all aircraft checks. No print or flight release.
 
+
+## Extended hypothetical probe approach
+
+The separate plusZ screen extends a radius0.25 mm probe from the inner radial stop to 50 mm above the enclosing local Z maximum. A radius3 mm, length45 mm handle remains at least 5 mm above that maximum. Native checks measured zero positive volume overlap against all 14 listed local bodies, with unchanged CAD hashes. This supports only that hypothetical local probe approach; the remaining aircraft, a real tool, adhesive application and cure fixtures are still unverified. Evidence: `v192_short_sleeve_plusZ_probe_handle_approach.json`.
