@@ -29,3 +29,7 @@ Measure short bond contacts natively; then determine an accessible application/f
 ## Extended hypothetical probe approach
 
 The separate plusZ screen extends a radius0.25 mm probe from the inner radial stop to 50 mm above the enclosing local Z maximum. A radius3 mm, length45 mm handle remains at least 5 mm above that maximum. Native checks measured zero positive volume overlap against all 14 listed local bodies, with unchanged CAD hashes. This supports only that hypothetical local probe approach; the remaining aircraft, a real tool, adhesive application and cure fixtures are still unverified. Evidence: `v192_short_sleeve_plusZ_probe_handle_approach.json`.
+
+## Nominal space beyond the tip sleeve end
+
+A connected annular corridor with radii2.0..2.1 mm at Y304.0001..310.1 mm was screened in the final pose: zero measured volume overlap with all 14 local bodies. Its volume matches the analytical annulus calculation. The 0.0001 mm offset excludes the nominal end-face tolerance region. This establishes a local empty corridor only; continuity through that excluded end region, an external outlet, adhesive flow, air escape and excess removal remain unverified. Evidence: `v192_short_sleeve_tip_end_relief_path.json`.

@@ -1,0 +1,9 @@
+from pathlib import Path
+import FreeCAD as A,Part,json,hashlib,math
+R=Path(__file__).resolve().parents[2];names=['WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd','Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd','FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd'];ps=[R/'migration/freecad'/n for n in names];H=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();hs=[H(p) for p in ps];out=R/'analysis/v192_short_sleeve_tip_end_relief_path.json';assert not out.exists();objects=[]
+for p in ps:
+ D=A.openDocument(str(p));objects.extend((p.name+':'+o.Name,o.Shape.copy()) for o in D.Objects);A.closeDocument(D.Name)
+x,_,z=json.loads((R/'analysis/v192_y300_alignment_pin_envelope_screen.json').read_text())['axis_start_mm'];start=304.0001;end=310.1;axis=A.Vector(0,1,0);base=A.Vector(x,start,z)
+path=Part.makeCylinder(2.1,end-start,base,axis).cut(Part.makeCylinder(2,end-start,base,axis));assert path.isValid() and len(path.Solids)==1
+rows=[{'object':n,'overlap_mm3':path.common(s).Volume} for n,s in objects];assert [H(p) for p in ps]==hs
+out.write_text(json.dumps({'status':'NOMINAL_CONNECTED_ANNULAR_RELIEF_CORRIDOR_SCREENED','input_sha256_unchanged':dict(zip(names,hs)),'tip_translation_y_mm':0,'y_interval_mm':[start,end],'inner_outer_radii_mm':[2,2.1],'corridor_solids':len(path.Solids),'corridor_volume_mm3':path.Volume,'analytic_volume_mm3':math.pi*(2.1**2-2**2)*(end-start),'rows':rows,'all_local_overlaps_below_1e_minus7_mm3':all(abs(r['overlap_mm3'])<1e-7 for r in rows),'limits':['Starts 0.0001mm beyond nominal sleeve/bond end to avoid end-face tolerance ambiguity','Connected geometric void corridor only; no squeeze-flow, viscosity, wetting, curing or trapped-air simulation','Does not establish external outlet, real adhesive application or accessible excess removal','No physical assembly, strength, partition volume or print/flight acceptance'],'print_release':False,'flight_release':False},indent=2)+'\n');print(rows)
