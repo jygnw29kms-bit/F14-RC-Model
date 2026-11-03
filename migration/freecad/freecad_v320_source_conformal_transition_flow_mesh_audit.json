@@ -1,0 +1,359 @@
+{
+  "status": "V320_SOURCE_CONFORMAL_TRANSITION_FLOW_MESH",
+  "source_model": "F14_v310_STRUCTURAL_BYPASS_FREEFLOW.FCStd",
+  "architecture": {
+    "x_range_mm": [
+      754.962281164333,
+      810.5
+    ],
+    "station_count": 15,
+    "ring_points": 96,
+    "source_conformal_reserve_mm": 1.33,
+    "target_area_policy": "linear from exact v310 outlet area to 1.00 FSA"
+  },
+  "sides": [
+    {
+      "side": "R",
+      "stations": [
+        {
+          "x_mm": 754.962281164333,
+          "target_area_mm2": 1252.0030251142514,
+          "actual_area_mm2": 1252.0030251142514,
+          "FSA_ratio": 0.928962565095289,
+          "capacity_area_mm2": 1252.0030251142514,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 65.38937533070852,
+          "center_z_mm": -11.300627927712197
+        },
+        {
+          "x_mm": 758.5,
+          "target_area_mm2": 1258.101618976485,
+          "actual_area_mm2": 1258.1130931762546,
+          "FSA_ratio": 0.9334961200355953,
+          "capacity_area_mm2": 2592.3974972514634,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 60.976211364293455,
+          "center_z_mm": -9.862701147719484
+        },
+        {
+          "x_mm": 762.5,
+          "target_area_mm2": 1264.9971289313723,
+          "actual_area_mm2": 1265.001691538399,
+          "FSA_ratio": 0.9386073297340104,
+          "capacity_area_mm2": 2570.648653667444,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 60.488835540420354,
+          "center_z_mm": -9.68377282348344
+        },
+        {
+          "x_mm": 766.5,
+          "target_area_mm2": 1271.8926388862599,
+          "actual_area_mm2": 1271.9095350124767,
+          "FSA_ratio": 0.9437328189414909,
+          "capacity_area_mm2": 2548.9144254022704,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 59.99680742192616,
+          "center_z_mm": -9.488792145069645
+        },
+        {
+          "x_mm": 770.5,
+          "target_area_mm2": 1278.7881488411472,
+          "actual_area_mm2": 1278.795463690406,
+          "FSA_ratio": 0.9488420477847108,
+          "capacity_area_mm2": 2527.1903264648336,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 59.444970023870525,
+          "center_z_mm": -9.27985272336422
+        },
+        {
+          "x_mm": 774.5,
+          "target_area_mm2": 1285.6836587960347,
+          "actual_area_mm2": 1285.7012304743992,
+          "FSA_ratio": 0.9539659961274256,
+          "capacity_area_mm2": 2513.3045769311343,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 58.930702576108665,
+          "center_z_mm": -9.130508456014885
+        },
+        {
+          "x_mm": 778.5,
+          "target_area_mm2": 1292.579168750922,
+          "actual_area_mm2": 1292.6005780890941,
+          "FSA_ratio": 0.9590851815679291,
+          "capacity_area_mm2": 2501.265039086208,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 58.27356134792054,
+          "center_z_mm": -8.898095909305042
+        },
+        {
+          "x_mm": 782.5,
+          "target_area_mm2": 1299.4746787058095,
+          "actual_area_mm2": 1299.486942920353,
+          "FSA_ratio": 0.9641947340286704,
+          "capacity_area_mm2": 2485.488563853192,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 57.45539192903464,
+          "center_z_mm": -8.565087507652727
+        },
+        {
+          "x_mm": 786.5,
+          "target_area_mm2": 1306.3701886606968,
+          "actual_area_mm2": 1306.3772525023294,
+          "FSA_ratio": 0.969307213419836,
+          "capacity_area_mm2": 2845.8734138720274,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 56.46508690936009,
+          "center_z_mm": -8.130638125406044
+        },
+        {
+          "x_mm": 790.5,
+          "target_area_mm2": 1313.2656986155844,
+          "actual_area_mm2": 1313.2735592510794,
+          "FSA_ratio": 0.9744241425953211,
+          "capacity_area_mm2": 2780.695766086877,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 55.50373592327682,
+          "center_z_mm": -7.675352763979323
+        },
+        {
+          "x_mm": 794.5,
+          "target_area_mm2": 1320.1612085704717,
+          "actual_area_mm2": 1320.1841700777109,
+          "FSA_ratio": 0.9795516851260566,
+          "capacity_area_mm2": 2759.360923164118,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 54.53053991358044,
+          "center_z_mm": -7.219156424589593
+        },
+        {
+          "x_mm": 798.5,
+          "target_area_mm2": 1327.056718525359,
+          "actual_area_mm2": 1327.0721198683636,
+          "FSA_ratio": 0.9846624135966915,
+          "capacity_area_mm2": 2709.8197201789276,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 53.532402919632865,
+          "center_z_mm": -6.759086024969597
+        },
+        {
+          "x_mm": 802.5,
+          "target_area_mm2": 1333.9522284802465,
+          "actual_area_mm2": 1333.9656744336537,
+          "FSA_ratio": 0.9897773007041022,
+          "capacity_area_mm2": 2633.3891773471905,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 52.56654708334467,
+          "center_z_mm": -6.274031876600221
+        },
+        {
+          "x_mm": 806.5,
+          "target_area_mm2": 1340.847738435134,
+          "actual_area_mm2": 1340.8638043976625,
+          "FSA_ratio": 0.9948955826708263,
+          "capacity_area_mm2": 2569.3115030768186,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 51.68935954303156,
+          "center_z_mm": -5.8704879264519585
+        },
+        {
+          "x_mm": 810.5,
+          "target_area_mm2": 1347.7432483900213,
+          "actual_area_mm2": 1347.7573104834191,
+          "FSA_ratio": 1.0000104338073403,
+          "capacity_area_mm2": 2502.4343209274925,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": 51.02105375957749,
+          "center_z_mm": -5.727419913756325
+        }
+      ],
+      "mesh_is_solid": true,
+      "mesh_has_nonmanifolds": false,
+      "self_intersection_count": 0,
+      "facets": 2876,
+      "maximum_center_shift_per_station_mm": 4.641513720661024,
+      "minimum_FSA_ratio": 0.928962565095289,
+      "minimum_free_component_containment_fraction": 1.0
+    },
+    {
+      "side": "L",
+      "stations": [
+        {
+          "x_mm": 754.962281164333,
+          "target_area_mm2": 1252.0030251142512,
+          "actual_area_mm2": 1252.0030251142512,
+          "FSA_ratio": 0.9289625650952887,
+          "capacity_area_mm2": 1252.0030251142512,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -65.38937533070853,
+          "center_z_mm": -11.30062792771219
+        },
+        {
+          "x_mm": 758.5,
+          "target_area_mm2": 1258.1016189764848,
+          "actual_area_mm2": 1258.1075368900226,
+          "FSA_ratio": 0.9334919973762991,
+          "capacity_area_mm2": 2591.8638219961067,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -61.24383265060007,
+          "center_z_mm": -10.112625380799496
+        },
+        {
+          "x_mm": 762.5,
+          "target_area_mm2": 1264.9971289313721,
+          "actual_area_mm2": 1265.016944534369,
+          "FSA_ratio": 0.9386186471685353,
+          "capacity_area_mm2": 2570.0844677471546,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -60.7721373700197,
+          "center_z_mm": -9.924373539393942
+        },
+        {
+          "x_mm": 766.5,
+          "target_area_mm2": 1271.8926388862596,
+          "actual_area_mm2": 1271.8970587373303,
+          "FSA_ratio": 0.9437235617813,
+          "capacity_area_mm2": 2548.299929873346,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -60.292124925307405,
+          "center_z_mm": -9.720506995759415
+        },
+        {
+          "x_mm": 770.5,
+          "target_area_mm2": 1278.788148841147,
+          "actual_area_mm2": 1278.797162900971,
+          "FSA_ratio": 0.9488433085668123,
+          "capacity_area_mm2": 2526.5101043272375,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -59.753271129013214,
+          "center_z_mm": -9.503019906417563
+        },
+        {
+          "x_mm": 774.5,
+          "target_area_mm2": 1285.6836587960345,
+          "actual_area_mm2": 1285.6879289060676,
+          "FSA_ratio": 0.9539561266153005,
+          "capacity_area_mm2": 2512.690585411248,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -59.23888358911939,
+          "center_z_mm": -9.336277028518303
+        },
+        {
+          "x_mm": 778.5,
+          "target_area_mm2": 1292.5791687509218,
+          "actual_area_mm2": 1292.5860040879638,
+          "FSA_ratio": 0.9590743679347332,
+          "capacity_area_mm2": 2500.664863524051,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -58.56760418091069,
+          "center_z_mm": -9.079508853293023
+        },
+        {
+          "x_mm": 782.5,
+          "target_area_mm2": 1299.4746787058093,
+          "actual_area_mm2": 1299.487579212613,
+          "FSA_ratio": 0.9641952061454929,
+          "capacity_area_mm2": 2484.8448563883317,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -57.68212575115015,
+          "center_z_mm": -8.699007260275636
+        },
+        {
+          "x_mm": 786.5,
+          "target_area_mm2": 1306.3701886606968,
+          "actual_area_mm2": 1306.3849859888844,
+          "FSA_ratio": 0.9693129515205938,
+          "capacity_area_mm2": 2843.847404563729,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -56.69017076333038,
+          "center_z_mm": -8.256273271737737
+        },
+        {
+          "x_mm": 790.5,
+          "target_area_mm2": 1313.2656986155841,
+          "actual_area_mm2": 1313.2683634565358,
+          "FSA_ratio": 0.9744202874140395,
+          "capacity_area_mm2": 2779.4169337233625,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -55.674410673602665,
+          "center_z_mm": -7.835376129601165
+        },
+        {
+          "x_mm": 794.5,
+          "target_area_mm2": 1320.1612085704717,
+          "actual_area_mm2": 1320.1718613587036,
+          "FSA_ratio": 0.979542552289352,
+          "capacity_area_mm2": 2758.4316413017614,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -54.654832748800246,
+          "center_z_mm": -7.42991332938903
+        },
+        {
+          "x_mm": 798.5,
+          "target_area_mm2": 1327.056718525359,
+          "actual_area_mm2": 1327.0583944063617,
+          "FSA_ratio": 0.9846522295634801,
+          "capacity_area_mm2": 2709.1422977329835,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -53.82279342046092,
+          "center_z_mm": -7.106166160247277
+        },
+        {
+          "x_mm": 802.5,
+          "target_area_mm2": 1333.9522284802465,
+          "actual_area_mm2": 1333.9711985728961,
+          "FSA_ratio": 0.9897813995109402,
+          "capacity_area_mm2": 2632.7257622763827,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -53.11899359291375,
+          "center_z_mm": -6.838532513325377
+        },
+        {
+          "x_mm": 806.5,
+          "target_area_mm2": 1340.8477384351338,
+          "actual_area_mm2": 1340.8601502682773,
+          "FSA_ratio": 0.9948928713759342,
+          "capacity_area_mm2": 2568.553720093553,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -52.43501965813331,
+          "center_z_mm": -6.630746861329093
+        },
+        {
+          "x_mm": 810.5,
+          "target_area_mm2": 1347.7432483900213,
+          "actual_area_mm2": 1347.7576430703944,
+          "FSA_ratio": 1.0000106805805855,
+          "capacity_area_mm2": 2501.3009912785346,
+          "contained_in_free_component_fraction": 1.0,
+          "center_y_mm": -51.83254009860751,
+          "center_z_mm": -6.616455549603703
+        }
+      ],
+      "mesh_is_solid": true,
+      "mesh_has_nonmanifolds": false,
+      "self_intersection_count": 0,
+      "facets": 2876,
+      "maximum_center_shift_per_station_mm": 4.312409322417331,
+      "minimum_FSA_ratio": 0.9289625650952887,
+      "minimum_free_component_containment_fraction": 1.0
+    }
+  ],
+  "summary": {
+    "minimum_FSA_ratio": 0.9289625650952887,
+    "maximum_center_shift_per_station_mm": 4.641513720661024,
+    "minimum_free_component_containment_fraction": 1.0
+  },
+  "gates": {
+    "bilateral_mesh_solid": true,
+    "bilateral_no_nonmanifolds": true,
+    "zero_self_intersections": true,
+    "minimum_flow_area_no_less_than_v310_outlet": true,
+    "terminal_area_reaches_1p00_FSA": true,
+    "all_scaled_sections_contained_ge_0p9995": true,
+    "center_shift_per_station_le_6mm": true,
+    "transition_wall_defined": false,
+    "slicer_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "7d28b5cd7615d05f1f14a4377f17ea3d6899174e136ce7bf92197e4b8230be3c"
+}
