@@ -1,0 +1,107 @@
+{
+  "status": "NORMALIZED_HOLLOW_Y300_PARTITION_SAVED_REOPENED_NUMERIC_METHOD_REVIEW",
+  "input_sha256_unchanged": "4afe31bd9d75597c2e9c5ce56594a65e7a09cc3f34d78c616caf58f77d20af4c",
+  "prior_hollow_report_sha256": "2025e143e57951f4d95e92aa5c72382e2221a48465ef1d592be8e36126a56bc5",
+  "output_sha256": "11975569e611c359d661f3b037f68bff92d5c4311a6c5bb765c601fb0b29775a",
+  "rows": [
+    {
+      "object": "SOURCE",
+      "valid": true,
+      "solids": 1,
+      "shells": 2,
+      "faces": 2285,
+      "default_volume_mm3": 64770.943758989466,
+      "GK_volume_mm3": 64771.075074303684,
+      "GK_reported_relative_error": 1.7180797088113531e-09,
+      "P280_P300_face_flux_mm3": [
+        64771.0750751169,
+        64771.075074826214
+      ],
+      "optimal_bounds_mm": [
+        588.2699983754352,
+        148.8263774443693,
+        -12.425259606190826,
+        749.6035235732938,
+        450.0000001,
+        9.094380128581724
+      ],
+      "vertex_y_range_mm": [
+        148.8263775443693,
+        449.99999999999994
+      ]
+    },
+    {
+      "object": "ROOT_PART",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 1186,
+      "default_volume_mm3": 53714.68229578277,
+      "GK_volume_mm3": 53714.68268961299,
+      "GK_reported_relative_error": 1.3306285093405287e-10,
+      "P280_P300_face_flux_mm3": [
+        53714.6826897909,
+        53714.68268981076
+      ],
+      "optimal_bounds_mm": [
+        588.2699934754352,
+        148.82637254436932,
+        -8.123507036243337,
+        742.9283170818738,
+        300.00000500000004,
+        9.094385028581724
+      ],
+      "vertex_y_range_mm": [
+        148.8263775443693,
+        300.0
+      ]
+    },
+    {
+      "object": "TIP_PART",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 1200,
+      "default_volume_mm3": 11056.392072193315,
+      "GK_volume_mm3": 11056.392385362784,
+      "GK_reported_relative_error": 2.127126690142248e-10,
+      "P280_P300_face_flux_mm3": [
+        11056.392385217536,
+        11056.39238525949
+      ],
+      "optimal_bounds_mm": [
+        643.1955076406898,
+        299.99999499999984,
+        -12.425264506190798,
+        749.6035284732939,
+        450.00000499999993,
+        1.4191336479247394
+      ],
+      "vertex_y_range_mm": [
+        299.99999999999994,
+        449.99999999999994
+      ]
+    }
+  ],
+  "default_partition_balance_mm3": 0.13060898661933606,
+  "GK_partition_balance_mm3": 6.720947567373514e-07,
+  "P280_P300_partition_flux_balances_mm3": [
+    -1.0846997611224651e-07,
+    2.440356183797121e-07
+  ],
+  "shared_seam_common_area_mm2": 85.16409319377632,
+  "part_seam_areas_mm2": [
+    85.16409319377632,
+    85.16409319377632
+  ],
+  "part_overlap_mm3": 0.0,
+  "limits": [
+    "Default and adaptive integration retained without tolerance relaxation; no numerical method promoted here",
+    "Native balance/face common checks not rigorous absolute volume or exact boundary identity proof",
+    "Complementary Boolean differences and full part deviation not checked here",
+    "Old seam/structure/assembly reports do not automatically transfer to changed candidate hashes",
+    "No master promotion, print, material, strength or flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}
