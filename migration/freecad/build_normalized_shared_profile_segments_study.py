@@ -1,0 +1,17 @@
+from pathlib import Path
+import sys,json,hashlib,math
+import FreeCAD as A,Part
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from normalized_profile_study_utils import normalize_wire,profile_digest,flux
+R=Path(__file__).resolve().parents[2];p=R/'migration/freecad/F14_CURRENT_FULL_VIEW_v192.FCStd';bp=R/'analysis/v192_adaptive_void_segments_build.json';build=json.loads(bp.read_text());H=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();h=H(p);assert h==build['source_sha256'];out=R/'analysis/v192_normalized_shared_profile_segments_study.json';cad=R/'migration/freecad/WING_R_NORMALIZED_SHARED_PROFILE_SEGMENTS_STUDY_ONLY.FCStd';assert not out.exists() and not cad.exists();intervals=build['rows'];ys=sorted(set(v for row in intervals for v in [row['y_start'],row['y_end']]));assert len(ys)==18;D=A.openDocument(str(p));wing=D.getObject('WING_R').Shape.copy();A.closeDocument(D.Name);cache={};profiles=[];rows=[];shapes=[]
+def checkpoint(stage):out.write_text(json.dumps({'status':'RUNNING','stage':stage,'profiles':profiles,'rows':rows},indent=2)+'\n')
+for y in ys:
+ ws=wing.slice(A.Vector(0,1,0),y);assert len(ws)==1;off=ws[0].makeOffset2D(-.43,0,False,False,False);assert len(off.Wires)==1;wire,row=normalize_wire(off.Wires[0],y);cache[y]=wire;profiles.append(row);print('PROFILE',y,row['max_endpoint_pole_shift_mm'],flush=True);checkpoint('profiles')
+for i,interval in enumerate(intervals):
+ a,b=interval['y_start'],interval['y_end'];s=Part.makeLoft([cache[a].copy(),cache[b].copy()],True,True);assert s.isValid() and len(s.Solids)==1;v=[flux(s,point) for point in [(700,280,0),(700,300,0)]];rows.append({'index':i,'span_mm':[a,b],'valid':True,'solids':1,'faces':len(s.Faces),'default_volume_mm3':s.Volume,'max_native_tolerance_mm':s.getTolerance(1),'P280_P300_flux_mm3':v,'reference_change_mm3':v[1]-v[0]});shapes.append(s);print('SEGMENT',i,rows[-1]['reference_change_mm3'],flush=True);checkpoint('segments')
+assert all(profile_digest(cache[row['y_mm']])==row['normalized_profile_data_sha256'] for row in profiles)
+D=A.newDocument('NORMALIZED_SHARED_PROFILE_SEGMENTS')
+for row,s in zip(rows,shapes):
+ o=D.addObject('PartDesign::Feature','NORMALIZED_VOID_SEG_'+str(row['index']));o.Shape=s;o.addProperty('App::PropertyBool','PrintRelease');o.PrintRelease=False;o.addProperty('App::PropertyFloat','SpanStart');o.SpanStart=row['span_mm'][0];o.addProperty('App::PropertyFloat','SpanEnd');o.SpanEnd=row['span_mm'][1]
+D.recompute();D.saveAs(str(cad));A.closeDocument(D.Name);D=A.openDocument(str(cad));assert len(D.Objects)==17 and all(o.Shape.isValid() and len(o.Shape.Solids)==1 and not o.PrintRelease for o in D.Objects);A.closeDocument(D.Name);assert H(p)==h
+out.write_text(json.dumps({'status':'SEPARATE_17_NORMALIZED_SHARED_PROFILE_SEGMENTS_SAVED_REOPENED','master_sha256_unchanged':h,'basis_report_sha256':H(bp),'helper_sha256':H(R/'migration/freecad/normalized_profile_study_utils.py'),'output_sha256':H(cad),'source_offset_mm':-.43,'profiles':profiles,'shared_profile_digests_unchanged_after_lofts':True,'rows':rows,'limits':['New intentionally modified study, not current cavity or master','Approximation errors are native estimates, not rigorous global bounds; endpoint edits guarded below1e-5mm','Only per-segment validity and two-reference flux measured here; full containment, interfaces, curve gaps, deviation, union and split unverified','No material, manufacturing, print or flight release'],'print_release':False,'flight_release':False},indent=2)+'\n')
