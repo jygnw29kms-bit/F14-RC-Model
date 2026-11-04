@@ -1,0 +1,25 @@
+{
+  "status": "FUSED_VOID_STUDY_ONLY_NOT_HOLLOW_WING_OR_PRINT_PART",
+  "active_study_cavity": "migration/freecad/WING_R_NORMALIZED_FUSED_CAVITY_STUDY_ONLY.FCStd",
+  "artifact_and_audit_sha256": {
+    "migration/freecad/WING_R_NORMALIZED_FUSED_CAVITY_STUDY_ONLY.FCStd": "2fc071a1145662ca09d2ffaa796844720b202d6ff8974e24513da1d22810bd96",
+    "migration/freecad/WING_R_NORMALIZED_SHARED_PROFILE_SEGMENTS_STUDY_ONLY.FCStd": "a1c2269abd6febdddb98cdcbe5d9a1338e456a90b15ec5474c4470baf24aa8fd",
+    "analysis/v192_normalized_fused_cavity_verification.json": "d67cb211aa213590318f1e1fb24f827c9364bf0f04cce789f9a28750cbd745a7"
+  },
+  "span_mm": [
+    180,
+    440
+  ],
+  "source_profile_offset_mm": -0.43,
+  "master_changed": false,
+  "open_gates": [
+    "Fused cavity direct containment and saved volume consistency",
+    "Full original-shape deviation beyond sampled segment5",
+    "Outer wing subtraction and volume balance",
+    "Saved wing partition and seam/structure rechecks",
+    "Original aircraft OML, datum and total RC/FDM design",
+    "Material, print, simulation and physical tests"
+  ],
+  "print_release": false,
+  "flight_release": false
+}
