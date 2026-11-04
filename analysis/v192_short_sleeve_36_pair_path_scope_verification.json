@@ -1,0 +1,228 @@
+{
+  "status": "DECLARED_36_PAIR_RIGID_PATH_SCOPE_AND_HASH_LINKS_VERIFIED",
+  "translation_global_y_mm": [
+    0,
+    5
+  ],
+  "input_cad_sha256": {
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117",
+    "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0",
+    "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd": "11c67cf2b9ff7c13fbbde83506d0fe79a4292b210cbfc78f725aecc67126c44f"
+  },
+  "evidence_report_sha256": {
+    "v192_short_sleeve_tip_subassembly_poses.json": "422447f391d177786385ed385302702c1c8cdbe5866a9593abaa1249735ed972",
+    "v192_short_sleeve_auxiliary_optimal_bounds.json": "f423aaf237d9fa5d2446f338e5923fb54c9155d2af9854aaf7e0b3fffa23f88d",
+    "v192_short_sleeve_tip_skin_local_bounds.json": "94c4f0ffd7d160d0ad22ec28e886c86886193c10a33ed0e5a6560d69832b0d30",
+    "v192_tip_skin_spar_continuous_clearance_resumed.json": "88922c5cb6ca09806c8868635a0120ba35d18d49b2f70cf06d8a0c53a4ebe043",
+    "v192_tip_skin_spar_interval_coverage_verification.json": "3b5fc8107fde31d24f73bd5f00a51adea7f58bfce5e2fd2ac61f8ea82ce69479"
+  },
+  "moving_objects": [
+    "TIP_SKIN",
+    "TIP_CARRIER",
+    "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+    "GEOMETRIC_BOND_1"
+  ],
+  "fixed_objects": [
+    "UNFROZEN_FLANGED_WEB",
+    "GEOMETRIC_LOWER_BOND_0p1",
+    "GEOMETRIC_UPPER_BOND_0p1",
+    "CONTINUOUS_LOWER_CAP_REFERENCE",
+    "CONTINUOUS_UPPER_CAP_REFERENCE",
+    "ROOT_CARRIER",
+    "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+    "GENERIC_4OD_2p2ID_SLEEVE",
+    "GEOMETRIC_BOND_0"
+  ],
+  "pair_count": 36,
+  "pairs": [
+    {
+      "moving": "GEOMETRIC_BOND_1",
+      "fixed": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "GEOMETRIC_BOND_1",
+      "fixed": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "GEOMETRIC_BOND_1",
+      "fixed": "GENERIC_4OD_2p2ID_SLEEVE",
+      "method": "radial_exclusion_invariant_underYtranslation"
+    },
+    {
+      "moving": "GEOMETRIC_BOND_1",
+      "fixed": "GEOMETRIC_BOND_0",
+      "method": "disjointY"
+    },
+    {
+      "moving": "GEOMETRIC_BOND_1",
+      "fixed": "GEOMETRIC_LOWER_BOND_0p1",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "GEOMETRIC_BOND_1",
+      "fixed": "GEOMETRIC_UPPER_BOND_0p1",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "GEOMETRIC_BOND_1",
+      "fixed": "ROOT_CARRIER",
+      "method": "disjointY"
+    },
+    {
+      "moving": "GEOMETRIC_BOND_1",
+      "fixed": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+      "method": "disjointY"
+    },
+    {
+      "moving": "GEOMETRIC_BOND_1",
+      "fixed": "UNFROZEN_FLANGED_WEB",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_CARRIER",
+      "fixed": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_CARRIER",
+      "fixed": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_CARRIER",
+      "fixed": "GENERIC_4OD_2p2ID_SLEEVE",
+      "method": "radial_exclusion_invariant_underYtranslation"
+    },
+    {
+      "moving": "TIP_CARRIER",
+      "fixed": "GEOMETRIC_BOND_0",
+      "method": "disjointY"
+    },
+    {
+      "moving": "TIP_CARRIER",
+      "fixed": "GEOMETRIC_LOWER_BOND_0p1",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_CARRIER",
+      "fixed": "GEOMETRIC_UPPER_BOND_0p1",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_CARRIER",
+      "fixed": "ROOT_CARRIER",
+      "method": "disjointY"
+    },
+    {
+      "moving": "TIP_CARRIER",
+      "fixed": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+      "method": "disjointY"
+    },
+    {
+      "moving": "TIP_CARRIER",
+      "fixed": "UNFROZEN_FLANGED_WEB",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "fixed": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "fixed": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "fixed": "GENERIC_4OD_2p2ID_SLEEVE",
+      "method": "radial_exclusion_invariant_underYtranslation"
+    },
+    {
+      "moving": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "fixed": "GEOMETRIC_BOND_0",
+      "method": "disjointY"
+    },
+    {
+      "moving": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "fixed": "GEOMETRIC_LOWER_BOND_0p1",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "fixed": "GEOMETRIC_UPPER_BOND_0p1",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "fixed": "ROOT_CARRIER",
+      "method": "disjointY"
+    },
+    {
+      "moving": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "fixed": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+      "method": "disjointY"
+    },
+    {
+      "moving": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "fixed": "UNFROZEN_FLANGED_WEB",
+      "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab"
+    },
+    {
+      "moving": "TIP_SKIN",
+      "fixed": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "method": "midpoint_distance_1_Lipschitz_vs_compound_of_all_spar_objects"
+    },
+    {
+      "moving": "TIP_SKIN",
+      "fixed": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "method": "midpoint_distance_1_Lipschitz_vs_compound_of_all_spar_objects"
+    },
+    {
+      "moving": "TIP_SKIN",
+      "fixed": "GENERIC_4OD_2p2ID_SLEEVE",
+      "method": "inverse_sleeve_swept_outer_cylinder_Y291_to304_for_translation_0_to5"
+    },
+    {
+      "moving": "TIP_SKIN",
+      "fixed": "GEOMETRIC_BOND_0",
+      "method": "optimal_bounds_disjointY_for_all_positive_translation"
+    },
+    {
+      "moving": "TIP_SKIN",
+      "fixed": "GEOMETRIC_LOWER_BOND_0p1",
+      "method": "midpoint_distance_1_Lipschitz_vs_compound_of_all_spar_objects"
+    },
+    {
+      "moving": "TIP_SKIN",
+      "fixed": "GEOMETRIC_UPPER_BOND_0p1",
+      "method": "midpoint_distance_1_Lipschitz_vs_compound_of_all_spar_objects"
+    },
+    {
+      "moving": "TIP_SKIN",
+      "fixed": "ROOT_CARRIER",
+      "method": "optimal_bounds_disjointY_for_all_positive_translation"
+    },
+    {
+      "moving": "TIP_SKIN",
+      "fixed": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+      "method": "optimal_bounds_disjointY_for_all_positive_translation"
+    },
+    {
+      "moving": "TIP_SKIN",
+      "fixed": "UNFROZEN_FLANGED_WEB",
+      "method": "midpoint_distance_1_Lipschitz_vs_compound_of_all_spar_objects"
+    }
+  ],
+  "limits": [
+    "Report consistency and numerical bounds verified; not independent reexecution of every CAD operation",
+    "Only listed objects: root wing skin, rest of aircraft, tools and access are outside this scope",
+    "Rigid adhesive placeholders; contact allowed by zero-volume screens; no physical assembly process acceptance",
+    "No material, strength, tolerance, cure or flight validation; short sleeve bond area reduced 61.2 percent and unqualified",
+    "Source partition volume gate remains blocked; no master promotion"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

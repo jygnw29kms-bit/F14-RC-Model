@@ -1,0 +1,26 @@
+{
+  "status": "PRAEZISIONS_SENSITIVITAETSEXPERIMENT_AUSGEFUEHRT",
+  "samples": 101,
+  "baseline_max_error_source": 0.005099760575333789,
+  "promoted_real8_max_error_source": 5.044853423896711e-12,
+  "real8_experiment_flags": [
+    "-std=legacy",
+    "-fno-automatic",
+    "-ffixed-line-length-72",
+    "-fdefault-real-8"
+  ],
+  "source_files_unchanged_sha256": {
+    "SHIFARC_CSMCOE_review_only.for": "5892eeecf3a4e44873d8e8baa2c16c99525bd3e62aef7d912511dc21a8d53bbe",
+    "SHIFARC_CSCALC_review_only.for": "3e2778af105c5b4c6798496ab91fc0cce51175191c123f68bf571387bd873092",
+    "SHIFARC_VDOTV_review_only.for": "6d858d527244fb68ab2f3d598f84290c8346046e7103248346fa6850fa031cb2",
+    "SHIFARC_MDOTV_review_only.for": "5a243b5065ac665535c5d90743527922e883e1577908eddd247b6567fb15b466",
+    "run_SHIFARC_model7_575_radial.f": "0a9b88e697af635d7367ca8995b0a8cd4bd589368b3d9713369ebdff4382c752"
+  },
+  "limits": [
+    "REAL8 ist explizites Praezisionsexperiment, kein unveraenderter historischer Singleprecision-Lauf.",
+    "Starker Fehlerrueckgang stuetzt Rundung/Kondition als Ursache; ersetzt keine globale Routinenfreigabe.",
+    "Zweigwahl beschraenkte kleinepositiveWurzel; keineglobaleWurzeleindeutigkeit.",
+    "Keine CAD-/Master- oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

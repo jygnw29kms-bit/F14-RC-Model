@@ -1,0 +1,21 @@
+{
+  "status": "UPC_FLUEGELWURZEL_AUSSCHNITT_VISUELL_GEPRUEFT_KEIN_PIVOTANKER",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "crop_box_pixel": [
+    1440,
+    960,
+    1710,
+    1170
+  ],
+  "finding": "Ausschnitt zeigt Fluegel-/Glovebegrenzungen, Innenlinien und eine lange zugespitzte Linie; kein eindeutig beschriftetes Pivotzentrum oder eindeutig als Drehachse markierter Kreis erkennbar.",
+  "search_basis": "Nur Suchfenster aus bisherigem Kandidatenbereich; keine unabhaengige Registrierung.",
+  "rejected_inferences": [
+    "Spitze einer Innenlinie oder Schnittpunkt der Begrenzungen nicht als Pivotzentrum interpretieren.",
+    "Vorhandene historische Pivotposition nicht durch einen daraus abgeleiteten Suchausschnitt selbst bestaetigen."
+  ],
+  "limits": [
+    "Lokaler Ausschnitt; keine Aussage, dass die gesamte Quelle kein Pivotmerkmal enthaelt.",
+    "Kein neuer geometrischer Anker oder Massstab bestimmt."
+  ],
+  "production_release": false
+}

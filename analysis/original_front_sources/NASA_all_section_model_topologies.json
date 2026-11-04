@@ -1,0 +1,429 @@
+{
+  "status": "ACHT_QUERSCHNITTSMODELLE_VISUELL_TRANSKRIBIERT_LOGISCH_GEPRUEFT",
+  "source": "NASA-CR172559 Table1 Sheet5 PDF24/gedr14",
+  "source_render_sha256": "2e6e503c3df71257b34ed4fa448724f0cea4870f4d7a387c86d8289ff863bc47",
+  "models": [
+    {
+      "index": 1,
+      "name": "NOSE",
+      "arc_count": 2,
+      "arcs": [
+        {
+          "name": "BLO",
+          "shape": "ELLI",
+          "start": "BCL",
+          "end": "MHB",
+          "slope_control": "SCPLO"
+        },
+        {
+          "name": "BUP",
+          "shape": "ELLI",
+          "start": "MHB",
+          "end": "TCL",
+          "slope_control": "SCPUP"
+        }
+      ],
+      "logical_chain_continuous": true,
+      "source_x_interval": [
+        93,
+        205
+      ]
+    },
+    {
+      "index": 2,
+      "name": "NOSE WITH CANOPY",
+      "arc_count": 4,
+      "arcs": [
+        {
+          "name": "BLO",
+          "shape": "ELLI",
+          "start": "BCL",
+          "end": "MHB",
+          "slope_control": "SCPLO"
+        },
+        {
+          "name": "BSI",
+          "shape": "LINE",
+          "start": "MHB",
+          "end": "FUP",
+          "slope_control": null
+        },
+        {
+          "name": "BUP",
+          "shape": "ELLI",
+          "start": "FUP",
+          "end": "CREASE",
+          "slope_control": "SCPUP"
+        },
+        {
+          "name": "CAN",
+          "shape": "ELLI",
+          "start": "CREASE",
+          "end": "TCL",
+          "slope_control": "SCPCAN"
+        }
+      ],
+      "logical_chain_continuous": true,
+      "source_x_interval": [
+        205,
+        352
+      ]
+    },
+    {
+      "index": 3,
+      "name": "INLET",
+      "arc_count": 7,
+      "arcs": [
+        {
+          "name": "BLO",
+          "shape": "ELLI",
+          "start": "BCL",
+          "end": "MHB",
+          "slope_control": "SCPLO"
+        },
+        {
+          "name": "BSI",
+          "shape": "LINE",
+          "start": "MHB",
+          "end": "FLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACLO",
+          "shape": "LINE",
+          "start": "FLO",
+          "end": "INLTLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACSI",
+          "shape": "LINE",
+          "start": "INLTLO",
+          "end": "INLTUP",
+          "slope_control": null
+        },
+        {
+          "name": "NACUP",
+          "shape": "LINE",
+          "start": "INLTUP",
+          "end": "FUP",
+          "slope_control": null
+        },
+        {
+          "name": "BUP",
+          "shape": "ELLI",
+          "start": "FUP",
+          "end": "CREASE",
+          "slope_control": "SCPUP"
+        },
+        {
+          "name": "CAN",
+          "shape": "ELLI",
+          "start": "CREASE",
+          "end": "TCL",
+          "slope_control": "SCPCAN"
+        }
+      ],
+      "logical_chain_continuous": true,
+      "source_x_interval": [
+        352,
+        414.5
+      ]
+    },
+    {
+      "index": 4,
+      "name": "INLET TO NACELLE FORWARD FAIRING",
+      "arc_count": 6,
+      "arcs": [
+        {
+          "name": "BLO",
+          "shape": "ELLI",
+          "start": "BCL",
+          "end": "FLO",
+          "slope_control": "SCPLO"
+        },
+        {
+          "name": "NACLO",
+          "shape": "LINE",
+          "start": "FLO",
+          "end": "INLTLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACSI",
+          "shape": "LINE",
+          "start": "INLTLO",
+          "end": "INLTUP",
+          "slope_control": null
+        },
+        {
+          "name": "NACUP",
+          "shape": "LINE",
+          "start": "INLTUP",
+          "end": "FUP",
+          "slope_control": null
+        },
+        {
+          "name": "BUP",
+          "shape": "ELLI",
+          "start": "FUP",
+          "end": "CREASE",
+          "slope_control": "SCPUP"
+        },
+        {
+          "name": "CAN",
+          "shape": "ELLI",
+          "start": "CREASE",
+          "end": "TCL",
+          "slope_control": "SCPCAN"
+        }
+      ],
+      "logical_chain_continuous": true,
+      "source_x_interval": [
+        414.5,
+        425
+      ]
+    },
+    {
+      "index": 5,
+      "name": "INLET TO NACELLE AFT FAIRING",
+      "arc_count": 6,
+      "arcs": [
+        {
+          "name": "BLO",
+          "shape": "LINE",
+          "start": "BCL",
+          "end": "FLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACLO",
+          "shape": "LINE",
+          "start": "FLO",
+          "end": "INLTLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACSI",
+          "shape": "LINE",
+          "start": "INLTLO",
+          "end": "INLTUP",
+          "slope_control": null
+        },
+        {
+          "name": "NACUP",
+          "shape": "LINE",
+          "start": "INLTUP",
+          "end": "FUP",
+          "slope_control": null
+        },
+        {
+          "name": "BUP",
+          "shape": "ELLI",
+          "start": "FUP",
+          "end": "CREASE",
+          "slope_control": "SCPUP"
+        },
+        {
+          "name": "CAN",
+          "shape": "ELLI",
+          "start": "CREASE",
+          "end": "TCL",
+          "slope_control": "SCPCAN"
+        }
+      ],
+      "logical_chain_continuous": true,
+      "source_x_interval": [
+        425,
+        433
+      ]
+    },
+    {
+      "index": 6,
+      "name": "FORWARD NACELLE",
+      "arc_count": 7,
+      "arcs": [
+        {
+          "name": "BLO",
+          "shape": "LINE",
+          "start": "BCL",
+          "end": "FLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACLO",
+          "shape": "LINE",
+          "start": "FLO",
+          "end": "INLTLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACLS",
+          "shape": "ELLI",
+          "start": "INLTLO",
+          "end": "MHB",
+          "slope_control": "SCPLO"
+        },
+        {
+          "name": "NACSI",
+          "shape": "LINE",
+          "start": "MHB",
+          "end": "INLTUP",
+          "slope_control": null
+        },
+        {
+          "name": "NACUP",
+          "shape": "LINE",
+          "start": "INLTUP",
+          "end": "FUP",
+          "slope_control": null
+        },
+        {
+          "name": "BUP",
+          "shape": "ELLI",
+          "start": "FUP",
+          "end": "CREASE",
+          "slope_control": "SCPUP"
+        },
+        {
+          "name": "CAN",
+          "shape": "ELLI",
+          "start": "CREASE",
+          "end": "TCL",
+          "slope_control": "SCPCAN"
+        }
+      ],
+      "logical_chain_continuous": true,
+      "source_x_interval": [
+        433,
+        497
+      ]
+    },
+    {
+      "index": 7,
+      "name": "MID NACELLE",
+      "arc_count": 6,
+      "arcs": [
+        {
+          "name": "BLO",
+          "shape": "LINE",
+          "start": "BCL",
+          "end": "FLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACLO",
+          "shape": "LINE",
+          "start": "FLO",
+          "end": "INLTLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACLS",
+          "shape": "ELLI",
+          "start": "INLTLO",
+          "end": "MHB",
+          "slope_control": "SCPLO"
+        },
+        {
+          "name": "NACSI",
+          "shape": "LINE",
+          "start": "MHB",
+          "end": "INLTUP",
+          "slope_control": null
+        },
+        {
+          "name": "NACUP",
+          "shape": "LINE",
+          "start": "INLTUP",
+          "end": "FUP",
+          "slope_control": null
+        },
+        {
+          "name": "BUP",
+          "shape": "ELLI",
+          "start": "FUP",
+          "end": "TCL",
+          "slope_control": "SCPUP"
+        }
+      ],
+      "logical_chain_continuous": true,
+      "source_x_interval": [
+        497,
+        650
+      ]
+    },
+    {
+      "index": 8,
+      "name": "AFT NACELLE",
+      "arc_count": 6,
+      "arcs": [
+        {
+          "name": "BLO",
+          "shape": "LINE",
+          "start": "BCL",
+          "end": "FLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACLO",
+          "shape": "LINE",
+          "start": "FLO",
+          "end": "INLTLO",
+          "slope_control": null
+        },
+        {
+          "name": "NACLS",
+          "shape": "ELLI",
+          "start": "INLTLO",
+          "end": "CREASE",
+          "slope_control": "SCPCAN"
+        },
+        {
+          "name": "NACSI",
+          "shape": "LINE",
+          "start": "CREASE",
+          "end": "INLTUP",
+          "slope_control": null
+        },
+        {
+          "name": "NACUP",
+          "shape": "LINE",
+          "start": "INLTUP",
+          "end": "FUP",
+          "slope_control": null
+        },
+        {
+          "name": "BUP",
+          "shape": "LINE",
+          "start": "FUP",
+          "end": "TCL",
+          "slope_control": null
+        }
+      ],
+      "logical_chain_continuous": true,
+      "source_x_interval": [
+        650,
+        780
+      ]
+    }
+  ],
+  "limits": [
+    "Logische Endpunktnamen-Stetigkeit ist keine numerische oder geometrische Stetigkeitspruefung.",
+    "Neue Kontrollpunkte FLO/FUP/INLTLO/INLTUP/CREASE/SCPCAN noch numerisch zu binden.",
+    "Keine Innenkanalgeometrie aus den Namen INLET/NACELLE ableiten; dies ist die vereinfachte Quellen-Aussenbeschreibung.",
+    "Keine neue CAD-Geometrie, physische Einheiten oder Produktionsfreigabe."
+  ],
+  "production_release": false,
+  "station_source": "Table1 Sheet5 PDF24/gedr14 erste2; Sheet6 PDF25/gedr15 restliche6, visuell geprueft",
+  "station_source_render_sha256": "1e4cf8611d0a36aea22bd2a98021e91cfce21c6cf040f8046d146bbaf135f43a",
+  "station_domain_audit": {
+    "contiguous_source_domain": [
+      93,
+      780
+    ],
+    "gap_count": 0,
+    "overlap_interior_count": 0,
+    "boundary_policy": "Gemeinsame Randstationen sind Modellwechsel; numerische Anschlusspruefung noch offen."
+  }
+}

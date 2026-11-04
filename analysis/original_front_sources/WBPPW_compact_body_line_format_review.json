@@ -1,0 +1,43 @@
+{
+  "status": "KOMPAKTES_BODYLINE_FORMAT_VISUELL_PRIMAER_GEPRUEFT",
+  "source": "NASA-CR4066 PDF79/gedr71 Card11B/12B",
+  "fields": {
+    "BLSEG": "AnzahlSegmente",
+    "BYORZ": "YoderZ",
+    "BNAME": "BodyLineName",
+    "SSHAPE": "Segmentform",
+    "D1": "xStart",
+    "D2": "Y/ZamStart",
+    "D3": "xEnde",
+    "D4": "Y/ZamEnde",
+    "D5": "xSlopeControlPoint",
+    "D6": "Y/ZamSlopeControlPoint"
+  },
+  "f14_example": {
+    "source": "NASA-CR172559 Sheet6 ZTCL ersteELLXZeile",
+    "shape": "ELLX",
+    "start": [
+      93,
+      131.45
+    ],
+    "end": [
+      205,
+      171
+    ],
+    "slope_control_point": [
+      127.5,
+      152
+    ],
+    "control_point_is_curve_interpolation_point": false
+  },
+  "findings": [
+    "Kompaktes6ZahlenlayoutentsprichtF14Tabellenmuster; keineS/AFlagsinderhierbeschriebenenCard12B.",
+    "DrittesPaaristinderkompaktenSyntaxausdruecklichSlopeControlPoint, nichtweitererKurvenpunkt."
+  ],
+  "remaining": [
+    "ELLX/ELLYKoeffizientenberechnung/Translation/ZweigwahlnochdurcheigenstaendigenReferenztestoderOriginalroutinebestaetigen.",
+    "Handbuch1987undF14Studie1985:semantischerLayoutabgleichistkeinebytegleicheVersionsevidenz.",
+    "EinheitenundabsoluteUPCRegistrierungnichtdadurchbelegt."
+  ],
+  "production_release": false
+}

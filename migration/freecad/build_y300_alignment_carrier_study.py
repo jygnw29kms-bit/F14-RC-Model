@@ -1,0 +1,12 @@
+from pathlib import Path
+import FreeCAD as A,Part,json,hashlib
+R=Path(__file__).resolve().parents[2];H=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();basis=R/'analysis/v192_y300_alignment_pin_envelope_screen.json';b=json.loads(basis.read_text());x,_,z=b['axis_start_mm'];vp=R/'migration/freecad/WING_R_VOID_ALL17_FUSED_TRIAL_ONLY.FCStd';sp=R/'migration/freecad/FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd';hs={p.name:H(p) for p in (vp,sp)};out=R/'migration/freecad/Y300_ALIGNMENT_CARRIERS_UNFROZEN_ONLY.FCStd';report=R/'analysis/v192_y300_alignment_carriers_trial.json';assert not out.exists() and not report.exists();D=A.openDocument(str(vp));void=next(o.Shape.copy() for o in D.Objects if hasattr(o,'Shape') and len(o.Shape.Solids)==1);A.closeDocument(D.Name);D=A.openDocument(str(sp));spars=[(o.Name,o.Shape.copy()) for o in D.Objects];A.closeDocument(D.Name);shapes=[];rows=[];bore=Part.makeCylinder(2.1,22,A.Vector(x,289,z),A.Vector(0,1,0))
+for name,y0,y1 in [('ROOT',290,299.8),('TIP',300.2,310)]:
+ # Clipping to cavity creates a conformal geometric skin-side boundary; bond acceptance is separate.
+ block=Part.makeBox(8,y1-y0,z+103,A.Vector(x-4,y0,-100));s=block.common(void).cut(bore);assert s.isValid() and len(s.Solids)==1;outside=s.cut(void).Volume;overlap=[{'object':n,'volume_mm3':s.common(t).Volume} for n,t in spars];rows.append({'name':name,'valid':True,'volume_mm3':s.Volume,'outside_void_mm3':outside,'spar_overlap':overlap});shapes.append((name,s))
+D=A.newDocument('UNFROZEN_ALIGNMENT_CARRIERS')
+for name,s in shapes:
+ o=D.addObject('PartDesign::Feature',name+'_CARRIER');o.Shape=s;o.addProperty('App::PropertyString','Limits');o.Limits='Study only: cavity-clipped carrier,4.2mm sleeve bore,0.4mm axial seam gap. No sleeve bonding/skin contact area or structural/manufacturing acceptance.'
+D.recompute();D.saveAs(str(out));A.closeDocument(D.Name);D=A.openDocument(str(out));assert len(D.Objects)==2
+for o in D.Objects:assert o.Shape.isValid() and len(o.Shape.Solids)==1
+A.closeDocument(D.Name);assert all(H(p)==hs[p.name] for p in (vp,sp));report.write_text(json.dumps({'status':'CARRIER_STUDY_SAVED_REOPENED_NOT_INTEGRATED','inputs_sha256_unchanged':hs,'output_sha256':H(out),'rows':rows,'limits':['No attachment to skin or sleeve verified; face-level areas pending','Cavity clipping is a geometry construction choice, no adhesive/tolerance qualification','No structural seam/print release; original partition volume gate remains blocked'],'print_release':False,'flight_release':False},indent=2)+'\n');print(rows)

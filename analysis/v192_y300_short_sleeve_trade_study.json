@@ -1,0 +1,67 @@
+{
+  "status": "SHORT_SLEEVE_TRADE_GEOMETRY_SAVED_REOPENED_NOT_ACCEPTED",
+  "input_sha256_unchanged": "c17070fe921b9657a996ee26dfeaedbbf5c959d795fe0f717981309c1f799f43",
+  "output_sha256": "11c67cf2b9ff7c13fbbde83506d0fe79a4292b210cbfc78f725aecc67126c44f",
+  "rows": [
+    {
+      "object": "ROOT_CARRIER",
+      "solids": 1,
+      "volume_mm3": 335.36383373852993,
+      "old_volume_mm3": 335.36383373852993
+    },
+    {
+      "object": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+      "solids": 2,
+      "volume_mm3": 8.483316769430266,
+      "old_volume_mm3": 8.483316769430266
+    },
+    {
+      "object": "TIP_CARRIER",
+      "solids": 1,
+      "volume_mm3": 356.21789886349757,
+      "old_volume_mm3": 356.21789886349757
+    },
+    {
+      "object": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "solids": 2,
+      "volume_mm3": 10.735517506151378,
+      "old_volume_mm3": 10.735517506151378
+    },
+    {
+      "object": "GENERIC_4OD_2p2ID_SLEEVE",
+      "solids": 1,
+      "volume_mm3": 70.12034802812374,
+      "old_volume_mm3": 175.30087007030977
+    },
+    {
+      "object": "GEOMETRIC_BOND_0",
+      "solids": 1,
+      "volume_mm3": 4.894601354293204,
+      "old_volume_mm3": 12.622919282124258
+    },
+    {
+      "object": "GEOMETRIC_BOND_1",
+      "solids": 1,
+      "volume_mm3": 4.894601354293204,
+      "old_volume_mm3": 12.622919282124272
+    }
+  ],
+  "current_long_sleeve_min_tip_translation_to_disengage_mm": 9.8,
+  "current_long_sleeve_at10mm_wing_cap_clash_mm3": 17.880976566858862,
+  "new_sleeve_y_interval_mm": [
+    296,
+    304
+  ],
+  "new_tip_carrier_min_translation_to_disengage_mm": 3.8,
+  "new_bond_length_each_mm": 3.8,
+  "old_bond_length_each_mm": 9.8,
+  "new_to_old_bond_area_ratio": 0.38775510204081626,
+  "limits": [
+    "Interval disengagement arithmetic is not collision proof",
+    "Prior wing poses at0 and5mm clear, intermediate poses and full assembly still unverified",
+    "Shorter bond area does not establish adequate stiffness/strength",
+    "No adhesive process, retention or physical proof; source partition remains volume-blocked"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

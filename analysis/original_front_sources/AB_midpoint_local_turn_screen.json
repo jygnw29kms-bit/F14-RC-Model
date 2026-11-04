@@ -1,0 +1,1567 @@
+{
+  "status": "AB_LOKALE_RICHTUNGSWECHSEL_NUR_SCREENING",
+  "input_sha256": "a8bcc393e988390268a7ba4e4ebd76477223fd2cdd7dcf53b68707205bde1133",
+  "rows": [
+    {
+      "section": "A",
+      "threshold": 96,
+      "flag_count": 17,
+      "flags": [
+        {
+          "segment": 1,
+          "index": 6,
+          "point": [
+            1853.0,
+            288
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 2.5,
+          "second_difference_pixel": 2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 7,
+          "point": [
+            1855.5,
+            289
+          ],
+          "previous_dx": 2.5,
+          "next_dx": -3.0,
+          "second_difference_pixel": -5.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 8,
+          "point": [
+            1852.5,
+            290
+          ],
+          "previous_dx": -3.0,
+          "next_dx": 0.5,
+          "second_difference_pixel": 3.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 22,
+          "point": [
+            1852.0,
+            304
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 31,
+          "point": [
+            1852.0,
+            313
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 32,
+          "point": [
+            1853.5,
+            314
+          ],
+          "previous_dx": 1.5,
+          "next_dx": -0.5,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 53,
+          "point": [
+            1864.5,
+            335
+          ],
+          "previous_dx": 1.0,
+          "next_dx": 2.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 1,
+          "point": [
+            1923.0,
+            246
+          ],
+          "previous_dx": 0.5,
+          "next_dx": 2.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 2,
+          "point": [
+            1925.5,
+            247
+          ],
+          "previous_dx": 2.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 13,
+          "point": [
+            1934.0,
+            258
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 14,
+          "point": [
+            1936.0,
+            259
+          ],
+          "previous_dx": 2.0,
+          "next_dx": 0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 20,
+          "point": [
+            1939.0,
+            265
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 10,
+          "point": [
+            1948.0,
+            292
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 21,
+          "point": [
+            1949.0,
+            303
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 32,
+          "point": [
+            1948.5,
+            314
+          ],
+          "previous_dx": -0.5,
+          "next_dx": -2.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 33,
+          "point": [
+            1946.5,
+            315
+          ],
+          "previous_dx": -2.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 38,
+          "point": [
+            1944.5,
+            320
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        }
+      ]
+    },
+    {
+      "section": "A",
+      "threshold": 128,
+      "flag_count": 15,
+      "flags": [
+        {
+          "segment": 1,
+          "index": 7,
+          "point": [
+            1852.5,
+            289
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 8,
+          "point": [
+            1853.5,
+            290
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 22,
+          "point": [
+            1852.0,
+            304
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 31,
+          "point": [
+            1852.0,
+            313
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 32,
+          "point": [
+            1853.5,
+            314
+          ],
+          "previous_dx": 1.5,
+          "next_dx": -0.5,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 53,
+          "point": [
+            1864.5,
+            335
+          ],
+          "previous_dx": 1.0,
+          "next_dx": 2.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 7,
+          "point": [
+            1929.0,
+            252
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 2.5,
+          "second_difference_pixel": 2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 8,
+          "point": [
+            1931.5,
+            253
+          ],
+          "previous_dx": 2.5,
+          "next_dx": 0.5,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 13,
+          "point": [
+            1934.5,
+            258
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 20,
+          "point": [
+            1939.0,
+            265
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 10,
+          "point": [
+            1948.0,
+            292
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 11,
+          "point": [
+            1949.5,
+            293
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 21,
+          "point": [
+            1949.0,
+            303
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 31,
+          "point": [
+            1949.5,
+            313
+          ],
+          "previous_dx": 0.0,
+          "next_dx": -1.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 38,
+          "point": [
+            1944.5,
+            320
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        }
+      ]
+    },
+    {
+      "section": "A",
+      "threshold": 160,
+      "flag_count": 18,
+      "flags": [
+        {
+          "segment": 1,
+          "index": 7,
+          "point": [
+            1852.5,
+            289
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 8,
+          "point": [
+            1853.5,
+            290
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 21,
+          "point": [
+            1852.5,
+            303
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 31,
+          "point": [
+            1852.0,
+            313
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 32,
+          "point": [
+            1853.5,
+            314
+          ],
+          "previous_dx": 1.5,
+          "next_dx": -0.5,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 40,
+          "point": [
+            1854.5,
+            322
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 41,
+          "point": [
+            1856.5,
+            323
+          ],
+          "previous_dx": 2.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 53,
+          "point": [
+            1864.5,
+            335
+          ],
+          "previous_dx": 1.0,
+          "next_dx": 2.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 1,
+          "point": [
+            1922.5,
+            246
+          ],
+          "previous_dx": 0.5,
+          "next_dx": 2.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 7,
+          "point": [
+            1929.0,
+            252
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 2.5,
+          "second_difference_pixel": 2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 8,
+          "point": [
+            1931.5,
+            253
+          ],
+          "previous_dx": 2.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 13,
+          "point": [
+            1934.5,
+            258
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 19,
+          "point": [
+            1939.5,
+            264
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 20,
+          "point": [
+            1939.0,
+            265
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 10,
+          "point": [
+            1948.0,
+            292
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 11,
+          "point": [
+            1949.5,
+            293
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 21,
+          "point": [
+            1949.0,
+            303
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 38,
+          "point": [
+            1944.5,
+            320
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "threshold": 96,
+      "flag_count": 20,
+      "flags": [
+        {
+          "segment": 0,
+          "index": 23,
+          "point": [
+            1865.0,
+            522
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -1.0,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 33,
+          "point": [
+            1864.0,
+            532
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 34,
+          "point": [
+            1865.5,
+            533
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 58,
+          "point": [
+            1851.0,
+            557
+          ],
+          "previous_dx": -1.0,
+          "next_dx": 0.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 14,
+          "point": [
+            1834.0,
+            633
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 15,
+          "point": [
+            1835.5,
+            634
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 24,
+          "point": [
+            1837.0,
+            643
+          ],
+          "previous_dx": 1.5,
+          "next_dx": -0.5,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 32,
+          "point": [
+            1838.0,
+            651
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 33,
+          "point": [
+            1840.0,
+            652
+          ],
+          "previous_dx": 2.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 1,
+          "point": [
+            1928.0,
+            500
+          ],
+          "previous_dx": 2.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 6,
+          "point": [
+            1931.0,
+            505
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 7,
+          "point": [
+            1933.0,
+            506
+          ],
+          "previous_dx": 2.0,
+          "next_dx": 0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 13,
+          "point": [
+            1935.0,
+            512
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 51,
+          "point": [
+            1945.0,
+            550
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 52,
+          "point": [
+            1947.0,
+            551
+          ],
+          "previous_dx": 2.0,
+          "next_dx": 0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 74,
+          "point": [
+            1957.5,
+            573
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 75,
+          "point": [
+            1959.0,
+            574
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 82,
+          "point": [
+            1960.5,
+            581
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 8,
+          "point": [
+            1964.0,
+            626
+          ],
+          "previous_dx": -1.0,
+          "next_dx": 1.0,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 20,
+          "point": [
+            1964.0,
+            638
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "threshold": 128,
+      "flag_count": 30,
+      "flags": [
+        {
+          "segment": 0,
+          "index": 33,
+          "point": [
+            1864.0,
+            532
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 34,
+          "point": [
+            1865.5,
+            533
+          ],
+          "previous_dx": 1.5,
+          "next_dx": -0.5,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 80,
+          "point": [
+            1840.5,
+            579
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 81,
+          "point": [
+            1841.5,
+            580
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 96,
+          "point": [
+            1838.0,
+            595
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -1.0,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 1,
+          "point": [
+            1835.0,
+            619
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 2,
+          "point": [
+            1836.5,
+            620
+          ],
+          "previous_dx": 1.5,
+          "next_dx": -0.5,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 16,
+          "point": [
+            1835.5,
+            634
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 25,
+          "point": [
+            1837.0,
+            643
+          ],
+          "previous_dx": 1.5,
+          "next_dx": -0.5,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 34,
+          "point": [
+            1840.0,
+            652
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 36,
+          "point": [
+            1839.5,
+            654
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 1,
+          "point": [
+            1928.0,
+            500
+          ],
+          "previous_dx": 2.5,
+          "next_dx": 0.5,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 6,
+          "point": [
+            1931.0,
+            505
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 7,
+          "point": [
+            1933.0,
+            506
+          ],
+          "previous_dx": 2.0,
+          "next_dx": 0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 14,
+          "point": [
+            1934.5,
+            513
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 15,
+          "point": [
+            1936.5,
+            514
+          ],
+          "previous_dx": 2.0,
+          "next_dx": 0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 24,
+          "point": [
+            1936.5,
+            523
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 25,
+          "point": [
+            1938.0,
+            524
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 37,
+          "point": [
+            1935.5,
+            536
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 51,
+          "point": [
+            1945.0,
+            550
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 58,
+          "point": [
+            1949.5,
+            557
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 66,
+          "point": [
+            1953.5,
+            565
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 67,
+          "point": [
+            1955.5,
+            566
+          ],
+          "previous_dx": 2.0,
+          "next_dx": 0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 74,
+          "point": [
+            1957.5,
+            573
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 83,
+          "point": [
+            1960.5,
+            582
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 84,
+          "point": [
+            1962.0,
+            583
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 92,
+          "point": [
+            1963.0,
+            591
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 103,
+          "point": [
+            1963.5,
+            602
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 8,
+          "point": [
+            1964.5,
+            626
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 20,
+          "point": [
+            1964.0,
+            638
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "threshold": 160,
+      "flag_count": 26,
+      "flags": [
+        {
+          "segment": 0,
+          "index": 34,
+          "point": [
+            1865.5,
+            533
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 57,
+          "point": [
+            1851.5,
+            556
+          ],
+          "previous_dx": -1.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 58,
+          "point": [
+            1853.0,
+            557
+          ],
+          "previous_dx": 1.5,
+          "next_dx": -1.5,
+          "second_difference_pixel": -3.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 80,
+          "point": [
+            1840.5,
+            579
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 81,
+          "point": [
+            1841.5,
+            580
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 0,
+          "index": 96,
+          "point": [
+            1838.0,
+            595
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -1.0,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 2,
+          "point": [
+            1836.0,
+            620
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 16,
+          "point": [
+            1835.5,
+            634
+          ],
+          "previous_dx": 1.0,
+          "next_dx": -0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 34,
+          "point": [
+            1840.0,
+            652
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 36,
+          "point": [
+            1839.5,
+            654
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 1,
+          "index": 40,
+          "point": [
+            1842.5,
+            658
+          ],
+          "previous_dx": 0.5,
+          "next_dx": 2.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 6,
+          "point": [
+            1931.0,
+            505
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 14,
+          "point": [
+            1935.0,
+            513
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 24,
+          "point": [
+            1937.0,
+            523
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.5,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 25,
+          "point": [
+            1938.5,
+            524
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 37,
+          "point": [
+            1935.5,
+            536
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 58,
+          "point": [
+            1949.5,
+            557
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 59,
+          "point": [
+            1951.5,
+            558
+          ],
+          "previous_dx": 2.0,
+          "next_dx": 0.0,
+          "second_difference_pixel": -2.0,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 66,
+          "point": [
+            1953.5,
+            565
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 67,
+          "point": [
+            1955.5,
+            566
+          ],
+          "previous_dx": 2.0,
+          "next_dx": 0.5,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 83,
+          "point": [
+            1960.5,
+            582
+          ],
+          "previous_dx": 0.0,
+          "next_dx": 1.5,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 84,
+          "point": [
+            1962.0,
+            583
+          ],
+          "previous_dx": 1.5,
+          "next_dx": 0.0,
+          "second_difference_pixel": -1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 92,
+          "point": [
+            1962.5,
+            591
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 2,
+          "index": 103,
+          "point": [
+            1963.5,
+            602
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 2.0,
+          "second_difference_pixel": 2.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 8,
+          "point": [
+            1964.5,
+            626
+          ],
+          "previous_dx": -0.5,
+          "next_dx": 1.0,
+          "second_difference_pixel": 1.5,
+          "semantic_identity_verified": false
+        },
+        {
+          "segment": 3,
+          "index": 20,
+          "point": [
+            1963.5,
+            638
+          ],
+          "previous_dx": -1.0,
+          "next_dx": 1.0,
+          "second_difference_pixel": 2.0,
+          "semantic_identity_verified": false
+        }
+      ]
+    }
+  ],
+  "method": "Zweite horizontale Differenz bei1PixelZeilenabstand; Betrag>1Pixel markiert. Originalpunkte unveraendert.",
+  "limits": [
+    "Heuristische Kandidaten, keine automatische Schraffuridentifikation.",
+    "Echte Konturstufen/Kruemmung koennen ebenfalls markiert werden; kein automatisches Loeschen oder Glaetten.",
+    "Kein Toleranznachweis, keine neue Konturgeometrie oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

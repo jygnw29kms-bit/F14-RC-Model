@@ -1,0 +1,21 @@
+{
+  "status": "B_PROFILORTE_VOR_MESSUNG_VISUELL_SELEKTIERT",
+  "sites": [
+    {
+      "y": 550,
+      "segment": 0,
+      "used": true,
+      "reason": "Strich zwischen sichtbaren Schraffuranschluessen; lokal isolierter Kandidat."
+    },
+    {
+      "y": 580,
+      "segment": 2,
+      "used": false,
+      "reason": "Zu nah an sichtbarer Schraffurvereinigung; nicht als isolierte Probe verwendet."
+    }
+  ],
+  "limits": [
+    "Lokale visuelle Auswahl, keine vollstaendige Kontur oder exakte Originalstrichmitte."
+  ],
+  "production_release": false
+}

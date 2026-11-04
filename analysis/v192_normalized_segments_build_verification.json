@@ -1,0 +1,22 @@
+{
+  "status": "17_SEGMENT_BUILD_SCOPE_HASHES_AND_PROFILE_CONTINUITY_VERIFIED",
+  "build_report_sha256": "9954b4d24abf7792f18a3cdb8fcd62797dae307bf4857c8c39fbc24d17fb7985",
+  "segment_count": 17,
+  "shared_profile_count": 18,
+  "span_mm": [
+    180,
+    440
+  ],
+  "max_endpoint_pole_shift_mm": 3.037866744287243e-07,
+  "max_absolute_two_reference_flux_change_mm3": 2.7284841053187847e-11,
+  "all_segment_two_reference_changes_below1e_minus5_mm3": true,
+  "max_native_segment_tolerance_mm": 9.750905861431712e-06,
+  "sum_default_segment_volumes_mm3": 145748.48751042318,
+  "limits": [
+    "Shared input profile data and tiling verified; actual adjacent face contacts and no-overlap still unmeasured",
+    "No full wing containment, deviation, fused-cavity volume or split acceptance",
+    "Native numerical results not rigorous absolute error bounds; no master promotion"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

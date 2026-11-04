@@ -1,0 +1,24 @@
+{
+  "status": "PRIMAERE_ELLI_NORMALFORM_VISUELL_BESTAETIGT",
+  "source": {
+    "file": "NASA_19760017064_quick_geometry.pdf",
+    "sha256": "ff134abc4cead592a99aa8a03487d0727dec801d8f7fe73f9ecc663558f7e3be",
+    "pdf_page": 118,
+    "printed_page": 112,
+    "table": "AI"
+  },
+  "equation": "(y-y0)^2/A^2 + (z-z0)^2/B^2 = 1",
+  "visual_findings": [
+    "Rechte Seite ist eindeutig 1, nicht 0.",
+    "ELLI: Ellipse, konkav zum Ursprung; ELLO: konvex zum Ursprung, gleiche Gleichung.",
+    "Linie allein durch Endpunkte definiert; Ellipse braucht zusaetzlichen Steigungskontrollpunkt.",
+    "Querschnittsboegen werden von unten nach oben geordnet."
+  ],
+  "implication": "Die normalisierte achsenparallele Ellipsenform der getrennten Halbsektionsstudie stimmt mit dieser primaeren QUICK-Form ueberein. Die degenerierte Null-Rechte-Seite aus CR3243 wird nicht als Implementierungsform verwendet.",
+  "limits": [
+    "Diese Seite belegt nicht die vollstaendige Kontrollpunkt-zu-Mittelpunkt-Routine.",
+    "ELLI-Zweigwahl fuer die F14, Versionsgleichheit und physische Einheiten bleiben gesondert zu pruefen.",
+    "Kein Herstellerhaut-, UPC-Registrierungs- oder Produktionsnachweis."
+  ],
+  "production_release": false
+}

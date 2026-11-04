@@ -1,0 +1,29 @@
+{
+  "status": "CONDITIONAL_PARTIAL_OUTBOARD_SOLID_SAVED_REOPENED",
+  "input_sha256": {
+    "NASA_CR172559_20deg_root_break_profiles.json": "bde70e26a12fa71a4969846dfe1455baf66f7226beeec211e5384ba0518b939f",
+    "NASA_CR172559_combined20_span164p01460_profile.json": "08d7c20e2f1e6ffaea7d6d9ac113077686e48a77974ebb3fe735bf6251f036b9",
+    "NASA_CR172559_combined20_span200p79919_profile.json": "e5a41da8a4f38d547400650a88fc4610ded53657be3743c13574a22c59070816"
+  },
+  "output_sha256": "a06106e97723cd99b2e11ff0ae37b92da6b14bd40abf1214376406dd3dd8a729",
+  "master_sha256_unchanged": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "source_span_range": [
+    127.24,
+    200.79919
+  ],
+  "valid": true,
+  "solids": 1,
+  "faces": 200,
+  "native_volume_display_units_cubed": 62534.80615345168,
+  "independent_prismoidal_volume": 62534.806153451296,
+  "volume_difference": 3.8562575355172157e-10,
+  "limits": [
+    "Only three computational source sections; remaining tip stations absent",
+    "Ruled interpolation is a reconstruction choice",
+    "No bridge across127.22/127.24 break",
+    "Conditional source XYZ; display units not physical model scale",
+    "No factory OML, pivot/body registration or structural acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

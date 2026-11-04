@@ -1,0 +1,46 @@
+{"stage": "segment_start", "elapsed_seconds": 0.8889999389648438, "index": 0}
+{"stage": "containment_start", "elapsed_seconds": 0.9869999885559082, "index": 0}
+{"stage": "segment_done", "elapsed_seconds": 6.129000186920166, "index": 0, "object": "VOID_TOOL_0", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 6.130000114440918, "index": 1}
+{"stage": "containment_start", "elapsed_seconds": 6.216000080108643, "index": 1}
+{"stage": "segment_done", "elapsed_seconds": 11.604000329971313, "index": 1, "object": "VOID_TOOL_1", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 11.604000329971313, "index": 2}
+{"stage": "containment_start", "elapsed_seconds": 11.685999870300293, "index": 2}
+{"stage": "segment_done", "elapsed_seconds": 17.39199948310852, "index": 2, "object": "VOID_TOOL_2", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 17.39300036430359, "index": 3}
+{"stage": "containment_start", "elapsed_seconds": 17.46399998664856, "index": 3}
+{"stage": "segment_done", "elapsed_seconds": 23.58799958229065, "index": 3, "object": "VOID_TOOL_3", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 23.58799958229065, "index": 4}
+{"stage": "containment_start", "elapsed_seconds": 23.65999960899353, "index": 4}
+{"stage": "segment_done", "elapsed_seconds": 30.292999982833862, "index": 4, "object": "VOID_TOOL_4", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 30.294000148773193, "index": 5}
+{"stage": "containment_start", "elapsed_seconds": 30.365999698638916, "index": 5}
+{"stage": "segment_done", "elapsed_seconds": 37.484999895095825, "index": 5, "object": "VOID_TOOL_5", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 37.485999584198, "index": 6}
+{"stage": "containment_start", "elapsed_seconds": 37.55799961090088, "index": 6}
+{"stage": "segment_done", "elapsed_seconds": 45.31100010871887, "index": 6, "object": "VOID_TOOL_6", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 45.31100010871887, "index": 7}
+{"stage": "containment_start", "elapsed_seconds": 45.442999839782715, "index": 7}
+{"stage": "segment_done", "elapsed_seconds": 58.320000410079956, "index": 7, "object": "VOID_TOOL_7", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 58.320000410079956, "index": 8}
+{"stage": "containment_start", "elapsed_seconds": 58.44999957084656, "index": 8}
+{"stage": "segment_done", "elapsed_seconds": 72.72300028800964, "index": 8, "object": "VOID_TOOL_8", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 72.72300028800964, "index": 9}
+{"stage": "containment_start", "elapsed_seconds": 72.79499983787537, "index": 9}
+{"stage": "segment_done", "elapsed_seconds": 84.53699970245361, "index": 9, "object": "VOID_TOOL_9", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 84.53799986839294, "index": 10}
+{"stage": "containment_start", "elapsed_seconds": 84.66799998283386, "index": 10}
+{"stage": "segment_done", "elapsed_seconds": 100.06499981880188, "index": 10, "object": "VOID_TOOL_10", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 100.06499981880188, "index": 11}
+{"stage": "containment_start", "elapsed_seconds": 100.1899995803833, "index": 11}
+{"stage": "segment_done", "elapsed_seconds": 117.33799958229065, "index": 11, "object": "VOID_TOOL_11", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 117.33900046348572, "index": 12}
+{"stage": "containment_start", "elapsed_seconds": 117.40900039672852, "index": 12}
+{"stage": "segment_done", "elapsed_seconds": 130.38799953460693, "index": 12, "object": "VOID_TOOL_12", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 130.38799953460693, "index": 13}
+{"stage": "containment_start", "elapsed_seconds": 130.45900011062622, "index": 13}
+{"stage": "segment_done", "elapsed_seconds": 141.85800075531006, "index": 13, "object": "VOID_TOOL_13", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 141.85800075531006, "index": 14}
+{"stage": "containment_start", "elapsed_seconds": 141.97799968719482, "index": 14}
+{"stage": "segment_done", "elapsed_seconds": 157.23000073432922, "index": 14, "object": "VOID_TOOL_14", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "complete", "elapsed_seconds": 157.31200003623962, "checked": 15, "remaining": [15, 16]}

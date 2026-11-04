@@ -1,0 +1,52 @@
+{
+  "status": "TWO_PRIMARY_ROOT_HEADERS_VISUALLY_COMPARED_DISCREPANCY_PRESERVED",
+  "sources": [
+    {
+      "report": "CR172559",
+      "pdf_page": 38,
+      "printed_page": 28,
+      "table": "Table4 Sheet2 isolated20deg",
+      "sha256": "266ae1d71b32afcb7a44ea41e275669b98338f42bc62fb79d33a815c45ed1d5e"
+    },
+    {
+      "report": "CR3992",
+      "pdf_page": 143,
+      "printed_page": 136,
+      "appendix": "Basic Grumman wing root",
+      "sha256": "ae439b784b984b0c95b9df117ae0c5ad5d6adc7025a1f7b115b41a260fce4b18"
+    }
+  ],
+  "CR172559_raw_header": [
+    502.80542,
+    127.23,
+    629.37012,
+    0,
+    1,
+    159.93018
+  ],
+  "CR3992_explicit_header": {
+    "WBL": 127.23,
+    "leading_edge_X": 502.90542,
+    "trailing_edge_X": 629.37012,
+    "reference_vertical_loc": 159.93018
+  },
+  "differences_CR172559_minus_CR3992": {
+    "span": 0.0,
+    "leading_edge_X": -0.0999999999999659,
+    "trailing_edge_X": 0.0,
+    "sixth_field_vs_explicit_vertical_reference": 0.0
+  },
+  "visual_checks": [
+    "CR172559 original reads502.80542, not502.90542",
+    "CR3992 original explicitly reads502.90542",
+    "Both trailing edge629.37012, span127.23 and vertical number159.93018 match"
+  ],
+  "interpretation": "Direct primary-source support for a sixth-field vertical-reference hypothesis at this station, but a leading-edge discrepancy prevents treating the definitions as identical. Exact F14 reader transform and pivot WL remain unverified.",
+  "limits": [
+    "Do not silently replace CR3992-based master leading edge with older report value",
+    "Do not average the leading edges or infer a factory correction",
+    "One matching vertical reference is not proof of field semantics at every station or body datum",
+    "No geometry or registration freeze"
+  ],
+  "production_release": false
+}

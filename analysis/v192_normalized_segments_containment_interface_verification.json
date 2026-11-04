@@ -1,0 +1,19 @@
+{
+  "status": "17_SEGMENT_AND16_INTERFACE_SCOPE_HASHES_AND_SCREEN_RESULTS_VERIFIED",
+  "input_report_sha256": "b2b89724ec358be0d0c4683765e24e666937b6cad86cb6546e8800a6ecdf64fb",
+  "all_native_exact_checks_valid": true,
+  "all_measured_curve_distances_within_stored_tolerance": true,
+  "maximum_measured_curve_surface_distance_mm": 9.286577124437872e-06,
+  "max_outside_current_wing_volume_mm3": 0.0,
+  "minimum_current_wing_boundary_distance_mm": 0.40332746734912006,
+  "max_adjacent_solid_overlap_mm3": 0.0,
+  "minimum_shared_face_common_area_mm2": 173.01447756454422,
+  "maximum_absolute_cap_area_minus_common_mm2": 5.684341886080801e-13,
+  "limits": [
+    "Only declared local native numerical screens, not manufacturing or exact geometry certification",
+    "No global original-shape deviation, fused-cavity balance, wing subtraction or partition volume acceptance",
+    "Current wing master OML remains unverified; no master promotion"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

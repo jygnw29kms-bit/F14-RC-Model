@@ -1,0 +1,54 @@
+{
+  "status": "NUMERICAL_INBOARD_COMBINED_WING_GLOVE_INPUT_IDENTIFIED_NOT_YET_RECONSTRUCTED",
+  "source_url": "https://ntrs.nasa.gov/api/citations/19850015391/downloads/19850015391.pdf",
+  "source_sha256": "266ae1d71b32afcb7a44ea41e275669b98338f42bc62fb79d33a815c45ed1d5e",
+  "context_pdf_page": 15,
+  "context_printed_page": 5,
+  "table_pdf_page": 20,
+  "table_printed_page": 10,
+  "table": "Table1 Sheet1/9 A99WBG F14-20",
+  "review_image_sha256": "620f0f0ba00aedca6d94d3fbab5a45460a7e616f5ef5b9b63b421f8dbe727f41",
+  "visually_checked_initial_section_header_rows": [
+    [
+      187.90012,
+      0,
+      623.70898,
+      0,
+      1,
+      162.70581
+    ],
+    [
+      357.44357,
+      68.5,
+      626.75684,
+      0,
+      1,
+      161.21141
+    ],
+    [
+      432.93372,
+      99,
+      628.11401,
+      0,
+      1,
+      160.54604
+    ]
+  ],
+  "interpretation_status": "Raw header fields checked visually; expected LE/span/TE/reference-height mapping requires input-convention verification before CAD.",
+  "context_findings": [
+    "Report describes separate20/25/35degree wing-fuselage-glove analysis inputs.",
+    "Fixed inboard glove planform has68degree leading edge; streamwise profiles combine fixed forward glove and sweep-dependent rear outer-panel contours.",
+    "Tables1..3 include inboard profiles preceding the already used outboard basic-wing stations.",
+    "Three source header rows alone are not a recovered closed glove surface; third profile continues onto next sheet."
+  ],
+  "next_steps": [
+    "Recover common50-point chord grid and complete upper/lower arrays, preserving page joins and OCR repairs.",
+    "Compare corresponding20/25/35degree inboard data to separate invariant fixed-glove regions from sweep-dependent blend.",
+    "Cross-check shared outboard headers against explicit FS/WBL/WL CR3992 data and verify WBPPW field conventions before common-frame inference.",
+    "Construct only separate source-derived reference candidate before any body union or rootbridge clearance claim."
+  ],
+  "full_glove_recovered": false,
+  "physical_registration_verified": false,
+  "master_change_allowed": false,
+  "production_release": false
+}

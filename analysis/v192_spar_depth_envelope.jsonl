@@ -1,0 +1,25 @@
+{"stage": "section", "y": 155}
+{"stage": "vertical_intersection", "y": 155, "fraction": 0.25}
+{"stage": "vertical_intersection", "y": 155, "fraction": 0.35}
+{"stage": "vertical_intersection", "y": 155, "fraction": 0.45}
+{"stage": "section", "y": 180}
+{"stage": "vertical_intersection", "y": 180, "fraction": 0.25}
+{"stage": "vertical_intersection", "y": 180, "fraction": 0.35}
+{"stage": "vertical_intersection", "y": 180, "fraction": 0.45}
+{"stage": "section", "y": 220}
+{"stage": "vertical_intersection", "y": 220, "fraction": 0.25}
+{"stage": "vertical_intersection", "y": 220, "fraction": 0.35}
+{"stage": "vertical_intersection", "y": 220, "fraction": 0.45}
+{"stage": "section", "y": 300}
+{"stage": "vertical_intersection", "y": 300, "fraction": 0.25}
+{"stage": "vertical_intersection", "y": 300, "fraction": 0.35}
+{"stage": "vertical_intersection", "y": 300, "fraction": 0.45}
+{"stage": "section", "y": 380}
+{"stage": "vertical_intersection", "y": 380, "fraction": 0.25}
+{"stage": "vertical_intersection", "y": 380, "fraction": 0.35}
+{"stage": "vertical_intersection", "y": 380, "fraction": 0.45}
+{"stage": "section", "y": 440}
+{"stage": "vertical_intersection", "y": 440, "fraction": 0.25}
+{"stage": "vertical_intersection", "y": 440, "fraction": 0.35}
+{"stage": "vertical_intersection", "y": 440, "fraction": 0.45}
+{"stage": "complete", "rows": 18}

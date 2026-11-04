@@ -1,0 +1,211 @@
+{
+  "status": "AUXILIARY_RIGID_Y_PATH_BOUNDS_MEASURED",
+  "input_sha256_unchanged": {
+    "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd": "11c67cf2b9ff7c13fbbde83506d0fe79a4292b210cbfc78f725aecc67126c44f",
+    "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0"
+  },
+  "translation_range_mm": [
+    0,
+    5
+  ],
+  "rows": [
+    {
+      "moving": "TIP_CARRIER",
+      "sweptY": [
+        300.2,
+        315.0
+      ],
+      "tests": [
+        {
+          "fixed": "ROOT_CARRIER",
+          "method": "disjointY",
+          "gap_lower_bound_mm": 0.19999999999998863,
+          "covered": true
+        },
+        {
+          "fixed": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+          "method": "disjointY",
+          "gap_lower_bound_mm": 0.19999999999998863,
+          "covered": true
+        },
+        {
+          "fixed": "GEOMETRIC_BOND_0",
+          "method": "disjointY",
+          "gap_lower_bound_mm": 0.39999999999997726,
+          "covered": true
+        },
+        {
+          "fixed": "SLEEVE",
+          "method": "radial_exclusion_invariant_underYtranslation",
+          "overlap_long_radius2_cylinder_mm3": 0.0,
+          "covered": true
+        },
+        {
+          "fixed": "UNFROZEN_FLANGED_WEB",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 17.96125931869574,
+          "covered": true
+        },
+        {
+          "fixed": "GEOMETRIC_LOWER_BOND_0p1",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 17.96125931869574,
+          "covered": true
+        },
+        {
+          "fixed": "GEOMETRIC_UPPER_BOND_0p1",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 17.96125931869574,
+          "covered": true
+        },
+        {
+          "fixed": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 14.041259318695666,
+          "covered": true
+        },
+        {
+          "fixed": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 14.041259318695666,
+          "covered": true
+        }
+      ]
+    },
+    {
+      "moving": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "sweptY": [
+        300.2,
+        315.0
+      ],
+      "tests": [
+        {
+          "fixed": "ROOT_CARRIER",
+          "method": "disjointY",
+          "gap_lower_bound_mm": 0.19999999999998863,
+          "covered": true
+        },
+        {
+          "fixed": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+          "method": "disjointY",
+          "gap_lower_bound_mm": 0.19999999999998863,
+          "covered": true
+        },
+        {
+          "fixed": "GEOMETRIC_BOND_0",
+          "method": "disjointY",
+          "gap_lower_bound_mm": 0.39999999999997726,
+          "covered": true
+        },
+        {
+          "fixed": "SLEEVE",
+          "method": "radial_exclusion_invariant_underYtranslation",
+          "overlap_long_radius2_cylinder_mm3": 0.0,
+          "covered": true
+        },
+        {
+          "fixed": "UNFROZEN_FLANGED_WEB",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 17.96125931869574,
+          "covered": true
+        },
+        {
+          "fixed": "GEOMETRIC_LOWER_BOND_0p1",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 17.96125931869574,
+          "covered": true
+        },
+        {
+          "fixed": "GEOMETRIC_UPPER_BOND_0p1",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 17.96125931869574,
+          "covered": true
+        },
+        {
+          "fixed": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 14.041259318695666,
+          "covered": true
+        },
+        {
+          "fixed": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 14.041259318695666,
+          "covered": true
+        }
+      ]
+    },
+    {
+      "moving": "GEOMETRIC_BOND_1",
+      "sweptY": [
+        300.2,
+        309.0
+      ],
+      "tests": [
+        {
+          "fixed": "ROOT_CARRIER",
+          "method": "disjointY",
+          "gap_lower_bound_mm": 0.19999999999998863,
+          "covered": true
+        },
+        {
+          "fixed": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+          "method": "disjointY",
+          "gap_lower_bound_mm": 0.19999999999998863,
+          "covered": true
+        },
+        {
+          "fixed": "GEOMETRIC_BOND_0",
+          "method": "disjointY",
+          "gap_lower_bound_mm": 0.39999999999997726,
+          "covered": true
+        },
+        {
+          "fixed": "SLEEVE",
+          "method": "radial_exclusion_invariant_underYtranslation",
+          "overlap_long_radius2_cylinder_mm3": 0.0,
+          "covered": true
+        },
+        {
+          "fixed": "UNFROZEN_FLANGED_WEB",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 21.375105749508975,
+          "covered": true
+        },
+        {
+          "fixed": "GEOMETRIC_LOWER_BOND_0p1",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 21.375105749508975,
+          "covered": true
+        },
+        {
+          "fixed": "GEOMETRIC_UPPER_BOND_0p1",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 21.375105749508975,
+          "covered": true
+        },
+        {
+          "fixed": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 17.359105749509013,
+          "covered": true
+        },
+        {
+          "fixed": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "method": "optimalGeometryBoundsDisjointXWithinSweptYSlab",
+          "x_gap_lower_bound_mm": 17.359105749509013,
+          "covered": true
+        }
+      ]
+    }
+  ],
+  "all_pairs_covered": true,
+  "limits": [
+    "Bounds rely on native shape/tolerance calculations; not exact arithmetic certificate",
+    "Only three auxiliary tip objects vs nine fixed objects; tip skin scope handled separately",
+    "No adhesive process, access/tooling, tolerance or strength acceptance",
+    "Source partition volume gate blocked"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

@@ -1,0 +1,26 @@
+{
+  "status": "CANOPY_STUDIE_GESPERRT_DIREKT_ELLY_NICHT_ELLIPTISCH",
+  "rejected_source_segment": {
+    "shape": "ELLY",
+    "start": [
+      313,
+      203
+    ],
+    "end": [
+      352,
+      199.5
+    ],
+    "control": [
+      331,
+      203
+    ]
+  },
+  "error": "Keine achsenparallele Ellipse",
+  "limits": [
+    "Die bisherige Tangentenschnittpunkt-/achsenparallele-Conic-Hypothese ergibt hier keine Ellipse.",
+    "Quelle nicht aendern, nicht zu LINE/Parabel glaetten und keinen Zweig erzwingen.",
+    "Dies belegt eine Grenze der Studieninterpretation, keinen Fehler der NASA-Tabelle.",
+    "Keine zehn Canopybogen-Pruefungen ausgefuehrt; keine neue Geometrie oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

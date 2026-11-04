@@ -1,0 +1,10 @@
+{"stage": "build_concept", "elapsed_seconds": 0.5129997730255127}
+{"stage": "root_contact_start", "elapsed_seconds": 0.5309998989105225}
+{"stage": "root_contact_done", "elapsed_seconds": 0.9770007133483887}
+{"stage": "packaging_start", "elapsed_seconds": 0.9780004024505615, "sweep": 20}
+{"stage": "packaging_done", "elapsed_seconds": 1.921999454498291, "sweep_deg": 20, "outside_current_body_or_moving_wing_volume_mm3": 18967.98067322959}
+{"stage": "packaging_start", "elapsed_seconds": 1.921999454498291, "sweep": 44}
+{"stage": "packaging_done", "elapsed_seconds": 2.862999439239502, "sweep_deg": 44, "outside_current_body_or_moving_wing_volume_mm3": 18997.869774011266}
+{"stage": "packaging_start", "elapsed_seconds": 2.862999439239502, "sweep": 68}
+{"stage": "packaging_done", "elapsed_seconds": 3.8189990520477295, "sweep_deg": 68, "outside_current_body_or_moving_wing_volume_mm3": 18951.16197923457}
+{"stage": "complete", "elapsed_seconds": 3.8459997177124023}

@@ -1,0 +1,69 @@
+{
+  "status": "GAUSS_COMPLETENESS_AND_HIGH_PRECISION_METHOD_COMPARISON_VERIFIED",
+  "evidence_sha256": {
+    "v192_partition_common_point_gauss_flux.json": "8e8848e54642483c89e6366c42df488842d86ebfdabd4b0267f0233eb4309ab6",
+    "v192_partition_flux_reference_epsilon_geometric_seams.json": "bb9058ecbbcd3125a513ded4611769a13e6f6617c8a57c11b6cba9f840e42b49",
+    "v192_partition_all_faces_common_point_flux.json": "001ef416dc9ba72a446d3fbb32a3f35d5ed80385ea2f0427ab42b54f844dac15"
+  },
+  "gauss_balance_residuals_mm3": [
+    6.668865535175428e-05,
+    -1.0846997611224651e-07,
+    2.440428943373263e-07
+  ],
+  "comparisons": [
+    {
+      "reference_point_mm": [
+        700,
+        280,
+        0
+      ],
+      "gauss_minus_GK_by_object_mm3": [
+        {
+          "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+          "difference": 7.802736945450306e-08
+        },
+        {
+          "object": "BLOCKED_PART_0",
+          "difference": 1.7756246961653233e-07
+        },
+        {
+          "object": "BLOCKED_PART_1",
+          "difference": -1.3246244634501636e-07
+        }
+      ]
+    },
+    {
+      "reference_point_mm": [
+        700,
+        300,
+        0
+      ],
+      "gauss_minus_GK_by_object_mm3": [
+        {
+          "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+          "difference": 7.001290214248002e-07
+        },
+        {
+          "object": "BLOCKED_PART_0",
+          "difference": 2.119049895554781e-07
+        },
+        {
+          "object": "BLOCKED_PART_1",
+          "difference": -9.454743121750653e-08
+        }
+      ]
+    }
+  ],
+  "gauss_reference_point_changes_at1e11_mm3": [
+    0.0005059692120994441,
+    0.000347110973962117,
+    0.0001592107473697979
+  ],
+  "limits": [
+    "High precision Gauss and GK agree locally but both retain reference-point sensitivity of individual volumes",
+    "Shared geometry/integration infrastructure prevents treating agreement as independent exact proof",
+    "No numerical guard relaxation or print/flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

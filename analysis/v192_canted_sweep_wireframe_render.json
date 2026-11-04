@@ -1,0 +1,17 @@
+{
+  "status": "NATIVE_EDGE_DATA_WIREFRAME_RENDER_PREPARED_FOR_VISUAL_REVIEW",
+  "input_sha256": "0e0c183ff00e06cdc1c778e93a2ace06f63cf7736735b6861be99f5dfeb7aa12",
+  "output_sha256": "fdf2cf1bc6248e149b2cac9c8717398e80057442ea0741e7880a6a53bd688ab5",
+  "limits": [
+    "Sampled wireframe, independent plot axis scales, no hidden-line removal.",
+    "No CAD screenshot, dimensional image registration or engineering release."
+  ],
+  "production_release": false,
+  "visual_review_completed": true,
+  "visual_observations": [
+    "Top-view left/right sampled wing poses appear mirrored at all three labels.",
+    "Side projections overlap for the mirrored pair, so orange lines cover blue; not evidence of missing geometry.",
+    "First render axis overflow corrected by including axis endpoints in shared plot bounds; second render checked.",
+    "Independent axis scales and provisional Z0/absence of release explicitly labelled."
+  ]
+}

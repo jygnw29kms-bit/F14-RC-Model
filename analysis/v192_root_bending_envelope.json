@@ -1,0 +1,113 @@
+{
+  "status": "CONDITIONAL_STATIC_POSITIVE_LIFT_LOAD_ENVELOPE_NOT_STRESS_ANALYSIS",
+  "inputs_sha256": {
+    "analysis\\v192_root_loadpath_preparation.json": "2870df4ba72c73fa54592d93e79a82d131a246580fb5fd9b7e6324ccaa6becef",
+    "analysis\\v192_canted_sweep_reference_build.json": "3c96555ca7e73961ab5ac77f81e16198c610a064c523ae70d5ca505e1bf365fd"
+  },
+  "current_cad_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "reference_y_mm": {
+    "pivot": 125.20927023775282,
+    "wing_root": 148.82637754436928,
+    "wing_tip": 449.99999999999994
+  },
+  "assumptions": [
+    "All assigned vertical lift is nonnegative and acts between root and tip at baseline20 pose",
+    "Tip-concentrated force bounds first moment for that nonnegative load; not measured or simulated lift distribution",
+    "16mm couple separation is historical unfrozen concept height, not verified contact-center spacing; no shaft or bearing sizing release"
+  ],
+  "formulae": [
+    "M_root_upper=F*(Ytip-Yroot)",
+    "M_pivot_upper=F*(Ytip-Ypivot)",
+    "Ideal pure couple member force=M_pivot/h, h=16mm; shear superposition not included"
+  ],
+  "cases": [
+    {
+      "assumed_mass_kg": 1.05,
+      "load_factor": 6,
+      "assigned_side_lift_fraction": 0.5,
+      "assigned_side_vertical_force_N": 30.890947500000003,
+      "additional_pivot_moment_from_reference_root_gap_Nm": 0.7295548219105565,
+      "conditional_root_section_bending_upper_bound_Nm": 9.303538559661709,
+      "conditional_pivot_bending_upper_bound_Nm": 10.033093381572264,
+      "ideal_couple_force_from_moment_upper_bound_N_at_assumed_16mm": 627.0683363482665
+    },
+    {
+      "assumed_mass_kg": 1.05,
+      "load_factor": 6,
+      "assigned_side_lift_fraction": 0.7,
+      "assigned_side_vertical_force_N": 43.2473265,
+      "additional_pivot_moment_from_reference_root_gap_Nm": 1.0213767506747788,
+      "conditional_root_section_bending_upper_bound_Nm": 13.024953983526391,
+      "conditional_pivot_bending_upper_bound_Nm": 14.046330734201169,
+      "ideal_couple_force_from_moment_upper_bound_N_at_assumed_16mm": 877.895670887573
+    },
+    {
+      "assumed_mass_kg": 1.05,
+      "load_factor": 8,
+      "assigned_side_lift_fraction": 0.5,
+      "assigned_side_vertical_force_N": 41.18793,
+      "additional_pivot_moment_from_reference_root_gap_Nm": 0.9727397625474086,
+      "conditional_root_section_bending_upper_bound_Nm": 12.404718079548944,
+      "conditional_pivot_bending_upper_bound_Nm": 13.377457842096351,
+      "ideal_couple_force_from_moment_upper_bound_N_at_assumed_16mm": 836.091115131022
+    },
+    {
+      "assumed_mass_kg": 1.05,
+      "load_factor": 8,
+      "assigned_side_lift_fraction": 0.7,
+      "assigned_side_vertical_force_N": 57.663101999999995,
+      "additional_pivot_moment_from_reference_root_gap_Nm": 1.3618356675663716,
+      "conditional_root_section_bending_upper_bound_Nm": 17.36660531136852,
+      "conditional_pivot_bending_upper_bound_Nm": 18.72844097893489,
+      "ideal_couple_force_from_moment_upper_bound_N_at_assumed_16mm": 1170.5275611834306
+    },
+    {
+      "assumed_mass_kg": 1.2,
+      "load_factor": 6,
+      "assigned_side_lift_fraction": 0.5,
+      "assigned_side_vertical_force_N": 35.30394,
+      "additional_pivot_moment_from_reference_root_gap_Nm": 0.8337769393263501,
+      "conditional_root_section_bending_upper_bound_Nm": 10.632615496756236,
+      "conditional_pivot_bending_upper_bound_Nm": 11.466392436082586,
+      "ideal_couple_force_from_moment_upper_bound_N_at_assumed_16mm": 716.6495272551616
+    },
+    {
+      "assumed_mass_kg": 1.2,
+      "load_factor": 6,
+      "assigned_side_lift_fraction": 0.7,
+      "assigned_side_vertical_force_N": 49.425515999999995,
+      "additional_pivot_moment_from_reference_root_gap_Nm": 1.1672877150568899,
+      "conditional_root_section_bending_upper_bound_Nm": 14.885661695458731,
+      "conditional_pivot_bending_upper_bound_Nm": 16.05294941051562,
+      "ideal_couple_force_from_moment_upper_bound_N_at_assumed_16mm": 1003.3093381572262
+    },
+    {
+      "assumed_mass_kg": 1.2,
+      "load_factor": 8,
+      "assigned_side_lift_fraction": 0.5,
+      "assigned_side_vertical_force_N": 47.07192,
+      "additional_pivot_moment_from_reference_root_gap_Nm": 1.1117025857684668,
+      "conditional_root_section_bending_upper_bound_Nm": 14.17682066234165,
+      "conditional_pivot_bending_upper_bound_Nm": 15.288523248110113,
+      "ideal_couple_force_from_moment_upper_bound_N_at_assumed_16mm": 955.5327030068821
+    },
+    {
+      "assumed_mass_kg": 1.2,
+      "load_factor": 8,
+      "assigned_side_lift_fraction": 0.7,
+      "assigned_side_vertical_force_N": 65.90068799999999,
+      "additional_pivot_moment_from_reference_root_gap_Nm": 1.5563836200758532,
+      "conditional_root_section_bending_upper_bound_Nm": 19.847548927278304,
+      "conditional_pivot_bending_upper_bound_Nm": 21.403932547354156,
+      "ideal_couple_force_from_moment_upper_bound_N_at_assumed_16mm": 1337.7457842096348
+    }
+  ],
+  "limits": [
+    "Does not bound loads with signed span distribution, dynamic impacts, torsion, maneuver asymmetry beyond selected cases, drag or inertial relief",
+    "Not material stress, buckling, fatigue, joint strength, FOS, hardware acceptance or proof test",
+    "Pivot Z and actual load-transfer contact geometry unresolved",
+    "No CAD modification or production release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

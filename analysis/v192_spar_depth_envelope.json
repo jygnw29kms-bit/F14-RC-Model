@@ -1,0 +1,230 @@
+{
+  "status": "NATIVE_READ_ONLY_VERTICAL_OUTER_DEPTH_SAMPLES",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "rows": [
+    {
+      "y_mm": 155,
+      "fraction_of_section_X_bounds": 0.25,
+      "x_mm": 626.9784054253179,
+      "section_X_bounds_mm": [
+        590.4792689195656,
+        736.4758149425749
+      ],
+      "z_bottom_mm": -5.054937398709498,
+      "z_top_mm": 8.705194025161376,
+      "vertical_outer_depth_mm": 13.760131423870874
+    },
+    {
+      "y_mm": 155,
+      "fraction_of_section_X_bounds": 0.35,
+      "x_mm": 641.5780600276188,
+      "section_X_bounds_mm": [
+        590.4792689195656,
+        736.4758149425749
+      ],
+      "z_bottom_mm": -5.223733845695094,
+      "z_top_mm": 8.752720327951778,
+      "vertical_outer_depth_mm": 13.976454173646871
+    },
+    {
+      "y_mm": 155,
+      "fraction_of_section_X_bounds": 0.45,
+      "x_mm": 656.1777146299198,
+      "section_X_bounds_mm": [
+        590.4792689195656,
+        736.4758149425749
+      ],
+      "z_bottom_mm": -5.130558772951915,
+      "z_top_mm": 8.116136739843512,
+      "vertical_outer_depth_mm": 13.246695512795426
+    },
+    {
+      "y_mm": 180,
+      "fraction_of_section_X_bounds": 0.25,
+      "x_mm": 634.0265153611087,
+      "section_X_bounds_mm": [
+        599.505962745703,
+        737.588173207326
+      ],
+      "z_bottom_mm": -5.022574062906983,
+      "z_top_mm": 7.636755308425293,
+      "vertical_outer_depth_mm": 12.659329371332277
+    },
+    {
+      "y_mm": 180,
+      "fraction_of_section_X_bounds": 0.35,
+      "x_mm": 647.8347364072711,
+      "section_X_bounds_mm": [
+        599.505962745703,
+        737.588173207326
+      ],
+      "z_bottom_mm": -5.2571585007650725,
+      "z_top_mm": 7.718799523845661,
+      "vertical_outer_depth_mm": 12.975958024610733
+    },
+    {
+      "y_mm": 180,
+      "fraction_of_section_X_bounds": 0.45,
+      "x_mm": 661.6429574534334,
+      "section_X_bounds_mm": [
+        599.505962745703,
+        737.588173207326
+      ],
+      "z_bottom_mm": -5.262960347780975,
+      "z_top_mm": 7.122120612901753,
+      "vertical_outer_depth_mm": 12.385080960682728
+    },
+    {
+      "y_mm": 220,
+      "fraction_of_section_X_bounds": 0.25,
+      "x_mm": 645.3857618210013,
+      "section_X_bounds_mm": [
+        614.0582820983864,
+        739.3682009888461
+      ],
+      "z_bottom_mm": -5.5397718718949704,
+      "z_top_mm": 5.665897150022033,
+      "vertical_outer_depth_mm": 11.205669021917004
+    },
+    {
+      "y_mm": 220,
+      "fraction_of_section_X_bounds": 0.35,
+      "x_mm": 657.9167537100473,
+      "section_X_bounds_mm": [
+        614.0582820983864,
+        739.3682009888461
+      ],
+      "z_bottom_mm": -5.797765738472464,
+      "z_top_mm": 5.82595775506563,
+      "vertical_outer_depth_mm": 11.623723493538094
+    },
+    {
+      "y_mm": 220,
+      "fraction_of_section_X_bounds": 0.45,
+      "x_mm": 670.4477455990932,
+      "section_X_bounds_mm": [
+        614.0582820983864,
+        739.3682009888461
+      ],
+      "z_bottom_mm": -5.861520710220233,
+      "z_top_mm": 5.335961308218103,
+      "vertical_outer_depth_mm": 11.197482018438336
+    },
+    {
+      "y_mm": 300,
+      "fraction_of_section_X_bounds": 0.25,
+      "x_mm": 668.128712500986,
+      "section_X_bounds_mm": [
+        643.19551264069,
+        742.9283120818739
+      ],
+      "z_bottom_mm": -7.984084725915565,
+      "z_top_mm": 1.0576171854450536,
+      "vertical_outer_depth_mm": 9.041701911360619
+    },
+    {
+      "y_mm": 300,
+      "fraction_of_section_X_bounds": 0.35,
+      "x_mm": 678.1019924451043,
+      "section_X_bounds_mm": [
+        643.19551264069,
+        742.9283120818739
+      ],
+      "z_bottom_mm": -8.117612952390672,
+      "z_top_mm": 1.4112778260141141,
+      "vertical_outer_depth_mm": 9.528890778404786
+    },
+    {
+      "y_mm": 300,
+      "fraction_of_section_X_bounds": 0.45,
+      "x_mm": 688.0752723892227,
+      "section_X_bounds_mm": [
+        643.19551264069,
+        742.9283120818739
+      ],
+      "z_bottom_mm": -8.06648858713298,
+      "z_top_mm": 1.2467053490870228,
+      "vertical_outer_depth_mm": 9.313193936220003
+    },
+    {
+      "y_mm": 380,
+      "fraction_of_section_X_bounds": 0.25,
+      "x_mm": 690.870872597267,
+      "section_X_bounds_mm": [
+        672.3316886172322,
+        746.4884245373712
+      ],
+      "z_bottom_mm": -10.425921083242528,
+      "z_top_mm": -3.6810331417963624,
+      "vertical_outer_depth_mm": 6.744887941446166
+    },
+    {
+      "y_mm": 380,
+      "fraction_of_section_X_bounds": 0.35,
+      "x_mm": 698.2865461892809,
+      "section_X_bounds_mm": [
+        672.3316886172322,
+        746.4884245373712
+      ],
+      "z_bottom_mm": -10.38045726001613,
+      "z_top_mm": -3.1850217881453204,
+      "vertical_outer_depth_mm": 7.195435471870809
+    },
+    {
+      "y_mm": 380,
+      "fraction_of_section_X_bounds": 0.45,
+      "x_mm": 705.7022197812947,
+      "section_X_bounds_mm": [
+        672.3316886172322,
+        746.4884245373712
+      ],
+      "z_bottom_mm": -10.171789211001524,
+      "z_top_mm": -3.0452896802240446,
+      "vertical_outer_depth_mm": 7.12649953077748
+    },
+    {
+      "y_mm": 440,
+      "fraction_of_section_X_bounds": 0.25,
+      "x_mm": 707.9294037500591,
+      "section_X_bounds_mm": [
+        694.1863662886884,
+        749.1585161341714
+      ],
+      "z_bottom_mm": -11.955099187423073,
+      "z_top_mm": -7.3031151994412085,
+      "vertical_outer_depth_mm": 4.651983987981865
+    },
+    {
+      "y_mm": 440,
+      "fraction_of_section_X_bounds": 0.35,
+      "x_mm": 713.4266187346075,
+      "section_X_bounds_mm": [
+        694.1863662886884,
+        749.1585161341714
+      ],
+      "z_bottom_mm": -11.759197515687532,
+      "z_top_mm": -6.77133814908774,
+      "vertical_outer_depth_mm": 4.987859366599793
+    },
+    {
+      "y_mm": 440,
+      "fraction_of_section_X_bounds": 0.45,
+      "x_mm": 718.9238337191557,
+      "section_X_bounds_mm": [
+        694.1863662886884,
+        749.1585161341714
+      ],
+      "z_bottom_mm": -11.450237738428356,
+      "z_top_mm": -6.463457715207937,
+      "vertical_outer_depth_mm": 4.986780023220419
+    }
+  ],
+  "limits": [
+    "Outer reference depth, not available inner depth: skin, adhesive, tolerances and spar caps not subtracted",
+    "Chord fractions use section X bounds; not a selected spar axis",
+    "18 local samples do not prove a continuous straight spar fits",
+    "No stresses, hardware choice, cavity modification, structure or print release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

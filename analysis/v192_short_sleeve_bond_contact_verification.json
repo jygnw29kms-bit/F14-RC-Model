@@ -1,0 +1,37 @@
+{
+  "status": "FOUR_NATIVE_SHORT_CONTACTS_MATCH_INDEPENDENT_ANALYTIC_AREAS",
+  "evidence_sha256": {
+    "v192_short_sleeve_bond_contact_measurement.json": "30222efb8eaeddc4f0bea11555eec0140d288cd53cb0009933417226b94a4981",
+    "v192_short_sleeve_analytic_area_trade.json": "cc1571207c06ebf58cd612b1fd4edc4be5e63c35f6dab2503296c554141c096a"
+  },
+  "cad_sha256": "11c67cf2b9ff7c13fbbde83506d0fe79a4292b210cbfc78f725aecc67126c44f",
+  "checks": [
+    {
+      "bond_index": 0,
+      "target": "ROOT_CARRIER",
+      "area_residual_mm2": 1.4921397450962104e-13
+    },
+    {
+      "bond_index": 0,
+      "target": "SLEEVE",
+      "area_residual_mm2": 1.4210854715202004e-13
+    },
+    {
+      "bond_index": 1,
+      "target": "TIP_CARRIER",
+      "area_residual_mm2": 1.4210854715202004e-13
+    },
+    {
+      "bond_index": 1,
+      "target": "SLEEVE",
+      "area_residual_mm2": 1.3500311979441904e-13
+    }
+  ],
+  "limits": [
+    "Contact geometry only, not adhesive or joint strength acceptance",
+    "No assigned load, physical assembly, tooling, tolerance or cure validation",
+    "Partition volume balance and full aircraft checks remain open"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

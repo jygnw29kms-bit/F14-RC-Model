@@ -1,0 +1,239 @@
+{
+  "status": "SEPARATE_ADAPTIVE_VOID_TOOLS_ONLY_NOT_WING_SHELL",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "plan_sha256": "50183c26d47a267149f8be25628ea0b1d997c55ace4a26e1ea38b13083af9794",
+  "output_sha256": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "rows": [
+    {
+      "index": 0,
+      "y_start": 180,
+      "y_end": 190.0,
+      "valid": true,
+      "solids": 1,
+      "faces": 134,
+      "volume_mm3": 10743.803523891098,
+      "y_bounds_mm": [
+        179.99999999999983,
+        190.00000000000017
+      ]
+    },
+    {
+      "index": 1,
+      "y_start": 190.0,
+      "y_end": 200.0,
+      "valid": true,
+      "solids": 1,
+      "faces": 116,
+      "volume_mm3": 10153.876408831815,
+      "y_bounds_mm": [
+        189.99999999999983,
+        200.00000000000017
+      ]
+    },
+    {
+      "index": 2,
+      "y_start": 200.0,
+      "y_end": 210.0,
+      "valid": true,
+      "solids": 1,
+      "faces": 109,
+      "volume_mm3": 9611.11512812407,
+      "y_bounds_mm": [
+        199.99999999999983,
+        210.00000000000017
+      ]
+    },
+    {
+      "index": 3,
+      "y_start": 210.0,
+      "y_end": 220,
+      "valid": true,
+      "solids": 1,
+      "faces": 100,
+      "volume_mm3": 9110.339883083034,
+      "y_bounds_mm": [
+        209.99999999999983,
+        220.00000000000017
+      ]
+    },
+    {
+      "index": 4,
+      "y_start": 220,
+      "y_end": 230.0,
+      "valid": true,
+      "solids": 1,
+      "faces": 100,
+      "volume_mm3": 8643.773699527166,
+      "y_bounds_mm": [
+        219.99999999999983,
+        230.00000000000017
+      ]
+    },
+    {
+      "index": 5,
+      "y_start": 230.0,
+      "y_end": 240.0,
+      "valid": true,
+      "solids": 1,
+      "faces": 100,
+      "volume_mm3": 8204.253454249812,
+      "y_bounds_mm": [
+        229.99999999999983,
+        240.00000000000017
+      ]
+    },
+    {
+      "index": 6,
+      "y_start": 240.0,
+      "y_end": 260,
+      "valid": true,
+      "solids": 1,
+      "faces": 100,
+      "volume_mm3": 15171.336231945501,
+      "y_bounds_mm": [
+        239.99999999999983,
+        260.00000000000017
+      ]
+    },
+    {
+      "index": 7,
+      "y_start": 260,
+      "y_end": 280.0,
+      "valid": true,
+      "solids": 1,
+      "faces": 173,
+      "volume_mm3": 13606.659725899743,
+      "y_bounds_mm": [
+        259.99999999999983,
+        280.00000000000017
+      ]
+    },
+    {
+      "index": 8,
+      "y_start": 280.0,
+      "y_end": 300,
+      "valid": true,
+      "solids": 1,
+      "faces": 170,
+      "volume_mm3": 12114.803242596903,
+      "y_bounds_mm": [
+        279.99999999999983,
+        300.00000000000017
+      ]
+    },
+    {
+      "index": 9,
+      "y_start": 300,
+      "y_end": 320.0,
+      "valid": true,
+      "solids": 1,
+      "faces": 98,
+      "volume_mm3": 10681.447984870127,
+      "y_bounds_mm": [
+        299.99999999999983,
+        320.00000000000017
+      ]
+    },
+    {
+      "index": 10,
+      "y_start": 320.0,
+      "y_end": 340,
+      "valid": true,
+      "solids": 1,
+      "faces": 168,
+      "volume_mm3": 9310.41107684506,
+      "y_bounds_mm": [
+        319.99999999999983,
+        340.00000000000017
+      ]
+    },
+    {
+      "index": 11,
+      "y_start": 340,
+      "y_end": 360.0,
+      "valid": true,
+      "solids": 1,
+      "faces": 165,
+      "volume_mm3": 8011.625430180287,
+      "y_bounds_mm": [
+        339.99999999999983,
+        360.00000000000017
+      ]
+    },
+    {
+      "index": 12,
+      "y_start": 360,
+      "y_end": 380,
+      "valid": true,
+      "solids": 1,
+      "faces": 96,
+      "volume_mm3": 6787.075776407801,
+      "y_bounds_mm": [
+        359.99999999999983,
+        380.00000000000017
+      ]
+    },
+    {
+      "index": 13,
+      "y_start": 380,
+      "y_end": 400.0,
+      "valid": true,
+      "solids": 1,
+      "faces": 96,
+      "volume_mm3": 5624.636678114258,
+      "y_bounds_mm": [
+        379.99999999999983,
+        400.00000000000017
+      ]
+    },
+    {
+      "index": 14,
+      "y_start": 400.0,
+      "y_end": 420,
+      "valid": true,
+      "solids": 1,
+      "faces": 157,
+      "volume_mm3": 4509.507698735404,
+      "y_bounds_mm": [
+        399.99999999999983,
+        420.00000000000017
+      ]
+    },
+    {
+      "index": 15,
+      "y_start": 420,
+      "y_end": 430.0,
+      "valid": true,
+      "solids": 1,
+      "faces": 168,
+      "volume_mm3": 1857.6987074785775,
+      "y_bounds_mm": [
+        419.99999999999983,
+        430.00000000000017
+      ]
+    },
+    {
+      "index": 16,
+      "y_start": 430.0,
+      "y_end": 440,
+      "valid": true,
+      "solids": 1,
+      "faces": 166,
+      "volume_mm3": 1606.124909376805,
+      "y_bounds_mm": [
+        429.99999999999983,
+        440.00000000000017
+      ]
+    }
+  ],
+  "sum_segment_volumes_mm3": 145748.48956015747,
+  "elapsed_seconds": 160.9040002822876,
+  "limits": [
+    "17 separate adjacent void solids; not fused into one cavity.",
+    "Interval Y bounds verified; no whole-body containment or 3D clearance checked here.",
+    "Y180..440 only; root and tip excluded.",
+    "Not print parts, not a wing shell; no subtraction, joints, ribs or structural qualification."
+  ],
+  "print_release": false,
+  "flight_release": false
+}

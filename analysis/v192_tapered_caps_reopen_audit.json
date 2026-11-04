@@ -1,0 +1,31 @@
+{
+  "status": "SAVED_CAPS_REOPENED_VALID_AND_CONTAINED",
+  "caps_sha256": "450d5756a02667a818f85360a4c63c736b6a639e52a56af9329e5f2cce847024",
+  "void_sha256": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19",
+  "rows": [
+    {
+      "object": "UNFROZEN_LOWER_CAP",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3000.000000000002,
+      "outside_void_volume_mm3": 0.0,
+      "minimum_void_boundary_gap_mm": 0.10727538734160616,
+      "gap_matches_presave_within_1e_8_mm": true
+    },
+    {
+      "object": "UNFROZEN_UPPER_CAP",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3000.000000000002,
+      "outside_void_volume_mm3": 0.0,
+      "minimum_void_boundary_gap_mm": 0.19813908794750454,
+      "gap_matches_presave_within_1e_8_mm": true
+    }
+  ],
+  "limits": [
+    "Reopen and packaging verification only; no structural acceptance or normal clearance requirement frozen",
+    "No web, root connection, material, bond, buckling or physical proof"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

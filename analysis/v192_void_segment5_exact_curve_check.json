@@ -1,0 +1,34 @@
+{
+  "status": "SEGMENT5_NATIVE_CURVE_ON_SURFACE_EXACT_OPTION_CHECKED",
+  "input_sha256_unchanged": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "object": "VOID_TOOL_5",
+  "face_count": 100,
+  "edge_count": 294,
+  "same_parameter_true_count": 294,
+  "same_parameter_false_indices_one_based": [],
+  "max_native_tolerance_mm": 7.96023142e-07,
+  "rows": [
+    {
+      "native_exact_method": false,
+      "valid_under_native_stored_tolerances": true,
+      "invalid_edge_indices_one_based": [],
+      "invalid_face_indices_one_based": [],
+      "elapsed_seconds": 0.05699968338012695
+    },
+    {
+      "native_exact_method": true,
+      "valid_under_native_stored_tolerances": true,
+      "invalid_edge_indices_one_based": [],
+      "invalid_face_indices_one_based": [],
+      "elapsed_seconds": 0.09900045394897461
+    }
+  ],
+  "limits": [
+    "Native exact option changes distance checking algorithm; not exact arithmetic or zero tolerance certification",
+    "Stored geometric tolerances remain in force; passing does not establish integral closure or volume accuracy",
+    "Exact method applies only to SameParameter edges; flags reported separately",
+    "No geometry, tolerance or flag modification; no print/flight release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

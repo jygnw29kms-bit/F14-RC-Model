@@ -1,0 +1,23 @@
+{
+  "status": "NORMALIZED_CAVITY_136_PAIR_SCOPE_AND_NUMERIC_FUSION_BALANCE_VERIFIED",
+  "evidence_sha256": {
+    "v192_normalized_fused_cavity_study.json": "6254caa319304ae29e8faed39dd9973a0ed297995f4a8dc49dfe0e88189f86c5",
+    "v192_normalized_shared_profile_segments_study.json": "9954b4d24abf7792f18a3cdb8fcd62797dae307bf4857c8c39fbc24d17fb7985",
+    "v192_normalized_segments_containment_interfaces.json": "b2b89724ec358be0d0c4683765e24e666937b6cad86cb6546e8800a6ecdf64fb",
+    "v192_normalized_segments_nonadjacent_bounds.json": "439f8e908bb1bba9a82cb4eddfef8a7b8a72c6a1bbe438a0e3e6d7f131dc5e8b"
+  },
+  "pair_count": 136,
+  "adjacent_pair_count": 16,
+  "nonadjacent_pair_count": 120,
+  "maximum_step_balance_residual_mm3": 1.1641532182693481e-10,
+  "volume_diagnostics_spread_mm3": 1.4551915228366852e-10,
+  "strict_numeric_balance_guard_mm3": 1e-05,
+  "numeric_fusion_balance_within_guard": true,
+  "limits": [
+    "Only this new modified cavity study; original wing partition gate not changed",
+    "Native numerical agreement and topology are not rigorous absolute error bounds",
+    "Full fused containment/reopen volume check, original geometry deviation, wing subtraction/split and aircraft OML remain open"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

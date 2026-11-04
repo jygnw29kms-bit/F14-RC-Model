@@ -1,0 +1,42 @@
+{
+  "status": "INNER_SHELL_SOLID_COMPARED_WITH_SAVED_FUSED_VOID",
+  "input_sha256_unchanged": {
+    "WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+    "WING_R_VOID_ALL17_FUSED_TRIAL_ONLY.FCStd": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19"
+  },
+  "comparisons": {
+    "temporary_cavity_initial_signed_volume_mm3": 145748.48586711596,
+    "cavity_solid_face_count": 2184,
+    "saved_void_face_count": 2184,
+    "cavity_default_volume_mm3": 145748.48586711596,
+    "saved_void_default_volume_mm3": 145748.48586711596,
+    "cavity_minus_saved_void_mm3": 0.0,
+    "saved_void_minus_cavity_mm3": 0.0
+  },
+  "rows": [
+    {
+      "reference_point_mm": [
+        700,
+        280,
+        0
+      ],
+      "saved_void_signed_face_flux_sum_mm3": 145748.48611427253
+    },
+    {
+      "reference_point_mm": [
+        700,
+        300,
+        0
+      ],
+      "saved_void_signed_face_flux_sum_mm3": 145748.48560801262
+    }
+  ],
+  "limits": [
+    "In-memory inner shell reorientation only; no saved model modified",
+    "Zero native Boolean difference volume is not exact trim identity or rigorous volume error bound",
+    "Flux reuses same native integrator and two references; not independent geometry certification",
+    "No tolerance changes or print/flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

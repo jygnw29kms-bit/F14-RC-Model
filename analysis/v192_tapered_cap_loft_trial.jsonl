@@ -1,0 +1,12 @@
+{"stage": "loft_start", "elapsed_seconds": 0.5509998798370361, "side": "lower"}
+{"stage": "outside_cut_start", "elapsed_seconds": 0.5770001411437988, "side": "lower"}
+{"stage": "outside_cut_done", "elapsed_seconds": 4.429999828338623, "side": "lower", "outside_volume_mm3": 0.0}
+{"stage": "distance_start", "elapsed_seconds": 4.429999828338623, "side": "lower"}
+{"stage": "distance_done", "elapsed_seconds": 6.0790016651153564, "side": "lower", "distance_mm": 0.10727538734160616}
+{"stage": "loft_start", "elapsed_seconds": 6.081000089645386, "side": "upper"}
+{"stage": "outside_cut_start", "elapsed_seconds": 6.0930016040802, "side": "upper"}
+{"stage": "outside_cut_done", "elapsed_seconds": 9.765002012252808, "side": "upper", "outside_volume_mm3": 0.0}
+{"stage": "distance_start", "elapsed_seconds": 9.765002012252808, "side": "upper"}
+{"stage": "distance_done", "elapsed_seconds": 11.924001693725586, "side": "upper", "distance_mm": 0.19813908794750454}
+{"stage": "save", "elapsed_seconds": 11.92600131034851}
+{"stage": "complete", "elapsed_seconds": 11.945001363754272}

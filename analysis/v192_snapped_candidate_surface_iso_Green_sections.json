@@ -1,0 +1,335 @@
+{
+  "status": "RULED_SURFACE_ISOCURVE_GREEN_SECTION_DIAGNOSTIC_MEASURED",
+  "input_sha256_unchanged": "cb65e0837065e2b6f80604094ae0230deb3942ab5115437b9d400d55c1b08629",
+  "helper_sha256": "d6d961e5be066f51d6206923ac0248fb588df59377817be2ddffb9a108350478",
+  "quadrature_sha256": "e9cd49c9c68258357da69c90590789699fc5ce4fc3a2ccb7b749f20fcffb6407",
+  "side_surface_count": 98,
+  "rows": [
+    {
+      "fraction": 0,
+      "target_y_mm": 230,
+      "edge_count": 98,
+      "samples": [
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 841.9057742312522,
+          "raw_absolute_area_mm2": 841.9057742312522,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 841.9057742312522,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            230.0,
+            230.0
+          ]
+        },
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 841.9057742312523,
+          "raw_absolute_area_mm2": 841.9057742312523,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 841.9057742312523,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            230.0,
+            230.0
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 841.9057742312523,
+          "raw_absolute_area_mm2": 841.9057742312523,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 841.9057742312523,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            230.0,
+            230.0
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 841.9057742312524,
+          "raw_absolute_area_mm2": 841.9057742312524,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 841.9057742312524,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            230.0,
+            230.0
+          ]
+        }
+      ]
+    },
+    {
+      "fraction": 0.25,
+      "target_y_mm": 232.5,
+      "edge_count": 98,
+      "samples": [
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 831.1074087303443,
+          "raw_absolute_area_mm2": 831.1074087303443,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 831.1074087303443,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            232.5,
+            232.5
+          ]
+        },
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 831.1074087303442,
+          "raw_absolute_area_mm2": 831.1074087303442,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 831.1074087303442,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            232.5,
+            232.5
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 831.1074087303444,
+          "raw_absolute_area_mm2": 831.1074087303444,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 831.1074087303444,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            232.5,
+            232.5
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 831.1074087303443,
+          "raw_absolute_area_mm2": 831.1074087303443,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 831.1074087303443,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            232.5,
+            232.5
+          ]
+        }
+      ]
+    },
+    {
+      "fraction": 0.5,
+      "target_y_mm": 235.0,
+      "edge_count": 98,
+      "samples": [
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 820.3788002064141,
+          "raw_absolute_area_mm2": 820.3788002064141,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 820.3788002064141,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            235.0,
+            235.0
+          ]
+        },
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 820.3788002064141,
+          "raw_absolute_area_mm2": 820.3788002064141,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 820.3788002064141,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            235.0,
+            235.0
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 820.3788002064142,
+          "raw_absolute_area_mm2": 820.3788002064142,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 820.3788002064142,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            235.0,
+            235.0
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 820.3788002064141,
+          "raw_absolute_area_mm2": 820.3788002064141,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 820.3788002064141,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            235.0,
+            235.0
+          ]
+        }
+      ]
+    },
+    {
+      "fraction": 0.75,
+      "target_y_mm": 237.5,
+      "edge_count": 98,
+      "samples": [
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 809.7199486594616,
+          "raw_absolute_area_mm2": 809.7199486594616,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 809.7199486594616,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            237.5,
+            237.5
+          ]
+        },
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 809.7199486594616,
+          "raw_absolute_area_mm2": 809.7199486594616,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 809.7199486594616,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            237.5,
+            237.5
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 809.7199486594617,
+          "raw_absolute_area_mm2": 809.7199486594617,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 809.7199486594617,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            237.5,
+            237.5
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 809.7199486594617,
+          "raw_absolute_area_mm2": 809.7199486594617,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 809.7199486594617,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            237.5,
+            237.5
+          ]
+        }
+      ]
+    },
+    {
+      "fraction": 1,
+      "target_y_mm": 240,
+      "edge_count": 98,
+      "samples": [
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 799.1308540894859,
+          "raw_absolute_area_mm2": 799.1308540894859,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 799.1308540894859,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            240.0,
+            240.0
+          ]
+        },
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 799.1308540894861,
+          "raw_absolute_area_mm2": 799.1308540894861,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 799.1308540894861,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            240.0,
+            240.0
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 799.130854089486,
+          "raw_absolute_area_mm2": 799.130854089486,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 799.130854089486,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            240.0,
+            240.0
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 799.1308540894861,
+          "raw_absolute_area_mm2": 799.1308540894861,
+          "hypothetical_line_connector_signed_area_mm2": 0.0,
+          "area_with_hypothetical_line_connectors_mm2": 799.1308540894861,
+          "max_ordered_curve_endpoint_gap_mm": 0.0,
+          "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+          "endpoint_y_range_mm": [
+            240.0,
+            240.0
+          ]
+        }
+      ]
+    }
+  ],
+  "single_prismoid_volume_mm3": 8204.253048577326,
+  "composite_simpson_volume_mm3": 8204.253048577328,
+  "default_native_volume_mm3": 8204.253048577328,
+  "limits": [
+    "Surface span-direction recognized numerically from parameter corners; no global analytical certificate",
+    "Hypothetical line closures retained as bookkeeping; inspect raw/closed areas and endpoint gaps",
+    "Quadrature finite and native curve/surface evaluation shared; no rigorous absolute error bounds",
+    "No geometry/tolerance edits or master/print/flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

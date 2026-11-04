@@ -1,0 +1,14 @@
+{
+  "status": "RENDERED_NATIVE_SECTION_EDGE_CHART_FOR_VISUAL_REVIEW",
+  "section_data_sha256": "7a12eeb4805a4c79865ab80183061683230c72138250495f683170d9210f4c69",
+  "source_cad_sha256": "fbb8dca970edf1c4a4894cda1887b9e18bb048c6ed5e4f842481bc795cc20620",
+  "output_sha256": "99a3d37dd1b89224ee06bf3a69cdb3275cf1595b9d40c3d1e5478776a5d6974a",
+  "scale_px_per_mm": 30,
+  "section_count": 3,
+  "objects_per_section": 5,
+  "limits": [
+    "No full span visual inspection, root connection, manufacturability or structural acceptance",
+    "Bond layer outlines show geometric placeholders only"
+  ],
+  "production_release": false
+}

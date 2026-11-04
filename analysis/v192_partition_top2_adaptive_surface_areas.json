@@ -1,0 +1,192 @@
+{
+  "status": "TOP_TWO_MATCHED_SURFACE_GROUPS_ADAPTIVE_AREA_MEASURED",
+  "input_sha256_unchanged": {
+    "WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117"
+  },
+  "prior_group_report_sha256": "3bc13520694b51012c04c7ee787e0836b985443a7b7c8de6900c148576f93cce",
+  "rows": [
+    {
+      "surface_data_sha256": "c9fb4ee0330db87c55ce3ba9dd65f827b2e2d825366ff7896aa2fb05f030a4b4",
+      "default_area_residual_mm2": 2.5141258902294794e-05,
+      "adaptive_samples": [
+        {
+          "requested_relative_epsilon": 1e-07,
+          "measurements": [
+            {
+              "side": "SOURCE",
+              "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+              "face": 8,
+              "area_mm2": 651.943869352654,
+              "estimated_relative_error": 5.099659975168725e-08
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_0",
+              "face": 9,
+              "area_mm2": 404.71857654818683,
+              "estimated_relative_error": 1.848569753190284e-08
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_1",
+              "face": 9,
+              "area_mm2": 247.22528262017033,
+              "estimated_relative_error": 1.0259258026694724e-08
+            }
+          ],
+          "part_minus_source_area_mm2": -1.0184296797888237e-05
+        },
+        {
+          "requested_relative_epsilon": 1e-09,
+          "measurements": [
+            {
+              "side": "SOURCE",
+              "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+              "face": 8,
+              "area_mm2": 651.9438634229214,
+              "estimated_relative_error": 4.4768053378247576e-10
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_0",
+              "face": 9,
+              "area_mm2": 404.7185797403391,
+              "estimated_relative_error": 4.77900310518612e-10
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_1",
+              "face": 9,
+              "area_mm2": 247.225283739536,
+              "estimated_relative_error": 6.708627251436617e-10
+            }
+          ],
+          "part_minus_source_area_mm2": 5.695369509339798e-08
+        },
+        {
+          "requested_relative_epsilon": 1e-11,
+          "measurements": [
+            {
+              "side": "SOURCE",
+              "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+              "face": 8,
+              "area_mm2": 651.9438633077121,
+              "estimated_relative_error": 7.628769015245178e-12
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_0",
+              "face": 9,
+              "area_mm2": 404.7185797032682,
+              "estimated_relative_error": 4.5176314821303264e-12
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_1",
+              "face": 9,
+              "area_mm2": 247.225283620315,
+              "estimated_relative_error": 6.27745859958452e-12
+            }
+          ],
+          "part_minus_source_area_mm2": 1.5871023606450763e-08
+        }
+      ]
+    },
+    {
+      "surface_data_sha256": "cdde0efa6720002f83e5822cf84c5c14febef569f419c8d2fe175f9ee6f46bc3",
+      "default_area_residual_mm2": 1.8865711695070786e-05,
+      "adaptive_samples": [
+        {
+          "requested_relative_epsilon": 1e-07,
+          "measurements": [
+            {
+              "side": "SOURCE",
+              "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+              "face": 9,
+              "area_mm2": 634.8406481043592,
+              "estimated_relative_error": 3.462214783896664e-08
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_0",
+              "face": 10,
+              "area_mm2": 394.3018345688265,
+              "estimated_relative_error": 1.292056622772237e-08
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_1",
+              "face": 10,
+              "area_mm2": 240.53880687641646,
+              "estimated_relative_error": 7.753073793138458e-09
+            }
+          ],
+          "part_minus_source_area_mm2": -6.659116252194508e-06
+        },
+        {
+          "requested_relative_epsilon": 1e-09,
+          "measurements": [
+            {
+              "side": "SOURCE",
+              "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+              "face": 9,
+              "area_mm2": 634.8406445300474,
+              "estimated_relative_error": 3.187835487869487e-10
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_0",
+              "face": 10,
+              "area_mm2": 394.30183692049184,
+              "estimated_relative_error": 3.534805641266076e-10
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_1",
+              "face": 10,
+              "area_mm2": 240.53880764826064,
+              "estimated_relative_error": 4.473439734583378e-10
+            }
+          ],
+          "part_minus_source_area_mm2": 3.8705138649675064e-08
+        },
+        {
+          "requested_relative_epsilon": 1e-11,
+          "measurements": [
+            {
+              "side": "SOURCE",
+              "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+              "face": 9,
+              "area_mm2": 634.8406444457999,
+              "estimated_relative_error": 4.977420457714934e-12
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_0",
+              "face": 10,
+              "area_mm2": 394.3018368945785,
+              "estimated_relative_error": 3.4653215872197e-12
+            },
+            {
+              "side": "PARTS",
+              "object": "BLOCKED_PART_1",
+              "face": 10,
+              "area_mm2": 240.5388075629757,
+              "estimated_relative_error": 4.657120696482321e-12
+            }
+          ],
+          "part_minus_source_area_mm2": 1.1754309525713325e-08
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Two groups only, not global surface or volume acceptance",
+    "Returned relative estimates not rigorous error bounds",
+    "Matching underlying surfaces does not establish identical trimmed domains",
+    "No geometry or tolerance modification, print or flight release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

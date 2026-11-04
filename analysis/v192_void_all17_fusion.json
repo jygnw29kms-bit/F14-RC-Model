@@ -1,0 +1,178 @@
+{
+  "status": "ALL17_VOID_TOOLS_FUSION_TRIAL_ONLY",
+  "input_sha256": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "steps": [
+    {
+      "through_index": 1,
+      "valid": true,
+      "solids": 1,
+      "faces": 248,
+      "volume_mm3": 20897.680066613317,
+      "sum_input_volumes_mm3": 20897.679932723615,
+      "volume_balance_residual_mm3": -0.0001338897018285934
+    },
+    {
+      "through_index": 2,
+      "valid": true,
+      "solids": 1,
+      "faces": 355,
+      "volume_mm3": 30508.7949008084,
+      "sum_input_volumes_mm3": 30508.795060847668,
+      "volume_balance_residual_mm3": 0.00016003926793928258
+    },
+    {
+      "through_index": 3,
+      "valid": true,
+      "solids": 1,
+      "faces": 453,
+      "volume_mm3": 39619.134548794005,
+      "sum_input_volumes_mm3": 39619.13494393087,
+      "volume_balance_residual_mm3": 0.0003951368635171093
+    },
+    {
+      "through_index": 4,
+      "valid": true,
+      "solids": 1,
+      "faces": 551,
+      "volume_mm3": 48262.90794324732,
+      "sum_input_volumes_mm3": 48262.90864345833,
+      "volume_balance_residual_mm3": 0.0007002110069151968
+    },
+    {
+      "through_index": 5,
+      "valid": true,
+      "solids": 1,
+      "faces": 649,
+      "volume_mm3": 56467.16109153952,
+      "sum_input_volumes_mm3": 56467.16209770829,
+      "volume_balance_residual_mm3": 0.0010061687717097811
+    },
+    {
+      "through_index": 6,
+      "valid": true,
+      "solids": 1,
+      "faces": 747,
+      "volume_mm3": 71638.49683917477,
+      "sum_input_volumes_mm3": 71638.4983296536,
+      "volume_balance_residual_mm3": 0.0014904788258718327
+    },
+    {
+      "through_index": 7,
+      "valid": true,
+      "solids": 1,
+      "faces": 918,
+      "volume_mm3": 85245.15648371696,
+      "sum_input_volumes_mm3": 85245.15805555345,
+      "volume_balance_residual_mm3": 0.0015718364884378389
+    },
+    {
+      "through_index": 8,
+      "valid": true,
+      "solids": 1,
+      "faces": 1086,
+      "volume_mm3": 97359.95982167673,
+      "sum_input_volumes_mm3": 97359.96129815017,
+      "volume_balance_residual_mm3": 0.0014764734369236976
+    },
+    {
+      "through_index": 9,
+      "valid": true,
+      "solids": 1,
+      "faces": 1182,
+      "volume_mm3": 108041.40749892412,
+      "sum_input_volumes_mm3": 108041.40928302046,
+      "volume_balance_residual_mm3": 0.001784096340998076
+    },
+    {
+      "through_index": 10,
+      "valid": true,
+      "solids": 1,
+      "faces": 1348,
+      "volume_mm3": 117351.81862306717,
+      "sum_input_volumes_mm3": 117351.82035986532,
+      "volume_balance_residual_mm3": 0.0017367981490679085
+    },
+    {
+      "through_index": 11,
+      "valid": true,
+      "solids": 1,
+      "faces": 1511,
+      "volume_mm3": 125363.44481487705,
+      "sum_input_volumes_mm3": 125363.44579004543,
+      "volume_balance_residual_mm3": 0.0009751683828653768
+    },
+    {
+      "through_index": 12,
+      "valid": true,
+      "solids": 1,
+      "faces": 1605,
+      "volume_mm3": 132150.52014023074,
+      "sum_input_volumes_mm3": 132150.52156645316,
+      "volume_balance_residual_mm3": 0.0014262224140111357
+    },
+    {
+      "through_index": 13,
+      "valid": true,
+      "solids": 1,
+      "faces": 1699,
+      "volume_mm3": 137775.157362095,
+      "sum_input_volumes_mm3": 137775.1582445675,
+      "volume_balance_residual_mm3": 0.000882472493685782
+    },
+    {
+      "through_index": 14,
+      "valid": true,
+      "solids": 1,
+      "faces": 1854,
+      "volume_mm3": 142284.66232255843,
+      "sum_input_volumes_mm3": 142284.6659433027,
+      "volume_balance_residual_mm3": 0.003620744275394827
+    },
+    {
+      "through_index": 15,
+      "valid": true,
+      "solids": 1,
+      "faces": 2020,
+      "volume_mm3": 144142.3605907154,
+      "sum_input_volumes_mm3": 144142.3646507813,
+      "volume_balance_residual_mm3": 0.004060065897647291
+    },
+    {
+      "through_index": 16,
+      "valid": true,
+      "solids": 1,
+      "faces": 2184,
+      "volume_mm3": 145748.48586711596,
+      "sum_input_volumes_mm3": 145748.48956015808,
+      "volume_balance_residual_mm3": 0.0036930421192664653
+    }
+  ],
+  "print_release": false,
+  "flight_release": false,
+  "output_sha256": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19",
+  "elapsed_seconds": 53.14500021934509,
+  "limits": [
+    "17 tools fused over Y180..440 only; root/tip excluded, not a wing shell.",
+    "Fusion boundary clearance and containment not independently checked here.",
+    "No wing subtraction, structural or print qualification; source tool file unchanged."
+  ]
+}

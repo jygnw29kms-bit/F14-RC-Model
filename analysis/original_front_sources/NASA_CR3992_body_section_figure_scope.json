@@ -1,0 +1,21 @@
+{
+  "status": "NASA_F14_RUMPFSEKTIONSFIGUREN_VISUELL_GEPRUEFT_KEIN_DATUMANKER",
+  "source_url": "https://ntrs.nasa.gov/api/citations/19880019510/downloads/19880019510.pdf",
+  "source_sha256": "ae439b784b984b0c95b9df117ae0c5ad5d6adc7025a1f7b115b41a260fce4b18",
+  "pages": {
+    "context_pdf": 24,
+    "figures_pdf": 88,
+    "figures_printed": 81
+  },
+  "findings": [
+    "Figure48 zeigt gestaffelte F14-Rumpfquerschnitte; Figure49 ausdruecklich fuer A488 modifizierte Querschnitte.",
+    "Keine numerischen FS-/WL-Beschriftungen oder Massstabsachsen in den beiden geprueften Figuren erkennbar. Perspektivdarstellung nicht direkt als masshaltiger Stationsriss verwendbar.",
+    "Kontext beschreibt Vereinfachungen fuer die Transsonikrechnung, insbesondere Nacellenzwischenraum und Inlet-Nose-Uebergang.",
+    "Im selben Kontext genannte Grumman-Aussenfluegelkoordinaten begruenden keine identische Herkunft oder Genauigkeit der Rumpfdarstellung."
+  ],
+  "rejected_inferences": [
+    "Figure49 nicht als originale F14-Aussenhaut uebernehmen.",
+    "Reihenposition einer perspektivischen Sektion nicht ohne FS-Nachweis einer UPC-Station zuordnen."
+  ],
+  "production_release": false
+}

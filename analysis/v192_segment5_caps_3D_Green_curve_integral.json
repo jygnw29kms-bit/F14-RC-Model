@@ -1,0 +1,226 @@
+{
+  "status": "CALIBRATED_3D_CURVE_GREEN_INTEGRAL_CAP_DIAGNOSTIC",
+  "input_sha256_unchanged": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "quadrature_table_sha256": "e9cd49c9c68258357da69c90590789699fc5ce4fc3a2ccb7b749f20fcffb6407",
+  "formula": "one half integral ((x-xref) dz-z dx), orientation from ordered edges; intervals split at available 3D BSpline knots",
+  "calibration_rectangle_2_by3_mm": [
+    {
+      "gauss_order": 64,
+      "x_reference_mm": 0,
+      "raw_signed_area_mm2": 6.0,
+      "raw_absolute_area_mm2": 6.0,
+      "hypothetical_line_connector_signed_area_mm2": 0.0,
+      "area_with_hypothetical_line_connectors_mm2": 6.0,
+      "max_ordered_curve_endpoint_gap_mm": 0.0,
+      "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+      "endpoint_y_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "gauss_order": 64,
+      "x_reference_mm": 700,
+      "raw_signed_area_mm2": 6.000000000000007,
+      "raw_absolute_area_mm2": 6.000000000000007,
+      "hypothetical_line_connector_signed_area_mm2": 0.0,
+      "area_with_hypothetical_line_connectors_mm2": 6.000000000000007,
+      "max_ordered_curve_endpoint_gap_mm": 0.0,
+      "sum_ordered_curve_endpoint_gaps_mm": 0.0,
+      "endpoint_y_range_mm": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "y_mm": 230,
+      "wire_edge_count": 98,
+      "samples": [
+        {
+          "gauss_order": 16,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 841.906202293778,
+          "raw_absolute_area_mm2": 841.906202293778,
+          "hypothetical_line_connector_signed_area_mm2": -0.0004282344633246282,
+          "area_with_hypothetical_line_connectors_mm2": 841.9057740593147,
+          "max_ordered_curve_endpoint_gap_mm": 5.252265540239318e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 4.6976875471420675e-06,
+          "endpoint_y_range_mm": [
+            230.0,
+            230.0
+          ]
+        },
+        {
+          "gauss_order": 16,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 841.9057906346382,
+          "raw_absolute_area_mm2": 841.9057906346382,
+          "hypothetical_line_connector_signed_area_mm2": -1.657532308485532e-05,
+          "area_with_hypothetical_line_connectors_mm2": 841.905774059315,
+          "max_ordered_curve_endpoint_gap_mm": 5.252265540239318e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 4.6976875471420675e-06,
+          "endpoint_y_range_mm": [
+            230.0,
+            230.0
+          ]
+        },
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 841.9062022937779,
+          "raw_absolute_area_mm2": 841.9062022937779,
+          "hypothetical_line_connector_signed_area_mm2": -0.0004282344633246282,
+          "area_with_hypothetical_line_connectors_mm2": 841.9057740593146,
+          "max_ordered_curve_endpoint_gap_mm": 5.252265540239318e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 4.6976875471420675e-06,
+          "endpoint_y_range_mm": [
+            230.0,
+            230.0
+          ]
+        },
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 841.9057906346382,
+          "raw_absolute_area_mm2": 841.9057906346382,
+          "hypothetical_line_connector_signed_area_mm2": -1.657532308485532e-05,
+          "area_with_hypothetical_line_connectors_mm2": 841.905774059315,
+          "max_ordered_curve_endpoint_gap_mm": 5.252265540239318e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 4.6976875471420675e-06,
+          "endpoint_y_range_mm": [
+            230.0,
+            230.0
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": 841.906202293778,
+          "raw_absolute_area_mm2": 841.906202293778,
+          "hypothetical_line_connector_signed_area_mm2": -0.0004282344633246282,
+          "area_with_hypothetical_line_connectors_mm2": 841.9057740593147,
+          "max_ordered_curve_endpoint_gap_mm": 5.252265540239318e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 4.6976875471420675e-06,
+          "endpoint_y_range_mm": [
+            230.0,
+            230.0
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": 841.9057906346383,
+          "raw_absolute_area_mm2": 841.9057906346383,
+          "hypothetical_line_connector_signed_area_mm2": -1.657532308485532e-05,
+          "area_with_hypothetical_line_connectors_mm2": 841.9057740593151,
+          "max_ordered_curve_endpoint_gap_mm": 5.252265540239318e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 4.6976875471420675e-06,
+          "endpoint_y_range_mm": [
+            230.0,
+            230.0
+          ]
+        }
+      ]
+    },
+    {
+      "y_mm": 240,
+      "wire_edge_count": 98,
+      "samples": [
+        {
+          "gauss_order": 16,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": -799.1312433719265,
+          "raw_absolute_area_mm2": 799.1312433719265,
+          "hypothetical_line_connector_signed_area_mm2": 0.00038941236937262147,
+          "area_with_hypothetical_line_connectors_mm2": 799.1308539595572,
+          "max_ordered_curve_endpoint_gap_mm": 5.306821125476781e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 5.012308532352209e-06,
+          "endpoint_y_range_mm": [
+            240.0,
+            240.0
+          ]
+        },
+        {
+          "gauss_order": 16,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": -799.1308684141007,
+          "raw_absolute_area_mm2": 799.1308684141007,
+          "hypothetical_line_connector_signed_area_mm2": 1.4454543442121714e-05,
+          "area_with_hypothetical_line_connectors_mm2": 799.1308539595573,
+          "max_ordered_curve_endpoint_gap_mm": 5.306821125476781e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 5.012308532352209e-06,
+          "endpoint_y_range_mm": [
+            240.0,
+            240.0
+          ]
+        },
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": -799.1312433719264,
+          "raw_absolute_area_mm2": 799.1312433719264,
+          "hypothetical_line_connector_signed_area_mm2": 0.00038941236937262147,
+          "area_with_hypothetical_line_connectors_mm2": 799.130853959557,
+          "max_ordered_curve_endpoint_gap_mm": 5.306821125476781e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 5.012308532352209e-06,
+          "endpoint_y_range_mm": [
+            240.0,
+            240.0
+          ]
+        },
+        {
+          "gauss_order": 32,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": -799.1308684141007,
+          "raw_absolute_area_mm2": 799.1308684141007,
+          "hypothetical_line_connector_signed_area_mm2": 1.4454543442121714e-05,
+          "area_with_hypothetical_line_connectors_mm2": 799.1308539595573,
+          "max_ordered_curve_endpoint_gap_mm": 5.306821125476781e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 5.012308532352209e-06,
+          "endpoint_y_range_mm": [
+            240.0,
+            240.0
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 0,
+          "raw_signed_area_mm2": -799.1312433719266,
+          "raw_absolute_area_mm2": 799.1312433719266,
+          "hypothetical_line_connector_signed_area_mm2": 0.00038941236937262147,
+          "area_with_hypothetical_line_connectors_mm2": 799.1308539595573,
+          "max_ordered_curve_endpoint_gap_mm": 5.306821125476781e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 5.012308532352209e-06,
+          "endpoint_y_range_mm": [
+            240.0,
+            240.0
+          ]
+        },
+        {
+          "gauss_order": 64,
+          "x_reference_mm": 700,
+          "raw_signed_area_mm2": -799.1308684141009,
+          "raw_absolute_area_mm2": 799.1308684141009,
+          "hypothetical_line_connector_signed_area_mm2": 1.4454543442121714e-05,
+          "area_with_hypothetical_line_connectors_mm2": 799.1308539595574,
+          "max_ordered_curve_endpoint_gap_mm": 5.306821125476781e-07,
+          "sum_ordered_curve_endpoint_gaps_mm": 5.012308532352209e-06,
+          "endpoint_y_range_mm": [
+            240.0,
+            240.0
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Finite Gauss quadrature convergence checked at three orders, no rigorous error bound",
+    "Hypothetical line connectors are bookkeeping only and are not added to CAD",
+    "3D curve and pcurve area definitions can differ within native tolerances",
+    "No source geometry/tolerance changes, exact volume certificate or print/flight release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

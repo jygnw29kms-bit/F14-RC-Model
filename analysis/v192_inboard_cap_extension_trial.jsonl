@@ -1,0 +1,5 @@
+{"stage": "outside_wing", "side": "lower"}
+{"stage": "boundary_gap", "side": "lower"}
+{"stage": "outside_wing", "side": "upper"}
+{"stage": "boundary_gap", "side": "upper"}
+{"stage": "complete"}

@@ -1,0 +1,109 @@
+{
+  "status": "SAVED_AND_REOPENED_NINE_NORMALIZED_CHART_WIRES_ONLY",
+  "input_sha256": {
+    "NASA_CR172559_inboard_first_three_profiles.json": "406f858e034d902bfc28f2236b497bf5b1110a8dba756fa67f53da24e251f6bd",
+    "NASA_CR172559_centerline_25_35_profiles.json": "14be69ca4cf10ddfafdd469ea5db78109bd62df3152c7666926c7fb0d855683e",
+    "NASA_CR172559_span68p5_25_35_profiles.json": "5be078bf0f680a863edc9c89eee4fee193d486bad8f42ca4fed98f4726d0eb78",
+    "NASA_CR172559_span99_25_35_profiles.json": "68a56285798971c1ebfb5811dc7cb1624a43352cbff9a876f01914e311fb3954"
+  },
+  "output_sha256": "5dc66d07120b5af4dad3e4b268eec3eb5d7681d0397c9d748f594985e5cb5494",
+  "rows": [
+    {
+      "object": "CHART_A20_SPAN0",
+      "sweep_deg": 20,
+      "raw_span": 0,
+      "edges": 99,
+      "closed": true,
+      "valid": true,
+      "faces": 0,
+      "solids": 0
+    },
+    {
+      "object": "CHART_A20_SPAN68p5",
+      "sweep_deg": 20,
+      "raw_span": 68.5,
+      "edges": 99,
+      "closed": true,
+      "valid": true,
+      "faces": 0,
+      "solids": 0
+    },
+    {
+      "object": "CHART_A20_SPAN99",
+      "sweep_deg": 20,
+      "raw_span": 99,
+      "edges": 99,
+      "closed": true,
+      "valid": true,
+      "faces": 0,
+      "solids": 0
+    },
+    {
+      "object": "CHART_A25_SPAN0",
+      "sweep_deg": 25,
+      "raw_span": 0,
+      "edges": 99,
+      "closed": true,
+      "valid": true,
+      "faces": 0,
+      "solids": 0
+    },
+    {
+      "object": "CHART_A35_SPAN0",
+      "sweep_deg": 35,
+      "raw_span": 0,
+      "edges": 99,
+      "closed": true,
+      "valid": true,
+      "faces": 0,
+      "solids": 0
+    },
+    {
+      "object": "CHART_A25_SPAN68p5",
+      "sweep_deg": 25,
+      "raw_span": 68.5,
+      "edges": 99,
+      "closed": true,
+      "valid": true,
+      "faces": 0,
+      "solids": 0
+    },
+    {
+      "object": "CHART_A35_SPAN68p5",
+      "sweep_deg": 35,
+      "raw_span": 68.5,
+      "edges": 99,
+      "closed": true,
+      "valid": true,
+      "faces": 0,
+      "solids": 0
+    },
+    {
+      "object": "CHART_A25_SPAN99",
+      "sweep_deg": 25,
+      "raw_span": 99,
+      "edges": 99,
+      "closed": true,
+      "valid": true,
+      "faces": 0,
+      "solids": 0
+    },
+    {
+      "object": "CHART_A35_SPAN99",
+      "sweep_deg": 35,
+      "raw_span": 99,
+      "edges": 99,
+      "closed": true,
+      "valid": true,
+      "faces": 0,
+      "solids": 0
+    }
+  ],
+  "master_sha256_unchanged": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "limits": [
+    "Arbitrary chart layout, not aircraft coordinates or physical dimensions",
+    "Straight segments between original normalized samples, not spline reconstruction",
+    "No surfaces, solids, glove loft, registration, STL or print release"
+  ],
+  "production_release": false
+}

@@ -1,0 +1,10 @@
+from pathlib import Path
+import FreeCAD as A,Part,json,hashlib,time
+from OCC.Core.BRepCheck import BRepCheck_Analyzer
+from OCC.Core.BRep import BRep_Tool
+from OCC.Core.TopoDS import topods
+R=Path(__file__).resolve().parents[2];p=R/'migration/freecad/WING_R_ADAPTIVE_VOID_SEGMENTS_ONLY.FCStd';H=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();h=H(p);out=R/'analysis/v192_void_segment5_exact_curve_check.json';assert not out.exists();D=A.openDocument(str(p));s=D.getObject('VOID_TOOL_5').Shape.copy();A.closeDocument(D.Name);native=Part.__toPythonOCC__(s);rows=[]
+for exact in [False,True]:
+ start=time.time();check=BRepCheck_Analyzer(native,True,False,exact);valid=check.IsValid();bad_edges=[i for i,e in enumerate(s.Edges,1) if not check.IsValid(Part.__toPythonOCC__(e))];bad_faces=[i for i,f in enumerate(s.Faces,1) if not check.IsValid(Part.__toPythonOCC__(f))];rows.append({'native_exact_method':check.IsExactMethod(),'valid_under_native_stored_tolerances':valid,'invalid_edge_indices_one_based':bad_edges,'invalid_face_indices_one_based':bad_faces,'elapsed_seconds':time.time()-start});print(rows[-1],flush=True)
+flags=[bool(BRep_Tool.SameParameter(topods.Edge(Part.__toPythonOCC__(e)))) for e in s.Edges];assert H(p)==h
+out.write_text(json.dumps({'status':'SEGMENT5_NATIVE_CURVE_ON_SURFACE_EXACT_OPTION_CHECKED','input_sha256_unchanged':h,'object':'VOID_TOOL_5','face_count':len(s.Faces),'edge_count':len(s.Edges),'same_parameter_true_count':sum(flags),'same_parameter_false_indices_one_based':[i for i,v in enumerate(flags,1) if not v],'max_native_tolerance_mm':s.getTolerance(1),'rows':rows,'limits':['Native exact option changes distance checking algorithm; not exact arithmetic or zero tolerance certification','Stored geometric tolerances remain in force; passing does not establish integral closure or volume accuracy','Exact method applies only to SameParameter edges; flags reported separately','No geometry, tolerance or flag modification; no print/flight release'],'print_release':False,'flight_release':False},indent=2)+'\n')

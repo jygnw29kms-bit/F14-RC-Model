@@ -1,0 +1,97 @@
+{
+  "status": "CALIBRATED_COMMON_POINT_TRIMMED_FACE_FLUX_TOP_TWO_GROUPS_MEASURED",
+  "input_sha256_unchanged": {
+    "WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117"
+  },
+  "prior_group_report_sha256": "3bc13520694b51012c04c7ee787e0836b985443a7b7c8de6900c148576f93cce",
+  "calibration_box": [
+    {
+      "reference_point_mm": [
+        0,
+        0,
+        0
+      ],
+      "sum_signed_face_contribution_mm3": 23.999999999999993,
+      "analytic_volume_mm3": 24
+    },
+    {
+      "reference_point_mm": [
+        700,
+        300,
+        0
+      ],
+      "sum_signed_face_contribution_mm3": 23.999999999999996,
+      "analytic_volume_mm3": 24
+    }
+  ],
+  "common_reference_point_mm": [
+    700,
+    300,
+    0
+  ],
+  "rows": [
+    {
+      "surface_data_sha256": "c9fb4ee0330db87c55ce3ba9dd65f827b2e2d825366ff7896aa2fb05f030a4b4",
+      "samples": [
+        {
+          "side": "SOURCE",
+          "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+          "face": 8,
+          "signed_contribution_mm3": 3751.3784047888516,
+          "reported_error_reached": 5.733678957267188e-10
+        },
+        {
+          "side": "PARTS",
+          "object": "BLOCKED_PART_0",
+          "face": 9,
+          "signed_contribution_mm3": 2341.362265784057,
+          "reported_error_reached": 3.256918638649503e-11
+        },
+        {
+          "side": "PARTS",
+          "object": "BLOCKED_PART_1",
+          "face": 9,
+          "signed_contribution_mm3": 1410.0161390237326,
+          "reported_error_reached": 2.937713796590833e-11
+        }
+      ],
+      "part_minus_source_signed_contribution_mm3": 1.8937953427666798e-08
+    },
+    {
+      "surface_data_sha256": "cdde0efa6720002f83e5822cf84c5c14febef569f419c8d2fe175f9ee6f46bc3",
+      "samples": [
+        {
+          "side": "SOURCE",
+          "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+          "face": 9,
+          "signed_contribution_mm3": 2728.645857362405,
+          "reported_error_reached": 6.975825470007197e-10
+        },
+        {
+          "side": "PARTS",
+          "object": "BLOCKED_PART_0",
+          "face": 10,
+          "signed_contribution_mm3": 1701.9087291986884,
+          "reported_error_reached": 3.437182053505155e-11
+        },
+        {
+          "side": "PARTS",
+          "object": "BLOCKED_PART_1",
+          "face": 10,
+          "signed_contribution_mm3": 1026.737128180563,
+          "reported_error_reached": 4.0433787911369095e-11
+        }
+      ],
+      "part_minus_source_signed_contribution_mm3": 1.684657036093995e-08
+    }
+  ],
+  "limits": [
+    "Top two surface groups only, not whole shape balance",
+    "Signed individual face contributions are not physical component volumes",
+    "Returned errors not rigorous bounds; two box checks do not certify arbitrary spline integrals",
+    "No geometry/tolerance changes or release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

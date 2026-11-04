@@ -1,0 +1,115 @@
+{
+  "status": "SAVED_THREE_BODY_REOPEN_AND_FACE_LEVEL_CONTACT_AUDIT",
+  "source_sha256": "7e77261473ca8172216c26807e6e973035e245f64723a94a87c1b80ec163d619",
+  "reopened_valid_single_solids": 3,
+  "contacts": [
+    {
+      "cap": "UNFROZEN_LOWER_CAP",
+      "positive_area_face_pairs": [
+        {
+          "web_face_index": 0,
+          "cap_face_index": 2,
+          "distance_mm": 0.0,
+          "common_area_mm2": 28.002850541126172,
+          "common_faces": 1,
+          "web_face_y_interval_mm": [
+            185.0,
+            220.0
+          ]
+        },
+        {
+          "web_face_index": 4,
+          "cap_face_index": 6,
+          "distance_mm": 0.0,
+          "common_area_mm2": 64.02851202379861,
+          "common_faces": 1,
+          "web_face_y_interval_mm": [
+            220.0,
+            300.0
+          ]
+        },
+        {
+          "web_face_index": 8,
+          "cap_face_index": 10,
+          "distance_mm": 0.0,
+          "common_area_mm2": 64.02434101110666,
+          "common_faces": 1,
+          "web_face_y_interval_mm": [
+            300.0,
+            380.0
+          ]
+        },
+        {
+          "web_face_index": 12,
+          "cap_face_index": 14,
+          "distance_mm": 0.0,
+          "common_area_mm2": 44.01024662623832,
+          "common_faces": 1,
+          "web_face_y_interval_mm": [
+            380.0,
+            435.0
+          ]
+        }
+      ],
+      "total_common_face_area_mm2": 200.06595020226976
+    },
+    {
+      "cap": "UNFROZEN_UPPER_CAP",
+      "positive_area_face_pairs": [
+        {
+          "web_face_index": 2,
+          "cap_face_index": 0,
+          "distance_mm": 0.0,
+          "common_area_mm2": 28.030172154869014,
+          "common_faces": 1,
+          "web_face_y_interval_mm": [
+            185.0,
+            220.0
+          ]
+        },
+        {
+          "web_face_index": 6,
+          "cap_face_index": 4,
+          "distance_mm": 5.551115123125783e-17,
+          "common_area_mm2": 64.09427571488115,
+          "common_faces": 1,
+          "web_face_y_interval_mm": [
+            220.0,
+            300.0
+          ]
+        },
+        {
+          "web_face_index": 10,
+          "cap_face_index": 8,
+          "distance_mm": 0.0,
+          "common_area_mm2": 64.11171257069822,
+          "common_faces": 1,
+          "web_face_y_interval_mm": [
+            300.0,
+            380.0
+          ]
+        },
+        {
+          "web_face_index": 14,
+          "cap_face_index": 12,
+          "distance_mm": 0.0,
+          "common_area_mm2": 44.081315916170425,
+          "common_faces": 1,
+          "web_face_y_interval_mm": [
+            380.0,
+            435.0
+          ]
+        }
+      ],
+      "total_common_face_area_mm2": 200.31747635661878
+    }
+  ],
+  "limits": [
+    "Only geometric face coincidence, no adhesive film, surface preparation, bond strength or shear-transfer proof",
+    "Normals filtered parallel within 1e-6; positive face common areas reported explicitly",
+    "Solid common returned no faces in earlier study; this audit uses individual face intersections",
+    "No structural, material, buckling, root connection or manufacturing release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

@@ -1,0 +1,49 @@
+{
+  "status": "ISOLATED_FORCED_SAMEPARAMETER_STUDY_SAVED_REOPENED",
+  "input_sha256_unchanged": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "output_sha256": "f0a018862d72df1b4f5ed3eddac59573bf7faa1da5a02aa3e828ac412bd2105c",
+  "requested_sameparameter_tolerance_mm": 1e-10,
+  "forced": true,
+  "rows": [
+    {
+      "object": "ORIGINAL_SAVED_SEG5",
+      "face_count": 100,
+      "valid": true,
+      "solids": 1,
+      "default_volume_mm3": 8204.253454249963,
+      "max_native_tolerance_mm": 7.96023142e-07,
+      "P280_P300_flux_mm3": [
+        8204.255444914554,
+        8204.256372206575
+      ],
+      "reference_change_mm3": 0.0009272920215153135,
+      "curve_surface_pair_count": 588,
+      "failed_curve_surface_pairs": 0,
+      "max_curve_surface_distance_mm": 5.306821229437695e-07
+    },
+    {
+      "object": "FORCED_SAMEPARAMETER_REQUEST_1em10",
+      "face_count": 100,
+      "valid": true,
+      "solids": 1,
+      "default_volume_mm3": 8204.253454249007,
+      "max_native_tolerance_mm": 7.96023142e-07,
+      "P280_P300_flux_mm3": [
+        8204.255444908606,
+        8204.256372198402
+      ],
+      "reference_change_mm3": 0.000927289796891273,
+      "curve_surface_pair_count": 588,
+      "failed_curve_surface_pairs": 0,
+      "max_curve_surface_distance_mm": 5.307038076209197e-07
+    }
+  ],
+  "limits": [
+    "Recomputed pcurves on a copied shape; does not set all stored tolerances to the requested value",
+    "Candidate geometry must be separately compared; not promoted to cavity or aircraft",
+    "Reference sensitivity/curve mismatch do not by themselves establish volume accuracy or manufacturing fitness",
+    "No existing CAD or tolerance setter changes; no print/flight release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

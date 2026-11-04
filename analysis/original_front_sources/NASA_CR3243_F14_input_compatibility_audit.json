@@ -1,0 +1,18 @@
+{
+  "status": "EARLIER_MANUAL_CONFIRMS_VERSION_GAP_NOT_F14_SIXTH_FIELD",
+  "source_url": "https://ntrs.nasa.gov/api/citations/19800016802/downloads/19800016802.pdf",
+  "report": "NASA CR3243 May1980, referenced as Ref1 by CR172559",
+  "sha256": "72e854c0afb48119e65eee627228b97d8cc81889bb03dd3593752c0204610a2f",
+  "pdf_pages": 164,
+  "visually_reviewed_card_page": 114,
+  "printed_card_page": 104,
+  "findings": [
+    "Card2-W documents only XPL,YP,XPT,TWIST,AKODE; no sixth field is specified",
+    "Card1-W field6 is WPO crude-grid output switch, whereas later CR4066 field6 is REFAR; this earlier card layout is not directly compatible with F14 input either",
+    "PDF155 printed145 defines ZWING as wing height relative to body center; not a verified absolute aircraft WL"
+  ],
+  "conclusion": "Do not use either earlier or later generic manual to freeze the F14-specific sixth-field interpretation. Exact F14 implementation remains required.",
+  "normalization_verified": false,
+  "geometry_changed": false,
+  "production_release": false
+}

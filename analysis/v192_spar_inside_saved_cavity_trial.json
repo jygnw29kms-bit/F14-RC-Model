@@ -1,0 +1,44 @@
+{
+  "status": "SHORTENED_4MM_ENVELOPE_VS_SAVED_VOID_ONLY",
+  "void_sha256": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19",
+  "spar_axis_basis_sha256": "d5c14e397f81c03559e1da795c36b29fa3ab9f27105f8f9a4709d9ae11218164",
+  "axis_start_mm": [
+    649.1410662073018,
+    185.0,
+    0.6034657597056077
+  ],
+  "axis_end_mm": [
+    712.1661177046603,
+    435.0,
+    -9.071763252150513
+  ],
+  "diameter_mm": 4,
+  "length_mm": 258.00342473051893,
+  "candidate_volume_mm3": 3242.166654937622,
+  "outside_cavity_volume_mm3": 0.0,
+  "native_minimum_cavity_boundary_gap_mm": 0.14520103118865194,
+  "closest_point_pairs_mm": [
+    [
+      [
+        712.2483188370531,
+        434.902033640458,
+        -11.067670455963215
+      ],
+      [
+        712.254870044189,
+        434.8972394182726,
+        -11.212644372848107
+      ]
+    ]
+  ],
+  "contained_within_1e_7_mm3": true,
+  "limits": [
+    "Same straight axis as earlier trial, shortened to Y185..435 to exclude cavity endcaps",
+    "Not full original Y155..440 spar fit; root/tip still require transfer geometry",
+    "Bare 4mm packaging cylinder; no adhesive allowance, tolerances, caps, ribs or selected carbon hardware",
+    "Void remains numerical hollowing trial, not structurally released interior",
+    "No CAD edits or manufactured part"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

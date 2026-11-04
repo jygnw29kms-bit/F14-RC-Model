@@ -1,0 +1,120 @@
+{
+  "status": "FUENF_CANOPY_HALBSEKTIONEN_NATIV_NUR_QUELLENDARSTELLUNG",
+  "input_sha256": "f6b6dc44a18d533f9fafd621e441ac110c7f0dfb4d3c7e557318e48998f2e395",
+  "rows": [
+    {
+      "x_source": 210,
+      "points": 302,
+      "edges": 301,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "first_display_xyz": [
+        117.0,
+        0.0,
+        -13.322448979591826
+      ],
+      "last_display_xyz": [
+        117.0,
+        -1.7763568394002505e-15,
+        42.418055555555554
+      ],
+      "display_Y_span": 24.103886347706833,
+      "display_Z_span": 55.74050453514738
+    },
+    {
+      "x_source": 220,
+      "points": 302,
+      "edges": 301,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "first_display_xyz": [
+        127.0,
+        0.0,
+        -13.0673469387755
+      ],
+      "last_display_xyz": [
+        127.0,
+        -1.7763568394002505e-15,
+        48.15416666666667
+      ],
+      "display_Y_span": 25.10459226678833,
+      "display_Z_span": 61.22151360544217
+    },
+    {
+      "x_source": 250,
+      "points": 302,
+      "edges": 301,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "first_display_xyz": [
+        157.0,
+        0.0,
+        -12.302040816326524
+      ],
+      "last_display_xyz": [
+        157.0,
+        0.0,
+        63.03750000000002
+      ],
+      "display_Y_span": 27.570030222164377,
+      "display_Z_span": 75.33954081632655
+    },
+    {
+      "x_source": 300,
+      "points": 302,
+      "edges": 301,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "first_display_xyz": [
+        207.0,
+        0.0,
+        -11.026530612244883
+      ],
+      "last_display_xyz": [
+        207.0,
+        0.0,
+        71.20765476529928
+      ],
+      "display_Y_span": 30.131674227373445,
+      "display_Z_span": 82.23418537754416
+    },
+    {
+      "x_source": 340,
+      "points": 302,
+      "edges": 301,
+      "valid": true,
+      "closed": false,
+      "solids": 0,
+      "first_display_xyz": [
+        247.0,
+        0.0,
+        -10.006122448979582
+      ],
+      "last_display_xyz": [
+        247.0,
+        -3.552713678800501e-15,
+        69.80517810408438
+      ],
+      "display_Y_span": 30.954139736748505,
+      "display_Z_span": 79.81130055306396
+    }
+  ],
+  "output_sha256": "b0f2148999b8e959f0b5409b8dcf4cdee613f18c2884f509a6d72f64c1b34ed8",
+  "display_transform": {
+    "X": "sourceX-93",
+    "Y": "sourceY",
+    "Z": "sourceZ-131.45",
+    "display_mm_per_source_unit": 1,
+    "physical_aircraft_scale_verified": false
+  },
+  "limits": [
+    "KeinephysischeEinheitenumrechnung oderUPCRegistrierung.",
+    "Nur5offeneHalbsektionslinien,keineSpiegelung,Flaechen,SolidsoderLoft.",
+    "Quellenrumpfvereinfacht/Evaluatorteilvalidiert; keineOriginalhautoderProduktionsfreigabe."
+  ],
+  "production_release": false
+}
