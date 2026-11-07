@@ -1,0 +1,91 @@
+{
+  "method": "facet midpoints (every 12th) and 3 vertices on every 96th facet; exploratory independent v322 check",
+  "sides": [
+    {
+      "side": "R",
+      "mesh_solid": true,
+      "nonmanifold": false,
+      "mesh_facets": 5568,
+      "keepout_hits_sampled": 8,
+      "keepout_hits_by_x_bin": {
+        "758": 1,
+        "762": 1,
+        "764": 1,
+        "766": 1,
+        "768": 1,
+        "770": 1,
+        "778": 1,
+        "784": 1
+      },
+      "oml_hits_sampled": 0,
+      "oml_hits_by_x_bin": {},
+      "keepout_example_xyz": [
+        [
+          758.296,
+          72.591,
+          -3.16
+        ],
+        [
+          762.296,
+          73.383,
+          -3.247
+        ],
+        [
+          764.296,
+          73.344,
+          -3.168
+        ],
+        [
+          766.296,
+          73.436,
+          -3.186
+        ],
+        [
+          768.296,
+          73.448,
+          -3.028
+        ],
+        [
+          770.296,
+          73.252,
+          -2.857
+        ],
+        [
+          778.296,
+          74.334,
+          -3.051
+        ],
+        [
+          784.296,
+          74.995,
+          -3.117
+        ]
+      ]
+    },
+    {
+      "side": "L",
+      "mesh_solid": true,
+      "nonmanifold": false,
+      "mesh_facets": 5568,
+      "keepout_hits_sampled": 2,
+      "keepout_hits_by_x_bin": {
+        "758": 1,
+        "760": 1
+      },
+      "oml_hits_sampled": 0,
+      "oml_hits_by_x_bin": {},
+      "keepout_example_xyz": [
+        [
+          758.296,
+          -72.898,
+          3.008
+        ],
+        [
+          760.296,
+          -72.408,
+          2.758
+        ]
+      ]
+    }
+  ]
+}
