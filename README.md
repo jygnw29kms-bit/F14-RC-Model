@@ -1,5 +1,30 @@
 ﻿# 135er F-14 Tomcat RC
 
+## Sichtbarer Projektstand (Stand: 08.11.2026)
+
+> **Entwicklung, keine Freigabe.** Die unten verlinkten Ansichten sind der zuletzt in dieser README belegte sichtbare Konstruktionsstand. Ein neueres CAD-Rendering wurde hier nicht als verifiziert ausgegeben. Das Modell ist noch **nicht druckfertig oder flugbereit**.
+
+### Aktuelle Konstruktionsansicht
+
+![F-14: sichtbarer FreeCAD-Konstruktionsstand vom 16.10.2026](docs/images/f14_freecad_current_20261016.png)
+
+*FreeCAD-Entwicklungsansicht vom 16.10.2026. Die Referenzhülle ist für die bessere Sicht auf die konstruierten Bereiche ausgeblendet.*
+
+### Referenz- und Geometrieabgleich
+
+| Sektion C: Registrierungsstudie | Seitenansicht: X-Registrierung |
+| --- | --- |
+| ![Sektion C, 20.10.2026](docs/images/f14_C_registration_study_20261020.svg) | ![Navy/UPC-X-Registrierung, 21.10.2026](docs/images/f14_side_x_registration_summary_20261021.svg) |
+
+| A–F: X-registrierte Sektionen | NASA-Referenzrails |
+| --- | --- |
+| ![A–F mit lokalem Z, 22.10.2026](docs/images/f14_ABCDEF_X_registered_local_Z_20261022.svg) | ![CR-172559-Referenzrails, 23.10.2026](docs/images/f14_CR172559_quick_geometry_rails_20261023.svg) |
+
+**Belegbarer Stand:** Die A–F-Sektionen wurden longitudinal registriert und Referenzrails untersucht. Die gemeinsame Z-/Waterline-Registrierung, belastbare Außenhaut, Schwenkmechanik, Struktur, Massenbudget und Druck-/Flugtests sind damit nicht abgeschlossen. Die Galerie zeigt Studien und CAD-Zwischenstände, **keinen fertigen Master**.
+
+---
+
+
 Neuaufbau des RC-/FDM-F-14-Projekts von Grund auf.
 
 **Pilot / Projektkontext:** 135erHeli RC Pilot
