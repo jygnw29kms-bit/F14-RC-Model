@@ -1,0 +1,18 @@
+{
+  "sides": [
+    {
+      "side": "R",
+      "raw_intersections": 0,
+      "unique_pairs": 0,
+      "classes": {},
+      "no_common_vertex_examples": []
+    },
+    {
+      "side": "L",
+      "raw_intersections": 0,
+      "unique_pairs": 0,
+      "classes": {},
+      "no_common_vertex_examples": []
+    }
+  ]
+}

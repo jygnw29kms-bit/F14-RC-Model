@@ -1,0 +1,32 @@
+{
+  "source": "F14_v326_PRINTABLE_TRANSITION_WALL_MESH.FCStd",
+  "classification": "engineering development - NOT RELEASED",
+  "parts": [
+    {
+      "side": "R",
+      "facets": 2688,
+      "is_solid": true,
+      "has_nonmanifolds": false,
+      "self_intersections": 0,
+      "geometry_gate_pass": true,
+      "stl": "F14_v326_EDF_transition_R_DEV_ONLY.stl",
+      "bytes": 134484,
+      "sha256": "9f2817a95a9644db3fecef76d7077e85dc0576881c77923651bde32018e15036"
+    },
+    {
+      "side": "L",
+      "facets": 2688,
+      "is_solid": true,
+      "has_nonmanifolds": false,
+      "self_intersections": 0,
+      "geometry_gate_pass": true,
+      "stl": "F14_v326_EDF_transition_L_DEV_ONLY.stl",
+      "bytes": 134484,
+      "sha256": "f319c030b7c4cc1c1d203b46bea5622303f4d5732fef3cb50a8dab2684d1bfdf"
+    }
+  ],
+  "geometry_gate_pass": true,
+  "slicer_verified": false,
+  "print_release": false,
+  "flight_release": false
+}
