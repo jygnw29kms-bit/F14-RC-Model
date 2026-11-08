@@ -1,0 +1,27 @@
+{
+  "method": "facet midpoints (every 6th) and 3 vertices on every 96th facet; exploratory independent v329_candidate check",
+  "sides": [
+    {
+      "side": "R",
+      "mesh_solid": true,
+      "nonmanifold": false,
+      "mesh_facets": 5376,
+      "keepout_hits_sampled": 0,
+      "keepout_hits_by_x_bin": {},
+      "oml_hits_sampled": 0,
+      "oml_hits_by_x_bin": {},
+      "keepout_example_xyz": []
+    },
+    {
+      "side": "L",
+      "mesh_solid": true,
+      "nonmanifold": false,
+      "mesh_facets": 5376,
+      "keepout_hits_sampled": 0,
+      "keepout_hits_by_x_bin": {},
+      "oml_hits_sampled": 0,
+      "oml_hits_by_x_bin": {},
+      "keepout_example_xyz": []
+    }
+  ]
+}

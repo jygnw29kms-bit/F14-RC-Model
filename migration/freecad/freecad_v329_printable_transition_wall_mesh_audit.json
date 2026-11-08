@@ -1,0 +1,191 @@
+{
+  "status": "V329_PRINTABLE_TRANSITION_WALL_MESH",
+  "source_model": "F14_v310_STRUCTURAL_BYPASS_FREEFLOW.FCStd",
+  "architecture": {
+    "x_range_mm": [
+      754.962281164333,
+      810.5
+    ],
+    "station_count": 7,
+    "ring_points": 192,
+    "OML_clearance_mm": 0.53,
+    "keepout_margin_mm": 1.5,
+    "nominal_wall_mm": 0.8,
+    "target_inner_area_policy": "linear exact v310 outlet to 1.00 FSA"
+  },
+  "sides": [
+    {
+      "side": "R",
+      "stations": [
+        {
+          "x_mm": 754.962281164333,
+          "inner_area_mm2": 1252.0037464377397,
+          "inner_FSA_ratio": 0.9289631003036747,
+          "wall_gap_mm": 0.7999999999993201,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": 58.7114373835155,
+          "center_z_mm": -9.429498658739655
+        },
+        {
+          "x_mm": 764.962281164333,
+          "inner_area_mm2": 1269.242747266629,
+          "inner_FSA_ratio": 0.9417541128718939,
+          "wall_gap_mm": 0.7999999999999616,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": 58.29320922530617,
+          "center_z_mm": -9.196353350816022
+        },
+        {
+          "x_mm": 774.962281164333,
+          "inner_area_mm2": 1286.4810773351978,
+          "inner_FSA_ratio": 0.9545446277486416,
+          "wall_gap_mm": 0.7999999999995993,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": 57.40572588899029,
+          "center_z_mm": -8.869220843321077
+        },
+        {
+          "x_mm": 784.962281164333,
+          "inner_area_mm2": 1303.7216753169691,
+          "inner_FSA_ratio": 0.9673368253740917,
+          "wall_gap_mm": 0.7999999999996462,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": 56.80983193374729,
+          "center_z_mm": -8.347221048564082
+        },
+        {
+          "x_mm": 794.962281164333,
+          "inner_area_mm2": 1320.9623013011255,
+          "inner_FSA_ratio": 0.980129043776782,
+          "wall_gap_mm": 0.7999999999999972,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": 54.72345248495589,
+          "center_z_mm": -6.997243349554
+        },
+        {
+          "x_mm": 804.962281164333,
+          "inner_area_mm2": 1338.1989829286888,
+          "inner_FSA_ratio": 0.992918335541481,
+          "wall_gap_mm": 0.7999999999994825,
+          "outer_safe_fraction": 0.9999769736458802,
+          "center_y_mm": 52.994541605897425,
+          "center_z_mm": -6.160757210364556
+        },
+        {
+          "x_mm": 810.5,
+          "inner_area_mm2": 1347.7457476666018,
+          "inner_FSA_ratio": 1.000001854415953,
+          "wall_gap_mm": 0.7999999999997449,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": 52.32929091564471,
+          "center_z_mm": -6.10529101654757
+        }
+      ],
+      "mesh_is_solid": null,
+      "mesh_has_nonmanifolds": null,
+      "self_intersection_count": -1,
+      "outer_centroid_keepout_violations": 0,
+      "outer_centroid_OML_violations": 0,
+      "minimum_inner_FSA_ratio": 0.9289631003036747,
+      "minimum_wall_gap_mm": 0.7999999999993201,
+      "maximum_center_shift_per_station_mm": 2.4850390323219576
+    },
+    {
+      "side": "L",
+      "stations": [
+        {
+          "x_mm": 754.962281164333,
+          "inner_area_mm2": 1252.004767944292,
+          "inner_FSA_ratio": 0.9289638582422165,
+          "wall_gap_mm": 0.7999999999996614,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": -58.995747856801714,
+          "center_z_mm": -9.730218313083657
+        },
+        {
+          "x_mm": 764.962281164333,
+          "inner_area_mm2": 1269.242318940266,
+          "inner_FSA_ratio": 0.9417537950618335,
+          "wall_gap_mm": 0.7999999999999682,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": -58.59280936203995,
+          "center_z_mm": -9.46158226800474
+        },
+        {
+          "x_mm": 774.962281164333,
+          "inner_area_mm2": 1286.4829724917006,
+          "inner_FSA_ratio": 0.9545460339189229,
+          "wall_gap_mm": 0.7999999999999199,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": -57.73420274107876,
+          "center_z_mm": -9.111075388255262
+        },
+        {
+          "x_mm": 784.962281164333,
+          "inner_area_mm2": 1303.7237730168429,
+          "inner_FSA_ratio": 0.9673383818277235,
+          "wall_gap_mm": 0.7999999999999997,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": -56.83810647650443,
+          "center_z_mm": -8.521312310532632
+        },
+        {
+          "x_mm": 794.962281164333,
+          "inner_area_mm2": 1320.9587242779153,
+          "inner_FSA_ratio": 0.9801263896932133,
+          "wall_gap_mm": 0.799999999999443,
+          "outer_safe_fraction": 0.999989969506774,
+          "center_y_mm": -55.13749449245939,
+          "center_z_mm": -7.476819925687989
+        },
+        {
+          "x_mm": 804.962281164333,
+          "inner_area_mm2": 1338.197795136456,
+          "inner_FSA_ratio": 0.9929174542221094,
+          "wall_gap_mm": 0.8000000000000004,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": -53.88474017941742,
+          "center_z_mm": -7.086611756660979
+        },
+        {
+          "x_mm": 810.5,
+          "inner_area_mm2": 1347.7444344312207,
+          "inner_FSA_ratio": 1.0000008800201379,
+          "wall_gap_mm": 0.7999999999999992,
+          "outer_safe_fraction": 1.0,
+          "center_y_mm": -53.23367666764592,
+          "center_z_mm": -7.060472561483699
+        }
+      ],
+      "mesh_is_solid": null,
+      "mesh_has_nonmanifolds": null,
+      "self_intersection_count": -1,
+      "outer_centroid_keepout_violations": 0,
+      "outer_centroid_OML_violations": 0,
+      "minimum_inner_FSA_ratio": 0.9289638582422165,
+      "minimum_wall_gap_mm": 0.799999999999443,
+      "maximum_center_shift_per_station_mm": 1.9957568645193373
+    }
+  ],
+  "summary": {
+    "minimum_inner_FSA_ratio": 0.9289631003036747,
+    "minimum_wall_gap_mm": 0.7999999999993201,
+    "maximum_center_shift_per_station_mm": 2.4850390323219576,
+    "total_self_intersections": -2
+  },
+  "gates": {
+    "bilateral_mesh_solid": false,
+    "bilateral_no_nonmanifolds": false,
+    "zero_self_intersections": false,
+    "zero_sampled_keepout_violations": true,
+    "zero_sampled_OML_violations": true,
+    "minimum_inner_flow_no_less_than_v310_outlet": true,
+    "terminal_inner_area_reaches_1p00_FSA": true,
+    "minimum_wall_gap_ge_0p75mm": true,
+    "center_shift_per_station_le_6mm": true,
+    "slicer_verified": false,
+    "print_release": false,
+    "flight_release": false
+  },
+  "sha256": "07ac799294293b83040b1866a1b2a961cf11beae03095e8127d1ac25e7f83e92"
+}

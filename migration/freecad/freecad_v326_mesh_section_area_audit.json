@@ -1,0 +1,171 @@
+{
+  "scope": "independent reconstruction of 96-point polar rings from saved mesh facets; radial gap is not minimum Euclidean wall thickness",
+  "sides": [
+    {
+      "side": "R",
+      "mesh_is_solid": true,
+      "mesh_has_nonmanifolds": false,
+      "facets": 2688,
+      "sections": [
+        {
+          "x": 754.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9081035254644978,
+          "actual_inner_area_mm2": 1223.8903952839528,
+          "original_BRep_target_area_mm2": 1252.0037464377397,
+          "area_loss_pct": 2.2454686125162437,
+          "minimum_radial_gap_mm": 0.8000297330136767,
+          "outer_polygon_area_mm2": 1348.0799436596149
+        },
+        {
+          "x": 764.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.93024471561027,
+          "actual_inner_area_mm2": 1253.7310348142369,
+          "original_BRep_target_area_mm2": 1269.242747266629,
+          "area_loss_pct": 1.222123387019336,
+          "minimum_radial_gap_mm": 0.8000098696025724,
+          "outer_polygon_area_mm2": 1366.2876160216779
+        },
+        {
+          "x": 774.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9517862899054529,
+          "actual_inner_area_mm2": 1282.7635461302616,
+          "original_BRep_target_area_mm2": 1286.4810773351978,
+          "area_loss_pct": 0.28896897672499033,
+          "minimum_radial_gap_mm": 0.7997508085543075,
+          "outer_polygon_area_mm2": 1394.09869535519
+        },
+        {
+          "x": 784.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9671403863422049,
+          "actual_inner_area_mm2": 1303.4569259380235,
+          "original_BRep_target_area_mm2": 1303.7216753169691,
+          "area_loss_pct": 0.02030720083573412,
+          "minimum_radial_gap_mm": 0.7996363193590348,
+          "outer_polygon_area_mm2": 1411.0238400917824
+        },
+        {
+          "x": 794.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9795828081156632,
+          "actual_inner_area_mm2": 1320.2261158768229,
+          "original_BRep_target_area_mm2": 1320.9623013011255,
+          "area_loss_pct": 0.05573099425907335,
+          "minimum_radial_gap_mm": 0.7999881781910503,
+          "outer_polygon_area_mm2": 1427.4874175269474
+        },
+        {
+          "x": 804.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9923153874864357,
+          "actual_inner_area_mm2": 1337.3863637583715,
+          "original_BRep_target_area_mm2": 1338.1989829286888,
+          "area_loss_pct": 0.06072483843462262,
+          "minimum_radial_gap_mm": 0.7996938738986259,
+          "outer_polygon_area_mm2": 1447.183693781089
+        },
+        {
+          "x": 810.5,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9999214779383414,
+          "actual_inner_area_mm2": 1347.6374208115712,
+          "original_BRep_target_area_mm2": 1347.7457476666018,
+          "area_loss_pct": 0.008037632856061627,
+          "minimum_radial_gap_mm": 0.7996649793958319,
+          "outer_polygon_area_mm2": 1458.577459076971
+        }
+      ],
+      "mesh_min_FSA": 0.9081035254644978,
+      "mesh_terminal_FSA": 0.9999214779383414,
+      "max_area_loss_pct": 2.2454686125162437,
+      "min_radial_gap": 0.7996363193590348,
+      "all_sections_reconstructed": true
+    },
+    {
+      "side": "L",
+      "mesh_is_solid": true,
+      "mesh_has_nonmanifolds": false,
+      "facets": 2688,
+      "sections": [
+        {
+          "x": 754.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9122755964701014,
+          "actual_inner_area_mm2": 1229.5132758135587,
+          "original_BRep_target_area_mm2": 1252.004767944292,
+          "area_loss_pct": 1.7964382170575055,
+          "minimum_radial_gap_mm": 0.7999669320623113,
+          "outer_polygon_area_mm2": 1339.2308541895318
+        },
+        {
+          "x": 764.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9268947110217184,
+          "actual_inner_area_mm2": 1249.2160887479408,
+          "original_BRep_target_area_mm2": 1269.242318940266,
+          "area_loss_pct": 1.5778098392626672,
+          "minimum_radial_gap_mm": 0.7997566260266673,
+          "outer_polygon_area_mm2": 1369.8014276564631
+        },
+        {
+          "x": 774.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9527618995171847,
+          "actual_inner_area_mm2": 1284.0784173975376,
+          "original_BRep_target_area_mm2": 1286.4829724917006,
+          "area_loss_pct": 0.18690920483042106,
+          "minimum_radial_gap_mm": 0.7999588999550156,
+          "outer_polygon_area_mm2": 1395.0902534523518
+        },
+        {
+          "x": 784.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9669648657679175,
+          "actual_inner_area_mm2": 1303.2203692690741,
+          "original_BRep_target_area_mm2": 1303.7237730168429,
+          "area_loss_pct": 0.03861276124496049,
+          "minimum_radial_gap_mm": 0.7996829347102477,
+          "outer_polygon_area_mm2": 1410.990013397227
+        },
+        {
+          "x": 794.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9790027272142301,
+          "actual_inner_area_mm2": 1319.4443157583964,
+          "original_BRep_target_area_mm2": 1320.9587242779153,
+          "area_loss_pct": 0.11464465101638233,
+          "minimum_radial_gap_mm": 0.799744843672002,
+          "outer_polygon_area_mm2": 1429.2893745804095
+        },
+        {
+          "x": 804.962,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.9915201874661791,
+          "actual_inner_area_mm2": 1336.3146382999512,
+          "original_BRep_target_area_mm2": 1338.197795136456,
+          "area_loss_pct": 0.14072335519823564,
+          "minimum_radial_gap_mm": 0.7998604350738319,
+          "outer_polygon_area_mm2": 1451.426638464847
+        },
+        {
+          "x": 810.5,
+          "valid_grouping": true,
+          "actual_inner_polygon_FSA": 0.997713599418057,
+          "actual_inner_area_mm2": 1344.6617674425927,
+          "original_BRep_target_area_mm2": 1347.7444344312207,
+          "area_loss_pct": 0.22872785892297243,
+          "minimum_radial_gap_mm": 0.7921956800580325,
+          "outer_polygon_area_mm2": 1464.3793312492032
+        }
+      ],
+      "mesh_min_FSA": 0.9122755964701014,
+      "mesh_terminal_FSA": 0.997713599418057,
+      "max_area_loss_pct": 1.7964382170575055,
+      "min_radial_gap": 0.7921956800580325,
+      "all_sections_reconstructed": true
+    }
+  ]
+}
