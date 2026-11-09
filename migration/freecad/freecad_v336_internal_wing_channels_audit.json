@@ -1,0 +1,92 @@
+{
+  "classification": "EXPERIMENTAL_INTERNAL_CHANNELS",
+  "source": "F14_v282_THREE_8X6_WING_JOINER_ENDMODEL.FCStd",
+  "minimum_envelope_mm": 1.5,
+  "channel_d_mm": 4.0,
+  "closed_cavities_not_print_process_verified": true,
+  "rows": [
+    {
+      "side": "R",
+      "segment": "INNER",
+      "tested": 15,
+      "accepted": [
+        {
+          "x_mm": 510.0,
+          "y_mm": 180.667,
+          "z_mm": 0.5,
+          "radius_mm": 2.0,
+          "length_mm": 15.0
+        },
+        {
+          "x_mm": 585.0,
+          "y_mm": 197.879,
+          "z_mm": -1.0,
+          "radius_mm": 2.0,
+          "length_mm": 15.0
+        }
+      ],
+      "solid_count": 1,
+      "valid": true,
+      "original_volume_mm3": 96537.555,
+      "new_volume_mm3": 96160.564,
+      "removed_volume_mm3": 376.991,
+      "bbox_unmodified": true
+    },
+    {
+      "side": "R",
+      "segment": "OUTER",
+      "tested": 18,
+      "accepted": [],
+      "solid_count": 1,
+      "valid": true,
+      "original_volume_mm3": 107416.971,
+      "new_volume_mm3": 107416.971,
+      "removed_volume_mm3": 0.0,
+      "bbox_unmodified": true
+    },
+    {
+      "side": "L",
+      "segment": "INNER",
+      "tested": 15,
+      "accepted": [
+        {
+          "x_mm": 510.0,
+          "y_mm": -180.667,
+          "z_mm": 0.5,
+          "radius_mm": 2.0,
+          "length_mm": 15.0
+        },
+        {
+          "x_mm": 585.0,
+          "y_mm": -197.879,
+          "z_mm": -1.0,
+          "radius_mm": 2.0,
+          "length_mm": 15.0
+        }
+      ],
+      "solid_count": 1,
+      "valid": true,
+      "original_volume_mm3": 96537.555,
+      "new_volume_mm3": 96160.564,
+      "removed_volume_mm3": 376.991,
+      "bbox_unmodified": true
+    },
+    {
+      "side": "L",
+      "segment": "OUTER",
+      "tested": 18,
+      "accepted": [],
+      "solid_count": 1,
+      "valid": true,
+      "original_volume_mm3": 107416.971,
+      "new_volume_mm3": 107416.971,
+      "removed_volume_mm3": 0.0,
+      "bbox_unmodified": true
+    }
+  ],
+  "mass_load_impact_validated": false,
+  "slicer_verified": false,
+  "print_release": false,
+  "flight_release": false,
+  "sha256": "0f5d43e3409a8f92bd9cf335f3fa6a5288127eb7b8602bd33ee0062f47546bb5"
+}
