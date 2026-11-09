@@ -1,0 +1,301 @@
+{
+  "status": "INTEGRATION_REVIEW_ONLY",
+  "sources": [
+    "C:/Users/dezen/Desktop/JL1976/F14-Tomcat/F14-RC-Model/migration/freecad/F14_v312_POST_F_SOURCE_CONSTRAINED_OML.FCStd",
+    "C:/Users/dezen/Desktop/JL1976/F14-Tomcat/F14-RC-Model/migration/freecad/F14_v326_PRINTABLE_TRANSITION_WALL_MESH.FCStd"
+  ],
+  "objects": [
+    {
+      "name": "FUSELAGE_CURRENT",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        0.5,
+        879.0,
+        -159.62,
+        159.62,
+        -39.24,
+        89.92
+      ]
+    },
+    {
+      "name": "V312_POST_F_SOURCE_CONSTRAINED_OML",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        754.96,
+        835.3,
+        -101.73,
+        101.73,
+        -40.36,
+        25.74
+      ]
+    },
+    {
+      "name": "V282_WING_R_INNER",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        479.48,
+        631.24,
+        148.83,
+        234.88,
+        -6.24,
+        9.09
+      ]
+    },
+    {
+      "name": "V282_WING_R_OUTER",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        510.69,
+        640.82,
+        234.88,
+        450.0,
+        -12.43,
+        5.05
+      ]
+    },
+    {
+      "name": "V282_WING_L_INNER",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        479.48,
+        631.24,
+        -234.88,
+        -148.83,
+        -6.24,
+        9.09
+      ]
+    },
+    {
+      "name": "V282_WING_L_OUTER",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        510.69,
+        640.82,
+        -450.0,
+        -234.88,
+        -12.43,
+        5.05
+      ]
+    },
+    {
+      "name": "STABILATOR_L",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        662.14,
+        841.45,
+        -224.73,
+        -72.06,
+        -2.75,
+        2.75
+      ]
+    },
+    {
+      "name": "STABILATOR_R",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        662.14,
+        841.45,
+        72.06,
+        224.73,
+        -2.75,
+        2.75
+      ]
+    },
+    {
+      "name": "VTAIL_L",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        595.5,
+        742.8,
+        -80.25,
+        -75.75,
+        -5.6,
+        135.6
+      ]
+    },
+    {
+      "name": "VTAIL_R",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        595.5,
+        742.8,
+        75.75,
+        80.25,
+        -5.6,
+        135.6
+      ]
+    },
+    {
+      "name": "VENTRAL_L",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        690.0,
+        822.44,
+        -77.6,
+        -74.4,
+        -50.55,
+        -31.0
+      ]
+    },
+    {
+      "name": "VENTRAL_R",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        690.0,
+        822.44,
+        74.4,
+        77.6,
+        -50.55,
+        -31.0
+      ]
+    },
+    {
+      "name": "V297_JOINED_INLET_ADAPTER_R",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        19.88,
+        92.1,
+        -45.13,
+        26.36
+      ]
+    },
+    {
+      "name": "V297_JOINED_INLET_ADAPTER_L",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        -104.6,
+        -31.75,
+        -45.13,
+        26.36
+      ]
+    },
+    {
+      "name": "BATTERY_TRAY_v165",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        242.0,
+        438.0,
+        -27.0,
+        27.0,
+        2.41,
+        19.41
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_FWD",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        538.0,
+        546.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_MID",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        548.0,
+        556.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_AFT",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        558.0,
+        566.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_FWD",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        538.0,
+        546.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_MID",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        548.0,
+        556.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_AFT",
+      "source": "v312",
+      "solids": 1,
+      "bounds_mm": [
+        558.0,
+        566.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "REVIEW_EDF_TRANSITION_R",
+      "source": "v326",
+      "facets": 2688,
+      "solid": true,
+      "nonmanifolds": false
+    },
+    {
+      "name": "REVIEW_EDF_TRANSITION_L",
+      "source": "v326",
+      "facets": 2688,
+      "solid": true,
+      "nonmanifolds": false
+    }
+  ],
+  "overall_geometry_validated": false,
+  "assembly_collision_checked": false,
+  "print_release": false,
+  "flight_release": false,
+  "file_sha256": "232d47d885829475c31c8ae972ef9842ea9ec0b292f6876506f44e0654d201d9"
+}

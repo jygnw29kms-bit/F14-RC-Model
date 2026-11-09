@@ -1,0 +1,9203 @@
+{
+  "F14_v285_CONSOLIDATED_8X6_LIGHT_TAIL.FCStd": [
+    {
+      "name": "OUTER_AIRFRAME",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 9,
+      "volume_mm3": 11474725.08,
+      "bounds_mm": [
+        0.5,
+        879.0,
+        -450.0,
+        450.0,
+        -50.55,
+        135.6
+      ]
+    },
+    {
+      "name": "TECH_CURRENT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 2,
+      "volume_mm3": 15952.23,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        -104.6,
+        92.1,
+        -45.13,
+        26.33
+      ]
+    },
+    {
+      "name": "REFERENCE",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 3,
+      "volume_mm3": 684775.46,
+      "bounds_mm": [
+        466.35,
+        549.35,
+        -153.21,
+        153.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "FUSELAGE_CURRENT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 10773480.53,
+      "bounds_mm": [
+        0.5,
+        879.0,
+        -159.62,
+        159.62,
+        -39.24,
+        89.92
+      ]
+    },
+    {
+      "name": "STABILATOR_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 83579.84,
+      "bounds_mm": [
+        662.14,
+        841.45,
+        -224.73,
+        -72.06,
+        -2.75,
+        2.75
+      ]
+    },
+    {
+      "name": "STABILATOR_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 83579.84,
+      "bounds_mm": [
+        662.14,
+        841.45,
+        72.06,
+        224.73,
+        -2.75,
+        2.75
+      ]
+    },
+    {
+      "name": "VTAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 51830.46,
+      "bounds_mm": [
+        595.5,
+        742.8,
+        -80.25,
+        -75.75,
+        -5.6,
+        135.6
+      ]
+    },
+    {
+      "name": "VTAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 51830.46,
+      "bounds_mm": [
+        595.5,
+        742.8,
+        75.75,
+        80.25,
+        -5.6,
+        135.6
+      ]
+    },
+    {
+      "name": "VENTRAL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4691.91,
+      "bounds_mm": [
+        690.0,
+        822.44,
+        -77.6,
+        -74.4,
+        -50.55,
+        -31.0
+      ]
+    },
+    {
+      "name": "VENTRAL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4691.91,
+      "bounds_mm": [
+        690.0,
+        822.44,
+        74.4,
+        77.6,
+        -50.55,
+        -31.0
+      ]
+    },
+    {
+      "name": "INLET_EDF_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7976.12,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        19.43,
+        92.1,
+        -45.13,
+        26.33
+      ]
+    },
+    {
+      "name": "INLET_EDF_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7976.12,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        -104.6,
+        -31.48,
+        -45.13,
+        26.33
+      ]
+    },
+    {
+      "name": "PIVOT_REF_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 11762.12,
+      "bounds_mm": [
+        492.35,
+        516.35,
+        113.21,
+        137.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "PIVOT_REF_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 11762.12,
+      "bounds_mm": [
+        492.35,
+        516.35,
+        -137.21,
+        -113.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "BATTERY_TRAY_v165",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 27856.0,
+      "bounds_mm": [
+        242.0,
+        438.0,
+        -27.0,
+        27.0,
+        2.41,
+        19.41
+      ]
+    },
+    {
+      "name": "BATTERY_REFERENCE_PACK",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        287.0,
+        393.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "BATTERY_RETENTION_HOLE_REFS",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 19,
+      "volume_mm3": 12635.23,
+      "bounds_mm": [
+        246.9,
+        433.1,
+        -24.0,
+        24.0,
+        5.31,
+        9.51
+      ]
+    },
+    {
+      "name": "STAB_BEARING_R_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        50.0,
+        55.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_R_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        50.0,
+        55.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "STAB_BEARING_R_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        70.0,
+        75.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_R_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        70.0,
+        75.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "STAB_BEARING_L_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        -55.0,
+        -50.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_L_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        -55.0,
+        -50.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "STAB_BEARING_L_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        -75.0,
+        -70.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_L_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        -75.0,
+        -70.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "GRP_BATTERY",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 21,
+      "volume_mm3": 135891.23,
+      "bounds_mm": [
+        242.0,
+        438.0,
+        -27.0,
+        27.0,
+        2.41,
+        29.41
+      ]
+    },
+    {
+      "name": "GRP_STABILATOR_HW",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 14,
+      "volume_mm3": 43666.2,
+      "bounds_mm": [
+        686.5,
+        754.91,
+        -111.0,
+        111.0,
+        -18.9,
+        18.9
+      ]
+    },
+    {
+      "name": "SWEEP_REFERENCE_v192",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 6,
+      "volume_mm3": 1263119.05,
+      "bounds_mm": [
+        489.06,
+        837.03,
+        -401.45,
+        401.45,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_R_SWEEP_40",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        489.06,
+        743.67,
+        105.31,
+        401.45,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_L_SWEEP_40",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        489.06,
+        743.67,
+        -401.45,
+        -105.31,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_R_SWEEP_54",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        496.94,
+        799.11,
+        75.97,
+        347.11,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_L_SWEEP_54",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        496.94,
+        799.11,
+        -347.11,
+        -75.97,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_R_SWEEP_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        505.26,
+        837.03,
+        49.55,
+        279.6,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_L_SWEEP_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        505.26,
+        837.03,
+        -279.6,
+        -49.55,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "SWEEP_LINKAGE_V193",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 3,
+      "volume_mm3": 59301.48,
+      "bounds_mm": [
+        397.26,
+        456.35,
+        -68.0,
+        68.0,
+        0.0,
+        44.0
+      ]
+    },
+    {
+      "name": "SWEEP_SLIDER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1138.74,
+      "bounds_mm": [
+        397.26,
+        435.21,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "SWEEP_SLIDER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1138.74,
+      "bounds_mm": [
+        397.26,
+        435.21,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "DYNAMIC_LINKAGE_V194",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 18,
+      "volume_mm3": 19963.76,
+      "bounds_mm": [
+        397.26,
+        532.17,
+        -128.04,
+        128.04,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_CRANK_R_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        501.52,
+        532.17,
+        97.38,
+        128.04,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_R_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        430.54,
+        530.02,
+        63.12,
+        102.09,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_R_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        427.21,
+        435.21,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_L_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        501.52,
+        532.17,
+        -128.04,
+        -97.38,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_L_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        430.54,
+        530.02,
+        -102.09,
+        -63.12,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_L_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        427.21,
+        435.21,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_R_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        500.61,
+        520.75,
+        90.77,
+        126.64,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_R_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        415.85,
+        517.54,
+        63.07,
+        94.13,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_R_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        412.37,
+        420.37,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_L_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        500.61,
+        520.75,
+        -126.64,
+        -90.77,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_L_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        415.85,
+        517.54,
+        -94.13,
+        -63.07,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_L_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        412.37,
+        420.37,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_R_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        498.5,
+        508.34,
+        89.69,
+        125.42,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_R_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        400.78,
+        502.97,
+        63.06,
+        91.84,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_R_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        397.26,
+        405.26,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_L_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        498.5,
+        508.34,
+        -125.42,
+        -89.69,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_L_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        400.78,
+        502.97,
+        -91.84,
+        -63.06,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_L_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        397.26,
+        405.26,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V203_GLOVE_BLEND_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": -73.48,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        130.83,
+        148.83,
+        -11.56,
+        -4.57
+      ]
+    },
+    {
+      "name": "V203_GLOVE_BLEND_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 82.7,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        -148.83,
+        -130.83,
+        -11.66,
+        -4.57
+      ]
+    },
+    {
+      "name": "V203_INNER_ATTACH_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        130.83,
+        130.83,
+        -11.56,
+        -8.73
+      ]
+    },
+    {
+      "name": "V203_INNER_ATTACH_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        -130.83,
+        -130.83,
+        -11.66,
+        -8.58
+      ]
+    },
+    {
+      "name": "V203_OUTER_CLEARANCE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        148.83,
+        148.83,
+        -6.12,
+        -4.57
+      ]
+    },
+    {
+      "name": "V203_OUTER_CLEARANCE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        -148.83,
+        -148.83,
+        -6.12,
+        -4.57
+      ]
+    },
+    {
+      "name": "V204_SHAFT_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 735.13,
+      "bounds_mm": [
+        501.35,
+        507.35,
+        122.21,
+        128.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_LOWER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        118.71,
+        131.71,
+        -10.0,
+        -5.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_UPPER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        118.71,
+        131.71,
+        5.0,
+        10.0
+      ]
+    },
+    {
+      "name": "V204_SHAFT_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 735.13,
+      "bounds_mm": [
+        501.35,
+        507.35,
+        -128.21,
+        -122.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_LOWER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        -131.71,
+        -118.71,
+        -10.0,
+        -5.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_UPPER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        -131.71,
+        -118.71,
+        5.0,
+        10.0
+      ]
+    },
+    {
+      "name": "SWEEP_V205",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 5,
+      "volume_mm3": 378504.0,
+      "bounds_mm": [
+        252.0,
+        481.31,
+        -18.0,
+        18.0,
+        0.0,
+        44.0
+      ]
+    },
+    {
+      "name": "V205_SWEEP_SERVO_SERVICE",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 57024.0,
+      "bounds_mm": [
+        433.31,
+        481.31,
+        -13.5,
+        13.5,
+        0.0,
+        44.0
+      ]
+    },
+    {
+      "name": "V205_BATTERY_305",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        252.0,
+        358.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "V205_BATTERY_340",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        287.0,
+        393.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "V205_BATTERY_375",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        322.0,
+        428.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "SWEEP_V208",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 6,
+      "volume_mm3": 8285.1,
+      "bounds_mm": [
+        439.41,
+        530.57,
+        -111.79,
+        111.79,
+        1.0,
+        9.0
+      ]
+    },
+    {
+      "name": "V208_ROD_20_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        469.99,
+        530.57,
+        63.42,
+        111.79,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V208_ROD_20_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        469.99,
+        530.57,
+        -111.79,
+        -63.42,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V208_ROD_68_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        442.55,
+        510.79,
+        63.19,
+        98.4,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V208_ROD_68_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        442.55,
+        510.79,
+        -98.4,
+        -63.19,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V209_INNER_ATTACH_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        115.0,
+        115.0,
+        -22.16,
+        -16.68
+      ]
+    },
+    {
+      "name": "V209_OUTER_SKIN_RAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        148.83,
+        148.83,
+        -13.5,
+        -13.5
+      ]
+    },
+    {
+      "name": "V209_FIXED_GLOVE_UNDERSIDE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": -417.97,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        115.0,
+        148.83,
+        -22.16,
+        -13.5
+      ]
+    },
+    {
+      "name": "V209_INNER_ATTACH_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -115.0,
+        -115.0,
+        -22.15,
+        -16.58
+      ]
+    },
+    {
+      "name": "V209_OUTER_SKIN_RAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -148.83,
+        -148.83,
+        -13.5,
+        -13.5
+      ]
+    },
+    {
+      "name": "V209_FIXED_GLOVE_UNDERSIDE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 436.81,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -148.83,
+        -115.0,
+        -22.15,
+        -13.5
+      ]
+    },
+    {
+      "name": "V221_CASSETTE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19272.62,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        50.0,
+        147.21,
+        -12.5,
+        12.5
+      ]
+    },
+    {
+      "name": "V221_CASSETTE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19272.62,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -147.21,
+        -50.0,
+        -12.5,
+        12.5
+      ]
+    },
+    {
+      "name": "V225_SERVO_A80BHSF_V2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 30000.0,
+      "bounds_mm": [
+        437.31,
+        477.31,
+        -10.0,
+        10.0,
+        14.0,
+        51.5
+      ]
+    },
+    {
+      "name": "V225_SERVO_SERVICE",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 49634.0,
+      "bounds_mm": [
+        434.31,
+        480.31,
+        -13.0,
+        13.0,
+        12.0,
+        53.5
+      ]
+    },
+    {
+      "name": "V225_SYNC_YOKE_M4_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 15514.33,
+      "bounds_mm": [
+        463.21,
+        479.21,
+        -68.0,
+        68.0,
+        2.5,
+        10.5
+      ]
+    },
+    {
+      "name": "V227_HOBBYWING_UBEC10A_HV",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 16500.0,
+      "bounds_mm": [
+        302.5,
+        357.5,
+        47.5,
+        72.5,
+        39.0,
+        51.0
+      ]
+    },
+    {
+      "name": "V227_RECEIVER_50MM_KEEP_OUT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 523598.78,
+      "bounds_mm": [
+        280.0,
+        380.0,
+        10.0,
+        110.0,
+        -5.0,
+        95.0
+      ]
+    },
+    {
+      "name": "V228_TAIL_UBEC10A_HV",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 16500.0,
+      "bounds_mm": [
+        302.5,
+        357.5,
+        -72.5,
+        -47.5,
+        39.0,
+        51.0
+      ]
+    },
+    {
+      "name": "V228_TAIL_BEC_50MM_KEEP_OUT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 523598.78,
+      "bounds_mm": [
+        280.0,
+        380.0,
+        -110.0,
+        -10.0,
+        -5.0,
+        95.0
+      ]
+    },
+    {
+      "name": "V228_RECEIVER_RESERVE_MAX",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 22500.0,
+      "bounds_mm": [
+        245.0,
+        295.0,
+        -15.0,
+        15.0,
+        37.5,
+        52.5
+      ]
+    },
+    {
+      "name": "V229_SKYWALKER50A_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 12000.0,
+      "bounds_mm": [
+        650.0,
+        710.0,
+        82.5,
+        107.5,
+        21.0,
+        29.0
+      ]
+    },
+    {
+      "name": "V229_ESC_SERVICE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 28644.0,
+      "bounds_mm": [
+        647.0,
+        713.0,
+        79.5,
+        110.5,
+        18.0,
+        32.0
+      ]
+    },
+    {
+      "name": "V229_SKYWALKER50A_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 12000.0,
+      "bounds_mm": [
+        650.0,
+        710.0,
+        -107.5,
+        -82.5,
+        21.0,
+        29.0
+      ]
+    },
+    {
+      "name": "V229_ESC_SERVICE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 28644.0,
+      "bounds_mm": [
+        647.0,
+        713.0,
+        -110.5,
+        -79.5,
+        18.0,
+        32.0
+      ]
+    },
+    {
+      "name": "V233_TORQ_TCM1022_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7590.0,
+      "bounds_mm": [
+        688.5,
+        711.5,
+        46.25,
+        73.75,
+        -6.0,
+        6.0
+      ]
+    },
+    {
+      "name": "V233_TORQ_SERVICE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 13608.0,
+      "bounds_mm": [
+        686.5,
+        713.5,
+        44.25,
+        75.75,
+        -8.0,
+        8.0
+      ]
+    },
+    {
+      "name": "V233_TORQ_TCM1022_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7590.0,
+      "bounds_mm": [
+        688.5,
+        711.5,
+        -73.75,
+        -46.25,
+        -6.0,
+        6.0
+      ]
+    },
+    {
+      "name": "V233_TORQ_SERVICE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 13608.0,
+      "bounds_mm": [
+        686.5,
+        713.5,
+        -75.75,
+        -44.25,
+        -8.0,
+        8.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_INBOARD_COLLAR_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 147.95,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        47.0,
+        50.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_OUTER_SHOULDER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 34.39,
+      "bounds_mm": [
+        731.51,
+        740.51,
+        75.0,
+        76.0,
+        -4.5,
+        4.5
+      ]
+    },
+    {
+      "name": "V234_SURFACE_INNER_COLLAR_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 98.63,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        80.0,
+        82.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_SURFACE_OUTER_WASHER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 140.99,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        106.0,
+        108.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_END_FASTENER_HEAD_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 84.82,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        108.0,
+        111.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_INBOARD_COLLAR_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 147.95,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        -50.0,
+        -47.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_OUTER_SHOULDER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 34.39,
+      "bounds_mm": [
+        731.51,
+        740.51,
+        -76.0,
+        -75.0,
+        -4.5,
+        4.5
+      ]
+    },
+    {
+      "name": "V234_SURFACE_INNER_COLLAR_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 98.63,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        -82.0,
+        -80.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_SURFACE_OUTER_WASHER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 140.99,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        -108.0,
+        -106.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_END_FASTENER_HEAD_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 84.82,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        -111.0,
+        -108.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V237_D_SHAFT_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1680.59,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        45.0,
+        106.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V237_D_SHAFT_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1680.59,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        -106.0,
+        -45.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V241_LIGHT_D_CRANK_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 824.78,
+      "bounds_mm": [
+        729.01,
+        755.21,
+        76.0,
+        80.0,
+        -7.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V241_LIGHT_D_CRANK_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 824.78,
+      "bounds_mm": [
+        729.01,
+        755.21,
+        -80.0,
+        -76.0,
+        -7.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V247_TAIL_SERVO_CRADLE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 3400.0,
+      "bounds_mm": [
+        682.0,
+        718.0,
+        42.0,
+        78.0,
+        -9.0,
+        8.0
+      ]
+    },
+    {
+      "name": "V247_TAIL_SERVO_CRADLE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 3400.0,
+      "bounds_mm": [
+        682.0,
+        718.0,
+        -78.0,
+        -42.0,
+        -9.0,
+        8.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_220",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        219.8,
+        220.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_440",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        439.8,
+        440.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_620",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        619.8,
+        620.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_840",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        839.8,
+        840.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_WING_SEAM_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 3800.0,
+      "bounds_mm": [
+        470.0,
+        660.0,
+        320.74,
+        321.14,
+        -25.0,
+        25.0
+      ]
+    },
+    {
+      "name": "V250_WING_SEAM_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 3800.0,
+      "bounds_mm": [
+        470.0,
+        660.0,
+        -321.14,
+        -320.74,
+        -25.0,
+        25.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_BATTERY",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1153440.0,
+      "bounds_mm": [
+        250.0,
+        428.0,
+        -36.0,
+        36.0,
+        10.0,
+        100.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_SWEEP",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 966000.0,
+      "bounds_mm": [
+        430.0,
+        535.0,
+        -50.0,
+        50.0,
+        8.0,
+        100.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_TAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 196800.0,
+      "bounds_mm": [
+        675.0,
+        725.0,
+        38.0,
+        86.0,
+        -12.0,
+        70.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_TAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 196800.0,
+      "bounds_mm": [
+        675.0,
+        725.0,
+        -86.0,
+        -38.0,
+        -12.0,
+        70.0
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X220_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 942.48,
+      "bounds_mm": [
+        190.0,
+        250.0,
+        -23.0,
+        -17.0,
+        -13.0,
+        -7.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        200.0,
+        220.0,
+        -24.35,
+        -15.65,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        220.0,
+        240.0,
+        -24.35,
+        -15.65,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X220_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 942.48,
+      "bounds_mm": [
+        190.0,
+        250.0,
+        17.0,
+        23.0,
+        -13.0,
+        -7.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        200.0,
+        220.0,
+        15.65,
+        24.35,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        220.0,
+        240.0,
+        15.65,
+        24.35,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X440_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1671.33,
+      "bounds_mm": [
+        402.0,
+        478.0,
+        -64.0,
+        -56.0,
+        -14.0,
+        -6.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        420.0,
+        440.0,
+        -65.35,
+        -54.65,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        440.0,
+        460.0,
+        -65.35,
+        -54.65,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X440_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1671.33,
+      "bounds_mm": [
+        402.0,
+        478.0,
+        56.0,
+        64.0,
+        -14.0,
+        -6.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        420.0,
+        440.0,
+        54.65,
+        65.35,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        440.0,
+        460.0,
+        54.65,
+        65.35,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X840_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 628.32,
+      "bounds_mm": [
+        820.0,
+        860.0,
+        -33.0,
+        -27.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        820.0,
+        840.0,
+        -34.35,
+        -25.65,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        840.0,
+        860.0,
+        -34.35,
+        -25.65,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X840_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 628.32,
+      "bounds_mm": [
+        820.0,
+        860.0,
+        27.0,
+        33.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        820.0,
+        840.0,
+        25.65,
+        34.35,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        840.0,
+        860.0,
+        25.65,
+        34.35,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        566.8,
+        573.1,
+        300.94,
+        340.94,
+        -7.45,
+        -1.15
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        577.96,
+        584.26,
+        300.94,
+        340.94,
+        -7.38,
+        -1.08
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        566.8,
+        573.1,
+        -340.94,
+        -300.94,
+        -7.45,
+        -1.15
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        577.96,
+        584.26,
+        -340.94,
+        -300.94,
+        -7.38,
+        -1.08
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_BATTERY",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 2636.93,
+      "bounds_mm": [
+        245.0,
+        433.0,
+        -41.0,
+        41.0,
+        18.0,
+        19.2
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_SWEEP",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 2183.33,
+      "bounds_mm": [
+        425.0,
+        540.0,
+        -55.0,
+        55.0,
+        18.0,
+        19.2
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_TAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1104.77,
+      "bounds_mm": [
+        670.0,
+        730.0,
+        33.0,
+        91.0,
+        10.0,
+        11.2
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_TAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1104.77,
+      "bounds_mm": [
+        670.0,
+        730.0,
+        -91.0,
+        -33.0,
+        10.0,
+        11.2
+      ]
+    },
+    {
+      "name": "V271_C_CLAMP_X220_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 283.59,
+      "bounds_mm": [
+        222.0,
+        229.0,
+        -25.6,
+        -14.4,
+        -15.6,
+        -2.15
+      ]
+    },
+    {
+      "name": "V271_C_CLAMP_X220_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 283.59,
+      "bounds_mm": [
+        222.0,
+        229.0,
+        14.4,
+        25.6,
+        -15.6,
+        -2.15
+      ]
+    },
+    {
+      "name": "V271_C_CLAMP_X440_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 334.11,
+      "bounds_mm": [
+        442.0,
+        449.0,
+        -66.6,
+        -53.4,
+        -16.6,
+        -1.15
+      ]
+    },
+    {
+      "name": "V271_C_CLAMP_X440_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 334.11,
+      "bounds_mm": [
+        442.0,
+        449.0,
+        53.4,
+        66.6,
+        -16.6,
+        -1.15
+      ]
+    },
+    {
+      "name": "V271_C_CLAMP_X840_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 283.59,
+      "bounds_mm": [
+        842.0,
+        849.0,
+        -35.6,
+        -24.4,
+        -5.6,
+        7.85
+      ]
+    },
+    {
+      "name": "V271_C_CLAMP_X840_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 283.59,
+      "bounds_mm": [
+        842.0,
+        849.0,
+        24.4,
+        35.6,
+        -5.6,
+        7.85
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X220_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        221.5,
+        229.5,
+        -160.0,
+        -20.0,
+        -8.35,
+        -0.35
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X220_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        221.5,
+        229.5,
+        20.0,
+        160.0,
+        -8.35,
+        -0.35
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X840_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        841.5,
+        849.5,
+        -170.0,
+        -30.0,
+        1.65,
+        9.65
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X840_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        841.5,
+        849.5,
+        30.0,
+        170.0,
+        1.65,
+        9.65
+      ]
+    },
+    {
+      "name": "V282_WING_R_INNER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 96537.55,
+      "bounds_mm": [
+        479.48,
+        631.24,
+        148.83,
+        234.88,
+        -6.24,
+        9.09
+      ]
+    },
+    {
+      "name": "V282_WING_R_OUTER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 107416.97,
+      "bounds_mm": [
+        510.69,
+        640.82,
+        234.88,
+        450.0,
+        -12.43,
+        5.05
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        538.0,
+        546.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_MID",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        548.0,
+        556.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        558.0,
+        566.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_L_INNER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 96537.55,
+      "bounds_mm": [
+        479.48,
+        631.24,
+        -234.88,
+        -148.83,
+        -6.24,
+        9.09
+      ]
+    },
+    {
+      "name": "V282_WING_L_OUTER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 107416.97,
+      "bounds_mm": [
+        510.69,
+        640.82,
+        -450.0,
+        -234.88,
+        -12.43,
+        5.05
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        538.0,
+        546.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_MID",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        548.0,
+        556.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        558.0,
+        566.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V284_LIGHT_D_ROOT_FITTING_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4081.92,
+      "bounds_mm": [
+        718.01,
+        754.01,
+        82.0,
+        135.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "V284_LIGHT_D_ROOT_FITTING_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4081.92,
+      "bounds_mm": [
+        718.01,
+        754.01,
+        -135.0,
+        -82.0,
+        -6.5,
+        6.5
+      ]
+    }
+  ],
+  "F14_v310_STRUCTURAL_BYPASS_FREEFLOW.FCStd": [
+    {
+      "name": "OUTER_AIRFRAME",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 9,
+      "volume_mm3": 11474725.08,
+      "bounds_mm": [
+        0.5,
+        879.0,
+        -450.0,
+        450.0,
+        -50.55,
+        135.6
+      ]
+    },
+    {
+      "name": "TECH_CURRENT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 2,
+      "volume_mm3": 15952.23,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        -104.6,
+        92.1,
+        -45.13,
+        26.33
+      ]
+    },
+    {
+      "name": "REFERENCE",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 3,
+      "volume_mm3": 684775.46,
+      "bounds_mm": [
+        466.35,
+        549.35,
+        -153.21,
+        153.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "FUSELAGE_CURRENT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 10773480.53,
+      "bounds_mm": [
+        0.5,
+        879.0,
+        -159.62,
+        159.62,
+        -39.24,
+        89.92
+      ]
+    },
+    {
+      "name": "STABILATOR_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 83579.84,
+      "bounds_mm": [
+        662.14,
+        841.45,
+        -224.73,
+        -72.06,
+        -2.75,
+        2.75
+      ]
+    },
+    {
+      "name": "STABILATOR_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 83579.84,
+      "bounds_mm": [
+        662.14,
+        841.45,
+        72.06,
+        224.73,
+        -2.75,
+        2.75
+      ]
+    },
+    {
+      "name": "VTAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 51830.46,
+      "bounds_mm": [
+        595.5,
+        742.8,
+        -80.25,
+        -75.75,
+        -5.6,
+        135.6
+      ]
+    },
+    {
+      "name": "VTAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 51830.46,
+      "bounds_mm": [
+        595.5,
+        742.8,
+        75.75,
+        80.25,
+        -5.6,
+        135.6
+      ]
+    },
+    {
+      "name": "VENTRAL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4691.91,
+      "bounds_mm": [
+        690.0,
+        822.44,
+        -77.6,
+        -74.4,
+        -50.55,
+        -31.0
+      ]
+    },
+    {
+      "name": "VENTRAL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4691.91,
+      "bounds_mm": [
+        690.0,
+        822.44,
+        74.4,
+        77.6,
+        -50.55,
+        -31.0
+      ]
+    },
+    {
+      "name": "INLET_EDF_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7976.12,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        19.43,
+        92.1,
+        -45.13,
+        26.33
+      ]
+    },
+    {
+      "name": "INLET_EDF_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7976.12,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        -104.6,
+        -31.48,
+        -45.13,
+        26.33
+      ]
+    },
+    {
+      "name": "PIVOT_REF_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 11762.12,
+      "bounds_mm": [
+        492.35,
+        516.35,
+        113.21,
+        137.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "PIVOT_REF_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 11762.12,
+      "bounds_mm": [
+        492.35,
+        516.35,
+        -137.21,
+        -113.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "BATTERY_TRAY_v165",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 27856.0,
+      "bounds_mm": [
+        242.0,
+        438.0,
+        -27.0,
+        27.0,
+        2.41,
+        19.41
+      ]
+    },
+    {
+      "name": "BATTERY_REFERENCE_PACK",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        287.0,
+        393.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "BATTERY_RETENTION_HOLE_REFS",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 19,
+      "volume_mm3": 12635.23,
+      "bounds_mm": [
+        246.9,
+        433.1,
+        -24.0,
+        24.0,
+        5.31,
+        9.51
+      ]
+    },
+    {
+      "name": "STAB_BEARING_R_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        50.0,
+        55.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_R_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        50.0,
+        55.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "STAB_BEARING_R_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        70.0,
+        75.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_R_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        70.0,
+        75.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "STAB_BEARING_L_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        -55.0,
+        -50.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_L_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        -55.0,
+        -50.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "STAB_BEARING_L_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        -75.0,
+        -70.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_L_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        -75.0,
+        -70.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "GRP_BATTERY",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 21,
+      "volume_mm3": 135891.23,
+      "bounds_mm": [
+        242.0,
+        438.0,
+        -27.0,
+        27.0,
+        2.41,
+        29.41
+      ]
+    },
+    {
+      "name": "GRP_STABILATOR_HW",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 14,
+      "volume_mm3": 43666.2,
+      "bounds_mm": [
+        686.5,
+        754.91,
+        -111.0,
+        111.0,
+        -18.9,
+        18.9
+      ]
+    },
+    {
+      "name": "SWEEP_REFERENCE_v192",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 6,
+      "volume_mm3": 1263119.05,
+      "bounds_mm": [
+        489.06,
+        837.03,
+        -401.45,
+        401.45,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_R_SWEEP_40",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        489.06,
+        743.67,
+        105.31,
+        401.45,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_L_SWEEP_40",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        489.06,
+        743.67,
+        -401.45,
+        -105.31,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_R_SWEEP_54",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        496.94,
+        799.11,
+        75.97,
+        347.11,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_L_SWEEP_54",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        496.94,
+        799.11,
+        -347.11,
+        -75.97,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_R_SWEEP_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        505.26,
+        837.03,
+        49.55,
+        279.6,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_L_SWEEP_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        505.26,
+        837.03,
+        -279.6,
+        -49.55,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "SWEEP_LINKAGE_V193",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 3,
+      "volume_mm3": 59301.48,
+      "bounds_mm": [
+        397.26,
+        456.35,
+        -68.0,
+        68.0,
+        0.0,
+        44.0
+      ]
+    },
+    {
+      "name": "SWEEP_SLIDER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1138.74,
+      "bounds_mm": [
+        397.26,
+        435.21,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "SWEEP_SLIDER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1138.74,
+      "bounds_mm": [
+        397.26,
+        435.21,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "DYNAMIC_LINKAGE_V194",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 18,
+      "volume_mm3": 19963.76,
+      "bounds_mm": [
+        397.26,
+        532.17,
+        -128.04,
+        128.04,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_CRANK_R_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        501.52,
+        532.17,
+        97.38,
+        128.04,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_R_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        430.54,
+        530.02,
+        63.12,
+        102.09,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_R_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        427.21,
+        435.21,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_L_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        501.52,
+        532.17,
+        -128.04,
+        -97.38,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_L_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        430.54,
+        530.02,
+        -102.09,
+        -63.12,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_L_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        427.21,
+        435.21,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_R_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        500.61,
+        520.75,
+        90.77,
+        126.64,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_R_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        415.85,
+        517.54,
+        63.07,
+        94.13,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_R_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        412.37,
+        420.37,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_L_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        500.61,
+        520.75,
+        -126.64,
+        -90.77,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_L_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        415.85,
+        517.54,
+        -94.13,
+        -63.07,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_L_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        412.37,
+        420.37,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_R_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        498.5,
+        508.34,
+        89.69,
+        125.42,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_R_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        400.78,
+        502.97,
+        63.06,
+        91.84,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_R_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        397.26,
+        405.26,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_L_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        498.5,
+        508.34,
+        -125.42,
+        -89.69,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_L_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        400.78,
+        502.97,
+        -91.84,
+        -63.06,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_L_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        397.26,
+        405.26,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V203_GLOVE_BLEND_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": -73.48,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        130.83,
+        148.83,
+        -11.56,
+        -4.57
+      ]
+    },
+    {
+      "name": "V203_GLOVE_BLEND_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 82.7,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        -148.83,
+        -130.83,
+        -11.66,
+        -4.57
+      ]
+    },
+    {
+      "name": "V203_INNER_ATTACH_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        130.83,
+        130.83,
+        -11.56,
+        -8.73
+      ]
+    },
+    {
+      "name": "V203_INNER_ATTACH_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        -130.83,
+        -130.83,
+        -11.66,
+        -8.58
+      ]
+    },
+    {
+      "name": "V203_OUTER_CLEARANCE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        148.83,
+        148.83,
+        -6.12,
+        -4.57
+      ]
+    },
+    {
+      "name": "V203_OUTER_CLEARANCE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        -148.83,
+        -148.83,
+        -6.12,
+        -4.57
+      ]
+    },
+    {
+      "name": "V204_SHAFT_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 735.13,
+      "bounds_mm": [
+        501.35,
+        507.35,
+        122.21,
+        128.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_LOWER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        118.71,
+        131.71,
+        -10.0,
+        -5.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_UPPER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        118.71,
+        131.71,
+        5.0,
+        10.0
+      ]
+    },
+    {
+      "name": "V204_SHAFT_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 735.13,
+      "bounds_mm": [
+        501.35,
+        507.35,
+        -128.21,
+        -122.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_LOWER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        -131.71,
+        -118.71,
+        -10.0,
+        -5.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_UPPER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        -131.71,
+        -118.71,
+        5.0,
+        10.0
+      ]
+    },
+    {
+      "name": "SWEEP_V205",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 5,
+      "volume_mm3": 378504.0,
+      "bounds_mm": [
+        252.0,
+        481.31,
+        -18.0,
+        18.0,
+        0.0,
+        44.0
+      ]
+    },
+    {
+      "name": "V205_SWEEP_SERVO_SERVICE",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 57024.0,
+      "bounds_mm": [
+        433.31,
+        481.31,
+        -13.5,
+        13.5,
+        0.0,
+        44.0
+      ]
+    },
+    {
+      "name": "V205_BATTERY_305",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        252.0,
+        358.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "V205_BATTERY_340",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        287.0,
+        393.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "V205_BATTERY_375",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        322.0,
+        428.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "SWEEP_V208",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 6,
+      "volume_mm3": 8285.1,
+      "bounds_mm": [
+        439.41,
+        530.57,
+        -111.79,
+        111.79,
+        1.0,
+        9.0
+      ]
+    },
+    {
+      "name": "V208_ROD_20_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        469.99,
+        530.57,
+        63.42,
+        111.79,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V208_ROD_20_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        469.99,
+        530.57,
+        -111.79,
+        -63.42,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V208_ROD_68_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        442.55,
+        510.79,
+        63.19,
+        98.4,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V208_ROD_68_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        442.55,
+        510.79,
+        -98.4,
+        -63.19,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V209_INNER_ATTACH_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        115.0,
+        115.0,
+        -22.16,
+        -16.68
+      ]
+    },
+    {
+      "name": "V209_OUTER_SKIN_RAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        148.83,
+        148.83,
+        -13.5,
+        -13.5
+      ]
+    },
+    {
+      "name": "V209_FIXED_GLOVE_UNDERSIDE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": -417.97,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        115.0,
+        148.83,
+        -22.16,
+        -13.5
+      ]
+    },
+    {
+      "name": "V209_INNER_ATTACH_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -115.0,
+        -115.0,
+        -22.15,
+        -16.58
+      ]
+    },
+    {
+      "name": "V209_OUTER_SKIN_RAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -148.83,
+        -148.83,
+        -13.5,
+        -13.5
+      ]
+    },
+    {
+      "name": "V209_FIXED_GLOVE_UNDERSIDE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 436.81,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -148.83,
+        -115.0,
+        -22.15,
+        -13.5
+      ]
+    },
+    {
+      "name": "V221_CASSETTE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19272.62,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        50.0,
+        147.21,
+        -12.5,
+        12.5
+      ]
+    },
+    {
+      "name": "V221_CASSETTE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19272.62,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -147.21,
+        -50.0,
+        -12.5,
+        12.5
+      ]
+    },
+    {
+      "name": "V225_SERVO_A80BHSF_V2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 30000.0,
+      "bounds_mm": [
+        437.31,
+        477.31,
+        -10.0,
+        10.0,
+        14.0,
+        51.5
+      ]
+    },
+    {
+      "name": "V225_SERVO_SERVICE",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 49634.0,
+      "bounds_mm": [
+        434.31,
+        480.31,
+        -13.0,
+        13.0,
+        12.0,
+        53.5
+      ]
+    },
+    {
+      "name": "V225_SYNC_YOKE_M4_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 15514.33,
+      "bounds_mm": [
+        463.21,
+        479.21,
+        -68.0,
+        68.0,
+        2.5,
+        10.5
+      ]
+    },
+    {
+      "name": "V227_HOBBYWING_UBEC10A_HV",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 16500.0,
+      "bounds_mm": [
+        302.5,
+        357.5,
+        47.5,
+        72.5,
+        39.0,
+        51.0
+      ]
+    },
+    {
+      "name": "V227_RECEIVER_50MM_KEEP_OUT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 523598.78,
+      "bounds_mm": [
+        280.0,
+        380.0,
+        10.0,
+        110.0,
+        -5.0,
+        95.0
+      ]
+    },
+    {
+      "name": "V228_TAIL_UBEC10A_HV",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 16500.0,
+      "bounds_mm": [
+        302.5,
+        357.5,
+        -72.5,
+        -47.5,
+        39.0,
+        51.0
+      ]
+    },
+    {
+      "name": "V228_TAIL_BEC_50MM_KEEP_OUT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 523598.78,
+      "bounds_mm": [
+        280.0,
+        380.0,
+        -110.0,
+        -10.0,
+        -5.0,
+        95.0
+      ]
+    },
+    {
+      "name": "V228_RECEIVER_RESERVE_MAX",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 22500.0,
+      "bounds_mm": [
+        245.0,
+        295.0,
+        -15.0,
+        15.0,
+        37.5,
+        52.5
+      ]
+    },
+    {
+      "name": "V229_SKYWALKER50A_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 12000.0,
+      "bounds_mm": [
+        650.0,
+        710.0,
+        82.5,
+        107.5,
+        21.0,
+        29.0
+      ]
+    },
+    {
+      "name": "V229_ESC_SERVICE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 28644.0,
+      "bounds_mm": [
+        647.0,
+        713.0,
+        79.5,
+        110.5,
+        18.0,
+        32.0
+      ]
+    },
+    {
+      "name": "V229_SKYWALKER50A_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 12000.0,
+      "bounds_mm": [
+        650.0,
+        710.0,
+        -107.5,
+        -82.5,
+        21.0,
+        29.0
+      ]
+    },
+    {
+      "name": "V229_ESC_SERVICE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 28644.0,
+      "bounds_mm": [
+        647.0,
+        713.0,
+        -110.5,
+        -79.5,
+        18.0,
+        32.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_INBOARD_COLLAR_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 147.95,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        47.0,
+        50.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_OUTER_SHOULDER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 34.39,
+      "bounds_mm": [
+        731.51,
+        740.51,
+        75.0,
+        76.0,
+        -4.5,
+        4.5
+      ]
+    },
+    {
+      "name": "V234_SURFACE_INNER_COLLAR_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 98.63,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        80.0,
+        82.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_SURFACE_OUTER_WASHER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 140.99,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        106.0,
+        108.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_END_FASTENER_HEAD_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 84.82,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        108.0,
+        111.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_INBOARD_COLLAR_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 147.95,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        -50.0,
+        -47.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_OUTER_SHOULDER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 34.39,
+      "bounds_mm": [
+        731.51,
+        740.51,
+        -76.0,
+        -75.0,
+        -4.5,
+        4.5
+      ]
+    },
+    {
+      "name": "V234_SURFACE_INNER_COLLAR_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 98.63,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        -82.0,
+        -80.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_SURFACE_OUTER_WASHER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 140.99,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        -108.0,
+        -106.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_END_FASTENER_HEAD_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 84.82,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        -111.0,
+        -108.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V237_D_SHAFT_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1680.59,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        45.0,
+        106.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V237_D_SHAFT_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1680.59,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        -106.0,
+        -45.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V241_LIGHT_D_CRANK_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 824.78,
+      "bounds_mm": [
+        729.01,
+        755.21,
+        76.0,
+        80.0,
+        -7.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V241_LIGHT_D_CRANK_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 824.78,
+      "bounds_mm": [
+        729.01,
+        755.21,
+        -80.0,
+        -76.0,
+        -7.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_220",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        219.8,
+        220.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_440",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        439.8,
+        440.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_620",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        619.8,
+        620.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_840",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        839.8,
+        840.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_WING_SEAM_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 3800.0,
+      "bounds_mm": [
+        470.0,
+        660.0,
+        320.74,
+        321.14,
+        -25.0,
+        25.0
+      ]
+    },
+    {
+      "name": "V250_WING_SEAM_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 3800.0,
+      "bounds_mm": [
+        470.0,
+        660.0,
+        -321.14,
+        -320.74,
+        -25.0,
+        25.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_BATTERY",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1153440.0,
+      "bounds_mm": [
+        250.0,
+        428.0,
+        -36.0,
+        36.0,
+        10.0,
+        100.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_SWEEP",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 966000.0,
+      "bounds_mm": [
+        430.0,
+        535.0,
+        -50.0,
+        50.0,
+        8.0,
+        100.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_TAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 196800.0,
+      "bounds_mm": [
+        675.0,
+        725.0,
+        38.0,
+        86.0,
+        -12.0,
+        70.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_TAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 196800.0,
+      "bounds_mm": [
+        675.0,
+        725.0,
+        -86.0,
+        -38.0,
+        -12.0,
+        70.0
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X220_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 942.48,
+      "bounds_mm": [
+        190.0,
+        250.0,
+        -23.0,
+        -17.0,
+        -13.0,
+        -7.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        200.0,
+        220.0,
+        -24.35,
+        -15.65,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        220.0,
+        240.0,
+        -24.35,
+        -15.65,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X220_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 942.48,
+      "bounds_mm": [
+        190.0,
+        250.0,
+        17.0,
+        23.0,
+        -13.0,
+        -7.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        200.0,
+        220.0,
+        15.65,
+        24.35,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        220.0,
+        240.0,
+        15.65,
+        24.35,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X440_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1671.33,
+      "bounds_mm": [
+        402.0,
+        478.0,
+        -64.0,
+        -56.0,
+        -14.0,
+        -6.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        420.0,
+        440.0,
+        -65.35,
+        -54.65,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        440.0,
+        460.0,
+        -65.35,
+        -54.65,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X440_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1671.33,
+      "bounds_mm": [
+        402.0,
+        478.0,
+        56.0,
+        64.0,
+        -14.0,
+        -6.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        420.0,
+        440.0,
+        54.65,
+        65.35,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        440.0,
+        460.0,
+        54.65,
+        65.35,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X840_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 628.32,
+      "bounds_mm": [
+        820.0,
+        860.0,
+        -33.0,
+        -27.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        820.0,
+        840.0,
+        -34.35,
+        -25.65,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        840.0,
+        860.0,
+        -34.35,
+        -25.65,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X840_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 628.32,
+      "bounds_mm": [
+        820.0,
+        860.0,
+        27.0,
+        33.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        820.0,
+        840.0,
+        25.65,
+        34.35,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        840.0,
+        860.0,
+        25.65,
+        34.35,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        566.8,
+        573.1,
+        300.94,
+        340.94,
+        -7.45,
+        -1.15
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        577.96,
+        584.26,
+        300.94,
+        340.94,
+        -7.38,
+        -1.08
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        566.8,
+        573.1,
+        -340.94,
+        -300.94,
+        -7.45,
+        -1.15
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        577.96,
+        584.26,
+        -340.94,
+        -300.94,
+        -7.38,
+        -1.08
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_BATTERY",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 2636.93,
+      "bounds_mm": [
+        245.0,
+        433.0,
+        -41.0,
+        41.0,
+        18.0,
+        19.2
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_SWEEP",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 2183.33,
+      "bounds_mm": [
+        425.0,
+        540.0,
+        -55.0,
+        55.0,
+        18.0,
+        19.2
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_TAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1104.77,
+      "bounds_mm": [
+        670.0,
+        730.0,
+        33.0,
+        91.0,
+        10.0,
+        11.2
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_TAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1104.77,
+      "bounds_mm": [
+        670.0,
+        730.0,
+        -91.0,
+        -33.0,
+        10.0,
+        11.2
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X220_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        221.5,
+        229.5,
+        -160.0,
+        -20.0,
+        -8.35,
+        -0.35
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X220_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        221.5,
+        229.5,
+        20.0,
+        160.0,
+        -8.35,
+        -0.35
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X840_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        841.5,
+        849.5,
+        -170.0,
+        -30.0,
+        1.65,
+        9.65
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X840_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        841.5,
+        849.5,
+        30.0,
+        170.0,
+        1.65,
+        9.65
+      ]
+    },
+    {
+      "name": "V282_WING_R_INNER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 96537.55,
+      "bounds_mm": [
+        479.48,
+        631.24,
+        148.83,
+        234.88,
+        -6.24,
+        9.09
+      ]
+    },
+    {
+      "name": "V282_WING_R_OUTER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 107416.97,
+      "bounds_mm": [
+        510.69,
+        640.82,
+        234.88,
+        450.0,
+        -12.43,
+        5.05
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        538.0,
+        546.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_MID",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        548.0,
+        556.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        558.0,
+        566.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_L_INNER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 96537.55,
+      "bounds_mm": [
+        479.48,
+        631.24,
+        -234.88,
+        -148.83,
+        -6.24,
+        9.09
+      ]
+    },
+    {
+      "name": "V282_WING_L_OUTER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 107416.97,
+      "bounds_mm": [
+        510.69,
+        640.82,
+        -450.0,
+        -234.88,
+        -12.43,
+        5.05
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        538.0,
+        546.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_MID",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        548.0,
+        556.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        558.0,
+        566.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V284_LIGHT_D_ROOT_FITTING_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4081.92,
+      "bounds_mm": [
+        718.01,
+        754.01,
+        82.0,
+        135.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "V284_LIGHT_D_ROOT_FITTING_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4081.92,
+      "bounds_mm": [
+        718.01,
+        754.01,
+        -135.0,
+        -82.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X220_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 396.38,
+      "bounds_mm": [
+        222.0,
+        229.0,
+        -25.6,
+        -14.4,
+        -15.6,
+        -0.55
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X220_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 396.38,
+      "bounds_mm": [
+        222.0,
+        229.0,
+        14.4,
+        25.6,
+        -15.6,
+        -0.55
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X440_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 450.39,
+      "bounds_mm": [
+        442.0,
+        449.0,
+        -66.6,
+        -53.4,
+        -16.6,
+        0.45
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X440_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 450.39,
+      "bounds_mm": [
+        442.0,
+        449.0,
+        53.4,
+        66.6,
+        -16.6,
+        0.45
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X840_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 396.38,
+      "bounds_mm": [
+        842.0,
+        849.0,
+        -35.6,
+        -24.4,
+        -5.6,
+        9.45
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X840_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 396.38,
+      "bounds_mm": [
+        842.0,
+        849.0,
+        24.4,
+        35.6,
+        -5.6,
+        9.45
+      ]
+    },
+    {
+      "name": "V288_TOOL_ACCESS_X440_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        441.5,
+        449.5,
+        -200.0,
+        -60.0,
+        -7.05,
+        0.95
+      ]
+    },
+    {
+      "name": "V288_TOOL_ACCESS_X440_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        441.5,
+        449.5,
+        60.0,
+        200.0,
+        -7.05,
+        0.95
+      ]
+    },
+    {
+      "name": "V293_X620_CF_TUBE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1759.29,
+      "bounds_mm": [
+        580.0,
+        660.0,
+        -29.0,
+        -21.0,
+        -4.0,
+        4.0
+      ]
+    },
+    {
+      "name": "V293_X620_SLEEVE_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        600.0,
+        620.0,
+        -30.35,
+        -19.65,
+        -5.35,
+        5.35
+      ]
+    },
+    {
+      "name": "V293_X620_SLEEVE_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        620.0,
+        640.0,
+        -30.35,
+        -19.65,
+        -5.35,
+        5.35
+      ]
+    },
+    {
+      "name": "V293_X620_CF_TUBE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1759.29,
+      "bounds_mm": [
+        580.0,
+        660.0,
+        21.0,
+        29.0,
+        -4.0,
+        4.0
+      ]
+    },
+    {
+      "name": "V293_X620_SLEEVE_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        600.0,
+        620.0,
+        19.65,
+        30.35,
+        -5.35,
+        5.35
+      ]
+    },
+    {
+      "name": "V293_X620_SLEEVE_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        620.0,
+        640.0,
+        19.65,
+        30.35,
+        -5.35,
+        5.35
+      ]
+    },
+    {
+      "name": "V295_C_CLAMP_X620_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 485.3,
+      "bounds_mm": [
+        622.0,
+        629.0,
+        -31.6,
+        -18.4,
+        -6.6,
+        12.55
+      ]
+    },
+    {
+      "name": "V295_C_CLAMP_X620_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 485.3,
+      "bounds_mm": [
+        622.0,
+        629.0,
+        18.4,
+        31.6,
+        -6.6,
+        12.55
+      ]
+    },
+    {
+      "name": "V296_SOURCE_BACKED_AFT_OML",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1465331.53,
+      "bounds_mm": [
+        595.85,
+        754.96,
+        -106.71,
+        105.83,
+        -49.58,
+        28.96
+      ]
+    },
+    {
+      "name": "V297_INLET_WALL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 6826.57,
+      "bounds_mm": [
+        595.85,
+        650.0,
+        19.88,
+        90.8,
+        -44.6,
+        26.36
+      ]
+    },
+    {
+      "name": "V297_EDF_ADAPTER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1040.65,
+      "bounds_mm": [
+        650.0,
+        658.0,
+        26.72,
+        92.1,
+        -45.13,
+        24.6
+      ]
+    },
+    {
+      "name": "V297_JOINED_INLET_ADAPTER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7867.21,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        19.88,
+        92.1,
+        -45.13,
+        26.36
+      ]
+    },
+    {
+      "name": "V297_INLET_WALL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 6826.57,
+      "bounds_mm": [
+        595.85,
+        650.0,
+        -103.28,
+        -31.75,
+        -44.6,
+        26.36
+      ]
+    },
+    {
+      "name": "V297_EDF_ADAPTER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1040.65,
+      "bounds_mm": [
+        650.0,
+        658.0,
+        -104.6,
+        -39.2,
+        -45.13,
+        24.6
+      ]
+    },
+    {
+      "name": "V297_JOINED_INLET_ADAPTER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7867.21,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        -104.6,
+        -31.75,
+        -45.13,
+        26.36
+      ]
+    },
+    {
+      "name": "V298_HOUSING_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 159109.4,
+      "bounds_mm": [
+        658.0,
+        731.5,
+        40.03,
+        92.53,
+        -36.76,
+        15.74
+      ]
+    },
+    {
+      "name": "V298_HOUSING_SKIN_SERVICE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 171462.92,
+      "bounds_mm": [
+        658.0,
+        731.5,
+        39.03,
+        93.53,
+        -37.76,
+        16.74
+      ]
+    },
+    {
+      "name": "V298_MOUNT_BAND_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19145.12,
+      "bounds_mm": [
+        658.0,
+        666.0,
+        38.68,
+        93.88,
+        -38.11,
+        17.09
+      ]
+    },
+    {
+      "name": "V298_HOUSING_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 159109.4,
+      "bounds_mm": [
+        658.0,
+        731.5,
+        -92.53,
+        -40.03,
+        -36.76,
+        15.74
+      ]
+    },
+    {
+      "name": "V298_HOUSING_SKIN_SERVICE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 171462.92,
+      "bounds_mm": [
+        658.0,
+        731.5,
+        -93.53,
+        -39.03,
+        -37.76,
+        16.74
+      ]
+    },
+    {
+      "name": "V298_MOUNT_BAND_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19145.12,
+      "bounds_mm": [
+        658.0,
+        666.0,
+        -93.88,
+        -38.68,
+        -38.11,
+        17.09
+      ]
+    },
+    {
+      "name": "V300_CF_PUSHROD_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 449.1,
+      "bounds_mm": [
+        722.15,
+        752.36,
+        19.29,
+        76.71,
+        -1.47,
+        13.47
+      ]
+    },
+    {
+      "name": "V300_PUSHROD_SERVICE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 798.4,
+      "bounds_mm": [
+        721.7,
+        752.81,
+        19.06,
+        76.94,
+        -1.96,
+        13.96
+      ]
+    },
+    {
+      "name": "V300_CF_PUSHROD_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 449.1,
+      "bounds_mm": [
+        722.15,
+        752.36,
+        -76.71,
+        -19.29,
+        -1.47,
+        13.47
+      ]
+    },
+    {
+      "name": "V300_PUSHROD_SERVICE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 798.4,
+      "bounds_mm": [
+        721.7,
+        752.81,
+        -76.94,
+        -19.06,
+        -1.96,
+        13.96
+      ]
+    },
+    {
+      "name": "V303_SERVICE_MIN_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        721.52,
+        752.11,
+        16.35,
+        76.86,
+        2.61,
+        13.99
+      ]
+    },
+    {
+      "name": "V303_SERVICE_MIN_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        721.52,
+        752.11,
+        -76.86,
+        -16.35,
+        2.61,
+        13.99
+      ]
+    },
+    {
+      "name": "V303_SERVICE_NEUTRAL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        722.18,
+        752.83,
+        17.09,
+        76.91,
+        -1.97,
+        13.97
+      ]
+    },
+    {
+      "name": "V303_SERVICE_NEUTRAL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        722.18,
+        752.83,
+        -76.91,
+        -17.09,
+        -1.97,
+        13.97
+      ]
+    },
+    {
+      "name": "V303_SERVICE_MAX_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        722.55,
+        752.12,
+        17.69,
+        76.95,
+        -6.53,
+        13.93
+      ]
+    },
+    {
+      "name": "V303_SERVICE_MAX_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        722.55,
+        752.12,
+        -76.95,
+        -17.69,
+        -6.53,
+        13.93
+      ]
+    },
+    {
+      "name": "V305_TORQ_TCM1022_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7590.0,
+      "bounds_mm": [
+        698.5,
+        721.5,
+        6.25,
+        33.75,
+        -1.0,
+        11.0
+      ]
+    },
+    {
+      "name": "V305_TORQ_SERVICE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 13608.0,
+      "bounds_mm": [
+        696.5,
+        723.5,
+        4.25,
+        35.75,
+        -3.0,
+        13.0
+      ]
+    },
+    {
+      "name": "V305_ADJUSTMENT_SWEEP_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19809.0,
+      "bounds_mm": [
+        694.5,
+        725.5,
+        2.25,
+        37.75,
+        -4.0,
+        14.0
+      ]
+    },
+    {
+      "name": "V305_TORQ_TCM1022_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7590.0,
+      "bounds_mm": [
+        698.5,
+        721.5,
+        -33.75,
+        -6.25,
+        -1.0,
+        11.0
+      ]
+    },
+    {
+      "name": "V305_TORQ_SERVICE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 13608.0,
+      "bounds_mm": [
+        696.5,
+        723.5,
+        -35.75,
+        -4.25,
+        -3.0,
+        13.0
+      ]
+    },
+    {
+      "name": "V305_ADJUSTMENT_SWEEP_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19809.0,
+      "bounds_mm": [
+        694.5,
+        725.5,
+        -37.75,
+        -2.25,
+        -4.0,
+        14.0
+      ]
+    },
+    {
+      "name": "V306_Z_SHIM_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 632.5,
+      "bounds_mm": [
+        698.5,
+        721.5,
+        6.25,
+        33.75,
+        -2.0,
+        -1.0
+      ]
+    },
+    {
+      "name": "V306_Z_SHIM_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 632.5,
+      "bounds_mm": [
+        698.5,
+        721.5,
+        -33.75,
+        -6.25,
+        -2.0,
+        -1.0
+      ]
+    },
+    {
+      "name": "V307_UNIFIED_SERVO_CASSETTE_BASE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 2044.3,
+      "bounds_mm": [
+        694.5,
+        725.5,
+        2.25,
+        37.75,
+        -3.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V307_UNIFIED_SERVO_CASSETTE_BASE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 2044.3,
+      "bounds_mm": [
+        694.5,
+        725.5,
+        -37.75,
+        -2.25,
+        -3.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V310_HYBRID_KEEPOUT_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 2,
+      "volume_mm3": 181708.29,
+      "bounds_mm": [
+        595.0,
+        841.95,
+        43.7,
+        225.23,
+        -51.05,
+        136.1
+      ]
+    },
+    {
+      "name": "V310_STRUCTURAL_BYPASS_FREEFLOW_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 30379.08,
+      "bounds_mm": [
+        731.5,
+        754.96,
+        41.28,
+        91.28,
+        -35.51,
+        14.49
+      ]
+    },
+    {
+      "name": "V310_HYBRID_KEEPOUT_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 2,
+      "volume_mm3": 181708.29,
+      "bounds_mm": [
+        595.0,
+        841.95,
+        -225.23,
+        -43.7,
+        -51.05,
+        136.1
+      ]
+    },
+    {
+      "name": "V310_STRUCTURAL_BYPASS_FREEFLOW_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 30379.07,
+      "bounds_mm": [
+        731.5,
+        754.96,
+        -91.28,
+        -41.28,
+        -35.51,
+        14.49
+      ]
+    }
+  ],
+  "F14_v312_POST_F_SOURCE_CONSTRAINED_OML.FCStd": [
+    {
+      "name": "OUTER_AIRFRAME",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 9,
+      "volume_mm3": 11474725.08,
+      "bounds_mm": [
+        0.5,
+        879.0,
+        -450.0,
+        450.0,
+        -50.55,
+        135.6
+      ]
+    },
+    {
+      "name": "TECH_CURRENT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 2,
+      "volume_mm3": 15952.23,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        -104.6,
+        92.1,
+        -45.13,
+        26.33
+      ]
+    },
+    {
+      "name": "REFERENCE",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 3,
+      "volume_mm3": 684775.46,
+      "bounds_mm": [
+        466.35,
+        549.35,
+        -153.21,
+        153.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "FUSELAGE_CURRENT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 10773480.53,
+      "bounds_mm": [
+        0.5,
+        879.0,
+        -159.62,
+        159.62,
+        -39.24,
+        89.92
+      ]
+    },
+    {
+      "name": "STABILATOR_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 83579.84,
+      "bounds_mm": [
+        662.14,
+        841.45,
+        -224.73,
+        -72.06,
+        -2.75,
+        2.75
+      ]
+    },
+    {
+      "name": "STABILATOR_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 83579.84,
+      "bounds_mm": [
+        662.14,
+        841.45,
+        72.06,
+        224.73,
+        -2.75,
+        2.75
+      ]
+    },
+    {
+      "name": "VTAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 51830.46,
+      "bounds_mm": [
+        595.5,
+        742.8,
+        -80.25,
+        -75.75,
+        -5.6,
+        135.6
+      ]
+    },
+    {
+      "name": "VTAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 51830.46,
+      "bounds_mm": [
+        595.5,
+        742.8,
+        75.75,
+        80.25,
+        -5.6,
+        135.6
+      ]
+    },
+    {
+      "name": "VENTRAL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4691.91,
+      "bounds_mm": [
+        690.0,
+        822.44,
+        -77.6,
+        -74.4,
+        -50.55,
+        -31.0
+      ]
+    },
+    {
+      "name": "VENTRAL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4691.91,
+      "bounds_mm": [
+        690.0,
+        822.44,
+        74.4,
+        77.6,
+        -50.55,
+        -31.0
+      ]
+    },
+    {
+      "name": "INLET_EDF_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7976.12,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        19.43,
+        92.1,
+        -45.13,
+        26.33
+      ]
+    },
+    {
+      "name": "INLET_EDF_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7976.12,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        -104.6,
+        -31.48,
+        -45.13,
+        26.33
+      ]
+    },
+    {
+      "name": "PIVOT_REF_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 11762.12,
+      "bounds_mm": [
+        492.35,
+        516.35,
+        113.21,
+        137.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "PIVOT_REF_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 11762.12,
+      "bounds_mm": [
+        492.35,
+        516.35,
+        -137.21,
+        -113.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "BATTERY_TRAY_v165",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 27856.0,
+      "bounds_mm": [
+        242.0,
+        438.0,
+        -27.0,
+        27.0,
+        2.41,
+        19.41
+      ]
+    },
+    {
+      "name": "BATTERY_REFERENCE_PACK",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        287.0,
+        393.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "BATTERY_RETENTION_HOLE_REFS",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 19,
+      "volume_mm3": 12635.23,
+      "bounds_mm": [
+        246.9,
+        433.1,
+        -24.0,
+        24.0,
+        5.31,
+        9.51
+      ]
+    },
+    {
+      "name": "STAB_BEARING_R_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        50.0,
+        55.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_R_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        50.0,
+        55.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "STAB_BEARING_R_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        70.0,
+        75.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_R_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        70.0,
+        75.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "STAB_BEARING_L_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        -55.0,
+        -50.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_L_1",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        -55.0,
+        -50.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "STAB_BEARING_L_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 522.29,
+      "bounds_mm": [
+        729.51,
+        742.51,
+        -75.0,
+        -70.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "STAB_HOUSING_L_2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 471.24,
+      "bounds_mm": [
+        727.51,
+        744.51,
+        -75.0,
+        -70.0,
+        -8.5,
+        8.5
+      ]
+    },
+    {
+      "name": "GRP_BATTERY",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 21,
+      "volume_mm3": 135891.23,
+      "bounds_mm": [
+        242.0,
+        438.0,
+        -27.0,
+        27.0,
+        2.41,
+        29.41
+      ]
+    },
+    {
+      "name": "GRP_STABILATOR_HW",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 14,
+      "volume_mm3": 43666.2,
+      "bounds_mm": [
+        686.5,
+        754.91,
+        -111.0,
+        111.0,
+        -18.9,
+        18.9
+      ]
+    },
+    {
+      "name": "SWEEP_REFERENCE_v192",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 6,
+      "volume_mm3": 1263119.05,
+      "bounds_mm": [
+        489.06,
+        837.03,
+        -401.45,
+        401.45,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_R_SWEEP_40",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        489.06,
+        743.67,
+        105.31,
+        401.45,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_L_SWEEP_40",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        489.06,
+        743.67,
+        -401.45,
+        -105.31,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_R_SWEEP_54",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        496.94,
+        799.11,
+        75.97,
+        347.11,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_L_SWEEP_54",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        496.94,
+        799.11,
+        -347.11,
+        -75.97,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_R_SWEEP_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        505.26,
+        837.03,
+        49.55,
+        279.6,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "WING_L_SWEEP_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 210519.45,
+      "bounds_mm": [
+        505.26,
+        837.03,
+        -279.6,
+        -49.55,
+        -12.43,
+        9.09
+      ]
+    },
+    {
+      "name": "SWEEP_LINKAGE_V193",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 3,
+      "volume_mm3": 59301.48,
+      "bounds_mm": [
+        397.26,
+        456.35,
+        -68.0,
+        68.0,
+        0.0,
+        44.0
+      ]
+    },
+    {
+      "name": "SWEEP_SLIDER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1138.74,
+      "bounds_mm": [
+        397.26,
+        435.21,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "SWEEP_SLIDER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1138.74,
+      "bounds_mm": [
+        397.26,
+        435.21,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "DYNAMIC_LINKAGE_V194",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 18,
+      "volume_mm3": 19963.76,
+      "bounds_mm": [
+        397.26,
+        532.17,
+        -128.04,
+        128.04,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_CRANK_R_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        501.52,
+        532.17,
+        97.38,
+        128.04,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_R_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        430.54,
+        530.02,
+        63.12,
+        102.09,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_R_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        427.21,
+        435.21,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_L_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        501.52,
+        532.17,
+        -128.04,
+        -97.38,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_L_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        430.54,
+        530.02,
+        -102.09,
+        -63.12,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_L_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        427.21,
+        435.21,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_R_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        500.61,
+        520.75,
+        90.77,
+        126.64,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_R_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        415.85,
+        517.54,
+        63.07,
+        94.13,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_R_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        412.37,
+        420.37,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_L_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        500.61,
+        520.75,
+        -126.64,
+        -90.77,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_L_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        415.85,
+        517.54,
+        -94.13,
+        -63.07,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_L_44",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        412.37,
+        420.37,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_R_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        498.5,
+        508.34,
+        89.69,
+        125.42,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_R_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        400.78,
+        502.97,
+        63.06,
+        91.84,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_R_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        397.26,
+        405.26,
+        62.0,
+        68.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V194_CRANK_L_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1777.15,
+      "bounds_mm": [
+        498.5,
+        508.34,
+        -125.42,
+        -89.69,
+        4.41,
+        12.41
+      ]
+    },
+    {
+      "name": "V194_ROD_L_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1310.14,
+      "bounds_mm": [
+        400.78,
+        502.97,
+        -91.84,
+        -63.06,
+        6.41,
+        10.41
+      ]
+    },
+    {
+      "name": "V194_SLIDER_L_68",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 240.0,
+      "bounds_mm": [
+        397.26,
+        405.26,
+        -68.0,
+        -62.0,
+        5.91,
+        10.91
+      ]
+    },
+    {
+      "name": "V203_GLOVE_BLEND_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": -73.48,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        130.83,
+        148.83,
+        -11.56,
+        -4.57
+      ]
+    },
+    {
+      "name": "V203_GLOVE_BLEND_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 82.7,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        -148.83,
+        -130.83,
+        -11.66,
+        -4.57
+      ]
+    },
+    {
+      "name": "V203_INNER_ATTACH_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        130.83,
+        130.83,
+        -11.56,
+        -8.73
+      ]
+    },
+    {
+      "name": "V203_INNER_ATTACH_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        -130.83,
+        -130.83,
+        -11.66,
+        -8.58
+      ]
+    },
+    {
+      "name": "V203_OUTER_CLEARANCE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        148.83,
+        148.83,
+        -6.12,
+        -4.57
+      ]
+    },
+    {
+      "name": "V203_OUTER_CLEARANCE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        490.0,
+        520.0,
+        -148.83,
+        -148.83,
+        -6.12,
+        -4.57
+      ]
+    },
+    {
+      "name": "V204_SHAFT_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 735.13,
+      "bounds_mm": [
+        501.35,
+        507.35,
+        122.21,
+        128.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_LOWER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        118.71,
+        131.71,
+        -10.0,
+        -5.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_UPPER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        118.71,
+        131.71,
+        5.0,
+        10.0
+      ]
+    },
+    {
+      "name": "V204_SHAFT_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 735.13,
+      "bounds_mm": [
+        501.35,
+        507.35,
+        -128.21,
+        -122.21,
+        -13.0,
+        13.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_LOWER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        -131.71,
+        -118.71,
+        -10.0,
+        -5.0
+      ]
+    },
+    {
+      "name": "V204_BEARING_UPPER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 663.66,
+      "bounds_mm": [
+        497.85,
+        510.85,
+        -131.71,
+        -118.71,
+        5.0,
+        10.0
+      ]
+    },
+    {
+      "name": "SWEEP_V205",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 5,
+      "volume_mm3": 378504.0,
+      "bounds_mm": [
+        252.0,
+        481.31,
+        -18.0,
+        18.0,
+        0.0,
+        44.0
+      ]
+    },
+    {
+      "name": "V205_SWEEP_SERVO_SERVICE",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 57024.0,
+      "bounds_mm": [
+        433.31,
+        481.31,
+        -13.5,
+        13.5,
+        0.0,
+        44.0
+      ]
+    },
+    {
+      "name": "V205_BATTERY_305",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        252.0,
+        358.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "V205_BATTERY_340",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        287.0,
+        393.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "V205_BATTERY_375",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 95400.0,
+      "bounds_mm": [
+        322.0,
+        428.0,
+        -18.0,
+        18.0,
+        4.41,
+        29.41
+      ]
+    },
+    {
+      "name": "SWEEP_V208",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 6,
+      "volume_mm3": 8285.1,
+      "bounds_mm": [
+        439.41,
+        530.57,
+        -111.79,
+        111.79,
+        1.0,
+        9.0
+      ]
+    },
+    {
+      "name": "V208_ROD_20_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        469.99,
+        530.57,
+        63.42,
+        111.79,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V208_ROD_20_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        469.99,
+        530.57,
+        -111.79,
+        -63.42,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V208_ROD_68_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        442.55,
+        510.79,
+        63.19,
+        98.4,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V208_ROD_68_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 925.42,
+      "bounds_mm": [
+        442.55,
+        510.79,
+        -98.4,
+        -63.19,
+        3.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V209_INNER_ATTACH_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        115.0,
+        115.0,
+        -22.16,
+        -16.68
+      ]
+    },
+    {
+      "name": "V209_OUTER_SKIN_RAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        148.83,
+        148.83,
+        -13.5,
+        -13.5
+      ]
+    },
+    {
+      "name": "V209_FIXED_GLOVE_UNDERSIDE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": -417.97,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        115.0,
+        148.83,
+        -22.16,
+        -13.5
+      ]
+    },
+    {
+      "name": "V209_INNER_ATTACH_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -115.0,
+        -115.0,
+        -22.15,
+        -16.58
+      ]
+    },
+    {
+      "name": "V209_OUTER_SKIN_RAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 0.0,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -148.83,
+        -148.83,
+        -13.5,
+        -13.5
+      ]
+    },
+    {
+      "name": "V209_FIXED_GLOVE_UNDERSIDE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 0,
+      "volume_mm3": 436.81,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -148.83,
+        -115.0,
+        -22.15,
+        -13.5
+      ]
+    },
+    {
+      "name": "V221_CASSETTE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19272.62,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        50.0,
+        147.21,
+        -12.5,
+        12.5
+      ]
+    },
+    {
+      "name": "V221_CASSETTE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19272.62,
+      "bounds_mm": [
+        482.35,
+        526.35,
+        -147.21,
+        -50.0,
+        -12.5,
+        12.5
+      ]
+    },
+    {
+      "name": "V225_SERVO_A80BHSF_V2",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 30000.0,
+      "bounds_mm": [
+        437.31,
+        477.31,
+        -10.0,
+        10.0,
+        14.0,
+        51.5
+      ]
+    },
+    {
+      "name": "V225_SERVO_SERVICE",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 49634.0,
+      "bounds_mm": [
+        434.31,
+        480.31,
+        -13.0,
+        13.0,
+        12.0,
+        53.5
+      ]
+    },
+    {
+      "name": "V225_SYNC_YOKE_M4_20",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 15514.33,
+      "bounds_mm": [
+        463.21,
+        479.21,
+        -68.0,
+        68.0,
+        2.5,
+        10.5
+      ]
+    },
+    {
+      "name": "V227_HOBBYWING_UBEC10A_HV",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 16500.0,
+      "bounds_mm": [
+        302.5,
+        357.5,
+        47.5,
+        72.5,
+        39.0,
+        51.0
+      ]
+    },
+    {
+      "name": "V227_RECEIVER_50MM_KEEP_OUT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 523598.78,
+      "bounds_mm": [
+        280.0,
+        380.0,
+        10.0,
+        110.0,
+        -5.0,
+        95.0
+      ]
+    },
+    {
+      "name": "V228_TAIL_UBEC10A_HV",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 16500.0,
+      "bounds_mm": [
+        302.5,
+        357.5,
+        -72.5,
+        -47.5,
+        39.0,
+        51.0
+      ]
+    },
+    {
+      "name": "V228_TAIL_BEC_50MM_KEEP_OUT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 523598.78,
+      "bounds_mm": [
+        280.0,
+        380.0,
+        -110.0,
+        -10.0,
+        -5.0,
+        95.0
+      ]
+    },
+    {
+      "name": "V228_RECEIVER_RESERVE_MAX",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 22500.0,
+      "bounds_mm": [
+        245.0,
+        295.0,
+        -15.0,
+        15.0,
+        37.5,
+        52.5
+      ]
+    },
+    {
+      "name": "V229_SKYWALKER50A_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 12000.0,
+      "bounds_mm": [
+        650.0,
+        710.0,
+        82.5,
+        107.5,
+        21.0,
+        29.0
+      ]
+    },
+    {
+      "name": "V229_ESC_SERVICE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 28644.0,
+      "bounds_mm": [
+        647.0,
+        713.0,
+        79.5,
+        110.5,
+        18.0,
+        32.0
+      ]
+    },
+    {
+      "name": "V229_SKYWALKER50A_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 12000.0,
+      "bounds_mm": [
+        650.0,
+        710.0,
+        -107.5,
+        -82.5,
+        21.0,
+        29.0
+      ]
+    },
+    {
+      "name": "V229_ESC_SERVICE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 28644.0,
+      "bounds_mm": [
+        647.0,
+        713.0,
+        -110.5,
+        -79.5,
+        18.0,
+        32.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_INBOARD_COLLAR_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 147.95,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        47.0,
+        50.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_OUTER_SHOULDER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 34.39,
+      "bounds_mm": [
+        731.51,
+        740.51,
+        75.0,
+        76.0,
+        -4.5,
+        4.5
+      ]
+    },
+    {
+      "name": "V234_SURFACE_INNER_COLLAR_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 98.63,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        80.0,
+        82.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_SURFACE_OUTER_WASHER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 140.99,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        106.0,
+        108.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_END_FASTENER_HEAD_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 84.82,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        108.0,
+        111.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_INBOARD_COLLAR_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 147.95,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        -50.0,
+        -47.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_BEARING_OUTER_SHOULDER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 34.39,
+      "bounds_mm": [
+        731.51,
+        740.51,
+        -76.0,
+        -75.0,
+        -4.5,
+        4.5
+      ]
+    },
+    {
+      "name": "V234_SURFACE_INNER_COLLAR_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 98.63,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        -82.0,
+        -80.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_SURFACE_OUTER_WASHER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 140.99,
+      "bounds_mm": [
+        731.01,
+        741.01,
+        -108.0,
+        -106.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V234_END_FASTENER_HEAD_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 84.82,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        -111.0,
+        -108.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V237_D_SHAFT_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1680.59,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        45.0,
+        106.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V237_D_SHAFT_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1680.59,
+      "bounds_mm": [
+        733.01,
+        739.01,
+        -106.0,
+        -45.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V241_LIGHT_D_CRANK_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 824.78,
+      "bounds_mm": [
+        729.01,
+        755.21,
+        76.0,
+        80.0,
+        -7.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V241_LIGHT_D_CRANK_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 824.78,
+      "bounds_mm": [
+        729.01,
+        755.21,
+        -80.0,
+        -76.0,
+        -7.0,
+        7.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_220",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        219.8,
+        220.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_440",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        439.8,
+        440.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_620",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        619.8,
+        620.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_SEG_X_840",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 25920.0,
+      "bounds_mm": [
+        839.8,
+        840.2,
+        -180.0,
+        180.0,
+        -70.0,
+        110.0
+      ]
+    },
+    {
+      "name": "V250_WING_SEAM_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 3800.0,
+      "bounds_mm": [
+        470.0,
+        660.0,
+        320.74,
+        321.14,
+        -25.0,
+        25.0
+      ]
+    },
+    {
+      "name": "V250_WING_SEAM_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 3800.0,
+      "bounds_mm": [
+        470.0,
+        660.0,
+        -321.14,
+        -320.74,
+        -25.0,
+        25.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_BATTERY",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1153440.0,
+      "bounds_mm": [
+        250.0,
+        428.0,
+        -36.0,
+        36.0,
+        10.0,
+        100.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_SWEEP",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 966000.0,
+      "bounds_mm": [
+        430.0,
+        535.0,
+        -50.0,
+        50.0,
+        8.0,
+        100.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_TAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 196800.0,
+      "bounds_mm": [
+        675.0,
+        725.0,
+        38.0,
+        86.0,
+        -12.0,
+        70.0
+      ]
+    },
+    {
+      "name": "V253_ACCESS_TAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 196800.0,
+      "bounds_mm": [
+        675.0,
+        725.0,
+        -86.0,
+        -38.0,
+        -12.0,
+        70.0
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X220_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 942.48,
+      "bounds_mm": [
+        190.0,
+        250.0,
+        -23.0,
+        -17.0,
+        -13.0,
+        -7.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        200.0,
+        220.0,
+        -24.35,
+        -15.65,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        220.0,
+        240.0,
+        -24.35,
+        -15.65,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X220_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 942.48,
+      "bounds_mm": [
+        190.0,
+        250.0,
+        17.0,
+        23.0,
+        -13.0,
+        -7.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        200.0,
+        220.0,
+        15.65,
+        24.35,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X220_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        220.0,
+        240.0,
+        15.65,
+        24.35,
+        -14.35,
+        -5.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X440_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1671.33,
+      "bounds_mm": [
+        402.0,
+        478.0,
+        -64.0,
+        -56.0,
+        -14.0,
+        -6.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        420.0,
+        440.0,
+        -65.35,
+        -54.65,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        440.0,
+        460.0,
+        -65.35,
+        -54.65,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X440_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1671.33,
+      "bounds_mm": [
+        402.0,
+        478.0,
+        56.0,
+        64.0,
+        -14.0,
+        -6.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        420.0,
+        440.0,
+        54.65,
+        65.35,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X440_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        440.0,
+        460.0,
+        54.65,
+        65.35,
+        -15.35,
+        -4.65
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X840_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 628.32,
+      "bounds_mm": [
+        820.0,
+        860.0,
+        -33.0,
+        -27.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        820.0,
+        840.0,
+        -34.35,
+        -25.65,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        840.0,
+        860.0,
+        -34.35,
+        -25.65,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V255_CF_TUBE_X840_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 628.32,
+      "bounds_mm": [
+        820.0,
+        860.0,
+        27.0,
+        33.0,
+        -3.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        820.0,
+        840.0,
+        25.65,
+        34.35,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V255_SLEEVE_X840_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 565.49,
+      "bounds_mm": [
+        840.0,
+        860.0,
+        25.65,
+        34.35,
+        -4.35,
+        4.35
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        566.8,
+        573.1,
+        300.94,
+        340.94,
+        -7.45,
+        -1.15
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        577.96,
+        584.26,
+        300.94,
+        340.94,
+        -7.38,
+        -1.08
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        566.8,
+        573.1,
+        -340.94,
+        -300.94,
+        -7.45,
+        -1.15
+      ]
+    },
+    {
+      "name": "V260_WING_BOND_CAVITY_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1246.9,
+      "bounds_mm": [
+        577.96,
+        584.26,
+        -340.94,
+        -300.94,
+        -7.38,
+        -1.08
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_BATTERY",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 2636.93,
+      "bounds_mm": [
+        245.0,
+        433.0,
+        -41.0,
+        41.0,
+        18.0,
+        19.2
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_SWEEP",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 2183.33,
+      "bounds_mm": [
+        425.0,
+        540.0,
+        -55.0,
+        55.0,
+        18.0,
+        19.2
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_TAIL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1104.77,
+      "bounds_mm": [
+        670.0,
+        730.0,
+        33.0,
+        91.0,
+        10.0,
+        11.2
+      ]
+    },
+    {
+      "name": "V267_HATCH_FLANGE_TAIL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1104.77,
+      "bounds_mm": [
+        670.0,
+        730.0,
+        -91.0,
+        -33.0,
+        10.0,
+        11.2
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X220_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        221.5,
+        229.5,
+        -160.0,
+        -20.0,
+        -8.35,
+        -0.35
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X220_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        221.5,
+        229.5,
+        20.0,
+        160.0,
+        -8.35,
+        -0.35
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X840_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        841.5,
+        849.5,
+        -170.0,
+        -30.0,
+        1.65,
+        9.65
+      ]
+    },
+    {
+      "name": "V273_TOOL_ACCESS_X840_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        841.5,
+        849.5,
+        30.0,
+        170.0,
+        1.65,
+        9.65
+      ]
+    },
+    {
+      "name": "V282_WING_R_INNER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 96537.55,
+      "bounds_mm": [
+        479.48,
+        631.24,
+        148.83,
+        234.88,
+        -6.24,
+        9.09
+      ]
+    },
+    {
+      "name": "V282_WING_R_OUTER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 107416.97,
+      "bounds_mm": [
+        510.69,
+        640.82,
+        234.88,
+        450.0,
+        -12.43,
+        5.05
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        538.0,
+        546.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_MID",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        548.0,
+        556.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        558.0,
+        566.0,
+        214.88,
+        254.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_L_INNER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 96537.55,
+      "bounds_mm": [
+        479.48,
+        631.24,
+        -234.88,
+        -148.83,
+        -6.24,
+        9.09
+      ]
+    },
+    {
+      "name": "V282_WING_L_OUTER",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 107416.97,
+      "bounds_mm": [
+        510.69,
+        640.82,
+        -450.0,
+        -234.88,
+        -12.43,
+        5.05
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        538.0,
+        546.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_MID",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        548.0,
+        556.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V282_WING_JOINER_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 879.65,
+      "bounds_mm": [
+        558.0,
+        566.0,
+        -254.88,
+        -214.88,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "V284_LIGHT_D_ROOT_FITTING_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4081.92,
+      "bounds_mm": [
+        718.01,
+        754.01,
+        82.0,
+        135.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "V284_LIGHT_D_ROOT_FITTING_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 4081.92,
+      "bounds_mm": [
+        718.01,
+        754.01,
+        -135.0,
+        -82.0,
+        -6.5,
+        6.5
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X220_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 396.38,
+      "bounds_mm": [
+        222.0,
+        229.0,
+        -25.6,
+        -14.4,
+        -15.6,
+        -0.55
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X220_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 396.38,
+      "bounds_mm": [
+        222.0,
+        229.0,
+        14.4,
+        25.6,
+        -15.6,
+        -0.55
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X440_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 450.39,
+      "bounds_mm": [
+        442.0,
+        449.0,
+        -66.6,
+        -53.4,
+        -16.6,
+        0.45
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X440_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 450.39,
+      "bounds_mm": [
+        442.0,
+        449.0,
+        53.4,
+        66.6,
+        -16.6,
+        0.45
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X840_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 396.38,
+      "bounds_mm": [
+        842.0,
+        849.0,
+        -35.6,
+        -24.4,
+        -5.6,
+        9.45
+      ]
+    },
+    {
+      "name": "V287_C_CLAMP_X840_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 396.38,
+      "bounds_mm": [
+        842.0,
+        849.0,
+        24.4,
+        35.6,
+        -5.6,
+        9.45
+      ]
+    },
+    {
+      "name": "V288_TOOL_ACCESS_X440_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        441.5,
+        449.5,
+        -200.0,
+        -60.0,
+        -7.05,
+        0.95
+      ]
+    },
+    {
+      "name": "V288_TOOL_ACCESS_X440_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7037.17,
+      "bounds_mm": [
+        441.5,
+        449.5,
+        60.0,
+        200.0,
+        -7.05,
+        0.95
+      ]
+    },
+    {
+      "name": "V293_X620_CF_TUBE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1759.29,
+      "bounds_mm": [
+        580.0,
+        660.0,
+        -29.0,
+        -21.0,
+        -4.0,
+        4.0
+      ]
+    },
+    {
+      "name": "V293_X620_SLEEVE_L_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        600.0,
+        620.0,
+        -30.35,
+        -19.65,
+        -5.35,
+        5.35
+      ]
+    },
+    {
+      "name": "V293_X620_SLEEVE_L_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        620.0,
+        640.0,
+        -30.35,
+        -19.65,
+        -5.35,
+        5.35
+      ]
+    },
+    {
+      "name": "V293_X620_CF_TUBE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1759.29,
+      "bounds_mm": [
+        580.0,
+        660.0,
+        21.0,
+        29.0,
+        -4.0,
+        4.0
+      ]
+    },
+    {
+      "name": "V293_X620_SLEEVE_R_FWD",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        600.0,
+        620.0,
+        19.65,
+        30.35,
+        -5.35,
+        5.35
+      ]
+    },
+    {
+      "name": "V293_X620_SLEEVE_R_AFT",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 716.28,
+      "bounds_mm": [
+        620.0,
+        640.0,
+        19.65,
+        30.35,
+        -5.35,
+        5.35
+      ]
+    },
+    {
+      "name": "V295_C_CLAMP_X620_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 485.3,
+      "bounds_mm": [
+        622.0,
+        629.0,
+        -31.6,
+        -18.4,
+        -6.6,
+        12.55
+      ]
+    },
+    {
+      "name": "V295_C_CLAMP_X620_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 485.3,
+      "bounds_mm": [
+        622.0,
+        629.0,
+        18.4,
+        31.6,
+        -6.6,
+        12.55
+      ]
+    },
+    {
+      "name": "V296_SOURCE_BACKED_AFT_OML",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1465331.53,
+      "bounds_mm": [
+        595.85,
+        754.96,
+        -106.71,
+        105.83,
+        -49.58,
+        28.96
+      ]
+    },
+    {
+      "name": "V297_INLET_WALL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 6826.57,
+      "bounds_mm": [
+        595.85,
+        650.0,
+        19.88,
+        90.8,
+        -44.6,
+        26.36
+      ]
+    },
+    {
+      "name": "V297_EDF_ADAPTER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1040.65,
+      "bounds_mm": [
+        650.0,
+        658.0,
+        26.72,
+        92.1,
+        -45.13,
+        24.6
+      ]
+    },
+    {
+      "name": "V297_JOINED_INLET_ADAPTER_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7867.21,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        19.88,
+        92.1,
+        -45.13,
+        26.36
+      ]
+    },
+    {
+      "name": "V297_INLET_WALL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 6826.57,
+      "bounds_mm": [
+        595.85,
+        650.0,
+        -103.28,
+        -31.75,
+        -44.6,
+        26.36
+      ]
+    },
+    {
+      "name": "V297_EDF_ADAPTER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 1040.65,
+      "bounds_mm": [
+        650.0,
+        658.0,
+        -104.6,
+        -39.2,
+        -45.13,
+        24.6
+      ]
+    },
+    {
+      "name": "V297_JOINED_INLET_ADAPTER_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7867.21,
+      "bounds_mm": [
+        595.85,
+        658.0,
+        -104.6,
+        -31.75,
+        -45.13,
+        26.36
+      ]
+    },
+    {
+      "name": "V298_HOUSING_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 159109.4,
+      "bounds_mm": [
+        658.0,
+        731.5,
+        40.03,
+        92.53,
+        -36.76,
+        15.74
+      ]
+    },
+    {
+      "name": "V298_HOUSING_SKIN_SERVICE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 171462.92,
+      "bounds_mm": [
+        658.0,
+        731.5,
+        39.03,
+        93.53,
+        -37.76,
+        16.74
+      ]
+    },
+    {
+      "name": "V298_MOUNT_BAND_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19145.12,
+      "bounds_mm": [
+        658.0,
+        666.0,
+        38.68,
+        93.88,
+        -38.11,
+        17.09
+      ]
+    },
+    {
+      "name": "V298_HOUSING_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 159109.4,
+      "bounds_mm": [
+        658.0,
+        731.5,
+        -92.53,
+        -40.03,
+        -36.76,
+        15.74
+      ]
+    },
+    {
+      "name": "V298_HOUSING_SKIN_SERVICE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 171462.92,
+      "bounds_mm": [
+        658.0,
+        731.5,
+        -93.53,
+        -39.03,
+        -37.76,
+        16.74
+      ]
+    },
+    {
+      "name": "V298_MOUNT_BAND_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19145.12,
+      "bounds_mm": [
+        658.0,
+        666.0,
+        -93.88,
+        -38.68,
+        -38.11,
+        17.09
+      ]
+    },
+    {
+      "name": "V300_CF_PUSHROD_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 449.1,
+      "bounds_mm": [
+        722.15,
+        752.36,
+        19.29,
+        76.71,
+        -1.47,
+        13.47
+      ]
+    },
+    {
+      "name": "V300_PUSHROD_SERVICE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 798.4,
+      "bounds_mm": [
+        721.7,
+        752.81,
+        19.06,
+        76.94,
+        -1.96,
+        13.96
+      ]
+    },
+    {
+      "name": "V300_CF_PUSHROD_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 449.1,
+      "bounds_mm": [
+        722.15,
+        752.36,
+        -76.71,
+        -19.29,
+        -1.47,
+        13.47
+      ]
+    },
+    {
+      "name": "V300_PUSHROD_SERVICE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 798.4,
+      "bounds_mm": [
+        721.7,
+        752.81,
+        -76.94,
+        -19.06,
+        -1.96,
+        13.96
+      ]
+    },
+    {
+      "name": "V303_SERVICE_MIN_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        721.52,
+        752.11,
+        16.35,
+        76.86,
+        2.61,
+        13.99
+      ]
+    },
+    {
+      "name": "V303_SERVICE_MIN_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        721.52,
+        752.11,
+        -76.86,
+        -16.35,
+        2.61,
+        13.99
+      ]
+    },
+    {
+      "name": "V303_SERVICE_NEUTRAL_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        722.18,
+        752.83,
+        17.09,
+        76.91,
+        -1.97,
+        13.97
+      ]
+    },
+    {
+      "name": "V303_SERVICE_NEUTRAL_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        722.18,
+        752.83,
+        -76.91,
+        -17.09,
+        -1.97,
+        13.97
+      ]
+    },
+    {
+      "name": "V303_SERVICE_MAX_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        722.55,
+        752.12,
+        17.69,
+        76.95,
+        -6.53,
+        13.93
+      ]
+    },
+    {
+      "name": "V303_SERVICE_MAX_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 818.01,
+      "bounds_mm": [
+        722.55,
+        752.12,
+        -76.95,
+        -17.69,
+        -6.53,
+        13.93
+      ]
+    },
+    {
+      "name": "V305_TORQ_TCM1022_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7590.0,
+      "bounds_mm": [
+        698.5,
+        721.5,
+        6.25,
+        33.75,
+        -1.0,
+        11.0
+      ]
+    },
+    {
+      "name": "V305_TORQ_SERVICE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 13608.0,
+      "bounds_mm": [
+        696.5,
+        723.5,
+        4.25,
+        35.75,
+        -3.0,
+        13.0
+      ]
+    },
+    {
+      "name": "V305_ADJUSTMENT_SWEEP_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19809.0,
+      "bounds_mm": [
+        694.5,
+        725.5,
+        2.25,
+        37.75,
+        -4.0,
+        14.0
+      ]
+    },
+    {
+      "name": "V305_TORQ_TCM1022_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 7590.0,
+      "bounds_mm": [
+        698.5,
+        721.5,
+        -33.75,
+        -6.25,
+        -1.0,
+        11.0
+      ]
+    },
+    {
+      "name": "V305_TORQ_SERVICE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 13608.0,
+      "bounds_mm": [
+        696.5,
+        723.5,
+        -35.75,
+        -4.25,
+        -3.0,
+        13.0
+      ]
+    },
+    {
+      "name": "V305_ADJUSTMENT_SWEEP_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 19809.0,
+      "bounds_mm": [
+        694.5,
+        725.5,
+        -37.75,
+        -2.25,
+        -4.0,
+        14.0
+      ]
+    },
+    {
+      "name": "V306_Z_SHIM_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 632.5,
+      "bounds_mm": [
+        698.5,
+        721.5,
+        6.25,
+        33.75,
+        -2.0,
+        -1.0
+      ]
+    },
+    {
+      "name": "V306_Z_SHIM_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 632.5,
+      "bounds_mm": [
+        698.5,
+        721.5,
+        -33.75,
+        -6.25,
+        -2.0,
+        -1.0
+      ]
+    },
+    {
+      "name": "V307_UNIFIED_SERVO_CASSETTE_BASE_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 2044.3,
+      "bounds_mm": [
+        694.5,
+        725.5,
+        2.25,
+        37.75,
+        -3.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V307_UNIFIED_SERVO_CASSETTE_BASE_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 2044.3,
+      "bounds_mm": [
+        694.5,
+        725.5,
+        -37.75,
+        -2.25,
+        -3.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V310_HYBRID_KEEPOUT_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 2,
+      "volume_mm3": 181708.29,
+      "bounds_mm": [
+        595.0,
+        841.95,
+        43.7,
+        225.23,
+        -51.05,
+        136.1
+      ]
+    },
+    {
+      "name": "V310_STRUCTURAL_BYPASS_FREEFLOW_R",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 30379.08,
+      "bounds_mm": [
+        731.5,
+        754.96,
+        41.28,
+        91.28,
+        -35.51,
+        14.49
+      ]
+    },
+    {
+      "name": "V310_HYBRID_KEEPOUT_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 2,
+      "volume_mm3": 181708.29,
+      "bounds_mm": [
+        595.0,
+        841.95,
+        -225.23,
+        -43.7,
+        -51.05,
+        136.1
+      ]
+    },
+    {
+      "name": "V310_STRUCTURAL_BYPASS_FREEFLOW_L",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 30379.07,
+      "bounds_mm": [
+        731.5,
+        754.96,
+        -91.28,
+        -41.28,
+        -35.51,
+        14.49
+      ]
+    },
+    {
+      "name": "V312_POST_F_SOURCE_CONSTRAINED_OML",
+      "type": "PartDesign::Feature",
+      "kind": "shape",
+      "solids": 1,
+      "volume_mm3": 480996.59,
+      "bounds_mm": [
+        754.96,
+        835.3,
+        -101.73,
+        101.73,
+        -40.36,
+        25.74
+      ]
+    }
+  ],
+  "F14_v326_PRINTABLE_TRANSITION_WALL_MESH.FCStd": [
+    {
+      "name": "V326_TRANSITION_WALL_R",
+      "type": "Mesh::Feature",
+      "kind": "mesh",
+      "facets": 2688,
+      "bounds_mm": [
+        754.96,
+        810.5,
+        26.47,
+        81.68,
+        -35.36,
+        16.28
+      ]
+    },
+    {
+      "name": "V326_TRANSITION_WALL_L",
+      "type": "Mesh::Feature",
+      "kind": "mesh",
+      "facets": 2688,
+      "bounds_mm": [
+        754.96,
+        810.5,
+        -81.82,
+        -26.45,
+        -35.43,
+        16.01
+      ]
+    }
+  ]
+}
