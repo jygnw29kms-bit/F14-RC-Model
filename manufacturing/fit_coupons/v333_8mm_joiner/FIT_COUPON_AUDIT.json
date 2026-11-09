@@ -1,0 +1,45 @@
+{
+  "status": "DEV_ONLY",
+  "model": "F14_v333_JOINER_FIT_COUPONS.FCStd",
+  "source_design": "v282 8x6 CF joiner and 8.3 mm cavity",
+  "slicer_verified": false,
+  "fit_verified": false,
+  "load_verified": false,
+  "flight_release": false,
+  "samples": [
+    {
+      "bore_d_mm": 8.2,
+      "tube_od_nominal_mm": 8.0,
+      "diametral_clearance_nominal_mm": 0.2,
+      "radial_clearance_nominal_mm": 0.1,
+      "solid": true,
+      "mesh_solid": true,
+      "mesh_nonmanifolds": false,
+      "stl": "F14_v333_fit_socket_D8p2_DEV_ONLY.stl",
+      "sha256": "e63bd4815a42505f9a41b944a6e5e00e365c65046ed93fe3d70179b6439b13a2"
+    },
+    {
+      "bore_d_mm": 8.3,
+      "tube_od_nominal_mm": 8.0,
+      "diametral_clearance_nominal_mm": 0.3,
+      "radial_clearance_nominal_mm": 0.15,
+      "solid": true,
+      "mesh_solid": true,
+      "mesh_nonmanifolds": false,
+      "stl": "F14_v333_fit_socket_D8p3_DEV_ONLY.stl",
+      "sha256": "6ee704e3f3fb06daa1c6e98912e9fc40eb8dd543375b26fbee340a5474a85e78"
+    },
+    {
+      "bore_d_mm": 8.4,
+      "tube_od_nominal_mm": 8.0,
+      "diametral_clearance_nominal_mm": 0.4,
+      "radial_clearance_nominal_mm": 0.2,
+      "solid": true,
+      "mesh_solid": true,
+      "mesh_nonmanifolds": false,
+      "stl": "F14_v333_fit_socket_D8p4_DEV_ONLY.stl",
+      "sha256": "1b2da80d63303388002df505f27128ffc176a1c17efbdd742463f8c1ba661378"
+    }
+  ],
+  "cad_sha256": "e916b8724d2f77a86d7ee2d92fdff39e150ddab26dfadefdeb922595189beca7"
+}
