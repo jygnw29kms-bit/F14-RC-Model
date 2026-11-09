@@ -1,0 +1,137 @@
+{
+  "status": "v331_assembly_interface_audit",
+  "source": "F14_v330_INTEGRATED_ASSEMBLY_REVIEW.FCStd",
+  "scope": "diagnostic selected interfaces; not full assembly validation",
+  "pairs": [
+    {
+      "a": "V282_WING_R_INNER",
+      "b": "V282_WING_R_OUTER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_L_INNER",
+      "b": "V282_WING_L_OUTER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_R_FWD",
+      "b": "V282_WING_R_INNER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_R_FWD",
+      "b": "V282_WING_R_OUTER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_R_MID",
+      "b": "V282_WING_R_INNER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_R_MID",
+      "b": "V282_WING_R_OUTER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_R_AFT",
+      "b": "V282_WING_R_INNER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_R_AFT",
+      "b": "V282_WING_R_OUTER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_L_FWD",
+      "b": "V282_WING_L_INNER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_L_FWD",
+      "b": "V282_WING_L_OUTER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_L_MID",
+      "b": "V282_WING_L_INNER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_L_MID",
+      "b": "V282_WING_L_OUTER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_L_AFT",
+      "b": "V282_WING_L_INNER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "V282_WING_JOINER_L_AFT",
+      "b": "V282_WING_L_OUTER",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 0.0,
+      "shared_volume_fraction_smaller": 0.0
+    },
+    {
+      "a": "STABILATOR_R",
+      "b": "V312_POST_F_SOURCE_CONSTRAINED_OML",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 6327.743,
+      "shared_volume_fraction_smaller": 0.07571
+    },
+    {
+      "a": "STABILATOR_L",
+      "b": "V312_POST_F_SOURCE_CONSTRAINED_OML",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 6162.3668,
+      "shared_volume_fraction_smaller": 0.07373
+    },
+    {
+      "a": "V297_JOINED_INLET_ADAPTER_R",
+      "b": "FUSELAGE_CURRENT",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 7013.1553,
+      "shared_volume_fraction_smaller": 0.89144
+    },
+    {
+      "a": "V297_JOINED_INLET_ADAPTER_L",
+      "b": "FUSELAGE_CURRENT",
+      "status": "exact_boolean_ok",
+      "intersection_mm3": 7017.1539,
+      "shared_volume_fraction_smaller": 0.89195
+    }
+  ],
+  "tested_count": 18,
+  "boolean_errors": 0,
+  "print_release": false,
+  "flight_release": false
+}

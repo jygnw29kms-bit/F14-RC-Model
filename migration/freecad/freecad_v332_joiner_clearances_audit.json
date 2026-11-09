@@ -1,0 +1,58 @@
+{
+  "source": "F14_v330_INTEGRATED_ASSEMBLY_REVIEW.FCStd",
+  "status": "v332_joiner_clearance_diagnostic",
+  "notes": "Solid-to-solid minimum distance does not establish nominal slot wall clearance or manufacturing tolerance. Physical fit test remains required.",
+  "connectors": [
+    {
+      "side": "R",
+      "position": "FWD",
+      "inner_minimum_surface_distance_mm": 0.0,
+      "inner_volume_overlap_mm3": 0.0,
+      "outer_minimum_surface_distance_mm": 0.0,
+      "outer_volume_overlap_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "position": "MID",
+      "inner_minimum_surface_distance_mm": 0.0,
+      "inner_volume_overlap_mm3": 0.0,
+      "outer_minimum_surface_distance_mm": 0.0,
+      "outer_volume_overlap_mm3": 0.0
+    },
+    {
+      "side": "R",
+      "position": "AFT",
+      "inner_minimum_surface_distance_mm": 0.0,
+      "inner_volume_overlap_mm3": 0.0,
+      "outer_minimum_surface_distance_mm": 0.0,
+      "outer_volume_overlap_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "position": "FWD",
+      "inner_minimum_surface_distance_mm": 0.0,
+      "inner_volume_overlap_mm3": 0.0,
+      "outer_minimum_surface_distance_mm": 0.0,
+      "outer_volume_overlap_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "position": "MID",
+      "inner_minimum_surface_distance_mm": 0.0,
+      "inner_volume_overlap_mm3": 0.0,
+      "outer_minimum_surface_distance_mm": 0.0,
+      "outer_volume_overlap_mm3": 0.0
+    },
+    {
+      "side": "L",
+      "position": "AFT",
+      "inner_minimum_surface_distance_mm": 0.0,
+      "inner_volume_overlap_mm3": 0.0,
+      "outer_minimum_surface_distance_mm": 0.0,
+      "outer_volume_overlap_mm3": 0.0
+    }
+  ],
+  "fit_release": false,
+  "print_release": false,
+  "flight_release": false
+}
