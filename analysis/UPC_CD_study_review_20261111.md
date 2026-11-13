@@ -18,3 +18,11 @@ The four local fairing patches use four intermediate profiles, two assumed edge 
 The smooth loft is the candidate for the next attachment test. Check positional and tangent continuity against the extracted curves before joining the surfaces. Registration to v192 and the physical edge heights remain open. The measurements apply to the isolated study.
 
 Study loft SHA-256: A1CB207D14AC861484BCD90B3148915F8F826066CC203EE6B51205004F47FDD9
+
+## Sewn cubic study · 13 November 2026
+
+FreeCAD produced one valid open shell from 56 patches. The reopened shell gave one intersection at each of six previously double-hit positions. The 165 internal seam samples gave position differences below 0.000001 mm and a maximum normal angle of about 0.0000012°. At the 56 patch midpoints, the largest measured offsets were 0.000056 mm to the inner attachment curve and 0.000235 mm to the outer study guide.
+
+The measurements cover a local positive-Y portion in study coordinates. The guide height remains a design assumption. Registration to v192 and the connection to the fuselage are pending.
+
+Local study file SHA-256: 662c5d1a292164e01a2b6256fea430e667f3d762923d2ebdbc3a5eebbd37558c
