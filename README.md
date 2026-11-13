@@ -1,5 +1,13 @@
 ﻿# 135er F-14 Tomcat RC
 
+## Projektstand · 13. November 2026
+
+FreeCAD v192 ist der Hauptstand. Das Gesamtmodell befindet sich im Aufbau. Druck- und Flugfreigabe stehen aus.
+
+Für die C–D-Flügelwurzelverkleidung wurden 56 kubisch interpolierte FreeCAD-Teilflächen erstellt und nach dem Wiederöffnen auf geometrische Gültigkeit geprüft. Nahtwinkel, Schnittbelegung und Zuordnung zum Hauptmodell stehen noch zur Prüfung aus. Twin 50 mm EDF auf 4S und FDM-Fertigung auf dem Bambu P2S sind die Entwurfsziele.
+
+[Prüfbericht und aktueller Entwicklungsstand im Entwurfs-PR #1](https://github.com/jygnw29kms-bit/F14-RC-Model/pull/1)
+
 ## Sichtbarer Projektstand (Stand: 08.11.2026)
 
 > **Entwicklung, keine Freigabe.** Die unten verlinkten Ansichten sind der zuletzt in dieser README belegte sichtbare Konstruktionsstand. Ein neueres CAD-Rendering wurde hier nicht als verifiziert ausgegeben. Das Modell ist noch **nicht druckfertig oder flugbereit**.
