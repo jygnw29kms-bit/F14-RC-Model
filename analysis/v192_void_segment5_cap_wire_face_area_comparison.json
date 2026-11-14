@@ -1,0 +1,140 @@
+{
+  "status": "SEGMENT5_CAP_AND_REBUILT_PLANAR_FACE_AREAS_COMPARED",
+  "input_sha256_unchanged": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "rows": [
+    {
+      "y_mm": 230,
+      "endpoint_slice_wire_count": 0,
+      "same_wire_rebuilt_minus_saved_area_at1e11_mm2": -0.00013433637843718316,
+      "same_wire_rebuilt_common_saved_area_mm2": 841.9057712985273,
+      "measurements": [
+        {
+          "method": "saved_cap",
+          "default_area_mm2": 841.9059056348357,
+          "surface_type": "Plane",
+          "samples": [
+            {
+              "requested_relative_epsilon": 1e-07,
+              "area_mm2": 841.9059056348627,
+              "estimated_relative_error": 4.4940641765152814e-14
+            },
+            {
+              "requested_relative_epsilon": 1e-09,
+              "area_mm2": 841.9059056349535,
+              "estimated_relative_error": 1.7894862219645834e-13
+            },
+            {
+              "requested_relative_epsilon": 1e-11,
+              "area_mm2": 841.9059056349055,
+              "estimated_relative_error": 5.97527047652575e-14
+            }
+          ]
+        },
+        {
+          "method": "rebuilt_from_same_outer_wire",
+          "default_area_mm2": 841.9057712985273,
+          "surface_type": "Plane",
+          "samples": [
+            {
+              "requested_relative_epsilon": 1e-07,
+              "area_mm2": 841.9057712985272,
+              "estimated_relative_error": 1.6872419915501906e-17
+            },
+            {
+              "requested_relative_epsilon": 1e-09,
+              "area_mm2": 841.9057712985273,
+              "estimated_relative_error": 4.217653720385701e-17
+            },
+            {
+              "requested_relative_epsilon": 1e-11,
+              "area_mm2": 841.905771298527,
+              "estimated_relative_error": 1.2657187680216888e-17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "y_mm": 240,
+      "endpoint_slice_wire_count": 1,
+      "same_wire_rebuilt_minus_saved_area_at1e11_mm2": 8.44488374696084e-06,
+      "same_wire_rebuilt_common_saved_area_mm2": 799.1308556140664,
+      "measurements": [
+        {
+          "method": "saved_cap",
+          "default_area_mm2": 799.1308471691813,
+          "surface_type": "Plane",
+          "samples": [
+            {
+              "requested_relative_epsilon": 1e-07,
+              "area_mm2": 799.13084716918,
+              "estimated_relative_error": 5.187210989405842e-16
+            },
+            {
+              "requested_relative_epsilon": 1e-09,
+              "area_mm2": 799.1308471691805,
+              "estimated_relative_error": 2.1136745669001212e-15
+            },
+            {
+              "requested_relative_epsilon": 1e-11,
+              "area_mm2": 799.1308471691825,
+              "estimated_relative_error": 9.483800688511304e-16
+            }
+          ]
+        },
+        {
+          "method": "rebuilt_from_same_outer_wire",
+          "default_area_mm2": 799.1308556140664,
+          "surface_type": "Plane",
+          "samples": [
+            {
+              "requested_relative_epsilon": 1e-07,
+              "area_mm2": 799.1308556140661,
+              "estimated_relative_error": 8.885586257364557e-18
+            },
+            {
+              "requested_relative_epsilon": 1e-09,
+              "area_mm2": 799.1308556140661,
+              "estimated_relative_error": 1.776515650922524e-17
+            },
+            {
+              "requested_relative_epsilon": 1e-11,
+              "area_mm2": 799.1308556140663,
+              "estimated_relative_error": 1.3313024408316109e-17
+            }
+          ]
+        },
+        {
+          "method": "native_slice_endpoint_face",
+          "default_area_mm2": 799.1308471691813,
+          "surface_type": "Plane",
+          "samples": [
+            {
+              "requested_relative_epsilon": 1e-07,
+              "area_mm2": 799.13084716918,
+              "estimated_relative_error": 5.187210989405842e-16
+            },
+            {
+              "requested_relative_epsilon": 1e-09,
+              "area_mm2": 799.1308471691805,
+              "estimated_relative_error": 2.1136745669001212e-15
+            },
+            {
+              "requested_relative_epsilon": 1e-11,
+              "area_mm2": 799.1308471691825,
+              "estimated_relative_error": 9.483800688511304e-16
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Same 3D outer wire reused, but supporting plane and pcurve representation may differ",
+    "Native area and face common operations numerical; no exact geometry or volume proof",
+    "Endpoint slices may differ from saved cap construction; wire counts retained",
+    "No saved CAD or tolerance changes; no print/flight release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

@@ -1,0 +1,69 @@
+{
+  "status": "SEPARATE_APPROXIMATED_AND_SNAPPED_ENDPOINT_CANDIDATE_SAVED_REOPENED",
+  "input_sha256_unchanged": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "output_sha256": "cb65e0837065e2b6f80604094ae0230deb3942ab5115437b9d400d55c1b08629",
+  "wire_edits": [
+    {
+      "y_mm": 230,
+      "source_edge_curve_types": {
+        "OffsetCurve": 96,
+        "Circle": 2
+      },
+      "requested_curve_approximation_tolerance_mm": 1e-09,
+      "max_reported_curve_approximation_error_mm": 8.846095913621729e-13,
+      "max_pre_snap_approximated_endpoint_gap_mm": 5.252265571274698e-07,
+      "max_endpoint_pole_displacement_mm": 2.626132820358611e-07,
+      "sampled_max_same_parameter_curve_displacement_mm": 2.626132820358611e-07,
+      "post_edit_max_curve_endpoint_gap_mm": 0.0
+    },
+    {
+      "y_mm": 240,
+      "source_edge_curve_types": {
+        "OffsetCurve": 96,
+        "Circle": 2
+      },
+      "requested_curve_approximation_tolerance_mm": 1e-09,
+      "max_reported_curve_approximation_error_mm": 8.960826831114978e-13,
+      "max_pre_snap_approximated_endpoint_gap_mm": 5.30682111660594e-07,
+      "max_endpoint_pole_displacement_mm": 2.6534105627383907e-07,
+      "sampled_max_same_parameter_curve_displacement_mm": 2.6534105627383907e-07,
+      "post_edit_max_curve_endpoint_gap_mm": 0.0
+    }
+  ],
+  "rows": [
+    {
+      "object": "ORIGINAL_SAVED_SEG5",
+      "valid": true,
+      "solids": 1,
+      "faces": 100,
+      "default_volume_mm3": 8204.253454249963,
+      "max_native_tolerance_mm": 7.96023142e-07,
+      "P280_P300_flux_mm3": [
+        8204.255444914554,
+        8204.256372206575
+      ],
+      "reference_change_mm3": 0.0009272920215153135
+    },
+    {
+      "object": "SNAPPED_ENDPOINT_CANDIDATE_ONLY",
+      "valid": true,
+      "solids": 1,
+      "faces": 100,
+      "default_volume_mm3": 8204.253048577328,
+      "max_native_tolerance_mm": 7.48454919727118e-06,
+      "P280_P300_flux_mm3": [
+        8204.253048577324,
+        8204.253048577328
+      ],
+      "reference_change_mm3": 3.637978807091713e-12
+    }
+  ],
+  "limits": [
+    "Geometry intentionally edited on separate candidate only; OffsetCurve/Circle approximated to BSplines, then endpoints averaged with weights unchanged",
+    "Positive rational basis gives theoretical curve displacement at most maximum pole displacement, subject to floating computation; sampled check not global numerical proof",
+    "Loft may reparameterize or alter intermediate surfaces; whole candidate deviation and cavity containment not yet checked",
+    "No promotion, exact volume certificate, manufacturing or flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

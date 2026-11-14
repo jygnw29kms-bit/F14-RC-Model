@@ -1,0 +1,5 @@
+{"stage": "validity_start", "elapsed_seconds": 0.5940003395080566}
+{"stage": "validity_done", "elapsed_seconds": 2.869000196456909, "status": "REOPENED_ADAPTIVE_PARTIAL_SPAN_BOUNDARY_GAP_ONLY", "trial_sha256": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40", "print_release": false, "flight_release": false, "valid": true, "solids": 1, "shells": 2, "faces": 2285, "volume_mm3": 64770.945294431316}
+{"stage": "boundary_distance_start", "elapsed_seconds": 2.869000196456909}
+{"stage": "boundary_distance_done", "elapsed_seconds": 114.13500022888184, "distance_mm": 0.4033274673490288}
+{"stage": "complete", "elapsed_seconds": 114.13999962806702}

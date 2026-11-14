@@ -1,0 +1,45 @@
+{
+  "status": "IDEAL_SLEEVE_OUTER_SWEEP_WING_ACCESS_SCREEN_COMPLETE",
+  "input_sha256_unchanged": {
+    "WING_R_VOID_ALL17_FUSED_TRIAL_ONLY.FCStd": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19",
+    "WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+    "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0"
+  },
+  "swept_outer_radius_mm": 2,
+  "swept_y_interval_mm": [
+    270,
+    310
+  ],
+  "outside_saved_void_mm3": 0.0,
+  "overlap_hollow_wing_skin_mm3": 0.0,
+  "spar_overlap_rows": [
+    {
+      "object": "UNFROZEN_FLANGED_WEB",
+      "swept_overlap_mm3": 0.0
+    },
+    {
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "swept_overlap_mm3": 0.0
+    },
+    {
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "swept_overlap_mm3": 0.0
+    },
+    {
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "swept_overlap_mm3": 0.0
+    },
+    {
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "swept_overlap_mm3": 0.0
+    }
+  ],
+  "limits": [
+    "Only sleeve outer envelope translates, whole wing/carriers remain fixed",
+    "A collision-free local path does not establish access from exterior or assembly tools",
+    "No adhesive scraping, cure, tolerances, insertion force or physical validation",
+    "No structural, printing or flight acceptance; partition volume gate remains blocked"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

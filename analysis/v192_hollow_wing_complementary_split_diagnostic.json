@@ -1,0 +1,52 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE_NOT_RELEASED",
+  "input_sha256": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+  "stages": [
+    {
+      "stage": "loaded",
+      "volume": 64770.945294431316
+    },
+    {
+      "stage": "complementary_root",
+      "valid": true,
+      "solids": 1,
+      "volume": 53714.68157658667
+    },
+    {
+      "stage": "tip_common",
+      "valid": true,
+      "solids": 1,
+      "volume": 11056.393275799941
+    },
+    {
+      "stage": "balance",
+      "sum_minus_source": 0.12955795529705938
+    },
+    {
+      "stage": "overlap",
+      "valid": true,
+      "volume": 0.0
+    },
+    {
+      "stage": "union",
+      "valid": true,
+      "solids": 1,
+      "volume": 64771.06836932962
+    },
+    {
+      "stage": "source_minus_union",
+      "valid": true,
+      "volume": 0.0
+    },
+    {
+      "stage": "union_minus_source",
+      "valid": true,
+      "volume": 0.0
+    }
+  ],
+  "limits": [
+    "No output CAD saved",
+    "Boolean residuals are diagnostics, not permission to relax tolerances",
+    "Source experimental hollow wing remains unreleased"
+  ]
+}

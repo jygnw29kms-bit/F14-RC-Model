@@ -1,0 +1,18 @@
+{
+  "status": "QUICK_MAPAXIS_PRIMAER_VON_FLUGZEUGDATUM_ABGEGRENZT",
+  "source": "NASA-CR2676VolumeII",
+  "pdf_page": 116,
+  "printed_page": 110,
+  "findings": [
+    "QUICK nimmtKartesischeModellkoordinaten entgegen undinterrogiertZylinderkoordinaten.",
+    "BeideKoordinatensysteme unterliegenlautText einerTranslationinZ wegenMapaxis.",
+    "Mapaxis liegtinderSymmetrieebene undueblicherweisebeiMaximalhalbbreite, damitRadiusalsFunktiondesWinkelssingle-valuedist."
+  ],
+  "consequence": "Mapaxis ist geometrische Modellierungs-/Auswertehilfe. Eine bestimmte ZMAPAXIS-Zahl oder AlignmentmitMaximalhalbbreite belegt allein keine physische Flugzeugwasserlinie und keine UPC-C-Hoehenregistrierung.",
+  "limits": [
+    "Keine neue Koordinatentransformation angewendet.",
+    "F14Inputversionskonvention und Einheiten muessen separat belegt werden.",
+    "Primaer erklaerteMapaxis beantwortet nichtdiefehlendeKonstantterm-/ELLXEvaluatornormierung."
+  ],
+  "production_release": false
+}

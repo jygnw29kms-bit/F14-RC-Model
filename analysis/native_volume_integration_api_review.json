@@ -1,0 +1,28 @@
+{
+  "status": "PRIMARY_IMPLEMENTATION_REVIEW_NOT_ERROR_BOUND_PROOF",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/main/src/Mod/Part/App/TopoShapePyImp.cpp",
+      "reviewed_function": "TopoShapePy::getVolume",
+      "observation": "Calls BRepGProp::VolumeProperties(shape, props) without explicit Eps; returns props.Mass()"
+    },
+    {
+      "url": "https://occt3d.com/dev/doc/refman/html/class_b_rep_g_prop.html",
+      "observation": "Separate Eps overload provides adaptive integration and error estimate; GK overload offers BSpline span integration"
+    }
+  ],
+  "applicability": [
+    "Current upstream source reviewed, not byte-matched to installed1.1.4 build",
+    "Installed Python API inspection found Volume property but no exposed tolerance setter",
+    "Boolean zero-volume symmetric differences and valid shapes do not establish exact mass integration precision"
+  ],
+  "conclusion": "Default Volume comparison alone supplies no demonstrated1e-5mm3 error bound for these trimmed BSpline shells; observed discrepancy remains unresolved",
+  "next": [
+    "Use existing adaptive OCCT binding if available without replacing productive core",
+    "Otherwise isolate bounded native helper against matching installed OCCT version; do not install older core modules",
+    "Retain strict unreleased study status until independent integration error and shape checks support acceptance"
+  ],
+  "master_changed": false,
+  "print_release": false,
+  "flight_release": false
+}

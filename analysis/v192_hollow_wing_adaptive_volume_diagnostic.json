@@ -1,0 +1,49 @@
+{
+  "status": "ADAPTIVE_VOLUME_DIAGNOSTIC_COMPLETE_NOT_RELEASED",
+  "input_sha256_unchanged": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+  "installed_OCC_version": "7.8.1",
+  "binding": "Existing FreeCAD bundled OCC; no module installation or core replacement",
+  "rows": [
+    {
+      "requested_relative_epsilon": 1e-09,
+      "source_root_tip": [
+        {
+          "volume_mm3": 64771.076561128066,
+          "estimated_relative_integration_error": 8.93800144155796e-10
+        },
+        {
+          "volume_mm3": 53714.68196528613,
+          "estimated_relative_integration_error": 8.871904855975708e-10
+        },
+        {
+          "volume_mm3": 11056.393586749919,
+          "estimated_relative_integration_error": 8.916519847121793e-10
+        }
+      ],
+      "part_sum_minus_source_mm3": -0.0010090920186485164
+    },
+    {
+      "requested_relative_epsilon": 1e-11,
+      "source_root_tip": [
+        {
+          "volume_mm3": 64771.07671828572,
+          "estimated_relative_integration_error": 8.977583380840033e-12
+        },
+        {
+          "volume_mm3": 53714.68197041043,
+          "estimated_relative_integration_error": 8.964990768470165e-12
+        },
+        {
+          "volume_mm3": 11056.393583342335,
+          "estimated_relative_integration_error": 8.981750015020162e-12
+        }
+      ],
+      "part_sum_minus_source_mm3": -0.0011645329650491476
+    }
+  ],
+  "limits": [
+    "Reported integration errors are algorithm estimates, not rigorous geometry error bounds",
+    "No saved split CAD, structural joint or printing acceptance",
+    "Source experimental hollow wing remains unreleased"
+  ]
+}

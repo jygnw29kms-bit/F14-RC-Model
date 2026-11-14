@@ -1,0 +1,6 @@
+{"stage": "open", "elapsed_seconds": 0.00400090217590332}
+{"stage": "outside_cut_start", "elapsed_seconds": 0.5209999084472656}
+{"stage": "outside_cut_done", "elapsed_seconds": 1.5020020008087158, "outside_volume_mm3": 0.0}
+{"stage": "boundary_distance_start", "elapsed_seconds": 1.5020020008087158}
+{"stage": "boundary_distance_done", "elapsed_seconds": 1.6330008506774902, "distance_mm": 0.4791439540505933}
+{"stage": "complete", "elapsed_seconds": 1.653000831604004}

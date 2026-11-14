@@ -1,0 +1,46 @@
+{
+  "status": "ORIGINALQUELLCODE_ARCHIV_GELADEN_NOCH_NICHT_AUSGEFUEHRT",
+  "url": "https://www.pdas.com/packages/shifarc.zip",
+  "distributor_page": "https://www.pdas.com/shifarc.html",
+  "sha256": "037f1fccae422b5fc6ffccdb29a0953265d0b7c1b3153d4bbe688503ff179afc",
+  "zip_integrity": null,
+  "members": [
+    {
+      "name": "blunt.for",
+      "bytes": 254379
+    },
+    {
+      "name": "blunt.src",
+      "bytes": 250995
+    },
+    {
+      "name": "lar11891.txt",
+      "bytes": 4007
+    },
+    {
+      "name": "quick.for",
+      "bytes": 109008
+    },
+    {
+      "name": "quick.src",
+      "bytes": 108164
+    },
+    {
+      "name": "readme.txt",
+      "bytes": 845
+    },
+    {
+      "name": "stein.for",
+      "bytes": 774258
+    },
+    {
+      "name": "stein.src",
+      "bytes": 763751
+    }
+  ],
+  "limits": [
+    "PDAS-Verteilung des historischen LAR-11891; WBPPW-Version nicht automatisch identisch.",
+    "Keine Originalroutine kompiliert oder ausgefuehrt, keine CAD-/Produktionsfreigabe."
+  ],
+  "production_release": false
+}

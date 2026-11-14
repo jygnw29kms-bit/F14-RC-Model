@@ -1,0 +1,39 @@
+{
+  "status": "ZWEIGWAHL_REGRESSION_PASS",
+  "checks": [
+    {
+      "case": "synthetische Viertellipse",
+      "direction": 1,
+      "selected_sign": 1,
+      "max_value_error": 1.942890293094024e-16,
+      "vertical_start_rejected": true
+    },
+    {
+      "case": "synthetische Viertellipse",
+      "direction": -1,
+      "selected_sign": -1,
+      "max_value_error": 1.942890293094024e-16,
+      "vertical_start_rejected": true
+    },
+    {
+      "case": "ZTCL_nose",
+      "max_difference_from_previous_study": 0.0
+    },
+    {
+      "case": "ZBCL_nose",
+      "max_difference_from_previous_study": 0.0
+    },
+    {
+      "case": "YMHB_nose",
+      "max_difference_from_previous_study": 0.0
+    }
+  ],
+  "printed_fillet_reference_pass": true,
+  "evaluator_sha256": "4898db91c0fef39d2df036d080457129281a4e2767403ef778859eb3979a5156",
+  "limits": [
+    "Synthetische Zweigtests belegen Algebra, keine allgemeine WBPPW-ELLY-Semantik.",
+    "Historische Studien behalten ihre damaligen Eingabehashes; keine erneute native Ausfuehrung.",
+    "Kein physischer Massstab, keine Masteraenderung oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

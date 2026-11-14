@@ -1,0 +1,19 @@
+{
+  "status": "BODY_SEGMENT_PARAMETERROLLE_PRIMAER_GELESEN_TEILWEISE_VISUELL_GEPRUEFT",
+  "evidence_pages": [
+    121,
+    132,
+    133
+  ],
+  "findings": [
+    "PDF121/gedr115:Body-Line-Segment wird durchEndpunkte(x1,v1),(x2,v2)undEndsteigungen t1,t2definiert; vstehtfuerYoderZ.",
+    "Steigungen koennen lautTextausSlopeControlPoint(x3,v3)bestimmtwerden. DrittesPaar nichtalsweiterenPunktaufKurve behandeln.",
+    "PDF133visuell:beiTypPIECE D1..D4Endkoordinaten. BeiSLP1/2blank undnichtFILET sindD5=x3,D6=v3. FlagsS/AersetzendieseWerte durchexpliziteSteigung/bzwWinkel."
+  ],
+  "remaining": [
+    "F14kompakteTabellenunterstuetzenanderesLayoutalsCR2676Festformatkarten; DefaultsundKonvertierungnochbelegen.",
+    "Steigungsberechnung, lokaleTranslationundZweigwahlmuessenvorEvaluatorvalidierungbelegtoderalsgetrennteHypothesegetestetwerden.",
+    "Keine EinheitenausNamenabgeleitet undkeineOriginalhautnachgewiesen."
+  ],
+  "production_release": false
+}

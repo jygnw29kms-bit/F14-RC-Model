@@ -1,0 +1,201 @@
+{
+  "status": "HYPOTHESENZWEIGE_UND_ENDSTEIGUNGEN_ANALYTISCH_GEPRUEFT",
+  "input_sha256": "9c579c1fa05549afbb130552a6346bef8639b9e2c6442779b3558f9f734bc30b",
+  "rows": [
+    {
+      "name": "ZTCL_nose",
+      "chosen_quadratic_sign": 1,
+      "samples": 1001,
+      "minimum_discriminant": 4027.6733923742554,
+      "max_implicit_equation_residual": 1.5916157281026244e-12,
+      "max_ellipse_normal_form_residual": 3.3306690738754696e-16,
+      "endpoint_slopes": [
+        0.5956521739130439,
+        0.24516129032258066
+      ],
+      "control_point_slopes": [
+        0.5956521739130438,
+        0.24516129032258063
+      ],
+      "monotone_sampled": true,
+      "points_source": [
+        [
+          93.0,
+          131.45
+        ],
+        [
+          104.2,
+          137.51629015592067
+        ],
+        [
+          115.4,
+          142.6983231692825
+        ],
+        [
+          126.6,
+          147.2859741060825
+        ],
+        [
+          137.8,
+          151.43765476046877
+        ],
+        [
+          149.0,
+          155.25123120657858
+        ],
+        [
+          160.2,
+          158.7922194422227
+        ],
+        [
+          171.4,
+          162.10705027402935
+        ],
+        [
+          182.60000000000002,
+          165.2300625839464
+        ],
+        [
+          193.8,
+          168.1875089339158
+        ],
+        [
+          205.0,
+          171.0
+        ]
+      ]
+    },
+    {
+      "name": "ZBCL_nose",
+      "chosen_quadratic_sign": -1,
+      "samples": 1001,
+      "minimum_discriminant": 11910.448225000016,
+      "max_implicit_equation_residual": 1.6768808563938364e-12,
+      "max_ellipse_normal_form_residual": 4.440892098500626e-16,
+      "endpoint_slopes": [
+        -0.4095890410958901,
+        5.110531418420541e-17
+      ],
+      "control_point_slopes": [
+        -0.4095890410958901,
+        -0.0
+      ],
+      "monotone_sampled": true,
+      "points_source": [
+        [
+          93.0,
+          131.45
+        ],
+        [
+          101.3,
+          128.31069365317467
+        ],
+        [
+          109.6,
+          125.64004124054242
+        ],
+        [
+          117.9,
+          123.37807041487366
+        ],
+        [
+          126.2,
+          121.48179409815059
+        ],
+        [
+          134.5,
+          119.91973060685028
+        ],
+        [
+          142.8,
+          118.66862112106097
+        ],
+        [
+          151.1,
+          117.71137700396106
+        ],
+        [
+          159.4,
+          117.03576345872409
+        ],
+        [
+          167.7,
+          116.63355301836742
+        ],
+        [
+          176.0,
+          116.5
+        ]
+      ]
+    },
+    {
+      "name": "YMHB_nose",
+      "chosen_quadratic_sign": 1,
+      "samples": 1001,
+      "minimum_discriminant": 1415.5602308422822,
+      "max_implicit_equation_residual": 9.094947017729282e-13,
+      "max_ellipse_normal_form_residual": 5.551115123125783e-16,
+      "endpoint_slopes": [
+        0.4366197183098591,
+        -0.0
+      ],
+      "control_point_slopes": [
+        0.43661971830985913,
+        -0.0
+      ],
+      "monotone_sampled": true,
+      "points_source": [
+        [
+          93.0,
+          0.0
+        ],
+        [
+          118.9,
+          8.721377882099532
+        ],
+        [
+          144.8,
+          14.65044794785802
+        ],
+        [
+          170.7,
+          19.120005092337713
+        ],
+        [
+          196.60000000000002,
+          22.6052873698831
+        ],
+        [
+          222.5,
+          25.340004336227807
+        ],
+        [
+          248.4,
+          27.4574326842082
+        ],
+        [
+          274.3,
+          29.039587651027226
+        ],
+        [
+          300.20000000000005,
+          30.138399486352192
+        ],
+        [
+          326.1,
+          30.78600309049059
+        ],
+        [
+          352.0,
+          31.0
+        ]
+      ]
+    }
+  ],
+  "limits": [
+    "Interne mathematische Konsistenz, keine VerifikationderWBPPWOriginalroutine.",
+    "Monotoniean1001Proben,keineallgemeineKonturtoleranz.",
+    "Einheiten/UPCRegistrierung/Originalhautweiterunbelegt; keineCADUebernahme."
+  ],
+  "production_release": false
+}

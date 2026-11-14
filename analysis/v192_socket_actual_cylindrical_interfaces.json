@@ -1,0 +1,59 @@
+{
+  "status": "SAVED_SOCKET_CYLINDER_GEOMETRY_AUDIT_NOT_HARDWARE_CONTACT",
+  "input_sha256_unchanged": "72d7d468d3247add21511b88a55ccb456c1a730e3b3d81bcd56746e305a3d2d2",
+  "cylindrical_faces": [
+    {
+      "face_index": 1,
+      "radius_mm": 12.0,
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "area_mm2": 355.00167822495894,
+      "z_bounds_mm": [
+        -8.0,
+        8.0
+      ]
+    },
+    {
+      "face_index": 6,
+      "radius_mm": 12.0,
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "area_mm2": 603.1857894892403,
+      "z_bounds_mm": [
+        -8.0,
+        8.0
+      ]
+    },
+    {
+      "face_index": 13,
+      "radius_mm": 3.0,
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "area_mm2": 301.59289474462014,
+      "z_bounds_mm": [
+        -8.0,
+        8.0
+      ]
+    }
+  ],
+  "findings": [
+    "Existing socket bore follows global Z, not the source1.5deg canted axis",
+    "A cylindrical6mm hole is not two selected bearing seats or a thrust retention assembly",
+    "Prior baseline external packaging rejection remains in force"
+  ],
+  "limits": [
+    "Face area is geometric bore area, not effective bearing contact area",
+    "No hardware fit tolerance, contact pressure, material or load capacity accepted",
+    "Provisional pivot Z0 and incomplete glove remain unresolved"
+  ],
+  "production_release": false
+}

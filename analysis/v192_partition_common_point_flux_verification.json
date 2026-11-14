@@ -1,0 +1,33 @@
+{
+  "status": "FACE_COMPLETENESS_HASHES_SUMS_VERIFIED_NUMERIC_BALANCE_ONLY",
+  "evidence_sha256": {
+    "v192_partition_all_faces_common_point_flux.json": "001ef416dc9ba72a446d3fbb32a3f35d5ed80385ea2f0427ab42b54f844dac15",
+    "v192_partition_volume_common_translation_diagnostic.json": "0abdcc87681e0246e9af57cdf2b364c9c062d09ed61d431476a7ecca48acc265"
+  },
+  "total_face_count": 4671,
+  "common_point_face_sum_balance_residual_mm3": 8.268107194453478e-07,
+  "strict_numeric_balance_guard_mm3": 1e-05,
+  "this_numeric_balance_within_guard": true,
+  "comparisons": [
+    {
+      "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+      "face_sum_minus_whole_shape_GK_mm3": 0.00025893097335938364
+    },
+    {
+      "object": "BLOCKED_PART_0",
+      "face_sum_minus_whole_shape_GK_mm3": 0.00195554515812546
+    },
+    {
+      "object": "BLOCKED_PART_1",
+      "face_sum_minus_whole_shape_GK_mm3": -0.0006456676965171937
+    }
+  ],
+  "limits": [
+    "This one diagnostic numeric balance is within guard, not accepted partition volume certification",
+    "Absolute source/part results differ from whole-shape GK; integration discrepancy unresolved",
+    "Need independent reference-point/epsilon consistency and seam orientation audit",
+    "No rigorous integration bounds, exact geometry identity, print or flight release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

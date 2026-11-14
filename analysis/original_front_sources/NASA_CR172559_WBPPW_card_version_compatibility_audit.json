@@ -1,0 +1,62 @@
+{
+  "status": "VERSION_COMPATIBILITY_UNRESOLVED_NO_VERTICAL_MAPPING_FREEZE",
+  "manual": {
+    "path": "analysis\\original_front_sources\\NASA_CR4066_WBPPW_manual.pdf",
+    "sha256": "4d97dc9ce036eb592f4fd7f7f5ee9eec1eb86b430a3cc83692f14ce35c61ae2c",
+    "pdf_pages": [
+      73,
+      74
+    ],
+    "printed_pages": [
+      65,
+      66
+    ],
+    "visual_review": true
+  },
+  "f14_source": {
+    "report": "NASA CR172559 (1985)",
+    "sha256": "266ae1d71b32afcb7a44ea41e275669b98338f42bc62fb79d33a815c45ed1d5e",
+    "table": "Table 1, sheets 1-2"
+  },
+  "later_manual_mapping": {
+    "card_1W": [
+      "ASECT",
+      "ANIN",
+      "ANOSW",
+      "XMOM",
+      "ZWING",
+      "REFAR",
+      "WS"
+    ],
+    "card_2W_first_five": [
+      "XPL leading edge X",
+      "YP span Y",
+      "XPT trailing edge X",
+      "TWIST degrees",
+      "AKODE section reuse/new definition"
+    ],
+    "card_2W_sixth": "Fine X-grid point count at wingtip; default 100; read only on first Card 2-W",
+    "card_3W": "XINW shared section X coordinates, first section only",
+    "card_4W": "YINU upper ordinates",
+    "card_5W": "YINL lower ordinates"
+  },
+  "compatibility_assessment": {
+    "first_five_fields": "Supported by later manual; exact 1985 implementation still needs verification",
+    "sixth_field": "NOT verified as section vertical reference: repeated noninteger values around 160 in F14 table do not match later manual semantics",
+    "ZWING": "13.5 in F14 header; global wing position per manual Fig A-2; aircraft waterline registration not established",
+    "centerline_section": "Required computational continuation even for wing-body case, not evidence of exposed centerline skin"
+  },
+  "prohibited_inferences": [
+    "Do not map sixth field to aircraft WL or CAD Z without original implementation evidence",
+    "Do not discard sixth field as unused using later manual alone",
+    "Do not produce a physically registered glove loft from this mapping",
+    "Do not treat computational combined wing/glove contours as exposed fixed skin without sweep comparison"
+  ],
+  "next_steps": [
+    "Find original 1985 wing-card reader or contemporary documentation",
+    "Compare nominal 20/25/35 profiles in raw normalized coordinates independently of unresolved vertical mapping"
+  ],
+  "geometry_changed": false,
+  "print_release": false,
+  "flight_release": false
+}

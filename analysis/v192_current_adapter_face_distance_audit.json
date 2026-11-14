@@ -1,0 +1,46 @@
+{
+  "status": "CURRENT_V192_ADAPTER_METHOD_APPLICABILITY_AUDIT",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "rows": [
+    {
+      "object": "INLET_EDF_R",
+      "status": "UNSUPPORTED_TOPOLOGY_NO_WALL_RESULT",
+      "valid": true,
+      "solids": 1,
+      "face_count": 6,
+      "surface_types": [
+        "BSplineSurface",
+        "Plane",
+        "BSplineSurface",
+        "BSplineSurface",
+        "Plane",
+        "BSplineSurface"
+      ],
+      "conditional_0p8mm_gap_screen": null
+    },
+    {
+      "object": "INLET_EDF_L",
+      "status": "UNSUPPORTED_TOPOLOGY_NO_WALL_RESULT",
+      "valid": true,
+      "solids": 1,
+      "face_count": 6,
+      "surface_types": [
+        "BSplineSurface",
+        "Plane",
+        "BSplineSurface",
+        "BSplineSurface",
+        "Plane",
+        "BSplineSurface"
+      ],
+      "conditional_0p8mm_gap_screen": null
+    }
+  ],
+  "limits": [
+    "Only INLET_EDF_R/L; no fuselage, wing or tail wall-thickness verification.",
+    "Distance between selected curved faces is not a complete local normal-thickness field.",
+    "0.8 mm is the historical screening threshold, not a structural or printing qualification.",
+    "No physical print, flow, strength or flight test performed."
+  ],
+  "print_release": false,
+  "flight_release": false
+}

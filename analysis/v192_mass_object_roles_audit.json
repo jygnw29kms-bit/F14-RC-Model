@@ -1,0 +1,323 @@
+{
+  "status": "V192_OBJEKTROLLEN_FUER_MASSENAUFROLLUNG_STATISCH_GEPRUEFT",
+  "native_archive_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "shape_object_count": 37,
+  "material_uuid_count": 1,
+  "material_uuids": [
+    "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"
+  ],
+  "alternative_wing_pose_objects": [
+    "WING_R_SWEEP_40",
+    "WING_L_SWEEP_40",
+    "WING_R_SWEEP_54",
+    "WING_L_SWEEP_54",
+    "WING_R_SWEEP_68",
+    "WING_L_SWEEP_68"
+  ],
+  "rows": [
+    {
+      "name": "FUSELAGE_CURRENT",
+      "label": "F14 source-derived fuselage / ruled station loft v191",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "WING_R",
+      "label": "F14 source wing R (20 deg source)",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "WING_L",
+      "label": "F14 source wing L (20 deg source)",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STABILATOR_L",
+      "label": "Stabilator L",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STABILATOR_R",
+      "label": "Stabilator R",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "VTAIL_L",
+      "label": "Vertical tail L",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "VTAIL_R",
+      "label": "Vertical tail R",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "VENTRAL_L",
+      "label": "Ventral fin L",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "VENTRAL_R",
+      "label": "Ventral fin R",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "INLET_EDF_R",
+      "label": "v187 joined inlet + EDF adapter R",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "INLET_EDF_L",
+      "label": "v187 joined inlet + EDF adapter L",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "WINGBOX_REF",
+      "label": "Source-backed pivot wingbox engineering envelope v191",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Referenz-/Huellenobjekt, Masse nicht aus Vollvolumen ableiten",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "PIVOT_REF_R",
+      "label": "Source-backed wing pivot R v191",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Referenz-/Huellenobjekt, Masse nicht aus Vollvolumen ableiten",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "PIVOT_REF_L",
+      "label": "Source-backed wing pivot L v191",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Referenz-/Huellenobjekt, Masse nicht aus Vollvolumen ableiten",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "BATTERY_TRAY_v165",
+      "label": "Battery tray v165 candidate",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "BATTERY_REFERENCE_PACK",
+      "label": "4S reference battery 106x36x25 @ x340",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Referenz-/Huellenobjekt, Masse nicht aus Vollvolumen ableiten",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "BATTERY_RETENTION_HOLE_REFS",
+      "label": "Battery stop-pin hole references v165",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Referenz-/Huellenobjekt, Masse nicht aus Vollvolumen ableiten",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_SHAFT_R",
+      "label": "Stabilator 6mm shaft R v177",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_BEARING_R_1",
+      "label": "Stabilator bearing R 1 v177",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_HOUSING_R_1",
+      "label": "Printed bearing housing R 1",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_BEARING_R_2",
+      "label": "Stabilator bearing R 2 v177",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_HOUSING_R_2",
+      "label": "Printed bearing housing R 2",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_CRANK_R",
+      "label": "Stabilator crank R r18.9 v180",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_SERVO_ENV_R",
+      "label": "TORQ TCM-1022 service envelope R v181",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Referenz-/Huellenobjekt, Masse nicht aus Vollvolumen ableiten",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_SHAFT_L",
+      "label": "Stabilator 6mm shaft L v177",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_BEARING_L_1",
+      "label": "Stabilator bearing L 1 v177",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_HOUSING_L_1",
+      "label": "Printed bearing housing L 1",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_BEARING_L_2",
+      "label": "Stabilator bearing L 2 v177",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_HOUSING_L_2",
+      "label": "Printed bearing housing L 2",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_CRANK_L",
+      "label": "Stabilator crank L r18.9 v180",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Baugruppen-/Geometriekandidat, physische Massendefinition offen",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "STAB_SERVO_ENV_L",
+      "label": "TORQ TCM-1022 service envelope L v181",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Referenz-/Huellenobjekt, Masse nicht aus Vollvolumen ableiten",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "WING_R_SWEEP_40",
+      "label": "Wing R sweep 40 deg reference",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Alternative Schwenklage derselben Fluegel, nicht zusaetzliches Flugzeugbauteil",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "WING_L_SWEEP_40",
+      "label": "Wing L sweep 40 deg reference",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Alternative Schwenklage derselben Fluegel, nicht zusaetzliches Flugzeugbauteil",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "WING_R_SWEEP_54",
+      "label": "Wing R sweep 54 deg reference",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Alternative Schwenklage derselben Fluegel, nicht zusaetzliches Flugzeugbauteil",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "WING_L_SWEEP_54",
+      "label": "Wing L sweep 54 deg reference",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Alternative Schwenklage derselben Fluegel, nicht zusaetzliches Flugzeugbauteil",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "WING_R_SWEEP_68",
+      "label": "Wing R sweep 68 deg reference",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Alternative Schwenklage derselben Fluegel, nicht zusaetzliches Flugzeugbauteil",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    },
+    {
+      "name": "WING_L_SWEEP_68",
+      "label": "Wing L sweep 68 deg reference",
+      "material_uuid": "7f9fd73b-50c9-41d8-b7b2-575a030c1eeb",
+      "mass_role_screen": "Alternative Schwenklage derselben Fluegel, nicht zusaetzliches Flugzeugbauteil",
+      "measured_mass_g": null,
+      "current_mass_assignment_verified": false
+    }
+  ],
+  "limits": [
+    "Document.xml statisch gelesen, keine neue native Geometrieauswertung.",
+    "Material-UUID allein belegt keine bauteilspezifische Dichte, Druckstruktur oder gewogene Masse; referenzierte Bibliothek hier nicht validiert.",
+    "Sechs alternative Fluegelposen duerfen nicht als sechs zusaetzliche reale Fluegel in ein AUW eingehen.",
+    "Auch verbleibende Objekte enthalten Referenzen/Huellen; keine pauschale Volumen-Dichte-Summe.",
+    "Keine CAD-/Masteraenderung oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

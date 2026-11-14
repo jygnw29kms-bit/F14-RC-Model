@@ -1,0 +1,88 @@
+{
+  "status": "CARRIER_SKIN_GEOMETRIC_CONTACT_AND_SLEEVE_GAP_MEASURED",
+  "input_sha256_unchanged": {
+    "Y300_ALIGNMENT_CARRIERS_UNFROZEN_ONLY.FCStd": "75595b1f585a468a1bc08e0a89ea83d529f033f37bea7d9d4aa3d5e37e9a9d35",
+    "Y300_ALIGNMENT_SLEEVE_UNSUPPORTED_STUDY_ONLY.FCStd": "e226b98ebdd6a5bf7477231b0969139873e436c257b09d377e81448e56fae3e3",
+    "WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40"
+  },
+  "rows": [
+    {
+      "carrier": "ROOT_CARRIER",
+      "skin_contact_faces": [
+        {
+          "carrier_face": 4,
+          "wing_face": 1134,
+          "area_mm2": 3.7392198918822035
+        },
+        {
+          "carrier_face": 5,
+          "wing_face": 1133,
+          "area_mm2": 38.877099025447876
+        },
+        {
+          "carrier_face": 7,
+          "wing_face": 1129,
+          "area_mm2": 0.08795974530943615
+        },
+        {
+          "carrier_face": 8,
+          "wing_face": 1132,
+          "area_mm2": 0.8121817765235755
+        },
+        {
+          "carrier_face": 9,
+          "wing_face": 1131,
+          "area_mm2": 35.01586908571678
+        },
+        {
+          "carrier_face": 11,
+          "wing_face": 1073,
+          "area_mm2": 3.2765492725579284
+        }
+      ],
+      "total_geometric_contact_area_mm2": 81.80887879743779,
+      "sleeve_distance_mm": 0.0999999999999466,
+      "sleeve_overlap_mm3": 0.0
+    },
+    {
+      "carrier": "TIP_CARRIER",
+      "skin_contact_faces": [
+        {
+          "carrier_face": 4,
+          "wing_face": 1254,
+          "area_mm2": 20.091358763945916
+        },
+        {
+          "carrier_face": 6,
+          "wing_face": 1252,
+          "area_mm2": 19.948622216620617
+        },
+        {
+          "carrier_face": 7,
+          "wing_face": 1222,
+          "area_mm2": 17.03666831299523
+        },
+        {
+          "carrier_face": 8,
+          "wing_face": 1253,
+          "area_mm2": 38.49284465662767
+        },
+        {
+          "carrier_face": 10,
+          "wing_face": 1220,
+          "area_mm2": 7.1938957961671575
+        }
+      ],
+      "total_geometric_contact_area_mm2": 102.76338974635658,
+      "sleeve_distance_mm": 0.0999999999999466,
+      "sleeve_overlap_mm3": 0.0
+    }
+  ],
+  "limits": [
+    "Skin contact has zero adhesive thickness; no bond strength, peel or manufacturing tolerance accepted",
+    "Positive sleeve gap means no direct sleeve-carrier contact; adhesive layer or retention still missing",
+    "No seam structural or print acceptance; source partition volume gate remains blocked"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

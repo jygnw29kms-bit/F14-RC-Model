@@ -1,0 +1,19 @@
+{
+  "status": "101_ORIGINALRADIEN_AUSGEFUEHRT_VERGLEICH_NOCH_NICHT_FREIGEGEBEN",
+  "sample_count": 101,
+  "maximum_error_source": 0.005099760576140255,
+  "previous_regular_case_threshold_source": 0.0002,
+  "passes_previous_regular_case_threshold": false,
+  "negative_discriminant_warnings": 0,
+  "branch_finding": "Einzelne Strahlen besitzen zwei positive Konikwurzeln. Vergleich verwendete die kleine, quellenendpunktnahe Radiusfolge; globale Wurzeleindeutigkeit ist falsch.",
+  "limitations": [
+    "Abweichung groesser als bisherige regulaere Vergleichsschwelle; Ursache und Rundungssensitivitaet gesondert pruefen, keine Toleranz nachtraeglich passend machen.",
+    "Original-CSCALC-Ausgabe liegt vor; kein abgeschlossener Gondelstudienlauf.",
+    "Keine CAD-/Produktionsfreigabe."
+  ],
+  "sha256": {
+    "run_SHIFARC_model7_575_radial.f": "0a9b88e697af635d7367ca8995b0a8cd4bd589368b3d9713369ebdff4382c752",
+    "SHIFARC_model7_575_radial_raw.txt": "f1ca1b05aa11699ebd58fc10b57911f3cacf92771c9b58a533b19d0eefe25278"
+  },
+  "production_release": false
+}

@@ -1,0 +1,5 @@
+{"stage": "face_pairs", "elapsed_seconds": 13.489479064941406, "side": "LOWER", "target": "CONTINUOUS_LOWER_CAP_REFERENCE"}
+{"stage": "face_pairs", "elapsed_seconds": 14.44447922706604, "side": "LOWER", "target": "UNFROZEN_FLANGED_WEB"}
+{"stage": "face_pairs", "elapsed_seconds": 16.568480014801025, "side": "UPPER", "target": "CONTINUOUS_UPPER_CAP_REFERENCE"}
+{"stage": "face_pairs", "elapsed_seconds": 17.517478942871094, "side": "UPPER", "target": "UNFROZEN_FLANGED_WEB"}
+{"stage": "complete", "elapsed_seconds": 19.827478885650635}

@@ -1,0 +1,12 @@
+{"stage": "open_source", "elapsed_seconds": 0.0010001659393310547}
+{"stage": "slice_start", "elapsed_seconds": 0.5139997005462646, "y_mm": 220}
+{"stage": "offset_start", "elapsed_seconds": 1.250999927520752, "y_mm": 220, "source_edges": 99}
+{"stage": "offset_done", "elapsed_seconds": 1.3979997634887695, "y_mm": 220, "edges": 98, "closed": true}
+{"stage": "slice_start", "elapsed_seconds": 1.3990001678466797, "y_mm": 260}
+{"stage": "offset_start", "elapsed_seconds": 2.0969998836517334, "y_mm": 260, "source_edges": 99}
+{"stage": "offset_done", "elapsed_seconds": 2.240999937057495, "y_mm": 260, "edges": 98, "closed": true}
+{"stage": "loft_start", "elapsed_seconds": 2.246000051498413, "edge_counts": [98, 98]}
+{"stage": "loft_returned", "elapsed_seconds": 2.374999523162842, "faces": 100, "solids": 1}
+{"stage": "validity_start", "elapsed_seconds": 2.374999523162842}
+{"stage": "validity_done", "elapsed_seconds": 2.438000202178955, "valid": true}
+{"stage": "complete", "elapsed_seconds": 2.4750001430511475}

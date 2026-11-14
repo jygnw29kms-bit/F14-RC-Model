@@ -1,0 +1,95 @@
+{
+  "status": "SOURCE_LE_ENDPOINT_DIRECTION_CALIBRATION_ONLY",
+  "source_sha256": "177867ced9b6f2e075916d048cbf81997918e239ac8f4986a45461d6ecc80342",
+  "source_LE_points_FS_BL_WL_in": [
+    [
+      502.90542,
+      127.23,
+      160.886253132
+    ],
+    [
+      596.56421,
+      384.69995,
+      150.5079890307
+    ]
+  ],
+  "source_projected_root_tip_LE_angle_deg": 19.989661722796313,
+  "assumed_right_axis_unit_direction": [
+    0,
+    0.026176948307873153,
+    0.9996573249755573
+  ],
+  "rows": [
+    {
+      "nominal_label_deg": 20,
+      "target_projected_root_tip_LE_angle_deg": 19.989661722796313,
+      "uncalibrated_rotation_deg": 0,
+      "uncalibrated_projected_angle_deg": 19.989661722796313,
+      "calibrated_rotation_deg": -1.5800751650824323e-15,
+      "rotation_correction_deg": -1.5800751650824323e-15,
+      "residual_deg": 3.552713678800501e-15
+    },
+    {
+      "nominal_label_deg": 30,
+      "target_projected_root_tip_LE_angle_deg": 29.989661722796313,
+      "uncalibrated_rotation_deg": -10,
+      "uncalibrated_projected_angle_deg": 29.994999633152435,
+      "calibrated_rotation_deg": -9.994664609971718,
+      "rotation_correction_deg": 0.005335390028282205,
+      "residual_deg": 0.0
+    },
+    {
+      "nominal_label_deg": 40,
+      "target_projected_root_tip_LE_angle_deg": 39.98966172279631,
+      "uncalibrated_rotation_deg": -20,
+      "uncalibrated_projected_angle_deg": 39.999008852485325,
+      "calibrated_rotation_deg": -19.990655914210933,
+      "rotation_correction_deg": 0.00934408578906698,
+      "residual_deg": 7.105427357601002e-15
+    },
+    {
+      "nominal_label_deg": 50,
+      "target_projected_root_tip_LE_angle_deg": 49.98966172279631,
+      "uncalibrated_rotation_deg": -30,
+      "uncalibrated_projected_angle_deg": 50.001462356938205,
+      "calibrated_rotation_deg": -29.988201299349505,
+      "rotation_correction_deg": 0.011798700650494709,
+      "residual_deg": 0.0
+    },
+    {
+      "nominal_label_deg": 54,
+      "target_projected_root_tip_LE_angle_deg": 53.98966172279631,
+      "uncalibrated_rotation_deg": -34,
+      "uncalibrated_projected_angle_deg": 54.001986236544084,
+      "calibrated_rotation_deg": -33.98767669837849,
+      "rotation_correction_deg": 0.012323301621506744,
+      "residual_deg": 7.105427357601002e-15
+    },
+    {
+      "nominal_label_deg": 60,
+      "target_projected_root_tip_LE_angle_deg": 59.98966172279631,
+      "uncalibrated_rotation_deg": -40,
+      "uncalibrated_projected_angle_deg": 60.002285894599396,
+      "calibrated_rotation_deg": -39.987375858485706,
+      "rotation_correction_deg": 0.012624141514294251,
+      "residual_deg": -7.105427357601002e-15
+    },
+    {
+      "nominal_label_deg": 68,
+      "target_projected_root_tip_LE_angle_deg": 67.98966172279631,
+      "uncalibrated_rotation_deg": -48,
+      "uncalibrated_projected_angle_deg": 68.0018204221938,
+      "calibrated_rotation_deg": -47.98783988592254,
+      "rotation_correction_deg": 0.012160114077460094,
+      "residual_deg": 1.4210854715202004e-14
+    }
+  ],
+  "limits": [
+    "Uses root-to-tip leading-edge endpoint line; not a certified local whole-edge sweep definition.",
+    "Targets preserve source baseline angle plus nominal increment; source baseline is reported, not forced to exactly20deg.",
+    "Axis direction only: translation cancels; pivot waterline and actual axis-line placement remain unverified.",
+    "No native CAD, body/glove collision, hardware, or manufacturing result produced."
+  ],
+  "master_change_allowed": false,
+  "production_release": false
+}

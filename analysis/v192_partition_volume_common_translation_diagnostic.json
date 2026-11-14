@@ -1,0 +1,93 @@
+{
+  "status": "COMMON_TRANSLATION_VOLUME_CONDITIONING_MEASURED",
+  "input_sha256_unchanged": {
+    "WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117"
+  },
+  "requested_relative_epsilon": 1e-11,
+  "rows": [
+    {
+      "common_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "measurements": [
+        {
+          "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+          "GK_volume_mm3": 64771.07671760564,
+          "estimated_relative_error": 1.7139117024908636e-09
+        },
+        {
+          "object": "BLOCKED_PART_0",
+          "GK_volume_mm3": 53714.68202150834,
+          "estimated_relative_error": 1.3210571133810647e-10
+        },
+        {
+          "object": "BLOCKED_PART_1",
+          "GK_volume_mm3": 11056.39364597762,
+          "estimated_relative_error": 2.100545403607554e-10
+        }
+      ],
+      "part_sum_minus_source_mm3": -0.0010501196811674163
+    },
+    {
+      "common_translation_mm": [
+        -700,
+        -300,
+        0
+      ],
+      "measurements": [
+        {
+          "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+          "GK_volume_mm3": 64771.07671760092,
+          "estimated_relative_error": 1.7153547903728156e-09
+        },
+        {
+          "object": "BLOCKED_PART_0",
+          "GK_volume_mm3": 53714.68202150798,
+          "estimated_relative_error": 1.320504963393265e-10
+        },
+        {
+          "object": "BLOCKED_PART_1",
+          "GK_volume_mm3": 11056.39364597767,
+          "estimated_relative_error": 2.0756768920413046e-10
+        }
+      ],
+      "part_sum_minus_source_mm3": -0.0010501152646611445
+    },
+    {
+      "common_translation_mm": [
+        -700,
+        -300,
+        4
+      ],
+      "measurements": [
+        {
+          "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+          "GK_volume_mm3": 64771.07671759533,
+          "estimated_relative_error": 1.7123558770103973e-09
+        },
+        {
+          "object": "BLOCKED_PART_0",
+          "GK_volume_mm3": 53714.68202150792,
+          "estimated_relative_error": 1.3262861225159974e-10
+        },
+        {
+          "object": "BLOCKED_PART_1",
+          "GK_volume_mm3": 11056.393645977687,
+          "estimated_relative_error": 2.098373682261655e-10
+        }
+      ],
+      "part_sum_minus_source_mm3": -0.0010501097203814425
+    }
+  ],
+  "limits": [
+    "Rigid translation in memory only; saved CAD unchanged",
+    "Native error estimates not rigorous volume bounds",
+    "Three coordinate frames do not establish convergence, exact geometry identity or acceptance",
+    "No tolerance or core change; source partition remains review only"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

@@ -1,0 +1,144 @@
+{
+  "status": "CANOPY_KONTROLLPUNKT_BINDUNGEN_QUELLENTREU_TRANSKRIBIERT",
+  "source_pages": [
+    "Table1 Sheet6 PDF25/gedr15",
+    "Sheet7 PDF26/gedr16",
+    "Sheet8 PDF27/gedr17"
+  ],
+  "source_render_hashes": {
+    "NASA_CR172559_binding_page26.png": "58513831129eafa17d158969774d07d73ee35fa9bae64ec06be4cf4a40697a79",
+    "NASA_CR172559_binding_page27.png": "ef391ddc06fa90c5c53aafed7a150d66512b15408588dd3f724175bd2be0dfa6"
+  },
+  "source_domain": [
+    205,
+    352
+  ],
+  "linear_curves_points": {
+    "ZCREASE": [
+      [
+        205,
+        171
+      ],
+      [
+        221,
+        169
+      ],
+      [
+        283,
+        179
+      ],
+      [
+        328,
+        183
+      ],
+      [
+        352,
+        183.5
+      ]
+    ],
+    "ZFUP": [
+      [
+        205,
+        138.5
+      ],
+      [
+        352,
+        155
+      ]
+    ],
+    "ZSCPUP": [
+      [
+        205,
+        171
+      ],
+      [
+        221,
+        158
+      ],
+      [
+        352,
+        173
+      ]
+    ],
+    "YSCPCAN": [
+      [
+        205,
+        0
+      ],
+      [
+        221,
+        12.5
+      ],
+      [
+        283,
+        16
+      ],
+      [
+        328,
+        16.5
+      ],
+      [
+        352,
+        16
+      ]
+    ]
+  },
+  "other_bindings": {
+    "YFUP": "ELLY [93,0,352,31,164,31], identisch YMHB im Canopyintervall",
+    "YSCPUP": "ELLY [93,0,352,31,164,31], identisch YFUP im Canopyintervall",
+    "YCREASE": "NASA_canopy_YCREASE_line_reference.json",
+    "ZSCPCAN": [
+      {
+        "shape": "LINE",
+        "data": [
+          205,
+          171,
+          241,
+          191.65
+        ]
+      },
+      {
+        "shape": "ELLY",
+        "data": [
+          241,
+          191.65,
+          313,
+          203,
+          274,
+          203
+        ]
+      },
+      {
+        "shape": "ELLY",
+        "data": [
+          313,
+          203,
+          352,
+          199.5,
+          331,
+          203
+        ]
+      }
+    ]
+  },
+  "boundary_205": {
+    "MHB_and_FUP": "Beide Y=YMHB(205), Z=138.5; BSI-Linie hat Laenge0.",
+    "CREASE_and_TCL": [
+      0,
+      171
+    ],
+    "SCPCAN": [
+      0,
+      171
+    ],
+    "CAN_arc": "Start, Ende und Steigungskontrollpunkt identisch: degenerierter Bogen.",
+    "BUP": "FUP=MHB, CREASE=TCL und SCPUP unveraendert; entspricht dem oberen NOSE-Studienbogen an205."
+  },
+  "limits": [
+    "Gleichheiten am Modellwechsel aus transkribierten Quellenwerten; keine native Canopy-Geometrie erzeugt.",
+    "CAN darf an205 nicht als regulaere Ellipse konstruiert werden.",
+    "ELLY-/ELLI-Semantik und physische Einheiten weiterhin nur teilverifiziert.",
+    "Keine Herstellerhaut-, Loft-, Innenkanal- oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

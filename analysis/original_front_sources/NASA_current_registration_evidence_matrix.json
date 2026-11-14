@@ -1,0 +1,51 @@
+{
+  "status": "REGISTRATION_EVIDENCE_RECONCILED_NO_PHYSICAL_PROMOTION",
+  "evidence_sha256": {
+    "NASA_eight_outboard_reference_header_crosscheck.json": "fd41798e0b43d69514a2f2f85a27e26fb90156e5c4ae262eefee8fdf4057152f",
+    "NASA_combined_isolated_outboard_header_transfer_audit.json": "896f4a5dc8daff02ca02368d2734ba7f2ef3f2d96b947c8f48a5cc15166123a5",
+    "NASA_CR172559_WBPPW_card_version_compatibility_audit.json": "eb108e667ebe32c12a4b5a6d83b95c984aeff989a5792ac6b37b3f8c9bc2e3c6",
+    "NASA_CR3243_F14_input_compatibility_audit.json": "5aeb7a5e9979e7a8621a6759c16d6b55b1640fb515d6ce9ffa14915f550b6165",
+    "NASA_CR3992_remaining_ordinate_resolution.json": "77c901d5d385af0b0580097865582cf3ea4b064c16ca05a84b0709b4eceb7cbf",
+    "NASA_20deg_separate_reference_assembly_audit.json": "e8c6205ccc404308747b349809e333645a50454c27a98eb99c4e27b2258d7501"
+  },
+  "decisions": [
+    {
+      "quantity": "outboard raw field6",
+      "evidence": "Eight isolated20 headers match explicit CR3992 vertical references; seven combined outboard headers match isolated headers",
+      "assessment": "Strong numeric identification as outboard section vertical reference; earlier manual-only unresolved wording is superseded by this evidence",
+      "remaining": "Exact F14 reader transformation and inboard semantics not established"
+    },
+    {
+      "quantity": "outboard ordinates",
+      "evidence": "800 values corroborated after original-page repairs, including old CR3992 transcription error at span200 xc.94",
+      "assessment": "Use corrected combined R2 data; retain combined grid and root header differences",
+      "remaining": "Shared table data is not proof of factory OML or exposed skin"
+    },
+    {
+      "quantity": "global ZWING13.5",
+      "evidence": "Generic manuals define global wing height; F14-specific reader/version remains unmatched",
+      "assessment": "Do not add/subtract13.5 to section field6 without proof",
+      "remaining": "Potential double translation cannot be resolved from generic card layout alone"
+    },
+    {
+      "quantity": "physical model scale and datum",
+      "evidence": "CR3992 explicit aircraft station/WBL/vertical reference supports aircraft-coordinate interpretation for basic wing",
+      "assessment": "Source-reference display scale stays separate from selected RC scale and nose/pivot datum",
+      "remaining": "No verified complete body/glove registration or pivot WL"
+    },
+    {
+      "quantity": "root break",
+      "evidence": "127.22/127.24 have distinct contours; saved source solids separated by rawY slab.02",
+      "assessment": "Keep bodies separate; do not manufacture a bridge from numerical proximity",
+      "remaining": "Physical exposed topology around glove and moving wing requires separate evidence"
+    }
+  ],
+  "next_work": [
+    "Locate F14-specific coordinate/read convention or explicit global wing/body relation in primary report",
+    "Compare inboard computational continuation against body sections before treating it as exposed skin",
+    "If making scale studies, keep transforms explicit and separate from v192 master until datum evidence closes"
+  ],
+  "master_changed": false,
+  "print_release": false,
+  "flight_release": false
+}

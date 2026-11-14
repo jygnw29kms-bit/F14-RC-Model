@@ -1,0 +1,51 @@
+{
+  "status": "RECESSED_CARRIER_SLEEVE_BOND_CONTACTS_REMEASURED",
+  "input_sha256_unchanged": "c17070fe921b9657a996ee26dfeaedbbf5c959d795fe0f717981309c1f799f43",
+  "rows": [
+    {
+      "bond_index": 0,
+      "contacts": [
+        {
+          "target": "ROOT_CARRIER",
+          "area_mm2": 129.30795362175604,
+          "prior_area_mm2": 129.30795362175604,
+          "difference_mm2": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "target": "SLEEVE",
+          "area_mm2": 123.15043202072003,
+          "prior_area_mm2": 123.15043202072003,
+          "difference_mm2": 0.0,
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "bond_index": 1,
+      "contacts": [
+        {
+          "target": "TIP_CARRIER",
+          "area_mm2": 129.30795362175604,
+          "prior_area_mm2": 129.30795362175604,
+          "difference_mm2": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "target": "SLEEVE",
+          "area_mm2": 123.15043202072003,
+          "prior_area_mm2": 123.15043202072003,
+          "difference_mm2": 0.0,
+          "overlap_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Face-area changes after skin recess must be retained, not assumed identical",
+    "No adhesive strength, cure, manufacturing tolerance or assembly proof",
+    "Source partition remains volume-blocked; no print or flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

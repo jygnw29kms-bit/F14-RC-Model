@@ -1,0 +1,14 @@
+{
+  "status": "BOUNDED_PRIMARY_CATALOG_SEARCH_NO_NEW_DIMENSIONED_BODY_DATA_RECOVERED",
+  "review_utc": "2026-11-03T10:29:38Z",
+  "queries": ["site:ntrs.nasa.gov F-14 fuselage digitized mylar cross sections 3992 coordinates dataset", "\"F-14\" \"mylar\" \"cross sections\" coordinates"],
+  "primary_record": "https://ntrs.nasa.gov/citations/19880019510",
+  "primary_pdf": "https://ntrs.nasa.gov/api/citations/19880019510/downloads/19880019510.pdf",
+  "catalog_identifiers": {"report": "NASA-CR-3992", "contractor_report": "D6-52511", "contract": "NAS1-15325", "author": "Rodger A. Rozendaal", "publication_date": "1986-06-01"},
+  "findings": ["Returned primary catalog identifies the report and its downloadable PDF; no separate coordinate dataset recovered by these two searches.", "Local report text corroborates traced one-tenth-scale body sections, subsequent digitization and distinct A488 simplification; prior original-page review remains the geometric source limit.", "Appendix2 wing coordinates must not be relabeled as the missing body/glove station dataset."],
+  "limits": ["Bounded search, not proof that original coordinate data is absent from archives", "No new FS/WL body stations, pivot WL, glove topology or physical registration obtained", "No messages or requests sent to NASA or others"],
+  "next_source_target": "Original Langley traced/digitized body station data associated with CR3992/D6-52511/NAS1-15325; retain provenance separately from A488 geometry",
+  "master_changed": false,
+  "print_release": false,
+  "flight_release": false
+}

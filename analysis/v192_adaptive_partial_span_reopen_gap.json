@@ -1,0 +1,32 @@
+{
+  "status": "REOPENED_ADAPTIVE_PARTIAL_SPAN_BOUNDARY_GAP_ONLY",
+  "trial_sha256": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+  "print_release": false,
+  "flight_release": false,
+  "valid": true,
+  "solids": 1,
+  "shells": 2,
+  "faces": 2285,
+  "volume_mm3": 64770.945294431316,
+  "minimum_between_boundary_shells_mm": 0.4033274673490288,
+  "closest_point_pairs_xyz_mm": [
+    [
+      [
+        676.3527977571508,
+        390.74263586312617,
+        -8.524149910175197
+      ],
+      [
+        676.7150795215206,
+        390.6056523527428,
+        -8.636668739738855
+      ]
+    ]
+  ],
+  "elapsed_seconds": 114.139000415802,
+  "limits": [
+    "Only saved partial-span wing trial; root and tip remain solid.",
+    "Native minimum boundary distance is not a structural thickness requirement or printing qualification.",
+    "No normal-thickness field, ribs, joints, spars, physical tests or complete-model release."
+  ]
+}

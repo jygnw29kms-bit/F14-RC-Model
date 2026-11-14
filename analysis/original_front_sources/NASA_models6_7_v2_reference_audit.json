@@ -1,0 +1,11 @@
+{
+  "status": "MODELL6_7_V2_NEUN_SEKTIONEN_GEOMETRISCH_GEPRUEFT",
+  "rows": 9,
+  "all_sampled_angles_ordered": true,
+  "model7_575_BUP_max_radius_difference_vs_real8_experiment": 4.806821607417078e-12,
+  "limits": [
+    "REAL8-Vergleich nur fuer problematischen575BUPFall; andere neue Konikzweige noch nichtvollstaendiggegenOriginalroutinen verglichen.",
+    "Nur Studienkoordinaten,keinephysischeEinheiten-/CAD-/Produktionsfreigabe."
+  ],
+  "production_release": false
+}

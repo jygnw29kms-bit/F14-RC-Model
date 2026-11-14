@@ -1,0 +1,405 @@
+{
+  "status": "SEVEN_SAMPLED_STRAIGHT_INSERTION_POSES_ONLY",
+  "input_sha256": {
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\FLARED_ROOT_SOCKET_UNFROZEN_CONCEPT_ONLY.FCStd": "72d7d468d3247add21511b88a55ccb456c1a730e3b3d81bcd56746e305a3d2d2",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\analysis\\v192_cap_width_inner_envelope.json": "f33f7fa40eadf6d6aaf47c00a1995c369967619d906167ec913884ef41e4e0c5"
+  },
+  "rows": [
+    {
+      "outboard_translation_y_mm": 26,
+      "translation_xyz_mm": [
+        6.502783631215278,
+        26.0,
+        0.0
+      ],
+      "object": "UNFROZEN_FLANGED_WEB",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851256604
+    },
+    {
+      "outboard_translation_y_mm": 26,
+      "translation_xyz_mm": [
+        6.502783631215278,
+        26.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.15386813669744978
+    },
+    {
+      "outboard_translation_y_mm": 26,
+      "translation_xyz_mm": [
+        6.502783631215278,
+        26.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.1538681366974596
+    },
+    {
+      "outboard_translation_y_mm": 26,
+      "translation_xyz_mm": [
+        6.502783631215278,
+        26.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851256604
+    },
+    {
+      "outboard_translation_y_mm": 26,
+      "translation_xyz_mm": [
+        6.502783631215278,
+        26.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851256604
+    },
+    {
+      "outboard_translation_y_mm": 20,
+      "translation_xyz_mm": [
+        5.002141254780983,
+        20.0,
+        0.0
+      ],
+      "object": "UNFROZEN_FLANGED_WEB",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851244886
+    },
+    {
+      "outboard_translation_y_mm": 20,
+      "translation_xyz_mm": [
+        5.002141254780983,
+        20.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.15386813669744978
+    },
+    {
+      "outboard_translation_y_mm": 20,
+      "translation_xyz_mm": [
+        5.002141254780983,
+        20.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.1538681366974596
+    },
+    {
+      "outboard_translation_y_mm": 20,
+      "translation_xyz_mm": [
+        5.002141254780983,
+        20.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851244886
+    },
+    {
+      "outboard_translation_y_mm": 20,
+      "translation_xyz_mm": [
+        5.002141254780983,
+        20.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851244886
+    },
+    {
+      "outboard_translation_y_mm": 15,
+      "translation_xyz_mm": [
+        3.751605941085737,
+        15.0,
+        0.0
+      ],
+      "object": "UNFROZEN_FLANGED_WEB",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851244886
+    },
+    {
+      "outboard_translation_y_mm": 15,
+      "translation_xyz_mm": [
+        3.751605941085737,
+        15.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.15386813669744978
+    },
+    {
+      "outboard_translation_y_mm": 15,
+      "translation_xyz_mm": [
+        3.751605941085737,
+        15.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.1538681366974596
+    },
+    {
+      "outboard_translation_y_mm": 15,
+      "translation_xyz_mm": [
+        3.751605941085737,
+        15.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851244886
+    },
+    {
+      "outboard_translation_y_mm": 15,
+      "translation_xyz_mm": [
+        3.751605941085737,
+        15.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851244886
+    },
+    {
+      "outboard_translation_y_mm": 10,
+      "translation_xyz_mm": [
+        2.5010706273904915,
+        10.0,
+        0.0
+      ],
+      "object": "UNFROZEN_FLANGED_WEB",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851244886
+    },
+    {
+      "outboard_translation_y_mm": 10,
+      "translation_xyz_mm": [
+        2.5010706273904915,
+        10.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.15386813669744978
+    },
+    {
+      "outboard_translation_y_mm": 10,
+      "translation_xyz_mm": [
+        2.5010706273904915,
+        10.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.1538681366974596
+    },
+    {
+      "outboard_translation_y_mm": 10,
+      "translation_xyz_mm": [
+        2.5010706273904915,
+        10.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851245574
+    },
+    {
+      "outboard_translation_y_mm": 10,
+      "translation_xyz_mm": [
+        2.5010706273904915,
+        10.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851245574
+    },
+    {
+      "outboard_translation_y_mm": 5,
+      "translation_xyz_mm": [
+        1.2505353136952457,
+        5.0,
+        0.0
+      ],
+      "object": "UNFROZEN_FLANGED_WEB",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851244886
+    },
+    {
+      "outboard_translation_y_mm": 5,
+      "translation_xyz_mm": [
+        1.2505353136952457,
+        5.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.15386813669744978
+    },
+    {
+      "outboard_translation_y_mm": 5,
+      "translation_xyz_mm": [
+        1.2505353136952457,
+        5.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.15386813669745988
+    },
+    {
+      "outboard_translation_y_mm": 5,
+      "translation_xyz_mm": [
+        1.2505353136952457,
+        5.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851245574
+    },
+    {
+      "outboard_translation_y_mm": 5,
+      "translation_xyz_mm": [
+        1.2505353136952457,
+        5.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851245574
+    },
+    {
+      "outboard_translation_y_mm": 1,
+      "translation_xyz_mm": [
+        0.25010706273904915,
+        1.0,
+        0.0
+      ],
+      "object": "UNFROZEN_FLANGED_WEB",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851245574
+    },
+    {
+      "outboard_translation_y_mm": 1,
+      "translation_xyz_mm": [
+        0.25010706273904915,
+        1.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.15386813669744978
+    },
+    {
+      "outboard_translation_y_mm": 1,
+      "translation_xyz_mm": [
+        0.25010706273904915,
+        1.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.1538681366974596
+    },
+    {
+      "outboard_translation_y_mm": 1,
+      "translation_xyz_mm": [
+        0.25010706273904915,
+        1.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851256604
+    },
+    {
+      "outboard_translation_y_mm": 1,
+      "translation_xyz_mm": [
+        0.25010706273904915,
+        1.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.14551770851256604
+    },
+    {
+      "outboard_translation_y_mm": 0,
+      "translation_xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "UNFROZEN_FLANGED_WEB",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "outboard_translation_y_mm": 0,
+      "translation_xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "outboard_translation_y_mm": 0,
+      "translation_xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "outboard_translation_y_mm": 0,
+      "translation_xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "outboard_translation_y_mm": 0,
+      "translation_xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "overlap_volume_mm3": 0.0,
+      "distance_mm": 0.0
+    }
+  ],
+  "all_sampled_overlap_volumes_below_1e_6_mm3": true,
+  "limits": [
+    "Seven discrete translations of full five-body spar along inboard straight centerline direction, not continuous swept-volume proof",
+    "Socket only: surrounding wing, body, bearings, wires and access not included",
+    "No tolerance worst case, assembly force, adhesive process, physical insertion or retention proof",
+    "Exterior body/glove packaging remains rejected; pivotZ0/bore/axis/hardware unfrozen",
+    "No file geometry modified"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

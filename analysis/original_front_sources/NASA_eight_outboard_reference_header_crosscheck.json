@@ -1,0 +1,178 @@
+{
+  "status": "EIGHT_OUTBOARD_HEADER_VERTICAL_REFERENCE_NUMBERS_VISUALLY_CROSS_CONFIRMED",
+  "source_sha256": {
+    "NASA_CR_172559.pdf": "266ae1d71b32afcb7a44ea41e275669b98338f42bc62fb79d33a815c45ed1d5e",
+    "NASA_CR_3992.pdf": "ae439b784b984b0c95b9df117ae0c5ad5d6adc7025a1f7b115b41a260fce4b18"
+  },
+  "rows": [
+    {
+      "CR172559_raw_card_fields": [
+        502.80542,
+        127.23,
+        629.37012,
+        0,
+        1,
+        159.93018
+      ],
+      "CR172559_pdf_page": 38,
+      "CR3992_pdf_page": 143,
+      "CR3992_explicit_fields": {
+        "WBL": 127.23,
+        "leading_edge_X": 502.90542,
+        "trailing_edge_X": 629.37012,
+        "reference_vertical_loc": 159.93018
+      },
+      "sixth_minus_explicit_vertical_reference": 0.0,
+      "LE_X_difference": -0.0999999999999659
+    },
+    {
+      "CR172559_raw_card_fields": [
+        516.19336,
+        164.0146,
+        631.00684,
+        0,
+        1,
+        159.12769
+      ],
+      "CR172559_pdf_page": 38,
+      "CR3992_pdf_page": 144,
+      "CR3992_explicit_fields": {
+        "WBL": 164.0146,
+        "leading_edge_X": 516.19336,
+        "trailing_edge_X": 631.00684,
+        "reference_vertical_loc": 159.12769
+      },
+      "sixth_minus_explicit_vertical_reference": 0.0,
+      "LE_X_difference": 0.0
+    },
+    {
+      "CR172559_raw_card_fields": [
+        529.58618,
+        200.79919,
+        632.6438,
+        0,
+        1,
+        158.07434
+      ],
+      "CR172559_pdf_page": 38,
+      "CR3992_pdf_page": 145,
+      "CR3992_explicit_fields": {
+        "WBL": 200.79919,
+        "leading_edge_X": 529.58618,
+        "trailing_edge_X": 632.6438,
+        "reference_vertical_loc": 158.07434
+      },
+      "sixth_minus_explicit_vertical_reference": 0.0,
+      "LE_X_difference": 0.0
+    },
+    {
+      "CR172559_raw_card_fields": [
+        542.9834,
+        237.58369,
+        634.28076,
+        0,
+        1,
+        156.86511
+      ],
+      "CR172559_pdf_page": 39,
+      "CR3992_pdf_page": 146,
+      "CR3992_explicit_fields": {
+        "WBL": 237.58369,
+        "leading_edge_X": 542.9834,
+        "trailing_edge_X": 634.28076,
+        "reference_vertical_loc": 156.86511
+      },
+      "sixth_minus_explicit_vertical_reference": 0.0,
+      "LE_X_difference": 0.0
+    },
+    {
+      "CR172559_raw_card_fields": [
+        556.38062,
+        274.36816,
+        635.91772,
+        0,
+        1,
+        155.65588
+      ],
+      "CR172559_pdf_page": 39,
+      "CR3992_pdf_page": 147,
+      "CR3992_explicit_fields": {
+        "WBL": 274.36816,
+        "leading_edge_X": 556.38062,
+        "trailing_edge_X": 635.91772,
+        "reference_vertical_loc": 155.65588
+      },
+      "sixth_minus_explicit_vertical_reference": 0.0,
+      "LE_X_difference": 0.0
+    },
+    {
+      "CR172559_raw_card_fields": [
+        569.77783,
+        311.15283,
+        637.55469,
+        0,
+        1,
+        154.44666
+      ],
+      "CR172559_pdf_page": 39,
+      "CR3992_pdf_page": 148,
+      "CR3992_explicit_fields": {
+        "WBL": 311.15283,
+        "leading_edge_X": 569.77783,
+        "trailing_edge_X": 637.55469,
+        "reference_vertical_loc": 154.44666
+      },
+      "sixth_minus_explicit_vertical_reference": 0.0,
+      "LE_X_difference": 0.0
+    },
+    {
+      "CR172559_raw_card_fields": [
+        583.1748,
+        347.93726,
+        639.19165,
+        0,
+        1,
+        153.24487
+      ],
+      "CR172559_pdf_page": 40,
+      "CR3992_pdf_page": 149,
+      "CR3992_explicit_fields": {
+        "WBL": 347.93726,
+        "leading_edge_X": 583.1748,
+        "trailing_edge_X": 639.19165,
+        "reference_vertical_loc": 153.24487
+      },
+      "sixth_minus_explicit_vertical_reference": 0.0,
+      "LE_X_difference": 0.0
+    },
+    {
+      "CR172559_raw_card_fields": [
+        596.56421,
+        384.69995,
+        640.82764,
+        0,
+        1,
+        152.03552
+      ],
+      "CR172559_pdf_page": 40,
+      "CR3992_pdf_page": 150,
+      "CR3992_explicit_fields": {
+        "WBL": 384.69995,
+        "leading_edge_X": 596.56421,
+        "trailing_edge_X": 640.82764,
+        "reference_vertical_loc": 152.03552
+      },
+      "sixth_minus_explicit_vertical_reference": 0.0,
+      "LE_X_difference": 0.0
+    }
+  ],
+  "finding": "All8 sixth-column numbers equal explicitly labeled vertical references at corresponding outboard stations. All span and TE values match. RootLE alone differs by0.1 source units; other7LE values match.",
+  "evidence_scope": "Strong cross-report numeric identification for this isolated20deg outboard dataset. It does not replace the F14 reader transform or prove an absolute factory datum for inboard combined-glove cards.",
+  "limits": [
+    "No pivot waterline extrapolation",
+    "No merging near127.22/127.24 combined-glove stations",
+    "No automatic transfer of isolated-wing ordinate grid to combined-glove grid",
+    "No master modification or physical registration freeze"
+  ],
+  "production_release": false
+}

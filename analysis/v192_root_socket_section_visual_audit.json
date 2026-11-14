@@ -1,0 +1,17 @@
+{
+  "status": "RENDERED_NATIVE_SECTION_EDGE_CHART_FOR_VISUAL_REVIEW",
+  "section_data_sha256": "78f001f2a749da9a71d4dcb3e76a67b9e31bd7155a0c78197dee5df6752b3ba1",
+  "input_cad_sha256": {
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\FLARED_ROOT_SOCKET_UNFROZEN_CONCEPT_ONLY.FCStd": "72d7d468d3247add21511b88a55ccb456c1a730e3b3d81bcd56746e305a3d2d2",
+    "C:\\Users\\dezen\\Desktop\\F14-Review-20261024\\migration\\freecad\\FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0"
+  },
+  "output_sha256": "6e591b48c3ca2f176d9a9e19194e8cdbb271b871e1989ba5abc4a0ae9be00c6d",
+  "scale_px_per_mm": 22,
+  "section_count": 3,
+  "objects_per_section": 6,
+  "limits": [
+    "No full span visual inspection, root connection, manufacturability or structural acceptance",
+    "Bond layer outlines show geometric placeholders only"
+  ],
+  "production_release": false
+}

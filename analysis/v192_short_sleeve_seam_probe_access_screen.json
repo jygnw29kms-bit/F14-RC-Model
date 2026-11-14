@@ -1,0 +1,272 @@
+{
+  "status": "IDEAL_SEAM_PROBE_ENVELOPES_SCREENED_NOT_REAL_TOOL_ACCESS",
+  "input_sha256_unchanged": {
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117",
+    "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd": "11c67cf2b9ff7c13fbbde83506d0fe79a4292b210cbfc78f725aecc67126c44f",
+    "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0"
+  },
+  "tip_translation_y_mm": 5,
+  "probe_y_mm": 302.5,
+  "probe_radius_mm": 0.25,
+  "probe_axial_length_mm": 40,
+  "probe_inner_radial_offset_mm": 2.5,
+  "rows": [
+    {
+      "direction": "plusX",
+      "checks": [
+        {
+          "object": "ROOT_SKIN",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_SKIN",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "ROOT_CARRIER",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_CARRIER",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GENERIC_4OD_2p2ID_SLEEVE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_BOND_0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_BOND_1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "UNFROZEN_FLANGED_WEB",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_LOWER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_UPPER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        }
+      ],
+      "all_local_overlaps_below_1e_minus7_mm3": true
+    },
+    {
+      "direction": "minusX",
+      "checks": [
+        {
+          "object": "ROOT_SKIN",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_SKIN",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "ROOT_CARRIER",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_CARRIER",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GENERIC_4OD_2p2ID_SLEEVE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_BOND_0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_BOND_1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "UNFROZEN_FLANGED_WEB",
+          "overlap_mm3": 0.15707962083083948
+        },
+        {
+          "object": "GEOMETRIC_LOWER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_UPPER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        }
+      ],
+      "all_local_overlaps_below_1e_minus7_mm3": false
+    },
+    {
+      "direction": "plusZ",
+      "checks": [
+        {
+          "object": "ROOT_SKIN",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_SKIN",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "ROOT_CARRIER",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_CARRIER",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GENERIC_4OD_2p2ID_SLEEVE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_BOND_0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_BOND_1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "UNFROZEN_FLANGED_WEB",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_LOWER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_UPPER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        }
+      ],
+      "all_local_overlaps_below_1e_minus7_mm3": true
+    },
+    {
+      "direction": "minusZ",
+      "checks": [
+        {
+          "object": "ROOT_SKIN",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_SKIN",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "ROOT_CARRIER",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_CARRIER",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GENERIC_4OD_2p2ID_SLEEVE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_BOND_0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_BOND_1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "UNFROZEN_FLANGED_WEB",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_LOWER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "GEOMETRIC_UPPER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        }
+      ],
+      "all_local_overlaps_below_1e_minus7_mm3": true
+    }
+  ],
+  "limits": [
+    "Hypothetical straight cylindrical inspection probe only, not selected adhesive applicator",
+    "Four finite radial corridors only; external approach, handle and aircraft objects omitted",
+    "No adhesive application, film displacement, fixture or cure acceptance",
+    "Positive overlap rejects only this corridor; zero overlap is not actual tool accessibility",
+    "No source partition volume or print/flight release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

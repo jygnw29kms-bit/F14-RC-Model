@@ -1,0 +1,42 @@
+{
+  "status": "CURRENT_V192_CONNECTED_FACE_GROUP_DISTANCE_SCREEN",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "topology_audit_sha256": "df95754cf8034c55efdbe24810dcc8e9582ee19d62f2c8b4068df17398bc495a",
+  "rows": [
+    {
+      "object": "INLET_EDF_R",
+      "inner_connected_faces": [
+        3,
+        5
+      ],
+      "outer_connected_faces": [
+        0,
+        2
+      ],
+      "minimum_between_curved_face_groups_mm": 0.8012487991658218,
+      "fan_radial_gap_mm": 0.8200000000000003,
+      "conditional_0p8mm_distance_screen": true
+    },
+    {
+      "object": "INLET_EDF_L",
+      "inner_connected_faces": [
+        3,
+        5
+      ],
+      "outer_connected_faces": [
+        0,
+        2
+      ],
+      "minimum_between_curved_face_groups_mm": 0.8012487985419634,
+      "fan_radial_gap_mm": 0.8200000000000003,
+      "conditional_0p8mm_distance_screen": true
+    }
+  ],
+  "limits": [
+    "Groups identified from fan radii and shared-edge connectivity, not merely face orientation.",
+    "Minimum face-group separation and fan radial gap only; no complete normal wall field or structural qualification.",
+    "No physical printing, flow, strength or flight test; no whole-model wall approval."
+  ],
+  "print_release": false,
+  "flight_release": false
+}

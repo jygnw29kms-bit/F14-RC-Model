@@ -1,0 +1,50 @@
+{
+  "status": "NORMALIZED_SCALAR_FORCE_AREA_BOOKKEEPING_NOT_JOINT_ANALYSIS",
+  "input_sha256": {
+    "analysis/v192_y300_skin_bond_contact_reaudit.json": "b27b1bc860e5bf02f854be20eb17977d5c11c0222512cdca151c8f51643e43cb",
+    "analysis/v192_y300_recessed_sleeve_bond_contacts.json": "5f11e4fa1c633221a86116f657e774f68025156561fd16ac4c7c63fda1386bd4"
+  },
+  "rows": [
+    {
+      "carrier": "ROOT_CARRIER",
+      "geometric_areas_mm2": {
+        "skin_side": 81.80887879743779,
+        "carrier_side": 88.86438966740384,
+        "sleeve_carrier_side": 129.30795362175604,
+        "sleeve_side": 123.15043202072003
+      },
+      "scalar_force_over_area_coefficient_MPa_per_N": {
+        "skin_side": 0.012223612090761468,
+        "carrier_side": 0.011253101537553324,
+        "sleeve_carrier_side": 0.00773347634071405,
+        "sleeve_side": 0.008120150157749754
+      }
+    },
+    {
+      "carrier": "TIP_CARRIER",
+      "geometric_areas_mm2": {
+        "skin_side": 102.7633897463566,
+        "carrier_side": 112.58240159419715,
+        "sleeve_carrier_side": 129.30795362175604,
+        "sleeve_side": 123.15043202072003
+      },
+      "scalar_force_over_area_coefficient_MPa_per_N": {
+        "skin_side": 0.00973109200142412,
+        "carrier_side": 0.008882382911003234,
+        "sleeve_carrier_side": 0.00773347634071405,
+        "sleeve_side": 0.008120150157749754
+      }
+    }
+  ],
+  "formula": "Average scalar traction magnitude proxy=F/A; each surface separately. Values per1N, no force assigned.",
+  "limits": [
+    "No aerodynamic or structural force assigned to alignment sleeve",
+    "Curved-surface resultant direction and distribution ignored; not an exact shear or peel stress",
+    "Do not add areas of serial interfaces to claim capacity; each bond side checked separately",
+    "No stiffness sharing with spar/skin, eccentric moment, local peak, adhesive allowable or factor of safety",
+    "No material, manufacturing, structural print or flight acceptance"
+  ],
+  "load_assignment_verified": false,
+  "flight_release": false,
+  "print_release": false
+}

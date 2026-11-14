@@ -1,0 +1,47 @@
+{
+  "status": "REMAINING_FOUR_PAIR_BOUNDS_MEASURED",
+  "input_sha256_unchanged": {
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117",
+    "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd": "11c67cf2b9ff7c13fbbde83506d0fe79a4292b210cbfc78f725aecc67126c44f"
+  },
+  "moving": "TIP_SKIN",
+  "translation_range_mm": [
+    0,
+    5
+  ],
+  "rows": [
+    {
+      "fixed": "ROOT_CARRIER",
+      "method": "optimal_bounds_disjointY_for_all_positive_translation",
+      "gap_lower_bound_mm": 0.19998999999984335,
+      "covered": true
+    },
+    {
+      "fixed": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+      "method": "optimal_bounds_disjointY_for_all_positive_translation",
+      "gap_lower_bound_mm": 0.19998999999984335,
+      "covered": true
+    },
+    {
+      "fixed": "GEOMETRIC_BOND_0",
+      "method": "optimal_bounds_disjointY_for_all_positive_translation",
+      "gap_lower_bound_mm": 0.19999489999980824,
+      "covered": true
+    },
+    {
+      "fixed": "GENERIC_4OD_2p2ID_SLEEVE",
+      "method": "radius2_exclusion_invariant_underYtranslation",
+      "tip_overlap_cylinder_mm3": 94.03665981157178,
+      "sleeve_outside_cylinder_mm3": 0.0,
+      "covered": false
+    }
+  ],
+  "all_pairs_covered": false,
+  "limits": [
+    "Native numeric/tolerance assumptions; zero volume allows contact",
+    "Rigid geometric placeholders only; no assembly process or strength acceptance",
+    "Source partition volume gate blocked"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

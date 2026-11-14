@@ -1,0 +1,198 @@
+{
+  "status": "SAMPLED_PLANAR_WING_OFFSET_FEASIBILITY_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "rows": [
+    {
+      "y_mm": 180,
+      "trials": [
+        {
+          "signed_offset_mm": -0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 1113.4045235944423,
+          "outside_area_mm2": 0.0,
+          "contained_smaller_section": true
+        },
+        {
+          "signed_offset_mm": 0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 1336.6830349707557,
+          "outside_area_mm2": 112.51108917166712,
+          "contained_smaller_section": false
+        }
+      ],
+      "section_wire_count": 1,
+      "outer_section_area_mm2": 1224.1719457990862
+    },
+    {
+      "y_mm": 220,
+      "trials": [
+        {
+          "signed_offset_mm": -0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 894.3964946349024,
+          "outside_area_mm2": 0.0,
+          "contained_smaller_section": true
+        },
+        {
+          "signed_offset_mm": 0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 1096.456117569784,
+          "outside_area_mm2": 102.06778617514135,
+          "contained_smaller_section": false
+        }
+      ],
+      "section_wire_count": 1,
+      "outer_section_area_mm2": 994.3883313946432
+    },
+    {
+      "y_mm": 260,
+      "trials": [
+        {
+          "signed_offset_mm": -0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 725.2907192251403,
+          "outside_area_mm2": 0.0,
+          "contained_smaller_section": true
+        },
+        {
+          "signed_offset_mm": 0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 906.6183230186045,
+          "outside_area_mm2": 91.69861863021771,
+          "contained_smaller_section": false
+        }
+      ],
+      "section_wire_count": 1,
+      "outer_section_area_mm2": 814.9197043883863
+    },
+    {
+      "y_mm": 300,
+      "trials": [
+        {
+          "signed_offset_mm": -0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 575.3747277136728,
+          "outside_area_mm2": 0.0,
+          "contained_smaller_section": true
+        },
+        {
+          "signed_offset_mm": 0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 736.0745661264018,
+          "outside_area_mm2": 81.34906087394401,
+          "contained_smaller_section": false
+        }
+      ],
+      "section_wire_count": 1,
+      "outer_section_area_mm2": 654.7255052524569
+    },
+    {
+      "y_mm": 340,
+      "trials": [
+        {
+          "signed_offset_mm": -0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 437.66608068578387,
+          "outside_area_mm2": 0.0,
+          "contained_smaller_section": true
+        },
+        {
+          "signed_offset_mm": 0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 577.7096454645739,
+          "outside_area_mm2": 70.99590839503006,
+          "contained_smaller_section": false
+        }
+      ],
+      "section_wire_count": 1,
+      "outer_section_area_mm2": 506.71373706954415
+    },
+    {
+      "y_mm": 380,
+      "trials": [
+        {
+          "signed_offset_mm": -0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 314.3278509541111,
+          "outside_area_mm2": 0.0,
+          "contained_smaller_section": true
+        },
+        {
+          "signed_offset_mm": 0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 433.7341527535429,
+          "outside_area_mm2": 60.6509138122781,
+          "contained_smaller_section": false
+        }
+      ],
+      "section_wire_count": 1,
+      "outer_section_area_mm2": 373.083238941265
+    },
+    {
+      "y_mm": 420,
+      "trials": [
+        {
+          "signed_offset_mm": -0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 202.38079482744163,
+          "outside_area_mm2": 0.0,
+          "contained_smaller_section": true
+        },
+        {
+          "signed_offset_mm": 0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 301.07933179589696,
+          "outside_area_mm2": 50.302047872510315,
+          "contained_smaller_section": false
+        }
+      ],
+      "section_wire_count": 1,
+      "outer_section_area_mm2": 250.77728392338685
+    },
+    {
+      "y_mm": 440,
+      "trials": [
+        {
+          "signed_offset_mm": -0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 151.6912612823765,
+          "outside_area_mm2": 0.0,
+          "contained_smaller_section": true
+        },
+        {
+          "signed_offset_mm": 0.4,
+          "valid": true,
+          "wires": 1,
+          "area_mm2": 240.01104956032432,
+          "outside_area_mm2": 45.131742491054794,
+          "contained_smaller_section": false
+        }
+      ],
+      "section_wire_count": 1,
+      "outer_section_area_mm2": 194.87930706926977
+    }
+  ],
+  "limits": [
+    "0.4 mm is a numerical trial, not selected structural thickness.",
+    "Planar offsets do not establish three-dimensional normal wall thickness.",
+    "No loft/cavity/shell or manufacturing export created; no validity between sampled stations.",
+    "Current OML registration, joints, load paths and print qualification remain open."
+  ],
+  "print_release": false,
+  "flight_release": false
+}

@@ -1,0 +1,29 @@
+{
+  "status": "TWO_SECTION_SUBTRACTION_TRIAL_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "stations_y_mm": [
+    220,
+    260
+  ],
+  "planar_inset_mm": 0.4,
+  "print_release": false,
+  "flight_release": false,
+  "valid": true,
+  "solids": 1,
+  "faces": 100,
+  "volume_mm3": 32334.729708593397,
+  "outside_volume_mm3": 0.0,
+  "contained_within_1e_6_mm3": true,
+  "result_valid": true,
+  "result_solids": 1,
+  "result_volume_mm3": 178184.78389151354,
+  "source_volume_mm3": 210519.45444906846,
+  "volume_balance_residual_mm3": -0.05915103846928105,
+  "trial_fcstd_sha256": "a59ee9984aba38f18b519300079ee690010eeb6a23b68af39a436694152556b5",
+  "elapsed_seconds": 17.194000005722046,
+  "limits": [
+    "Only a 40 mm span cavity removed; most of wing remains solid. No full wing shell.",
+    "No full-span cavity, uniform normal wall, structural thickness or manufacturing qualification.",
+    "Master unchanged; any saved FCStd is an unreleased local-cavity feasibility object."
+  ]
+}

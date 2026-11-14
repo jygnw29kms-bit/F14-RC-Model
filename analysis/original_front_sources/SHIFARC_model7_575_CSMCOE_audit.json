@@ -1,0 +1,35 @@
+{
+  "status": "ORIGINAL_CSMCOE_BESTAETIGT_SIGNIERTE_NICHTELLIPTISCHE_PARAMETER",
+  "source_case_sha256": "49aca9b89fef0ae3ab76c8ba8d98ecc667775fc38b750a2a1cf1463bd8e19992",
+  "original_W": {
+    "RO": 487.264862,
+    "HO": 1.57079637,
+    "AA": -6340.98779,
+    "BB": 102516.211
+  },
+  "independent_conic": {
+    "center_source": [
+      -1.7763568394002505e-15,
+      487.2685185185477
+    ],
+    "signed_axis_squared": [
+      -6341.060635288655,
+      102518.55281209
+    ],
+    "maximum_constraint_residual": 1.7763568394002505e-15
+  },
+  "relative_signed_parameter_differences": [
+    1.1487871327034032e-05,
+    2.2842812600903005e-05
+  ],
+  "findings": [
+    "Historische Routine liefert AA<0 und BB>0 auch fuer Querschnittsform3/ELLI; Typname allein garantiert keine geschlossene reelle Ellipse.",
+    "Sternfelder im menschenlesbaren FORMAT-Ausdruck sind Feldbreitenueberlauf; separate RESULT-Zeile liefert numerische Werte."
+  ],
+  "limits": [
+    "Nur CSMCOE-Parameter ausgefuehrt, noch keine Radien-/Bogenvalidierung fuer diesen Fall.",
+    "Keine Imaginarhalbachse in CAD erzeugen, Quellenpunkte nicht korrigieren.",
+    "Keine Produktionsfreigabe."
+  ],
+  "production_release": false
+}
