@@ -26,3 +26,9 @@ FreeCAD produced one valid open shell from 56 patches. The reopened shell gave o
 The measurements cover a local positive-Y portion in study coordinates. The guide height remains a design assumption. Registration to v192 and the connection to the fuselage are pending.
 
 Local study file SHA-256: 662c5d1a292164e01a2b6256fea430e667f3d762923d2ebdbc3a5eebbd37558c
+
+## Body intersection screen · 14 November 2026
+
+The local C–D study fuselage was cropped to X 417.981–443.992 mm in study coordinates and reopened as one valid solid. Of 280 sampled shell points, 115 classified inside the cropped fuselage. A separate FreeCAD section and inside/outside classification found one crossing at 43 of 56 section midpoints and three crossings at the other 13. These 13 sampled positions lie between X 421.759 and 429.429 mm. The trim path remains unresolved.
+
+Crossing report SHA-256: ab9afef2bfc282984b6a0d6dbbaac617dd7c6283c6840a066ccc323b82c7c098
