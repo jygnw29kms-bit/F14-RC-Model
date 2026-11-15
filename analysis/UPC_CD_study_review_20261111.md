@@ -40,3 +40,9 @@ Of 168 sampled sections, 131 showed one crossing and 37 showed three in the test
 FreeCAD identified one valid closed intersection wire with three edges and a total length of 0.133 mm. Its X bounds are 427.164 to 427.229 mm in study coordinates. The physical significance of this local feature remains unresolved.
 
 Closed-wire report SHA-256: 81b30af39f0b89cc6557508be03a3edc6488b6a088425ebd5631b042a4532b2e
+
+## Boolean trim trial
+
+FreeCAD reported valid inside and outside results against the local body slab. The outside result includes one shell of 736.756 mm2 and eight smaller shells. The original area minus the sum of both output areas is approximately -0.000036 mm2. FreeCAD logged topology hasher mismatch warnings during the run. Reopening and independently checking the retained shell are pending, along with deciding how to handle the smaller components.
+
+Boolean report SHA-256: e392fc4886799b6a74cef8da0272ecdde089f11fc8ad66903f685dd49254cae8
