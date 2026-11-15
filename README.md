@@ -10,7 +10,7 @@ Neuaufbau des RC-/FDM-F-14-Projekts von Grund auf.
 
 | Bereich | Stand |
 | --- | --- |
-| Flügelwurzelverkleidung C–D | 56 kubisch interpolierte FreeCAD-Teilflächen wurden erstellt und nach dem Wiederöffnen auf geometrische Gültigkeit geprüft. Nahtwinkel und eindeutige Schnittbelegung dieser Variante werden noch geprüft. |
+| Flügelwurzelverkleidung C–D | 56 Teilflächen bilden eine geometrisch gültige offene FreeCAD-Schale. An 165 Nahtproben lagen die Spalte unter 0,000001 mm. An sechs zuvor doppelt belegten Positionen ergab die kubische Schale je einen Treffer. Mehrfachschnitte mit dem Studienrumpf lassen die Beschnittlinie offen. |
 | Außenform | Die Zuordnung der UPC-Studie zum Hauptmodell sowie die Höhenführung der Verkleidung sind offen. |
 | Innenstruktur und Antrieb | Twin 50 mm EDF auf 4S und FDM-Fertigung auf dem Bambu P2S bleiben die Entwurfsziele. Struktur- und Baugruppenprüfungen sowie geprüfte Gesamtexporte stehen aus. |
 
