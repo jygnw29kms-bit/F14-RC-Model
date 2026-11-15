@@ -32,3 +32,7 @@ Local study file SHA-256: 662c5d1a292164e01a2b6256fea430e667f3d762923d2ebdbc3a5e
 The local C–D study fuselage was cropped to X 417.981–443.992 mm in study coordinates and reopened as one valid solid. Of 280 sampled shell points, 115 classified inside the cropped fuselage. A separate FreeCAD section and inside/outside classification found one crossing at 43 of 56 section midpoints and three crossings at the other 13. These 13 sampled positions lie between X 421.759 and 429.429 mm. The trim path remains unresolved.
 
 Crossing report SHA-256: ab9afef2bfc282984b6a0d6dbbaac617dd7c6283c6840a066ccc323b82c7c098
+
+## Follow-up trim checks · 15 November 2026
+
+Of 168 sampled sections, 131 showed one crossing and 37 showed three in the tested interior parameter range. The longest intersection wire spans 26.012 mm in X. After excluding hits near the patch boundaries, seven of its 39 sampled X planes still contain three hits. In the second region the 17 recorded edges form a connected sequence with reversals in X. Selecting intersections by transverse order alone leaves the trim unresolved.
