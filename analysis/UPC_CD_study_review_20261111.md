@@ -46,3 +46,7 @@ Closed-wire report SHA-256: 81b30af39f0b89cc6557508be03a3edc6488b6a088425ebd5631
 FreeCAD reported valid inside and outside results against the local body slab. The outside result includes one shell of 736.756 mm2 and eight smaller shells. The original area minus the sum of both output areas is approximately -0.000036 mm2. FreeCAD logged topology hasher mismatch warnings during the run. The largest outside component was saved separately and reopened as one valid shell with 69 faces and an unchanged area of 736.756 mm2. The topology warnings and disposition of the eight smaller components remain open. Local study file SHA-256: 70425d230512dcdf840e0beba2c00ccb5c8b29f118a66ee64c3ae0d0ac19ad1c
 
 Boolean report SHA-256: e392fc4886799b6a74cef8da0272ecdde089f11fc8ad66903f685dd49254cae8
+
+A repeat cut reproduced the warnings and nine valid outside shell components. The eight detached shells total 0.227406 mm2, or 0.03086% of the outside area. The component report records area, face count and bounds in study coordinates. Area alone is insufficient to decide whether these components affect the attachment.
+
+Component report SHA-256: b6f08d9961ef433969d2689f546b90d5d85c4b05e37f5351ff077f1a4ad34b62
