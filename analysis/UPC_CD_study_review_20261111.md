@@ -50,3 +50,7 @@ Boolean report SHA-256: e392fc4886799b6a74cef8da0272ecdde089f11fc8ad66903f685dd4
 A repeat cut reproduced the warnings and nine valid outside shell components. The eight detached shells total 0.227406 mm2, or 0.03086% of the outside area. The component report records area, face count and bounds in study coordinates. Area alone is insufficient to decide whether these components affect the attachment.
 
 Component report SHA-256: b6f08d9961ef433969d2689f546b90d5d85c4b05e37f5351ff077f1a4ad34b62
+
+FreeCAD minimum distances from the eight detached shells to the largest outside shell range from 5.515 to 6.977 mm. The study coordinates and nearest-point pairs are recorded in the distance report. The trim remains a local candidate.
+
+Distance report SHA-256: ab360f27b2cf008e6d313139334db4be8c3cf0b837835a8ebe4501c2caea1b15
