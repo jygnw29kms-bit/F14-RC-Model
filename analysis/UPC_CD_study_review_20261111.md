@@ -58,3 +58,7 @@ Distance report SHA-256: ab360f27b2cf008e6d313139334db4be8c3cf0b837835a8ebe4501c
 A FreeCAD 1.1.4 control run serialized both input shapes to BREP strings and reimported them into fresh Part shapes before cutting. It returned a valid result with 91 faces and nine shells, matching all component areas within 0.000000001 mm2. The control run emitted no topology hasher mismatch warnings. The attachment remains under study.
 
 Control report SHA-256: 081f00e52f73faa6e76ebbfc6e8442ade0f6ea31d925fb0601f5c61b70773a67
+
+The reopened 69-face outside shell has a single valid closed boundary wire formed by 148 edges incident to one face each. Its measured length is 131.697 mm. This check covers the local shell perimeter. Fit against the main fuselage remains pending.
+
+Boundary report SHA-256: 86fefa3da3889bd24205aabb31b936bfd923a5310f1014e4a9fe0e8f44beb13b
