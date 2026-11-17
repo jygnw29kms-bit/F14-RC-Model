@@ -54,3 +54,7 @@ Component report SHA-256: b6f08d9961ef433969d2689f546b90d5d85c4b05e37f5351ff077f
 FreeCAD minimum distances from the eight detached shells to the largest outside shell range from 5.515 to 6.977 mm. The study coordinates and nearest-point pairs are recorded in the distance report. The trim remains a local candidate.
 
 Distance report SHA-256: ab360f27b2cf008e6d313139334db4be8c3cf0b837835a8ebe4501c2caea1b15
+
+A FreeCAD 1.1.4 control run serialized both input shapes to BREP strings and reimported them into fresh Part shapes before cutting. It returned a valid result with 91 faces and nine shells, matching all component areas within 0.000000001 mm2. The control run emitted no topology hasher mismatch warnings. The attachment remains under study.
+
+Control report SHA-256: 081f00e52f73faa6e76ebbfc6e8442ade0f6ea31d925fb0601f5c61b70773a67
