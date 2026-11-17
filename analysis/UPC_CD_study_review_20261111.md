@@ -62,3 +62,9 @@ Control report SHA-256: 081f00e52f73faa6e76ebbfc6e8442ade0f6ea31d925fb0601f5c61b
 The reopened 69-face outside shell has a single valid closed boundary wire formed by 148 edges incident to one face each. Its measured length is 131.697 mm. This check covers the local shell perimeter. Fit against the main fuselage remains pending.
 
 Boundary report SHA-256: 86fefa3da3889bd24205aabb31b936bfd923a5310f1014e4a9fe0e8f44beb13b
+
+## Diagnostic comparison with v192
+
+Without applying a registration transform, the common operation with FUSELAGE_CURRENT in v192 returned all 69 faces and the entire 736.756 mm2 area of the retained study shell. This indicates containment or coincidence in the tested coordinates. Registration and surface attachment require further checks. The study body used for the earlier trim came from C_TO_D in F14_ORIGINAL_OUTER_RULED_LOFT_STUDY.FCStd.
+
+Comparison report SHA-256: 89581ab5ea62569873335b6e213bbec05c9f4453c30c5dd758fb7191f2c850f3
