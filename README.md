@@ -4,13 +4,13 @@ Neuaufbau des RC-/FDM-F-14-Projekts von Grund auf.
 
 **Pilot / Projektkontext:** 135erHeli RC Pilot
 
-## Projektstand · 13. November 2026
+## Projektstand · 18. November 2026
 
 **FreeCAD v192** ist der in [CURRENT.json](migration/freecad/CURRENT.json) geführte Hauptstand. Das Gesamtmodell ist im Aufbau. Druck- und Flugfreigabe stehen aus.
 
 | Bereich | Stand |
 | --- | --- |
-| Flügelwurzelverkleidung C–D | 56 Teilflächen bilden eine geometrisch gültige offene FreeCAD-Schale. An 165 Nahtproben lagen die Spalte unter 0,000001 mm. An sechs zuvor doppelt belegten Positionen ergab die kubische Schale je einen Treffer. Mehrfachschnitte mit dem Studienrumpf lassen die Beschnittlinie offen. |
+| Flügelwurzelverkleidung C–D | 56 Teilflächen bilden eine geometrisch gültige offene FreeCAD-Schale. An 165 Nahtproben lagen die Spalte unter 0,000001 mm. An sechs zuvor doppelt belegten Positionen ergab die kubische Schale je einen Treffer. Eine beschnittene lokale Außenschale mit 69 Flächen wurde nach erneutem Öffnen als gültig geprüft. Ihre 148 Eckpunkte liegen ohne Koordinatenanpassung innerhalb des Hauptrumpfs. Native Querschnitte zeigen Breitenunterschiede zwischen Hauptmodell und Kandidatenprofilen. Die Integration bleibt offen. |
 | Außenform | Die Zuordnung der UPC-Studie zum Hauptmodell sowie die Höhenführung der Verkleidung sind offen. |
 | Innenstruktur und Antrieb | Twin 50 mm EDF auf 4S und FDM-Fertigung auf dem Bambu P2S bleiben die Entwurfsziele. Struktur- und Baugruppenprüfungen sowie geprüfte Gesamtexporte stehen aus. |
 
