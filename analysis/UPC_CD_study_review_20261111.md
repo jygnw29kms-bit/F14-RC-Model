@@ -68,3 +68,7 @@ Boundary report SHA-256: 86fefa3da3889bd24205aabb31b936bfd923a5310f1014e4a9fe0e8
 Without applying a registration transform, the common operation with FUSELAGE_CURRENT in v192 returned all 69 faces and the entire 736.756 mm2 area of the retained study shell. This indicates containment or coincidence in the tested coordinates. Registration and surface attachment require further checks. The study body used for the earlier trim came from C_TO_D in F14_ORIGINAL_OUTER_RULED_LOFT_STUDY.FCStd.
 
 Comparison report SHA-256: 89581ab5ea62569873335b6e213bbec05c9f4453c30c5dd758fb7191f2c850f3
+
+A follow-up FreeCAD check classified all 148 shell vertices strictly inside FUSELAGE_CURRENT, with distances to its faces between 7.921 and 25.247 mm. These are measurements in the untransformed coordinates. They establish that the current study placement requires registration work before attachment. Face centers of mass provided no on-surface samples in the earlier attempted screen.
+
+Vertex report SHA-256: 454999abf5cd3473d46a970b48608910f24a2dc0589bb18b13b68f0210a3f0cd
