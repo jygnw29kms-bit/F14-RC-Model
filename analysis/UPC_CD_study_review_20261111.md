@@ -72,3 +72,9 @@ Comparison report SHA-256: 89581ab5ea62569873335b6e213bbec05c9f4453c30c5dd758fb7
 A follow-up FreeCAD check classified all 148 shell vertices strictly inside FUSELAGE_CURRENT, with distances to its faces between 7.921 and 25.247 mm. These are measurements in the untransformed coordinates. They establish that the current study placement requires registration work before attachment. Face centers of mass provided no on-surface samples in the earlier attempted screen.
 
 Vertex report SHA-256: 454999abf5cd3473d46a970b48608910f24a2dc0589bb18b13b68f0210a3f0cd
+
+## Koordinatenbezug der Studie
+
+Die Quelldatei analysis/original_front_sources/front_shared_frame_candidate.json beschreibt die Skalierung aus der Draufsichtbreite und eine gleich gewichtete Anpassung an Ober- und Unterkante der Seitenansicht. Die Datei front_vertical_registration_candidates.json kennzeichnet die gemeinsame Wasserlinie als ungeprüft. Auch ABCDEF_shared_frame_candidate.json führt metric_registration_verified=false.
+
+Das Aufbauskript migration/freecad/normalize_datums_v191.py erzeugt FUSELAGE_CURRENT aus parametrisierten Stationsprofilen neu. Die dortige Z-Verschiebung um -187.59240693460868 mm gilt für die ausdrücklich aufgeführten Flügel- und Einbauobjekte. Daraus lässt sich keine bestätigte Transformation der C-D-Studie ableiten. Als nächster Schritt sind homologe Quellenbezüge für die Studienprofile und den aktuellen Rumpf zu vergleichen.
