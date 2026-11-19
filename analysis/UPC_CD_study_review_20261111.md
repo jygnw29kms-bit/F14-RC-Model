@@ -86,3 +86,9 @@ Ein rechnerischer Vergleich der Kandidatenbreiten mit linear interpolierten Date
 Die native FreeCAD-Prüfung an denselben Kandidaten-X-Positionen ergab jeweils einen gültigen Rumpfquerschnitt. Seine Breiten betragen C 247,563 mm, D 250,906 mm, E 220,444 mm und F 225,052 mm. Die Kandidatenprofile messen dort 230,613 mm, 211,755 mm, 204,941 mm und 209,282 mm. Der native Vergleich bestätigt Formunterschiede und zeigt zugleich Abweichungen zur einfachen Interpolation der Stationsbreiten. Eine bloße Höhenverschiebung kann diese Breitenunterschiede nicht beseitigen.
 
 Querschnittsbericht SHA-256: 2b5c444d9be959fd8178ddbed1007c7e2b1eff37e2d5c1bdc95cacab27a52991
+
+## Neuerer Längsregistrierungsnachweis auf main
+
+Das Dokument docs/SEITEN_X_REGISTRIERUNG_20261021.md ist auf main vorhanden (Git-Blob cd250c2bfa3945f1f2bbc7194fac4a1b7f72d1ef). Es unterstützt einen Engineering-X-/FS-Kandidaten aus drei homologen Navy-/UPC-Seitenansichtsmerkmalen mit nominal 0,185 Pixel RMS. Die nasenrelativen X-Kandidaten im 900-mm-Modell betragen C 391,900 mm und D 580,514 mm. Die bisher untersuchten Profile verwenden C 403,325 mm und D 595,848 mm. Die Querschnittsvergleiche oben beziehen sich auf diese historischen Kandidatenpositionen.
+
+Damit ist die ältere NADC-/UPC-Prüfung mit offenem Zweipunkt-Längsabgleich für diesen neueren Seiten-X-Kandidaten überholt. Die absolute Z-/Waterline-Registrierung bleibt laut neuerem Dokument offen. Die Zuordnung der Studienprofile muss längs und vertikal gemeinsam nachvollzogen werden.
