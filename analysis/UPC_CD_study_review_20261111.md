@@ -92,3 +92,7 @@ Querschnittsbericht SHA-256: 2b5c444d9be959fd8178ddbed1007c7e2b1eff37e2d5c1bdc95
 Das Dokument docs/SEITEN_X_REGISTRIERUNG_20261021.md ist auf main vorhanden (Git-Blob cd250c2bfa3945f1f2bbc7194fac4a1b7f72d1ef). Es unterstützt einen Engineering-X-/FS-Kandidaten aus drei homologen Navy-/UPC-Seitenansichtsmerkmalen mit nominal 0,185 Pixel RMS. Die nasenrelativen X-Kandidaten im 900-mm-Modell betragen C 391,900 mm und D 580,514 mm. Die bisher untersuchten Profile verwenden C 403,325 mm und D 595,848 mm. Die Querschnittsvergleiche oben beziehen sich auf diese historischen Kandidatenpositionen.
 
 Damit ist die ältere NADC-/UPC-Prüfung mit offenem Zweipunkt-Längsabgleich für diesen neueren Seiten-X-Kandidaten überholt. Die absolute Z-/Waterline-Registrierung bleibt laut neuerem Dokument offen. Die Zuordnung der Studienprofile muss längs und vertikal gemeinsam nachvollzogen werden.
+
+An den neueren nominalen X-Kandidaten wurden native FreeCAD-Querschnitte des Hauptrumpfs geprüft. Die Breiten betragen C 238,232 mm, D 264,394 mm, E 218,494 mm und F 225,888 mm. Zum diagnostischen Vergleich wurden die vorhandenen Kandidatenprofilbreiten beibehalten. Die Breitenabweichungen bleiben bestehen. Die Ergebnisse setzen versuchsweise die nasenrelativen X-Werte der neuen Registrierung mit der aktuellen CAD-X-Achse gleich. Eine bestätigte Registrierung des Hauptrumpfs und eine Freigabe der Außenform folgen daraus nicht.
+
+Bericht für neue X-Kandidaten SHA-256: 8802ae2b669fd738ea7e2da09eb9504ce31f4e4ca8b72da664be4d38ac63c515
