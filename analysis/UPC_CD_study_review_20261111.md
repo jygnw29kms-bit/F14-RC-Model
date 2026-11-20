@@ -96,3 +96,9 @@ Damit ist die ältere NADC-/UPC-Prüfung mit offenem Zweipunkt-Längsabgleich f�
 An den neueren nominalen X-Kandidaten wurden native FreeCAD-Querschnitte des Hauptrumpfs geprüft. Die Breiten betragen C 238,232 mm, D 264,394 mm, E 218,494 mm und F 225,888 mm. Zum diagnostischen Vergleich wurden die vorhandenen Kandidatenprofilbreiten beibehalten. Die Breitenabweichungen bleiben bestehen. Die Ergebnisse setzen versuchsweise die nasenrelativen X-Werte der neuen Registrierung mit der aktuellen CAD-X-Achse gleich. Eine bestätigte Registrierung des Hauptrumpfs und eine Freigabe der Außenform folgen daraus nicht.
 
 Bericht für neue X-Kandidaten SHA-256: 8802ae2b669fd738ea7e2da09eb9504ce31f4e4ca8b72da664be4d38ac63c515
+
+## Prüfung weiterer Höhenreferenzen
+
+Die Berichte auf main EMI_UPC_vertical_landmark_gate.json und NADC_EMI_WL145_source_convergence.json unterstützen weiterhin keine Zuordnung der UPC-C-Achse zur globalen Wasserlinie. Die Antennenmerkmale an FS411 und FS511 wurden dort als nicht eindeutig homolog verworfen.
+
+NASA CR3992, PDF-Seite 88 (gedruckte Seite 81), Abbildungen 48 und 49, wurde am 20. November 2026 visuell geprüft. Die Darstellung zeigt räumlich versetzte Rumpfquerschnitte sowie die für A488 veränderten Konturen. In der geprüften Abbildung sind keine Stationsnummern, Wasserlinienmaße oder Maßstäbe erkennbar. Sie liefert allein keine metrische Höhenzuordnung der UPC-Profile. Bild-SHA-256 98b19e77814f6f155a6d47b9975e94578b44b083eeceb4ebfaef66840c865722.
