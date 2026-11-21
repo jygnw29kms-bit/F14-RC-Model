@@ -1,0 +1,40 @@
+{
+  "status": "LOCAL_MULTI_START_CONTINUOUS_IMAGE_DIAGNOSTIC",
+  "parameters": [
+    0.28695766122093147,
+    0.295037749332701,
+    38.708229401626824,
+    36.137549089524725
+  ],
+  "initial_mean_NCC": 0.6151261167726149,
+  "refined_mean_NCC": 0.8761184241233941,
+  "run_mean_NCC": [
+    0.8761160361338525,
+    0.8761184180605313,
+    0.8761184241233941
+  ],
+  "holdouts": [
+    {
+      "feature": "aft_center_body",
+      "initial_NCC": 0.2592599031364601,
+      "refined_NCC": 0.7902570625410843
+    },
+    {
+      "feature": "forward_radome",
+      "initial_NCC": 0.4846132723244063,
+      "refined_NCC": 0.7883034341710856
+    }
+  ],
+  "registration_accepted": false,
+  "master_changed": false,
+  "parameter_order": [
+    "x_scale",
+    "y_scale",
+    "x_offset_px",
+    "y_offset_px"
+  ],
+  "source_sha256": "63413C7958648165CA381EBDA27EF31A4D6AABED725B84D3E2F804DA5BAFB5B4",
+  "guide_sha256": "FC2A4DC77E43C64C21DF205123AD36DE0323E0BBE3C3BCDB693CCD19C356D026",
+  "method": "Three bounded Nelder-Mead starts; continuous source interpolation with Gaussian sigma1px; mean NCC over fixed guide canopy ROIs [237,407,263,432] and [340,407,355,432]. Holdouts not used in optimization.",
+  "limitation": "Image alignment diagnostic only. No FS/WL calibration, contour semantics or original OML release."
+}
