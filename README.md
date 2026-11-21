@@ -1,6 +1,6 @@
 ﻿# 135er F-14 Tomcat RC
 
-## Projektstand · 20. November 2026
+## Projektstand · 21. November 2026
 
 FreeCAD v192 ist der Hauptstand. Das Gesamtmodell befindet sich im Aufbau. Druck- und Flugfreigabe stehen aus.
 
@@ -9,6 +9,8 @@ Für die C–D-Flügelwurzelverkleidung wurden 56 kubisch interpolierte FreeCAD-
 [Prüfbericht und aktueller Entwicklungsstand im Entwurfs-PR #1](https://github.com/jygnw29kms-bit/F14-RC-Model/pull/1)
 
 Quellenpruefung vom 20. November: Die vier geprueften C/D/E/F-Rumpfbreiten wurden rechnerisch aus den 16 verwendeten Loft-Stationen nachvollzogen. Die Registrierung zu den originalen Querschnittsprofilen und die Gesamtmodellfreigabe bleiben offen. [Gepruefter Zahlenvergleich auf dem Pruefzweig](https://github.com/jygnw29kms-bit/F14-RC-Model/blob/552c4a5f526c31f1fa1b4b0a7d10d7a8a566cb01/analysis/UPC_CD_selected_station_width_check.json).
+
+Konturregistrierung vom 21. November: Die bisher verwendete blaue Seiten-Leitkontur umfasst die vorderen und hinteren Referenzmerkmale nicht vollstaendig. Ihre Normierung auf die gesamte Modelllaenge liefert deshalb keinen geprueften gemeinsamen Bezug fuer Drauf- und Seitenansicht. Bildzuordnungen und unabhaengige Kontrollmessungen werden weiter abgesichert. Hauptmodell v192 sowie offene Druck- und Flugfreigaben bleiben unveraendert. [Pruefbericht auf dem Pruefzweig](https://github.com/jygnw29kms-bit/F14-RC-Model/blob/3593f3385c94a15c62a4b789b94bffc9eaae2b1a/analysis/UPC_CD_study_review_20261111.md).
 
 ## Sichtbarer Projektstand (Stand: 08.11.2026)
 
