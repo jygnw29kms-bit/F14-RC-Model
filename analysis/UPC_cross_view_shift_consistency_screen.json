@@ -1,0 +1,20 @@
+{
+  "status": "CROSS_VIEW_RELATIVE_SHIFT_CONSISTENCY_SCREEN",
+  "inputs": {
+    "UPC_forward_contour_cross_view_screen.json": "e9600ba6033cba976485a489581227a8a64aa1cc713b2e158bb837457ab90034",
+    "UPC_original_canopy_cross_view_screen.json": "be8303e6952f4a4a660481a0e86793807cfa49f072afd893567cf3de62bd1ad5"
+  },
+  "forward_threshold_shift_range_px": [
+    4,
+    5
+  ],
+  "canopy_multistroke_mean_shift_px": 4.333333333333371,
+  "canopy_shift_within_forward_range": true,
+  "limits": [
+    "Consistency of two diagnostics near the forward fuselage does not establish global scale.",
+    "The forward threshold is not a homologous exact physical datum.",
+    "Aft nozzle and stabilator contours remain semantically ambiguous."
+  ],
+  "global_cross_view_registration_verified": false,
+  "master_changed": false
+}
