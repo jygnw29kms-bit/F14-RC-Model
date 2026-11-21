@@ -1,0 +1,92 @@
+{
+  "status": "LOCAL_PLAN_WIDTH_GRADIENT_SCREEN_PIXELS_ONLY",
+  "inputs": {
+    "UPC_plan_fixed_mapping_holdouts.json": "eae04bbe67b3fa418dc6cee214b4142744e197f1496c6559868078e38e94afd2",
+    "UPC_page_041.png": "fc2a4dc77e43c64c21df205123ad36de0323e0bbe3c3bcdb693ccd19c356d026"
+  },
+  "records": [
+    {
+      "candidate_original_plan_x_px": 1520,
+      "guide_center_x_px": 474,
+      "window_halfwidth_px": 2,
+      "blue_y_extrema_px": [
+        346,
+        491
+      ],
+      "span_guide_px": 145,
+      "candidate_span_original_plan_px": 493.0
+    },
+    {
+      "candidate_original_plan_x_px": 1530,
+      "guide_center_x_px": 477,
+      "window_halfwidth_px": 2,
+      "blue_y_extrema_px": [
+        348,
+        489
+      ],
+      "span_guide_px": 141,
+      "candidate_span_original_plan_px": 479.4
+    },
+    {
+      "candidate_original_plan_x_px": 1540,
+      "guide_center_x_px": 480,
+      "window_halfwidth_px": 2,
+      "blue_y_extrema_px": [
+        350,
+        486
+      ],
+      "span_guide_px": 136,
+      "candidate_span_original_plan_px": 462.4
+    },
+    {
+      "candidate_original_plan_x_px": 1550,
+      "guide_center_x_px": 483,
+      "window_halfwidth_px": 2,
+      "blue_y_extrema_px": [
+        352,
+        485
+      ],
+      "span_guide_px": 133,
+      "candidate_span_original_plan_px": 452.2
+    },
+    {
+      "candidate_original_plan_x_px": 1560,
+      "guide_center_x_px": 486,
+      "window_halfwidth_px": 2,
+      "blue_y_extrema_px": [
+        353,
+        484
+      ],
+      "span_guide_px": 131,
+      "candidate_span_original_plan_px": 445.4
+    },
+    {
+      "candidate_original_plan_x_px": 1570,
+      "guide_center_x_px": 489,
+      "window_halfwidth_px": 2,
+      "blue_y_extrema_px": [
+        357,
+        480
+      ],
+      "span_guide_px": 123,
+      "candidate_span_original_plan_px": 418.2
+    },
+    {
+      "candidate_original_plan_x_px": 1580,
+      "guide_center_x_px": 492,
+      "window_halfwidth_px": 2,
+      "blue_y_extrema_px": [
+        360,
+        477
+      ],
+      "span_guide_px": 117,
+      "candidate_span_original_plan_px": 397.8
+    }
+  ],
+  "limits": [
+    "X and Y mapping preliminary; raw blue pixels in bounded top-view ROI, not physical widths.",
+    "Five-column aggregation and stroke thickness affect extrema.",
+    "No source station pairing or shared side registration assumed."
+  ],
+  "master_changed": false
+}
