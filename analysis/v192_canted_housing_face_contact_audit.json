@@ -1,0 +1,52 @@
+{
+  "status": "NATIVE_FACE_CONTACT_GEOMETRY_ONLY",
+  "input_sha256_unchanged": "a2c096314b3502154033e50bdf606b628515a7647fec1418d28c2224791dabef",
+  "rows": [
+    {
+      "ring": "LOWER_GENERIC_RING",
+      "contacts": [
+        {
+          "housing_face": 4,
+          "ring_face": 0,
+          "surface_type": "Cylinder",
+          "area_mm2": 204.20352248333657
+        },
+        {
+          "housing_face": 6,
+          "ring_face": 1,
+          "surface_type": "Plane",
+          "area_mm2": 82.46680715673209
+        }
+      ],
+      "planar_shoulder_area_mm2": 82.46680715673209,
+      "cylindrical_seat_area_mm2": 204.20352248333657
+    },
+    {
+      "ring": "UPPER_GENERIC_RING",
+      "contacts": [
+        {
+          "housing_face": 3,
+          "ring_face": 0,
+          "surface_type": "Cylinder",
+          "area_mm2": 204.20352248333657
+        },
+        {
+          "housing_face": 5,
+          "ring_face": 2,
+          "surface_type": "Plane",
+          "area_mm2": 82.46680715673209
+        }
+      ],
+      "planar_shoulder_area_mm2": 82.46680715673209,
+      "cylindrical_seat_area_mm2": 204.20352248333657
+    }
+  ],
+  "independent_annulus_and_cylinder_area_checks_passed": true,
+  "limits": [
+    "Generic solid rings include both races as one envelope; areas are not actual race contact",
+    "Zero nominal fit does not establish pressure, clearance or preload",
+    "Current-envelope packaging rejected; no hardware, strength or thrust capacity accepted"
+  ],
+  "flight_release": false,
+  "print_release": false
+}

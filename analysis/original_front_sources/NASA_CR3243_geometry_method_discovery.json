@@ -1,0 +1,18 @@
+{
+  "status": "REFERENZIERTE_PRIMAERE_GEOMETRIEMETHODIK_GEFUNDEN",
+  "source_url": "https://ntrs.nasa.gov/citations/19800016802",
+  "source_sha256": "72e854c0afb48119e65eee627228b97d8cc81889bb03dd3593752c0204610a2f",
+  "pages": 164,
+  "reference_chain": "NASA_CR172559 PDF19 verweist aufRef1 fuer Eingabeformat; Ref1 aufPDF196 istBoppe NASA-CR3243.",
+  "findings": [
+    "CR3243 PDF47/gedr37 Table2 nennt LINE/XPAR/YPAR/ELLX/ELLY/CUBI mit unterschiedlichen Polynomformen.",
+    "PDF48/gedr38 beschreibt slope control points fuer Body-Line-Segmente; LINE benoetigt diese nicht.",
+    "Einzelne Body Lines liefern an einer xStation Kontrollpunkte fuer Querschnittsboegen."
+  ],
+  "limits": [
+    "Formelrender und Beispieltabellen muessen vor Implementierung visuell auf Koordinatenursprung, Parameterreihenfolge und Zweigwahl geprueft werden.",
+    "Weder ELLX noch ELLY bereits implementiert oder numerisch verifiziert.",
+    "F14-Rumpfmodell bleibt vereinfachte1/40Dreiseitenrissableitung; Methodikfund ist kein Originalhautnachweis."
+  ],
+  "production_release": false
+}

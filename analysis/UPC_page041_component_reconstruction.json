@@ -1,0 +1,30 @@
+{
+  "method": "Independent 8-connected blue-mask reconstruction with Pillow and numpy; no CAD run",
+  "source_sha256": "fc2a4dc77e43c64c21df205123ad36de0323e0bbe3c3bcdb693ccd19c356d026",
+  "components": [
+    {
+      "view_assumed_by_area": "top",
+      "pixels": 29271,
+      "bbox_px": [
+        166,
+        333,
+        637,
+        504
+      ],
+      "length_scale_mm_per_px": 1.8668448616854607
+    },
+    {
+      "view_assumed_by_area": "side",
+      "pixels": 3406,
+      "bbox_px": [
+        738,
+        452,
+        1266,
+        530
+      ],
+      "length_scale_mm_per_px": 1.665310473208053
+    }
+  ],
+  "stored_scale_match": true,
+  "metric_registration_verified": false
+}

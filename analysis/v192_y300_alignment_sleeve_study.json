@@ -1,0 +1,46 @@
+{
+  "status": "UNSUPPORTED_SLEEVE_STUDY_SAVED_REOPENED",
+  "basis_sha256": "fd8964a3664c6e5eaa62b3426f8b958f4b13ad8e5500ffef2efafd97b2829d43",
+  "input_sha256_unchanged": {
+    "WING_R_VOID_ALL17_FUSED_TRIAL_ONLY.FCStd": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19",
+    "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0"
+  },
+  "output_sha256": "e226b98ebdd6a5bf7477231b0969139873e436c257b09d377e81448e56fae3e3",
+  "outer_diameter_mm": 4,
+  "inner_diameter_mm": 2.2,
+  "length_mm": 20,
+  "volume_mm3": 175.30087007030977,
+  "nominal_radial_pin_gap_mm": 0.1,
+  "outside_saved_void_mm3": 0.0,
+  "minimum_void_boundary_distance_mm": 0.9591726376602768,
+  "spar_overlap_rows": [
+    {
+      "object": "UNFROZEN_FLANGED_WEB",
+      "volume_mm3": 0.0
+    },
+    {
+      "object": "GEOMETRIC_LOWER_BOND_0p1",
+      "volume_mm3": 0.0
+    },
+    {
+      "object": "GEOMETRIC_UPPER_BOND_0p1",
+      "volume_mm3": 0.0
+    },
+    {
+      "object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+      "volume_mm3": 0.0
+    },
+    {
+      "object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+      "volume_mm3": 0.0
+    }
+  ],
+  "limits": [
+    "No fixed sleeve or alignment function until supports are designed",
+    "Nominal0.1radial gap is a study choice, not manufacturing tolerance",
+    "Boundary distance meaningful as containment clearance only if outside volume is zero",
+    "No structural joint, retention, material, print or flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

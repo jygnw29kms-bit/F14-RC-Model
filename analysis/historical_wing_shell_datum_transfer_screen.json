@@ -1,0 +1,121 @@
+{
+  "status": "HISTORICAL_SHELL_ENVELOPE_TRANSFER_SCREEN_ONLY",
+  "input_sha256": {
+    "old_shell": "19e6f9f3caefca77e25fc6b72d866a6962788275666cdacea23d84942b05e794",
+    "datum": "f611a9582cad4c3d66c09a349928d9c98b69570a2e51aa8aceab50ec2855e3f8",
+    "current": "c4733191582638b62b123f64bd456e62bd2b0b992618294bc6df4b65e8c2826c"
+  },
+  "applied_z_translation_mm": -187.59240693460868,
+  "rows": [
+    {
+      "side": "R",
+      "historical_parts": [
+        "CANDIDATE_HOLLOW_WING_R_INNER_NO_JOINTS",
+        "CANDIDATE_HOLLOW_WING_R_OUTER_NO_JOINTS"
+      ],
+      "translated_historical_union_bounds_mm": {
+        "x": [
+          588.2699984754352,
+          749.6035234732939
+        ],
+        "y": [
+          148.82637754436934,
+          449.99999999999994
+        ],
+        "z": [
+          -12.425259506190798,
+          9.094380028581725
+        ]
+      },
+      "current_v191_wing_bounds_mm": {
+        "x": [
+          588.2699984754352,
+          749.6035234732939
+        ],
+        "y": [
+          148.8263775443693,
+          449.99999999999994
+        ],
+        "z": [
+          -12.425259506190798,
+          9.094380028581725
+        ]
+      },
+      "bound_deltas_mm": {
+        "x": [
+          0.0,
+          0.0
+        ],
+        "y": [
+          2.842170943040401e-14,
+          0.0
+        ],
+        "z": [
+          0.0,
+          0.0
+        ]
+      },
+      "max_abs_bound_delta_mm": 2.842170943040401e-14
+    },
+    {
+      "side": "L",
+      "historical_parts": [
+        "CANDIDATE_HOLLOW_WING_L_OUTER_NO_JOINTS",
+        "CANDIDATE_HOLLOW_WING_L_INNER_NO_JOINTS"
+      ],
+      "translated_historical_union_bounds_mm": {
+        "x": [
+          588.2699984754352,
+          749.6035234732939
+        ],
+        "y": [
+          -449.99999999999994,
+          -148.82637754436934
+        ],
+        "z": [
+          -12.425259506190798,
+          9.094380028581725
+        ]
+      },
+      "current_v191_wing_bounds_mm": {
+        "x": [
+          588.2699984754352,
+          749.6035234732939
+        ],
+        "y": [
+          -449.99999999999994,
+          -148.8263775443693
+        ],
+        "z": [
+          -12.425259506190798,
+          9.094380028581725
+        ]
+      },
+      "bound_deltas_mm": {
+        "x": [
+          0.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          -2.842170943040401e-14
+        ],
+        "z": [
+          0.0,
+          0.0
+        ]
+      },
+      "max_abs_bound_delta_mm": 2.842170943040401e-14
+    }
+  ],
+  "limits": [
+    "Bounding boxes alone cannot establish matching outer surfaces, wall thickness or solid validity.",
+    "v191 datum report is historical evidence; current v192 BREP equivalence has not been executed.",
+    "No historical shell imported, no old core installed, no current geometry changed.",
+    "Historical NO_JOINTS candidates lack validated joining and continuous load paths.",
+    "Reuse requires native surface comparison, wall checks, joint design and current slicer checks."
+  ],
+  "reuse_authorized_by_this_screen": false,
+  "print_release": false,
+  "flight_release": false
+}

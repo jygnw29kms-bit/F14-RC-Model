@@ -1,0 +1,74 @@
+{
+  "method": "Linear interpolation of full widths at the 16 source stations selected by normalize_datums_v191.py",
+  "native_run_this_check": false,
+  "native_report_sha256": "8802AE2B669FD738EA7E2DA09EB9504CE31F4E4CA8B72DA664BE4D38AC63C515",
+  "stations_sha256": "25FBC1660F0DF064B6287E8E07A8DA5C085031EB598EF3DC30CCA79443399D57",
+  "selected_indices_zero_based": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29
+  ],
+  "records": [
+    {
+      "section": "C",
+      "x_mm": 391.90030220497306,
+      "bracket_x_mm": [
+        335.644,
+        395.071
+      ],
+      "interpolated_width_mm": 238.23238605045805,
+      "previous_native_width_mm": 238.23238605045808,
+      "difference_mm": -2.842170943040401E-14
+    },
+    {
+      "section": "D",
+      "x_mm": 580.5135807468706,
+      "bracket_x_mm": [
+        573.354,
+        632.781
+      ],
+      "interpolated_width_mm": 264.3944314739021,
+      "previous_native_width_mm": 264.3944314739021,
+      "difference_mm": 0.0
+    },
+    {
+      "section": "E",
+      "x_mm": 633.3667522064131,
+      "bracket_x_mm": [
+        632.781,
+        692.209
+      ],
+      "interpolated_width_mm": 218.49360835763434,
+      "previous_native_width_mm": 218.49360835763434,
+      "difference_mm": 0.0
+    },
+    {
+      "section": "F",
+      "x_mm": 736.4822533872858,
+      "bracket_x_mm": [
+        692.209,
+        751.636
+      ],
+      "interpolated_width_mm": 225.888,
+      "previous_native_width_mm": 225.88800000000003,
+      "difference_mm": -2.842170943040401E-14
+    }
+  ],
+  "maximum_absolute_difference_mm": 2.842170943040401E-14,
+  "source_registration_verified": false,
+  "print_release": false,
+  "flight_release": false
+}

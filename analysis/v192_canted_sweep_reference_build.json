@@ -1,0 +1,148 @@
+{
+  "status": "SEPARATE_CANTED_SWEEP_REFERENCE_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "calibration_sha256": "196f959be08cb24c578b08d715cb6417a2b787b74847810acf25bb04e1b5c2bc",
+  "output_sha256": "ba746f6f64798bddc9b571c63d73bc3309706595e3a171605234c7e2dc450cce",
+  "rows": [
+    {
+      "object": "REFERENCE_WING_R_NOMINAL_20",
+      "side": "R",
+      "nominal_label_deg": 20,
+      "rotation_deg": -1.5800751650824323e-15,
+      "bounds_mm": {
+        "X": [
+          588.2699984754352,
+          749.6035234732939
+        ],
+        "Y": [
+          148.82637754436928,
+          449.99999999999994
+        ],
+        "Z": [
+          -12.425259506190798,
+          9.094380028581725
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 210519.4544490685
+    },
+    {
+      "object": "REFERENCE_WING_R_NOMINAL_40",
+      "side": "R",
+      "nominal_label_deg": 40,
+      "rotation_deg": -19.990655914210933,
+      "bounds_mm": {
+        "X": [
+          597.8337405500932,
+          852.4496562032824
+        ],
+        "Y": [
+          105.34278566509361,
+          401.4817980366764
+        ],
+        "Z": [
+          -11.126927842793407,
+          9.322020729044254
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 210519.45444906852
+    },
+    {
+      "object": "REFERENCE_WING_R_NOMINAL_68",
+      "side": "R",
+      "nominal_label_deg": 68,
+      "rotation_deg": -47.98783988592254,
+      "bounds_mm": {
+        "X": [
+          614.0221151778137,
+          945.8642450380912
+        ],
+        "Y": [
+          49.59638598637764,
+          279.6551311044442
+        ],
+        "Z": [
+          -7.907645014543903,
+          9.741101454831636
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 210519.4544490685
+    },
+    {
+      "object": "REFERENCE_WING_L_NOMINAL_20",
+      "side": "L",
+      "nominal_label_deg": 20,
+      "rotation_deg": 1.5800751650824323e-15,
+      "bounds_mm": {
+        "X": [
+          588.2699984754352,
+          749.6035234732939
+        ],
+        "Y": [
+          -449.99999999999994,
+          -148.82637754436928
+        ],
+        "Z": [
+          -12.425259506190798,
+          9.094380028581725
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 210519.4544490685
+    },
+    {
+      "object": "REFERENCE_WING_L_NOMINAL_40",
+      "side": "L",
+      "nominal_label_deg": 40,
+      "rotation_deg": 19.990655914210933,
+      "bounds_mm": {
+        "X": [
+          597.8337405500932,
+          852.4496562032824
+        ],
+        "Y": [
+          -401.4817980366764,
+          -105.34278566509361
+        ],
+        "Z": [
+          -11.126927842793407,
+          9.322020729044254
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 210519.45444906852
+    },
+    {
+      "object": "REFERENCE_WING_L_NOMINAL_68",
+      "side": "L",
+      "nominal_label_deg": 68,
+      "rotation_deg": 47.98783988592254,
+      "bounds_mm": {
+        "X": [
+          614.0221151778137,
+          945.8642450380912
+        ],
+        "Y": [
+          -279.6551311044442,
+          -49.59638598637764
+        ],
+        "Z": [
+          -7.907645014543903,
+          9.741101454831636
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 210519.4544490685
+    }
+  ],
+  "limits": [
+    "Six overlapping reference poses, not six physical wings or a production assembly.",
+    "Direction calibrated only from source root-tip LE line; provisional axis point Z0 and cant-plane interpretation remain assumptions.",
+    "No original glove registration, body collision, mechanical fit, load path or printing qualification.",
+    "Master unchanged; no automatic promotion of tilted axis."
+  ],
+  "print_release": false,
+  "flight_release": false
+}

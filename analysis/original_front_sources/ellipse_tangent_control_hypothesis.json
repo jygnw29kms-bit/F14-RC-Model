@@ -1,0 +1,122 @@
+{
+  "status": "ENDTANGENTEN_KONTROLLPUNKT_HYPOTHESE_ANALYTISCH_GETESTET",
+  "assumption": "GeradenEndpunkt->Kontrollpunkt sindEndtangenten; nochkeineBestaetigungderOriginalroutine.",
+  "synthetic_quarter_ellipse_test": {
+    "A": -1.0,
+    "B": 0.0,
+    "C": 0.25,
+    "equation": "A*u+B*v+C*u^2+v^2=0;u=x-xStart,v=y-yStart",
+    "maximum_constraint_residual": 0.0,
+    "ellipse": true,
+    "center_local": [
+      2.0,
+      -0.0
+    ],
+    "semi_axes": [
+      2.0,
+      1.0
+    ]
+  },
+  "cases": [
+    {
+      "name": "ZTCL_nose",
+      "start": [
+        93,
+        131.45
+      ],
+      "end": [
+        205,
+        171
+      ],
+      "control": [
+        127.5,
+        152
+      ],
+      "result": {
+        "A": -37.80244186046514,
+        "B": 63.463953488372084,
+        "C": 0.012728924418604709,
+        "equation": "A*u+B*v+C*u^2+v^2=0;u=x-xStart,v=y-yStart",
+        "maximum_constraint_residual": 2.8421709430404007e-13,
+        "ellipse": true,
+        "center_local": [
+          1484.9032258064458,
+          -31.731976744186042
+        ],
+        "semi_axes": [
+          1511.3048458855628,
+          170.5092439695755
+        ]
+      }
+    },
+    {
+      "name": "ZBCL_nose",
+      "start": [
+        93,
+        131.45
+      ],
+      "end": [
+        176,
+        116.5
+      ],
+      "control": [
+        129.5,
+        116.5
+      ],
+      "result": {
+        "A": -44.7005,
+        "B": -109.13500000000008,
+        "C": 0.26928012048192773,
+        "equation": "A*u+B*v+C*u^2+v^2=0;u=x-xStart,v=y-yStart",
+        "maximum_constraint_residual": 2.4424906541753444e-13,
+        "ellipse": true,
+        "center_local": [
+          82.99999999999999,
+          54.56750000000004
+        ],
+        "semi_axes": [
+          133.9652007052578,
+          69.51750000000003
+        ]
+      }
+    },
+    {
+      "name": "YMHB_nose",
+      "start": [
+        93,
+        0
+      ],
+      "end": [
+        352,
+        31
+      ],
+      "control": [
+        164,
+        31
+      ],
+      "result": {
+        "A": -16.427350427350426,
+        "B": 37.623931623931625,
+        "C": 0.03171303171303171,
+        "equation": "A*u+B*v+C*u^2+v^2=0;u=x-xStart,v=y-yStart",
+        "maximum_constraint_residual": 4.547473508864641e-13,
+        "ellipse": true,
+        "center_local": [
+          259.0,
+          -18.811965811965813
+        ],
+        "semi_axes": [
+          279.7143842424568,
+          49.81196581196581
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "SynthetischerTestverifiziertAlgebra, nichtWBPPW-Semantik oderF14Geometrie.",
+    "EllipsentypundEndconstraintsbeweisenkeinekorrekteZweigwahl oderOriginalhaut.",
+    "ELLX/ELLYNormalisierung/Versionsverhalten weiterhinseparatzuvalidieren.",
+    "KeineCADGeometrie/Masteraenderung oderProduktionsfreigabe."
+  ],
+  "production_release": false
+}

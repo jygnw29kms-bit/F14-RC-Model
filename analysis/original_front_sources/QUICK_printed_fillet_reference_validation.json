@@ -1,0 +1,82 @@
+{
+  "status": "QUICK_ELLX_FILLET_ENDABLEITUNG_GEGEN_GEDRUCKTE_AUSGABE_BESTAETIGT",
+  "source": "NASA-CR2676VolII Fig9PDF57/gedr51 undFig12PDF70/gedr64",
+  "input_interpretation": "10degGerade bisx10,Ellipsefilletx10..15,anschliessendv=+/-2. TangentenschnittpunktderbeidenGeradenermittelt.",
+  "rows": [
+    {
+      "side_sign": -1,
+      "fillet_start": [
+        10.0,
+        -1.7632698070846498
+      ],
+      "fillet_end": [
+        15,
+        -2
+      ],
+      "tangent_intersection_inferred": [
+        11.342563639235419,
+        -2.0
+      ],
+      "computed_end_v": -2.0,
+      "printed_end_v": -2,
+      "computed_end_vx": 0.0,
+      "printed_end_vx": 0,
+      "computed_end_vxx": 0.012945143513904486,
+      "printed_end_vxx": 0.01295,
+      "end_vxx_difference": -4.856486095513798e-06,
+      "line_checks": [
+        {
+          "x": 5,
+          "computed_v": -0.8816349035423249,
+          "printed_v": -0.88163
+        },
+        {
+          "x": 10,
+          "computed_v": -1.7632698070846498,
+          "printed_v": -1.76327
+        }
+      ]
+    },
+    {
+      "side_sign": 1,
+      "fillet_start": [
+        10.0,
+        1.7632698070846498
+      ],
+      "fillet_end": [
+        15,
+        2
+      ],
+      "tangent_intersection_inferred": [
+        11.342563639235419,
+        2.0
+      ],
+      "computed_end_v": 2.0,
+      "printed_end_v": 2,
+      "computed_end_vx": -0.0,
+      "printed_end_vx": 0,
+      "computed_end_vxx": -0.012945143513904486,
+      "printed_end_vxx": -0.01295,
+      "end_vxx_difference": 4.856486095513798e-06,
+      "line_checks": [
+        {
+          "x": 5,
+          "computed_v": 0.8816349035423249,
+          "printed_v": 0.88163
+        },
+        {
+          "x": 10,
+          "computed_v": 1.7632698070846498,
+          "printed_v": 1.76327
+        }
+      ]
+    }
+  ],
+  "comparison_tolerance": "0.000005 inQuellenausgabeeinheiten, aus5NachkommastellendergedrucktenAusgabe; keineGeometrietoleranz.",
+  "limits": [
+    "Belegt diesenELLXFilletfall undEndableitung, nichtalleELLX/ELLYF14Direktsegmente odergesamteRoutine.",
+    "InnenkurveohnegedruckteZwischenproben nochunabhaengigzupruefen.",
+    "KeineOriginalF14Haut/Einheitenregistrierung/Produktionsfreigabe."
+  ],
+  "production_release": false
+}

@@ -1,0 +1,221 @@
+{
+  "status": "CONDITIONAL_SECTION_DEMAND_SCREEN_NO_MATERIAL_ACCEPTANCE",
+  "input_sha256": {
+    "analysis\\v192_root_bending_envelope.json": "f111ef2e6785f83bf9c1a001f79b6c5af2ea956431290c05ac2d580f20558e84",
+    "analysis\\v192_straight_spar_packaging_trial.json": "d5c14e397f81c03559e1da795c36b29fa3ab9f27105f8f9a4709d9ae11218164",
+    "docs\\09_ENGINEERING_AUDIT_20261004.md": "640b2705de348cd73be9cfd74ee902eff3513d9e0a20a6661308f6d0b688722c"
+  },
+  "formulae": [
+    "I=pi*(D^4-d^4)/64",
+    "Z=I/(D/2)",
+    "sigma_nominal=M/Z; M from conditional nonnegative lift upper bound"
+  ],
+  "sections": [
+    {
+      "label": "4mm solid circle packaging envelope",
+      "outer_diameter_mm": 4,
+      "inner_diameter_mm": 0,
+      "I_mm4": 12.566370614359172,
+      "section_modulus_mm3": 6.283185307179586,
+      "cases": [
+        {
+          "mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 9.303538559661709,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 1480.7041500162131
+        },
+        {
+          "mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 13.024953983526391,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2072.9858100226984
+        },
+        {
+          "mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 12.404718079548944,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 1974.2722000216174
+        },
+        {
+          "mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 17.36660531136852,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2763.981080030264
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 10.632615496756236,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 1692.2333143042433
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 14.885661695458731,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2369.1266400259406
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 14.17682066234165,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2256.3110857389916
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 19.847548927278304,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 3158.8355200345873
+        }
+      ]
+    },
+    {
+      "label": "4x2mm hollow circle hypothetical",
+      "outer_diameter_mm": 4,
+      "inner_diameter_mm": 2,
+      "I_mm4": 11.780972450961723,
+      "section_modulus_mm3": 5.890486225480862,
+      "cases": [
+        {
+          "mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 9.303538559661709,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 1579.4177600172943
+        },
+        {
+          "mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 13.024953983526391,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2211.184864024212
+        },
+        {
+          "mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 12.404718079548944,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2105.8903466897254
+        },
+        {
+          "mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 17.36660531136852,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2948.246485365615
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 10.632615496756236,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 1805.048868591193
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 14.885661695458731,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2527.0684160276705
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 14.17682066234165,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2406.7318247882577
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 19.847548927278304,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 3369.42455470356
+        }
+      ]
+    },
+    {
+      "label": "4x3mm hollow circle hypothetical",
+      "outer_diameter_mm": 4,
+      "inner_diameter_mm": 3,
+      "I_mm4": 8.59029241215959,
+      "section_modulus_mm3": 4.295146206079795,
+      "cases": [
+        {
+          "mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 9.303538559661709,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2166.058642309432
+        },
+        {
+          "mass_kg": 1.05,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 13.024953983526391,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 3032.4820992332047
+        },
+        {
+          "mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 12.404718079548944,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2888.078189745909
+        },
+        {
+          "mass_kg": 1.05,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 17.36660531136852,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 4043.309465644272
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 10.632615496756236,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 2475.495591210779
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 6,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 14.885661695458731,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 3465.693827695091
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.5,
+          "root_moment_upper_bound_Nm": 14.17682066234165,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 3300.660788281039
+        },
+        {
+          "mass_kg": 1.2,
+          "load_factor": 8,
+          "side_fraction": 0.7,
+          "root_moment_upper_bound_Nm": 19.847548927278304,
+          "conditional_nominal_outer_fibre_stress_upper_bound_MPa": 4620.925103593454
+        }
+      ]
+    }
+  ],
+  "finding": "Geometric fit of a 4mm cylinder does not establish a viable primary spar. Nominal elastic stress demand must be checked against selected orthotropic hardware and a justified load model; no allowable is supplied here.",
+  "limits": [
+    "Circular section ideal beam model only; composite tube layup, shear, ovalization, local buckling, joints and defects excluded",
+    "No material strength, elastic modulus, safety factor or pass/fail inferred",
+    "Uses root-section moment upper bound; earlier pivot moment also requires separate root bridge",
+    "Historical 16x1mm carbon caps are a separate unfrozen topology, not replaced by this fit trial",
+    "Fit trial starts Y155 while root bound is at Y148.826; root transfer remains absent"
+  ],
+  "mechanical_release": false,
+  "print_release": false,
+  "flight_release": false
+}

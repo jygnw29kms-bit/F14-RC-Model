@@ -1,0 +1,9 @@
+from pathlib import Path
+import FreeCAD as A,json,hashlib
+R=Path(__file__).resolve().parents[2];names=['Y300_SKIN_BOND_VERTICAL_RECESS_STUDY_ONLY.FCStd','WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd'];ps=[R/'migration/freecad'/n for n in names];H=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();hs=[H(p) for p in ps];out=R/'analysis/v192_y300_skin_bond_contact_reaudit.json';assert not out.exists();D=A.openDocument(str(ps[0]));sh={o.Name:o.Shape.copy() for o in D.Objects};A.closeDocument(D.Name);D=A.openDocument(str(ps[1]));wing=D.Objects[0].Shape.copy();A.closeDocument(D.Name);rows=[]
+def overlaps(a,b):return all(getattr(a,n+'Min')<=getattr(b,n+'Max')+1e-6 and getattr(b,n+'Min')<=getattr(a,n+'Max')+1e-6 for n in ('X','Y','Z'))
+def contact(a,b):
+ fs=[(f,f.BoundBox) for f in b.Faces];return sum(f.common(g).Area for f in a.Faces for g,bb in fs if overlaps(f.BoundBox,bb))
+for name in ('ROOT_CARRIER','TIP_CARRIER'):
+ c=sh[name];bond=sh[name+'_GEOMETRIC_SKIN_BOND'];r={'carrier':name,'carrier_to_skin_minimum_distance_mm':c.distToShape(wing)[0],'skin_bond_to_carrier_common_area_mm2':contact(bond,c),'skin_bond_to_wing_common_area_mm2':contact(bond,wing),'bond_carrier_overlap_mm3':bond.common(c).Volume,'bond_skin_overlap_mm3':bond.common(wing).Volume};rows.append(r);print(r,flush=True);out.write_text(json.dumps({'status':'RUNNING','rows':rows},indent=2)+'\n')
+assert [H(p) for p in ps]==hs;out.write_text(json.dumps({'status':'SAVED_VERTICAL_SKIN_BOND_CONTACT_REAUDIT_COMPLETE','input_sha256_unchanged':dict(zip(names,hs)),'rows':rows,'limits':['Minimum distance is global separation, not uniform normal thickness','Geometric bond patches do not verify adhesive wetting, cure, strength or peel','No manufacturing/assembly/flight acceptance; source partition volume gate remains blocked'],'print_release':False,'flight_release':False},indent=2)+'\n')

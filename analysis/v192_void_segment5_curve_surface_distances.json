@@ -1,0 +1,5312 @@
+{
+  "status": "SEGMENT5_NATIVE_EDGE_FACE_MAX_DISTANCES_MEASURED",
+  "input_sha256_unchanged": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4",
+  "object": "VOID_TOOL_5",
+  "edge_count": 294,
+  "face_count": 100,
+  "pair_count": 588,
+  "completed_pair_count": 588,
+  "max_distance_mm": 5.306821229437695e-07,
+  "pairs_exceeding_stored_edge_tolerance": [],
+  "rows": [
+    {
+      "face_one_based": 1,
+      "edge_one_based": 1,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2330355035493154e-13,
+      "parameter_at_max": 0.12175598103118296
+    },
+    {
+      "face_one_based": 1,
+      "edge_one_based": 2,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368770508004532e-13,
+      "parameter_at_max": 0.4998749866157167
+    },
+    {
+      "face_one_based": 1,
+      "edge_one_based": 3,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.4570868456716876e-13,
+      "parameter_at_max": 0.125199736031937
+    },
+    {
+      "face_one_based": 1,
+      "edge_one_based": 4,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368770508004532e-13,
+      "parameter_at_max": 0.875
+    },
+    {
+      "face_one_based": 2,
+      "edge_one_based": 5,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.7412884588229807e-13,
+      "parameter_at_max": 0.8270658783600382
+    },
+    {
+      "face_one_based": 2,
+      "edge_one_based": 6,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.7499960824643821
+    },
+    {
+      "face_one_based": 2,
+      "edge_one_based": 7,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.7632536771655147e-13,
+      "parameter_at_max": 0.8216964064141113
+    },
+    {
+      "face_one_based": 2,
+      "edge_one_based": 2,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.435597959122033e-13,
+      "parameter_at_max": 0.9997749999999999
+    },
+    {
+      "face_one_based": 3,
+      "edge_one_based": 8,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.273746512230935e-13,
+      "parameter_at_max": 0.9453046261360045
+    },
+    {
+      "face_one_based": 3,
+      "edge_one_based": 9,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171857626336878e-13,
+      "parameter_at_max": 0.5758092176510516
+    },
+    {
+      "face_one_based": 3,
+      "edge_one_based": 10,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.3256201865923376e-13,
+      "parameter_at_max": 0.08753398333412617
+    },
+    {
+      "face_one_based": 3,
+      "edge_one_based": 6,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.030678655220662e-13,
+      "parameter_at_max": 0.021301605441334394
+    },
+    {
+      "face_one_based": 4,
+      "edge_one_based": 11,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.273862044093962e-13,
+      "parameter_at_max": 0.8747520551696975
+    },
+    {
+      "face_one_based": 4,
+      "edge_one_based": 12,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718573962490135e-13,
+      "parameter_at_max": 0.3988544855105275
+    },
+    {
+      "face_one_based": 4,
+      "edge_one_based": 13,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2795071456305944e-13,
+      "parameter_at_max": 0.9747548478223195
+    },
+    {
+      "face_one_based": 4,
+      "edge_one_based": 9,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.3200125761482457e-13,
+      "parameter_at_max": 0.5338748724327942
+    },
+    {
+      "face_one_based": 5,
+      "edge_one_based": 14,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2738739696294526e-13,
+      "parameter_at_max": 0.9855720704323504
+    },
+    {
+      "face_one_based": 5,
+      "edge_one_based": 15,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368705456184373e-13,
+      "parameter_at_max": 0.0001
+    },
+    {
+      "face_one_based": 5,
+      "edge_one_based": 16,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.141348688031211e-13,
+      "parameter_at_max": 0.0073665720998060905
+    },
+    {
+      "face_one_based": 5,
+      "edge_one_based": 12,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.374406441879302e-13,
+      "parameter_at_max": 0.0004999000000000001
+    },
+    {
+      "face_one_based": 6,
+      "edge_one_based": 17,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.136946437092698e-13,
+      "parameter_at_max": 0.9710103486942574
+    },
+    {
+      "face_one_based": 6,
+      "edge_one_based": 18,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.35046736639455534
+    },
+    {
+      "face_one_based": 6,
+      "edge_one_based": 19,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2739492481287525e-13,
+      "parameter_at_max": 0.036767155685239375
+    },
+    {
+      "face_one_based": 6,
+      "edge_one_based": 15,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.944672473467836e-13,
+      "parameter_at_max": 0.9995245926553097
+    },
+    {
+      "face_one_based": 7,
+      "edge_one_based": 20,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1385671370409777e-13,
+      "parameter_at_max": 0.002940744169566059
+    },
+    {
+      "face_one_based": 7,
+      "edge_one_based": 21,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368770508004532e-13,
+      "parameter_at_max": 0.4141244192051318
+    },
+    {
+      "face_one_based": 7,
+      "edge_one_based": 22,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.275470816668197e-13,
+      "parameter_at_max": 0.0032326907278006347
+    },
+    {
+      "face_one_based": 7,
+      "edge_one_based": 18,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2777674979864534e-13,
+      "parameter_at_max": 0.12483416322284255
+    },
+    {
+      "face_one_based": 8,
+      "edge_one_based": 23,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1427166999796322e-13,
+      "parameter_at_max": 0.9944034660287248
+    },
+    {
+      "face_one_based": 8,
+      "edge_one_based": 24,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.9107503928584761
+    },
+    {
+      "face_one_based": 8,
+      "edge_one_based": 25,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.289555531465617e-13,
+      "parameter_at_max": 0.9968344735854985
+    },
+    {
+      "face_one_based": 8,
+      "edge_one_based": 21,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.072369237155037e-13,
+      "parameter_at_max": 0.9998117837410333
+    },
+    {
+      "face_one_based": 9,
+      "edge_one_based": 26,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.273845172064753e-13,
+      "parameter_at_max": 0.009724340643144673
+    },
+    {
+      "face_one_based": 9,
+      "edge_one_based": 27,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.9522364005865556
+    },
+    {
+      "face_one_based": 9,
+      "edge_one_based": 28,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.4139457295317155e-13,
+      "parameter_at_max": 0.002002166810077487
+    },
+    {
+      "face_one_based": 9,
+      "edge_one_based": 24,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2353026086993928e-13,
+      "parameter_at_max": 0.024857456879799133
+    },
+    {
+      "face_one_based": 10,
+      "edge_one_based": 29,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2743611691451335e-13,
+      "parameter_at_max": 0.9530858124182693
+    },
+    {
+      "face_one_based": 10,
+      "edge_one_based": 30,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.8749906890324852
+    },
+    {
+      "face_one_based": 10,
+      "edge_one_based": 31,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1418534512577734e-13,
+      "parameter_at_max": 0.998091168690249
+    },
+    {
+      "face_one_based": 10,
+      "edge_one_based": 27,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.4240862018583536e-13,
+      "parameter_at_max": 0.9977641081079965
+    },
+    {
+      "face_one_based": 11,
+      "edge_one_based": 32,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1374233532693354e-13,
+      "parameter_at_max": 0.9727090734231264
+    },
+    {
+      "face_one_based": 11,
+      "edge_one_based": 33,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171865515036332e-13,
+      "parameter_at_max": 0.8749960824643821
+    },
+    {
+      "face_one_based": 11,
+      "edge_one_based": 34,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274846706538671e-13,
+      "parameter_at_max": 0.010576398171120993
+    },
+    {
+      "face_one_based": 11,
+      "edge_one_based": 30,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0304210462706239e-12,
+      "parameter_at_max": 5.299151914496287e-05
+    },
+    {
+      "face_one_based": 12,
+      "edge_one_based": 35,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.9983760407837066
+    },
+    {
+      "face_one_based": 12,
+      "edge_one_based": 36,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171865515036332e-13,
+      "parameter_at_max": 0.8843721905222863
+    },
+    {
+      "face_one_based": 12,
+      "edge_one_based": 37,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2776365379102733e-13,
+      "parameter_at_max": 0.005810930023463743
+    },
+    {
+      "face_one_based": 12,
+      "edge_one_based": 33,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2858863894615517e-13,
+      "parameter_at_max": 0.06081222719447461
+    },
+    {
+      "face_one_based": 13,
+      "edge_one_based": 38,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1418534512577734e-13,
+      "parameter_at_max": 0.012359907208104537
+    },
+    {
+      "face_one_based": 13,
+      "edge_one_based": 39,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.375
+    },
+    {
+      "face_one_based": 13,
+      "edge_one_based": 40,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274586610110067e-13,
+      "parameter_at_max": 0.9665019201433391
+    },
+    {
+      "face_one_based": 13,
+      "edge_one_based": 36,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.315511120670285e-13,
+      "parameter_at_max": 0.9939548316380254
+    },
+    {
+      "face_one_based": 14,
+      "edge_one_based": 41,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.37446312213598953
+    },
+    {
+      "face_one_based": 14,
+      "edge_one_based": 42,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.9928281292042258
+    },
+    {
+      "face_one_based": 14,
+      "edge_one_based": 43,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274170393950171e-13,
+      "parameter_at_max": 0.913532193857996
+    },
+    {
+      "face_one_based": 14,
+      "edge_one_based": 39,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1961425599816058e-13,
+      "parameter_at_max": 0.02233398808746335
+    },
+    {
+      "face_one_based": 15,
+      "edge_one_based": 44,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.12588762133565987
+    },
+    {
+      "face_one_based": 15,
+      "edge_one_based": 45,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.8749960824643821
+    },
+    {
+      "face_one_based": 15,
+      "edge_one_based": 46,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1383332747656394e-13,
+      "parameter_at_max": 0.9984368476753608
+    },
+    {
+      "face_one_based": 15,
+      "edge_one_based": 42,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.174580281266899e-13,
+      "parameter_at_max": 0.00029555033968756275
+    },
+    {
+      "face_one_based": 16,
+      "edge_one_based": 47,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737367544323206e-13,
+      "parameter_at_max": 0.9987093081424663
+    },
+    {
+      "face_one_based": 16,
+      "edge_one_based": 48,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.4713297217823268
+    },
+    {
+      "face_one_based": 16,
+      "edge_one_based": 49,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274170393950171e-13,
+      "parameter_at_max": 0.004939228635503196
+    },
+    {
+      "face_one_based": 16,
+      "edge_one_based": 45,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.293908843477926e-13,
+      "parameter_at_max": 0.7944034289425346
+    },
+    {
+      "face_one_based": 17,
+      "edge_one_based": 50,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.402848370416719
+    },
+    {
+      "face_one_based": 17,
+      "edge_one_based": 51,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.5100091544020146
+    },
+    {
+      "face_one_based": 17,
+      "edge_one_based": 52,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.7494326054460384
+    },
+    {
+      "face_one_based": 17,
+      "edge_one_based": 48,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.964266719268842e-13,
+      "parameter_at_max": 0.9878320703829631
+    },
+    {
+      "face_one_based": 18,
+      "edge_one_based": 53,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.4106166964520467e-13,
+      "parameter_at_max": 0.9723129001542098
+    },
+    {
+      "face_one_based": 18,
+      "edge_one_based": 54,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.6249960824643821
+    },
+    {
+      "face_one_based": 18,
+      "edge_one_based": 55,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1374233532693354e-13,
+      "parameter_at_max": 0.998875174902466
+    },
+    {
+      "face_one_based": 18,
+      "edge_one_based": 51,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2925328558047906e-13,
+      "parameter_at_max": 0.011613505057429984
+    },
+    {
+      "face_one_based": 19,
+      "edge_one_based": 56,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1371805845725668e-13,
+      "parameter_at_max": 0.9915596491700358
+    },
+    {
+      "face_one_based": 19,
+      "edge_one_based": 57,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.12278357100498882
+    },
+    {
+      "face_one_based": 19,
+      "edge_one_based": 58,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1371805845725668e-13,
+      "parameter_at_max": 0.001061506109301435
+    },
+    {
+      "face_one_based": 19,
+      "edge_one_based": 54,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1723955140041653e-13,
+      "parameter_at_max": 0.8930489981392653
+    },
+    {
+      "face_one_based": 20,
+      "edge_one_based": 59,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.3752647999891952
+    },
+    {
+      "face_one_based": 20,
+      "edge_one_based": 60,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.8336316343049176
+    },
+    {
+      "face_one_based": 20,
+      "edge_one_based": 61,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1374233532693354e-13,
+      "parameter_at_max": 0.9736401530546699
+    },
+    {
+      "face_one_based": 20,
+      "edge_one_based": 57,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.5
+    },
+    {
+      "face_one_based": 21,
+      "edge_one_based": 62,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.8742586003572145
+    },
+    {
+      "face_one_based": 21,
+      "edge_one_based": 63,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.5352904705982595
+    },
+    {
+      "face_one_based": 21,
+      "edge_one_based": 64,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2740142932498854e-13,
+      "parameter_at_max": 0.8742483301107976
+    },
+    {
+      "face_one_based": 21,
+      "edge_one_based": 60,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.12483414704167606
+    },
+    {
+      "face_one_based": 22,
+      "edge_one_based": 65,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.0009839411126061968
+    },
+    {
+      "face_one_based": 22,
+      "edge_one_based": 66,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.37277203608194204
+    },
+    {
+      "face_one_based": 22,
+      "edge_one_based": 67,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1377354083340986e-13,
+      "parameter_at_max": 0.02336758684526448
+    },
+    {
+      "face_one_based": 22,
+      "edge_one_based": 63,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1723955140041653e-13,
+      "parameter_at_max": 0.4188845752141091
+    },
+    {
+      "face_one_based": 23,
+      "edge_one_based": 68,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.3751580380645856
+    },
+    {
+      "face_one_based": 23,
+      "edge_one_based": 69,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.375
+    },
+    {
+      "face_one_based": 23,
+      "edge_one_based": 70,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.275141446545404e-13,
+      "parameter_at_max": 0.9987538521445656
+    },
+    {
+      "face_one_based": 23,
+      "edge_one_based": 66,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2922747661627823e-13,
+      "parameter_at_max": 0.0707884722309458
+    },
+    {
+      "face_one_based": 24,
+      "edge_one_based": 71,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.9990714675391171
+    },
+    {
+      "face_one_based": 24,
+      "edge_one_based": 72,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.230481499607217
+    },
+    {
+      "face_one_based": 24,
+      "edge_one_based": 73,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.141058685636843e-13,
+      "parameter_at_max": 0.9840572076277222
+    },
+    {
+      "face_one_based": 24,
+      "edge_one_based": 69,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2918617622828184e-13,
+      "parameter_at_max": 0.002981160250057278
+    },
+    {
+      "face_one_based": 25,
+      "edge_one_based": 74,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.9990195186501166
+    },
+    {
+      "face_one_based": 25,
+      "edge_one_based": 75,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.8750000248492185
+    },
+    {
+      "face_one_based": 25,
+      "edge_one_based": 76,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.143173957502426e-13,
+      "parameter_at_max": 0.000848395409477594
+    },
+    {
+      "face_one_based": 25,
+      "edge_one_based": 72,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1726982630121825e-13,
+      "parameter_at_max": 0.4859806162284727
+    },
+    {
+      "face_one_based": 26,
+      "edge_one_based": 77,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.662083902394658
+    },
+    {
+      "face_one_based": 26,
+      "edge_one_based": 78,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.75
+    },
+    {
+      "face_one_based": 26,
+      "edge_one_based": 79,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.4130357695985584e-13,
+      "parameter_at_max": 0.0008708393261900825
+    },
+    {
+      "face_one_based": 26,
+      "edge_one_based": 75,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1493248391088502e-13,
+      "parameter_at_max": 0.0950070123606205
+    },
+    {
+      "face_one_based": 27,
+      "edge_one_based": 80,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.273806142312601e-13,
+      "parameter_at_max": 0.8744383019143479
+    },
+    {
+      "face_one_based": 27,
+      "edge_one_based": 81,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.2527503750271707
+    },
+    {
+      "face_one_based": 27,
+      "edge_one_based": 82,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1441396364283416e-13,
+      "parameter_at_max": 0.0010005736970851227
+    },
+    {
+      "face_one_based": 27,
+      "edge_one_based": 78,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1436482767251642e-13,
+      "parameter_at_max": 0.999379204967343
+    },
+    {
+      "face_one_based": 28,
+      "edge_one_based": 83,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.8741943447276048
+    },
+    {
+      "face_one_based": 28,
+      "edge_one_based": 84,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171865515036332e-13,
+      "parameter_at_max": 0.5004606746715907
+    },
+    {
+      "face_one_based": 28,
+      "edge_one_based": 85,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.278173318171838e-13,
+      "parameter_at_max": 0.0007273976705851977
+    },
+    {
+      "face_one_based": 28,
+      "edge_one_based": 81,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.275470816668197e-13,
+      "parameter_at_max": 0.1753884126671494
+    },
+    {
+      "face_one_based": 29,
+      "edge_one_based": 86,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.1256723469825705
+    },
+    {
+      "face_one_based": 29,
+      "edge_one_based": 87,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368770508004532e-13,
+      "parameter_at_max": 0.75
+    },
+    {
+      "face_one_based": 29,
+      "edge_one_based": 88,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2776365379102733e-13,
+      "parameter_at_max": 0.9894387448639941
+    },
+    {
+      "face_one_based": 29,
+      "edge_one_based": 84,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1918894410324426e-13,
+      "parameter_at_max": 0.9977422485227222
+    },
+    {
+      "face_one_based": 30,
+      "edge_one_based": 89,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.136946437092698e-13,
+      "parameter_at_max": 0.9989712404521264
+    },
+    {
+      "face_one_based": 30,
+      "edge_one_based": 90,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368770508004532e-13,
+      "parameter_at_max": 0.75
+    },
+    {
+      "face_one_based": 30,
+      "edge_one_based": 91,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2799905059308693e-13,
+      "parameter_at_max": 0.9931539390658227
+    },
+    {
+      "face_one_based": 30,
+      "edge_one_based": 87,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.295301190588836e-13,
+      "parameter_at_max": 0.00481558076792648
+    },
+    {
+      "face_one_based": 31,
+      "edge_one_based": 92,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1436482767251642e-13,
+      "parameter_at_max": 0.0009387226213659995
+    },
+    {
+      "face_one_based": 31,
+      "edge_one_based": 93,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171865515036332e-13,
+      "parameter_at_max": 0.9996661040345445
+    },
+    {
+      "face_one_based": 31,
+      "edge_one_based": 94,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1406870292039651e-13,
+      "parameter_at_max": 0.9444650600489284
+    },
+    {
+      "face_one_based": 31,
+      "edge_one_based": 90,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1457157353758233e-13,
+      "parameter_at_max": 0.019932920073419663
+    },
+    {
+      "face_one_based": 32,
+      "edge_one_based": 95,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.137570723272702e-13,
+      "parameter_at_max": 0.9994876457363193
+    },
+    {
+      "face_one_based": 32,
+      "edge_one_based": 96,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.8304960236869803
+    },
+    {
+      "face_one_based": 32,
+      "edge_one_based": 97,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.137570723272702e-13,
+      "parameter_at_max": 0.9993116582357443
+    },
+    {
+      "face_one_based": 32,
+      "edge_one_based": 93,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2068854531075876e-13,
+      "parameter_at_max": 0.9998816925323282
+    },
+    {
+      "face_one_based": 33,
+      "edge_one_based": 98,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2739492481287525e-13,
+      "parameter_at_max": 0.04020893979183704
+    },
+    {
+      "face_one_based": 33,
+      "edge_one_based": 99,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171859204081017e-13,
+      "parameter_at_max": 0.6713861106970583
+    },
+    {
+      "face_one_based": 33,
+      "edge_one_based": 100,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.276896093029736e-13,
+      "parameter_at_max": 0.9451783482158506
+    },
+    {
+      "face_one_based": 33,
+      "edge_one_based": 96,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.139086659085919e-13,
+      "parameter_at_max": 1.0
+    },
+    {
+      "face_one_based": 34,
+      "edge_one_based": 101,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.4106311524013594e-13,
+      "parameter_at_max": 0.008411545489642978
+    },
+    {
+      "face_one_based": 34,
+      "edge_one_based": 102,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171865515036332e-13,
+      "parameter_at_max": 0.9346702803570808
+    },
+    {
+      "face_one_based": 34,
+      "edge_one_based": 103,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.168184664478389e-13,
+      "parameter_at_max": 0.0003625853431146655
+    },
+    {
+      "face_one_based": 34,
+      "edge_one_based": 99,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2941194687276276e-13,
+      "parameter_at_max": 0.0048534018502593285
+    },
+    {
+      "face_one_based": 35,
+      "edge_one_based": 104,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370440044023687e-13,
+      "parameter_at_max": 0.999738548774173
+    },
+    {
+      "face_one_based": 35,
+      "edge_one_based": 105,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368705456184373e-13,
+      "parameter_at_max": 0.011673258721597413
+    },
+    {
+      "face_one_based": 35,
+      "edge_one_based": 106,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.27904315309711e-13,
+      "parameter_at_max": 0.9638978622880988
+    },
+    {
+      "face_one_based": 35,
+      "edge_one_based": 102,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2986539680197554e-13,
+      "parameter_at_max": 0.4022429598153352
+    },
+    {
+      "face_one_based": 36,
+      "edge_one_based": 107,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1375322572087815e-13,
+      "parameter_at_max": 0.0024118887186341483
+    },
+    {
+      "face_one_based": 36,
+      "edge_one_based": 108,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718572319005113e-13,
+      "parameter_at_max": 0.9243136860517196
+    },
+    {
+      "face_one_based": 36,
+      "edge_one_based": 109,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1583494782190817e-13,
+      "parameter_at_max": 0.0017327781716277514
+    },
+    {
+      "face_one_based": 36,
+      "edge_one_based": 105,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1474443656824933e-13,
+      "parameter_at_max": 0.0005054422919042537
+    },
+    {
+      "face_one_based": 37,
+      "edge_one_based": 110,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1372782672711148e-13,
+      "parameter_at_max": 0.12503872553219872
+    },
+    {
+      "face_one_based": 37,
+      "edge_one_based": 111,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571332913987e-13,
+      "parameter_at_max": 0.7499960824643821
+    },
+    {
+      "face_one_based": 37,
+      "edge_one_based": 112,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.4177894844064306e-13,
+      "parameter_at_max": 0.05461245368048525
+    },
+    {
+      "face_one_based": 37,
+      "edge_one_based": 108,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2144038434169442e-13,
+      "parameter_at_max": 0.0005224213420106616
+    },
+    {
+      "face_one_based": 38,
+      "edge_one_based": 113,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.136940067824421e-13,
+      "parameter_at_max": 0.9253066992311189
+    },
+    {
+      "face_one_based": 38,
+      "edge_one_based": 114,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.4148961e-07,
+      "max_distance_mm": 1.1718572319005113e-13,
+      "parameter_at_max": 0.5806469256912734
+    },
+    {
+      "face_one_based": 38,
+      "edge_one_based": 115,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1690844819010117e-13,
+      "parameter_at_max": 0.0003660487031313665
+    },
+    {
+      "face_one_based": 38,
+      "edge_one_based": 111,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.3391431055729487e-13,
+      "parameter_at_max": 0.9995
+    },
+    {
+      "face_one_based": 39,
+      "edge_one_based": 116,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2738221506904204e-13,
+      "parameter_at_max": 0.9672967308196248
+    },
+    {
+      "face_one_based": 39,
+      "edge_one_based": 117,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 4.90956316e-07,
+      "max_distance_mm": 1.1718572319005113e-13,
+      "parameter_at_max": 0.400567839892058
+    },
+    {
+      "face_one_based": 39,
+      "edge_one_based": 118,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1506624801925828e-13,
+      "parameter_at_max": 0.9839169756644747
+    },
+    {
+      "face_one_based": 39,
+      "edge_one_based": 114,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.4148961e-07,
+      "max_distance_mm": 5.157044064615585e-07,
+      "parameter_at_max": 0.9999999999999998
+    },
+    {
+      "face_one_based": 40,
+      "edge_one_based": 119,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370851969750854e-13,
+      "parameter_at_max": 0.0003749036037144567
+    },
+    {
+      "face_one_based": 40,
+      "edge_one_based": 120,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.42850518e-07,
+      "max_distance_mm": 1.171857626336878e-13,
+      "parameter_at_max": 0.00020458321707939606
+    },
+    {
+      "face_one_based": 40,
+      "edge_one_based": 121,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.168184664478389e-13,
+      "parameter_at_max": 0.00023170776777012346
+    },
+    {
+      "face_one_based": 40,
+      "edge_one_based": 117,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 4.90956316e-07,
+      "max_distance_mm": 4.6757745905723365e-07,
+      "parameter_at_max": 5.511950651016256e-08
+    },
+    {
+      "face_one_based": 41,
+      "edge_one_based": 122,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737757853755275e-13,
+      "parameter_at_max": 0.00329116539933102
+    },
+    {
+      "face_one_based": 41,
+      "edge_one_based": 123,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.28826689e-07,
+      "max_distance_mm": 1.171859204081017e-13,
+      "parameter_at_max": 0.7201116706893587
+    },
+    {
+      "face_one_based": 41,
+      "edge_one_based": 124,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.279119139694109e-13,
+      "parameter_at_max": 0.9537896112994302
+    },
+    {
+      "face_one_based": 41,
+      "edge_one_based": 120,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.42850518e-07,
+      "max_distance_mm": 5.1700049366686e-07,
+      "parameter_at_max": 1.0
+    },
+    {
+      "face_one_based": 42,
+      "edge_one_based": 125,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370440044023687e-13,
+      "parameter_at_max": 0.9997245847348748
+    },
+    {
+      "face_one_based": 42,
+      "edge_one_based": 126,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171859204081017e-13,
+      "parameter_at_max": 0.7219308556411235
+    },
+    {
+      "face_one_based": 42,
+      "edge_one_based": 127,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1592089490148452e-13,
+      "parameter_at_max": 0.00035585663434065036
+    },
+    {
+      "face_one_based": 42,
+      "edge_one_based": 123,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.28826689e-07,
+      "max_distance_mm": 2.179301803024077e-07,
+      "parameter_at_max": 0.0
+    },
+    {
+      "face_one_based": 43,
+      "edge_one_based": 128,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.273806142312601e-13,
+      "parameter_at_max": 0.12495887088186165
+    },
+    {
+      "face_one_based": 43,
+      "edge_one_based": 129,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171859204081017e-13,
+      "parameter_at_max": 0.9106918890827175
+    },
+    {
+      "face_one_based": 43,
+      "edge_one_based": 130,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1510073564529573e-13,
+      "parameter_at_max": 0.0005532841143506843
+    },
+    {
+      "face_one_based": 43,
+      "edge_one_based": 126,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.642422457508113e-08,
+      "parameter_at_max": 1.0
+    },
+    {
+      "face_one_based": 44,
+      "edge_one_based": 131,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369746240643762e-13,
+      "parameter_at_max": 0.9997010556282209
+    },
+    {
+      "face_one_based": 44,
+      "edge_one_based": 132,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.8747497248985738
+    },
+    {
+      "face_one_based": 44,
+      "edge_one_based": 133,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370851969750854e-13,
+      "parameter_at_max": 0.12498733016369125
+    },
+    {
+      "face_one_based": 44,
+      "edge_one_based": 129,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.871433692904042e-08,
+      "parameter_at_max": 0.9999999184269449
+    },
+    {
+      "face_one_based": 45,
+      "edge_one_based": 134,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.136946437092698e-13,
+      "parameter_at_max": 0.9934976619479853
+    },
+    {
+      "face_one_based": 45,
+      "edge_one_based": 135,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.3715458797722405
+    },
+    {
+      "face_one_based": 45,
+      "edge_one_based": 136,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.273845172064753e-13,
+      "parameter_at_max": 0.9866022758489041
+    },
+    {
+      "face_one_based": 45,
+      "edge_one_based": 132,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.492897493432763e-08,
+      "parameter_at_max": 0.0
+    },
+    {
+      "face_one_based": 46,
+      "edge_one_based": 137,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.410651390627462e-13,
+      "parameter_at_max": 0.8748829873044022
+    },
+    {
+      "face_one_based": 46,
+      "edge_one_based": 138,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368770508004532e-13,
+      "parameter_at_max": 0.0
+    },
+    {
+      "face_one_based": 46,
+      "edge_one_based": 139,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370851969750854e-13,
+      "parameter_at_max": 0.9636118771001145
+    },
+    {
+      "face_one_based": 46,
+      "edge_one_based": 135,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.7853555263253304e-08,
+      "parameter_at_max": 0.9999999967355705
+    },
+    {
+      "face_one_based": 47,
+      "edge_one_based": 140,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.882874180115687e-13,
+      "parameter_at_max": 1.5712081832033882
+    },
+    {
+      "face_one_based": 47,
+      "edge_one_based": 141,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.842517866562357e-14,
+      "parameter_at_max": 0.3875117994326459
+    },
+    {
+      "face_one_based": 47,
+      "edge_one_based": 142,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.7197552325911332e-12,
+      "parameter_at_max": 1.5707964208537202
+    },
+    {
+      "face_one_based": 47,
+      "edge_one_based": 138,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.380208188390775e-12,
+      "parameter_at_max": 0.999999891875079
+    },
+    {
+      "face_one_based": 48,
+      "edge_one_based": 143,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1740428696145103e-13,
+      "parameter_at_max": 4.6e-14
+    },
+    {
+      "face_one_based": 48,
+      "edge_one_based": 144,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171865515036332e-13,
+      "parameter_at_max": 0.7499960824643821
+    },
+    {
+      "face_one_based": 48,
+      "edge_one_based": 145,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.145173388776582e-13,
+      "parameter_at_max": 0.9992996280851271
+    },
+    {
+      "face_one_based": 48,
+      "edge_one_based": 141,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.3875271547868492e-12,
+      "parameter_at_max": 0.9998996889253854
+    },
+    {
+      "face_one_based": 49,
+      "edge_one_based": 146,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.9997895208054405
+    },
+    {
+      "face_one_based": 49,
+      "edge_one_based": 147,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171865515036332e-13,
+      "parameter_at_max": 0.8665074689695772
+    },
+    {
+      "face_one_based": 49,
+      "edge_one_based": 148,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1381166927749112e-13,
+      "parameter_at_max": 0.999903299613078
+    },
+    {
+      "face_one_based": 49,
+      "edge_one_based": 144,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.281679661230346e-08,
+      "parameter_at_max": 1.0
+    },
+    {
+      "face_one_based": 50,
+      "edge_one_based": 149,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737410912368746e-13,
+      "parameter_at_max": 0.40754682672488096
+    },
+    {
+      "face_one_based": 50,
+      "edge_one_based": 150,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.51487888e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.08103295350284578
+    },
+    {
+      "face_one_based": 50,
+      "edge_one_based": 151,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.3322676295501878e-15,
+      "parameter_at_max": 0.0
+    },
+    {
+      "face_one_based": 50,
+      "edge_one_based": 147,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1535382849852894e-13,
+      "parameter_at_max": 0.0016461158557053157
+    },
+    {
+      "face_one_based": 51,
+      "edge_one_based": 152,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1388182689551367e-13,
+      "parameter_at_max": 0.9994391240586948
+    },
+    {
+      "face_one_based": 51,
+      "edge_one_based": 153,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.9997924622465931
+    },
+    {
+      "face_one_based": 51,
+      "edge_one_based": 154,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.4111717609147936e-13,
+      "parameter_at_max": 0.9720673066636928
+    },
+    {
+      "face_one_based": 51,
+      "edge_one_based": 150,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.51487888e-07,
+      "max_distance_mm": 5.25226566288535e-07,
+      "parameter_at_max": 5.649942894933027e-10
+    },
+    {
+      "face_one_based": 52,
+      "edge_one_based": 155,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.996724950234328e-11,
+      "parameter_at_max": 1.572440376327097
+    },
+    {
+      "face_one_based": 52,
+      "edge_one_based": 156,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171865515036332e-13,
+      "parameter_at_max": 0.8751637155740426
+    },
+    {
+      "face_one_based": 52,
+      "edge_one_based": 157,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.924655031366819e-11,
+      "parameter_at_max": 1.572086323905765
+    },
+    {
+      "face_one_based": 52,
+      "edge_one_based": 153,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.962603998151039e-11,
+      "parameter_at_max": 0.00014016045999626635
+    },
+    {
+      "face_one_based": 53,
+      "edge_one_based": 158,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.275470816668197e-13,
+      "parameter_at_max": 9.121063879838766e-05
+    },
+    {
+      "face_one_based": 53,
+      "edge_one_based": 159,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.52550838e-07,
+      "max_distance_mm": 1.1368770508004532e-13,
+      "parameter_at_max": 0.0
+    },
+    {
+      "face_one_based": 53,
+      "edge_one_based": 160,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368770508004532e-13,
+      "parameter_at_max": 0.625
+    },
+    {
+      "face_one_based": 53,
+      "edge_one_based": 156,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.985447078862476e-11,
+      "parameter_at_max": 0.00012857381890267025
+    },
+    {
+      "face_one_based": 54,
+      "edge_one_based": 161,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368770508004532e-13,
+      "parameter_at_max": 0.7720941375123848
+    },
+    {
+      "face_one_based": 54,
+      "edge_one_based": 162,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.37700411e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.9933046881451006
+    },
+    {
+      "face_one_based": 54,
+      "edge_one_based": 163,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737757853755275e-13,
+      "parameter_at_max": 0.9995221672984569
+    },
+    {
+      "face_one_based": 54,
+      "edge_one_based": 159,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.52550838e-07,
+      "max_distance_mm": 2.405246124853399e-07,
+      "parameter_at_max": 2.1158068838253482e-08
+    },
+    {
+      "face_one_based": 55,
+      "edge_one_based": 164,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.624896437744258
+    },
+    {
+      "face_one_based": 55,
+      "edge_one_based": 165,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.30281936e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.49955487145435457
+    },
+    {
+      "face_one_based": 55,
+      "edge_one_based": 166,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.410651390627462e-13,
+      "parameter_at_max": 0.74989166400531
+    },
+    {
+      "face_one_based": 55,
+      "edge_one_based": 162,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.37700411e-07,
+      "max_distance_mm": 2.2638134422468928e-07,
+      "parameter_at_max": 1.0
+    },
+    {
+      "face_one_based": 56,
+      "edge_one_based": 167,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737757853755275e-13,
+      "parameter_at_max": 0.9755142511375425
+    },
+    {
+      "face_one_based": 56,
+      "edge_one_based": 168,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.48091826e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.375
+    },
+    {
+      "face_one_based": 56,
+      "edge_one_based": 169,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.139086659085919e-13,
+      "parameter_at_max": 0.999817686373892
+    },
+    {
+      "face_one_based": 56,
+      "edge_one_based": 165,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.30281936e-07,
+      "max_distance_mm": 2.193161307005281e-07,
+      "parameter_at_max": 0.9999999999999998
+    },
+    {
+      "face_one_based": 57,
+      "edge_one_based": 170,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.0
+    },
+    {
+      "face_one_based": 57,
+      "edge_one_based": 171,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.32273812e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.125
+    },
+    {
+      "face_one_based": 57,
+      "edge_one_based": 172,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.139086659085919e-13,
+      "parameter_at_max": 0.8748344119092655
+    },
+    {
+      "face_one_based": 57,
+      "edge_one_based": 168,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.48091826e-07,
+      "max_distance_mm": 2.3627792916383343e-07,
+      "parameter_at_max": 1.0
+    },
+    {
+      "face_one_based": 58,
+      "edge_one_based": 173,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.6248927099493287
+    },
+    {
+      "face_one_based": 58,
+      "edge_one_based": 174,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.21930355e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.6961406911456137
+    },
+    {
+      "face_one_based": 58,
+      "edge_one_based": 175,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.139086659085919e-13,
+      "parameter_at_max": 0.9963711266963777
+    },
+    {
+      "face_one_based": 58,
+      "edge_one_based": 171,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 2.32273812e-07,
+      "max_distance_mm": 2.2121316069039904e-07,
+      "parameter_at_max": 0.9999999906890322
+    },
+    {
+      "face_one_based": 59,
+      "edge_one_based": 176,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1371805845725668e-13,
+      "parameter_at_max": 0.9677185842956002
+    },
+    {
+      "face_one_based": 59,
+      "edge_one_based": 177,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.2713912e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.25
+    },
+    {
+      "face_one_based": 59,
+      "edge_one_based": 178,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.548028586499771e-13,
+      "parameter_at_max": 0.9810702824383634
+    },
+    {
+      "face_one_based": 59,
+      "edge_one_based": 174,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.21930355e-07,
+      "max_distance_mm": 4.9707653505161e-07,
+      "parameter_at_max": 0.9999999999999998
+    },
+    {
+      "face_one_based": 60,
+      "edge_one_based": 179,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.44455938788342897
+    },
+    {
+      "face_one_based": 60,
+      "edge_one_based": 180,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.9979305570959767
+    },
+    {
+      "face_one_based": 60,
+      "edge_one_based": 181,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.139086659085919e-13,
+      "parameter_at_max": 0.04588683436344873
+    },
+    {
+      "face_one_based": 60,
+      "edge_one_based": 177,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.2713912e-07,
+      "max_distance_mm": 5.020372594246216e-07,
+      "parameter_at_max": 0.9999999418484123
+    },
+    {
+      "face_one_based": 61,
+      "edge_one_based": 182,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1371805845725668e-13,
+      "parameter_at_max": 0.8748447951801783
+    },
+    {
+      "face_one_based": 61,
+      "edge_one_based": 183,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.57216224e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.8950801396645901
+    },
+    {
+      "face_one_based": 61,
+      "edge_one_based": 184,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.139086659085919e-13,
+      "parameter_at_max": 0.9439706451648906
+    },
+    {
+      "face_one_based": 61,
+      "edge_one_based": 180,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.172159988492798e-13,
+      "parameter_at_max": 0.6747055042377795
+    },
+    {
+      "face_one_based": 62,
+      "edge_one_based": 185,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1377354083340986e-13,
+      "parameter_at_max": 0.15182708670757694
+    },
+    {
+      "face_one_based": 62,
+      "edge_one_based": 186,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.9148413624018773
+    },
+    {
+      "face_one_based": 62,
+      "edge_one_based": 187,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1377354083340986e-13,
+      "parameter_at_max": 0.9996163214504027
+    },
+    {
+      "face_one_based": 62,
+      "edge_one_based": 183,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 5.57216224e-07,
+      "max_distance_mm": 5.306821229437695e-07,
+      "parameter_at_max": 0.9999999967355705
+    },
+    {
+      "face_one_based": 63,
+      "edge_one_based": 188,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.13576103789523605
+    },
+    {
+      "face_one_based": 63,
+      "edge_one_based": 189,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.8536369481552796
+    },
+    {
+      "face_one_based": 63,
+      "edge_one_based": 190,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274586610110067e-13,
+      "parameter_at_max": 0.9805549604683255
+    },
+    {
+      "face_one_based": 63,
+      "edge_one_based": 186,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.293908843477926e-13,
+      "parameter_at_max": 0.9625404608228636
+    },
+    {
+      "face_one_based": 64,
+      "edge_one_based": 191,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.874828419482278
+    },
+    {
+      "face_one_based": 64,
+      "edge_one_based": 192,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.5836181755276456
+    },
+    {
+      "face_one_based": 64,
+      "edge_one_based": 193,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274586610110067e-13,
+      "parameter_at_max": 0.00031456667288607543
+    },
+    {
+      "face_one_based": 64,
+      "edge_one_based": 189,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2928253222789006e-13,
+      "parameter_at_max": 9.99960824643821e-05
+    },
+    {
+      "face_one_based": 65,
+      "edge_one_based": 194,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2740142932498854e-13,
+      "parameter_at_max": 0.0004459827289215393
+    },
+    {
+      "face_one_based": 65,
+      "edge_one_based": 195,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.028672038499097083
+    },
+    {
+      "face_one_based": 65,
+      "edge_one_based": 196,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274586610110067e-13,
+      "parameter_at_max": 0.9795044477626809
+    },
+    {
+      "face_one_based": 65,
+      "edge_one_based": 192,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1827122038509192e-13,
+      "parameter_at_max": 0.0007988073554728015
+    },
+    {
+      "face_one_based": 66,
+      "edge_one_based": 197,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.7494303771969565
+    },
+    {
+      "face_one_based": 66,
+      "edge_one_based": 198,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.6807258578405806
+    },
+    {
+      "face_one_based": 66,
+      "edge_one_based": 199,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1377354083340986e-13,
+      "parameter_at_max": 0.9818225190212134
+    },
+    {
+      "face_one_based": 66,
+      "edge_one_based": 195,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.291706866638796e-13,
+      "parameter_at_max": 0.04429843781234547
+    },
+    {
+      "face_one_based": 67,
+      "edge_one_based": 200,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.9994492226288811
+    },
+    {
+      "face_one_based": 67,
+      "edge_one_based": 201,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.9996889253855944
+    },
+    {
+      "face_one_based": 67,
+      "edge_one_based": 202,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.8748140688552775
+    },
+    {
+      "face_one_based": 67,
+      "edge_one_based": 198,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274586610110067e-13,
+      "parameter_at_max": 0.875
+    },
+    {
+      "face_one_based": 68,
+      "edge_one_based": 203,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.250141552231384
+    },
+    {
+      "face_one_based": 68,
+      "edge_one_based": 204,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.125
+    },
+    {
+      "face_one_based": 68,
+      "edge_one_based": 205,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2740142932498854e-13,
+      "parameter_at_max": 0.9844960033095703
+    },
+    {
+      "face_one_based": 68,
+      "edge_one_based": 201,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2928253222789006e-13,
+      "parameter_at_max": 0.999582038460214
+    },
+    {
+      "face_one_based": 69,
+      "edge_one_based": 206,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.7498444640311067
+    },
+    {
+      "face_one_based": 69,
+      "edge_one_based": 207,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.3751196709894188
+    },
+    {
+      "face_one_based": 69,
+      "edge_one_based": 208,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2740142932498854e-13,
+      "parameter_at_max": 0.9995310186195353
+    },
+    {
+      "face_one_based": 69,
+      "edge_one_based": 204,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.422841892343317e-13,
+      "parameter_at_max": 0.9330117662791948
+    },
+    {
+      "face_one_based": 70,
+      "edge_one_based": 209,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.9538062044440603
+    },
+    {
+      "face_one_based": 70,
+      "edge_one_based": 210,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.4321958674628419
+    },
+    {
+      "face_one_based": 70,
+      "edge_one_based": 211,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2740142932498854e-13,
+      "parameter_at_max": 0.9474097921506216
+    },
+    {
+      "face_one_based": 70,
+      "edge_one_based": 207,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.410651390627462e-13,
+      "parameter_at_max": 0.5958172545772569
+    },
+    {
+      "face_one_based": 71,
+      "edge_one_based": 212,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.1251756142109099
+    },
+    {
+      "face_one_based": 71,
+      "edge_one_based": 213,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.23658665855406094
+    },
+    {
+      "face_one_based": 71,
+      "edge_one_based": 214,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274170393950171e-13,
+      "parameter_at_max": 0.9993320437289256
+    },
+    {
+      "face_one_based": 71,
+      "edge_one_based": 210,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274170393950171e-13,
+      "parameter_at_max": 0.9999000223609352
+    },
+    {
+      "face_one_based": 72,
+      "edge_one_based": 215,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.3750959949356232
+    },
+    {
+      "face_one_based": 72,
+      "edge_one_based": 216,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.25
+    },
+    {
+      "face_one_based": 72,
+      "edge_one_based": 217,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.9925107876635955
+    },
+    {
+      "face_one_based": 72,
+      "edge_one_based": 213,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1371805845725668e-13,
+      "parameter_at_max": 0.125
+    },
+    {
+      "face_one_based": 73,
+      "edge_one_based": 218,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.2180034466207274
+    },
+    {
+      "face_one_based": 73,
+      "edge_one_based": 219,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.8031202371550576
+    },
+    {
+      "face_one_based": 73,
+      "edge_one_based": 220,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.410651390627462e-13,
+      "parameter_at_max": 0.9994689653345015
+    },
+    {
+      "face_one_based": 73,
+      "edge_one_based": 216,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2914486839642684e-13,
+      "parameter_at_max": 0.9957850598800193
+    },
+    {
+      "face_one_based": 74,
+      "edge_one_based": 221,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.9992797918789942
+    },
+    {
+      "face_one_based": 74,
+      "edge_one_based": 222,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.9140856246619834
+    },
+    {
+      "face_one_based": 74,
+      "edge_one_based": 223,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.8747604779448501
+    },
+    {
+      "face_one_based": 74,
+      "edge_one_based": 219,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.291500322826323e-13,
+      "parameter_at_max": 0.874838254811796
+    },
+    {
+      "face_one_based": 75,
+      "edge_one_based": 224,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.7495740678245164
+    },
+    {
+      "face_one_based": 75,
+      "edge_one_based": 225,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.545144021480839
+    },
+    {
+      "face_one_based": 75,
+      "edge_one_based": 226,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.999718397112156
+    },
+    {
+      "face_one_based": 75,
+      "edge_one_based": 222,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.422438546827701e-13,
+      "parameter_at_max": 0.8749978902870013
+    },
+    {
+      "face_one_based": 76,
+      "edge_one_based": 227,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.4443563674297725
+    },
+    {
+      "face_one_based": 76,
+      "edge_one_based": 228,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.6505210386873117
+    },
+    {
+      "face_one_based": 76,
+      "edge_one_based": 229,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.7498380879808687
+    },
+    {
+      "face_one_based": 76,
+      "edge_one_based": 225,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1371805845725668e-13,
+      "parameter_at_max": 0.13227920564375428
+    },
+    {
+      "face_one_based": 77,
+      "edge_one_based": 230,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.9766364114446564
+    },
+    {
+      "face_one_based": 77,
+      "edge_one_based": 231,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.6787091306336166
+    },
+    {
+      "face_one_based": 77,
+      "edge_one_based": 232,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.125212911863654
+    },
+    {
+      "face_one_based": 77,
+      "edge_one_based": 228,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.291500322826323e-13,
+      "parameter_at_max": 0.029715734844431504
+    },
+    {
+      "face_one_based": 78,
+      "edge_one_based": 233,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.8748470632669834
+    },
+    {
+      "face_one_based": 78,
+      "edge_one_based": 234,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.36064074606241264
+    },
+    {
+      "face_one_based": 78,
+      "edge_one_based": 235,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.6249190716159765
+    },
+    {
+      "face_one_based": 78,
+      "edge_one_based": 231,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1374233532693354e-13,
+      "parameter_at_max": 0.25
+    },
+    {
+      "face_one_based": 79,
+      "edge_one_based": 236,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.1252521941001758
+    },
+    {
+      "face_one_based": 79,
+      "edge_one_based": 237,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.75
+    },
+    {
+      "face_one_based": 79,
+      "edge_one_based": 238,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.7498716167502141
+    },
+    {
+      "face_one_based": 79,
+      "edge_one_based": 234,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274170393950171e-13,
+      "parameter_at_max": 0.047230127590900235
+    },
+    {
+      "face_one_based": 80,
+      "edge_one_based": 239,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.7498816301133586
+    },
+    {
+      "face_one_based": 80,
+      "edge_one_based": 240,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.75
+    },
+    {
+      "face_one_based": 80,
+      "edge_one_based": 241,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.874797638938502
+    },
+    {
+      "face_one_based": 80,
+      "edge_one_based": 237,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1396751644422177e-13,
+      "parameter_at_max": 0.9999
+    },
+    {
+      "face_one_based": 81,
+      "edge_one_based": 242,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.273806142312601e-13,
+      "parameter_at_max": 0.0003218230003712058
+    },
+    {
+      "face_one_based": 81,
+      "edge_one_based": 243,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.375
+    },
+    {
+      "face_one_based": 81,
+      "edge_one_based": 244,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.9773472782335573
+    },
+    {
+      "face_one_based": 81,
+      "edge_one_based": 240,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.273806142312601e-13,
+      "parameter_at_max": 0.5
+    },
+    {
+      "face_one_based": 82,
+      "edge_one_based": 245,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.273806142312601e-13,
+      "parameter_at_max": 0.995477312097544
+    },
+    {
+      "face_one_based": 82,
+      "edge_one_based": 246,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.7683477084404771
+    },
+    {
+      "face_one_based": 82,
+      "edge_one_based": 247,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274170393950171e-13,
+      "parameter_at_max": 0.011676954528962603
+    },
+    {
+      "face_one_based": 82,
+      "edge_one_based": 243,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1735052118522187e-13,
+      "parameter_at_max": 0.005904142108560956
+    },
+    {
+      "face_one_based": 83,
+      "edge_one_based": 248,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.7498743059116575
+    },
+    {
+      "face_one_based": 83,
+      "edge_one_based": 249,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.5004250336580127
+    },
+    {
+      "face_one_based": 83,
+      "edge_one_based": 250,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274170393950171e-13,
+      "parameter_at_max": 0.9994201265996933
+    },
+    {
+      "face_one_based": 83,
+      "edge_one_based": 246,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.49992930081958353
+    },
+    {
+      "face_one_based": 84,
+      "edge_one_based": 251,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.9996035260732291
+    },
+    {
+      "face_one_based": 84,
+      "edge_one_based": 252,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.8749960824643821
+    },
+    {
+      "face_one_based": 84,
+      "edge_one_based": 253,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1381166927749112e-13,
+      "parameter_at_max": 0.03330525440316878
+    },
+    {
+      "face_one_based": 84,
+      "edge_one_based": 249,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2743611691451335e-13,
+      "parameter_at_max": 0.9420332451617157
+    },
+    {
+      "face_one_based": 85,
+      "edge_one_based": 254,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.8747579656956618
+    },
+    {
+      "face_one_based": 85,
+      "edge_one_based": 255,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.125
+    },
+    {
+      "face_one_based": 85,
+      "edge_one_based": 256,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2743611691451335e-13,
+      "parameter_at_max": 0.016511070678041567
+    },
+    {
+      "face_one_based": 85,
+      "edge_one_based": 252,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.275141446545404e-13,
+      "parameter_at_max": 0.002527007735438747
+    },
+    {
+      "face_one_based": 86,
+      "edge_one_based": 257,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1381166927749112e-13,
+      "parameter_at_max": 0.9995881978121637
+    },
+    {
+      "face_one_based": 86,
+      "edge_one_based": 258,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.04027875265634716
+    },
+    {
+      "face_one_based": 86,
+      "edge_one_based": 259,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.12535887407228738
+    },
+    {
+      "face_one_based": 86,
+      "edge_one_based": 255,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.412270059808006e-13,
+      "parameter_at_max": 0.9413724120602167
+    },
+    {
+      "face_one_based": 87,
+      "edge_one_based": 260,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.6249278962872131
+    },
+    {
+      "face_one_based": 87,
+      "edge_one_based": 261,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.5874088883796886
+    },
+    {
+      "face_one_based": 87,
+      "edge_one_based": 262,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1381166927749112e-13,
+      "parameter_at_max": 0.03726645061624949
+    },
+    {
+      "face_one_based": 87,
+      "edge_one_based": 258,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1815443893352568e-13,
+      "parameter_at_max": 0.0003582773803671832
+    },
+    {
+      "face_one_based": 88,
+      "edge_one_based": 263,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.6249162268760449
+    },
+    {
+      "face_one_based": 88,
+      "edge_one_based": 264,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.8201594610004619
+    },
+    {
+      "face_one_based": 88,
+      "edge_one_based": 265,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.139086659085919e-13,
+      "parameter_at_max": 0.9068411966529532
+    },
+    {
+      "face_one_based": 88,
+      "edge_one_based": 261,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2771342740819555e-13,
+      "parameter_at_max": 0.04894784133413358
+    },
+    {
+      "face_one_based": 89,
+      "edge_one_based": 266,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2737541016009064e-13,
+      "parameter_at_max": 0.12576409936097638
+    },
+    {
+      "face_one_based": 89,
+      "edge_one_based": 267,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.6246889253855944
+    },
+    {
+      "face_one_based": 89,
+      "edge_one_based": 268,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2758348018715235e-13,
+      "parameter_at_max": 0.9869069222445163
+    },
+    {
+      "face_one_based": 89,
+      "edge_one_based": 264,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.422530744279192e-13,
+      "parameter_at_max": 0.8958668482277248
+    },
+    {
+      "face_one_based": 90,
+      "edge_one_based": 269,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.6249072044676657
+    },
+    {
+      "face_one_based": 90,
+      "edge_one_based": 270,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.125
+    },
+    {
+      "face_one_based": 90,
+      "edge_one_based": 271,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.275470816668197e-13,
+      "parameter_at_max": 0.999016477654379
+    },
+    {
+      "face_one_based": 90,
+      "edge_one_based": 267,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2771342740819555e-13,
+      "parameter_at_max": 0.9740881928500594
+    },
+    {
+      "face_one_based": 91,
+      "edge_one_based": 272,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1370071466249427e-13,
+      "parameter_at_max": 0.6895913834185946
+    },
+    {
+      "face_one_based": 91,
+      "edge_one_based": 273,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718907585177295e-13,
+      "parameter_at_max": 0.7401719612685398
+    },
+    {
+      "face_one_based": 91,
+      "edge_one_based": 274,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1436482767251642e-13,
+      "parameter_at_max": 0.0021893831211285235
+    },
+    {
+      "face_one_based": 91,
+      "edge_one_based": 270,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.9373856858958137e-12,
+      "parameter_at_max": 0.00010010918426526673
+    },
+    {
+      "face_one_based": 92,
+      "edge_one_based": 275,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1371805845725668e-13,
+      "parameter_at_max": 0.9129825016525452
+    },
+    {
+      "face_one_based": 92,
+      "edge_one_based": 276,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.41282372765553954
+    },
+    {
+      "face_one_based": 92,
+      "edge_one_based": 277,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2743611691451335e-13,
+      "parameter_at_max": 0.9795418095334929
+    },
+    {
+      "face_one_based": 92,
+      "edge_one_based": 273,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2958338407482174e-13,
+      "parameter_at_max": 0.9998950740912718
+    },
+    {
+      "face_one_based": 93,
+      "edge_one_based": 278,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1377354083340986e-13,
+      "parameter_at_max": 0.996606081049699
+    },
+    {
+      "face_one_based": 93,
+      "edge_one_based": 279,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1369030711563004e-13,
+      "parameter_at_max": 0.25
+    },
+    {
+      "face_one_based": 93,
+      "edge_one_based": 280,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1374233532693354e-13,
+      "parameter_at_max": 0.08044754431039086
+    },
+    {
+      "face_one_based": 93,
+      "edge_one_based": 276,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.288279272856683e-13,
+      "parameter_at_max": 0.00013081778401647618
+    },
+    {
+      "face_one_based": 94,
+      "edge_one_based": 281,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.274261447744018e-13,
+      "parameter_at_max": 0.9462918411625354
+    },
+    {
+      "face_one_based": 94,
+      "edge_one_based": 282,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1368770508004532e-13,
+      "parameter_at_max": 0.375
+    },
+    {
+      "face_one_based": 94,
+      "edge_one_based": 283,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.4111717609147936e-13,
+      "parameter_at_max": 0.9890013863688464
+    },
+    {
+      "face_one_based": 94,
+      "edge_one_based": 279,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.331569855608377e-13,
+      "parameter_at_max": 0.01814770568476694
+    },
+    {
+      "face_one_based": 95,
+      "edge_one_based": 284,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.2854333999592643e-13,
+      "parameter_at_max": 0.03390217228859868
+    },
+    {
+      "face_one_based": 95,
+      "edge_one_based": 285,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1718571004216928e-13,
+      "parameter_at_max": 0.3402192332760009
+    },
+    {
+      "face_one_based": 95,
+      "edge_one_based": 286,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1513564116536716e-13,
+      "parameter_at_max": 0.037271788220920865
+    },
+    {
+      "face_one_based": 95,
+      "edge_one_based": 282,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.5460488646866614e-13,
+      "parameter_at_max": 0.0005869822350021885
+    },
+    {
+      "face_one_based": 96,
+      "edge_one_based": 287,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1372933050550335e-13,
+      "parameter_at_max": 0.9395288004113446
+    },
+    {
+      "face_one_based": 96,
+      "edge_one_based": 288,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171865515036332e-13,
+      "parameter_at_max": 0.47938703502501734
+    },
+    {
+      "face_one_based": 96,
+      "edge_one_based": 289,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.3184178980296904e-13,
+      "parameter_at_max": 0.07929433553057184
+    },
+    {
+      "face_one_based": 96,
+      "edge_one_based": 285,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.203768498009678e-13,
+      "parameter_at_max": 0.9996984753285191
+    },
+    {
+      "face_one_based": 97,
+      "edge_one_based": 290,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.404323753877496e-13,
+      "parameter_at_max": 0.880566446252408
+    },
+    {
+      "face_one_based": 97,
+      "edge_one_based": 291,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.171865515036332e-13,
+      "parameter_at_max": 0.8856219169439767
+    },
+    {
+      "face_one_based": 97,
+      "edge_one_based": 292,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.487500170135847e-13,
+      "parameter_at_max": 0.8714237986954448
+    },
+    {
+      "face_one_based": 97,
+      "edge_one_based": 288,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.473018965472683e-13,
+      "parameter_at_max": 0.9983227915166011
+    },
+    {
+      "face_one_based": 98,
+      "edge_one_based": 293,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.617520722749971e-13,
+      "parameter_at_max": 0.8813743321410215
+    },
+    {
+      "face_one_based": 98,
+      "edge_one_based": 4,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.524426379896979e-13,
+      "parameter_at_max": 0.9997924622465931
+    },
+    {
+      "face_one_based": 98,
+      "edge_one_based": 294,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.113877149641202e-13,
+      "parameter_at_max": 0.8755329631155341
+    },
+    {
+      "face_one_based": 98,
+      "edge_one_based": 291,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.68473218546349e-13,
+      "parameter_at_max": 0.999625
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 1,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.5973016007067478e-09,
+      "parameter_at_max": 0.46520437513303525
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 293,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.4123342369190515e-09,
+      "parameter_at_max": 0.5425759697561738
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 290,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.508624760919672e-09,
+      "parameter_at_max": 0.5465227554450038
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 287,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.625267038917808e-09,
+      "parameter_at_max": 0.5237753353374895
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 284,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1256015055510419e-10,
+      "parameter_at_max": 0.8100485439723317
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 281,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.1412576813296935e-10,
+      "parameter_at_max": 0.7323637322846843
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 278,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.544291712909794e-10,
+      "parameter_at_max": 0.4816219875304906
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 275,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.349954931430654e-10,
+      "parameter_at_max": 0.6968344552929511
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 272,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.160279048167431e-10,
+      "parameter_at_max": 0.43907763852387655
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 269,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.5665739666699174e-10,
+      "parameter_at_max": 0.5438611539467426
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 266,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.620590402370182e-10,
+      "parameter_at_max": 0.38889073159059767
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 263,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.74087349795011e-10,
+      "parameter_at_max": 0.5369745209790403
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 260,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.041314672124536e-10,
+      "parameter_at_max": 0.3309280121190549
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 257,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.3652690263834987e-09,
+      "parameter_at_max": 0.5037285375227978
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 254,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.3127906434337658e-09,
+      "parameter_at_max": 0.49921118388142927
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 251,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2328216922786886e-09,
+      "parameter_at_max": 0.44725172021936443
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 248,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0893930386386108e-09,
+      "parameter_at_max": 0.4758723638031815
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 245,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.213500514197533e-10,
+      "parameter_at_max": 0.7174541304444153
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 242,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.557858238971065e-10,
+      "parameter_at_max": 0.4361748810372419
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 239,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1393177342145458e-09,
+      "parameter_at_max": 0.510005800752557
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 236,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.687516154207877e-10,
+      "parameter_at_max": 0.5380225356707585
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 233,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.637106554542858e-10,
+      "parameter_at_max": 0.4871097697680837
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 230,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.496099125861962e-10,
+      "parameter_at_max": 0.4777055327527987
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 227,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.399454982496583e-10,
+      "parameter_at_max": 0.37919033579641903
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 224,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.008554392455151e-10,
+      "parameter_at_max": 0.468011153664642
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 221,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.4625813823454732e-09,
+      "parameter_at_max": 0.51201548849713
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 218,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.206900564912742e-09,
+      "parameter_at_max": 0.5482290963458476
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 215,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.892959969609091e-10,
+      "parameter_at_max": 0.3185849130706752
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 212,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0075126408870462e-10,
+      "parameter_at_max": 0.2316105221921593
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 209,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.75003444706129e-10,
+      "parameter_at_max": 0.6221406489350453
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 206,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.199546049744103e-09,
+      "parameter_at_max": 0.5376929581653503
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 203,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.084724192764955e-10,
+      "parameter_at_max": 0.6164866271007259
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 200,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.454499841870892e-10,
+      "parameter_at_max": 0.5429175073804573
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 197,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.150397632158204e-09,
+      "parameter_at_max": 0.4682085103088464
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 194,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.0404640441733e-10,
+      "parameter_at_max": 0.5247612856644261
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 191,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.195414514899964e-10,
+      "parameter_at_max": 0.47781524451613394
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 188,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.7904605526469185e-10,
+      "parameter_at_max": 0.3931160539506715
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 185,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.4632982141464144e-10,
+      "parameter_at_max": 0.2691196299812588
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 182,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0734667864077035e-09,
+      "parameter_at_max": 0.45729629272354183
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 179,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1376818151430215e-09,
+      "parameter_at_max": 0.4357796512065178
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 176,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.596374326834106e-10,
+      "parameter_at_max": 0.7061723811958311
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 173,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.848050722716819e-10,
+      "parameter_at_max": 0.6345810299341127
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 170,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.774967283230059e-10,
+      "parameter_at_max": 0.2880037814935115
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 167,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.149558718000837e-10,
+      "parameter_at_max": 0.510789250614808
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 164,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.59308599171517e-09,
+      "parameter_at_max": 0.5004820879734895
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 161,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.3533590117435775e-10,
+      "parameter_at_max": 0.2685284799768173
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 158,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.1201516437991084e-09,
+      "parameter_at_max": 0.5066996411425565
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 155,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1506624801925828e-13,
+      "parameter_at_max": 1.5714131776065865
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 152,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.182549871709417e-10,
+      "parameter_at_max": 0.6766559802769451
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 149,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.3947367888920127e-09,
+      "parameter_at_max": 0.23093674871264178
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 146,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.675706255563378e-10,
+      "parameter_at_max": 0.7946899471108674
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 143,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0005658859294348e-09,
+      "parameter_at_max": 0.6252438062589735
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 140,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1381166927749112e-13,
+      "parameter_at_max": 1.5708725799502685
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 137,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0391027524574075e-09,
+      "parameter_at_max": 0.5072277184183259
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 134,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.759826246276812e-10,
+      "parameter_at_max": 0.4508990071063148
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 131,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.8064881073537443e-09,
+      "parameter_at_max": 0.5059674968093906
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 128,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1070825364668968e-09,
+      "parameter_at_max": 0.47795155727683825
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 125,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.9552637060748453e-10,
+      "parameter_at_max": 0.49372624003901866
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 122,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.284609922404015e-10,
+      "parameter_at_max": 0.5216933026053299
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 119,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1657448416611762e-09,
+      "parameter_at_max": 0.5896264728078762
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 116,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2638565783429627e-09,
+      "parameter_at_max": 0.4648025489276666
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 113,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2113332960830037e-09,
+      "parameter_at_max": 0.5014873566660356
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 110,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.698235903783841e-10,
+      "parameter_at_max": 0.5818632385487895
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 107,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.992866941254994e-11,
+      "parameter_at_max": 0.4891441502172142
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 104,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.218268779468031e-09,
+      "parameter_at_max": 0.4866231673245304
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 101,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.4547417538530313e-09,
+      "parameter_at_max": 0.5155121186277973
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 98,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.104923645576839e-09,
+      "parameter_at_max": 0.4996047685729833
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 95,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.378335386035827e-10,
+      "parameter_at_max": 0.6414857172274726
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 92,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.628110517103073e-09,
+      "parameter_at_max": 0.5126243715551093
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 89,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.612925109113661e-10,
+      "parameter_at_max": 0.38622168362392517
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 86,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.4798764910829907e-09,
+      "parameter_at_max": 0.5020361378716566
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 83,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.076396819405797e-10,
+      "parameter_at_max": 0.5952854257862903
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 80,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.792544258942469e-10,
+      "parameter_at_max": 0.517805531937862
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 77,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.128645753388527e-10,
+      "parameter_at_max": 0.4062355752066372
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 74,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.902275830392887e-10,
+      "parameter_at_max": 0.7739389116525031
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 71,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.3901744948360484e-10,
+      "parameter_at_max": 0.2726543703817136
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 68,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.1181729181834435e-10,
+      "parameter_at_max": 0.25253280132125194
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 65,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.056842467281485e-09,
+      "parameter_at_max": 0.484064100294758
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 62,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.4722445652393625e-10,
+      "parameter_at_max": 0.3677527417277517
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 59,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.564581678340424e-10,
+      "parameter_at_max": 0.587133219052042
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 56,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.06855448936959e-10,
+      "parameter_at_max": 0.39191117499213873
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 53,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.553131703075742e-10,
+      "parameter_at_max": 0.5500805657691835
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 50,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.10913552423569e-09,
+      "parameter_at_max": 0.5012273545035375
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 47,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.904119186161676e-10,
+      "parameter_at_max": 0.3507530943561413
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 44,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0142008135119996e-09,
+      "parameter_at_max": 0.44305387008530384
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 41,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.185702734409095e-10,
+      "parameter_at_max": 0.6582505373575324
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 38,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2626060821553843e-09,
+      "parameter_at_max": 0.5137221653470554
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 35,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2061072033264138e-09,
+      "parameter_at_max": 0.49092067837977366
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 32,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0148862078642317e-09,
+      "parameter_at_max": 0.4178669904006346
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 29,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.014341751371133e-09,
+      "parameter_at_max": 0.5178313462788879
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 26,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.716076368697311e-10,
+      "parameter_at_max": 0.45501480568039004
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 23,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.588867366058945e-10,
+      "parameter_at_max": 0.5026200365394439
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 20,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.3667539510018956e-10,
+      "parameter_at_max": 0.44239374984385665
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 17,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.4668351147976286e-10,
+      "parameter_at_max": 0.4506137029402019
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 14,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.021743861690264e-10,
+      "parameter_at_max": 0.49266364953682995
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 11,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.966285255641853e-10,
+      "parameter_at_max": 0.49958269330490107
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 8,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.269834545757445e-10,
+      "parameter_at_max": 0.5027856643240165
+    },
+    {
+      "face_one_based": 99,
+      "edge_one_based": 5,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.38175787525029e-10,
+      "parameter_at_max": 0.608252067437526
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 3,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.225064831044279e-10,
+      "parameter_at_max": 0.4962432238783437
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 7,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.004973553150764e-10,
+      "parameter_at_max": 0.32555781897600816
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 10,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.318714864982032e-10,
+      "parameter_at_max": 0.4996828290722705
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 13,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.8599242329345174e-10,
+      "parameter_at_max": 0.6850092868823348
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 16,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.8353508429755663e-10,
+      "parameter_at_max": 0.5287445058385077
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 19,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.254172276961636e-10,
+      "parameter_at_max": 0.512864384045929
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 22,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.709803308257957e-10,
+      "parameter_at_max": 0.5506499781726745
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 25,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0873055964712137e-09,
+      "parameter_at_max": 0.539852142015292
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 28,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.514906974234124e-11,
+      "parameter_at_max": 0.14726833128055447
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 31,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.455452159689398e-10,
+      "parameter_at_max": 0.4154250680544218
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 34,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1295925599567406e-09,
+      "parameter_at_max": 0.5058377571283379
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 37,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.3254945823937789e-09,
+      "parameter_at_max": 0.4781803801311019
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 40,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.601128380244462e-10,
+      "parameter_at_max": 0.4647377890813819
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 43,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.027980812054484e-10,
+      "parameter_at_max": 0.521784005445463
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 46,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.60355908970974e-10,
+      "parameter_at_max": 0.3328419678817368
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 49,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.654618507992565e-10,
+      "parameter_at_max": 0.41049007695900136
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 52,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.385143205662593e-10,
+      "parameter_at_max": 0.5027879852683934
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 55,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.627414113874916e-10,
+      "parameter_at_max": 0.5941384719762611
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 58,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.01840680233833e-09,
+      "parameter_at_max": 0.5063723398136621
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 61,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.375923352675175e-10,
+      "parameter_at_max": 0.5144175514921242
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 64,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0593368459739327e-09,
+      "parameter_at_max": 0.4632266673323937
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 67,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0931330775559636e-09,
+      "parameter_at_max": 0.5586657059613424
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 70,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.5419588721012404e-09,
+      "parameter_at_max": 0.5052624002466243
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 73,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.446955640077524e-10,
+      "parameter_at_max": 0.5406627540619928
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 76,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.872123133282035e-10,
+      "parameter_at_max": 0.5571950510736216
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 79,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.199436785524308e-10,
+      "parameter_at_max": 0.4049281868633164
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 82,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.057688654137985e-09,
+      "parameter_at_max": 0.4787465885702252
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 85,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.803787524775503e-10,
+      "parameter_at_max": 0.5287310744843482
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 88,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.16885673472204e-10,
+      "parameter_at_max": 0.46876462408353786
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 91,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.69863461544337e-10,
+      "parameter_at_max": 0.6437476180303482
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 94,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.60542153420415e-10,
+      "parameter_at_max": 0.5634589478709834
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 97,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.3091430373823012e-10,
+      "parameter_at_max": 0.45430212520225866
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 100,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.5829723981805773e-10,
+      "parameter_at_max": 0.47236075090535934
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 103,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.036525282588948e-10,
+      "parameter_at_max": 0.5216921469227885
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 106,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.108838197045156e-10,
+      "parameter_at_max": 0.45119362070365643
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 109,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.5981952898989215e-10,
+      "parameter_at_max": 0.44564217213697555
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 112,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.7869092285685966e-10,
+      "parameter_at_max": 0.5249937205359295
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 115,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.336016111528721e-10,
+      "parameter_at_max": 0.6788319748176862
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 118,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2640842357056936e-09,
+      "parameter_at_max": 0.49930025415888757
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 121,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.291027846134189e-09,
+      "parameter_at_max": 0.52139889858337
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 124,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.6187902591391927e-09,
+      "parameter_at_max": 0.46434098967888743
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 127,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.047721442556278e-10,
+      "parameter_at_max": 0.3510072298577985
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 130,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.920810845793581e-10,
+      "parameter_at_max": 0.43750221768160924
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 133,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.6901823251104352e-09,
+      "parameter_at_max": 0.5259131694497162
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 136,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.6783618828327037e-09,
+      "parameter_at_max": 0.5092116154317103
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 139,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.373358499274413e-10,
+      "parameter_at_max": 0.6417417497717417
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 142,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.769962616701378e-15,
+      "parameter_at_max": 1.571352517565114
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 145,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.384978144459736e-10,
+      "parameter_at_max": 0.5004670508449313
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 148,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.729135832450524e-10,
+      "parameter_at_max": 0.7980236743130485
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 151,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.59844994944177e-10,
+      "parameter_at_max": 0.16607696870161726
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 154,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0846938349638767e-09,
+      "parameter_at_max": 0.4762667338097131
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 157,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.195128142299308e-13,
+      "parameter_at_max": 1.5709575764339856
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 160,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.71625505114531e-10,
+      "parameter_at_max": 0.5386649023605472
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 163,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0189790556393616e-09,
+      "parameter_at_max": 0.5314013109674578
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 166,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.887540259351848e-10,
+      "parameter_at_max": 0.5151819350064409
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 169,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0621871910155775e-09,
+      "parameter_at_max": 0.5406141423323909
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 172,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.8864868081601177e-10,
+      "parameter_at_max": 0.531037855645869
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 175,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.168102580336174e-10,
+      "parameter_at_max": 0.5018347508304211
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 178,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.6913918277228143e-10,
+      "parameter_at_max": 0.49151548617811963
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 181,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.5522879825726803e-09,
+      "parameter_at_max": 0.4410914942370991
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 184,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.4333655016220276e-09,
+      "parameter_at_max": 0.4963259575221119
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 187,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.63299941026622e-09,
+      "parameter_at_max": 0.5627162214583054
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 190,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.2366193429218615e-10,
+      "parameter_at_max": 0.4142028948462654
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 193,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.6737020678986195e-09,
+      "parameter_at_max": 0.46346001893987
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 196,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.480453032165525e-10,
+      "parameter_at_max": 0.2840382765869832
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 199,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.6786029179613711e-10,
+      "parameter_at_max": 0.275652915973371
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 202,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.5020407445581561e-09,
+      "parameter_at_max": 0.48224326009488416
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 205,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.2567095308641227e-10,
+      "parameter_at_max": 0.674379944828813
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 208,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.555388322891818e-10,
+      "parameter_at_max": 0.49478754978801964
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 211,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.250755275061661e-10,
+      "parameter_at_max": 0.39893625953366724
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 214,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1459612645921022e-10,
+      "parameter_at_max": 0.31910871238667105
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 217,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.632624997788646e-10,
+      "parameter_at_max": 0.5583626661592143
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 220,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1433787435218768e-09,
+      "parameter_at_max": 0.5300909498338584
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 223,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.457650292359732e-10,
+      "parameter_at_max": 0.5302089526554097
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 226,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.1990917107924841e-09,
+      "parameter_at_max": 0.51194332247542
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 229,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.303811811651885e-10,
+      "parameter_at_max": 0.45280421409730376
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 232,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.842062372715108e-10,
+      "parameter_at_max": 0.662549768348302
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 235,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.913975239974595e-10,
+      "parameter_at_max": 0.48802035931456206
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 238,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2883189178436858e-09,
+      "parameter_at_max": 0.4380916554468438
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 241,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.512179891715653e-10,
+      "parameter_at_max": 0.4706769067424932
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 244,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.231580660127115e-10,
+      "parameter_at_max": 0.7269176631317507
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 247,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.426479339526057e-10,
+      "parameter_at_max": 0.6580506459345381
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 250,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 9.932949162301014e-10,
+      "parameter_at_max": 0.5059600657596671
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 253,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 2.1225483794155677e-10,
+      "parameter_at_max": 0.2814226352909717
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 256,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.115694374020754e-10,
+      "parameter_at_max": 0.4135858083017956
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 259,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.44251373370149e-10,
+      "parameter_at_max": 0.548885574346436
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 262,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2766875237487711e-09,
+      "parameter_at_max": 0.5073463264528425
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 265,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.0092010768108854e-09,
+      "parameter_at_max": 0.5265074248755105
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 268,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 5.470714742422008e-10,
+      "parameter_at_max": 0.34708159223006735
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 271,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 3.606148929279372e-10,
+      "parameter_at_max": 0.693300845432675
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 274,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 8.838094618076219e-10,
+      "parameter_at_max": 0.5460228997368539
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 277,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.2719393299230986e-09,
+      "parameter_at_max": 0.5056132427319702
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 280,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 7.128566103342564e-10,
+      "parameter_at_max": 0.5575802057718986
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 283,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 6.975825145055857e-10,
+      "parameter_at_max": 0.5503560418367529
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 286,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.262438138117345e-10,
+      "parameter_at_max": 0.5058958163826863
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 289,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.3145609649302347e-09,
+      "parameter_at_max": 0.5186397843219797
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 292,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 1.019797285000395e-09,
+      "parameter_at_max": 0.5273541122533083
+    },
+    {
+      "face_one_based": 100,
+      "edge_one_based": 294,
+      "done": true,
+      "error_status": 0,
+      "stored_edge_tolerance_mm": 1e-07,
+      "max_distance_mm": 4.6113151820268546e-10,
+      "parameter_at_max": 0.5224104584936333
+    }
+  ],
+  "limits": [
+    "Native numerical max-distance algorithm, not exact arithmetic or rigorous global bound",
+    "Curve/surface mismatch alone does not prove flux error cause or bound volume error",
+    "No changes to curves, SameParameter flags, geometry or tolerances; no release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

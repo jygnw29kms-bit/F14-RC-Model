@@ -41,7 +41,23 @@ Neuaufbau des RC-/FDM-F-14-Projekts von Grund auf.
 
 **Pilot / Projektkontext:** 135erHeli RC Pilot
 
-## Aktueller sichtbarer FreeCAD-Entwicklungsstand
+## Projektstand · 21. November 2026
+
+**FreeCAD v192** ist der in [CURRENT.json](migration/freecad/CURRENT.json) geführte Hauptstand. Das Gesamtmodell ist im Aufbau. Druck- und Flugfreigabe stehen aus.
+
+| Bereich | Stand |
+| --- | --- |
+| Flügelwurzelverkleidung C–D | 56 Teilflächen bilden eine geometrisch gültige offene FreeCAD-Schale. An 165 Nahtproben lagen die Spalte unter 0,000001 mm. An sechs zuvor doppelt belegten Positionen ergab die kubische Schale je einen Treffer. Eine beschnittene lokale Außenschale mit 69 Flächen wurde nach erneutem Öffnen als gültig geprüft. Ihre 148 Eckpunkte liegen ohne Koordinatenanpassung innerhalb des Hauptrumpfs. Native Querschnitte zeigen Breitenunterschiede zwischen Hauptmodell und Kandidatenprofilen. Die Integration bleibt offen. |
+| Außenform | Die Zuordnung der UPC-Studie zum Hauptmodell sowie die Höhenführung der Verkleidung sind offen. |
+| Innenstruktur und Antrieb | Twin 50 mm EDF auf 4S und FDM-Fertigung auf dem Bambu P2S bleiben die Entwurfsziele. Struktur- und Baugruppenprüfungen sowie geprüfte Gesamtexporte stehen aus. |
+
+[Messungen und Quellenkorrekturen der C–D-Studie](analysis/UPC_CD_study_review_20261111.md) · [Entwurfs-PR #1](https://github.com/jygnw29kms-bit/F14-RC-Model/pull/1)
+
+Die Breiten der vier geprueften C/D/E/F-Hauptmodellquerschnitte lassen sich aus den 16 im Loft verwendeten Stationen reproduzieren. Damit ist die Abweichung zur Interpolation aller 30 Ausgangsstationen erklaert. Die Zuordnung zu den originalen A-F-Profilen bleibt offen. [Numerischer Vergleich](analysis/UPC_CD_selected_station_width_check.json).
+
+Quellenabgleich vom 21. November: Die blaue Seiten-Leitkontur deckt die vorderen und hinteren Referenzmerkmale nicht vollstaendig ab. Ihre bisherige Normierung auf die Gesamtlaenge ist daher kein belastbarer gemeinsamer Bezug fuer Drauf- und Seitenansicht. Vorlaeufige Bildzuordnungen und Kontrollmessungen liegen vor; die CAD-Geometrie bleibt bis zur gemeinsamen Registrierung unveraendert. [Pruefbericht](analysis/UPC_CD_study_review_20261111.md).
+
+## FreeCAD-Vorschau vom 16. Oktober 2026
 
 ![Aktueller F-14-FreeCAD-Entwicklungsstand ohne UPC-ReferenzhÃ¼lle](docs/images/f14_freecad_current_20261016.png)
 

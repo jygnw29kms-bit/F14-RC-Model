@@ -1,0 +1,63 @@
+{
+  "status": "LOCAL_TEMPLATE_MATCH_DIAGNOSTIC_ONLY",
+  "records": [
+    {
+      "feature": "windshield",
+      "source_roi_px": [
+        690,
+        1255,
+        780,
+        1340
+      ],
+      "guide_search_roi_px": [
+        225,
+        397,
+        276,
+        441
+      ],
+      "best": {
+        "NCC": 0.8490158842352727,
+        "patch_guide_top_left_px": [
+          237,
+          407
+        ],
+        "scale_x": 0.28500000000000003,
+        "scale_y": 0.29000000000000004,
+        "patch_size_px": [
+          26,
+          25
+        ]
+      }
+    },
+    {
+      "feature": "aft_canopy",
+      "source_roi_px": [
+        1050,
+        1255,
+        1100,
+        1340
+      ],
+      "guide_search_roi_px": [
+        327,
+        396,
+        367,
+        442
+      ],
+      "best": {
+        "NCC": 0.8350125044850389,
+        "patch_guide_top_left_px": [
+          340,
+          407
+        ],
+        "scale_x": 0.29000000000000004,
+        "scale_y": 0.29000000000000004,
+        "patch_size_px": [
+          15,
+          25
+        ]
+      }
+    }
+  ],
+  "registration_accepted": false,
+  "limits": "Independent bounded patch searches; no shared affine transform, uniqueness or held-out validation established. No CAD change."
+}

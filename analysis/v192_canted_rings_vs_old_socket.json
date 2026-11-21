@@ -1,0 +1,31 @@
+{
+  "status": "OLD_SOCKET_INCOMPATIBLE_WITH_CANTED_RING_ENVELOPES",
+  "input_sha256_unchanged": {
+    "FLARED_ROOT_SOCKET_UNFROZEN_CONCEPT_ONLY.FCStd": "72d7d468d3247add21511b88a55ccb456c1a730e3b3d81bcd56746e305a3d2d2",
+    "CANTED_BEARING_ENVELOPES_UNSELECTED_ONLY.FCStd": "e19d01ce8faf5b42a01f04005653dbfd5e6b7d39061567e4257c0cce6ebb89c6"
+  },
+  "rows": [
+    {
+      "object": "LOWER_GENERIC_RING",
+      "ring_volume_mm3": 522.2897786593028,
+      "overlap_old_socket_mm3": 258.8458421500802,
+      "outside_old_socket_mm3": 263.4439365228804,
+      "geometrically_assembled_without_seat_cuts": false
+    },
+    {
+      "object": "UPPER_GENERIC_RING",
+      "ring_volume_mm3": 522.289778659303,
+      "overlap_old_socket_mm3": 258.8458436366063,
+      "outside_old_socket_mm3": 263.4439353159319,
+      "geometrically_assembled_without_seat_cuts": false
+    }
+  ],
+  "interpretation": "Positive overlap requires seat/housing redesign; outside-socket material is not by itself outside-aircraft geometry",
+  "limits": [
+    "Generic envelope rings only, no bearing selection",
+    "No cut or modification to old socket; old external packaging rejection unchanged",
+    "No installed assembly, contact/retention/thrust path or material verification"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

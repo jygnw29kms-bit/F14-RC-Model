@@ -1,0 +1,47 @@
+{
+  "status": "SINGLE_CANOPY_FRAME_CROSS_VIEW_SCREEN",
+  "source_sha256": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4",
+  "method": "Visually selected corresponding central canopy frame; dark-column support at least 75 percent ROI maximum. Frame has multiple strokes; means are diagnostics, not unique datum lines.",
+  "records": [
+    {
+      "feature": "plan_center_frame",
+      "roi_px": [
+        900,
+        1260,
+        920,
+        1325
+      ],
+      "threshold": 128,
+      "selected_columns_px": [
+        906,
+        912,
+        913
+      ],
+      "mean_selected_column_px": 910.3333333333334
+    },
+    {
+      "feature": "side_center_frame",
+      "roi_px": [
+        900,
+        2690,
+        920,
+        2725
+      ],
+      "threshold": 128,
+      "selected_columns_px": [
+        902,
+        903,
+        909,
+        910
+      ],
+      "mean_selected_column_px": 906.0
+    }
+  ],
+  "plan_minus_side_mean_px": 4.333333333333371,
+  "limits": [
+    "A single corresponding feature cannot determine relative scale and offset.",
+    "Tilt and multiple frame strokes preclude treating means as exact station locations."
+  ],
+  "cross_view_registration_verified": false,
+  "master_changed": false
+}

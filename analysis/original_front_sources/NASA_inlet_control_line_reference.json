@@ -1,0 +1,259 @@
+{
+  "status": "VIER_EINLAUF_KONTROLLLINIEN_VISUELL_TRANSKRIBIERT",
+  "source": [
+    "NASA-CR172559 Table1 Sheet8 PDF27/gedr17:YINLTUP erste3Segmente",
+    "Sheet9 PDF28/gedr18:RestYINLTUP/ZINLTUP/YINLTLO/ZINLTLO"
+  ],
+  "render_sha256": {
+    "NASA_CR172559_binding_page27.png": "ef391ddc06fa90c5c53aafed7a150d66512b15408588dd3f724175bd2be0dfa6",
+    "NASA_CR172559_binding_page28.png": "34e6c8e93970eebc6db2123789d7a7fa1a7a716713c6e2b37dc704d970a36c6e"
+  },
+  "source_domain": [
+    352,
+    780
+  ],
+  "shape": "LINE",
+  "curves_points": {
+    "YINLTUP": [
+      [
+        352,
+        66.5
+      ],
+      [
+        433,
+        66.5
+      ],
+      [
+        497,
+        66.5
+      ],
+      [
+        546,
+        68
+      ],
+      [
+        600,
+        74.5
+      ],
+      [
+        650,
+        77
+      ],
+      [
+        697,
+        78.5
+      ],
+      [
+        780,
+        80
+      ]
+    ],
+    "ZINLTUP": [
+      [
+        352,
+        162.5
+      ],
+      [
+        433,
+        169
+      ],
+      [
+        497,
+        171.5
+      ],
+      [
+        546,
+        170
+      ],
+      [
+        600,
+        165
+      ],
+      [
+        650,
+        162
+      ],
+      [
+        697,
+        160
+      ],
+      [
+        780,
+        155.5
+      ]
+    ],
+    "YINLTLO": [
+      [
+        352,
+        67
+      ],
+      [
+        433,
+        75
+      ],
+      [
+        497,
+        65.5
+      ],
+      [
+        546,
+        61
+      ],
+      [
+        600,
+        57
+      ],
+      [
+        650,
+        57.5
+      ],
+      [
+        697,
+        58
+      ],
+      [
+        780,
+        59
+      ]
+    ],
+    "ZINLTLO": [
+      [
+        352,
+        156.5
+      ],
+      [
+        433,
+        119
+      ],
+      [
+        497,
+        111
+      ],
+      [
+        546,
+        107
+      ],
+      [
+        600,
+        104
+      ],
+      [
+        650,
+        104
+      ],
+      [
+        697,
+        108
+      ],
+      [
+        780,
+        114
+      ]
+    ]
+  },
+  "station_checks": [
+    {
+      "x_source": 352,
+      "INLTLO": [
+        67,
+        156.5
+      ],
+      "INLTUP": [
+        66.5,
+        162.5
+      ],
+      "line_length_source": 6.020797289396148
+    },
+    {
+      "x_source": 433,
+      "INLTLO": [
+        75,
+        119
+      ],
+      "INLTUP": [
+        66.5,
+        169
+      ],
+      "line_length_source": 50.71735403192876
+    },
+    {
+      "x_source": 497,
+      "INLTLO": [
+        65.5,
+        111
+      ],
+      "INLTUP": [
+        66.5,
+        171.5
+      ],
+      "line_length_source": 60.508263898413084
+    },
+    {
+      "x_source": 546,
+      "INLTLO": [
+        61,
+        107
+      ],
+      "INLTUP": [
+        68,
+        170
+      ],
+      "line_length_source": 63.387695966961914
+    },
+    {
+      "x_source": 600,
+      "INLTLO": [
+        57,
+        104
+      ],
+      "INLTUP": [
+        74.5,
+        165
+      ],
+      "line_length_source": 63.460617708938194
+    },
+    {
+      "x_source": 650,
+      "INLTLO": [
+        57.5,
+        104
+      ],
+      "INLTUP": [
+        77,
+        162
+      ],
+      "line_length_source": 61.190277005419745
+    },
+    {
+      "x_source": 697,
+      "INLTLO": [
+        58,
+        108
+      ],
+      "INLTUP": [
+        78.5,
+        160
+      ],
+      "line_length_source": 55.8949908310217
+    },
+    {
+      "x_source": 780,
+      "INLTLO": [
+        59,
+        114
+      ],
+      "INLTUP": [
+        80,
+        155.5
+      ],
+      "line_length_source": 46.51075144523038
+    }
+  ],
+  "limits": [
+    "INLTLO/INLTUP sind Kontrollpunkte der vereinfachten QUICK-Aussenbeschreibung.",
+    "NASA modelliert eine das Einlaufgesicht abdeckende Rampe; daraus keinen offenen EDF-Kanal oder Einlaufquerschnitt ableiten.",
+    "Positive Z-Reihenfolge an8Knoten prueft nicht die gesamte Rumpfhuelle.",
+    "Keine CAD-Geometrie, physische Einheit oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

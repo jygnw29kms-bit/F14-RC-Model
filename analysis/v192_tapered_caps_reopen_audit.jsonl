@@ -1,0 +1,5 @@
+{"stage": "containment_start", "elapsed_seconds": 0.5869998931884766, "object": "UNFROZEN_LOWER_CAP"}
+{"stage": "distance_start", "elapsed_seconds": 4.424999475479126, "object": "UNFROZEN_LOWER_CAP"}
+{"stage": "containment_start", "elapsed_seconds": 6.1359992027282715, "object": "UNFROZEN_UPPER_CAP"}
+{"stage": "distance_start", "elapsed_seconds": 9.871999740600586, "object": "UNFROZEN_UPPER_CAP"}
+{"stage": "complete", "elapsed_seconds": 12.09499979019165}

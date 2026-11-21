@@ -1,0 +1,350 @@
+{
+  "status": "IDEAL_CANTED_AXIS_REACTION_SENSITIVITY_NOT_HARDWARE_DESIGN",
+  "input_sha256": "f111ef2e6785f83bf9c1a001f79b6c5af2ea956431290c05ac2d580f20558e84",
+  "axis_cant_deg": 1.5,
+  "assumptions": [
+    "Baseline vertical assigned force only; inherited nonnegative tip-load moment bound",
+    "Ideal two radial reaction planes separated along pivot axis",
+    "Bending moment aligned perpendicular to cant plane, so full M/h radial couple applies",
+    "Axial thrust reaction path separate from radial couple; no claim generic bearings can carry it",
+    "No elastic compatibility, preload, clearance or real reaction-center geometry"
+  ],
+  "formulae": [
+    "F_axial=F*cos(cant)",
+    "F_radial=F*sin(cant)",
+    "Pure couple reaction=M/spacing",
+    "Algebraic bound per radial support=M/spacing+abs(F_radial); not exact load sharing"
+  ],
+  "rows": [
+    {
+      "case_index": 0,
+      "assumed_bearing_center_spacing_mm": 5,
+      "ideal_moment_couple_reaction_N_each": 2006.6186763144528,
+      "vertical_load_projection_axial_N": 30.88036194381038,
+      "vertical_load_projection_radial_N": 0.8086307358887235,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 2007.4273070503416
+    },
+    {
+      "case_index": 0,
+      "assumed_bearing_center_spacing_mm": 10,
+      "ideal_moment_couple_reaction_N_each": 1003.3093381572264,
+      "vertical_load_projection_axial_N": 30.88036194381038,
+      "vertical_load_projection_radial_N": 0.8086307358887235,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1004.1179688931152
+    },
+    {
+      "case_index": 0,
+      "assumed_bearing_center_spacing_mm": 16,
+      "ideal_moment_couple_reaction_N_each": 627.0683363482665,
+      "vertical_load_projection_axial_N": 30.88036194381038,
+      "vertical_load_projection_radial_N": 0.8086307358887235,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 627.8769670841552
+    },
+    {
+      "case_index": 0,
+      "assumed_bearing_center_spacing_mm": 20,
+      "ideal_moment_couple_reaction_N_each": 501.6546690786132,
+      "vertical_load_projection_axial_N": 30.88036194381038,
+      "vertical_load_projection_radial_N": 0.8086307358887235,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 502.4632998145019
+    },
+    {
+      "case_index": 0,
+      "assumed_bearing_center_spacing_mm": 24,
+      "ideal_moment_couple_reaction_N_each": 418.045557565511,
+      "vertical_load_projection_axial_N": 30.88036194381038,
+      "vertical_load_projection_radial_N": 0.8086307358887235,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 418.8541883013997
+    },
+    {
+      "case_index": 1,
+      "assumed_bearing_center_spacing_mm": 5,
+      "ideal_moment_couple_reaction_N_each": 2809.2661468402334,
+      "vertical_load_projection_axial_N": 43.23250672133453,
+      "vertical_load_projection_radial_N": 1.1320830302442126,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 2810.3982298704777
+    },
+    {
+      "case_index": 1,
+      "assumed_bearing_center_spacing_mm": 10,
+      "ideal_moment_couple_reaction_N_each": 1404.6330734201167,
+      "vertical_load_projection_axial_N": 43.23250672133453,
+      "vertical_load_projection_radial_N": 1.1320830302442126,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1405.765156450361
+    },
+    {
+      "case_index": 1,
+      "assumed_bearing_center_spacing_mm": 16,
+      "ideal_moment_couple_reaction_N_each": 877.895670887573,
+      "vertical_load_projection_axial_N": 43.23250672133453,
+      "vertical_load_projection_radial_N": 1.1320830302442126,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 879.0277539178172
+    },
+    {
+      "case_index": 1,
+      "assumed_bearing_center_spacing_mm": 20,
+      "ideal_moment_couple_reaction_N_each": 702.3165367100584,
+      "vertical_load_projection_axial_N": 43.23250672133453,
+      "vertical_load_projection_radial_N": 1.1320830302442126,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 703.4486197403025
+    },
+    {
+      "case_index": 1,
+      "assumed_bearing_center_spacing_mm": 24,
+      "ideal_moment_couple_reaction_N_each": 585.2637805917153,
+      "vertical_load_projection_axial_N": 43.23250672133453,
+      "vertical_load_projection_radial_N": 1.1320830302442126,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 586.3958636219595
+    },
+    {
+      "case_index": 2,
+      "assumed_bearing_center_spacing_mm": 5,
+      "ideal_moment_couple_reaction_N_each": 2675.49156841927,
+      "vertical_load_projection_axial_N": 41.173815925080504,
+      "vertical_load_projection_radial_N": 1.0781743145182978,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 2676.5697427337886
+    },
+    {
+      "case_index": 2,
+      "assumed_bearing_center_spacing_mm": 10,
+      "ideal_moment_couple_reaction_N_each": 1337.745784209635,
+      "vertical_load_projection_axial_N": 41.173815925080504,
+      "vertical_load_projection_radial_N": 1.0781743145182978,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1338.8239585241533
+    },
+    {
+      "case_index": 2,
+      "assumed_bearing_center_spacing_mm": 16,
+      "ideal_moment_couple_reaction_N_each": 836.091115131022,
+      "vertical_load_projection_axial_N": 41.173815925080504,
+      "vertical_load_projection_radial_N": 1.0781743145182978,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 837.1692894455402
+    },
+    {
+      "case_index": 2,
+      "assumed_bearing_center_spacing_mm": 20,
+      "ideal_moment_couple_reaction_N_each": 668.8728921048175,
+      "vertical_load_projection_axial_N": 41.173815925080504,
+      "vertical_load_projection_radial_N": 1.0781743145182978,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 669.9510664193358
+    },
+    {
+      "case_index": 2,
+      "assumed_bearing_center_spacing_mm": 24,
+      "ideal_moment_couple_reaction_N_each": 557.3940767540146,
+      "vertical_load_projection_axial_N": 41.173815925080504,
+      "vertical_load_projection_radial_N": 1.0781743145182978,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 558.4722510685328
+    },
+    {
+      "case_index": 3,
+      "assumed_bearing_center_spacing_mm": 5,
+      "ideal_moment_couple_reaction_N_each": 3745.688195786978,
+      "vertical_load_projection_axial_N": 57.6433422951127,
+      "vertical_load_projection_radial_N": 1.5094440403256169,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 3747.1976398273036
+    },
+    {
+      "case_index": 3,
+      "assumed_bearing_center_spacing_mm": 10,
+      "ideal_moment_couple_reaction_N_each": 1872.844097893489,
+      "vertical_load_projection_axial_N": 57.6433422951127,
+      "vertical_load_projection_radial_N": 1.5094440403256169,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1874.3535419338148
+    },
+    {
+      "case_index": 3,
+      "assumed_bearing_center_spacing_mm": 16,
+      "ideal_moment_couple_reaction_N_each": 1170.5275611834306,
+      "vertical_load_projection_axial_N": 57.6433422951127,
+      "vertical_load_projection_radial_N": 1.5094440403256169,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1172.0370052237563
+    },
+    {
+      "case_index": 3,
+      "assumed_bearing_center_spacing_mm": 20,
+      "ideal_moment_couple_reaction_N_each": 936.4220489467446,
+      "vertical_load_projection_axial_N": 57.6433422951127,
+      "vertical_load_projection_radial_N": 1.5094440403256169,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 937.9314929870702
+    },
+    {
+      "case_index": 3,
+      "assumed_bearing_center_spacing_mm": 24,
+      "ideal_moment_couple_reaction_N_each": 780.3517074556205,
+      "vertical_load_projection_axial_N": 57.6433422951127,
+      "vertical_load_projection_radial_N": 1.5094440403256169,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 781.8611514959462
+    },
+    {
+      "case_index": 4,
+      "assumed_bearing_center_spacing_mm": 5,
+      "ideal_moment_couple_reaction_N_each": 2293.278487216517,
+      "vertical_load_projection_axial_N": 35.291842221497575,
+      "vertical_load_projection_radial_N": 0.9241494124442552,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 2294.2026366289615
+    },
+    {
+      "case_index": 4,
+      "assumed_bearing_center_spacing_mm": 10,
+      "ideal_moment_couple_reaction_N_each": 1146.6392436082585,
+      "vertical_load_projection_axial_N": 35.291842221497575,
+      "vertical_load_projection_radial_N": 0.9241494124442552,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1147.5633930207027
+    },
+    {
+      "case_index": 4,
+      "assumed_bearing_center_spacing_mm": 16,
+      "ideal_moment_couple_reaction_N_each": 716.6495272551616,
+      "vertical_load_projection_axial_N": 35.291842221497575,
+      "vertical_load_projection_radial_N": 0.9241494124442552,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 717.5736766676059
+    },
+    {
+      "case_index": 4,
+      "assumed_bearing_center_spacing_mm": 20,
+      "ideal_moment_couple_reaction_N_each": 573.3196218041293,
+      "vertical_load_projection_axial_N": 35.291842221497575,
+      "vertical_load_projection_radial_N": 0.9241494124442552,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 574.2437712165736
+    },
+    {
+      "case_index": 4,
+      "assumed_bearing_center_spacing_mm": 24,
+      "ideal_moment_couple_reaction_N_each": 477.76635150344106,
+      "vertical_load_projection_axial_N": 35.291842221497575,
+      "vertical_load_projection_radial_N": 0.9241494124442552,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 478.6905009158853
+    },
+    {
+      "case_index": 5,
+      "assumed_bearing_center_spacing_mm": 5,
+      "ideal_moment_couple_reaction_N_each": 3210.5898821031237,
+      "vertical_load_projection_axial_N": 49.408579110096596,
+      "vertical_load_projection_radial_N": 1.2938091774219573,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 3211.8836912805455
+    },
+    {
+      "case_index": 5,
+      "assumed_bearing_center_spacing_mm": 10,
+      "ideal_moment_couple_reaction_N_each": 1605.2949410515619,
+      "vertical_load_projection_axial_N": 49.408579110096596,
+      "vertical_load_projection_radial_N": 1.2938091774219573,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1606.5887502289838
+    },
+    {
+      "case_index": 5,
+      "assumed_bearing_center_spacing_mm": 16,
+      "ideal_moment_couple_reaction_N_each": 1003.3093381572262,
+      "vertical_load_projection_axial_N": 49.408579110096596,
+      "vertical_load_projection_radial_N": 1.2938091774219573,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1004.6031473346482
+    },
+    {
+      "case_index": 5,
+      "assumed_bearing_center_spacing_mm": 20,
+      "ideal_moment_couple_reaction_N_each": 802.6474705257809,
+      "vertical_load_projection_axial_N": 49.408579110096596,
+      "vertical_load_projection_radial_N": 1.2938091774219573,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 803.9412797032029
+    },
+    {
+      "case_index": 5,
+      "assumed_bearing_center_spacing_mm": 24,
+      "ideal_moment_couple_reaction_N_each": 668.8728921048174,
+      "vertical_load_projection_axial_N": 49.408579110096596,
+      "vertical_load_projection_radial_N": 1.2938091774219573,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 670.1667012822394
+    },
+    {
+      "case_index": 6,
+      "assumed_bearing_center_spacing_mm": 5,
+      "ideal_moment_couple_reaction_N_each": 3057.7046496220228,
+      "vertical_load_projection_axial_N": 47.05578962866343,
+      "vertical_load_projection_radial_N": 1.2321992165923403,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 3058.9368488386153
+    },
+    {
+      "case_index": 6,
+      "assumed_bearing_center_spacing_mm": 10,
+      "ideal_moment_couple_reaction_N_each": 1528.8523248110114,
+      "vertical_load_projection_axial_N": 47.05578962866343,
+      "vertical_load_projection_radial_N": 1.2321992165923403,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1530.0845240276037
+    },
+    {
+      "case_index": 6,
+      "assumed_bearing_center_spacing_mm": 16,
+      "ideal_moment_couple_reaction_N_each": 955.5327030068821,
+      "vertical_load_projection_axial_N": 47.05578962866343,
+      "vertical_load_projection_radial_N": 1.2321992165923403,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 956.7649022234745
+    },
+    {
+      "case_index": 6,
+      "assumed_bearing_center_spacing_mm": 20,
+      "ideal_moment_couple_reaction_N_each": 764.4261624055057,
+      "vertical_load_projection_axial_N": 47.05578962866343,
+      "vertical_load_projection_radial_N": 1.2321992165923403,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 765.658361622098
+    },
+    {
+      "case_index": 6,
+      "assumed_bearing_center_spacing_mm": 24,
+      "ideal_moment_couple_reaction_N_each": 637.021802004588,
+      "vertical_load_projection_axial_N": 47.05578962866343,
+      "vertical_load_projection_radial_N": 1.2321992165923403,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 638.2540012211804
+    },
+    {
+      "case_index": 7,
+      "assumed_bearing_center_spacing_mm": 5,
+      "ideal_moment_couple_reaction_N_each": 4280.786509470831,
+      "vertical_load_projection_axial_N": 65.8781054801288,
+      "vertical_load_projection_radial_N": 1.7250789032292762,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 4282.511588374061
+    },
+    {
+      "case_index": 7,
+      "assumed_bearing_center_spacing_mm": 10,
+      "ideal_moment_couple_reaction_N_each": 2140.3932547354157,
+      "vertical_load_projection_axial_N": 65.8781054801288,
+      "vertical_load_projection_radial_N": 1.7250789032292762,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 2142.118333638645
+    },
+    {
+      "case_index": 7,
+      "assumed_bearing_center_spacing_mm": 16,
+      "ideal_moment_couple_reaction_N_each": 1337.7457842096346,
+      "vertical_load_projection_axial_N": 65.8781054801288,
+      "vertical_load_projection_radial_N": 1.7250789032292762,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1339.470863112864
+    },
+    {
+      "case_index": 7,
+      "assumed_bearing_center_spacing_mm": 20,
+      "ideal_moment_couple_reaction_N_each": 1070.1966273677078,
+      "vertical_load_projection_axial_N": 65.8781054801288,
+      "vertical_load_projection_radial_N": 1.7250789032292762,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 1071.9217062709372
+    },
+    {
+      "case_index": 7,
+      "assumed_bearing_center_spacing_mm": 24,
+      "ideal_moment_couple_reaction_N_each": 891.8305228064231,
+      "vertical_load_projection_axial_N": 65.8781054801288,
+      "vertical_load_projection_radial_N": 1.7250789032292762,
+      "radial_reaction_conservative_algebraic_sum_bound_N": 893.5556017096524
+    }
+  ],
+  "maximum_couple_reaction_N": 4280.786509470831,
+  "limits": [
+    "Spacing values hypothetical, not feasible package or selected bearings",
+    "No bearing rating, shaft bending, housing stress, fatigue, dynamics or factor of safety",
+    "Do not interpret 16mm historical lug height as verified bearing spacing",
+    "Source aircraft pivot WL and glove envelope remain unresolved"
+  ],
+  "hardware_selected": false,
+  "print_release": false,
+  "flight_release": false
+}

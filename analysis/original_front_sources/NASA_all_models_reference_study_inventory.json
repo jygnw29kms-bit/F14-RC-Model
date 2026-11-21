@@ -1,0 +1,119 @@
+{
+  "status": "ACHT_QUELLENMODELLE_REFERENZSTUDIEN_INVENTAR_GEPRUEFT",
+  "working_copy": "C:/Users/dezen/Desktop/F14-Review-20261024",
+  "restored_from_branch": "audit/ab-raster-review-20261020",
+  "rows": [
+    {
+      "models": [
+        1
+      ],
+      "file": "NASA_nose_halfsection_reference_study.json",
+      "sha256": "505dc4674194d4db5d3d42e608276489d23e5759e495db95951a7a5eb625be82",
+      "sampled_section_count": 5,
+      "source_x_stations": [
+        110,
+        125,
+        150,
+        175,
+        200
+      ],
+      "status": "FUENF_LOKALE_NASENHALBSEKTIONEN_NUR_STUDIE_VORBEREITET"
+    },
+    {
+      "models": [
+        2
+      ],
+      "file": "NASA_canopy_halfsection_polygon_audit.json",
+      "sha256": "f6b6dc44a18d533f9fafd621e441ac110c7f0dfb4d3c7e557318e48998f2e395",
+      "sampled_section_count": 5,
+      "source_x_stations": [
+        210,
+        220,
+        250,
+        300,
+        340
+      ],
+      "status": "FUENF_CANOPY_HALBSEKTIONS_PRUEFPOLYGONE_OHNE_SELBSTSCHNITT"
+    },
+    {
+      "models": [
+        3
+      ],
+      "file": "NASA_model3_halfsection_study.json",
+      "sha256": "3353c637af7d5750f721d7b1d36d48bdb3e607bf487e3ebddbd9af7f329d5666",
+      "sampled_section_count": 4,
+      "source_x_stations": [
+        352,
+        370,
+        390,
+        414.5
+      ],
+      "status": "VIER_MODELL3_HALBSEKTIONEN_STUDIE_AUSGEWERTET"
+    },
+    {
+      "models": [
+        4,
+        5
+      ],
+      "file": "NASA_models4_5_halfsection_study.json",
+      "sha256": "9ecaf20bd653ed59526f943d67151d9c6f50df6b4506aecfbe2d6126bd48bc9d",
+      "sampled_section_count": 5,
+      "source_x_stations": [
+        414.5,
+        420,
+        425,
+        429,
+        433
+      ],
+      "status": "MODELLE4_5_FUENF_HALBSEKTIONS_STUDIEN_AUSGEWERTET"
+    },
+    {
+      "models": [
+        6,
+        7
+      ],
+      "file": "NASA_models6_7_halfsection_study_v2.json",
+      "sha256": "62b73775a1f35f286163f13f366da5273716fc8454fffa48de0faec1f0c26638",
+      "sampled_section_count": 9,
+      "source_x_stations": [
+        433,
+        450,
+        475,
+        497,
+        497,
+        525,
+        575,
+        625,
+        650
+      ],
+      "status": "NEUN_MODELL6_7_HALBSEKTIONS_STUDIEN_AUSGEWERTET"
+    },
+    {
+      "models": [
+        8
+      ],
+      "file": "NASA_model8_halfsection_study.json",
+      "sha256": "8b83685819d3488cd26a08edb2d89f4a95796d0997eed4d51e92672de50770d3",
+      "sampled_section_count": 7,
+      "source_x_stations": [
+        650,
+        675,
+        696,
+        697,
+        697,
+        725,
+        780
+      ],
+      "status": "SIEBEN_MODELL8_HALBSEKTIONS_STUDIEN_MIT_697_GRENZWERTEN"
+    }
+  ],
+  "total_sampled_section_records": 35,
+  "limits": [
+    "Neue isolierte Pruefkopie aus GitHub; extern entfernte Arbeitskopien nicht neu angelegt.",
+    "Git-LFS-Smudge beim Klonen ausgelassen: Binaerartefakte koennen nur Zeiger sein; keine erneute native Integritaetsbehauptung.",
+    "Inventar prueft JSON-Vorhandensein/Hashes, keine erneute Geometrie- oder Originalroutinenausfuehrung.",
+    "Koordinaten nicht physisch registriert; Station697-Sprung und historische Rundungssensitivitaet bleiben offen.",
+    "Keine Gesamtmodell-, Druck- oder Flugfreigabe."
+  ],
+  "production_release": false
+}

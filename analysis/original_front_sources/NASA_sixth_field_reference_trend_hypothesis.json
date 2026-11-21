@@ -1,0 +1,102 @@
+{
+  "status": "NUMERIC_REFERENCE_FIELD_HYPOTHESIS_ONLY_NOT_READER_VALIDATION",
+  "input_sha256": {
+    "analysis\\original_front_sources\\NASA_CR172559_inboard_first_three_profiles.json": "406f858e034d902bfc28f2236b497bf5b1110a8dba756fa67f53da24e251f6bd",
+    "analysis\\original_front_sources\\NASA_CR172559_inboard_sweep_grid_comparison.json": "f9ccf979d5c6ed5d2545ca868e09ba59edbb093e1095bc48ad3bc7cad0e52379",
+    "analysis\\airframe_pivot_wl_regression_v127.json": "330490a4d3dad1921f807b4ac3c631ee6ed360ad9fe922bb841ddd7f57e4b4e1"
+  },
+  "records": [
+    {
+      "nominal_sweep_deg": 20,
+      "raw_span_sixth_pairs": [
+        [
+          0,
+          162.70581
+        ],
+        [
+          68.5,
+          161.21141
+        ],
+        [
+          99,
+          160.54604
+        ]
+      ],
+      "endpoint_secant_slope": -0.021815858585858675,
+      "secant_angle_deg_if_same_length_units": -1.2497583820428066,
+      "middle_field_residual_from_endpoint_secant": -1.3686868697959653e-05
+    },
+    {
+      "nominal_sweep_deg": 25,
+      "raw_span_sixth_pairs": [
+        [
+          0,
+          162.45967
+        ],
+        [
+          68.5,
+          161.1024
+        ],
+        [
+          99,
+          160.49806
+        ]
+      ],
+      "endpoint_secant_slope": -0.019814242424242214,
+      "secant_angle_deg_if_same_length_units": -1.135123929232339,
+      "middle_field_residual_from_endpoint_secant": 5.606060597074247e-06
+    },
+    {
+      "nominal_sweep_deg": 35,
+      "raw_span_sixth_pairs": [
+        [
+          0,
+          162.59918
+        ],
+        [
+          68.5,
+          161.17725
+        ],
+        [
+          99,
+          160.54413
+        ]
+      ],
+      "endpoint_secant_slope": -0.02075808080808075,
+      "secant_angle_deg_if_same_length_units": -1.1891796357066025,
+      "middle_field_residual_from_endpoint_secant": -1.46464645922606e-06
+    }
+  ],
+  "near_break": {
+    "separate_raw_headers": [
+      [
+        502.78067,
+        127.22,
+        629.36968,
+        0,
+        1,
+        159.9304
+      ],
+      [
+        502.80906,
+        127.24,
+        629.37056,
+        0,
+        1,
+        159.92996
+      ]
+    ],
+    "mean_span": 127.22999999999999,
+    "mean_sixth_field": 159.93018,
+    "CR3992_root_reference_WL": 159.93018,
+    "difference_mean_sixth_minus_reference_WL": 0.0
+  },
+  "interpretation": "Numerical similarity can motivate a section-reference-WL hypothesis; it cannot identify the F14 reader field, coordinate transform or pivot waterline.",
+  "limits": [
+    "Do not merge127.22 and127.24 into one section",
+    "Do not infer pivot WL by extrapolating inboard/outboard trends",
+    "Earlier v127 extrapolated pivot value remains historical regression, not source datum",
+    "No physical registration or geometry generated"
+  ],
+  "production_release": false
+}

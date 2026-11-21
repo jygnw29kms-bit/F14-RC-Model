@@ -1,0 +1,44 @@
+{
+  "status": "SAVED_PARTITION_SEAM_FACE_CONTACT_GEOMETRY_ONLY",
+  "input_sha256_unchanged": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117",
+  "rows": [
+    {
+      "part_index": 0,
+      "seam_faces": [
+        {
+          "index": 2,
+          "area_mm2": 85.16409461304089,
+          "wire_count": 2
+        }
+      ],
+      "total_seam_area_mm2": 85.16409461304089
+    },
+    {
+      "part_index": 1,
+      "seam_faces": [
+        {
+          "index": 4,
+          "area_mm2": 85.16409461304089,
+          "wire_count": 2
+        }
+      ],
+      "total_seam_area_mm2": 85.16409461304089
+    }
+  ],
+  "contacts": [
+    {
+      "part0_face": 2,
+      "part1_face": 4,
+      "common_area_mm2": 85.16409461304089
+    }
+  ],
+  "matching_common_area_mm2": 85.16409461304089,
+  "limits": [
+    "Zero-gap butt seam only, no overlap joint, alignment keys or adhesive layer",
+    "Contact area is geometric shell cross-section, not allowable bond area or strength",
+    "Partition volume guard remains blocked; no print/flight release",
+    "No full seam manufacturing, skin continuity or physical proof"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

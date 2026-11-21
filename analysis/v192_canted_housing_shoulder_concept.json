@@ -1,0 +1,29 @@
+{
+  "status": "SEPARATE_HOUSING_SHOULDER_CONCEPT_SAVED_REOPENED",
+  "ring_input_sha256_unchanged": "e19d01ce8faf5b42a01f04005653dbfd5e6b7d39061567e4257c0cce6ebb89c6",
+  "output_sha256": "a2c096314b3502154033e50bdf606b628515a7647fec1418d28c2224791dabef",
+  "housing_volume_mm3": 3463.6059005827474,
+  "independent_analytic_volume_mm3": 3463.605900582747,
+  "interface_checks": [
+    {
+      "ring": "LOWER_GENERIC_RING",
+      "overlap_housing_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "ring": "UPPER_GENERIC_RING",
+      "overlap_housing_mm3": 0.0,
+      "distance_mm": 0.0
+    }
+  ],
+  "nominal_shoulder_annulus_area_mm2": 82.46680715673207,
+  "limits": [
+    "Zero nominal radial seat clearance is a geometric placeholder, not tolerance specification",
+    "Shoulder annulus is geometric, not effective race contact or thrust rating",
+    "No outer-race retention on open ends, shaft retention, fasteners, structure or materials",
+    "Not attached to root socket; no aircraft envelope fit or physical pivot WL verified"
+  ],
+  "hardware_selected": false,
+  "print_release": false,
+  "flight_release": false
+}

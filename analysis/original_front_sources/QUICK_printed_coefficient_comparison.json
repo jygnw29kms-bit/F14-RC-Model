@@ -1,0 +1,55 @@
+{
+  "status": "GEDRUCKTE_QUICK_KOEFFIZIENTEN_NUMERISCH_VERGLICHEN",
+  "source": "CR2676 Fig11f PDF69/gedr63, ZweigeINXBLM2/3Segment2",
+  "interpretation": "GedruckteKoeffizientenwerdenalsAx+By+Cx2+y2=0inKoordinatenrelativzuSegmentstartausgewertet.",
+  "rows": [
+    {
+      "sign": -1,
+      "printed_coefficients_local": {
+        "A": -0.048419379,
+        "B": -0.2746033,
+        "C": 0.0048419349
+      },
+      "computed_coefficients_local": {
+        "A": -0.04841837196191,
+        "B": -0.27459423264306804,
+        "C": 0.004841837196191
+      },
+      "printed_local_origin": [
+        10,
+        -1.76327
+      ],
+      "samples": 1001,
+      "maximum_sampled_value_difference": 7.892251590035926e-07,
+      "printed_coefficient_curve_end": -2.000000789225159,
+      "expected_end": -2
+    },
+    {
+      "sign": 1,
+      "printed_coefficients_local": {
+        "A": -0.048419379,
+        "B": 0.2746033,
+        "C": 0.0048419349
+      },
+      "computed_coefficients_local": {
+        "A": -0.04841837196191,
+        "B": 0.27459423264306804,
+        "C": 0.004841837196191
+      },
+      "printed_local_origin": [
+        10,
+        1.76327
+      ],
+      "samples": 1001,
+      "maximum_sampled_value_difference": 7.892251590035926e-07,
+      "printed_coefficient_curve_end": 2.000000789225159,
+      "expected_end": 2
+    }
+  ],
+  "limits": [
+    "VergleichbelegtlokaleTranslationundFormfuerdiesenELLXFillet-ReferenzfallinnerhalbangegebenerNumerikabweichungen.",
+    "OriginaldruckkoeffizientenundEndpunktegerundet; keinbitgenauerCodeabgleich.",
+    "NichtalleF14Direktsegmente/ELLYoderGenerikvalidiert, keineOriginalhaut-/Produktionsfreigabe."
+  ],
+  "production_release": false
+}

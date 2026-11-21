@@ -1,0 +1,9 @@
+from pathlib import Path
+import json,hashlib,math
+R=Path(__file__).resolve().parents[1];p=R/'analysis/v192_y300_short_sleeve_trade_study.json';d=json.loads(p.read_text());length=d['new_sleeve_y_interval_mm'][1]-d['new_sleeve_y_interval_mm'][0]
+ro,ri=2.0,1.1
+area=math.pi*(ro**2-ri**2);I=math.pi/4*(ro**4-ri**4);J=2*I;Z=I/ro
+native_volume=next(r['volume_mm3'] for r in d['rows'] if r['object']=='GENERIC_4OD_2p2ID_SLEEVE')
+assert abs(area*length-native_volume)<1e-7
+out=R/'analysis/v192_short_sleeve_annulus_section_demand.json';assert not out.exists()
+out.write_text(json.dumps({'status':'NOMINAL_ANNULAR_SECTION_PROPERTIES_AND_UNIT_DEMAND_CALCULATED','source_report_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'geometry':{'outer_radius_mm':ro,'inner_radius_mm':ri,'length_mm':length,'area_mm2':area,'second_moment_mm4':I,'polar_second_moment_mm4':J,'section_modulus_mm3':Z},'native_volume_crosscheck_mm3':native_volume-area*length,'unit_demand_coefficients':{'uniform_axial_stress_MPa_per_N':1/area,'elastic_outer_fiber_bending_stress_MPa_per_Nm':1000/Z,'elastic_outer_fiber_torsion_shear_MPa_per_Nm':1000*ro/J},'formulas':{'A':'pi*(Ro^2-Ri^2)','I':'pi/4*(Ro^4-Ri^4)','J':'2*I','Z':'I/Ro','sigma_axial':'N/A','sigma_bending':'1000*M_Nm/Z','tau_torsion':'1000*T_Nm*Ro/J'},'limits':['Homogeneous continuous circular annulus only, elastic nominal section formulas','No load assigned; does not show aircraft moment is carried by this alignment sleeve','No sleeve material selected; printed anisotropy, local bearing, buckling, bond end peaks and discontinuities omitted','Not stiffness sharing, joint strength, safety factor, manufacturing or flight acceptance'],'print_release':False,'flight_release':False},indent=2)+'\n');print('A,I,J,Z',area,I,J,Z,'volume residual',native_volume-area*length)

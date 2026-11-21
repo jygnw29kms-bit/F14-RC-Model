@@ -1,0 +1,46 @@
+{
+  "status": "GENERIC_CANTED_RING_ENVELOPES_SAVED_REOPENED_NOT_HARDWARE_SELECTION",
+  "rows": [
+    {
+      "name": "LOWER_GENERIC_RING",
+      "center_mm": [
+        613.1323905812828,
+        124.99985465128984,
+        -7.997258599804458
+      ],
+      "axis": [
+        0.0,
+        0.026176948307873153,
+        0.9996573249755573
+      ],
+      "volume_mm3": 522.2897786593028
+    },
+    {
+      "name": "UPPER_GENERIC_RING",
+      "center_mm": [
+        613.1323905812828,
+        125.4186858242158,
+        7.997258599804458
+      ],
+      "axis": [
+        0.0,
+        0.026176948307873153,
+        0.9996573249755573
+      ],
+      "volume_mm3": 522.289778659303
+    }
+  ],
+  "center_spacing_along_axis_mm": 16,
+  "overall_axial_extent_mm": 21,
+  "comparison_to_old_socket": "Old boss only16mm high; this21mm axial package is not contained or accepted by that geometry",
+  "output_sha256": "e19d01ce8faf5b42a01f04005653dbfd5e6b7d39061567e4257c0cce6ebb89c6",
+  "master_sha256_unchanged": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "limits": [
+    "No bearings selected, no actual clearances or race contact modeled",
+    "No shaft or housing, shoulders, fastening or thrust path",
+    "No aircraft envelope containment or collision test",
+    "No material, load rating, tolerance, assembly or physical proof"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

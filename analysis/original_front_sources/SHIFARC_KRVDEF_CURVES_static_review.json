@@ -1,0 +1,13 @@
+{
+  "status": "NUR_STATISCH_GELESEN",
+  "files": [
+    "SHIFARC_KRVDEF_review_only.for",
+    "SHIFARC_CURVES_review_only.for"
+  ],
+  "finding": "CURVES Zweig400 prueft ABS(C) gegen1e-5, keinen positiven C-Wert. Historische EL LY-Auswertung ist damit weiter als eigener EllipseGuard.",
+  "limits": [
+    "Auszug bis naechste Routinedeklaration; noch nicht kompilierfertig verifiziert.",
+    "Keine Originalroutine ausgefuehrt, keine WBPPWVersionsgleichheit oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

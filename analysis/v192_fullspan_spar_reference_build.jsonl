@@ -1,0 +1,8 @@
+{"stage": "make_parts", "elapsed_seconds": 0.2839999198913574}
+{"stage": "containment", "elapsed_seconds": 2.6589999198913574, "object": "UNFROZEN_FLANGED_WEB"}
+{"stage": "distance", "elapsed_seconds": 5.999000072479248, "object": "UNFROZEN_FLANGED_WEB"}
+{"stage": "containment", "elapsed_seconds": 9.695000171661377, "object": "GEOMETRIC_LOWER_BOND_0p1"}
+{"stage": "distance", "elapsed_seconds": 11.63099980354309, "object": "GEOMETRIC_LOWER_BOND_0p1"}
+{"stage": "containment", "elapsed_seconds": 12.640000104904175, "object": "GEOMETRIC_UPPER_BOND_0p1"}
+{"stage": "distance", "elapsed_seconds": 14.312999963760376, "object": "GEOMETRIC_UPPER_BOND_0p1"}
+{"stage": "complete", "elapsed_seconds": 15.859000205993652}

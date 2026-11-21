@@ -1,0 +1,31 @@
+{
+  "status": "UPC_STRUCTURAL_ASSEMBLY_SCOPE_VISUALLY_REVIEWED_NOT_GLOVE_OML",
+  "pdf_sha256": "e80075d087be438c5435f3d1d2153a538971df1f26d5d2004bfb01bcb1570441",
+  "pages": 32,
+  "reviewed_pdf_page": 9,
+  "printed_sheet": 3,
+  "printed_sheet_scale": "1:6",
+  "image_sha256": "b73334b43727d685a8c7f9593de220e45fc45efe6059b76548be5b669776a3bc",
+  "intro_pdf_page": 6,
+  "source_scope": [
+    "Thesis model drawings exported from SolidWorks; dimensions in millimetres; structural piece thickness 3 mm stated in introduction.",
+    "Original AutoCAD files described as 1:1 millimetres; this does not make PDF pixels aircraft FS/BL/WL coordinates."
+  ],
+  "visual_observations": [
+    "Sheet3 is a structural assembly plan showing beams, ribs, wing connectors and pivot holes.",
+    "Opposite wings are drawn at different sweep positions; 807.15 and 576.05 dimensions cannot be summed as a symmetric wingspan datum.",
+    "Visible framework and connector plates do not define a closed exterior glove surface.",
+    "No explicit aircraft FS/BL/WL datum labels observed on this reviewed sheet."
+  ],
+  "allowed_use": [
+    "Study structural architecture and possible relative feature correspondences with explicit model-scale registration."
+  ],
+  "disallowed_inference": [
+    "Do not inflate current body to cover rootbridge concept using this skeleton as an aircraft exterior skin.",
+    "Do not transfer a PDF sheet scale or structural thickness directly into the RC FDM airframe.",
+    "Do not use visible pivot holes alone as independent original-aircraft pivot/WL proof."
+  ],
+  "glove_oml_registration_verified": false,
+  "master_change_allowed": false,
+  "production_release": false
+}

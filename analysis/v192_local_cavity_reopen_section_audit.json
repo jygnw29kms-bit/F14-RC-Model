@@ -1,0 +1,57 @@
+{
+  "status": "REOPENED_LOCAL_CAVITY_SAMPLED_SECTION_AUDIT",
+  "trial_sha256": "a59ee9984aba38f18b519300079ee690010eeb6a23b68af39a436694152556b5",
+  "valid": true,
+  "solid_count": 1,
+  "shell_count": 2,
+  "volume_mm3": 178184.78389151418,
+  "rows": [
+    {
+      "y_mm": 225,
+      "wire_count": 2,
+      "inner_area_mm2": 872.2910666878596,
+      "outer_area_mm2": 970.0729021668903,
+      "minimum_boundary_separation_mm": 0.37743800119320015,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 230,
+      "wire_count": 2,
+      "inner_area_mm2": 850.461041848852,
+      "outer_area_mm2": 946.4374236025773,
+      "minimum_boundary_separation_mm": 0.36395690010141085,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 240,
+      "wire_count": 2,
+      "inner_area_mm2": 807.6308878207269,
+      "outer_area_mm2": 900.8739184552893,
+      "minimum_boundary_separation_mm": 0.3580731932059254,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 250,
+      "wire_count": 2,
+      "inner_area_mm2": 765.90726132578,
+      "outer_area_mm2": 857.1648933657211,
+      "minimum_boundary_separation_mm": 0.37251788790734613,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 255,
+      "wire_count": 2,
+      "inner_area_mm2": 745.4603959032489,
+      "outer_area_mm2": 835.8820283623749,
+      "minimum_boundary_separation_mm": 0.38507849723559373,
+      "inner_outside_outer_area_mm2": 0.0
+    }
+  ],
+  "limits": [
+    "Only five planar sections inside 40 mm span cavity; no global three-dimensional normal wall field.",
+    "No whole-wing shell, structural thickness selection, joints, spars or print qualification.",
+    "Shape validity and wire separation do not establish strength or flight readiness."
+  ],
+  "print_release": false,
+  "flight_release": false
+}

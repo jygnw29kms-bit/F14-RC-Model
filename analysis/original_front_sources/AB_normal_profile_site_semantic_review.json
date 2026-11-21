@@ -1,0 +1,37 @@
+{
+  "status": "NORMALPROFILORTE_VISUELL_GEPRUEFT_DREI_UEBERLAGERT",
+  "input_sha256": "d760c31b17b67ec318ea16d00a4c2ee096347b6f3db40f79bc72fbb315c8f714",
+  "sites": [
+    {
+      "section": "A",
+      "y": 300,
+      "visual_finding": "Normalprofil schneidet lokalen Begrenzungsstrich zwischen Schraffuranschluessen; vorlaeufig brauchbare lokale Probe.",
+      "isolated_stroke_candidate": true
+    },
+    {
+      "section": "A",
+      "y": 285,
+      "visual_finding": "Profilzentrum liegt am Schraffuranschluss; keine isolierte Strichmittenmessung.",
+      "isolated_stroke_candidate": false
+    },
+    {
+      "section": "B",
+      "y": 560,
+      "visual_finding": "Profilzentrum trifft Schraffur-/Randvereinigung.",
+      "isolated_stroke_candidate": false
+    },
+    {
+      "section": "B",
+      "y": 590,
+      "visual_finding": "Profilzentrum trifft Schraffur-/Randvereinigung; Versatz nicht als Korrektur anwenden.",
+      "isolated_stroke_candidate": false
+    }
+  ],
+  "consequence": "B590-Versatz und dessen Fenstersensitivitaet betreffen einen vereinigten Dunkelstrich. Sie messen keine unabhaengige isolierte Hautstrichmitte.",
+  "limits": [
+    "VierOrte, keine volle Konturklassifikation.",
+    "Auch A300 bleibt von geschaetzter Tangente, Raster und Schwelle abhaengig.",
+    "Alte Zahlen bleiben als Rechenergebnisse erhalten, ihre Messinterpretation ist eingeschraenkt."
+  ],
+  "production_release": false
+}

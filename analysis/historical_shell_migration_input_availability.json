@@ -1,0 +1,50 @@
+{
+  "status": "LEGACY_SHELL_MIGRATION_INPUT_AVAILABILITY_ONLY",
+  "files": [
+    {
+      "path": "legacy/fusion-review-only/RC-F14-Tomcat_Fusion/Exports/Current/source_shell_v53/F14_HOLLOW_WING_SEGMENTS_CHECKPOINT_v57.f3d",
+      "local_bytes": 132,
+      "local_sha256": "9180b3972c9f288003d7e3b4bd26f03da3ae40286547594051f04ba8de6a0e15",
+      "is_lfs_pointer": true,
+      "native_geometry_opened": false,
+      "expected_lfs_oid_sha256": "ef5ae8ef3e265db459177458cc86c53671bb28d03e589f4f16a94550990aaef1",
+      "expected_payload_bytes": 3792538
+    },
+    {
+      "path": "legacy/fusion-review-only/RC-F14-Tomcat_Fusion/Exports/Current/source_shell_v53/F14_SOURCE_WING_SHELL_FEASIBILITY_v53.f3d",
+      "local_bytes": 132,
+      "local_sha256": "90f4f962be8db843247f4356965d80a7a3186e21c5db5c03f02ea5b4ceb5435e",
+      "is_lfs_pointer": true,
+      "native_geometry_opened": false,
+      "expected_lfs_oid_sha256": "bc3cf462c83dd3a01c448a969d446950d7199f84e48c1fe9eb9cbf05f3c48a00",
+      "expected_payload_bytes": 1756407
+    },
+    {
+      "path": "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/cad/fusion/source_review/hollow_segments_20261013/F14_HOLLOW_WING_SEGMENTS_CHECKPOINT_v57.f3d",
+      "local_bytes": 132,
+      "local_sha256": "9180b3972c9f288003d7e3b4bd26f03da3ae40286547594051f04ba8de6a0e15",
+      "is_lfs_pointer": true,
+      "native_geometry_opened": false,
+      "expected_lfs_oid_sha256": "ef5ae8ef3e265db459177458cc86c53671bb28d03e589f4f16a94550990aaef1",
+      "expected_payload_bytes": 3792538
+    },
+    {
+      "path": "legacy/spandau-branches/codex-f14-cad-v05/side-projects/F14_TOMCAT_RC/cad/fusion/source_review/shell_trial_20261013/F14_SOURCE_WING_SHELL_FEASIBILITY_v53.f3d",
+      "local_bytes": 132,
+      "local_sha256": "90f4f962be8db843247f4356965d80a7a3186e21c5db5c03f02ea5b4ceb5435e",
+      "is_lfs_pointer": true,
+      "native_geometry_opened": false,
+      "expected_lfs_oid_sha256": "bc3cf462c83dd3a01c448a969d446950d7199f84e48c1fe9eb9cbf05f3c48a00",
+      "expected_payload_bytes": 1756407
+    }
+  ],
+  "all_selected_geometry_payloads_locally_present": false,
+  "next_steps": [
+    "Fetch only the exact historical payload if a legacy read-only comparison is necessary; never install historical cores.",
+    "Prefer FreeCAD reconstruction from verified source sections. A Fusion archive is not a neutral BREP import.",
+    "Do not interpret matching historical bounding boxes as current shell geometry or valid joints."
+  ],
+  "native_execution_performed": false,
+  "print_release": false,
+  "flight_release": false
+}

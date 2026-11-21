@@ -1,0 +1,28 @@
+{
+  "status": "SOURCE_STUDY_ONLY_NOT_PROJECT_MASTER",
+  "active_reference": "migration/freecad/NASA_20DEG_SEPARATE_INBOARD_OUTBOARD_R2_REFERENCE_ONLY.FCStd",
+  "verified_sha256": {
+    "migration/freecad/NASA_20DEG_SEPARATE_INBOARD_OUTBOARD_R2_REFERENCE_ONLY.FCStd": "b52da6a5c1035306b6486f0827e8a723347fbeee7c54ee721a450e3f9f72137c",
+    "analysis/original_front_sources/NASA_CR172559_combined20_outboard_corrected_r2.json": "db75fd1339004864983b1f1ff0d3193bca9d6507e35873614e7dbf621cc5cdc0",
+    "analysis/original_front_sources/NASA_CR3992_remaining_ordinate_resolution.json": "77c901d5d385af0b0580097865582cf3ea4b064c16ca05a84b0709b4eceb7cbf",
+    "analysis/original_front_sources/NASA_current_registration_evidence_matrix.json": "d95eb2729deebc5d4cbd088dc962b21717b3a95cc305d80ef727c81d862c2e5a"
+  },
+  "source_frame": "Conditional X=XPL+xc*chord;Y=rawspan;Z=field6+ordinate*chord; source units equal display mm only",
+  "body_count": 2,
+  "bridge_across_127p22_127p24": false,
+  "superseded_for_new_work": [
+    "NASA_20DEG_EIGHT_SECTION_OUTBOARD_REFERENCE_ONLY.FCStd",
+    "NASA_20DEG_PARTIAL_OUTBOARD_REFERENCE_ONLY.FCStd"
+  ],
+  "reason": "R1 eight-section reference contains six original-verified transcription errors; R2 is corrected and separately verified",
+  "project_master": "migration/freecad/F14_CURRENT_FULL_VIEW_v192.FCStd",
+  "project_master_changed": false,
+  "open_gates": [
+    "Exact F14 reader/global ZWING relation",
+    "Physical RC scale and full aircraft datum registration",
+    "Pivot WL and exposed fixed glove topology",
+    "Full aircraft structure/manufacturing/flight verification"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

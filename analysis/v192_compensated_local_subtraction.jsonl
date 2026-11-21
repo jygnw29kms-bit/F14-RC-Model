@@ -1,0 +1,8 @@
+{"stage": "tool_reopen_validity", "elapsed_seconds": 0.597998857498169}
+{"stage": "subtraction_start", "elapsed_seconds": 0.7799990177154541}
+{"stage": "subtraction_returned", "elapsed_seconds": 17.40500020980835, "faces": 495}
+{"stage": "result_validity_start", "elapsed_seconds": 17.40500020980835}
+{"stage": "result_validity_done", "elapsed_seconds": 17.83699941635132, "valid": true}
+{"stage": "save_start", "elapsed_seconds": 19.72999882698059}
+{"stage": "save_done", "elapsed_seconds": 19.871000289916992}
+{"stage": "complete", "elapsed_seconds": 19.906001806259155}

@@ -1,0 +1,108 @@
+{
+  "status": "HALBSEKTIONS_STUDIE_G1_ABER_NICHT_G2_AN_MHB",
+  "input_sha256": "505dc4674194d4db5d3d42e608276489d23e5759e495db95951a7a5eb625be82",
+  "rows": [
+    {
+      "x_source": 110,
+      "halfwidth_source": 6.167824996014577,
+      "lower_height_source": 7.496252674549908,
+      "upper_height_source": 7.269174824739309,
+      "normalized_join_tangent_lower": [
+        0,
+        1
+      ],
+      "normalized_join_tangent_upper": [
+        0,
+        1
+      ],
+      "position_and_unit_tangent_continuous": true,
+      "curvature_lower_inverse_source": 0.10975987634466841,
+      "curvature_upper_inverse_source": 0.11672444429831874,
+      "curvature_ratio": 1.0634527678564447,
+      "curvature_continuous": false
+    },
+    {
+      "x_source": 125,
+      "halfwidth_source": 10.292864146507398,
+      "lower_height_source": 12.667465855395733,
+      "upper_height_source": 12.25802460356141,
+      "normalized_join_tangent_lower": [
+        0,
+        1
+      ],
+      "normalized_join_tangent_upper": [
+        0,
+        1
+      ],
+      "position_and_unit_tangent_continuous": true,
+      "curvature_lower_inverse_source": 0.06414410590695899,
+      "curvature_upper_inverse_source": 0.06850074001856644,
+      "curvature_ratio": 1.0679194767782212,
+      "curvature_continuous": false
+    },
+    {
+      "x_source": 150,
+      "halfwidth_source": 15.643997271859092,
+      "lower_height_source": 18.886620983241002,
+      "upper_height_source": 18.869229359557153,
+      "normalized_join_tangent_lower": [
+        0,
+        1
+      ],
+      "normalized_join_tangent_upper": [
+        0,
+        1
+      ],
+      "position_and_unit_tangent_continuous": true,
+      "curvature_lower_inverse_source": 0.04385702835197654,
+      "curvature_upper_inverse_source": 0.043937910981205315,
+      "curvature_ratio": 1.0018442341459994,
+      "curvature_continuous": false
+    },
+    {
+      "x_source": 175,
+      "halfwidth_source": 19.758675452017343,
+      "lower_height_source": 21.63220953510745,
+      "upper_height_source": 24.99625183329681,
+      "normalized_join_tangent_lower": [
+        0,
+        1
+      ],
+      "normalized_join_tangent_upper": [
+        0,
+        1
+      ],
+      "position_and_unit_tangent_continuous": true,
+      "curvature_lower_inverse_source": 0.042223678473395344,
+      "curvature_upper_inverse_source": 0.03162336238311181,
+      "curvature_ratio": 1.335205218276996,
+      "curvature_continuous": false
+    },
+    {
+      "x_source": 200,
+      "halfwidth_source": 23.00351043014539,
+      "lower_height_source": 20.697645079899075,
+      "upper_height_source": 31.322172490804405,
+      "normalized_join_tangent_lower": [
+        0,
+        1
+      ],
+      "normalized_join_tangent_upper": [
+        0,
+        1
+      ],
+      "position_and_unit_tangent_continuous": true,
+      "curvature_lower_inverse_source": 0.05369727479740269,
+      "curvature_upper_inverse_source": 0.023447166231158764,
+      "curvature_ratio": 2.29013921204878,
+      "curvature_continuous": false
+    }
+  ],
+  "limits": [
+    "Nur analytische Eigenschaften der vorbereiteten Viertellipsenstudie.",
+    "G1 bedeutet hier gleiche Position und normierte Tangentenrichtung am MHB; keine Laengs-/Loft-Stetigkeitsaussage.",
+    "Kruemmungssprung ist ein Befund, keine automatisch zu glaettende Quellenabweichung.",
+    "Keine native Ausfuehrung, kein physischer Massstab, keine Herstellerhaut- oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

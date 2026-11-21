@@ -1,0 +1,43 @@
+{
+  "status": "GENERALFUSE_GK_AND_NATIVE_TOLERANCES_MEASURED",
+  "input_sha256_unchanged": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+  "rows": [
+    {
+      "name": "SOURCE",
+      "GK_volume_mm3": 64771.07671760564,
+      "estimated_relative_error": 1.7139117024908636e-09,
+      "tolerance_by_mode": {
+        "0": 1.2138823938534077e-07,
+        "1": 9.11359962e-07,
+        "2": 9.11359962e-07
+      }
+    },
+    {
+      "name": "PART0",
+      "GK_volume_mm3": 53714.68202150849,
+      "estimated_relative_error": 1.323360352413413e-10,
+      "tolerance_by_mode": {
+        "0": 3.444005665282898e-07,
+        "1": 5.000001000000001e-06,
+        "2": 5.000001000000001e-06
+      }
+    },
+    {
+      "name": "PART1",
+      "GK_volume_mm3": 11056.393645977598,
+      "estimated_relative_error": 2.13591219261167e-10,
+      "tolerance_by_mode": {
+        "0": 3.171986375338964e-07,
+        "1": 5.000001000000001e-06,
+        "2": 5.000001000000001e-06
+      }
+    }
+  ],
+  "native_tolerance_method_doc": "Determines a tolerance from the ones stored in a shape\ngetTolerance(mode, ShapeType=Shape) -> float\n--\nmode = 0 : returns the average value between sub-shapes,\nmode > 0 : returns the maximal found,\nmode < 0 : returns the minimal found.\nShapeType defines what kinds of sub-shapes to consider:\nShape (default) : all : Vertex, Edge, Face,\nVertex : only vertices,\nEdge   : only edges,\nFace   : only faces,\nShell  : combined Shell + Face, for each face (and containing\n         shell), also checks edge and Vertex",
+  "part_sum_minus_source_mm3": -0.0010501195502001792,
+  "limits": [
+    "Topological tolerances are local geometry tolerances, not a rigorous volume error bound",
+    "No tolerance modification or relaxed gate",
+    "No saved split CAD or printing acceptance"
+  ]
+}

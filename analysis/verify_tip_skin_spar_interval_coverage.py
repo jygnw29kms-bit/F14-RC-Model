@@ -1,0 +1,9 @@
+from pathlib import Path
+import json,hashlib
+R=Path(__file__).resolve().parents[1];p=R/'analysis/v192_tip_skin_spar_continuous_clearance_resumed.json';d=json.loads(p.read_text());assert d['status']=='CONTINUOUS_TIP_SKIN_SPAR_INTERVALS_COVERED' and not d['pending_intervals'];ranges=sorted(d['covered_intervals']);assert ranges[0][0]==0 and ranges[-1][1]==5
+for a,b in zip(ranges,ranges[1:]):assert a[1]==b[0]
+covered=[s for s in d['samples'] if s['covered']];assert sorted(s['interval'] for s in covered)==ranges;low=[]
+for s in covered:
+ a,b=s['interval'];assert s['mid_translation_mm']==(a+b)/2 and s['lipschitz_radius_mm']==(b-a)/2;v=s['native_distance_mm']-(b-a)/2;assert v>d['native_distance_margin_mm'];low.append(v)
+for n,h in d['input_sha256_unchanged'].items():assert hashlib.sha256((R/'migration/freecad'/n).read_bytes()).hexdigest()==h
+out=R/'analysis/v192_tip_skin_spar_interval_coverage_verification.json';assert not out.exists();out.write_text(json.dumps({'status':'FULL0_TO5_INTERVAL_TILING_AND_DISTANCE_BOUNDS_INDEPENDENTLY_VERIFIED','input_report_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'sample_count':len(d['samples']),'covered_interval_count':len(ranges),'covered_length_mm':sum(b-a for a,b in ranges),'global_distance_lower_bound_under_native_numeric_assumptions_mm':min(low),'required_numeric_margin_mm':d['native_distance_margin_mm'],'scope':'Tip wing skin rigidYtranslation0..5 versus fixed5body spar only','limits':['Not entire subassembly or adhesive/assembly process proof','Native numerical distance accuracy assumed; no exact arithmetic certificate','Short sleeve carrier paths, strength and source partition volume acceptance remain open'],'print_release':False,'flight_release':False},indent=2)+'\n');print('Verified',len(ranges),'intervals; conservative distance lower bound',min(low))

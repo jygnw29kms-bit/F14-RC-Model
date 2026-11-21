@@ -1,0 +1,58 @@
+{
+  "status": "NASENSPITZE_DEGENERIERT_ZU_EINEM_PUNKT",
+  "source_sha256": "9c579c1fa05549afbb130552a6346bef8639b9e2c6442779b3558f9f734bc30b",
+  "evaluator_sha256": "4898db91c0fef39d2df036d080457129281a4e2767403ef778859eb3979a5156",
+  "apex_source": [
+    93,
+    0,
+    131.45
+  ],
+  "endpoint_slopes_source": {
+    "top": 0.5956521739130439,
+    "bottom": -0.4095890410958901,
+    "halfwidth": 0.4366197183098591,
+    "midline": 0.09225352112676072
+  },
+  "leading_half_area_coefficient": 0.34471764401721855,
+  "samples": [
+    {
+      "dx_source": 1.0,
+      "halfwidth_source": 0.4308431073735868,
+      "half_area_source2": 0.33688818124639763,
+      "area_divided_by_dx2": 0.33688818124639763,
+      "relative_difference_from_leading_limit": 0.02271268357366076
+    },
+    {
+      "dx_source": 0.1,
+      "halfwidth_source": 0.04360301061252869,
+      "half_area_source2": 0.003439171472149356,
+      "area_divided_by_dx2": 0.34391714721493555,
+      "relative_difference_from_leading_limit": 0.0023221811130822684
+    },
+    {
+      "dx_source": 0.01,
+      "halfwidth_source": 0.004365606340492434,
+      "half_area_source2": 3.4463741371304176e-05,
+      "area_divided_by_dx2": 0.34463741371304174,
+      "relative_difference_from_leading_limit": 0.00023274208781956586
+    },
+    {
+      "dx_source": 0.001,
+      "halfwidth_source": 0.0004366138086524529,
+      "half_area_source2": 3.4470961918305665e-07,
+      "area_divided_by_dx2": 0.34470961918305665,
+      "relative_difference_from_leading_limit": 2.3279441308495208e-05
+    }
+  ],
+  "construction_implications": [
+    "Bei X=93 sind Breite und beide Viertellipsenhoehen null: keine regulaere Ellipsensektion.",
+    "Der Spitzenabschluss braucht eine explizite Punkt-/Polbehandlung; keine erfundene endliche Startsektion.",
+    "Endliche nichtgleiche Randsteigungen ergeben in dieser Studie einen spitzen lokalen Abschluss; keine belegte abgerundete Herstellernase."
+  ],
+  "limits": [
+    "Analytische Eigenschaften des teilverifizierten Studienmodells, kein Originalroutine-/Herstellerhautnachweis.",
+    "Keine native Flaeche, kein Loft oder Export ausgefuehrt.",
+    "Physische Einheiten, UPC-Registrierung und Produktionsfreigabe bleiben offen."
+  ],
+  "production_release": false
+}

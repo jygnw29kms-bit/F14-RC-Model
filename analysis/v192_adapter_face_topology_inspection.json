@@ -1,0 +1,332 @@
+{
+  "status": "READ_ONLY_FACE_TOPOLOGY_INSPECTION_NOT_WALL_QUALIFICATION",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "rows": [
+    {
+      "object": "INLET_EDF_R",
+      "faces": [
+        {
+          "index": 0,
+          "surface": "BSplineSurface",
+          "area_mm2": 8695.1034896351,
+          "center": [
+            623.1482586875244,
+            60.82833042845462,
+            -8.347908616797154
+          ],
+          "orientation": "Forward",
+          "edge_radii_mm": [],
+          "edge_lengths_mm": [
+            155.39786711881095,
+            55.1691546696502,
+            163.3101821452273
+          ]
+        },
+        {
+          "index": 1,
+          "surface": "Plane",
+          "area_mm2": 124.70511525999814,
+          "center": [
+            595.8483908511422,
+            56.438964970044466,
+            -6.609878490231835
+          ],
+          "orientation": "Forward",
+          "edge_radii_mm": [],
+          "edge_lengths_mm": [
+            155.39786711881095,
+            150.27068698169367
+          ]
+        },
+        {
+          "index": 2,
+          "surface": "BSplineSurface",
+          "area_mm2": 1310.8784460120369,
+          "center": [
+            653.9956195913911,
+            65.62644525339103,
+            -10.266023868021554
+          ],
+          "orientation": "Forward",
+          "edge_radii_mm": [
+            25.82
+          ],
+          "edge_lengths_mm": [
+            163.3101821452273,
+            8.056361129275382,
+            162.23184463137693
+          ]
+        },
+        {
+          "index": 3,
+          "surface": "BSplineSurface",
+          "area_mm2": 8415.340477654789,
+          "center": [
+            623.1557075380141,
+            60.82502399117861,
+            -8.346603589478898
+          ],
+          "orientation": "Reversed",
+          "edge_radii_mm": [],
+          "edge_lengths_mm": [
+            150.27068698169367,
+            55.16915466965021,
+            158.18300200810984
+          ]
+        },
+        {
+          "index": 4,
+          "surface": "Plane",
+          "area_mm2": 130.9177056974545,
+          "center": [
+            658.0,
+            66.28458486059387,
+            -10.508688347971981
+          ],
+          "orientation": "Forward",
+          "edge_radii_mm": [
+            25.82,
+            25.0
+          ],
+          "edge_lengths_mm": [
+            162.23184463137693,
+            157.07963267948966
+          ]
+        },
+        {
+          "index": 5,
+          "surface": "BSplineSurface",
+          "area_mm2": 1269.5284907769717,
+          "center": [
+            653.9953698645912,
+            65.62651327718484,
+            -10.264979020458886
+          ],
+          "orientation": "Reversed",
+          "edge_radii_mm": [
+            25.0
+          ],
+          "edge_lengths_mm": [
+            158.18300200810984,
+            8.056945884312043,
+            157.07963267948966
+          ]
+        }
+      ],
+      "curved_face_pairs": [
+        {
+          "faces": [
+            0,
+            2
+          ],
+          "distance_mm": 0.0,
+          "shared_edges": 1
+        },
+        {
+          "faces": [
+            0,
+            3
+          ],
+          "distance_mm": 0.8053924013191501,
+          "shared_edges": 0
+        },
+        {
+          "faces": [
+            0,
+            5
+          ],
+          "distance_mm": 0.805449042242629,
+          "shared_edges": 0
+        },
+        {
+          "faces": [
+            2,
+            3
+          ],
+          "distance_mm": 0.8012487991658218,
+          "shared_edges": 0
+        },
+        {
+          "faces": [
+            2,
+            5
+          ],
+          "distance_mm": 0.8012487991658218,
+          "shared_edges": 0
+        },
+        {
+          "faces": [
+            3,
+            5
+          ],
+          "distance_mm": 0.0,
+          "shared_edges": 1
+        }
+      ]
+    },
+    {
+      "object": "INLET_EDF_L",
+      "faces": [
+        {
+          "index": 0,
+          "surface": "BSplineSurface",
+          "area_mm2": 8695.10348963398,
+          "center": [
+            623.1482586875244,
+            -60.82833042651343,
+            -8.347908616757461
+          ],
+          "orientation": "Forward",
+          "edge_radii_mm": [],
+          "edge_lengths_mm": [
+            155.3978671188111,
+            54.7676122850342,
+            163.31018214522692
+          ]
+        },
+        {
+          "index": 1,
+          "surface": "Plane",
+          "area_mm2": 124.7051152599854,
+          "center": [
+            595.8483908511422,
+            -56.43896496727328,
+            -6.609878490231149
+          ],
+          "orientation": "Forward",
+          "edge_radii_mm": [],
+          "edge_lengths_mm": [
+            155.3978671188111,
+            150.2706869816935
+          ]
+        },
+        {
+          "index": 2,
+          "surface": "BSplineSurface",
+          "area_mm2": 1310.878446010931,
+          "center": [
+            653.9956195913911,
+            -65.62644525143658,
+            -10.266023867987004
+          ],
+          "orientation": "Forward",
+          "edge_radii_mm": [
+            25.82
+          ],
+          "edge_lengths_mm": [
+            163.31018214522692,
+            8.162609660611073,
+            162.23184463137693
+          ]
+        },
+        {
+          "index": 3,
+          "surface": "BSplineSurface",
+          "area_mm2": 8415.340477653697,
+          "center": [
+            623.1557075380141,
+            -60.82502398929988,
+            -8.346603589440463
+          ],
+          "orientation": "Reversed",
+          "edge_radii_mm": [],
+          "edge_lengths_mm": [
+            150.2706869816935,
+            54.76761228503419,
+            158.18300200810955
+          ]
+        },
+        {
+          "index": 4,
+          "surface": "Plane",
+          "area_mm2": 130.91770569745495,
+          "center": [
+            658.0,
+            -66.28458486059384,
+            -10.508688347971985
+          ],
+          "orientation": "Forward",
+          "edge_radii_mm": [
+            25.82,
+            25.0
+          ],
+          "edge_lengths_mm": [
+            162.23184463137693,
+            157.07963267948966
+          ]
+        },
+        {
+          "index": 5,
+          "surface": "BSplineSurface",
+          "area_mm2": 1269.52849077594,
+          "center": [
+            653.9953698645912,
+            -65.62651327529198,
+            -10.264979020425256
+          ],
+          "orientation": "Reversed",
+          "edge_radii_mm": [
+            25.0
+          ],
+          "edge_lengths_mm": [
+            158.18300200810955,
+            8.162868152250171,
+            157.07963267948966
+          ]
+        }
+      ],
+      "curved_face_pairs": [
+        {
+          "faces": [
+            0,
+            2
+          ],
+          "distance_mm": 0.0,
+          "shared_edges": 1
+        },
+        {
+          "faces": [
+            0,
+            3
+          ],
+          "distance_mm": 0.8053924014915559,
+          "shared_edges": 0
+        },
+        {
+          "faces": [
+            0,
+            5
+          ],
+          "distance_mm": 0.8086396302743264,
+          "shared_edges": 0
+        },
+        {
+          "faces": [
+            2,
+            3
+          ],
+          "distance_mm": 0.8012487985419634,
+          "shared_edges": 0
+        },
+        {
+          "faces": [
+            2,
+            5
+          ],
+          "distance_mm": 0.8012487985419634,
+          "shared_edges": 0
+        },
+        {
+          "faces": [
+            3,
+            5
+          ],
+          "distance_mm": 0.0,
+          "shared_edges": 1
+        }
+      ]
+    }
+  ],
+  "print_release": false,
+  "flight_release": false
+}

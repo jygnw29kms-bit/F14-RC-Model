@@ -1,0 +1,22 @@
+{
+  "status": "NORMALIZED_HOLLOW_WING_REPORT_SCOPE_HASHES_AND_BALANCES_VERIFIED",
+  "input_report_sha256": "2025e143e57951f4d95e92aa5c72382e2221a48465ef1d592be8e36126a56bc5",
+  "candidate_sha256": "4afe31bd9d75597c2e9c5ce56594a65e7a09cc3f34d78c616caf58f77d20af4c",
+  "default_balance_residual_mm3": 0.023179655850981362,
+  "adaptive_GK_balance_residual_mm3": -9.538780432194471e-09,
+  "default_numeric_balance_within1e_minus5": false,
+  "adaptive_GK_numeric_balance_within1e_minus5": true,
+  "default_minus_GK_volumes_by_object_mm3": {
+    "SOURCE_WING": -0.1081356426293496,
+    "NORMALIZED_CAVITY": 5.820766091346741e-11,
+    "HOLLOW_WING_CANDIDATE": -0.13131530807731906
+  },
+  "min_current_wing_boundary_gap_mm": 0.40332746734912006,
+  "limits": [
+    "Conservation of numerical volume does not certify absolute volume accuracy",
+    "Current wing OML remains heuristic and unregistered to complete primary aircraft geometry",
+    "No saved partition, updated seam/structure, manufacturing or flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

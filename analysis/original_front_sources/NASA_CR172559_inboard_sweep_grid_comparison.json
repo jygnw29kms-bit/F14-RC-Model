@@ -1,0 +1,229 @@
+{
+  "status": "VISUALLY_VERIFIED_SHARED_GRID_AND_FIRST_THREE_HEADERS_ONLY",
+  "source_sha256": "266ae1d71b32afcb7a44ea41e275669b98338f42bc62fb79d33a815c45ed1d5e",
+  "baseline_dataset_sha256": "406f858e034d902bfc28f2236b497bf5b1110a8dba756fa67f53da24e251f6bd",
+  "records": [
+    {
+      "nominal_sweep_deg": 25,
+      "source_pdf_page": 29,
+      "grid_xc": [
+        0,
+        0.00201,
+        0.00501,
+        0.01002,
+        0.02005,
+        0.04,
+        0.05997,
+        0.08,
+        0.1,
+        0.12,
+        0.14002,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.26,
+        0.28,
+        0.3,
+        0.32,
+        0.34,
+        0.36,
+        0.38,
+        0.4,
+        0.42,
+        0.44,
+        0.46,
+        0.48,
+        0.5,
+        0.52,
+        0.56,
+        0.6,
+        0.64,
+        0.68,
+        0.69998,
+        0.72,
+        0.74,
+        0.76,
+        0.78,
+        0.8,
+        0.82,
+        0.84,
+        0.86,
+        0.88,
+        0.9,
+        0.92,
+        0.94,
+        0.96,
+        0.98,
+        1
+      ],
+      "max_grid_difference_from_20": 0.00010000000000000005,
+      "differing_grid_indices_zero_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        34
+      ],
+      "first_three_headers": [
+        {
+          "raw_header": [
+            187.90012,
+            0,
+            615.1792,
+            0,
+            1,
+            162.45967
+          ],
+          "trailing_edge_X_change_from_20": -8.52977999999996,
+          "chord_source_units": 427.27908,
+          "sixth_field_change_uninterpreted": -0.24614000000002534
+        },
+        {
+          "raw_header": [
+            357.44357,
+            68.5,
+            624.19702,
+            0,
+            1,
+            161.1024
+          ],
+          "trailing_edge_X_change_from_20": -2.559820000000059,
+          "chord_source_units": 266.75344999999993,
+          "sixth_field_change_uninterpreted": -0.10901000000001204
+        },
+        {
+          "raw_header": [
+            432.93372,
+            99,
+            628.21216,
+            0,
+            1,
+            160.49806
+          ],
+          "trailing_edge_X_change_from_20": 0.09815000000003238,
+          "chord_source_units": 195.27844000000005,
+          "sixth_field_change_uninterpreted": -0.04797999999999547
+        }
+      ]
+    },
+    {
+      "nominal_sweep_deg": 35,
+      "source_pdf_page": 33,
+      "grid_xc": [
+        0,
+        0.00198,
+        0.00506,
+        0.01,
+        0.02,
+        0.04005,
+        0.06,
+        0.08,
+        0.1,
+        0.12,
+        0.14006,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.26,
+        0.28,
+        0.3,
+        0.32,
+        0.34,
+        0.36,
+        0.38,
+        0.4,
+        0.42,
+        0.44,
+        0.46,
+        0.48,
+        0.5,
+        0.52,
+        0.56,
+        0.6,
+        0.64,
+        0.68,
+        0.7,
+        0.72,
+        0.74,
+        0.76,
+        0.78,
+        0.8,
+        0.82,
+        0.84,
+        0.86,
+        0.88,
+        0.9,
+        0.92,
+        0.94,
+        0.96,
+        0.98,
+        1
+      ],
+      "max_grid_difference_from_20": 0.00012000000000000205,
+      "differing_grid_indices_zero_based": [
+        1,
+        2,
+        3,
+        5,
+        10
+      ],
+      "first_three_headers": [
+        {
+          "raw_header": [
+            187.90012,
+            0,
+            599.60083,
+            0,
+            1,
+            162.59918
+          ],
+          "trailing_edge_X_change_from_20": -24.108150000000023,
+          "chord_source_units": 411.70070999999996,
+          "sixth_field_change_uninterpreted": -0.10663000000002398
+        },
+        {
+          "raw_header": [
+            357.44357,
+            68.5,
+            621.27344,
+            0,
+            1,
+            161.17725
+          ],
+          "trailing_edge_X_change_from_20": -5.4833999999999605,
+          "chord_source_units": 263.82987,
+          "sixth_field_change_uninterpreted": -0.03416000000001418
+        },
+        {
+          "raw_header": [
+            432.93372,
+            99,
+            630.92334,
+            0,
+            1,
+            160.54413
+          ],
+          "trailing_edge_X_change_from_20": 2.8093300000000454,
+          "chord_source_units": 197.98962000000006,
+          "sixth_field_change_uninterpreted": -0.0019100000000094042
+        }
+      ]
+    }
+  ],
+  "finding": "Each sweep uses its own common 50-point normalized chord grid and different trailing-edge X coordinates even at equal inboard span positions. Equal array index does not guarantee equal normalized or dimensional X.",
+  "limits": [
+    "Upper/lower ordinates for 25/35 not transcribed by this script",
+    "No vertical registration or sixth-field interpretation",
+    "No demonstrated invariant fixed-glove skin; compare at common dimensional X after resolving ordinate conventions",
+    "Centerline is computational continuation, not automatically exposed skin"
+  ],
+  "geometry_changed": false,
+  "production_release": false
+}

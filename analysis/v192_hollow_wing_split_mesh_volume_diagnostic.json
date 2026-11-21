@@ -1,0 +1,65 @@
+{
+  "status": "MESH_INTEGRATION_DIAGNOSTIC_COMPLETE_NOT_RELEASE",
+  "input_sha256_unchanged": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+  "rows": [
+    {
+      "requested_linear_deflection_mm": 0.1,
+      "source_root_tip": [
+        {
+          "triangles": 43392,
+          "signed_divergence_abs_volume_mm3": 64578.09553046353
+        },
+        {
+          "triangles": 11977,
+          "signed_divergence_abs_volume_mm3": 53735.581105741025
+        },
+        {
+          "triangles": 32111,
+          "signed_divergence_abs_volume_mm3": 10905.758775591961
+        }
+      ],
+      "part_sum_minus_source_mm3": 63.24435086945596
+    },
+    {
+      "requested_linear_deflection_mm": 0.05,
+      "source_root_tip": [
+        {
+          "triangles": 44676,
+          "signed_divergence_abs_volume_mm3": 64694.24472156361
+        },
+        {
+          "triangles": 12625,
+          "signed_divergence_abs_volume_mm3": 53728.06558858835
+        },
+        {
+          "triangles": 32777,
+          "signed_divergence_abs_volume_mm3": 10991.490272659517
+        }
+      ],
+      "part_sum_minus_source_mm3": 25.311139684257796
+    },
+    {
+      "requested_linear_deflection_mm": 0.02,
+      "source_root_tip": [
+        {
+          "triangles": 48478,
+          "signed_divergence_abs_volume_mm3": 64748.29660268836
+        },
+        {
+          "triangles": 14223,
+          "signed_divergence_abs_volume_mm3": 53718.09000898264
+        },
+        {
+          "triangles": 34539,
+          "signed_divergence_abs_volume_mm3": 11030.049122268329
+        }
+      ],
+      "part_sum_minus_source_mm3": -0.15747143739281455
+    }
+  ],
+  "limits": [
+    "Tessellation is approximate, not exact BRep volume proof",
+    "No saved mesh exports or STL/manifold/print acceptance",
+    "Deflection convergence is diagnostic only; original strict balance failure remains unresolved"
+  ]
+}

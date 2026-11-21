@@ -1,0 +1,42 @@
+{
+  "status": "SEPARATE_CAP_WEB_GEOMETRIC_CONTACT_STUDY_ONLY",
+  "basis_sha256": "f33f7fa40eadf6d6aaf47c00a1995c369967619d906167ec913884ef41e4e0c5",
+  "caps_sha256": "450d5756a02667a818f85360a4c63c736b6a639e52a56af9329e5f2cce847024",
+  "void_sha256": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19",
+  "output_sha256": "7e77261473ca8172216c26807e6e973035e245f64723a94a87c1b80ec163d619",
+  "web_valid": true,
+  "web_solids": 1,
+  "web_volume_mm3": 1104.918906400112,
+  "web_outside_void_volume_mm3": 0.0,
+  "web_minimum_void_boundary_gap_mm": 1.2316146286183196,
+  "contacts": [
+    {
+      "cap": "UNFROZEN_LOWER_CAP",
+      "distance_mm": 0.0,
+      "common_volume_mm3": 0.0,
+      "common_area_mm2": 0.0,
+      "common_faces": 0
+    },
+    {
+      "cap": "UNFROZEN_UPPER_CAP",
+      "distance_mm": 0.0,
+      "common_volume_mm3": 0.0,
+      "common_area_mm2": 0.0,
+      "common_faces": 0
+    }
+  ],
+  "fusion_diagnostic": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 7104.91890648798,
+    "sum_input_volume_mm3": 7104.918906400116
+  },
+  "limits": [
+    "0.8mm centered web is an unfrozen geometric concept, not selected material or print thickness",
+    "Zero distance and single-solid diagnostic fusion do not establish face-contact area: solid common returned zero faces and zero area; face-level verification remains open.",
+    "No adhesive film, fillets, buckling, laminate, stiffness, torsion, root connection or physical proof",
+    "Separate three-body study; diagnostic fused shape not substituted for manufactured assembly; master unchanged"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

@@ -1,0 +1,36 @@
+{
+  "status": "NOMINAL_ANNULAR_SECTION_PROPERTIES_AND_UNIT_DEMAND_CALCULATED",
+  "source_report_sha256": "5e0dac1dadba56d90f517b61ae538f835f4b7640f71bd8c3c247dbff67ce14b0",
+  "geometry": {
+    "outer_radius_mm": 2.0,
+    "inner_radius_mm": 1.1,
+    "length_mm": 8,
+    "area_mm2": 8.765043503515523,
+    "second_moment_mm4": 11.416469163328967,
+    "polar_second_moment_mm4": 22.832938326657935,
+    "section_modulus_mm3": 5.708234581664484
+  },
+  "native_volume_crosscheck_mm3": -4.405364961712621e-13,
+  "unit_demand_coefficients": {
+    "uniform_axial_stress_MPa_per_N": 0.11408956494042677,
+    "elastic_outer_fiber_bending_stress_MPa_per_Nm": 175.18551238453247,
+    "elastic_outer_fiber_torsion_shear_MPa_per_Nm": 87.59275619226624
+  },
+  "formulas": {
+    "A": "pi*(Ro^2-Ri^2)",
+    "I": "pi/4*(Ro^4-Ri^4)",
+    "J": "2*I",
+    "Z": "I/Ro",
+    "sigma_axial": "N/A",
+    "sigma_bending": "1000*M_Nm/Z",
+    "tau_torsion": "1000*T_Nm*Ro/J"
+  },
+  "limits": [
+    "Homogeneous continuous circular annulus only, elastic nominal section formulas",
+    "No load assigned; does not show aircraft moment is carried by this alignment sleeve",
+    "No sleeve material selected; printed anisotropy, local bearing, buckling, bond end peaks and discontinuities omitted",
+    "Not stiffness sharing, joint strength, safety factor, manufacturing or flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

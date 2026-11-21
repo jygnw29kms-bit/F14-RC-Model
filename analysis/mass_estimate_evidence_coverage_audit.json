@@ -1,0 +1,129 @@
+{
+  "status": "HISTORISCHE_MASSENABSCHAETZUNG_EVIDENZANTEILE_NACHGERECHNET",
+  "source_sha256": "079a8be9447801794483180c5a51bb0f381ebd5794085aa4402040a30e28790d",
+  "source_revision": "v166 retention-corrected screen",
+  "current_pointer_revision": "v192",
+  "scenario_count": 12,
+  "projected_total_range_g": [
+    975.1857866059768,
+    987.5251861603167
+  ],
+  "geometry_density_screen_fraction_range": [
+    0.07504804480456138,
+    0.0866055745806896
+  ],
+  "provisional_and_budget_fraction_range": [
+    0.9133944254193104,
+    0.9249519551954386
+  ],
+  "rows": [
+    {
+      "projected_total_g": 978.7582480207839,
+      "geometry_density_screen_g": 76.75824802078392,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.07842411359087108,
+      "provisional_and_budget_fraction": 0.921575886409129
+    },
+    {
+      "projected_total_g": 979.2106373629008,
+      "geometry_density_screen_g": 77.21063736290085,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.0788498760295699,
+      "provisional_and_budget_fraction": 0.9211501239704302
+    },
+    {
+      "projected_total_g": 979.6630267050177,
+      "geometry_density_screen_g": 77.66302670501778,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.07927524525063308,
+      "provisional_and_budget_fraction": 0.920724754749367
+    },
+    {
+      "projected_total_g": 986.6204074760828,
+      "geometry_density_screen_g": 84.62040747608283,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.08576794766748645,
+      "provisional_and_budget_fraction": 0.9142320523325136
+    },
+    {
+      "projected_total_g": 987.0727968181998,
+      "geometry_density_screen_g": 85.07279681819976,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.08618695307218417,
+      "provisional_and_budget_fraction": 0.9138130469278158
+    },
+    {
+      "projected_total_g": 987.5251861603167,
+      "geometry_density_screen_g": 85.5251861603167,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.0866055745806896,
+      "provisional_and_budget_fraction": 0.9133944254193104
+    },
+    {
+      "projected_total_g": 975.1857866059768,
+      "geometry_density_screen_g": 73.18578660597679,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.07504804480456138,
+      "provisional_and_budget_fraction": 0.9249519551954386
+    },
+    {
+      "projected_total_g": 975.6381759480937,
+      "geometry_density_screen_g": 73.63817594809372,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.0754769316776012,
+      "provisional_and_budget_fraction": 0.9245230683223988
+    },
+    {
+      "projected_total_g": 976.0905652902106,
+      "geometry_density_screen_g": 74.09056529021065,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.0759054209976736,
+      "provisional_and_budget_fraction": 0.9240945790023264
+    },
+    {
+      "projected_total_g": 983.0479460612758,
+      "geometry_density_screen_g": 81.0479460612757,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.08244556777317531,
+      "provisional_and_budget_fraction": 0.9175544322268246
+    },
+    {
+      "projected_total_g": 983.5003354033927,
+      "geometry_density_screen_g": 81.50033540339263,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.0828676233953336,
+      "provisional_and_budget_fraction": 0.9171323766046663
+    },
+    {
+      "projected_total_g": 983.9527247455096,
+      "geometry_density_screen_g": 81.95272474550956,
+      "provisional_hardware_g": 392.0,
+      "budget_only_g": 510.0,
+      "geometry_density_screen_fraction": 0.0832892909226974,
+      "provisional_and_budget_fraction": 0.9167107090773026
+    }
+  ],
+  "release_decision": {
+    "measured_AUW_verified": false,
+    "current_complete_model_mass_verified": false,
+    "mass_gate_passed": false
+  },
+  "limits": [
+    "Geometrievolumen mal angenommener Dichte ist keine gewogene Druckteilmasse.",
+    "Hardware ist vorlaeufig, weitere Baugruppen nur Budgetwerte.",
+    "Keine belegte Aktualisierung des historischen v166-Screens auf das vollstaendige v192-Modell; aktueller Zeiger allein beweist das nicht.",
+    "Kein neuer Flug-/Schwerpunkt-/Strukturnachweis oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

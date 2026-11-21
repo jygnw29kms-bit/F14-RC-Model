@@ -1,0 +1,7 @@
+{"stage": "segment_start", "elapsed_seconds": 0.897000789642334, "index": 15}
+{"stage": "containment_start", "elapsed_seconds": 1.0250020027160645, "index": 15}
+{"stage": "segment_done", "elapsed_seconds": 9.065001964569092, "index": 15, "object": "VOID_TOOL_15", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "segment_start", "elapsed_seconds": 9.065001964569092, "index": 16}
+{"stage": "containment_start", "elapsed_seconds": 9.193001747131348, "index": 16}
+{"stage": "segment_done", "elapsed_seconds": 17.689000129699707, "index": 16, "object": "VOID_TOOL_16", "valid": true, "solids": 1, "outside_volume_mm3": 0.0, "contained_within_1e_6_mm3": true}
+{"stage": "complete", "elapsed_seconds": 17.754002332687378, "checked": 2, "remaining": []}

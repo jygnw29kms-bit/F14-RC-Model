@@ -1,0 +1,30 @@
+{
+  "status": "ISOLATED_CANDIDATE_FIVE_SECTION_QUADRATIC_AND_VOLUME_CONSISTENCY_VERIFIED",
+  "evidence_sha256": {
+    "v192_snapped_candidate_surface_iso_Green_sections.json": "8485a4a5c1bd8b8b1698fd6bbd7bb9cff2ce9eed80ce5b72c36052ea67c6ab8c",
+    "v192_segment5_snapped_candidate_validation.json": "6b3be6f3f18ac380f05e0b45377a8c6496bb88ca3ffb6e9f60be504c8882063d"
+  },
+  "candidate_sha256": "cb65e0837065e2b6f80604094ae0230deb3942ab5115437b9d400d55c1b08629",
+  "section_area_quadratic_residuals_mm2": [
+    0.0,
+    -2.2737367544323206e-13,
+    0.0,
+    3.410605131648481e-13,
+    0.0
+  ],
+  "volume_diagnostics_mm3": {
+    "default": 8204.253048577328,
+    "GK": 8204.253048577324,
+    "iso_Green_prismoid": 8204.253048577326,
+    "iso_Green_composite": 8204.253048577328
+  },
+  "numeric_volume_spread_mm3": 3.637978807091713e-12,
+  "limits": [
+    "Numerical consistency only for one intentionally modified segment; no rigorous error enclosure",
+    "Native Slice area diagnostics were inconsistent; this diagnostic uses direct ruled-surface isocurves",
+    "Candidate increased stored tolerances/curve-surface deviations and whole original-shape deviation remain separate open checks",
+    "Original cavity, original split volume gate and full aircraft remain unaccepted"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

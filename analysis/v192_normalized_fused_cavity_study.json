@@ -1,0 +1,194 @@
+{
+  "status": "NORMALIZED_FUSED_CAVITY_STUDY_SAVED_REOPENED_BALANCE_MEASURED",
+  "input_sha256_unchanged": "a1c2269abd6febdddb98cdcbe5d9a1338e456a90b15ec5474c4470baf24aa8fd",
+  "evidence_sha256": {
+    "v192_normalized_segments_build_verification.json": "9577428f640cdda0845ab97cbf6271f89d4b29a1f604bb8686fa8efb4bf653b2",
+    "v192_normalized_segments_containment_interface_verification.json": "d3fe3a518bd036b8799be53e68b6794884295aebc7e9a6a3c5d9af6990834415",
+    "v192_normalized_segments_nonadjacent_bounds.json": "439f8e908bb1bba9a82cb4eddfef8a7b8a72c6a1bbe438a0e3e6d7f131dc5e8b"
+  },
+  "output_sha256": "2fc071a1145662ca09d2ffaa796844720b202d6ff8974e24513da1d22810bd96",
+  "steps": [
+    {
+      "through_index": 1,
+      "valid": true,
+      "solids": 1,
+      "faces": 248,
+      "default_volume_mm3": 20897.679767978298,
+      "sum_original_input_volumes_mm3": 20897.67976797832,
+      "fused_minus_input_sum_mm3": -2.1827872842550278e-11
+    },
+    {
+      "through_index": 2,
+      "valid": true,
+      "solids": 1,
+      "faces": 355,
+      "default_volume_mm3": 30508.79473362301,
+      "sum_original_input_volumes_mm3": 30508.794733623006,
+      "fused_minus_input_sum_mm3": 3.637978807091713e-12
+    },
+    {
+      "through_index": 3,
+      "valid": true,
+      "solids": 1,
+      "faces": 453,
+      "default_volume_mm3": 39619.134321066114,
+      "sum_original_input_volumes_mm3": 39619.13432106609,
+      "fused_minus_input_sum_mm3": 2.1827872842550278e-11
+    },
+    {
+      "through_index": 4,
+      "valid": true,
+      "solids": 1,
+      "faces": 551,
+      "default_volume_mm3": 48262.90761721837,
+      "sum_original_input_volumes_mm3": 48262.90761721835,
+      "fused_minus_input_sum_mm3": 2.1827872842550278e-11
+    },
+    {
+      "through_index": 5,
+      "valid": true,
+      "solids": 1,
+      "faces": 649,
+      "default_volume_mm3": 56467.160665795665,
+      "sum_original_input_volumes_mm3": 56467.16066579567,
+      "fused_minus_input_sum_mm3": -7.275957614183426e-12
+    },
+    {
+      "through_index": 6,
+      "valid": true,
+      "solids": 1,
+      "faces": 747,
+      "default_volume_mm3": 71638.49623720035,
+      "sum_original_input_volumes_mm3": 71638.4962372004,
+      "fused_minus_input_sum_mm3": -4.3655745685100555e-11
+    },
+    {
+      "through_index": 7,
+      "valid": true,
+      "solids": 1,
+      "faces": 918,
+      "default_volume_mm3": 85245.15580017368,
+      "sum_original_input_volumes_mm3": 85245.15580017371,
+      "fused_minus_input_sum_mm3": -2.9103830456733704e-11
+    },
+    {
+      "through_index": 8,
+      "valid": true,
+      "solids": 1,
+      "faces": 1086,
+      "default_volume_mm3": 97359.95892605738,
+      "sum_original_input_volumes_mm3": 97359.95892605737,
+      "fused_minus_input_sum_mm3": 1.4551915228366852e-11
+    },
+    {
+      "through_index": 9,
+      "valid": true,
+      "solids": 1,
+      "faces": 1182,
+      "default_volume_mm3": 108041.40683880595,
+      "sum_original_input_volumes_mm3": 108041.40683880601,
+      "fused_minus_input_sum_mm3": -5.820766091346741e-11
+    },
+    {
+      "through_index": 10,
+      "valid": true,
+      "solids": 1,
+      "faces": 1348,
+      "default_volume_mm3": 117351.84139421815,
+      "sum_original_input_volumes_mm3": 117351.84139421809,
+      "fused_minus_input_sum_mm3": 5.820766091346741e-11
+    },
+    {
+      "through_index": 11,
+      "valid": true,
+      "solids": 1,
+      "faces": 1512,
+      "default_volume_mm3": 125363.45332593331,
+      "sum_original_input_volumes_mm3": 125363.45332593337,
+      "fused_minus_input_sum_mm3": -5.820766091346741e-11
+    },
+    {
+      "through_index": 12,
+      "valid": true,
+      "solids": 1,
+      "faces": 1606,
+      "default_volume_mm3": 132150.52867033126,
+      "sum_original_input_volumes_mm3": 132150.52867033132,
+      "fused_minus_input_sum_mm3": -5.820766091346741e-11
+    },
+    {
+      "through_index": 13,
+      "valid": true,
+      "solids": 1,
+      "faces": 1700,
+      "default_volume_mm3": 137775.16485894684,
+      "sum_original_input_volumes_mm3": 137775.1648589468,
+      "fused_minus_input_sum_mm3": 2.9103830456733704e-11
+    },
+    {
+      "through_index": 14,
+      "valid": true,
+      "solids": 1,
+      "faces": 1855,
+      "default_volume_mm3": 142284.6724217721,
+      "sum_original_input_volumes_mm3": 142284.67242177206,
+      "fused_minus_input_sum_mm3": 2.9103830456733704e-11
+    },
+    {
+      "through_index": 15,
+      "valid": true,
+      "solids": 1,
+      "faces": 2020,
+      "default_volume_mm3": 144142.37178233813,
+      "sum_original_input_volumes_mm3": 144142.37178233825,
+      "fused_minus_input_sum_mm3": -1.1641532182693481e-10
+    },
+    {
+      "through_index": 16,
+      "valid": true,
+      "solids": 1,
+      "faces": 2184,
+      "default_volume_mm3": 145748.4875104231,
+      "sum_original_input_volumes_mm3": 145748.48751042318,
+      "fused_minus_input_sum_mm3": -8.731149137020111e-11
+    }
+  ],
+  "sum_input_default_volumes_mm3": 145748.48751042318,
+  "final_default_volume_mm3": 145748.4875104231,
+  "final_default_balance_residual_mm3": -8.731149137020111e-11,
+  "GK_volume_mm3": 145748.48751042303,
+  "GK_reported_relative_error": 2.2457801642367597e-16,
+  "P280_P300_face_flux_mm3": [
+    145748.48751042315,
+    145748.48751042315
+  ],
+  "reference_flux_change_mm3": 0.0,
+  "max_native_tolerance_mm": 9.750905861e-06,
+  "input_memory_volumes_after_fusions_mm3": [
+    10743.803491829578,
+    10153.876276148741,
+    9611.114965644689,
+    9110.339587443086,
+    8643.773296152256,
+    8204.253048577324,
+    15171.335571404727,
+    13606.65956297331,
+    12114.803125883664,
+    10681.44791274864,
+    9310.434555412074,
+    8011.611931715277,
+    6787.075344397949,
+    5624.636188615506,
+    4509.507562825244,
+    1857.6993605661776,
+    1606.115728084933
+  ],
+  "limits": [
+    "Native union and integration diagnostics, not rigorous absolute volume bounds",
+    "Only cavity tool overY180..440; not a hollow wing or printable model",
+    "Full fused containment, original-shape deviation, outer-wing subtraction, partition and manufacturing remain unverified",
+    "Current master and original cavity unchanged; no print/flight release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

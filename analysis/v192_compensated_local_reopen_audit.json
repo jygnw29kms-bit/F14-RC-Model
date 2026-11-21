@@ -1,0 +1,88 @@
+{
+  "status": "REOPENED_COMPENSATED_LOCAL_CAVITY_BOUNDARY_AUDIT",
+  "trial_sha256": "defa45517a63b8dfa0a1c891e711385a939d31799ac29c381cbf41102f8ef838",
+  "valid": true,
+  "solid_count": 1,
+  "shell_count": 2,
+  "volume_mm3": 178502.12704980018,
+  "rows": [
+    {
+      "y_mm": 225,
+      "wire_count": 2,
+      "inner_area_mm2": 864.3293045447192,
+      "outer_area_mm2": 970.0729021668903,
+      "minimum_boundary_separation_mm": 0.425459286492697,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 230,
+      "wire_count": 2,
+      "inner_area_mm2": 841.8998636621253,
+      "outer_area_mm2": 946.4374236025773,
+      "minimum_boundary_separation_mm": 0.42999985471920393,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 235,
+      "wire_count": 2,
+      "inner_area_mm2": 820.3796020815055,
+      "outer_area_mm2": 923.3966885126383,
+      "minimum_boundary_separation_mm": 0.42697062372282113,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 240,
+      "wire_count": 2,
+      "inner_area_mm2": 799.1264017239217,
+      "outer_area_mm2": 900.8739184552893,
+      "minimum_boundary_separation_mm": 0.42999999999975475,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 245,
+      "wire_count": 2,
+      "inner_area_mm2": 778.5286559433222,
+      "outer_area_mm2": 878.8131399158932,
+      "minimum_boundary_separation_mm": 0.42792123535348253,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 250,
+      "wire_count": 2,
+      "inner_area_mm2": 758.1947674142141,
+      "outer_area_mm2": 857.1648933657211,
+      "minimum_boundary_separation_mm": 0.42999999999987726,
+      "inner_outside_outer_area_mm2": 0.0
+    },
+    {
+      "y_mm": 255,
+      "wire_count": 2,
+      "inner_area_mm2": 738.3215742130202,
+      "outer_area_mm2": 835.8820283623749,
+      "minimum_boundary_separation_mm": 0.42881637320606164,
+      "inner_outside_outer_area_mm2": 0.0
+    }
+  ],
+  "minimum_between_result_boundary_shells_mm": 0.4044279485002353,
+  "closest_point_pairs_xyz_mm": [
+    [
+      [
+        628.7168506328152,
+        260.137388949126,
+        -2.819683191569169
+      ],
+      [
+        629.0797266118852,
+        260.0,
+        -2.933732593146372
+      ]
+    ]
+  ],
+  "limits": [
+    "Seven planar sections and native minimum distance between the two saved result boundary shells; no normal-thickness field.",
+    "No whole-wing shell, structural thickness selection, joints, spars or print qualification.",
+    "Shape validity and wire separation do not establish strength or flight readiness."
+  ],
+  "print_release": false,
+  "flight_release": false
+}

@@ -1,0 +1,18 @@
+{
+  "status": "FUSED_PARTIAL_SPAN_VOID_REOPEN_CONTAINMENT_ONLY",
+  "master_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "tool_sha256": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19",
+  "print_release": false,
+  "flight_release": false,
+  "valid": true,
+  "solids": 1,
+  "faces": 2184,
+  "volume_mm3": 145748.48586711596,
+  "outside_volume_mm3": 0.0,
+  "contained_within_1e_6_mm3": true,
+  "elapsed_seconds": 285.44039273262024,
+  "limits": [
+    "Only saved fused void tool Y180..440; root and tip excluded.",
+    "No boundary clearance, wing subtraction, whole-shell or structural/printing qualification."
+  ]
+}

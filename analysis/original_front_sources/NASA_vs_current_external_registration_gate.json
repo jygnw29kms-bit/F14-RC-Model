@@ -1,0 +1,55 @@
+{
+  "status": "AKTUELLE_EXTERNE_REGISTRIERUNG_GELESEN_NASA_UEBERTRAGUNG_WEITER_GESPERRT",
+  "external_inputs_sha256": {
+    "Navy_UPC_side_longitudinal_landmark_fit.json": "c96497c97110246ce26631d7e776389acc85ebf913fac355087fb8bfc11c1b5f",
+    "UPC_cross_view_longitudinal_transfer_gate.json": "19633b18e9abfd1771232e64ab34eb2cc0a88406fa06710b2bd9516ea148d39d"
+  },
+  "side_view_candidate": {
+    "supported": true,
+    "nominal_fit": {
+      "slope_px_per_FS_in": 2.257457087007431,
+      "scale_FS_in_per_px": 0.44297630539929206,
+      "FS0_x_px": 231.23800100452218,
+      "rms_px": 0.18482695859015552,
+      "max_abs_px": 0.2536417285381276,
+      "residuals_px": {
+        "FS93_radome_flare": -0.1815100962132874,
+        "canopy_center_bow": 0.2536417285381276,
+        "aft_nozzle_endpoint": -0.07213163232518127
+      }
+    },
+    "interval_scale_FS_inches_per_pixel": [
+      0.44261676166951575,
+      0.4433418319353418
+    ],
+    "production_release": false
+  },
+  "cross_view_gate": {
+    "plan_and_side_share_verified_x_origin": false,
+    "plan_and_side_share_verified_x_scale": false,
+    "transfer_plan_wing_fit_to_side_ticks_ABCDEF": false,
+    "ABC_aircraft_FS_candidate_from_plan_fit_valid": false,
+    "ABCDEF_aircraft_FS_candidate_from_plan_fit_valid": false,
+    "plan_wing_local_fit_retained_as_local_shape_screen": true,
+    "master_change_allowed": false,
+    "production_release": false
+  },
+  "NASA_transfer_decision": {
+    "NASA_body_input_X_is_aircraft_FS_inches_explicitly_verified": false,
+    "NASA_Z_is_aircraft_waterline_inches_explicitly_verified": false,
+    "apply_side_candidate_to_NASA_body_geometry": false,
+    "apply_plan_fit_to_side_sections": false,
+    "modify_CAD_master": false
+  },
+  "reason": [
+    "Neue externe Seitenansichtsregistrierung ist ein Engineering-Kandidat mit drei Landmarken; sie wird nicht ignoriert oder ueberschrieben.",
+    "NASA-Zahl93 am Nasenanfang und NavyFS93 allein belegen weder gleiche Einheit noch gleichen Ursprung der gesamten NASA-Eingabedatei.",
+    "Ein Seitenansichtsfit validiert nicht automatisch die Planansichtskoordinaten oder Z-Wasserlinie.",
+    "Historische Originalroutinen pruefen die mathematische Interpretation, nicht die physische Quellenregistrierung."
+  ],
+  "next_required_evidence": [
+    "Explizite NASA-Einheiten-/Stationskonvention oder mindestens zwei unabhaengige homologe beschriftete Merkmale fuer NASA-X.",
+    "Gesonderte Hoehenreferenz mit belegter Wasserlinie; Mapaxis nicht als Datum annehmen."
+  ],
+  "production_release": false
+}
