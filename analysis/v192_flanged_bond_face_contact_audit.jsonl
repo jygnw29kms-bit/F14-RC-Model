@@ -1,0 +1,5 @@
+{"stage": "face_pairs", "elapsed_seconds": 0.3409998416900635, "side": "LOWER", "target": "UNFROZEN_LOWER_CAP"}
+{"stage": "face_pairs", "elapsed_seconds": 1.053999423980713, "side": "LOWER", "target": "UNFROZEN_FLANGED_WEB"}
+{"stage": "face_pairs", "elapsed_seconds": 2.7039995193481445, "side": "UPPER", "target": "UNFROZEN_UPPER_CAP"}
+{"stage": "face_pairs", "elapsed_seconds": 3.3589999675750732, "side": "UPPER", "target": "UNFROZEN_FLANGED_WEB"}
+{"stage": "complete", "elapsed_seconds": 4.999999523162842}

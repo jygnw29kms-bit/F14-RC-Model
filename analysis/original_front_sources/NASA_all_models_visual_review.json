@@ -1,0 +1,16 @@
+{
+  "status": "QUELLENPUNKT_UEBERSICHT_VISUELL_GEPRUEFT",
+  "image_sha256": "92e2e8af844092482e4ebd1be22cc666e38f44c8b2af67f30a6ee1f342d04923",
+  "findings": [
+    "35 offene Halbsektionen in obliquer Projektion und sieben Einzelprofile dargestellt.",
+    "Keine versehentliche Spiegelung, Symmetrieabschlusslinie oder Loft-Verbindung in der Darstellung.",
+    "Canopy-/Einlauf-/Gondelformwechsel sichtbar; Grenzen und unskalierter Studienstatus beschriftet.",
+    "Legende nach erster Sichtpruefung aus Konturbereich verschoben und Bild erneut geprueft."
+  ],
+  "limits": [
+    "Bild aus JSON-Studienpunkten, keine native CAD-Bildschirmaufnahme.",
+    "Visuelle Darstellungspruefung, kein unabhaengiger Herstellerhaut-/Massstabsnachweis.",
+    "Keine Produktionsfreigabe."
+  ],
+  "production_release": false
+}

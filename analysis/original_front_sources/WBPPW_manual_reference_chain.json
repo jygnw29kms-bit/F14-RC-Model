@@ -1,0 +1,24 @@
+{
+  "status": "WBPPW_BENUTZERDOKUMENTATION_UEBER_PRIMAERREFERENZ_IDENTIFIZIERT",
+  "chain": [
+    "NASA_TM104152 PDF10 Ref6 nenntBoppeNASA-CR4066(1987).",
+    "TM104152TextbezeichnetRef6alsUserGuidefuerWBPPWInputformat.",
+    "NTRS19870009105liefertNASA-CR4066mit156PDFSeiten; ELLXBeispieleauf87/89/93gefunden."
+  ],
+  "sources": [
+    {
+      "file": "NASA_TM104152_WBPPW_reference.pdf",
+      "sha256": "ef844a2027d0abe06fe650f0c7c545a3f9bf6a1f6c3fd5b21a1db5e06e287ceb"
+    },
+    {
+      "file": "NASA_CR4066_WBPPW_manual.pdf",
+      "sha256": "4d97dc9ce036eb592f4fd7f7f5ee9eec1eb86b430a3cc83692f14ce35c61ae2c"
+    }
+  ],
+  "limits": [
+    "Formatabschnitt undDefaultparameter nochdetailliertzupruefen; keinEvaluatorausgefuehrt.",
+    "Handbuch1987nachF14Studie1985:Versionsabgleichnoetig.",
+    "KeineF14Registrierung oderProduktionsfreigabe."
+  ],
+  "production_release": false
+}

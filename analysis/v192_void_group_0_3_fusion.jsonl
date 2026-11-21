@@ -1,0 +1,15 @@
+{"stage": "fuse_start", "elapsed_seconds": 0.7159996032714844, "index": 1}
+{"stage": "fuse_returned", "elapsed_seconds": 2.1820003986358643, "index": 1}
+{"stage": "validity_start", "elapsed_seconds": 2.1820003986358643, "index": 1}
+{"stage": "step_done", "elapsed_seconds": 2.3249995708465576, "through_index": 1, "valid": true, "solids": 1, "faces": 248, "volume_mm3": 20897.680066613317, "sum_input_volumes_mm3": 20897.679932723615, "volume_balance_residual_mm3": -0.0001338897018285934}
+{"stage": "fuse_start", "elapsed_seconds": 2.3249995708465576, "index": 2}
+{"stage": "fuse_returned", "elapsed_seconds": 3.674999713897705, "index": 2}
+{"stage": "validity_start", "elapsed_seconds": 3.674999713897705, "index": 2}
+{"stage": "step_done", "elapsed_seconds": 3.8610007762908936, "through_index": 2, "valid": true, "solids": 1, "faces": 355, "volume_mm3": 30508.7949008084, "sum_input_volumes_mm3": 30508.795060847668, "volume_balance_residual_mm3": 0.00016003926793928258}
+{"stage": "fuse_start", "elapsed_seconds": 3.8610007762908936, "index": 3}
+{"stage": "fuse_returned", "elapsed_seconds": 5.145000219345093, "index": 3}
+{"stage": "validity_start", "elapsed_seconds": 5.145000219345093, "index": 3}
+{"stage": "step_done", "elapsed_seconds": 5.365000009536743, "through_index": 3, "valid": true, "solids": 1, "faces": 453, "volume_mm3": 39619.134548794005, "sum_input_volumes_mm3": 39619.13494393087, "volume_balance_residual_mm3": 0.0003951368635171093}
+{"stage": "save_start", "elapsed_seconds": 5.371999979019165}
+{"stage": "save_done", "elapsed_seconds": 5.522000074386597}
+{"stage": "complete", "elapsed_seconds": 5.550000429153442}

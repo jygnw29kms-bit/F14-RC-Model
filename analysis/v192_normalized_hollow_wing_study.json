@@ -1,0 +1,63 @@
+{
+  "status": "NORMALIZED_HOLLOW_WING_STUDY_SAVED_REOPENED_BALANCE_MEASURED",
+  "input_sha256_before": {
+    "WING_R_NORMALIZED_FUSED_CAVITY_STUDY_ONLY.FCStd": "2fc071a1145662ca09d2ffaa796844720b202d6ff8974e24513da1d22810bd96",
+    "F14_CURRENT_FULL_VIEW_v192.FCStd": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a"
+  },
+  "fused_saved_reopen_default_volume_delta_mm3": 0.0,
+  "fused_native_exact_method_valid": true,
+  "fused_outside_current_wing_volume_mm3": 0.0,
+  "fused_min_distance_to_current_wing_boundary_mm": 0.40332746734912006,
+  "input_sha256_unchanged": {
+    "WING_R_NORMALIZED_FUSED_CAVITY_STUDY_ONLY.FCStd": "2fc071a1145662ca09d2ffaa796844720b202d6ff8974e24513da1d22810bd96",
+    "F14_CURRENT_FULL_VIEW_v192.FCStd": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a"
+  },
+  "prior_fusion_report_sha256": "6254caa319304ae29e8faed39dd9973a0ed297995f4a8dc49dfe0e88189f86c5",
+  "output_sha256": "4afe31bd9d75597c2e9c5ce56594a65e7a09cc3f34d78c616caf58f77d20af4c",
+  "rows": [
+    {
+      "object": "SOURCE_WING",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 101,
+      "default_volume_mm3": 210519.45444906846,
+      "GK_volume_mm3": 210519.5625847111,
+      "GK_reported_relative_error": 5.298048528271822e-10,
+      "max_native_tolerance_mm": 1e-07
+    },
+    {
+      "object": "NORMALIZED_CAVITY",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 2184,
+      "default_volume_mm3": 145748.4875104231,
+      "GK_volume_mm3": 145748.48751042303,
+      "GK_reported_relative_error": 2.245780162945859e-16,
+      "max_native_tolerance_mm": 9.750905861e-06
+    },
+    {
+      "object": "HOLLOW_WING_CANDIDATE",
+      "valid": true,
+      "solids": 1,
+      "shells": 2,
+      "faces": 2285,
+      "default_volume_mm3": 64770.943758989524,
+      "GK_volume_mm3": 64771.0750742976,
+      "GK_reported_relative_error": 1.7139111065717238e-09,
+      "max_native_tolerance_mm": 9.750905861e-06
+    }
+  ],
+  "default_wing_minus_cavity_minus_hollow_mm3": 0.023179655850981362,
+  "GK_wing_minus_cavity_minus_hollow_mm3": -9.538780432194471e-09,
+  "reopened_hollow_default_volume_mm3": 64770.943758989466,
+  "limits": [
+    "Direct containment only against current heuristic wing, not original aircraft OML certification",
+    "Default and adaptive volume methods may disagree; balance and absolute accuracy distinct",
+    "Only right wing with internal cavityY180..440; no partition, updated seam or structural acceptance",
+    "No active master modification, STL/3MF, print or flight release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

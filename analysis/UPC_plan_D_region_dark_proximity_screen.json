@@ -1,0 +1,120 @@
+{
+  "status": "NEAREST_DARK_PIXEL_DIAGNOSTIC_NOT_SKIN_EDGE_IDENTIFICATION",
+  "inputs": {
+    "UPC_plan_fixed_mapping_holdouts.json": "eae04bbe67b3fa418dc6cee214b4142744e197f1496c6559868078e38e94afd2",
+    "UPC_plan_D_region_width_gradient_screen.json": "f3de63f1c18d78895bba42dadc91b66242c633af8ccae2b6f90295eee0875410",
+    "UPC_Figure3_15_source_exact.png": "63413c7958648165ca381ebda27ef31a4d6aabed725b84d3e2f804da5bafb5b4"
+  },
+  "records": [
+    {
+      "candidate_original_x_px": 1520,
+      "mapped_blue_edge_y_px": [
+        1047.6,
+        1540.6
+      ],
+      "nearest_dark_y_px": [
+        1062,
+        1528
+      ],
+      "nearest_dark_minus_mapped_edge_px": [
+        14.400000000000091,
+        -12.599999999999909
+      ]
+    },
+    {
+      "candidate_original_x_px": 1530,
+      "mapped_blue_edge_y_px": [
+        1054.4,
+        1533.8
+      ],
+      "nearest_dark_y_px": [
+        1067,
+        1523
+      ],
+      "nearest_dark_minus_mapped_edge_px": [
+        12.599999999999909,
+        -10.799999999999955
+      ]
+    },
+    {
+      "candidate_original_x_px": 1540,
+      "mapped_blue_edge_y_px": [
+        1061.2,
+        1523.6
+      ],
+      "nearest_dark_y_px": [
+        1072,
+        1520
+      ],
+      "nearest_dark_minus_mapped_edge_px": [
+        10.799999999999955,
+        -3.599999999999909
+      ]
+    },
+    {
+      "candidate_original_x_px": 1550,
+      "mapped_blue_edge_y_px": [
+        1068.0,
+        1520.2
+      ],
+      "nearest_dark_y_px": [
+        1066,
+        1526
+      ],
+      "nearest_dark_minus_mapped_edge_px": [
+        -2.0,
+        5.7999999999999545
+      ]
+    },
+    {
+      "candidate_original_x_px": 1560,
+      "mapped_blue_edge_y_px": [
+        1071.4,
+        1516.8
+      ],
+      "nearest_dark_y_px": [
+        1066,
+        1525
+      ],
+      "nearest_dark_minus_mapped_edge_px": [
+        -5.400000000000091,
+        8.200000000000045
+      ]
+    },
+    {
+      "candidate_original_x_px": 1570,
+      "mapped_blue_edge_y_px": [
+        1085.0,
+        1503.2
+      ],
+      "nearest_dark_y_px": [
+        1090,
+        1503
+      ],
+      "nearest_dark_minus_mapped_edge_px": [
+        5.0,
+        -0.20000000000004547
+      ]
+    },
+    {
+      "candidate_original_x_px": 1580,
+      "mapped_blue_edge_y_px": [
+        1095.2,
+        1493.0
+      ],
+      "nearest_dark_y_px": [
+        1095,
+        1491
+      ],
+      "nearest_dark_minus_mapped_edge_px": [
+        -0.20000000000004547,
+        -2.0
+      ]
+    }
+  ],
+  "limits": [
+    "Nearest dark pixels may belong to wing outlines, panel lines or other overlaid parts.",
+    "No upper/lower skin contour selection or metric clearance follows from proximity."
+  ],
+  "master_changed": false
+}

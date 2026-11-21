@@ -1,0 +1,40 @@
+{
+  "status": "PRIMARY_SOURCE_GLOVE_TERMINOLOGY_SCREEN_NOT_GEOMETRY_REGISTRATION",
+  "review_date": "2026-10-26",
+  "target": "Fixed inboard wing/body covering around sweep pivot",
+  "sources": [
+    {
+      "url": "https://ntrs.nasa.gov/api/citations/19880019510/downloads/19880019510.pdf",
+      "report": "NASA CR3992",
+      "local_sha256": "ae439b784b984b0c95b9df117ae0c5ad5d6adc7025a1f7b115b41a260fce4b18",
+      "pdf_page": 24,
+      "printed_page": 17,
+      "meaning": "Body definition includes inboard highly swept area covering wing pivot.",
+      "provenance": "NASA Langley supplied 1/10-scale mylar cross sections from a wind-tunnel model; report notes differences from production aircraft.",
+      "usable_evidence": "Provenance and distinction between digitized body and A488-simplified body.",
+      "limits": "Figures48/49 previously reviewed without numerical FS/WL axes; original mylar/digitized station dataset not recovered here."
+    },
+    {
+      "url": "https://ntrs.nasa.gov/citations/19880011744",
+      "report": "NASA TM100440 / AIAA88-2109",
+      "meaning": "Experimental natural-laminar-flow wing covers on F14/F15.",
+      "provenance": "NASA reports fiberglass/foam/resin covers used for aerodynamic tests.",
+      "usable_for_fixed_pivot_cover_dimensions": false
+    },
+    {
+      "url": "https://ntrs.nasa.gov/citations/19900000036",
+      "report": "NASA Tech Brief ARC12238",
+      "meaning": "Manufacturing techniques for experimental aerodynamic wing covers, not fixed production pivot enclosure.",
+      "usable_for_fixed_pivot_cover_dimensions": false
+    }
+  ],
+  "decisions": [
+    "Do not substitute experimental NLF glove thickness/airfoil overlays for the fixed inboard pivot covering.",
+    "Do not treat A488 computational fill/blending as original aircraft outer skin.",
+    "Continue searching for dimensioned fixed-glove stations or recover underlying Langley cross-section data."
+  ],
+  "recovered_new_dimensioned_glove_geometry": false,
+  "physical_registration_verified": false,
+  "master_change_allowed": false,
+  "production_release": false
+}

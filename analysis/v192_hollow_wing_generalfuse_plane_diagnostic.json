@@ -1,0 +1,35 @@
+{
+  "status": "GENERALFUSE_DIAGNOSTIC_COMPLETE_NOT_RELEASE",
+  "input_sha256": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+  "source_volume_mm3": 64770.945294431316,
+  "result_valid": true,
+  "solid_count": 2,
+  "solid_rows": [
+    {
+      "valid": true,
+      "volume_mm3": 53714.6816276782,
+      "y_bounds_mm": [
+        148.8263775443693,
+        363.96894022966364
+      ]
+    },
+    {
+      "valid": true,
+      "volume_mm3": 11056.393337997191,
+      "y_bounds_mm": [
+        234.88709346436087,
+        449.99999999999994
+      ]
+    }
+  ],
+  "sum_minus_source_mm3": 0.12967124407441588,
+  "mapping_entry_counts": [
+    0,
+    3
+  ],
+  "limits": [
+    "GeneralFuse partition only; no output CAD or release",
+    "Strict volume guard is not relaxed",
+    "No seam structure, joint or printing acceptance"
+  ]
+}

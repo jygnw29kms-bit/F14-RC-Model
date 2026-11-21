@@ -1,0 +1,10 @@
+from pathlib import Path
+import json,hashlib
+O=Path(__file__).parent;R=O.parent;src=O/'mass_rollup_retention_corrected_v166.json';j=json.loads(src.read_text(encoding='utf-8'));rows=[]
+for s in j['scenarios']:
+ geometry=s['geometry_quantified_g'];hardware=s['provisional_hardware_g'];budget=s['baseline_remaining_allocations_g'];total=s['projected_total_g']
+ assert abs(geometry+hardware+budget-total)<1e-9
+ rows.append(dict(projected_total_g=total,geometry_density_screen_g=geometry,provisional_hardware_g=hardware,budget_only_g=budget,geometry_density_screen_fraction=geometry/total,provisional_and_budget_fraction=(hardware+budget)/total))
+current=json.loads((R/'migration/freecad/CURRENT.json').read_text(encoding='utf-8'))
+r=dict(status='HISTORISCHE_MASSENABSCHAETZUNG_EVIDENZANTEILE_NACHGERECHNET',source_sha256=hashlib.sha256(src.read_bytes()).hexdigest(),source_revision='v166 retention-corrected screen',current_pointer_revision=current['current_revision'],scenario_count=len(rows),projected_total_range_g=[min(r['projected_total_g'] for r in rows),max(r['projected_total_g'] for r in rows)],geometry_density_screen_fraction_range=[min(r['geometry_density_screen_fraction'] for r in rows),max(r['geometry_density_screen_fraction'] for r in rows)],provisional_and_budget_fraction_range=[min(r['provisional_and_budget_fraction'] for r in rows),max(r['provisional_and_budget_fraction'] for r in rows)],rows=rows,release_decision={'measured_AUW_verified':False,'current_complete_model_mass_verified':False,'mass_gate_passed':False},limits=['Geometrievolumen mal angenommener Dichte ist keine gewogene Druckteilmasse.','Hardware ist vorlaeufig, weitere Baugruppen nur Budgetwerte.','Keine belegte Aktualisierung des historischen v166-Screens auf das vollstaendige v192-Modell; aktueller Zeiger allein beweist das nicht.','Kein neuer Flug-/Schwerpunkt-/Strukturnachweis oder Produktionsfreigabe.'],production_release=False)
+(O/'mass_estimate_evidence_coverage_audit.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf-8');print(r['scenario_count'],r['geometry_density_screen_fraction_range'],r['provisional_and_budget_fraction_range'])

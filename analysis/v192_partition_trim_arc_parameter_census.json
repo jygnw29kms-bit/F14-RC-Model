@@ -1,0 +1,37 @@
+{
+  "status": "FULL_TRIM_ARC_PARAMETER_WIDTH_CENSUS_NOT_SUBSPAN_AUDIT",
+  "input_sha256_unchanged": {
+    "WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117"
+  },
+  "upstream_source": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/master/src/ModelingAlgorithms/TKTopAlgo/BRepGProp/BRepGProp_VinertGK.cxx",
+  "upstream_observation": "Master source skips T knot subintervals narrower than1e-9; no proof installed binary identical",
+  "rows": [
+    {
+      "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+      "trim_arc_count": 10594,
+      "minimum_full_arc_parameter_width": 2.321878200928218e-06,
+      "full_arcs_below_1e_minus9": []
+    },
+    {
+      "object": "BLOCKED_PART_0",
+      "trim_arc_count": 5532,
+      "minimum_full_arc_parameter_width": 2.321878200928218e-06,
+      "full_arcs_below_1e_minus9": []
+    },
+    {
+      "object": "BLOCKED_PART_1",
+      "trim_arc_count": 5992,
+      "minimum_full_arc_parameter_width": 2.5084491935944975e-05,
+      "full_arcs_below_1e_minus9": []
+    }
+  ],
+  "limits": [
+    "Counts full arc parameter widths only; internal knot subintervals may be smaller",
+    "Parameter widths are not physical lengths or volume error bounds",
+    "Cannot confirm or exclude skipped-subspan contribution from this census alone",
+    "No integrator/core/tolerance changes or release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

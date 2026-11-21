@@ -1,0 +1,53 @@
+{
+  "status": "EXACT_IDEAL_AXIAL_OUTER_ENVELOPE_SWEEP_SCREEN_ONLY",
+  "input_sha256_unchanged": "c17070fe921b9657a996ee26dfeaedbbf5c959d795fe0f717981309c1f799f43",
+  "sleeve_final_y_interval_mm": [
+    290,
+    310
+  ],
+  "assumed_translation_range_mm": [
+    -20,
+    0
+  ],
+  "swept_outer_cylinder_y_interval_mm": [
+    270,
+    310
+  ],
+  "swept_outer_radius_mm": 2,
+  "rows": [
+    {
+      "object": "ROOT_CARRIER",
+      "swept_outer_cylinder_overlap_mm3": 0.0
+    },
+    {
+      "object": "ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+      "swept_outer_cylinder_overlap_mm3": 0.0
+    },
+    {
+      "object": "TIP_CARRIER",
+      "swept_outer_cylinder_overlap_mm3": 0.0
+    },
+    {
+      "object": "TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "swept_outer_cylinder_overlap_mm3": 0.0
+    },
+    {
+      "object": "GEOMETRIC_BOND_0",
+      "swept_outer_cylinder_overlap_mm3": 0.0
+    },
+    {
+      "object": "GEOMETRIC_BOND_1",
+      "swept_outer_cylinder_overlap_mm3": 0.0
+    }
+  ],
+  "limits": [
+    "Fixed carriers and geometric adhesive placeholders; only sleeve moves along globalY",
+    "Outer solid cylinder contains entire moving hollow sleeve for continuous translations; conservative collision envelope",
+    "Zero volume intersection allows contact and does not prove positive clearance",
+    "No wing/skin/spar access path or full-part assembly sequence tested",
+    "No wet adhesive scraping, cure, insertion force, tolerance or physical proof",
+    "Partition volume gate remains blocked; no printing or flight release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

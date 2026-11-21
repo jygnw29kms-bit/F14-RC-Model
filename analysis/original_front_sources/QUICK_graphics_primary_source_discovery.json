@@ -1,0 +1,43 @@
+{
+  "status": "PRIMAERQUELLEN_GELADEN_TEXTSCREENING",
+  "sources": [
+    {
+      "file": "NASA_TM83234_QUICK_graphics.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/19830014777/downloads/19830014777.pdf",
+      "sha256": "0a969009b53ecbbe700590f9d69ef58d65ff8f5503bc67fc6db088f6599585fe",
+      "pages": 56,
+      "target_hits": []
+    },
+    {
+      "file": "NASA_TM83234_QUICK_graphics_supplement.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/19830014778/downloads/19830014778.pdf",
+      "sha256": "9d6a9cba1f5dcd72e74848aba077acc05b70f87a0c44016e043953866ca81535",
+      "pages": 20,
+      "target_hits": []
+    }
+  ],
+  "limits": [
+    "Texttreffer sind noch keine visuell gepruefte Originalroutine.",
+    "Kein Ersatz fuerELLYNumerikvalidierung,keineCADGeometrieoderProduktionsfreigabe."
+  ],
+  "production_release": false,
+  "text_scope_review": {
+    "NASA_TM83234_PDF6": "QUIAGA ist Post-QUICK-Pruefprogramm; Bericht nennt FORTRAN-IV und damalige COSMIC-Verfuegbarkeit.",
+    "supplement_PDF5": "FORTRAN77-Port auf Prime; Softwarekennung LAR-12952.",
+    "retrieval_limit": "PDFs liefern Nutzungsbeschreibung, bisher keinen KRVDEF/CURVES-Quellcode gefunden; keine Originalroutine ausgefuehrt.",
+    "next_search_target": "Historisches COSMIC-Paket LAR-12952 oder TM81933; Verfuegbarkeit nicht behauptet."
+  },
+  "software_subset_followup": {
+    "source": "TM83234 Supplement PDF5/Introduction and Requirements and Availability",
+    "source_url": "https://ntrs.nasa.gov/api/citations/19830014778/downloads/19830014778.pdf",
+    "subset_names": [
+      "QKSUBS",
+      "CSMSET",
+      "SUBQUICK"
+    ],
+    "finding": "Text nennt QKSUBS und CSMSET als mitkompilierten QUICK-Unterprogrammsatz; derselbe Satz wird SUBQUICK genannt und bei STEIN-Aufrufen verwendet.",
+    "search_result_20261022": "Gezielte Websuche LAR-12952/TM81933 ergab historische Katalog-/Handbuchbelege, bisher kein heruntergeladenes Routinenpaket.",
+    "limit": "Historische Verfuegbarkeit ist kein heutiger Downloadnachweis. Keine Kontakte angeschrieben, keine Originalroutine ausgefuehrt.",
+    "next": "Quellcodepaket gezielt auch unter QKSUBS/SUBQUICK suchen; Canopy-Berechnung bleibt gesperrt."
+  }
+}

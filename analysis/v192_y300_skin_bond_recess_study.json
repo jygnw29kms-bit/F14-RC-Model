@@ -1,0 +1,34 @@
+{
+  "status": "VERTICAL_RECESS_SKIN_BOND_GEOMETRY_SAVED_REOPENED",
+  "input_sha256_unchanged": {
+    "Y300_SLEEVE_BOND_GEOMETRY_STUDY_ONLY.FCStd": "252db0299fef84e89adba356f105777ccfdb3862577b613c1b8cbaac7b9146a9",
+    "WING_R_VOID_ALL17_FUSED_TRIAL_ONLY.FCStd": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19"
+  },
+  "output_sha256": "c17070fe921b9657a996ee26dfeaedbbf5c959d795fe0f717981309c1f799f43",
+  "rows": [
+    {
+      "name": "ROOT_CARRIER",
+      "old_volume_mm3": 343.847150490728,
+      "recessed_volume_mm3": 335.3638337385298,
+      "bond_volume_mm3": 8.483316769430322,
+      "bond_solid_count": 2,
+      "volume_balance_residual_mm3": 1.723213927107281e-08
+    },
+    {
+      "name": "TIP_CARRIER",
+      "old_volume_mm3": 366.9534163683629,
+      "recessed_volume_mm3": 356.21789886349757,
+      "bond_volume_mm3": 10.735517506151382,
+      "bond_solid_count": 2,
+      "volume_balance_residual_mm3": 1.2860255083069205e-09
+    }
+  ],
+  "limits": [
+    "GlobalZ cavity translations define vertical recess only; normal thickness unverified",
+    "Bond geometry may contain disconnected upper/lower patches, not a single adhesive body",
+    "Carrier/sleeve bond face areas and skin contacts need re-audit",
+    "No adhesive selection, process, structure, assembly or print acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

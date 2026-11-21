@@ -1,0 +1,11 @@
+{
+  "status": "INDEPENDENT_RODRIGUES_POINT_CHECK_PASS",
+  "native_report_sha256": "e7dc4d029a96f7e72557118c4b5a7e3f00b892c6cfb5933ceaa4054522fb0a90",
+  "cant_reference_sha256": "f0d230ca0f3d2c41ef122add8e4d226bb0c4fd60f9aae405798c69ac8f68aa29",
+  "checked_rotation_cases": 14,
+  "max_point_coordinate_error_mm": 2.842670499499011e-13,
+  "limits": [
+    "Checks reported worst-vertex coordinates, not continuum displacement maxima or physical axis registration."
+  ],
+  "production_release": false
+}

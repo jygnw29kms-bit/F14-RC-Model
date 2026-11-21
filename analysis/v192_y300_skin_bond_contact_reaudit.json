@@ -1,0 +1,32 @@
+{
+  "status": "SAVED_VERTICAL_SKIN_BOND_CONTACT_REAUDIT_COMPLETE",
+  "input_sha256_unchanged": {
+    "Y300_SKIN_BOND_VERTICAL_RECESS_STUDY_ONLY.FCStd": "c17070fe921b9657a996ee26dfeaedbbf5c959d795fe0f717981309c1f799f43",
+    "WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40"
+  },
+  "rows": [
+    {
+      "carrier": "ROOT_CARRIER",
+      "carrier_to_skin_minimum_distance_mm": 0.09929028284613273,
+      "skin_bond_to_carrier_common_area_mm2": 88.86438966740384,
+      "skin_bond_to_wing_common_area_mm2": 81.80887879743779,
+      "bond_carrier_overlap_mm3": 0.0,
+      "bond_skin_overlap_mm3": 0.0
+    },
+    {
+      "carrier": "TIP_CARRIER",
+      "carrier_to_skin_minimum_distance_mm": 0.09937919616900472,
+      "skin_bond_to_carrier_common_area_mm2": 112.58240159419715,
+      "skin_bond_to_wing_common_area_mm2": 102.7633897463566,
+      "bond_carrier_overlap_mm3": 0.0,
+      "bond_skin_overlap_mm3": 0.0
+    }
+  ],
+  "limits": [
+    "Minimum distance is global separation, not uniform normal thickness",
+    "Geometric bond patches do not verify adhesive wetting, cure, strength or peel",
+    "No manufacturing/assembly/flight acceptance; source partition volume gate remains blocked"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

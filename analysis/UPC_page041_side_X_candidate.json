@@ -1,0 +1,178 @@
+{
+  "status": "LONGITUDINAL_COORDINATE_CANDIDATE_ONLY",
+  "formula": "candidate_X_mm = alpha * historical_side_sample_X_mm + beta",
+  "alpha": 0.8815655283145614,
+  "beta_mm": 45.662082749681495,
+  "inputs": {
+    "UPC_page041_tick_registration_screen.json": "9041f9c43443b7db56778c4b1a7dc2f06ba14900790755b1dd371a08bcb2fb66",
+    "side_FS_reference": "a95d671a33fe0e97c35b7ae0325f2610d9d1c46e1f6570869dc3ba9d25cdd8fc"
+  },
+  "historical_component_endpoints_mm": [
+    0,
+    879.283929853852
+  ],
+  "candidate_component_endpoints_mm": [
+    45.662082749681495,
+    820.8084849097962
+  ],
+  "stations": [
+    {
+      "index": 1,
+      "historical_x_mm": 8.793,
+      "candidate_source_x_mm": 53.41368844015143
+    },
+    {
+      "index": 2,
+      "historical_x_mm": 38.507,
+      "candidate_source_x_mm": 79.60852654849032
+    },
+    {
+      "index": 3,
+      "historical_x_mm": 68.22,
+      "candidate_source_x_mm": 105.80248309130087
+    },
+    {
+      "index": 4,
+      "historical_x_mm": 97.934,
+      "candidate_source_x_mm": 131.99732119963974
+    },
+    {
+      "index": 5,
+      "historical_x_mm": 127.648,
+      "candidate_source_x_mm": 158.1921593079786
+    },
+    {
+      "index": 6,
+      "historical_x_mm": 157.362,
+      "candidate_source_x_mm": 184.3869974163175
+    },
+    {
+      "index": 7,
+      "historical_x_mm": 187.075,
+      "candidate_source_x_mm": 210.58095395912807
+    },
+    {
+      "index": 8,
+      "historical_x_mm": 216.789,
+      "candidate_source_x_mm": 236.77579206746694
+    },
+    {
+      "index": 9,
+      "historical_x_mm": 246.503,
+      "candidate_source_x_mm": 262.9706301758058
+    },
+    {
+      "index": 10,
+      "historical_x_mm": 276.216,
+      "candidate_source_x_mm": 289.16458671861636
+    },
+    {
+      "index": 11,
+      "historical_x_mm": 305.93,
+      "candidate_source_x_mm": 315.35942482695526
+    },
+    {
+      "index": 12,
+      "historical_x_mm": 335.644,
+      "candidate_source_x_mm": 341.5542629352941
+    },
+    {
+      "index": 13,
+      "historical_x_mm": 365.358,
+      "candidate_source_x_mm": 367.749101043633
+    },
+    {
+      "index": 14,
+      "historical_x_mm": 395.071,
+      "candidate_source_x_mm": 393.94305758644356
+    },
+    {
+      "index": 15,
+      "historical_x_mm": 424.785,
+      "candidate_source_x_mm": 420.13789569478246
+    },
+    {
+      "index": 16,
+      "historical_x_mm": 454.499,
+      "candidate_source_x_mm": 446.3327338031213
+    },
+    {
+      "index": 17,
+      "historical_x_mm": 484.213,
+      "candidate_source_x_mm": 472.5275719114602
+    },
+    {
+      "index": 18,
+      "historical_x_mm": 513.926,
+      "candidate_source_x_mm": 498.72152845427075
+    },
+    {
+      "index": 19,
+      "historical_x_mm": 543.64,
+      "candidate_source_x_mm": 524.9163665626096
+    },
+    {
+      "index": 20,
+      "historical_x_mm": 573.354,
+      "candidate_source_x_mm": 551.1112046709486
+    },
+    {
+      "index": 21,
+      "historical_x_mm": 603.067,
+      "candidate_source_x_mm": 577.3051612137591
+    },
+    {
+      "index": 22,
+      "historical_x_mm": 632.781,
+      "candidate_source_x_mm": 603.4999993220979
+    },
+    {
+      "index": 23,
+      "historical_x_mm": 662.495,
+      "candidate_source_x_mm": 629.6948374304369
+    },
+    {
+      "index": 24,
+      "historical_x_mm": 692.209,
+      "candidate_source_x_mm": 655.8896755387757
+    },
+    {
+      "index": 25,
+      "historical_x_mm": 721.922,
+      "candidate_source_x_mm": 682.0836320815863
+    },
+    {
+      "index": 26,
+      "historical_x_mm": 751.636,
+      "candidate_source_x_mm": 708.2784701899252
+    },
+    {
+      "index": 27,
+      "historical_x_mm": 781.35,
+      "candidate_source_x_mm": 734.4733082982641
+    },
+    {
+      "index": 28,
+      "historical_x_mm": 811.064,
+      "candidate_source_x_mm": 760.6681464066029
+    },
+    {
+      "index": 29,
+      "historical_x_mm": 840.777,
+      "candidate_source_x_mm": 786.8621029494135
+    },
+    {
+      "index": 30,
+      "historical_x_mm": 870.491,
+      "candidate_source_x_mm": 813.0569410577524
+    }
+  ],
+  "limits": [
+    "Maps side-view sampling X only. Top-view widths were sampled at separately normalized fractions and cannot be assigned to this X without their own registration.",
+    "No vertical or transverse correction derived.",
+    "Underlying tick/source uncertainties remain; this is not a production transform."
+  ],
+  "master_changed": false,
+  "print_release": false,
+  "flight_release": false
+}

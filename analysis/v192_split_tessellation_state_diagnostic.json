@@ -1,0 +1,65 @@
+{
+  "status": "BEFORE_AFTER_TESSELLATION_STATE_CHECK_COMPLETE",
+  "input_sha256_unchanged": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+  "rows": [
+    {
+      "object": "SOURCE",
+      "before_tessellation": {
+        "volume_mm3": 64770.945294431316,
+        "bbox_y": [
+          148.8263775443693,
+          449.99999999999994
+        ]
+      },
+      "after_tessellation": {
+        "volume_mm3": 64770.945294431316,
+        "bbox_y": [
+          148.8263775443693,
+          449.99999999999994
+        ]
+      },
+      "volume_change_mm3": 0.0
+    },
+    {
+      "object": "PART0",
+      "before_tessellation": {
+        "volume_mm3": 53714.6816276782,
+        "bbox_y": [
+          148.8263775443693,
+          363.96894022966364
+        ]
+      },
+      "after_tessellation": {
+        "volume_mm3": 53714.6816276782,
+        "bbox_y": [
+          148.8263775443693,
+          300.0
+        ]
+      },
+      "volume_change_mm3": 0.0
+    },
+    {
+      "object": "PART1",
+      "before_tessellation": {
+        "volume_mm3": 11056.393337997191,
+        "bbox_y": [
+          234.88709346436087,
+          449.99999999999994
+        ]
+      },
+      "after_tessellation": {
+        "volume_mm3": 11056.393337997191,
+        "bbox_y": [
+          299.99999999999994,
+          449.99999999999994
+        ]
+      },
+      "volume_change_mm3": 0.0
+    }
+  ],
+  "limits": [
+    "In-memory tessellation only, no saved geometry change",
+    "Bounding-box update does not imply shape or mass correction",
+    "Volume balance guard remains unresolved; no output split CAD/print acceptance"
+  ]
+}

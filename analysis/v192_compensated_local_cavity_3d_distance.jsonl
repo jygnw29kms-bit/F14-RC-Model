@@ -1,0 +1,20 @@
+{"stage": "open", "elapsed_seconds": 0.0}
+{"stage": "offset", "elapsed_seconds": 0.5160007476806641, "y_mm": 220}
+{"stage": "offset", "elapsed_seconds": 1.3979997634887695, "y_mm": 230}
+{"stage": "offset", "elapsed_seconds": 2.2120003700256348, "y_mm": 240}
+{"stage": "offset", "elapsed_seconds": 3.0460002422332764, "y_mm": 250}
+{"stage": "offset", "elapsed_seconds": 3.8490004539489746, "y_mm": 260}
+{"stage": "loft_start", "elapsed_seconds": 4.675000190734863}
+{"stage": "loft_done", "elapsed_seconds": 5.045000076293945, "faces": 394}
+{"stage": "validity_start", "elapsed_seconds": 5.046000242233276}
+{"stage": "validity_done", "elapsed_seconds": 5.168000221252441}
+{"stage": "sample", "elapsed_seconds": 5.169000625610352, "y_mm": 225}
+{"stage": "sample", "elapsed_seconds": 6.480999946594238, "y_mm": 230}
+{"stage": "sample", "elapsed_seconds": 8.76900029182434, "y_mm": 235}
+{"stage": "sample", "elapsed_seconds": 10.073003053665161, "y_mm": 240}
+{"stage": "sample", "elapsed_seconds": 12.245000123977661, "y_mm": 245}
+{"stage": "sample", "elapsed_seconds": 13.477999687194824, "y_mm": 250}
+{"stage": "sample", "elapsed_seconds": 15.623000621795654, "y_mm": 255}
+{"stage": "boundary_distance_start", "elapsed_seconds": 16.8030002117157}
+{"stage": "boundary_distance_done", "elapsed_seconds": 39.41900038719177, "distance_mm": 0.4044279485002354}
+{"stage": "complete", "elapsed_seconds": 39.439000606536865}

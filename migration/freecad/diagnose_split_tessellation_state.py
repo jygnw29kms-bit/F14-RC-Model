@@ -1,0 +1,6 @@
+from pathlib import Path
+import FreeCAD as A,Part,json,hashlib
+R=Path(__file__).resolve().parents[2];p=R/'migration/freecad/WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd';h=hashlib.sha256(p.read_bytes()).hexdigest();out=R/'analysis/v192_split_tessellation_state_diagnostic.json';assert not out.exists();D=A.openDocument(str(p));s=D.Objects[0].Shape.copy();A.closeDocument(D.Name);pts=[A.Vector(-1000,300,-1000),A.Vector(1000,300,-1000),A.Vector(1000,300,1000),A.Vector(-1000,300,1000)];res,_=s.generalFuse([Part.Face(Part.makePolygon(pts+[pts[0]]))]);rows=[]
+for label,x in [('SOURCE',s)]+[('PART'+str(i),x) for i,x in enumerate(res.Solids)]:
+ before={'volume_mm3':x.Volume,'bbox_y':[x.BoundBox.YMin,x.BoundBox.YMax]};x.tessellate(.02);after={'volume_mm3':x.Volume,'bbox_y':[x.BoundBox.YMin,x.BoundBox.YMax]};rows.append({'object':label,'before_tessellation':before,'after_tessellation':after,'volume_change_mm3':after['volume_mm3']-before['volume_mm3']})
+assert hashlib.sha256(p.read_bytes()).hexdigest()==h;out.write_text(json.dumps({'status':'BEFORE_AFTER_TESSELLATION_STATE_CHECK_COMPLETE','input_sha256_unchanged':h,'rows':rows,'limits':['In-memory tessellation only, no saved geometry change','Bounding-box update does not imply shape or mass correction','Volume balance guard remains unresolved; no output split CAD/print acceptance']},indent=2)+'\n');print(rows)

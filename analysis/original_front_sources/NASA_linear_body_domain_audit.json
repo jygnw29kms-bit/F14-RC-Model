@@ -1,0 +1,171 @@
+{
+  "status": "EXPLIZITE_LINE_DOMAENEN_UND_ANSCHLUESSE_GEPRUEFT",
+  "input_sha256": "e9230d68f6540f4ae609db7e9b493ee1e7e7a7a749fd8467afd9456dd44e4395",
+  "rows": [
+    {
+      "variable": "ZTCL",
+      "segment_count": 7,
+      "continuous_LINE_domains": [
+        [
+          205,
+          241
+        ],
+        [
+          352,
+          780
+        ]
+      ],
+      "excluded_between_LINE_domains": [
+        {
+          "start": 241,
+          "end": 352,
+          "reason": "NichtLINEdefinierterBereich; keineInterpolation"
+        }
+      ],
+      "slopes": [
+        {
+          "x0": 205,
+          "x1": 241,
+          "slope": 0.5736111111111113
+        },
+        {
+          "x0": 352,
+          "x1": 497,
+          "slope": -0.1724137931034483
+        },
+        {
+          "x0": 497,
+          "x1": 546,
+          "slope": -0.10204081632653061
+        },
+        {
+          "x0": 546,
+          "x1": 600,
+          "slope": -0.08333333333333333
+        },
+        {
+          "x0": 600,
+          "x1": 650,
+          "slope": -0.09
+        },
+        {
+          "x0": 650,
+          "x1": 697,
+          "slope": 0.10638297872340426
+        },
+        {
+          "x0": 697,
+          "x1": 780,
+          "slope": -0.03313253012048193
+        }
+      ]
+    },
+    {
+      "variable": "ZBCL",
+      "segment_count": 9,
+      "continuous_LINE_domains": [
+        [
+          176,
+          780
+        ]
+      ],
+      "excluded_between_LINE_domains": [],
+      "slopes": [
+        {
+          "x0": 176,
+          "x1": 205,
+          "slope": 0.05172413793103448
+        },
+        {
+          "x0": 205,
+          "x1": 352,
+          "slope": 0.025510204081632654
+        },
+        {
+          "x0": 352,
+          "x1": 425,
+          "slope": 0.02301369863013708
+        },
+        {
+          "x0": 425,
+          "x1": 433,
+          "slope": -0.8037500000000009
+        },
+        {
+          "x0": 433,
+          "x1": 497,
+          "slope": -0.14375000000000004
+        },
+        {
+          "x0": 497,
+          "x1": 546,
+          "slope": -0.06326530612244886
+        },
+        {
+          "x0": 546,
+          "x1": 600,
+          "slope": -0.031481481481481534
+        },
+        {
+          "x0": 600,
+          "x1": 650,
+          "slope": 0.02
+        },
+        {
+          "x0": 650,
+          "x1": 780,
+          "slope": 0.06923076923076923
+        }
+      ]
+    },
+    {
+      "variable": "YMHB",
+      "segment_count": 6,
+      "continuous_LINE_domains": [
+        [
+          352,
+          650
+        ]
+      ],
+      "excluded_between_LINE_domains": [],
+      "slopes": [
+        {
+          "x0": 352,
+          "x1": 414.5,
+          "slope": -0.024
+        },
+        {
+          "x0": 414.5,
+          "x1": 433,
+          "slope": 2.4594594594594597
+        },
+        {
+          "x0": 433,
+          "x1": 497,
+          "slope": -0.015625
+        },
+        {
+          "x0": 497,
+          "x1": 546,
+          "slope": -0.02040816326530612
+        },
+        {
+          "x0": 546,
+          "x1": 600,
+          "slope": 0.06481481481481481
+        },
+        {
+          "x0": 600,
+          "x1": 650,
+          "slope": 0.05
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Koordinateneinheitenweiterunverifiziert; keineUmrechnunginmm.",
+    "ELLX/ELLY-Bereichefehlenbewusst.",
+    "StetigeLINE-EndpunktebelegenkeinevollstaendigeHaut/Querschnittsform oderOriginaltreue."
+  ],
+  "production_release": false
+}

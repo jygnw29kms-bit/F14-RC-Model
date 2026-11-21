@@ -1,0 +1,163 @@
+{
+  "status": "SEVEN_COMBINED_AND_ISOLATED_OUTBOARD_HEADERS_VISUALLY_MATCHED",
+  "reference_crosscheck_sha256": "fd41798e0b43d69514a2f2f85a27e26fb90156e5c4ae262eefee8fdf4057152f",
+  "rows": [
+    {
+      "combined_table1_header": [
+        516.19336,
+        164.0146,
+        631.00684,
+        0,
+        1,
+        159.12769
+      ],
+      "combined_pdf_page": 21,
+      "isolated_table4_header": [
+        516.19336,
+        164.0146,
+        631.00684,
+        0,
+        1,
+        159.12769
+      ],
+      "CR3992_explicit_vertical_reference": 159.12769,
+      "all_six_raw_header_fields_match": true
+    },
+    {
+      "combined_table1_header": [
+        529.58618,
+        200.79919,
+        632.6438,
+        0,
+        1,
+        158.07434
+      ],
+      "combined_pdf_page": 22,
+      "isolated_table4_header": [
+        529.58618,
+        200.79919,
+        632.6438,
+        0,
+        1,
+        158.07434
+      ],
+      "CR3992_explicit_vertical_reference": 158.07434,
+      "all_six_raw_header_fields_match": true
+    },
+    {
+      "combined_table1_header": [
+        542.9834,
+        237.58369,
+        634.28076,
+        0,
+        1,
+        156.86511
+      ],
+      "combined_pdf_page": 22,
+      "isolated_table4_header": [
+        542.9834,
+        237.58369,
+        634.28076,
+        0,
+        1,
+        156.86511
+      ],
+      "CR3992_explicit_vertical_reference": 156.86511,
+      "all_six_raw_header_fields_match": true
+    },
+    {
+      "combined_table1_header": [
+        556.38062,
+        274.36816,
+        635.91772,
+        0,
+        1,
+        155.65588
+      ],
+      "combined_pdf_page": 22,
+      "isolated_table4_header": [
+        556.38062,
+        274.36816,
+        635.91772,
+        0,
+        1,
+        155.65588
+      ],
+      "CR3992_explicit_vertical_reference": 155.65588,
+      "all_six_raw_header_fields_match": true
+    },
+    {
+      "combined_table1_header": [
+        569.77783,
+        311.15283,
+        637.55469,
+        0,
+        1,
+        154.44666
+      ],
+      "combined_pdf_page": 23,
+      "isolated_table4_header": [
+        569.77783,
+        311.15283,
+        637.55469,
+        0,
+        1,
+        154.44666
+      ],
+      "CR3992_explicit_vertical_reference": 154.44666,
+      "all_six_raw_header_fields_match": true
+    },
+    {
+      "combined_table1_header": [
+        583.1748,
+        347.93726,
+        639.19165,
+        0,
+        1,
+        153.24487
+      ],
+      "combined_pdf_page": 23,
+      "isolated_table4_header": [
+        583.1748,
+        347.93726,
+        639.19165,
+        0,
+        1,
+        153.24487
+      ],
+      "CR3992_explicit_vertical_reference": 153.24487,
+      "all_six_raw_header_fields_match": true
+    },
+    {
+      "combined_table1_header": [
+        596.56421,
+        384.69995,
+        640.82764,
+        0,
+        1,
+        152.03552
+      ],
+      "combined_pdf_page": 23,
+      "isolated_table4_header": [
+        596.56421,
+        384.69995,
+        640.82764,
+        0,
+        1,
+        152.03552
+      ],
+      "CR3992_explicit_vertical_reference": 152.03552,
+      "all_six_raw_header_fields_match": true
+    }
+  ],
+  "visual_ocr_guard": "Combined span164.01460 sixth field is159.12769, OCR159.12789 rejected",
+  "finding": "All6 header numbers at seven matching outboard spans agree between combined-glove and isolated-wing20deg input tables; sixth numbers also match explicit CR3992 vertical reference labels.",
+  "limits": [
+    "Does not identify reader coordinate transform, twist pivot or absolute body datum",
+    "Combined50xc grid has.00496 where isolated/rootCR3992grid has.00491; header equality is not whole-section geometry equality",
+    "Combined near127.22/127.24 remain distinct from isolated127.23; no automatic merge",
+    "No numerical profile-ordinate equivalence or fixed-glove skin freeze asserted",
+    "No pivot WL extrapolation or master edit"
+  ],
+  "production_release": false
+}

@@ -1,0 +1,60 @@
+{
+  "status": "SHORT_SLEEVE_CONTACT_AREAS_MEASURED",
+  "input_sha256_unchanged": "11c67cf2b9ff7c13fbbde83506d0fe79a4292b210cbfc78f725aecc67126c44f",
+  "rows": [
+    {
+      "bond_index": 0,
+      "contacts": [
+        {
+          "target": "ROOT_CARRIER",
+          "area_mm2": 50.13981875129325,
+          "analytic_cylinder_area_mm2": 50.1398187512931,
+          "difference_mm2": 1.4921397450962104e-13,
+          "overlap_mm3": 0.0,
+          "analytic_match": true,
+          "scalar_F_over_A_MPa_per_N": 0.019944228457630934
+        },
+        {
+          "target": "SLEEVE",
+          "area_mm2": 47.752208334565,
+          "analytic_cylinder_area_mm2": 47.752208334564855,
+          "difference_mm2": 1.4210854715202004e-13,
+          "overlap_mm3": 0.0,
+          "analytic_match": true,
+          "scalar_F_over_A_MPa_per_N": 0.02094143988051248
+        }
+      ]
+    },
+    {
+      "bond_index": 1,
+      "contacts": [
+        {
+          "target": "TIP_CARRIER",
+          "area_mm2": 50.13981875129324,
+          "analytic_cylinder_area_mm2": 50.1398187512931,
+          "difference_mm2": 1.4210854715202004e-13,
+          "overlap_mm3": 0.0,
+          "analytic_match": true,
+          "scalar_F_over_A_MPa_per_N": 0.019944228457630938
+        },
+        {
+          "target": "SLEEVE",
+          "area_mm2": 47.75220833456499,
+          "analytic_cylinder_area_mm2": 47.752208334564855,
+          "difference_mm2": 1.3500311979441904e-13,
+          "overlap_mm3": 0.0,
+          "analytic_match": true,
+          "scalar_F_over_A_MPa_per_N": 0.020941439880512485
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "F/A per1N bookkeeping only; no assigned load, curved traction distribution, peel or strength analysis",
+    "Serial interface areas cannot be added for capacity",
+    "Short sleeve is permanent bridge if bonded both sides; no adhesive process or physical assembly acceptance",
+    "Partition volume and full aircraft gates remain open"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

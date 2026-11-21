@@ -1,0 +1,9 @@
+{"stage": "build_flared_body"}
+{"stage": "cut_unfrozen_slots"}
+{"stage": "spar_interface", "object": "UNFROZEN_FLANGED_WEB"}
+{"stage": "spar_interface", "object": "GEOMETRIC_LOWER_BOND_0p1"}
+{"stage": "spar_interface", "object": "GEOMETRIC_UPPER_BOND_0p1"}
+{"stage": "spar_interface", "object": "CONTINUOUS_LOWER_CAP_REFERENCE"}
+{"stage": "spar_interface", "object": "CONTINUOUS_UPPER_CAP_REFERENCE"}
+{"stage": "outer_packaging_baseline"}
+{"stage": "complete"}

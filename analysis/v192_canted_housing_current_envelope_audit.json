@@ -1,0 +1,35 @@
+{
+  "status": "CURRENT_ENVELOPE_CONTAINMENT_SCREEN_AT_BASELINE20_ONLY",
+  "input_sha256_unchanged": {
+    "CANTED_HOUSING_SHOULDER_CONCEPT_ONLY.FCStd": "a2c096314b3502154033e50bdf606b628515a7647fec1418d28c2224791dabef",
+    "F14_CURRENT_FULL_VIEW_v192.FCStd": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a"
+  },
+  "rows": [
+    {
+      "object": "HOUSING",
+      "volume_mm3": 3463.6059005827474,
+      "outside_current_body_or_wing_mm3": 3142.590713023381,
+      "accepted_against_current_reference": false
+    },
+    {
+      "object": "LOWER_GENERIC_RING",
+      "volume_mm3": 522.2897786593028,
+      "outside_current_body_or_wing_mm3": 522.2897786593028,
+      "accepted_against_current_reference": false
+    },
+    {
+      "object": "UPPER_GENERIC_RING",
+      "volume_mm3": 522.289778659303,
+      "outside_current_body_or_wing_mm3": 522.289778659303,
+      "accepted_against_current_reference": false
+    }
+  ],
+  "limits": [
+    "Current body/glove incomplete; rejection is against current CAD reference not original-aircraft proof",
+    "Provisional pivotZ0, generic unselected rings/housing",
+    "No exterior enlargement, relocation or master modification",
+    "No sweep, attachment, retention, tolerances, load rating or physical proof"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

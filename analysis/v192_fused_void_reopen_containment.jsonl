@@ -1,0 +1,4 @@
+{"stage": "reopen_validity", "elapsed_seconds": 0.8179996013641357}
+{"stage": "containment_cut_start", "elapsed_seconds": 1.88200044631958}
+{"stage": "containment_cut_returned", "elapsed_seconds": 285.38139271736145, "outside_volume_mm3": 0.0}
+{"stage": "complete", "elapsed_seconds": 285.441392660141}

@@ -1,0 +1,87 @@
+{
+  "status": "NOMINAL_CONNECTED_ANNULAR_RELIEF_CORRIDOR_SCREENED",
+  "input_sha256_unchanged": {
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117",
+    "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd": "11c67cf2b9ff7c13fbbde83506d0fe79a4292b210cbfc78f725aecc67126c44f",
+    "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0"
+  },
+  "tip_translation_y_mm": 0,
+  "y_interval_mm": [
+    304.0001,
+    310.1
+  ],
+  "inner_outer_radii_mm": [
+    2,
+    2.1
+  ],
+  "corridor_solids": 1,
+  "corridor_volume_mm3": 7.856994421329631,
+  "analytic_volume_mm3": 7.85699442132934,
+  "rows": [
+    {
+      "object": "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd:BLOCKED_PART_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd:BLOCKED_PART_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd:ROOT_CARRIER",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd:ROOT_CARRIER_GEOMETRIC_SKIN_BOND",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd:TIP_CARRIER",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd:TIP_CARRIER_GEOMETRIC_SKIN_BOND",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd:GENERIC_4OD_2p2ID_SLEEVE",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd:GEOMETRIC_BOND_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "Y300_SHORT_SLEEVE_ASSEMBLY_TRADE_STUDY_ONLY.FCStd:GEOMETRIC_BOND_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd:UNFROZEN_FLANGED_WEB",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd:GEOMETRIC_LOWER_BOND_0p1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd:GEOMETRIC_UPPER_BOND_0p1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd:CONTINUOUS_LOWER_CAP_REFERENCE",
+      "overlap_mm3": 0.0
+    },
+    {
+      "object": "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd:CONTINUOUS_UPPER_CAP_REFERENCE",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "all_local_overlaps_below_1e_minus7_mm3": true,
+  "limits": [
+    "Starts 0.0001mm beyond nominal sleeve/bond end to avoid end-face tolerance ambiguity",
+    "Connected geometric void corridor only; no squeeze-flow, viscosity, wetting, curing or trapped-air simulation",
+    "Does not establish external outlet, real adhesive application or accessible excess removal",
+    "No physical assembly, strength, partition volume or print/flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

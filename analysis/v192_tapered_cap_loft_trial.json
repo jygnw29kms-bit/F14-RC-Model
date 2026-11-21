@@ -1,0 +1,63 @@
+{
+  "status": "TWO_SEPARATE_TAPERED_CAP_SOLID_FIT_TRIALS_ONLY",
+  "basis_sha256": "f33f7fa40eadf6d6aaf47c00a1995c369967619d906167ec913884ef41e4e0c5",
+  "void_sha256": "b876e3fcde612fb50f70b8575b9ff7d5a940454631e4645e89fcf2d79410fc19",
+  "output_sha256": "450d5756a02667a818f85360a4c63c736b6a639e52a56af9329e5f2cce847024",
+  "rows": [
+    {
+      "side": "lower",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3000.000000000002,
+      "outside_void_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true,
+      "minimum_void_boundary_gap_mm": 0.10727538734160616,
+      "closest_point_pairs_mm": [
+        [
+          [
+            645.1147181199643,
+            200.00091383694635,
+            -4.751878324370808
+          ],
+          [
+            645.1124186180037,
+            200.0,
+            -4.859125170114916
+          ]
+        ]
+      ]
+    },
+    {
+      "side": "upper",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3000.000000000002,
+      "outside_void_volume_mm3": 0.0,
+      "contained_within_1e_6_mm3": true,
+      "minimum_void_boundary_gap_mm": 0.19813908794750454,
+      "closest_point_pairs_mm": [
+        [
+          [
+            708.1652142330331,
+            435.0,
+            -7.444712648857416
+          ],
+          [
+            708.144899715733,
+            435.0177322173716,
+            -7.248416986585884
+          ]
+        ]
+      ]
+    }
+  ],
+  "limits": [
+    "Five-section ruled lofts from sampled inner bounds; no geometric repair or clipping",
+    "16-to-8mm width and 1mm vertical thickness are unfrozen concepts, not selected carbon products",
+    "No web, bond, root load transfer, composite layup, buckling, stiffness, mass or physical proof",
+    "Containment result only; requested .2mm vertical reserve is not a continuous normal-clearance guarantee",
+    "Not integrated into wing; master unchanged"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

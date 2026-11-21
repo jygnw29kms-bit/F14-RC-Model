@@ -1,0 +1,90 @@
+{
+  "status": "CURRENT_REFERENCE_WING_ROOT_PIVOT_INTERFACE_SCREEN_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "rows": [
+    {
+      "side": "R",
+      "pivot_xyz_mm": [
+        613.1323905812828,
+        125.20927023775282,
+        0.0
+      ],
+      "pivot_inside_wing_reference": false,
+      "pivot_point_to_wing_distance_mm": 23.61710730661649,
+      "closest_point_pairs_xyz_mm": [
+        [
+          [
+            613.1323905812828,
+            148.8263775443693,
+            0.0
+          ],
+          [
+            613.1323905812828,
+            125.20927023775282,
+            0.0
+          ]
+        ]
+      ],
+      "reference_interfaces": [
+        {
+          "object": "PIVOT_REF_R",
+          "label": "Source-backed wing pivot R v191",
+          "distance_to_wing_mm": 11.617107306616475,
+          "role": "REFERENCE_GEOMETRY_NOT_VERIFIED_LOAD_PATH"
+        },
+        {
+          "object": "WINGBOX_REF",
+          "label": "Source-backed pivot wingbox engineering envelope v191",
+          "distance_to_wing_mm": 0.0,
+          "role": "REFERENCE_GEOMETRY_NOT_VERIFIED_LOAD_PATH"
+        }
+      ]
+    },
+    {
+      "side": "L",
+      "pivot_xyz_mm": [
+        613.1323905812828,
+        -125.20927023775282,
+        0.0
+      ],
+      "pivot_inside_wing_reference": false,
+      "pivot_point_to_wing_distance_mm": 23.61710730661649,
+      "closest_point_pairs_xyz_mm": [
+        [
+          [
+            613.1323905812828,
+            -148.8263775443693,
+            0.0
+          ],
+          [
+            613.1323905812828,
+            -125.20927023775282,
+            0.0
+          ]
+        ]
+      ],
+      "reference_interfaces": [
+        {
+          "object": "PIVOT_REF_L",
+          "label": "Source-backed wing pivot L v191",
+          "distance_to_wing_mm": 11.617107306616475,
+          "role": "REFERENCE_GEOMETRY_NOT_VERIFIED_LOAD_PATH"
+        },
+        {
+          "object": "WINGBOX_REF",
+          "label": "Source-backed pivot wingbox engineering envelope v191",
+          "distance_to_wing_mm": 0.0,
+          "role": "REFERENCE_GEOMETRY_NOT_VERIFIED_LOAD_PATH"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Point and reference-body distances only; no actual pin/bearing/root bridge design or load capacity verified.",
+    "WINGBOX_REF/PIVOT_REF names and contact do not establish a manufactured structural connection.",
+    "No joint, spar, insert or production geometry created; master unchanged.",
+    "Current aircraft datum/OML registration and whole-aircraft qualification remain open."
+  ],
+  "print_release": false,
+  "flight_release": false
+}

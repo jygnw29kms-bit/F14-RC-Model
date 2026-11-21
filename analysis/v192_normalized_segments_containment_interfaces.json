@@ -1,0 +1,450 @@
+{
+  "status": "NORMALIZED_17_SEGMENTS_CONTAINMENT_CURVES_AND16_INTERFACES_MEASURED",
+  "input_sha256_unchanged": {
+    "WING_R_NORMALIZED_SHARED_PROFILE_SEGMENTS_STUDY_ONLY.FCStd": "a1c2269abd6febdddb98cdcbe5d9a1338e456a90b15ec5474c4470baf24aa8fd",
+    "F14_CURRENT_FULL_VIEW_v192.FCStd": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a"
+  },
+  "rows": [
+    {
+      "index": 0,
+      "span_mm": [
+        180.0,
+        190.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 792,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 7.990355769972188e-06,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 8.389873558e-06,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.40529748213050104
+    },
+    {
+      "index": 1,
+      "span_mm": [
+        190.0,
+        200.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 684,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 6.962679519325405e-06,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 7.310813495e-06,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.4050490660471905
+    },
+    {
+      "index": 2,
+      "span_mm": [
+        200.0,
+        210.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 642,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 7.467674107961869e-06,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 7.841057813e-06,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.4048470016642289
+    },
+    {
+      "index": 3,
+      "span_mm": [
+        210.0,
+        220.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 588,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 9.286577124437872e-06,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 9.750905861e-06,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.4046917860502016
+    },
+    {
+      "index": 4,
+      "span_mm": [
+        220.0,
+        230.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 588,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 7.1898376820643595e-06,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 7.549329566e-06,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.4045827472472955
+    },
+    {
+      "index": 5,
+      "span_mm": [
+        230.0,
+        240.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 588,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 8.546087217204505e-06,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 8.973391578e-06,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.4045135793310927
+    },
+    {
+      "index": 6,
+      "span_mm": [
+        240.0,
+        260.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 588,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 4.058399410789647e-06,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 4.261319381e-06,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.40442794850050245
+    },
+    {
+      "index": 7,
+      "span_mm": [
+        260.0,
+        280.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 1026,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 3.410651390627462e-13,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 1e-07,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.40415326730707235
+    },
+    {
+      "index": 8,
+      "span_mm": [
+        280.0,
+        300.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 1008,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 3.4106166964520467e-13,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 1e-07,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.4038607644245623
+    },
+    {
+      "index": 9,
+      "span_mm": [
+        300.0,
+        320.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 576,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 2.343731030072664e-13,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 1e-07,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.4043402300855662
+    },
+    {
+      "index": 10,
+      "span_mm": [
+        320.0,
+        340.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 996,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 2.343781517035459e-13,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 1e-07,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.40439311896478314
+    },
+    {
+      "index": 11,
+      "span_mm": [
+        340.0,
+        360.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 984,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 3.4576615908581915e-13,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 1e-07,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.40439050550519906
+    },
+    {
+      "index": 12,
+      "span_mm": [
+        360.0,
+        380.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 564,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 1.873699052273717e-06,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 1.967384005e-06,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.40426822201904583
+    },
+    {
+      "index": 13,
+      "span_mm": [
+        380.0,
+        400.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 564,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 2.343731030072664e-13,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 1e-07,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.40332746734912006
+    },
+    {
+      "index": 14,
+      "span_mm": [
+        400.0,
+        420.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 930,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 3.410605131648481e-13,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 1e-07,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.4044716477867988
+    },
+    {
+      "index": 15,
+      "span_mm": [
+        420.0,
+        430.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 990,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 6.123801958978906e-06,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 6.429992057e-06,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.40440215959766423
+    },
+    {
+      "index": 16,
+      "span_mm": [
+        430.0,
+        440.0
+      ],
+      "native_exact_method_valid": true,
+      "edge_face_pair_count": 984,
+      "failed_curve_surface_pairs": [],
+      "max_curve_surface_distance_mm": 4.110505343296476e-06,
+      "curve_pairs_exceeding_stored_tolerance": [],
+      "max_native_tolerance_mm": 4.316030492e-06,
+      "outside_current_wing_volume_mm3": 0.0,
+      "min_distance_to_current_wing_boundary_mm": 0.404263807417236
+    }
+  ],
+  "interfaces": [
+    {
+      "left_index": 0,
+      "right_index": 1,
+      "y_mm": 190.0,
+      "left_cap_area_mm2": 1043.8159373561639,
+      "right_cap_area_mm2": 1043.8159373561639,
+      "common_face_area_mm2": 1043.815937356164,
+      "left_area_minus_common_mm2": -2.2737367544323206e-13,
+      "right_area_minus_common_mm2": -2.2737367544323206e-13,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 1,
+      "right_index": 2,
+      "y_mm": 200.0,
+      "left_cap_area_mm2": 987.2223964858712,
+      "right_cap_area_mm2": 987.2223964858715,
+      "common_face_area_mm2": 987.2223964858712,
+      "left_area_minus_common_mm2": 0.0,
+      "right_area_minus_common_mm2": 3.410605131648481e-13,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 2,
+      "right_index": 3,
+      "y_mm": 210.0,
+      "left_cap_area_mm2": 935.2348753684544,
+      "right_cap_area_mm2": 935.2348753684544,
+      "common_face_area_mm2": 935.2348753684544,
+      "left_area_minus_common_mm2": 0.0,
+      "right_area_minus_common_mm2": 0.0,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 3,
+      "right_index": 4,
+      "y_mm": 220.0,
+      "left_cap_area_mm2": 887.0457320925548,
+      "right_cap_area_mm2": 887.0457320925548,
+      "common_face_area_mm2": 887.0457320925548,
+      "left_area_minus_common_mm2": 0.0,
+      "right_area_minus_common_mm2": 0.0,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 4,
+      "right_index": 5,
+      "y_mm": 230.0,
+      "left_cap_area_mm2": 841.9057742312523,
+      "right_cap_area_mm2": 841.9057742312523,
+      "common_face_area_mm2": 841.9057742312523,
+      "left_area_minus_common_mm2": 0.0,
+      "right_area_minus_common_mm2": 0.0,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 5,
+      "right_index": 6,
+      "y_mm": 240.0,
+      "left_cap_area_mm2": 799.1308540894871,
+      "right_cap_area_mm2": 799.1308540894871,
+      "common_face_area_mm2": 799.1308540894871,
+      "left_area_minus_common_mm2": 0.0,
+      "right_area_minus_common_mm2": 0.0,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 6,
+      "right_index": 7,
+      "y_mm": 260.0,
+      "left_cap_area_mm2": 718.7123422408364,
+      "right_cap_area_mm2": 718.7123422408364,
+      "common_face_area_mm2": 718.7123422408358,
+      "left_area_minus_common_mm2": 5.684341886080801e-13,
+      "right_area_minus_common_mm2": 5.684341886080801e-13,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 7,
+      "right_index": 8,
+      "y_mm": 280.0,
+      "left_cap_area_mm2": 642.7693328547726,
+      "right_cap_area_mm2": 642.7693328547722,
+      "common_face_area_mm2": 642.7693328547723,
+      "left_area_minus_common_mm2": 3.410605131648481e-13,
+      "right_area_minus_common_mm2": -1.1368683772161603e-13,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 8,
+      "right_index": 9,
+      "y_mm": 300.0,
+      "left_cap_area_mm2": 569.5614120586823,
+      "right_cap_area_mm2": 569.5614120586819,
+      "common_face_area_mm2": 569.5614120586823,
+      "left_area_minus_common_mm2": 0.0,
+      "right_area_minus_common_mm2": -4.547473508864641e-13,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 9,
+      "right_index": 10,
+      "y_mm": 320.0,
+      "left_cap_area_mm2": 499.3531389680164,
+      "right_cap_area_mm2": 499.3531389680166,
+      "common_face_area_mm2": 499.35313896801654,
+      "left_area_minus_common_mm2": -1.1368683772161603e-13,
+      "right_area_minus_common_mm2": 5.684341886080802e-14,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 10,
+      "right_index": 11,
+      "y_mm": 340.0,
+      "left_cap_area_mm2": 432.62030624947363,
+      "right_cap_area_mm2": 432.62030624947386,
+      "common_face_area_mm2": 432.62030624947374,
+      "left_area_minus_common_mm2": -1.1368683772161603e-13,
+      "right_area_minus_common_mm2": 1.1368683772161603e-13,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 11,
+      "right_index": 12,
+      "y_mm": 360.0,
+      "left_cap_area_mm2": 369.52456773239464,
+      "right_cap_area_mm2": 369.5245677323944,
+      "common_face_area_mm2": 369.52456773239464,
+      "left_area_minus_common_mm2": 0.0,
+      "right_area_minus_common_mm2": -2.2737367544323206e-13,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 12,
+      "right_index": 13,
+      "y_mm": 380.0,
+      "left_cap_area_mm2": 310.0495905069171,
+      "right_cap_area_mm2": 310.0495905069171,
+      "common_face_area_mm2": 310.0495905069171,
+      "left_area_minus_common_mm2": 0.0,
+      "right_area_minus_common_mm2": 0.0,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 13,
+      "right_index": 14,
+      "y_mm": 400.0,
+      "left_cap_area_mm2": 253.35746822858064,
+      "right_cap_area_mm2": 253.35746822858093,
+      "common_face_area_mm2": 253.35746822858087,
+      "left_area_minus_common_mm2": -2.2737367544323206e-13,
+      "right_area_minus_common_mm2": 5.684341886080802e-14,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 14,
+      "right_index": 15,
+      "y_mm": 420.0,
+      "left_cap_area_mm2": 198.87913146289844,
+      "right_cap_area_mm2": 198.87913146289873,
+      "common_face_area_mm2": 198.87913146289847,
+      "left_area_minus_common_mm2": -2.842170943040401e-14,
+      "right_area_minus_common_mm2": 2.5579538487363607e-13,
+      "solid_overlap_mm3": 0.0
+    },
+    {
+      "left_index": 15,
+      "right_index": 16,
+      "y_mm": 430.0,
+      "left_cap_area_mm2": 173.01447756454417,
+      "right_cap_area_mm2": 173.01447756454436,
+      "common_face_area_mm2": 173.01447756454422,
+      "left_area_minus_common_mm2": -5.684341886080802e-14,
+      "right_area_minus_common_mm2": 1.4210854715202004e-13,
+      "solid_overlap_mm3": 0.0
+    }
+  ],
+  "limits": [
+    "Containment and distance only against current heuristic wing, not verified original aircraft OML",
+    "Native exact-method check remains tolerance-based; curve gaps measured separately",
+    "Face common and volume intersection numerical, not exact topology proof",
+    "No whole candidate deviation, new fusion, wing subtraction, split, manufacturing or flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

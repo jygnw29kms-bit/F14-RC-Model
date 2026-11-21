@@ -1,0 +1,33 @@
+{"stage": "interval_start", "a": 180, "b": 220}
+{"stage": "explicit_plane_fallback", "y_mm": 200.0, "edge_count": 177}
+{"stage": "interval_done", "y_start": 180, "y_end": 220, "midpoint_y": 200.0, "depth": 0, "midpoint_planar_gap_mm": 0.3006485537105315, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": false}
+{"stage": "interval_start", "a": 180, "b": 200.0}
+{"stage": "interval_done", "y_start": 180, "y_end": 200.0, "midpoint_y": 190.0, "depth": 1, "midpoint_planar_gap_mm": 0.3956493242339113, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": false}
+{"stage": "interval_start", "a": 180, "b": 190.0}
+{"stage": "interval_done", "y_start": 180, "y_end": 190.0, "midpoint_y": 185.0, "depth": 2, "midpoint_planar_gap_mm": 0.42272263621748246, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": true}
+{"stage": "interval_start", "a": 190.0, "b": 200.0}
+{"stage": "interval_done", "y_start": 190.0, "y_end": 200.0, "midpoint_y": 195.0, "depth": 2, "midpoint_planar_gap_mm": 0.4207845179134964, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": true}
+{"stage": "interval_start", "a": 200.0, "b": 220}
+{"stage": "explicit_plane_fallback", "y_mm": 210.0, "edge_count": 133}
+{"stage": "interval_done", "y_start": 200.0, "y_end": 220, "midpoint_y": 210.0, "depth": 1, "midpoint_planar_gap_mm": 0.4024180006796805, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": false}
+{"stage": "interval_start", "a": 200.0, "b": 210.0}
+{"stage": "interval_done", "y_start": 200.0, "y_end": 210.0, "midpoint_y": 205.0, "depth": 2, "midpoint_planar_gap_mm": 0.4223194593535312, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": true}
+{"stage": "interval_start", "a": 210.0, "b": 220}
+{"stage": "interval_done", "y_start": 210.0, "y_end": 220, "midpoint_y": 215.0, "depth": 2, "midpoint_planar_gap_mm": 0.42388898013579096, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": true}
+{"stage": "interval_start", "a": 360, "b": 380}
+{"stage": "interval_done", "y_start": 360, "y_end": 380, "midpoint_y": 370.0, "depth": 0, "midpoint_planar_gap_mm": 0.4295985733841147, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": true}
+{"stage": "interval_start", "a": 380, "b": 420}
+{"stage": "interval_done", "y_start": 380, "y_end": 420, "midpoint_y": 400.0, "depth": 0, "midpoint_planar_gap_mm": 0.4055415754992194, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": false}
+{"stage": "interval_start", "a": 380, "b": 400.0}
+{"stage": "interval_done", "y_start": 380, "y_end": 400.0, "midpoint_y": 390.0, "depth": 1, "midpoint_planar_gap_mm": 0.4273947098964644, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": true}
+{"stage": "interval_start", "a": 400.0, "b": 420}
+{"stage": "interval_done", "y_start": 400.0, "y_end": 420, "midpoint_y": 410.0, "depth": 1, "midpoint_planar_gap_mm": 0.4226511367111554, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": true}
+{"stage": "interval_start", "a": 420, "b": 440}
+{"stage": "explicit_plane_fallback", "y_mm": 430.0, "edge_count": 165}
+{"stage": "interval_done", "y_start": 420, "y_end": 440, "midpoint_y": 430.0, "depth": 0, "midpoint_planar_gap_mm": 0.4145521573290739, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": false}
+{"stage": "interval_start", "a": 420, "b": 430.0}
+{"stage": "explicit_plane_fallback", "y_mm": 425.0, "edge_count": 166}
+{"stage": "interval_done", "y_start": 420, "y_end": 430.0, "midpoint_y": 425.0, "depth": 1, "midpoint_planar_gap_mm": 0.42614948101644295, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": true}
+{"stage": "interval_start", "a": 430.0, "b": 440}
+{"stage": "interval_done", "y_start": 430.0, "y_end": 440, "midpoint_y": 435.0, "depth": 1, "midpoint_planar_gap_mm": 0.422506829261142, "midpoint_outside_area_mm2": 0.0, "midpoint_screen_pass": true}
+{"stage": "complete", "trials": 14, "accepted": 9, "unresolved": 0}

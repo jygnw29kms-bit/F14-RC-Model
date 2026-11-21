@@ -1,0 +1,134 @@
+{
+  "status": "FOUR_DISCRETE_TIP_WING_ASSEMBLY_POSES_SCREENED",
+  "input_sha256_unchanged": {
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117",
+    "FULLSPAN_SPAR_REFERENCE_UNFROZEN_ONLY.FCStd": "677d38c913df3a4667345ce04d90bd87c7fac3b647bd463010ea7871f62a78c0",
+    "Y300_SKIN_BOND_VERTICAL_RECESS_STUDY_ONLY.FCStd": "c17070fe921b9657a996ee26dfeaedbbf5c959d795fe0f717981309c1f799f43"
+  },
+  "rows": [
+    {
+      "tip_translation_y_mm": 20,
+      "overlap_rows": [
+        {
+          "fixed_object": "UNFROZEN_FLANGED_WEB",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "GEOMETRIC_LOWER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "GEOMETRIC_UPPER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "overlap_mm3": 319.1009831478457
+        },
+        {
+          "fixed_object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "FIXED_SLEEVE",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "tip_translation_y_mm": 10,
+      "overlap_rows": [
+        {
+          "fixed_object": "UNFROZEN_FLANGED_WEB",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "GEOMETRIC_LOWER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "GEOMETRIC_UPPER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "overlap_mm3": 17.880976566858862
+        },
+        {
+          "fixed_object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "FIXED_SLEEVE",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "tip_translation_y_mm": 5,
+      "overlap_rows": [
+        {
+          "fixed_object": "UNFROZEN_FLANGED_WEB",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "GEOMETRIC_LOWER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "GEOMETRIC_UPPER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "FIXED_SLEEVE",
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "tip_translation_y_mm": 0,
+      "overlap_rows": [
+        {
+          "fixed_object": "UNFROZEN_FLANGED_WEB",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "GEOMETRIC_LOWER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "GEOMETRIC_UPPER_BOND_0p1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "CONTINUOUS_LOWER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "CONTINUOUS_UPPER_CAP_REFERENCE",
+          "overlap_mm3": 0.0
+        },
+        {
+          "fixed_object": "FIXED_SLEEVE",
+          "overlap_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Discrete poses only, not continuous collision proof",
+    "Tip skin only translates; tip carrier/skinbond supports and insertion tooling not included",
+    "Continuous spar reference fixed, no deformation or adhesive modeled",
+    "No manufacturing/assembly/physical acceptance; source partition volume gate remains blocked"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

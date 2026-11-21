@@ -1,0 +1,363 @@
+{
+  "status": "SAMPLED_OPEN_CHAIN_STRICT_CROSSING_SCREEN",
+  "rows": [
+    {
+      "file": "NASA_nose_halfsection_reference_study.json",
+      "row": 0,
+      "model": 1,
+      "x_source": 110,
+      "boundary_side": null,
+      "points": 161,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.12110528543505367
+    },
+    {
+      "file": "NASA_nose_halfsection_reference_study.json",
+      "row": 1,
+      "model": 1,
+      "x_source": 125,
+      "boundary_side": null,
+      "points": 161,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.20210074224136482
+    },
+    {
+      "file": "NASA_nose_halfsection_reference_study.json",
+      "row": 2,
+      "model": 1,
+      "x_source": 150,
+      "boundary_side": null,
+      "points": 161,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.3071709662994238
+    },
+    {
+      "file": "NASA_nose_halfsection_reference_study.json",
+      "row": 3,
+      "model": 1,
+      "x_source": 175,
+      "boundary_side": null,
+      "points": 161,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.38795816669789596
+    },
+    {
+      "file": "NASA_nose_halfsection_reference_study.json",
+      "row": 4,
+      "model": 1,
+      "x_source": 200,
+      "boundary_side": null,
+      "points": 161,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.40639538917093065
+    },
+    {
+      "file": "NASA_canopy_halfsection_polygon_audit.json",
+      "row": 0,
+      "model": 2,
+      "x_source": 210,
+      "boundary_side": null,
+      "points": 302,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.061386021739210185
+    },
+    {
+      "file": "NASA_canopy_halfsection_polygon_audit.json",
+      "row": 1,
+      "model": 2,
+      "x_source": 220,
+      "boundary_side": null,
+      "points": 302,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.18415806521760245
+    },
+    {
+      "file": "NASA_canopy_halfsection_polygon_audit.json",
+      "row": 2,
+      "model": 2,
+      "x_source": 250,
+      "boundary_side": null,
+      "points": 302,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.23082009618486427
+    },
+    {
+      "file": "NASA_canopy_halfsection_polygon_audit.json",
+      "row": 3,
+      "model": 2,
+      "x_source": 300,
+      "boundary_side": null,
+      "points": 302,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.20275998106640727
+    },
+    {
+      "file": "NASA_canopy_halfsection_polygon_audit.json",
+      "row": 4,
+      "model": 2,
+      "x_source": 340,
+      "boundary_side": null,
+      "points": 302,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.1525530319291568
+    },
+    {
+      "file": "NASA_model3_halfsection_study.json",
+      "row": 0,
+      "model": 3,
+      "x_source": 352,
+      "boundary_side": null,
+      "points": 305,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.13749222516812293
+    },
+    {
+      "file": "NASA_model3_halfsection_study.json",
+      "row": 1,
+      "model": 3,
+      "x_source": 370,
+      "boundary_side": null,
+      "points": 305,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.11936598062686601
+    },
+    {
+      "file": "NASA_model3_halfsection_study.json",
+      "row": 2,
+      "model": 3,
+      "x_source": 390,
+      "boundary_side": null,
+      "points": 305,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.0992284792732476
+    },
+    {
+      "file": "NASA_model3_halfsection_study.json",
+      "row": 3,
+      "model": 3,
+      "x_source": 414.5,
+      "boundary_side": null,
+      "points": 304,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.0745673682805015
+    },
+    {
+      "file": "NASA_models4_5_halfsection_study.json",
+      "row": 0,
+      "model": 4,
+      "x_source": 414.5,
+      "boundary_side": null,
+      "points": 304,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.0745673682805015
+    },
+    {
+      "file": "NASA_models4_5_halfsection_study.json",
+      "row": 1,
+      "model": 4,
+      "x_source": 420,
+      "boundary_side": null,
+      "points": 304,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.035726192905156016
+    },
+    {
+      "file": "NASA_models4_5_halfsection_study.json",
+      "row": 2,
+      "model": 5,
+      "x_source": 425,
+      "boundary_side": null,
+      "points": 205,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.12465935161634549
+    },
+    {
+      "file": "NASA_models4_5_halfsection_study.json",
+      "row": 3,
+      "model": 5,
+      "x_source": 429,
+      "boundary_side": null,
+      "points": 205,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.11773383208208948
+    },
+    {
+      "file": "NASA_models4_5_halfsection_study.json",
+      "row": 4,
+      "model": 5,
+      "x_source": 433,
+      "boundary_side": null,
+      "points": 205,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.11080831254785614
+    },
+    {
+      "file": "NASA_models6_7_halfsection_study_v2.json",
+      "row": 0,
+      "model": 6,
+      "x_source": 433,
+      "boundary_side": null,
+      "points": 205,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.10365846009235499
+    },
+    {
+      "file": "NASA_models6_7_halfsection_study_v2.json",
+      "row": 1,
+      "model": 6,
+      "x_source": 450,
+      "boundary_side": null,
+      "points": 305,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.04447180695314231
+    },
+    {
+      "file": "NASA_models6_7_halfsection_study_v2.json",
+      "row": 2,
+      "model": 6,
+      "x_source": 475,
+      "boundary_side": null,
+      "points": 305,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.033040947961956973
+    },
+    {
+      "file": "NASA_models6_7_halfsection_study_v2.json",
+      "row": 3,
+      "model": 6,
+      "x_source": 497,
+      "boundary_side": null,
+      "points": 205,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.17309067029879008
+    },
+    {
+      "file": "NASA_models6_7_halfsection_study_v2.json",
+      "row": 4,
+      "model": 7,
+      "x_source": 497,
+      "boundary_side": null,
+      "points": 205,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.17309067029879008
+    },
+    {
+      "file": "NASA_models6_7_halfsection_study_v2.json",
+      "row": 5,
+      "model": 7,
+      "x_source": 525,
+      "boundary_side": null,
+      "points": 205,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.18374847886827012
+    },
+    {
+      "file": "NASA_models6_7_halfsection_study_v2.json",
+      "row": 6,
+      "model": 7,
+      "x_source": 575,
+      "boundary_side": null,
+      "points": 205,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.13109622974643012
+    },
+    {
+      "file": "NASA_models6_7_halfsection_study_v2.json",
+      "row": 7,
+      "model": 7,
+      "x_source": 625,
+      "boundary_side": null,
+      "points": 205,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.05607709826772437
+    },
+    {
+      "file": "NASA_models6_7_halfsection_study_v2.json",
+      "row": 8,
+      "model": 7,
+      "x_source": 650,
+      "boundary_side": null,
+      "points": 105,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.4448661935712479
+    },
+    {
+      "file": "NASA_model8_halfsection_study.json",
+      "row": 0,
+      "model": 8,
+      "x_source": 650,
+      "boundary_side": null,
+      "points": 105,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.4448661935712479
+    },
+    {
+      "file": "NASA_model8_halfsection_study.json",
+      "row": 1,
+      "model": 8,
+      "x_source": 675,
+      "boundary_side": null,
+      "points": 106,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.42830043014117003
+    },
+    {
+      "file": "NASA_model8_halfsection_study.json",
+      "row": 2,
+      "model": 8,
+      "x_source": 696,
+      "boundary_side": null,
+      "points": 106,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.4127244612688385
+    },
+    {
+      "file": "NASA_model8_halfsection_study.json",
+      "row": 3,
+      "model": 8,
+      "x_source": 697,
+      "boundary_side": "left",
+      "points": 106,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.4119702154006874
+    },
+    {
+      "file": "NASA_model8_halfsection_study.json",
+      "row": 4,
+      "model": 8,
+      "x_source": 697,
+      "boundary_side": "right",
+      "points": 106,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.42132784948630975
+    },
+    {
+      "file": "NASA_model8_halfsection_study.json",
+      "row": 5,
+      "model": 8,
+      "x_source": 725,
+      "boundary_side": null,
+      "points": 106,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.3965819497872361
+    },
+    {
+      "file": "NASA_model8_halfsection_study.json",
+      "row": 6,
+      "model": 8,
+      "x_source": 780,
+      "boundary_side": null,
+      "points": 106,
+      "strict_interior_crossings": [],
+      "minimum_edge_length_source_units": 0.346593824910113
+    }
+  ],
+  "strict_crossing_count": 0,
+  "limits": [
+    "Only strict interior intersections of nonadjacent sampled straight edges; collinear overlaps and tangential touches are outside this screen.",
+    "No closing axis edge added; no polygon, surface, loft or solid constructed.",
+    "No guarantee between samples or across longitudinal stations; 697 left/right remain separate.",
+    "Physical units, registration and original aircraft skin remain unverified."
+  ],
+  "production_release": false
+}

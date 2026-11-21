@@ -1,0 +1,157 @@
+{
+  "status": "NASA_TABELLE1_SHEET6_LINE_DATEN_VISUELL_TRANSKRIBIERT",
+  "source_sha256": "266ae1d71b32afcb7a44ea41e275669b98338f42bc62fb79d33a815c45ed1d5e",
+  "pdf_page": 25,
+  "printed_page": 15,
+  "table": "Table1 F14A Wing-Fuselage-Glove20deg Sheet6of9",
+  "coordinate_units_verified_on_this_sheet": false,
+  "variables": {
+    "ZTCL": [
+      [
+        205,
+        171,
+        241,
+        191.65
+      ],
+      [
+        352,
+        199.5,
+        497,
+        174.5
+      ],
+      [
+        497,
+        174.5,
+        546,
+        169.5
+      ],
+      [
+        546,
+        169.5,
+        600,
+        165
+      ],
+      [
+        600,
+        165,
+        650,
+        160.5
+      ],
+      [
+        650,
+        160.5,
+        697,
+        165.5
+      ],
+      [
+        697,
+        165.5,
+        780,
+        162.75
+      ]
+    ],
+    "ZBCL": [
+      [
+        176,
+        116.5,
+        205,
+        118
+      ],
+      [
+        205,
+        118,
+        352,
+        121.75
+      ],
+      [
+        352,
+        121.75,
+        425,
+        123.43
+      ],
+      [
+        425,
+        123.43,
+        433,
+        117
+      ],
+      [
+        433,
+        117,
+        497,
+        107.8
+      ],
+      [
+        497,
+        107.8,
+        546,
+        104.7
+      ],
+      [
+        546,
+        104.7,
+        600,
+        103
+      ],
+      [
+        600,
+        103,
+        650,
+        104
+      ],
+      [
+        650,
+        104,
+        780,
+        113
+      ]
+    ],
+    "YMHB": [
+      [
+        352,
+        31,
+        414.5,
+        29.5
+      ],
+      [
+        414.5,
+        29.5,
+        433,
+        75
+      ],
+      [
+        433,
+        75,
+        497,
+        74
+      ],
+      [
+        497,
+        74,
+        546,
+        73
+      ],
+      [
+        546,
+        73,
+        600,
+        76.5
+      ],
+      [
+        600,
+        76.5,
+        650,
+        79
+      ]
+    ]
+  },
+  "entry_format": "JeLINE: x0,v0,x1,v1; Variablennamen unveraendert ausQuelle.",
+  "limits": [
+    "ELLX/ELLY-Zeilen bewusst nicht implementiert, Funktionssemantik weiter offen.",
+    "Tabelleneintraege sind Quellenmodellkoordinaten, keine fertige Stationshaut.",
+    "Einheiten und physische Variablenbedeutung nicht allein ausNamen ableiten.",
+    "Rumpfmodell lautKontext aus1/40Dreiseitenriss/mitInlet-undAftvereinfachungen.",
+    "Keine UPC-Registrierung, Wasserlinie oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

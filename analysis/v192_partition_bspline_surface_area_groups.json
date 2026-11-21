@@ -1,0 +1,830 @@
+{
+  "status": "BSPLINE_RAW_SURFACE_DATA_GROUP_AREA_DIAGNOSTIC",
+  "input_sha256_unchanged": {
+    "WING_R_ADAPTIVE_PARTIAL_SPAN_TRIAL_ONLY.FCStd": "0523c54e4a3c71b86b0d8a7782c66007c818961ea8448891c94e32a46fc1ea40",
+    "WING_R_Y300_PARTITION_REVIEW_BLOCKED_ONLY.FCStd": "6138880287021e5f43e3f39c0a0853b13a29dc4f8ad1516cb215eaff71f45117"
+  },
+  "group_count": 2281,
+  "matched_group_count": 2281,
+  "unmatched_group_count": 0,
+  "sum_part_minus_source_area_mm2": 0.00010444346078131161,
+  "largest_30_groups": [
+    {
+      "surface_data_sha256": "c9fb4ee0330db87c55ce3ba9dd65f827b2e2d825366ff7896aa2fb05f030a4b4",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 2.5141258902294794e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 8,
+            "area_mm2": 651.9438388223155
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 9,
+            "area_mm2": 404.7185796856556
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 9,
+            "area_mm2": 247.22528427791875
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "cdde0efa6720002f83e5822cf84c5c14febef569f419c8d2fe175f9ee6f46bc3",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 1.8865711695070786e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 9,
+            "area_mm2": 634.8406259909056
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 10,
+            "area_mm2": 394.3018367466941
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 10,
+            "area_mm2": 240.5388081099232
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "c1da973dac9932b6fd6cb9e2af3589719bd85eed75c22a0df455ac2d413d4286",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": -1.7821429537434597e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 98,
+            "area_mm2": 615.4700489046032
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 99,
+            "area_mm2": 384.76329177306525
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 99,
+            "area_mm2": 230.70673931010845
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "53c288323c08439af2248bb95533165766e7ad68aa49b47cb8b23c3623fa2ddb",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 1.6967345686680346e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 7,
+            "area_mm2": 352.0350255513315
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 8,
+            "area_mm2": 218.1060504124517
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 8,
+            "area_mm2": 133.92899210622545
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "39a9ba7350d49f66ecf0cae1e1a22f54e389b7fa12629e91a04abc3074b5beb6",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": -1.59082840980318e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 5,
+            "area_mm2": 192.14297553524548
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 2,
+            "area_mm2": 117.45751122592635
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 2,
+            "area_mm2": 74.68544840103503
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "76d9ca7d8af87488849e6e110d39b42c71eaa623dd37a224725ef09fc8559ce3",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 1.5401421819660754e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 10,
+            "area_mm2": 623.307981049845
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 11,
+            "area_mm2": 387.1813439774591
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 11,
+            "area_mm2": 236.1266524738077
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "870e4fae3c92ce86f5255a1798a0f3d1ced9f790443bd2e6221f10a18556c2b6",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": -1.5077265345553315e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 99,
+            "area_mm2": 325.82531946703256
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 100,
+            "area_mm2": 204.57641464408462
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 100,
+            "area_mm2": 121.2488897456826
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "64afc149ea215dda36cc35a0ee2408ce282b8decd3d4cca0ba53562704cb7ebf",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 1.3173716979508754e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 11,
+            "area_mm2": 617.9972612269743
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 12,
+            "area_mm2": 383.8802080943961
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 12,
+            "area_mm2": 234.1170663062952
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "b69e841b1a986bb28cbff39c3271330ad82e3ca1393cd560ef3b96cd7835fd95",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 1.2593489202572528e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 6,
+            "area_mm2": 196.40382048531347
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 7,
+            "area_mm2": 121.71609718189127
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 7,
+            "area_mm2": 74.6877358969114
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "e187dda98da8b8096e70fe126047b09fe6a16a55bcec7b63b23ee796d9d83648",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 1.1298716003693698e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 12,
+            "area_mm2": 614.4864544687101
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 13,
+            "area_mm2": 381.6777490353388
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 13,
+            "area_mm2": 232.80871673208725
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "ac3d1a920e5f342270f2afde12717d3dd08416069c0c9aa3c715c09212bc55f7",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 1.0320753489168055e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 3,
+            "area_mm2": 143.4244190659217
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 4,
+            "area_mm2": 88.47408058929508
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 4,
+            "area_mm2": 54.950348797380116
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "381fd1723f4e417e7bdb7bb95e3e0c5146b84dcf7c6bab7c096b04ce80e9b2bb",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 1.0296310051671753e-05,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 13,
+            "area_mm2": 611.9507568105772
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 14,
+            "area_mm2": 380.06763517033687
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 14,
+            "area_mm2": 231.88313193655034
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "3d3484bf1ade2ca00c2032331b8ce1b19aa2299c6a2144697335e767ce959bba",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": -9.687724514151341e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 97,
+            "area_mm2": 609.9317949466582
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 98,
+            "area_mm2": 380.44491864081357
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 98,
+            "area_mm2": 229.48686661812013
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "af42cebbabb219209ec883a7943b80acd778750bc1e98aab07e1759d3f281832",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": -9.637190999001177e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 101,
+            "area_mm2": 139.54081937450206
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 6,
+            "area_mm2": 87.07333557021941
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 6,
+            "area_mm2": 52.46747416709166
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "5294939653a36e78ffa3da0e72c55cfd020f6381c5d5ee6a1a78df908d4921c5",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 9.39249946441123e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 14,
+            "area_mm2": 610.0053345228011
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 15,
+            "area_mm2": 378.86548155547115
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 15,
+            "area_mm2": 231.13986235982944
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "8afd0ff277ca14655893ba259dfcb64e87daad02491d0d0d5b06cf1c7a88a637",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": -8.9626160786338e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 100,
+            "area_mm2": 182.33354813344098
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 101,
+            "area_mm2": 115.3674913484732
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 101,
+            "area_mm2": 66.96604782235171
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "7407657a635e7885669b5c3e30ad67ea845273e41638ee8266618017993e8cbf",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 8.459093919555016e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 15,
+            "area_mm2": 608.4836984811136
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 16,
+            "area_mm2": 377.912632741454
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 16,
+            "area_mm2": 230.57107419875354
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "dce4ae5f89828377ba5480e966458e975e01323cd1c93805c8cc212ce4f7ee74",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 7.5891209689871175e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 16,
+            "area_mm2": 607.2454932339878
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 17,
+            "area_mm2": 377.1694816137192
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 17,
+            "area_mm2": 230.07601920938956
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "123eb720c98d30860a3555421e4e66d35ca13201c15906bcfd64e18f22d73bb6",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 6.881182230245031e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 17,
+            "area_mm2": 606.241046828325
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 18,
+            "area_mm2": 376.56824122044424
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 18,
+            "area_mm2": 229.67281248906303
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "e22ea64251dae33a66d25d39b50b9ddc734a8d993afa13bdc3a9098980a002d9",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 6.4971462734320085e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 18,
+            "area_mm2": 605.4165111316128
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 19,
+            "area_mm2": 376.09509313750794
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 19,
+            "area_mm2": 229.32142449125112
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "9f5dd24e3e62280da2ccf69ded9da757c05665a4148ed22e954215e579725984",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 5.975401791147306e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 19,
+            "area_mm2": 604.7372736946675
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 20,
+            "area_mm2": 375.73562712208303
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 20,
+            "area_mm2": 229.00165254798628
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "b16a7af5361c6102f0d1fc095689c991b5a005e76f04577b76fe338e1ebdb304",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": -5.638730840473727e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 96,
+            "area_mm2": 604.8988778297987
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 97,
+            "area_mm2": 376.966998063298
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 97,
+            "area_mm2": 227.9318741277699
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "d32c379dd54eff3f12005c1e7c785eda7cbfca2d5bc4945c4eda3d59831d4e29",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 5.515126076716115e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 20,
+            "area_mm2": 604.2049557571127
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 21,
+            "area_mm2": 375.46309972057344
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 21,
+            "area_mm2": 228.74186155166532
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "28296a9f27cfea631f195ff072b83536ce3167f794ffc39bcecfdb5ca2e3f0f7",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 5.175290993975068e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 21,
+            "area_mm2": 603.7674066441984
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 22,
+            "area_mm2": 375.2606465102143
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 22,
+            "area_mm2": 228.50676530927512
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "44f238bc78851283b35b151055452833eb3025a2a2b9f7aa9de4234597794257",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 4.481404516809562e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 22,
+            "area_mm2": 603.43699436344
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 23,
+            "area_mm2": 375.1292685712485
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 23,
+            "area_mm2": 228.30773027359604
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "c34dbd62b5a1ffd92c4d5992c66b6d05218ec63b6e44190df795fdb253d56de9",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": -4.439154441371329e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 53,
+            "area_mm2": 31.020845801819224
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 54,
+            "area_mm2": 20.225409049949707
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 54,
+            "area_mm2": 10.795432312715077
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "56abffe0efa98bc83d959f91344b30b3f7210d119967f3c023cfed66266fa8ee",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 4.28583780376357e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 73,
+            "area_mm2": 1205.1083946613803
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 74,
+            "area_mm2": 749.5510002447988
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 74,
+            "area_mm2": 455.55739870241916
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "8dbc51a038d6eb6bce6fa81465a8cb7710bcc0827359d47f1ba8ded09b047e95",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 3.980705287176534e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 23,
+            "area_mm2": 603.1937506529348
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 24,
+            "area_mm2": 375.05250413214236
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 24,
+            "area_mm2": 228.14125050149778
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "af386b85c601885ae3e71fc790c3aecd1e16ddaf9d1d334a0d14d546096a17cd",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 3.581083092285553e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 72,
+            "area_mm2": 1205.468829608352
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 73,
+            "area_mm2": 749.6824129490192
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 73,
+            "area_mm2": 455.786420240416
+          }
+        ]
+      }
+    },
+    {
+      "surface_data_sha256": "28eaae9927aa76c9d77ee7dd3db30d3c5f8ec9b916fca62de407dcfe8a0308f4",
+      "source_count": 1,
+      "part_count": 2,
+      "part_minus_source_area_mm2": 3.4811328077921644e-06,
+      "faces": {
+        "SOURCE": [
+          {
+            "object": "UNRELEASED_PARTIAL_SPAN_HOLLOW_WING_R",
+            "face": 24,
+            "area_mm2": 603.0244829408929
+          }
+        ],
+        "PARTS": [
+          {
+            "object": "BLOCKED_PART_0",
+            "face": 25,
+            "area_mm2": 375.024913907552
+          },
+          {
+            "object": "BLOCKED_PART_1",
+            "face": 25,
+            "area_mm2": 227.9995725144737
+          }
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Raw degrees/knots/multiplicities/weights/poles matching only; trim domains may change",
+    "Native area integration numerical; area residual is not volume error bound or exact geometry defect",
+    "No geometry modification, tolerance relaxation or release"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

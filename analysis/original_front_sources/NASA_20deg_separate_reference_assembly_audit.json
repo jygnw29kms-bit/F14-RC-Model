@@ -1,0 +1,38 @@
+{
+  "status": "TWO_SEPARATE_SOURCE_SOLIDS_SAVED_REOPENED",
+  "input_sha256": {
+    "NASA_20DEG_INBOARD_ROOT_BREAK_REFERENCE_ONLY.FCStd": "a19d126cb4365b17d8d70e626933cddee25e9f12922523baf2277571896fe6a9",
+    "NASA_20DEG_EIGHT_SECTION_OUTBOARD_R2_REFERENCE_ONLY.FCStd": "ffabfe8205b62ca548c3981a6285cacdd9ad0f2aa3129cbec06ed0f7a6ca1702"
+  },
+  "output_sha256": "b52da6a5c1035306b6486f0827e8a723347fbeee7c54ee721a450e3f9f72137c",
+  "master_sha256_unchanged": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "rows": [
+    {
+      "name": "INBOARD_COMPUTATIONAL",
+      "volume_display_units_cubed": 419876.4898858761,
+      "y_range_raw": [
+        0.0,
+        127.22
+      ]
+    },
+    {
+      "name": "OUTBOARD_COMPUTATIONAL_R2",
+      "volume_display_units_cubed": 131578.40994559697,
+      "y_range_raw": [
+        127.24,
+        384.69995
+      ]
+    }
+  ],
+  "separating_y_slab_width_raw": 0.01999999999999602,
+  "positive_volume_overlap_impossible_by_disjoint_y_bounds": true,
+  "union_or_bridge_created": false,
+  "limits": [
+    "Shared conditional source frame only, not aircraft/model registration",
+    "Slab width is not minimum Euclidean surface clearance",
+    "Inboard centerline continuation not necessarily exposed skin",
+    "Different contours across break remain unconnected",
+    "No factory OML structural print or flight acceptance"
+  ],
+  "production_release": false
+}

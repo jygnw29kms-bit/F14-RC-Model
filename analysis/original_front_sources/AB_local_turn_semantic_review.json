@@ -1,0 +1,44 @@
+{
+  "status": "VIER_AB_RICHTUNGSWECHSEL_VISUELL_SEMANTISCH_GEPRUEFT",
+  "input_sha256": "7a22dabb2ff55b1e71ca5643368e27e67e168a07c74e817b0dca3917788fe80e",
+  "examples": [
+    {
+      "section": "A",
+      "point": [
+        1929,
+        252
+      ],
+      "finding": "Schraffuranschluss am gekruemmten Rand sichtbar; Kandidat kann Strichvereinigung enthalten."
+    },
+    {
+      "section": "A",
+      "point": [
+        1944.5,
+        320
+      ],
+      "finding": "Tatsaechliche lokale Einbuchtung und Schraffuranschluss liegen eng zusammen; keine automatische Glaettung erlaubt."
+    },
+    {
+      "section": "B",
+      "point": [
+        1864,
+        532
+      ],
+      "finding": "Hals-/Schulteruebergang nahe Schraffuranschluss; Richtungswechsel nicht allein als Artefakt klassifizierbar."
+    },
+    {
+      "section": "B",
+      "point": [
+        1953.5,
+        565
+      ],
+      "finding": "Schraffuranschluss an schraegem Aussenrand sichtbar."
+    }
+  ],
+  "conclusion": "Differenzscreening vermischt echte Formdetails, Rastertreppen und Schraffurvereinigung. Keine pauschale Punktloeschung oder Glaettung ableitbar.",
+  "limits": [
+    "Nur4ausgewaehlteStellen beiSchwelle128; keine vollstaendige Konturklassifikation.",
+    "Keine Originalhaut-, Metrik- oder Produktionsfreigabe."
+  ],
+  "production_release": false
+}

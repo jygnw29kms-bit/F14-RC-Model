@@ -1,0 +1,17 @@
+{
+  "status": "OFFSET_TRIAL_FAILED_NO_SHELL_RELEASE",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "object": "WING_R",
+  "trial_offset_mm": -0.4,
+  "production_release": false,
+  "flight_release": false,
+  "source_valid": true,
+  "error": "BRepOffsetAPI_MakeOffsetShape not done",
+  "elapsed_seconds": 0.1230006217956543,
+  "limits": [
+    "Numerical feasibility trial only; no chosen structural wall thickness.",
+    "No spar, rib, joint, root load path, opening or print segmentation added.",
+    "No normal-thickness field, mesh, slicer or physical test verified.",
+    "Current reference OML registration remains unverified; master not modified."
+  ]
+}

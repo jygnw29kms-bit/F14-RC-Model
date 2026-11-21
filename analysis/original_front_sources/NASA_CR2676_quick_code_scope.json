@@ -1,0 +1,18 @@
+{
+  "status": "QUICK_CODEBESCHREIBUNG_PRIMAER_GEFUNDEN",
+  "source_url": "https://ntrs.nasa.gov/api/citations/19760017064/downloads/19760017064.pdf",
+  "source_sha256": "ff134abc4cead592a99aa8a03487d0727dec801d8f7fe73f9ecc663558f7e3be",
+  "title": "NASA-CR-2676 VolumeII Code Description",
+  "pages": 155,
+  "findings": [
+    "GrummanQUICK-Modellvariablen beschreiben getrennt Form, Typ, Definitionsmodus und freieConstraints.",
+    "PDF16nenntELLX/ELLYalsFormindex3/4; PDF17nenntIFREEinBezugaufEndkoordinatenundTangenten.",
+    "CR3243RoutineindexPDF141/142nenntBLMDEF(Inputdefinition),BLMSET(Auswertung),CURVES(Funktionswerte/Ableitungen),ELLCAL(Ellipsensetup)."
+  ],
+  "limits": [
+    "GemeinsameQUICKBegriffe belegen nochkeineidentischenVersionsdefaults fuerF14Datei.",
+    "KeinQuellcode/Evaluator ausgefuehrt, Parameterreihenfolge/Zweigwahl nochzupruefen.",
+    "KeineF14Haut-oderProduktionsfreigabe."
+  ],
+  "production_release": false
+}

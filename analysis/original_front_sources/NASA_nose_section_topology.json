@@ -1,0 +1,51 @@
+{
+  "status": "NASA_NASENQUERSCHNITT_TOPOLOGIE_VISUELL_TRANSKRIBIERT",
+  "source": "NASA-CR172559 Table1 Sheet5 PDF24/gedr14",
+  "model": {
+    "index": 1,
+    "name": "NOSE",
+    "arcs": [
+      {
+        "name": "BLO",
+        "shape": "ELLI",
+        "start": "BCL",
+        "end": "MHB",
+        "slope_control": "SCPLO"
+      },
+      {
+        "name": "BUP",
+        "shape": "ELLI",
+        "start": "MHB",
+        "end": "TCL",
+        "slope_control": "SCPUP"
+      }
+    ]
+  },
+  "application_source_x_interval": [
+    93,
+    205
+  ],
+  "next_model": {
+    "index": 2,
+    "name": "NOSE_WITH_CANOPY",
+    "application_source_x_interval": [
+      205,
+      352
+    ],
+    "arc_count": 4
+  },
+  "binding_required": [
+    "BCL:YBCL/ZBCL",
+    "MHB:YMHB/ZMHB",
+    "TCL:YTCL/ZTCL",
+    "SCPLO:YSCPLO/ZSCPLO",
+    "SCPUP:YSCPUP/ZSCPUP"
+  ],
+  "limits": [
+    "Namen undDomaenen ausOriginal; BindungaufBodylineWertevollstaendigvisuellzupruefen.",
+    "ELLIBogen nichtmitELLX/ELLYBodylineverwechseln.",
+    "FuerVollquerschnittSymmetrieannahmeundAchsenlage explizitmachen, keineverdeckteSpiegelung.",
+    "Einheiten/UPCRegistrierung/Originalhautgenauigkeitbleibenungeprueft; keine3DProduktionsfreigabe."
+  ],
+  "production_release": false
+}

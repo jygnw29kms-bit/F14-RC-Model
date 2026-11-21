@@ -1,0 +1,30 @@
+{
+  "status": "CAVITY_HOLLOW_AND_PARTITION_STUDIES_ONLY_METHOD_REVIEW_OPEN",
+  "active_study_cavity": "migration/freecad/WING_R_NORMALIZED_FUSED_CAVITY_STUDY_ONLY.FCStd",
+  "artifact_and_audit_sha256": {
+    "migration/freecad/WING_R_NORMALIZED_FUSED_CAVITY_STUDY_ONLY.FCStd": "2fc071a1145662ca09d2ffaa796844720b202d6ff8974e24513da1d22810bd96",
+    "migration/freecad/WING_R_NORMALIZED_SHARED_PROFILE_SEGMENTS_STUDY_ONLY.FCStd": "a1c2269abd6febdddb98cdcbe5d9a1338e456a90b15ec5474c4470baf24aa8fd",
+    "analysis/v192_normalized_fused_cavity_verification.json": "d67cb211aa213590318f1e1fb24f827c9364bf0f04cce789f9a28750cbd745a7",
+    "migration/freecad/WING_R_NORMALIZED_CAVITY_HOLLOW_STUDY_ONLY.FCStd": "4afe31bd9d75597c2e9c5ce56594a65e7a09cc3f34d78c616caf58f77d20af4c",
+    "migration/freecad/WING_R_NORMALIZED_CAVITY_Y300_PARTITION_STUDY_ONLY.FCStd": "11975569e611c359d661f3b037f68bff92d5c4311a6c5bb765c601fb0b29775a",
+    "analysis/v192_normalized_hollow_wing_verification.json": "6a90d8b513c166342d63e2818d90ad00e2ae550e8d90502ada3b44795817bfad",
+    "analysis/v192_normalized_partition_numeric_verification.json": "338c6ae7a4fc4dbe800bf051532a9a13d8c81cfc61dbea193d2dbd6e1a0f1143"
+  },
+  "span_mm": [
+    180,
+    440
+  ],
+  "source_profile_offset_mm": -0.43,
+  "master_changed": false,
+  "open_gates": [
+    "Default/adaptive volume integration discrepancy and method review",
+    "Complementary partition Boolean checks and whole geometry deviation",
+    "Updated seam, structure and assembly checks for new candidate hashes",
+    "Original aircraft OML, datum and total RC/FDM design",
+    "Material, print, simulation and physical tests"
+  ],
+  "print_release": false,
+  "flight_release": false,
+  "hollow_wing_study": "migration/freecad/WING_R_NORMALIZED_CAVITY_HOLLOW_STUDY_ONLY.FCStd",
+  "partition_study": "migration/freecad/WING_R_NORMALIZED_CAVITY_Y300_PARTITION_STUDY_ONLY.FCStd"
+}

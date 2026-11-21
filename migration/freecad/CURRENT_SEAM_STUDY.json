@@ -1,0 +1,30 @@
+{
+  "status": "GEOMETRY_STUDY_ONLY_NOT_PRINTABLE_ASSEMBLY",
+  "active_artifact": "migration/freecad/Y300_SKIN_BOND_VERTICAL_RECESS_STUDY_ONLY.FCStd",
+  "artifact_and_audit_sha256": {
+    "migration/freecad/Y300_SKIN_BOND_VERTICAL_RECESS_STUDY_ONLY.FCStd": "c17070fe921b9657a996ee26dfeaedbbf5c959d795fe0f717981309c1f799f43",
+    "analysis/v192_y300_skin_bond_recess_study.json": "09481f3827cabd3f94fbd5956ef7dee50382a678a800b87e3a57997fb98b34dd",
+    "analysis/v192_y300_skin_bond_contact_reaudit.json": "b27b1bc860e5bf02f854be20eb17977d5c11c0222512cdca151c8f51643e43cb",
+    "analysis/v192_y300_seven_object_containment_audit.json": "f68e56edb28db7051188e7d04848477fa061eddaac488c4635bde45e342fa9d1",
+    "analysis/v192_y300_recessed_sleeve_bond_contacts.json": "5f11e4fa1c633221a86116f657e774f68025156561fd16ac4c7c63fda1386bd4"
+  },
+  "object_count": 7,
+  "solid_count": 9,
+  "verified_scope": [
+    "Saved/reopened native validity",
+    "Current cavity containment and35 spar overlap checks",
+    "Geometric skin and sleeve bond contact areas",
+    "Measured carrier skin minimum separation, not uniform normal thickness"
+  ],
+  "open_gates": [
+    "Source wing partition volume balance",
+    "Material and adhesive selection/cure/tolerances",
+    "Seam load transfer, peel, fatigue and local skin reinforcement",
+    "Actual assembly sequence and pin/support retention",
+    "Continuous sleeve bonded to both sides implies permanent bridge; detachable-joint behavior not established",
+    "Full aircraft OML, registration, structure and print/flight verification"
+  ],
+  "master_changed": false,
+  "print_release": false,
+  "flight_release": false
+}

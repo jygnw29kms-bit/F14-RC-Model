@@ -1,0 +1,15 @@
+{
+  "status": "LAST_DIFFERENCE_IS_OLD_CR3992_TRANSCRIPTION_ERROR",
+  "CR3992_original_pdf_page": 146,
+  "span": 200.79919,
+  "xc": 0.94,
+  "side": "lower",
+  "original_CR3992": -0.01102,
+  "original_CR172559": -0.01102,
+  "old_CR3992_dataset": -0.011,
+  "old_dataset_sha256": "177867ced9b6f2e075916d048cbf81997918e239ac8f4986a45461d6ecc80342",
+  "R2_combined_sha256": "db75fd1339004864983b1f1ff0d3193bca9d6507e35873614e7dbf621cc5cdc0",
+  "result": "All800 ordinates agree after original-verified repairs; grid and header differences remain",
+  "legacy_dataset_modified": false,
+  "production_release": false
+}

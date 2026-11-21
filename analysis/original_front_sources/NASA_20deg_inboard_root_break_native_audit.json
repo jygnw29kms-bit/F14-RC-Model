@@ -1,0 +1,27 @@
+{
+  "status": "SAVED_REOPENED_CONDITIONAL_REFERENCE",
+  "input_sha256": {
+    "NASA_CR172559_inboard_first_three_profiles.json": "406f858e034d902bfc28f2236b497bf5b1110a8dba756fa67f53da24e251f6bd",
+    "NASA_CR172559_20deg_root_break_profiles.json": "bde70e26a12fa71a4969846dfe1455baf66f7226beeec211e5384ba0518b939f"
+  },
+  "output_sha256": "a19d126cb4365b17d8d70e626933cddee25e9f12922523baf2277571896fe6a9",
+  "master_sha256_unchanged": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "inboard_span_raw": [
+    0,
+    127.22
+  ],
+  "separate_wire_span_raw": 127.24,
+  "bridge_across_break": false,
+  "native_volume_display_units_cubed": 419876.4898858761,
+  "independent_prismoidal_volume": 419876.48988587386,
+  "absolute_volume_difference": 2.2118911147117615e-09,
+  "limits": [
+    "Ruled interpolation is a reconstruction assumption",
+    "Source unit equals display mm only, not physical model scale",
+    "Conditional Z=field6+ordinate*chord; exact reader not verified",
+    "No factory skin, body or pivot WL registration",
+    "Separate 127.24 wire is not a solid outboard wing"
+  ],
+  "print_release": false,
+  "flight_release": false
+}

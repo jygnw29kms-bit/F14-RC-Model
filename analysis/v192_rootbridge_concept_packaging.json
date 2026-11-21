@@ -1,0 +1,43 @@
+{
+  "status": "UNFROZEN_ROOTBRIDGE_PACKAGING_CONCEPT_ONLY",
+  "source_sha256": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+  "assumptions": {
+    "chord_mm": 40,
+    "height_mm": 16,
+    "boss_od_mm": 24,
+    "nominal_pin_bore_mm": 6,
+    "root_overlap_mm": 10,
+    "hardware_selected": false,
+    "pivot_z_frozen": false
+  },
+  "print_release": false,
+  "flight_release": false,
+  "valid": true,
+  "solids": 1,
+  "volume_mm3": 24681.674071053065,
+  "root_y_mm": 148.8263775443693,
+  "reference_wing_overlap_volume_mm3": 4550.016936308722,
+  "packaging_samples": [
+    {
+      "sweep_deg": 20,
+      "outside_current_body_or_moving_wing_volume_mm3": 18967.98067322959
+    },
+    {
+      "sweep_deg": 44,
+      "outside_current_body_or_moving_wing_volume_mm3": 18997.869774011266
+    },
+    {
+      "sweep_deg": 68,
+      "outside_current_body_or_moving_wing_volume_mm3": 18951.16197923457
+    }
+  ],
+  "concept_sha256": "dc8945e94dc577c288d1fa215074f71005a15c5d792770e138eff9063cfa7341",
+  "elapsed_seconds": 3.8449997901916504,
+  "limits": [
+    "Generic historical dimensions only; no actual pin/bearing/thrust-stack or material selected.",
+    "Overlap is geometric only, not a verified bond, hard contact or load-transfer design.",
+    "Three sweep samples against provisional current body/wing only; missing glove and original OML registration remain open.",
+    "No continuous sweep, stress, fatigue, print tolerance, physical proof or production integration."
+  ],
+  "packaging_accepted_against_current_reference": false
+}

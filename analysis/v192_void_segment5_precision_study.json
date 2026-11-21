@@ -1,0 +1,65 @@
+{
+  "status": "ISOLATED_SEGMENT5_CONSTRUCTION_PRECISION_COMPARISON_SAVED_REOPENED",
+  "input_sha256_unchanged": {
+    "F14_CURRENT_FULL_VIEW_v192.FCStd": "204472681ae0a7568e95ea6cfc59df13521e956dfdb1518ce1330f203add9a2a",
+    "WING_R_ADAPTIVE_VOID_SEGMENTS_ONLY.FCStd": "af8466d5fe97c885f0554e21c37d69317b9637356dd3417a5f5d9eae9dd43af4"
+  },
+  "output_sha256": "4ecec714fc8068a18f74961f6f36661837bdf1ad22c5600e65f32c48ee47ebd4",
+  "span_mm": [
+    230.0,
+    240.0
+  ],
+  "source_offset_mm": -0.43,
+  "rows": [
+    {
+      "object": "ORIGINAL_SAVED_SEG5",
+      "construction_pres3d_mm": null,
+      "faces": 100,
+      "valid": true,
+      "solids": 1,
+      "default_volume_mm3": 8204.253454249963,
+      "max_native_tolerance_mm": 7.96023142e-07,
+      "P280_P300_signed_flux_sums_mm3": [
+        8204.255444914554,
+        8204.256372206575
+      ],
+      "reference_change_mm3": 0.0009272920215153135
+    },
+    {
+      "object": "REBUILT_PRES_1em06",
+      "construction_pres3d_mm": 1e-06,
+      "faces": 100,
+      "valid": true,
+      "solids": 1,
+      "default_volume_mm3": 8204.253454249812,
+      "max_native_tolerance_mm": 7.960231421040192e-07,
+      "P280_P300_signed_flux_sums_mm3": [
+        8204.25544491249,
+        8204.256372203654
+      ],
+      "reference_change_mm3": 0.0009272911647713045
+    },
+    {
+      "object": "REBUILT_PRES_1em09",
+      "construction_pres3d_mm": 1e-09,
+      "faces": 100,
+      "valid": true,
+      "solids": 1,
+      "default_volume_mm3": 8204.253454249812,
+      "max_native_tolerance_mm": 7.960231421040192e-07,
+      "P280_P300_signed_flux_sums_mm3": [
+        8204.25544491249,
+        8204.256372203654
+      ],
+      "reference_change_mm3": 0.0009272911647713045
+    }
+  ],
+  "limits": [
+    "New separate study only; existing master and cavity unchanged",
+    "pres3d is a construction criterion, not proven achieved accuracy or automatic tolerance override",
+    "Recreated offset sections and native builder may differ from original FreeCAD builder",
+    "No assembly, strength, global volume, print or flight acceptance"
+  ],
+  "print_release": false,
+  "flight_release": false
+}
