@@ -1,0 +1,402 @@
+{
+  "status": "ORIGINAL_PLAN_PIXEL_SAMPLE_MAPPING_ONLY",
+  "mapping_input_sha256": "eae04bbe67b3fa418dc6cee214b4142744e197f1496c6559868078e38e94afd2",
+  "method": "Original linspace fractions and rounded sample columns; inverse preliminary canopy image mapping",
+  "records": [
+    {
+      "index": 1,
+      "guide_center_column_px": 171,
+      "guide_window_columns_px": [
+        169,
+        173
+      ],
+      "candidate_original_plan_center_x_px": 459.32038834951453,
+      "candidate_original_plan_window_x_px": [
+        452.33009708737865,
+        466.31067961165047
+      ]
+    },
+    {
+      "index": 2,
+      "guide_center_column_px": 187,
+      "guide_window_columns_px": [
+        185,
+        189
+      ],
+      "candidate_original_plan_center_x_px": 515.2427184466019,
+      "candidate_original_plan_window_x_px": [
+        508.252427184466,
+        522.2330097087379
+      ]
+    },
+    {
+      "index": 3,
+      "guide_center_column_px": 203,
+      "guide_window_columns_px": [
+        201,
+        205
+      ],
+      "candidate_original_plan_center_x_px": 571.1650485436893,
+      "candidate_original_plan_window_x_px": [
+        564.1747572815534,
+        578.1553398058253
+      ]
+    },
+    {
+      "index": 4,
+      "guide_center_column_px": 218,
+      "guide_window_columns_px": [
+        216,
+        220
+      ],
+      "candidate_original_plan_center_x_px": 623.5922330097087,
+      "candidate_original_plan_window_x_px": [
+        616.6019417475728,
+        630.5825242718447
+      ]
+    },
+    {
+      "index": 5,
+      "guide_center_column_px": 234,
+      "guide_window_columns_px": [
+        232,
+        236
+      ],
+      "candidate_original_plan_center_x_px": 679.5145631067961,
+      "candidate_original_plan_window_x_px": [
+        672.5242718446602,
+        686.504854368932
+      ]
+    },
+    {
+      "index": 6,
+      "guide_center_column_px": 250,
+      "guide_window_columns_px": [
+        248,
+        252
+      ],
+      "candidate_original_plan_center_x_px": 735.4368932038835,
+      "candidate_original_plan_window_x_px": [
+        728.4466019417475,
+        742.4271844660194
+      ]
+    },
+    {
+      "index": 7,
+      "guide_center_column_px": 266,
+      "guide_window_columns_px": [
+        264,
+        268
+      ],
+      "candidate_original_plan_center_x_px": 791.3592233009709,
+      "candidate_original_plan_window_x_px": [
+        784.3689320388349,
+        798.3495145631068
+      ]
+    },
+    {
+      "index": 8,
+      "guide_center_column_px": 282,
+      "guide_window_columns_px": [
+        280,
+        284
+      ],
+      "candidate_original_plan_center_x_px": 847.2815533980582,
+      "candidate_original_plan_window_x_px": [
+        840.2912621359224,
+        854.2718446601942
+      ]
+    },
+    {
+      "index": 9,
+      "guide_center_column_px": 298,
+      "guide_window_columns_px": [
+        296,
+        300
+      ],
+      "candidate_original_plan_center_x_px": 903.2038834951455,
+      "candidate_original_plan_window_x_px": [
+        896.2135922330096,
+        910.1941747572815
+      ]
+    },
+    {
+      "index": 10,
+      "guide_center_column_px": 314,
+      "guide_window_columns_px": [
+        312,
+        316
+      ],
+      "candidate_original_plan_center_x_px": 959.126213592233,
+      "candidate_original_plan_window_x_px": [
+        952.1359223300971,
+        966.1165048543688
+      ]
+    },
+    {
+      "index": 11,
+      "guide_center_column_px": 330,
+      "guide_window_columns_px": [
+        328,
+        332
+      ],
+      "candidate_original_plan_center_x_px": 1015.0485436893204,
+      "candidate_original_plan_window_x_px": [
+        1008.0582524271844,
+        1022.0388349514562
+      ]
+    },
+    {
+      "index": 12,
+      "guide_center_column_px": 346,
+      "guide_window_columns_px": [
+        344,
+        348
+      ],
+      "candidate_original_plan_center_x_px": 1070.9708737864078,
+      "candidate_original_plan_window_x_px": [
+        1063.9805825242718,
+        1077.9611650485435
+      ]
+    },
+    {
+      "index": 13,
+      "guide_center_column_px": 362,
+      "guide_window_columns_px": [
+        360,
+        364
+      ],
+      "candidate_original_plan_center_x_px": 1126.893203883495,
+      "candidate_original_plan_window_x_px": [
+        1119.902912621359,
+        1133.883495145631
+      ]
+    },
+    {
+      "index": 14,
+      "guide_center_column_px": 378,
+      "guide_window_columns_px": [
+        376,
+        380
+      ],
+      "candidate_original_plan_center_x_px": 1182.8155339805824,
+      "candidate_original_plan_window_x_px": [
+        1175.8252427184466,
+        1189.8058252427184
+      ]
+    },
+    {
+      "index": 15,
+      "guide_center_column_px": 394,
+      "guide_window_columns_px": [
+        392,
+        396
+      ],
+      "candidate_original_plan_center_x_px": 1238.7378640776699,
+      "candidate_original_plan_window_x_px": [
+        1231.7475728155339,
+        1245.7281553398059
+      ]
+    },
+    {
+      "index": 16,
+      "guide_center_column_px": 409,
+      "guide_window_columns_px": [
+        407,
+        411
+      ],
+      "candidate_original_plan_center_x_px": 1291.1650485436892,
+      "candidate_original_plan_window_x_px": [
+        1284.1747572815534,
+        1298.1553398058252
+      ]
+    },
+    {
+      "index": 17,
+      "guide_center_column_px": 425,
+      "guide_window_columns_px": [
+        423,
+        427
+      ],
+      "candidate_original_plan_center_x_px": 1347.0873786407767,
+      "candidate_original_plan_window_x_px": [
+        1340.0970873786407,
+        1354.0776699029125
+      ]
+    },
+    {
+      "index": 18,
+      "guide_center_column_px": 441,
+      "guide_window_columns_px": [
+        439,
+        443
+      ],
+      "candidate_original_plan_center_x_px": 1403.009708737864,
+      "candidate_original_plan_window_x_px": [
+        1396.019417475728,
+        1410.0
+      ]
+    },
+    {
+      "index": 19,
+      "guide_center_column_px": 457,
+      "guide_window_columns_px": [
+        455,
+        459
+      ],
+      "candidate_original_plan_center_x_px": 1458.9320388349513,
+      "candidate_original_plan_window_x_px": [
+        1451.9417475728155,
+        1465.9223300970873
+      ]
+    },
+    {
+      "index": 20,
+      "guide_center_column_px": 473,
+      "guide_window_columns_px": [
+        471,
+        475
+      ],
+      "candidate_original_plan_center_x_px": 1514.8543689320388,
+      "candidate_original_plan_window_x_px": [
+        1507.8640776699028,
+        1521.8446601941748
+      ]
+    },
+    {
+      "index": 21,
+      "guide_center_column_px": 489,
+      "guide_window_columns_px": [
+        487,
+        491
+      ],
+      "candidate_original_plan_center_x_px": 1570.7766990291261,
+      "candidate_original_plan_window_x_px": [
+        1563.7864077669904,
+        1577.7669902912621
+      ]
+    },
+    {
+      "index": 22,
+      "guide_center_column_px": 505,
+      "guide_window_columns_px": [
+        503,
+        507
+      ],
+      "candidate_original_plan_center_x_px": 1626.6990291262136,
+      "candidate_original_plan_window_x_px": [
+        1619.7087378640776,
+        1633.6893203883494
+      ]
+    },
+    {
+      "index": 23,
+      "guide_center_column_px": 521,
+      "guide_window_columns_px": [
+        519,
+        523
+      ],
+      "candidate_original_plan_center_x_px": 1682.621359223301,
+      "candidate_original_plan_window_x_px": [
+        1675.631067961165,
+        1689.611650485437
+      ]
+    },
+    {
+      "index": 24,
+      "guide_center_column_px": 537,
+      "guide_window_columns_px": [
+        535,
+        539
+      ],
+      "candidate_original_plan_center_x_px": 1738.5436893203882,
+      "candidate_original_plan_window_x_px": [
+        1731.5533980582525,
+        1745.5339805825242
+      ]
+    },
+    {
+      "index": 25,
+      "guide_center_column_px": 553,
+      "guide_window_columns_px": [
+        551,
+        555
+      ],
+      "candidate_original_plan_center_x_px": 1794.4660194174758,
+      "candidate_original_plan_window_x_px": [
+        1787.4757281553398,
+        1801.4563106796115
+      ]
+    },
+    {
+      "index": 26,
+      "guide_center_column_px": 569,
+      "guide_window_columns_px": [
+        567,
+        571
+      ],
+      "candidate_original_plan_center_x_px": 1850.388349514563,
+      "candidate_original_plan_window_x_px": [
+        1843.398058252427,
+        1857.378640776699
+      ]
+    },
+    {
+      "index": 27,
+      "guide_center_column_px": 585,
+      "guide_window_columns_px": [
+        583,
+        587
+      ],
+      "candidate_original_plan_center_x_px": 1906.3106796116504,
+      "candidate_original_plan_window_x_px": [
+        1899.3203883495146,
+        1913.3009708737864
+      ]
+    },
+    {
+      "index": 28,
+      "guide_center_column_px": 600,
+      "guide_window_columns_px": [
+        598,
+        602
+      ],
+      "candidate_original_plan_center_x_px": 1958.7378640776699,
+      "candidate_original_plan_window_x_px": [
+        1951.7475728155339,
+        1965.7281553398059
+      ]
+    },
+    {
+      "index": 29,
+      "guide_center_column_px": 616,
+      "guide_window_columns_px": [
+        614,
+        618
+      ],
+      "candidate_original_plan_center_x_px": 2014.6601941747572,
+      "candidate_original_plan_window_x_px": [
+        2007.6699029126214,
+        2021.6504854368932
+      ]
+    },
+    {
+      "index": 30,
+      "guide_center_column_px": 632,
+      "guide_window_columns_px": [
+        630,
+        634
+      ],
+      "candidate_original_plan_center_x_px": 2070.5825242718447,
+      "candidate_original_plan_window_x_px": [
+        2063.5922330097087,
+        2077.5728155339807
+      ]
+    }
+  ],
+  "limits": [
+    "Maps top-view sample pixels only; no aircraft FS, Z or shared top/side coordinate registration inferred.",
+    "Five-column sampling window is distinct from registration uncertainty."
+  ],
+  "master_changed": false
+}
