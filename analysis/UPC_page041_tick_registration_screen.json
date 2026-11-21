@@ -1,0 +1,49 @@
+{
+  "status": "TICK_BASED_IMAGE_REGISTRATION_SCREEN_ONLY",
+  "method": "Least squares guide_x=a*original_x+b using visually selected A/C/D/E/F tick stems; B excluded due weak dark-pixel support",
+  "source_image": "references/UPC_pages/UPC_page_041.png",
+  "source_sha256": "fc2a4dc77e43c64c21df205123ad36de0323e0bbe3c3bcdb693ccd19c356d026",
+  "reference_data_sha256": "a95d671a33fe0e97c35b7ae0325f2610d9d1c46e1f6570869dc3ba9d25cdd8fc",
+  "records": [
+    {
+      "section": "A",
+      "original_tick_x_px": 642.5,
+      "guide_tick_x_px": 778,
+      "residual_guide_px": 0.046609011007831214
+    },
+    {
+      "section": "C",
+      "original_tick_x_px": 1197.5,
+      "guide_tick_x_px": 974,
+      "residual_guide_px": 0.15580416429270372
+    },
+    {
+      "section": "D",
+      "original_tick_x_px": 1561.5,
+      "guide_tick_x_px": 1102,
+      "residual_guide_px": -0.3203273027420437
+    },
+    {
+      "section": "E",
+      "original_tick_x_px": 1663.5,
+      "guide_tick_x_px": 1138,
+      "residual_guide_px": -0.3218806259219491
+    },
+    {
+      "section": "F",
+      "original_tick_x_px": 1862.5,
+      "guide_tick_x_px": 1209,
+      "residual_guide_px": 0.4397947533639126
+    }
+  ],
+  "slope": 0.3529564051292163,
+  "intercept_px": 551.1789006934707,
+  "rms_guide_px": 0.2919189890467557,
+  "predicted_FS93_guide_x_px": 706.8967405065092,
+  "selected_blue_component_xmin_px": 738,
+  "blue_xmin_minus_predicted_FS93_px": 31.103259493490782,
+  "physical_uncertainty_established": false,
+  "master_transform_authorized_by_this_screen": false,
+  "print_release": false,
+  "flight_release": false
+}
