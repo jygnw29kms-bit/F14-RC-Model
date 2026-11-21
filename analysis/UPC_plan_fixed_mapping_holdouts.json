@@ -1,0 +1,61 @@
+{
+  "status": "FIXED_CANOPY_MAPPING_HOLDOUT_DIAGNOSTIC",
+  "mapping": {
+    "x_scale": 0.2861111111111111,
+    "x_offset": 39.58333333333334,
+    "y_scale": 0.29411764705882354,
+    "y_offset": 37.882352941176464
+  },
+  "records": [
+    {
+      "feature": "aft_center_body",
+      "source_roi_px": [
+        1800,
+        1250,
+        1870,
+        1340
+      ],
+      "predicted_top_left_px": [
+        554.5833333333334,
+        405.5294117647059
+      ],
+      "best_top_left_px": [
+        556,
+        405
+      ],
+      "residual_px": [
+        1.4166666666666288,
+        -0.5294117647059124
+      ],
+      "NCC": 0.6282172965221401,
+      "best_outside_3px_radius_NCC": 0.39343423210669587,
+      "peak_on_search_boundary": false
+    },
+    {
+      "feature": "forward_radome",
+      "source_roi_px": [
+        525,
+        1260,
+        600,
+        1335
+      ],
+      "predicted_top_left_px": [
+        189.79166666666666,
+        408.47058823529414
+      ],
+      "best_top_left_px": [
+        190,
+        408
+      ],
+      "residual_px": [
+        0.2083333333333428,
+        -0.4705882352941444
+      ],
+      "NCC": 0.7584302520991162,
+      "best_outside_3px_radius_NCC": 0.40714933746906057,
+      "peak_on_search_boundary": false
+    }
+  ],
+  "physical_registration_verified": false,
+  "master_changed": false
+}
