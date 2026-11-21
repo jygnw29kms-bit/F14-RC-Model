@@ -1,0 +1,165 @@
+{
+  "status": "ROI_TRIMMING_SENSITIVITY_NOT_STATISTICAL_UNCERTAINTY",
+  "input_mapping_sha256": "5708af7ceebc5600a0292c29c769bc2531dfa1ad326b30d4e7ab05d9db53809c",
+  "records": [
+    {
+      "variant": "unchanged",
+      "guide_ROIs": [
+        [
+          237,
+          407,
+          263,
+          432
+        ],
+        [
+          340,
+          407,
+          355,
+          432
+        ]
+      ],
+      "parameters": [
+        0.2869576612822589,
+        0.2950377508132647,
+        38.70822983899964,
+        36.137547227598475
+      ],
+      "mean_fit_NCC": 0.8761184241242352,
+      "optimizer_success": true,
+      "original_plan_X_at_guide487_5_px": 1563.96510954122,
+      "holdout_NCC": [
+        0.7902572749947706,
+        0.7883034357715957
+      ]
+    },
+    {
+      "variant": "inset_left",
+      "guide_ROIs": [
+        [
+          238,
+          407,
+          263,
+          432
+        ],
+        [
+          341,
+          407,
+          355,
+          432
+        ]
+      ],
+      "parameters": [
+        0.2869531922465388,
+        0.29500728491922956,
+        38.712802026387465,
+        36.17584285630164
+      ],
+      "mean_fit_NCC": 0.8762834196554106,
+      "optimizer_success": true,
+      "original_plan_X_at_guide487_5_px": 1563.973533314215,
+      "holdout_NCC": [
+        0.788926985308812,
+        0.7887229821090604
+      ]
+    },
+    {
+      "variant": "inset_right",
+      "guide_ROIs": [
+        [
+          237,
+          407,
+          262,
+          432
+        ],
+        [
+          340,
+          407,
+          354,
+          432
+        ]
+      ],
+      "parameters": [
+        0.28695172120942464,
+        0.295015478612341,
+        38.714215209610956,
+        36.165543384158866
+      ],
+      "mean_fit_NCC": 0.8766028782207536,
+      "optimizer_success": true,
+      "original_plan_X_at_guide487_5_px": 1563.9766260989031,
+      "holdout_NCC": [
+        0.7883988448952973,
+        0.7886535712476602
+      ]
+    },
+    {
+      "variant": "inset_top",
+      "guide_ROIs": [
+        [
+          237,
+          408,
+          263,
+          432
+        ],
+        [
+          340,
+          408,
+          355,
+          432
+        ]
+      ],
+      "parameters": [
+        0.2869563994639037,
+        0.2949961651509381,
+        38.70909354707757,
+        36.19245303249903
+      ],
+      "mean_fit_NCC": 0.8723477668253999,
+      "optimizer_success": true,
+      "original_plan_X_at_guide487_5_px": 1563.968976790064,
+      "holdout_NCC": [
+        0.7898641342959662,
+        0.7884084650006223
+      ]
+    },
+    {
+      "variant": "inset_bottom",
+      "guide_ROIs": [
+        [
+          237,
+          407,
+          263,
+          431
+        ],
+        [
+          340,
+          407,
+          355,
+          431
+        ]
+      ],
+      "parameters": [
+        0.2869431948425148,
+        0.2958622947151386,
+        38.72002513687758,
+        35.0823759480823
+      ],
+      "mean_fit_NCC": 0.8721556576910977,
+      "optimizer_success": true,
+      "original_plan_X_at_guide487_5_px": 1564.0028511895177,
+      "holdout_NCC": [
+        0.7813732037037753,
+        0.7806539356546534
+      ]
+    }
+  ],
+  "original_plan_X_at_guide487_5_range_px": [
+    1563.96510954122,
+    1564.0028511895177
+  ],
+  "limits": [
+    "One-pixel inward ROI changes, same raster sources and optimizer; not independent metrology or a confidence interval.",
+    "Does not validate source contour semantics or FS/WL registration."
+  ],
+  "master_changed": false
+}
